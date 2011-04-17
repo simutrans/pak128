@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<title>Simutrans 128x128 Tileset Home</title>
+<link href="screen.css" type="text/css" rel="StyleSheet" media="screen" />
+<link href="mobile.css" type="text/css" rel="StyleSheet" media="handheld" />
+<link href="favicon.png" rel="icon" type="image/png" />
+
+<!--[if lt IE 9]>
+<script type="text/javascript">
+var a=["header","section","footer"]; for(i in a){document.createElement(a[i])}; // cure old IE problems with new elements
+</script>
+<![endif]-->
+<script type="text/javascript" src="votd.js"></script>
+</head>
+<body onload="pageLoaded();" onresize="resizeHandler();" lang="en" >
+
+<!-- logo, page name, blabbity blah and download button -->
+<header>
+<img id="biglogo" src="images/new_logo.gif" alt="" />
+<h1>Simutrans 128x128 Home</h1>
+
+<p>Welcome! This page is home to 128x128 pixel version of the wonderful Simutrans game, usually called colloquially pak128.
+<a href="http://www.simutrans.com">Simutrans</a> is a free &amp; open source
+transport economic simulation game, available for <span title="Windows, Linux &amp; BeOS on PC, OS&nbsp;X on Intel Mac, AmigaOS&nbsp;4 on PowerPC, iPhone &amp; iPad...">a multitude of operating systems and computer types.</span></p>
+
+<p>Latest pak128 version is <strong>1.4.6</strong>, compatible with Simutrans
+<strong>102.2</strong> and later versions.
+<a href="http://forum.simutrans.com/index.php?topic=4652.0">Announcement</a> on
+forum includes changelog and some more comments.
+</p>
+</header>
+
+<p id="download"><a href="https://sourceforge.net/projects/simutrans/files/pak128/pak128%20for%20102-2-2/pak128-1.4.6--102.2.zip/download"><img src="images/dlbtn.png" alt="Download" /></a><br>(sourceforge)</p>
+
+<div id="content">
+
+<!-- other stuff -->
+<section id="info">
+<h2>Further information</h2>
+
+<p>Please remember: if you want to install the game, you will need 128x128 base
+package + Simutrans executable for your operating system. Don't forget to
+<a href="https://sourceforge.net/projects/simutrans/files/simutrans/">download that</a>,
+too!</p>
+
+<p>Currently there exist also other image sets for Simutrans, bringing really
+large variety to the game. You can learn more about them on page
+<a href="http://www.simutrans.com/paksets.htm">about paksets</a>.</p>
+
+<p>Are you <em>missing an object</em> that was in old versions, but has been removed,
+such as a factory? Can't load old savegame? Try the
+<a href="download/pak128-compatibility-1.4.4.zip">compatibility pack</a>
+which includes backup of these objects. Older releases are available
+<a href="https://sourceforge.net/projects/simutrans/files/pak128/">on sourceforge</a>,
+too.</p>
+
+<p>Nightly builds of pak128 are available at
+<a href="http://nightly.simutrans-germany.com/">nightly page</a>.
+These are snapshots of development in between versioned releases, and may be
+broken or incompatible - on the other hand, they might include new features as
+well. Remember that for nightly pak you need nightly of the program, too. They
+are available on the same page. For information about recent improvements, try
+the web archive of <a href="http://svnlogs.simutrans.com">development logs</a>.</p>
+
+<p>Want to paint some addons for this pakset?
+<a href="http://graphics.simutrans.com/thumbnails.php?album=9">Graphic archive</a>
+has lots of templates and helpful parts, and on 
+<a href="http://www.simutrans-germany.com/wiki/wiki/tiki-index.php">Simutrans wiki</a>
+should be enough to get you started.</p>
+
+<p>Last source export was at <span title="Subversion">revision 1111</span>, available as a
+<a href="http://128.simutrans.com/download/128svn-export@1111.7z">zip file</a>
+(60&nbsp;MB) and
+<a href="https://github.com/sdog/simutrans-pak128">on GitHub</a>.
+These materials are redacted because there are parts that authors wished to remain
+private. We are working to replace these parts and achieve
+<span title="Artistic license v2">open source status</span>.
+For now, the exports include all important material that an author could
+need as a reference, even after redaction.</p>
+</section>
+
+
+<!-- newsbox -->
+<section id="news" class="hslice">
+<h2 class="entry-title">News</h2>
+
+<dl class="entry-content">
+
+<dt>2011-03-26</dt>
+<dd>The lengthy transition to open source is
+<a href="http://forum.simutrans.com/index.php?topic=1442.msg68512#msg68512">nearly finished</a>.
+</dd>
+
+<dt>2010-03-08</dt>
+<dd>Released pak128 version 1.4.6</dd>
+
+<dt>2009-11-05</dt>
+<dd>Added link to development logs</dd>
+
+<dt>2009-05-15</dt>
+<dd>Released pak128 version 1.4.5</dd>
+
+<dt>2009-03-01</dt>
+<dd>Pages started anew</dd>
+
+<dt>2009-01-28</dt>
+<dd>Released pak128 version 1.4.4</dd>
+
+</dl>
+</section>
+
+
+<!-- vehicle of the day -->
+<section id="votd" class="screenonly">
+<h2>Vehicle of the day</h2>
+<img id="reloader" src="images/reload16.png" alt="Reload another" title="Reload another" onclick="nextClick();" />
+<div id="votd-content">
+<!-- here is the content inserted dynamically -->
+</div>
+</section>
+
+
+</div>
+
+<!-- footer -->
+<footer>
+<p>Created by <a href="http://vs.simutrans.com">Vladimír Slávik</a>, 2009-2011. Based
+on previous design by <a href="http://www.tomaskubes.net">Tomáš Kubeš</a>. Feel
+free to reuse code &amp; styles.
+<span class="screenonly">Preferably browse on displays wider than 620&nbsp;px.</span></p>
+<p id="votd_disabled">Some features are disabled because your browser does not support them.</p>
+<script>
+if (votd_enabled) {
+  document.getElementById("votd_disabled").style.display = "none";
+}
+</script>
+</footer>
+
+<!-- THE END -->
+</body>
+</html>

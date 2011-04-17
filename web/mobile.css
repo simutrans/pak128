@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+* { /* reset all */
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-width: 0;
+  color: black;
+}
+
+html {
+  background-color: #E9E9E9;
+  background-image: url('images/bckg.jpg'); /* iso-grid */
+}
+
+body {
+  font-family: Verdana, Tahoma, Arial;
+  font-size: 90%;
+  text-align: left;
+  color: black;
+}
+
+h1 {
+  font-size: 200%;
+  margin: 1em 5%;
+}
+
+h2 {
+  font-size: 120%;
+  margin: 0.7em 5%;
+}
+
+p {
+  margin: 1em 5% 1em 8%;
+  text-align: justify;
+}
+
+strong {
+  font-size: 125%;
+}
+
+dl {
+  margin: 0 5% 0 8%;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 1.5em;
+}
+
+dd {
+  padding-left: 1em;
+}
+
+a {
+  font-weight: bold;
+  color: #50608E;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+  color: #152560;
+  text-decoration: underline;
+}
+
+img#biglogo {
+  display: none;
+}
+
+p#download {
+  text-align: center;
+  margin-top: 3em;
+}
+
+p#download img {
+  width: 17em; /* no sense trying to make it smaller by linking another image */
+}
+
+header {
+  margin-bottom: 3em;
+  display: block;
+}
+
+section {
+  display: block;
+}
+
+footer {
+  background: #CCCCCC;
+  margin-top: 1em;
+  display: block;
+}
+
+footer p {
+  text-align: center;
+  font-size: 75%;
+  padding: 1em; /* nothing at the top - done by parent */
+  margin-bottom: 0; /* don't push empty space below */
+  color: #808080;
+}
+
+footer a {
+  color: #7586B7;
+}
+
+.screenonly {
+  display: none;
+}
+
+footer p#votd_disabled {
+  display: none;
+}
+
+/* EOF */
