@@ -1,0 +1,17 @@
+Obj=citycar
+name=Horse_Carriage_For_2_public
+copyright=Zeno
+speed=15
+DistributionWeight=5
+intro_year=1750
+intro_month=1
+retire_year=1928
+retire_month=1
+Image[w]=horse_carriage_for_2_public.1.0
+Image[nw]=horse_carriage_for_2_public.1.1
+Image[n]=horse_carriage_for_2_public.1.2
+Image[ne]=horse_carriage_for_2_public.1.3
+Image[e]=horse_carriage_for_2_public.1.4
+Image[se]=horse_carriage_for_2_public.1.5
+Image[s]=horse_carriage_for_2_public.1.6
+Image[sw]=horse_carriage_for_2_public.1.7

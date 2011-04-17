@@ -1,0 +1,17 @@
+Obj=citycar
+Name=ms_rx8_yellow
+copyright=Propermike
+DistributionWeight=3
+intro_year=2001
+intro_month=1
+retire_year=2010
+retire_month=1
+speed=100
+Image[S]=ms_rx8_yellow.1.6
+Image[N]=ms_rx8_yellow.1.2
+Image[E]=ms_rx8_yellow.1.4
+Image[W]=ms_rx8_yellow.1.0
+Image[SE]=ms_rx8_yellow.1.5
+Image[NW]=ms_rx8_yellow.1.1
+Image[NE]=ms_rx8_yellow.1.3
+Image[SW]=ms_rx8_yellow.1.7
