@@ -1,0 +1,2476 @@
+################################################################################
+#                                                                              #
+#                Simutrans Scenario Specific Translation File                  #
+#                               Scenario: pak128                               #
+#                             Language: it Italiano                            #
+#                             Encoding: ISO-8859-1                             #
+#                            Font : Prop-Latin1.bdf                            #
+#                            Date Created: 9.03 2011                           #
+#                                                                              #
+#                                   authors:                                   #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
+#                                   - Fabio85                                  #
+#                                    note:                                     #
+#                              Frank Penz - FrankP                             #
+#                                    note:                                     #
+#                                   - davemds                                  #
+#                                    note:                                     #
+#                                    - milko                                   #
+#                                    note:                                     #
+#                                   - notorius                                 #
+#                                    note:                                     #
+#                          Markus Pristovsek - prissi                          #
+#                                    note:                                     #
+#                                Marco - rabanne                               #
+#                                    note:                                     #
+#                                                                              #
+################################################################################
+#____________________________________bridge_____________________________________
+#____________________________________bridge_____________________________________
+ClassicRail
+Ponte in cemento
+ClassicRoad
+Ponte stradale in cemento
+Concrete_Road_Bridge
+Ponte autostradale
+Plate_Girder_Bridge
+Ponte in acciaio
+PowerBridge
+Ponte linea alta tensione
+RVg_Concrete_Rail_Bridge
+Ponte a sospensione in acciaio (RVg)
+Schwebebahn_p_bridge
+Monorotaia sospesa (ponte)
+SteelRail
+Rotaia su ponte di acciaio
+SteelRail2
+Robusto ponte di acciaio
+SteelRoad1
+Ponte stradale di acciaio
+SteelRoad2
+Ponte stradale tubolare
+u_truss_bridge
+Ponte con travatura
+water_bridge
+Ponte sul canale
+Wooden_Rail
+Rotaia su ponte di legno
+#___________________________________building____________________________________
+#___________________________________building____________________________________
+01_CITY
+Municipio
+01_CITY_1
+Municipio
+02_CITY
+Municipio
+02_CITY_1
+Municipio
+03_CITY
+Municipio
+03_CITY_1
+Municipio
+04_CITY
+Municipio
+04_CITY_1
+Municipio
+05_CITY
+Municipio
+05_CITY_1
+Municipio
+1920_AirDepot
+Hangar semplice
+1930AirDepot
+Hangar in legno
+1940AirDepot
+Hangar in lamiera
+1950AirDepot
+Hangar in cemento
+1990AirDepot
+Hangar moderno
+ABBYS_0
+Abbazia\n\nQuest'abbazia è famosa per le\nsue scale in entrambe le torri.\nSecondo la leggenda\nqueste scale sarebbero senza\nfondo.\nÈ incredibile quanta\ngente vuole venire qui\ne vedere le scale magiche\nLe monete, cadendo silenziosamente \nnell'acqua 50 metri sotto,\naumentò le entrate\ndell'abbazia tanto che i\nmonaci poterono restaurare\nle rovine al suo stato\npresente.\n
+Airport1920_AirportBlg
+Terminal passeggeri
+Airport1930PostOffice
+Ufficio postale aeroportuale
+Airport1990_Big_AirportBlg
+Capiente terminal passeggeri moderno
+Airport1990_Entrance_AirportBlg
+Entrata moderna dell'aereoporto
+Airport1990_Gates_AirportBlg
+Gate moderno
+Airport1990_PostOffice
+Moderno ufficio postale aeroportuale
+Airport1990_Small_AirportBlg
+Piccolo terminal passeggeri moderno
+Airport1990_Warehouse
+Moderno terminal merci
+AirStop_AirportBlg
+Area parcheggio aeromobili
+Almuthof_StationBlg
+Stazione di campagna
+Avila_Big_StationBlg
+Grande edificio passeggeri
+Avila_Small_StationBlg
+Piccolo edificio passeggeri
+Avila_Warehouse_StationBlg
+Deposito merci
+big_classic_bus_stop
+Fermata bus grande
+big_modern_bus_stop
+Grande fermata del bus moderna
+BigTerminal1930_AirportBlg_S
+Grande terminal passeggeri
+BigTerminal1950_AirportBlg_S
+Grande terminal passeggeri (1950)
+Bulk_Dock
+Porto carico merci 
+Bulk_StationBlg
+Stazione merci sfuse
+bus_terminus
+Bus terminal moderno
+canal_ChannelStop
+Banchina per canali
+canal_ware_stop
+Banchina per canale (merci)
+Car_StationBlg
+Parcheggio stazione
+CarDepot
+Deposito veicoli
+CarStop
+Zona di carico
+CASTLE_0
+Vecchio castello\n\nQuesto castello fu di\nre Napik. La maggior parte\nfu distrutta durante\nuna grande guerra, ma\nfu ricostruito nel XIX secolo,\ne ora le sue case sono\nuna collezione molto famosa\ndiarmature e spade.\n
+CHURCH_00
+Cattedrale gotica\n\nQuest'antica cattedrale gotica\nè più un'attrazione turistica\nper il suo museo di arte sacra\nche un luogo di culto.\nComunque, alle autorità della\nchiesa sembra piacere la\n situazione perché i turisti portano\npiù soldi dei fedeli.\nQuando i turisti non potranno\nraggiungerla con le loro auto, ci\n saranno molti passeggeri\nche chiederanno un servizio\ndi trasporto.\n
+CHURCH_01
+Piccola chiesa\n\nQuesta piccola chiesa dimenticata\nè un ottimo luogo dove la gente\npuò incontrare amici, parlare\ntra loro e cercare qualcosa di\npiù alto rispetto ai bisogni terreni.\n
+CHURCH_02
+Chiesa rosa\n\nQuesta chiesa pittoresca fu costruita\nda un famoso frate pazzo,\nche nel 1654, dipinse\nl'intero edificio di rosa.\nIl colore si dissolse anni fa\nma il nome rimane ancora ai\ngiorni nostri.\n
+CHURCH_03
+Chiesa\n\nQuesta è una chiesa famosa,\nche attrae gente per i\npaesaggi piacevoli e gli\ninteressanti affreschi\nall'interno.\n\n
+CHURCH_04
+Sinagoga\n\nNonostante abbia uno stile arabo,\nessa è una sinagoga.\n\n
+CHURCH_05
+Chiesa di S.Michael\n\nQuest'opera d'architettura fu\ncostruita alla fine del XIX\nsecolo, ed è interessante per\nil tetto di metallo disegnato\nda Alexander Gustavus Eiffel.\n\n
+CHURCH_06
+Chiesa\n\nUna tipica chiesa per\nvillaggi o piccole città.\n\n
+CIRCUS_0
+Circo Umberto\n\nIl famoso circo ha fatto di\nquesta città la sua destinazione\nfinale.\nLa classica tenda fu conservata\nper mantenere l'atmosfera\noriginale, ma tutti i lavoratori\nhanno comprato le case qui, così\npuoi considerarlo stabile e una\nmeta turistica. Nel circo c'è\nil famoso elefante Jumbo che si\nsiede quando sente il campanello.\nQuindi stai attento a non suonare\nil campanello quando gli stai dietro,\nse non ti piace essere molto piatto.\n\n
+CIVILIAN_RADAR
+Osservatorio\n\nNon ci crederai,ma questo\nè un normale osservatorio.\nRadio osservatorio ovviamente...\n\n
+classic_mailbox
+Cassetta della posta classica
+ClosedTrainStop
+Banchina coperta
+CoalTrainStop
+Stazione carbone
+COM_00_01
+Questo è un asilo, dove i bambini\npossono giocare e dormire mentre\n\ni loro genitori sono al lavoro.\nAnche se si possono sentire i\n\nbambini urlare, questo posto\ncarino e pacifico è pieno di risate\n\nper la maggior parte del tempo.\nOggi i bambini stanno imparando\n\nle basi della lettura e della\nmatematica.\n\n
+COM_00_02
+Questo bar amichevole è famoso\nper i suoi panini lungo 30cm.\nIl proprietario si rifiuta di\nfornire la sua ricetta segreta,\nma si dice che coltivi le spezie\ndirettamente nel suo giardino\na casa.\n\n
+COM_00_03
+"Polvere nera" è un piccolo\nbar. Ci puoi andare per sederti\nfuori e chiaccherare con i tuoi\namici assaporando il gusto ricco\ndel caffè locale. L'unico\nproblema sono i gas di scarico\nche fanno passare l'appetito\nai clienti.\n\n
+COM_00_04
+Camuffati da agenzia delle\npulizie, questi furgoni di\nsorveglianza ad alta tecnologia\nposso garantire la massima\nsicurezza ai cittadini.\n\n
+COM_00_05
+Questo vecchio pub è di\nproprietà del figlio di\nimmigrati irlandesi. La\ncomunità locale di irlandesi\nsi trova qui per raccontare\nstorie dalla "ould country" e\nper consumare grandi quantità\ndi Guinness, nella convinzione\nche "la Guinness ti fa bene".\n\n
+COM_00_06
+Questo è il negozio di\nelettronica "Good sound".\nProbabilmente non sarai sorpreso\nche gli articoli principali in\nvendita sono radio (grandi o\npiccole, nere o bianche, da\ntavolo o portatili, tutte\n\nquelle che riesci ad immaginare).\nÈ di proprietà di un ragazzo che\n\nassomiglia a un topo, con dei grandi\nincisivi. È chiamato "Radio criceto".\n\n
+COM_00_07
+Questo è il fiorista "Natural\nbeauty". È il posto migliore\nper comprare dei bei vasi da\nesporre sul davanzale, piante\nper il giardino o mazzi di\nfiori per le vostre amate.\nIl fiorista promette che i suoi\nfiori saranno sempre freschi e\ndureranno a lungo. Egli fa\ncrescere i fiori al piano\nsuperiore usando luci artificiali.\n\n
+COM_00_08
+Ristorante orientale\n\nQuesto squisito ristorante\norientale sembra un giardino\ngiapponese. Puoi spesso trovare\ni clienti in piedi sull'entrata\nipnotizzati dalla vista\nmozzafiato.\n\n
+COM_00_09
+Piccolo rifugio\n\nQuesto piccolo rifugio\nassomiglia ad una taverna\nmedievale. Il proprietario l'ha\nrestaurata così perchè gli\npiace sedere dentro o nel\ngiardino con gli amici bevendo\nbirra fresca. Egli si guadagna\nda vivere affittando il suo\ncalesse al vicinato.\n\n
+COM_00_10
+Casa rossa\n\nCasa costruita con mattoni\nrossi.\n\n
+COM_00_11
+Negozio animali\n\nQuesta casa contiene un negozio\ndi animali specializzato in\ngattini e cuccioli. Nota che\nil proprietario vive al piano\nsuperiore con 13 cani e 27\ngatti che giocano in pace tutto\nil giorno.\n\n
+COM_00_12
+Drogheria di Mandy\n\nIl piano terra della casa è\noccupato dalla Drogheria di\nMandy. Tutti gli alimentari\nsono venduti nella parte\nsinistra della casa e le\naltre cose a destra.\nL'appartamento al secondo piano\nè una sala poker nascosta.\n\n
+COM_00_13
+Locanda\n\nIn una bella giornata ti potrai\nsedere al piano superiore di\nquesta fine locanda per\nmangiare. Ma in una brutta\ngiornata il vento spira dal\ndepuratore in fondo alla strada\ne tenderai a perdere l'appetito.\n\n
+COM_00_14
+Negozio strano\n\nHai bisogno di un regalo\n"speciale" per qualcuno a cui\n"tieni davvero"? Proprio qui\ndentro troverete dei regali\ntalmente belli che il vostro\n"amico" non vi inviterà più!\n\n
+COM_00_15
+Palazzo degli affari\n\nSotto il tendone chiaro del\nprimo piano ci sono una\ngioielleria e un forno.\nI piani superiori sono pieni\nuffici di prestiti a basso\ntasso per professionisti dalla\nreputazione discutibile.\n\n
+COM_00_16
+Farmacia Pillola scacciamali\n\n"Pillola scacciamali" è una\nfarmacia specializzata nella\nvendita vari articoli medici:\nda vari tipi di pillole e\nmedicazioni a bendaggi e\ngambe di legno.\n\n
+COM_00_17
+I vestiti di Eugenio\n\n"I vestiti di Eugenio" e un bel\nposto dove trovare capi\nall'ultima moda a prezzi\nragionevoli.\n\n
+COM_00_18
+Chateaux Touche\n\nChateaux Touche è un\nmeraviglioso bed and\nbreakfast. Ha appena ricevuto\n5 stelle nella guida Chaz per\nposti romantici e posti per\ndiventare fortunati.\n\n
+COM_00_19
+Negozio di vestiti\n\nIl negozio di vestiti è gestito\nda un giardiniere. La domanda\ninteressante è: perché molti\nagenti segreti comprano i loro\nvestiti qui? Non è strano?\n\n
+COM_00_21
+Parcheggio\n\nQuesto parcheggio è un\nnascondiglio per la gang dei\nvecchi. È un gruppo molto strano,\ncomposto da signore anziane non\ncontente dello stato attuale\ndella città. Si incontrano a\nmezzanotte e poi vagano per\nle strade con le loro carrozzine\nmotorizzate per il resto\ndella notte. Armate di bastoni\nda passeggio e stampelle, esse\npicchiano senza pietà ogni\ngiovane ubriaco abbastanza\nsfortunato da incontrarle nella\nstrada di ritorno verso casa\ndal pub. Grazie alla loro\nattività, il quartiere è\nabbastanza libero dai graffiti.\n\n
+COM_00_22
+Edificio per uffici\n\n
+COM_00_23
+Edificio residenziale\n\n
+COM_00_60
+Grattacielo\n\n
+COM_01_01
+Pescivendolo\n\n
+COM_01_05
+Edificio residenziale\n\n
+COM_01_13
+Fish N' Sticks\n\nFish N' Sticks è il ristorante\ndi mare con piscina più fine di\nSimuworld. A molte persone piace\nmangiare fuori al piano\n\nsuperiore, ad altre dentro\nguardando tornei di biliardo.\n\n
+COM_01_15
+Appartamenti con negozi\n\n
+COM_01_17
+Parcheggio multipiano\n\n
+COM_01_18
+Chiesa\n\nQuesto edificio che ricorda una\nchiesa, una volta era utilizzato\nper i sacrifici rituali. Il\ngruppo locale di streghe si\nritrova qui per Halloween.\n\n
+COM_01_19
+Magazzino di giocattoli\n\nUna volta entrato dalla porta\ndi questo edificio, scoprirai\ngiochi che non hai mai visto!\nQuesto negozio vende solo i\nmigliori modellini di treni\ndisponibili in tutto il mondo\ned è molto conosciuto in tutta\nla città.\n\n
+COM_01_21
+Edificio per uffici\n\n
+COM_01_23
+Edificio per uffici\n\n
+COM_01_26
+Edificio residenziale\n\n
+COM_01_28
+Fabbrica pompe acqua\n\nQui sono costruite pompe per\nl'acqua. Quest'azienda è molto\nconosciuta per il suo\ncomportamento corretto nei\nconfronti dei lavoratori. Anche\nse i salari sono più bassi\nrispetto altrove, alla gente\npiace lavorare qui.\n\n
+COM_01_29
+Casa di Archibald Lillyhammer\n\nLe scale sul lato di questo\nedificio portano alla porta di\nArchibald Lillyhammer. Potresti\naver visto la pubblicità in TV:\n"Egli può trovare chiunque\novunque (o ti restituirà i\nsoldi)". Quello che Archie non\ndice è che fa più soldi con\nla gente che trova e che non\nvoleva essere trovata...\n\n
+COM_01_35
+SNEAK\n\nSono gli uffici locali del\nSecret National Elite Agency\nof Knowledge. Puoi trovare\nspesso agenti dello SNEAK che\nti intercettano telefonate o che\nrovistano nella tua pattumiera\nin cerca di segreti nazionali.\n\n
+COM_01_36
+Edificio per uffici\n\nQuesta costruzione ospita vari\nuffici, un'agenzia e anche tre\ncompagnie assicuratrici, ma è\nconosciuto soprattuto per la\ngrossa bandiera appesa sul\ntetto durante le vacanze\npatriottiche.\n\n
+COM_01_47
+Grattacielo\n\n
+COM_01_52
+Palazzo salutista\n\nSe solo i progettisti di questa\ncostruzione non fossero stati\nfissati con la salute... Non\nhanno previsto un'ascensore,\ncosì devi fare le scale per\ntutti i piani. Le porte hanno\nuna molla da dieci libbre nella\nmaniglia così puoi allenarti\nnella resistenza. Ma la cosa\npeggiore è la caffetteria:\nvende solo frullati di proteine\ne panini di tofu.\n\n
+COM_01_60
+Grattacielo\n\n
+COM_02_13
+Palazzo residenziale\n\n
+COM_02_15
+Palazzo residenziale\n\n
+COM_03_21
+Palazzo residenziale\n\n
+COM_03_28
+Casa per uffici\n\nQuesta casa per uffici era così\ngrande e la richiesta così bassa\nche i manager spesso si trovavano\npersi in spazi vuoti. Così un\nproprietario decise di dividere\nla casa con un muro interno.\nQuesta idea attrasse così tanti\npotenziali occupanti che il\nproprietario decise di\ncostruirne un'altra di questo\ntipo. Guarda se la nuova casa\nappare.
+COM_05_01
+Club\n\nQuesto è il club più popolare\ndella zona. La cosa interessante\nè che servono solo acqua in\nbottiglia e cibo salutare. È\nuna cosa buona che i clienti\nsiano più interessati alla\nmusica live che ci suonano\nche al cibo.\n\n
+COM_05_02
+Parcheggio\n\nQuesto è un parcheggio. Che cosa\nvuoi sapere? C'è qualcosa di non\nchiaro su di esso?\n\n
+COM_05_03
+Sala da the Il bollitore\n\nQuesta piccola sala da the\n"Il bollitore" è un bel posto\nper gli appuntamenti. L'odore\ndel buon the, musica orientale\ne luci basse creano\nun'atmosfera carina e romantica.\n\n
+COM_05_04
+Negozio articoli sportivi\n\nQuesto piccolo negozio vende\nbiciclette e articoli sportivi.\nQuesto è un posto da visitare\nprima di competere in un\nevento sportivo.\n\n
+COM_05_05
+L'arrosto e il toast\n\nQuesto negozio, chiamato\n"L'arrosto e il toast", vende\ne ripara forni a microonde e\ne tostapane. È tutto quello che\nfanno qui.\n\n
+COM_05_06
+Boutique "Ti sta bene"\n\nQuesta è la boutique "Ti sta\nbene". È il miglior posto per\nspendere il tuo stipendio e\ne apparire meglio! Ma potrebbe\nessere che tu abbia un posto\nmigliore dove spendere i soldi.\nQuesta è probabilmente la\nragione per cui i commessi si\nsentono così soli e risulta\nessere un negozio vuoto.\n\n
+COM_05_07
+Parcheggio\n\nQuesta parte del marciapiede è\nriservata al parcheggio. È\nsempre pieno da quando ha\niniziato ad essere difficile\ntrovare parcheggio nella\ncittà in crescita. La giunta\nlocale sta pensando di\ninstallare dei parchimetri.\n\n
+COM_05_08
+Centro bowling\n\nIl centro bowling è un posto\ndivertente per portarci la\nfamiglia. Ma è anche il\nnascondiglio di una famigerata\norganizzazione criminale.\n\n
+COM_05_09
+Farmacia\n\nQuesta farmacia è dove ti rechi\nper comprare droghe, ma solo\nquelle legali. Questo è quello\nche c'è scritto sul cartello\nappeso alla porta d'ingresso...\n\n
+COM_05_10
+Casinò "Perdi i pantaloni"\n\nQuesto è il casinò "Perdi i\npantaloni". Comunque non vedrai\nmai nessuno camminare nudo, ma\ndalle facce tristi dei giocatori\npuoi capire che l'unica persona\nfelice sia il proprietario del\ncasinò. Questo provoca una\ndomanda: perché tutti ci\nentrano allora?\n\n
+COM_05_11
+Ufficio servizi sociali\n\nQuesto è un vecchio edificio\nper uffici usato in questo\nmomento dai servizi sociali\nper vari programmi per aiutare\ni giovani proveniente da altre\ncittà a fare le giuste scelte,\ncome scegliere quale casa\nbruciare o quale auto rubare.\n\n
+COM_05_12
+Palafitta\n\nQuesto edificio è sollevato dal\nterreno per prevenire le\ninondazioni. Il problema è che\nesse non ci sono in Simutrans,\nquindi la parte inferiore è\nusata come parcheggio.\n\n
+COM_05_13
+Hotel "Affita un letto"\n\nQuesto è l'hotel "Affitta un\nletto". Dato che le tariffe\nsono basse, è pieno per la\nmaggior parte del tempo. Non\nè un posto di lusso, ma hai\ncomunque una camera con doccia\ne bagno. (Comunque la doccia\npuò essere rotta e il bagno\nsporco, uaah!)\n\n
+COM_05_14
+Banca\n\nQuesta è una filiale della Banca\ndi Simutrans. Se non hai un\ngiardino per seppellirci\nbarattoli pieni di soldi, porta\nqui i tuoi averi. Il soprannome\ndel manager è "Gimmie".\n\n
+COM_05_15
+Negozio modellismo di Joe\n\nIl negozio di modellismo di Joe\nè il principale negozio per\nradiocomandi della città.\nDell'esposizione di macchine\nradiocontrollate a quella per\naerei (con la forma di una\ntorre di controllo) troverai\nmodelli eccellenti e kit con\nconsigli da esperto su come\nutilizzarli.\n\n
+COM_05_16
+Torre d'acqua\n\nPuoi vedere spesso i bambini\ndella zona fare la pipì dentro\nquesta torre d'acqua. Se ti\ncapita, è consigliabile\naspettare qualche ora per far\nriciclare l'acqua prima di\nberla... altrimenti potrebbe\navere una tinta giallognola.\n\n
+COM_05_17
+Movie Drome\n\nIl Movie Drome è un posto per\nragazzi dove vedere gli ultimi\nfilm usciti. Ma è meglio tenersi\nstretti i biglietti perché\nall'uscere piace cacciare\nfuori la gente.\n\n
+COM_05_18
+Cinema Buffalo Bill\n\nQuest'edificio senza finestre\nospita il cinema "Buffalo Bill",\nil posto migliore dove passare\nle tue serate. Ma è sconsigliato\nbere troppo durante il film.\nI bagni sono più che sporchi.\nQualche cliente ha corso il\nrischio di andarla a fare fuori!\nÈ disgustoso!\n\n
+COM_05_19
+Techno Dunce\n\nQuesta è la casa di Techno Dunce.\nSono specializzati in insegnamenti\ntecnologici individuali per fare\ncose tipo usare un telecomando,\naccendere un computer e\nimpostare l'ora a un\nvideoregistratore.\n\n
+COM_05_20
+Edificio per uffici\n\nQuesta costruzione è piena di\nuffici economici. Non offrono\ncomfort, lusso o rappresentanza.\nMa se hai bisogno di un posto\ndove puoi fare il tuo lavoro\npuò essere una buona scelta.\nPuoi farti molti amici qui e\nunirti a feste spontanee ogni\nvenerdì sera.\n\n
+COM_05_21
+Ospedale\n\nIncidenti di vario tipo sono\nestremamente rari nel Simuworld\nper la precisione dei trasporti\nper pendolari. Ma se\ncapitassero è bello sapere\nche un'ambulanza è lontana\nsolo pochi minuti di strada.\n\n
+COM_05_22
+Complesso di box\n\nSe non puoi parcheggiare nelle\nstrade, puoi sicuramente farlo\nin questo complesso di box.\nPagherai tariffe pazzesche\n(un credito all'ora). Ma che\naltro puoi fare, non hai scelta.\n\n
+COM_05_23
+Edificio per uffici\n\nProgettato inizialmente con una\nsola struttura con un cortile\ninterno, quest'edificio ha\ncambiato faccia quando la\ncrescente domanda di uffici\ndentro la città ha forzato i\nproprietari ad aumentare lo\nspazio.\n\n
+COM_06_01
+Bar\n\n\nA molti anziani piace\n\nritrovarsi in questo bar.\n\nIl caffè fa schifo e il cibo\n\nè peggio, ma a loro interessa\n\nsolo ritrovarsi a parlare del\n\ntempo e dei bei giorni andati.\n
+COM_06_02
+Parcheggio libero\n\n\nQuesto lotto è lasciato per il\n\nparcheggio libero. Di solito\n\nè un bel posto per parcheggiare\n\nla tua auto mentre vai ai\n\nnegozi nei dintorni. Ma stai\n\nattento: non lasciare nulla\n\ndi valore nell'auto!\n
+COM_06_03
+Area concerti\n\n\nQuesta è l'area per concerti\n\nall'aria aperta della MHz\n\nMegaband. Fermati qui per\n\nascoltare le canzoni: le\n\namerai. Ai vicini non piace,\n\nnon è mai piaciuta loro, la\n\nodiano!\n
+COM_06_04
+Officina di Gay Rog\n\n\nQui c'è l'officina di Gay Rog:\n\nti cambia l'olio e lubrifica\n\nil telaio in 15 minuti o meno.\n\nPossono essere servite 20 auto\n\nall'ora con una spesa di\n\n19.95cr per auto. Questo rende\n\nRoger molto contento, ma non\n\nper forza gay.\n
+COM_10_01
+Questo piccolo negozio di animali domestici cerca\ndi competere con LFS, ma\nle piante acquatiche hanno\nlumache e il pesce\nmuore sempre. Comunque, fanno ancora\naffari, come non puoi comprare\ngatti al negozio di pesci LFS.\n
+Container1TrainStop
+Stoccaggio Container
+Container2TrainStop
+Stoccaggio Container Grande
+Control_StationBlg
+Dogana
+CoveredTrainStop
+Stazione Coperta
+Crate_Goods_Dock
+Porto container
+CunnersdorfStopBlg
+Stazione di paese
+CUR_01_128_JH
+Atomium\n\nL'Atomium è stato costruito per\nuna mostra, ma nessuno si\nricorda quale. Così è stato\nconvertito in un ristorante di\nprima classe. I tavoli nella\nsala superiore offrono una bella\nvista e devono essere prenotati\ncon due settimane di anticipo.\n\n
+DenkFlor
+Monumento a Flor\n\nQuesto monumento è dedicato a\nFlor "WF Ultd." Wauters, il\nfamoso insegnere che creò molti\nveicoli da strada e ferrovia.\nÈ molto conosciuto anche per\nla creazione di aziende che\nfunzionano molto bene.\n\n
+DenkGeorg
+Grazie MHz!\n\nQuesto monumento è dedicato al\nfamoso architetto Georg, conosciuto\nanche come MHz. Ha disegnato\nmolti edifici e qualche veicolo\neccezionale.\n
+DenkHajo
+Questo monumento è dedicato a\nHansjorg Mathaner. Egli creò\nil gioco sette anni fa. Senza\nil suo contributo e sacrificio\nquesto gioco non sarebbe mai\nesistito. Non dimenticarti del\nsuo sforzo, fermati e fagli\ncapire che il suo sforzo non è\nstato vano, il suo gioco è\n\nutilizzato. Spediscigli una\ncartolina indirizzata a:\nHansjorg Malthaner\nFuggerstr. 1\nD-70563 Stoccarda\n\n
+DenkOwen
+Questa piazza è dedicata a\nOwen Rudge, il famoso esperto\ndi finanza e tecnico del suono.\n\n
+DenkPatrick
+Il monumento è dedicato a\nPatrick Nesbitt, che ha\ncontribuito alla creazione\ndi alcune costruzioni e veicoli\nper Simutrans\n\n
+DenkRaven
+Grazie Raven\n\nQuesto monumento è dedicato a\nRaven, il famoso ingegnere e\nfondatore della RVg (Raven\nVehicles and Gears Corporation),\ncostruttrice di una grande\nvarietà di veicoli. Recentemente\nRaven si è concentrato nel\nsettore edifici costruendo delle\ncase spettacolari.\n\n
+DenkSeth
+Questa piazza è dedicata a\nSeth C. Triggs, il famoso\narchitetto che disegnò molti\nedifici cittadini. È conosciuto\nanche per gli studi su come\nmigliorare il traffico.\n\n
+DenkTomas
+Questo monumento è dedicato a\nTomas Kubes, che aiutò a migliorare\nSimutrans in vari aspetti con\nconsigli e lavoro duro.\n\n
+DenkTrikky
+Monumento a Trikky\n\nQuesto monumento è dedicato a\n"Trikky" Rick McGreal, il\nfamoso architetto che disegnò\nmolti edifici imponenti.\n\n
+DenkVM
+Questo monumento è dedicato a\nManfred "VTVienna" Tomaschitz,\nil famoso ingegnere che disegnò\nmolti veicoli ferroviari di\nqualità superiore.\n\n
+DenkVolker
+Questo Stupa fu costruito per\nil programmatore-architetto-\nmanager Volker Meyer, che\nmigliorò Simutrans in più aree.\n\n
+ELEMENTARY_SCHOOL_1
+Scuola elementare\n\nQuesto è il posto dove i bambini\nricevono la prima educazione.\nMatematica, lingue, storia e\nscienze sono tra le materie\nmeno preferite. I piccoli\nstudenti di solito disegnano e\ncantano bene. Fino a quando gli\nstudenti non possono guidare una\n\nmacchina, questo posto genererà\nmolti passeggeri.\nMa stai attento: bus di lusso non\nsono raccomandati per le linee qui\nintorno.\n\n
+ELEMENTARY_SCHOOL_2
+Scuola elementare\n\nUna delle cose interessanti di\nquesta scuola elementare è che\nle lezioni iniziano alle 9 e\nfiniscono circa a mezzogiorno.\nLa seconda cosa inusuale è che\ngli studenti studiano tutta la\nsettimana, anche sabato e\ndomenica.\n\n
+Firestation
+Stazione dei pompieri\n\nQuesta stazione dei pompieri\ndella città. Essa ospita\nle autopompe, i pompieri\ne un'ambulanza. Quest'ultima\nverrà spostata in un edificio\nproprio.\n\n
+Fluid_StationBlg
+Deposito fluidi
+FORT_FUN
+Forte storico\n\n\n\n\n\n\n
+FreightTrainStop
+Stazione scarico merci
+FUTURISTIC_TOWER_0
+Torre\n\nQuesta torre offre bellissime\nvedute del territorio\ncircostante. Il piano in cima\nha anche un piccolo bar, così\npuoi anche bere qualcosa davanti\nalla piacevole veduta. Anche se\ni prezzi non sono molto bassi,\nla torre attrae molti visitatori.\n\n
+Gas_StationBlg
+Deposito gas
+Goods_StationBlg
+Deposito merci
+GRASS_STADIUM
+Stadio\n\nQuesto stadio è un posto\neccellente per correre e\ngiocare a football o calcio.\nSi possono trovare persone meno\nsportive che guardano i loro\namici allenarsi dalle\nstaccionate sotto gli alberi.\n\n
+GREEN_HOUSE
+Serra\n\nQuesta serra era un negozio, ma\ndopo poco tempo il proprietario\nsi accorse che la gente entrava\nper dare un'occhiata senza\ncomprare niente. Così egli\nconvertì il suo negozio in un\ngiardino tropicale. Ora la serra\ncontiene alcune piante rare ed\nè conosciuto in tutta la zona.\n\n
+HIGH_SCHOOL_1
+Scuole superiori\n\nQui i ragazzi continuano i loro\nstudi. Sebbene siano insegnate\nsolo materie scientifiche, gli\nstudenti ricordano degli altri\ncorsi che possono seguire in\nquesta scuola, anche se non\nesattamente in classe. Contatti\nsociali e relazioni\ninterpersonali sono solo alcune\ndi esse.\n\n
+HOUSE_RUINS_0
+Rovine di abitazione\n\nQuesto fu il maggior edificio\ndi una città che non\nesiste più. Gli storici\nvengono per ricordare il passato,\n i turisti per vedere\ngli spettacoli eseguiti\nfuori sotto un albero.\n
+HQ1
+Quartier Generale
+HQ2
+Sede (III)
+IND_00_01
+Fermata del Rumore\n\n\nUn piccolo edificio sulla\n\ncollina è un punto perfetto\n\nper fare rumore. Questa è la\n\nFermata Del Rumore, dove la\n\ngente va per fare tutto il\n\ncasino che vuole. Ma stai\n\nattento, devi pagare quando\n\nesci, e non c'è alcun cartello\n\nche indichi quanto costa prima\n\ndi entrare.\n
+JUSTICE
+Palazzo di giustizia\n\nQui uomini onesti e meno\nentrano ed escono\ndalla scena quotidianamente, secondo\nil principio che "La legge è\nuguale per tutti"\n\n
+Lighthouse_0
+Faro\n\nDa quando sono stati\ncostruiti i fari,\nla navigazione nei mari\ndi Simuworld è divenuta\npiù semplice e sicura.\nC'è molta gente che vuole visitarli\ne vedere le onde.\n
+Lighthouse_1
+Faro\n\nDa quando sono stati costruiti\ni fari, la navigazione in\nSimuworld è diventata più\nsemplice e sicura. Questo ha\nun aspetto strano, ma nessun\nmarinaio se n'è lamentato.\n\n
+Long_Goods_Dock
+Porto merci lungo
+LuftPost1950_AirportBlg
+Ufficio posta aerea
+MANOR_0
+Maniero\n\nQuesto bellissimo maniero\nrinascimentale ha un passato\n\nmolto interessante. Oggi è la\ncasa di un uomo d'affari di\nsuccesso (Napik), ma ha aperto\nal pubblico un gran numero di\nmostre sulla storia. Anche se\npossono sembrare noiose, esse\nsono molto interessanti. Così\nil maniero è pieno di turisti\ntutti i giorni.\n\n
+MARKET_PLACE_0
+Mercato\n\nIl mercato cittadino è un bel\nposto per passare pomeriggi con\nla famiglia. I bambini possono\ncomprare oggetti di ieri e vedere\nvecchi artigiani al lavoro, le\ndonne possono girare per negozi\ne cercare varie cose e gli uomini\npossono sedersi in locali a bere\nbirra.\n\n
+medium_classic_bus_stop
+Fermata con pensilina
+medium_early_bus_stop
+Fermata con pensilina
+medium_modern_bus_stop
+Fermata moderna
+MILITARY_RADAR
+Radar militare\n\nQuesta è una struttura militare\nsegreta! Stanne lontano! Sposta\nimmediatamente la finestra!\nCosa? Sei ancora qui a leggere?\nSposta o chiudi immediatamente\nla finestra! Non puoi stare qui!\n\n
+Modern_Warehouse
+Magazzino moderno
+ModernPostOffice
+Ufficio postale moderno
+ModernTrainStop
+Stazione treno moderna
+MonorailDepot
+Deposito linea a levitazione
+MonorailFoundation
+Fondazione linea a levitazione
+MonorailGround
+Fondazione linea a levitazione
+MonorailStation
+Piattaforma sopraelevata
+MT_HOTEL_0
+Hotel\n\nQuesto hotel è molto famoso.\nLe camere sono molto costose,\nma ognuno vorrebbe stare qui\no al massimo mangiare\nnella sala da pranzo.\n
+MUSEUM_0
+Museo\n\nUna volta era un castello;\nfu restaurato e convertito\n\nin museo della scienza e\ntecnologia. Lì puoi trovare\nmodelli di vecchi veicoli,\nscoprire le novità della\nfisica o seguire uno dei\n\ntanti seminari.\n\n
+OBSERVATORY
+Osservatorio\n\nÈ conosciuto come Osservatorio\ndi Georg, dove sono state fatte\nmolte importanti scoperte sul\nSimuverso. Mentre gli astronomi\nci lavorano durante la notte,\ndurante il giorno i turisti\nsono i benvenuti a conferenze\ne mostre multimediali. Le\n\nrappresentazioni sono molto\ninteressanti, molto comprensibili\ne attrattive, così le aule\nsono sempre piene di gente.\n\n
+Old_gate
+Ingresso città\n\n
+OLD_HOUSE_0
+Vecchia casa\n\nQuesta casa, in una combinazione\ndi stili gotico e rinascimentale,\nè stata convertita in un museo\ndi architettura antica. Ospita\ndisegni e modelli di costruzioni\ndel passato. Il museo è interessante\ne facile da capire, così è pieno\ndi visitatori tutti i giorni.\n\n\n
+OpenTrainStop
+Piattaforma semplice
+Pagoda01
+Pagoda\n\n
+PARK_0
+Parco grande con lago\n\n
+parking_(catchemnt_area_ext)1
+Parcheggio
+parking_(catchemnt_area_ext)2
+Parcheggio
+parking_(catchemnt_area_ext)3
+Parcheggio
+Post_Dock
+Porto postale
+PostOffice
+Ufficio postale
+PostOffice1920_AirportBlg
+Ufficio posta aerea
+Radar3
+Radar
+RADIO_TOWER_0
+Stazione Radio Chit-Chat\n\nQuesta è la sede della radio\nlocale Chit-Chat. Solo poche\npersone vogliono venire qui,\nperché hanno promesso di mandare\nin onda gli ospiti ogni giorno\ndalle 13:00 alle 14:30.\n\n
+RES_14_31
+Casa\n\n\nSemplicemente una casa\n\n
+RES_15_13
+Appartamenti della cooperativa\n\n
+RES_15_16
+Casa doppia\n\n
+RES_15_17
+Villa Summerfield\n\n
+RES_15_20
+Appartamenti della cooperativa\n\n
+RES_15_21
+Appartamenti della cooperativa\n\n
+RES_15_31
+Casa\n\n\nSemplicemente una casa.\n\n
+RES_16_16
+Appartamenti della cooperativa\n\n
+RES_16_21
+Appartamenti della cooperativa\n\n
+RES_17_16
+Ostello per donne\n\n
+RES_17_20
+Appartamenti della cooperativa\n\n
+RES_17_21
+Appartamenti della cooperativa\n\n
+rmax_clock_tower
+Torre dell'orologio\n\nQuesta torre con orologio ha\nun design particolare. Qualcuno\npensa sia ispirato alla "Torre\ndelle rovine di Fabel", ma è\ncertamente una costruzione\nrecente e il suo orologio è\n\nuno dei più precisi di tutto\nSimuworld.\n\n
+rmax_courthouse
+Palazzo di giustizia
+rmax_DenkManualTeam
+Monumento della torcia splendente\n\nQuesto monumento è per chi aiuta\na creare e mantenere la Wiki, il\ngioco, l'aiuto e gli altri\n\nmanuali. Per tutti quelli che\nportano luce nei misteri di\nSimutrans.\nGrazie!\n\n
+rmax_dictator_statue
+Dittatore Benevolo\n\nIl Dittatore Benevolo (con la\nmano nella maglia). Molte\nragazze sono svenute alla base\ndella statua, tanto che il\nMinistro dell'ansia ha fatto\ninstallare una catena attorno\n\nal suo perimetro. Ciò non ha\naiutato. Molti residenti non\ncredono che il monumento abbia\nqualche strano potere sulla\nfertilità.\n\n
+rmax_fabio_bust
+Busto romano\n\n
+rmax_icarus
+Piattaforma di lancio\n\nQuesto è il posto da cui la\nIcarus inc., la prima compagnia\na ricercare una tecnica per\nassemblare razzi affidabili che\npossano portare satelliti in\norbita, lancia i suoi vettori.\nFortunatamente non hanno seguito\nil destino del loro nome\n\nleggendario. Dietro la sua\nimportanza economica, questo\nposto attrae folle di turisti\nche vogliono vedere i lanci.\n\n
+rmax_mosque
+Moschea di As-Salam\n\nTutte le volte che il Muezzin\ncanta dall'alto minareto, la\ncomunità musulmana di Simutrans\narriva qui per pregare.\n\nAs-Salam è uno dei 99 nomi di\nAllah e significa "La Pace".\n\n
+ROCK_0
+Roccia di Patrizio\n\nQuesto pezzo di roccia attrae\nmolti geologi interessati a\nquesto ex vulcano.\n\n
+RUIN_0
+Castello\n\nÈ di epoca gotica, ma il suo\nproprietario ha capito che un\ncastello non è un buon posto per\nvivere nel 21 secolo. Così l'ha\nconvertito in un parco di\ndivertimenti medievale. Da\nallora il cancello non è mai\nchiuso. Folle di turisti vengono\na vedere l'arte antica,\ncombattimenti con le spade,\nassedi al castello, parate,\ncavalcare cavalli, bere birra\nmedievale o visitare mostre.\n\n\n
+RUIN_1
+Rovine\n\nQueste sono le rovine di un\ncastello molto famoso. Molti\ncapitoli di storia sono stati\nscritti qui, così è una\ncalamita per i turisti di\ntutto il mondo. Tutti quelli\nche le vedono rimangono\nentusiasti. E, dopo tutto,\nle rovine sono abbastanza\nromantiche, o no?\n\n
+Russian_Cathedral
+Chiesa russa\n\n\n
+Secession_Chapel
+Cappella della Secessione\n\n
+sh_oasis_seasons
+Oasi\n\nL'oasi è uno dei pochi punti\ndel deserto con la vita. Ogni\nanimale o umano che attraversa\nil deserto vorrebbe fermarsi\nqui per un po' di tempo, per\nrinfrescarsi e restare sotto\nle palme.\n\n
+ShipDepot
+Deposito navi
+ShipStop
+Porto passeggeri
+small_classic_bus_stop
+Fermata autobus semplice
+small_early_bus_stop
+Fermata autobus
+SMALL_MANOR
+Maniero\n\nQuesto piccolo maniero fu la\ncasa di un famoso lord. Ma da\nquando il lord è morto, la fama\ncalò lentamente e la casa fu\ndimenticata, per poi essere\nriscoperta nel XX secolo quando\nle grandi collezioni di arte\niniziarono ad attrarre turisti.\nPer mantenere la sua bellezza,\nil maniero è di proprietà\npubblica, accessibile a tutti\nper una cifra modesta. È\ndiventata molto conosciuta ed\nè una destinazione frequente\ndi gite scolastiche o\nfine settimana.\n\n
+st_benedict_church
+Chiesa di San Benedetto\n\nQuesta chiesa è una delle più\nfamose in Simuworld. Molti\nturisti vengono e la visitano,\nmeno vengono per pregare.\nMolti dipinti di inestimabile\nvalore sono contenuti al suo\ninterno e nessuno se li vuole\nperdere.\n\n
+ST_PETER
+Chiesa di San Pietro\n\nLa chiesa tardo romanica di\nSan Pietro, costruita nel 1220,\nha affreschi della metà del XIII\nsecolo e la mummia ben conservata\ndel "Magistrato sacro". Essa è\nla mummia di un uomo di più di 300\nanni, probabilmente Guglielmo di\nHolbach, il magistrato reale. La\nmummia è in un'alcova nell'ala\novest.\n\n
+SUSHI_HOSPITAL
+Ospedale Sushi\n\nQuesto ospedale è il posto\ndove lavora la maggior parte\ndei cinesi della città, eccetto\nche ha il proprio ristorante.\nEsso può offrire servizi di\nbuona qualità a prezzi bassi,\ncosì è amato dalla gente che non\npuò permettersi ospedali di lusso.\nDato che l'ospedale non ha un\ngrande parcheggio, chi arriva in\nambulanza deve tornare con i mezzi\npubblici.\n\n
+Suspended_Monorail_Bahnhof_Modern
+Fermata monorotaia
+Terminal1930_AirportBlg
+Terminal piccolo
+Terminal1950_AirportBlg_S
+Piccolo terminal
+Tower1920_AirportBlg
+Torre di controllo base
+Tower1930_AirportBlg
+Piccola torre di controllo
+Tower1950_AirportBlg
+Torre di controllo
+Tower1990_AirportBlg
+Torre di controllo moderna
+TrainDepot
+Deposito treni
+TrainStop
+Stazione
+TramDepot
+Deposito tram
+TRIUMPH
+Arco di trionfo\n\nQuesto Arco di trionfo fu\ncostruito dall'imperatore\nNapik per festeggiare una delle\nsue vittorie nelle battaglie\ndel passato. Ora non ci sono\npiù battaglie, quindi nemmeno\neserciti vittoriosi che ci\nmarciano sotto. Essi sono\nstati sostituiti dai turisti\nche ci girano intorno in\nsoggezione dalla bellezza di\nquesta meraviglia\narchitettonica disegnata dal\nfamoso architetto Georg,\nconosciuto come Mhz nei tempi\npiù recenti.\n\n
+TV_TOWER_0
+Torre televisiva\n\nQuesta torre è della locale\nstazione televisiva. Non\nconsente soltanto la diffusione\ndel segnale, ma da ai cameraman\nun luogo dove controllare tutto\nquello che avviene nelle\nvicinanze.\n\n
+TV_TOWER_1
+Torre televisiva\n\nÈ una delle torri più alte di\ntutto il mondo. Essa ospita un\nristorante accogliente e un bar\ncon enormi finestre per chi non\nsoffre di giramenti di testa e\nsi può godere viste\nmeravigliose. Per chi ha\nproblemi, un'ulteriore avviso:\ntutto quanto vi girerà\nintorno lentamente!\n\n
+Very_Big_Terminal
+Terminal gigante (3x3)
+VictorianStation
+Stazione in stile vittoriano
+VillageTrainStop
+Stazione del villaggio
+WHEEL
+Ruota panoramica\n\nQuesta è chiamata ruota\npanoramica. Nei vecchi parchi\n tematici è un'attrazione turistica\nmolto famosa, ma ha ancora\nmolta attrattiva. Essa promette una vista fantastica.\n
+Windmill
+Mulino a vento\n\nQualche persona viene qui per\nvisitare il mulino e vederlo\ngirare. Ad altre persone piace\nandare fuori città. Ad altre\npersone piace tirare sassi al\nrotore per cercare di colpire\nle pale.\n\n
+WOODEN_CHURCH
+Chiesa di legno\n\nQuesta chiesa è stata costruita\ndagli Hamish.\n\n
+#__________________________________dummy_info___________________________________
+#__________________________________dummy_info___________________________________
+#____________________________________factory____________________________________
+#____________________________________factory____________________________________
+autoshop3
+Concessionaria auto
+bakery
+Panificio
+brewery
+Fabbrica birra
+cannery
+Conservificio
+car_assembly_plant
+Fabbrica automobili
+car_dealer
+Concessionaria auto
+Cementmill
+Cementificio
+chicken_farm
+Allevamento polli
+classical_goods_factory
+Fabbrica beni
+Concretefactory
+Fabbrica calcestruzzo
+cornfield
+Campo di grano
+cotton_farm_w_fields
+Piantagione di cotone
+cotton_field
+Campi di cotone
+cow_farm
+Allevamento bovini
+dairy
+Caseificio
+Druckerei
+Tipografia
+electronics_factory
+Fabbrica elettronica
+Erzbergwerk
+Miniera di ferro
+ethanol_plant
+Fabbrica etanolo
+fish_pond
+Stagno
+fish_swarm
+Zona di pesca
+food_processing_plant
+Fabbrica cibo
+ForestPlantation
+Foresta piantata
+Glass_factory
+Vetreria
+grain_farm
+Fattoria per grano
+grain_farm_w_fields
+Fattoria per grano
+grain_mill
+Mulino
+Kohlekraftwerk
+Centrale elettrica a carbone
+Materialswholesale
+Grossista materiali
+MaterialsWholesales
+Grossista materiali
+meat_packing_plant
+Fabbrica confezionamento carni
+modern_fuel_station
+Distributore benzina
+Moebelfabrik
+Mobilificio
+Moebelhaus
+Centro commerciale
+Nutzwald
+Bosco
+Oelbohrinsel
+Piattaforma petrolifera
+Oelfeld
+Pompa estrazione petrolio
+oilkraftwerk
+Centrale elettrica a petrolio
+old_powerplant_kraftwerk
+Centrale elettrica a carbone
+open_coal_mine
+Miniera carbone aperta
+Papierfabrik
+Cartiera
+publisher
+Casa editrice
+Raffinerie
+Raffineria
+Saegewerk
+Segheria
+sand_quarry_dd
+Cava di sabbia
+Sandquarry
+Cava di sabbia
+shaft_coal_mine
+Miniera di carbone
+shaft_coal_mine_small
+Piccola miniera di carbone
+sheep_farm
+Allevamento pecore
+shopping_mall
+Centro commerciale
+steel_mill
+Acciaieria
+Stonequarry
+Cava di pietra
+supermarket
+Supermercato
+TANKE1
+Distributore benzina
+TANKE2
+Stazione di rifornimento
+textile_factory
+Fabbrica tessile
+waste_disposal
+Deposito rifiuti
+waste_incinerator_kraftwerk
+Inceneritore
+wind_kraftwerk
+Centrale eolica
+#_____________________________________field_____________________________________
+#_____________________________________field_____________________________________
+grain_field
+Campo di grano
+#_____________________________________good______________________________________
+#_____________________________________good______________________________________
+Autos
+automobili
+beer
+birra
+Bretter
+assi
+Bucher
+libri
+canned_food
+Cibo in scatola
+Cement
+cemento
+Chemicals
+prod. chimici
+Concrete
+calcestruzzo
+corn
+mais
+cotton
+cotone
+Eisenerz
+minerale di ferro
+electronics
+elettronica
+Ethanol
+etanolo
+fertilizer
+fertilizzante
+fish
+pesce
+flour
+farina
+food
+cibo
+Gasoline
+benzina
+glass
+vetro
+goods_
+merci
+grain
+grano
+Holz
+legname
+Kohle
+carbone
+meat
+carne
+milk
+latte
+Moebel
+mobili
+None
+niente
+Oel
+petrolio
+Papier
+carta
+Passagiere
+passeggeri
+Plastik
+plastica
+Post
+posta
+Sand
+sabbia
+Stahl
+acciaio
+Stone
+pietra
+textile
+stoffa
+waste
+rifiuti
+wool
+lana
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+MONORAILTOOLS
+Strumenti monorotaia
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+Build monorail depot
+Costruisci deposito monorotaia
+CATEGORY_01
+merce
+CATEGORY_02
+merci sfuse
+CATEGORY_03
+carburante
+CATEGORY_04
+surgelati
+CATEGORY_05
+cibi liquidi
+CATEGORY_06
+legname
+CATEGORY_07
+cereali
+Monorail
+Linea a levitazione
+monorail vehicle
+Veicolo a levitazione
+Monorailboden
+Struttura linea a levitazione
+Monorailhalt
+Stazione linea a levitazione
+Monorailhalt muss auf\nMonorail liegen!\n
+Le stazioni per treni a levitazione\ndevono stare su una linea\na levitazione!\n
+Monorails are not available yet!
+Linea a levitazione non è ancora disponibile!
+remove monorails
+Rimuovi linea levitazione
+#__________________________________record_text__________________________________
+#__________________________________record_text__________________________________
+New world record for monorails: %.1f km/h by %s.
+Nuovo record di velocità per Ferrovia sospesa! %.1f km/h raggiunti da %s.
+#___________________________________roadsign____________________________________
+#___________________________________roadsign____________________________________
+air_one-way
+Senso unico
+airport_oneway
+Pista rullaggio a senso unico
+autobahn_classic_entrance
+Entrata classica autostrada
+autobahn_classic_exit
+Uscita classica autostrada
+autobahn_modern_entrance
+Entrata moderna autostrada
+autobahn_modern_exit
+Uscita moderna autostrada
+choose_point
+Segnale di scelta
+choose_signal_monorail
+Segnale scelta piattaforma per monorotaia
+choosesign_digital_jp
+Cartello di scelta digitale
+ChooseSignals
+Segnale scelta piattaforma (standard)
+Classic_ChooseSignals_right
+Segnale scelta piattaforma (classico)
+Classic_LongSignals_right
+Segnale long block (classico)
+Classic_preSignals_right
+Presegnale (classico)
+Classic_Signals_right
+Segnale ferroviario (classico)
+Early_ChooseSignals_right
+Segnale scelta piattaforma (moderno)
+Early_LongSignals_right
+Segnale long block (moderno)
+Early_preSignals_right
+Presegnale (moderno)
+Early_Signals_right
+Segnale ferroviario (moderno)
+EndOfChooseSignals
+Segnale fine scelta
+LongSignals
+Segnale long block (standard)
+Minimum80
+Velocità minima 80km/h
+Modern_ChooseSignals_right
+Segnale scelta piattaforma (moderno)
+Modern_EndOfChooseSignals_right
+Segnale fine scelta (moderno)
+Modern_LongSignals_right
+Segnale long block (moderno)
+Modern_OneWaySignals_right
+Segnale senso unico (moderno)
+Modern_preSignals_right
+Pre-segnale (moderno)
+Modern_Signals_right
+Segnale ferroviario (moderno)
+NoEntry
+Segnale divieto d'accesso
+OneWaySignals
+Segnale senso unico (tipo standard)
+preSignal_Monorail
+Presegnali linea levitazione
+preSignals
+Presegnali (tipo standard)
+RoadClosed
+Blocco stradale
+Signal_Monorail
+Segnale monorotaia
+Signals
+Segnale (tipo standard)
+traffic_light
+Semaforo
+#_____________________________________tree______________________________________
+#_____________________________________tree______________________________________
+cactus000
+Cactus\n\n\n\n\n\n\n
+cactus001
+Cactus\n\n\n\n\n\n\n
+cactus002
+Cactus\n\n\n\n\n\n\n
+palm010
+Palma\n\n
+palm011
+Palma\n\n
+tree020
+Albero\n\n
+tree021
+Albero\n\n
+tree022
+Albero\n\n
+tree023
+Albero\n\n
+tree024
+Albero\n\n
+tree025
+Albero\n\n
+tree030
+Albero\n\n
+tree031
+Albero\n\n
+tree032
+Albero\n\n
+tree040
+Albero\n\n
+tree041
+Albero\n\n
+tree042
+Albero\n\n
+tree050
+Albero\n\n
+tree051
+Albero\n\n
+tree052
+Albero\n\n
+tree060
+Albero\n\n
+tree061
+Albero\n\n
+tree062
+Albero\n\n
+tree063
+Albero\n\n
+tree070
+Albero\n\n
+tree071
+Albero\n\n
+tree072
+Albero\n\n
+tree080
+Albero\n\n
+tree081
+Albero\n\n
+tree082
+Albero\n\n
+tree083
+Albero\n\n
+tree090
+Albero\n\n
+tree091
+Albero\n\n
+tree100
+Albero\n\n
+tree110
+Abete\n\n
+tree120
+Albero\n\n
+tree121
+Albero\n\n
+tree122
+Albero\n\n
+tree130
+Albero\n\n
+tree131
+Albero\n\n
+tree132
+Albero\n\n
+tree133
+Abete montano\n\n
+tree140
+Albero\n\n
+#____________________________________tunnel_____________________________________
+#____________________________________tunnel_____________________________________
+RailTunnel
+Tunnel ferroviario
+RoadTunnel
+Tunnel stradale
+#____________________________________vehicle____________________________________
+#____________________________________vehicle____________________________________
+1Ben140
+Bennhardt B-140 "Limet"
+1Bens155
+Bennhardt B-155 "Robo"
+1Benst134
+Bennhardt B-134 "Pixie"
+1Benst135t
+Bennhardt B-135 "Gremlin"
+1Benst138
+Bennhardt B-138 "Apple Pie"
+1Benst161
+Bennhardt B-161 "Turbo"
+1Benst162t
+Bennhardt B-162 "Jet"
+1Benst181
+Bennhardt B-181 "Gelding"
+1Benst238
+RVg-Bennhardt B-238 "Frog"
+1Benst281
+Bennhardt B-281 "Workhorse"
+1Dampflokomotive
+RVg 0-4-0T
+20ft_Container_Trailer-128set
+Rimorchio container 6 metri
+2Diesellokomotive
+H-Trans BR 218
+3Bens185
+Bennhardt B-185 "Santa"
+3Bens186t
+Bennhardt B-186 "Lemon"
+3Dampflokomotive
+RVg 0-3-0 "Chippy"
+40ft_Container_Trailer
+Rimorchio container 12 metri
+451_Head
+VTS, MEZ 451
+451_Tail
+VTS, MEZ 451 (coda)
+451_Waggon
+VTS, MEZ 451 (carrozza)
+471_Head
+CKD - Skoda 471
+471_Tail
+CKD - Skoda 471 (coda)
+471_Waggon
+CKD - Skoda 471 (carrozza)
+7BenE11
+Bennhardt E-11
+Aeroqueen_JR_Bus_Kanto
+Aeroqueen JR Bus Kanto
+Airport_express_shuttle
+Airport Express Shuttle Bus
+AR4_back
+Sharyo AR-4 "Kikin" (coda)
+AR4_front
+Sharyo AR-4 "Kikin" (testa)
+AR4_mid_engine
+Sharyo AR-4 "Kikin" (locomotore centrale)
+AR4_mid_trainer
+Sharyo AR-4 "Kikin" (carrozza)
+Asahi_Bus
+Asahi Bus
+Autotransportwagen
+Napik-Canonball Car Transporter
+BB-TS_Milk_Mack_Trailer
+BB-TS Milk Trailer (trasporto latte)
+Big_Bretterwagen
+RVg Big Planks Car (assi)
+Big_Erztruck
+MHz Big Ore Truck (minerali)
+Bretterwagen
+BB plank car (assi)
+Btx020
+OnD Btx020
+Budd_Coach
+Budd RPO carrozza passeggeri
+Budd_Observation
+Budd Dome Car
+Budd_RPO
+Budd RPO (posta)
+Bulk_Ship_0
+PMNV nave merci sfuse
+Bulk_trailer_0
+Shorty rimorchio merci sfuse
+Bulk_Truck_0
+Shorty-Volvo 800
+Bulk_Truck_2
+VSYS-Tatra 801
+Bulk_Truck_3
+VSYS-Tatra 815
+Bulk_Truck_4
+AvG-Volvo camion merci sfuse
+Bulker_Bulk
+BB nave cargo (sfuso)
+Bulker_Steel
+BB nave cargo (acciaio)
+Bulker_Wood
+BB nave cargo (legname)
+caboose_1
+RvG Caboose
+caboose_2
+RvG Caboose Multi
+caboose_3
+RvG Caboose Extra
+Car_Tramsport_Trailer_0
+TS rimorchio trasporto auto
+Car_Transporter_0
+TS rimorchio trasporto auto
+Car_Transporter_1
+RVg trasporto auto
+Car_Waggon_1
+RVg trasporto auto
+Car_Waggon_2
+RVg trasporto auto grande
+CB_ALBATROS
+RVg Skoda 498 "Albatros"
+CB_DB-130_8
+Canonball & H-Trans BRAW61000 "Taiga Drum"
+CD851
+OnD CD851
+Cement_Carrier_Fast
+Betoniera
+Cement_trailer_0
+PMNV rimorchio cemento
+Cement_Truck_0
+PMNV camion cemento
+Cement_Waggon_0
+BB-PMNV vagone cemento
+Cement_Waggon_1
+BB-PMNV vagone cemento
+Cementwagen
+SergeS cisterna cemento
+Ceres_Tender
+Ceres tender
+CKD_731
+CKD 731 "Spaghette"
+CKD_749
+CKD 749
+CKD_750
+CKD 750
+Concrete_Truck_0
+Autobetoniera S.Kroytor
+Concrete_Truck_1
+Autobetoniera VSYS-Tatra 815
+Concretewagen
+PMNV Concrete Mixer 12
+Concretewagen_1
+PMNV Concrete Mixer 16
+Container_Truck
+Camion Container
+Cooling_trailer_0
+PMNV rimorchio raffreddato
+Cooling_Truck_0
+PMNV camion refrigerato giallo
+Cooling_Truck_1
+PMNV camion refrigerato grigio
+Cooling_Truck_2
+S.Kroytor Gaz-4
+Cooling_wagon_0
+Canonball vagone refrigerato
+Cooling_wagon_1
+Carrozza container refrigerati
+Cooling_wagon_2
+Cannonball vagone refrigerato
+D231_back
+SHI D-231 (coda)
+D231_front
+SHI D-231 "Shy"
+D231_mid
+SHI D-231 (carrozza)
+Daisetsu_Maru
+Daisetsu Maru
+DB_ADm101
+Haru ADm101
+DB_Apmz121
+Haru Apmz121
+DB_Bm235
+Haru Bm235
+DB_BR103_1
+Haru BR-103
+Dc110
+Monatetsu KIHA 110-141
+Dc110_car
+Monatetsu KIHA 110-141 carrozza
+Dc22
+Kei Kiha22 "Green Class"
+DueWAG_GT6_motorwaggon
+Due WAG GT6
+DueWAG_GT6_tailwaggon
+Due WAG GT6 carrozza
+E_423
+Sindor E-432 - "Top class"
+Eiden_Deo_903-KIRARA
+Eiden-Deo 903-KIRARA
+Eiden_Deo_904-KIRARA
+Eiden-Deo 904-KIRARA (carrozza)
+EM400_1
+Sindor-FK EM400
+EMD_E5A_Silver_Meteor
+EMD E5A - Silver Meteor
+EMD_E5B_Silver_Comet
+EMD E5B - Silver Comet
+Europa_Car_Transporter
+TS-MHz Trasporto auto "Europa"
+Europa_Goods_Transporter
+TS-MHz Trasporto merci "Europa"
+Evil_BR153
+Evil BR 153/155 "Sprinter"
+Evil_BR170_Back
+Evil BR 170 (coda)
+Evil_BR170_Front
+Evil BR 170 "Turbostar"
+Evil_BR170_Mid
+Evil BR 170 (centro)
+Evil_BR357_Back
+Evil BR 357 (coda)
+Evil_BR357_Front
+Evil BR 357 "Electrostar"
+Evil_BR357_M
+Evil BR 357 (motrice)
+Evil_BR357_PT
+Evil BR 357 (pantografo)
+Evil_Daimler_DMS_Londoner
+Evil-Daimler DMS Londoner
+Evil_DF-11
+Evil DF-11
+Evil_Guy_Wulfrunian
+Evil-Guy Wulfrunian
+Evil_New_Flyer_D40-90
+Evil New Flyer D40-90
+Evil_P-100_(carriage)
+RVg P-100 (carrozza)
+Evil_P-100_(front_engine)
+RVg P-100
+Evil_P-100_(mail)
+Evil P-100 Vagone posta
+Evil_P-100_(rear_engine)
+RVg P-100 (coda)
+Evil_Scania_K94UB
+Evil-Scania K94UB
+Evil_Scania_K94UB_Liner
+Evil-Scania K94UB Liner
+Evil-AEC_RM
+Evil-AEC RM
+Evil-Cicu_L32_Liner
+Evil-Cicu L32 Liner
+Evil-Jitluen_67_Minibus
+Evil-Jitluen 67 Minibus
+Evil-Jitluen_Beluga_FA_MKD-12
+Evil-Jitluen Beluga FA MKD-12
+Evil-Jitluen_Beluga_FA_SR
+Evil-Jitluen Beluga FA SR
+Evil-Jitluen_Beluga_FA_SU-10
+Evil-Jitluen Beluga FA SU-10
+Express_tender
+Tender
+Fabric_Hopper_0
+PMNV Bed Car
+Fabric_Hopper_1
+Canonball-PMNV vagone tessuti
+Fabric_Truck_0
+PMNV camion tessuti
+FastFerry
+Hovermarine HM527 Hovercraft
+Ferry_Mail_Extension
+RVg-Sea Liner II
+Fishing_Boat_0
+LR peschereccio
+Fishing_Boat_1
+MHz peschereccio
+Fluid_trailer_0
+AJ Rimorchio petrolio
+Fluid_trailer_1
+AJ-PMNV Rimorchio petrolio
+Fluid_Truck_0
+Karl-Nissan Diesel Tank Lorry 1800
+Fluid_Truck_1
+Karl-Nissan Diesel Tank Lorry 1100
+Fluid_Truck_2
+S.Kroytor ZUK-20
+Fluid_Truck_3
+Magirus Oil Truck 1923
+Freighter_Goods
+BB nave portacontainer
+FUSO_Aeromidi_Keio_Bus
+FUSO Aeromidi Keio Bus
+FUSO_Aerostar_Kanachu_Bus
+FUSO Aerostar Kanachu Bus
+GALA_Kanto_Railway
+GALA Kanto Railway
+Goods_schiff
+JET trasporto coperto
+Goods_trailer_0
+Mitsubishi Fuso Super Truck rimorchio
+Goods_trailer_1
+Mitsubishi Fuso Super Truck rimorchio
+Goods_trailer_2
+PMNV rimorchio merci
+Goods_trailer_3
+PMNV rimorchio merci grande
+Goods_Truck_0
+Karl-Mitsubishi Fuso Super Truck
+Goods_Truck_1
+Karl-Mitsubishi Fuso Hyper Truck
+Goods_Truck_2
+PMNV camion merci
+Goods_Truck_3
+PMNV piccolo camion merci
+Goods_Truck_4
+PMNV camion turbo
+Goods_Truck_5
+S.Kroytor Gaz-4
+Goods_waggon_0
+Canonball camion chiuso
+Goods_waggon_1
+Cannonball vagone merci
+Goods_waggon_2
+PMNV vagone merci
+Goods_waggon_3
+Vagone merci
+Goods_waggon_4
+HS vagone merci
+Goods_waggon_5
+RVg vagone chiuso
+Grain_Ship_0
+PMNV trasporto grano
+Grain_trailer_0
+PMNV rimorchio grano classico
+Grain_Truck_1
+VSYS-Tatra 815 (grano)
+Grain_wagon_0
+Canonball vagone grano
+Grain_wagon_1
+Canonball vagone grano
+Haru_2C1_Cheetah
+Haru 2C1 "Ghepardo"
+Haru_2D1_Buffalo
+Haru 2D1 Buffalo
+Haru_Boeing747-200
+Haru Boeing 747-200
+Haru_Boeing747-200F_(CARGO)
+Haru Boeing 747-200 Cargo
+Haru_Boeing747-200F_(MAIL)
+Haru Boeing 747-200 (Posta)
+Haru_Boeing747-400
+Haru Boeing 747-400 "Jumbo"
+Haru_C44-9W
+Haru C44-9W - Dash
+Haru_DF4
+Haru DF4
+Haru_E3_KOMACHI
+Haru E3 "Komachi"
+Haru_E3_KOMACHI_(mid)
+Haru E3 "Komachi" (centro)
+Haru_E3_KOMACHI_(rear)
+Haru E3 "Komachi" (retro)
+Haru_E3_KOMACHI_(Trailer)
+Haru E3 "Komachi" (carrozza)
+Haru_F7A
+Haru F7 A
+Haru_F7B
+Haru F7 B
+Haru_HST
+Haru HST
+Haru_HST_mid
+Haru HST (carrozza)
+Haru_HST_rear
+Haru HST (coda)
+Haru_Spike-PSE_Head1
+Haru Spike PSE (testa)
+Haru_Spike-PSE_Head2
+Haru Spike PSE (testa)
+Haru_Spike-PSE_Tail1
+Haru Spike PSE (coda)
+Haru_Spike-PSE_Tail2
+Haru Spike PSE (coda)
+Haru_Spike-PSE_Waggon
+Haru Spike PSE (carrozza)
+Haru_Tatra-T3
+Haru Tatra T3
+Haru_Tender
+Haru Tender
+Haru_VT98
+Haru VT98 (locomotore)
+Haru_VT98_car
+Haru VT98 (carrozza)
+Haru-373
+Haru 373
+Haru-373_car
+Haru 373 (carrozza)
+Haru-373_tail
+Haru 373 (coda)
+Haru-ACE1_Head
+Haru ACE (testa)
+Haru-ACE1_Tail
+Haru ACE (coda)
+Haru-ACE1_Waggon1
+Haru ACE (carrozza)
+Haru-ACE1_Waggon2
+Haru ACE (carrozza ristorante))
+Haru-ACE1_Waggon3
+Haru ACE (posta)
+Haru-BR182_Taurus
+OeBB Reihe 1016 "Toro"
+Haru-IC3
+Haru IC-3 (testa)
+Haru-IC3_car
+Haru IC-3 (carrozza)
+Haru-IC3_tail
+Haru IC-3 (coda)
+Haru-PlanV
+Haru Plan V.
+Haru-PlanV(rear)
+Haru Plan V. (coda)
+Haru-PMNV_F7-Coach
+Haru-PMNV F7 (carrozza)
+Haru-PMNV_F7-Mail_Car
+Haru-PMNV F7 (posta)
+Haru-TEM2
+Haru TEM-2
+Haru-X2000
+Haru X2000 (testa)
+Haru-X2000_mid
+Haru X2000 (carrozza)
+Haru-X2000_rear
+Haru X2000 (coda)
+HIBARI-YS-11-100
+Hibari-YS-11-100
+HIBARI-YS-11A-200
+Hibari-YS-11A-200
+HIBARI-YS-11A-400_Cargo
+Hibari-YS-11A-400 (cargo)
+HIBARI-YS-11A-400_Mail
+Hibari-YS-11A-400 (posta)
+HIBARI-YS-11A-500
+Hibari-YS-11A-500
+Highway_Postal_Truck
+Camion autostradale posta
+Hikyaku_Truck
+Hikyaku camion merci
+Holzwagen
+Vagone per assi legno
+Holzwagen_0
+RVg vagone assi legno
+Holzwagen_1
+RVg vagone assi legno
+ISUZU_Erga_Odakyu_Bus
+ISUZU Erga Odakyu Bus
+JNR_B6
+JNR B6
+JNR_C11
+Nabe-JNR SL C11
+JNR_C62
+Nabe-JNR SL C62
+JNR_D51
+Nabe-JNR SL D51
+JNR_DD51
+Haru DD51
+JNR_tender_S
+JNR Tender
+JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
+JR 700 Series Shinkansen "Hikari Rail Star"
+JR_700_Shinkansen_HRS_(Middle_Section)_PC
+JR 700 Series Shinkansen HRS (centrale)
+JR_700_Shinkansen_HRS_(Pantograph_I)_PC
+JR 700 Series Shinkansen HRS (pantografo I)
+JR_700_Shinkansen_HRS_(Pantograph_II)_PC
+JR 700 Series Shinkansen HRS (pantografo II)
+JR_700_Shinkansen_HRS_(Tailcar)_PC
+JR 700 Series Shinkansen HRS (coda)
+JR_Shinkansen_723
+Monatetsu Shinkansen Series 700
+JR_Shinkansen_724
+Monatetsu Shinkansen Series 700 (coda)
+JR_Shinkansen_725
+Monatetsu Shinkansen Series 700 (pantografo)
+JR_Shinkansen_726
+Monatetsu Shinkansen Series 700 (carrozza)
+JRF_EF210
+Monatetsu JRF EF210
+JRW_281
+JRW 281
+JRW_281_Mid
+JRW 281 (centrale)
+JRW_281_tail
+JRW 281 (coda)
+JRW_Mc123
+939-JRW Mc123
+kagoshima_U-tram
+713-Kagoshima 1000 "U-tram"
+Karl_MCW_Super_Metrobus_12m
+Karl-MCW Super Metrobus 12m
+Karl-MCW_Super_Metrobus_12M-158
+Karl-MCW Super Metrobus 12M 158
+Karl-MCW_Super_Metrobus_12M-214
+Karl-MCW Super Metrobus 12M 214
+KC-B10M_Keisei_Bus
+KC-B10M Keisei Bus
+KC-B10M_Keisei_Bus_Extension
+KC-B10M Keisei Bus Rimorchio
+KEIFUKU_Mobo101
+KEIFUKU Mobo101
+KEIFUKU_Mobo301
+KEIFUKU Mobo301
+KEIHAN_type80
+KEIHAN type80 tram
+Kord_TT_bulk
+Kord TT (sfuso)
+Kord_TT_fabric
+Kord TT (cotone)
+Kord_TT_grain
+Kord TT (grano)
+Kuro-Neko_Truck
+Kuro-Neko camion merci
+Leyland_Olympian
+Karl-Leyland Olympian 11M
+MA461_waggon
+RVg-DB MA-461 (carrozza)
+Mack_Truck_0
+Teddy's Mack motrice
+Mack_Truck_2
+Mack motrice
+Mack_Truck_Cooling_Trailer
+Mack rimorchio refrigerato
+Mack_Truck_Goods_Trailer
+Mack rimorchio merci
+Mack_Truck_Post_Trailer
+PMNV rimorchio posta
+Mail_Truck_2
+MHz Windstar (posta)
+Marks_Passagierwagen
+MJHN Express carrozza
+Marks_Postwagen
+MJHN Express vagone posta
+Marks-Deltic
+MJHN Deltic
+MHz_Grain_Trailer_0
+MHz rimorchio grano
+MHz_Long_Wood_Trailer
+MHz rimorchio assi
+MHz_Tractor
+MHz Trattore
+MHz_Tractor_2
+MHz-JD trattore
+MHz_TRAM_1930
+MHz T-113
+MHz_TRAM_1980
+MHz T-235 SuperCity
+MHz-C11C_Bulk_Barge
+MHz C11C barcone merce grezza
+MHz-C11C_Wood_Barge
+MHz C11C barcone legno
+MHz-C130_Hercules
+MHz C-130 Herkules (merci)
+MHz-C130_Hercules_(cooled)
+MHz C-130 Herkules (merci refrigerate)
+MHz-C273U_Cement_Barge
+MHz-C273U barcone cemento
+MHz-C35_Goods_Barge
+MHz-C35 barcone merci
+MHz-C3P_Post_Barge
+MHz-C3P barcone postale
+MHz-CC47_Container_Barge
+Mhz-CC47 Portacontainer
+MHz-Fokker_F27
+MHz Fokker F27
+MHz-Il-76_Candid
+MHz Il-76 Candid
+MHz-Ju-51
+MHz Ju-51
+MHz-McDonnell-Douglas_DC10
+MHz-McDonnell Douglas DC-10
+MHz-McDonnell-Douglas_DC3
+MHz-McDonnell Douglas DC-3 Dakota
+MHz-MT7_Milk_Barge
+Haru MT7 barcone latte
+MHz-OT5_Oil_Barge
+MHz OT5 barcone petrolio
+MHz-P11C_Bulk_Boat
+MHz-P11C merce grezza
+MHz-P11C_Wood_Boat
+MHz P11C legno
+MHz-R2A_Push-Tug
+MHz R2A rimorchiatore
+Milk_Truck_0
+PMNV cisterna latte
+Milk_Truck_1
+S.Kroytor-ZIL trasporto latte
+Milk_Truck_2
+Magirus camion latte
+Milk_Waggon_0
+BB cisterna latte Mk.2
+Milk_Waggon_1
+BB cisterna latte
+mja-MAN19332-128set
+mja-MAN 19332
+mja-ScaniaP380_fabrics
+Scania P380 (cotone)
+mja-ScaniaP380_tanker
+Scania P380 cisterna
+mja-ScaniaP420_concretemixer
+Scania P420 (cemento)
+mja-ScaniaP420_longgoods
+mja-Scania P380 (assi legno)
+mja-ScaniaR500Topline
+mja-Scania R500 Topline
+mja-ScaniaR500Topline_cooledgoods
+mja-Scania R500 Topline (merci raffreddate)
+mja-ScaniaR500Topline_goods
+mja-Scania R500 Topline (merci)
+mja-ScaniaR620Topline
+Scania R620 Topline
+mja-volvof88-128set
+mja-Volvo F88
+mja-volvoVN660
+mja-Volvo VN660
+mja-Zil130-128set
+mja-Zil 130
+moha2100
+Moha 2100
+Monatetsu_Steam_Ceres
+Monatetsu Ceres
+MS_Hino_goods Truck
+MS-Hino camion
+MS_sprinter_mail
+MS-Sprinter Van posta
+nankai21K_Front
+Haguruma Nankai 21000 "Zoom Car"
+nankai21K_Rear
+Haguruma Nankai 21000 (coda)
+Nankai6K_E
+Haguruma Nankai 6000 (coda)
+Nankai6K_M
+Haguruma Nankai 6000
+Nankai6K_T
+Haguruma Nankai 6000 (carrozza)
+Nishitetsu_Truck
+Nishitetsu camion
+Oeltankschiff
+LMP Petroliera
+Oelwagen
+Shorty-MAVA Cisterna 30
+Oelwagen_0
+Shorty cisterna petrolio
+Oelwagen_1
+Shorty vagone trasporto fluidi
+OER_D_3000_Head
+Monatetsu OER-D 30000
+OER_D_3000_Tail
+Monatetsu OER-D 30000 (coda)
+OER_D_3000_Waggon
+Monatetsu OER-D 30000 (carrozza)
+okaden_type9200_momo_A
+713-Okaden 9200 "MOMO"
+okaden_type9200_momo_B
+713-Okaden 9200 "MOMO" (coda)
+Old_Ferry_0
+RMS Ocean Queen "Titanic"
+Passagierwagen
+Canonball BTx 060 carrozza 2 classe
+Passanger_waggon_0
+Nabe-JNR OHA 31 carrozza passeggeri in acciaio
+Passanger_waggon_1
+Haru OHAFU 50 carrozza 2 classe
+Passanger_waggon_2
+Nabe-JNR ORO 40 carrozza 2° classe
+Passanger_waggon_3
+RA BTx 050 carrozza 2° classe
+Passanger_waggon_MAITE39
+Nabe-JNR MAITE 39 carrozza 1° classe
+Pelican_Truck
+Pelican camion (merci)
+Planck_Truck_0
+PMNV-Canonball camion (assi legno)
+Plank_Truck_2
+VSYS-Tatra 815 (assi legno)
+Plank_waggon_0
+RVg vagone piccolo assi legno
+Plank_waggon_1
+Vagone assi legno
+PMNV_50_Mack
+PMNV 1950's Mack
+PMNV_Canonball_Car_Trailer
+PMNV-Canonball Mack rimorchio auto
+PMNV_Cement_Trailer_Slow
+PMNV CT-2 rimorchio cemento
+PMNV_Cement_Truck_P
+PMNV CTr-2 camion cemento
+PMNV_Concrete_Truck
+PMNV Mack camion calcestruzzo
+PMNV_Cruiser
+Cruiser
+PMNV_Cruiser_Mini
+Mini Cruiser
+PMNV_Fabric_Trailer_0
+PMNV rimorchio chiuso cotone
+PMNV_Fabric_Trailer_1
+PMNV rimorchio aperto cotone
+PMNV_Goods_Ship
+PMNV nave portacontainer (merci)
+PMNV_Grain_Truck_0
+PMNV rimorchio grano classico
+PMNV_Hydrogen_Cruiser
+PMNV Cruiser a idrogeno
+PMNV_International_Cabover
+PMNV cabina superiore internazionale
+PMNV_Mack_Bulk_Trailer_0
+PMNV Mack rimorchio sfusi 22
+PMNV_Mack_Cement_Trailer_L
+PMNV Mack rimorchio cemento "L"
+PMNV_Mack_Cement_Trailer_S
+PMNV Mack rimorchio cemento "S"
+PMNV_Mack_Concrete_Trailer_O
+PMNV Mack rimorchio calcestruzzo
+PMNV_Mack_cooled_Trailer_O
+PMNV Mack rimorchio refrigerato
+PMNV_Mack_Cotton_Trailer_0
+PMNV Mack rimorchio cotone
+PMNV_Mack_Fabric_Trailer_O
+PMNV Mack rimorchio corto cotone
+PMNV_Mack_Goods_Trailer_O
+PMNV Mack rimorchio merci
+PMNV_Mack_Grain_Trailer_0
+PMNV Mack rimorchio grano
+PMNV_Mack_Grain_Trailer_O
+PMNV Mack rimorchio grano
+PMNV_Mack_Log_Trailer_L
+PMNV Mack rimorchio legno
+PMNV_Mack_Log_Trailer_M
+PMNV Mack rimorchio legno "M"
+PMNV_Mack_Log_Trailer_S
+PMNV Mack rimorchio legno "S"
+PMNV_Mack_Milk_Trailer_O
+PMNV Mack rimorchio latte
+PMNV_Mack_Oil_Trailer_L
+PMNV Mack rimorchio petrolio "L"
+PMNV_Mack_Oil_Trailer_S
+PMNV Mack rimorchio petrolio "S"
+PMNV_Mack_Planck_Trailer_0
+PMNV Mack rimorchio assi legno
+PMNV_Mack_Post_Trailer_O
+PMNV Mack rimorchio posta
+PMNV_Mack_Steel_Trailer_L
+Mack rimorchio acciaio "L"
+PMNV_Mack_Steel_Trailer_S
+Mack rimorchio acciaio "S"
+PMNV_Mail_Truck_1
+PMNV camion postale 60
+PMNV_Mail_Truck_2
+PMNV camion postale 77
+PMNV_MHz_Truck_0
+PMNV MHz Cabover 145
+PMNV_Milk_Trailer_0
+PMNV rimorchio latte
+PMNV_Open_Goods_Trailer_L
+PMNV Mack rimorchio merci "O-L"
+PMNV_Open_Goods_Trailer_S
+PMNV Mack rimorchio merci "O-S"
+PMNV_Plank_Trailer_0
+PMNV rimorchio assi legno
+PMNV_Post_Trailer_0
+PMNV rimorchio posta
+PMNV_Steel_Trailer_0
+PMNV rimorchio acciaio
+PMNV_TC-119-Snake
+PMNV TC-119 Snake (vettura A)
+PMNV_TC-119-Snake_b
+PMNV TC-119 Snake (vettura B)
+PMNV_TC-44-Hydrogen_Car
+PMNV TC-44 H2 (vettura A)
+PMNV_TC-44-Hydrogen_Car_b
+PMNV TC-44 H2 (vettura B)
+PMNV_TC-7_Astro_Trolley
+PMNV TC-7 Astro Trolley
+PMNV-PB1970
+PMNV PB-1970
+PMNV-TC-1_Turbo_Car
+PMNV TC-1 TurboCar
+PMNV-TC-112-Hyper_Car
+PMNV TC-112 HyperCar
+PMNV-TC-2_Turbo_Set
+PMNV TC-2 TurboSet
+PMNV-TC-2_Turbo_Set_b
+PMNV TC-2 TurboSet (carrozza)
+PMNV-TC-2_Turbo_Set_c
+PMNV TC-2 TurboSet (coda)
+PMNV-TC-5P_Mail_Man
+PMNV TC-5P "Postino"
+Post_Barge
+MHz nave postale
+Post_Ship
+PMNV Nave postale
+Post_waggon_0
+PV 80 vagone postale
+Postwagen
+H-Trans vagone per posta/bagagli
+Praga_Bus
+Praga Bus 1919
+Praga_N_bulk
+Sindor-Praga N (sfusi)
+Praga_N_cement
+Sindor-Praga N (cemento)
+Praga_N_Cistern
+Sindor-Praga N (cisterna)
+Praga_N_milk
+Sindor-Praga N (latte)
+Praga_TOT_128
+Praga TOT
+R_01
+RVg R1 carrozza
+R_02
+RVg R2 carrozza
+RVg_0-1-4-0
+RVg 0-1-4-0
+RVg_1064_White_Bulk
+RVg-White 1064 (sfuso)
+RVg_1064_White_Cement
+RVg-White 1064 (cemento)
+RVg_1064_White_Cooled
+RVg-White 1064 (refrigerato)
+RVg_1064_White_Fluid
+RVg-White 1064 (cisterna)
+RVg_1064_White_Goods
+RVg-White 1064 (merci)
+RVg_1945_box_car
+RVg vagone merci (1945/23)
+RVg_1951_box_car
+RVg vagone merci (1951/24)
+RVg_1955_box_car
+RVg vagone merci (1955/24)
+RVg_1962_box_car
+RVg vagone merci (1962/24)
+RVg_1969_box_car
+RVg vagone merci (1969/25)
+RVg_1976_box_car
+RVg vagone merci (1976/26)
+RVg_1983_box_car
+RVg vagone merci (1983/26)
+RVg_1989_container_car
+RVg vagone container (1989/27)
+RVg_1994_container_car
+RVg vagone container (1994/27)
+RVg_2000_container_car
+RVg vagone container (2000/27)
+RVg_2006_container_car
+RVg vagone container (2006/27)
+RVg_2011_container_car
+RVg vagone container (2011/27)
+RVg_A318-100
+RVg A318-100
+RVg_A380
+RVg A-380
+RVg_Bulk_Waggon_00
+RVg vagone sfusi (1850/20)
+RVg_Bulk_Waggon_01
+RVg vagone sfusi (1932/23)
+RVg_Bulk_Waggon_02
+RVg vagone sfusi (1945/25)
+RVg_Bulk_Waggon_03
+RVg vagone sfusi (1962/28)
+RVg_Bulk_Waggon_04
+RVg vagone sfusi (1978/30)
+RVg_Bulk_Waggon_05
+RVg vagone sfusi (1995/32)
+RVg_Bulk_Waggon_06
+RVg vagone sfusi (2019/35)
+RVg_Cementwagen
+RVg vagone cemento
+RVg_Comet
+RVg Comet
+RVg_Cooling_car
+RVg vagone refrigerato
+RVg_Daylight
+RVg Daylight
+RVg_Daylight_dome
+RVg Daylight (carrozza ristorante)
+RVg_Daylight_end
+RVg Daylight (carrozza coda)
+RVg_Daylight_post
+RVg Daylight (vagone postale)
+RVg_Daylight_tender
+RVg Daylight (tender)
+RVg_Daylight_waggon
+RVg Daylight (carrozza)
+RVg_early_milk_waggon
+RVg vagone cisterna latte
+RVg_F-27
+RVg F-27
+RVg_Flyer-W8B
+RVg W8B Idrovolante
+RVg_Flying_Berliner_(front)
+RVg "Flying Berliner"
+RVg_Flying_Berliner_(tail)
+RVg "Flying Berliner" (coda)
+RVg_Hiawatha
+RVg Hiawatha Express
+RVg_Hiawatha_dome
+RVg Hiawatha Express (carrozza ristorante)
+RVg_Hiawatha_end
+RVg Hiawatha Express (coda)
+RVg_Hiawatha_post
+RVg Hiawatha Express (vagone postale)
+RVg_Hiawatha_tender
+RVg Hiawatha Express (tender)
+RVg_Hiawatha_waggon
+RVg Hiawatha Express (carrozza)
+RVg_Ju52
+RVg Ju-52
+RVg_M1
+Rvg M1
+RVg_M1_tail
+Rvg M1 (coda)
+RVg_M1_waggon
+Rvg M1 (carrozza)
+RVg_O-2-4-0
+RVg 2-4-0 "Express"
+RVg_Passanger_Trailer
+RVg-KS rimorchio passeggeri
+RVg_Post_Trailer
+RVg-KS rimorchio postale
+RVg_Post_Truck_0
+RVg-KS 4051 camion postale
+RVg_Post_Truck_1
+RVg-KS 9051 camion postale
+RVg_R-100_(carriage)
+RVg R-100 (carrozza)
+RVg_R-100_(front_engine)
+RVg R-100
+RVg_R-100_(mail)
+RVg R-100 (vagone postale)
+RVg_R-100_(rear_engine)
+RVg R-100 (coda)
+RVg_Spike_Duplex
+RVg Spike Duplex
+RVg_Spike_Duplex_tail
+RVg Spike Duplex (coda)
+RVg_Spike_Duplex_waggon
+RVg Spike Duplex (carrozza)
+RVg_Thunder_2
+RVg Thunder II
+RVg_Thunder_2_Back
+RVg Thunder II (coda)
+RVg_Thunder_2_post
+RVg Thunder II (vagone postale)
+RVg_Thunder_2_wagon
+RVg Thunder II (carrozza)
+RVg_Tigress
+RVg Tigress
+RVg_Tigress_Back
+RVg Tigress (coda)
+RVg_Tigress_post
+RVg Tigress (vagone postale)
+RVg_Tigress_wagon
+RVg Tigress (carrozza)
+RVg_Type_S_Bulk
+RVg Type-S sfusi
+RVg_Type_S_Cement
+RVg Type-S cemento
+RVg_Type_S_Cistern
+RVg Type-S cisterna
+RVg_Type_S_Post
+RVg Type-S postale
+RVg_Type_S_Van
+RVg Type-S merci
+RVg-0-4-4-0
+RVg 0-4-4-0 - Eight Wheeler
+RVg-1-4-1
+RVg 1-4-1 Bully
+RVg-1-5-0-Goliath
+RVg 1-5-0 Goliath
+RVg-2-3-0
+RVg 2-3-0
+RVg-2-3-1
+RVg 2-3-1 Slim Line
+RVg-2-4-0
+RVg 2-4-0 Runner
+RVg-2-5-1
+RVg 2-5-1 "Braccio muscoloso"
+RVg-B_101
+RVg B22 "Bus regale"
+RVg-B_107
+RVg B149 "Nano rosso"
+RVg-Bulk_Freighter
+RVg nave merci
+RVg-D22-Rola
+RVg D22 "Rola"
+RVg-D23-Camel
+RVg D23 "Cammello"
+RVg-D41-Tubus
+RVg D41 "Tubus"
+RVg-DB_MA461
+RVg-DB MA-461
+RVg-DB_MA461_Tail
+RVg-DB MA-461 (coda)
+RVg-E17-Spring
+RVg E17 "Primavera"
+RVg-Express_Tender
+RVg Express Tender
+RVg-G5_Posttaxi
+RVg G5 postale
+RVg-Goods_Liner
+RVg S-12 Cargo Bull
+RVg-Goods_waggon
+RVg vagone merci
+RVg-Heavy-Tender
+RVg tender pesante
+RVg-KS_4510-33
+RVg-KS 33
+RVg-KS_4510-45
+RVg-KS 45
+RVg-KS_4510-69
+RVg-KS 69
+RVg-KS_9020-31
+RVg-KS 9020-31
+RVg-KS_9020-58
+RVg-KS 9020-58
+RVg-KS_9020-92
+RVg-KS 9020-92
+RVg-LK_Cement_Truck
+RVg-LK V44 camion cemento
+RVg-LK_Cooling_Truck
+RVg-LK V44 camion refrigerato
+RVg-LK_Fabric_Truck
+RVg-LK V32 camion cotone
+RVg-LK_Goods_Truck
+RVg-LK camion merci
+RVg-LK_Grain_Truck
+RVg-LK V41 camion grano
+RVg-LK_Plank_Truck
+RVg-LK V37 camion assi legno
+RVg-LK_Steel_Truck
+RVg-LK V38 camion acciaio
+RVg-Lockheed_Constellation
+RVg Lockheed EC-121 Constellation
+RVg-Oil-Tender
+RVg tender petrolio
+RVg-Pioneer_Alladin
+RVg Pioneer Alladin
+RVg-Pioneer_Alladin_rear
+RVg Pioneer Alladin (coda)
+RVg-Pioneer_Alladin_supply
+RVg Pioneer Alladin (carrozza motrice)
+RVg-Pioneer_Alladin_waggon
+RVg Pioneer Alladin (carrozza)
+RVg-RHF401
+RVg-RHF 401 "Coccodrillo"
+RVg-S004-Little_Boy
+RVg S004 "Ragazzino"
+RVg-S033-Red_Dwarf
+RVg S033 "Nano rosso"
+RVg-S127-Blue_Cow
+RVg S127 "Mucca blu"
+RVg-Sail_Goods_Ship_0
+RVg nave mercantile
+RVg-Sail_Passanger_Ship_0
+RVg nave passeggeri
+RVg-Sea_Liner
+RVg Sea Liner
+RVg-Sea_Liner_II
+RVg Sea Liner II
+RVg-Steam_Goods_Ship_0
+RVg piroscafo merci
+RVg-Steam_Passanger_Ship_0
+RVg piroscafo passeggeri
+RVg-Steel_Hauler
+RVg nave trasporto acciaio
+RVg-Tanker
+RVg nave cisterna
+RVg-Tender
+RVg Tender
+RVg-Wood_Hauler
+RVg nave trasporto legna
+RX_1064
+RX 1064 Bus
+S_Kroytor_Gaz-2
+Gaz-2
+S_Kroytor_Gaz-3
+Gaz-3
+S_Kroytor_Gaz-4
+Gaz-4
+S_Kroytor_Ikarus-260
+Ikarus-260
+S_Kroytor_Ikarus-260(l)
+Ikarus-260 liner
+S_Kroytor_Ikarus-280
+Ikarus 280
+S_Kroytor_Ikarus-280_ext
+Ikarus 280 estensione
+S_Kroytor_LiAZ-5256
+LIAZ 5256
+S_Kroytor_LiAZ-677
+LIAZ 677
+S_Kroytor_Mercedes_Citaro
+Mercedes Citaro
+S_Kroytor_PAZ-672
+PAZ 672
+S_Kroytor_PAZ-772
+PAZ 772
+S_Kroytor_Traveler
+Traveler
+SAC-Aerospatiale_Concorde_128_set
+SAC-Aerospatiale Concorde
+SAC-Airbus_A300-600C_128_set
+SAC-Airbus A300-600C (refrigerato)
+SAC-Airbus_A300-600F_128_set
+SAC-Airbus A300-600F (merci)
+SAC-Airbus_A300-600P_128_set
+SAC-Airbus A300-600P (postale)
+SAC-Airbus_A300-B4_128_set
+SAC-Airbus A300-B4
+SAC-Airbus_A310-200_128_set
+SAC-Airbus A310-200
+SAC-Airbus_A310-200C_128_set
+SAC-Airbus A310-200 (carne)
+SAC-Airbus_A310-200F_128_set
+SAC-Airbus A310-200 (scatolame)
+SAC-Airbus_A310-200P_128_set
+SAC-Airbus A310-200 (postale)
+SAC-Airbus_A320-200_128_set
+SAC-Airbus A320-200
+SAC-Airbus_A330-200_128_set
+SAC-Airbus A330-200
+SAC-Airbus_A340-300_128_set
+SAC-Airbus A340-300
+SAC-Airbus_A380-800_128_set
+SAC-Airbus A380-800
+SAC-Airbus_A380-800C_128_set
+SAC-Airbus A380-800 (carne)
+SAC-Airbus_A380-800F_128_set
+SAC-Airbus A380-800 (cibo in scatola)
+SAC-Airbus_A380-800P_128_set
+SAC-Airbus A380-800 (postale)
+SAC-Boeing_707_128_set
+SAC-Boeing 707
+SAC-Boeing_727_128_set
+SAC-Boeing 727
+SAC-Boeing_737_128_set
+SAC-Boeing 737
+SAC-Boeing_747-200_128_set
+SAC-Boeing 747-200
+SAC-Boeing_747-200F_128_set
+SAC-Boeing 747-200F (merci)
+SAC-Boeing_747-200P_128_set
+SAC-Boeing 747-200P (postale)
+SAC-Boeing_747-400_128_set
+SAC-Boeing 747-400
+SAC-Boeing_777_128_set
+SAC-Boeing 777
+SAC-De_Havilland_Comet_128_set
+SAC-De Havilland Comet
+SAC-Douglas_DC-3_128_set
+SAC-Douglas DC-3
+SAC-Fokker_F-27_128_set
+SAC-Fokker F-27
+SAC-Fokker_F-27_Mail_128_set
+SAC-Fokker F-27 (postale)
+SAC-Handley_Page_W8B_128_set
+SAC-Handley Page W8B
+SAC-Ilyushin_IL-76_Candid_128_set
+SAC-Ilyushin IL-76 "Candido"
+SAC-Junkers_Ju-52_128_set
+SAC-Junkers Ju-52
+SAC-Junkers_Ju-52_Mail_128_set
+SAC-Junkers Ju-52 (postale)
+SAC-Lockheed_C-130C_Hercules_128_set
+SAC-Lookheed C130 Hercules (carne)
+SAC-Lockheed_C-130F_Hercules_128_set
+SAC-Lookheed C130 Hercules (cibo in scatola)
+SAC-Lockheed_Constellation_128_set
+SAC-Lockheed Constellation
+SAC-McDonnell_Douglas_DC-10_128_set
+SAC-McDonnell Douglas DC-10
+SAC-Rohrbach_Rocco_128_set
+SAC-Rohrbach Rocco
+Sail_Post_Ship_0
+Nave postale a vela
+SBB_IC2k
+SBB IC2
+SBB_IC2k_bistro
+SBB IC2 (carrozza ristorante)
+SBB_IC2k_tail
+SBB IC2 (coda)
+SBB_IC2k_waggon
+SBB IC2 (carrozza)
+SBB_Re4_4_II
+Haru-SBB Re 4/4 II
+SBB_Re460
+SBB Re 460
+SBB_Re6_6
+Haru-SBB Re 6/6 - "Gotthardlok"
+Seagull_Car
+Monatetsu MCM "Gabbiano" (carrozza)
+Seagull_Head
+Monatetsu MCM "Gabbiano"
+Seagull_Motor
+Monatetsu MCM "Gabbiano" (pantografo)
+Seagull_Tail
+Monatetsu MCM "Gabbiano" (coda)
+Sentinel_Cement_Lorry
+Sindor-Sentinel (cemento)
+Sentinel_Cement_Trailer
+Sentinel rimorchio (cemento)
+Sentinel_Goods_Lorry
+Sindor-Sentinel (merci)
+Sentinel_Goods_Trailer
+Sentinel rimorchio (merci)
+Sentinel_Wood_Lorry
+Sindor-Sentinel legna
+Sentinel_Wood_Trailer
+Sentinel rimorchio (legna)
+Shinkansen_500_Head
+Monatetsu Shinkansen Series 500 "Nozomi"
+Shinkansen_500_Pantograph
+Monatetsu Shinkansen Series 500 "Nozomi" (pantografo)
+Shinkansen_500_Tail
+Monatetsu Shinkansen Series 500 "Nozomi" (coda)
+Shinkansen_500_Waggon
+Monatetsu Shinkansen Series 500 "Nozomi" (carrozza)
+Shinkansen_series0_back
+Kikin Shinkansen Series0 (coda)
+Shinkansen_series0_front
+Kikin Shinkansen Series0
+Shinkansen_series0_mid
+Kikin Shinkansen Series0 (centrale)
+Sindor-Rohrbach_Rocco
+Sindor-Rohrbach Rocco Idrovolante
+SK_Mail_Truck_1
+S.Kroytor camion postale
+skoda_1_tr_128
+Skoda 1 tr
+skoda_10_tr_128
+Skoda 10 tr
+skoda_10_tr_rear_128
+Skoda 10 tr (coda)
+Skoda_109E
+Sindor-Skoda 109E
+skoda_11_tr_128
+Skoda 11 tr
+skoda_12_tr_128
+Skoda 12 tr
+skoda_14_tr_128
+Skoda 14 tr
+skoda_18_tr_128
+Skoda 18 tr
+skoda_18_tr_rear_128
+Skoda 18 tr (coda)
+skoda_19_tr_128
+Skoda 19 tr
+skoda_19_tr_mid_128
+Skoda 19 tr (centrale)
+skoda_19_tr_rear_128
+Skoda 19 tr (retro)
+skoda_21_tr_128
+Skoda 21 tr
+skoda_22_tr_128
+Skoda 22 tr
+skoda_22_tr_rear_128
+Skoda 22 tr (coda)
+skoda_23_tr_128
+Skoda 23 tr
+skoda_23_tr_mid_128
+Skoda 23 tr (centrale)
+skoda_23_tr_rear_128
+Skoda 23 tr (coda)
+skoda_24_tr_128
+Skoda 24 tr
+skoda_25_tr_128
+Skoda 25 tr
+skoda_25_tr_rear_128
+Skoda 25 tr (coda)
+skoda_6_tr_128
+Skoda 6 tr
+Skoda_706_grain
+Sindor-Skoda 706 (grano)
+Skoda_706_trailer_grain
+Sindor-Skoda 706 rimorchio (grano)
+skoda_8_tr_128
+Skoda 8 tr
+skoda_sanos_115_tr_128
+Skoda Sanos 115 tr
+skoda_sanos_200_tr_128
+Skoda Sanos 200 tr
+skoda_sanos_200_tr_rear_128
+Skoda Sanos 200 tr (coda)
+skoda151
+Skoda 151
+skoda163
+Skoda 163
+skoda180
+Skoda 180
+Stahlwagen
+Canonball vagone acciaio
+Stahlwagen_0
+Canonball vagone acciaio
+Stahlwagen_1
+RVg vagone acciaio
+Stahlwagen_2
+RVg vagone acciaio
+Stahlwagen_3
+RVg vagone piastre acciaio
+Steel_Truck_0
+PMNV camion acciaio
+Super_Citybus_1
+Super Citybus I
+T_101
+RVg T101
+T_102
+RVg T102
+T_103
+RVg T103
+T_104
+RVg T104
+T_105
+RVg T105
+T_106
+RVg T106
+T_107A
+RVg T107
+T_107B
+RVg T107 (coda)
+T_108A
+RVg T108
+T_108B
+RVg T108 II (coda)
+T_109A
+RVg T109
+T_109B
+RVg T109 (coda)
+T_110A
+RVg T110
+T_110B
+RVg T110 (coda)
+TATRA_400_T_128
+Tatra 400 T
+TATRA_401_T_128
+Tatra 401 T
+TATRA_86_T_128
+Tatra 86 T
+Thunder_(front_engine)
+BB Thunder
+Thunder_(mail)
+BB Thunder (vagone postale)
+Thunder_(rear_engine)
+BB Thunder (coda)
+Thunder_(waggon)
+BB Thunder (carrozza)
+Tobu_Bus
+Tobu Bus
+Tobu_Dial_Bus
+Tobu Dial Bus
+Tobu_Highway_Bus
+Tobu Bus autostradale
+Tobu_Truck
+Tobu camion merci
+TS_Mack_Bulk_Trailer_0
+TS leggero rimorchio merci sfuse
+TS_Mack_Bulk_Trailer_1
+TS rimorchio merci sfuse
+TS_Mack_Container_Trailer_S
+TS piccolo rimorchio container
+TS_Ocean_Liner
+TS Ocean Liner
+TS_Ocean_Star
+TS Ocean Star
+TS-MHZ_Schoner
+TS-MHz Caravella
+UD_Nonstep_Tokyu_Bus
+UD Tokyo Bus senza scalino
+Vitus-AVECO_Eurocargo_Bretter
+Vitus-Aveco Eurocargo (assi)
+Vitus-AVECO_Eurocargo_bulk_transporter
+Vitus-Aveco Eurocargo (merci sfuse)
+Vitus-AVECO_Eurocargo_freezing
+Vitus-Aveco Eurocargo (refrigerato)
+Vitus-AVECO_Eurocargo_tanker
+Vitus-Aveco Eurocargo (cisterna)
+Vitus-AVECO_Eurocargo_transporter
+Vitus-Aveco Eurocargo (pacchi)
+VSYS_Car_Trailer_0
+VSYS heavy cargo trailer - auto e mezzi d'opera
+VSYS_Concrete_Trailer_0
+VSYS rimorchio cemento
+vsys_garatt_0
+VSYS-Garatt 2DD2 (testa)
+vsys_garatt_1
+VSYS-Garatt 2DD2 (centro)
+vsys_garatt_2
+VSYS-Garatt 2DD2 (coda)
+VSYS_Post_Bus_Trailer_0
+VSYS rimorchio posta
+VSYS_Post_Bus_Trailer_1
+VSYS rimorchio posta grande
+VSYS_Post_Bus_Trailer_2
+VSYS rimorchio posta leggero
+VSYS_Steel_Trailer_0
+VSYS rimorchio acciaio grande
+VSYS_Tatra_138
+VSYS Tatra 138
+VSYS_Tatra_138_Grain
+VSYS Tatra 138 (grano)
+VSYS_Tatra_813_Clossus
+VSYS Tatra 813 "Colossus"
+Western_Observation
+Carrozza del West con punto d'osservazione
+Western_Passenger_Car
+Carrozza passeggeri del West
+Wood_Trailer_0
+VSYS rimorchio legname
+Wood_Truck_0
+Shorty-Volvo trasporto legname
+Wood_Truck_1
+Ford V8 coe trasporto legname
+yoshi_wup01
+GTW 72
+yoshi_wup02
+GTW 72 (centro)
+yoshi_wup03
+GTW 72 (coda)
+yoshi_wup1900
+GTW 01
+yoshi_wup1950
+GTW 62
+yoshi_wup196201
+GTW 69
+yoshi_wup196202
+GTW 69 (centro)
+yoshi_wup196203
+GTW 69 (coda)
+yoshi_wup196501
+GTW 85
+yoshi_wup196502
+GTW 85 (centro)
+yoshi_wup196503
+GTW 85 (coda)
+Youtei_Maru
+Youtei Maru
+#______________________________________way______________________________________
+#______________________________________way______________________________________
+air_movement_area
+Pista di rullaggio in cemento
+air_movement_area_old
+Pista rullaggio in ciottolato
+asphalt_road
+Strada asfaltata
+autobahn
+Autostrada
+city_road
+strada urbana
+cobblestone_road
+Strada in ciottolato
+concrete_road
+strada in cemento
+concrete_sleeper_track
+Binario Traversine in Cemento
+concrete_tram_track
+Binario Tram su Cemento
+dirt_road
+Strada sterrata
+gravel_road
+Strada di cemento
+High_quality_track
+Binario alta qualità
+low_quality_track
+Ferrovia bassa qualità
+old_runway
+Vecchia pista d'atterraggio
+old_taxiway
+Vecchia pista di rullaggio
+Powerline
+Linea elettrica alto voltaggio
+Rillenschienen
+Linea tram
+river_00
+Fiume navigabile
+river_01
+Fiume navigabile
+river_02
+Fiume navigabile
+river_03
+Fiume
+river_04
+Torrente
+runway_modern
+Pista atterraggio moderna
+Schwebebahn_p_ground
+Monorotaia (livello terreno)
+steel_sleeper_track
+Ferrovia ad alta velocità
+Suspended_Monorail_Track
+Monorotaia sopraelevata
+US_asphalt_road
+Strada asfaltata americana
+water_road
+Canale
+wooden_sleeper_track
+Rotaia traversine in legno
+#__________________________________way-object___________________________________
+#__________________________________way-object___________________________________
+High_Speed_Catenary
+Catenaria alta velocità
+modern_runway-extMrkLgt
+Pista d'atterraggio moderna
+old_catenary
+Vecchia catenaria
+standard_catenary
+Catenaria standard
+Third_Rail_Electrification
+Elettrificazione a terzo binario
+Tram_Electrification
+Elettrificazione tram
+TrolleyBus_Electrification
+Elettrificazione per filobus

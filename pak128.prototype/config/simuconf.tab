@@ -1,0 +1,398 @@
+# simuconf.tab
+#
+# Low-Level values and constants
+#
+# This file can be found in many places:
+#
+# simutrans/config/simuconf.tab
+# ~/simutrans/simuconf.tab (in the user directory, if singleuser_install != 0 or not present, first only pak-file path will be read)
+# simutrans/pakfilefolder/config/simuconf.tab
+# ~/simutrans/simuconf.tab (readed a second time, s.a.)
+#
+
+
+###############################passenger stuff##############################
+
+# town growth multiplier factors (electricity is not used at the moment)
+# A heigher factor mean faster growth
+# passenger_multiplier = 40
+mail_multiplier = 20
+goods_multiplier = 20
+electricity_multiplier = 0
+
+# town growth is size dependent. There are three different sizes (<1000, 1000-10000, >10000)
+# the idea is, that area increase by square but growth is linear
+growthfactor_villages = 400
+growthfactor_cities = 200
+growthfactor_capitals = 100
+
+# passenger generation (default is 16) Smaller values means less passengers
+passenger_factor=16
+
+# amount of passengers that travel from/to factories or attractions
+# the ramining percentage goes to other cities
+factory_worker_percentage = 33
+tourist_percentage = 16
+
+# A factory will be added as worker's destination to a town, if it has either
+# is within factory_worker_radius
+# or has less than factory_worker_minimum_towns next cities added
+# and has not more than factory_worker_maximum_towns added
+# The default settings connect to maximum four cities with 77 tiles radius; or at least to the closest one
+# Setting factory_worker_maximum_towns to zero will not connect factories to towns
+factory_worker_radius = 77
+factory_worker_minimum_towns = 1
+factory_worker_maximum_towns = 4
+
+# if enabled (default = 0 off) stops may have different capacities for passengers, mail, and  freight
+seperate_halt_capacities = 0
+
+# three modes (default = 0)
+# 1: the payment is only relative to the distance to next interchange, 2 to the trips destination (default 0 is distance since last stop)
+pay_for_total_distance = 0
+
+# things to overcrowded destinations won't load if active (default off)
+avoid_overcrowding = 0
+
+# do not create goods/passenger/mail when the only route is over an overcrowded stop
+no_routing_over_overcrowded = 0
+
+
+################################road settings###################################
+
+# (=1) drive on the left side of the road
+drive_left = 0
+
+# Max. length of initial intercity road connections
+# If you want to speed up map creation, lower this value.
+# If you want more initial intercity roads, raise this value.
+# If the value is too large then very long bridges might be created.
+# 200 seems to be a good compromise between speed and road number
+# note: this will slow down map creation dramatically!
+#
+intercity_road_length = 6000
+
+# Type of intercity roads - must be available as PAK file.
+# Intercityroad with timeline: intercity_road[number]=name,intro-year,retire-year
+# .. number = 0..9 - up to ten different intercity_roads possible
+# .. name = name of an existing pak file
+intercity_road[0] = road_055,0,1910
+intercity_road[1] = road_070,1910,1965
+intercity_road[2] = road_130,1965,2999
+
+# Type of city roads - must be available as PAK file.
+# Cityroad with timeline: city_road[number]=name,intro-year,retire-year
+# .. number = 0..9 - up to ten different city_roads possible
+# .. name = name of an existing pak file
+city_road[0] = road_040,0,1950
+city_road[1] = road_050,1940,2999
+
+# way builder internal weights (straight track is 4)
+# a higher weight make it more unlikely
+# make the curves negative, and the waybuilder will build strange tracks ...
+way_straight = 1
+way_curve = 2
+way_double_curve = 6
+way_90_curve = 15
+way_slope = 10
+way_tunnel = 8
+way_max_bridge_len = 15
+way_leave_road = 25
+
+
+#####################################rivers####################################
+
+# The highest number is the smallest. A river with max_speed==0 is not navigavable by ships.
+
+river_type[0] = river_00
+river_type[1] = river_01
+river_type[2] = river_02
+river_type[3] = river_03
+river_type[4] = river_04
+
+river_min_length = 8
+#river_max_length = 256
+
+
+################################# forest stuff #################################
+#  please be careful in changing them, I spent lot of time finding optimals.
+#  those values have impact on no. of spawned trees -> memory consumption
+#
+# Number of trees on square 2 - minimal usable, 3 good, 4 very nice looking
+max_no_of_trees_on_square = 3
+
+# Base forest size - minimal size of forest - map independent
+forest_base_size = 36
+
+# Map size divisor - smaller it is the larger are individual forests
+forest_map_size_divisor = 38
+
+# Forest count divisor - smaller it is, the more forest are generated
+forest_count_divisor = 16
+
+# Determins how dense are spare trees going to be planted (works inversly)
+forest_inverse_spare_tree_density = 400
+
+# climate with trees entirely (1: water, 2:desert, 4:tropic, 8:mediterran, 16:temperate, 32:tundra, 64:rocky, 128:arctic)
+# zero (default) means no climate with at least one tree per tile
+tree_climates = 4
+
+# climates with no trees at all (desert and arctic at the moment)
+no_tree_climates = 130
+
+# if set, no trees will be created at all (save about 30% memory and
+# the season change will be much smoother on small machines)
+no_tree = 0
+
+
+#####################################gameplay###################################
+
+# in beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
+beginner_price_factor = 1500
+
+# use beginner mode for new maps (can be switched anyway on the new map dialog)
+first_beginner = 0
+
+# size of catchment area of a station (default 2)
+# older game size was 3
+# savegames with another catch area will be unloadable
+station_coverage = 2
+
+# Passengers and goods will change vehicles at most "max_transfer"
+# times to reach their destination.
+#
+# It seems that in good networks, the number of transfers is below
+# 5. I think 6 is a good compromise that allows complex networks but
+# cuts off the more extreme cases
+#
+# You can set this lower to save a little bit of CPU time, but at some
+# point this measn you'll get less passengers to transport
+#
+# T. Kubes: I would say 8 for now, but this definitely should be difficulty
+# dependent setting.
+#
+max_transfers = 7
+
+
+##################################industry stuff#################################
+
+# when a city reaches 2^n of this number then a new factory chain is spawned
+industry_increase_every = 5000
+
+# allow all possible supplier to connect to your factories?
+# This will also affect savegames!
+# best to leave it in default position. (only on for simuTTD)
+crossconnect_factories = 0
+
+# how big is the chance for cross-connections in percent (new in 99.10)
+# (100% will give nearly the same results as crossconnect_factories=1)
+crossconnect_factories_percentage = 20
+
+# smallest distance between two adjacent factories
+factory_spacing = 20
+
+# how much is the total electric power available (in relation to total production) in parts per thousand
+electric_promille = 330
+
+# with this switch on (default), overcrowded factories will not recieve goods any more
+just_in_time = 1
+
+###################################money stuff##################################
+
+# show graphs old style (right to left, default) or rather left to right
+left_to_right_graphs  = 0
+
+# Starting money of the player. Given in Credit cents (1/100 Cr)
+#starting_money = 50000000
+
+# New system of year dependent starting money. Up to ten triplets are
+# possible. The entries are of the form:
+# startingmoney[i]=year,money(in 1/10 credits),interpolate (1) or step(0)
+starting_money[0]=1930,50000000,1
+starting_money[1]=2030,150000000,1
+
+# allow buying obsolete vehicles (=1) in depot
+allow_buying_obsolete_vehicles = 1
+
+# vehicles can loose a part of their value, when they are once used
+# the loss is given in 1/1000th, i.e 300 mean the value will be 70%
+used_vehicle_reduction = 150
+
+# Maintenance costs of buildings
+maintenance_building = 1800
+
+# first stops: the actual cost is (cost*level*width*height)
+cost_multiply_dock = 750
+cost_multiply_station = 600
+#stop is cheap but on other hand max level is 4
+cost_multiply_roadstop = 400
+cost_multiply_airterminal = 1000
+#used for all extra buildings
+cost_multiply_post = 500
+#cost_multiply_headquarter=10000
+
+# cost for depots
+cost_depot_air = 12500
+cost_depot_rail = 8500
+cost_depot_road = 7000
+cost_depot_ship = 9000
+
+# other way related stuff
+cost_signal = 500
+cost_tunnel = 11000
+cost_third_rail = 80
+
+# other construction/destruction stuff
+cost_buy_land = 125
+cost_alter_land = 1250
+cost_set_slope = 1500
+#cost_found_city=5000000
+cost_multiply_found_industry = 500000
+cost_remove_tree = 40
+cost_multiply_remove_haus = 1000
+#cost_multiply_remove_field=5000
+cost_transformer=2500
+cost_maintain_transformer=100
+
+###################################time settings################################
+
+# Enforce vehicle introduction dates?
+# 0 = all vehicles available from start of the game
+# 1 = use introduction dates
+# 2 = (default) use settings during game creation
+# 3 = use settings during game creation, new games on
+#
+use_timeline = 2
+
+# Starting year of the game:
+# Setting it below 1930 is not recommended!
+# You will have problems with missing vehicles, do not complain if you do so!
+# Setting it above 2040 will render game bit boring - no new vehicles.
+starting_year = 1930
+
+# Starting month of the game for people who want to start in summer (default 1=January)
+starting_month = 1
+
+# Should month be shown in date?
+#(0=no, 1=yes, 2>=show day in japan format=2, us format=3, german=4)
+# This is most useful, if you use longer months than the default length (see below)
+#
+show_month = 1
+
+# Global time multiplier (will be save with new games)
+# 2^bits_per_month = duration of a game month in microseconds real time
+# default is 18. For example, 21 will make the month 2^3=8 times longer in real time
+# production and maintainance cost will be adjusted accordingly.
+#
+#128x128 use only 2 times longer months... should be way enough for normal games.
+#
+bits_per_month = 19
+
+
+##################################display stuff#################################
+
+# how long is a diagonal (512: faktor 2=1024/512, old way, 724: sqrt(2)=1024/724
+# THIS WILL BE ONLY USED, WHEN THIS FILE IS IN THE pakxyz/config!
+diagonal_multiplier = 724
+
+# Do you want to have random pedestrians in town? Look nice but needs some
+# CPU time to process them. (1=on, 0=off)
+# Impact on frame time: ~10% (16 cities on a new standard map)
+random_pedestrians = 1
+
+# Do you want to have random pedestrians after pax are reaching this
+# destination? May generate quite a lot. (1=on, 0=off)
+stop_pedestrians = 1
+
+# there are some other grounds (like rocky, lakes etc. )
+# which could be added to the map (default 10)
+# show random objects to break uniformity (every n suited tiles)
+random_grounds_probability = 10
+
+# show random moving animals (n = every n suited tiles, default 1000)
+random_wildlife_probability = 1000
+
+# animate the water each intervall (if images available)
+# costs some time for the additional redraw (~1-3%)
+water_animation_ms = 250
+
+# Show info windows for private cars and pedestrians?
+# (1=on, 0=off)
+pedes_and_car_info = 0
+
+# How much citycars will be generated
+citycar_level = 5
+
+# After how many month a citycar breaks (and will be forever gone) ...
+# default is ten years
+default_citycar_life = 120
+
+# Show infos on trees?
+# (1=on, 0=off)
+tree_info = 1
+
+# Show infos also on bare ground?
+# (1=on, 0=off)
+ground_info = 0
+
+# Show passenger level of townhalls?
+# (1=on, 0=off)
+townhall_info = 0
+
+# always open only a single info window for the ground,
+# even if there are more objects on this tile
+#only_single_info = 1
+
+# Should stations get numbered names? (1=yes, 0=no)
+#numbered_stations = 0
+
+# Show name signs and statistic?
+# 0 = don't show anything
+# 1 = station names
+# 2 = statistics
+# 3 = names and statistics
+#
+show_names = 3
+
+# Color of cursor overlay, which is blended over marked ground tiles
+# The available colors and their numbers can be found on
+#    http://simutrans-germany.com/wiki/wiki/tiki-index.php?page=en_FactoryDef#mapcolor
+# Suggested values (155 is the default)
+# -- pak64, pak.german, pak128
+cursor_overlay_color = 155
+# -- pak128.japan
+#cursor_overlay_color = 149
+
+
+##################################window stuff##################################
+# show the windows close etc. buttons on the right (like windows 98)
+#window_buttons_right = 0
+
+# there are three different ways to indicate an active window
+
+# first: draw a frame with titlebar color around active window
+#window_frame_active = 0
+
+# second: draw the title with a different brighness (0: dark ... 6: bright)
+front_window_bar_color = 1
+bottom_window_bar_color = 3
+
+# third (best together with 2nd):use different text color for bar
+# some colors are 215-white, 240-blck 208-214- all shades of gray
+front_window_text_color = 215
+bottom_window_text_color = 209
+
+# show tooltips (default 1=show)
+show_tooltips = 1
+
+# tooltip background color (+-1 arounf this index is used), taken from playercolor table
+tooltip_background_color = 4
+
+# tooltip text color (240=black, 215=white)
+tooltip_text_color = 240
+
+# delay before showing tooltip in ms (default 500ms)
+tooltip_delay = 500
+
+# duration in ms during tooltip is visible (default 5000ms=5s)
+tooltip_duration = 5000

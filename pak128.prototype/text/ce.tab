@@ -1,0 +1,1204 @@
+################################################################################
+#                                                                              #
+#                Simutrans Scenario Specific Translation File                  #
+#                               Scenario: pak128                               #
+#                            Language: ce C-English                            #
+#                                Encoding: ASCII                               #
+#                            Font : Prop-Latin1.bdf                            #
+#                           Date Created: 27.02 2010                           #
+#                                                                              #
+#                                   authors:                                   #
+#                              Frank Penz - FrankP                             #
+#                                    note:                                     #
+#                          Markus Pristovsek - prissi                          #
+#                                    note:                                     #
+#                           Lincoln Sayger - skreyola                          #
+#                                    note:                                     #
+#                                                                              #
+################################################################################
+#____________________________________bridge_____________________________________
+#____________________________________bridge_____________________________________
+ClassicRail
+Concrete Rail Bridge
+ClassicRoad
+Urban Road Bridge
+Concrete_Road_Bridge
+Autobahn Bridge
+Plate_Girder_Bridge
+Plate Girder Bridge
+RVg_Concrete_Rail_Bridge
+Steel Suspension Bridge
+Schwebebahn_p_bridge
+Suspended Train Track Bridge
+SteelRail
+Steel Railroad Bridge
+SteelRail2
+High-Speed Steel Railroad Bridge
+SteelRoad1
+Steel Road Bridge
+SteelRoad2
+High-Speed Steel Road Bridge
+u_truss_bridge
+Railroad Truss Bridge
+Wooden_Rail
+Wooden Railroad Bridge
+#___________________________________building____________________________________
+#___________________________________building____________________________________
+01_CITY
+City Hall
+02_CITY
+City Hall
+03_CITY
+City Hall
+04_CITY
+City Hall
+1920_AirDepot
+1918 Airplane Hangar
+1930AirDepot
+Hangar (1920)
+1940AirDepot
+Hangar (1940)
+1950AirDepot
+Hangar (1950)
+1990AirDepot
+1989 Airplane Hangar
+ABBYS_0
+Abbey\n\nThis abbey is well-known\nbecause of its deep wells\nin the towers.  Legend has\nit that the wells are\nbottomless.  Seemingly\nendless droves of people\nwill line up to see these\n"magic" wells, and to drop\ncoins into them.  Little do\nthe visitors know that all of\nthe coins are caught on a\npiece of foam, 50 metres below\nthe surface.  These coins have\nenabled the monks to afford a\ncomplete re-conditioning of the\nabbey.\n
+Airport1920_AirportBlg
+1918 Departure Hall
+Airport1930PostOffice
+Airmail Depot (1920)
+Airport1990_Big_AirportBlg
+Airport Administration Building
+Airport1990_Entrance_AirportBlg
+Airport Entrance
+Airport1990_Gates_AirportBlg
+Airport Gate Building
+Airport1990_PostOffice
+Airport Mail Facility
+Airport1990_Small_AirportBlg
+Airport Departure Hall
+Airport1990_Warehouse
+Airport Cargo Terminal
+AirStop_AirportBlg
+Apron
+Almuthof_StationBlg
+Provincial Station
+Avila_Big_StationBlg
+Large Office Building
+Avila_Small_StationBlg
+Small Office Building
+Avila_Warehouse_StationBlg
+Warehouse
+big_classic_bus_stop
+Large Bus Stop (1935)
+big_modern_bus_stop
+Large Glass Bus Stop
+BigTerminal1930_AirportBlg_S
+Large Terminal Building (1930)
+BigTerminal1950_AirportBlg_S
+Larger Terminal Building (1950)
+Bulk_Dock
+Bulk Cargo Dock Facility
+Bulk_StationBlg
+Bulk Goods Station Building
+bus_terminus
+Modern Terminal Stop
+canal_ChannelStop
+Canal Dock
+Car_StationBlg
+Parking Lot
+CarDepot
+Road Garage
+CarStop
+Truck Loading Bay
+CASTLE_0
+This castle was built by\nKing Napik.  It was largely\ndestroyed in a war, but\nwas rebuilt in the\n19th-Century.  Now it is\nused as a museum, and\nhouses a large collection\nof swords and armour.\n
+CHURCH_00
+Gothic Cathedral\n\nThis old cathedral is now\nless a place of worship\nthan an exhibition of\nsacred art.  The church\nauthorities have been said\nto enjoy the situation,\nsince the tourists bring in\nfar more money than the\ncongregation does.\n
+CHURCH_01
+Small Church\n\nThis small, forgotten church\nis a nice place to meet\nfriends, hold community\nevents, and seek a\nmeaning deeper than the\ndaily commute.\n
+CHURCH_02
+Pink Church\n\nThis little church was built by\na renowned, but eccentric,\nmonk.  In the year 1654, he\npainted the whole building\npink.  Even today one can\nsee remnants of the pink\npaint.\n
+CHURCH_03
+Black Church\n\nThis is a famous church,\nwhich held the Simutranian\nWitch Trials of 1426.  Today\nit attracts visitors mostly\nbecause of its pleasant\nsurroundings and\ninteresting paintings.\n
+CHURCH_04
+Synagogue\n\nThe minister looks a bit\nArabic, but this is in fact a\nsynagogue.  The beautiful\nbrass roof has now\ntarnished and turned green.\n The minister's family stays\nin the tower.\n
+CHURCH_05
+St. Michael's Church\n\nThis architectural gem was\nbuilt at the end of the\n19th-Century.  Its biggest\nattraction is the metal roof,\nwhich was designed by\nAlexander Gustav Eiffel.\n
+CHURCH_06
+Small Church\n\nThis typical church features\nbells in the tower, ringing\neach day at noon.\n\n\n\n
+CIRCUS_0
+Circus Humberto\n\nThe famous circus made this\ntown its permanent\nresidence.  Their classic\ntent was preserved to keep\nthe original circus\natmosphere, but the\nperformers have all bought\nhouses in the town.  The\nstar of the show nowadays\nis the elephant "Jumbo,"\nwho sits down when he\nhears the bell.  You don't want\nto be behind Jumbo when you\nhear the bell ring - you may end\nup quite flat!\n
+CIVILIAN_RADAR
+Observatory\n\nThis radio observatory is\nhome to many leading\nscientists in the search for\nextraterrestrial life.\n\n\n
+classic_mailbox
+Mailbox
+ClosedTrainStop
+Platform with Metal Roof
+CoalTrainStop
+Coal Platform
+COM_00_01
+This is a preschool, where\nchildren can play and\ndream while their parents\nare at work.  Despite the\noccasional outburst, this\npreschool is really a\nfirst-rate place.  The\nteachers even help the\nchidren to develop early\nreading and math skills.\n
+COM_00_02
+This sunny caf? is know for\nits foot-long sandwiches. \nAlthough the owner refuses\nto give up the recipe for\nhis secret sauce, rumour\nhas it that it contains\nfresh herbs from the\ngarden at his home.\n
+COM_00_03
+This caf? may look\ndelightful, but the passing\nhorses and new-fangled\ncars make it less so.  The\nbest place to be is inside,\nwhere you can spend\ncountless hours breathing\nin the rich smells of the\ncoffee and baked goods.\n
+COM_00_04
+This is the home of the\nTidy-Didy Diaper Service. \nThe company also offers\nother supplies, such as\nhigh chairs and strollers.\n\n\n
+COM_00_05
+This old pub is owned by a\nlocal family of Irish\nimmigrants.  Although there\nare not many Irish in this\ntown, the main proprietor\nhas manged to convince\nthe people that Guiness is\ngood for them.\n
+COM_00_06
+This radio store is owned\nby a man who looks like a\nrodent.  Always on the\nleading edge of\ntechnology, this store's\nnewest offering is the\nvaccuum tube radio.  Get\nyours today!\n
+COM_00_07
+The other side of this roof\nis made of glass, which\nallows the owner of the\nflower shop downstairs to\ngrow his plants in the same\nbuilding.  Unfortunately for\nthe owner, his growing\nskills are not so great, and\nhe has to buy most of his\nflowers from elsewhere.\n
+COM_00_08
+Inspired by his recent trip\nto Japan, Giovanni Barristo\ndecided to open this\nrestaurant.  Locals flock\nhere to taste Giovanni's\nfood, only to find that he\nuses too much soya sauce.\n It's too bad that he will\nnever find out, because\neverybody is too polite to\ntell him.\n
+COM_00_09
+The owner of this building\nturned it from a tavern to a\nhouse in 1850.  He makes\nmoney by renting those\nhorses to nearby\nbusinesses.  Most of it is\nspent on beer, which he\ndrinks with his friends on\nthe front lawn.\n
+COM_00_11
+This is the house of\nMagoo's Pet Store.  The\nowner, Mister Magoo, lives\nupstairs with his wife, as\nwell as 13 dogs and 27\ncats.  Of course they all\ncooperate and live a\npeaceful existence.\n
+COM_00_12
+Mandy's Grocery Store\n\nThe grocery store is on the\nbottom level.  The top,\nhowever, is where all of the\naction happens.  The blue\ncross on the upper level\nmarks the place of the\nSecret Chinese Society,\nwhere members gather on a\nweekly basis to play\nMahjongg.\n
+COM_00_13
+Fine Inn\n\nOn a good day, you can sit\non the balcony to enjoy\nyour lunch.  On bad days,\nhowever, the wind blows in\nall sorts of smells from the\ngarbage facility down the\nstreet.\n
+COM_00_14
+Odd Store\n\nDo you need a "special" gift\nfor somebody you "really"\nlike?  This store has all\nsorts of gifts that will make\nyour "friend" never talk to\nyou again!\n
+COM_00_15
+Office Building\n\nAlthough the lower-floor jewelry\nstore and bakery are\nexcellent place to find\nlow-price deals, the upper\nthree floors are filled with\n"accountants" and\n"therapists."\n
+COM_00_16
+"Pill Not Ill" Drug Store\n\nThis drug store offers all\nsorts of bad deals and\nover-priced items.  Its real\npurpose is to hide a secret\nSoviet spy operation - the\ngive-away is that small\nsatellite dish on the roof.\n
+COM_00_17
+Eugene's Fine Clothes\n\nA great place to find the\nhottest style at reasonable\nprices.  If you go, be sure\nto check upstairs - Eugene\nclaims to have the world's\nbiggest collection of\nunderwear for sale!\n
+COM_00_18
+Ch?teau Touch?\n\nThis wonderful\nbed-and-breakfast boasts\nfive stars in "Chaz's Guide\nto Romantic Getaways and\nPlace to Get Lucky."  The\nbrothel is right next door.\n
+COM_00_19
+Clothing Store\n\nThis conspicuous-looking\nbuilding is run by an\nex-gardener.  Nobody\nknows why he left his old\njob, but he says that it\nhas something to do with\n"foreign persuasion."\n
+COM_00_21
+Parking Lot\n\nThis parking lot serves as a\nhide-out for the\n"Geriocracy Gang."  This\nhighly unusual syndicate\nmeets old ladies who are\nunhappy with the state of\ntheir country.  They meet\nat midnight, and roam the\nsurrounding streets for a\nfew hours in their armoured\nwheelchairs.  Using walking\nsticks and crutches, they\nmercilessly beat any drunken\nteenager who is unlucky enough\nto meet them on their way home\nfrom the pub.  There is also a\nSubway(TM) restaurant on the\nlower level.\n
+COM_00_22
+Local Bank Office\n\nThis small office building is\nhome to the Simutrans\nAlternate Bank and Tortilla\nCompany.  On Tuesdays\nand Thursdays at lunch,\nyou can see the bank\nmanagers handing out free\ntortillas to passing\npedestrians.\n
+COM_00_23
+Small Office Building\n\nThis small office building\nholds the Simutrans\nAssociation for the\nDisabled.  This organisation\ntries to enable disabled\npeople with a technique\ncalled yelling.  So far they\nhaven't had much success,\nbut some government\nfunding is on the way, and\nthey plan to buy\nmegaphones in order to increase\nthe effectiveness of their\ntherapy.\n
+COM_06_57
+This building is designed to\nbe disaster-proof.  The\noffices are on stilts in\ncase of a flood.  If there is\nan earthquake, the building\nwill automatically\ncounter-act the movement.\n Also, in case of a fire or\nstock market crash, the\nlower tier has inflatable\nairbags to catch people\njumping from higher levels.\n
+COM_06_58
+Although the helipad makes\nthis building look like a\nhospital, it is really home\nto an elite group of secret\nagents.  If only they could\nafford some helicopters,\nthen the secret agents\nmight be able to go on a\nmission.\n
+COM_06_59
+This building was designed\nby the architect to appear\nas though it were\nupside-down.  Rumour has\nit that she even requested\nthat the sewer pipes came\nout of the ground and\nentered the building at the\ntop.\n
+COM_06_60
+When this building was\nbuilt, the balconies were a\nmajor selling feature.  Now\nthe space underneath is\nused as a community\ngarden, so on fertilising\nday everybody wants to\nstay indoors.\n
+COM_07_01
+This small hardware store\ncan still compete with the\nlarger home markets.  The\nstore owner always has a\nspecial display, and offers\nintimate instructional\nclasses for free every\nWednesday.  It's no wonder\nthat people still come here!\n
+COM_07_02
+This is the first automated\nbillboard in Simuland.  One\nside of the billboard is for\nWcWonald's, the\nworld-famous burger\ncompany.  The other side\nwas bought by Rozum\nChtic, the renown Czech\nsex therapist.\n
+COM_07_03
+WcWonald's holds an\nannual burger-drawing\ncontest.  Whoever wins this\ngets to paint the side of\nthe restaurant, where their\nart will stay until next\nyear's contest.\n
+COM_07_04
+Do you need a tractor or a\nlawnmower?  Do you need\nparts to fix the one you\nhave?  Come to "Patricia's\nTractor Depot."  Remember\n- it's the one with all the\ntractors out front!\n
+COM_07_09
+This office building is home\nto a small communications\ncompany.  They have\ndeveloped many\nground-breaking\ntechnologies, only to have\neach of them fail.  Their\nmost famous invention is\nthe Bananaphone(TM).\n
+COM_07_12
+This 21st-Century home\nwas built by a wealthy\nKorean couple who wanted\nto create an example of\nsustainable development. \nEven in 2999, it will not be\nfar behind the times.\n
+COM_07_13
+This building is home to the\nRGT (ReallyGoodTractors)\nfactory outlet.  Farmers\nfrom all over the land come\nhere to buy their\nequipment.  Unfortunately\nfor the store's manager, he\nnever gets a chance to\nposition everything just\nthe way he likes it.\n
+COM_07_14
+This is the local farmer's\nmarket.  Every Saturday,\nthe local farmers meet local\ncitizens here.  The farmers\nget more money than\nselling to a supermarket,\nand the shoppers get more\nvariety and fresher\nproduce, so everybody\nagrees that it's a good\ndeal.\n
+COM_07_17
+WcWonald's recently\nrealised that they cannot\ncontinue to sell only\nunhealthy burgers and\nfries.  So they built an\naddition - on the upper\nfloor, you can order steak\nor pork.  Sometimes there is\neven salmon!\n
+COM_07_18
+This car park was\nsupposed to be a model for\nefficiency.  Unfortunately,\nas you can see it only\nparks eighteen cars.  What\na waste of space!\n\n
+COM_07_19
+This old house was once\nthe residence of the famed\ncomposer Baytoavinn. \nRumour has it that he used\nto stand at the window and\nhum his music, without\nwearing any clothes!\n
+COM_07_20
+In these offices you will\nfind approximately thirty\njournalists working for the\nSimutrans Tribune\nnewspaper.  It is printed\nacross the world daily, in\none language.\n
+COM_07_21
+These two supermarkets\nwere built simultaneously\nby thoughtless\nbusinessmen.  By the time\nthey realised that there\nwere two supermarkets\nside-by-side, it was too\nlate.  Now the left one\nspecialises in fresh foods,\nand the right one\nspecialises in frozen and\npreserved foods.\n
+COM_08_32
+This is another of the\nbuildings which is designed\nto appear to be\nupside-down.  When this\none opened, a record store\nrequested a space on the\nbottom floor.  The owner\nwas quite disappointed to\nfind out that his store had\nactually been built on the\ntop!\n
+COM_08_37
+Colorful twins - offices of\nthe National Statistics\nInstitute. If you are not\ninterested in statistics,\nmaybe the story behind it\nis what you're waiting for.\nWell, here it goes: During\nconstruction it turned out\nthat the engineers and\narchitects had made a few\nmistakes in basic math,\nand as a result they built a\n30% smaller house. Luckily they\nused concrete pre-fabricated\nblocks so they were able to build\nanother very similar building only\ntwo meters away. But another\nmistake was made, and there\nwas no more cream color for the\nsecond set of concrete blocks!\nOne of the construction company\nworkers quickly decided to\nprevent another fatal failure and\nused red instead. When two\nfloors were done, an angry\nInstitute director arrived and\ninsisted on having the cream\ncolor; the hapless worker was\nfired immediately to calm the\ndirector down. But you must\nadmit that now, after a few\nyears in which the bright red has\ndarkened a bit, it looks quite\nnice...\n
+COM_08_40
+The Unron Tower is the\nhome office of\npetrochemical giant Unron.\nBut most people do not\nknow that it is also the\nhome of Save Our Seas, the\nenvironmental activist\ngroup. Often you can find\nthe employees of both fist\nfighting in the elevators\nafter an oil tanker spill.\n
+COM_08_60
+Have you ever wondered\nhow the rail signals in\nSimutrans change from\ngreen to red?  Each and\nevery signal has a person\nin this building monitoring\nit.  When the monitor\nsenses a train in a\nrail-block, they alert the\nswitching people by\ntelephone.  Unfortunately,\nthe people in this building\ncannot see the train tracks, so\nsometimes they sense the wrong\nthing.\n
+COM_10_01
+This small pet store's full\nname is "Le Fish Store,"\nwhich explains the LFS on\nthe side.  The only reason\nthey are still in business is\nbecause the owner banned\nall cats from coming in.\n
+COM_10_04
+This store sells absolutely\neverything - including cats!\n\n\n\n\n\n
+Container1TrainStop
+Advanced Container Platform
+Container2TrainStop
+Container Platform
+Control_StationBlg
+Railroad Control Tower
+CoveredTrainStop
+Covered Passenger Platform
+Crate_Goods_Dock
+Container-Loading Harbour
+CunnersdorfStopBlg
+Cunnersdorf Pre-fabricated Mail Building
+CUR_01_128_JH
+The "Atomium" was built\nfor the 1912 Expo.  It was\nintended to prove that\nsilver is a better conductor\nthan gold, but nobody\ncared so it was converted\ninto a first-rate restaurant.\n The upper hall is very\nprestigious, and must be\nreserved two months in\nadvance.\n
+DenkFlor
+This monument is\ndedicated to Flor 'WF Ultd.'\nWauters the famous\nengineer who created so\nmany great road and rail\nvehicles. He is also well\nknown for designing many\nwell-working factories.\n
+DenkGeorg
+This monument is\ndedicated to the famous\narchitect Georg, also know\nas MHz, who designed so\nmany buildings all around\nthe world. He also designed\nsome exceptional vehicles.\n
+DenkHajo
+This monument is\ndedicated to Hansjorg\nMalthaner, the creator of\nthis game.  Without his\nefforts and sacrifices,\nSimutrans would not be\nprogressing today.  You\ncan send him a post card. \nThe address is:\nHansjorg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart\n
+DenkOwen
+This place is dedicated to\nOwen Rudge the famous\nfinance expert and sound\ntechnician.\n\n\n\n
+DenkPatrick
+This monument is\ndedicated to Patrick\nNesbitt, who has helped\nmake many buildings and\nvehicles for SimuTrans.\n\n\n
+DenkRaven
+This monument is\ndedicated to Raven, the\nfamous engineer and also\nfounder of RVg (Raven\nVehicles and Gears\nCorporation).  RVg prides\nitself on their many fine\nvehicles.  Recently, Raven\nhas been focussing his\ntalents on the construction\nof spectacular houses.\n
+DenkSeth
+This place is dedicated to\nSeth C. Triggs, the famous\narchitect who designed so\nmany beautiful city\nbuildings. He is also well\nknown for doing many\nstudies on how to improve\ntraffic systems.\n
+DenkTomas
+Tomas Kubes helped to\nimprove Simutrans in many\nways.  Nowadays he is\nbest-known for his work on\nthe pak128 (which you are\nplaying) and the\nSimuTranslator tool (which\nI am using right now to\ntype this).\n
+DenkTrikky
+This monument is\ndedicated to 'Trikky' Rick\nMcGreal the famous\narchitect who designed so\nmany impressive buildings.\n\n\n
+DenkVM
+This monument is\ndedicated to Manfred 'VT\nVienna' Tomaschitz the\nfamous engineer who\ndesigned many superior rail\nvehicles.\n\n
+DenkVolker
+This Stupa was built for the\nprogramming "arch-mage"\nVolker Meyer who improved\nSimutrans in many areas.\n\n\n\n
+ELEMENTARY_SCHOOL_1
+Elementary School\n\nSimutrans children spend their first\nschool years in this\nbuilding.  The young\nstudents like to paint and\nsing, so Math, French, and\nScience are not favourite\nsubjects.  The children\ncannot drive, so good\ntransportation must be\nprovided - but beware of\nsending luxurious busses\nto routes around here.\n
+ELEMENTARY_SCHOOL_2
+This is a large elementary\nschool, designed for large\ncities.  The school is\ncurrently conducting a test\non a new kind of teaching. \nThe most unusual things\nare that school goes from\n9:00 AM to 12:00 PM, and\nthat classes are held\nseven days a week.\n
+Firestation
+Fire Department\n\nThis building is home to the\ncity's fire department, as\nwell as the Ambulatory Care\nOffice.  The hospital is\ngetting crowded, and so\nthe fire people were nice\nenough to offer the\nambulance drivers some\nspace here.\n
+Fluid_StationBlg
+Oil Storage Tank
+FORT_FUN
+Happy-Good-Times Ranch\n\n\n\n\n\n\n
+FreightTrainStop
+Cargo Loading Platform
+FUTURISTIC_TOWER_0
+Although the entrance is\nsimple, this\nfuturistic-looking tower is\nhome of the city's greatest\nrestaurant.  The owners are\nvery pleased to have been\nrecently awarded their third\nMichelin star.\n
+Gas_StationBlg
+Gasoline Storage Tanks
+Goods_StationBlg
+Warehouse
+GRASS_STADIUM
+Grass Stadium\n\nThis grass stadium is a great\nplace for community\nevents, like track-and-field\ncompetitions or\nfootball/soccer matches. \nIf you're not very active,\nyou can always watch the\ngames from the bleachers.\n
+GREEN_HOUSE
+Greenhouse\n\nThis greenhouse used to be a\nsimple flower shop.  After a\nwhile, the owner found that\nhe could make more money\nby keeping rare tropical\nplants and charging people\nfor admission.  It is\nrenowned across the\nprovince for being the only\nplace to find African Biting\nTrees.\n
+HIGH_SCHOOL_1
+Science School\n\nThis relatively small\nuniversity is a branch of\nthe Simutrans Higher\nEducation Society And\nLarge Lyceum Teaching\nHydraulics And Technology\n(SHESALLTHAT).  The\ncurrent rumours say that\nprofessors Hildebrand and\nLinkofritz are engaged to\nbe married.\n
+HOUSE_RUINS_0
+These three buildings used\nto be inhabited by\nMr.McCormak and his two\nsons.  Unfortunately, all\nthree families died off\nwhen their cows rebelled in\n1846.  Nowadays, people\ndrop by mostly to see the\ntheatre troupe that has\ntaken up residence in the\ntall, brown building.\n
+HQ1
+This office is the Administrative Headquarters of Simutrans.  That blue truck there is owned by Simutrans, and used to assist with the "Raise Land" and "Lower Land" tools.
+HQ2
+Corporate Headquarters
+IND_11_01
+Future Building\n\nConstruction is just starting.  Who\nknows what will be built?!\n\n\n\n\n
+IND_11_16
+Clothing Factory\n\nThis factory produces\nclothes of comparable\nquality to Chinese imports. \nTheir secret is that they\nemploy mice to do the work\ninstead of people.\n
+IND_11_46
+Corporate Headquarters\n\nThis building belongs to a\npetrochemical company\nthat specialises in gasoline\nfor citycars.  The top floor\nis black becuase the\nconstruction firm ran out of\ngray bricks when they were\nnearing the top.\n
+IND_11_47
+Modelling Studio\n\nThis modelling office\nspecialises in the posters\nthat you see in doctor's\noffices.  First they cut\nopen their models, and\nthen label each part that\nneeds to be photographed,\nfollowing which...\n
+IND_11_48
+Lawyers (Smith, Unger, and Epstein)\n\nAre you itching to S.U.E.\nsomebody?  Trust Smith,\nUnger, and Epstein to\nhandle your case\nprofessionally.\n\n
+IND_11_49
+ADB Home Security\n\nAs long as you're not on\nthe most-wanted list of the\nlocal crime syndicate, ADB\nHome Security provides the\nbest protection possible\nfor your valuable property.\n
+IND_11_51
+Science Laboratory\n\nThe scientists at this lab\nare working on inter-stellar\nspace travel.  When asked\nwhen we should expect to\nbe seeing a ship heading\nfor the next solar system,\nthey replied "Oh - we\nthought you said\n'international waste\ntravel'... well the first\ngarbage truck is loaded,\nfuelled, and ready to go in\nT-minus 10... 9... 8... 7... ."\n
+IND_11_52
+"I Can't Believe It's not a Rudder!"\n\nThis research facility\nfocusses on the\ndevelopment of\nalternatives to common\nnaval techniques, such as\nusing will-power to steer\nthe ship instead of a\nrudder.  As you can see,\nthere is no test-lake, so\nthey haven't got very far\nyet.\n
+IND_11_57
+Brown Suit Co.\n\nThis building is where tailors\ndesign ugly suits and\nformalwear.  Chances are\nthat if your neighbour is\nwearing a twead jacket to\nwork, it was designed here.\n
+IND_11_58
+Custodial Training Facility\n\nThis building exists for the\nsole purpose of training\ncustodial staff how to deal\nwith any sort of mess that\nthey might encounter in the\nreal world.  Custodians who\ntrain here get paid twice as\nmuch as those who train\nelsewhere.  Think it's time\nfor a career change? \nConsider "custodiing"\ntoday!\n
+IND_12_16
+Factory of Illegal Goods\n\nThis facotry is dedicated to\nthe production of fake\ndesigner-label clothes and\naccessories.  Hopefully the\npolice will do something\nsoon!\n
+JUSTICE
+Court House\n\nThis is the city's court house.\n Trials are often held here,\nbut only for municipal\noffences.  Nobody knows\nwhy the building is so\nbeautiful.\n
+Lighthouse_0
+Lighthouse\n\nSince their invention in 1875,\nlighthouses have been\nmaking Simuworld a safer\nplace to sail.  People like to\ncome here and watch the\nships go by.\n
+Lighthouse_1
+Lighthouse\n\nSince their invention in 1875,\nlighthouses have been\nmaking Simuworld a safer\nplace to sail.  People like to\ncome here and watch the\nships go by.\n
+Long_Goods_Dock
+Long Cargo Dock
+LuftPost1950_AirportBlg
+Airport Mail Office (1950)
+MANOR_0
+This beautiful renaissance\nmanor has a very\ninteresting past. Today it is\nthe home of a successful\nbusiness man. But he\nopened up a large part of it\nfor public exhibitions about\nhistory. Although this might\nseem boring, exhibitions\nare actually very\ninteresting. So the manor is\nfull of tourists every day.\n
+MARKET_PLACE_0
+The city marketplace is a\ngood place for spending an\nafternoon with the family.\nKids can buy special kinds\nof yesterday's candy and\nwatch old craftsmen at\nwork, women can browse\nthe shops and look for\nvarious things and men can\nsit in the stylish local beer\ngarden and drink beer.\n
+medium_classic_bus_stop
+Simple Bus Stop
+medium_early_bus_stop
+Medium-size Early Bus Stop
+medium_modern_bus_stop
+Glass Bus Stop
+MILITARY_RADAR
+Military Radar\n\nThis is a secret military\nstructure! Keep out! I said\nkeep out! If I mean keep\nout, I mean that you ought\nto close the window and\nscroll away!\n\nWhat? You are still reading?\nImmediately close the\nwindow and scroll away!\nYou are not supposed to be\nhere! Keep out!!!\n
+Modern_Warehouse
+Warehouse
+ModernPostOffice
+Post Office (1977)
+ModernTrainStop
+Glass-Roof Passenger Platform
+MonorailDepot
+Monorail/Schwebebahn Depot
+MonorailFoundation
+Monorail Structure Foundation
+MonorailGround
+Monorail Structure Foundation
+MonorailStation
+Monorail/Schwebebahn Platform
+MT_HOTEL_0
+This is a ver famous hotel. \nAlthough rooms are\nexpensive, everbody in the\ncity still wants to stay\nhere.  Some of the more\naffluent residents visit the\ndining room at least once a\nweek.\n
+MUSEUM_0
+This was once a city\ncastle.  It has been rebuilt\nto a ch?teau and recently\nconverted to a public\nmuseum of science and\ntechnology. You can watch\nmodels of old vehicles,\nlearn about advances in\nphysics or attend one of\nmany seminars.\n
+OBSERVATORY
+Telescope Observatory\n\nThis is a well-renowned\nobservatory, opened by Sir\nBob McGee twenty years\nago.  Scientists hold\nlectures and interactive\nseminars during the day,\nbut at about 8:00PM\neverybody is kicked out so\nthat they can get to work. \nEverybody is happy to\nleave, however, since the\nseminars always cover the latest\nscience, and the $10 entrance\nfee is a bargain.\n
+OLD_HOUSE_0
+This old building is holds\nthe Simutrans Museum of\nArchitecture. \nUnfortunately, the curator\nis a little eccentric, and\nnot all of the displays are\neasy-to-understand.  Even\nso the building is busy on\nmost days.\n
+OpenTrainStop
+Simple Platform
+Pagoda01
+Pagoda\n\nThis building was constructed\nby the Japanese architect\nFurukawa Kenichi.  He lives\non the upper floors with his\nwife Sakura, while the lower\nfloor showcases his skilled\ndesigns.\n
+PARK_0
+Central Park\n\nThis park is a wondeful place\nto watch the ducks on a\nquiet summer afternoon.  If\nyou're feeling more\nadventurous, perhaps you\ncan join in the weekly\nswimming competition.  It is\nheld every Sunday morning\nat precisely 7:46.\n
+parking_(catchemnt_area_ext)1
+Public Parking
+parking_(catchemnt_area_ext)2
+Public Parking
+parking_(catchemnt_area_ext)3
+Public Parking
+Post_Dock
+Harbour Dock for Mail
+PostOffice
+Post Office
+PostOffice1920_AirportBlg
+Airport Mail Building (1918)
+Radar3
+Radar Building
+RADIO_TOWER_0
+This provincial-looking\nbuilding is where SIMU-FM\nRADIO broadcasts from. \nThe highlight of their\nmorning show happens at\n8:00 sharp, and features\nmusic from Beethoven.\n
+RES_14_17
+Small House with Garden\nand Pile of Dirt\n\n\n\n\n\n
+rmax_clock_tower
+Clock Tower\n\nIn spite of its peculiar\ndesign, this circular clock\ntower is accurate enough\nto serve as a reference for\nall citizens nearby.\n\n
+rmax_courthouse
+Courthouse\n\nThe fairest in the land.  Most\nof the travellers here are\nfor the traffic court. \nObviously they aren't\nallowed to drive in.\n\n
+rmax_DenkManualTeam
+Cresset in Flames\n\nThis torch is a tribute to the\nmaintainers of the\nSimutrans Wiki.  They help\nto shed light on all sorts of\ngameplay mysteries.\n\nThank you!\n
+rmax_dictator_statue
+Benevolent Dictator\n\nThis statue stands as a\nmonument to the Dictator\nof the Simutrans forums.  It\nis currently believed that\nthe statue radiates powers\nof fertility, which required\nthe installation of the\nchain-rope around the\nstatue.\n
+rmax_fabio_bust
+Fagonellus Romanus\n\nThe bust of fabio, a.k.a.\nfagonella. People flock to\nsee this monument to his\nsimcreations.\n\n\n
+rmax_icarus
+Icarus Interstellar Facility\n\nThis is the launch facility for\nIcarus, Inc.  They were the\nfirst company to master\nthe launching of rockets\ninto orbit, and crowds of\ntourists flock to these\nweekly events.\n
+rmax_mosque
+Large Mosque\n\nThis extravagently-decorated\nmosque is home to many\nevents, and the building's\nofficials welcome people\nfrom all religions.  The most\npopular event is held every\nFriday night, and involves\npolishing the brass domes\non the building's roof.\n
+ROCK_0
+Patrick's Rock attracts\nmany geologists who are\nfascinated by this former\nvolcano.\n\n\n\n
+RUIN_0
+Medieval Amusement Park\n\nAlthough this used to be a Gothic\ncastle, its owner recently\nrealised that it's not such\na good place to live in the\n21st-Century.  The gates\nnever close, and there is\nalways a special event, so\nguest flock to this castle\nto see sword fights, castle\nsieges, parades, horse\nriding, and exhibitions.\n
+RUIN_1
+Very Famous Castle\n\nEveryone is keen to see this\ncastle.  In addition to all of\nthe kings that have lived\nand fought here, the\nUniversity has a tradition\nthat every student must\nstay in the castle\novernight in order to\ngraduate.\n
+Russian_Cathedral
+Russian Orthodox Cathedral\n\nThis cathedral was built for\nthe Russian Easter Festival\nin 1700, and has stood\nguard over the city since\nthen.\n\n
+sh_oasis_seasons
+Desert Oasis\n\nOne of the few lively places\nin the desert, this oasis\ninspires animals to\ncontinue their journey. \nWater is $50 per sip.\n\n
+ShipDepot
+Shipyard
+ShipStop
+Passenger Dock
+small_classic_bus_stop
+Simple Bus Stop
+small_early_bus_stop
+Bus Stop Sign
+SMALL_MANOR
+Square Manor\n\nThis tall house was once\nhome to a famous lord. \nAfter his death, the\nbuilding became less and\nless popular, until it was\n"rediscovered" in the early\n20th-Century.  Today, the\nproperty belongs to the\ngovernment, which charges\na modest fee for access to\nthe three small art\ngalleries.  It is a popular\ndestination for school trips, and\nfamily outings.\n
+st_benedict_church
+St.Benedict's Church\n\nThis church was built by\nSt.Benedict himself. \nBenedict is the patron\nsaint of Speed Bonusses,\nwhich is why he has a dove\nfixed to the tallest dome. \nIt is a symbol of the\nfastest transportation\nform: flight.\n
+ST_PETER
+Saint Peter's Church\n\nThe late-Roman church of\nSt.Peter's, built around\n1220, has a fine structured\nchorus gallery, frescos\nfrom the middle of the 13th\ncentury and the\nwell-preserved mummy of\n"The Holy Reeve". This is\nan old mummified body that\nis more than 300 years old,\nwhich was probably Wilhelm\nof Holbach, the royal reeve. The\nmummy is located in an alcove in\nthe western wall.\n
+SUSHI_HOSPITAL
+Qu'in Hospital\n\nThis hospital is the favoured\nhealth facility of all\nChinese immigrants to\nSimutransland.  Since most\nof the doctors themselves\nimmigrated from pak.japan,\nthe hospital offers the\nfinest herbal treatments\nand accupuncture clinics\navailable.\n
+Suspended_Monorail_Bahnhof_Modern
+Covered Monorail/Schwebebahn Platform
+Terminal1930_AirportBlg
+Passenger Terminal (1930)
+Terminal1950_AirportBlg_S
+Small Passenger Terminal (1950)
+Tower1920_AirportBlg
+Airport Control Tower
+Tower1930_AirportBlg
+Airport Control Tower
+Tower1950_AirportBlg
+Airport Control Tower
+Tower1990_AirportBlg
+Large Airport Control Tower
+TrainDepot
+Railroad Depot
+TrainStop
+Grand Glass-Roofed Station
+TramDepot
+Tram/Streetcar Depot
+TRIUMPH
+Triumphal Arch\n\nEmperor Napik built this to\ncelebrate his most famous\nbattle victory, for control\nof all railways in Simuland. \nThough there are no more\nemperors, tourists still\nflock to see this arch,\ndesigned by the famous\narchitect George, who later\nchanged his name to MHz.\n
+TV_TOWER_0
+Television Broadcast Tower\n\nThis tower is owned by a local\nstation.  Not only does it\nhold broadcast equipment,\nbut it is a great place to\nget a view of the traffic\nsituation in the city.\n
+TV_TOWER_1
+Television Broadcast Tower\n\nOne of the highest towers in\nthe world, this tower was\nbuilt to deliver Channel Six\nto all of Simuland.  There is\nalso a highly-regarded\nrestaurant, for those\notherwise unaffected by\nthe astonishing height.\n
+Very_Big_Terminal
+Very Large Terminal Hall
+VictorianStation
+Victorian-style Station Building
+VillageTrainStop
+Provincial Train Platform
+WHEEL
+Russian Ferris Wheel\n\nSurviving from older theme parks,\nthis ferris wheel still\nattracts many tourists.\n\n\n\n
+Windmill
+Dutch Windmill\n\nSome people visit this windmill\nbecause they enjoy\nwatching it go 'round;\nothers like to get out of\nthe city; still others like\nthrowing rocks to see if\nthey can hit the blades.\n
+WOODEN_CHURCH
+Hamish Wooden Church\n\nA simple church, intended\nto focus attention on the\nLord.\n\n\n\n
+#__________________________________dummy_info___________________________________
+#__________________________________dummy_info___________________________________
+#____________________________________factory____________________________________
+#____________________________________factory____________________________________
+autoshop3
+Auto Dealership
+bakery
+Bakery
+brewery
+Brewery
+cannery
+Cannery
+car_assembly_plant
+Automobile Factory
+car_dealer
+Auto Dealership
+Cementmill
+Cement Mill
+chicken_farm
+Chicken Farm
+cotton_field
+Cotton Farm
+cow_farm
+Dairy Farm
+dairy
+Ice Cream Factory
+Druckerei
+Publishing House
+electronics_factory
+Electronics Factory
+Erzbergwerk
+Iron Ore Mine
+Kohlekraftwerk
+Coal-Fired Power Plant
+Materialswholesale
+Building Materials Yard
+Moebelfabrik
+Furniture Factory
+Moebelhaus
+IKEA(TM) Home Market
+old_powerplant_kraftwerk
+Coal-Fired Power Plant
+shaft_coal_mine
+Coal Mine
+TANKE1
+Gas Station
+#_____________________________________field_____________________________________
+#_____________________________________field_____________________________________
+#_____________________________________good______________________________________
+#_____________________________________good______________________________________
+Autos
+Cars
+beer
+Beer
+Bretter
+Lumbers
+Bucher
+Books
+canned_food
+Canned Food
+Concrete
+concrete
+cotton
+Cotton
+Eisenerz
+Iron Ore
+electronics
+Electronics
+Ethanol
+ethanol
+Gasoline
+gasoline
+goods_
+goods
+Holz
+wood
+Kohle
+Coal
+meat
+Meat
+milk
+Milk
+Moebel
+Furniture
+None
+none
+Oel
+crude oil
+Papier
+paper
+Plastik
+plastic
+Sand
+sand
+Stahl
+steel
+Stone
+stone
+textile
+textiles
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+CATEGORY_01
+boxed goods
+CATEGORY_02
+bulk goods
+CATEGORY_03
+oil
+CATEGORY_04
+refrigerated goods
+CATEGORY_05
+liquid goods
+CATEGORY_06
+wood
+CATEGORY_07
+Fabric
+#__________________________________record_text__________________________________
+#__________________________________record_text__________________________________
+#___________________________________roadsign____________________________________
+#___________________________________roadsign____________________________________
+airport_oneway
+One-way Pavement Marker
+autobahn_classic_entrance
+Highway Entrance (Unlighted)
+autobahn_classic_exit
+Highway Exit (Unlighted)
+autobahn_modern_entrance
+Highway Entrance (Lighted)
+autobahn_modern_exit
+Highway Exit (Lighted)
+choose_point
+Automatic Loading-Bay Selection Sign
+choose_signal_monorail
+'Choose Destination' Signals for Monorail
+ChooseSignals
+'Choose Destination' Signals
+Classic_ChooseSignals_right
+'Choose Destination' Signals
+Classic_LongSignals_right
+Long Signals
+Classic_preSignals_right
+Next-block Signals
+Classic_Signals_right
+Signals
+Early_ChooseSignals_right
+'Choose Destination' Signals
+Early_LongSignals_right
+Long Signals
+Minimum80
+Road Sign: "Minimum Speed 80km/h"
+#_____________________________________tree______________________________________
+#_____________________________________tree______________________________________
+tree091
+Tree\n\n\n\n\n\n\n
+#____________________________________tunnel_____________________________________
+#____________________________________tunnel_____________________________________
+RailTunnel
+Rail Tunnel
+RoadTunnel
+Road Tunnel
+#____________________________________vehicle____________________________________
+#____________________________________vehicle____________________________________
+1Ben140
+Bennhardt B-140 "Limet"
+1Bens155
+Bennhardt B-155 "Robo"
+1Benst134
+Bennhardt B-134 "Pixie"
+1Benst135t
+Bennhardt B-135 "Gremlin"
+1Benst138
+Bennhardt B-138 "Apple pie"
+1Benst161
+Bennhardt B-161 "Turbo"
+1Benst162t
+Bennhardt B-162 "Jet"
+1Benst181
+Bennhardt B-181 "Gelding"
+1Benst238
+Bennhardt B-238 "Frog"
+1Benst281
+Bennhardt B-281 "Workhorse"
+1Dampflokomotive
+RVg 0-4-0T
+2Diesellokomotive
+H-Trans BR218
+3Bens185
+Bennhardt B-185 "Santa"
+3Bens186t
+Bennhardt B-186 "Lemon"
+3Dampflokomotive
+RVg 0-3-0 "Chippy"
+451_Head
+MEZ 451
+451_Tail
+MEZ 451 (End)
+451_Waggon
+MEZ 451 (Car)
+471_Head
+Skoda 471
+471_Tail
+Skoda 471 (End)
+471_Waggon
+Skoda 471 (Car)
+7BenE11
+Bennhardt E-11
+Aeroqueen_JR_Bus_Kanto
+Aeroqueen Bus (Japanese Kanto Railway)
+Airport_express_shuttle
+Airport Shuttle Bus
+AR4_back
+AR-4 (End)
+AR4_front
+AR-4 "Kikin"
+AR4_mid_engine
+AR-4 (Middle Engine)
+AR4_mid_trainer
+AR-4 (Car)
+Asahi_Bus
+Asahi Bus
+Autotransportwagen
+Automobile Rack
+BB-TS_Milk_Mack_Trailer
+TechServ Milk Trailer
+Big_Bretterwagen
+RVg Plank Car
+Big_Erztruck
+MHz T-183 Ore Truck
+Bretterwagen
+Lumber Car
+Btx020
+BTx 20
+Budd_Coach
+"Bud" Passenger Coach
+Budd_Observation
+"Budd" End Car
+Budd_RPO
+"Budd" Mail Car
+Bulk_Ship_0
+PMNV Bulk Transporter
+Bulk_trailer_0
+Bulk Goods Trailer
+Bulk_Truck_0
+Volvo 800
+Bulk_Truck_2
+Tatra 801
+Bulk_Truck_3
+Tatra 815
+Bulk_Truck_4
+Volvo Truck
+Bulker_Bulk
+BB Bulker
+Bulker_Steel
+BB Steel Carrier
+Bulker_Wood
+BB Wood Transporter
+Car_Tramsport_Trailer_0
+TechServ Auto Trailer
+Car_Transporter_0
+TechServ Auto Transporter
+Car_Transporter_1
+RVg Car Carrier
+Car_Waggon_1
+RVg Auto Rack
+Car_Waggon_2
+RVg Large Car Carrier
+CB_ALBATROS
+Skoda 498 "Albatross"
+CB_DB-130_8
+BRAW-61000 "Taiga Drum"
+CD851
+CD-851
+Cement_Carrier_Fast
+Cement Globule Car
+Cement_trailer_0
+PMNV Cement Trailer
+Cement_Truck_0
+PMNV Cement Truck
+Cement_Waggon_0
+PMNV Cement Globule Car
+Cement_Waggon_1
+PMNV Cement Car
+Cementwagen
+Cement Hopper Car
+Ceres_Tender
+Ceres Tender
+CKD_731
+CKD-731
+CKD_749
+CKD-749
+CKD_750
+CKD-750
+Concrete_Truck_0
+S.Kroytor Concrete Truck
+Concrete_Truck_1
+Tatra 815 Concrete Truck
+Concretewagen
+PMNV Concrete Mixer 12
+Concretewagen_1
+PMNV Concrete Mixer 16
+Container_Truck
+G-Trans Boxed Goods Truck
+Cooling_trailer_0
+PMNV Cooled Trailer
+Cooling_Truck_0
+PMNV Cooling Truck (1983)
+Cooling_Truck_1
+PMNV Refrigerated Truck (1991)
+Cooling_Truck_2
+S.Kroytor Gaz-4 Refrigerated Truck
+Cooling_wagon_0
+Refrigerated Car (1929)
+Cooling_wagon_1
+Refrigerated Car (1952)
+Cooling_wagon_2
+Cannonball Refrigerated Boxcar
+D231_back
+SHI D-231 (End)
+D231_front
+SHI D-231
+D231_mid
+SHI D-231 (Bi-Level Car)
+Daisetsu_Maru
+Ferry 'Daisetsu Maru'
+DB_ADm101
+AD-101m
+DB_Apmz121
+APMZ 121 Passenger Car
+DB_Bm235
+BM-235 Passenger Car
+DB_BR103_1
+Haru "Bromine" 103
+Dc110
+KIHA 110-141
+Dc110_car
+KIHA 110-141 (Car)
+Dc22
+KIHA 22 "Green Class"
+DueWAG_GT6_motorwaggon
+W.A.G. GT-6
+DueWAG_GT6_tailwaggon
+W.A.G. GT-6 (End)
+E_423
+Sindor E-432 "Top Class"
+Eiden_Deo_903-KIRARA
+KIRARA-903
+Eiden_Deo_904-KIRARA
+KIRARA-903 (End)
+EM400_1
+Sindor EM-400
+EMD_E5A_Silver_Meteor
+EMD E5 "Silver Meteor"
+EMD_E5B_Silver_Comet
+EMD E5 "Silver Comet" (B Unit)
+Europa_Car_Transporter
+TechServ "Europa" Car Transporter
+Europa_Goods_Transporter
+TechServ "Europa" Goods Transporter
+Evil_BR153
+BR-153/155 "Sprinter"
+Evil_BR170_Back
+BR-170 (rear)
+Evil_BR170_Front
+BR-170 "Turbostar"
+Evil_BR170_Mid
+BR-170 (middle)
+Evil_BR357_Back
+BR-357 (rear)
+Evil_BR357_Front
+BR-357 "Electrostar"
+Evil_BR357_M
+BR-357 (motor)
+Evil_BR357_PT
+BR-357 (pantograph)
+Evil_Daimler_DMS_Londoner
+Daimler DMS "Londoner"
+Evil_DF-11
+DF-11
+Evil_Guy_Wulfrunian
+Guy Wulfrunian
+Evil_New_Flyer_D40-90
+New Flyer D40
+Evil_P-100_(carriage)
+RVg P-100 (carriage)
+Evil_P-100_(front_engine)
+RVg P-100
+Evil_P-100_(mail)
+RVg P-100 (mail)
+Evil_P-100_(rear_engine)
+RVg P-100 (rear)
+Evil_Scania_K94UB
+Scania K94UB Urban Coach
+Evil_Scania_K94UB_Liner
+Scania K94UB Highway Coach
+Evil-AEC_RM
+Bi-Level Bus (1948)
+Evil-Cicu_L32_Liner
+Cicu L32 Passenger Coach
+Evil-Jitluen_67_Minibus
+Jitluen 67 Minibus
+Evil-Jitluen_Beluga_FA_MKD-12
+Jitluen MKD-12 "Beluga"
+Evil-Jitluen_Beluga_FA_SR
+Jitluen SR "Beluga"
+Evil-Jitluen_Beluga_FA_SU-10
+Jitluen SU-10 "Beluga"
+Express_tender
+Albatross Tender
+Fabric_Hopper_0
+PMNV Fabric Car
+Fabric_Hopper_1
+Cannonball Fabric Car
+Fabric_Truck_0
+PMNV Fabric Truck
+FastFerry
+Hovermarine HM527 Hovercraft
+Ferry_Mail_Extension
+Ferry Mail Extension
+Fishing_Boat_0
+LR Fishing Boat
+Fishing_Boat_1
+MHz Fishing Trawler
+Fluid_trailer_0
+AJ Oil Trailer
+Fluid_trailer_1
+PMNV Oil Trailer
+Fluid_Truck_0
+Nissan 1800 Oil Truck
+Fluid_Truck_1
+Nissan 1100 Oil Truck
+Fluid_Truck_2
+ZUK-20 Oil Truck
+Fluid_Truck_3
+Magirus Oil Truck
+FUSO_Aeromidi_Keio_Bus
+Mitsubish FUSO Aeromidi
+FUSO_Aerostar_Kanachu_Bus
+Mitsubish FUSO Aerostar
+GALA_Kanto_Railway
+Isuzu GALA
+Goods_schiff
+JET Closed Carrier
+Goods_trailer_0
+Mitsubishi FUSO Super Truck (trailer)
+Goods_trailer_1
+Mitsubish FUSO Super Truck (trailer) mk.2
+Goods_trailer_2
+PMNV Goods Trailer
+Goods_trailer_3
+PMNV Rugged Goods Trailer
+Goods_Truck_0
+Mitsubishi FUSO Super Truck
+Haru-PlanV
+Plan V
+Haru-PlanV(rear)
+Plan V (rear)
+ISUZU_Erga_Odakyu_Bus
+Isuzu Erga
+JNR_B6
+JNR B6
+JNR_C11
+JNR C11
+JNR_C62
+JNR C62
+JNR_D51
+JNR D51
+JNR_DD51
+JNR DD51
+JNR_tender_S
+JNR Tender (D51;C62)
+JR_Shinkansen_723
+Shinkansen Series 723
+JR_Shinkansen_724
+Shinkansen Series 724 (End)
+JR_Shinkansen_725
+Shinkansen Series 725 (Pantograph Car)
+JR_Shinkansen_726
+Shinkansen Series 726 (Passenger Car)
+JRF_EF210
+JRF EF-210
+JRW_Mc123
+JRW Mc123
+Karl_MCW_Super_Metrobus_12m
+MCW "Super Metrobus" 12M
+Karl-MCW_Super_Metrobus_12M-158
+MCW "Super Metrobus" 12M-158
+Karl-MCW_Super_Metrobus_12M-214
+MCW "Super Metrobus" 12M-214
+KC-B10M_Keisei_Bus
+KC-B10m Articulated Bus
+KC-B10M_Keisei_Bus_Extension
+KC-B10m (End)
+KEIFUKU_Mobo101
+Keifuku Mobo 101
+KEIFUKU_Mobo301
+Keifuku Mobo 301
+KEIHAN_type80
+Keihan Type 80
+Kord_TT_bulk
+Kord TT
+Kord_TT_fabric
+Kord TT
+Kord_TT_grain
+Kord TT
+Leyland_Olympian
+Leyland "Olympian" 11M
+Mack_Truck_0
+2005 Mack Truck
+Mack_Truck_2
+1993 Mack Truck
+Mack_Truck_Cooling_Trailer
+Refrigerated Trailer (International;Mack;Peterbilt)
+Mack_Truck_Goods_Trailer
+Cargo Trailer (International;Mack;Peterbilt)
+Mack_Truck_Post_Trailer
+Mail Trailer (International;Mack;Peterbilt)
+Mail_Truck_2
+Renault Esprit Mail Van
+Marks_Passagierwagen
+MJHN "Express" Passenger Car
+Marks_Postwagen
+MJHN "Express" Mail Car
+Marks-Deltic
+MJHN "Deltic"
+MHz_Grain_Trailer_0
+Grain Trailer (Tractor)
+MHz_Long_Wood_Trailer
+Logs Trailer (Tractor)
+MHz_Tractor
+1927 Tractor
+MHz_Tractor_2
+1964 Tractor
+MHz_TRAM_1930
+T-113
+MHz_TRAM_1980
+T-235 "SuperCity"
+MHz-C11C_Bulk_Barge
+C11C Bulk Barge
+MHz-C130_Hercules
+Lockheed C-130 "Hercules"
+MHz-C130_Hercules_(cooled)
+Lockheed C-130 "Hercules" (Refrigerated)
+MHz-C273U_Cement_Barge
+C273U Cement Barge
+MHz-C35_Goods_Barge
+C35 Goods Barge
+MHz-C3P_Post_Barge
+C3P Mail Barge
+MHz-CC47_Container_Barge
+CC47 Container Ship
+MHz-Fokker_F27
+Fokker F-27 "Friendship"
+MHz-Il-76_Candid
+Ilyushin Il-76 "Candid"
+MHz-Ju-51
+Junker's Ju-51
+MHz-McDonnell-Douglas_DC10
+McDonnell-Douglas DC-10
+MHz-McDonnell-Douglas_DC3
+McDonnell-Douglas DC-3
+MHz-MT7_Milk_Barge
+MT7 Milk Barge
+MHz-OT5_Oil_Barge
+OT5 Oil Barge
+MHz-P11C_Bulk_Boat
+P11C Bulk Boat
+MHz-R2A_Push-Tug
+R2A Push Tug
+Milk_Truck_0
+Milk Truck (1995)
+Milk_Truck_1
+Milk Truck (1968)
+Milk_Truck_2
+Milk Truck "Magirus" (1951)
+Milk_Waggon_0
+Milk Tanker Car (1956)
+Milk_Waggon_1
+Milk Tanker Car (1920)
+moha2100
+Moha 2100
+PMNV_50_Mack
+Mack Truck (1950)
+PMNV_Canonball_Car_Trailer
+Automobile Trailer (1972)
+PMNV_Cement_Trailer_Slow
+Cement Trailer (1964)
+PMNV_Cement_Truck_P
+PMNV Cement Truck
+PMNV_Concrete_Truck
+Mack Concrete Truck
+PMNV_Cruiser
+Haitink Minibus
+PMNV_Cruiser_Mini
+Haitink Minibus II
+PMNV_Fabric_Trailer_0
+Closed Fabric Trailer (1964)
+PMNV_Fabric_Trailer_1
+Open Fabric Trailer (1977)
+PMNV_Goods_Ship
+Container Ship
+PMNV_Grain_Truck_0
+Grain Truck (1981)
+PMNV_Hydrogen_Cruiser
+New Flyer Hydrogen Bus
+PMNV_International_Cabover
+International Truck with Sleeper (1982)
+PMNV_Mack_Bulk_Trailer_0
+Bulk Goods Trailer (1951)
+PMNV_Mack_Cement_Trailer_L
+Cement Trailer (1982)
+PMNV_Mack_Cement_Trailer_S
+Cement Trailer (1951)
+PMNV_Mack_Concrete_Trailer_O
+Concrete Trailer (1951)
+PMNV_Mack_cooled_Trailer_O
+Refrigerated Trailer (1951)
+PMNV_Mack_Cotton_Trailer_0
+Fabric Trailer (1962)
+PMNV_Mack_Fabric_Trailer_O
+Fabric Trailer (1952)
+PMNV_Mack_Goods_Trailer_O
+Goods Truck (1951)
+PMNV_Mack_Grain_Trailer_0
+Grain Trailer (1972)
+PMNV_Mack_Grain_Trailer_O
+Grain Trailer (1951)
+PMNV_Mack_Log_Trailer_L
+Lumber Trailer (1993)
+PMNV_Mack_Log_Trailer_M
+Lumber Trailer (1972)
+PMNV_Mack_Log_Trailer_S
+Lumber Trailer (1951)
+PMNV_Mack_Milk_Trailer_O
+Milk Trailer (1951)
+PMNV_Mack_Oil_Trailer_L
+Oil Trailer (1982)
+PMNV_Mack_Oil_Trailer_S
+Oil Trailer (1951)
+PMNV_Mack_Planck_Trailer_0
+Lumber Trailer (1976)
+PMNV_Mack_Post_Trailer_O
+Mail Trailer (1951)
+PMNV_Mack_Steel_Trailer_L
+Steel Trailer (1982)
+PMNV_Mack_Steel_Trailer_S
+Steel Trailer (1951)
+PMNV_Mail_Truck_1
+Mail Truck (1985)
+PMNV_Mail_Truck_2
+Mail Truck (1991)
+PMNV_MHz_Truck_0
+Seeb Truck
+PMNV_Milk_Trailer_0
+Milk Trailer (1995)
+PMNV_Open_Goods_Trailer_L
+Goods Trailer (1982)
+PMNV_Open_Goods_Trailer_S
+Goods Trailer (1951)
+PMNV_Plank_Trailer_0
+Lumber Trailer (1973)
+PMNV_Post_Trailer_0
+Mail Trailer (1985)
+PMNV_Steel_Trailer_0
+Steel Trailer (1927)
+PMNV_TC-119-Snake
+TC-119 "Snake"
+PMNV_TC-119-Snake_b
+TC-119 "Snake" (End)
+PMNV_TC-44-Hydrogen_Car
+TC-44 Hydrogen Vehicle
+PMNV_TC-44-Hydrogen_Car_b
+TC-44 Hydrogen Vehicle (End)
+PMNV_TC-7_Astro_Trolley
+TC-7 "AstroTrolley"
+PMNV-PB1970
+Peterbilt Truck (1970)
+PMNV-TC-1_Turbo_Car
+TC-1 "TurboCar"
+PMNV-TC-112-Hyper_Car
+TC-112 "HyperCar"
+PMNV-TC-2_Turbo_Set
+TC-2 "TurboSet"
+PMNV-TC-2_Turbo_Set_b
+TC-2 "TurboSet" B
+PMNV-TC-2_Turbo_Set_c
+TC-2 "TurboSet" (End)
+PMNV-TC-5P_Mail_Man
+TC-5P
+Post_Barge
+Mail Boat (1928)
+Post_Ship
+Mail Ship (1952)
+Post_waggon_0
+PV-80 Mail Car
+Postwagen
+Mail Car (1944)
+Praga_Bus
+Praga Bus (1919)
+Praga_N_bulk
+Sindor Bulk Truck (1930)
+RVg_Daylight
+RVg "Daylight" Steamer
+RVg_Daylight_dome
+RVg "Daylight" Observation Car
+RVg_Daylight_end
+RVg "Daylight" End Car
+RVg_Daylight_post
+RVg "Daylight" Mail Car
+RVg_Daylight_tender
+RVg "Daylight" Tender
+RVg_Daylight_waggon
+RVg "Daylight" Passenger Car
+#______________________________________way______________________________________
+#______________________________________way______________________________________
+air_movement_area
+Taxiway
+asphalt_road
+Asphalt Road
+autobahn
+Autobahn
+city_road
+Road with Sidewalk
+cobblestone_road
+Cobblestone Road
+concrete_sleeper_track
+Railroad Track (Concrete Sleepers)
+concrete_tram_track
+High-Speed Tram Track
+dirt_road
+Dirt Road
+low_quality_track
+Railroad Track (1810)
+Powerline
+High-Power Transmission Line
+Schwebebahn_p_ground
+Suspended Train Track Ground Bridge
+#__________________________________way-object___________________________________
+#__________________________________way-object___________________________________
+TrolleyBus_Electrification
+Trolleybus Catenary

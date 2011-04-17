@@ -1,0 +1,454 @@
+§################################################################################
+#                                                                              #
+#                Simutrans Scenario Specific Translation File                  #
+#                               Scenario: pak128                               #
+#                           Language: cn Sim. Chinese                          #
+#                                Encoding: UTF-8                               #
+#                           Font : wenquanyi_9pt.bdf                           #
+#                           Date Created: 27.02 2010                           #
+#                                                                              #
+#                                   authors:                                   #
+#                              Frank Penz - FrankP                             #
+#                                    note:                                     #
+#                               Alan - LondonBVE                               #
+#           note: Hope to translate at least 50% by end of November.           #
+#                                苗一莘 - mys_721tx                               #
+#                                    note:                                     #
+#                          Markus Pristovsek - prissi                          #
+#                                    note:                                     #
+#                                   - shinexus                                 #
+#                                    note:                                     #
+#                                                                              #
+################################################################################
+#____________________________________bridge_____________________________________
+#____________________________________bridge_____________________________________
+ClassicRail
+混凝土得铁路桥 (Haru)
+ClassicRoad
+混凝土道路桥
+Concrete_Road_Bridge
+高速公路桥
+Plate_Girder_Bridge
+铁路板梁桥
+RVg_Concrete_Rail_Bridge
+悬挂铁路钢桥 (RVg)
+Schwebebahn_p_bridge
+悬挂单轨铁路桥
+SteelRail
+钢铁路桥
+SteelRail2
+强铁路钢桥
+SteelRoad1
+钢道路桥
+SteelRoad2
+管状钢道路桥
+u_truss_bridge
+铁路混凝土桥
+Wooden_Rail
+铁路木桥
+#___________________________________building____________________________________
+#___________________________________building____________________________________
+01_CITY
+市政府
+02_CITY
+政府大厦 2
+03_CITY
+政府大厦 3
+04_CITY
+政府大厦 4
+1920_AirDepot
+1920 简单机库
+1930AirDepot
+1930 木制机库
+1940AirDepot
+1940 铁皮机库
+1950AirDepot
+1950 混凝土机库
+1990AirDepot
+1990 现代机库
+ABBYS_0
+僧院\n这僧院的两座塔有个很深的井。\n据传说，这两个井是无底井。\n因此这僧院变成很出名，结果许多人到这看那神奇的井。\n硬币，无声地掉进50米深的井。\n因此，增帖了僧院的收入，最后和尚可以把僧院恢复原状。\n\n\n\n\n\n
+Airport1920_AirportBlg
+1920 机场搭客站
+Airport1930PostOffice
+1930 机场邮局
+Airport1990_Big_AirportBlg
+1990 巨型现代机场搭客站
+Airport1990_Entrance_AirportBlg
+1990 现代机场入口
+Airport1990_Gates_AirportBlg
+1990 现代机场大门
+Airport1990_PostOffice
+1990 现代机场邮局
+Airport1990_Small_AirportBlg
+1990 小型现代机场搭客站
+Airport1990_Warehouse
+1990 现代机场货物处理中心
+AirStop_AirportBlg
+飞机下物区
+Avila_Big_StationBlg
+巨型搭客楼
+Avila_Small_StationBlg
+小型搭客楼
+Avila_Warehouse_StationBlg
+车站货物仓库
+big_classic_bus_stop
+大型巴士站
+BigTerminal1930_AirportBlg_S
+1930 巨型机场搭客站
+BigTerminal1950_AirportBlg_S
+1950 巨型搭客站
+Bulk_Dock
+货物码头
+Bulk_StationBlg
+货物安置建筑
+bus_terminus
+现代巴士转换站
+canal_ChannelStop
+运河埠
+Car_StationBlg
+停车场
+CarDepot
+车库
+CarStop
+运送区
+CASTLE_0
+旧城堡\n\n这个城堡原本是属于Napik大王。\n在战争时，许多东西都被摧毁，\n可是这个城堡在19世纪从新建造，\n现在里面都是著名的旧盔甲与刀。\n\n\n\n\n\n
+CHURCH_00
+Gothic大教堂\n\n这个老Gothic大教堂不想是个崇拜的地方而比较像是个旅游圣地因为里头有一展珍贵的美术。\n但是，看起来管理教堂的负责人喜欢现在的情况，因为旅客带来的收入比自己的宗教信者还多。\n因为游客不可以用自己的车去到那，所以公共交通搭客肯定会很多。\n\n\n\n\n\n
+CHURCH_01
+小教堂\n\n这个早已经被忘记的小教堂还是一个舒适的一个地方，\n人们可以在这和朋友谈天与寻找一个比地球上的任何东西还珍贵。\n\n\n\n\n\n
+CHURCH_02
+粉红色教堂\n\n这个离奇有趣的教堂是由一个风的和尚建的，\n在1654年他把整个建筑物给上了粉红色。\n那个颜色已经老早不见了，\n可是教堂的名字还保留下去。\n\n\n\n\n\n
+CHURCH_03
+教堂\n\n这是一个非常出名的教堂，它是利用它周围的环境与它里面的多项著名名画。\n\n\n\n\n\n
+CHURCH_04
+犹太教\n\n这个建筑物需让很想阿拉伯建筑物，\n可是这个建筑物的确是个犹太教。\n\n\n\n\n\n\n
+CHURCH_05
+St.Michael's\n\n这个建筑宝石是在19世纪的末期，\n而且宁人感兴趣的事是它的屋顶是铁做的，\n由Alexander Gustavus Eiffel设计。\n\n\n\n\n\n
+CHURCH_06
+教堂\n\n一个普通的一个小镇或农村的教堂。\n\n\n\n\n\n
+CIRCUS_0
+Humberto马戏团\n\n这个著名的马戏团把这个镇当成它的最后一个地点。\n这个经典的帐篷是特地收藏起来来把里头的气愤和以前的相识，\n可是多数的表演者都在这里买了自己的房子，\n所以您可以住在这里，\n而且慢慢变成游客的旅游景点。\n这个马戏团有世界著名的Jumbo，\n当它一听到铃声时它就会坐下来。\n所以如果您在Jumbo的后面不要响起铃声，\n除非您喜欢变成很弁。\n\n\n\n\n\n
+CIVILIAN_RADAR
+天文台\n\n您可能不相信，\n可是这确实是一个普通的天文台。\n当让是个收音机天文台。\n\n\n\n\n\n
+classic_mailbox
+简单邮箱
+ClosedTrainStop
+完全盖住月台
+CoalTrainStop
+运煤车站
+COM_00_01
+这是一个幼儿园，\n当他们的父母在上班时，\n小学生可以在这玩和睡。\n虽然有时您会听到学生在喊，\n其实这是一个很美又平静的地方，\n充满了笑声与美梦。\n这个托儿所也教导小孩子早期阅读和算术。\n\n\n\n\n\n
+COM_00_02
+这个友善cafÃ©的跟由脚一样长的三明治而出名。\n这里的管主不肯告诉他的秘密配方，\n可是谣言说是从他家里自己种的药材制作的。\n\n\n\n\n\n
+COM_00_03
+褐色粉是一个小cafÃ©。\n您只可以到那坐在外面和朋友聊天与享受那种浓浓的本土咖啡味。\n唯一问题是车派出的气让人们失去他们的胃口。\n\n\n\n\n\n
+COM_00_04
+伪装成原本的Tidy Didy Diaper Service货车，\n这些高科技监督的货车可以穿过最严的托儿所保安。\n\n\n\n\n\n
+COM_00_05
+这个老酒吧是由一个爱尔兰移民人的儿子接手。\n这里的爱尔兰人在这里相面说老家的故事与喝下过多的 Guiness，\n因为他们相信"Guiness 对您有好处"。\n\n\n\n\n
+COM_00_06
+这是"Good Sound"收音机店。\n您可能不相信他们买的最终物品是收音机-大或小，黑或白，固定或手提，很多您不可想象的收音机。\n这个店是由一个喜欢啮齿动物和有一个大的前门牙的男孩。他叫收音机仓鼠。\n\n\n\n\n\n
+COM_00_07
+这是天然美卖花店。\n这是最好的地方来停下来买几盆花放在您的窗口基石上，\n花为您的花园或只是一束花为您的爱人。\n他们答应他们的花儿会永远新鲜而且会长达很久。\n店主在楼上用假灯饰种花。\n\n\n\n\n\n
+COM_00_08
+这个绝妙东方人餐馆俯视着一个美丽的日本花园。\n您经常可以在这看到赞助人在走道上行走，\n被这个吸引人的这一目给迷住了。\n\n\n\n\n\n\n
+COM_00_09
+这个美丽的小屋象征一个旧中世纪酒馆。\n这里的店主摆设成这么样是应为他喜欢坐在那(或在花园)和朋友在一起喝冷酒。\n他靠租马给附近的商人的租金来生活。\n\n\n\n\n\n
+COM_00_11
+这个屋子有个宠物店特别收买可爱的小猫和小狗。\n那个店主和老婆住在店的楼上，\n跟他的13只狗和27只猫每天玩的很开心。\n\n\n\n\n\n
+COM_00_12
+这个屋子的楼下是被Mandy杂货店站住。\n全部能吃的东西都在屋子的左边售卖，\n而其他东西在右边售卖。\n这个屋子的二楼是当地的扑克牌选手的秘密基地。\n\n\n\n\n\n
+COM_00_13
+在一个天气晴朗的一天时，\n您可以在这个普通的旅馆的上面享受午餐。\n可是在天气不好时，\n风会从街上的水治疗馆吹，\n通常您都会失去胃口。\n\n\n\n\n\n
+COM_00_14
+您需不需要一个特别的礼物为您的爱人?\n您只要进来这找到一个礼物能让您的朋友再也不敢请你了!\n\n\n\n\n\n
+COM_00_15
+在一楼的明亮遮篷下是个珠宝店和一家面包店。在楼上是一些租金金便宜的办公室为专业的可疑的声望。\n\n\n\n\n\n\n
+COM_00_16
+药片不是毒品商店专门买不同种类的药物-从多多种种的药片和药物到绷带和木脚。\n\n\n\n\n\n\n
+COM_00_17
+Eugene 好衣服是个好地方来找价格合理的最新流行。\n\n\n\n\n\n\n
+COM_00_18
+Chateaux Touche 是个完美的床和早餐。 \n它还是被 Chaz's Guide 到 Romantic Getaways 和\nCool Places 到 Get Lucky 率了五颗心。\n\n\n\n\n
+COM_00_19
+这个服装店是由一个退休的园丁营业的。\n一个奇怪的问题是: 为什么这么多秘密侦探在这买西装? \n难道这不奇怪吗?\n\n\n\n\n
+Control_StationBlg
+车站控制中心
+DenkGeorg
+谢谢您 MHz!\n\n这座纪念碑致力于著名的建筑师 Georg,也称为 MHz,\n在世界周围设计那么多的建筑物。他也设计一些异常的车辆。\n\n\n\n\n
+ELEMENTARY_SCHOOL_1
+小学\n\n这是孩子应该受他们的第一教育的一个地方。数学，语言，历史和科学在较不有利的主题中间。通常象绘画和歌唱很多那样的年轻的学生变好。因为年轻人不能驾驶汽车，这个地方将产生一批的旅客。但是小心，豪华的公共汽车不被建议在这里服务。\n\n\n\n\n\n\n
+Fluid_StationBlg
+液体储存建筑物
+Goods_StationBlg
+货物安置建筑物
+HQ1
+总部
+IND_06_60
+焚烧装置是我们。如果你有绝对地，肯定地需要整晚被破坏的敏感的文件给我们打电话。中午以前的电话和我们将接他们那同样的日。或者，要求我们的特别应急服务和我们保证在\nFEDs\n到那儿以前他们将被挑选，或者他们免费地将发现你一份新的工作。\n\n\n\n\n
+JUSTICE
+正仪大楼\n\n这是城市的正义大楼，在那里审讯经常被召开。律师经常地来和去。\n\n\n\n\n\n
+Long_Goods_Dock
+长货物码头
+medium_classic_bus_stop
+旧小型有盖巴士站
+Modern_Warehouse
+现代仓库
+OpenTrainStop
+简单月台
+PostOffice
+邮政局
+RES_13_60
+致力于 Kermit the Frong -\n“它不是容易是格林”建筑物吸引没经验的情人从到处。跟其不同地被遮蔽的外部和其的声音的绿色的内部一起容易的看为什么。\n\n\n\n\n\n
+ShipDepot
+船仓库
+small_classic_bus_stop
+简单巴士站
+TramDepot
+吊车仓库
+VillageTrainStop
+村庄站
+WOODEN_CHURCH
+木制教堂\n\n这座木制的教堂被 Hamish 人建造。\n\n\n\n\n\n
+#__________________________________dummy_info___________________________________
+#__________________________________dummy_info___________________________________
+#____________________________________factory____________________________________
+#____________________________________factory____________________________________
+bakery
+面包店
+brewery
+酿造厂
+cannery
+罐头厂
+car_assembly_plant
+汽车装配厂
+car_dealer
+汽车销售商
+Cementmill
+水泥工厂
+chicken_farm
+养鸡场
+classical_goods_factory
+货物工厂
+Concretefactory
+混凝土工厂
+cotton_field
+棉花田
+cow_farm
+养牛场
+dairy
+牛奶场
+Druckerei
+打印场
+electronics_factory
+电子厂
+fish_pond
+鱼池
+fish_swarm
+鱼群
+food_processing_plant
+食物工厂
+Glass_factory
+玻璃工厂
+grain_farm
+米田
+grain_mill
+麦加工场
+Kohlekraftwerk
+煤炭发电厂
+Materialswholesale
+材料批发厂
+Moebelfabrik
+家丝厂
+Moebelhaus
+超级市场
+Nutzwald
+树木種植地
+Oelbohrinsel
+海上油台
+Oelfeld
+油台
+oilkraftwerk
+燃油发电厂
+Papierfabrik
+制纸厂
+Raffinerie
+炼制厂
+Saegewerk
+剧木厂
+Sandquarry
+沙子采石场
+sheep_farm
+养羊厂
+shopping_mall
+百货公司
+TANKE1
+添油站
+textile_factory
+纺纱厂
+waste_disposal
+垃圾回收厂
+waste_incinerator_kraftwerk
+垃圾焚化炉
+wind_kraftwerk
+风力发电厂
+#_____________________________________field_____________________________________
+#_____________________________________field_____________________________________
+#_____________________________________good______________________________________
+#_____________________________________good______________________________________
+Autos
+汽车
+beer
+啤酒
+Bretter
+木板
+Bucher
+书
+canned_food
+罐装食品
+Cement
+水泥
+Chemicals
+化学物
+Concrete
+混凝土
+cotton
+棉花
+Eisenerz
+铁矿
+electronics
+电器
+fertilizer
+肥料
+fish
+鱼肉
+flour
+面粉
+food
+食物
+Gasoline
+汽油
+glass
+玻璃
+goods_
+货物
+grain
+谷物
+Holz
+木
+Kohle
+煤炭
+meat
+肉类
+milk
+牛奶
+Moebel
+家私
+None
+没
+Oel
+原油
+Papier
+纸
+Plastik
+塑料
+Sand
+沙
+Stahl
+钢铁
+Stone
+石头
+textile
+纺织品
+waste
+废物
+wool
+羊毛品
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+CATEGORY_01
+零担货物
+CATEGORY_02
+重量货物
+CATEGORY_03
+油/汽油
+CATEGORY_04
+冷藏货物
+CATEGORY_05
+液体货物
+CATEGORY_06
+木
+CATEGORY_07
+农货物
+#__________________________________record_text__________________________________
+#__________________________________record_text__________________________________
+#___________________________________roadsign____________________________________
+#___________________________________roadsign____________________________________
+airport_oneway
+单向飞机跑道
+autobahn_classic_entrance
+久高速公路入口标志
+autobahn_classic_exit
+久高速公路出口标志
+autobahn_modern_entrance
+现代高速公路入口标志
+autobahn_modern_exit
+现代高速公路出口标志
+choose_point
+方向选择标志
+choose_signal_monorail
+单轨月台选择讯号
+ChooseSignals
+月台选择讯号
+Minimum80
+最高速度 (每公里八十)
+NoEntry
+单向禁止进入
+preSignal_Monorail
+单馗前异讯号
+preSignals
+前异讯号
+RoadClosed
+禁止前进标志
+Signal_Monorail
+单馗讯号
+Signals
+讯号
+traffic_light
+交通灯
+#_____________________________________tree______________________________________
+#_____________________________________tree______________________________________
+cactus000
+仙人掌 000\n\n\n\n\n\n\n
+cactus001
+仙人掌 001\n\n\n\n\n\n\n
+cactus002
+仙人掌 002\n\n\n\n\n\n\n
+palm011
+棕树\n\n\n\n\n\n\n
+tree081
+树木\n\n\n\n\n\n\n
+#____________________________________tunnel_____________________________________
+#____________________________________tunnel_____________________________________
+#____________________________________vehicle____________________________________
+#____________________________________vehicle____________________________________
+1Ben140
+Bennhardt B-140 "Limet"
+1Bens155
+Bennhardt B-155 "Robo"
+1Benst134
+Bennhardt B-134 "Pixie"
+#______________________________________way______________________________________
+#______________________________________way______________________________________
+autobahn
+高速公路
+cobblestone_road
+鹅卵石道路
+concrete_road
+混凝土路面
+#__________________________________way-object___________________________________
+#__________________________________way-object___________________________________

@@ -1,0 +1,17 @@
+# this file contains the pak specific speed bonus values
+
+road=1920,30,1950,50,1970,70,2020,100
+
+track=1903,48,1950,85,2040,210
+
+water=1900,24,1972,33
+
+air=1925,150,1942,220,1966,400,1978,600,2020,670,2021,790
+
+monorail_track=1949,50,1950,60,1984,70,1985,85,2012,85,2032,105
+
+tram_track=1940,50,1970,70,1986,76,2025,108
+
+# missing waytypes:
+# narrowgauge_track=?
+# maglev_track=?

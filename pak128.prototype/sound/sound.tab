@@ -1,0 +1,30 @@
+# 0..8 standard (old) game sounds
+sound[0]=engine-start-diesel-1.wav
+sound[1]=engine-start-diesel_d.wav
+sound[2]=engine-start-diesel_d.wav
+sound[3]=train-horn-diesel-0.wav
+sound[4]=train-horn-steam-0.wav
+
+# hardcoded game sounds
+# do not alter these numbers!
+#cash
+sound[15]=cash.wav
+# remover sound
+sound[14]=explosion.wav
+# - construction on water
+sound[13]=dock.wav
+# - metal construction gets built
+sound[12]=gavel.wav
+# - stone/concrete construction gets built
+sound[11]=jackhammer.wav
+# - tool failed
+sound[10]=boing.wav
+# - tool selection
+sound[9]=click.wav
+
+
+#other used sounds
+#does not need to be here
+
+
+

@@ -1,0 +1,188 @@
+
+
+                       128x128 pixel Tile Set Credits
+
+
+              (There is no specific order of persons in the lists.)
+
+
+Image set Development Coordination:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Tomas Kubes - Napik
+
+Vladimir Slavik - VS
+
+
+
+Image Authors:
+~~~~~~~~~~~~~~
+
+(In no specific order.)
+
+Georg Heiduk - MHz
+Guillermo Mateo - Raven
+Patrick Nesbitt - PMNV
+Tomas Kubes - Canonball
+James Starr
+Andreas Jahle - shorty139aj
+Fabio Gonella - fagonella
+Robbe Johnson - rmax500
+Marcel - Blackbox
+Sergey Kroytor
+Michel (Evil) Tsui
+Vladimir Slavik - VSYS
+Ad van Gerwen - AvG
+Ondrej Zapletal - OnDRej - ReAnimator
+Jan Polacek  - Jerome Heretic
+Jan Licka - Sindor
+Stefan Wuttich - MiP
+timeshock2003
+Flor Wauters
+Hansjoerg Malthaner - Hajo
+Peter J. Dobrovka
+Markus Weber
+Timothy Baldock
+Masao Kasuga - Haru
+propermike
+Viktor Janeba
+Frans van Nispen
+Lukasz Remis
+Isaac Eiland-Hall
+Paul Szczepanek
+Sergei Brujhanov
+Patrick Sintzel - Joker
+Rick
+Seth C. Triggs
+Jakob Sack - powersack
+Christopher Joice
+Albert Ruiz - Zeno
+Tomas Padevet - TommPa9
+Vit Stejnar - Vitus
+Shunter
+Martin
+Dirk Weingran - DirrrtyDirk
+Shishido Yoshihiro - yoshi
+Xavier - vilvoh
+Pawel Szczepanek
+Karl Cheung
+Mark Norman
+Tetsui Watanabe - Nabe
+Jakub Coufal - Gelion
+Zkou2
+Krysztof Suchecki - DanteDarkstar
+Gouv
+Jakob Schaefer
+Kristian Koerselman - Stormoog
+Timothy Baldock
+Rick McGreal - Trikky
+Kieron Green
+Ondrej Zarevucky
+Karl Siegemund - Sique
+Alexander Brose
+Asterix909
+Monatetsu
+Kikin Sharyo
+Haguruma
+SHI
+939
+kei
+663
+678
+713
+939
+684k
+Andreas
+Benjamin Siegel - Bennhardt
+Cpt. Robert
+HIBARI
+Hinoto
+J. Sawabushi
+leedsnut
+Teddy
+Timeshock
+Tobu
+Boomer
+MHD
+
+
+Initial Building Description Authors:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+James Barker - Jimmy
+Jan Polacek  - Jerome Heretic
+Ondrej Zapletal - OnDRej - ReAnimator
+Vladimir Slavik
+Stefan Wuttich - MiP
+Patrick Nesbitt
+Tomas Kubes - Napik
+Christhopher Joice
+
+...and all the translators.
+
+Since the introduction of SimuTranslator it is not possible to keep track of
+who invented new story or who translated it from other language. People above
+helepd to create the initial stories for the first public release of pak128.
+
+
+Translators:
+~~~~~~~~~~~~
+
+Romanian:
+Ferencz Szekely
+
+
+
+People who Contributed in Other Ways:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Isaac Eiland-Hall
+    Web hosting services
+    Web gramar correction
+Vladimir Slavik
+    Utility programming
+    Spell checking
+    Added special colors to many vehicles of other authors
+Jack Verheydt
+    Additional grammar corrections and proofreading
+Stefan Wuttich - MiP
+    Utility programming
+Constantin Grabowski - Moistboy
+    Simutrans logo design
+Jan Polacek - Jerome Heretic
+    Linux package maintenance
+Milan Gvozdik
+    Extensive testing
+Christhopher Joice
+    Simutrans Installer
+Gunter Beine
+    Did the work which no one else wanted
+    Manually added copyright information for every city building
+Marco - marco
+    Created dat files
+Fabio Gonella, Michael ? - whoami and Frank Penz - FrankP
+    Maintained the set during outage in 2008
+Frank Penz - FrankP
+    DAT file maintenance and updates
+Dirk DirrrtyDirk
+    DAT file maintenance and updates
+    Menus and icons
+Albert Ruiz - Zeno
+    Prices and finances balancing
+Werner Brandt - wernieman
+    Repository hosting
+	Nightly compilations
+
+
+
+And other unnamed members of Simutrans community who helped by bringing ideas,
+bug reports, comments and support of the development team.
+
+
+
+Important Adresses:
+~~~~~~~~~~~~~~~~~~~
+
+http://128.simutrans.com
+http://forum.simutrans.com
+http://wiki.simutrans.com
+http://www.simutrans.com

@@ -1,0 +1,844 @@
+################################################################################
+#                                                                              #
+#                Simutrans Scenario Specific Translation File                  #
+#                               Scenario: pak128                               #
+#                              Language: pl Polski                             #
+#                             Encoding: ISO-8859-2                             #
+#                            Font : prop-latin2.fnt                            #
+#                            Date Created: 3.05 2010                           #
+#                                                                              #
+#                                   authors:                                   #
+#                              Frank Penz - FrankP                             #
+#                                    note:                                     #
+#                              Jaroslaw - Jaroslaw                             #
+#                                    note:                                     #
+#                                     - Rivo                                   #
+#                                    note:                                     #
+#                          Markus Pristovsek - prissi                          #
+#                                    note:                                     #
+#                                 Kamil - qamil                                #
+#                                    note:                                     #
+#                                                                              #
+################################################################################
+#____________________________________bridge_____________________________________
+#____________________________________bridge_____________________________________
+ClassicRail
+Betonowy p³aski most (Haru)
+ClassicRoad
+Betonowy most drogowy
+Concrete_Road_Bridge
+Most autostradowy
+Plate_Girder_Bridge
+Most belkowy
+RVg_Concrete_Rail_Bridge
+Most podwieszany (RvG)
+Schwebebahn_p_bridge
+Podwieszony Monorail (most)
+SteelRail
+Stalowy most kolejowy
+SteelRail2
+Mocny stalowy most
+SteelRoad1
+Stalowy most drogowy
+SteelRoad2
+Most tunelowy
+Wooden_Rail
+Drewniany most kolejowy
+#___________________________________building____________________________________
+#___________________________________building____________________________________
+01_CITY
+Ratusz
+01_CITY_1
+Ratusz
+02_CITY
+Ratusz
+02_CITY_1
+Ratusz
+03_CITY
+Ratusz
+03_CITY_1
+Ratusz
+04_CITY
+Ratusz
+04_CITY_1
+Ratusz
+05_CITY
+Ratusz
+05_CITY_1
+Ratusz
+1920_AirDepot
+Zwyk³y hangar
+1930AirDepot
+Drewniany hangar
+1940AirDepot
+Stalowy hangar
+1950AirDepot
+Betonowy hangar
+1990AirDepot
+Nowoczesny hangar
+ABBYS_0
+Opactwo\n\nTo opactwo jest dobrze\nznane z powodu g³êbokich\nstudni w obu wie¿ach.\nZgodnie z legend± te\nstudnie s± bez dna.\nNiewiarygodne jak du¿o\nludzi chce zobaczyæ te\nmagiczne studnie. Monety,\nspadaj±ce cicho na piankê\n50 metrów poni¿ej\nnaprawi³y bud¿et mnichów\ntak bardzo, ¿e mogli oni\ndoprowadziæ ruiny do aktualnej\n¶wietno¶ci.\n
+Airport1920_AirportBlg
+Poczekalnia
+Airport1930PostOffice
+Biuro poczty lotniczej
+Airport1990_Big_AirportBlg
+Budynek terminalu
+Airport1990_Entrance_AirportBlg
+Wej¶cie
+Airport1990_Gates_AirportBlg
+Bramka
+Airport1990_PostOffice
+Pocztowa lotnicza
+Airport1990_Small_AirportBlg
+Nowoczesna poczekalnia
+Airport1990_Warehouse
+Terminal towarowy
+AirStop_AirportBlg
+Strefa za³adunku samolotów
+Avila_Big_StationBlg
+Du¿y dworzec
+Avila_Small_StationBlg
+Ma³y dworzec
+Avila_Warehouse_StationBlg
+Magazyn kolejowy
+big_classic_bus_stop
+Du¿y przystanek
+big_modern_bus_stop
+Du¿y Nowoczesny Terminal Autobusowy
+BigTerminal1930_AirportBlg_S
+Du¿y terminal
+BigTerminal1950_AirportBlg_S
+Du¿y terminal (1950)
+Bulk_Dock
+Dok towarowy dla towarów drzewnych
+Bulk_StationBlg
+Budynek stacji towarowej
+bus_terminus
+Nowoczesny terminal autobusowy
+canal_ChannelStop
+Przystañ
+canal_ware_stop
+Przystañ towarowa
+Car_StationBlg
+Dworcowy parking dla samochodów
+CarDepot
+Zajezdnia
+CarStop
+Strefa za³adunku
+CASTLE_0
+Stary zamek\n\nTen zamek kiedy¶ nale¿a³ do\nkróla Napika. Wiêkszo¶æ\nzosta³a zniszczona w\nczasie wielkiej wojny, ale\nzosta³ on odbudowany w 19\nwieku i teraz mie¶ci bardzo\ns³awn± kolekcjê zbroi i\nmieczy.\n
+CHURCH_00
+Gotycka katedra\n\nTa stara gotycka katedra od\nczasu umieszczenia w niej\nwystawy sztuki sakralnej\njest teraz bardziej atrakcj±\nturystyczn± ni¿ miejscem\nuwielbienia. Jednak¿e\nw³adze ko¶cielne lubi± tê\nsytuacjê gdy¿ tury¶ci\nprzynosz± wiêcej\nprzychodów ni¿ wierni.\nWielu pasa¿erów domaga\nsiê odpowiedniego po³±czenia\ngdy¿ nie mog± dostaæ siê tutaj\nswoimi samochodami.\n
+CHURCH_01
+Ma³y ko¶ció³\n\nTen ma³y zapomniany\nko¶ció³ jest nadal\nprzyjaznym miejscem gdzie\nludzie mog± siê spotykaæ,\nrozmawiaæ i szukaæ czego¶\nwy¿szego ni¿ sprawy\nprzyziemne.\n
+CHURCH_02
+Ró¿owy ko¶ció³\n\nTen ko¶ció³ by³ zbudowany\nprzez szalonego mnicha,\nktóry w 1654 pomalowa³\nca³y budynek na ró¿owo.\nChocia¿ farba z czasem\nwyblak³a, nazwa wci±¿\npozosta³a ta sama.\n
+CHURCH_03
+Ko¶ció³\n\nTen znany ko¶ció³ przyci±ga\nludzi ze wzglêdu na mi³e\notoczenie i interesuj±ce\nobrazy wewn±trz.\n\n\n
+CHURCH_04
+Synagoga\n\nChocia¿ ¿e wygl±da przypomina\nstyl arabski, w\nrzeczywisto¶ci jest to\nsynagoga.\n\n\n
+CHURCH_05
+¦wiêty Micha³\n\nTen architekturalny klejnot\nzosta³ postawiony pod\nkoniec 19 wieku i jest\ninteresuj±cy z powodu\nswojego metalowego\ndachu, który zaprojektowa³\nAleksander Gustaw Eiffel.\n
+CHURCH_06
+Ko¶ció³\n\nTypowy ma³omiejski ko¶ció³ek.\n\n\n\n\n\n
+CIRCUS_0
+Cyrk "Humberto"\n\nTen s³awny cyrk zadomowi³\nsiê w tym mie¶cie na dobre.\nKlasyczny namiot zosta³\nzachowany aby utrzymaæ\noryginaln± atmosferê, ale\nwszyscy cyrkowcy kupili\nsobie tutaj domy, wiêc\nmo¿esz liczyæ teraz na\nbardzo popularny cel\nturystów. W cyrku\nwystêpuje s³awny s³oñ\nJumbo, który siada gdy us³yszy\ndzwonek. Lepiej uwa¿aj i nie\ndzwoñ gdy stoisz Jumbo,   chyba\n¿e lubisz czuæ siê p³aski.\n
+CIVILIAN_RADAR
+Radioteleskop\n\nNajzwyklejszy radioteleskop. Nie mamy\nnic wspólnego z SETI,\ns³owo!\n\n\n\n
+classic_mailbox
+Skrzynka pocztowa
+ClosedTrainStop
+Ca³kowicie zadaszony peron
+CoalTrainStop
+Stacja towarowa dla rud kopalnianych
+COM_00_01
+Jest to przedszkole, gdzie\nma³e dzieci mog± siê bawiæ\ni spaæ podczas gdy ich\nrodzice s± w pracy. Chocia¿\nczasami mo¿na us³yszeæ\njakie¶ krzycz±ce dziecko,\ntak naprawdê jest to\nbardzo mi³e i spokojne\nmiejsce, pe³ne ¶miechu i\ns³odkich snów. Dzieci ucz±\nsiê równie¿ czytaæ oraz\npodstaw matematyki.\n
+COM_00_02
+Ta przyjazna kawiarnia jest\nznana z kanapek d³ugich\njak stopa. W³a¶ciciel\nodmawia odkrywania\ntajemniczego przepisu, ale\nplotki nios± ¿e sam\nwarzywa pochodz± z jego\nw³asnego ogródka.\n
+COM_00_03
+Br±zowy Proszek jest ma³±\nkawiarni±. Mo¿esz tutaj\nposiedzieæ ze znajomymi na\nzewn±trz ciesz±c siê\nbogatym smakiem tutejszej\nkawy. Jedynym problemem\ns± spaliny samochodowe\nprzez który klienci trac±\nswój apetyt.\n
+COM_00_04
+Wygl±daj± jak zwyk³e\nsamochody Serwisu\nCzystych Pieluch, lecz te\nzaawansowane\ntechnologicznie pojazdy\nwywiadowcze mog± siê\nprzedrzeæ przez najlepsze\nzabezpieczenia.\n
+COM_00_05
+Ten stary pub jest\nw³asno¶ci± syna\nirlandzkich imigrantów.\nLokalna irlandzka\nspo³eczno¶æ spotyka siê\ntutaj aby opowiadaæ\nhistoryjki z ich kraju jak\nrównie¿ spo¿ywaæ du¿e\nilo¶ci Guinessa wierz±c ¿e\n"Guinnes jest dobry dla\nCiebie".\n
+COM_00_06
+To jest sklep z radiami\n"Dobry D¼wiêk".\nPrawdopodobnie nie\nbêdziesz zaskoczony tym\n¿e najwiêcej tutaj\nsprzedaj± radioodbiorników,\nma³ych czy du¿ych,\nczarnych czy bia³ych,\ndomowych czy\nprzeno¶nych, po prostu\nka¿dy rodzaj. W³a¶cicielem\njest cz³owiek który\nwygl±da jak gryzoñ, ze swoimi\ndu¿ymi zêbami. Nazywaj± go\nRadiowy Chomik.\n
+COM_00_07
+To jest kwiaciarnia\n"Naturalne Piêkno".\nNajlepsze miejsce aby siê\nzatrzymaæ i kupiæ ³adny\nwazonik na parapet, ro¶liny\nogrodowe lub bukiet dla\nukochanej osoby. Obiecuj±\n¿e ich kwiaty zawsze bêd±\n¶wie¿e i bêd± trzymaæ\nd³ugo. Rosn± one na piêtrze\nprzy pomocy sztucznego\n¶wiat³a.\n
+COM_00_08
+Ta znakomita orientalna\nrestauracja góruje nad\npiêknym japoñskim\nogrodem. Mo¿esz tutaj\nznale¼æ sta³ych klientów\nzapatrzonych na\nzapieraj±ce dech w\npiersiach widok.\n\n\n
+COM_00_09
+Ta piêkne ma³a stró¿ówka\njest podobna do\n¶redniowiecznej tawerny.\nW³a¶ciciel przygotowa³ to\nmiejsce tak poniewa¿ lubi³\nsiedzieæ tam (lub w\nogrodzie) ze swoimi\nprzyjació³mi i piæ zimne\npiwo. Zarabia na swoje\n¿ycie wypo¿yczaj±c swój\nkonny zaprz±g pobliskim\nfirmom.\n
+COM_00_10
+Budynek stra¿y po¿arnej.\n\n\n\n\n\n\n
+COM_00_11
+W tym domu mie¶ci siê ma³y\nsklepik ze zwierzêtami, w\nktórym zawsze znajdziesz\njakie¶ ma³e s³odkie kociaki\ni szczeniaczki. Zapewne nie\nzdziwi was fakt, ¿e\nw³a¶ciciel mieszka na górze\nz 13 psami i 27 kotami,\nktóre spokojnie bawi± siê\nze sob± ca³y dzieñ.\n
+COM_00_12
+Dolna czê¶æ tego domu\nzajmowana jest przez sklep\nMandy. Wszystkie artyku³y\nspo¿ywcze sprzedawane s±\nw lewej czê¶ci budynku, a\nreszta w prawej. Górne\npiêtro natomiast jest\nsekretn± kryjówk±\nlokalnych pokerzystów. \n
+COM_00_13
+W s³oneczne dni mo¿esz\nusi±¶æ siê na górnym\nbalkonie tej jadalni i zje¶æ\nlunch na ¶wie¿ym\npowietrzu. Lecz w wietrzne\ndni uwa¿aj, poniewa¿ wiatr\nzawiewa tam zapachy z\nlokalnej oczyszczalni\n¶cieków, co raczej nie\nwp³ynie dobrze na twój\napetyt.\n
+COM_00_14
+Czy potrzebujesz jakiego¶\n/"specjalnego/" prezentu\ndla kogo¶ kogo /"bardzo/"\nlubisz? Zajrzyj tutaj i kup\ntaki prezent po którym twój\n/"przyjaciel/" ju¿ nigdy\nwiêcej ciê nie zaprosi.\n
+COM_00_15
+Pod jasnymi markizami\npierwszego piêtra kryje siê\njubiler i piekarnia. Na\ngórnych piêtrach znajduj±\nsiê biura dla\nprofesjonalistów o\nw±tpliwej renomie.\n
+COM_00_16
+Ta apteka specjalizuje siê\nw sprzeda¿y wszystkich\nmedycznych produktów. Od\nka¿dego rodzaju tabletek,\ndo banda¿y, a nawet\ndrewnianych protez nóg.\n\n
+COM_00_17
+Sklep odzie¿owy Eugenii to\n¶wietne miejsce je¶li\nchcesz znale¼æ jaki¶\nstylowy ciuch za rozs±dne\npieni±dze.\n\n\n
+COM_00_18
+Chateaux Touche to\nwspania³y hotel. W\nprzewodniku Chaz'a w\nkategorii Romantycznych\nWyjazdów ma nawet piêæ\nqwiazdek.\n\n
+COM_00_19
+Ten sklep odzie¿owy\nprowadzony jest przez\nby³ego ogrodnika. Ciekawe\ntylko dlaczego tak du¿o\nagentów i szpiegów kupuje\ntutaj garnitury?\nPodejrzane... \n
+COM_00_21
+Ten parking jest kryjówk±\ngangu gerontokratów. Gang\nten sk³ada siê z grupki\nstarszych pañ\nniezadowolonych z\npoczynañ w³adz miasta.\nSpotykaj± siê tu o pó³nocy,\na potem szar¿uj± ulicami\nmiasta na swych\nzmotoryzowanych wózkach\ninwalidzkich. Uzbrojone w\nkule i laski bezlito¶nie bij±\nka¿dego pijanego nastolatka\nktóry na swoje nieszczê¶cie\nspotka ich po drodze z pubu.\nDziêki ich aktywno¶ci okolica\nprzynajmniej wolna jest od\ngraffiti.\n
+COM_00_22
+Ten kompleks handlowo\nmieszkalny zbudowany\nzosta³ dla ludzi którym nie\nchce siê wychodziæ ze\nswojego bloku aby udaæ sie\nna zakupy.\n\n
+COM_00_23
+Ma³y zwyk³y biurowiec, dla\nma³ych zwyk³ych firm.\n\n\n\n\n\n
+COM_00_60
+Luksusowy hotel, w którym\npewnego razu zatrzyma³ siê\nMichael Jackson. Od\ntamtego czasu za ten\npokój p³aci siê poczwórnie.\n\n\n
+COM_01_01
+Ma³y pubik w którym gdy ci\nsiê znudzi mo¿esz udaæ siê\nz wêdk± do pobliskiego\nbajorka aby po³owiæ ¶limaki.\n\n\n\n
+COM_01_05
+Ten sklep rowerowy\nposiada wszystko. W\nramach specjalnych\nekologicznych ofert\nprodukuje rowery dla armii,\npolicjantów i stra¿aków, a\nnawet polityków.\n
+COM_01_13
+Ta sma¿alnia ryb jest\nznana wszystkim ze swego\nwyj±tkowo smacznego\njedzenia, ale nie tylko.\nW³a¶ciciel wpad³ na\noryginalny pomys³\npo³±czenia jej z bilardem. W\nten oto sposób jedz±c\nrybkê mo¿na popatrzeæ  na\nzawody bilardowe.\n
+COM_01_15
+Siedziba firmy produkuj±cej\nmaszyny do szycia. Jedn±\nze specjalnych ofert jest\nszycie pokrowców. Chwal±\nsiê, ¿e uszyj± wszystko.\nJeden z biznesmenów,\nktóry nie mia³ co robiæ z\npieniêdzmi, w ramach ¿artu\nzamówi³ tu pokrowiec na\nkulê ziemsk±. Prace trwaj±.\n
+COM_01_17
+Kiedy popularno¶æ tego\nsklepu z pralkami przeros³a\nnaj¶mielsze oczekiwania\njego w³a¶ciciela,\npostanowi³ on dobudowaæ\nna dachu parking dla\nklientów.\n
+COM_01_18
+Ten budynek wygl±daj±cy\njak ko¶ció³ by³ kiedy¶\nu¿ywany do sk³adania\nrytualnych ofiar. Lokalne\nczarownice wci±¿ zbieraj±\nsiê tu w halloween.\n\n
+COM_01_19
+Po wej¶ciu do tego\nbudynku zobaczysz\nzabawki jakich jeszcze nie\nwidzia³e¶. Ten sklep\nsprzedaje tylko najlepsze\nmodele kolejek na ¶wiecie i\njest ¶wietnie znany w\nca³ej okolicy.\n
+COM_01_21
+Ten budynek wybudowa³y\nw ramach wspó³pracy dwie\nfirmy. Jedna produkuje\nkomputery, a druga\nmonitory. Ich biura\nznajduj± siê na górze.\n\n
+COM_01_23
+W sklepie elektronicznym\nmieszcz±cym siê u podnó¿a\ntego budynku kupisz\nnajlepsze w kraju\nodtwarzacze DVD.\n\n\n
+COM_01_26
+Kto¶ mia³ ¶wietny pomys³\naby zagospodarowaæ te\nstare wiejskie budynki na\nhotel. Podobno jedn± z\natrakcji jest to, ¿e w\n¶rodku przechadzaj± siê\n¿ywe zwierzêta hodowlane.\n
+COM_01_28
+W tym eleganckim budynku\nwbrew pozorom mie¶ci siê\nfabryka pomp. Chocia¿ ma³o\nsiê tu zarabia przyjazna\natmosfera sprawia, ¿e\nludzie lubi± tu pracowaæ.\n\n
+COM_01_29
+To mia³ byæ zwyk³y budynek\nmieszkalny. Jednak trzeba\ngo by³o trochê oszpeciæ,\ngdy jeden z bogatszych\nmieszkañców za¿yczy³\nsobie zewnêtrzne schody\nna pierwsze piêtro.\n
+COM_01_35
+Lokalne biuro Narodowej\nAgencji Wszechwiedzy.\nUwa¿aj, mo¿esz ich\nczasami spotkaæ\ngrzebi±cych w twoich\n¶mieciach w poszukiwaniu\ntajnych dokumentów\nrz±dowych.\n
+COM_01_36
+Zwyk³y biurowiec. Wyró¿nia\nsiê jedyni w ¶wiêta\nnarodowe kiedy to na górze\nwywieszana jest ogromna\nflaga.\n\n\n
+COM_01_47
+Ten luksusowy\napartamentowiec zosta³ w\nca³o¶ci zbudowany z\npieniêdzy miasta, które\nchcia³o sprawdziæ trochê\n¿ywej gotówki. Jednak\n¿adni biznesmeni nie chcieli\ntu mieszkaæ wiêc\nmieszkania sprzedano za\ncenê zwyk³ych mieszkañ w\nblokach.\n
+COM_01_52
+Wszystko by³oby w\nporz±dku z tym budynkiem,\ngdyby nie to ¿e kto¶\nzapomnia³ wstawiæ do niego\nwindê. Cena najmu biur na\ngórnych piêtrach jest\nnaprawdê atrakcyjna.\n
+COM_01_60
+Ten nowoczesny biurowiec\njest niew±tpliwie przewag±\nformy nad tre¶ci±.\n\n\n\n\n
+COM_02_13
+Na górze tego\nwygl±daj±cego jak\n¶redniowieczna tawerna\nbudynku znajduje siê\nca³kiem nowocze¶nie\nurz±dzony Pub. Chodz±\ns³uchy, ¿e w piwnicach\nw³a¶ciciel nielegalnie pêdzi\nco nieco procentów.\n
+COM_02_15
+W motelu /"u Tomka/"\nzawsze mo¿esz siê\nporz±dnie naje¶æ i wyspaæ.\nPracuj± u niego najlepsze\npokojówki i najlepsi\nkucharze.\n\n
+COM_03_21
+Zwyk³y dom wielorodzinny.\nJednak gdy popatrzy siê na\nstatystyki mo¿na\ndowiedzieæ siê paru\nciekawych rzeczy. Miêdzy\ninnymi to, ¿e dom sp³on±³\nju¿ ponad 10 razy, jednak\nza ka¿dym razem\nodbudowano go dok³adnie\ntak samo.\n
+COM_03_28
+Biura w tym budynku by³y\ntak du¿e, ¿e menad¿erowie\nczêsto gubili siê we\nw³asnych lokalach. Dlatego\nw³a¶ciciel zdecydowa³ siê\naby zmniejszyæ budynek o\njedn± ¶cinê. Ten pomys³\nprzywiód³ tu rzesze firm\nktóre nagle chc± mieæ tu\nbiura. Tylko patrzeæ jak\nnied³ugo wybuduj±\nnastêpne takie dziwad³a.\n
+COM_05_01
+To najbardziej popularny\nklub w okolicy. Ciekawe\ntylko, ¿e sprzedaj± tu\nzwyk³± butelkowan± wodê i\nkanapki. Widaæ ludzi\nprzyci±ga tu dobra muzyka\n, a nie jedzenie.\n
+COM_05_02
+Parking... co chcia³by¶\nwiedzieæ wiêcej? Nie wiesz\ndo czego to s³u¿y?\n\n\n\n\n
+COM_05_03
+Ta ma³a herbaciarnia to\nidealne miejsce na randkê.\nZapach dobrej herbaty,\norientalna muzyka i\nprzyæmione o¶wietlenie\nzapewni± ci idealn±\nromantyczn± atmosferê.\n
+COM_05_04
+Ten ma³y sklep dostarcza\nca³emu miastu artyku³ów\nsportowych. Zbli¿aj± siê\nzawody? Ju¿ wiesz gdzie\nsiê udaæ.\n\n\n
+COM_05_05
+W tym sklepie kupisz i\nnaprawisz tostery,\npiekarniki i kuchenki\nmikrofalowe. Ciekawa\nspecjalizacja.\n\n\n
+COM_05_06
+To jest butik "Wygl±daj\nPiêknie". To najlepsze\nmiejsce w którym zamienisz\nca³± swoj± wyp³atê w\ndobry wygl±d. Ale jak widaæ\nludzie wol± jednak zostawiæ\nsobie czê¶æ wyp³aty na\n¿ycie i sklep nie cieszy siê\ndu¿ym zainteresowaniem.\n
+COM_05_07
+Ten parking jest\nzdecydowanie\nprzepe³niony. Chyba czas\nzainstalowaæ tu parkometry.\n\n\n\n
+COM_05_08
+Ta krêgielnia to fajne\nmiejsce na wspólny wypad\nz rodzin±. Trzeba tylko\nuwa¿aæ w niedzielê, bo\nlokalna mafia ma tutaj\nmeetingi.\n\n
+COM_05_09
+W tej aptece kupisz tylko\nlegalne leki. Przynajmniej\ntak jest napisane na\ndrzwiach.\n\n\n\n
+COM_05_10
+Kasyno "Przegraj Wszystko"\nZ twarzy wychodz±cych go¶ci\n mo¿na zgadn±æ, i¿ jedyn±\n zadowolon± osob± jest w³a¶ciciel.\nTutaj nasuwa siê jedno pytanie...\n Dlaczego ktokolwiek tam wchodzi?
+COM_05_11
+Ten stary budynek biurowy\njest aktualnie zajmowany\nprzez Urz±d Pracy, którego\ng³ównym zadaniem jest\newidencja bezrobotnych i\nprzydzielanie im zasi³ków.\n\n
+COM_05_12
+Ten budynek wznosi siê wysoko\nponad gruntem by zapobiec\nzalaniu przez powód¼.\nProblem w tym, ¿e w ¶wiecie\nSimutrans nie ma powodzi,\ntak wiêc dolny poziom jest\nwykorzystywany jako parking.\n\n\n
+COM_05_13
+Typowy budynek\nmieszkalny przekszta³cony\nna kwatery dla turystów i\nwczasowiczów. Czê¶æ pokoi\nma ju¿ w³asne ³azienki (i te\ns± oczywi¶cie trochê\ndro¿sze), pozosta³e maj±\nwspóln± ³azienkê na\nkorytarzu (rano i wieczorem\nzawsze zajêt±).\n
+COM_05_14
+Bank. Tu mo¿esz\nzdeponowaæ swoje\npieni±dze dostaj±c w\nzamian 5 procent zysku\noraz "gwarancjê" ich\nbezpieczeñstwa, lub wzi±æ\npo¿yczkê na 20 procent.\nRó¿nica miêdzy 20 a 5\nprocent to prawie w ca³o¶ci\nzysk banku.\n
+COM_05_15
+Dawny budynek stra¿y\npo¿arnej zosta³ zamieniony\nna sklep meblowy. Mo¿esz\ntu kupiæ meble dostêpne na\nka¿d± kieszeñ (pod\nwarunkiem, ¿e jest pe³na).\n\n
+COM_05_16
+Wie¿a ci¶nieñ dla dzielnicy.\nWoda znajdujê siê w\nzbiorniku na górze, dok±d\njest wpompowywana za\npomoc± specjalnych pomp.\nStamt±d sp³ywa ju¿ pod\nw³asnym ci¶nieniem do\nruroci±gu miejskiego,\nktórym dociera do domów\nmieszkalnych w dzielnicy.\n
+COM_05_17
+Multikino. To tutaj mo¿esz\nobejrzeæ prawie wszystkie\nnajnowsze hity filmowe w\njednej z kilkunastu sal\nkinowych. Je¶li jednak\njeste¶ wielbicielem\nambitnego kina, to raczej\nnie znajdziesz tu nic dla\nsiebie.\n
+COM_05_18
+W tym budynku bez okien\nmie¶ci siê miejscowe kino\n"Buffalo Bill" - najlepsze\nmiejsce by spêdziæ wieczór.\nRadzimy jednak ograniczaæ\nspo¿ycie p³ynów podczas seansu.\nToalety nie nale¿± do\nnajczystszych. Niektórzy nawet\npodejmuja ryzyko wyj¶cia za\npotrzeb± na zewn±trz.\nObrzydlistwo!\n\n
+COM_05_19
+To jest siedziba TechnoMu³ów.\nSpecjalizuj± siê w szkoleniu\nosób "postêpowych inaczej"\nw zakresie takich czynno¶ci\njak pos³ugiwanie siê pilotem,\nw³±czanie komputera, czy\nustawianie zegara w odtwarzaczu\nvideo.\n\n
+COM_05_20
+Typowy tani biurowiec\nwybudowany w latach\nosiemdziesi±tych. Nie jest\nani luksusowy, ani\nreprezentacyjny, ale je¶li\nmasz dobry pomys³ na\nbiznes i ma³o pieniêdzy, to\njest to dobre miejsce na\nTwoje biuro (szczególnie\nje¶li nie musisz w nim\nprzyjmowaæ klientów).\n
+COM_05_22
+Parking wielopoziomowy.\nJe¶li nie ma ju¿ miejsc\nparkingowych przy ulicy,\nmo¿esz zaparkowaæ tutaj,\nlecz zwykle jest to bardzo\ndrogie rozwi±zanie,\nszczególnie, je¶li\npotrzebujesz zostawiæ\nsamochód na d³u¿ej.\n
+COM_06_01
+Knajpa morderców,\npopularnie zwana\nmordowni±. Je¶li chcesz po\nprostu napiæ siê kiepskiego\npiwa w z³ym towarzystwie,\nto jest to miejsce, którego\nszukasz. Szyld z fili¿ank±\nnad wej¶ciem jest tu tylko\nreliktem dawnej ¶wietno¶ci\nobiektu.\n
+COM_06_02
+Darmowe miejsce\nparkingowe. Je¶li znudzi³o\nCi siê Twoje stare radio to\nzostaw je w samochodzie.\nPodobnie jest z telefonami\nkomórkowymi i innymi\nwarto¶ciowymi rzeczami,\nchoæ czasem wystarczy\nwafelek w widocznym\nmiejscu, aby pozbyæ siê\nszyby w drzwiach.\n
+COM_06_03
+Piknik rodzinny jednej z\nlokalnych rozg³o¶ni. Wstêp\nna imprezê jest oczywi¶cie\nwolny, ale i zespo³y, które\ntu graj± s± tylko kapelami\ndisco polo. Piwo i kie³baski\nmo¿esz kupiæ w dowolnej\nilo¶ci i skonsumowaæ na\nstoj±co na miejscu.\n
+COM_06_04
+Warsztat samochodowy\npana Kazia. To tutaj\nmo¿esz wymieniæ olej,\nopony i co tam tylko\nchcesz. Ceny nie s± mo¿e\nsuper atrakcyjne, ale\nzawsze ni¿sze ni¿ w ASO.\n
+CoveredTrainStop
+Zakryta platforma pasa¿erska
+Crate_Goods_Dock
+Dok z kontenerami
+CUR_01_128_JH
+Atomium\n\n "Atomium" zosta³o zbudowane\n jako pewnego rodzaju wystawa,\nale nikt nie pamiêta, co to \nby³a za wystawa. Tak wiêc \n"Atominium" przekszta³cono w \nnajwy¿szej klasy restauracjê. \nSto³y w górnej sali zapewniaj± \nwspania³y widok, a wiêc \nzawsze musz± byæ zarezerwowane \nprzynajmniej dwa tygodnie wcze¶niej.
+DenkFlor
+Pomnik Flora\n\nTen pomnik po¶wiêcony jest\nFlorowi znanemu jako 'WF\nUltd.' Wautersowi,\ns³ynnemu in¿ynierowi, który\nzaprojektowa³ wiele\nwspania³ych pojazdów\ndrogowych i kolejowych.\nJest on równie¿ znany jako\ntwórca wielu zak³adów\nprodukcyjnych.\n
+DenkGeorg
+Pomnik MHz\n\nTen pomnik po¶wiêcony jest\nGeorgowi znanemu jako\n'MHz', który zaprojektowa³\nbardzo wiele budynków\n¶wiata simutrans. Jest on\nrównie¿ twórc±\nwyj±tkowych pojazdów.\n
+DenkHajo
+Pomnik Hajo Malthanera\n\nTen pomnik po¶wiêcony jest\ndla Hansjorga Malthanera,\nktóry stworzy³ tê grê w\nsiedem lat. Nawet bogowie\ngreccy potrzebowali wiêcej\nczasu na takie zadania.\n\nJe¶li podoba Ci siê ta gra,\nwy¶lij mu kartkê pocztow±\nna adres\nHansjorg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart\nGermany\n
+DenkOwen
+Plac po¶wiêcony Owenowi\nRudge, s³ynnemu\nfinansi¶cie i in¿ynierowi d¼wiêku.\n\n\n\n\n
+DenkPatrick
+Ten pomnik po¶wiêcony\njest Patrickowi Nesbittowi,\nktóry pomóg³ stworzyæ\nwiele budynków i pojazdów\ndla ¶wiata Simutrans.\n\n\n
+DenkRaven
+Pomnik Ravena\n\nTen pomnik po¶wiêcony jest\nRavenowi, s³ynnemu\nin¿ynierowi, za³o¿ycielowi \nRVg - Raven Vehicles and\nGears Corporation,\nogromnej fabryki\nprzeró¿nego typu\npojazdów. Ostatnimi czasy\nRaven zaj±³ siê równie¿\nbudownictwem, jego\nbudynki wyró¿niaj± siê pod\nka¿dym wzglêdem.\n
+DenkSeth
+Plac imienia Setha C.\nTriggsa architekta, który\nstworzy³ wiele wspania³ych\nbudynków. Znane s± te¿\njego prace nad popraw±\nkomunikacji.\n\n
+DenkTomas
+Ten pomnik dedykowany\njest Tomasowi Kubes, który\npomóg³ ulepszyæ Simutrans\nw wielu, wielu aspektach\ns³u¿±c rad± i ciê¿k± prac±.\n\n\n
+DenkTrikky
+Pomnik dedykowany Rickowi\nMcGreal znanemu jako\nTrickky, s³ynnemu\narchitektowi który stworzy³\nwiele wspania³ych\nbudynków.\n\n
+DenkVM
+Ten pomnik wystawiono\nManfredowi 'VT Vienna'\nTomaschitzowi, s³ynnemu\nin¿ynierowi, projektantowi\nwielu pojazdów szynowych.\n\n\n
+DenkVolker
+To mauzoleum zosta³o\nzbudowane dla Volkera\nMeyera,\nprogrami¶cie-magikowi,\nktóry poprawi³ wiele opcji\ngry Simutrans.\n\n
+ELEMENTARY_SCHOOL_1
+Szko³a Podstawowa\n\nJest to miejsce gdzie dzieci\nzdobywaj± swoj± pierwsz±\nwidzê. Matematyka, jêzyki,\nhistoria i inne przedmioty\ns± najmniej wa¿nymi.\nM³odzi uczniowie zazwyczaj\nlubi± rysowaæ, a jeszcze\nbardziej ¶piewaæ. M³odzi\nludzie nie mog± je¼dziæ\nsamochodami wiêc to\nmiejsce generuje du¿e\nzapotrzebowanie na us³ugi\ntransportowe. Uwa¿aj jednak,\nluksusowe autobusy nie s±\nzalecane.\n
+FORT_FUN
+Historyczny fort\n\n\n\n\n\n\n
+HQ1
+Centrala
+HQ2
+Centrala
+medium_classic_bus_stop
+Przystanek autobusowy
+MILITARY_RADAR
+Wojskowa stacja radarowa\n\n\n\n\n\n\n
+ModernPostOffice
+Du¿y urz±d pocztowy
+ModernTrainStop
+Nowoczesna stacja kolejowa
+MonorailDepot
+Zajezdnia kolei jednoszynowej
+PostOffice
+Poczta
+Radar3
+Radar
+Russian_Cathedral
+Cerkiew
+ShipDepot
+Stocznia
+ShipStop
+Doki pasa¿erskie
+small_classic_bus_stop
+Zwyk³y przystanek autobusowy
+TrainDepot
+Lokomotywownia
+TrainStop
+Stacja kolejowa
+TramDepot
+Zajezdnia tramwajowa
+VillageTrainStop
+Wiejska stacja kolejowa
+#__________________________________dummy_info___________________________________
+#__________________________________dummy_info___________________________________
+#____________________________________factory____________________________________
+#____________________________________factory____________________________________
+autoshop3
+Komis samochodowy
+bakery
+Piekarnia
+brewery
+Browar
+cannery
+Fabryka puszkowanej ¿ywno¶ci
+car_assembly_plant
+Montownia samochodów
+car_dealer
+Komis samochodowy
+Cementmill
+Cementownia
+chicken_farm
+Kurza ferma
+Concretefactory
+Cementownia
+cornfield
+Pole kukurydzy
+cotton_farm_w_fields
+Plantacja Bawe³ny
+cotton_field
+Pole bawe³ny
+cow_farm
+Hodowla krów
+dairy
+Mleczarnia
+Druckerei
+Drukarnia
+electronics_factory
+Fabryka RTV/AGD
+Erzbergwerk
+Kopalnia rudy ¿elaza
+ethanol_plant
+Wytwórnia etanolu
+fish_pond
+Po³ów ryb
+fish_swarm
+£awica ryb
+food_processing_plant
+Wytwórnia ¿ywno¶ci
+ForestPlantation
+Wycinka drewna
+Glass_factory
+Huta szk³a
+grain_farm_w_fields
+Uprawa zbo¿a
+grain_mill
+M³yn
+Materialswholesale
+Sk³ad materia³ów budowlanych
+MaterialsWholesales
+Sk³ad materia³ów budowlanych
+meat_packing_plant
+Pakownia miêsa
+modern_fuel_station
+Nowoczesna stacja paliw
+Moebelfabrik
+Fabryka mebli
+Moebelhaus
+Centrum handlowe
+Nutzwald
+Plantacja drzew
+Oelbohrinsel
+Platforma wiertnicza
+Oelfeld
+Szyb ropy naftowej
+oilkraftwerk
+Elektrownia (olejowa)
+old_powerplant_kraftwerk
+Elektrownia (wêglowa)
+open_coal_mine
+Odkrywkowa kopalnia wêgla
+Papierfabrik
+Wytwórnia papieru
+publisher
+Firma wydawnicza
+Raffinerie
+Rafineria
+Saegewerk
+Tartak
+sand_quarry_dd
+Kopalnia piasku
+Sandquarry
+Kamienio³om (piach)
+shaft_coal_mine
+Kopalnia wêgla
+shaft_coal_mine_small
+Ma³a kopalnia wêgla
+sheep_farm
+Hodowla owiec
+shopping_mall
+Centrum handlowe
+steel_mill
+Huta stali
+Stonequarry
+Kamienio³om (kamieñ)
+supermarket
+Supermarket
+TANKE1
+Stacja benzynowa
+TANKE2
+Stacja benzynowa
+textile_factory
+Fabryka odzie¿y
+waste_disposal
+Wysypisko ¶mieci
+waste_incinerator_kraftwerk
+Spalarnia ¶mieci
+wind_kraftwerk
+Elektrownia wiatrowa
+#_____________________________________field_____________________________________
+#_____________________________________field_____________________________________
+#_____________________________________good______________________________________
+#_____________________________________good______________________________________
+Autos
+Samochody
+beer
+piwo
+Bretter
+deski
+Bucher
+Ksi±¿ki
+canned_food
+Puszkowana ¿ywno¶æ
+Cement
+cement
+Chemicals
+chemikalia
+Concrete
+beton
+corn
+kukurydza
+cotton
+bawe³na
+Eisenerz
+ruda ¿elaza
+electronics
+elektronika
+Ethanol
+etanol
+fertilizer
+nawóz
+fish
+ryby
+flour
+m±ka
+food
+¿ywno¶æ
+Gasoline
+benzyna
+glass
+szk³o
+goods_
+towary
+grain
+zbo¿e
+Holz
+drewno
+Kohle
+wêgiel
+meat
+miêso
+milk
+mleko
+Moebel
+meble
+None
+nic
+Oel
+ropa naftowa
+Papier
+papier
+Passagiere
+pasa¿erowie
+Post
+poczta
+Sand
+piasek
+Stahl
+stal
+Stone
+kamieñ
+textile
+ubrania
+waste
+¶mieci
+wool
+we³na
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+CATEGORY_01
+czê¶ci
+CATEGORY_02
+towarów sypkich
+CATEGORY_03
+ropa/benzyna
+CATEGORY_04
+mro¿onki
+CATEGORY_05
+mleko
+CATEGORY_06
+drewno
+CATEGORY_07
+produkty rolne
+#__________________________________record_text__________________________________
+#__________________________________record_text__________________________________
+#___________________________________roadsign____________________________________
+#___________________________________roadsign____________________________________
+airport_oneway
+Znak kierunku ruchu dla pasów lotniczych
+autobahn_classic_entrance
+Wjazd na autostradê
+autobahn_classic_exit
+Zjazd z autostrady
+autobahn_modern_entrance
+Wjazd na autostradê
+autobahn_modern_exit
+Zjazd z autostrady
+choose_point
+Znak wyboru drogi
+choose_signal_monorail
+Semafor wyboru peronu dla kolei jednoszynowej
+choosesign_digital_jp
+Cyfrowa tablica informacji drogowej
+ChooseSignals
+Semafor wyboru peronu
+Early_ChooseSignals_right
+Sygna³ automatycznego wyboru peronu
+Minimum80
+Min. prêdko¶æ 80 km/h
+NoEntry
+Zakaz wjazdu
+RoadClosed
+Blokada drogi
+Signal_Monorail
+Semafor
+Signals
+Semafor (zwyk³y)
+traffic_light
+Sygnalizacja ¶wietlna
+#_____________________________________tree______________________________________
+#_____________________________________tree______________________________________
+cactus000
+Kaktus\n\n\n\n\n\n\n
+cactus001
+Kaktus\n\n\n\n\n\n\n
+cactus002
+Pod³u¿ny kaktus\n\n\n\n\n\n\n
+#____________________________________tunnel_____________________________________
+#____________________________________tunnel_____________________________________
+RailTunnel
+Tunel kolejowy
+RoadTunnel
+Tunel drogowy
+#____________________________________vehicle____________________________________
+#____________________________________vehicle____________________________________
+1Ben140
+Bennhardt B-140 "Limet" (elektryczna)
+1Bens155
+Bennhardt B-155 "Robo" (elektryczna)
+1Benst134
+Bennhardt B-134 "Pixie" (spalinowa)
+1Benst135t
+Bennhardt B-135 "Gremlin" (spalinowa)
+1Benst138
+Bennhardt B-138 "Szarlotka" (wodorowa)
+1Benst161
+Bennhardt B-161 "Turbo" (spalinowa)
+1Benst162t
+Bennhardt B-162 "Odrzutowiec" (spalinowa)
+1Benst181
+Bennhardt B-181 "Gelding" (spalinowa)
+1Benst238
+Bennhardt B-238 "¯aba" (wodorowa)
+1Benst281
+Bennhardt B-281 "Koñ poci±gowy" (spalinowa)
+1Dampflokomotive
+RVg 0-4-0T (parowa)
+2Diesellokomotive
+H-Trans BR218 (spalinowa)
+3Bens185
+Bennhardt B-185 "¦w. Miko³aj" (elektryczna)
+3Bens186t
+Bennhardt B-186 "Cytryna" (elektryczna)
+3Dampflokomotive
+RVg 0-3-0 "Chippy" (parowa)
+451_Head
+VTS MEZ 451 (elektryczna)
+451_Tail
+VTS MEZ 451 (elektryczna, ty³)
+451_Waggon
+VTS MEZ 451 (pasa¿erski)
+471_Head
+CKD Skoda 471
+471_Tail
+CKD Skoda 471 (ty³)
+471_Waggon
+CKD Skoda 471 (¶rodek)
+7BenE11
+Bennhardt E-11 (elektryczna)
+Aeroqueen_JR_Bus_Kanto
+Aeroqueen JR Bus Kanto
+Airport_express_shuttle
+Krótkobie¿ny autobus lotniskowy
+AR4_back
+AR-4 "Kikin" (ty³)
+AR4_front
+AR-4 "Kikin" (przód)
+AR4_mid_engine
+AR-4 "Kikin" (¶rodek, silnik)
+AR4_mid_trainer
+AR-4 "Kikin" (pasa¿erski)
+Asahi_Bus
+Autobus Asahi
+Autotransportwagen
+Wagon samochodowy Canonball
+BB-TS_Milk_Mack_Trailer
+Cysterna BlackBox-TS (mleko)
+Big_Bretterwagen
+Wagon do przewozu desek i pni
+Big_Erztruck
+Du¿a ciê¿arówka do przewozu rud kopalnianych
+Bretterwagen
+Wagon do przewozu desek
+Btx020
+Wagon OnD Btx020 (pasa¿erski)
+Budd_Coach
+Wagon Budd (pasa¿erski)
+Budd_Observation
+Wagon Budd (ty³)
+Budd_RPO
+Wagon Budd (pocztowy)
+Bulk_Ship_0
+PMNV (rudy kopalniane)
+Bulk_trailer_0
+Przyczepa towarowa
+Bulk_Truck_0
+Volvo 800 (rudy kopalniane)
+Bulk_Truck_2
+Wywrotka VSYS-Tatra 801
+Bulk_Truck_3
+Wywrotka VSYS-Tatra 815
+Bulk_Truck_4
+Volvo (rudy kopalniane)
+Bulker_Bulk
+BB (rudy kopalniane)
+Bulker_Steel
+BB (stal)
+Bulker_Wood
+BB (pnie i deski)
+Car_Tramsport_Trailer_0
+Przyczepa TS (samochody)
+Car_Transporter_0
+Ciê¿arówka Teddy (samochody)
+Car_Transporter_1
+Teddy (samochody)
+Car_Waggon_1
+Wagon samochodowy RVg
+Car_Waggon_2
+Wagon samochodowy RVg
+CB_DB-130_8
+Canonball & H-Trans BRAW61000 "Bêben Tajgi"
+Cement_Carrier_Fast
+Wagon towarowy (cement)
+Cement_trailer_0
+Przyczepa towarowa PMNV (cement)
+Cement_Truck_0
+Ciê¿arówka PMNV (cement)
+Cement_Waggon_0
+Wagon towarowy BB-PMNV (cement)
+Cement_Waggon_1
+Wagon towarowy BB-PMNV (cement)
+Cementwagen
+Wagon cysterna SergeS (cement)
+Ceres_Tender
+Tender "Ceres"
+CKD_731
+CKD 731 /"Spaghette/"
+CKD_749
+CKD 749
+CKD_750
+CKD 750
+Concrete_Truck_0
+Wirówka do przewozu cementu (S.Kroytor)
+Concretewagen
+Wirówka do przewozu cementu (PMNV)
+Concretewagen_1
+Wirówka do przewozu cementu (PMNV)
+Cooling_trailer_0
+ch³odnia
+Cooling_Truck_0
+ch³odnia
+Cooling_Truck_1
+ch³odnia
+Cooling_Truck_2
+ch³odnia
+Cooling_wagon_0
+ch³odnia
+Cooling_wagon_1
+ch³odnia
+Cooling_wagon_2
+ch³odnia
+PMNV-PB1970
+PMNV PB-1970
+Post_waggon_0
+PV 80 - wagon pocztowy
+Postwagen
+Wagon pocztowy
+#______________________________________way______________________________________
+#______________________________________way______________________________________
+air_movement_area
+Pas ko³owania
+air_movement_area_old
+Pas ko³owania (stary)
+asphalt_road
+Droga asfaltowa
+autobahn
+Autostrada
+city_road
+Miejska droga
+cobblestone_road
+Droga brukowa
+concrete_road
+Droga betonowa
+concrete_sleeper_track
+Szyny na podk³adzie betonowym
+concrete_tram_track
+Tor tramwajowy na nawierzchni betonowej
+dirt_road
+Droga polna
+gravel_road
+Droga szutrowa
+High_quality_track
+Szyny wysokiej jako¶ci
+low_quality_track
+Szyny niskiej jako¶ci
+Powerline
+Linie wysokiego napiêcia
+Rillenschienen
+Zwyk³y tor tramwajowy
+river_00
+Bardzo szeroka ¿eglugowa rzeka
+river_01
+Szeroka ¿eglugowa rzeka
+river_02
+¯eglugowa rzeka
+river_03
+Rzeka
+river_04
+¬ród³o
+runway_modern
+Nowoczesny pas startowy
+Schwebebahn_p_ground
+Monorail (poziom ziemi)
+steel_sleeper_track
+Szyny bardzo wysokiej jako¶ci
+Suspended_Monorail_Track
+Podwieszany tor Monorail
+US_asphalt_road
+Droga asfaltowa
+water_road
+Kana³ wodny
+wooden_sleeper_track
+Szyny na belkach drewnianych
+#__________________________________way-object___________________________________
+#__________________________________way-object___________________________________
+High_Speed_Catenary
+Trakcja elektryczna dla szybkiej kolei
+old_catenary
+Trakcja elektryczna starego typu
+standard_catenary
+Trakcja elektryczna
+Third_Rail_Electrification
+Elektryfikacja za pomoc± trzeciej szyny
+Tram_Electrification
+Trakcja tramwajowa
+TrolleyBus_Electrification
+Trakcja trolejbusowa

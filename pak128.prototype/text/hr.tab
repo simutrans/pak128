@@ -1,0 +1,792 @@
+################################################################################
+#                                                                              #
+#                Simutrans Scenario Specific Translation File                  #
+#                               Scenario: pak128                               #
+#                             Language: hr Hrvatski                            #
+#                             Encoding: ISO-8859-2                             #
+#                            Font : prop-latin2.fnt                            #
+#                            Date Created: 8.06 2010                           #
+#                                                                              #
+#                                   authors:                                   #
+#                                    - EdinU                                   #
+#                                    note:                                     #
+#                              Frank Penz - FrankP                             #
+#                                    note:                                     #
+#                          Alen Milincevic - phantom25                         #
+#                                    note:                                     #
+#                          Markus Pristovsek - prissi                          #
+#                                    note:                                     #
+#                                                                              #
+################################################################################
+#____________________________________bridge_____________________________________
+#____________________________________bridge_____________________________________
+ClassicRail
+Betonski most (Haru)
+ClassicRoad
+Betonski cestovni most
+Concrete_Road_Bridge
+Most za autocestu
+Plate_Girder_Bridge
+Most od nosaca
+PowerBridge
+Most Za Dalekovod
+RVg_Concrete_Rail_Bridge
+Ovjeseni Celicni Most(RVg)
+Schwebebahn_p_bridge
+Viseci Monorail (most)
+SteelRail
+Celicni zeljeznicki most
+SteelRail2
+Cvrsti celicni most
+SteelRoad1
+Celicni cestovni most
+SteelRoad2
+Cjevasti cestovni most
+u_truss_bridge
+Most Na Skeli
+water_bridge
+Kanalski Most
+Wooden_Rail
+Drveni zeljeznicki most
+#___________________________________building____________________________________
+#___________________________________building____________________________________
+01_CITY
+Vijecnica
+01_CITY_1
+Vijenica
+02_CITY
+Vijecnica
+02_CITY_1
+Vijecnica
+03_CITY
+Vijecnica
+03_CITY_1
+Vijecnica
+04_CITY
+Vijecnica
+04_CITY_1
+Vijecnica
+05_CITY
+Vijecnica
+05_CITY_1
+Vijecnica
+1920_AirDepot
+Jednostavni Hangar
+1930AirDepot
+Drveni Hangar
+1940AirDepot
+Metalni Limeni Hangar
+1950AirDepot
+Betonski Hangar
+1990AirDepot
+Moderni Hangar
+ABBYS_0
+Opatija\n\nOva opatija je poznata za svoje\nduboke bunare u oba tornja.\nPrema legendi,\nti bunari nemaju dna.\nNevjerojatni je koliko puno\nljudi zeli doci ovamo\ni vidjeti magiju bunara.\nKovanice, tiho padajuci u\nvodu 50 metara prema dolje,\nsubvencionirali su prihode\nopatije dovoljno za\nredovnike, koji su uspjeli vratiti\nruinama njihov\nsadasnji izgled.\n
+Airport1920_AirportBlg
+Aerodromski Putnicki Terminal
+Airport1930PostOffice
+Ured Zracne Poste
+Airport1990_Big_AirportBlg
+Veliki Moderni Putnicki Terminal
+Airport1990_Entrance_AirportBlg
+Moderni Aerodromski Ulaz
+Airport1990_Gates_AirportBlg
+Moderna Vrata
+Airport1990_PostOffice
+Moderni Ured Zrakoplovne Poste
+Airport1990_Small_AirportBlg
+Mali Moderni Putnicki Terminal
+Airport1990_Warehouse
+Moderni Teretni Terminal
+AirStop_AirportBlg
+Aerodromski Prostor Ukrcaja
+Almuthof_StationBlg
+Ruralna Stanica
+Avila_Big_StationBlg
+Velika Zgrada Putnika
+Avila_Small_StationBlg
+Mali Zgrada Putnika
+Avila_Warehouse_StationBlg
+Tereno Skladiste
+big_classic_bus_stop
+Veliko atubusno stajaliste
+big_modern_bus_stop
+Veliko moderno autobusno stajaliste
+BigTerminal1930_AirportBlg_S
+Veliki Putnicki Terminal
+BigTerminal1950_AirportBlg_S
+Veliki Putnicki Terminal (1950)
+Bulk_Dock
+Dok Za Rasuti Teret
+Bulk_StationBlg
+Zgrada Stanice Rasutog Tereta
+bus_terminus
+Moderni Autobusni Terminal
+canal_ChannelStop
+Kanalni Kai
+canal_ware_stop
+Kanalni Kai (Tereti)
+Car_StationBlg
+Stanicno Parkiraliste
+CarDepot
+Garaza
+CarStop
+Zaljev Punjenja
+CASTLE_0
+Stari dvorac\n\nOvaj je dvorac nekada pripadao\nKralju Napiku. Vecina ga je\nunistena tijekom velikog\nrata, ali je ponovno sagradjen u\ndevetnaestom stoljecu,\ni sada sadrzava vrlo\npoztnatu kolekciju starih\noklopa i maceva.\n
+CHURCH_00
+Goticka Katedrala\n\nOva stara goticka katedrala je\nsada vise turisticka\natrakcija koja dsadrzi\nizlozbu svete umjetnosti nego mjesto za stovanje.\nSvejedno, izgleda kako\ncrkvene vlasti vole ovakvu\nsituaciju, jer turisti mogu\ndonijeti vise zarade nego slijedbenici.Jer\nturisti ne mogu doseci svojim\nosobnim automobilima,biti ce\npuno putnika koji zahtijevaju\nprijevoz.\n
+CHURCH_01
+Mala Crkva\n\nOva mala zaboravljena crkva je\njos uvijek prijateljsko mjesto\ngdje se ljudi sastaju\ns prijateljima, pricaju medjusobno\ni traze nesto vise\nnego zemaljske posjede.\n
+CHURCH_02
+Lila Crkva\n\bOva cudna crkva je sagradjena\nod slavnog ludog\nsvecenika, koji je 1654 godine\nobojao cijelu zgradu\nlila. Boja je izblijedila\nodavno,ali ime\njos uvijek ostalo do danas.\n
+CHURCH_03
+Crkva\n\nOvo je poznata crkva,\nkoja privlaci ljude sa\nsvojim ugodnim okolisem\ni zanimljivim\nslikama unutra.\n\n
+CHURCH_04
+Sinagoga\n\nIako ovaj manastir izgleda malo\nArabski, ipak je\nsinagoga.\n\n\n\n
+CHURCH_05
+St.Michael\n\nOvaj arhitektonski dragulj je\nsagradjen krajem 19-tog\nstoljeca, i zanimljiv je\njer ima metalni krov,\nprojektiran od Alexandera\nGustavusa Eiffela.\n
+CHURCH_06
+Crkva\n\nTipicna seoska ili crkva\nod malog grada.\n\n\n\n\n
+CIRCUS_0
+Cirkus Humberto\n\nPoznati cirkus je napravio ovaj\ngrad konacnim odredistem.\Starinski sator je\nsacuvan kako bi se sacuvala\noriginalna atmosfera, ali svi\ncirkuski ljudi su kupili\nsvoje vlastite kuce ovdje, tako\nmozete racunati na ostajanje\novdje, i postati\npoznati turisticki cilj.\nCirkus ima poznatog\nslona Jumba,koji sjedne\nsvaki puta kada cuje zvono.Dakle\nbudite oprezni i ne koristite zvono\nDok stojite iza Jumba,\nosim ako ne volite biti vrlo plosnati.\n
+CIVILIAN_RADAR
+Promatracnica\n\nMozda ne vjerujete, ali\nono je normalna\npromatracnica. Radioteleskop, naravno...\n\n\n
+classic_mailbox
+Postanski Sanducic
+ClosedTrainStop
+Sasvim pokrivena platforma
+CoalTrainStop
+Stanica sa ugljenom
+COM_00_10
+Kuca je poplocena crvenim\nciglicama.\n\n\n\n\n\n
+COM_00_22
+Uredska zgrada\n\n\n\n\n\n\n
+COM_00_23
+Stanarska zgrada\n\n\n\n\n\n\n
+COM_00_60
+Visoka strseca zgrada\n\n\n\n\n\n\n
+COM_01_01
+riblja trgovina\n\n\n\n\n\n\n
+COM_01_05
+Stanarska Zgrada\n\n\n\n\n\n\n
+COM_01_15
+Blok stanova sa trgovinama\n\n\n\n\n\n\n
+COM_01_17
+Visekatni Autopark\n\n\n\n\n\n\n
+COM_01_21
+Bok ureda\n\n\n\n\n\n\n
+COM_01_23
+Bolk ureda\n\n\n\n\n\n\n
+COM_01_26
+Stanarska zgrada\n\n\n\n\n\n\n
+COM_01_47
+Visokostreca zgrada\n\n\n\n\n\n\n
+COM_01_60
+Visokostrseca Zgrada\n\n\n\n\n\n\n
+COM_02_13
+Stanarska Zgrada\n\n\n\n\n\n\n
+COM_02_15
+Stanarska Zgrada\n\n\n\n\n\n\n
+COM_03_21
+Stanarska Zgrada\n\n\n\n\n\n\n
+COM_06_08
+Trgovina Elektronikom\n\n\n\n\n\n\n
+COM_07_06
+Stanarska Zgrada\n\n\n\n\n\n\n
+COM_07_08
+Poslovna Zgrada\n\n\n\n\n\n\n
+COM_07_12
+Kuca\n\n\n\n\n\n\n
+COM_07_16
+Stanarska Zgrada\n\n\n\n\n\n\n
+COM_07_18
+Visespratni Autopark\n\n\n\n\n\n\n
+COM_07_19
+Stanarska Zgrada\n\n\n\n\n\n\n
+COM_07_21
+Stanarska Zgrada\n\n\n\n\n\n\n
+COM_07_22
+Blok Stanova\n\n\n\n\n\n\n
+COM_08_14
+Visekatni Autopark\n\n\n\n\n\n\n
+COM_08_18
+Stambena Zgrada\n\n\n\n\n\n\n
+COM_09_18
+Rimski Hram\n\n\n\n\n\n\n
+COM_10_14
+Kuca\n\n\n\n\n\n\n
+COM_11_14
+Kuca\n\n\n\n\n\n\n
+COM_11_15
+Salon sladoleda\n\n\n\n\n\n\n
+Container1TrainStop
+Kontejnerska stanica
+Container2TrainStop
+Napredna kontejnerska stanica
+Control_StationBlg
+Zgrada Kontrole Stanice
+CoveredTrainStop
+Orekrivena Platforma
+Crate_Goods_Dock
+Kontejnerski dok
+CunnersdorfStopBlg
+Seoska Stanicna Zgrada
+Firestation
+Vatrogasna Stanica\n\nOvo je gradska vatrogasna stanica.Ona\nposjeduje vatrogasno vozilo,\nvatrogasce i ambulantu.\nTo je privremeno.\nAmbulanta ce se preseliti,jednom\nkada dobije svoju zgradu.\n(Prokleti grad je srezao\ntroskove)\n
+Fluid_StationBlg
+Postaja Vodotornja
+FORT_FUN
+Povijesni Dvorac\n\n\n\n\n\n\n
+FreightTrainStop
+Teretno Stajaliste Vlaka
+Gas_StationBlg
+Zgrada Plinare
+Goods_StationBlg
+Zgrada Stanice Robe
+GRASS_STADIUM
+Travnati stadion\n\nTravnati stadion je izvrsno\n mjesto za ici\ntrcati i igrati americki nogomet,\ili europski nogomet, kako ga drugi zovu.\nUvijek se moze pronaci\nmanje mobilne partnere koji\ngledaju svoje sportske\nkolege sa klupa\nispod stabala.\n
+HQ1
+Sredisnjice
+HQ2
+Sredisnjice (II)
+IND_00_03
+Plantaza\n\n\n\n\n\n\n
+IND_01_03
+Pasnjak sa Kravama\n\n\n\n\n\n\n
+IND_01_04
+Park\n\n\n\n\n\n\n
+IND_01_11
+Stambena zgrada\n\n\n\n\n\n\n
+JUSTICE
+Sudnica\n\nOvo je gradska sudnica\n,gdje se odrzavaju sudjenja\ncesto. Odvjetnici dolaze\ni odlaze neprestano.\n\n\n
+Long_Goods_Dock
+Dugacki robni dok
+medium_classic_bus_stop
+Prekriveno Autobusno Stajaliste
+medium_early_bus_stop
+Autobusno stajaliste sa natkrovom
+medium_modern_bus_stop
+Moderno autobusno stajaliste
+Modern_Warehouse
+Moderno skladiste
+ModernPostOffice
+Moderni Postanski Ured
+ModernTrainStop
+Moderno Stajaliste Vlaka
+MonorailDepot
+Uzdignuti tracnicki depo
+MonorailFoundation
+Monorail Temelj
+MonorailGround
+Monorail temelj
+MonorailStation
+Uzdignuta platforma
+Old_gate
+Vrata Grada\n\n
+OpenTrainStop
+Jednostavna platforma
+Pagoda01
+Pagoda\n\n\n\n\n\n\n
+PostOffice
+Posta
+PostOffice1920_AirportBlg
+Zgrada Zracne Poste
+Radar3
+Radar
+Russian_Cathedral
+Ruska crkva\n\n\n\n\n\n
+ShipDepot
+Brodski depo
+ShipStop
+Putnicki dok
+small_classic_bus_stop
+Jednostavno Autobusno Stajaliste
+small_early_bus_stop
+Autobusno Stajaliste
+Tower1920_AirportBlg
+Osnovni Zrakoplovni Toranj
+Tower1930_AirportBlg
+Mali kontrolni toranj
+Tower1950_AirportBlg
+Kontrolni toranj
+Tower1990_AirportBlg
+Moderni Zrakoplovni Toranj
+TrainDepot
+Depo za vlakove
+TrainStop
+Stanica
+TramDepot
+Tramvajski depoo
+TRIUMPH
+Triumphal Arch\n\nOvaj luk trijumfa je sagradjen\nod cara Napika za\nslavlje njegovih silnih\npobjeda koje je dobio u\npoznatim bitkama u proslosti.\nSada vise nema ratova\n,nazalost - nema vise\npobjednickih vojski koje\nispod marsiraju. Oni su\nzamijenjeni sa turistima koji\nkruze okolo sa strahopostovanjem\nprema ljepoti za ovo arhitektonsko\ncudo koje je projektirano od poznatog\narhitekta imenom George, poznatoga kao MHz u\nnjegovim poznim danima.\n
+TV_TOWER_0
+Televizijski toranj
+TV_TOWER_1
+TV Odasiljac
+Very_Big_Terminal
+Ogromna hala terminala (3x3)
+VictorianStation
+Stanica u viktorijanskom stilu
+VillageTrainStop
+Seoska stanica
+#__________________________________dummy_info___________________________________
+#__________________________________dummy_info___________________________________
+#____________________________________factory____________________________________
+#____________________________________factory____________________________________
+autoshop3
+Prodavac Automobila
+bakery
+Pekara
+brewery
+Pivovara
+cannery
+Tvornica konzervi
+car_assembly_plant
+Tvornica automobila
+car_dealer
+Prodavac automobila
+Cementmill
+Cementni Mlin
+chicken_farm
+Farma pilica
+classical_goods_factory
+Tvornica robe
+Concretefactory
+Cementni mikser
+cornfield
+Polje Kukuruza
+cotton_farm_w_fields
+Pamucna plantaza
+cotton_field
+Pamucno polje
+cow_farm
+Stocno dvoriste
+dairy
+Mljekara
+Druckerei
+Tiskara
+electronics_factory
+Tvornica elektronike
+Erzbergwerk
+Rudnik zeljezne rude
+ethanol_plant
+Etanolska Elektrana
+fish_pond
+Jezerce s ribom
+fish_swarm
+Ribnjak
+food_processing_plant
+Tvornica hrane
+ForestPlantation
+Plantaza drva
+Glass_factory
+Staklana
+grain_farm
+Farma zitarica
+grain_farm_w_fields
+Farma zitarica
+grain_mill
+Mlin zitarica
+Kohlekraftwerk
+Ugljena elektrana
+Materialswholesale
+Prodavaonica materijala na veliko
+MaterialsWholesales
+Prodaja materijala na veliko
+meat_packing_plant
+Tvornica Pakiranja Mesa
+modern_fuel_station
+Benzinska postaja
+Moebelfabrik
+Tvornica Pokucstva
+Moebelhaus
+Kucna Trgovina
+Nutzwald
+Plantaza Drva
+Oelbohrinsel
+Naftna platforma
+Oelfeld
+Naftna busotina
+oilkraftwerk
+Elektrana na naftu
+old_powerplant_kraftwerk
+Ugljena elektrana
+open_coal_mine
+Otvoreni ugljenokop
+Papierfabrik
+Tvornica papira
+publisher
+Izdavacka Tvrtka
+Raffinerie
+Rafinerija
+Saegewerk
+Pilana
+sand_quarry_dd
+Pjescani kamenolom
+Sandquarry
+Kamenolom Pijeska
+shaft_coal_mine
+Ugljenokop
+shaft_coal_mine_small
+Maleno ugljenokopsko okno
+sheep_farm
+Farma ovaca
+shopping_mall
+Trgovina
+steel_mill
+Celicana
+Stonequarry
+Kamenolom
+supermarket
+Trgovacki centar
+TANKE1
+Benzinska postaja
+TANKE2
+Benzinska postaja
+textile_factory
+Tekstilna Tvornica
+waste_disposal
+Deponija Za Smece
+waste_incinerator_kraftwerk
+Spalionica otpada
+wind_kraftwerk
+Vjetroturbina
+#_____________________________________field_____________________________________
+#_____________________________________field_____________________________________
+grain_field
+Polje zita
+#_____________________________________good______________________________________
+#_____________________________________good______________________________________
+Autos
+automobili
+beer
+pivo
+Bretter
+trupci
+Bucher
+knjige
+canned_food
+konzervirana hrana
+Cement
+cement
+Chemicals
+kemikalije
+Concrete
+beton
+corn
+kukuruz
+cotton
+pamuk
+Eisenerz
+zeljezna ruda
+electronics
+elektronika
+Ethanol
+etanol
+fertilizer
+gnojivo
+fish
+riba
+flour
+brasno
+food
+hrana
+Gasoline
+benzin
+glass
+staklo
+goods_
+roba
+grain
+zitratice
+Holz
+drvo
+Kohle
+ugljen
+meat
+meso
+milk
+mlijeko
+Moebel
+Pokustvo
+None
+nema
+Oel
+nafta
+Papier
+papir
+Passagiere
+putnici
+Plastik
+plastika
+Post
+posta
+Sand
+pijesak
+Stahl
+celik
+Stone
+kamen
+textile
+tekstil
+waste
+smece
+wool
+vuna
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+MONORAILTOOLS
+Monorail alati
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+Build monorail depot
+Izgradi depo za Monorail vozove
+CATEGORY_01
+komadna roba
+CATEGORY_02
+rasuti tetet
+CATEGORY_03
+nafta/benzin
+CATEGORY_04
+hladjena roba
+CATEGORY_05
+tekuca hrana
+CATEGORY_06
+drvo
+CATEGORY_07
+proizvod farme
+monorail vehicle
+monorail vozilo
+Monorailboden
+Uzdignut put
+Monorails are not available yet!
+Monorail jos nije dostupan.
+remove monorails
+ukloniti monorailove
+#__________________________________record_text__________________________________
+#__________________________________record_text__________________________________
+New world record for monorails: %.1f km/h by %s.
+Novi brzinski rekord za visecu zeljeznicu! %.1f km/h dostignut od %s.
+#___________________________________roadsign____________________________________
+#___________________________________roadsign____________________________________
+choose_point
+Znak odabira cilja
+ChooseSignals
+Signal Odabira Platforme (standardni tip)
+Classic_ChooseSignals_right
+Signal Odabira Platforme (klasicni tip)
+Classic_LongSignals_right
+Signal Dugog Bloka (klasicni tip)
+Classic_preSignals_right
+Predsignal (klasicni tip)
+Classic_Signals_right
+Zeljeznicki signal (klasicni tip)
+Early_ChooseSignals_right
+Signal Odabira Platforme (rani tip)
+Early_LongSignals_right
+Signal Dugog Bloka (rani tip)
+Early_preSignals_right
+Presignal (rani tip)
+Early_Signals_right
+Zeljeznicki signal (rani tip)
+EndOfChooseSignals
+Signal kraja odabira
+LongSignals
+Signal dugog bloka (standardni tip)
+Minimum80
+Minimalni brzinski limit 80
+Modern_ChooseSignals_right
+Signal Odabira Platforme (moderni tip)
+Modern_EndOfChooseSignals_right
+Signal kraja odabira (moderni tip)
+Modern_LongSignals_right
+Signal dugog bloka (moderni tip)
+Modern_OneWaySignals_right
+Jednosmjerni signal (moderni tip)
+Modern_preSignals_right
+Predsignal (moderni tip)
+Modern_Signals_right
+Zeljeznicki signal (moderni tip)
+NoEntry
+Jednosmjerni znak
+OneWaySignals
+Jednosmjerni signal (standardni tip)
+preSignal_Monorail
+Monorail predsignal
+preSignals
+Predsignal (standardni tip)
+RoadClosed
+Cestovna blokada
+Signal_Monorail
+Monorail signal
+Signals
+Signal (standardni tip)
+traffic_light
+Prometno svjetlo
+#_____________________________________tree______________________________________
+#_____________________________________tree______________________________________
+#____________________________________tunnel_____________________________________
+#____________________________________tunnel_____________________________________
+RailTunnel
+Zeljeznicki tunel
+RoadTunnel
+Cestovni tunel
+#____________________________________vehicle____________________________________
+#____________________________________vehicle____________________________________
+Postwagen
+Cannonball Postanski Vagon
+RVg-2-5-1
+RVg 2-5-1
+RVg-B_101
+RVg B22
+RVg-B_107
+RVG B149-Crveni patuljak
+RVg-Bulk_Freighter
+RVg Teretni Brod
+RVg-D22-Rola
+RVg D22 "Rola"
+RVg-D23-Camel
+RVg D23 "Deva"
+RVg-D41-Tubus
+RVg D41 "Tubus"
+RVg-DB_MA461
+RVg-DB MA-461 (glava)
+RVg-DB_MA461_Tail
+RVg-DB MA-461 (rep)
+RVg-E17-Spring
+RVg E17
+RVg-Express_Tender
+RVg Ekspres Tender
+RVg-G5_Posttaxi
+RVg G5
+RVg-Goods_Liner
+RVg S-12
+RVg-Goods_waggon
+RVg Zatvoreni vagon
+RVg-Heavy-Tender
+RVg Te?ki Tender
+RVg-KS_4510-33
+RVg-KS 33
+RVg-KS_4510-45
+RVg-KS 45
+RVg-KS_4510-69
+RVg-KS 69
+RVg-KS_9020-31
+RVG KS 9020-31
+RVg-KS_9020-58
+RVg-KS 9020-58
+RVg-KS_9020-92
+RVg-KS 9020-92
+RVg-LK_Cement_Truck
+RVg-LK V44 - cement
+RVg-LK_Cooling_Truck
+RVg-LK V44 - hladnjaca
+RVg-LK_Fabric_Truck
+RVg-LK V32 - tkanina
+RVg-LK_Goods_Truck
+RVg-LK kamion za prijevoz robe
+RVg-LK_Grain_Truck
+RVg-LK V41 - zito
+RVg-LK_Plank_Truck
+RVh-LK V37 - trupci
+RVg-LK_Steel_Truck
+RVg-LK V32 - celik
+RVg-Lockheed_Constellation
+RVg EC-121 
+RVg-Oil-Tender
+RVg Naftni Tender
+RVg-Pioneer_Alladin
+RVg Pionir Alladin
+RVg-Pioneer_Alladin_rear
+RVg Pionir Alladin (rep)
+RVg-Pioneer_Alladin_supply
+RVg Pionir Alladin (elektricni vagon)
+RVg-Pioneer_Alladin_waggon
+RVg Pionir Alladin (vagon)
+RVg-RHF401
+RVg-RHF 401 "Krokodil"
+RVg-S004-Little_Boy
+RVg S004 "Krelac"
+RVg-S033-Red_Dwarf
+RVg S033 "Crveni patuljak"
+RVg-S127-Blue_Cow
+RVg S127 "Luda Krava"
+RVg-Sail_Goods_Ship_0
+RVg Trgovacki Brod
+RVg-Sail_Passanger_Ship_0
+RVg Putnicki Jedrenjak
+RVg-Sea_Liner
+RVg Prekooceanski putnicki brod
+#______________________________________way______________________________________
+#______________________________________way______________________________________
+asphalt_road
+Asfaltna Ulica
+autobahn
+Autocesta
+city_road
+Gradska ulica
+cobblestone_road
+cesta kaldrma
+concrete_road
+Betonska ulica
+concrete_sleeper_track
+Betonski Zeljeznicki Prag
+concrete_tram_track
+Betonska Tramvajska Tracnica
+dirt_road
+Prasnjava cesta
+gravel_road
+Makadam
+High_quality_track
+Tracnice visoke kvalitete
+low_quality_track
+Tracnice niske kvalitete
+old_runway
+Travnata poletno/sletna staza
+old_taxiway
+Travnata vozna staza
+Powerline
+Visokonaponski dalekovod
+Rillenschienen
+Tramvajske tracnice
+river_00
+Plovna Rijeka
+river_01
+Plovna Rijeka
+river_02
+Plovna Rijeka
+river_03
+Rijeka
+river_04
+Tok
+runway_modern
+Moderna poletno/sletna staza
+Schwebebahn_p_ground
+Monorail (nivo zemlje)
+steel_sleeper_track
+Viskobrzniski prag
+Suspended_Monorail_Track
+Uzdignuta Monorail Tracnica
+US_asphalt_road
+US asfaltna ulica
+water_road
+Kanal
+wooden_sleeper_track
+Drveni Zeljeznicki Prag
+#__________________________________way-object___________________________________
+#__________________________________way-object___________________________________
+High_Speed_Catenary
+Elektrovod velike brzine
+modern_runway-extMrkLgt
+Pista
+old_catenary
+Stari elektrovod
+standard_catenary
+Standardni elektrovod
+Third_Rail_Electrification
+Elektrifikacija trece tracnice
+Tram_Electrification
+Elektrifikacija tramvaja
+TrolleyBus_Electrification
+Elektrifikacija trolejbusa
