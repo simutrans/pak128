@@ -1,0 +1,7 @@
+Obj=building
+Name=DenkHajo
+Type=mon
+Passengers=60
+Copyright=Hajo
+#BackImage[Layout][x Position][y Position][Height][Phase]
+BackImage[0][0][0][0][0]=denkhajo.1.0

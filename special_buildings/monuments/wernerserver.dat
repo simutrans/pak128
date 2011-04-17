@@ -1,0 +1,23 @@
+﻿# Werner's monument
+# -----------------
+# By Zeno - Sept. 4th, 2009
+# The inscription and details in the details window should say something like:
+#
+# This monument has been raised by the Simutrans authorities in honour to 
+# Werner Brandt "Wernieman", and his server. He provided the community with
+# many useful services like svn, nightlies and filesharing. The funny thing is,
+# when he goes away on holidays his router refuses to work and goes on holiday too.
+obj=building
+name=WernerServer
+copyright=Zeno
+intro_month=1
+intro_year=1870
+retire_month=12
+retire_year=2199
+chance=100
+type=mon
+level=61
+needs_ground=1
+#climates=mediterran,tropic,temperate
+BackImage[0][0][0][0][0][0]=wernerserver.1.0
+BackImage[0][0][0][0][1][0]=wernerserver.1.1

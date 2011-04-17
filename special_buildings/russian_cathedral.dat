@@ -1,0 +1,13 @@
+Obj=building
+Name=Russian_Cathedral
+Copyright=Rmax500
+Type=cur
+Passengers=25
+Build_Time=2000
+Chance=130
+intro_year=1700
+retire_year=2100
+climates=mediterran,temperate,tundra,rocky
+needs_ground=0
+BackImage[0][0][0][1][0]=russian_cathedral.1.0
+BackImage[0][0][0][0][0]=russian_cathedral.2.0

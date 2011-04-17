@@ -1,0 +1,12 @@
+Obj=building
+Name=MARKET_PLACE_0
+Copyright=Napik & MHz
+Type=cur
+Build_Time=1800
+Passengers=25
+Chance=40
+Dims=2,2
+BackImage[0][0][0][0][0]=market_place_0.0.1
+BackImage[0][1][0][0][0]=market_place_0.0.0
+BackImage[0][0][1][0][0]=market_place_0.1.1
+BackImage[0][1][1][0][0]=market_place_0.1.0

@@ -1,0 +1,12 @@
+Obj=building
+Name=ELEMENTARY_SCHOOL_2
+copyright=MHz
+Type=cur
+Build_Time=7100
+Passengers=22
+Chance=65
+Dims=2,2
+BackImage[0][0][0][0][0]=elementary_school_2.0.1
+BackImage[0][1][0][0][0]=elementary_school_2.0.0
+BackImage[0][0][1][0][0]=elementary_school_2.1.1
+BackImage[0][1][1][0][0]=elementary_school_2.1.0

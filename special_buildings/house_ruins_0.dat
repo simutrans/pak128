@@ -1,0 +1,6 @@
+Obj=building
+Name=HOUSE_RUINS_0
+Copyright=MHz
+Type=cur
+Passengers=40
+BackImage[0][0][0][0][0]=house_ruins_0.1.0

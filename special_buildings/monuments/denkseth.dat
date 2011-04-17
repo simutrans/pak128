@@ -1,0 +1,15 @@
+﻿#-------------------------------------------------------------------------------
+#
+#                       Simutrans dat file for monuments
+#                           created by: Hj.Malthaner
+#                                  Updates:
+#        03-Dec-03: T. Kubes - rearranged monuments, updates to 128x128
+#
+#
+#-------------------------------------------------------------------------------
+Obj=building
+Name=DenkSeth
+Type=mon
+Passengers=60
+#BackImage[Layout][x Position][y Position][Height][Phase]
+BackImage[0][0][0][0][0]=denkseth.1.0

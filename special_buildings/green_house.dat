@@ -1,0 +1,12 @@
+Obj=building
+Name=GREEN_HOUSE
+Copyright=MHz
+Type=cur
+Build_Time=14000
+Chance=40
+Passengers=25
+Dims=1,2,2
+BackImage[0][0][0][0][0]=green_house.0.1
+BackImage[0][1][0][0][0]=green_house.0.2
+BackImage[1][0][0][0][0]=green_house.0.1
+BackImage[1][0][1][0][0]=green_house.0.0

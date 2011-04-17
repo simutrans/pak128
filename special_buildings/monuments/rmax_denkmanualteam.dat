@@ -1,0 +1,7 @@
+Obj=building
+Name=rmax_DenkManualTeam
+Copyright=Rmax500
+Type=mon
+Passengers=60
+#intro_year=1949
+BackImage[0][0][0][0][0]=rmax_denkmanualteam.1.0

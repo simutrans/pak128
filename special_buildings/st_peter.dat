@@ -1,0 +1,10 @@
+Obj=building
+Name=ST_PETER
+Copyright=MiP
+Type=cur
+Build_Time=4200
+Chance=20
+Passengers=90
+Dims=1,1
+BackImage[0][0][0][0][0]=st_peter.2.0
+BackImage[0][0][0][1][0]=st_peter.1.0

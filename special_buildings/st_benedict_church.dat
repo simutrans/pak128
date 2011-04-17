@@ -1,0 +1,12 @@
+Obj=building
+Name=st_benedict_church
+Copyright=Rmax500
+Type=cur
+Passengers=95
+Build_Time=4900
+Chance=20
+#intro_year=1935
+#retire_year=2100
+Dims=1,1
+BackImage[0][0][0][1][0]=st_benedict_church.1.0
+BackImage[0][0][0][0][0]=st_benedict_church.2.0

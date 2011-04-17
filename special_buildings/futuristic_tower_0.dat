@@ -1,0 +1,9 @@
+Obj=building
+Name=FUTURISTIC_TOWER_0
+Copyright=Patrick
+Type=cur
+Passengers=30
+Dims=1,1
+needs_ground=1
+BackImage[0][0][0][1][0]=futuristic_tower_0.1.0
+BackImage[0][0][0][0][0]=futuristic_tower_0.2.0

@@ -1,0 +1,8 @@
+Obj=building
+Name=CIVILIAN_RADAR
+Copyright=MHz
+intro_year=1952
+Type=cur
+Passengers=20
+BackImage[0][0][0][1][0]=civilian_radar.1.0
+BackImage[0][0][0][0][0]=civilian_radar.2.0

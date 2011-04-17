@@ -1,0 +1,7 @@
+Obj=building
+Name=MILITARY_RADAR
+Copyright=MHz
+intro_year=1986
+Type=cur
+Passengers=10
+BackImage[0][0][0][0][0]=military_radar.1.0

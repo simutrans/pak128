@@ -1,0 +1,12 @@
+Obj=building
+Name=PARK_0
+Copyright=Napik
+Type=cur
+Build_Time=12000
+Passengers=15
+Chance=45
+Dims=2,2
+BackImage[0][0][0][0][0]=park_0.0.1
+BackImage[0][1][0][0][0]=park_0.0.0
+BackImage[0][0][1][0][0]=park_0.1.1
+BackImage[0][1][1][0][0]=park_0.1.0

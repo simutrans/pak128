@@ -1,0 +1,10 @@
+Obj=building
+Name=FORT_FUN
+Copyright=MHz
+Type=cur
+Passengers=24
+Dims=2,2
+BackImage[0][0][0][0][0]=fort_fun.0.1
+BackImage[0][1][0][0][0]=fort_fun.0.0
+BackImage[0][0][1][0][0]=fort_fun.1.1
+BackImage[0][1][1][0][0]=fort_fun.1.0

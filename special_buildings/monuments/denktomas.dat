@@ -1,0 +1,6 @@
+Obj=building
+Name=DenkTomas
+Type=mon
+Passengers=60
+#BackImage[Layout][x Position][y Position][Height][Phase]
+BackImage[0][0][0][0][0]=denktomas.1.0

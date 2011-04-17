@@ -1,0 +1,7 @@
+Obj=building
+Name=DenkVM
+#Manfred
+Type=mon
+Passengers=60
+#BackImage[Layout][x Position][y Position][Height][Phase]
+BackImage[0][0][0][0][0]=denkvm.1.0

@@ -1,0 +1,9 @@
+Obj=building
+Name=OLD_HOUSE_0
+Copyright=Napik
+Type=cur
+Build_Time=5400
+Chance=27
+Passengers=40
+Dims=1,1
+BackImage[0][0][0][0][0]=old_house_0.1.0

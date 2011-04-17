@@ -1,0 +1,7 @@
+FOLDERS
+monuments
+townhalls
+
+OPTIONS
+compile yes
+merge building.special.pak

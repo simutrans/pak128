@@ -1,0 +1,12 @@
+Obj=building
+Name=Firestation
+Copyright=MHz
+Type=cur
+Passengers=15
+Build_Time=10000
+Chance=60
+Dims=1,2,2
+BackImage[0][0][0][0][0]=firestation.0.1
+BackImage[0][1][0][0][0]=firestation.0.0
+BackImage[1][0][0][0][0]=firestation.0.1
+BackImage[1][0][1][0][0]=firestation.0.0

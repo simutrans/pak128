@@ -1,0 +1,12 @@
+Obj=building
+Name=CHURCH_06
+Copyright=Raven
+Type=cur
+Passengers=65
+Build_Time=5100
+Chance=20
+intro_year=1545
+#retire_year=2100
+Dims=1,1
+BackImage[0][0][0][1][0]=church_06.1.0
+BackImage[0][0][0][0][0]=church_06.2.0

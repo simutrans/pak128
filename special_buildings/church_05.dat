@@ -1,0 +1,13 @@
+Obj=building
+Name=CHURCH_05
+copyright=MHz
+Type=cur
+Build_Time=22000
+Chance=40
+Passengers=20
+Dims=2,2
+BackImage[0][0][0][0][0]=church_05.0.1
+BackImage[0][1][0][0][0]=church_05.1.0
+BackImage[0][1][0][1][0]=church_05.0.0
+BackImage[0][0][1][0][0]=church_05.1.2
+BackImage[0][1][1][0][0]=church_05.1.1

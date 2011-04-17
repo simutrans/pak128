@@ -1,0 +1,7 @@
+Obj=building
+Name=rmax_dictator_statue
+#denk Isaac!
+Copyright=Rmax500
+Type=mon
+Passengers=60
+BackImage[0][0][0][0][0]=rmax_dictator_statue.1.0

@@ -1,0 +1,12 @@
+Obj=building
+name=Lighthouse_0
+copyright=MHz
+intro_year=1875
+type=cur
+passengers=10
+climates=water
+location=Land
+chance=75
+needs_ground=1
+Dims=1,1
+BackImage[0][0][0][0][0]=lighthouse_0.1.0

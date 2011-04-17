@@ -1,0 +1,10 @@
+Obj=building
+Name=WHEEL
+copyright=MHz & Patrick
+Type=cur
+Build_Time=25000
+Chance=70
+Passengers=90
+Dims=1,1
+BackImage[0][0][0][0][0]=wheel.2.0
+BackImage[0][0][0][1][0]=wheel.1.0

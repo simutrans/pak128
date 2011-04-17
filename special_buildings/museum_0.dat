@@ -1,0 +1,12 @@
+Obj=building
+Name=MUSEUM_0
+copyright=MHz
+Type=cur
+Build_Time=17000
+Passengers=20
+Chance=25
+Dims=2,2
+BackImage[0][0][0][0][0]=museum_0.0.1
+BackImage[0][1][0][0][0]=museum_0.0.0
+BackImage[0][0][1][0][0]=museum_0.1.1
+BackImage[0][1][1][0][0]=museum_0.1.0

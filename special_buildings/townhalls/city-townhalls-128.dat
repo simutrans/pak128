@@ -1,0 +1,228 @@
+#-------------------------------------------------------------------------------
+#
+#                       Simutrans dat file for townhalls
+#                           created by: Hj.Malthaner
+#                                  Updates:
+#                13-Jun-03: T. Kubes   - CHANGE: redesigned for 128x128
+#                22-Oct-03: T. Kubes   - CHANGE: Now uses PJD townhalls
+#                04-Jan-07: F. Gonella - NEW: level 5
+#                                      - NEW: townhalls for desert climate
+#
+#
+#-------------------------------------------------------------------------------
+# DEFAULT (temperate)
+--------------------------------------------------------------------------------
+Obj=building
+Name=01_CITY
+Type=tow
+intro_year=1720
+retire_year=2999
+Build_Time=0
+Passengers=25
+copyright=Peter J. Dobrovka
+NoConstruction=1
+Dims=2,2
+climates=tropic, mediterran, temperate, tundra, rocky
+animation_time=150
+BackImage[0][0][0][0][0][0]=city-townhall-1-128.0.1
+BackImage[0][1][0][0][0][0]=city-townhall-1-128.0.0
+BackImage[0][0][1][0][0][0]=city-townhall-1-128.0.3
+BackImage[0][1][1][0][0][0]=city-townhall-1-128.0.2
+#FrontImage[0][1][1][0][0][0]=city-townhall-1-128.0.2
+#FrontImage[0][1][1][0][1][0]=city-townhall-1-128.1.0
+#FrontImage[0][1][1][0][2][0]=city-townhall-1-128.1.1
+#FrontImage[0][1][1][0][3][0]=city-townhall-1-128.1.2
+#FrontImage[0][1][1][0][4][0]=city-townhall-1-128.1.3
+#FrontImage[0][1][1][0][5][0]=city-townhall-1-128.1.4
+FrontImage[0][1][1][0][0][0]=a0_fountain_128.0.0
+FrontImage[0][1][1][0][1][0]=a0_fountain_128.0.1
+FrontImage[0][1][1][0][2][0]=a0_fountain_128.0.2
+FrontImage[0][1][1][0][3][0]=a0_fountain_128.0.3
+FrontImage[0][1][1][0][4][0]=a0_fountain_128.1.0
+FrontImage[0][1][1][0][5][0]=a0_fountain_128.1.1
+FrontImage[0][1][1][0][6][0]=a0_fountain_128.1.2
+FrontImage[0][1][1][0][7][0]=a0_fountain_128.1.3
+FrontImage[0][1][1][0][8][0]=a0_fountain_128.2.0
+FrontImage[0][1][1][0][9][0]=a0_fountain_128.2.1
+FrontImage[0][1][1][0][10][0]=a0_fountain_128.2.2
+FrontImage[0][1][1][0][11][0]=a0_fountain_128.2.3
+FrontImage[0][1][1][0][12][0]=a0_fountain_128.3.0
+FrontImage[0][1][1][0][13][0]=a0_fountain_128.3.1
+FrontImage[0][1][1][0][14][0]=a0_fountain_128.3.2
+FrontImage[0][1][1][0][15][0]=a0_fountain_128.3.3
+--------------------------------------------------------------------------------
+Obj=building
+Name=02_CITY
+Type=tow
+intro_year=1720
+retire_year=2999
+Build_Time=4000
+Passengers=50
+copyright=Peter J. Dobrovka
+NoConstruction=1
+Dims=2,2
+climates=tropic, mediterran, temperate, tundra, rocky
+animation_time=100
+BackImage[0][0][0][0][0]=city-townhall-1-128.3.1
+BackImage[0][0][0][1][0]=city-townhall-1-128.2.1
+BackImage[0][1][0][0][0]=city-townhall-1-128.3.0
+BackImage[0][0][1][0][0]=city-townhall-1-128.3.3
+BackImage[0][1][1][0][0]=city-townhall-1-128.3.2
+BackImage[0][1][1][0][1]=city-townhall-1-128.4.0
+BackImage[0][1][1][0][2]=city-townhall-1-128.4.1
+BackImage[0][1][1][0][3]=city-townhall-1-128.4.2
+BackImage[0][1][1][0][4]=city-townhall-1-128.4.3
+BackImage[0][1][1][0][5]=city-townhall-1-128.4.4
+--------------------------------------------------------------------------------
+Obj=building
+Name=03_CITY
+Type=tow
+Build_Time=8000
+intro_year=1720
+retire_year=2999
+Passengers=75
+copyright=Peter J. Dobrovka
+NoConstruction=1
+Dims=2,2
+climates=tropic, mediterran, temperate, tundra, rocky
+animation_time=100
+BackImage[0][0][0][0][0]=city-townhall-1-128.6.1
+BackImage[0][0][0][1][0]=city-townhall-1-128.5.1
+BackImage[0][1][0][0][0]=city-townhall-1-128.6.0
+BackImage[0][0][1][0][0]=city-townhall-1-128.6.3
+BackImage[0][1][1][0][0]=city-townhall-1-128.6.2
+BackImage[0][1][1][0][1]=city-townhall-1-128.7.0
+BackImage[0][1][1][0][2]=city-townhall-1-128.7.1
+BackImage[0][1][1][0][3]=city-townhall-1-128.7.2
+BackImage[0][1][1][0][4]=city-townhall-1-128.7.3
+BackImage[0][1][1][0][5]=city-townhall-1-128.7.4
+--------------------------------------------------------------------------------
+Obj=building
+Name=04_CITY
+Type=tow
+Build_Time=16000
+intro_year=1720
+retire_year=2999
+Passengers=100
+copyright=Peter J. Dobrovka
+NoConstruction=1
+Dims=2,2
+climates=tropic, mediterran, temperate, tundra, rocky
+BackImage[0][0][0][0][0]=city-townhall-1-128.9.1
+BackImage[0][0][0][1][0]=city-townhall-1-128.8.1
+BackImage[0][1][0][0][0]=city-townhall-1-128.9.0
+BackImage[0][1][0][1][0]=city-townhall-1-128.8.0
+BackImage[0][0][1][0][0]=city-townhall-1-128.9.3
+BackImage[0][0][1][1][0]=city-townhall-1-128.8.3
+BackImage[0][1][1][0][0]=city-townhall-1-128.9.2
+--------------------------------------------------------------------------------
+Obj=building
+Name=05_CITY
+Type=tow
+Build_Time=32000
+intro_year=1720
+retire_year=2999
+Passengers=200
+copyright=Peter J. Dobrovka
+# Re copyright - actually this is an edit of PD's render for 04_CITY, made by someone. But it seems impossible to find out who was it. It was posted on the "old" forum, meaning the Isaac's one after Hajo's... so the 2nd.
+NoConstruction=1
+Dims=2,2
+climates=tropic, mediterran, temperate, tundra, rocky
+BackImage[0][0][0][0][0]=city-townhall-1-128.11.1
+BackImage[0][0][0][1][0]=city-townhall-1-128.10.1
+BackImage[0][1][0][0][0]=city-townhall-1-128.11.0
+BackImage[0][1][0][1][0]=city-townhall-1-128.10.0
+BackImage[0][0][1][0][0]=city-townhall-1-128.11.3
+BackImage[0][0][1][1][0]=city-townhall-1-128.10.3
+BackImage[0][1][1][0][0]=city-townhall-1-128.11.2
+--------------------------------------------------------------------------------
+# DESERT (Arab style)
+--------------------------------------------------------------------------------
+Obj=building
+Name=01_CITY_1
+Type=tow
+copyright=Rmax500
+intro_year=1720
+retire_year=2999
+Build_Time=0
+Passengers=25
+NoConstruction=1
+Dims=2,2
+climates=desert
+# LEVEL 0 TOWNHALL IMAGE MISSING: USING LEVEL 1 INSTEAD
+BackImage[0][0][0][0][0]=city-townhall-2-128.1.1
+BackImage[0][1][0][0][0]=city-townhall-2-128.1.0
+BackImage[0][0][1][0][0]=city-townhall-2-128.1.3
+BackImage[0][1][1][0][0]=city-townhall-2-128.1.2
+--------------------------------------------------------------------------------
+Obj=building
+Name=02_CITY_1
+Type=tow
+copyright=Rmax500
+intro_year=1720
+retire_year=2999
+Build_Time=4000
+Passengers=50
+NoConstruction=1
+Dims=2,2
+climates=desert
+BackImage[0][0][0][0][0]=city-townhall-2-128.1.1
+BackImage[0][1][0][0][0]=city-townhall-2-128.1.0
+BackImage[0][0][1][0][0]=city-townhall-2-128.1.3
+BackImage[0][1][1][0][0]=city-townhall-2-128.1.2
+--------------------------------------------------------------------------------
+Obj=building
+Name=03_CITY_1
+Type=tow
+copyright=Rmax500
+Build_Time=8000
+intro_year=1720
+retire_year=2999
+Passengers=75
+NoConstruction=1
+Dims=2,2
+climates=desert
+BackImage[0][0][0][0][0]=city-townhall-2-128.2.1
+BackImage[0][1][0][0][0]=city-townhall-2-128.2.0
+BackImage[0][0][1][0][0]=city-townhall-2-128.2.3
+BackImage[0][1][1][0][0]=city-townhall-2-128.2.2
+--------------------------------------------------------------------------------
+Obj=building
+Name=04_CITY_1
+Type=tow
+copyright=Rmax500
+Build_Time=16000
+intro_year=1720
+retire_year=2999
+Passengers=100
+NoConstruction=1
+Dims=2,2
+climates=desert
+BackImage[0][0][0][0][0]=city-townhall-2-128.3.1
+BackImage[0][1][0][0][0]=city-townhall-2-128.3.0
+BackImage[0][0][1][0][0]=city-townhall-2-128.3.3
+BackImage[0][1][1][0][0]=city-townhall-2-128.3.2
+--------------------------------------------------------------------------------
+Obj=building
+Name=05_CITY_1
+Type=tow
+copyright=Rmax500
+Build_Time=32000
+intro_year=1720
+retire_year=2999
+Passengers=200
+NoConstruction=1
+Dims=2,2
+climates=desert
+BackImage[0][0][0][0][0]=city-townhall-2-128.4.1
+BackImage[0][1][0][0][0]=city-townhall-2-128.4.0
+BackImage[0][0][1][0][0]=city-townhall-2-128.4.3
+BackImage[0][1][1][0][0]=city-townhall-2-128.4.2
+--------------------------------------------------------------------------------
+#
+#
+#===============================================================================
+#
+#                                      EOF
+#
+#===============================================================================

@@ -1,0 +1,6 @@
+Obj=building
+Name=WOODEN_CHURCH
+Copyright=MHz
+Type=cur
+Passengers=90
+BackImage[0][0][0][0][0]=wooden_church.1.0

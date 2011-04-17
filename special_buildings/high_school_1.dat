@@ -1,0 +1,17 @@
+Obj=building
+Name=HIGH_SCHOOL_1
+Copyright=Patrick
+Type=cur
+Build_Time=11000
+Chance=25
+Passengers=15
+Dims=3,3
+BackImage[0][0][0][0][0]=high_school_1.0.2
+BackImage[0][1][0][0][0]=high_school_1.0.1
+BackImage[0][2][0][0][0]=high_school_1.0.0
+BackImage[0][0][1][0][0]=high_school_1.1.2
+BackImage[0][1][1][0][0]=high_school_1.1.1
+BackImage[0][2][1][0][0]=high_school_1.1.0
+BackImage[0][0][2][0][0]=high_school_1.2.2
+BackImage[0][1][2][0][0]=high_school_1.2.1
+BackImage[0][2][2][0][0]=high_school_1.2.0

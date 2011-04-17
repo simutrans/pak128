@@ -1,0 +1,9 @@
+Obj=building
+Name=TV_TOWER_0
+Type=cur
+Passengers=20
+copyright=Patrick
+Dims=1,1
+needs_ground=1
+BackImage[0][0][0][1][0]=tv_tower_0.1.0
+BackImage[0][0][0][0][0]=tv_tower_0.2.0

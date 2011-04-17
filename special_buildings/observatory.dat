@@ -1,0 +1,9 @@
+Obj=building
+Name=OBSERVATORY
+Type=cur
+Copyright=MHz
+Build_Time=18000
+Chance=33
+Passengers=30
+Dims=1,1
+BackImage[0][0][0][0][0]=observatory.1.0
