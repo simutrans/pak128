@@ -1,0 +1,399 @@
+history of pak128 svn - important changes for gameplay
+------------------------------------------------------
+
+For full history or technical details see svn logs.
+Names in brackets after message list the author/originator of change. It does not necessarily have to be member of pak128 team - external contributors are there as well.
+
+
+17.04.2011
+	- Remove old roads and road bridges (VS)
+	- Reactivate simple crossign graphics (VS)
+	- Update road timeline configuration (VS, DirrrtyDirk)
+	- Expand choice of player change buttons in menu (VS)
+16.04.2011
+	- Move cotton and wool to piece goods (VS)
+	- Remove fabric vehicles & copy some graphics to goods vehicles (VS)
+13.04.2011
+	- Add new road set (Fabio)
+	- Update menus (DirrrtyDirk)
+11.04.2011
+	- Update modern post offices with player colour (Zkou2)
+07.04.2011
+	- Add new post offices (Zkou2)
+06.04.2011
+	- Fix tram depot clipping problem (VS)
+26.03.2011
+	- Remove all remaining non-free trucks, trailers, buses and bridges (VS)
+	- Add two modern buses, an express train set and a set of high-power diesels (Zeno)
+	- Add a large number of *MU units (Zeno)
+	- Replace all farm product wagons with new complete timeline (Zeno)
+24.03.2011
+	- Replace graphics on car truck (VS)
+21.03.2011
+	- Replace graphics on one bridge (VS, Raven)
+20.03.2011
+	- Fix stray pixels in B-747s (Zeno)
+19.03.2011
+	- Unify locomotives that had two versions (VS)
+09.03.2011
+	- Another set of copyright fixes (Karllok)
+06.03.2011
+	- Correct copyright entries on some of the oldest vehicles (Karllok)
+05.03.2011
+	- Add large modern warehouse (Zeno)
+	- Add office platform (VS, Raven)
+	- Remove all non-free trams and rail units (VS)
+26.02.2011
+	- Activate vehicle selling price reduction, 15% (DirrrtyDirk)
+23.02.2011
+	- Expand Boeing 777 & add 757 series (Zeno)
+22.02.2011
+	- Repository moved to Timothy's server, acessible again
+07.02.2011
+	- Add makefile (sdog)
+19.01.2011
+	- Expand Boeing 747 series (Zeno)
+23.01.2011
+	- Updates to locomotives (Zeno)
+08.01.2011
+	- Add weak diesels set (Zeno)
+07.01.2011
+	- Expand Boeing 737 series (Zeno)
+06.01.2011
+	- Expand Boeing 707 & 727 series (Zeno)
+04.01.2011
+	- New planes: BAC 1-11, Bombardier CRJs, Embraers, B-377 (Zeno)
+03.01.2011
+	- Add Douglas DC- & MD- series planes (Zeno)
+	- Further numerous improvements in Airbus 3xx series (Zeno)
+	- Add C-130J (Zeno)
+02.01.2011
+	- Many updated graphics and new models for Airbus 3xx series (Zeno)
+20.12.2010
+	- Remove non-free graphics from post offices (VS)
+	- Add empty non-platform high tile (VS)
+	- Replace graphics on modern warehouse (Zeno)
+	- Add player colour to tank railcar (Zeno)
+06.12.2010
+	- Lower RCs for uderground (Zeno)
+04.12.2010
+	- Add rules for house construction inside blocks (VS)
+17.11.2010
+	- Fix a few light pixels on channels (VS)
+	- Remove retire date from "New Zealand Star" (Zeno)
+10.11.2010
+	- Replace graphics on Shinkansen 700 (DirrrtyDirk)
+	- Add an underground train set (Zeno)
+	- Add intro dates to some industries (VS)
+26.10.2010
+	- Replaced all ships (Zeno)
+23.10.2010
+	- Fix swapped mail & psg on Z-2000 (Zeno)
+13.10.2010
+	- Add icons for status bar (DirrrtyDirk)
+06.10.2010
+	- Add many vehicles - milk wagons, DMUs etc. (Zeno)
+02.10.2010
+	- Merged forestrules.tab into simuconf.tab (DirrrtyDirk)
+29.09.2010
+	- Add lights to many vehicles (DirrrtyDirk)
+28.09.2010
+	- Update simuconf.tab (DirrrtyDirk)
+14.09.2010
+	- Add four new bulk trailers (Martin)
+18.07.2010
+	- Fix constraints on TGV (Zeno)
+27.06.2010
+	- Replace non-free graphics on E5 (VS, Raven)
+23.06.2010
+	- Replace graphics on some locomotives (VS, Raven)
+	- Add new rail vehicles (Zeno)
+	- Remove all remaining non-free locomotives and update compat.tab (VS)
+15.06.2010
+	- Add locomotives (Zeno)
+	- Replace graphics on one loco (VS, Raven)
+14.06.2010
+	- Add 4 new buses (Zeno)
+	- Add 3 new *MUs (Zeno)
+25.05.2010
+	- Fix differing intro dates on Skoda 706 truck/trailer combo (VS)
+23.05.2010
+	- Replace graphics on a cement wagon (VS, Raven)
+	- Add map editor icon (DirrrtyDirk)
+	- Fix climates on forest plantation and sawmill (VS)
+22.05.2010
+	- Fix glitches with catenary (VS)
+	- Fix bad pixels on Boeing 707 (VS)
+	- New home market graphics (Gouv)
+	- Remove non-free items: all industries, all citycars, modern choose sign, schwebebahn station, rail station, all special buildings (VS)
+20.05.2010
+	- Correct tree alignment (VS)
+07.05.2010
+	- New power plants: geothermal, solar ponds (vilvoh)
+04.05.2010
+	- Add missing needs_ground for Zeno's cannery (VS)
+01.05.2010
+	- Fix graphical problems with stations (VS)
+20.04.2010
+	- Fix rail tunnel bug (VS)
+17.04.2010
+	- Include a new set of tanker wagons with timeline 1870-* (Zeno)
+	- Remove non-free city houses (VS)
+16.04.2010
+	- New graphics for "CKD 749" (TommPa9)
+01.04.2010
+	- Solar plants are not entirely surrounded by fields and can be connected to transformers (vilvoh, VS)
+21.03.2010
+	- Fixed running cost for "De Havilland Comet" (Zeno)
+20.03.2010
+	- replaced graphiucs on Skoda 151 loco (TommPa9)
+
+## pak128 version 1.4.6 ##
+
+24.02.2010
+	- new set of solar power plants (vilvoh)
+	- add old style cannery (Zeno)
+	- replaced some rail wagon graphics (VS)
+30.01.2010
+	- new electronics factory (Fabio)
+16.01.2010
+	- icon and cursor for buy house tool (VS, MHD)
+12.01.2010
+	- update translations
+13.12.2009
+	- new materials wholesale (Fabio)
+04.12.2009
+	- add runway and taxiway for old era (DirrrtyDirk)
+	- deserts are less bright (DirrrtyDirk)
+28.11.2009
+	- integrated completely Dirk's airport items (VS)
+24.11.2009
+	- add new modern airport design to the "materials" section (DirrrtyDirk)
+	- improve underground slice mode support by adding keyboard shortcuts to menuconf.tab (DirrrtyDirk)
+23.11.2009
+	- container trailer (Martin)
+07.11.2009
+	- another new truck (Martin)
+05.11.2009
+	- new trucks (Martin)
+04.11.2009
+	- fix AvG wood truck graphic (VS)
+29.10.2009
+	- graphics upgrade for Hajo's monument (Hajo)
+26.10.2009
+	- realigned some trucks (Martin)
+22.10.2009
+	- new graphics for monorail/schwebebahn depot (vilvoh)
+13.10.2009
+	- menu updates (DirrrtyDirk)
+21.09.2009
+	- fix some monorail engines: diesel -> fuel cells (VS)
+12.09.2009
+	- small improvements to meat packing plant (Zeno)
+07.09.2009
+	- add Wernieman's server monument (Zeno)
+05.09.2009
+	- add new meat packing plant for early era (Zeno)
+04.09.2009
+	- replace forest by new with fields (Fabio)
+02.09.2009
+	- add new gas station from Asterix909 (VS)
+	- raise gear on wood truck Tatra 815 so that it can reach top speed with trailer (VS)
+16.07.2009
+	- increase weight limit on city roads to 40 tons (Werner)
+14.07.2009
+	- fix weight limit on modern airports, now 600 tons (VS)
+10.07.2009
+	- replace all old planes by new ones from Zeno (see below) (VS)
+07.07.2009
+	- add another small coal mine (Raven)
+23.06.2009
+	- a new consistent set of airplanes (Zeno)
+08.06.2009
+	- add new sand quarry and deprecate the old one (DanteDarkstar)
+	- change graphics on some locomotives (TommPa9)
+
+## pak128 version 1.4.5 ##
+
+30.04.2009
+	- remove all fixed factory supplier numbers (VS)
+08.04.2009
+	- change refinery production - less gasoline, more plastics (VS)
+07.04.2009
+	- do not merge city houses' pak files (VS)
+06.04.2009
+	- New cabin for Tatra 815 truck line (VS, TommPa9)
+03.04.2009
+	- fix some vehicles not showing on electric tab (VS)
+	- do not merge vehicles' pak files (VS)
+01.04.2009
+	- fix statues being the only lv60 buildings in early eras (VS)
+24.03.2009
+	- update concrete truck graphics (VS)
+08.03.2009
+	- intro date for road depot moved to 1810 (VS)
+	- remove old entries from simuconf.tab (VS)
+27.02.2009
+	- fix late retire dates for tenders (VS)
+24.02.2009
+	- another attempt to fix SBB IC2000 (whoami)
+	- increased maintenance of gravel road from 20 to 50; numbers are recalculated for length of game month! (VS)
+21.02.2009
+	- moved from special toolbar to editor toolbar: plant forest, found new city (VS)
+17.02.2009
+	- replaced mail ship images for new version by Jakob Schaefer (VS)
+13.02.2009
+	- rivers (Fabio)
+07.02.2009
+	- fixed constraints on "Goods_trailer_1"
+	- fixed Scania trucks alignment
+03.02.2009
+	- fixed remaining Sentinel Trailers (DirrrtyDirk)
+	- added cargo symbol to simple platform icon (DirrrtyDirk)
+01.02.2009
+	- corrected dat file for Transformer(PowerSource) (DirrrtyDirk)
+	- fixed Sentinel Trailer alignment (DirrrtyDirk)
+
+## pak128 version 1.4.4 ##
+
+24.01.2009
+	- new style marker tool (VS)
+23.01.2009
+	- fix rotations for village station (VS)
+22.01.2009
+	- raise starting money from 300 to 500 thousand cr. (VS)
+	- improve positioning of signals (VS)
+16.01.2009
+	- rc/price corrections for locomotives, planes and ships (Zeno)
+15.01.2009
+	- changed graphics for some mail trailers (VS)
+	- enable goods for plain station platform (VS)
+14.01.2009
+	- correct weight for Ikarus buses (Zeno)
+	- change oilfield graphic to better from MHz (VS)
+	- add reduced trolleybus pack from TommPa9 (VS)
+13.01.2009
+	- add button for making stop public (Frank, werner)
+04.01.2009
+	- fix needs_ground isue with station (Frank)
+24.12.2008
+	- added caboose wagons for small passenger transport on freight trains (VS)
+23.12.2008
+	- add button for enlarging map (werner)
+	- lower trolleybus catenary maintenance again: 15->5 (VS)
+	- change field settings for farms to 80 and apropriate production (VS)
+	- increase minimal factory distance from 6 to 20 (VS)
+20.12.2008
+	- some cargo steam locos can now be coupled (VS)
+	- new graphics for Tatra 815 truck (VS)
+	- tweaked production of grain farm, grain mill and bakery (VS)
+19.12.2008
+	- new experimental prices for some vehicle classes (Zeno)
+13.12.2008
+	- map editing icon now replaces line management for public authority mode (VS)
+11.12.2008
+	- added cotton fields (VS)
+06.12.2008
+	- added toolbar icons for maglev (gauthier)
+04.12.2008
+	- added maglev to menu toolbars (gauthier)
+23.11.2008
+	- new experimental prices for locomotives (Zeno)
+19.11.2008
+	- Add: monorail texts are again specific in pak128 (schwebebahn) (Frank)
+09.11.2008
+	- Fix: canal stop didn't accept mail (yoshi)
+03.11.2008
+	- Made trolleybus catenary more expensive: 1->15 (VS)
+14.10.2008
+	- New city rules (fabio)
+10.10.2008
+	- Allowed trucks and trailers without retire dates to combine (werner)
+09.10.2008
+	- Added new cotton farm (Patrick)
+03.10.2008
+	- Removed ground from cattle yard and cotton field (VS)
+02.10.2008
+	- fixed wrong Dims for factory publisher - caused empty rotations (VS)
+27.09.2008
+	- menuconf.tab entries (key + and -) for: allow manual change of daylight (available since ST r2031:) (whoami)
+25.09.2008
+	- Powerline bridge graphics (VS)
+22.09.2008
+	- Compatibility folders removed from official release dataset (VS)
+17.09.2008
+	- Repainted some stop symbols (VS)
+16.09.2008
+	- replaced old logo with the newer one (like in pak64) (DirrrtyDirk)
+	- entered big logo for start screen (DirrrtyDirk)
+	- New flag graphics for language selection window (DirrrtyDirk)
+	- Removed retire dates from last bulk trailer (road). (DirrrtyDirk)
+	- Exchanged speed values of the last two bulk trailers (road) - most modern one is now the fastest. (DirrrtyDirk)
+	- corrected wrong parameter name in vehicle dat-file (len -> length) (DirrrtyDirk)
+15.09.2008
+	- new ground textures & lightmap (DirrrtyDirk)
+12.09.2008
+	- removed outdated copyright lines for my work in the .dat file (DirrrtyDirk)
+10.09.2008
+	- Corrected wrong traffic lights in 2 directions (DirrrtyDirk)
+	- re-enabled shortcut l for powerline in menuconf.tab (whoami)
+	- Added Passenger/Mail/Goods symbols to all icons on stops and extension buildings where missing (DirrrtyDirk)
+09.09.2008
+	- Changed cursor for traffic lights (red now on top, green at the bottom) (DirrrtyDirk)
+08.09.2008
+	- Added 1990's Airport Tower into air_tower.dat (taken without changes from "Airport1990.old") (DirrrtyDirk)
+05.09.2008
+	- Fixed copyright entries to use spaces instead of _ (VS)
+01.09.2008
+	- added lights to "Tigress" high speed train (DirrrtyDirk)
+31.08.2008
+	- copying citylist_*.txt files from Pak128 1.3.5 (from both pak128/text/ and text/, renaming conflicting older ones) (whoami)
+	- setting all monorail buildings (esp. depot) to intro date 3/1901, because they are needed in the game then. (whoami)
+	- syntax error in dat caused missing back image of train depot (whoami)
+30.08.2008
+	- del climates jungle (old_powerplant.dat) (FrankP)
+29.08.2008
+	- changed pillars bridge ClassicRail (way-bridges-rail_concrete_1-128.png) (DirrrtyDirk)
+25.08.2008
+	- changed bonus speed for water and air (speedbonus.tab) (FrankP)
+16.08.2008
+	- undoing certain changes to train signals - don't work as intended / as documented (whoami)
+10.08.2008
+	- corrected train signals .DAT (most changes only for compliance with the rules) (whoami)
+	- fix graphics errors in privat-traffic_lights-128.png (whoami)
+07.08.2008
+	- fix hq (FrankP)
+05.08.2008
+	- fix key 'e' in menuconf.tab (FrankP)
+04.08.2008
+	- fix intro_month Express_tender (FrankP)
+	- fix Dims orientations shaft_coal_mine (shaft_coalmine.dat) (FrankP)
+03.08.2008 
+	- fix Dims orientations (FrankP)
+20.07.2008
+	- fix free_route Classic_ChooseSignals_right (FrankP)
+16.07.2008
+	- del double intro_year choosesign_digital_jp (FrankP)
+14.07.2008
+	- animated water (FrankP)
+13.07.2008
+	- optimizing graphics and animation factory Moebelhaus (a0-homemarket-128.png, factories-wood-128.dat); pak file size 3 MB -> 410 kB (FrankP)
+	- fix grafics bug car_factory.png (FrankP)
+	- fix and optimizing grafics and animation factory Materialswholesale (a0-materialswholesale-128.png, factories-material-128.dat); pak file size 777 kB -> 81 kB (FrankP)
+	- optimizing grafics and animation factory Sandquarry (a0-Sandquarry-128.png, factories-material-128.dat); pak file size 393 kB -> 145 kB (FrankP)
+	- change pillar bridge ClassicRoad (way-bridges-road_1-128.png) (FrankP)
+12.07.2008
+	- fix rail-road-crossing (barriers and special colors) (FrankP)
+	- fix way remover in menuconf.tab (FrankP)
+10.07.2008
+	- fix dims factory Moebelhaus (factories-wood-128.dat) (FrankP)
+	- change fountain 01_CITY (FrankP)
+09.07.2008
+	- change trees; del hight, add seasons, change image (FrankP)
+	- add cursors fagonella bus stops (FrankP)
+08.07.2008
+	- add cursor for 1940AirDepot (FrankP)
+	- possition cursor Airport-1930 and Luftdepot1920 (FrankP)
+06.07.2008
+	- change menu, cursor and player buildings for simutrans 0-100.0 (FrankP)
+	- change button powerlines : pixel -> render (FrankP)

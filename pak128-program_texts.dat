@@ -1,0 +1,118 @@
+# texts of game engine that need to be overwritten by pak
+#
+#----------------------
+#
+# monorail texts
+# (in 128 it is schwebebahn)
+#
+-----------------------
+obj=program_text
+name=Build monorail depot
+note=Pak128 has "schwebebahn" instead of monorail - please translate differently! (en: Suspension railway?)
+-----------------------
+obj=program_text
+name=Monorailhalt
+note=Pak128 has "schwebebahn" instead of monorail - please translate differently! (en: Suspension railway?)
+-----------------------
+obj=program_text
+name=Monorail
+note=Pak128 has "schwebebahn" instead of monorail - please translate differently! (en: Suspension railway?)
+-----------------------
+obj=program_text
+name=monorail vehicle
+note=Pak128 has "schwebebahn" instead of monorail - please translate differently! (en: Suspension railway?)
+-----------------------
+obj=program_text
+name=Monorailboden
+note=Pak128 has "schwebebahn" instead of monorail - please translate differently! (en: Suspension railway?)
+-----------------------
+obj=program_text
+name=Monoraildepot
+note=Pak128 has "schwebebahn" instead of monorail - please translate differently! (en: Suspension railway?)
+-----------------------
+obj=program_text
+name=Monorailhalt muss auf\nMonorail liegen!\n
+note=Pak128 has "schwebebahn" instead of monorail - please translate differently! (en: Suspension railway?)
+-----------------------
+obj=program_text
+name=Monorails are not available yet!
+note=Pak128 has "schwebebahn" instead of monorail - please translate differently! (en: Suspension railway?)
+-----------------------
+obj=menu_text
+name=MONORAILTOOLS
+note=Pak128 has "schwebebahn" instead of monorail - please translate differently! (en: Suspension railway?)
+-----------------------
+obj=record_text
+name=New world record for monorails: %.1f km/h by %s.
+note=Pak128 has "schwebebahn" instead of monorail - please translate differently! (en: Suspension railway?)
+-----------------------
+obj=program_text
+name=remove monorails
+note=Pak128 has "schwebebahn" instead of monorail - please translate differently! (en: Suspension railway?)
+-----------------------
+#
+# goods category texts
+#
+-----------------------
+Obj=program_text
+Name=CATEGORY_01
+note=Piece goods - books, glass, plastics, beer, electronics etc.
+-----------------------
+Obj=program_text
+Name=CATEGORY_02
+note=Bulk goods - coal, stone, sand...
+-----------------------
+Obj=program_text
+Name=CATEGORY_03
+note=Fluids - oil, chemicals and so on.
+-----------------------
+Obj=program_text
+Name=CATEGORY_04
+note=Cooled/refrigerated food: meat, fish and "food".
+-----------------------
+Obj=program_text
+Name=CATEGORY_05
+note=Fluid food - milk
+-----------------------
+Obj=program_text
+Name=CATEGORY_06
+note=Long goods: wood and planks.
+-----------------------
+Obj=program_text
+Name=CATEGORY_07
+note=Bagged farming products: grain, wool, corn, cotton.
+-----------------------
+Obj=program_text
+Name=CATEGORY_08
+note=Not used!
+-----------------------
+Obj=program_text
+Name=CATEGORY_09
+note=Not used!
+-----------------------
+Obj=program_text
+Name=CATEGORY_10
+note=Not used!
+-----------------------
+Obj=program_text
+Name=CATEGORY_11
+note=Not used!
+-----------------------
+Obj=program_text
+Name=CATEGORY_12
+note=Not used!
+-----------------------
+Obj=program_text
+Name=CATEGORY_13
+note=Not used!
+-----------------------
+Obj=program_text
+Name=CATEGORY_14
+note=Not used!
+-----------------------
+Obj=program_text
+Name=CATEGORY_15
+note=Not used!
+-----------------------
+
+# EOF

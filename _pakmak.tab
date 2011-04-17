@@ -1,0 +1,29 @@
+FOLDERS
+factories
+cityhouses
+special_buildings
+vehicles
+citycars
+trees
+base
+
+
+OPTIONS
+size 128
+clean yes
+# target is always written with /
+target simutrans/pak128
+# don't write version and Volker Meyer and all that ;-)
+cmd makeobj QUIET
+
+
+COMMANDS-BEFORE
+delete ${target}
+copy pak128.prototype ${target}
+
+
+COMMANDS-MIDDLE
+
+
+COMMANDS-AFTER
+copy history-pak128-svn.txt ${target}/doc/history-pak128-svn.txt
