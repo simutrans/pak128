@@ -1,0 +1,13 @@
+#tree type: fir
+#Prefferd_Density=2
+#Ditribution_Weight=5
+obj=tree
+name=tree120
+copyright=MHz
+climates=tundra,rocky
+seasons=1
+image[0][0]=tree120.1.0,0,-16
+image[1][0]=tree120.1.1,0,-16
+image[2][0]=tree120.1.2,3,-17
+image[3][0]=tree120.1.3,2,-11
+image[4][0]=tree120.1.4,0,-15

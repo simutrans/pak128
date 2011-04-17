@@ -1,0 +1,14 @@
+#tree type: dark green
+#oak
+#Prefferd_Density=0
+#Ditribution_Weight=7
+obj=tree
+name=tree061
+copyright=Napik
+climates=temperate
+seasons=1
+image[0][0]=tree061.1.0,12,-9
+image[1][0]=tree061.1.1,5,-12
+image[2][0]=tree061.1.2,2,-15
+image[3][0]=tree061.1.3,3,-15
+image[4][0]=tree061.1.4,9,-15

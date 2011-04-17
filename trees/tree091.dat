@@ -1,0 +1,11 @@
+obj=tree
+name=tree091
+copyright=Shunter
+climates=temperate,tundra,rocky,arctic
+seasons=1
+image[0][0]=tree091.1.0,8,-23
+image[1][0]=tree091.1.1,11,-22
+image[2][0]=tree091.1.2,13,-21
+image[3][0]=tree091.1.3,12,-20
+image[4][0]=tree091.1.4,12,-17
+

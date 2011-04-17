@@ -1,0 +1,10 @@
+obj=tree
+name=tree122
+copyright=Shunter
+climates=tundra,rocky,arctic
+seasons=1
+image[0][0]=tree122.1.0,7,-20
+image[1][0]=tree122.1.1,6,-17
+image[2][0]=tree122.1.2,7,-19
+image[3][0]=tree122.1.3,7,-19
+image[4][0]=tree122.1.4,4,-19

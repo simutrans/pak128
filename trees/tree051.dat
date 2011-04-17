@@ -1,0 +1,13 @@
+#tree type: Poplar
+#Prefferd_Density=4
+#Ditribution_Weight=4
+obj=tree
+name=tree051
+copyright=Napik
+climates=mediterran,temperate
+seasons=1
+image[0][0]=tree051.1.0,1,-17
+image[1][0]=tree051.1.1,0,-17
+image[2][0]=tree051.1.2,-1,-16
+image[3][0]=tree051.1.3,0,-15
+image[4][0]=tree051.1.4,0,-16
