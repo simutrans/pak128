@@ -1,0 +1,8 @@
+obj=building
+name=IND_06_30
+copyright=MHz
+type=ind
+level=30
+intro_year=1950
+retire_year=2018
+backimage[0][0][0][0][0]=ind_06_30.1.0

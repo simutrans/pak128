@@ -1,0 +1,9 @@
+obj=building
+name=IND_03_05
+copyright=MHz
+type=ind
+level=5
+intro_year=1981
+retire_year=2999
+chance=100
+backimage[0][0][0][0][0]=ind_03_05.1.0

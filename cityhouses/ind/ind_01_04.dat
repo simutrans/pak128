@@ -1,0 +1,9 @@
+obj=building
+name=IND_01_04
+copyright=Raven
+type=ind
+level=4
+intro_year=1492
+retire_year=2999
+chance=90
+backimage[0][0][0][0][0]=ind_01_04.1.0

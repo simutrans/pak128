@@ -1,0 +1,14 @@
+obj=building
+name=IND_01_30
+copyright=Gelion
+type=ind
+level=30
+intro_year=1850
+retire_year=1940
+chance=100
+climates=tundra,mediterran,temperate
+dims=1,1
+needs_ground=1
+seasons=2
+backimage[0][0][0][0][0][1]=ind_01_30.1.1
+backimage[0][0][0][0][0][0]=ind_01_30.1.0

@@ -1,0 +1,8 @@
+obj=building
+name=IND_06_03
+copyright=Vitus
+type=ind
+level=3
+intro_year=1943
+retire_year=1990
+backimage[0][0][0][0][0]=ind_06_03.1.0

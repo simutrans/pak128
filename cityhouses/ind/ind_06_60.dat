@@ -1,0 +1,9 @@
+obj=building
+name=IND_06_60
+copyright=BlackBox
+type=ind
+level=60
+intro_year=1950
+retire_year=2051
+backimage[0][0][0][1][0]=ind_06_60.1.0
+backimage[0][0][0][0][0]=ind_06_60.2.0

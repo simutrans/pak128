@@ -1,0 +1,8 @@
+obj=building
+name=IND_00_10
+copyright=Hajo
+type=ind
+level=10
+intro_year=1884
+retire_year=1937
+backimage[0][0][0][0][0]=ind_00_10.1.0

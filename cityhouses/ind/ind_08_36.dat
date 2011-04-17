@@ -1,0 +1,10 @@
+obj=building
+name=IND_08_36
+copyright=MHz
+type=ind
+level=36
+intro_year=1989
+retire_year=2999
+chance=100
+backimage[0][0][0][1][0]=ind_08_36.1.0
+backimage[0][0][0][0][0]=ind_08_36.2.0

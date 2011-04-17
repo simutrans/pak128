@@ -1,0 +1,9 @@
+obj=building
+name=IND_07_15
+copyright=MHz
+type=ind
+level=15
+intro_year=1940
+retire_year=2044
+chance=100
+backimage[0][0][0][0][0]=ind_07_15.1.0

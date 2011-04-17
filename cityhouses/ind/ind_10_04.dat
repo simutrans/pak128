@@ -1,0 +1,8 @@
+obj=building
+name=IND_10_04
+copyright=Raven & Napik
+type=ind
+level=4
+intro_year=1979
+retire_year=2999
+backimage[0][0][0][0][0]=ind_10_04.1.0

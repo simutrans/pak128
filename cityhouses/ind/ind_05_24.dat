@@ -1,0 +1,8 @@
+obj=building
+name=IND_05_24
+copyright=Patrick
+type=ind
+level=24
+intro_year=1942
+retire_year=2002
+backimage[0][0][0][0][0]=ind_05_24.1.0

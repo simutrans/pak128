@@ -1,0 +1,8 @@
+obj=building
+name=IND_07_03
+copyright=Raven
+type=ind
+level=3
+intro_year=1958
+retire_year=2004
+backimage[0][0][0][0][0]=ind_07_03.1.0

@@ -1,0 +1,8 @@
+obj=building
+name=IND_06_31
+copyright=Hajo
+type=ind
+level=31
+intro_year=1951
+retire_year=2021
+backimage[0][0][0][0][0]=ind_06_31.1.0

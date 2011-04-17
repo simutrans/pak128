@@ -1,0 +1,9 @@
+obj=building
+name=IND_06_56
+copyright=Patrick
+type=ind
+level=56
+intro_year=1950
+retire_year=2049
+backimage[0][0][0][1][0]=ind_06_56.1.0
+backimage[0][0][0][0][0]=ind_06_56.2.0

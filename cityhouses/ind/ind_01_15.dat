@@ -1,0 +1,13 @@
+#
+#Industrial
+#
+#-------------------------------------------------------------------------------
+obj=building
+name=IND_01_15
+copyright=MHz
+type=ind
+level=15
+intro_year=1982
+retire_year=2999
+chance=85
+backimage[0][0][0][0][0]=ind_01_15.1.0

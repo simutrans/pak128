@@ -1,0 +1,8 @@
+obj=building
+name=IND_05_08
+copyright=Napik
+type=ind
+level=8
+intro_year=1940
+retire_year=1987
+backimage[0][0][0][0][0]=ind_05_08.1.0

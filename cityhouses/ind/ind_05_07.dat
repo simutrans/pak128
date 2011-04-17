@@ -1,0 +1,8 @@
+obj=building
+name=IND_05_07
+copyright=MHz
+type=ind
+level=7
+intro_year=1945
+retire_year=1984
+backimage[0][0][0][0][0]=ind_05_07.1.0

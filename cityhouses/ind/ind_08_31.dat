@@ -1,0 +1,9 @@
+obj=building
+name=IND_08_31
+copyright=Patrick
+type=ind
+level=31
+intro_year=1967
+retire_year=2044
+backimage[0][0][0][1][0]=ind_08_31.1.0
+backimage[0][0][0][0][0]=ind_08_31.2.0

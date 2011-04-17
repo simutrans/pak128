@@ -1,0 +1,9 @@
+obj=building
+name=IND_11_57
+copyright=Mark Norman
+type=ind
+level=57
+intro_year=2004
+retire_year=2999
+backimage[0][0][0][1][0]=ind_11_57.1.0
+backimage[0][0][0][0][0]=ind_11_57.2.0

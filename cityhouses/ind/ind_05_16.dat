@@ -1,0 +1,8 @@
+obj=building
+name=IND_05_16
+copyright=MHz
+type=ind
+level=16
+intro_year=1939
+retire_year=1993
+backimage[0][0][0][0][0]=ind_05_16.1.0

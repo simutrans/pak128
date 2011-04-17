@@ -1,0 +1,9 @@
+obj=building
+name=IND_11_46
+copyright=Mark Norman
+type=ind
+level=46
+intro_year=2001
+retire_year=2999
+backimage[0][0][0][1][0]=ind_11_46.1.0
+backimage[0][0][0][0][0]=ind_11_46.2.0

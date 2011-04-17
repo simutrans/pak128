@@ -1,0 +1,8 @@
+obj=building
+name=IND_10_23
+copyright=Patrick
+type=ind
+level=23
+intro_year=1993
+retire_year=2999
+backimage[0][0][0][0][0]=ind_10_23.1.0

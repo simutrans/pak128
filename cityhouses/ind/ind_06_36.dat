@@ -1,0 +1,9 @@
+obj=building
+name=IND_06_36
+copyright=MHz
+type=ind
+level=36
+intro_year=1952
+retire_year=2020
+backimage[0][0][0][1][0]=ind_06_36.1.0
+backimage[0][0][0][0][0]=ind_06_36.2.0

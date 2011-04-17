@@ -1,0 +1,9 @@
+obj=building
+name=IND_06_35
+copyright=Hajo
+type=ind
+level=35
+intro_year=1949
+retire_year=2022
+backimage[0][0][0][1][0]=ind_06_35.1.0
+backimage[0][0][0][0][0]=ind_06_35.2.0

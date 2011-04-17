@@ -1,0 +1,8 @@
+obj=building
+name=IND_06_06
+copyright=Raven
+type=ind
+level=6
+intro_year=1952
+retire_year=1994
+backimage[0][0][0][0][0]=ind_06_06.1.0
