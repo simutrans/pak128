@@ -1,0 +1,178 @@
+Posted at
+http://forum.simutrans.com/index.php?topic=782.msg6709#msg6709
+
+-------------------------------------------------------------------------------
+
+Hello,
+right now there is a moderate amount of examples, templates and so on here:
+
+[size=15pt][b][url=http://graphics.simutrans.com/thumbnails.php?album=9]Graphic archive - 128[/url][/b][/size]
+
+[size=12pt][u][b]The items of special interest are probably:[/b][/u][/size]
+Rail vehicle alignment [b][url=http://graphics.simutrans.com/albums/userpics/10003/train-align-template.png]-1-[/url][/b], [b][url=http://graphics.simutrans.com/albums/userpics/10003/railtemplate.PNG]-2-[/url][/b], [b][url=http://graphics.simutrans.com/albums/userpics/10003/train-align-center-example-v2.png]-3-[/url][/b],
+[b][url=http://graphics.simutrans.com/albums/userpics/10001/vehicle-template.png]Road vehicle alignment[/url][/b],
+[b][url=http://graphics.simutrans.com/albums/userpics/10003/cd_test2.png]Tile with terrain shape[/url][/b],
+and the most important - [b][url=http://graphics.simutrans.com/albums/userpics/10003/build_base_uni.png]plain tile for 128[/url][/b]!
+
+For houses you will probably want to use the [b][url=http://graphics.simutrans.com/albums/userpics/10003/128-standard-tiles.png]standard pavements[/url][/b].
+
+Before painting anything, please take your time to understand how light and shadows work in Simutrans world: [b][url=http://graphics.simutrans.com/albums/userpics/10003/lighting.JPG]-1-[/url][/b], [b][url=http://graphics.simutrans.com/albums/userpics/10003/lighting_box.png]-2-[/url][/b].
+
+[b][url=http://graphics.simutrans.com/albums/userpics/10003/simucolors.png]Special colors[/url][/b] are your friends, too! You can achieve different special effects with them. They can be corrected later with special editor [b][url=http://vs.simutrans.com/tools_en.php]Shades[/url][/b].
+
+The preferred location may change in future, but this won't go away.
+
+
+-------------------------------------------------------------------------------
+
+
+This is something I found while looking for correct building height. Everything still counts, even if it was written far in the past.
+
+Please keep in mind: it was written from the perspective of trying to get your graphics included in the main set.
+
+
+
+[center][b]128x128 Image Painting How-to[/b][/center]
+
+This document is intended to help painters to get acquainted with some basic rules that need to be followed in order to make their images fit well to the Simutrans game as a whole. It should be compilation of all exiting documents posted so far.
+
+It has following sections:
+[list]
+[li]Basic rules and scales[/li]
+[li]Allowed properties of buildings[/li]
+[li]Coloring rules[/li]
+[li]Hints and tips[/li]
+[li]How to make .pak[/li]
+[li]References[/li]
+[li]Appendix[/li]
+[/list]
+
+
+[center][b]Basic rules and scales[/b][/center]
+
+Overall perspective of Simutrans is isometric, so lines parallel in real world remain parallel in Simutrans.
+
+In game sun shines from south (bottom left corner of screen) and it is 60° degrees above real ground in game. To better understand this, you can look at image:
+
+[url=http://graphics.simutrans.com/albums/userpics/10003/lighting.JPG][img]http://graphics.simutrans.com/albums/userpics/10003/lighting.JPG[/img][/url] [url=http://graphics.simutrans.com/albums/userpics/10003/lighting_box.png][img]http://graphics.simutrans.com/albums/userpics/10003/lighting_box.png[/img][/url] [url=http://graphics.simutrans.com/albums/userpics/10003/geometry.png][img width=600 height=384]http://graphics.simutrans.com/albums/userpics/10003/geometry.png[/img][/url]
+
+One square represents approximately 20x20 meters, and thus 12 pixels are about 2 meters. This scale applies to buildings, and other terrain objects.
+
+For buildings this means those pixel values:
+[list]
+[li]A story (floor) is about 14 pixels tall. 12 or 16 pixels may be ok for extremely small or large buildings. Avoid other heights, this looks [u]very[/u] strange when combined with the existing buildings. Believe me![/li]
+[li]Standard windows usually have a height of [s]8-10[/s] 8-6 pixels. (special sized windows of course keep appropriate sizes)[/li]
+[li]Don't use the whole square for your buildings. When a town is build from the buildings it looks better if there are small gaps between the buildings.
+(there can be exceptions from this rule, but be very careful. Rather consult it first.)[/li]
+[li]Proper shading is vital. Try to look on existing buildings. (there may be few errors though.)[/li]
+[/list]
+
+Vehicles have slightly different scaling. It is because of their importance for the player, they cannot be so tiny to fit the standard scale, they are bigger.
+
+The following is a base for trains:
+[url=http://graphics.simutrans.com/albums/userpics/10003/railtemplate.PNG][img width=600 height=66]http://graphics.simutrans.com/albums/userpics/10003/railtemplate.PNG[/img][/url]
+Vehicles can be longer, but twice as long as the base is about the maximum that can still be aesthetically pleasing in [i]most[/i] conditions. The base length works well in turns, while significantly longer vehicles will often look funny, with ends sticking out, far from track. Shorter vehicles are possible, too, and have almost no problems of this kind.
+
+[i]Note for addons and other sets:
+a) Everything concerning vehicle length applies always.
+b) Since monorail, maglev and narrow gauge vehicles are formally derived from regular trains, similar rules usually apply to them as well. However, in main pak128 mnorail is replaced by "schwebebahn", hanging from its track. This is a good example of using Simutrans game engine to its limits, but don't expect any other guidelines to make sense in so drastically different cases.[/i]
+
+To see allowed sizes and positioning of buses and trucks, look at file:
+[url=http://graphics.simutrans.com/albums/userpics/10001/vehicle-template.png][img width=600 height=133]http://graphics.simutrans.com/albums/userpics/10001/vehicle-template.png[/img][/url]
+Road vehicles should not exceed the red line, unless they are [u]very[/u] big, in fact too big to drive on regular roads and be part of Simutrans. One notable exceptions are truck trailers.
+
+When making a vehicle of different length (any type), use entry [b]length[/b] in dat files to make the game recognize the intended length. Default value, corresponding to the red outline in RV template and base for rail, is length=8.
+
+There is no special agreement on size of ships, but please make your own such, that it will fit to already existing ships. So small fishing boat surely should not fill whole square.
+
+Planes - pending replacement in indefinite future, no guidelines yet.
+
+Please use common sense when deciding on size, proportions etc. You can surely see yourself how your vehicle looks next to other vehicles from set - open depot, make a screenshot, paste to it your vehicle and drag around… Remember that the vehicles already included in set will not change, so it's up to you to make your new vehicle look similar.
+
+
+[center][b]Allowed Properties of Buildings[/b][/center]
+
+
+Simutrans gfx engine poses some restrictions on building sizes and properties:
+
+[list]
+[li]Buildings can be animated, have different graphic for winter (with snow) and have four different rotations. Also, they can have transparent ground and have Simutrans paint it with texture of the climate this building stands in - in desert, ground is sand, in temperate areas lush grass etc.[/li]
+[li]City buildings can be only 1x1 square large![/li]
+[li]City buildings need to be placed on standard city pavement manually.
+(industries use browner version)[/li]
+[li]Stations (the parts build on roads or tracks) must consist of single tiles, but offer a large number of complicated layouts depending on position of theeir items. [i](TODO: link something useful showing all possibilities)[/i][/li]
+[li]Industries are unlimited in size, but 10x10 industry is really too large. They can have base of any shape.
+If the whole building has even dimensions (AxA), it needs justone view.
+For uneven dimensions (like 2x3), it is necessary to provide arrangements for both possibilities (2x3, 3x2). 
+Finally, industries can have even irregular shapes; for those all four views are needed!
+Of course, full four views can be provided for any shape of industry.[/li]
+[li]Most buildings can be higher than one square - then frames are put on top of each other so the building using two frames can have 256 pixels from top to bottom. But don't use too high buildings, two squares are usually way enough.[/li]
+[li]When animating a building, please consider using FrontImage, which adds another layer above BackImage. Separating only the changing part of animated building (usually small) into front layer and leaving the big, static rest of building in BackImage can reduce size by 60% or even more for very long animations. This is a wonderful saving for both file size and memory needed when Simutrans runs![/li]
+[li]Here is a description of factory image:[/li]
+[/list]
+[code]BackImage[dir][x][y][z][time][snow]=unix_style_image_path(no .extension).row.column[/code]
+[url=http://graphics.simutrans.com/albums/userpics/10003/dirs.png][img]http://graphics.simutrans.com/albums/userpics/10003/dirs.png[/img][/url]
+
+
+[center][b]Coloring Rules[/b][/center]
+
+
+In 16bit ((5,5,5) + 1 special) Simutrans graphic engine you have relatively large freedom in coloring your images. But you should keep in mind these few facts:
+
+[list]
+[li]In most cases in real world, you will not find large areas of single color so try to use shading, texturing and adding noise for larger spaces like walls or so. It looks much better.[/li]
+[li]Except for some shiny enamel paints, most colors are not fully saturated, eg. 255 0 0 color can look ok on picture of new Porsche, but will be very strange on a roof, even if it is painted metal roof![/li]
+[li][u]there are reserved colors[/u] with special behaviors, use them where it is appropriate, avoid them on places where they are not wanted. Special colors are these (all are 8bit per channel precise!):
+[url=http://graphics.simutrans.com/albums/userpics/10003/simucolors.png][img width=272 height=600]http://graphics.simutrans.com/albums/userpics/10003/simucolors.png[/img][/url][/li]
+[li]The most important special color is:
+transparency key: R231 G255 B255 (cannot be seen in game)[/li]
+[/list]
+
+It is important to check your images for unwanted occurrence of those colors!!!! Recommended way of creating of image is to create it as it is, without keeping reserved colors in mind - then scan it for occurrence of these colors and eliminate them. AND THEN add them on places where they are wanted. Both steps are possible with [url=http://vs.simutrans.com/tools_en.php]Shades[/url] quite easily.
+
+
+
+[center][b]Hints and Tips[/b][/center]
+
+[list]
+[li]Again be careful with scaling, improperly scaled images are nice by themselves but cannot be put into the game; there can be no exceptions![/li]
+[li]Try to benefit from 16bit color engine - use variety of colors, use shading, use light noise, all that makes images more real. But be careful with that, too much is worse than too little.[/li]
+[li]Don't hesitate to use special colors on windows, on lights, on sidewalks under the lights, it looks neatly in the night.[/li]
+[/list]
+
+
+[center][b]How to make .pak file from image (example)[/b][/center]
+
+[list]
+[li]This section has been removed. Many superior examples can be found elsewhere.[/li]
+[li]Be careful, dat files vary quite bit between different building types, so if you want to crate for example city building, try to obtain some dat file of existing city building, so you will see what you need to put in. :)[/li]
+[li]As you can see, png files usually contain more images and have a structure of matrix (square width is 128x128) with more separate images. Then position of the image in this matrix is given by mentioned coordinates. You can also use separate files for each image, then coordinates are always .0.0[/li]
+[/list]
+
+
+
+
+[center][b]Advanced topics[/b][/center]
+
+[b]Bigger objects[/b]
+It is possible to mix pak sizes, usually the desired effect is to get bigger objects (planes, ships), when the regular 128 pixel tile does not offer enough space. This is achieved by creating and compiling the object in bigger size, such as 192, and using additional corrections to shift it visually into right place. (see the following part)
+
+Please remember: this is not a method for making objects such as trains look larger! It is intended for making objects, that must be made smaller, look better by letting them be bigger than the defaut, too small case. Examples include planes or ships, which can in normal pak size never look in scale with other kinds of objects.
+
+[b]Offsets[/b]
+Sometimes, positioning of object's graphic in tile is not optimal, but it cannot be shifted further - out of the tile in source picture. Offsets provide exactly this functionality: the graphic is painted a bit aside, and you can specify how much in which direction.
+
+
+
+[center][b]Appendix[/b][/center]
+
+
+This text had been written by:
+Tomas Kubes
+<email removed>
+05-Jan-2003
+
+updated:
+18-Feb-2003 - Minor language updates.
+01-Sep-2003 - Now Howto reflects all rules for images for 128x128 Simutrans.
+26-Nov-2008 - Reformatting for BBcode, a few minor updates for techincal matters, links and images, removed outdated parts (VS)

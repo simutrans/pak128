@@ -1,0 +1,67 @@
+For everyone with write svn access to 128, so far there are the following guidelines:
+
+
+File names:
+-----------
+
+Summary: lowercase, ascii
+Rationale: no problems with case-sensitive filesystems and OSes, same with codepage
+
+* absolutely no non-ascii characters (eg. ·Ë¯ˆ˘ﬂ) in file names whatsoever
+* no spaces, use _ instead
+* don't use . dot, makeobj does not like it in image names
+* no Big_Letters or CamelCase, especially for images, all lower_case (but dat files don't matter that much)
+* try to stay within lowercase alphanumeric and -_
+* all extensions (dat, png) lowercase
+
+
+
+Objects:
+--------
+
+Summary: make sure not to break compatibility, keep together what goes together and separate what is not related, mostly in neat little pieces, provide metadata
+Rationale: less annoyance, more productivity - find files by typing names & easy manipulation
+
+* no spaces in names - goes hand in hand with rules above
+* do not rename objects themselves, even if you change name of file they are in
+* dat and png files that go together are in the same directory/folder
+* if including something that was an addon before, make sure to add some prefix or postfix so that there can be no conflicts
+* "mass production" items like vehicles and city buildings should be in one dat and png file per object, with same name as object but lowercase
+* all images should have some sort of description - in image !!! - minimally object name and author's name, but feel free to write more, lots of space there...
+* if possible, try not to scatter images across more files, or gather in one file images of more objects
+
+
+
+Working with svn:
+-----------------
+
+Summary: know what you are doing, keep up to date when working, don't make life hard for others
+
+* make sure you know what you are committing
+* do not forget to add commit message describing what the change brings
+* before starting any endeavour, update your working copy - so that you don't work in already deprecated environment
+* do not be afraid to try things in your local copy - with svn you can quickly return to the "official" state
+* try to keep comits "on topic" - when the changes belong to different categories, split them into more commits so that keeping track of what changed is easier
+* if possible, optimize image file size when it changed anyway - with software such as pngcrush or optipng it is possible to reduce images typically by 15% and sometimes even 50% (but do keep them 24 bpp)
+* when adding archives, try to use the strongest format available - usually bz2; zip is weakest!
+
+
+
+All time tasks:
+---------------
+
+Summary: repair what is broken, increase information value
+
+* "cut the crap" - there are lots of useless automatic comments as a result of using STL in the past, and we don't need them
+* don't hesitate to add all kinds of informative comments of your choice wherever you feel they could help later someone else
+* line breaks are cheap, time is not; don't hesitate to make dat files more readable by eg. separating freightimage groups and such
+* removing bad light pixels is always good
+* in dat files try to keep type, name and author at the beginning
+
+
+
+Testing the pak:
+----------------
+
+Whatever you do, remember that ultimately the nightly server is our most important all-time "user". If something works for you, good, but if Werner says it is broken, it IS broken.
+

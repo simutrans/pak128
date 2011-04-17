@@ -1,0 +1,45 @@
+﻿Decision: upper speed limit for goods wagons is roughly:
+
+ max speed | bonus
+-----------+-----------
+ 120 kph   | zero
+ 180 kph   | normal
+ 200 kph   | very high
+
+
+
+[22:48] <VladimirSlavik> given the uncertain plans about 1870 as earliest starting year, I wouldn't limit the options too much
+[22:49] <VladimirSlavik> but some development might be nice
+[22:49] <VladimirSlavik> I'd say starting speed in 1970 could be 45
+[22:49] <_Zeno_> 1970??
+[22:49] <_Zeno_> you mean 1910?
+[22:49] <VladimirSlavik> er, 1870
+[22:50] <_Zeno_> mmm
+[22:50] <_Zeno_> let me see...
+[22:50] <VladimirSlavik> so the 1900s could reach 60
+[22:50] <VladimirSlavik> perhaps?
+[22:50] <_Zeno_> yes...
+[22:51] <VladimirSlavik> the point is that once you get to 100 km/h there is no need to go faster
+[22:51] <_Zeno_> yes
+[22:51] <VladimirSlavik> but on the other end, too slow is unaccceptable
+[22:52] <_Zeno_> we can keep 110 kmh as the fastest speed, the same that now
+[22:52] <VladimirSlavik> so... this leaves rather small speed window for improvement
+[22:52] <VladimirSlavik> that's reasonable
+[22:52] <_Zeno_> we'll improve capacity instead :)
+[22:52] <VladimirSlavik> in reality it depends on loaded/unloaded
+[22:53] <_Zeno_> but I can't code that... can I?
+[22:53] <VladimirSlavik> no
+[22:53] <_Zeno_> so 110 for both.
+[22:53] <VladimirSlavik> so 110 is a good compromise
+[22:53] <VladimirSlavik> heh :)
+[22:53] <VladimirSlavik> empty 120, full 100...
+[22:54] <_Zeno_> XD
+[22:54] <_Zeno_> IIRC fabio is planning his track renewal with a track for 120 kph
+[22:54] <_Zeno_> we could say 120kph as max for ALL non-bonus wagons
+[22:55] <_Zeno_> 180 for mid-bonus
+[22:55] <_Zeno_> and 200 for high bonus (goods, cooled)
+[22:55] <_Zeno_> as a "rule" for the pak
+[22:55] <VladimirSlavik> yes
+[22:55] <_Zeno_> should I write down?
+[22:56] <_Zeno_> pak128 vehicle specifications
+[22:56] <_Zeno_> sounds professional XD

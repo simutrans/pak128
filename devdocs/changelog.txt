@@ -1,0 +1,5 @@
+The full change log is represented by SVN logs.
+
+Player-visible comprehensive log is in pak128.prototype/changelog128.txt
+
+Detailed logs without the gritty details of svn bureaucracy are in (pak128 root)/history-pak128-svn.txt

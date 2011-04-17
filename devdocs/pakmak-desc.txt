@@ -1,0 +1,34 @@
+Pakmak is a python script.
+
+It recursively scans subdirectories, reads files pakmak.tab, and acts upon commands in them.
+
+The pakmak.tab files are composed from sections, a bit like INI files.
+
+Sections are made by putting in lines with all letters UPPERCASE. Only commands in known sections are saved and used.
+
+Comments are whole lines starting immediately with #.
+
+Currently used sections are:
+FOLDERS
+OPTIONS
+COMMANDS-BEFORE
+COMMANDS-MIDDLE
+COMMANDS-AFTER
+COMPILE
+
+Processing a folder/its pakmak.tab file goes so:
+	First are executed commands in section COMMANDS-BEFORE, as they are found on lines.
+	For every folder listed in section COMPILE,
+		it is entered,
+		all (eventual) .pak files innside deleted,
+		makeobj invoked with no specific parameters except pak size,
+		commands in section COMMANDS-MIDDLE executed,
+		if merge target is defined, pak files are merged,
+		result (all paks or the merged one) "lifted" into output folder,
+		if cleaning is on, pak files deleted.
+	Recursion into all folders listed in section FOLDERS
+	Commands in section COMMANDS-AFTER are executed.
+
+Commands are either built-in or external calls (designated by starting with @).
+
+Makeobj must be somewhere on path, callable simply as "makeobj".
