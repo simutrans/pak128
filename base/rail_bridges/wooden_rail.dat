@@ -1,0 +1,34 @@
+
+Obj=bridge
+name=Wooden_Rail
+waytype=track
+
+copyright=MiP
+
+topspeed=30
+cost=25000
+maintenance=180
+
+max_lenght=6
+
+cursor=wooden_rail.2.0
+icon=> wooden_rail.3.0
+
+BackImage[NS]=wooden_rail.0.5
+FrontImage[NS]=wooden_rail.1.5
+BackImage[EW]=wooden_rail.0.4
+FrontImage[EW]=wooden_rail.1.4
+BackStart[N]=wooden_rail.0.0
+FrontStart[N]=wooden_rail.1.0
+BackStart[S]=wooden_rail.0.2
+FrontStart[S]=wooden_rail.1.2
+BackStart[E]=wooden_rail.0.1
+FrontStart[E]=wooden_rail.1.1
+BackStart[W]=wooden_rail.0.3
+FrontStart[W]=wooden_rail.1.3
+BackRamp[N]=wooden_rail.2.1
+BackRamp[S]=wooden_rail.2.3
+BackRamp[E]=wooden_rail.2.4
+BackRamp[W]=wooden_rail.2.2
+
+# EOF

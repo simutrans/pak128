@@ -1,0 +1,214 @@
+#--------------------------------------------------------------------------------
+#                                                                              #
+#                                     Rail                                     #
+#                                                                              #
+#------------------------------------------------------------------------------#
+Obj=way
+Name=low_quality_track
+waytype=track
+cost=3000
+maintenance=80
+topspeed=65
+max_weight=70
+intro_year = 1810
+copyright=Nabe & Napik
+# skin
+cursor=way-rails_0-128.1.12
+icon=> way-rails_0-128.1.11
+# rbis * animation
+Image[-]=way-rails_0-128.0.2
+Image[N]=way-rails_0-128.1.8
+Image[S]=way-rails_0-128.1.6
+Image[E]=way-rails_0-128.1.7
+Image[W]=way-rails_0-128.1.9
+Image[NS]=way-rails_0-128.0.0
+Image[EW]=way-rails_0-128.0.1
+Image[NSE]=way-rails_0-128.1.3
+Image[NSW]=way-rails_0-128.1.1
+Image[NEW]=way-rails_0-128.1.2
+Image[SEW]=way-rails_0-128.1.4
+Image[NSEW]=way-rails_0-128.1.0
+Image[NE]=way-rails_0-128.0.4
+Image[SE]=way-rails_0-128.0.6
+Image[NW]=way-rails_0-128.0.5
+Image[SW]=way-rails_0-128.0.3
+Diagonal[NE]=way-rails_0-128.0.12
+Diagonal[SE]=way-rails_0-128.0.14
+Diagonal[NW]=way-rails_0-128.0.13
+Diagonal[SW]=way-rails_0-128.0.11
+# hangtyp * animation
+ImageUp[3]=way-rails_0-128.0.9
+ImageUp[6]=way-rails_0-128.0.10
+ImageUp[9]=way-rails_0-128.0.8
+ImageUp[12]=way-rails_0-128.0.7
+
+--------------------------------------------------------------------------------
+
+Obj=way
+Name=wooden_sleeper_track
+waytype=track
+cost=15000
+maintenance=400
+topspeed=110
+max_weight=110
+intro_year = 1870
+intro_month = 9
+copyright=Nabe & Napik
+# skin
+cursor=way-rails_1-128.1.12
+icon=> way-rails_1-128.1.11
+# rbis * animation
+Image[-]=way-rails_1-128.0.2
+Image[N]=way-rails_1-128.1.8
+Image[S]=way-rails_1-128.1.6
+Image[E]=way-rails_1-128.1.7
+Image[W]=way-rails_1-128.1.9
+Image[NS]=way-rails_1-128.0.0
+Image[EW]=way-rails_1-128.0.1
+Image[NSE]=way-rails_1-128.1.3
+Image[NSW]=way-rails_1-128.1.1
+Image[NEW]=way-rails_1-128.1.2
+Image[SEW]=way-rails_1-128.1.4
+Image[NSEW]=way-rails_1-128.1.0
+Image[NE]=way-rails_1-128.0.4
+Image[SE]=way-rails_1-128.0.6
+Image[NW]=way-rails_1-128.0.5
+Image[SW]=way-rails_1-128.0.3
+Diagonal[NE]=way-rails_1-128.0.12
+Diagonal[SE]=way-rails_1-128.0.14
+Diagonal[NW]=way-rails_1-128.0.13
+Diagonal[SW]=way-rails_1-128.0.11
+# hangtyp * animation
+ImageUp[3]=way-rails_1-128.0.9
+ImageUp[6]=way-rails_1-128.0.10
+ImageUp[9]=way-rails_1-128.0.8
+ImageUp[12]=way-rails_1-128.0.7
+
+--------------------------------------------------------------------------------
+
+Obj=way
+Name=concrete_sleeper_track
+waytype=track
+cost=30000
+maintenance=800
+topspeed=160
+max_weight=150
+intro_year = 1932
+intro_month = 2
+copyright=Nabe & Napik
+# skin
+cursor=way-rails_2-128.1.12
+icon=> way-rails_2-128.1.11
+# rbis * animation
+Image[-]=way-rails_2-128.0.2
+Image[N]=way-rails_2-128.1.8
+Image[S]=way-rails_2-128.1.6
+Image[E]=way-rails_2-128.1.7
+Image[W]=way-rails_2-128.1.9
+Image[NS]=way-rails_2-128.0.0
+Image[EW]=way-rails_2-128.0.1
+Image[NSE]=way-rails_2-128.1.3
+Image[NSW]=way-rails_2-128.1.1
+Image[NEW]=way-rails_2-128.1.2
+Image[SEW]=way-rails_2-128.1.4
+Image[NSEW]=way-rails_2-128.1.0
+Image[NE]=way-rails_2-128.0.4
+Image[SE]=way-rails_2-128.0.6
+Image[NW]=way-rails_2-128.0.5
+Image[SW]=way-rails_2-128.0.3
+Diagonal[NE]=way-rails_2-128.0.12
+Diagonal[SE]=way-rails_2-128.0.14
+Diagonal[NW]=way-rails_2-128.0.13
+Diagonal[SW]=way-rails_2-128.0.11
+# hangtyp * animation
+ImageUp[3]=way-rails_2-128.0.9
+ImageUp[6]=way-rails_2-128.0.10
+ImageUp[9]=way-rails_2-128.0.8
+ImageUp[12]=way-rails_2-128.0.7
+
+--------------------------------------------------------------------------------
+
+Obj=way
+Name=High_quality_track
+copyright=Raven
+waytype=track
+cost=60000
+maintenance=1600
+topspeed=280
+max_weight=125
+intro_year = 1965
+intro_month = 3
+# skin
+cursor=way-rails_3-128.1.12
+icon=> way-rails_3-128.1.11
+# rbis * animation
+Image[-]=way-rails_3-128.0.2
+Image[N]=way-rails_3-128.1.8
+Image[S]=way-rails_3-128.1.6
+Image[E]=way-rails_3-128.1.7
+Image[W]=way-rails_3-128.1.9
+Image[NS]=way-rails_3-128.0.0
+Image[EW]=way-rails_3-128.0.1
+Image[NSE]=way-rails_3-128.1.3
+Image[NSW]=way-rails_3-128.1.1
+Image[NEW]=way-rails_3-128.1.2
+Image[SEW]=way-rails_3-128.1.4
+Image[NSEW]=way-rails_3-128.1.0
+Image[NE]=way-rails_3-128.0.4
+Image[SE]=way-rails_3-128.0.6
+Image[NW]=way-rails_3-128.0.5
+Image[SW]=way-rails_3-128.0.3
+Diagonal[NE]=way-rails_3-128.0.12
+Diagonal[SE]=way-rails_3-128.0.14
+Diagonal[NW]=way-rails_3-128.0.13
+Diagonal[SW]=way-rails_3-128.0.11
+# hangtyp * animation
+ImageUp[3]=way-rails_3-128.0.9
+ImageUp[6]=way-rails_3-128.0.10
+ImageUp[9]=way-rails_3-128.0.8
+ImageUp[12]=way-rails_3-128.0.7
+
+--------------------------------------------------------------------------------
+
+Obj=way
+Name=steel_sleeper_track
+waytype=track
+copyright=Raven
+cost=120000
+maintenance=2100
+topspeed=400
+max_weight=90
+intro_year = 1978
+intro_month = 3
+# skin
+cursor=way-rails_4-128.1.12
+icon=> way-rails_4-128.1.11
+# rbis * animation
+Image[-]=way-rails_4-128.0.2
+Image[N]=way-rails_4-128.1.8
+Image[S]=way-rails_4-128.1.6
+Image[E]=way-rails_4-128.1.7
+Image[W]=way-rails_4-128.1.9
+Image[NS]=way-rails_4-128.0.0
+Image[EW]=way-rails_4-128.0.1
+Image[NSE]=way-rails_4-128.1.3
+Image[NSW]=way-rails_4-128.1.1
+Image[NEW]=way-rails_4-128.1.2
+Image[SEW]=way-rails_4-128.1.4
+Image[NSEW]=way-rails_4-128.1.0
+Image[NE]=way-rails_4-128.0.4
+Image[SE]=way-rails_4-128.0.6
+Image[NW]=way-rails_4-128.0.5
+Image[SW]=way-rails_4-128.0.3
+Diagonal[NE]=way-rails_4-128.0.12
+Diagonal[SE]=way-rails_4-128.0.14
+Diagonal[NW]=way-rails_4-128.0.13
+Diagonal[SW]=way-rails_4-128.0.11
+# hangtyp * animation
+ImageUp[3]=way-rails_4-128.0.9
+ImageUp[6]=way-rails_4-128.0.10
+ImageUp[9]=way-rails_4-128.0.8
+ImageUp[12]=way-rails_4-128.0.7
+
+-----------------------------
+#     EOF

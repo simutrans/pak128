@@ -1,0 +1,31 @@
+Obj=bridge
+name=RVg_Concrete_Rail_Bridge
+copyright=Raven
+waytype=track
+
+topspeed=110
+cost=90000
+maintenance=1200
+max_lenght=6
+
+cursor=rvg_concrete_rail_bridge.2.0
+icon=> rvg_concrete_rail_bridge.3.0
+
+BackImage[NS]=rvg_concrete_rail_bridge.0.4
+FrontImage[NS]=rvg_concrete_rail_bridge.1.4
+BackImage[EW]=rvg_concrete_rail_bridge.0.5
+FrontImage[EW]=rvg_concrete_rail_bridge.1.5
+BackStart[N]=rvg_concrete_rail_bridge.0.0
+FrontStart[N]=rvg_concrete_rail_bridge.1.0
+BackStart[S]=rvg_concrete_rail_bridge.0.2
+FrontStart[S]=rvg_concrete_rail_bridge.1.2
+BackStart[E]=rvg_concrete_rail_bridge.0.1
+FrontStart[E]=rvg_concrete_rail_bridge.1.1
+BackStart[W]=rvg_concrete_rail_bridge.0.3
+FrontStart[W]=rvg_concrete_rail_bridge.1.3
+BackRamp[N]=rvg_concrete_rail_bridge.2.1
+BackRamp[S]=rvg_concrete_rail_bridge.2.3
+BackRamp[E]=rvg_concrete_rail_bridge.2.4
+BackRamp[W]=rvg_concrete_rail_bridge.2.2
+
+# EOF
