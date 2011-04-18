@@ -1,0 +1,10 @@
+obj=building
+name=COM_06_56
+copyright=Frans van Nispen
+type=com
+level=56
+intro_year=1981
+retire_year=2047
+climates=desert,tropic,mediterran,temperate
+backimage[0][0][0][1][0]=com_06_56.1.0
+backimage[0][0][0][0][0]=com_06_56.2.0

@@ -1,0 +1,9 @@
+obj=building
+name=COM_01_18
+copyright=MHz
+type=com
+level=18
+intro_year=1678
+retire_year=1961
+climates=mediterran,temperate,tundra
+backimage[0][0][0][0][0]=com_01_18.1.0

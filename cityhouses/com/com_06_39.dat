@@ -1,0 +1,10 @@
+obj=building
+name=COM_06_39
+copyright=Patrick
+type=com
+level=39
+intro_year=1984
+retire_year=2024
+climates=tropic,mediterran,temperate,tundra,rocky
+backimage[0][0][0][1][0]=com_06_39.1.0
+backimage[0][0][0][0][0]=com_06_39.2.0

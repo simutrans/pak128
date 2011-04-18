@@ -1,0 +1,10 @@
+obj=building
+name=COM_06_60
+copyright=Patrick
+type=com
+level=60
+intro_year=1961
+retire_year=2053
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][0][0]=com_06_60.2.0
+backimage[0][0][0][1][0]=com_06_60.1.0

@@ -1,0 +1,9 @@
+obj=building
+name=COM_00_05
+copyright=MiP
+type=com
+level=5
+intro_year=1887
+retire_year=1958
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][0][0]=com_00_05.1.0

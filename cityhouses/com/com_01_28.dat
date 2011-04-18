@@ -1,0 +1,10 @@
+obj=building
+name=COM_01_28
+copyright=MHz
+type=com
+level=28
+intro_year=1911
+retire_year=1961
+climates=mediterran,temperate
+backimage[0][0][0][1][0]=com_01_28.1.0
+backimage[0][0][0][0][0]=com_01_28.2.0

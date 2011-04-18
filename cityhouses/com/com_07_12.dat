@@ -1,0 +1,10 @@
+obj=building
+name=COM_07_12
+copyright=MHz
+type=com
+level=12
+intro_year=2001
+retire_year=2999
+chance=100
+climates=desert,tropic,mediterran,temperate,tundra,rocky
+backimage[0][0][0][0][0]=com_07_12.1.0

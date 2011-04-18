@@ -1,0 +1,10 @@
+obj=building
+name=COM_06_57
+copyright=Frans van Nispen
+type=com
+level=57
+intro_year=1946
+retire_year=2044
+climates=tundra,rocky,arctic
+backimage[0][0][0][1][0]=com_06_57.1.0
+backimage[0][0][0][0][0]=com_06_57.2.0

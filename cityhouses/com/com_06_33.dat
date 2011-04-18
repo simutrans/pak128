@@ -1,0 +1,10 @@
+obj=building
+name=COM_06_33
+copyright=MHz
+type=com
+level=33
+intro_year=1924
+retire_year=1947
+climates=mediterran,temperate
+backimage[0][0][0][1][0]=com_06_33.1.0
+backimage[0][0][0][0][0]=com_06_33.2.0

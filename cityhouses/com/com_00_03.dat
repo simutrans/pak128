@@ -1,0 +1,9 @@
+obj=building
+name=COM_00_03
+copyright=Pawel & Napik
+type=com
+level=3
+intro_year=1929
+retire_year=2007
+climates=mediterran,temperate,tundra
+backimage[0][0][0][0][0]=com_00_03.1.0

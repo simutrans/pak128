@@ -1,0 +1,10 @@
+obj=building
+name=COM_11_57
+copyright=Raven
+type=com
+level=57
+intro_year=1928
+retire_year=2099
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][1][0]=com_11_57.1.0
+backimage[0][0][0][0][0]=com_11_57.2.0

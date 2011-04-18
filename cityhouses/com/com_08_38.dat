@@ -1,0 +1,10 @@
+obj=building
+name=COM_08_38
+copyright=MHz
+type=com
+level=38
+intro_year=1980
+retire_year=2999
+climates=mediterran,temperate,tundra,rocky
+backimage[0][0][0][1][0]=com_08_38.1.0
+backimage[0][0][0][0][0]=com_08_38.2.0

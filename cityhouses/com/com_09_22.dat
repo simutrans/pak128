@@ -1,0 +1,11 @@
+obj=building
+name=COM_09_22
+copyright=Gelion
+type=com
+level=22
+intro_year=1976
+retire_year=1998
+climates=mediterran,temperate,tundra
+needs_ground=1
+backimage[0][0][0][0][0][0]=com_09_22.1.0
+backimage[0][0][0][0][0][1]=com_09_22.1.1

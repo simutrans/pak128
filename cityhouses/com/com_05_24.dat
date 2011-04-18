@@ -1,0 +1,15 @@
+#BackImage[0][0][0][0][0]=../images/city-commercial-2-128.5.4
+obj=building
+name=COM_05_24
+copyright=MHz
+type=com
+level=24
+intro_year=1940
+retire_year=2126
+climates=tropic,mediterran,temperate,tundra,rocky
+backimage[0][0][0][0][5]=com_05_24.1.5
+backimage[0][0][0][0][4]=com_05_24.1.4
+backimage[0][0][0][0][3]=com_05_24.1.3
+backimage[0][0][0][0][2]=com_05_24.1.2
+backimage[0][0][0][0][1]=com_05_24.1.1
+backimage[0][0][0][0][0]=com_05_24.1.0

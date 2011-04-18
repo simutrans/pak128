@@ -1,0 +1,9 @@
+obj=building
+name=COM_00_11
+copyright=MHz
+type=com
+level=11
+intro_year=1937
+retire_year=2017
+climates=temperate,tundra,rocky
+backimage[0][0][0][0][0]=com_00_11.1.0

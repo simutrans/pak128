@@ -1,0 +1,10 @@
+obj=building
+name=COM_06_49
+copyright=Patrick
+type=com
+level=49
+intro_year=1951
+retire_year=2047
+climates=temperate
+backimage[0][0][0][1][0]=com_06_49.1.0
+backimage[0][0][0][0][0]=com_06_49.2.0

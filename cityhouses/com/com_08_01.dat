@@ -1,0 +1,9 @@
+obj=building
+name=COM_08_01
+copyright=MHz
+type=com
+level=1
+intro_year=1968
+retire_year=2999
+climates=tropic,mediterran,temperate
+backimage[0][0][0][0][0]=com_08_01.1.0

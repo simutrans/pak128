@@ -1,0 +1,9 @@
+obj=building
+name=COM_11_48
+copyright=Frans van Nispen
+type=com
+level=48
+intro_year=2065
+retire_year=2999
+backimage[0][0][0][1][0]=com_11_48.1.0
+backimage[0][0][0][0][0]=com_11_48.2.0

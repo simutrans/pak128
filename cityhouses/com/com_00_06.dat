@@ -1,0 +1,9 @@
+obj=building
+name=COM_00_06
+copyright=Pawel & Napik
+type=com
+level=6
+intro_year=1993
+retire_year=2039
+climates=desert,tropic,mediterran,temperate,tundra,rocky
+backimage[0][0][0][0][0]=com_00_06.1.0

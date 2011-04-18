@@ -1,0 +1,9 @@
+obj=building
+name=COM_05_20
+copyright=Peter J. Dobrovka
+type=com
+level=20
+intro_year=1955
+retire_year=2103
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][0][0]=com_05_20.1.0

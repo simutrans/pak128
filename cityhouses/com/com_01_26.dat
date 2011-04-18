@@ -1,0 +1,11 @@
+obj=building
+name=COM_01_26
+copyright=MHz
+type=com
+level=26
+intro_year=1492
+retire_year=1948
+chance=100
+climates=mediterran,temperate
+backimage[0][0][0][1][0]=com_01_26.1.0
+backimage[0][0][0][0][0]=com_01_26.2.0

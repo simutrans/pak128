@@ -1,0 +1,10 @@
+obj=building
+name=COM_06_32
+copyright=MHz
+type=com
+level=32
+intro_year=2021
+retire_year=2227
+climates=mediterran,temperate,tundra,rocky
+backimage[0][0][0][1][0]=com_06_32.1.0
+backimage[0][0][0][0][0]=com_06_32.2.0

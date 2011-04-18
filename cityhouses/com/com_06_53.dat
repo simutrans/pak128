@@ -1,0 +1,10 @@
+obj=building
+name=COM_06_53
+copyright=Raven
+type=com
+level=53
+intro_year=1930
+retire_year=2002
+climates=mediterran,temperate,tundra,rocky
+backimage[0][0][0][1][0]=com_06_53.1.0
+backimage[0][0][0][0][0]=com_06_53.2.0

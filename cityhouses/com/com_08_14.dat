@@ -1,0 +1,10 @@
+obj=building
+name=COM_08_14
+copyright=Propermike
+type=com
+level=14
+intro_year=1962
+retire_year=2187
+chance=100
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][0][0]=com_08_14.1.0

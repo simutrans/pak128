@@ -1,0 +1,9 @@
+obj=building
+name=COM_05_11
+copyright=MHz
+type=com
+level=11
+intro_year=1924
+retire_year=1992
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][0][0]=com_05_11.1.0

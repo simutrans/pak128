@@ -1,0 +1,9 @@
+obj=building
+name=COM_07_14
+copyright=MHz
+type=com
+level=14
+intro_year=1969
+retire_year=2020
+climates=desert,tropic,mediterran,rocky
+backimage[0][0][0][0][0]=com_07_14.1.0

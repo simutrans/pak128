@@ -1,0 +1,12 @@
+obj=building
+name=COM_01_60
+copyright=Joker
+type=com
+level=60
+intro_year=1995
+retire_year=2999
+chance=100
+climates=tropic, mediterran, temperate, tundra
+backimage[0][0][0][2][0]=com_01_60.1.0
+backimage[0][0][0][1][0]=com_01_60.2.0
+backimage[0][0][0][0][0]=com_01_60.3.0

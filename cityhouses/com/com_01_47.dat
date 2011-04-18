@@ -1,0 +1,12 @@
+obj=building
+name=COM_01_47
+copyright=Rmax500
+type=com
+level=47
+intro_year=1928
+retire_year=2000
+climates=climates=tropic,mediterran,temperate
+backimage[0][0][0][1][1]=com_01_47.1.0
+backimage[0][0][0][1][0]=com_01_47.1.1
+backimage[0][0][0][0][1]=com_01_47.2.0
+backimage[0][0][0][0][0]=com_01_47.2.1

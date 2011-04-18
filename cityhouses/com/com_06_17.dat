@@ -1,0 +1,9 @@
+obj=building
+name=COM_06_17
+copyright=Patrick
+type=com
+level=17
+intro_year=1950
+retire_year=2008
+climates=desert,tropic,rocky,arctic
+backimage[0][0][0][0][0]=com_06_17.1.0

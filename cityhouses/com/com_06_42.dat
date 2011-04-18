@@ -1,0 +1,10 @@
+obj=building
+name=COM_06_42
+copyright=Frans van Nispen
+type=com
+level=42
+intro_year=2028
+retire_year=2999
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][1][0]=com_06_42.1.0
+backimage[0][0][0][0][0]=com_06_42.2.0

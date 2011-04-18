@@ -1,0 +1,9 @@
+obj=building
+name=COM_10_04
+copyright=Pawel & Napik
+type=com
+level=4
+intro_year=1992
+retire_year=2999
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][0][0]=com_10_04.1.0

@@ -1,0 +1,10 @@
+obj=building
+name=COM_06_50
+copyright=Patrick
+type=com
+level=50
+intro_year=1930
+retire_year=2240
+climates=temperate,tundra,rocky
+backimage[0][0][0][1][0]=com_06_50.1.0
+backimage[0][0][0][0][0]=com_06_50.2.0

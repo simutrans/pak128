@@ -1,0 +1,9 @@
+obj=building
+name=COM_07_05
+copyright=MHz
+type=com
+level=5
+intro_year=2024
+retire_year=2999
+climates=desert,tropic,mediterran
+backimage[0][0][0][0][0]=com_07_05.1.0

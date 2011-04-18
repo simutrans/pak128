@@ -1,0 +1,9 @@
+obj=building
+name=COM_06_19
+copyright=MHz
+type=com
+level=19
+intro_year=1946
+retire_year=1987
+climates=temperate,tundra,rocky
+backimage[0][0][0][0][0]=com_06_19.1.0

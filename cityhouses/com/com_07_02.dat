@@ -1,0 +1,16 @@
+obj=building
+name=COM_07_02
+copyright=Jan Polacek
+type=com
+level=2
+intro_year=1987
+retire_year=2999
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][0][4]=com_07_02.1.4
+backimage[0][0][0][0][3]=com_07_02.1.3
+backimage[0][0][0][0][2]=com_07_02.1.2
+backimage[0][0][0][0][1]=com_07_02.1.1
+backimage[0][0][0][0][0]=com_07_02.1.0
+backimage[0][0][0][0][7]=com_07_02.1.7
+backimage[0][0][0][0][6]=com_07_02.1.6
+backimage[0][0][0][0][5]=com_07_02.1.5

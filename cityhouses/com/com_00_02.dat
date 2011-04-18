@@ -1,0 +1,9 @@
+obj=building
+name=COM_00_02
+copyright=MHz
+type=com
+level=2
+intro_year=1930
+retire_year=2063
+climates=tropic,mediterran,temperate,tundra,rocky
+backimage[0][0][0][0][0]=com_00_02.1.0

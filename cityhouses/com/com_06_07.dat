@@ -1,0 +1,9 @@
+obj=building
+name=COM_06_07
+copyright=Napik
+type=com
+level=7
+intro_year=1953
+retire_year=2999
+climates=mediterran,temperate,tundra,rocky
+backimage[0][0][0][0][0]=com_06_07.1.0

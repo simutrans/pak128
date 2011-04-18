@@ -1,0 +1,11 @@
+
+obj=building
+name=COM_11_50
+copyright=Frans van Nispen
+type=com
+level=50
+intro_year=2054
+retire_year=2999
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][1][0]=com_11_50.1.0
+backimage[0][0][0][0][0]=com_11_50.2.0

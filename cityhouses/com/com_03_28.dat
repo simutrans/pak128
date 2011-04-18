@@ -1,0 +1,11 @@
+obj=building
+name=COM_03_28
+copyright=MHz
+type=com
+level=28
+intro_year=2098
+retire_year=2999
+chance=100
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][1][0]=com_03_28.1.0
+backimage[0][0][0][0][0]=com_03_28.2.0

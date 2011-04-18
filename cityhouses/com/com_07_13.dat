@@ -1,0 +1,9 @@
+obj=building
+name=COM_07_13
+copyright=MHz
+type=com
+level=13
+intro_year=1960
+retire_year=2013
+climates=desert,tropic
+backimage[0][0][0][0][0]=com_07_13.1.0

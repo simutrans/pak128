@@ -1,0 +1,9 @@
+obj=building
+name=COM_00_04
+copyright=Patrick
+type=com
+level=4
+intro_year=1943
+retire_year=1977
+climates=tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][0][0]=com_00_04.1.0

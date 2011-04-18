@@ -1,0 +1,14 @@
+obj=building
+name=COM_11_15
+copyright=Gelion
+type=com
+level=15
+intro_year=1920
+retire_year=1970
+chance=100
+climates=temperate,tundra,mediterran
+dims=1,1
+needs_ground=1
+seasons=2
+backimage[0][0][0][0][0][1]=com_11_15.1.1
+backimage[0][0][0][0][0][0]=com_11_15.1.0

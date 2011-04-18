@@ -1,0 +1,9 @@
+obj=building
+name=COM_07_16
+copyright=Martin
+type=com
+level=16
+intro_year=1970
+retire_year=2999
+climates=desert,tropic,mediterran,temperate,tundra,rocky,arctic
+backimage[0][0][0][0][0]=com_07_16.1.0
