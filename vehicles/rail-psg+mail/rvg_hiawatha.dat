@@ -1,0 +1,41 @@
+#Hiawatha
+#(strong version)
+#
+#Hiawatha. 1942, fast b****h.. erm lady :D. this one is meant as a
+#fast commuter, so low gear and high speed 180 km/h would do fine, short
+#consists.
+#
+#Ywep, Hiawatha are the orange/brown ones, these go together with a
+#pair of steamers that i posted before, silver/brown/oragne, the bigger
+#one was developed after realizing the first version had too little
+#traktive effort, the second one is slower, but just  a bit.
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=RVg_Hiawatha
+copyright=Raven
+waytype=track
+engine_type=steam
+freight=Passagiere
+payload=0
+speed=151
+power=2105
+gear=140
+weight=104
+cost=31180000
+runningcost=842
+intro_year=1943
+intro_month=2
+retire_year=1973
+retire_month=2
+constraint[next][0]=RVg_Hiawatha_tender
+constraint[prev][0]=none
+smoke=Steam2
+sound=train-horn-steam-1.wav
+emptyimage[w]=rvg_hiawatha.1.0
+emptyimage[nw]=rvg_hiawatha.1.1
+emptyimage[n]=rvg_hiawatha.1.2
+emptyimage[ne]=rvg_hiawatha.1.3
+emptyimage[e]=rvg_hiawatha.1.4
+emptyimage[se]=rvg_hiawatha.1.5
+emptyimage[s]=rvg_hiawatha.1.6
+emptyimage[sw]=rvg_hiawatha.1.7

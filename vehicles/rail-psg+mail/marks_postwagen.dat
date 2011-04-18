@@ -1,0 +1,27 @@
+obj=vehicle
+name=Marks_Postwagen
+copyright=Mark Norman
+
+waytype=track
+engine_type=None
+
+freight=Post
+payload=80
+
+speed=230
+power=0
+weight=25
+
+cost=3819000
+runningcost=57
+
+intro_year=1991
+intro_month=7
+
+smoke=-1
+sound=-1
+
+emptyimage[w]=marks_postwagen.1.0
+emptyimage[se]=marks_postwagen.1.5
+emptyimage[s]=marks_postwagen.1.6
+emptyimage[sw]=marks_postwagen.1.7

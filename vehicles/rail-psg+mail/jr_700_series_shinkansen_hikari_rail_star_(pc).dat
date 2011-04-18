@@ -1,0 +1,49 @@
+#
+# JR 700 Series Shinkansen [JR West "Hikari Rail Star" (PLAYER COLOR)]
+# This trainset was made with realism in mind. It is therefor recommended to leave the following values unchanged:
+#
+# Speed
+# Introduction Dates
+# Passenger capacity
+# Weight
+# Constraint Settings
+# Number / Type of vehicles
+#
+obj=vehicle
+name=JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
+copyright=DirrrtyDirk
+
+waytype=track
+engine_type=electric
+
+freight=Passagiere
+payload=65
+
+speed=285
+power=0
+weight=39
+
+cost=5224000
+runningcost=61
+
+intro_year=2000
+intro_month=3
+retire_year=2028
+retire_month=7
+
+constraint[next][0]=JR_700_Shinkansen_HRS_(Pantograph_I)_PC
+constraint[prev][0]=JR_700_Shinkansen_HRS_(Tailcar)_PC
+constraint[prev][1]=none
+
+length=10
+smoke=-1
+sound=-1
+
+emptyimage[s]=jr_700_series_shinkansen_hikari_rail_star_(pc).1.6
+emptyimage[e]=jr_700_series_shinkansen_hikari_rail_star_(pc).1.4
+emptyimage[se]=jr_700_series_shinkansen_hikari_rail_star_(pc).1.5
+emptyimage[sw]=jr_700_series_shinkansen_hikari_rail_star_(pc).1.7
+emptyimage[n]=jr_700_series_shinkansen_hikari_rail_star_(pc).1.2
+emptyimage[w]=jr_700_series_shinkansen_hikari_rail_star_(pc).1.0
+emptyimage[nw]=jr_700_series_shinkansen_hikari_rail_star_(pc).1.1
+emptyimage[ne]=jr_700_series_shinkansen_hikari_rail_star_(pc).1.3

@@ -1,0 +1,26 @@
+#JNR 3rd Grade Coach OHA31
+#This coach is a steel coach which is the beginning in Japan. Full length is as
+#short as 17m. 500 or more cars were manufactured from 1927 to 1929.
+#
+obj=vehicle
+name=Passanger_waggon_0
+copyright=Nabe
+waytype=track
+engine_type=None
+freight=Passagiere
+payload=70
+speed=82
+power=0
+weight=23
+cost=983000
+runningcost=33
+intro_year=1918
+intro_month=11
+retire_year=1936
+retire_month=4
+smoke=-1
+sound=-1
+emptyimage[w]=passanger_waggon_0.1.0
+emptyimage[se]=passanger_waggon_0.1.5
+emptyimage[s]=passanger_waggon_0.1.6
+emptyimage[sw]=passanger_waggon_0.1.7
