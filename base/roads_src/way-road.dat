@@ -1,0 +1,1782 @@
+########################################
+## R O A D S   F O R   P A K   1 2 8  ##
+########################################
+## (C) FABIO GONELLA 2010             ##
+## Ver.  0.9 - 31/12/2010             ##
+########################################
+----------------------------------------
+## 30 KM/H DIRT ROAD
+## Speed : 30
+## Intro : 1
+## Retire: -
+## Road + Bridge
+#ROAD
+obj=way
+name=road_030
+waytype=road
+copyright=Fabio Gonella
+draw_as_ding=0
+cost=1500
+maintenance=130
+topspeed=30
+max_weight=40
+intro_year = 1
+intro_month = 1
+icon=> way-road-01.0.32
+cursor=way-road-01.1.32,0,-16
+#SUMMER
+Image[-][0]=way-road-01.2.35
+Image[N][0]=way-road-01.6.34
+Image[S][0]=way-road-01.6.32
+Image[E][0]=way-road-01.6.33
+Image[W][0]=way-road-01.6.35
+Image[NS][0]=way-road-01.2.32
+Image[EW][0]=way-road-01.2.33
+Image[NSE][0]=way-road-01.3.32
+Image[NSW][0]=way-road-01.3.33
+Image[NEW][0]=way-road-01.3.35
+Image[SEW][0]=way-road-01.3.34
+Image[NSEW][0]=way-road-01.2.35
+Image[NE][0]=way-road-01.4.32
+Image[SE][0]=way-road-01.4.34
+Image[NW][0]=way-road-01.4.35
+Image[SW][0]=way-road-01.4.33
+Diagonal[NE][0]=way-road-01.7.32
+Diagonal[SE][0]=way-road-01.7.34
+Diagonal[NW][0]=way-road-01.7.35
+Diagonal[SW][0]=way-road-01.7.33
+ImageUp[3][0]=way-road-01.5.34
+ImageUp[6][0]=way-road-01.5.35
+ImageUp[9][0]=way-road-01.5.33
+ImageUp[12][0]=way-road-01.5.32
+#WINTER
+Image[-][1]=way-road-02.2.35
+Image[N][1]=way-road-02.6.34
+Image[S][1]=way-road-02.6.32
+Image[E][1]=way-road-02.6.33
+Image[W][1]=way-road-02.6.35
+Image[NS][1]=way-road-02.2.32
+Image[EW][1]=way-road-02.2.33
+Image[NSE][1]=way-road-02.3.32
+Image[NSW][1]=way-road-02.3.33
+Image[NEW][1]=way-road-02.3.35
+Image[SEW][1]=way-road-02.3.34
+Image[NSEW][1]=way-road-02.2.35
+Image[NE][1]=way-road-02.4.32
+Image[SE][1]=way-road-02.4.34
+Image[NW][1]=way-road-02.4.35
+Image[SW][1]=way-road-02.4.33
+Diagonal[NE][1]=way-road-02.7.32
+Diagonal[SE][1]=way-road-02.7.34
+Diagonal[NW][1]=way-road-02.7.35
+Diagonal[SW][1]=way-road-02.7.33
+ImageUp[3][1]=way-road-02.5.34
+ImageUp[6][1]=way-road-02.5.35
+ImageUp[9][1]=way-road-02.5.33
+ImageUp[12][1]=way-road-02.5.32
+----------------------------------------
+#BRIDGE
+obj=bridge
+name=road_030_bridge
+waytype=road
+copyright=Fabio Gonella
+cost=43000
+maintenance=1800
+topspeed=30
+max_weight=40
+max_lenght=4
+intro_year = 1
+intro_month = 1
+icon=> way-road-01.0.34
+cursor=way-road-01.1.34,0,-16
+pillar_distance=1
+pillar_asymmetric=1
+#SUMMER
+BackImage[NS][0]=way-road-01.14.32,0,32
+FrontImage[NS][0]=way-road-01.15.32,0,32
+BackImage[EW][0]=way-road-01.14.33,0,32
+FrontImage[EW][0]=way-road-01.15.33,0,32
+BackRamp[N][0]=way-road-01.12.32,0,0
+FrontRamp[N][0]=way-road-01.13.32,0,0
+BackRamp[S][0]=way-road-01.12.34,0,0
+FrontRamp[S][0]=way-road-01.13.34,0,0
+BackRamp[E][0]=way-road-01.12.35,0,0
+FrontRamp[E][0]=way-road-01.13.35,0,0
+BackRamp[W][0]=way-road-01.12.33,0,0
+FrontRamp[W][0]=way-road-01.13.33,0,0
+BackStart[N][0]=way-road-01.10.32,0,32
+FrontStart[N][0]=way-road-01.11.32,0,32
+BackStart[S][0]=way-road-01.10.34,0,32
+FrontStart[S][0]=way-road-01.11.34,0,32
+BackStart[E][0]=way-road-01.10.35,0,32
+FrontStart[E][0]=way-road-01.11.35,0,32
+BackStart[W][0]=way-road-01.10.33,0,32
+FrontStart[W][0]=way-road-01.11.33,0,32
+backPillar[S][0]=way-road-01.14.34
+backPillar[W][0]=way-road-01.14.35
+#WINTER
+BackImage[NS][1]=way-road-02.14.32,0,32
+FrontImage[NS][1]=way-road-02.15.32,0,32
+BackImage[EW][1]=way-road-02.14.33,0,32
+FrontImage[EW][1]=way-road-02.15.33,0,32
+BackRamp[N][1]=way-road-02.12.32,0,0
+FrontRamp[N][1]=way-road-02.13.32,0,0
+BackRamp[S][1]=way-road-02.12.34,0,0
+FrontRamp[S][1]=way-road-02.13.34,0,0
+BackRamp[E][1]=way-road-02.12.35,0,0
+FrontRamp[E][1]=way-road-02.13.35,0,0
+BackRamp[W][1]=way-road-02.12.33,0,0
+FrontRamp[W][1]=way-road-02.13.33,0,0
+BackStart[N][1]=way-road-02.10.32,0,32
+FrontStart[N][1]=way-road-02.11.32,0,32
+BackStart[S][1]=way-road-02.10.34,0,32
+FrontStart[S][1]=way-road-02.11.34,0,32
+BackStart[E][1]=way-road-02.10.35,0,32
+FrontStart[E][1]=way-road-02.11.35,0,32
+BackStart[W][1]=way-road-02.10.33,0,32
+FrontStart[W][1]=way-road-02.11.33,0,32
+backPillar[S][1]=way-road-02.14.34
+backPillar[W][1]=way-road-02.14.35
+----------------------------------------
+
+
+
+## 55 KM/H GRAVEL ROAD
+## Speed : 55
+## Intro : 1
+## Retire: 1930
+## Road + Bridge
+
+#ROAD
+obj=way
+name=road_055
+waytype=road
+copyright=Fabio Gonella
+draw_as_ding=0
+cost=5500
+maintenance=460
+topspeed=55
+max_weight=70
+intro_year = 1
+intro_month = 1
+retire_year = 1930
+retire_month = 1
+icon=> way-road-01.0.28
+cursor=way-road-01.1.28,0,-16
+#SUMMER
+Image[-][0]=way-road-01.2.31
+Image[N][0]=way-road-01.6.30
+Image[S][0]=way-road-01.6.28
+Image[E][0]=way-road-01.6.29
+Image[W][0]=way-road-01.6.31
+Image[NS][0]=way-road-01.2.28
+Image[EW][0]=way-road-01.2.29
+Image[NSE][0]=way-road-01.3.28
+Image[NSW][0]=way-road-01.3.29
+Image[NEW][0]=way-road-01.3.31
+Image[SEW][0]=way-road-01.3.30
+Image[NSEW][0]=way-road-01.2.31
+Image[NE][0]=way-road-01.4.28
+Image[SE][0]=way-road-01.4.30
+Image[NW][0]=way-road-01.4.31
+Image[SW][0]=way-road-01.4.29
+Diagonal[NE][0]=way-road-01.7.28
+Diagonal[SE][0]=way-road-01.7.30
+Diagonal[NW][0]=way-road-01.7.31
+Diagonal[SW][0]=way-road-01.7.29
+ImageUp[3][0]=way-road-01.5.30
+ImageUp[6][0]=way-road-01.5.31
+ImageUp[9][0]=way-road-01.5.29
+ImageUp[12][0]=way-road-01.5.28
+#WINTER
+Image[-][1]=way-road-02.2.31
+Image[N][1]=way-road-02.6.30
+Image[S][1]=way-road-02.6.28
+Image[E][1]=way-road-02.6.29
+Image[W][1]=way-road-02.6.31
+Image[NS][1]=way-road-02.2.28
+Image[EW][1]=way-road-02.2.29
+Image[NSE][1]=way-road-02.3.28
+Image[NSW][1]=way-road-02.3.29
+Image[NEW][1]=way-road-02.3.31
+Image[SEW][1]=way-road-02.3.30
+Image[NSEW][1]=way-road-02.2.31
+Image[NE][1]=way-road-02.4.28
+Image[SE][1]=way-road-02.4.30
+Image[NW][1]=way-road-02.4.31
+Image[SW][1]=way-road-02.4.29
+Diagonal[NE][1]=way-road-02.7.28
+Diagonal[SE][1]=way-road-02.7.30
+Diagonal[NW][1]=way-road-02.7.31
+Diagonal[SW][1]=way-road-02.7.29
+ImageUp[3][1]=way-road-02.5.30
+ImageUp[6][1]=way-road-02.5.31
+ImageUp[9][1]=way-road-02.5.29
+ImageUp[12][1]=way-road-02.5.28
+----------------------------------------
+#BRIDGE
+obj=bridge
+name=road_055_bridge
+waytype=road
+copyright=Fabio Gonella
+cost=51000
+maintenance=1600
+topspeed=55
+max_weight=70
+max_lenght=6
+intro_year = 1
+intro_month = 1
+retire_year = 1930
+retire_month = 1
+icon=> way-road-01.0.30
+cursor=way-road-01.1.30,0,-16
+pillar_distance=1
+pillar_asymmetric=1
+#SUMMER
+BackImage[NS][0]=way-road-01.14.28,0,32
+FrontImage[NS][0]=way-road-01.15.28,0,32
+BackImage[EW][0]=way-road-01.14.29,0,32
+FrontImage[EW][0]=way-road-01.15.29,0,32
+BackRamp[N][0]=way-road-01.12.28,0,0
+FrontRamp[N][0]=way-road-01.13.28,0,0
+BackRamp[S][0]=way-road-01.12.30,0,0
+FrontRamp[S][0]=way-road-01.13.30,0,0
+BackRamp[E][0]=way-road-01.12.31,0,0
+FrontRamp[E][0]=way-road-01.13.31,0,0
+BackRamp[W][0]=way-road-01.12.29,0,0
+FrontRamp[W][0]=way-road-01.13.29,0,0
+BackStart[N][0]=way-road-01.10.28,0,32
+FrontStart[N][0]=way-road-01.11.28,0,32
+BackStart[S][0]=way-road-01.10.30,0,32
+FrontStart[S][0]=way-road-01.11.30,0,32
+BackStart[E][0]=way-road-01.10.31,0,32
+FrontStart[E][0]=way-road-01.11.31,0,32
+BackStart[W][0]=way-road-01.10.29,0,32
+FrontStart[W][0]=way-road-01.11.29,0,32
+backPillar[S][0]=way-road-01.14.30
+backPillar[W][0]=way-road-01.14.31
+#WINTER
+BackImage[NS][1]=way-road-02.14.28,0,32
+FrontImage[NS][1]=way-road-02.15.28,0,32
+BackImage[EW][1]=way-road-02.14.29,0,32
+FrontImage[EW][1]=way-road-02.15.29,0,32
+BackRamp[N][1]=way-road-02.12.28,0,0
+FrontRamp[N][1]=way-road-02.13.28,0,0
+BackRamp[S][1]=way-road-02.12.30,0,0
+FrontRamp[S][1]=way-road-02.13.30,0,0
+BackRamp[E][1]=way-road-02.12.31,0,0
+FrontRamp[E][1]=way-road-02.13.31,0,0
+BackRamp[W][1]=way-road-02.12.29,0,0
+FrontRamp[W][1]=way-road-02.13.29,0,0
+BackStart[N][1]=way-road-02.10.28,0,32
+FrontStart[N][1]=way-road-02.11.28,0,32
+BackStart[S][1]=way-road-02.10.30,0,32
+FrontStart[S][1]=way-road-02.11.30,0,32
+BackStart[E][1]=way-road-02.10.31,0,32
+FrontStart[E][1]=way-road-02.11.31,0,32
+BackStart[W][1]=way-road-02.10.29,0,32
+FrontStart[W][1]=way-road-02.11.29,0,32
+backPillar[S][1]=way-road-02.14.30
+backPillar[W][1]=way-road-02.14.31
+----------------------------------------
+
+
+
+## 40 KM/H STONE ROAD
+## Speed : 40
+## Intro : 1
+## Retire: 1930
+## Road + Bridge + Tunnel
+
+#ROAD
+obj=way
+name=road_040
+waytype=road
+copyright=Fabio Gonella
+draw_as_ding=0
+cost=8000
+maintenance=220
+topspeed=40
+max_weight=50
+intro_year = 1
+intro_month = 1
+retire_year = 1930
+retire_month = 1
+icon=> way-road-01.0.24
+cursor=way-road-01.1.24,0,-16
+#SUMMER
+Image[-][0]=way-road-01.2.27
+Image[N][0]=way-road-01.6.26
+Image[S][0]=way-road-01.6.24
+Image[E][0]=way-road-01.6.25
+Image[W][0]=way-road-01.6.27
+Image[NS][0]=way-road-01.2.24
+Image[EW][0]=way-road-01.2.25
+Image[NSE][0]=way-road-01.3.24
+Image[NSW][0]=way-road-01.3.25
+Image[NEW][0]=way-road-01.3.27
+Image[SEW][0]=way-road-01.3.26
+Image[NSEW][0]=way-road-01.2.27
+Image[NE][0]=way-road-01.4.24
+Image[SE][0]=way-road-01.4.26
+Image[NW][0]=way-road-01.4.27
+Image[SW][0]=way-road-01.4.25
+Diagonal[NE][0]=way-road-01.7.24
+Diagonal[SE][0]=way-road-01.7.26
+Diagonal[NW][0]=way-road-01.7.27
+Diagonal[SW][0]=way-road-01.7.25
+ImageUp[3][0]=way-road-01.5.26
+ImageUp[6][0]=way-road-01.5.27
+ImageUp[9][0]=way-road-01.5.25
+ImageUp[12][0]=way-road-01.5.24
+#WINTER
+Image[-][1]=way-road-02.2.27
+Image[N][1]=way-road-02.6.26
+Image[S][1]=way-road-02.6.24
+Image[E][1]=way-road-02.6.25
+Image[W][1]=way-road-02.6.27
+Image[NS][1]=way-road-02.2.24
+Image[EW][1]=way-road-02.2.25
+Image[NSE][1]=way-road-02.3.24
+Image[NSW][1]=way-road-02.3.25
+Image[NEW][1]=way-road-02.3.27
+Image[SEW][1]=way-road-02.3.26
+Image[NSEW][1]=way-road-02.2.27
+Image[NE][1]=way-road-02.4.24
+Image[SE][1]=way-road-02.4.26
+Image[NW][1]=way-road-02.4.27
+Image[SW][1]=way-road-02.4.25
+Diagonal[NE][1]=way-road-02.7.24
+Diagonal[SE][1]=way-road-02.7.26
+Diagonal[NW][1]=way-road-02.7.27
+Diagonal[SW][1]=way-road-02.7.25
+ImageUp[3][1]=way-road-02.5.26
+ImageUp[6][1]=way-road-02.5.27
+ImageUp[9][1]=way-road-02.5.25
+ImageUp[12][1]=way-road-02.5.24
+----------------------------------------
+#BRIDGE
+obj=bridge
+name=road_040_bridge
+waytype=road
+copyright=Fabio Gonella
+cost=56000
+maintenance=1300
+topspeed=40
+max_weight=50
+max_lenght=8
+intro_year = 1
+intro_month = 1
+retire_year = 1930
+retire_month = 1
+icon=> way-road-01.0.26
+cursor=way-road-01.1.26,0,-16
+pillar_distance=1
+pillar_asymmetric=1
+#SUMMER
+BackImage[NS][0]=way-road-01.14.24,0,32
+FrontImage[NS][0]=way-road-01.15.24,0,32
+BackImage[EW][0]=way-road-01.14.25,0,32
+FrontImage[EW][0]=way-road-01.15.25,0,32
+BackRamp[N][0]=way-road-01.12.24,0,0
+FrontRamp[N][0]=way-road-01.13.24,0,0
+BackRamp[S][0]=way-road-01.12.26,0,0
+FrontRamp[S][0]=way-road-01.13.26,0,0
+BackRamp[E][0]=way-road-01.12.27,0,0
+FrontRamp[E][0]=way-road-01.13.27,0,0
+BackRamp[W][0]=way-road-01.12.25,0,0
+FrontRamp[W][0]=way-road-01.13.25,0,0
+BackStart[N][0]=way-road-01.10.24,0,32
+FrontStart[N][0]=way-road-01.11.24,0,32
+BackStart[S][0]=way-road-01.10.26,0,32
+FrontStart[S][0]=way-road-01.11.26,0,32
+BackStart[E][0]=way-road-01.10.27,0,32
+FrontStart[E][0]=way-road-01.11.27,0,32
+BackStart[W][0]=way-road-01.10.25,0,32
+FrontStart[W][0]=way-road-01.11.25,0,32
+backPillar[S][0]=way-road-01.14.26
+backPillar[W][0]=way-road-01.14.27
+#WINTER
+BackImage[NS][1]=way-road-02.14.24,0,32
+FrontImage[NS][1]=way-road-02.15.24,0,32
+BackImage[EW][1]=way-road-02.14.25,0,32
+FrontImage[EW][1]=way-road-02.15.25,0,32
+BackRamp[N][1]=way-road-02.12.24,0,0
+FrontRamp[N][1]=way-road-02.13.24,0,0
+BackRamp[S][1]=way-road-02.12.26,0,0
+FrontRamp[S][1]=way-road-02.13.26,0,0
+BackRamp[E][1]=way-road-02.12.27,0,0
+FrontRamp[E][1]=way-road-02.13.27,0,0
+BackRamp[W][1]=way-road-02.12.25,0,0
+FrontRamp[W][1]=way-road-02.13.25,0,0
+BackStart[N][1]=way-road-02.10.24,0,32
+FrontStart[N][1]=way-road-02.11.24,0,32
+BackStart[S][1]=way-road-02.10.26,0,32
+FrontStart[S][1]=way-road-02.11.26,0,32
+BackStart[E][1]=way-road-02.10.27,0,32
+FrontStart[E][1]=way-road-02.11.27,0,32
+BackStart[W][1]=way-road-02.10.25,0,32
+FrontStart[W][1]=way-road-02.11.25,0,32
+backPillar[S][1]=way-road-02.14.26
+backPillar[W][1]=way-road-02.14.27
+----------------------------------------
+#TUNNEL
+obj=tunnel
+name=road_040_tunnel
+waytype=road
+copyright=Fabio Gonella
+cost=100000
+maintenance=2400
+topspeed=40
+max_weight=50
+intro_year = 1870
+intro_month = 1
+retire_year = 1930
+retire_month = 1
+icon=> way-road-01.0.25
+cursor=way-road-01.1.25,0,-16
+#SUMMER
+FrontImage[N][0]=way-road-01.9.24
+BackImage[N][0]=way-road-01.8.24
+FrontImage[S][0]=way-road-01.9.26
+BackImage[S][0]=way-road-01.8.26
+FrontImage[E][0]=way-road-01.9.27
+BackImage[E][0]=way-road-01.8.27
+FrontImage[W][0]=way-road-01.9.25
+BackImage[W][0]=way-road-01.8.25
+#WINTER
+FrontImage[N][1]=way-road-02.9.24
+BackImage[N][1]=way-road-02.8.24
+FrontImage[S][1]=way-road-02.9.26
+BackImage[S][1]=way-road-02.8.26
+FrontImage[E][1]=way-road-02.9.27
+BackImage[E][1]=way-road-02.8.27
+FrontImage[W][1]=way-road-02.9.25
+BackImage[W][1]=way-road-02.8.25
+----------------------------------------
+
+
+
+## 50 KM/H URBAN ROAD
+## Speed : 50
+## Intro : 1930
+## Retire: -
+## Road + Bridge + Elevated + Tunnel
+
+#ROAD
+obj=way
+name=road_050
+waytype=road
+copyright=Fabio Gonella
+draw_as_ding=0
+cost=10000
+maintenance=280
+topspeed=50
+max_weight=60
+intro_year = 1930
+intro_month = 1
+icon=> way-road-01.0.20
+cursor=way-road-01.1.20,0,-16
+#SUMMER
+Image[-][0]=way-road-01.2.23
+Image[N][0]=way-road-01.6.22
+Image[S][0]=way-road-01.6.20
+Image[E][0]=way-road-01.6.21
+Image[W][0]=way-road-01.6.23
+Image[NS][0]=way-road-01.2.20
+Image[EW][0]=way-road-01.2.21
+Image[NSE][0]=way-road-01.3.20
+Image[NSW][0]=way-road-01.3.21
+Image[NEW][0]=way-road-01.3.23
+Image[SEW][0]=way-road-01.3.22
+Image[NSEW][0]=way-road-01.2.23
+Image[NE][0]=way-road-01.4.20
+Image[SE][0]=way-road-01.4.22
+Image[NW][0]=way-road-01.4.23
+Image[SW][0]=way-road-01.4.21
+Diagonal[NE][0]=way-road-01.7.20
+Diagonal[SE][0]=way-road-01.7.22
+Diagonal[NW][0]=way-road-01.7.23
+Diagonal[SW][0]=way-road-01.7.21
+ImageUp[3][0]=way-road-01.5.22
+ImageUp[6][0]=way-road-01.5.23
+ImageUp[9][0]=way-road-01.5.21
+ImageUp[12][0]=way-road-01.5.20
+#WINTER
+Image[-][1]=way-road-02.2.23
+Image[N][1]=way-road-02.6.22
+Image[S][1]=way-road-02.6.20
+Image[E][1]=way-road-02.6.21
+Image[W][1]=way-road-02.6.23
+Image[NS][1]=way-road-02.2.20
+Image[EW][1]=way-road-02.2.21
+Image[NSE][1]=way-road-02.3.20
+Image[NSW][1]=way-road-02.3.21
+Image[NEW][1]=way-road-02.3.23
+Image[SEW][1]=way-road-02.3.22
+Image[NSEW][1]=way-road-02.2.23
+Image[NE][1]=way-road-02.4.20
+Image[SE][1]=way-road-02.4.22
+Image[NW][1]=way-road-02.4.23
+Image[SW][1]=way-road-02.4.21
+Diagonal[NE][1]=way-road-02.7.20
+Diagonal[SE][1]=way-road-02.7.22
+Diagonal[NW][1]=way-road-02.7.23
+Diagonal[SW][1]=way-road-02.7.21
+ImageUp[3][1]=way-road-02.5.22
+ImageUp[6][1]=way-road-02.5.23
+ImageUp[9][1]=way-road-02.5.21
+ImageUp[12][1]=way-road-02.5.20
+----------------------------------------
+#BRIDGE
+obj=bridge
+name=road_050_bridge
+waytype=road
+copyright=Fabio Gonella
+cost=60000
+maintenance=1100
+topspeed=50
+max_weight=60
+max_lenght=8
+intro_year = 1930
+intro_month = 1
+icon=> way-road-01.0.22
+cursor=way-road-01.1.22,0,-16
+pillar_distance=1
+pillar_asymmetric=1
+#SUMMER
+BackImage[NS][0]=way-road-01.14.20,0,32
+FrontImage[NS][0]=way-road-01.15.20,0,32
+BackImage[EW][0]=way-road-01.14.21,0,32
+FrontImage[EW][0]=way-road-01.15.21,0,32
+BackRamp[N][0]=way-road-01.12.20,0,0
+FrontRamp[N][0]=way-road-01.13.20,0,0
+BackRamp[S][0]=way-road-01.12.22,0,0
+FrontRamp[S][0]=way-road-01.13.22,0,0
+BackRamp[E][0]=way-road-01.12.23,0,0
+FrontRamp[E][0]=way-road-01.13.23,0,0
+BackRamp[W][0]=way-road-01.12.21,0,0
+FrontRamp[W][0]=way-road-01.13.21,0,0
+BackStart[N][0]=way-road-01.10.20,0,32
+FrontStart[N][0]=way-road-01.11.20,0,32
+BackStart[S][0]=way-road-01.10.22,0,32
+FrontStart[S][0]=way-road-01.11.22,0,32
+BackStart[E][0]=way-road-01.10.23,0,32
+FrontStart[E][0]=way-road-01.11.23,0,32
+BackStart[W][0]=way-road-01.10.21,0,32
+FrontStart[W][0]=way-road-01.11.21,0,32
+backPillar[S][0]=way-road-01.14.22
+backPillar[W][0]=way-road-01.14.23
+#WINTER
+BackImage[NS][1]=way-road-02.14.20,0,32
+FrontImage[NS][1]=way-road-02.15.20,0,32
+BackImage[EW][1]=way-road-02.14.21,0,32
+FrontImage[EW][1]=way-road-02.15.21,0,32
+BackRamp[N][1]=way-road-02.12.20,0,0
+FrontRamp[N][1]=way-road-02.13.20,0,0
+BackRamp[S][1]=way-road-02.12.22,0,0
+FrontRamp[S][1]=way-road-02.13.22,0,0
+BackRamp[E][1]=way-road-02.12.23,0,0
+FrontRamp[E][1]=way-road-02.13.23,0,0
+BackRamp[W][1]=way-road-02.12.21,0,0
+FrontRamp[W][1]=way-road-02.13.21,0,0
+BackStart[N][1]=way-road-02.10.20,0,32
+FrontStart[N][1]=way-road-02.11.20,0,32
+BackStart[S][1]=way-road-02.10.22,0,32
+FrontStart[S][1]=way-road-02.11.22,0,32
+BackStart[E][1]=way-road-02.10.23,0,32
+FrontStart[E][1]=way-road-02.11.23,0,32
+BackStart[W][1]=way-road-02.10.21,0,32
+FrontStart[W][1]=way-road-02.11.21,0,32
+backPillar[S][1]=way-road-02.14.22
+backPillar[W][1]=way-road-02.14.23
+----------------------------------------
+#ELEVATED
+obj=way
+name=road_050_elevated
+waytype=road
+copyright=Fabio Gonella
+system_type=1
+draw_as_ding=1
+cost=60000
+maintenance=1100
+topspeed=50
+max_weight=60
+intro_year = 1965
+intro_month = 1
+icon=> way-road-01.0.23
+cursor=way-road-01.1.23,0,-16
+#SUMMER
+Image[-][0]=way-road-01.16.23,0,32
+Image[N][0]=way-road-01.20.22,0,32
+Image[S][0]=way-road-01.20.20,0,32
+Image[E][0]=way-road-01.20.21,0,32
+Image[W][0]=way-road-01.20.23,0,32
+Image[NS][0]=way-road-01.16.20,0,32
+Image[EW][0]=way-road-01.16.21,0,32
+Image[NSE][0]=way-road-01.17.20,0,32
+Image[NSW][0]=way-road-01.17.21,0,32
+Image[NEW][0]=way-road-01.17.23,0,32
+Image[SEW][0]=way-road-01.17.22,0,32
+Image[NSEW][0]=way-road-01.16.23,0,32
+Image[NE][0]=way-road-01.18.20,0,32
+Image[SE][0]=way-road-01.18.22,0,32
+Image[NW][0]=way-road-01.18.23,0,32
+Image[SW][0]=way-road-01.18.21,0,32
+Diagonal[NE][0]=way-road-01.21.20,0,32
+Diagonal[SE][0]=way-road-01.21.22,0,32
+Diagonal[NW][0]=way-road-01.21.23,0,32
+Diagonal[SW][0]=way-road-01.21.21,0,32
+ImageUp[3][0]=way-road-01.19.22,0,32
+ImageUp[6][0]=way-road-01.19.23,0,32
+ImageUp[9][0]=way-road-01.19.21,0,32
+ImageUp[12][0]=way-road-01.19.20,0,32
+#WINTER
+Image[-][1]=way-road-02.16.23,0,32
+Image[N][1]=way-road-02.20.22,0,32
+Image[S][1]=way-road-02.20.20,0,32
+Image[E][1]=way-road-02.20.21,0,32
+Image[W][1]=way-road-02.20.23,0,32
+Image[NS][1]=way-road-02.16.20,0,32
+Image[EW][1]=way-road-02.16.21,0,32
+Image[NSE][1]=way-road-02.17.20,0,32
+Image[NSW][1]=way-road-02.17.21,0,32
+Image[NEW][1]=way-road-02.17.23,0,32
+Image[SEW][1]=way-road-02.17.22,0,32
+Image[NSEW][1]=way-road-02.16.23,0,32
+Image[NE][1]=way-road-02.18.20,0,32
+Image[SE][1]=way-road-02.18.22,0,32
+Image[NW][1]=way-road-02.18.23,0,32
+Image[SW][1]=way-road-02.18.21,0,32
+Diagonal[NE][1]=way-road-02.21.20,0,32
+Diagonal[SE][1]=way-road-02.21.22,0,32
+Diagonal[NW][1]=way-road-02.21.23,0,32
+Diagonal[SW][1]=way-road-02.21.21,0,32
+ImageUp[3][1]=way-road-02.19.22,0,32
+ImageUp[6][1]=way-road-02.19.23,0,32
+ImageUp[9][1]=way-road-02.19.21,0,32
+ImageUp[12][1]=way-road-02.19.20,0,32
+----------------------------------------
+#TUNNEL
+obj=tunnel
+name=road_050_tunnel
+waytype=road
+copyright=Fabio Gonella
+cost=110000
+maintenance=1900
+topspeed=50
+max_weight=60
+intro_year = 1930
+intro_month = 1
+icon=> way-road-01.0.21
+cursor=way-road-01.1.21,0,-16
+#SUMMER
+FrontImage[N][0]=way-road-01.9.20
+BackImage[N][0]=way-road-01.8.20
+FrontImage[S][0]=way-road-01.9.22
+BackImage[S][0]=way-road-01.8.22
+FrontImage[E][0]=way-road-01.9.23
+BackImage[E][0]=way-road-01.8.23
+FrontImage[W][0]=way-road-01.9.21
+BackImage[W][0]=way-road-01.8.21
+#WINTER
+FrontImage[N][1]=way-road-02.9.20
+BackImage[N][1]=way-road-02.8.20
+FrontImage[S][1]=way-road-02.9.22
+BackImage[S][1]=way-road-02.8.22
+FrontImage[E][1]=way-road-02.9.23
+BackImage[E][1]=way-road-02.8.23
+FrontImage[W][1]=way-road-02.9.21
+BackImage[W][1]=way-road-02.8.21
+----------------------------------------
+
+
+
+## 70 KM/H INTERCITY ROAD
+## Speed : 70
+## Intro : 1900
+## Retire: 1965
+## Road + Bridge + Tunnel
+
+#ROAD
+obj=way
+name=road_070
+waytype=road
+copyright=Fabio Gonella
+draw_as_ding=0
+cost=14000
+maintenance=390
+topspeed=70
+max_weight=80
+intro_year = 1900
+intro_month = 1
+retire_year = 1965
+retire_month = 1
+icon=> way-road-01.0.16
+cursor=way-road-01.1.16,0,-16
+#SUMMER
+Image[-][0]=way-road-01.2.19
+Image[N][0]=way-road-01.6.18
+Image[S][0]=way-road-01.6.16
+Image[E][0]=way-road-01.6.17
+Image[W][0]=way-road-01.6.19
+Image[NS][0]=way-road-01.2.16
+Image[EW][0]=way-road-01.2.17
+Image[NSE][0]=way-road-01.3.16
+Image[NSW][0]=way-road-01.3.17
+Image[NEW][0]=way-road-01.3.19
+Image[SEW][0]=way-road-01.3.18
+Image[NSEW][0]=way-road-01.2.19
+Image[NE][0]=way-road-01.4.16
+Image[SE][0]=way-road-01.4.18
+Image[NW][0]=way-road-01.4.19
+Image[SW][0]=way-road-01.4.17
+Diagonal[NE][0]=way-road-01.7.16
+Diagonal[SE][0]=way-road-01.7.18
+Diagonal[NW][0]=way-road-01.7.19
+Diagonal[SW][0]=way-road-01.7.17
+ImageUp[3][0]=way-road-01.5.18
+ImageUp[6][0]=way-road-01.5.19
+ImageUp[9][0]=way-road-01.5.17
+ImageUp[12][0]=way-road-01.5.16
+#WINTER
+Image[-][1]=way-road-02.2.19
+Image[N][1]=way-road-02.6.18
+Image[S][1]=way-road-02.6.16
+Image[E][1]=way-road-02.6.17
+Image[W][1]=way-road-02.6.19
+Image[NS][1]=way-road-02.2.16
+Image[EW][1]=way-road-02.2.17
+Image[NSE][1]=way-road-02.3.16
+Image[NSW][1]=way-road-02.3.17
+Image[NEW][1]=way-road-02.3.19
+Image[SEW][1]=way-road-02.3.18
+Image[NSEW][1]=way-road-02.2.19
+Image[NE][1]=way-road-02.4.16
+Image[SE][1]=way-road-02.4.18
+Image[NW][1]=way-road-02.4.19
+Image[SW][1]=way-road-02.4.17
+Diagonal[NE][1]=way-road-02.7.16
+Diagonal[SE][1]=way-road-02.7.18
+Diagonal[NW][1]=way-road-02.7.19
+Diagonal[SW][1]=way-road-02.7.17
+ImageUp[3][1]=way-road-02.5.18
+ImageUp[6][1]=way-road-02.5.19
+ImageUp[9][1]=way-road-02.5.17
+ImageUp[12][1]=way-road-02.5.16
+----------------------------------------
+#BRIDGE
+obj=bridge
+name=road_070_bridge
+waytype=road
+copyright=Fabio Gonella
+cost=68000
+maintenance=1200
+topspeed=70
+max_weight=80
+max_lenght=10
+intro_year = 1900
+intro_month = 1
+retire_year = 1965
+retire_month = 1
+icon=> way-road-01.0.18
+cursor=way-road-01.1.18,0,-16
+pillar_distance=1
+pillar_asymmetric=1
+#SUMMER
+BackImage[NS][0]=way-road-01.14.16,0,32
+FrontImage[NS][0]=way-road-01.15.16,0,32
+BackImage[EW][0]=way-road-01.14.17,0,32
+FrontImage[EW][0]=way-road-01.15.17,0,32
+BackRamp[N][0]=way-road-01.12.16,0,0
+FrontRamp[N][0]=way-road-01.13.16,0,0
+BackRamp[S][0]=way-road-01.12.18,0,0
+FrontRamp[S][0]=way-road-01.13.18,0,0
+BackRamp[E][0]=way-road-01.12.19,0,0
+FrontRamp[E][0]=way-road-01.13.19,0,0
+BackRamp[W][0]=way-road-01.12.17,0,0
+FrontRamp[W][0]=way-road-01.13.17,0,0
+BackStart[N][0]=way-road-01.10.16,0,32
+FrontStart[N][0]=way-road-01.11.16,0,32
+BackStart[S][0]=way-road-01.10.18,0,32
+FrontStart[S][0]=way-road-01.11.18,0,32
+BackStart[E][0]=way-road-01.10.19,0,32
+FrontStart[E][0]=way-road-01.11.19,0,32
+BackStart[W][0]=way-road-01.10.17,0,32
+FrontStart[W][0]=way-road-01.11.17,0,32
+backPillar[S][0]=way-road-01.14.18
+backPillar[W][0]=way-road-01.14.19
+#WINTER
+BackImage[NS][1]=way-road-02.14.16,0,32
+FrontImage[NS][1]=way-road-02.15.16,0,32
+BackImage[EW][1]=way-road-02.14.17,0,32
+FrontImage[EW][1]=way-road-02.15.17,0,32
+BackRamp[N][1]=way-road-02.12.16,0,0
+FrontRamp[N][1]=way-road-02.13.16,0,0
+BackRamp[S][1]=way-road-02.12.18,0,0
+FrontRamp[S][1]=way-road-02.13.18,0,0
+BackRamp[E][1]=way-road-02.12.19,0,0
+FrontRamp[E][1]=way-road-02.13.19,0,0
+BackRamp[W][1]=way-road-02.12.17,0,0
+FrontRamp[W][1]=way-road-02.13.17,0,0
+BackStart[N][1]=way-road-02.10.16,0,32
+FrontStart[N][1]=way-road-02.11.16,0,32
+BackStart[S][1]=way-road-02.10.18,0,32
+FrontStart[S][1]=way-road-02.11.18,0,32
+BackStart[E][1]=way-road-02.10.19,0,32
+FrontStart[E][1]=way-road-02.11.19,0,32
+BackStart[W][1]=way-road-02.10.17,0,32
+FrontStart[W][1]=way-road-02.11.17,0,32
+backPillar[S][1]=way-road-02.14.18
+backPillar[W][1]=way-road-02.14.19
+----------------------------------------
+#TUNNEL
+obj=tunnel
+name=road_070_tunnel
+waytype=road
+copyright=Fabio Gonella
+cost=120000
+maintenance=2100
+topspeed=70
+max_weight=80
+intro_year = 1900
+intro_month = 1
+retire_year = 1965
+retire_month = 1
+icon=> way-road-01.0.17
+cursor=way-road-01.1.17,0,-16
+#SUMMER
+FrontImage[N][0]=way-road-01.9.16
+BackImage[N][0]=way-road-01.8.16
+FrontImage[S][0]=way-road-01.9.18
+BackImage[S][0]=way-road-01.8.18
+FrontImage[E][0]=way-road-01.9.19
+BackImage[E][0]=way-road-01.8.19
+FrontImage[W][0]=way-road-01.9.17
+BackImage[W][0]=way-road-01.8.17
+#WINTER
+FrontImage[N][1]=way-road-02.9.16
+BackImage[N][1]=way-road-02.8.16
+FrontImage[S][1]=way-road-02.9.18
+BackImage[S][1]=way-road-02.8.18
+FrontImage[E][1]=way-road-02.9.19
+BackImage[E][1]=way-road-02.8.19
+FrontImage[W][1]=way-road-02.9.17
+BackImage[W][1]=way-road-02.8.17
+----------------------------------------
+
+
+
+## 90 KM/H INTERCITY ROAD
+## Speed : 90
+## Intro : 1945
+## Retire: -
+## Road + Bridge + Elevated + Tunnel
+
+#ROAD
+obj=way
+name=road_090
+waytype=road
+copyright=Fabio Gonella
+draw_as_ding=0
+cost=27000
+maintenance=750
+topspeed=90
+max_weight=80
+intro_year = 1945
+intro_month = 1
+icon=> way-road-01.0.12
+cursor=way-road-01.1.12,0,-16
+#SUMMER
+Image[-][0]=way-road-01.2.15
+Image[N][0]=way-road-01.6.14
+Image[S][0]=way-road-01.6.12
+Image[E][0]=way-road-01.6.13
+Image[W][0]=way-road-01.6.15
+Image[NS][0]=way-road-01.2.12
+Image[EW][0]=way-road-01.2.13
+Image[NSE][0]=way-road-01.3.12
+Image[NSW][0]=way-road-01.3.13
+Image[NEW][0]=way-road-01.3.15
+Image[SEW][0]=way-road-01.3.14
+Image[NSEW][0]=way-road-01.2.15
+Image[NE][0]=way-road-01.4.12
+Image[SE][0]=way-road-01.4.14
+Image[NW][0]=way-road-01.4.15
+Image[SW][0]=way-road-01.4.13
+Diagonal[NE][0]=way-road-01.7.12
+Diagonal[SE][0]=way-road-01.7.14
+Diagonal[NW][0]=way-road-01.7.15
+Diagonal[SW][0]=way-road-01.7.13
+ImageUp[3][0]=way-road-01.5.14
+ImageUp[6][0]=way-road-01.5.15
+ImageUp[9][0]=way-road-01.5.13
+ImageUp[12][0]=way-road-01.5.12
+#WINTER
+Image[-][1]=way-road-02.2.15
+Image[N][1]=way-road-02.6.14
+Image[S][1]=way-road-02.6.12
+Image[E][1]=way-road-02.6.13
+Image[W][1]=way-road-02.6.15
+Image[NS][1]=way-road-02.2.12
+Image[EW][1]=way-road-02.2.13
+Image[NSE][1]=way-road-02.3.12
+Image[NSW][1]=way-road-02.3.13
+Image[NEW][1]=way-road-02.3.15
+Image[SEW][1]=way-road-02.3.14
+Image[NSEW][1]=way-road-02.2.15
+Image[NE][1]=way-road-02.4.12
+Image[SE][1]=way-road-02.4.14
+Image[NW][1]=way-road-02.4.15
+Image[SW][1]=way-road-02.4.13
+Diagonal[NE][1]=way-road-02.7.12
+Diagonal[SE][1]=way-road-02.7.14
+Diagonal[NW][1]=way-road-02.7.15
+Diagonal[SW][1]=way-road-02.7.13
+ImageUp[3][1]=way-road-02.5.14
+ImageUp[6][1]=way-road-02.5.15
+ImageUp[9][1]=way-road-02.5.13
+ImageUp[12][1]=way-road-02.5.12
+----------------------------------------
+#BRIDGE
+obj=bridge
+name=road_090_bridge
+waytype=road
+copyright=Fabio Gonella
+cost=94000
+maintenance=1600
+topspeed=90
+max_weight=80
+max_lenght=16
+intro_year = 1945
+intro_month = 1
+icon=> way-road-01.0.14
+cursor=way-road-01.1.14,0,-16
+pillar_distance=2
+pillar_asymmetric=1
+#SUMMER
+BackImage[NS][0]=way-road-01.14.12,0,32
+FrontImage[NS][0]=way-road-01.15.12,0,32
+BackImage[EW][0]=way-road-01.14.13,0,32
+FrontImage[EW][0]=way-road-01.15.13,0,32
+BackRamp[N][0]=way-road-01.12.12,0,0
+FrontRamp[N][0]=way-road-01.13.12,0,0
+BackRamp[S][0]=way-road-01.12.14,0,0
+FrontRamp[S][0]=way-road-01.13.14,0,0
+BackRamp[E][0]=way-road-01.12.15,0,0
+FrontRamp[E][0]=way-road-01.13.15,0,0
+BackRamp[W][0]=way-road-01.12.13,0,0
+FrontRamp[W][0]=way-road-01.13.13,0,0
+BackStart[N][0]=way-road-01.10.12,0,32
+FrontStart[N][0]=way-road-01.11.12,0,32
+BackStart[S][0]=way-road-01.10.14,0,32
+FrontStart[S][0]=way-road-01.11.14,0,32
+BackStart[E][0]=way-road-01.10.15,0,32
+FrontStart[E][0]=way-road-01.11.15,0,32
+BackStart[W][0]=way-road-01.10.13,0,32
+FrontStart[W][0]=way-road-01.11.13,0,32
+backPillar[S][0]=way-road-01.14.14
+backPillar[W][0]=way-road-01.14.15
+#WINTER
+BackImage[NS][1]=way-road-02.14.12,0,32
+FrontImage[NS][1]=way-road-02.15.12,0,32
+BackImage[EW][1]=way-road-02.14.13,0,32
+FrontImage[EW][1]=way-road-02.15.13,0,32
+BackRamp[N][1]=way-road-02.12.12,0,0
+FrontRamp[N][1]=way-road-02.13.12,0,0
+BackRamp[S][1]=way-road-02.12.14,0,0
+FrontRamp[S][1]=way-road-02.13.14,0,0
+BackRamp[E][1]=way-road-02.12.15,0,0
+FrontRamp[E][1]=way-road-02.13.15,0,0
+BackRamp[W][1]=way-road-02.12.13,0,0
+FrontRamp[W][1]=way-road-02.13.13,0,0
+BackStart[N][1]=way-road-02.10.12,0,32
+FrontStart[N][1]=way-road-02.11.12,0,32
+BackStart[S][1]=way-road-02.10.14,0,32
+FrontStart[S][1]=way-road-02.11.14,0,32
+BackStart[E][1]=way-road-02.10.15,0,32
+FrontStart[E][1]=way-road-02.11.15,0,32
+BackStart[W][1]=way-road-02.10.13,0,32
+FrontStart[W][1]=way-road-02.11.13,0,32
+backPillar[S][1]=way-road-02.14.14
+backPillar[W][1]=way-road-02.14.15
+----------------------------------------
+#ELEVATED
+obj=way
+name=road_090_elevated
+waytype=road
+copyright=Fabio Gonella
+system_type=1
+draw_as_ding=1
+cost=94000
+maintenance=1600
+topspeed=90
+max_weight=80
+intro_year = 1965
+intro_month = 1
+icon=> way-road-01.0.15
+cursor=way-road-01.1.15,0,-16
+#SUMMER
+Image[-][0]=way-road-01.16.15,0,32
+Image[N][0]=way-road-01.20.14,0,32
+Image[S][0]=way-road-01.20.12,0,32
+Image[E][0]=way-road-01.20.13,0,32
+Image[W][0]=way-road-01.20.15,0,32
+Image[NS][0]=way-road-01.16.12,0,32
+Image[EW][0]=way-road-01.16.13,0,32
+Image[NSE][0]=way-road-01.17.12,0,32
+Image[NSW][0]=way-road-01.17.13,0,32
+Image[NEW][0]=way-road-01.17.15,0,32
+Image[SEW][0]=way-road-01.17.14,0,32
+Image[NSEW][0]=way-road-01.16.15,0,32
+Image[NE][0]=way-road-01.18.12,0,32
+Image[SE][0]=way-road-01.18.14,0,32
+Image[NW][0]=way-road-01.18.15,0,32
+Image[SW][0]=way-road-01.18.13,0,32
+Diagonal[NE][0]=way-road-01.21.12,0,32
+Diagonal[SE][0]=way-road-01.21.14,0,32
+Diagonal[NW][0]=way-road-01.21.15,0,32
+Diagonal[SW][0]=way-road-01.21.13,0,32
+ImageUp[3][0]=way-road-01.19.14,0,32
+ImageUp[6][0]=way-road-01.19.15,0,32
+ImageUp[9][0]=way-road-01.19.13,0,32
+ImageUp[12][0]=way-road-01.19.12,0,32
+#WINTER
+Image[-][1]=way-road-02.16.15,0,32
+Image[N][1]=way-road-02.20.14,0,32
+Image[S][1]=way-road-02.20.12,0,32
+Image[E][1]=way-road-02.20.13,0,32
+Image[W][1]=way-road-02.20.15,0,32
+Image[NS][1]=way-road-02.16.12,0,32
+Image[EW][1]=way-road-02.16.13,0,32
+Image[NSE][1]=way-road-02.17.12,0,32
+Image[NSW][1]=way-road-02.17.13,0,32
+Image[NEW][1]=way-road-02.17.15,0,32
+Image[SEW][1]=way-road-02.17.14,0,32
+Image[NSEW][1]=way-road-02.16.15,0,32
+Image[NE][1]=way-road-02.18.12,0,32
+Image[SE][1]=way-road-02.18.14,0,32
+Image[NW][1]=way-road-02.18.15,0,32
+Image[SW][1]=way-road-02.18.13,0,32
+Diagonal[NE][1]=way-road-02.21.12,0,32
+Diagonal[SE][1]=way-road-02.21.14,0,32
+Diagonal[NW][1]=way-road-02.21.15,0,32
+Diagonal[SW][1]=way-road-02.21.13,0,32
+ImageUp[3][1]=way-road-02.19.14,0,32
+ImageUp[6][1]=way-road-02.19.15,0,32
+ImageUp[9][1]=way-road-02.19.13,0,32
+ImageUp[12][1]=way-road-02.19.12,0,32
+----------------------------------------
+#TUNNEL
+obj=tunnel
+name=road_090_tunnel
+waytype=road
+copyright=Fabio Gonella
+cost=160000
+maintenance=2400
+topspeed=90
+max_weight=80
+intro_year = 1945
+intro_month = 1
+icon=> way-road-01.0.13
+cursor=way-road-01.1.13,0,-16
+#SUMMER
+FrontImage[N][0]=way-road-01.9.12
+BackImage[N][0]=way-road-01.8.12
+FrontImage[S][0]=way-road-01.9.14
+BackImage[S][0]=way-road-01.8.14
+FrontImage[E][0]=way-road-01.9.15
+BackImage[E][0]=way-road-01.8.15
+FrontImage[W][0]=way-road-01.9.13
+BackImage[W][0]=way-road-01.8.13
+#WINTER
+FrontImage[N][1]=way-road-02.9.12
+BackImage[N][1]=way-road-02.8.12
+FrontImage[S][1]=way-road-02.9.14
+BackImage[S][1]=way-road-02.8.14
+FrontImage[E][1]=way-road-02.9.15
+BackImage[E][1]=way-road-02.8.15
+FrontImage[W][1]=way-road-02.9.13
+BackImage[W][1]=way-road-02.8.13
+----------------------------------------
+
+
+
+## 110 KM/H HIGHWAY
+## Speed : 110
+## Intro : 1930
+## Retire: 1980
+## Road + Bridge + Elevated + Tunnel
+
+#ROAD
+obj=way
+name=road_110
+waytype=road
+copyright=Fabio Gonella
+draw_as_ding=0
+cost=44000
+maintenance=1200
+topspeed=110
+max_weight=80
+intro_year = 1930
+intro_month = 1
+retire_year = 1980
+retire_month = 1
+icon=> way-road-01.0.8
+cursor=way-road-01.1.8,0,-16
+#SUMMER
+Image[-][0]=way-road-01.2.11
+Image[N][0]=way-road-01.6.10
+Image[S][0]=way-road-01.6.8
+Image[E][0]=way-road-01.6.9
+Image[W][0]=way-road-01.6.11
+Image[NS][0]=way-road-01.2.8
+Image[EW][0]=way-road-01.2.9
+Image[NSE][0]=way-road-01.3.8
+Image[NSW][0]=way-road-01.3.9
+Image[NEW][0]=way-road-01.3.11
+Image[SEW][0]=way-road-01.3.10
+Image[NSEW][0]=way-road-01.2.11
+Image[NE][0]=way-road-01.4.8
+Image[SE][0]=way-road-01.4.10
+Image[NW][0]=way-road-01.4.11
+Image[SW][0]=way-road-01.4.9
+Diagonal[NE][0]=way-road-01.7.8
+Diagonal[SE][0]=way-road-01.7.10
+Diagonal[NW][0]=way-road-01.7.11
+Diagonal[SW][0]=way-road-01.7.9
+ImageUp[3][0]=way-road-01.5.10
+ImageUp[6][0]=way-road-01.5.11
+ImageUp[9][0]=way-road-01.5.9
+ImageUp[12][0]=way-road-01.5.8
+#WINTER
+Image[-][1]=way-road-02.2.11
+Image[N][1]=way-road-02.6.10
+Image[S][1]=way-road-02.6.8
+Image[E][1]=way-road-02.6.9
+Image[W][1]=way-road-02.6.11
+Image[NS][1]=way-road-02.2.8
+Image[EW][1]=way-road-02.2.9
+Image[NSE][1]=way-road-02.3.8
+Image[NSW][1]=way-road-02.3.9
+Image[NEW][1]=way-road-02.3.11
+Image[SEW][1]=way-road-02.3.10
+Image[NSEW][1]=way-road-02.2.11
+Image[NE][1]=way-road-02.4.8
+Image[SE][1]=way-road-02.4.10
+Image[NW][1]=way-road-02.4.11
+Image[SW][1]=way-road-02.4.9
+Diagonal[NE][1]=way-road-02.7.8
+Diagonal[SE][1]=way-road-02.7.10
+Diagonal[NW][1]=way-road-02.7.11
+Diagonal[SW][1]=way-road-02.7.9
+ImageUp[3][1]=way-road-02.5.10
+ImageUp[6][1]=way-road-02.5.11
+ImageUp[9][1]=way-road-02.5.9
+ImageUp[12][1]=way-road-02.5.8
+----------------------------------------
+#BRIDGE
+obj=bridge
+name=road_110_bridge
+waytype=road
+copyright=Fabio Gonella
+cost=130000
+maintenance=2100
+topspeed=110
+max_weight=80
+max_lenght=22
+intro_year = 1930
+intro_month = 1
+retire_year = 1980
+retire_month = 1
+icon=> way-road-01.0.10
+cursor=way-road-01.1.10,0,-16
+pillar_distance=2
+pillar_asymmetric=1
+#SUMMER
+BackImage[NS][0]=way-road-01.14.8,0,32
+FrontImage[NS][0]=way-road-01.15.8,0,32
+BackImage[EW][0]=way-road-01.14.9,0,32
+FrontImage[EW][0]=way-road-01.15.9,0,32
+BackRamp[N][0]=way-road-01.12.8,0,0
+FrontRamp[N][0]=way-road-01.13.8,0,0
+BackRamp[S][0]=way-road-01.12.10,0,0
+FrontRamp[S][0]=way-road-01.13.10,0,0
+BackRamp[E][0]=way-road-01.12.11,0,0
+FrontRamp[E][0]=way-road-01.13.11,0,0
+BackRamp[W][0]=way-road-01.12.9,0,0
+FrontRamp[W][0]=way-road-01.13.9,0,0
+BackStart[N][0]=way-road-01.10.8,0,32
+FrontStart[N][0]=way-road-01.11.8,0,32
+BackStart[S][0]=way-road-01.10.10,0,32
+FrontStart[S][0]=way-road-01.11.10,0,32
+BackStart[E][0]=way-road-01.10.11,0,32
+FrontStart[E][0]=way-road-01.11.11,0,32
+BackStart[W][0]=way-road-01.10.9,0,32
+FrontStart[W][0]=way-road-01.11.9,0,32
+backPillar[S][0]=way-road-01.14.10
+backPillar[W][0]=way-road-01.14.11
+#WINTER
+BackImage[NS][1]=way-road-02.14.8,0,32
+FrontImage[NS][1]=way-road-02.15.8,0,32
+BackImage[EW][1]=way-road-02.14.9,0,32
+FrontImage[EW][1]=way-road-02.15.9,0,32
+BackRamp[N][1]=way-road-02.12.8,0,0
+FrontRamp[N][1]=way-road-02.13.8,0,0
+BackRamp[S][1]=way-road-02.12.10,0,0
+FrontRamp[S][1]=way-road-02.13.10,0,0
+BackRamp[E][1]=way-road-02.12.11,0,0
+FrontRamp[E][1]=way-road-02.13.11,0,0
+BackRamp[W][1]=way-road-02.12.9,0,0
+FrontRamp[W][1]=way-road-02.13.9,0,0
+BackStart[N][1]=way-road-02.10.8,0,32
+FrontStart[N][1]=way-road-02.11.8,0,32
+BackStart[S][1]=way-road-02.10.10,0,32
+FrontStart[S][1]=way-road-02.11.10,0,32
+BackStart[E][1]=way-road-02.10.11,0,32
+FrontStart[E][1]=way-road-02.11.11,0,32
+BackStart[W][1]=way-road-02.10.9,0,32
+FrontStart[W][1]=way-road-02.11.9,0,32
+backPillar[S][1]=way-road-02.14.10
+backPillar[W][1]=way-road-02.14.11
+----------------------------------------
+#ELEVATED
+obj=way
+name=road_110_elevated
+waytype=road
+copyright=Fabio Gonella
+system_type=1
+draw_as_ding=1
+cost=130000
+maintenance=2100
+topspeed=110
+max_weight=80
+intro_year = 1930
+intro_month = 1
+retire_year = 1980
+retire_month = 1
+icon=> way-road-01.0.11
+cursor=way-road-01.1.11,0,-16
+#SUMMER
+Image[-][0]=way-road-01.16.11,0,32
+Image[N][0]=way-road-01.20.10,0,32
+Image[S][0]=way-road-01.20.8,0,32
+Image[E][0]=way-road-01.20.9,0,32
+Image[W][0]=way-road-01.20.11,0,32
+Image[NS][0]=way-road-01.16.8,0,32
+Image[EW][0]=way-road-01.16.9,0,32
+Image[NSE][0]=way-road-01.17.8,0,32
+Image[NSW][0]=way-road-01.17.9,0,32
+Image[NEW][0]=way-road-01.17.11,0,32
+Image[SEW][0]=way-road-01.17.10,0,32
+Image[NSEW][0]=way-road-01.16.11,0,32
+Image[NE][0]=way-road-01.18.8,0,32
+Image[SE][0]=way-road-01.18.10,0,32
+Image[NW][0]=way-road-01.18.11,0,32
+Image[SW][0]=way-road-01.18.9,0,32
+Diagonal[NE][0]=way-road-01.21.8,0,32
+Diagonal[SE][0]=way-road-01.21.10,0,32
+Diagonal[NW][0]=way-road-01.21.11,0,32
+Diagonal[SW][0]=way-road-01.21.9,0,32
+ImageUp[3][0]=way-road-01.19.10,0,32
+ImageUp[6][0]=way-road-01.19.11,0,32
+ImageUp[9][0]=way-road-01.19.9,0,32
+ImageUp[12][0]=way-road-01.19.8,0,32
+#WINTER
+Image[-][1]=way-road-02.16.11,0,32
+Image[N][1]=way-road-02.20.10,0,32
+Image[S][1]=way-road-02.20.8,0,32
+Image[E][1]=way-road-02.20.9,0,32
+Image[W][1]=way-road-02.20.11,0,32
+Image[NS][1]=way-road-02.16.8,0,32
+Image[EW][1]=way-road-02.16.9,0,32
+Image[NSE][1]=way-road-02.17.8,0,32
+Image[NSW][1]=way-road-02.17.9,0,32
+Image[NEW][1]=way-road-02.17.11,0,32
+Image[SEW][1]=way-road-02.17.10,0,32
+Image[NSEW][1]=way-road-02.16.11,0,32
+Image[NE][1]=way-road-02.18.8,0,32
+Image[SE][1]=way-road-02.18.10,0,32
+Image[NW][1]=way-road-02.18.11,0,32
+Image[SW][1]=way-road-02.18.9,0,32
+Diagonal[NE][1]=way-road-02.21.8,0,32
+Diagonal[SE][1]=way-road-02.21.10,0,32
+Diagonal[NW][1]=way-road-02.21.11,0,32
+Diagonal[SW][1]=way-road-02.21.9,0,32
+ImageUp[3][1]=way-road-02.19.10,0,32
+ImageUp[6][1]=way-road-02.19.11,0,32
+ImageUp[9][1]=way-road-02.19.9,0,32
+ImageUp[12][1]=way-road-02.19.8,0,32
+----------------------------------------
+#TUNNEL
+obj=tunnel
+name=road_110_tunnel
+waytype=road
+copyright=Fabio Gonella
+cost=210000
+maintenance=2900
+topspeed=110
+max_weight=80
+intro_year = 1930
+intro_month = 1
+retire_year = 1980
+retire_month = 1
+icon=> way-road-01.0.9
+cursor=way-road-01.1.9,0,-16
+#SUMMER
+FrontImage[N][0]=way-road-01.9.8
+BackImage[N][0]=way-road-01.8.8
+FrontImage[S][0]=way-road-01.9.10
+BackImage[S][0]=way-road-01.8.10
+FrontImage[E][0]=way-road-01.9.11
+BackImage[E][0]=way-road-01.8.11
+FrontImage[W][0]=way-road-01.9.9
+BackImage[W][0]=way-road-01.8.9
+#WINTER
+FrontImage[N][1]=way-road-02.9.8
+BackImage[N][1]=way-road-02.8.8
+FrontImage[S][1]=way-road-02.9.10
+BackImage[S][1]=way-road-02.8.10
+FrontImage[E][1]=way-road-02.9.11
+BackImage[E][1]=way-road-02.8.11
+FrontImage[W][1]=way-road-02.9.9
+BackImage[W][1]=way-road-02.8.9
+----------------------------------------
+
+
+
+## 130 KM/H HIGHWAY
+## Speed : 130
+## Intro : 1965
+## Retire: -
+## Road + Bridge + Elevated + Tunnel
+
+#ROAD
+obj=way
+name=road_130
+waytype=road
+copyright=Fabio Gonella
+draw_as_ding=1
+cost=52000
+maintenance=1400
+topspeed=130
+max_weight=80
+intro_year = 1965
+intro_month = 1
+icon=> way-road-01.0.4
+cursor=way-road-01.1.4,0,-16
+#SUMMER
+Image[-][0]=way-road-01.2.7
+Image[N][0]=way-road-01.6.6
+Image[S][0]=way-road-01.6.4
+Image[E][0]=way-road-01.6.5
+Image[W][0]=way-road-01.6.7
+Image[NS][0]=way-road-01.2.4
+Image[EW][0]=way-road-01.2.5
+Image[NSE][0]=way-road-01.3.4
+Image[NSW][0]=way-road-01.3.5
+Image[NEW][0]=way-road-01.3.7
+Image[SEW][0]=way-road-01.3.6
+Image[NSEW][0]=way-road-01.2.7
+Image[NE][0]=way-road-01.4.4
+Image[SE][0]=way-road-01.4.6
+Image[NW][0]=way-road-01.4.7
+Image[SW][0]=way-road-01.4.5
+Diagonal[NE][0]=way-road-01.7.4
+Diagonal[SE][0]=way-road-01.7.6
+Diagonal[NW][0]=way-road-01.7.7
+Diagonal[SW][0]=way-road-01.7.5
+ImageUp[3][0]=way-road-01.5.6
+ImageUp[6][0]=way-road-01.5.7
+ImageUp[9][0]=way-road-01.5.5
+ImageUp[12][0]=way-road-01.5.4
+#WINTER
+Image[-][1]=way-road-02.2.7
+Image[N][1]=way-road-02.6.6
+Image[S][1]=way-road-02.6.4
+Image[E][1]=way-road-02.6.5
+Image[W][1]=way-road-02.6.7
+Image[NS][1]=way-road-02.2.4
+Image[EW][1]=way-road-02.2.5
+Image[NSE][1]=way-road-02.3.4
+Image[NSW][1]=way-road-02.3.5
+Image[NEW][1]=way-road-02.3.7
+Image[SEW][1]=way-road-02.3.6
+Image[NSEW][1]=way-road-02.2.7
+Image[NE][1]=way-road-02.4.4
+Image[SE][1]=way-road-02.4.6
+Image[NW][1]=way-road-02.4.7
+Image[SW][1]=way-road-02.4.5
+Diagonal[NE][1]=way-road-02.7.4
+Diagonal[SE][1]=way-road-02.7.6
+Diagonal[NW][1]=way-road-02.7.7
+Diagonal[SW][1]=way-road-02.7.5
+ImageUp[3][1]=way-road-02.5.6
+ImageUp[6][1]=way-road-02.5.7
+ImageUp[9][1]=way-road-02.5.5
+ImageUp[12][1]=way-road-02.5.4
+----------------------------------------
+#BRIDGE
+obj=bridge
+name=road_130_bridge
+waytype=road
+copyright=Fabio Gonella
+cost=140000
+maintenance=2300
+topspeed=130
+max_weight=80
+max_lenght=24
+intro_year = 1965
+intro_month = 1
+icon=> way-road-01.0.6
+cursor=way-road-01.1.6,0,-16
+pillar_distance=2
+pillar_asymmetric=1
+#SUMMER
+BackImage[NS][0]=way-road-01.14.4,0,32
+FrontImage[NS][0]=way-road-01.15.4,0,32
+BackImage[EW][0]=way-road-01.14.5,0,32
+FrontImage[EW][0]=way-road-01.15.5,0,32
+BackRamp[N][0]=way-road-01.12.4,0,0
+FrontRamp[N][0]=way-road-01.13.4,0,0
+BackRamp[S][0]=way-road-01.12.6,0,0
+FrontRamp[S][0]=way-road-01.13.6,0,0
+BackRamp[E][0]=way-road-01.12.7,0,0
+FrontRamp[E][0]=way-road-01.13.7,0,0
+BackRamp[W][0]=way-road-01.12.5,0,0
+FrontRamp[W][0]=way-road-01.13.5,0,0
+BackStart[N][0]=way-road-01.10.4,0,32
+FrontStart[N][0]=way-road-01.11.4,0,32
+BackStart[S][0]=way-road-01.10.6,0,32
+FrontStart[S][0]=way-road-01.11.6,0,32
+BackStart[E][0]=way-road-01.10.7,0,32
+FrontStart[E][0]=way-road-01.11.7,0,32
+BackStart[W][0]=way-road-01.10.5,0,32
+FrontStart[W][0]=way-road-01.11.5,0,32
+backPillar[S][0]=way-road-01.14.6
+backPillar[W][0]=way-road-01.14.7
+#WINTER
+BackImage[NS][1]=way-road-02.14.4,0,32
+FrontImage[NS][1]=way-road-02.15.4,0,32
+BackImage[EW][1]=way-road-02.14.5,0,32
+FrontImage[EW][1]=way-road-02.15.5,0,32
+BackRamp[N][1]=way-road-02.12.4,0,0
+FrontRamp[N][1]=way-road-02.13.4,0,0
+BackRamp[S][1]=way-road-02.12.6,0,0
+FrontRamp[S][1]=way-road-02.13.6,0,0
+BackRamp[E][1]=way-road-02.12.7,0,0
+FrontRamp[E][1]=way-road-02.13.7,0,0
+BackRamp[W][1]=way-road-02.12.5,0,0
+FrontRamp[W][1]=way-road-02.13.5,0,0
+BackStart[N][1]=way-road-02.10.4,0,32
+FrontStart[N][1]=way-road-02.11.4,0,32
+BackStart[S][1]=way-road-02.10.6,0,32
+FrontStart[S][1]=way-road-02.11.6,0,32
+BackStart[E][1]=way-road-02.10.7,0,32
+FrontStart[E][1]=way-road-02.11.7,0,32
+BackStart[W][1]=way-road-02.10.5,0,32
+FrontStart[W][1]=way-road-02.11.5,0,32
+backPillar[S][1]=way-road-02.14.6
+backPillar[W][1]=way-road-02.14.7
+----------------------------------------
+#ELEVATED
+obj=way
+name=road_130_elevated
+waytype=road
+copyright=Fabio Gonella
+system_type=1
+draw_as_ding=1
+cost=140000
+maintenance=2300
+topspeed=130
+max_weight=80
+intro_year = 1965
+intro_month = 1
+icon=> way-road-01.0.7
+cursor=way-road-01.1.7,0,-16
+#SUMMER
+Image[-][0]=way-road-01.16.7,0,32
+Image[N][0]=way-road-01.20.6,0,32
+Image[S][0]=way-road-01.20.4,0,32
+Image[E][0]=way-road-01.20.5,0,32
+Image[W][0]=way-road-01.20.7,0,32
+Image[NS][0]=way-road-01.16.4,0,32
+Image[EW][0]=way-road-01.16.5,0,32
+Image[NSE][0]=way-road-01.17.4,0,32
+Image[NSW][0]=way-road-01.17.5,0,32
+Image[NEW][0]=way-road-01.17.7,0,32
+Image[SEW][0]=way-road-01.17.6,0,32
+Image[NSEW][0]=way-road-01.16.7,0,32
+Image[NE][0]=way-road-01.18.4,0,32
+Image[SE][0]=way-road-01.18.6,0,32
+Image[NW][0]=way-road-01.18.7,0,32
+Image[SW][0]=way-road-01.18.5,0,32
+Diagonal[NE][0]=way-road-01.21.4,0,32
+Diagonal[SE][0]=way-road-01.21.6,0,32
+Diagonal[NW][0]=way-road-01.21.7,0,32
+Diagonal[SW][0]=way-road-01.21.5,0,32
+ImageUp[3][0]=way-road-01.19.6,0,32
+ImageUp[6][0]=way-road-01.19.7,0,32
+ImageUp[9][0]=way-road-01.19.5,0,32
+ImageUp[12][0]=way-road-01.19.4,0,32
+#WINTER
+Image[-][1]=way-road-02.16.7,0,32
+Image[N][1]=way-road-02.20.6,0,32
+Image[S][1]=way-road-02.20.4,0,32
+Image[E][1]=way-road-02.20.5,0,32
+Image[W][1]=way-road-02.20.7,0,32
+Image[NS][1]=way-road-02.16.4,0,32
+Image[EW][1]=way-road-02.16.5,0,32
+Image[NSE][1]=way-road-02.17.4,0,32
+Image[NSW][1]=way-road-02.17.5,0,32
+Image[NEW][1]=way-road-02.17.7,0,32
+Image[SEW][1]=way-road-02.17.6,0,32
+Image[NSEW][1]=way-road-02.16.7,0,32
+Image[NE][1]=way-road-02.18.4,0,32
+Image[SE][1]=way-road-02.18.6,0,32
+Image[NW][1]=way-road-02.18.7,0,32
+Image[SW][1]=way-road-02.18.5,0,32
+Diagonal[NE][1]=way-road-02.21.4,0,32
+Diagonal[SE][1]=way-road-02.21.6,0,32
+Diagonal[NW][1]=way-road-02.21.7,0,32
+Diagonal[SW][1]=way-road-02.21.5,0,32
+ImageUp[3][1]=way-road-02.19.6,0,32
+ImageUp[6][1]=way-road-02.19.7,0,32
+ImageUp[9][1]=way-road-02.19.5,0,32
+ImageUp[12][1]=way-road-02.19.4,0,32
+----------------------------------------
+#TUNNEL
+obj=tunnel
+name=road_130_tunnel
+waytype=road
+copyright=Fabio Gonella
+cost=240000
+maintenance=3100
+topspeed=130
+max_weight=80
+intro_year = 1965
+intro_month = 1
+icon=> way-road-01.0.5
+cursor=way-road-01.1.5,0,-16
+#SUMMER
+FrontImage[N][0]=way-road-01.9.4
+BackImage[N][0]=way-road-01.8.4
+FrontImage[S][0]=way-road-01.9.6
+BackImage[S][0]=way-road-01.8.6
+FrontImage[E][0]=way-road-01.9.7
+BackImage[E][0]=way-road-01.8.7
+FrontImage[W][0]=way-road-01.9.5
+BackImage[W][0]=way-road-01.8.5
+#WINTER
+FrontImage[N][1]=way-road-02.9.4
+BackImage[N][1]=way-road-02.8.4
+FrontImage[S][1]=way-road-02.9.6
+BackImage[S][1]=way-road-02.8.6
+FrontImage[E][1]=way-road-02.9.7
+BackImage[E][1]=way-road-02.8.7
+FrontImage[W][1]=way-road-02.9.5
+BackImage[W][1]=way-road-02.8.5
+----------------------------------------
+
+
+
+## 200 KM/H AUTOBAHN
+## Speed : 200
+## Intro : 1980
+## Retire: -
+## Road + Bridge + Elevated
+
+#ROAD
+obj=way
+name=road_200
+waytype=road
+copyright=Fabio Gonella
+draw_as_ding=1
+cost=80000
+maintenance=2200
+topspeed=200
+max_weight=80
+intro_year = 1980
+intro_month = 1
+icon=> way-road-01.0.0
+cursor=way-road-01.1.0,0,-16
+#SUMMER
+Image[-][0]=way-road-01.2.3
+Image[N][0]=way-road-01.6.2
+Image[S][0]=way-road-01.6.0
+Image[E][0]=way-road-01.6.1
+Image[W][0]=way-road-01.6.3
+Image[NS][0]=way-road-01.2.0
+Image[EW][0]=way-road-01.2.1
+Image[NSE][0]=way-road-01.3.0
+Image[NSW][0]=way-road-01.3.1
+Image[NEW][0]=way-road-01.3.3
+Image[SEW][0]=way-road-01.3.2
+Image[NSEW][0]=way-road-01.2.3
+Image[NE][0]=way-road-01.4.0
+Image[SE][0]=way-road-01.4.2
+Image[NW][0]=way-road-01.4.3
+Image[SW][0]=way-road-01.4.1
+Diagonal[NE][0]=way-road-01.7.0
+Diagonal[SE][0]=way-road-01.7.2
+Diagonal[NW][0]=way-road-01.7.3
+Diagonal[SW][0]=way-road-01.7.1
+ImageUp[3][0]=way-road-01.5.2
+ImageUp[6][0]=way-road-01.5.3
+ImageUp[9][0]=way-road-01.5.1
+ImageUp[12][0]=way-road-01.5.0
+#WINTER
+Image[-][1]=way-road-02.2.3
+Image[N][1]=way-road-02.6.2
+Image[S][1]=way-road-02.6.0
+Image[E][1]=way-road-02.6.1
+Image[W][1]=way-road-02.6.3
+Image[NS][1]=way-road-02.2.0
+Image[EW][1]=way-road-02.2.1
+Image[NSE][1]=way-road-02.3.0
+Image[NSW][1]=way-road-02.3.1
+Image[NEW][1]=way-road-02.3.3
+Image[SEW][1]=way-road-02.3.2
+Image[NSEW][1]=way-road-02.2.3
+Image[NE][1]=way-road-02.4.0
+Image[SE][1]=way-road-02.4.2
+Image[NW][1]=way-road-02.4.3
+Image[SW][1]=way-road-02.4.1
+Diagonal[NE][1]=way-road-02.7.0
+Diagonal[SE][1]=way-road-02.7.2
+Diagonal[NW][1]=way-road-02.7.3
+Diagonal[SW][1]=way-road-02.7.1
+ImageUp[3][1]=way-road-02.5.2
+ImageUp[6][1]=way-road-02.5.3
+ImageUp[9][1]=way-road-02.5.1
+ImageUp[12][1]=way-road-02.5.0
+----------------------------------------
+#BRIDGE
+obj=bridge
+name=road_200_bridge
+waytype=road
+copyright=Fabio Gonella
+cost=200000
+maintenance=3100
+topspeed=200
+max_weight=80
+max_lenght=24
+intro_year = 1980
+intro_month = 1
+icon=> way-road-01.0.2
+cursor=way-road-01.1.2,0,-16
+pillar_distance=2
+pillar_asymmetric=1
+#SUMMER
+BackImage[NS][0]=way-road-01.14.0,0,32
+FrontImage[NS][0]=way-road-01.15.0,0,32
+BackImage[EW][0]=way-road-01.14.1,0,32
+FrontImage[EW][0]=way-road-01.15.1,0,32
+BackRamp[N][0]=way-road-01.12.0,0,0
+FrontRamp[N][0]=way-road-01.13.0,0,0
+BackRamp[S][0]=way-road-01.12.2,0,0
+FrontRamp[S][0]=way-road-01.13.2,0,0
+BackRamp[E][0]=way-road-01.12.3,0,0
+FrontRamp[E][0]=way-road-01.13.3,0,0
+BackRamp[W][0]=way-road-01.12.1,0,0
+FrontRamp[W][0]=way-road-01.13.1,0,0
+BackStart[N][0]=way-road-01.10.0,0,32
+FrontStart[N][0]=way-road-01.11.0,0,32
+BackStart[S][0]=way-road-01.10.2,0,32
+FrontStart[S][0]=way-road-01.11.2,0,32
+BackStart[E][0]=way-road-01.10.3,0,32
+FrontStart[E][0]=way-road-01.11.3,0,32
+BackStart[W][0]=way-road-01.10.1,0,32
+FrontStart[W][0]=way-road-01.11.1,0,32
+backPillar[S][0]=way-road-01.14.2
+backPillar[W][0]=way-road-01.14.3
+#WINTER
+BackImage[NS][1]=way-road-02.14.0,0,32
+FrontImage[NS][1]=way-road-02.15.0,0,32
+BackImage[EW][1]=way-road-02.14.1,0,32
+FrontImage[EW][1]=way-road-02.15.1,0,32
+BackRamp[N][1]=way-road-02.12.0,0,0
+FrontRamp[N][1]=way-road-02.13.0,0,0
+BackRamp[S][1]=way-road-02.12.2,0,0
+FrontRamp[S][1]=way-road-02.13.2,0,0
+BackRamp[E][1]=way-road-02.12.3,0,0
+FrontRamp[E][1]=way-road-02.13.3,0,0
+BackRamp[W][1]=way-road-02.12.1,0,0
+FrontRamp[W][1]=way-road-02.13.1,0,0
+BackStart[N][1]=way-road-02.10.0,0,32
+FrontStart[N][1]=way-road-02.11.0,0,32
+BackStart[S][1]=way-road-02.10.2,0,32
+FrontStart[S][1]=way-road-02.11.2,0,32
+BackStart[E][1]=way-road-02.10.3,0,32
+FrontStart[E][1]=way-road-02.11.3,0,32
+BackStart[W][1]=way-road-02.10.1,0,32
+FrontStart[W][1]=way-road-02.11.1,0,32
+backPillar[S][1]=way-road-02.14.2
+backPillar[W][1]=way-road-02.14.3
+----------------------------------------
+#ELEVATED
+obj=way
+name=road_200_elevated
+waytype=road
+copyright=Fabio Gonella
+system_type=1
+draw_as_ding=1
+cost=200000
+maintenance=3100
+topspeed=200
+max_weight=80
+intro_year = 1980
+intro_month = 1
+icon=> way-road-01.0.3
+cursor=way-road-01.1.3,0,-16
+#SUMMER
+Image[-][0]=way-road-01.16.3,0,32
+Image[N][0]=way-road-01.20.2,0,32
+Image[S][0]=way-road-01.20.0,0,32
+Image[E][0]=way-road-01.20.1,0,32
+Image[W][0]=way-road-01.20.3,0,32
+Image[NS][0]=way-road-01.16.0,0,32
+Image[EW][0]=way-road-01.16.1,0,32
+Image[NSE][0]=way-road-01.17.0,0,32
+Image[NSW][0]=way-road-01.17.1,0,32
+Image[NEW][0]=way-road-01.17.3,0,32
+Image[SEW][0]=way-road-01.17.2,0,32
+Image[NSEW][0]=way-road-01.16.3,0,32
+Image[NE][0]=way-road-01.18.0,0,32
+Image[SE][0]=way-road-01.18.2,0,32
+Image[NW][0]=way-road-01.18.3,0,32
+Image[SW][0]=way-road-01.18.1,0,32
+Diagonal[NE][0]=way-road-01.21.0,0,32
+Diagonal[SE][0]=way-road-01.21.2,0,32
+Diagonal[NW][0]=way-road-01.21.3,0,32
+Diagonal[SW][0]=way-road-01.21.1,0,32
+ImageUp[3][0]=way-road-01.19.2,0,32
+ImageUp[6][0]=way-road-01.19.3,0,32
+ImageUp[9][0]=way-road-01.19.1,0,32
+ImageUp[12][0]=way-road-01.19.0,0,32
+#WINTER
+Image[-][1]=way-road-02.16.3,0,32
+Image[N][1]=way-road-02.20.2,0,32
+Image[S][1]=way-road-02.20.0,0,32
+Image[E][1]=way-road-02.20.1,0,32
+Image[W][1]=way-road-02.20.3,0,32
+Image[NS][1]=way-road-02.16.0,0,32
+Image[EW][1]=way-road-02.16.1,0,32
+Image[NSE][1]=way-road-02.17.0,0,32
+Image[NSW][1]=way-road-02.17.1,0,32
+Image[NEW][1]=way-road-02.17.3,0,32
+Image[SEW][1]=way-road-02.17.2,0,32
+Image[NSEW][1]=way-road-02.16.3,0,32
+Image[NE][1]=way-road-02.18.0,0,32
+Image[SE][1]=way-road-02.18.2,0,32
+Image[NW][1]=way-road-02.18.3,0,32
+Image[SW][1]=way-road-02.18.1,0,32
+Diagonal[NE][1]=way-road-02.21.0,0,32
+Diagonal[SE][1]=way-road-02.21.2,0,32
+Diagonal[NW][1]=way-road-02.21.3,0,32
+Diagonal[SW][1]=way-road-02.21.1,0,32
+ImageUp[3][1]=way-road-02.19.2,0,32
+ImageUp[6][1]=way-road-02.19.3,0,32
+ImageUp[9][1]=way-road-02.19.1,0,32
+ImageUp[12][1]=way-road-02.19.0,0,32
+----------------------------------------
