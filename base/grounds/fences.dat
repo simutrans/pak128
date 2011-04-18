@@ -1,0 +1,12 @@
+Obj=ground
+Name=Fence
+copyright=Fabio Gonella
+# Natural fence
+Image[0][0]=fences.1.0
+Image[1][0]=fences.1.1
+Image[2][0]=fences.1.2
+#building fence
+Image[3][0]=fences.2.0
+Image[4][0]=fences.2.1
+Image[5][0]=fences.2.2
+--------------------

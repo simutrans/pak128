@@ -1,0 +1,28 @@
+#
+# Ground marker for pak128
+#
+Obj=ground
+Name=Marker
+copyright=Timothy Baldock
+# the front part (obtained by hang&7) for signle slopes
+Image[0][0]=marker.0.6
+Image[1][0]=marker.0.1
+Image[2][0]=marker.0.4
+Image[3][0]=marker.0.2
+Image[4][0]=marker.0.0
+Image[5][0]=marker.0.5
+Image[6][0]=marker.0.3
+Image[7][0]=marker.0.7
+# backpart (obtained by (hang&1)|((hang&12)>>1)
+Image[8][0]=marker.1.6
+Image[9][0]=marker.1.2
+Image[10][0]=marker.1.3
+Image[11][0]=marker.1.4
+Image[12][0]=marker.1.5
+Image[13][0]=marker.1.1
+Image[14][0]=marker.1.0
+Image[15][0]=marker.1.7
+
+--------------------
+
+# EOF
