@@ -1,0 +1,36 @@
+Obj=factory
+name=shaft_coal_mine
+Location=Land
+
+copyright=Raven
+
+DistributionWeight=1
+MapColor=90
+Range=50
+
+pax_level=50
+
+OutputGood[0]=Kohle
+OutputCapacity[0]=300
+Productivity=80
+
+Dims=2,2
+Needs_Ground=1
+
+# all climates...
+
+intro_year=1700
+# build forever, right now is the only all-climate coal producer
+
+BackImage[0][0][0][0][0]=shaft_coal_mine.2.1
+# first tile is virtual - one pixel
+BackImage[0][1][1][0][0]=shaft_coal_mine.2.0
+# the only separated piece
+BackImage[0][1][0][0][0]=shaft_coal_mine.1.0
+BackImage[0][0][1][0][0]=shaft_coal_mine.1.1
+# lower parts
+BackImage[0][1][0][1][0]=shaft_coal_mine.0.0
+BackImage[0][0][1][1][0]=shaft_coal_mine.0.1
+# upper parts
+
+# EOF

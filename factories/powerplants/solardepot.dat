@@ -1,0 +1,6 @@
+Obj=field
+name=SolarDepot
+copyright=vilvoh
+Image[0]=solardepot.1.0
+needs_ground=1
+

@@ -1,0 +1,50 @@
+
+Obj=factory
+name=Glass_factory
+copyright=Patrick
+Location=Land
+
+#needed productivity in tones  : 125t (0.75 train per month)
+#size                          : 2x2 = 4
+#average productivity per tile : 16
+
+DistributionWeight=1
+Productivity=100
+Range=50
+pax_level=20
+
+OutputGood[0]=glass
+OutputCapacity[0]=800
+
+MapColor=117
+
+Smoke=industry_smoke
+SmokeTile=0,0
+SmokeOffset=8,-48
+SmokeSpeed=64
+
+#total coal input (210)
+InputGood[0]=Kohle
+InputFactor[0]=170
+InputCapacity[0]=4000
+InputSupplier[0]=0
+
+#total sand input (210)
+InputGood[1]=Sand
+InputFactor[1]=170
+InputCapacity[1]=3000
+InputSupplier[1]=0
+
+OutputGood[0]=glass
+OutputCapacity[0]=400
+
+MapColor=225
+Dims=2,2
+
+BackImage[0][0][0][0][0]=glass_factory.1.1
+BackImage[0][0][0][1][0]=glass_factory.0.1
+BackImage[0][1][0][0][0]=glass_factory.1.0
+BackImage[0][0][1][0][0]=glass_factory.2.1
+BackImage[0][1][1][0][0]=glass_factory.2.0
+
+# EOF

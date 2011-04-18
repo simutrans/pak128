@@ -1,0 +1,44 @@
+Obj=factory
+name=Cementmill
+Location=Land
+copyright=Flor Wauters & Napik
+
+#needed productivity in tones  : 105t (1.5 train per month)
+#size                          : 2x2 = 4
+#average productivity per tile : 14
+
+DistributionWeight=1
+Productivity=100
+Range=10
+pax_level=25
+
+Smoke=industry_smoke
+SmokeTile=0,0
+SmokeOffset=3,-63
+SmokeSpeed=64
+
+#stone input 350 (assume some stone from quarry intended for concrete factory.)
+InputGood[0]=Stone
+InputCapacity[0]=5500
+InputFactor[0]=332
+InputSupplier[0]=0
+
+#coal input 315t
+InputGood[1]=Kohle
+InputCapacity[1]=8000
+InputFactor[1]=300
+InputSupplier[1]=0
+
+OutputGood[0]=Cement
+OutputCapacity[0]=500
+
+MapColor=10
+Dims=2,2
+
+BackImage[0][0][0][0][0]=cementmill.1.0
+BackImage[0][0][0][1][0]=cementmill.0.0
+BackImage[0][1][0][0][0]=cementmill.2.0
+BackImage[0][0][1][0][0]=cementmill.3.0
+BackImage[0][1][1][0][0]=cementmill.4.0
+
+# EOF

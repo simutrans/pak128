@@ -1,0 +1,30 @@
+Obj=factory
+Name=cornfield
+Copyright=Rmax500
+
+DistributionWeight=1
+Productivity=175
+Range=50
+
+#average 200
+OutputGood[0]=corn
+OutputCapacity[0]=200
+OutputFactor[0]=100
+
+MapColor=134
+intro_year=2000
+Dims=3,3
+
+climates=mediterran,temperate,tundra
+
+BackImage[0][0][0][0][0]=cornfield.0.2
+BackImage[0][0][1][0][0]=cornfield.1.2
+BackImage[0][0][2][0][0]=cornfield.2.2
+BackImage[0][1][0][0][0]=cornfield.0.1
+BackImage[0][1][1][0][0]=cornfield.1.1
+BackImage[0][1][2][0][0]=cornfield.2.1
+BackImage[0][2][0][0][0]=cornfield.0.0
+BackImage[0][2][1][0][0]=cornfield.1.0
+BackImage[0][2][2][0][0]=cornfield.2.0
+
+# EOF

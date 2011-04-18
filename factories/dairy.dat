@@ -1,0 +1,40 @@
+Obj=factory
+name=dairy
+copyright=BlackBox
+Location=City
+
+#needed productivity in tones  : 250 (1,2 train / month)
+#size                          : 2x2 = 4
+#average productivity per tile : 44
+
+DistributionWeight=1
+Productivity=200
+Range=100
+pax_level=80
+
+#total milk input 280
+InputGood[0]=milk
+InputFactor[0]=108
+InputCapacity[0]=1400
+InputSupplier[0]=0
+
+#total glass input 125
+InputGood[1]=glass
+InputFactor[1]=55
+InputCapacity[1]=3000
+InputSupplier[1]=0
+
+#OutputGood[0]=food
+#OutputCapacity[0]=400
+
+MapColor=138
+Dims=2,2
+
+BackImage[0][0][0][0][0]=dairy.0.1
+BackImage[0][0][0][0][1]=dairy.2.0
+BackImage[0][0][0][0][2]=dairy.2.1
+BackImage[0][1][0][0][0]=dairy.0.0
+BackImage[0][0][1][0][0]=dairy.1.1
+BackImage[0][1][1][0][0]=dairy.1.0
+
+# EOF

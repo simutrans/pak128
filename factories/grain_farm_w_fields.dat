@@ -1,0 +1,33 @@
+Obj=factory
+name=grain_farm_w_fields
+Location=Land
+
+copyright=Raven
+
+#needed productivity in tones  : 280 (1 train / month)
+#size                          : 6x6 = 36
+#average productivity per tile : 4
+
+DistributionWeight=1
+Productivity=180
+Range=160
+pax_level=20
+
+OutputGood[0]=grain
+OutputCapacity[0]=800
+
+MapColor=133
+Dims=2,2
+climates=mediterran,temperate,tundra
+
+max_fields=80
+min_fields=10
+production_per_field=1
+fields=grain_field
+
+BackImage[0][0][0][0][0]=grain_farm_w_fields.0.1
+BackImage[0][1][0][0][0]=grain_farm_w_fields.0.0
+BackImage[0][0][1][0][0]=grain_farm_w_fields.0.3
+BackImage[0][1][1][0][0]=grain_farm_w_fields.0.2
+
+# EOF

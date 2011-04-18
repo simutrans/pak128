@@ -1,0 +1,26 @@
+Obj=factory
+name=Oelfeld
+copyright=MHz
+Location=Land
+
+#needed productivity in tones  : 400t (2 trains / month)
+#size                          : 2x2 = 4
+#average productivity per tile : 50
+
+DistributionWeight=1
+Productivity=300
+Range=100
+pax_level=10
+
+OutputGood[0]=Oel
+OutputCapacity[0]=800
+
+MapColor=252
+Dims=2,2
+
+BackImage[0][0][0][0][0]=oelfeld.0.3
+BackImage[0][1][0][0][0]=oelfeld.0.1
+BackImage[0][0][1][0][0]=oelfeld.0.2
+BackImage[0][1][1][0][0]=oelfeld.0.0
+
+# EOF

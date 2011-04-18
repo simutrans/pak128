@@ -1,0 +1,23 @@
+
+Obj=factory
+name=waste_disposal
+copyright=MHz
+Location=City
+
+DistributionWeight=3
+Productivity=75
+Range=50
+pax_level=3
+
+OutputGood[0]=waste
+OutputCapacity[0]=300
+
+MapColor=10
+Dims=1,2
+
+BackImage[0][0][0][0][0]=waste_disposal.1.1
+BackImage[0][1][0][0][0]=waste_disposal.1.0
+BackImage[1][0][0][0][0]=waste_disposal.0.0
+BackImage[1][0][1][0][0]=waste_disposal.0.1
+
+# EOF

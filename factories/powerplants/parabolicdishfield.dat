@@ -1,0 +1,5 @@
+Obj=field
+name=ParabolicDishField
+copyright=vilvoh
+Image[0]=parabolicdishfield.1.0
+needs_ground=1

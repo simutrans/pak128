@@ -1,0 +1,54 @@
+Obj=factory
+name=classical_goods_factory
+# used to be: goods_factory
+Location=Land
+copyright=Rmax500
+
+#needed productivity in tones  : 400creates (3 trains / month)
+#size                          : 2x2 = 4
+#average productivity per tile : 50
+
+DistributionWeight=1
+Productivity=320
+Range=180
+pax_level=50
+
+#plastik consumable input 400
+InputGood[0]=Plastik
+InputCapacity[0]=1500
+InputSupplier[0]=0
+InputFactor[0]=110
+
+#steel consumable input 300
+InputGood[1]=Stahl
+InputCapacity[1]=1200
+InputSupplier[1]=0
+InputFactor[1]=80
+
+InputGood[2]=Bretter
+InputCapacity[2]=3000
+InputSupplier[2]=0
+InputFactor[2]=45
+
+OutputGood[0]=goods_
+OutputCapacity[0]=400
+
+MapColor=96
+Dims=3,3
+
+BackImage[0][0][0][0][0]=classical_goods_factory.0.2
+BackImage[0][0][1][0][0]=classical_goods_factory.1.2
+BackImage[0][0][2][0][0]=classical_goods_factory.2.2
+BackImage[0][1][0][0][0]=classical_goods_factory.0.1
+BackImage[0][1][1][0][0]=classical_goods_factory.1.1
+BackImage[0][1][2][0][0]=classical_goods_factory.2.1
+BackImage[0][2][0][0][0]=classical_goods_factory.0.0
+BackImage[0][2][1][0][0]=classical_goods_factory.1.0
+BackImage[0][2][2][0][0]=classical_goods_factory.2.0
+BackImage[0][0][0][1][0]=classical_goods_factory.3.2
+BackImage[0][0][1][1][0]=classical_goods_factory.3.1
+BackImage[0][0][2][1][0]=classical_goods_factory.3.0
+BackImage[0][1][0][1][0]=classical_goods_factory.4.1
+BackImage[0][2][0][1][0]=classical_goods_factory.4.0
+
+# EOF

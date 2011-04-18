@@ -1,0 +1,56 @@
+Obj=factory
+name=steel_mill
+copyright=Rmax500
+#used to be: Stahlwerk
+Location=City
+
+#needed productivity in tones  : 400t (2 trains / month)
+#average productivity per tile : 22
+
+DistributionWeight=1
+Productivity=350
+Range=100
+pax_level=105
+
+Smoke=industry_smoke
+SmokeTile=0,0
+#x - <- -> +
+#from the approximate middle of the 128x128 tile, in 64x64 scale
+SmokeOffset=3,-29
+SmokeSpeed=128
+
+#total input 840
+InputGood[0]=Eisenerz
+InputCapacity[0]=12000
+InputSupplier[0]=0
+InputFactor[0]=200
+
+InputGood[1]=Kohle
+InputCapacity[1]=3000
+InputSupplier[1]=0
+InputFactor[1]=50
+
+OutputGood[0]=Stahl
+OutputCapacity[0]=600
+
+MapColor=107
+Dims=4,4
+
+BackImage[0][0][0][0][0]=steel_mill.0.3
+BackImage[0][0][1][0][0]=steel_mill.1.3
+BackImage[0][0][2][0][0]=steel_mill.2.3
+BackImage[0][0][3][0][0]=steel_mill.3.3
+BackImage[0][1][0][0][0]=steel_mill.0.2
+BackImage[0][1][1][0][0]=steel_mill.1.2
+BackImage[0][1][2][0][0]=steel_mill.2.2
+BackImage[0][1][3][0][0]=steel_mill.3.2
+BackImage[0][2][0][0][0]=steel_mill.0.1
+BackImage[0][2][1][0][0]=steel_mill.1.1
+BackImage[0][2][2][0][0]=steel_mill.2.1
+BackImage[0][2][3][0][0]=steel_mill.3.1
+BackImage[0][3][0][0][0]=steel_mill.0.0
+BackImage[0][3][1][0][0]=steel_mill.1.0
+BackImage[0][3][2][0][0]=steel_mill.2.0
+BackImage[0][3][3][0][0]=steel_mill.3.0
+
+# EOF

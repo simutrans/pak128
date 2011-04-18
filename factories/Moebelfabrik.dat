@@ -1,0 +1,31 @@
+Obj=factory
+name=Moebelfabrik
+Location=City
+copyright=MHz
+
+#needed productivity in tones  : ? ( trains / month)
+#size                          : 2x2 = 4
+#average productivity per tile : ?
+
+DistributionWeight=1
+Productivity=180
+Range=300
+pax_level=75
+
+InputGood[0]=Bretter
+InputCapacity[0]=800
+InputSupplier[0]=0
+InputFactor[0]=110
+
+OutputGood[0]=Moebel
+OutputCapacity[0]=200
+
+MapColor=35
+Dims=2,2
+
+BackImage[0][0][0][0][0]=moebelfabrik.0.1
+BackImage[0][1][0][0][0]=moebelfabrik.0.0
+BackImage[0][0][1][0][0]=moebelfabrik.1.1
+BackImage[0][1][1][0][0]=moebelfabrik.1.0
+
+# EOF

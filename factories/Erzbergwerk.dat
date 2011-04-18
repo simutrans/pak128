@@ -1,0 +1,47 @@
+Obj=factory
+name=Erzbergwerk
+copyright=Napik
+Location=Land
+
+#needed productivity in tones  : 840t (4 trains / month)
+#size                          : 5x5 = 25
+#average productivity per tile : 16.8
+
+DistributionWeight=1
+Productivity=800
+Range=80
+pax_level=70
+
+OutputGood[0]=Eisenerz
+OutputCapacity[0]=900
+
+MapColor=104
+Dims=5,5
+
+BackImage[0][0][0][0][0]=erzbergwerk.0.4
+BackImage[0][1][0][0][0]=erzbergwerk.0.3
+BackImage[0][2][0][0][0]=erzbergwerk.0.2
+BackImage[0][3][0][0][0]=erzbergwerk.0.1
+BackImage[0][4][0][0][0]=erzbergwerk.0.0
+BackImage[0][0][1][0][0]=erzbergwerk.1.4
+BackImage[0][1][1][0][0]=erzbergwerk.1.3
+BackImage[0][2][1][0][0]=erzbergwerk.1.2
+BackImage[0][3][1][0][0]=erzbergwerk.1.1
+BackImage[0][4][1][0][0]=erzbergwerk.1.0
+BackImage[0][0][2][0][0]=erzbergwerk.2.4
+BackImage[0][1][2][0][0]=erzbergwerk.2.3
+BackImage[0][2][2][0][0]=erzbergwerk.2.2
+BackImage[0][3][2][0][0]=erzbergwerk.2.1
+BackImage[0][4][2][0][0]=erzbergwerk.2.0
+BackImage[0][0][3][0][0]=erzbergwerk.3.4
+BackImage[0][1][3][0][0]=erzbergwerk.3.3
+BackImage[0][2][3][0][0]=erzbergwerk.3.2
+BackImage[0][3][3][0][0]=erzbergwerk.3.1
+BackImage[0][4][3][0][0]=erzbergwerk.3.0
+BackImage[0][0][4][0][0]=erzbergwerk.4.4
+BackImage[0][1][4][0][0]=erzbergwerk.4.3
+BackImage[0][2][4][0][0]=erzbergwerk.4.2
+BackImage[0][3][4][0][0]=erzbergwerk.4.1
+BackImage[0][4][4][0][0]=erzbergwerk.4.0
+
+# EOF

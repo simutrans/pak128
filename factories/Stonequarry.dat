@@ -1,0 +1,32 @@
+Obj=factory
+name=Stonequarry
+Location=Land
+copyright=Flor Wauters & Patrick
+
+#needed productivity in tones  : 250t (1.5 train per month)
+#size                          : 3x3 = 9
+#average productivity per tile : 14
+
+DistributionWeight=1
+Productivity=200
+Range=100
+pax_level=50
+
+OutputGood[0]=Stone
+OutputCapacity[0]=800
+
+MapColor=8
+Dims=3,3
+#climates=mediterran,temperate,tundra
+
+BackImage[0][0][0][0][0]=stonequarry.0.0
+BackImage[0][1][0][0][0]=stonequarry.1.0
+BackImage[0][2][0][0][0]=stonequarry.2.0
+BackImage[0][0][1][0][0]=stonequarry.3.0
+BackImage[0][1][1][0][0]=stonequarry.4.0
+BackImage[0][2][1][0][0]=stonequarry.5.0
+BackImage[0][0][2][0][0]=stonequarry.6.0
+BackImage[0][1][2][0][0]=stonequarry.7.0
+BackImage[0][2][2][0][0]=stonequarry.8.0
+
+# EOF

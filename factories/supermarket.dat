@@ -1,0 +1,51 @@
+Obj=factory
+name=supermarket
+copyright=James Starr
+Location=City
+
+#needed productivity in tones  : 400
+#size                          : 4x4 = 16
+#average productivity per tile : 12,2
+
+DistributionWeight=2
+Productivity=350
+Range=200
+pax_level=120
+#intro_year=1930
+
+InputGood[0]=food
+InputCapacity[0]=1200
+InputSupplier[0]=2
+InputFactor[0]=200
+
+InputGood[1]=canned_food
+InputCapacity[1]=6000
+InputSupplier[1]=0
+InputFactor[1]=50
+
+InputGood[2]=beer
+InputCapacity[2]=3000
+InputSupplier[2]=0
+InputFactor[2]=180
+
+MapColor=100
+Dims=4,4
+
+BackImage[0][0][0][0][0]=supermarket.0.3
+BackImage[0][1][0][0][0]=supermarket.0.2
+BackImage[0][2][0][0][0]=supermarket.0.1
+BackImage[0][3][0][0][0]=supermarket.0.0
+BackImage[0][0][1][0][0]=supermarket.1.3
+BackImage[0][1][1][0][0]=supermarket.1.2
+BackImage[0][2][1][0][0]=supermarket.1.1
+BackImage[0][3][1][0][0]=supermarket.1.0
+BackImage[0][0][2][0][0]=supermarket.2.3
+BackImage[0][1][2][0][0]=supermarket.2.2
+BackImage[0][2][2][0][0]=supermarket.2.1
+BackImage[0][3][2][0][0]=supermarket.2.0
+BackImage[0][0][3][0][0]=supermarket.3.3
+BackImage[0][1][3][0][0]=supermarket.3.2
+BackImage[0][2][3][0][0]=supermarket.3.1
+BackImage[0][3][3][0][0]=supermarket.3.0
+
+# EOF

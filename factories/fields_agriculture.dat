@@ -1,0 +1,32 @@
+# agricultural field objects of pak128
+----------------------------------
+
+obj=field
+name=cotton_field
+copyright=Vladimir Slavik
+
+# 5 images, of which one is snow (if specified in factory file)
+# hence year is divided into four parts, each of three months
+
+Image[0]=fields_agriculture.2.0
+Image[1]=fields_agriculture.2.1
+Image[2]=fields_agriculture.2.2
+Image[3]=fields_agriculture.2.3
+# last image is for snow
+Image[4]=fields_agriculture.0.0
+
+----------------------------------
+
+obj=field
+name=grain_field
+copyright=Raven
+
+Image[0]=fields_agriculture.1.0
+Image[1]=fields_agriculture.1.1
+Image[2]=fields_agriculture.1.2
+Image[3]=fields_agriculture.1.3
+Image[4]=fields_agriculture.0.0
+
+----------------------------------
+
+# EOF

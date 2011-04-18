@@ -1,0 +1,38 @@
+Obj=factory
+name=Papierfabrik
+copyright=MHz
+Location=Land
+
+#needed productivity in tones  : 330t (2 trains / month)
+#size                          : 2x2 = 4
+#average productivity per tile : 41
+
+DistributionWeight=1
+Productivity=300
+Range=60
+pax_level=45
+
+Smoke=industry_smoke
+SmokeTile=0,0
+SmokeOffset=-16,-6
+SmokeSpeed=96
+
+#total input 240
+InputGood[0]=Holz
+InputCapacity[0]=4500
+InputSupplier[0]=0
+InputFactor[0]=70
+
+OutputGood[0]=Papier
+OutputCapacity[0]=500
+
+MapColor=18
+Dims=2,2
+climates=temperate,tundra
+
+BackImage[0][0][0][0][0]=papierfabrik.0.3
+BackImage[0][1][0][0][0]=papierfabrik.0.1
+BackImage[0][0][1][0][0]=papierfabrik.0.2
+BackImage[0][1][1][0][0]=papierfabrik.0.0
+
+# EOF

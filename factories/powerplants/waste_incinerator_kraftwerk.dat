@@ -1,0 +1,34 @@
+Obj=factory
+name=waste_incinerator_kraftwerk
+copyright=MHz
+Location=Land
+DistributionWeight=1
+
+#average rate:            100
+#total consumption:       300t
+#the trick here is needed to allow only modest electricity production
+
+Productivity=80
+Range=40
+pax_level=15
+
+Smoke=industry_smoke
+SmokeTile=1,0
+SmokeOffset=11,-59
+SmokeSpeed=128
+
+InputGood[0]=waste
+InputCapacity[0]=8000
+InputSupplier[0]=0
+InputFactor[0]=300
+
+MapColor=10
+Dims=2,2
+
+BackImage[0][0][0][0][0]=waste_incinerator_kraftwerk.0.1
+BackImage[0][1][0][0][0]=waste_incinerator_kraftwerk.0.0
+BackImage[0][0][1][0][0]=waste_incinerator_kraftwerk.2.1
+BackImage[0][0][1][1][0]=waste_incinerator_kraftwerk.1.1
+BackImage[0][1][1][0][0]=waste_incinerator_kraftwerk.2.0
+
+# EOF

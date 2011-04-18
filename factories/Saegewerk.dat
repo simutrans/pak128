@@ -1,0 +1,33 @@
+Obj=factory
+name=Saegewerk
+copyright=MHz
+Location=Land
+
+#needed productivity in tones  : 180 (1 train / month)
+#size                          : 2x2 = 4
+#average productivity per tile : 23
+
+DistributionWeight=1
+Productivity=100
+Range=160
+pax_level=30
+
+#total input 240
+InputGood[0]=Holz
+InputCapacity[0]=3000
+InputSupplier[0]=0
+InputFactor[0]=125
+
+OutputGood[0]=Bretter
+OutputCapacity[0]=500
+
+MapColor=17
+Dims=2,2
+climates=tropic,mediterran,temperate,tundra
+
+BackImage[0][0][0][0][0]=saegewerk.0.1
+BackImage[0][1][0][0][0]=saegewerk.0.0
+BackImage[0][0][1][0][0]=saegewerk.1.1
+BackImage[0][1][1][0][0]=saegewerk.1.0
+
+# EOF

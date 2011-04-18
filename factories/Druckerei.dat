@@ -1,0 +1,37 @@
+Obj=factory
+name=Druckerei
+copyright=Patrick
+Location=Land
+
+#needed productivity in tones  : 570 (4 trains / month)
+#size                          : 2x2 = 4
+#average productivity per tile : 71
+
+DistributionWeight=1
+Productivity=500
+Range=140
+pax_level=40
+
+#total input 330
+InputGood[0]=Papier
+InputCapacity[0]=800
+InputSupplier[0]=0
+InputFactor[0]=57
+
+InputGood[1]=Chemicals
+InputCapacity[1]=400
+InputSupplier[1]=0
+InputFactor[1]=20
+
+OutputGood[0]=Bucher
+OutputCapacity[0]=300
+
+MapColor=19
+Dims=2,2
+
+BackImage[0][0][0][0][0]=druckerei.0.1
+BackImage[0][1][0][0][0]=druckerei.0.0
+BackImage[0][0][1][0][0]=druckerei.0.3
+BackImage[0][1][1][0][0]=druckerei.0.2
+
+# EOF

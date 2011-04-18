@@ -1,0 +1,47 @@
+Obj=factory
+name=food_processing_plant
+copyright=James Starr
+Location=Land
+
+#needed productivity in tones  : 700 (5 trains / month)
+#size                          : 2x2 = 4
+#average productivity per tile : 88
+
+DistributionWeight=2
+Productivity=600
+Range=200
+pax_level=60
+
+#total meat input 140
+InputGood[0]=meat
+InputFactor[0]=20
+InputCapacity[0]=900
+InputSupplier[0]=0
+
+#total fish input 140 (average 1pond one swarm)
+InputGood[1]=fish
+InputFactor[1]=20
+InputCapacity[1]=900
+InputSupplier[1]=0
+
+#total flour input 500
+InputGood[2]=flour
+InputFactor[2]=70
+InputCapacity[2]=5000
+InputSupplier[2]=0
+
+
+OutputGood[0]=food
+OutputCapacity[0]=400
+
+MapColor=140
+Dims=2,2
+BackImage[0][0][0][0][0]=food_processing_plant.1.1
+BackImage[0][0][0][1][0]=food_processing_plant.0.1
+BackImage[0][1][0][0][0]=food_processing_plant.1.0
+BackImage[0][1][0][1][0]=food_processing_plant.0.0
+BackImage[0][0][1][0][0]=food_processing_plant.2.2
+BackImage[0][0][1][1][0]=food_processing_plant.1.2
+BackImage[0][1][1][0][0]=food_processing_plant.2.0
+
+# EOF

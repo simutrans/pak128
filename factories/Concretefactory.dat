@@ -1,0 +1,43 @@
+Obj=factory
+name=Concretefactory
+Location=Land
+copyright=MHz
+
+#needed productivity in tones  : 470t (16 waggons per month)
+#size                          : 2x2 = 4
+#average productivity per tile : 59
+
+DistributionWeight=1
+Productivity=400
+Range=140
+pax_level=15
+
+#stone input 210 - part of this quarry production is consumed by cement mill
+InputGood[0]=Stone
+InputCapacity[0]=1700
+InputFactor[0]=44
+
+#sand input 210
+InputGood[1]=Sand
+InputCapacity[1]=1700
+InputFactor[1]=44
+
+#cement input 105
+InputGood[2]=Cement
+InputCapacity[2]=1100
+InputFactor[2]=22
+
+OutputGood[0]=Concrete
+OutputCapacity[0]=500
+
+MapColor=11
+Dims=2,2
+
+BackImage[0][0][0][0][0]=concretefactory.1.1
+BackImage[0][0][0][1][0]=concretefactory.0.1
+BackImage[0][1][0][0][0]=concretefactory.1.0
+BackImage[0][1][0][1][0]=concretefactory.0.0
+BackImage[0][0][1][0][0]=concretefactory.2.1
+BackImage[0][1][1][0][0]=concretefactory.2.0
+
+# EOF

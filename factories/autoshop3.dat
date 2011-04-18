@@ -1,0 +1,26 @@
+Obj=factory
+name=autoshop3
+
+copyright=Joker
+
+Location=City
+
+DistributionWeight=1
+Productivity=100
+
+Range=20
+pax_level=3
+
+InputGood[0]=Autos
+InputCapacity[0]=100
+InputSupplier[0]=0
+
+MapColor=233
+Dims=2,2,1
+
+BackImage[0][0][0][0][0]=autoshop3.0.0
+BackImage[0][1][0][0][0]=autoshop3.1.0
+BackImage[0][0][1][0][0]=autoshop3.0.1
+BackImage[0][1][1][0][0]=autoshop3.1.1
+
+# EOF

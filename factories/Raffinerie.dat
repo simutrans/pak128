@@ -1,0 +1,47 @@
+Obj=factory
+name=Raffinerie
+copyright=MHz
+
+#needed productivity in tones  : 600t (3 trains / month) - spread
+#size                          : 3x3 = 9
+#average productivity per tile : 33
+
+DistributionWeight=1
+Productivity=500
+Range=100
+pax_level=30
+
+#Average input total 1600t
+InputGood[0]=Oel
+InputCapacity[0]=12000
+InputSupplier[0]=0
+InputFactor[0]=150
+
+OutputGood[0]=Gasoline
+OutputCapacity[0]=800
+OutputFactor[0]=80
+
+OutputGood[1]=Plastik
+OutputCapacity[1]=600
+OutputFactor[1]=100
+
+OutputGood[2]=Chemicals
+OutputCapacity[2]=300
+OutputFactor[2]=25
+
+Location=Land
+MapColor=253
+Dims=3,3
+
+BackImage[0][0][0][0][0]=raffinerie.0.3
+BackImage[0][1][0][0][0]=raffinerie.0.1
+BackImage[0][2][0][0][0]=raffinerie.0.0
+BackImage[0][0][1][0][0]=raffinerie.1.2
+BackImage[0][0][1][1][0]=raffinerie.0.2
+BackImage[0][1][1][0][0]=raffinerie.1.1
+BackImage[0][2][1][0][0]=raffinerie.1.0
+BackImage[0][0][2][0][0]=raffinerie.2.2
+BackImage[0][1][2][0][0]=raffinerie.2.1
+BackImage[0][2][2][0][0]=raffinerie.2.0
+
+# EOF

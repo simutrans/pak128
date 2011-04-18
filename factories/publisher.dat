@@ -1,0 +1,26 @@
+Obj=factory
+name=publisher
+Location=City
+
+copyright=Raven
+
+DistributionWeight=1
+Productivity=250
+Range=100
+pax_level=20
+
+InputGood[0]=Bucher
+InputCapacity[0]=800
+InputSupplier[0]=0
+InputFactor[0]=100
+
+MapColor=101
+Dims=2,2,1
+
+BackImage[0][0][0][0][0]=publisher.1.3
+BackImage[0][0][0][1][0]=publisher.0.3
+BackImage[0][1][0][0][0]=publisher.0.1
+BackImage[0][0][1][0][0]=publisher.0.2
+BackImage[0][1][1][0][0]=publisher.1.1
+
+# EOF

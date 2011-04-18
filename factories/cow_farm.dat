@@ -1,0 +1,55 @@
+Obj=factory
+name=cow_farm
+copyright=BlackBox
+#proper translation Cattle Yard
+Location=Land
+
+#needed productivity in tones  : 140 (1 train / month)
+#size                          : 5x5 = 25
+#average productivity per tile : 3
+
+DistributionWeight=1
+Productivity=100
+Range=80
+pax_level=30
+
+OutputGood[0]=meat
+OutputCapacity[0]=300
+OutputFactor[0]=100
+
+OutputGood[1]=milk
+OutputCapacity[1]=300
+OutputFactor[1]=200
+
+MapColor=135
+Dims=5,5
+climates=mediterran,temperate,tundra
+needs_ground=1
+
+BackImage[0][0][0][0][0]=cow_farm.0.4
+BackImage[0][1][0][0][0]=cow_farm.0.3
+BackImage[0][2][0][0][0]=cow_farm.0.2
+BackImage[0][3][0][0][0]=cow_farm.0.1
+BackImage[0][4][0][0][0]=cow_farm.0.0
+BackImage[0][0][1][0][0]=cow_farm.1.4
+BackImage[0][1][1][0][0]=cow_farm.1.3
+BackImage[0][2][1][0][0]=cow_farm.1.2
+BackImage[0][3][1][0][0]=cow_farm.1.1
+BackImage[0][4][1][0][0]=cow_farm.1.0
+BackImage[0][0][2][0][0]=cow_farm.2.4
+BackImage[0][1][2][0][0]=cow_farm.2.3
+BackImage[0][2][2][0][0]=cow_farm.2.2
+BackImage[0][3][2][0][0]=cow_farm.2.1
+BackImage[0][4][2][0][0]=cow_farm.2.0
+BackImage[0][0][3][0][0]=cow_farm.3.4
+BackImage[0][1][3][0][0]=cow_farm.3.3
+BackImage[0][2][3][0][0]=cow_farm.3.2
+BackImage[0][3][3][0][0]=cow_farm.3.1
+BackImage[0][4][3][0][0]=cow_farm.3.0
+BackImage[0][0][4][0][0]=cow_farm.4.4
+BackImage[0][1][4][0][0]=cow_farm.4.3
+BackImage[0][2][4][0][0]=cow_farm.4.2
+BackImage[0][3][4][0][0]=cow_farm.4.1
+BackImage[0][4][4][0][0]=cow_farm.4.0
+
+# EOF

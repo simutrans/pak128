@@ -1,0 +1,5 @@
+Obj=field
+name=ThermalCollectorField
+copyright=vilvoh
+Image[0]=thermalcollectorfield.1.0
+needs_ground=1

@@ -1,0 +1,37 @@
+Obj=factory
+name=sheep_farm
+Location=Land
+copyright=Patrick & Napik
+
+#needed productivity in tones  : 330 (1 trains / month)
+#size                          : 3x3 = 9
+#average productivity per tile : 18
+
+DistributionWeight=1
+Productivity=270
+Range=120
+pax_level=10
+
+OutputGood[0]=wool
+OutputCapacity[0]=800
+OutputFactor[0]=100
+
+OutputGood[1]=meat
+OutputCapacity[1]=400
+OutputFactor[1]=50
+
+MapColor=194
+Dims=3,3
+climates=mediterran,temperate,tundra
+
+BackImage[0][0][0][0][0]=sheep_farm.0.2
+BackImage[0][1][0][0][0]=sheep_farm.0.1
+BackImage[0][2][0][0][0]=sheep_farm.0.0
+BackImage[0][0][1][0][0]=sheep_farm.1.2
+BackImage[0][1][1][0][0]=sheep_farm.1.1
+BackImage[0][2][1][0][0]=sheep_farm.1.0
+BackImage[0][0][2][0][0]=sheep_farm.2.2
+BackImage[0][1][2][0][0]=sheep_farm.2.1
+BackImage[0][2][2][0][0]=sheep_farm.2.0
+
+# EOF

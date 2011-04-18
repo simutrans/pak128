@@ -1,0 +1,42 @@
+
+Obj=factory
+name=chicken_farm
+copyright=Patrick & Napik
+Location=Land
+
+#needed productivity in tones  : 140 (1 train / month)
+#size                          : 3x3 = 9
+#average productivity per tile : 8
+
+DistributionWeight=1
+Productivity=100
+Range=80
+pax_level=30
+
+OutputGood[0]=fertilizer
+OutputCapacity[0]=800
+OutputFactor[0]=50
+
+OutputGood[1]=meat
+OutputCapacity[1]=200
+OutputFactor[1]=100
+
+MapColor=136
+Dims=3,3
+
+climates=mediterran,temperate,tundra
+
+BackImage[0][0][0][0][0]=chicken_farm.0.2
+BackImage[0][1][0][0][0]=chicken_farm.0.1
+BackImage[0][2][0][0][0]=chicken_farm.0.0
+BackImage[0][2][0][0][1]=chicken_farm.1.0
+BackImage[0][0][1][0][0]=chicken_farm.0.5
+BackImage[0][1][1][0][0]=chicken_farm.0.4
+BackImage[0][2][1][0][0]=chicken_farm.0.3
+BackImage[0][2][1][0][1]=chicken_farm.1.3
+BackImage[0][0][2][0][0]=chicken_farm.0.8
+BackImage[0][1][2][0][0]=chicken_farm.0.7
+BackImage[0][2][2][0][0]=chicken_farm.0.6
+BackImage[0][2][2][0][1]=chicken_farm.1.6
+
+# EOF

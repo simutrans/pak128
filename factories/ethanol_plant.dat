@@ -1,0 +1,40 @@
+Obj=factory
+Name=ethanol_plant
+Copyright=Rmax500
+DistributionWeight=1
+Productivity=440
+Range=200
+pax_level=30
+
+#everage input 540 * 1.5 = 810t
+#supplies 2 modern gas stations
+
+InputGood[0]=corn
+InputCapacity[0]=8000
+InputSupplier[0]=0
+InputFactor[0]=150
+
+OutputGood[0]=Ethanol
+OutputCapacity[0]=500
+OutputFactor[0]=100
+
+MapColor=252
+intro_year=2000
+Dims=3,3
+
+BackImage[0][0][0][0][0]=ethanol_plant.0.2
+BackImage[0][0][1][0][0]=ethanol_plant.1.2
+BackImage[0][0][2][0][0]=ethanol_plant.2.2
+BackImage[0][1][0][0][0]=ethanol_plant.0.1
+BackImage[0][1][1][0][0]=ethanol_plant.1.1
+BackImage[0][1][2][0][0]=ethanol_plant.2.1
+BackImage[0][2][0][0][0]=ethanol_plant.0.0
+BackImage[0][2][1][0][0]=ethanol_plant.1.0
+BackImage[0][2][2][0][0]=ethanol_plant.2.0
+BackImage[0][0][0][1][0]=ethanol_plant.3.2
+BackImage[0][0][1][1][0]=ethanol_plant.3.1
+BackImage[0][0][2][1][0]=ethanol_plant.3.0
+BackImage[0][1][0][1][0]=ethanol_plant.4.1
+BackImage[0][2][0][1][0]=ethanol_plant.4.0
+
+# EOF
