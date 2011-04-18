@@ -1,0 +1,30 @@
+Obj=building
+Name=canal_ChannelStop
+type=stop
+waytype=water
+
+copyright=Patrick & Fabio Gonella
+
+enables_pax=1
+enables_post=1
+enables_ware=0
+Level=2
+#Ok, level=0 is internally -1 and thus illegal, level=1 is the old compatibility mode and level 2=32.
+
+intro_year = 1876
+intro_month = 1
+
+# must be 1*1
+Dims=1,1,2
+
+NoInfo=1
+
+BackImage[0][0][0][0][0]=canal_channelstop.1.0
+FrontImage[0][0][0][0][0]=canal_channelstop.1.2
+BackImage[1][0][0][0][0]=canal_channelstop.1.1
+FrontImage[1][0][0][0][0]=canal_channelstop.1.3
+
+icon=> canal_channelstop.1.4
+cursor=canal_channelstop.1.5
+
+# EOF

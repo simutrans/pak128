@@ -1,0 +1,81 @@
+#------------------------------------------------------------------------------#
+#                                                                              #
+#                                 Canals                                       #
+#                                                                              #
+--------------------------------------------------------------------------------
+
+Obj=way
+Name=water_road
+copyright=Fabio Gonella
+waytype=water
+cost=300000
+maintenance=600
+topspeed=35
+max_weight=5000
+intro_year = 1810
+intro_month = 7
+icon=> Canals.1.4
+cursor=Canals.2.4
+Image[-]=Canals.1.2
+Image[N]=Canals.3.0
+Image[S]=Canals.3.1
+Image[E]=Canals.3.2
+Image[W]=Canals.3.3
+Image[NS]=Canals.1.0
+Image[EW]=Canals.1.1
+Image[NSE]=Canals.4.0
+Image[NSW]=Canals.4.1
+Image[NEW]=Canals.4.2
+Image[SEW]=Canals.4.3
+Image[NSEW]=Canals.4.4
+Image[NE]=Canals.2.0
+Image[SE]=Canals.2.1
+Image[NW]=Canals.2.2
+Image[SW]=Canals.2.3
+# hangtyp * animation
+ImageUp[3]=Canals.5.2
+ImageUp[6]=Canals.5.3
+ImageUp[9]=Canals.5.1
+ImageUp[12]=Canals.5.0
+
+--------------------------------------------------------------------------------
+
+Obj=bridge
+name=water_bridge
+copyright=Fabio Gonella
+waytype=water
+cost=900000
+topspeed=30
+max_weight=5000
+intro_year = 1876
+intro_month = 1
+max_lenght=10
+icon=> Canals.6.4
+cursor=Canals.7.4
+BackImage[NS]=Canals.6.0
+FrontImage[NS]=Canals.6.1
+BackImage[EW]=Canals.6.2
+FrontImage[EW]=Canals.6.3
+BackStart[N]=Canals.8.0
+FrontStart[N]=Canals.8.1
+BackStart[S]=Canals.7.0
+FrontStart[S]=Canals.7.1
+BackStart[E]=Canals.7.2
+FrontStart[E]=Canals.7.3
+BackStart[W]=Canals.8.2
+FrontStart[W]=Canals.8.3
+BackRamp[N]=Canals.9.0
+FrontRamp[N]=Canals.9.1
+BackRamp[S]=Canals.10.0
+FrontRamp[S]=Canals.10.1
+BackRamp[E]=Canals.10.2
+FrontRamp[E]=Canals.10.3
+BackRamp[W]=Canals.9.2
+FrontRamp[W]=Canals.9.3
+pillar_distance=1
+backPillar[S]=Canals.9.4
+backPillar[W]=Canals.10.4
+
+--------------------------------------------------------------------------------
+
+# EOF
