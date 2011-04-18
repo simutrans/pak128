@@ -1,0 +1,19 @@
+
+Obj=building
+Name=Airport1990_PostOffice
+copyright=MHz
+type=extension
+waytype=air
+# 1 view
+NoInfo=1
+Dims=1,1,1
+enables_post=1
+Level=5
+intro_year = 1989
+intro_month = 10
+#retire_year = 2040
+#retire_month = 1
+cursor=airport1990_postoffice.1.2
+icon=> airport1990_postoffice.1.1
+BackImage[0][0][0][0][0]=airport1990_postoffice.1.0
+

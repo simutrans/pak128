@@ -1,0 +1,20 @@
+
+Obj=building
+Name=Airport1930PostOffice
+copyright=MHz
+type=extension
+waytype=air
+# must be 1*1
+#one view
+Dims=1,1,1
+NoInfo=1
+enables_post=1
+intro_year = 1930
+intro_month = 1
+retire_year = 1955
+retire_month = 1
+Level=4
+cursor=airport1930postoffice.1.2
+icon=> airport1930postoffice.1.1
+BackImage[0][0][0][0][0]=airport1930postoffice.1.0
+

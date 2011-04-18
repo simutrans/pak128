@@ -1,0 +1,23 @@
+
+Obj=building
+Name=1920_AirDepot
+copyright=MHz
+type=depot
+waytype=air
+NoInfo=1
+intro_year = 1918
+intro_month = 1
+retire_year = 1930
+retire_month = 2
+Dims=1,1,4
+FrontImage[0][0][0][0][0]=1920_airdepot.1.4
+BackImage[0][0][0][0][0]=1920_airdepot.1.0
+FrontImage[1][0][0][0][0]=1920_airdepot.1.5
+BackImage[1][0][0][0][0]=1920_airdepot.1.1
+FrontImage[2][0][0][0][0]=1920_airdepot.1.6
+BackImage[2][0][0][0][0]=1920_airdepot.1.2
+FrontImage[3][0][0][0][0]=1920_airdepot.1.7
+BackImage[3][0][0][0][0]=1920_airdepot.1.3
+icon=> 1920_airdepot.2.0
+cursor=1920_airdepot.2.1
+

@@ -1,0 +1,362 @@
+#
+# objects for airport realism eye candy (mostly)
+# ----------------------------------------------
+#
+#    - modern_runway-extMrkLgt
+#	additional runway markings and lights (touchdown zone, runway end warning)
+#		build over runway to make the stripes look better
+#		(they should have ends which need 2 tiles -> can't be done with regular way objects)
+#
+#    - special_PAPI_stop
+#	"Precision Approach Path Indicator" (PAPI) - visual help for correct glideslope; & "Wingbar Lights" (left)
+#
+#    - air_one-way
+#       alternative one-way sign, more realistic than the old one
+#
+#    - special_ALSF-2_DT_stop
+#	"Approach Lighting System with Sequenced Flashing Lights, configuration 2" (ALSF-2); with graphics for a Displaced Threshold (DT)
+#		animated runway approach light
+#
+#    - special_wingbar-r_stop
+#	"Wingbar Lights" (right side only - left is included in PAPI) - additional green lights for runway threshold, should form a line with the green lights on RWY end
+#
+
+-----------------------------
+
+obj=way-object
+name=modern_runway-extMrkLgt
+copyright=DirrrtyDirk
+waytype=air
+own_waytype=air
+cost=5000
+maintenance=900
+topspeed=360
+intro_year=1965
+intro_month=1
+
+BackImage[-]=-
+BackImage[NS]=-
+BackImage[EW]=-
+
+BackImage[S]=runway_addon.0.1
+BackImage[W]=runway_addon.0.3
+BackImage[N]=runway_addon.0.0
+BackImage[E]=runway_addon.0.2
+
+BackImage[NSE]=-
+BackImage[NSW]=-
+BackImage[NEW]=-
+BackImage[SEW]=-
+
+BackImage[NSEW]=-
+
+icon=> runway_addon.1.0
+cursor=runway_addon.1.1
+
+
+BackImage[NE]=-
+BackImage[SE]=-
+BackImage[NW]=-
+BackImage[SW]=-
+
+BackImageUp[12]=-
+BackImageUp[9]=-
+BackImageUp[6]=-
+BackImageUp[3]=-
+
+-----------------------------
+
+obj=building
+name=special_PAPI_stop
+copyright=DirrrtyDirk
+type=extension
+waytype=air
+Level=1
+intro_year=1965
+noinfo=1
+noconstruction=1
+needs_ground=1
+dims=1,1,4
+animation_time=20
+icon=> papi.0.4
+cursor=papi.1.4
+#View 1, Tile 1
+BackImage[0][0][0][0][0][0]=papi.0.0
+#FrontImage[0][0][0][0][0][0]=papi.1.0,64,32
+
+#View 2, Tile 1
+BackImage[1][0][0][0][0][0]=papi.0.3
+#FrontImage[0][0][0][0][0][0]=papi.1.1,-64,32
+
+#View 3, Tile 1
+BackImage[2][0][0][0][0][0]=papi.0.2
+#FrontImage[2][0][0][0][0][0]=papi.1.2,-64,-32
+
+#View 4, Tile 1
+BackImage[3][0][0][0][0][0]=papi.0.1
+#FrontImage[0][0][0][0][0][0]=papi.1.3,64,-32
+
+-----------------------------
+
+# airport one-way sign
+obj=roadsign
+name=air_one-way
+copyright=DirrrtyDirk
+single_way=1
+cost=500
+waytype=air
+intro_year=1965
+Image[0]=one-way.0.0
+Image[1]=one-way.0.1
+Image[2]=one-way.0.2
+Image[3]=one-way.0.3
+icon=> one-way.0.4
+cursor=one-way.0.5
+
+-----------------------------
+
+obj=building
+name=special_ALSF-2_DT_stop
+copyright=DirrrtyDirk
+type=extension
+waytype=air
+Level=1
+intro_year=1965
+noinfo=1
+noconstruction=1
+needs_ground=1
+dims=1,2,4
+animation_time=50
+icon=> alsf-2-dt.0.4
+cursor=alsf-2-dt.1.4
+#View 1, Tile 1
+BackImage[0][1][0][0][0][0]=alsf-2-dt.0.0
+FrontImage[0][1][0][0][0][0]=alsf-2-dt.0.0
+FrontImage[0][1][0][0][1][0]=alsf-2-dt.1.0
+FrontImage[0][1][0][0][2][0]=alsf-2-dt.2.0
+FrontImage[0][1][0][0][3][0]=alsf-2-dt.3.0
+FrontImage[0][1][0][0][4][0]=alsf-2-dt.4.0
+FrontImage[0][1][0][0][5][0]=alsf-2-dt.5.0
+FrontImage[0][1][0][0][6][0]=alsf-2-dt.6.0
+FrontImage[0][1][0][0][7][0]=alsf-2-dt.7.0
+FrontImage[0][1][0][0][8][0]=alsf-2-dt.8.0
+FrontImage[0][1][0][0][9][0]=alsf-2-dt.9.0
+FrontImage[0][1][0][0][10][0]=alsf-2-dt.10.0
+FrontImage[0][1][0][0][11][0]=-
+FrontImage[0][1][0][0][12][0]=-
+FrontImage[0][1][0][0][13][0]=-
+FrontImage[0][1][0][0][14][0]=-
+#FrontImage[0][1][0][0][15][0]=-
+#FrontImage[0][1][0][0][16][0]=-
+#FrontImage[0][1][0][0][17][0]=-
+#FrontImage[0][1][0][0][18][0]=-
+#FrontImage[0][1][0][0][19][0]=-
+#FrontImage[0][1][0][0][20][0]=-
+#FrontImage[0][1][0][0][21][0]=-
+
+#View 1, Tile 2
+BackImage[0][0][0][0][0][0]=alsf-2-dt.0.1
+FrontImage[0][0][0][0][0][0]=-
+FrontImage[0][0][0][0][1][0]=-
+FrontImage[0][0][0][0][2][0]=-
+FrontImage[0][0][0][0][3][0]=-
+FrontImage[0][0][0][0][4][0]=-
+FrontImage[0][0][0][0][5][0]=-
+FrontImage[0][0][0][0][6][0]=-
+FrontImage[0][0][0][0][7][0]=-
+FrontImage[0][0][0][0][8][0]=-
+FrontImage[0][0][0][0][9][0]=-
+FrontImage[0][0][0][0][10][0]=-
+FrontImage[0][0][0][0][11][0]=alsf-2-dt.1.1
+FrontImage[0][0][0][0][12][0]=alsf-2-dt.2.1
+FrontImage[0][0][0][0][13][0]=alsf-2-dt.3.1
+FrontImage[0][0][0][0][14][0]=alsf-2-dt.4.1
+#FrontImage[0][0][0][0][15][0]=alsf-2-dt.5.1
+#FrontImage[0][0][0][0][16][0]=alsf-2-dt.6.1
+#FrontImage[0][0][0][0][17][0]=alsf-2-dt.7.1
+#FrontImage[0][0][0][0][18][0]=alsf-2-dt.8.1
+#FrontImage[0][0][0][0][19][0]=alsf-2-dt.9.1
+#FrontImage[0][0][0][0][20][0]=alsf-2-dt.10.1
+#FrontImage[0][0][0][0][21][0]=alsf-2-dt.11.1
+
+#View 2, Tile 1
+BackImage[1][0][0][0][0][0]=alsf-2-dt.0.7
+FrontImage[1][0][0][0][0][0]=-
+FrontImage[1][0][0][0][1][0]=-
+FrontImage[1][0][0][0][2][0]=-
+FrontImage[1][0][0][0][3][0]=-
+FrontImage[1][0][0][0][4][0]=-
+FrontImage[1][0][0][0][5][0]=-
+FrontImage[1][0][0][0][6][0]=-
+FrontImage[1][0][0][0][7][0]=-
+FrontImage[1][0][0][0][8][0]=-
+FrontImage[1][0][0][0][9][0]=-
+FrontImage[1][0][0][0][10][0]=-
+FrontImage[1][0][0][0][11][0]=-
+FrontImage[1][0][0][0][12][0]=-
+FrontImage[1][0][0][0][13][0]=-
+FrontImage[1][0][0][0][14][0]=-
+#FrontImage[1][0][0][0][15][0]=-
+#FrontImage[1][0][0][0][16][0]=-
+#FrontImage[1][0][0][0][17][0]=-
+#FrontImage[1][0][0][0][18][0]=-
+#FrontImage[1][0][0][0][19][0]=-
+#FrontImage[1][0][0][0][20][0]=-
+#FrontImage[1][0][0][0][21][0]=-
+
+#View 2, Tile 2
+BackImage[1][0][1][0][0][0]=alsf-2-dt.0.8
+FrontImage[1][0][1][0][0][0]=-
+FrontImage[1][0][1][0][1][0]=-
+FrontImage[1][0][1][0][2][0]=-
+FrontImage[1][0][1][0][3][0]=-
+FrontImage[1][0][1][0][4][0]=-
+FrontImage[1][0][1][0][5][0]=-
+FrontImage[1][0][1][0][6][0]=-
+FrontImage[1][0][1][0][7][0]=-
+FrontImage[1][0][1][0][8][0]=-
+FrontImage[1][0][1][0][9][0]=-
+FrontImage[1][0][1][0][10][0]=-
+FrontImage[1][0][1][0][11][0]=-
+FrontImage[1][0][1][0][12][0]=-
+FrontImage[1][0][1][0][13][0]=-
+FrontImage[1][0][1][0][14][0]=-
+#FrontImage[1][0][1][0][15][0]=-
+#FrontImage[1][0][1][0][16][0]=-
+#FrontImage[1][0][1][0][17][0]=-
+#FrontImage[1][0][1][0][18][0]=-
+#FrontImage[1][0][1][0][19][0]=-
+#FrontImage[1][0][1][0][20][0]=-
+#FrontImage[1][0][1][0][21][0]=-
+
+#View 3, Tile 1
+BackImage[2][1][0][0][0][0]=alsf-2-dt.0.5
+FrontImage[2][1][0][0][0][0]=-
+FrontImage[2][1][0][0][1][0]=-
+FrontImage[2][1][0][0][2][0]=-
+FrontImage[2][1][0][0][3][0]=-
+FrontImage[2][1][0][0][4][0]=-
+FrontImage[2][1][0][0][5][0]=-
+FrontImage[2][1][0][0][6][0]=-
+FrontImage[2][1][0][0][7][0]=-
+FrontImage[2][1][0][0][8][0]=-
+FrontImage[2][1][0][0][9][0]=-
+FrontImage[2][1][0][0][10][0]=-
+FrontImage[2][1][0][0][11][0]=-
+FrontImage[2][1][0][0][12][0]=-
+FrontImage[2][1][0][0][13][0]=-
+FrontImage[2][1][0][0][14][0]=-
+#FrontImage[2][1][0][0][15][0]=-
+#FrontImage[2][1][0][0][16][0]=-
+#FrontImage[2][1][0][0][17][0]=-
+#FrontImage[2][1][0][0][18][0]=-
+#FrontImage[2][1][0][0][19][0]=-
+#FrontImage[2][1][0][0][20][0]=-
+#FrontImage[2][1][0][0][21][0]=-
+
+#View 3, Tile 2
+BackImage[2][0][0][0][0][0]=alsf-2-dt.0.6
+FrontImage[2][0][0][0][0][0]=-
+FrontImage[2][0][0][0][1][0]=-
+FrontImage[2][0][0][0][2][0]=-
+FrontImage[2][0][0][0][3][0]=-
+FrontImage[2][0][0][0][4][0]=-
+FrontImage[2][0][0][0][5][0]=-
+FrontImage[2][0][0][0][6][0]=-
+FrontImage[2][0][0][0][7][0]=-
+FrontImage[2][0][0][0][8][0]=-
+FrontImage[2][0][0][0][9][0]=-
+FrontImage[2][0][0][0][10][0]=-
+FrontImage[2][0][0][0][11][0]=-
+FrontImage[2][0][0][0][12][0]=-
+FrontImage[2][0][0][0][13][0]=-
+FrontImage[2][0][0][0][14][0]=-
+#FrontImage[2][0][0][0][15][0]=-
+#FrontImage[2][0][0][0][16][0]=-
+#FrontImage[2][0][0][0][17][0]=-
+#FrontImage[2][0][0][0][18][0]=-
+#FrontImage[2][0][0][0][19][0]=-
+#FrontImage[2][0][0][0][20][0]=-
+#FrontImage[2][0][0][0][21][0]=-
+
+#View 4, Tile 1
+BackImage[3][0][0][0][0][0]=alsf-2-dt.0.2
+FrontImage[3][0][0][0][0][0]=alsf-2-dt.0.2
+FrontImage[3][0][0][0][1][0]=alsf-2-dt.1.2
+FrontImage[3][0][0][0][2][0]=alsf-2-dt.2.2
+FrontImage[3][0][0][0][3][0]=alsf-2-dt.3.2
+FrontImage[3][0][0][0][4][0]=alsf-2-dt.4.2
+FrontImage[3][0][0][0][5][0]=alsf-2-dt.5.2
+FrontImage[3][0][0][0][6][0]=alsf-2-dt.6.2
+FrontImage[3][0][0][0][7][0]=alsf-2-dt.7.2
+FrontImage[3][0][0][0][8][0]=alsf-2-dt.8.2
+FrontImage[3][0][0][0][9][0]=alsf-2-dt.9.2
+FrontImage[3][0][0][0][10][0]=alsf-2-dt.10.2
+FrontImage[3][0][0][0][11][0]=-
+FrontImage[3][0][0][0][12][0]=-
+FrontImage[3][0][0][0][13][0]=-
+FrontImage[3][0][0][0][14][0]=-
+#FrontImage[3][0][0][0][15][0]=-
+#FrontImage[3][0][0][0][16][0]=-
+#FrontImage[3][0][0][0][17][0]=-
+#FrontImage[3][0][0][0][18][0]=-
+#FrontImage[3][0][0][0][19][0]=-
+#FrontImage[3][0][0][0][20][0]=-
+#FrontImage[3][0][0][0][21][0]=-
+
+
+#View 4, Tile 2
+BackImage[3][0][1][0][0][0]=alsf-2-dt.0.3
+FrontImage[3][0][1][0][0][0]=-
+FrontImage[3][0][1][0][1][0]=-
+FrontImage[3][0][1][0][2][0]=-
+FrontImage[3][0][1][0][3][0]=-
+FrontImage[3][0][1][0][4][0]=-
+FrontImage[3][0][1][0][5][0]=-
+FrontImage[3][0][1][0][6][0]=-
+FrontImage[3][0][1][0][7][0]=-
+FrontImage[3][0][1][0][8][0]=-
+FrontImage[3][0][1][0][9][0]=-
+FrontImage[3][0][1][0][10][0]=-
+FrontImage[3][0][1][0][11][0]=alsf-2-dt.1.3
+FrontImage[3][0][1][0][12][0]=alsf-2-dt.2.3
+FrontImage[3][0][1][0][13][0]=alsf-2-dt.3.3
+FrontImage[3][0][1][0][14][0]=alsf-2-dt.4.3
+#FrontImage[3][0][1][0][15][0]=alsf-2-dt.5.3
+#FrontImage[3][0][1][0][16][0]=alsf-2-dt.6.3
+#FrontImage[3][0][1][0][17][0]=alsf-2-dt.7.3
+#FrontImage[3][0][1][0][18][0]=alsf-2-dt.8.3
+#FrontImage[3][0][1][0][19][0]=alsf-2-dt.9.3
+#FrontImage[3][0][1][0][20][0]=alsf-2-dt.10.3
+#FrontImage[3][0][1][0][21][0]=alsf-2-dt.11.3
+
+-----------------------------
+
+obj=building
+name=special_wingbar-r_stop
+copyright=DirrrtyDirk
+type=extension
+waytype=air
+Level=1
+intro_year=1965
+noinfo=1
+noconstruction=1
+needs_ground=1
+dims=1,1,4
+icon=> wingbar_right.1.0
+cursor=wingbar_right.1.1
+#View 1, Tile 1
+BackImage[0][0][0][0][0][0]=wingbar_right.0.0
+
+#View 2, Tile 1
+BackImage[1][0][0][0][0][0]=wingbar_right.0.3
+
+#View 3, Tile 1
+BackImage[2][0][0][0][0][0]=wingbar_right.0.2
+
+#View 4, Tile 1
+BackImage[3][0][0][0][0][0]=wingbar_right.0.1
+
+-----------------------------
+
+# EOF

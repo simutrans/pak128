@@ -1,0 +1,23 @@
+
+Obj=building
+Name=1990AirDepot
+copyright=MHz
+type=depot
+waytype=air
+NoInfo=1
+intro_year = 1989
+intro_month = 9
+#retire_year = 2040
+#retire_month = 1
+Dims=1,1,4
+cursor=1990airdepot.1.5
+icon=> 1990airdepot.1.4
+FrontImage[0][0][0][0][0]=1990airdepot.1.0
+#BackImage[0][0][0][0][0]=AIRPORT_1990.0.0
+FrontImage[1][0][0][0][0]=1990airdepot.1.1
+#BackImage[1][0][0][0][0]=AIRPORT_1990.0.3
+FrontImage[2][0][0][0][0]=1990airdepot.1.2
+#BackImage[2][0][0][0][0]=AIRPORT_1990.0.2
+FrontImage[3][0][0][0][0]=1990airdepot.1.3
+#BackImage[3][0][0][0][0]=AIRPORT_1990.0.1
+

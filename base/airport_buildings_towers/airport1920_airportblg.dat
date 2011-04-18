@@ -1,0 +1,20 @@
+
+Obj=building
+Name=Airport1920_AirportBlg
+copyright=MHz
+type=extension
+waytype=air
+enables_pax=1
+NoInfo=1
+Level=3
+intro_year = 1918
+intro_month = 1
+retire_year = 1932
+retire_month = 1
+# Order N,E,S,W
+Dims=1,1,2
+BackImage[1][0][0][0][0]=airport1920_airportblg.1.0
+BackImage[0][0][0][0][0]=airport1920_airportblg.1.1
+icon=> airport1920_airportblg.1.2
+cursor=airport1920_airportblg.1.3
+

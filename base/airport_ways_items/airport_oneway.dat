@@ -1,0 +1,17 @@
+obj=roadsign
+name=airport_oneway
+copyright=Shunter
+type=airport
+waytype=air
+min_speed=0
+single_way=1
+free_route=0
+is_private=0
+Icon=> airport_oneway.0.4
+Cursor=airport_oneway.0.5
+Image[0]=airport_oneway.0.1
+Image[1]=airport_oneway.0.0
+Image[2]=airport_oneway.0.3
+Image[3]=airport_oneway.0.2
+
+# EOF
