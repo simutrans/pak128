@@ -1,0 +1,31 @@
+#TUNNEL
+obj=tunnel
+name=road_090_tunnel
+waytype=road
+copyright=Fabio Gonella
+cost=160000
+maintenance=2400
+topspeed=90
+max_weight=80
+intro_year = 1945
+intro_month = 1
+icon=> road_090_tunnel.3.0
+cursor=road_090_tunnel.3.1,0,-16
+#SUMMER
+FrontImage[N][0]=road_090_tunnel.2.0
+BackImage[N][0]=road_090_tunnel.1.0
+FrontImage[S][0]=road_090_tunnel.2.1
+BackImage[S][0]=road_090_tunnel.1.1
+FrontImage[E][0]=road_090_tunnel.2.2
+BackImage[E][0]=road_090_tunnel.1.2
+FrontImage[W][0]=road_090_tunnel.2.3
+BackImage[W][0]=road_090_tunnel.1.3
+#WINTER
+FrontImage[N][1]=road_090_tunnel.2.4
+BackImage[N][1]=road_090_tunnel.1.4
+FrontImage[S][1]=road_090_tunnel.2.5
+BackImage[S][1]=road_090_tunnel.1.5
+FrontImage[E][1]=road_090_tunnel.2.6
+BackImage[E][1]=road_090_tunnel.1.6
+FrontImage[W][1]=road_090_tunnel.2.7
+BackImage[W][1]=road_090_tunnel.1.7
