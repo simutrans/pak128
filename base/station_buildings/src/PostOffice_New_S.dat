@@ -1,0 +1,26 @@
+obj=building
+name=ModernPostOffice
+Copyright=Zkou2
+type=extension
+
+intro_year=1977
+intro_month=1
+
+enables_post=1
+
+NoInfo=1
+Level=5
+Dims=1,1,4
+
+cursor=PostOffice_New_S.1.4
+icon=> PostOffice_New_S.0.4
+
+backimage[0][0][0][0][0][0]=PostOffice_New_S.0.0
+backimage[3][0][0][0][0][0]=PostOffice_New_S.0.1
+backimage[2][0][0][0][0][0]=PostOffice_New_S.0.2
+backimage[1][0][0][0][0][0]=PostOffice_New_S.0.3
+
+backimage[0][0][0][0][0][1]=PostOffice_New_S.1.0
+backimage[3][0][0][0][0][1]=PostOffice_New_S.1.1
+backimage[2][0][0][0][0][1]=PostOffice_New_S.1.2
+backimage[1][0][0][0][0][1]=PostOffice_New_S.1.3

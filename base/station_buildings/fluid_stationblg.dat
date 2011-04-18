@@ -1,0 +1,15 @@
+
+Obj=building
+Name=Fluid_StationBlg
+#automatic alignment of station extension buildings (must be either defined with dim=x,y,layout (layout=1,2 or 4), x>=y and following order N E S W)
+type=extension
+enables_ware=1
+Level=8
+copyright=Raven
+intro_year = 1877
+intro_month = 1
+NoInfo=1
+BackImage[0][0][0][0][0]=fluid_stationblg.1.0
+icon=> fluid_stationblg.1.1
+cursor=fluid_stationblg.1.2
+

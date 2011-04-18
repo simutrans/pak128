@@ -1,0 +1,15 @@
+
+Obj=building
+Name=Control_StationBlg
+#part of station, no specific purpose
+type=extension
+waytype=track
+Level=5
+copyright=MHz
+intro_year = 1887
+intro_month = 1
+NoInfo=1
+BackImage[0][0][0][0][0]=control_stationblg.1.0
+icon=> control_stationblg.1.1
+cursor=control_stationblg.1.2
+

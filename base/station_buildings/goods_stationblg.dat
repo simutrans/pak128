@@ -1,0 +1,14 @@
+
+Obj=building
+Name=Goods_StationBlg
+type=extension
+enables_ware=1
+Level=6
+intro_year = 1801
+intro_month = 1
+copyright=Raven
+NoInfo=1
+BackImage[0][0][0][0][0]=goods_stationblg.1.0
+icon=> goods_stationblg.1.1
+cursor=goods_stationblg.1.2
+

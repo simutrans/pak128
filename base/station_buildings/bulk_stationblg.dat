@@ -1,0 +1,14 @@
+
+Obj=building
+Name=Bulk_StationBlg
+type=extension
+enables_ware=1
+Level=5
+intro_year = 1967
+intro_month = 1
+copyright=Vladimir Slavik
+NoInfo=1
+BackImage[0][0][0][0][0]=bulk_stationblg.1.0
+icon=> bulk_stationblg.1.1
+cursor=bulk_stationblg.1.2
+

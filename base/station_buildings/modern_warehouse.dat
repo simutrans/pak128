@@ -1,0 +1,23 @@
+Obj=building
+Name=Modern_Warehouse
+copyright=Zeno
+
+type=extension
+enables_ware=1
+Level=10
+
+intro_year=1965
+intro_month=1
+
+NoInfo=1
+Dims=1,1,4
+
+BackImage[0][0][0][0][0][0]=modern_warehouse.1.0
+BackImage[1][0][0][0][0][0]=modern_warehouse.1.1
+BackImage[2][0][0][0][0][0]=modern_warehouse.1.2
+BackImage[3][0][0][0][0][0]=modern_warehouse.1.3
+
+icon=> modern_warehouse.1.4
+cursor=modern_warehouse.1.5
+
+# EOF
