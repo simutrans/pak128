@@ -1,0 +1,27 @@
+#Skoda 109E
+#Projekt pro stredoevropsk?eleznice
+#Cena: 125 000 000 Kc
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=Skoda_109E
+copyright=Sindor
+waytype=track
+engine_type=electric
+freight=None
+payload=0
+speed=210
+power=6050
+gear=106
+weight=86
+cost=24960000
+runningcost=266
+intro_year=2008
+intro_month=8
+constraint[prev][0]=Skoda_109E
+constraint[prev][1]=none
+smoke=-1
+sound=train-horn-electric-0.wav
+emptyimage[w]=skoda_109e.1.0
+emptyimage[se]=skoda_109e.1.5
+emptyimage[s]=skoda_109e.1.6
+emptyimage[sw]=skoda_109e.1.7
