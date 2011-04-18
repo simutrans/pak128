@@ -1,0 +1,8 @@
+obj=building
+name=RES_10_25
+copyright=Trikky
+type=res
+level=25
+intro_year=1985
+retire_year=2999
+backimage[0][0][0][0][0]=res_10_25.1.0

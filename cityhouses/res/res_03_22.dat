@@ -1,0 +1,8 @@
+obj=building
+name=RES_03_22
+copyright=MHz
+type=res
+level=22
+intro_year=1912
+retire_year=1988
+backimage[0][0][0][0][0]=res_03_22.1.0

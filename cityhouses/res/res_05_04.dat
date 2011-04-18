@@ -1,0 +1,8 @@
+obj=building
+name=RES_05_04
+copyright=Napik
+type=res
+level=4
+intro_year=1940
+retire_year=1982
+backimage[0][0][0][0][0]=res_05_04.1.0

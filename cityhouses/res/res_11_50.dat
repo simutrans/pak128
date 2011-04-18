@@ -1,0 +1,9 @@
+obj=building
+name=RES_11_50
+copyright=Trikky
+type=res
+level=50
+intro_year=1999
+retire_year=2999
+backimage[0][0][0][1][0]=res_11_50.1.0
+backimage[0][0][0][0][0]=res_11_50.2.0

@@ -1,0 +1,10 @@
+obj=building
+name=RES_11_32
+copyright=MHz
+type=res
+level=32
+intro_year=1971
+retire_year=2009
+chance=100
+backimage[0][0][0][1][0]=res_11_32.1.0
+backimage[0][0][0][0][0]=res_11_32.2.0

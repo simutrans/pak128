@@ -1,0 +1,8 @@
+obj=building
+name=RES_07_18
+copyright=Patrick
+type=res
+level=18
+intro_year=1965
+retire_year=2018
+backimage[0][0][0][0][0]=res_07_18.1.0

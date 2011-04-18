@@ -1,0 +1,8 @@
+obj=building
+name=RES_06_15
+copyright=MHz
+type=res
+level=15
+intro_year=1951
+retire_year=1999
+backimage[0][0][0][0][0]=res_06_15.1.0

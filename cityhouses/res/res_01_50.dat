@@ -1,0 +1,12 @@
+obj=building
+name=RES_01_50
+copyright=Rmax500
+type=res
+level=50
+intro_year=1923
+retire_year=2007
+climates=desert,mediterran,tropic,temperate,tundra
+backimage[0][0][0][1][1]=res_01_50.1.1
+backimage[0][0][0][1][0]=res_01_50.1.0
+backimage[0][0][0][0][1]=res_01_50.2.1
+backimage[0][0][0][0][0]=res_01_50.2.0

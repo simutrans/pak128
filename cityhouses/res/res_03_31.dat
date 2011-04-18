@@ -1,0 +1,9 @@
+obj=building
+name=RES_03_31
+copyright=Vitus
+type=res
+level=31
+intro_year=1916
+retire_year=1990
+backimage[0][0][0][1][0]=res_03_31.1.0
+backimage[0][0][0][0][0]=res_03_31.2.0

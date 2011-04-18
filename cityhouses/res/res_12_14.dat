@@ -1,0 +1,13 @@
+#
+#Residental
+#
+#-------------------------------------------------------------------------------
+obj=building
+name=RES_12_14
+copyright=Propermike
+type=res
+level=14
+intro_year=1987
+retire_year=2999
+chance=100
+backimage[0][0][0][0][0]=res_12_14.1.0

@@ -1,0 +1,9 @@
+obj=building
+name=RES_13_60
+copyright=Patrick
+type=res
+level=60
+intro_year=2024
+retire_year=2999
+backimage[0][0][0][1][0]=res_13_60.1.0
+backimage[0][0][0][0][0]=res_13_60.2.0

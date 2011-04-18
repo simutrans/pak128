@@ -1,0 +1,9 @@
+obj=building
+name=RES_13_25
+copyright=MHz
+type=res
+level=25
+intro_year=1990
+retire_year=2999
+chance=100
+backimage[0][0][0][0][0]=res_13_25.1.0

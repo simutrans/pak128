@@ -1,0 +1,8 @@
+obj=building
+name=RES_00_02
+copyright=Hajo & Flor Wauters
+type=res
+level=2
+intro_year=1896
+retire_year=1935
+backimage[0][0][0][0][0]=res_00_02.1.0

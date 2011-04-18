@@ -1,0 +1,8 @@
+obj=building
+name=RES_04_20
+copyright=Rmax500
+type=res
+level=20
+intro_year=1859
+retire_year=1945
+backimage[0][0][0][0][0]=res_04_20.1.0

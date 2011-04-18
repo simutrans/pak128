@@ -1,0 +1,8 @@
+obj=building
+name=RES_05_20
+copyright=Hajo
+type=res
+level=20
+intro_year=1939
+retire_year=1995
+backimage[0][0][0][0][0]=res_05_20.1.0

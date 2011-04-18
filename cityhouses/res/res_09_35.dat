@@ -1,0 +1,12 @@
+obj=building
+name=RES_09_35
+copyright=Rmax500
+type=res
+level=35
+intro_year=1914
+retire_year=1998
+climates=desert,mediterran,tropic,temperate,tundra
+backimage[0][0][0][0][0]=res_09_35.2.0
+backimage[0][0][0][1][1]=res_09_35.1.1
+backimage[0][0][0][1][0]=res_09_35.1.0
+backimage[0][0][0][0][1]=res_09_35.2.1

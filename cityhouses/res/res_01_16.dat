@@ -1,0 +1,8 @@
+obj=building
+name=RES_01_16
+copyright=Napik
+type=res
+level=16
+intro_year=1905
+retire_year=1959
+backimage[0][0][0][0][0]=res_01_16.1.0

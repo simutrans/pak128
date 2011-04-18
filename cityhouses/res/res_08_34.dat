@@ -1,0 +1,9 @@
+obj=building
+name=RES_08_34
+copyright=Raven
+type=res
+level=34
+intro_year=1967
+retire_year=2046
+backimage[0][0][0][1][0]=res_08_34.1.0
+backimage[0][0][0][0][0]=res_08_34.2.0

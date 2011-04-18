@@ -1,0 +1,8 @@
+obj=building
+name=RES_01_22
+copyright=James Starr
+type=res
+level=22
+intro_year=1899
+retire_year=1959
+backimage[0][0][0][0][0]=res_01_22.1.0

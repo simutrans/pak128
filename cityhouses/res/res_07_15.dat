@@ -1,0 +1,8 @@
+obj=building
+name=RES_07_15
+copyright=Raven
+type=res
+level=15
+intro_year=1960
+retire_year=2014
+backimage[0][0][0][0][0]=res_07_15.1.0

@@ -1,0 +1,8 @@
+obj=building
+name=RES_02_38
+copyright=Napik
+type=res
+level=38
+intro_year=1909
+retire_year=1989
+backimage[0][0][0][0][0]=res_02_38.1.0

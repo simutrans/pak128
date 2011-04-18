@@ -1,0 +1,13 @@
+obj=building
+name=RES_15_14
+copyright=Rmax500
+type=res
+level=14
+intro_year=1800
+retire_year=1960
+chance=100
+climates=rocky,tundra,temperate,arctic
+needs_ground=1
+seasons=2
+backimage[0][0][0][0][0][1]=res_15_14.1.1
+backimage[0][0][0][0][0][0]=res_15_14.1.0

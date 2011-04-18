@@ -1,0 +1,10 @@
+obj=building
+name=RES_03_34
+copyright=MHz
+type=res
+level=34
+intro_year=1974
+retire_year=2010
+chance=100
+backimage[0][0][0][1][0]=res_03_34.1.0
+backimage[0][0][0][0][0]=res_03_34.2.0

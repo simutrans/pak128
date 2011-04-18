@@ -1,0 +1,9 @@
+obj=building
+name=RES_11_33
+copyright=Patrick
+type=res
+level=33
+intro_year=2001
+retire_year=2999
+backimage[0][0][0][1][0]=res_11_33.1.0
+backimage[0][0][0][0][0]=res_11_33.2.0

@@ -1,0 +1,8 @@
+obj=building
+name=RES_08_10
+copyright=Patrick
+type=res
+level=10
+intro_year=1970
+retire_year=2020
+backimage[0][0][0][0][0]=res_08_10.1.0

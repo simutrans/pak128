@@ -1,0 +1,8 @@
+obj=building
+name=RES_10_26
+copyright=Trikky & Patrick
+type=res
+level=26
+intro_year=1989
+retire_year=2999
+backimage[0][0][0][0][0]=res_10_26.1.0

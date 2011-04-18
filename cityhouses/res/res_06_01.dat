@@ -1,0 +1,8 @@
+obj=building
+name=RES_06_01
+copyright=Napik & Patrick
+type=res
+level=1
+intro_year=1944
+retire_year=1989
+backimage[0][0][0][0][0]=res_06_01.1.0

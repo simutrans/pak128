@@ -1,0 +1,9 @@
+obj=building
+name=RES_01_31
+copyright=Peter J. Dobrovka
+type=res
+level=31
+intro_year=1905
+retire_year=1979
+backimage[0][0][0][1][0]=res_01_31.1.0
+backimage[0][0][0][0][0]=res_01_31.2.0

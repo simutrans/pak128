@@ -1,0 +1,11 @@
+obj=building
+name=RES_15_17
+copyright=Rmax500
+type=res
+level=17
+intro_year=1937
+retire_year=2011
+climates=mediterran,temperate,tundra,rocky
+needs_ground=1
+backimage[0][0][0][0][0][1]=res_15_17.1.1
+backimage[0][0][0][0][0][0]=res_15_17.1.0

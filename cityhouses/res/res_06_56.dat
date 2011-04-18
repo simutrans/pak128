@@ -1,0 +1,9 @@
+obj=building
+name=RES_06_56
+copyright=MHz
+type=res
+level=56
+intro_year=1953
+retire_year=2045
+backimage[0][0][0][1][0]=res_06_56.1.0
+backimage[0][0][0][0][0]=res_06_56.2.0

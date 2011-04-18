@@ -1,0 +1,8 @@
+obj=building
+name=RES_00_16
+copyright=Patrick
+type=res
+level=16
+intro_year=1891
+retire_year=1944
+backimage[0][0][0][0][0]=res_00_16.1.0

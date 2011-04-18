@@ -1,0 +1,8 @@
+obj=building
+name=RES_03_39
+copyright=Raven
+type=res
+level=39
+intro_year=1920
+retire_year=1999
+backimage[0][0][0][0][0]=res_03_39.1.0

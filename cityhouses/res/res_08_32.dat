@@ -1,0 +1,9 @@
+obj=building
+name=RES_08_32
+copyright=MHz
+type=res
+level=32
+intro_year=1965
+retire_year=2040
+backimage[0][0][0][1][0]=res_08_32.1.0
+backimage[0][0][0][0][0]=res_08_32.2.0

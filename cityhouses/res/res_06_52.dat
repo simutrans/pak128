@@ -1,0 +1,9 @@
+obj=building
+name=RES_06_52
+copyright=Patrick
+type=res
+level=52
+intro_year=1951
+retire_year=2045
+backimage[0][0][0][1][0]=res_06_52.1.0
+backimage[0][0][0][0][0]=res_06_52.2.0

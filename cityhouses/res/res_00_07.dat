@@ -1,0 +1,8 @@
+obj=building
+name=RES_00_07
+copyright=Napik
+type=res
+level=7
+intro_year=1886
+retire_year=1939
+backimage[0][0][0][0][0]=res_00_07.1.0

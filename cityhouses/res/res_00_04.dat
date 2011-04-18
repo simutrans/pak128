@@ -1,0 +1,8 @@
+obj=building
+name=RES_00_04
+copyright=MHz
+type=res
+level=4
+intro_year=1893
+retire_year=1939
+backimage[0][0][0][0][0]=res_00_04.1.0

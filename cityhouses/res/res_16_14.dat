@@ -1,0 +1,12 @@
+obj=building
+name=RES_16_14
+copyright=Shunter
+type=res
+level=14
+intro_year=1975
+retire_year=2030
+climates=rocky,tundra,temperate,arctic
+needs_ground=1
+seasons=2
+backimage[0][0][0][0][0][1]=res_16_14.1.1
+backimage[0][0][0][0][0][0]=res_16_14.1.0

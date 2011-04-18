@@ -1,0 +1,8 @@
+obj=building
+name=RES_06_16
+copyright=MHz
+type=res
+level=16
+intro_year=1944
+retire_year=2004
+backimage[0][0][0][0][0]=res_06_16.1.0

@@ -1,0 +1,8 @@
+obj=building
+name=RES_02_04
+copyright=O. Zarevucky
+type=res
+level=4
+intro_year=1910
+retire_year=1960
+backimage[0][0][0][0][0]=res_02_04.1.0

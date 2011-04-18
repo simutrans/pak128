@@ -1,0 +1,20 @@
+#
+#3 stories
+#summer
+#Winter
+obj=building
+name=RES_12_22
+copyright=Raven
+type=res
+level=22
+intro_year=1950
+#retire_year=?
+chance=100
+climates=rocky,tundra,temperate,mediterran,arctic,tropic
+dims=1,1,2
+needs_ground=22
+seasons=2
+backimage[1][0][0][0][0][1]=res_12_22.2.1
+backimage[1][0][0][0][0][0]=res_12_22.1.1
+backimage[0][0][0][0][0][1]=res_12_22.2.0
+backimage[0][0][0][0][0][0]=res_12_22.1.0

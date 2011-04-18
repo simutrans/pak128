@@ -1,0 +1,8 @@
+obj=building
+name=RES_02_13
+copyright=MHz
+type=res
+level=13
+intro_year=1904
+retire_year=1963
+backimage[0][0][0][0][0]=res_02_13.1.0

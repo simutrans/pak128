@@ -1,0 +1,11 @@
+obj=building
+name=RES_13_12
+copyright=Joker
+type=res
+level=12
+intro_year=1936
+retire_year=1992
+climates=mediterran,temperate,tundra,rocky
+needs_ground=1
+backimage[0][0][0][0][0][1]=res_13_12.1.1
+backimage[0][0][0][0][0][0]=res_13_12.1.0

@@ -1,0 +1,9 @@
+obj=building
+name=RES_06_41
+copyright=Patrick
+type=res
+level=41
+intro_year=1945
+retire_year=2033
+backimage[0][0][0][1][0]=res_06_41.1.0
+backimage[0][0][0][0][0]=res_06_41.2.0

@@ -1,0 +1,8 @@
+obj=building
+name=RES_12_30
+copyright=Raven
+type=res
+level=30
+intro_year=2010
+retire_year=2999
+backimage[0][0][0][0][0]=res_12_30.1.0

@@ -1,0 +1,8 @@
+obj=building
+name=RES_05_18
+copyright=Napik
+type=res
+level=18
+intro_year=1935
+retire_year=1992
+backimage[0][0][0][0][0]=res_05_18.1.0

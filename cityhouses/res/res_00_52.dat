@@ -1,0 +1,8 @@
+obj=building
+name=RES_00_52
+copyright=Hajo & Napik
+type=res
+level=52
+intro_year=1889
+retire_year=1979
+backimage[0][0][0][0][0]=res_00_52.1.0

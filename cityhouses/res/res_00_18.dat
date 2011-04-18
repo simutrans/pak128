@@ -1,0 +1,8 @@
+obj=building
+name=RES_00_18
+copyright=Frans van Nispen
+type=res
+level=18
+intro_year=1893
+retire_year=1951
+backimage[0][0][0][0][0]=res_00_18.1.0
