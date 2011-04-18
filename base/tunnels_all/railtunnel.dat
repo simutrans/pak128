@@ -1,0 +1,29 @@
+
+Obj=tunnel
+Name=RailTunnel
+copyright=Napik
+
+waytype=track
+topspeed=280
+
+cost=200000
+maintenance=1500
+
+intro_year=1810
+
+icon=> way-tunnel-rail-128.1.3
+cursor=way-tunnel-rail-128.1.0
+
+BackImage[N]=way-tunnel-rail-128.0.2
+FrontImage[N]=way-tunnel-rail-128.0.3
+
+FrontImage[S]=way-tunnel-rail-128.0.4
+BackImage[S]=-
+
+FrontImage[E]=way-tunnel-rail-128.0.5
+FrontImage[E]=-
+
+BackImage[W]=way-tunnel-rail-128.0.1
+FrontImage[W]=way-tunnel-rail-128.0.0
+
+# EOF
