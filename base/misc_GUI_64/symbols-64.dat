@@ -1,0 +1,160 @@
+#-------------------------------------------------------------------------------
+#
+#                  Dat file for Simutrans symbols and icons
+#                      created by: Hj. Malthaner, Prissi
+#
+#                                   updated:
+#                   05-Feb-05 Merged from 2 files (Napik)
+#                   04.07.2008 add ColorOptions (FrankP)
+#
+#-------------------------------------------------------------------------------
+#
+# Hajo: Hack: if image name starts with "> " then this
+# image is treated unzoomeable
+#
+#-------------------------------------------------------------------------------
+#                                                                              #
+# In-game message icons                                                        #
+#                                                                              #
+--------------------------------------------------------------------------------
+Obj=symbol
+name=Logo
+copyright=none
+Image[0]=> ls-symbols.0.7
+--------------------
+Obj=symbol
+name=Flags
+copyright=DirrrtyDirk
+Image[0]=> ls-symbols.0.2
+--------------------
+Obj=symbol
+name=Message
+copyright=none
+Image[0]=> ls-symbols.0.0
+--------------------
+Obj=symbol
+name=NewWorld
+copyright=none
+# copyright NASA? :D
+Image[0]=> ls-symbols.0.3
+--------------------
+Obj=symbol
+name=NewYear
+copyright=none
+Image[0]=> ls-symbols.0.4
+--------------------
+#Obj=symbol
+#bilder not used - defined in 128x128 section!
+#name=Builder
+#Image[0]=ls-symbols.0.5
+--------------------
+Obj=symbol
+name=BusStop
+copyright=none
+Image[0]=> ls-symbols.1.2
+--------------------
+Obj=symbol
+name=TrainStop
+copyright=none
+Image[0]=> ls-symbols.1.1
+--------------------
+Obj=symbol
+name=CarStop
+copyright=none
+Image[0]=> ls-symbols.1.0
+--------------------
+Obj=symbol
+name=ShipStop
+copyright=none
+Image[0]=> ls-symbols.1.3
+--------------------
+Obj=symbol
+name=AirStop
+copyright=none
+Image[0]=> ls-symbols.1.4
+--------------------
+Obj=symbol
+name=MonorailStop
+copyright=none
+Image[0]=> ls-symbols.1.5
+--------------------
+Obj=symbol
+name=TramStop
+copyright=none
+Image[0]=> ls-symbols.1.6
+--------------------
+Obj=symbol
+name=MaglevStop
+copyright=none
+Image[0]=> ls-symbols.1.7
+--------------------
+Obj=symbol
+name=Passagiere
+copyright=none
+Image[0]=> ls-symbols.2.0
+--------------------
+Obj=symbol
+name=Post
+copyright=none
+Image[0]=> ls-symbols.2.1
+--------------------
+Obj=symbol
+name=Waren
+copyright=none
+Image[0]=> ls-symbols.2.2
+--------------------
+Obj=symbol
+name=MessageOptions
+copyright=none
+Image[0]=> ls-symbols.2.3
+--------------------
+Obj=symbol
+name=Electricity
+copyright=none
+Image[0]=> ls-symbols.2.6
+--------------------
+Obj=symbol
+name=InTown
+copyright=none
+Image[0]=> ls-symbols.2.7
+--------------------
+Obj=symbol
+name=Seasons
+copyright=none
+Image[3]=> ls-symbols.3.0
+Image[0]=> ls-symbols.3.1
+Image[1]=> ls-symbols.3.2
+Image[2]=> ls-symbols.3.3
+--------------------
+Obj=symbol
+name=ColorOptions
+copyright=none
+Image[0]=> ls-symbols.0.6
+--------------------
+Obj=symbol
+name=networksym
+copyright=none
+Image[0]=> ls-symbols.3.4
+--------------------
+Obj=symbol
+name=timelinesym
+copyright=none
+Image[0]=> ls-symbols.3.5
+--------------------
+Obj=symbol
+name=fastforwardsym
+copyright=none
+Image[0]=> ls-symbols.3.6
+--------------------
+Obj=symbol
+name=pausesym
+copyright=none
+Image[0]=> ls-symbols.3.7
+--------------------
+#
+#
+#==============================================================================#
+#                                                                              #
+#                             EOF - symbols-64.dat                             #
+#                                                                              #
+#==============================================================================#

@@ -1,0 +1,6 @@
+OPTIONS
+compile yes
+merge GUI.128.pak
+
+COMMANDS-MIDDLE
+lift symbol.BigLogo.pak

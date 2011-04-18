@@ -1,0 +1,117 @@
+# Hajo: Hack: if image name starts with "> " then this
+# image is treated unzoomeable
+
+Obj=menu
+name=GeneralTools
+copyright=none
+Image[0]=> menu_buttons.0.1
+Image[1]=> menu_buttons.0.2
+Image[2]=> menu_buttons.0.13
+Image[3]=> menu_buttons.1.13
+Image[4]=> menu_buttons.1.12
+Image[5]=> menu_buttons.0.6
+Image[6]=-
+Image[7]=> menu_buttons.1.1
+Image[8]=> menu_buttons.1.2
+Image[9]=> menu_buttons.1.3
+Image[10]=> menu_buttons.1.4
+Image[11]=> menu_buttons.1.5
+Image[12]=> menu_buttons.1.6
+Image[13]=> menu_buttons.0.3
+Image[14]=> menu_buttons.0.4
+Image[15]=> menu_buttons.0.5
+Image[16]=> menu_buttons.0.7
+Image[17]=> menu_buttons.1.5
+--
+Obj=menu
+name=SimpleTools
+copyright=none
+Image[0]=> menu_buttons.2.1
+Image[1]=> menu_buttons.2.2
+Image[2]=> menu_buttons.2.3
+Image[3]=> menu_buttons.2.4
+Image[4]=> menu_buttons.2.5
+Image[5]=> menu_buttons.2.6
+Image[6]=> menu_buttons.2.7
+Image[7]=> menu_buttons.3.1
+Image[8]=> menu_buttons.3.2
+Image[9]=> menu_buttons.3.3
+--
+Obj=menu
+name=DialogeTools
+copyright=none
+Image[0]=> menu_buttons.4.1
+Image[1]=> menu_buttons.4.2
+Image[2]=> menu_buttons.4.3
+Image[3]=> menu_buttons.4.4
+Image[4]=> menu_buttons.4.5
+Image[5]=> menu_buttons.4.6
+Image[6]=> menu_buttons.4.7
+Image[7]=> -
+Image[8]=> -
+Image[9]=> -
+Image[10]=> -
+Image[11]=> -
+# load / save
+Image[12]=> menu_buttons.5.6
+Image[13]=> menu_buttons.5.7
+# lists
+Image[14]=> menu_buttons.6.1
+Image[15]=> menu_buttons.6.2
+Image[16]=> menu_buttons.6.3
+Image[17]=> menu_buttons.6.4
+Image[18]=> menu_buttons.6.5
+Image[19]=> menu_buttons.6.6
+Image[20]=> menu_buttons.6.7
+# map editor
+Image[21]=> menu_buttons.5.8
+Image[22]=> menu_buttons.5.9
+Image[23]=> menu_buttons.5.10
+Image[24]=> menu_buttons.5.11
+Image[25]=> menu_buttons.5.1
+# network
+Image[26]=> menu_buttons.5.2
+#
+--
+Obj=menu
+name=BarTools
+copyright=none
+Image[0]=> menu_buttons.7.1
+Image[1]=> menu_buttons.7.2
+Image[2]=> menu_buttons.7.3
+Image[3]=> menu_buttons.7.4
+Image[4]=> menu_buttons.7.5
+Image[5]=> menu_buttons.8.1
+Image[6]=> menu_buttons.8.2
+Image[7]=> menu_buttons.8.3
+Image[8]=> menu_buttons.8.4
+Image[9]=-
+# slope tool icons
+Image[10]=> menu_buttons.0.9
+Image[11]=> menu_buttons.0.10
+Image[12]=> menu_buttons.0.11
+Image[13]=> menu_buttons.0.12
+Image[14]=> menu_buttons.1.11
+Image[15]=> menu_buttons.1.10
+# wayremover tool icons
+Image[16]=> menu_buttons.8.8
+Image[17]=> menu_buttons.8.9
+Image[18]=> menu_buttons.8.11
+Image[19]=> menu_buttons.8.10
+Image[20]=> menu_buttons.8.12
+Image[21]=> menu_buttons.8.13
+#
+Image[22]=> menu_buttons.7.8
+Image[23]=> menu_buttons.7.9
+# map editor
+Image[24]=> menu_buttons.7.10
+# builds city road
+Image[25]=> menu_buttons.7.6
+#
+Image[26]=> menu_buttons.7.7
+Image[27]=> menu_buttons.8.7
+Image[28]=> menu_buttons.7.7
+
+Image[29]=> menu_buttons.8.6
+
+--
