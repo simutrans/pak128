@@ -1,0 +1,37 @@
+Obj=vehicle
+Name=mja-volvof88-128set
+copyright=Martin
+
+Intro_Year=1965
+Intro_Month=2
+Retire_Year=1978
+Retire_Month=10
+
+Waytype=Road
+Engine_type=Diesel
+Smoke=Diesel
+
+Sound=truck.wav
+
+Cost=2119500
+RunningCost=46
+Speed=90
+Gear=61
+Power=195
+Weight=4
+# Length=7
+
+Freight=None
+Payload=0
+
+Constraint[Prev][0]=none
+EmptyImage[W]=mja-volvof88-128set.1.0
+EmptyImage[NW]=mja-volvof88-128set.1.1
+EmptyImage[N]=mja-volvof88-128set.1.2
+EmptyImage[NE]=mja-volvof88-128set.1.3
+EmptyImage[E]=mja-volvof88-128set.1.4
+EmptyImage[SE]=mja-volvof88-128set.1.5
+EmptyImage[S]=mja-volvof88-128set.1.6
+EmptyImage[SW]=mja-volvof88-128set.1.7
+
+# EOF
