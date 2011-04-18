@@ -1,0 +1,32 @@
+#Douglas DC-6
+#Passenger intercontinental/continental transport
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=SAC-Douglas_DC-6_128_set
+waytype=air
+engine_type=diesel
+freight=Passagiere
+copyright=Zeno
+payload=102
+speed=507
+power=6800
+weight=25
+gear=65
+cost=32264000
+runningcost=820
+intro_year=1947
+intro_month=3
+retire_year=1959
+retire_month=3
+sound=engine-start-diesel-1.wav
+smoke=-1
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+EmptyImage[W]=sac-douglas_dc-6_128_set.1.0,-24,-36
+EmptyImage[NW]=sac-douglas_dc-6_128_set.1.1,-24,-36
+EmptyImage[N]=sac-douglas_dc-6_128_set.1.2,-24,-36
+EmptyImage[NE]=sac-douglas_dc-6_128_set.1.3,-24,-36
+EmptyImage[E]=sac-douglas_dc-6_128_set.1.4,-24,-36
+EmptyImage[SE]=sac-douglas_dc-6_128_set.1.5,-24,-36
+EmptyImage[S]=sac-douglas_dc-6_128_set.1.6,-24,-36
+EmptyImage[SW]=sac-douglas_dc-6_128_set.1.7,-24,-36

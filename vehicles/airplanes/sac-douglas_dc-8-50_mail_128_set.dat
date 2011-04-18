@@ -1,0 +1,32 @@
+#Douglas DC-8-50
+#Passenger intercontinental/continental transport
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=SAC-Douglas_DC-8-50_Mail_128_set
+waytype=air
+engine_type=diesel
+freight=Post
+copyright=Zeno
+payload=110
+speed=935
+power=10380
+weight=51
+gear=70
+cost=55333000
+runningcost=886
+intro_year=1964
+intro_month=9
+retire_year=1989
+retire_month=9
+sound=5
+smoke=-1
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+EmptyImage[W]=sac-douglas_dc-8-50_mail_128_set.1.0,-24,-36
+EmptyImage[NW]=sac-douglas_dc-8-50_mail_128_set.1.1,-24,-36
+EmptyImage[N]=sac-douglas_dc-8-50_mail_128_set.1.2,-24,-36
+EmptyImage[NE]=sac-douglas_dc-8-50_mail_128_set.1.3,-24,-36
+EmptyImage[E]=sac-douglas_dc-8-50_mail_128_set.1.4,-24,-36
+EmptyImage[SE]=sac-douglas_dc-8-50_mail_128_set.1.5,-24,-36
+EmptyImage[S]=sac-douglas_dc-8-50_mail_128_set.1.6,-24,-36
+EmptyImage[SW]=sac-douglas_dc-8-50_mail_128_set.1.7,-24,-36

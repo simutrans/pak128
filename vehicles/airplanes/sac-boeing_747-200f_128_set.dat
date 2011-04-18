@@ -1,0 +1,33 @@
+#Boeing 747-200F
+#Freighter version - intercontinental/continental freight service
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=SAC-Boeing_747-200F_128_set
+waytype=air
+engine_type=diesel 
+freight=canned_food
+freight_catg=1
+copyright=Zeno
+payload=270
+speed=893
+power=33800
+weight=174
+gear=80
+cost=293744000
+runningcost=2227
+intro_year=1972
+intro_month=1
+retire_year=1993
+retire_month=11
+sound=5
+smoke=-1
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+EmptyImage[W]=sac-boeing_747-200f_128_set.1.0,-24,-36
+EmptyImage[NW]=sac-boeing_747-200f_128_set.1.1,-24,-36
+EmptyImage[N]=sac-boeing_747-200f_128_set.1.2,-24,-36
+EmptyImage[NE]=sac-boeing_747-200f_128_set.1.3,-24,-36
+EmptyImage[E]=sac-boeing_747-200f_128_set.1.4,-24,-36
+EmptyImage[SE]=sac-boeing_747-200f_128_set.1.5,-24,-36
+EmptyImage[S]=sac-boeing_747-200f_128_set.1.6,-24,-36
+EmptyImage[SW]=sac-boeing_747-200f_128_set.1.7,-24,-36

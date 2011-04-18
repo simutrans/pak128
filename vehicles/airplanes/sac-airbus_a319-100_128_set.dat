@@ -1,0 +1,30 @@
+#Airbus A319-100    
+#Passenger continental transport
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=SAC-Airbus_A319-100_128_set
+waytype=air
+engine_type=diesel
+freight=Passagiere
+copyright=Zeno
+payload=134
+speed=828
+power=7900
+weight=41
+gear=80
+cost=25313000
+runningcost=569
+intro_year=1996
+intro_month=4
+sound=5
+smoke=-1
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+EmptyImage[W]=sac-airbus_a319-100_128_set.1.0,-24,-36
+EmptyImage[NW]=sac-airbus_a319-100_128_set.1.1,-24,-36
+EmptyImage[N]=sac-airbus_a319-100_128_set.1.2,-24,-36
+EmptyImage[NE]=sac-airbus_a319-100_128_set.1.3,-24,-36
+EmptyImage[E]=sac-airbus_a319-100_128_set.1.4,-24,-36
+EmptyImage[SE]=sac-airbus_a319-100_128_set.1.5,-24,-36
+EmptyImage[S]=sac-airbus_a319-100_128_set.1.6,-24,-36
+EmptyImage[SW]=sac-airbus_a319-100_128_set.1.7,-24,-36

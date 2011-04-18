@@ -1,0 +1,31 @@
+#Airbus A300-600ST «Beluga»
+#Special high volume freight services
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=SAC-Airbus_A300-600ST_128_set
+waytype=air
+engine_type=diesel 
+freight=canned_food
+freight_catg=1
+copyright=Zeno
+payload=350
+speed=780
+power=19500
+weight=86
+gear=80
+cost=164779000
+runningcost=2639
+intro_year=1995
+intro_month=9
+sound=5
+smoke=-1
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+EmptyImage[W]=sac-airbus_a300-600st_128_set.1.0,-24,-36
+EmptyImage[NW]=sac-airbus_a300-600st_128_set.1.1,-24,-36
+EmptyImage[N]=sac-airbus_a300-600st_128_set.1.2,-24,-36
+EmptyImage[NE]=sac-airbus_a300-600st_128_set.1.3,-24,-36
+EmptyImage[E]=sac-airbus_a300-600st_128_set.1.4,-24,-36
+EmptyImage[SE]=sac-airbus_a300-600st_128_set.1.5,-24,-36
+EmptyImage[S]=sac-airbus_a300-600st_128_set.1.6,-24,-36
+EmptyImage[SW]=sac-airbus_a300-600st_128_set.1.7,-24,-36

@@ -1,0 +1,31 @@
+#Lockheed C-130J Super Hercules
+#Freighter version - freight service
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=SAC-Lockheed_C-130J_Super_Hercules_(goods)_128_set
+waytype=air
+engine_type=diesel 
+freight=canned_food
+freight_catg=1
+copyright=Zeno
+payload=150
+speed=720
+power=18000
+weight=34
+gear=70
+cost=18245000
+runningcost=1094
+intro_year=1996
+intro_month=4
+sound=5
+smoke=-1
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+EmptyImage[W]=sac-lockheed_c-130j_super_hercules_(goods)_128_set.1.0,-24,-36
+EmptyImage[NW]=sac-lockheed_c-130j_super_hercules_(goods)_128_set.1.1,-24,-36
+EmptyImage[N]=sac-lockheed_c-130j_super_hercules_(goods)_128_set.1.2,-24,-36
+EmptyImage[NE]=sac-lockheed_c-130j_super_hercules_(goods)_128_set.1.3,-24,-36
+EmptyImage[E]=sac-lockheed_c-130j_super_hercules_(goods)_128_set.1.4,-24,-36
+EmptyImage[SE]=sac-lockheed_c-130j_super_hercules_(goods)_128_set.1.5,-24,-36
+EmptyImage[S]=sac-lockheed_c-130j_super_hercules_(goods)_128_set.1.6,-24,-36
+EmptyImage[SW]=sac-lockheed_c-130j_super_hercules_(goods)_128_set.1.7,-24,-36

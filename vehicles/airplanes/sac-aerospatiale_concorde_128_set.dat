@@ -1,0 +1,32 @@
+# Aerospati�le-BAC Concorde
+# Passenger intercontinental supersonic transport
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=SAC-Aerospatiale_Concorde_128_set
+waytype=air
+engine_type=diesel
+freight=Passagiere
+copyright=Zeno
+payload=100
+speed=2170
+power=42000
+weight=178
+gear=90
+cost=379658000
+runningcost=2861
+intro_year=1971
+intro_month=9
+retire_year=2003
+retire_month=4
+sound=5
+smoke=-1
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+EmptyImage[W]=sac-aerospatiale_concorde_128_set.1.0,-24,-36
+EmptyImage[NW]=sac-aerospatiale_concorde_128_set.1.1,-24,-36
+EmptyImage[N]=sac-aerospatiale_concorde_128_set.1.2,-24,-36
+EmptyImage[NE]=sac-aerospatiale_concorde_128_set.1.3,-24,-36
+EmptyImage[E]=sac-aerospatiale_concorde_128_set.1.4,-24,-36
+EmptyImage[SE]=sac-aerospatiale_concorde_128_set.1.5,-24,-36
+EmptyImage[S]=sac-aerospatiale_concorde_128_set.1.6,-24,-36
+EmptyImage[SW]=sac-aerospatiale_concorde_128_set.1.7,-24,-36

@@ -1,0 +1,31 @@
+#Airbus A380-800C
+#Cooled freighter version - intercontinental refrigerated goods service
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=SAC-Airbus_A380-800C_128_set
+waytype=air
+engine_type=diesel 
+freight=fish
+freight_catg=4
+copyright=Zeno
+payload=300
+speed=903
+power=48000
+weight=252
+gear=80
+cost=317812000
+runningcost=3874
+intro_year=2009
+intro_month=8
+sound=5
+smoke=-1
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+EmptyImage[W]=sac-airbus_a380-800c_128_set.1.0,-24,-36
+EmptyImage[NW]=sac-airbus_a380-800c_128_set.1.1,-24,-36
+EmptyImage[N]=sac-airbus_a380-800c_128_set.1.2,-24,-36
+EmptyImage[NE]=sac-airbus_a380-800c_128_set.1.3,-24,-36
+EmptyImage[E]=sac-airbus_a380-800c_128_set.1.4,-24,-36
+EmptyImage[SE]=sac-airbus_a380-800c_128_set.1.5,-24,-36
+EmptyImage[S]=sac-airbus_a380-800c_128_set.1.6,-24,-36
+EmptyImage[SW]=sac-airbus_a380-800c_128_set.1.7,-24,-36

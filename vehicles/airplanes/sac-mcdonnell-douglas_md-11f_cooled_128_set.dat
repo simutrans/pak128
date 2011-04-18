@@ -1,0 +1,32 @@
+#McDonnell Douglas MD-11F
+#Intercontinental/continental freight transport 
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=SAC-McDonnell_Douglas_MD-11F_(cooled_goods)_128_set
+waytype=air
+engine_type=diesel
+freight=meat
+copyright=Zeno
+payload=185
+speed=930
+power=27670
+weight=109
+gear=80
+cost=100267000
+runningcost=2379
+intro_year=1991
+intro_month=12
+#retire_year=2999
+#retire_month=12
+sound=5
+smoke=-1
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+EmptyImage[W]=sac-mcdonnell-douglas_md-11f_cooled_128_set.1.0,-24,-36
+EmptyImage[NW]=sac-mcdonnell-douglas_md-11f_cooled_128_set.1.1,-24,-36
+EmptyImage[N]=sac-mcdonnell-douglas_md-11f_cooled_128_set.1.2,-24,-36
+EmptyImage[NE]=sac-mcdonnell-douglas_md-11f_cooled_128_set.1.3,-24,-36
+EmptyImage[E]=sac-mcdonnell-douglas_md-11f_cooled_128_set.1.4,-24,-36
+EmptyImage[SE]=sac-mcdonnell-douglas_md-11f_cooled_128_set.1.5,-24,-36
+EmptyImage[S]=sac-mcdonnell-douglas_md-11f_cooled_128_set.1.6,-24,-36
+EmptyImage[SW]=sac-mcdonnell-douglas_md-11f_cooled_128_set.1.7,-24,-36

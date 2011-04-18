@@ -1,0 +1,32 @@
+#Douglas DC-3
+#Passenger liner
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=SAC-Douglas_DC-3_128_set
+waytype=air
+engine_type=diesel
+freight=Passagiere
+copyright=Zeno
+payload=32
+speed=274
+power=1790
+weight=9
+gear=55
+cost=5498000
+runningcost=88
+intro_year=1935
+intro_month=12
+retire_year=1971
+retire_month=5
+sound=5
+smoke=-1
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+EmptyImage[W]=sac-douglas_dc-3_128_set.1.0,-24,-36
+EmptyImage[NW]=sac-douglas_dc-3_128_set.1.1,-24,-36
+EmptyImage[N]=sac-douglas_dc-3_128_set.1.2,-24,-36
+EmptyImage[NE]=sac-douglas_dc-3_128_set.1.3,-24,-36
+EmptyImage[E]=sac-douglas_dc-3_128_set.1.4,-24,-36
+EmptyImage[SE]=sac-douglas_dc-3_128_set.1.5,-24,-36
+EmptyImage[S]=sac-douglas_dc-3_128_set.1.6,-24,-36
+EmptyImage[SW]=sac-douglas_dc-3_128_set.1.7,-24,-36

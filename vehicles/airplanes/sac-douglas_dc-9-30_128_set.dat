@@ -1,0 +1,32 @@
+#Douglas DC-9-30
+#Passenger intercontinental/continental transport
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=SAC-Douglas_DC-9-30_128_set
+waytype=air
+engine_type=diesel
+freight=Passagiere
+copyright=Zeno
+payload=115
+speed=917
+power=4540
+weight=31
+gear=75
+cost=33871000
+runningcost=751
+intro_year=1967
+intro_month=2
+retire_year=1984
+retire_month=2
+sound=5
+smoke=-1
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+EmptyImage[W]=sac-douglas_dc-9-30_128_set.1.0,-24,-36
+EmptyImage[NW]=sac-douglas_dc-9-30_128_set.1.1,-24,-36
+EmptyImage[N]=sac-douglas_dc-9-30_128_set.1.2,-24,-36
+EmptyImage[NE]=sac-douglas_dc-9-30_128_set.1.3,-24,-36
+EmptyImage[E]=sac-douglas_dc-9-30_128_set.1.4,-24,-36
+EmptyImage[SE]=sac-douglas_dc-9-30_128_set.1.5,-24,-36
+EmptyImage[S]=sac-douglas_dc-9-30_128_set.1.6,-24,-36
+EmptyImage[SW]=sac-douglas_dc-9-30_128_set.1.7,-24,-36
