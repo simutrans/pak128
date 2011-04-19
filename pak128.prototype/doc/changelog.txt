@@ -1,4 +1,22 @@
 
+simutrans128 (1.99.0) unstable; urgency=high
+
+  * Compatible Simutrans version: .110.0.1
+  * Removed countless objects for which license agreement was not obtained -
+        mostly vehicles
+  * Farm products split to bulk foodstuffs and piece goods (wool, cotton)
+  * Lots of new rail vehicles from Zeno - "Duck" EMU & DMU series, wagons for
+        for fluids, bulk foodstuffs and liquid food, locomotives...
+  * New consistent ship set from Zeno
+  * Additional planes from Zeno
+  * New power plants from Vilvoh
+  * Some new station extensions (more authors)
+  * Many other bugfixes and improvements - for more detailed list look at
+        history-pak128-svn.txt
+    
+ -- Vladimir Slavik <slavik.vladimir@@seznam.cz> & the pak128 team  19 Apr 2011 19:00 +0100
+
+ 
 simutrans128 (1.4.6) stable; urgency=low
 
   * Compatible Simutrans version: .102.2.2
@@ -6,7 +24,6 @@ simutrans128 (1.4.6) stable; urgency=low
   * New consistent set of airplanes (Zeno)
   * New trucks from Martin
   * Airport graphics & items renovation (DirrrtyDirk)
-  * 
   * Many other bugfixes and improvements - for more detailed list look at
         history-pak128-svn.txt
 

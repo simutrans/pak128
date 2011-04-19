@@ -32,7 +32,7 @@ Image[12]=ls-sidewalks-128.0.0
 --------------------------------------------------------------------------------
 Obj=ground
 Name=Outside
-copyright=pak128 1.4.6+nightly
+copyright=pak128 1.99.0 alpha
 # hangtyp * animation
 #black outside
 #Image[0][0]=ls-water-128.1.4

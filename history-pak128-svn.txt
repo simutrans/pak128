@@ -5,9 +5,13 @@ For full history or technical details see svn logs.
 Names in brackets after message list the author/originator of change. It does not necessarily have to be member of pak128 team - external contributors are there as well.
 
 
+## pak128 version 1.99.0 ##
+
+19.04.2011
+	- Moved to svn on Sourceforge.net (VS)
 17.04.2011
 	- Remove old roads and road bridges (VS)
-	- Reactivate simple crossign graphics (VS)
+	- Reactivate simple crossing graphics (VS)
 	- Update road timeline configuration (VS, DirrrtyDirk)
 	- Expand choice of player change buttons in menu (VS)
 16.04.2011
@@ -146,7 +150,7 @@ Names in brackets after message list the author/originator of change. It does no
 21.03.2010
 	- Fixed running cost for "De Havilland Comet" (Zeno)
 20.03.2010
-	- replaced graphiucs on Skoda 151 loco (TommPa9)
+	- replaced graphics on Skoda 151 loco (TommPa9)
 
 ## pak128 version 1.4.6 ##
 
