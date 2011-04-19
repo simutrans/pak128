@@ -1,0 +1,7 @@
+Here is material which MAY be eventually included in the set, but needs some work or postprocessing.
+
+Eventually a lot of the material may also NOT be included and will hang here forever. That is not a problem. We want these data as backup or just to make them available.
+
+When something from this gets included into set, remove it apropriately - delete files, clear parts of pictures and so on.
+
+If you find here duplicates of objects already included in set 1:1, please remove them.

@@ -1,0 +1,28 @@
+#--------------------------------------------------------------------------------
+#0 NS-Middle
+#1 EW-Middle
+#2 NS-SouthEnd
+#3 EW-EastEnd
+#4 NS-NorthEnd
+#5 EW-WestEnd
+#6 NS-BothEnds
+#7 EW-BothEnds
+#
+--------------------------------------------------------------------------------
+Obj=building
+Name=Atocha_station
+type=station
+copyright=raven
+level=7
+enables_pax=1
+enables_post=0
+NoInfo=1
+Dims=1,1,8
+Level = 1
+intro_year=1600
+intro_month=1
+retire_year=1962
+retire_month=1
+icon=> 
+cursor=
+
