@@ -1,7 +1,5 @@
 Obj=symbol
 name=BigLogo
-# copyright=Stormoog
-# this entry will be used for pak version information in future
 copyright=Stormoog
 Image[0]=> biglogo.1.0
 Image[1]=> biglogo.1.1
