@@ -26,4 +26,5 @@ COMMANDS-MIDDLE
 
 
 COMMANDS-AFTER
-copy history-pak128-svn.txt ${target}/doc/history-pak128-svn.txt
+copy history-pak128-svn.txt ${target}/doc/
+copy LICENSE.txt ${target}/doc/
