@@ -70,6 +70,7 @@ ImageUp[12]=way-power_lines-128.4.3
 Obj=bridge
 name=PowerBridge
 copyright=MHz & Vladimir Slavik
+# icon base by Erik, glyph by Fabio
 waytype=power
 cost=70000
 maintenance=700
