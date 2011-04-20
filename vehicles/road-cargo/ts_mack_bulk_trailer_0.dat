@@ -17,13 +17,16 @@ runningcost=27
 
 intro_year=1962
 intro_month=9
-retire_year=1976
-retire_month=10
+retire_year=1991
+retire_month=12
 
 constraint[next][0]=none
 constraint[prev][0]=PMNV_50_Mack
 constraint[prev][1]=PMNV_MHz_Truck_0
 constraint[prev][2]=PMNV-PB1970
+constraint[prev][3]=mja-Zil130-128set
+constraint[prev][4]=mja-volvof88-128set
+constraint[prev][5]=mja-MAN19332-128set
 
 freightimagetype[0]=Kohle
 freightimagetype[1]=Eisenerz

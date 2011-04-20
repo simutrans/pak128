@@ -18,13 +18,6 @@ runningcost=44
 intro_year=1982
 intro_month=1
 
-constraint[next][0]=none
-constraint[prev][0]=Mack_Truck_0
-constraint[prev][1]=PMNV_International_Cabover
-constraint[prev][2]=Mack_Truck_2
-constraint[prev][3]=mja-volvoVN660
-constraint[prev][4]=mja-ScaniaR500Topline
-constraint[prev][5]=mja-ScaniaR620Topline
 
 smoke=-1
 sound=-1
@@ -37,3 +30,12 @@ emptyimage[e]=pmnv_mack_cement_trailer_l.1.4
 emptyimage[se]=pmnv_mack_cement_trailer_l.1.5
 emptyimage[s]=pmnv_mack_cement_trailer_l.1.6
 emptyimage[sw]=pmnv_mack_cement_trailer_l.1.7
+constraint[prev][0]=PMNV_50_Mack
+constraint[prev][1]=PMNV_MHz_Truck_0
+constraint[prev][2]=PMNV-PB1970
+constraint[prev][3]=mja-volvoVN660
+constraint[prev][4]=mja-ScaniaR500Topline
+constraint[prev][5]=mja-ScaniaR620Topline
+constraint[prev][6]=mja-Zil130-128set
+constraint[prev][7]=mja-MAN19332-128set
+constraint[next][0]=none

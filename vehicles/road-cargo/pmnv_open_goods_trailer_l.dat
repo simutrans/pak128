@@ -18,12 +18,15 @@ intro_year=1982
 intro_month=6
 
 constraint[next][0]=none
-constraint[prev][0]=PMNV_International_Cabover
-constraint[prev][1]=Mack_Truck_2
-constraint[prev][2]=mja-volvoVN660
-constraint[prev][3]=mja-ScaniaR500Topline
-constraint[prev][4]=PMNV-PB1970
-constraint[prev][5]=Mack_Truck_0
+constraint[prev][0]=PMNV_50_Mack
+constraint[prev][1]=PMNV-PB1970
+constraint[prev][2]=PMNV_MHz_Truck_0
+constraint[prev][3]=mja-Zil130-128set
+constraint[prev][4]=mja-MAN19332-128set
+constraint[prev][5]=mja-volvoVN660
+constraint[prev][6]=mja-ScaniaR500Topline
+constraint[prev][7]=mja-ScaniaR620Topline
+
 
 smoke=-1
 sound=-1
