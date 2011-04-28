@@ -140,10 +140,6 @@ tree_climates = 4
 # climates with no trees at all (desert and arctic at the moment)
 no_tree_climates = 130
 
-# if set, no trees will be created at all (save about 30% memory and
-# the season change will be much smoother on small machines)
-no_tree = 0
-
 
 #####################################gameplay###################################
 
