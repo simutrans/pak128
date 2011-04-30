@@ -4,7 +4,7 @@
 obj=tree
 name=tree140
 copyright=Napik
-climates=rocky,arctic
+climates=rocky
 seasons=1
 image[0][0]=tree140.1.0,-1,-13
 image[1][0]=tree140.1.1,0,-12

@@ -2,7 +2,7 @@
 obj=tree
 name=palm010
 copyright=Shunter
-climates=desert,tropic,mediterran
+climates=water,tropic,mediterran
 seasons=4
 image[0][0]=palm010.1.0,7,-20
 image[1][0]=palm010.1.1,7,-18
