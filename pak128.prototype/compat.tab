@@ -276,6 +276,14 @@ u_truss_bridge
 ClassicRail
 SteelRail2
 SteelRail
+dirt_road
+road_030
+gravel_road
+road_055
+cobblestone_road
+road_055
+asphalt_road
+road_070
 #
 #######################  open source conversion - *MUs  #######################
 JR_Shinkansen_723
