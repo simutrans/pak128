@@ -1,0 +1,11 @@
+
+obj=ground_obj
+name=cactus002_4
+copyright=Shunter
+climates=desert
+seasons=4
+
+image[0][0]=cactus002_4.1.0,3,-2
+image[0][1]=cactus002_4.1.1,4,-2
+image[0][2]=cactus002_4.1.2,4,-3
+image[0][3]=cactus002_4.1.3,4,-2
