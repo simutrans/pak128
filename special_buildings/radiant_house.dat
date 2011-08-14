@@ -1,14 +1,18 @@
 Obj=building
-Name=radiant_house
 Type=cur
-Passengers=100
-intro_year=1955
-chance=100
-Build_time=3000
+Name=radiant_house
 copyright=mEGa
+
+Passengers=27
+intro_year=1955
+retire_year=1965
+chance=3
+Build_time=18000
+
 Location=city
-climates=desert, mediterran, temperate, tundra
+climates=desert,mediterran,temperate,tundra
 dims=3,3,4
+
 BackImage[0][0][0][0][0][0]=radiant_house.1.0
 BackImage[0][0][0][1][0][0]=radiant_house.1.1
 BackImage[0][0][1][0][0][0]=radiant_house.1.2
@@ -37,6 +41,7 @@ BackImage[0][2][0][0][0][1]=radiant_house.4.0
 BackImage[0][2][0][1][0][1]=radiant_house.4.1
 BackImage[0][2][1][0][0][1]=radiant_house.4.2
 BackImage[0][2][2][0][0][1]=radiant_house.4.3
+
 BackImage[1][0][0][0][0][0]=radiant_house.4.4
 BackImage[1][0][0][1][0][0]=radiant_house.4.5
 BackImage[1][0][1][0][0][0]=radiant_house.4.6
@@ -65,6 +70,7 @@ BackImage[1][2][0][0][0][1]=radiant_house.7.4
 BackImage[1][2][0][1][0][1]=radiant_house.7.5
 BackImage[1][2][1][0][0][1]=radiant_house.7.6
 BackImage[1][2][2][0][0][1]=radiant_house.7.7
+
 BackImage[2][0][0][0][0][0]=radiant_house.8.0
 BackImage[2][0][0][1][0][0]=radiant_house.8.1
 BackImage[2][0][1][0][0][0]=radiant_house.8.2
@@ -93,6 +99,7 @@ BackImage[2][2][0][0][0][1]=radiant_house.11.0
 BackImage[2][2][0][1][0][1]=radiant_house.11.1
 BackImage[2][2][1][0][0][1]=radiant_house.11.2
 BackImage[2][2][2][0][0][1]=radiant_house.11.3
+
 BackImage[3][0][0][0][0][0]=radiant_house.11.4
 BackImage[3][0][0][1][0][0]=radiant_house.11.5
 BackImage[3][0][1][0][0][0]=radiant_house.11.6
@@ -121,3 +128,5 @@ BackImage[3][2][0][0][0][1]=radiant_house.14.4
 BackImage[3][2][0][1][0][1]=radiant_house.14.5
 BackImage[3][2][1][0][0][1]=radiant_house.14.6
 BackImage[3][2][2][0][0][1]=radiant_house.14.7
+
+# EOF
