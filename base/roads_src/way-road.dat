@@ -423,6 +423,7 @@ backPillar[W][1]=way-road-02.14.27
 #TUNNEL
 obj=tunnel
 name=road_040_tunnel
+way=road_040
 waytype=road
 copyright=Fabio Gonella
 cost=100000
@@ -660,6 +661,7 @@ ImageUp[12][1]=way-road-02.19.20,0,32
 #TUNNEL
 obj=tunnel
 name=road_050_tunnel
+way=road_050
 waytype=road
 copyright=Fabio Gonella
 cost=110000
@@ -833,6 +835,7 @@ backPillar[W][1]=way-road-02.14.19
 #TUNNEL
 obj=tunnel
 name=road_070_tunnel
+way=road_070
 waytype=road
 copyright=Fabio Gonella
 cost=120000
@@ -1071,6 +1074,7 @@ ImageUp[12][1]=way-road-02.19.12,0,32
 obj=tunnel
 name=road_090_tunnel
 waytype=road
+way=road_090
 copyright=Fabio Gonella
 cost=160000
 maintenance=2400
@@ -1311,6 +1315,7 @@ ImageUp[12][1]=way-road-02.19.8,0,32
 #TUNNEL
 obj=tunnel
 name=road_110_tunnel
+way=road_110
 waytype=road
 copyright=Fabio Gonella
 cost=210000
@@ -1548,6 +1553,7 @@ ImageUp[12][1]=way-road-02.19.4,0,32
 #TUNNEL
 obj=tunnel
 name=road_130_tunnel
+way=road_130
 waytype=road
 copyright=Fabio Gonella
 cost=240000
