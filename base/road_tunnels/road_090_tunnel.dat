@@ -2,6 +2,7 @@
 obj=tunnel
 name=road_090_tunnel
 waytype=road
+way=road_090
 copyright=Fabio Gonella
 cost=160000
 maintenance=2400

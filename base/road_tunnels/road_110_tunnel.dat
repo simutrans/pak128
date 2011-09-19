@@ -1,6 +1,7 @@
 #TUNNEL
 obj=tunnel
 name=road_110_tunnel
+way=road_110
 waytype=road
 copyright=Fabio Gonella
 cost=210000
