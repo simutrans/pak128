@@ -1,15 +1,7 @@
 ##################################  compat.tab  ################################
-# The obsolete vehicles will be replaced by the one in the next line           #
 #                                                                              #
-# You know, if you retire a special building or an                             #
-# attraction and replace it by a better one, you could put the entry into      #
-# the a file compat.tab in the pak128/ folder. This file works like the        #
-# translator files, i.e. first entry OriginalName next line NewName. This      #
-# way, you should be able to remodell half of the pak without the              #
-# compatibility issues.                                                        #
-# I have attached a compat.tab for the 128 set. In principle, such a file      #
-# would also allow for loading pak 128 game in pak64 and vice versa (with      #
-# the remaining problem of the factory sizes).                                 #
+# This file allows replacing objects. Mostly used for deprecated items.        #
+# Format is: first line name of old item, second line name of what replaces it #
 #                                                                              #
 ###########################  Plastic -> piece goods  ###########################
 Freighter_Plastic
@@ -394,3 +386,9 @@ Renfe_252
 Renfe_252_Altaria
 Renfe_269_(Japanese)
 Renfe_269_Altaria
+#
+###########################  Fabio's ways #####################################
+Rillenschienen
+Tram_Track_050_A
+concrete_tram_track
+Tram_Track_090_A
