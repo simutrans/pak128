@@ -1,0 +1,68 @@
+
+Obj=way
+Name=Tram_Track_090_B
+waytype=track
+copyright=Fabio Gonella
+system_type=7
+cost=25000
+maintenance=300
+topspeed=90
+max_weight=30
+intro_year = 1880
+intro_month = 9
+# skin
+cursor=tram_track_090_b.7.1,0,-16
+icon=> tram_track_090_b.7.0
+# rbis * animation
+Image[-][0]=tram_track_090_b.1.0
+Image[N][0]=tram_track_090_b.1.1
+Image[S][0]=tram_track_090_b.1.2
+Image[E][0]=tram_track_090_b.1.3
+Image[W][0]=tram_track_090_b.1.4
+Image[NS][0]=tram_track_090_b.1.5
+Image[EW][0]=tram_track_090_b.1.6
+Image[NSE][0]=tram_track_090_b.1.7
+Image[NSW][0]=tram_track_090_b.2.0
+Image[NEW][0]=tram_track_090_b.2.1
+Image[SEW][0]=tram_track_090_b.2.2
+Image[NSEW][0]=tram_track_090_b.2.3
+Image[NE][0]=tram_track_090_b.2.4
+Image[SE][0]=tram_track_090_b.2.5
+Image[NW][0]=tram_track_090_b.2.6
+Image[SW][0]=tram_track_090_b.2.7
+Diagonal[NE][0]=tram_track_090_b.6.0
+Diagonal[SE][0]=tram_track_090_b.6.1
+Diagonal[NW][0]=tram_track_090_b.6.2
+Diagonal[SW][0]=tram_track_090_b.6.3
+# hangtyp * animation
+ImageUp[3][0]=tram_track_090_b.5.0
+ImageUp[6][0]=tram_track_090_b.5.1
+ImageUp[9][0]=tram_track_090_b.5.2
+ImageUp[12][0]=tram_track_090_b.5.3
+# rbis * animation
+Image[-][1]=tram_track_090_b.3.0
+Image[N][1]=tram_track_090_b.3.1
+Image[S][1]=tram_track_090_b.3.2
+Image[E][1]=tram_track_090_b.3.3
+Image[W][1]=tram_track_090_b.3.4
+Image[NS][1]=tram_track_090_b.3.5
+Image[EW][1]=tram_track_090_b.3.6
+Image[NSE][1]=tram_track_090_b.3.7
+Image[NSW][1]=tram_track_090_b.4.0
+Image[NEW][1]=tram_track_090_b.4.1
+Image[SEW][1]=tram_track_090_b.4.2
+Image[NSEW][1]=tram_track_090_b.4.3
+Image[NE][1]=tram_track_090_b.4.4
+Image[SE][1]=tram_track_090_b.4.5
+Image[NW][1]=tram_track_090_b.4.6
+Image[SW][1]=tram_track_090_b.4.7
+Diagonal[NE][1]=tram_track_090_b.6.4
+Diagonal[SE][1]=tram_track_090_b.6.5
+Diagonal[NW][1]=tram_track_090_b.6.6
+Diagonal[SW][1]=tram_track_090_b.6.7
+# hangtyp * animation
+ImageUp[3][1]=tram_track_090_b.5.4
+ImageUp[6][1]=tram_track_090_b.5.5
+ImageUp[9][1]=tram_track_090_b.5.6
+ImageUp[12][1]=tram_track_090_b.5.7
+
