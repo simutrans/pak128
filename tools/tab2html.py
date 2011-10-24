@@ -26,10 +26,10 @@ for file in glob.glob("*.tab") :
 	
 	recoded = text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 	
-	head = "<DOCTYPE html>\n<head>\n<title>%s</title>\n<meta http-equiv='Content-Type' content='text/html; charset=%s' />\n</head>\n<body style='white-space: pre; font-family: monospace'>\n" % (name, encoding)
+	head = "<DOCTYPE html>\n<head>\n<title>%s</title>\n<meta http-equiv='Content-Type' content='text/html; charset=%s' />\n</head>\n<body>\n<pre>\n" % (name, encoding)
 	
 	newfile = open(file + ".html", 'w')
 	newfile.write(head)
 	newfile.write(recoded)
-	newfile.write("\n</body></html>\n")
+	newfile.write("\n</pre>\n</body>\n</html>\n")
 	newfile.close()
