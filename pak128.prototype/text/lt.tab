@@ -5,7 +5,7 @@
 #                            Language: lt Lithuanian                           #
 #                                Encoding: UTF-8                               #
 #                                Font : cyr.bdf                                #
-#                           Date Created: 21.03 2011                           #
+#                           Date Created: 25.10 2011                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -22,12 +22,6 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 Betoninių plokščių tiltas
-ClassicRoad
-Betoninis kelio tiltas
-Concrete_Road_Bridge
-Greitkelio tiltas
-Plate_Girder_Bridge
-Betono sijų tiltas
 PowerBridge
 Energijos tiltas
 RVg_Concrete_Rail_Bridge
@@ -36,14 +30,6 @@ Schwebebahn_p_bridge
 Vienbėgio sąspara
 SteelRail
 Plieninis geležinkelio tiltas
-SteelRail2
-Lengvas plieno tiltas
-SteelRoad1
-Plieninis kelio tiltas
-SteelRoad2
-Bortinis tiltas
-u_truss_bridge
-Sijų tiltas
 water_bridge
 Vandens tiltas
 Wooden_Rail
@@ -90,8 +76,6 @@ big_classic_bus_stop
 Didelė autobusų stotelė
 big_modern_bus_stop
 Didelė stotelė
-BigTerminal1930_AirportBlg_S
-Didelis terminalas
 BigTerminal1950_AirportBlg_S
 Didelis terminalas (1950)
 Bulk_Dock
@@ -130,8 +114,6 @@ TramDepot
 Tramvajus depas
 VictorianStation
 Senovinė stotis
-#__________________________________dummy_info___________________________________
-#__________________________________dummy_info___________________________________
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -158,16 +140,12 @@ cornfield
 Kukurūzų laukas
 cotton_farm_w_fields
 Medvilnės plantacija
-cotton_field
-Medvilnės laukai
 cow_farm
 Galvijų ferma
 dairy
 Pieninė
 Druckerei
 Spaustuvė
-electronics_factory
-Elektronikos gamykla
 Erzbergwerk
 Geležies rūdos kasykla
 ethanol_plant
@@ -182,16 +160,10 @@ ForestPlantation
 Auginamas miškas
 Glass_factory
 Stiklo liejykla
-grain_farm
-Grudų ūkis
 grain_farm_w_fields
 Grudų ūkis
 grain_mill
 Malūnas
-Kohlekraftwerk
-Anglimi kurenama jegainė
-Materialswholesale
-Statybinių medžiagų parduotuvė
 MaterialsWholesales
 Statybinių medžiagų parduotuvė
 meat_packing_plant
@@ -202,8 +174,6 @@ Moebelfabrik
 Baldų gamykla
 Moebelhaus
 Prekybos centras
-Nutzwald
-Eksplotuojamas miškas
 Oelbohrinsel
 Naftos platforma
 Oelfeld
@@ -223,8 +193,6 @@ Naftos perdirbimo gamykla
 Saegewerk
 Lentpjūvė
 sand_quarry_dd
-Smėlio karjeras
-Sandquarry
 Smėlio karjeras
 shaft_coal_mine
 Anglies kasykla
@@ -252,8 +220,6 @@ waste_incinerator_kraftwerk
 Šiukšlių deginimo krosnis
 wind_kraftwerk
 Vėjo turbina
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -360,10 +326,10 @@ monorail vehicle
 Vienbėgis traukinys
 Monorailboden
 Vienbėgio pamatas
+Monoraildepot
+Vienb?gio depas
 Monorailhalt
 vienbėgio stotis
-#__________________________________record_text__________________________________
-#__________________________________record_text__________________________________
 #___________________________________roadsign____________________________________
 #___________________________________roadsign____________________________________
 air_one-way
@@ -382,8 +348,6 @@ choose_point
 Rinkis kelią ženklas
 choose_signal_monorail
 Platformos pasirinkimo signalas
-choosesign_digital_jp
-Kelio pasirinkimo sviešlentė
 ChooseSignals
 Rinktis platformą
 Classic_ChooseSignals_right
@@ -436,78 +400,36 @@ Signals
 Signalas
 traffic_light
 Šviesoforas
-#_____________________________________tree______________________________________
-#_____________________________________tree______________________________________
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnel
 Tunelis
-RoadTunnel
-Auto tunelis
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
-1Ben140
-Bennhardt B-140 "Limet"
-1Bens155
-Bennhardt B-155 "Robo"
 1Benst134
 RVg-Bennhardt B-134 "Pixie"
 1Benst135t
 Bennhardt B-135 "Gremlin"
 1Benst138
 Bennhardt B-138 "Apple Pie"
-1Benst161
-Bennhardt B-161 "Turbo"
 1Benst162t
 Bennhardt B-162 "Jet"
-1Benst181
-Bennhardt B-181 "Gelding"
 1Benst238
 RVg-Bennhardt B-238 "Frog"
-1Benst281
-Bennhardt B-281 "Workhorse"
 1Dampflokomotive
 RVg 0-4-0T
 20ft_Container_Trailer-128set
 20 pėdų konteinerių puspriekabė
 2Diesellokomotive
 H-Trans BR 218
-3Bens185
-Bennhardt B-185 "Santa"
 3Bens186t
 Bennhardt B-186 "Lemon"
 3Dampflokomotive
 RVg 0-3-0 "Chippy"
 40ft_Container_Trailer
 40pedų konteinerių puspriekabė
-451_Head
-VTS, MEZ 451
-451_Tail
-VTS, MEZ 451 (galas)
-451_Waggon
-VTS, MEZ 451 (car)
-471_Head
-CKD - Skoda 471
-471_Tail
-CKD - Skoda 471 (galas)
-471_Waggon
-CKD - Skoda 471 (vidurys)
-7BenE11
-Bennhardt E-11
-Aeroqueen_JR_Bus_Kanto
-Aeroqueen JR Kanto
 Airport_express_shuttle
 Aeroousto ekspreso autobusas
-AR4_back
-Sharyo AR-4 "Kikin" (galas)
-AR4_front
-Sharyo AR-4 "Kikin"
-AR4_mid_engine
-Sharyo AR-4 "Kikin" (vidurys)
-AR4_mid_trainer
-Sharyo AR-4 "Kikin" (vagonas)
-Asahi_Bus
-Asahi autobusas
 Autotransportwagen
 Napik-Canonball Autotransporteris
 BB-TS_Milk_Mack_Trailer
@@ -518,16 +440,12 @@ Big_Erztruck
 MHz kasyklos savivartis
 Bretterwagen
 BB lentų vagonas
-Btx020
-OnD Btx020
 Budd_Coach
 Budd RPO Keleivinis vagonas
 Budd_Observation
 Budd apžvalgos vagonas
 Budd_RPO
 Budd RPO (paštas)
-Bulk_Ship_0
-PMNV rūdos laivas
 Bulk_trailer_0
 Shorty savivartė priekaba
 Bulk_Truck_0
@@ -538,12 +456,6 @@ Bulk_Truck_3
 VSYS-Tatra 815 (savivartis)
 Bulk_Truck_4
 AvG-Volvo savivartis
-Bulker_Bulk
-BB krovinių laivas (iškasenos)
-Bulker_Steel
-BB Krovininis laivas (plienas)
-Bulker_Wood
-BB Krovininis laivas (mediena)
 caboose_1
 RvG vagonetė
 caboose_2
@@ -564,8 +476,6 @@ CB_ALBATROS
 RVg Skoda 498 "Albatros"
 CB_DB-130_8
 Canonball & H-Trans BRAW61000 "Būgnas"
-CD851
-OnD CD851
 Cement_Carrier_Fast
 Cemento vagonas
 Cement_trailer_0
@@ -578,10 +488,6 @@ Cement_Waggon_1
 BB-PMNV cemento vagonas
 Cementwagen
 SergeS cemento talpykla
-Ceres_Tender
-Ceres tenderis
-CKD_731
-CKD 731 manevrinis
 CKD_749
 CKD 749
 CKD_750
@@ -594,8 +500,6 @@ Concretewagen
 PMNV betono maišyklė 12
 Concretewagen_1
 PMNV Betono maišyklė 16
-Container_Truck
-Konteinerių sunkvežimis (prekės)
 Cooling_trailer_0
 PMNV šaldytuvas-priekaba
 Cooling_Truck_0
@@ -610,12 +514,6 @@ Cooling_wagon_1
 Šaldytuvų-konteinerių vagonas
 Cooling_wagon_2
 Cannonball šaldytuvas-vagonas
-D231_back
-SHI D-231 (galas)
-D231_front
-SHI D-231 "Shy"
-D231_mid
-SHI D-231 (vagonas)
 DB_ADm101
 Haru ADm101
 DB_Apmz121
@@ -624,42 +522,14 @@ DB_Bm235
 Haru Bm235
 DB_BR103_1
 Haru BR-103
-Dc110
-Monatetsu KIHA 110-141
-Dc110_car
-Monatetsu KIHA 110-141 vagonas
-Dc22
-Kei Kiha22 "Žalieji"
 E_423
 Sindor E-432 - "Top class"
 EMD_E5A_Silver_Meteor
 EMD E5A - Silver Meteor
 EMD_E5B_Silver_Comet
 EMD E5B - Silver Comet
-Evil_BR153
-Evil BR 153/155 "Sprinter"
-Evil_BR170_Back
-Evil BR 170 (galas)
-Evil_BR170_Front
-Evil BR 170 "Turbostar"
-Evil_BR170_Mid
-Evil BR 170 (vid)
-Evil_BR357_Back
-Evil BR 357 (galas)
-Evil_BR357_Front
-Evil BR 357 "Electrostar"
-Evil_BR357_M
-Evil BR 357 (variklis)
-Evil_BR357_PT
-Evil BR 357 (fantografas)
-Evil_Daimler_DMS_Londoner
-Evil-Daimler DMS Londoner
 Evil_DF-11
 Evil DF-11
-Evil_Guy_Wulfrunian
-Evil-Guy Wulfrunian
-Evil_New_Flyer_D40-90
-Evil New Flyer D40-90
 Evil_P-100_(carriage)
 RVg P-100 (vagonas)
 Evil_P-100_(front_engine)
@@ -668,26 +538,10 @@ Evil_P-100_(mail)
 Evil P-100 paįto vagonas
 Evil_P-100_(rear_engine)
 RVg P-100 (galas)
-Evil_Scania_K94UB
-Evil-Scania K94UB
-Evil_Scania_K94UB_Liner
-Evil-Scania K94UB laineris
-Evil-AEC_RM
-Evil-AEC RM
-Evil-Cicu_L32_Liner
-Evil-Cicu L32 Liner
 Evil-Jitluen_67_Minibus
 Evil-Jitluen 67 mikroautobusas
-Evil-Jitluen_Beluga_FA_MKD-12
-Evil-Jitluen Beluga FA MKD-12
-Evil-Jitluen_Beluga_FA_SR
-Evil-Jitluen Beluga FA SR
-Evil-Jitluen_Beluga_FA_SU-10
-Evil-Jitluen Beluga FA SU-10
 Express_tender
 Tenderis
-Fabric_Truck_0
-PMNV pluošto sunkvežimis
 Fluid_trailer_0
 AJ naftos cisterna
 Fluid_trailer_1
@@ -724,56 +578,18 @@ Grain_trailer_0
 PMNV standartinė grūdų priekaba
 Grain_Truck_1
 VSYS-Tatra 815 (grūdai)
-Haru_Boeing747-200
-Haru Boeing 747-200
-Haru_Boeing747-200F_(CARGO)
-Haru Boeing 747-200 krovininis
-Haru_Boeing747-200F_(MAIL)
-Haru Boeing 747-200 (paštas)
-Haru_Boeing747-400
-Haru Boeing 747-400 "Jumbo"
 Haru_E3_KOMACHI
 Haru E3 "Komachi"
 Haru_E3_KOMACHI_(mid)
 Haru E3 "Komachi" (vid)
 Haru_E3_KOMACHI_(rear)
 Haru E3 "Komachi" (galas)
-HIBARI-YS-11-100
-Hibari-YS-11-100
-HIBARI-YS-11A-200
-Hibari-YS-11A-200
-HIBARI-YS-11A-400_Cargo
-Hibari-YS-11A-400 (krovininis)
-HIBARI-YS-11A-400_Mail
-Hibari-YS-11A-400 (paštas)
-HIBARI-YS-11A-500
-Hibari-YS-11A-500
-Highway_Postal_Truck
-Autostrados pašto sunkvežimis
-Hikyaku_Truck
-Hikyaku prekinis sunkvežimis
 Holzwagen
 Miškovežio vagonas
-Karl_MCW_Super_Metrobus_12m
-Karl-MCW Super Metrobus 12m
-Karl-MCW_Super_Metrobus_12M-158
-Karl-MCW Super Metrobus 12M 158
-Karl-MCW_Super_Metrobus_12M-214
-Karl-MCW Super Metrobus 12M 214
 Kord_TT_bulk
 Kord TT savivartis
-Kord_TT_fabric
-Kord TT pluošto sunkvežimis
 Kord_TT_grain
 Kord TT grūdų savivartis
-Kuro-Neko_Truck
-Kuro-Neko prekių sunkvežimis
-Leyland_Olympian
-Karl-Leyland Olympian 11M
-Mack_Truck_0
-Teddy's Mack sunkvežimis
-Mack_Truck_2
-Mack sunkvežimis
 Mack_Truck_Cooling_Trailer
 Mack šaldytuvo puspriekabė
 Mack_Truck_Goods_Trailer
@@ -790,32 +606,12 @@ MHz_Tractor
 Mhz traktorius
 MHz_Tractor_2
 MHz-JD Traktorius
-MHz-C130_Hercules
-MHz C-130 Herkules (krovininis)
-MHz-C130_Hercules_(cooled)
-MHz C-130 Herkules (šaldytuvas)
-MHz-Fokker_F27
-MHz Fokker F27
-MHz-Il-76_Candid
-MHz Il-76 Candid
-MHz-Ju-51
-MHz Ju-51
-MHz-McDonnell-Douglas_DC10
-MHz-McDonnell Douglas DC-10
-MHz-McDonnell-Douglas_DC3
-MHz-McDonnell Douglas DC-3 Dakota
 Milk_Truck_0
 PMNV pienovežis
 Milk_Truck_1
 S.Kroytor-ZIL pienovežis
 Milk_Truck_2
 Magirus pienovežis
-MS_Hino_goods Truck
-MS-Hino sunkvežimis
-Nishitetsu_Truck
-Nishitetsu sunkvežimis
-Pelican_Truck
-Pelican sunkvežimis
 Planck_Truck_0
 PMNV-Canonball platforma (mediena)
 Plank_Truck_2
@@ -836,8 +632,6 @@ PMNV_Cruiser_Mini
 Kreiseris mini
 PMNV_Fabric_Trailer_0
 PMNV uždara pluošto priekaba
-PMNV_Fabric_Trailer_1
-PMNV atvira pluošto priekaba
 PMNV_Grain_Truck_0
 PMNV standartinis grūdų savivartis
 PMNV_Hydrogen_Cruiser
@@ -864,22 +658,6 @@ PMNV-TC-2_Turbo_Set_c
 PMNV TC-2 TurboSet (galas)
 PMNV-TC-5P_Mail_Man
 PMNV TC-5P "Paštininkas"
-RVg_A318-100
-RVg A318-100
-RVg_A380
-RVg A-380
-RVg_Comet
-RVg Comet
-RVg_F-27
-RVg F-27
-RVg_Flyer-W8B
-RVg W8B Hydroavion
-RVg_Ju52
-RVg Ju-52
-RVg-G5_Posttaxi
-RVg G5 Posttaxi
-RVg-Lockheed_Constellation
-RVg Lockheed EC-121 Constellation
 SAC-Aerospatiale_Concorde_128_set
 SAC-Aerospatiale Concorde
 SAC-Airbus_A300-600C_128_set
@@ -912,12 +690,6 @@ SAC-Airbus_A380-800F_128_set
 SAC-Airbus A380-800F (krovininis)
 SAC-Airbus_A380-800P_128_set
 SAC-Airbus A380-800P (paštas)
-SAC-Boeing_707_128_set
-SAC-Boeing 707
-SAC-Boeing_727_128_set
-SAC-Boeing 727
-SAC-Boeing_737_128_set
-SAC-Boeing 737
 SAC-Boeing_747-200_128_set
 SAC-Boeing 747-200
 SAC-Boeing_747-200F_128_set
@@ -926,8 +698,6 @@ SAC-Boeing_747-200P_128_set
 SAC-Boeing 747-200P (paštas)
 SAC-Boeing_747-400_128_set
 SAC-Boeing 747-400
-SAC-Boeing_777_128_set
-SAC-Boeing 777
 SAC-De_Havilland_Comet_128_set
 SAC-De Havilland Comet
 SAC-Douglas_DC-3_128_set
@@ -954,28 +724,14 @@ SAC-McDonnell_Douglas_DC-10_128_set
 SAC-McDonnell Douglas DC-10
 SAC-Rohrbach_Rocco_128_set
 SAC-Rohrbach Rocco
-Sindor-Rohrbach_Rocco
-Sindor-Rohrbach Rocco Hydroavion
 TATRA_400_T_128
 Tatra 400 T
 TATRA_401_T_128
 Tatra 401 T
 TATRA_86_T_128
 Tatra 86 T
-Tobu_Bus
-Tobu autobusas
-Tobu_Dial_Bus
-Tobu miesto autobusas
-Tobu_Highway_Bus
-Tobu greitkelio autobusas
-Tobu_Truck
-Tobu sunkvežimis (prekės)
 TS_Mack_Bulk_Trailer_0
 TS lengva rūdos puspriekabė
-TS_Mack_Bulk_Trailer_1
-TS rūdos priekaba
-TS_Mack_Container_Trailer_S
-TS konteinerių priekaba
 Vitus-AVECO_Eurocargo_Bretter
 Vitus-Aveco Eurocargo (lentų dėtuvė)
 Vitus-AVECO_Eurocargo_bulk_transporter
@@ -1032,7 +788,3 @@ yoshi_wup196502
 GTW 85 vidurys
 yoshi_wup196503
 GTW 85 galas
-#______________________________________way______________________________________
-#______________________________________way______________________________________
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________

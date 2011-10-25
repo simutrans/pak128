@@ -5,7 +5,7 @@
 #                              Language: hu Magyar                             #
 #                                Encoding: UTF-8                               #
 #                                Font : cyr.bdf                                #
-#                           Date Created: 21.03 2011                           #
+#                           Date Created: 25.10 2011                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -24,12 +24,6 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 Beton vasúti híd
-ClassicRoad
-Beton közúti híd
-Concrete_Road_Bridge
-Beton gyors híd
-Plate_Girder_Bridge
-Gerenda híd
 PowerBridge
 Elektromos vezeték híd
 RVg_Concrete_Rail_Bridge
@@ -38,14 +32,6 @@ Schwebebahn_p_bridge
 Függesztett egysínű vasút (híd)
 SteelRail
 Acél vasúti híd
-SteelRail2
-Függő vasúti acélhíd
-SteelRoad1
-Acél közúti híd
-SteelRoad2
-Csővázas közúti híd
-u_truss_bridge
-U vázas híd
 water_bridge
 Csatorna híd
 Wooden_Rail
@@ -83,7 +69,7 @@ Hangár (1950)
 1990AirDepot
 Modern hangár
 ABBYS_0
-Feneketlen Kolostor.\n\n\n\n\n\n\n
+Feneketlen Kolostor.\n\n
 Airport1920_AirportBlg
 Váróterem
 Airport1930PostOffice
@@ -114,8 +100,6 @@ big_classic_bus_stop
 Megálló
 big_modern_bus_stop
 Tágas megálló
-BigTerminal1930_AirportBlg_S
-Nagy légi reptér (1930) É-D
 BigTerminal1950_AirportBlg_S
 Nagy légi reptér (1950) É-D
 Bulk_Dock
@@ -135,25 +119,21 @@ Kocsiszín.
 CarStop
 Rakodóudvar.
 CASTLE_0
-Napik Király Kastélya.\n\n\n\n\n\n\n
-CHURCH_00
-Gótikus Katedrális.\n\n\n\n\n\n\n
-CHURCH_01
-Kistemplom.\n\n\n\n\n\n\n
+Napik Király Kastélya.\n\n
 CHURCH_02
-Apátság.\n\n\n\n\n\n\n
+Apátság.\n\n
 CHURCH_03
-Mária Templom\n\n\n\n\n\n\n
+Mária Templom\n\n
 CHURCH_04
-Zsinagóga.\n\n\n\n\n\n\n
+Zsinagóga.\n\n
 CHURCH_05
-Szent Mihály Katedrális.\n\n\n\n\n\n\n
+Szent Mihály Katedrális.\n\n
 CHURCH_06
-Templom.\nFalusi vagy kisvárosi \ntemplom.\n\n\n\n\n
+Templom.\nFalusi vagy kisvárosi \ntemplom.\n\n
 CIRCUS_0
-Cirkusz.\n\n\n\n\n\n\n
+Cirkusz.\n\n
 CIVILIAN_RADAR
-Civil radar.\n\n\n\n\n\n\n
+Civil radar.\n\n
 classic_mailbox
 Utcai posta
 ClosedTrainStop
@@ -161,769 +141,717 @@ Zártfedelű pályaudvar.
 CoalTrainStop
 Szénraktáros megálló.
 COM_00_01
-Elemi iskola. Ide járnak a\nzajos nebulók.\n\n\n\n\n\n
+Elemi iskola. Ide járnak a\nzajos nebulók.\n\n
 COM_00_02
-Szendvics ház. Híres lábnyi\nhosszú szendvicseinek\nköszönheti hírnevét.\n\n\n\n\n
+Szendvics ház. Híres lábnyi\nhosszú szendvicseinek\nköszönheti hírnevét.\n\n
 COM_00_03
-Barna Púder Kávézó. A\nkörnyék kedvenc kávézója.\n\n\n\n\n\n
+Barna Púder Kávézó. A\nkörnyék kedvenc kávézója.\n\n
 COM_00_04
-Tidy Didy Vizuális Tuning\nMűhely.\n\n\n\n\n\n
+Tidy Didy Vizuális Tuning\nMűhely.\n\n
 COM_00_05
-Ír kocsma. Ír bevándorlók\nüzemeltetik és az ír\nközösség kedvenc\ntalálkozási helye.\n\n\n\n
+Ír kocsma. Ír bevándorlók\nüzemeltetik és az ír\nközösség kedvenc\ntalálkozási helye.\n\n
 COM_00_06
-Szíriusz Elektronikai Üzlet.\nMindenféle és fajta rádiók\nárusító helye.\n\n\n\n\n
+Szíriusz Elektronikai Üzlet.\nMindenféle és fajta rádiók\nárusító helye.\n\n
 COM_00_07
-Természetszépe virágüzlet.\nEgy kedves kis hely\nahonnan beszerezheted a\nnappalidba és erkélyedre a\nszebbnél szebb virágokat.\n\n\n
+Természetszépe virágüzlet.\nEgy kedves kis hely\nahonnan beszerezheted a\nnappalidba és erkélyedre a\nszebbnél szebb virágokat.\n\n
 COM_00_08
-Japán Étterem. Japán\nkerttel.\n\n\n\n\n\n
+Japán Étterem. Japán\nkerttel.\n\n
 COM_00_09
 Ez a kis házikó hasonlít \negy középkori kocsmára. A \ntulajdonos szeret kiülni a \nbarátaival és sört iszogatni. \nLovaskocsi bérbeadásból \ntartja fenn magát.\n\n
 COM_00_10
-Tűzoltóság.\n\n\n\n\n\n\n
+Tűzoltóság.\n\n
 COM_00_11
-Riviera Kocsma. Ügyes kis\nterasszal.\n\n\n\n\n\n
+Riviera Kocsma. Ügyes kis\nterasszal.\n\n
 COM_00_12
-Mandy Fűszerboltja. Egy\nkedves öreg nénike árul\nbenne.\n\n\n\n\n
+Mandy Fűszerboltja. Egy\nkedves öreg nénike árul\nbenne.\n\n
 COM_00_13
-Elit fogadó. Csak az a baj,\nhogy túl közel van egy\nhasznált víztisztító\nállomáshoz.\n\n\n\n
+Elit fogadó. Csak az a baj,\nhogy túl közel van egy\nhasznált víztisztító\nállomáshoz.\n\n
 COM_00_14
-Örült Ajándékok Boltja.\n\n\n\n\n\n\n
+Örült Ajándékok Boltja.\n\n
 COM_00_15
-Bizsu ház. Az alsó emeleten\nékszerüzlet a felsőn\niparművész lakik.\n\n\n\n\n
+Bizsu ház. Az alsó emeleten\nékszerüzlet a felsőn\niparművész lakik.\n\n
 COM_00_16
-Oleander Patika.\n\n\n\n\n\n\n
+Oleander Patika.\n\n
 COM_00_17
-Eugene's Divatbolt. Pláza\ncicák kedvenc\nvadászterülete.\n\n\n\n\n
+Eugene's Divatbolt. Pláza\ncicák kedvenc\nvadászterülete.\n\n
 COM_00_18
-Chateaux Touche öt\ncsillagos szálloda. Chaz\nGuide az örök\nromantikusoknak ajánlja.\n\n\n\n
+Chateaux Touche öt\ncsillagos szálloda. Chaz\nGuide az örök\nromantikusoknak ajánlja.\n\n
 COM_00_19
-Ruhásbolt.\n\n\n\n\n\n\n
+Ruhásbolt.\n\n
 COM_00_21
-Parkolóház\n\n\n\n\n\n\n
+Parkolóház\n\n
 COM_00_22
-Üzletház.\n\nItt sok bank és \nüzlet található.\n\n\n\n\n
+Üzletház.\n\nItt sok bank és \nüzlet található.\n\n
 COM_00_23
-Kórház.\n\nItt gyógyítják \nSimuworld betegeit.\n\n\n\n\n
+Kórház.\n\nItt gyógyítják \nSimuworld betegeit.\n\n
 COM_00_60
-Modern irodaház.\n\nA kor színvonalának \nmegfelelő irodák vannak \naz épületben.\n\n\n\n
+Modern irodaház.\n\nA kor színvonalának \nmegfelelő irodák vannak \naz épületben.\n\n
 COM_01_01
-LFS hal és horgászbolt.\n\n\n\n\n\n\n
+LFS hal és horgászbolt.\n\n
 COM_01_05
-Festékbolt.\n\n\n\n\n\n\n
+Festékbolt.\n\n
 COM_01_13
-Halparadicsom Vendéglő. Itt\ntalálható a környék\nlegfinomabb halétel\nkínálata.\n\n\n\n
+Halparadicsom Vendéglő. Itt\ntalálható a környék\nlegfinomabb halétel\nkínálata.\n\n
 COM_01_15
-Kertészeti Áruház\n\n\n\n\n\n\n
+Kertészeti Áruház\n\n
 COM_01_17
-Parkolóház\n\n\n\n\n\n\n
+Parkolóház\n\n
 COM_01_18
 Templom.\nItt egy titkos egyház \nműködött, még rituális \nöngyilkosságok is történtek \nitt. A helyi Coven-\nboszorkányok helloweenkor \nitt gyűlnek össze.\n\n
 COM_01_19
 Játékbolt. Minden idők\nlegizgalmasabb játékboltja.\nItt megtalálod a világ\nlegjobb vasúti és közúti\nmodelleket elfogadható\náron.\n\n
 COM_01_21
-Kis üzletház\n\n\n\n\n\n\n
+Kis üzletház\n\n
 COM_01_23
-Műszaki üzletház.\n Itt minden márka \nmegtalálható.\n\n\n\n\n\n
+Műszaki üzletház.\n Itt minden márka \nmegtalálható.\n\n
 COM_01_26
-Németalföldi szabóműhely.\n\nItt minden ruhát a vásárló \nigényei alapján \nkészítenek el.\n\n\n\n
+Németalföldi szabóműhely.\n\nItt minden ruhát a vásárló \nigényei alapján \nkészítenek el.\n\n
 COM_01_28
-Vízmű.\n\n\n\n\n\n\n
+Vízmű.\n\n
 COM_01_29
-Archibald Lillyhammer\nDetektívirodája.\n\n\n\n\n\n
+Archibald Lillyhammer\nDetektívirodája.\n\n
 COM_01_35
-Titkosszolgálati Központ. A\nbelső elhárítás központja.\n\n\n\n\n\n
+Titkosszolgálati Központ. A\nbelső elhárítás központja.\n\n
 COM_01_36
-Biztosító Társaság.\n\n\n\n\n\n\n
+Biztosító Társaság.\n\n
 COM_01_47
-Tetőteraszos szálloda.\n\nA vendégek szeretnek a \ntetőteraszon gyönyörködni \na panorámában.\\n\n\n\n
+Tetőteraszos szálloda.\n\nA vendégek szeretnek a \ntetőteraszon gyönyörködni \na panorámában.\n\n
 COM_01_52
-Örült Épület. Nincsenek\nbenne liftek.\n\n\n\n\n\n
+Örült Épület. Nincsenek\nbenne liftek.\n\n
 COM_01_60
-Modern üveg irodaépület.\n\nItt találhatók a \nmulticégek luxus irodái.\n\n\n\n\n
+Modern üveg irodaépület.\n\nItt találhatók a \nmulticégek luxus irodái.\n\n
 COM_02_13
-Németalföldi cipészműhely.\n\n\n\n\n\n\n
+Németalföldi cipészműhely.\n\n
 COM_02_15
-Németalföldi söröző.\n\nItt árulják a legjobb német \ncseh és holland söröket.\n\n\n\n\n
+Németalföldi söröző.\n\nItt árulják a legjobb német \ncseh és holland söröket.\n\n
 COM_03_21
-Németalfölsi fogadó.\n\nItt szállhatnak \nmeg az átutazók.\n\n\n\n\n
+Németalfölsi fogadó.\n\nItt szállhatnak \nmeg az átutazók.\n\n
 COM_03_28
 Ebben az irodaházban óriási \nüres terek vannak ahol a \nmanagerek sokszor eltévednek. \nEzért a tulajdonos úgy dönrött \nhogy egy fallal kettéosztja \naz irodákat. Ez az elképzelés \ntetszett mindenkinek ezért \na tulajdonos épített még\negy \nilyen irodaházat. Nézd új \nfajta irodaház születik!\n\n
 COM_05_01
-Eros Klub. A környék\nlegnépszerűbb klubja.\n\n\n\n\n\n
+Eros Klub. A környék\nlegnépszerűbb klubja.\n\n
 COM_05_02
-Fizető parkoló.\n\n\n\n\n\n\n
+Fizető parkoló.\n\n
 COM_05_03
-Szamovár Teázó. Keleti ízek\nkedvelőinek kedvenc\ntalálkozási helye.\n\n\n\n\n
+Szamovár Teázó. Keleti ízek\nkedvelőinek kedvenc\ntalálkozási helye.\n\n
 COM_05_04
-Hargita Sportszerbolt.\nTúrafelszerelések kaphatók.\n\n\n\n\n\n
+Hargita Sportszerbolt.\nTúrafelszerelések kaphatók.\n\n
 COM_05_05
-Javítóműhely. Mikrohullámú\nsütők és kenyérpirítókat\njavítanak.\n\n\n\n\n
+Javítóműhely. Mikrohullámú\nsütők és kenyérpirítókat\njavítanak.\n\n
 COM_05_06
-Jópofa Boutique. Sikkes\nruhák és kiegészítők helye.\n\n\n\n\n\n
+Jópofa Boutique. Sikkes\nruhák és kiegészítők helye.\n\n
 COM_05_07
-Parkoló.\n\n\n\n\n\n\n
+Parkoló.\n\n
 COM_05_08
-Tekecentrum. Ide járnak\ntekézni az alvilág sötét\nalakjai.\n\n\n\n\n
+Tekecentrum. Ide járnak\ntekézni az alvilág sötét\nalakjai.\n\n
 COM_05_09
-Patika.\n\n\n\n\n\n\n
+Patika.\n\n
 COM_05_10
-Gatyaráfizető Kaszinó. Na itt\nmég a gatyád is rámegy a\nszenvedélyedre.\n\n\n\n\n
+Gatyaráfizető Kaszinó. Na itt\nmég a gatyád is rámegy a\nszenvedélyedre.\n\n
 COM_05_11
-Szociális ház. Szociális\nsegélyek szétosztója.\n\n\n\n\n\n
+Szociális ház. Szociális\nsegélyek szétosztója.\n\n
 COM_05_12
-Magasított épület. Építői az\nárvíztől való félelem miatt\nmagas talapzatra építették,\nde a Simutrans világában\nmég nem történt ilyesmi.\n\n\n
+Magasított épület. Építői az\nárvíztől való félelem miatt\nmagas talapzatra építették,\nde a Simutrans világában\nmég nem történt ilyesmi.\n\n
 COM_05_13
-Szobakirály Hotel. Olcsó és\nkoszos szobák lelőhelye :).\n\n\n\n\n\n
-COM_05_14
-Simutrans Bank.\n\n\n\n\n\n\n
+Szobakirály Hotel. Olcsó és\nkoszos szobák lelőhelye :).\n\n
 COM_05_15
-Gömböc úr hobby boltja.\nMindenféle bolondos tárgyak\ngyűjtőhelye.\n\n\n\n\n
+Gömböc úr hobby boltja.\nMindenféle bolondos tárgyak\ngyűjtőhelye.\n\n
 COM_05_16
-A környék fiataljai ide járnak\nfejest ugrani. Habár azért\najánlatos nem inni a vízből.\n\n\n\n\n
+A környék fiataljai ide járnak\nfejest ugrani. Habár azért\najánlatos nem inni a vízből.\n\n
 COM_05_17
-Corvin Filmpalota.\n\n\n\n\n\n\n
+Corvin Filmpalota.\n\n
 COM_05_18
-Buffalo Bill mozi.\n\n\n\n\n\n\n
+Buffalo Bill mozi.\n\n
 COM_05_19
-TechnoDunce Képző. Kis\nképzőműhely.\n\n\n\n\n\n
+TechnoDunce Képző. Kis\nképzőműhely.\n\n
 COM_05_20
-Iroda helyiségek. Kis cégek\ntudnak olcsón irodát bérelni.\n\n\n\n\n\n
+Iroda helyiségek. Kis cégek\ntudnak olcsón irodát bérelni.\n\n
 COM_05_21
-Iroda helyiségek.\nLuxuscégeknek fenntartva.\n\n\n\n\n\n
+Iroda helyiségek.\nLuxuscégeknek fenntartva.\n\n
 COM_05_22
-Garászkomplexum. Ha nincs\nhely az utcán egy kis pénz\nellenében itt is parkolhatsz.\n\n\n\n\n
+Garászkomplexum. Ha nincs\nhely az utcán egy kis pénz\nellenében itt is parkolhatsz.\n\n
 COM_05_23
-Eleinte egy belső udvart\nakartak kialakítani de az\nengedélyezés során a\nterveket át kellett alakítani.\n\n\n\n
+Eleinte egy belső udvart\nakartak kialakítani de az\nengedélyezés során a\nterveket át kellett alakítani.\n\n
 COM_05_24
-Tiszta Hotel. Olcsó és főleg\nsportolok használják.\n\n\n\n\n\n
+Tiszta Hotel. Olcsó és főleg\nsportolok használják.\n\n
 COM_06_01
-Öreghalász Kávézó. Öregurak\nkedvenc pletykahelye.\n\n\n\n\n\n
+Öreghalász Kávézó. Öregurak\nkedvenc pletykahelye.\n\n
 COM_06_02
-Szabad parkoló.\n\n\n\n\n\n\n
+Szabad parkoló.\n\n
 COM_06_03
-Szabadtéri Koncert.\n\n\n\n\n\n\n
+Szabadtéri Koncert.\n\n
 COM_06_04
-Gay Rog Garázs. Alapból\nkicserélik ingyen az olajt.\n\n\n\n\n\n
+Gay Rog Garázs. Alapból\nkicserélik ingyen az olajt.\n\n
 COM_06_05
-Gyöngyházfény Fogorvosi\nRendelő. Dr. Fájdi Ubul\nszadó-mazó orvos rendelője.\n\n\n\n\n
+Gyöngyházfény Fogorvosi\nRendelő. Dr. Fájdi Ubul\nszadó-mazó orvos rendelője.\n\n
 COM_06_06
-Wellow Cab taxis központ.\n\n\n\n\n\n\n
+Wellow Cab taxis központ.\n\n
 COM_06_07
-Parkoló.\n\n\n\n\n\n\n
-COM_06_08
-Gumis műhely.\n\n\n\n\n\n\n
+Parkoló.\n\n
 COM_06_09
-Börtön. A híres kasszafúrók\nitt vannak jegelve.\n\n\n\n\n\n
+Börtön. A híres kasszafúrók\nitt vannak jegelve.\n\n
 COM_06_10
-Központi börtön.\n\n\n\n\n\n\n
+Központi börtön.\n\n
 COM_06_12
-Kocsikereskedés. A helyi\nmaffia ellenőrzi. Az itt\nmegforduló kocsik egy része\nalkatrészként végzi.\n\n\n\n
+Kocsikereskedés. A helyi\nmaffia ellenőrzi. Az itt\nmegforduló kocsik egy része\nalkatrészként végzi.\n\n
 COM_06_13
-Nagy fodrászműhely.\n\nItt mindig minden fodrász \nfoglalt mivel itt készítik \na legjobb frizurákat.\n\n\n\n
+Nagy fodrászműhely.\n\nItt mindig minden fodrász \nfoglalt mivel itt készítik \na legjobb frizurákat.\n\n
 COM_06_14
-Abrak Pali lovardája.\n\n\n\n\n\n\n
+Abrak Pali lovardája.\n\n
 COM_06_16
-Vizitorony. A grafittisek\ntelerajzolták.\n\n\n\n\n\n
+Vizitorony. A grafittisek\ntelerajzolták.\n\n
 COM_06_17
-Burgeroo Secondo\nGyorsétterem. Sietős\nemberek itt verik tönkre az\negészségüket.\n\n\n\n
+Burgeroo Secondo\nGyorsétterem. Sietős\nemberek itt verik tönkre az\negészségüket.\n\n
 COM_06_18
-Ha ezen ház ablakán benézel\negy közismert Simutrans\nfejlesztőt látsz majd munka\nközben. Találd ki ki az!.\n\n\n\n
+Ha ezen ház ablakán benézel\negy közismert Simutrans\nfejlesztőt látsz majd munka\nközben. Találd ki ki az!.\n\n
 COM_06_19
-Szent Hapcig Korház.\nBohócdoktorok dolgoznak\nbenne.\n\n\n\n\n
+Szent Hapcig Korház.\nBohócdoktorok dolgoznak\nbenne.\n\n
 COM_06_20
-CsokoCsupaFincs\nCsokoládégyár.\n\n\n\n\n\n
+CsokoCsupaFincs\nCsokoládégyár.\n\n
 COM_06_21
-TVShopping Központja.\n\n\n\n\n\n\n
+TVShopping Központja.\n\n
 COM_06_22
-Irodatorony. Olyan cégek\nirodái találhatóak itt kik nem\nengedhetik meg maguknak\na különálló irodaépületet.\n\n\n\n
+Irodatorony. Olyan cégek\nirodái találhatóak itt kik nem\nengedhetik meg maguknak\na különálló irodaépületet.\n\n
 COM_06_26
 Iroda helyiségek. Régebben\nkis lakások voltak, de mivel\na lakók már nem akartak\nbetonházban lakni,\nátalakították\nirodahelyiségekké.\n\n
 COM_06_27
-Koszos irodák.\n\n\n\n\n\n\n
+Koszos irodák.\n\n
 COM_06_30
-Jummi Yammi Étkezde.\nFagyasztott kajákat árulnak.\n\n\n\n\n\n
+Jummi Yammi Étkezde.\nFagyasztott kajákat árulnak.\n\n
 COM_06_31
-Modern irodaépület.\n\n\n\n\n\n\n
+Modern irodaépület.\n\n
 COM_06_32
-Metro Center és Flea piac.\n\n\n\n\n\n\n
+Metro Center és Flea piac.\n\n
 COM_06_33
-Deluxo Hotel. "5" csillagos\nszálloda saját\nfürdőmedencével.\n\n\n\n\n
+Deluxo Hotel. "5" csillagos\nszálloda saját\nfürdőmedencével.\n\n
 COM_06_34
-Hotel Kulipintyó.\n\n\n\n\n\n\n
+Hotel Kulipintyó.\n\n
 COM_06_35
-Irodaépület. A tévé is\nbemutatta amint az egyik\nalkalmazott fegyverrel\nfenyegette meg főnökét.\n\n\n\n
+Irodaépület. A tévé is\nbemutatta amint az egyik\nalkalmazott fegyverrel\nfenyegette meg főnökét.\n\n
 COM_06_36
 Kilátó. Érdekes történetű\népület. Az 50-es években\népült az akkori polgármester\nmegalomán tervei szerint.\nEredetileg reptérnek szánták\nde a források idő előtt\nelapadtak. Ezért később\nkilátott terveztek a helyére.\n
 COM_06_37
-Irodaépület. Sok kisseb\nvállalkozás irodahelyiségei\ntalálhatóak itt.\n\n\n\n\n
+Irodaépület. Sok kisseb\nvállalkozás irodahelyiségei\ntalálhatóak itt.\n\n
 COM_06_38
-Erkélyes irodaépület.\n\n\n\n\n\n\n
+Erkélyes irodaépület.\n\n
 COM_06_39
-Pinky tömbház. Egy rossz\nkísérlet a szocreál\nfelvidításához.\n\n\n\n\n
+Pinky tömbház. Egy rossz\nkísérlet a szocreál\nfelvidításához.\n\n
 COM_06_40
-Akusztika Központ. A falak\núgy vannak építve, hogy\n10x felerősíti a legkisebb\nhangot is.\n\n\n\n
+Akusztika Központ. A falak\núgy vannak építve, hogy\n10x felerősíti a legkisebb\nhangot is.\n\n
 COM_06_41
-Triangulum\nÉpületkomplexum.\n\n\n\n\n\n
+Triangulum\nÉpületkomplexum.\n\n
 COM_06_42
-Top 40 Rádió.\n\n\n\n\n\n\n
+Top 40 Rádió.\n\n
 COM_06_43
-Kisállatkereskedés.\n\n\n\n\n\n\n
+Kisállatkereskedés.\n\n
 COM_06_44
-SmaShitz Zenestúdió. Híres\nzenészek stúdiója.\n\n\n\n\n\n
+SmaShitz Zenestúdió. Híres\nzenészek stúdiója.\n\n
 COM_06_45
-Festékgyártó cég központja.\n\n\n\n\n\n\n
+Festékgyártó cég központja.\n\n
 COM_06_46
-Reprezentatív Irodaépület.\n\n\n\n\n\n\n
+Reprezentatív Irodaépület.\n\n
 COM_06_47
-Lago Játékgyár.\n\n\n\n\n\n\n
+Lago Játékgyár.\n\n
 COM_06_48
-Hehim Csokigyár.\n\n\n\n\n\n\n
+Hehim Csokigyár.\n\n
 COM_06_49
-Két épület. Építés közben\nfelfedezték, hogy egy ősi út\nszeli ketté az építési telket.\nEzért inkább körbeépítették.\n\n\n\n
+Két épület. Építés közben\nfelfedezték, hogy egy ősi út\nszeli ketté az építési telket.\nEzért inkább körbeépítették.\n\n
 COM_06_50
-Irodaépület. Az irritáló\nszemélyek külön emeletet\nkaptak.\n\n\n\n\n
-COM_06_51
-Szent Habakukk Korház.\nÁltalános korház mindenki\nszámára.\n\n\n\n\n
+Irodaépület. Az irritáló\nszemélyek külön emeletet\nkaptak.\n\n
 COM_06_52
-Buborék épület.\n\n\n\n\n\n\n
+Buborék épület.\n\n
 COM_06_53
-Szerencsejáték szalon.\n\n\n\n\n\n\n
+Szerencsejáték szalon.\n\n
 COM_06_54
-Alternatív irodaépület.\nEnergiát a tetőn lévő\nnapelemek szolgáltatnak.\n\n\n\n\n
+Alternatív irodaépület.\nEnergiát a tetőn lévő\nnapelemek szolgáltatnak.\n\n
 COM_06_55
-Irodapület.\n\n\n\n\n\n\n
+Irodapület.\n\n
 COM_06_56
-Bevásárló központ.\n\n\n\n\n\n\n
+Bevásárló központ.\n\n
 COM_06_57
-Földrengésbiztos Épület.\nMinden egyes porcikáját úgy\népítették, hogy ellenálljon a\nleghevesebb földrengésnek\nis.\n\n\n
-COM_06_58
-Városi Rendőrség.\n\n\n\n\n\n\n
+Földrengésbiztos Épület.\nMinden egyes porcikáját úgy\népítették, hogy ellenálljon a\nleghevesebb földrengésnek\nis.\n\n
 COM_06_59
-Irodaépület. Az építész\nremekül kombinálta a\nkülönböző anyagokat és\nszíneket.\n\n\n\n
+Irodaépület. Az építész\nremekül kombinálta a\nkülönböző anyagokat és\nszíneket.\n\n
 COM_06_60
-Bohóc ház. Az alagsorban\nbohócoktatás folyik.\n\n\n\n\n\n
+Bohóc ház. Az alagsorban\nbohócoktatás folyik.\n\n
 COM_07_01
-Szerszámüzlet. Kis családi\nvállalkozás mely túlélte a\nmultik terjeszkedését.\n\n\n\n\n
+Szerszámüzlet. Kis családi\nvállalkozás mely túlélte a\nmultik terjeszkedését.\n\n
 COM_07_02
-Reklámtábla.\n\n\n\n\n\n\n
+Reklámtábla.\n\n
 COM_07_03
-Burgeroo Junior\nGyorsétterem. Sietős\nfiatalok itt verik tönkre az\negészségüket.\n\n\n\n
+Burgeroo Junior\nGyorsétterem. Sietős\nfiatalok itt verik tönkre az\negészségüket.\n\n
 COM_07_04
-Mezőgazdasági Központ. Itt\ntraktorokat, ekéket és egyéb\nmezőgazdasági gépeket\nlehet vásárolni.\n\n\n\n
+Mezőgazdasági Központ. Itt\ntraktorokat, ekéket és egyéb\nmezőgazdasági gépeket\nlehet vásárolni.\n\n
 COM_07_05
-Simu Könyvtár.\n\n\n\n\n\n\n
+Simu Könyvtár.\n\n
 COM_07_06
-Könyvtár.\n\n\n\n\n\n\n
-COM_07_08
-Daihatsu autószalon.\n\n\n\n\n\n\n
+Könyvtár.\n\n
 COM_07_09
-Állatmenhely.\n\n\n\n\n\n\n
+Állatmenhely.\n\n
 COM_07_12
-Fittneszterem.\n\n\n\n\n\n\n
+Fittneszterem.\n\n
 COM_07_13
-Traktor Centrum. Itt minden\na traktorról szól.\n\n\n\n\n\n
+Traktor Centrum. Itt minden\na traktorról szól.\n\n
 COM_07_14
-Őstermelői Piac.\n\nItt mindent olcsóbban \nlehet megvenni.\n\n\n\n\n
+Őstermelői Piac.\n\nItt mindent olcsóbban \nlehet megvenni.\n\n
 COM_07_16
-Általános iskola.\n\n\n\n\n\n\n
+Általános iskola.\n\n
 COM_07_17
-Burgeroo Elie Gyorsétterem.\nSietős fiatalok itt verik\ntönkre az egészségüket.\n\n\n\n\n
+Burgeroo Elie Gyorsétterem.\nSietős fiatalok itt verik\ntönkre az egészségüket.\n\n
 COM_07_18
-Parkolóház.\n\n\n\n\n\n\n
+Parkolóház.\n\n
 COM_07_19
-Németalföldi iskola.\n\n\n\n\n\n\n
+Németalföldi iskola.\n\n
 COM_07_20
-Ikerpár bevásárlóközpont.\n\n\n\n\n\n\n
+Ikerpár bevásárlóközpont.\n\n
 COM_07_21
-Kukumu üzletház.\n\nItt vásárolnak a helyi \nemberek sokféle dolgot.\n\n\n\n\n
+Kukumu üzletház.\n\nItt vásárolnak a helyi \nemberek sokféle dolgot.\n\n
 COM_07_22
-Szakmunkás-képző iskola.\n\nA gyerekek itt tanulnak \nszakmát.\n\n\n\n\n\n
+Szakmunkás-képző iskola.\n\nA gyerekek itt tanulnak \nszakmát.\n\n
 COM_08_01
-Légballon Centrum.\n\n\n\n\n\n\n
+Légballon Centrum.\n\n
 COM_08_14
-Parkolóház.\n\n\n\n\n\n\n
+Parkolóház.\n\n
 COM_08_18
-Városi Művelődésiház.\n\n\n\n\n\n\n
+Városi Művelődésiház.\n\n
 COM_08_32
-Kis családi ház.\n\n\n\n\n\n\n
+Kis családi ház.\n\n
 COM_08_33
-Hotel Görgény. A felső\ntízezer hotelje.\n\n\n\n\n\n
+Hotel Görgény. A felső\ntízezer hotelje.\n\n
 COM_08_37
-Nemzeti Statisztikai Hivatal.\n\n\n\n\n\n\n
+Nemzeti Statisztikai Hivatal.\n\n
 COM_08_38
-SimuElectronics, Inc. A\nSimuworld legnagyobb\nelektronikai vállalkozása.\n\n\n\n\n
+SimuElectronics, Inc. A\nSimuworld legnagyobb\nelektronikai vállalkozása.\n\n
 COM_08_39
-Irodaépület. Forradalmian új\nfűtéstechnikával.\n\n\n\n\n\n
+Irodaépület. Forradalmian új\nfűtéstechnikával.\n\n
 COM_08_40
-Unron Torony. Az Unron\npetrokémiai konszern\nközpontja.\n\n\n\n\n
+Unron Torony. Az Unron\npetrokémiai konszern\nközpontja.\n\n
 COM_08_60
-A vasút forgalom irányítási\nközpontja.\n\n\n\n\n\n
+A vasút forgalom irányítási\nközpontja.\n\n
 COM_09_18
 Román stílusú templom
 COM_10_01
-Rádió Ga-Ga-Rin. Itt mindig\nmodern slágereket\njátszanak.\n\n\n\n\n
+Rádió Ga-Ga-Rin. Itt mindig\nmodern slágereket\njátszanak.\n\n
 COM_10_04
-Moder üzlet.\n\n\n\n\n\n\n
-COM_10_05
-Burgeroo Gyorsétterem.\nSietős emberek itt verik\ntönkre az egészségüket.\n\n\n\n\n
-COM_10_07
-Rejtekház. A kormány titkos\nkémelhárítás csoportjának a\nközpontja.\n\n\n\n\n
+Moder üzlet.\n\n
 COM_10_11
-Modern piramis. Egy tipikus\npélda arról hogyan hat az\nókori építészet a modern kor\népületeire.\n\n\n\n
+Modern piramis. Egy tipikus\npélda arról hogyan hat az\nókori építészet a modern kor\népületeire.\n\n
 COM_10_12
-Közszolgálati rádió.\n\n\n\n\n\n\n
+Közszolgálati rádió.\n\n
 COM_10_14
-Sportcsarnok.\n\n\n\n\n\n\n
+Sportcsarnok.\n\n
 COM_10_15
 Számítástechnikai központ.\nPC guruk\nfejlesztőközpontja. Itt\ndolgoznak a következő\névezred operációs\nrendszerén.\n\n
 COM_10_16
-Kocsikereskedés.\n\n\n\n\n\n\n
+Kocsikereskedés.\n\n
 COM_10_19
-Freskós ház. Része a\nvárosszépítési tervnek.\n\n\n\n\n\n
+Freskós ház. Része a\nvárosszépítési tervnek.\n\n
 COM_10_21
-Telefontársaság\nszervizközpontja.\n\n\n\n\n\n
-COM_10_23
-Big Buffalo Cégközpont. A\nzoknik királyának a\nközpontja. Több mint "30"\nországba exportál finom\npamut zoknikat.\n\n\n
-COM_10_24
-Buffalo Ügyvédi Iroda.\nPerben állnak Big Buffalo\ncéggel a névhasználat miatt.\n\n\n\n\n
+Telefontársaság\nszervizközpontja.\n\n
 COM_10_25
-Üvegpalota. Az első épület\nmely üvegből készült.\n\n\n\n\n\n
+Üvegpalota. Az első épület\nmely üvegből készült.\n\n
 COM_11_01
-LFS díszhal kereskedés.\nSimutrans halkedvelőinek\nkedvenc helye.\n\n\n\n\n
+LFS díszhal kereskedés.\nSimutrans halkedvelőinek\nkedvenc helye.\n\n
 COM_11_14
-Sportcsarnok.\n\nAhol lehet sportolni.\n\n\n\n\n\n
+Sportcsarnok.\n\nAhol lehet sportolni.\n\n
 COM_11_15
-A jól megszokott sarki \nzöldséges. Mindig friss az \nárú és barátságos a \nkiszolgálás.\n\n\n\n\n
+A jól megszokott sarki \nzöldséges. Mindig friss az \nárú és barátságos a \nkiszolgálás.\n\n
 COM_11_29
-Jung-Wung Webközpont. A\nváros több internetes\nvállalkozásának\nszerverközpontja.\n\n\n\n
-COM_11_31
-Labirintus Épület. Igazi\nlabirintus ahol minden\nfordítva működik.\n\n\n\n\n
-COM_11_32
-Computer Szaküzlet. Nincs\nelég memóriád a Simutrans\njátszásához? NA akkor itt\ntudsz vásárolni :).\n\n\n\n
+Jung-Wung Webközpont. A\nváros több internetes\nvállalkozásának\nszerverközpontja.\n\n
 COM_11_33
-Teraszos toronyház.\n\n\n\n\n\n\n
+Teraszos toronyház.\n\n
 COM_11_41
-Zöld Csodapalota.\n\n\n\n\n\n\n
+Zöld Csodapalota.\n\n
 COM_11_42
-Építkezés.\nItt rakják le az új \nVilágkereskedelmi központ \nalapjait ahol irodák és \nlakások lesznek.\n\n\n
+Építkezés.\nItt rakják le az új \nVilágkereskedelmi központ \nalapjait ahol irodák és \nlakások lesznek.\n\n
 COM_11_45
-Építés alatt álló épület.\n\n\n\n\n\n\n
+Építés alatt álló épület.\n\n
 COM_11_46
-Fairchilds Kaszinó És Hotel.\n\n\n\n\n\n\n
+Fairchilds Kaszinó És Hotel.\n\n
 COM_11_48
-Planétárium Múzeum. Régi\nfoszíliák és kihalt állatok\nvannak kiállítva.\n\n\n\n\n
+Planétárium Múzeum. Régi\nfoszíliák és kihalt állatok\nvannak kiállítva.\n\n
 COM_11_49
-Kutatóközpont.\n\n\n\n\n\n\n
+Kutatóközpont.\n\n
 COM_11_50
-UFO Ügynökség. Olyan hely\nmelynek létezését a\nhatóságok mindig tagadják.\n\n\n\n\n
+UFO Ügynökség. Olyan hely\nmelynek létezését a\nhatóságok mindig tagadják.\n\n
 COM_11_53
-Épület. Block Plane\nszuperhős titkos lakhelye.\n\n\n\n\n\n
+Épület. Block Plane\nszuperhős titkos lakhelye.\n\n
 COM_11_54
-Polikarbonát Épület. Hitech\nalapanyagokból készült ház.\n\n\n\n\n\n
+Polikarbonát Épület. Hitech\nalapanyagokból készült ház.\n\n
 COM_11_55
-Tree Pulp Papírműhely.\n\n\n\n\n\n\n
+Tree Pulp Papírműhely.\n\n
 COM_11_57
-Darús ház.\n\n\n\n\n\n\n
-COM_11_58
-Névtelen épület.\n\n\n\n\n\n\n
+Darús ház.\n\n
 COM_11_59
-Zöld ház. Az egészséges\néletmód kedvelőinek.\n\n\n\n\n\n
+Zöld ház. Az egészséges\néletmód kedvelőinek.\n\n
 COM_12_01
-Fodrász. Haj és pletyka\nfazonírozása.\n\n\n\n\n\n
+Fodrász. Haj és pletyka\nfazonírozása.\n\n
 Container1TrainStop
 Konténeres megálló (A)
 Container2TrainStop
 Konténeres megálló (B)
 Control_StationBlg
 Vezérlőtorony építése.
-CoveredTrainStop
-Ereszes pályaudvar.
 Crate_Goods_Dock
 Konténerfogadó dokk
 CunnersdorfStopBlg
 Falusi állomás épület
 CUR_01_128_JH
-Atomium. Kiállítások és\nkoncertek helyszíne.\n\n\n\n\n\n
+Atomium. Kiállítások és\nkoncertek helyszíne.\n\n
 DenkFlor
-Flor WF Ultd.' Wautersnek a\nkedves mérnöknek ki oly sok\njárművet tervezett.\n\n\n\n\n
+Flor WF Ultd.' Wautersnek a\nkedves mérnöknek ki oly sok\njárművet tervezett.\n\n
 DenkGeorg
-Georg emlékműve.\n\n\n\n\n\n\n
+Georg emlékműve.\n\n
 DenkHajo
 Hansjörg Malthaner\nemlékműve. A játék alapítója.\nNeki köszönhető az, hogy ez\na játék még mindig létezik és\nvilágszerte mindenhol\njátsszák. Kérlek küld neki\negy képeslapot: Hansjörg\nMalthaner Fuggerstr. 1\nD-70563 Stuttgart.\n
 DenkOwen
-Ezt Owen Rudge-nak\ndedikáljuk a híres pénzügyi\nszakembernek.\n\n\n\n\n
+Ezt Owen Rudge-nak\ndedikáljuk a híres pénzügyi\nszakembernek.\n\n
 DenkPatrick
-Patrick Nesbitt emlékműve.\n\n\n\n\n\n\n
+Patrick Nesbitt emlékműve.\n\n
 DenkRaven
-Raven emlékműve.\n\n\n\n\n\n\n
+Raven emlékműve.\n\n
 DenkSeth
-Ez itt Seth C. Triggs\nremekműve.\n\n\n\n\n\n
+Ez itt Seth C. Triggs\nremekműve.\n\n
 DenkTomas
-Tomas Kubesnak a kedves\nsegítségért.\n\n\n\n\n\n
+Tomas Kubesnak a kedves\nsegítségért.\n\n
 DenkTrikky
-Ez Trikky' Rick McGreal\nemlékműve.\n\n\n\n\n\n
+Ez Trikky' Rick McGreal\nemlékműve.\n\n
 DenkVM
-Ezt Manfred VT Vienna'\nTomaschitznak emeltük.\n\n\n\n\n\n
+Ezt Manfred VT Vienna'\nTomaschitznak emeltük.\n\n
 DenkVolker
-Ez az épület Volker Meyer\nműve.\n\n\n\n\n\n
+Ez az épület Volker Meyer\nműve.\n\n
 ELEMENTARY_SCHOOL_1
-Elemi Iskola.\n\n\n\n\n\n\n
+Elemi Iskola.\n\n
 ELEMENTARY_SCHOOL_2
-Elemi Iskola.\n\n\n\n\n\n\n
+Elemi Iskola.\n\n
 Firestation
-Tűzoltóság.\n\n\n\n\n\n\n
+Tűzoltóság.\n\n
 Fluid_StationBlg
 Víztároló.
 FORT_FUN
-Western erőd.\n\n\n\n\n\n\n
+Western erőd.\n\n
 FreightTrainStop
 Nyitott megálló.
 FUTURISTIC_TOWER_0
-Kilátótorony.\n\n\n\n\n\n\n
+Kilátótorony.\n\n
 Gas_StationBlg
 Üzemanyag tároló.
 Goods_StationBlg
 Általános tároló.
 GRASS_STADIUM
-Füves Stadion.\n\n\n\n\n\n\n
+Füves Stadion.\n\n
 GREEN_HOUSE
-Botanikuskert.\n\n\n\n\n\n\n
+Botanikuskert.\n\n
 HIGH_SCHOOL_1
-Középiskola.\n\n\n\n\n\n\n
+Középiskola.\n\n
 HOUSE_RUINS_0
-Romok.\n\n\n\n\n\n\n
+Romok.\n\n
 HQ1
 Székház.
 HQ2
 Székház.\n A cég főhadiszállása.
 IND_00_01
-Kis fűrészmalom. Itt lehet\nolcsón kis deszkákat\nvásárolni.\n\n\n\n\n
+Kis fűrészmalom. Itt lehet\nolcsón kis deszkákat\nvásárolni.\n\n
 IND_00_02
-Kertes ház.\n\n\n\n\n\n\n
+Kertes ház.\n\n
 IND_00_03
-búzamező\n\n\n\n\n\n\n
-IND_00_04
-Víztartály. Több mint \n"500" m3 víz tárolására \nalkalmas. A baloldali \nkis bódé számos \nbeállítási lehetőséget \nrejt.\n\n
+búzamező\n\n
 IND_00_05
-Kis pékség.\nEgykor népszerű volt, \nde manapság ezeket \nmár a szupermaketekben \nveszik meg alacsonyabb \náron.\n\n\n
+Kis pékség.\nEgykor népszerű volt, \nde manapság ezeket \nmár a szupermaketekben \nveszik meg alacsonyabb \náron.\n\n
 IND_00_06
-Virágmag telep.\n\n\n\n\n\n\n
+Virágmag telep.\n\n
 IND_00_10
-Új raktárak. Csak épp meg\nkell tölteni árúval.\n\n\n\n\n\n
+Új raktárak. Csak épp meg\nkell tölteni árúval.\n\n
 IND_00_13
-Jerry Autójavító Műhely.\n\n\n\n\n\n\n
+Jerry Autójavító Műhely.\n\n
 IND_00_14
-Helyi palackozó. \nLokálpatrióta sör \nivók kedvenc \nsörgyártója.\n\n\n\n
+Helyi palackozó. \nLokálpatrióta sör \nivók kedvenc \nsörgyártója.\n\n
 IND_00_15
-Kis vasúti járműveket építő\nműhely.\n\n\n\n\n\n
+Kis vasúti járműveket építő\nműhely.\n\n
 IND_00_16
-Senkiháza. Nem lehet tudni\nkié.\n\n\n\n\n\n
+Senkiháza. Nem lehet tudni\nkié.\n\n
 IND_00_17
-Rejtett Épület. A\nfeketegazdaság épülete.\n\n\n\n\n\n
+Rejtett Épület. A\nfeketegazdaság épülete.\n\n
 IND_00_18
-Rejtett Épület. A\nfeketegazdaság épülete.\n\n\n\n\n\n
-IND_00_19
-Műanyagfröccsöntő.\n\n\n\n\n\n\n
+Rejtett Épület. A\nfeketegazdaság épülete.\n\n
 IND_00_20
-Műanyagfröccsöntő.\n\n\n\n\n\n\n
+Műanyagfröccsöntő.\n\n
 IND_00_21
-Gyilkosok Háza. A \nhelyiek feltételezik, \nhogy itt találkozik az\n alvilág.\n\n\n\n
+Gyilkosok Háza. A \nhelyiek feltételezik, \nhogy itt találkozik az\n alvilág.\n\n
 IND_00_22
 Állatmenhely. Ide \nhozzák azokat az \nállatokat melyek \na hivatalos befogadó \nállomásokra már nem \nfértek be.\n\n
 IND_00_24
-Kutatóközpont. Alternatív\nüzemanyagok kutatásával és\nfejlesztésével foglalkozó\ncég.\n\n\n\n
+Kutatóközpont. Alternatív\nüzemanyagok kutatásával és\nfejlesztésével foglalkozó\ncég.\n\n
 IND_00_25
-Műanyagfröccsentő.\n\n\n\n\n\n\n
+Műanyagfröccsentő.\n\n
 IND_00_28
-Adatmegsemísítő Központ.\nBankok kormányhivatalok\nide hozzák kényes\nadataikai, irataikat\nmegsemmisítés véget.\n\n\n
+Adatmegsemísítő Központ.\nBankok kormányhivatalok\nide hozzák kényes\nadataikai, irataikat\nmegsemmisítés véget.\n\n
 IND_00_29
-Zöldségcsomagoló. Friss\nzöldségeket csomagolnak,\nés szállítanak a piacra.\n\n\n\n\n
-IND_00_30
-Zöldségcsomagoló. Friss\nzöldségeket csomagolnak,\nés szállítanak a piacra.\n\n\n\n\n
+Zöldségcsomagoló. Friss\nzöldségeket csomagolnak,\nés szállítanak a piacra.\n\n
 IND_01_01
-Fura épület. Senki sem\ntudja, hogy a kormány\ntitkos kísérleteinek vagy\nvalamelyék utca banda\nrandalírozásának helyszíne.\n\n\n
+Fura épület. Senki sem\ntudja, hogy a kormány\ntitkos kísérleteinek vagy\nvalamelyék utca banda\nrandalírozásának helyszíne.\n\n
 IND_01_03
-Állatfarm.\n\n\n\n\n\n\n
+Állatfarm.\n\n
 IND_01_04
-Növényiskola, kert.\n\n\n\n\n\n\n
+Növényiskola, kert.\n\n
 IND_01_05
-Csíráztató telep.\n\n\n\n\n\n\n
+Csíráztató telep.\n\n
 IND_01_06
-Csíráztató telep.\n\n\n\n\n\n\n
+Csíráztató telep.\n\n
 IND_01_11
-Kovácsműhely.\n\n\n\n\n\n\n
+Kovácsműhely.\n\n
 IND_01_13
-Eladó ház.\n\n\n\n\n\n\n
+Eladó ház.\n\n
 IND_01_15
-Luxus sporteszközöket gyára.\n\nItt az egészségbiztosító \náltal nem támogatott luxus \nsportszereket gyártanak \nméregdrága árakkal \negyetemben.\n\n\n
+Luxus sporteszközöket gyára.\n\nItt az egészségbiztosító \náltal nem támogatott luxus \nsportszereket gyártanak \nméregdrága árakkal \negyetemben.\n\n
 IND_01_16
-Malom.\n\n\n\n\n\n\n
-IND_01_19
-Műanyagfröccsöntő.\nFő termékeik a PET \npalack, a műanyag \nzacskó és táska.\n\n\n\n
+Malom.\n\n
 IND_01_20
-Műanyagfröccsöntő.\nFő termékeik az ipari\nfesték \nés a plexiüveg.\n\n\n\n
+Műanyagfröccsöntő.\nFő termékeik az ipari\nfesték \nés a plexiüveg.\n\n
 IND_01_29
-Brikett Bt. tüzép telep.\n\n\n\n\n\n\n
+Brikett Bt. tüzép telep.\n\n
 IND_01_30
 Szappangyár. \nItt készítik a \nlegkedveltebb \ntisztálkodási \nszereket. Fő termékük \naz AMO szappan.\n\n
 IND_01_35
-Irodaház.\n\n\n\n\n\n\n
+Irodaház.\n\n
 IND_01_36
-Kazánház. A város\nlegnagyobb légszennyezője.\n\n\n\n\n\n
+Kazánház. A város\nlegnagyobb légszennyezője.\n\n
 IND_01_37
-Kazánház. A város\nlegnagyobb légszennyezője.\n\n\n\n\n\n
-IND_01_38
-Gyönyörű Épület. A késői\niparosodási korszak egyik\nszép remekműve.\n\n\n\n\n
-IND_01_39
-Gyönyörű Épület. A késői\niparosodási korszak egyik\nszép remekműve.\n\n\n\n\n
-IND_01_40
-Rejtett Épület. A\nfeketegazdaság épülete.\n\n\n\n\n\n
-IND_01_41
-Csapágy Gyár.\n\n\n\n\n\n\n
-IND_01_42
-Broke-N-Bone Rollergyár.\nRollereket és kiegészítőket\ngyártanak.\n\n\n\n\n
-IND_01_45
-Cipőfűzőgyár.\n\n\n\n\n\n\n
-IND_01_50
-Mérnöki Iroda. Egyedi és\nspéci mérnöki tervezések.\n\n\n\n\n\n
+Kazánház. A város\nlegnagyobb légszennyezője.\n\n
 IND_02_01
-Szántóföld.\n\n\n\n\n\n\n
+Szántóföld.\n\n
 IND_02_03
-Gabonaföld.\n\n\n\n\n\n\n
+Gabonaföld.\n\n
 IND_02_04
-Faiskola.\n\n\n\n\n\n\n
+Faiskola.\n\n
 IND_02_05
-Vadász-lak.\n\n\n\n\n\n\n
+Vadász-lak.\n\n
 IND_02_15
-Újrahasznosító üzem.\n\nItt minden olyan dolgot \nátvesznek amit már nem \nhasználnak az emberek és \nújrahsznosítják a 99%-át.\n\n\n
+Újrahasznosító üzem.\n\nItt minden olyan dolgot \nátvesznek amit már nem \nhasználnak az emberek és \nújrahsznosítják a 99%-át.\n\n
 IND_03_01
-Borsóföld.\n\n\n\n\n\n\n
+Borsóföld.\n\n
 IND_03_02
-Kukoricatábla.\n\n\n\n\n\n\n
+Kukoricatábla.\n\n
 IND_03_05
-Vadász-lak.\n\n\n\n\n\n\n
+Vadász-lak.\n\n
 IND_03_15
-Tehén farm.\n\n\n\n\n\n\n
+Tehén farm.\n\n
 IND_04_01
-Krumpliföld.\n\n\n\n\n\n\n
+Krumpliföld.\n\n
 IND_04_02
-Répceföld.\n\n\n\n\n\n\n
+Répceföld.\n\n
 IND_05_01
-Elhagyott kovácsműhely.\n\n\n\n\n\n\n
-IND_05_02
-Régi rakodóudvar.\n\n\n\n\n\n\n
-IND_05_03
-Gázpumpa. Ez látja el a\nvárost gázzal.\n\n\n\n\n\n
+Elhagyott kovácsműhely.\n\n
 IND_05_04
-Gázpalack raktár. Figyelem!\nTűzveszélyes.\n\n\n\n\n\n
+Gázpalack raktár. Figyelem!\nTűzveszélyes.\n\n
 IND_05_05
-Hűtőház. Innen biztosítják a\nkörnyező lakásokhoz nyáron\na hűtővizet.\n\n\n\n\n
+Hűtőház. Innen biztosítják a\nkörnyező lakásokhoz nyáron\na hűtővizet.\n\n
 IND_05_06
-Kis műhely.\n\n\n\n\n\n\n
+Kis műhely.\n\n
 IND_05_07
-Aszfaltkeverő műhely. Innen\nbiztosítják a város utjainak\ntatarozását.\n\n\n\n\n
+Aszfaltkeverő műhely. Innen\nbiztosítják a város utjainak\ntatarozását.\n\n
 IND_05_08
-Aszfaltkeverő műhely. Innen\nbiztosítják a város utjainak\ntatarozását.\n\n\n\n\n
+Aszfaltkeverő műhely. Innen\nbiztosítják a város utjainak\ntatarozását.\n\n
 IND_05_09
-Üres ház. A hontalanok itt\nhúzódnak meg.\n\n\n\n\n\n
+Üres ház. A hontalanok itt\nhúzódnak meg.\n\n
 IND_05_10
-Raktár komplexum. A\nSzupermarketet üzemelő cég\ntulajdona.\n\n\n\n\n
+Raktár komplexum. A\nSzupermarketet üzemelő cég\ntulajdona.\n\n
 IND_05_11
-Agyagkeverő. Itt lesz a\nmasszából gyönyörű\nkézműves munka.\n\n\n\n\n
+Agyagkeverő. Itt lesz a\nmasszából gyönyörű\nkézműves munka.\n\n
 IND_05_12
-Trafó állomás.\n\n\n\n\n\n\n
+Trafó állomás.\n\n
 IND_05_13
-Kis házi sörfőzde.\n\n\n\n\n\n\n
+Kis házi sörfőzde.\n\n
 IND_05_14
-Finommechanika.\nMérőműszereket gyártanak.\n\n\n\n\n\n
+Finommechanika.\nMérőműszereket gyártanak.\n\n
 IND_05_15
-Gázüzem.\n\n\n\n\n\n\n
+Gázüzem.\n\n
 IND_05_16
-Ruhagyár. A felső emeleten\na kézi varrású ruhák\nkészülnek lent tömegcucc.\n\n\n\n\n
+Ruhagyár. A felső emeleten\na kézi varrású ruhák\nkészülnek lent tömegcucc.\n\n
 IND_05_17
-Biótermesztő. "Az "1999" év\nbiótermesztője" büszke\ntulajdonosa.\n\n\n\n\n
+Biótermesztő. "Az "1999" év\nbiótermesztője" büszke\ntulajdonosa.\n\n
 IND_05_18
-Biótermesztő. "Az "1998" év\nbiótermesztője" büszke\ntulajdonosa.\n\n\n\n\n
+Biótermesztő. "Az "1998" év\nbiótermesztője" büszke\ntulajdonosa.\n\n
 IND_05_19
-Űrtechnológiakat\nkikísérletező központ.\nSpeciális anyagok\nkikísérletezésével\nfoglalkoznak.\n\n\n
+Űrtechnológiakat\nkikísérletező központ.\nSpeciális anyagok\nkikísérletezésével\nfoglalkoznak.\n\n
 IND_05_20
-Senkiháza. Nem lehet tudni\nkié.\n\n\n\n\n\n
+Senkiháza. Nem lehet tudni\nkié.\n\n
 IND_05_21
-Kéményes Raktár.\n\n\n\n\n\n\n
+Kéményes Raktár.\n\n
 IND_05_22
-Cipőgyár. Temetkezésekhez\ngyárt kartoncipőket.\n\n\n\n\n\n
+Cipőgyár. Temetkezésekhez\ngyárt kartoncipőket.\n\n
 IND_05_23
-Kovácsműhely. Sok munka\nmár nincs inkább régi antik\ndolgokat javítanak.\n\n\n\n\n
+Kovácsműhely. Sok munka\nmár nincs inkább régi antik\ndolgokat javítanak.\n\n
 IND_05_24
-Kocsiszerelő műhely.\nEgykoron itt tervezték az\negyik első automobilt.\n\n\n\n\n
+Kocsiszerelő műhely.\nEgykoron itt tervezték az\negyik első automobilt.\n\n
 IND_05_25
-Alkohol Tartály. Minden\nhónap végén kiderül, hogy\nhiány van.\n\n\n\n\n
+Alkohol Tartály. Minden\nhónap végén kiderül, hogy\nhiány van.\n\n
 IND_05_26
-Gázmű.\n\n\n\n\n\n\n
+Gázmű.\n\n
 IND_05_27
-Gázmű.\n\n\n\n\n\n\n
+Gázmű.\n\n
 IND_05_28
-Gázmű.\n\n\n\n\n\n\n
+Gázmű.\n\n
 IND_05_29
-Borvízpalackozó. Itt\npalackozzák a híres\nborszéki ásványvizet.\n\n\n\n\n
+Borvízpalackozó. Itt\npalackozzák a híres\nborszéki ásványvizet.\n\n
 IND_05_30
-Fakerékgyártó. Unatkozó\nskate-esek szoktak\néjszakánként betörni.\n\n\n\n\n
+Fakerékgyártó. Unatkozó\nskate-esek szoktak\néjszakánként betörni.\n\n
 IND_06_01
-Telefon alközpont.\n\n\n\n\n\n\n
+Telefon alközpont.\n\n
 IND_06_02
-Raktár.\n\n\n\n\n\n\n
+Raktár.\n\n
 IND_06_03
-Kis Raktár\n\n\n\n\n\n\n
+Kis Raktár\n\n
 IND_06_04
 Tom Autójavító Műhely. Az\nemberek Jerry legfőbb\nriválisának tartják de\nlényegében az árak magasan\ntartása végett\negyüttműködnek.\n\n
 IND_06_05
-Hőközpont. Itt van a környék\ntávfűtésének a központja.\n\n\n\n\n\n
+Hőközpont. Itt van a környék\ntávfűtésének a központja.\n\n
 IND_06_06
-Raktárbázis\n\n\n\n\n\n\n
+Raktárbázis\n\n
 IND_06_07
-Hőálló tartály.\n\n\n\n\n\n\n
+Hőálló tartály.\n\n
 IND_06_08
-Saválló tartály.\n\n\n\n\n\n\n
+Saválló tartály.\n\n
 IND_06_09
-Raktárak. Kialakítása miatt\nkönnyen hozzáférhető.\n\n\n\n\n\n
+Raktárak. Kialakítása miatt\nkönnyen hozzáférhető.\n\n
 IND_06_10
-Raktár. Ázsiai maffia áruinak\nrejtekhelye.\n\n\n\n\n\n
+Raktár. Ázsiai maffia áruinak\nrejtekhelye.\n\n
 IND_06_11
-Víztisztító.\n\n\n\n\n\n\n
+Víztisztító.\n\n
 IND_06_12
-Víztisztító. Többnyire a\nkormányellenőrök látogatják.\n\n\n\n\n\n
+Víztisztító. Többnyire a\nkormányellenőrök látogatják.\n\n
 IND_06_13
-Érlelő siló.\n\n\n\n\n\n\n
+Érlelő siló.\n\n
 IND_06_14
-Nyomdácska.\nMagasnyomtatással\nnyomtatnak.\n\n\n\n\n
+Nyomdácska.\nMagasnyomtatással\nnyomtatnak.\n\n
 IND_06_15
-Eladó ház.\n\n\n\n\n\n\n
+Eladó ház.\n\n
 IND_06_17
-Autóalkatrész kereskedés.\n\n\n\n\n\n\n
+Autóalkatrész kereskedés.\n\n
 IND_06_18
-Raktár komplexum. A\nSzupermarketet üzemelő cég\ntulajdona.\n\n\n\n\n
+Raktár komplexum. A\nSzupermarketet üzemelő cég\ntulajdona.\n\n
 IND_06_22
-Hűtőraktár. A burgereket\ntárolják itt.\n\n\n\n\n\n
+Hűtőraktár. A burgereket\ntárolják itt.\n\n
 IND_06_25
-Cseppfolyós.\nVegyszerraktár.\n\n\n\n\n\n
+Cseppfolyós.\nVegyszerraktár.\n\n
 IND_06_27
-Trambulin.\n\n\n\n\n\n\n
+Trambulin.\n\n
 IND_06_30
-Titkos kormányépület. Saját\náramforrással.\n\n\n\n\n\n
+Titkos kormányépület. Saját\náramforrással.\n\n
 IND_06_31
-Gyufagyár.\n\n\n\n\n\n\n
+Gyufagyár.\n\n
 IND_06_32
-Csalfi&Hazufi Ügyvédi Iroda.\nPiszkos ügyek elvállalói.\n\n\n\n\n\n
+Csalfi&Hazufi Ügyvédi Iroda.\nPiszkos ügyek elvállalói.\n\n
 IND_06_33
-Ceruzagyár. Nem olyan híres\nmint a Koh-I-Noor de azért\nmegteszi :).\n\n\n\n\n
+Ceruzagyár. Nem olyan híres\nmint a Koh-I-Noor de azért\nmegteszi :).\n\n
 IND_06_34
 Stuckonyou Ragasztógyár.\nHabár senki sem tudja de a\ngyárat egy olyan házaspár\nalapította, amely egy új\nóvszer síkosítóval\nkísérletezett :-).\n\n
 IND_06_35
-Az Őrült háza. Az alsó\nemeleten lakik egy őrült, ki\njobb hiány a háza előtt\nelhaladó kocsikat szokta\nszámolni.\n\n\n
+Az Őrült háza. Az alsó\nemeleten lakik egy őrült, ki\njobb hiány a háza előtt\nelhaladó kocsikat szokta\nszámolni.\n\n
 IND_06_36
-Ez az épület furcsa anyagú\nés alakú tárgyaknak ad\notthont. Senki sem tudja,\nhogy mire valók.\n\n\n\n
+Ez az épület furcsa anyagú\nés alakú tárgyaknak ad\notthont. Senki sem tudja,\nhogy mire valók.\n\n
 IND_06_43
-Temetkezési Vállalkozás.\n\n\n\n\n\n\n
+Temetkezési Vállalkozás.\n\n
 IND_06_44
-Titkos zenestúdió. Egy punk\ncsapat stúdiója.\n\n\n\n\n\n
+Titkos zenestúdió. Egy punk\ncsapat stúdiója.\n\n
 IND_06_45
-Multicég. Csakis szigorú\nbiztonsági intézkedések\nmellett lehet belépni még a\ndolgozóknak is.\n\n\n\n
+Multicég. Csakis szigorú\nbiztonsági intézkedések\nmellett lehet belépni még a\ndolgozóknak is.\n\n
 IND_06_46
-Zöld Laboratórium. A zöld\nszín egy rossz grafitzabáló\nbaktériumkísérlet után lett.\n\n\n\n\n
+Zöld Laboratórium. A zöld\nszín egy rossz grafitzabáló\nbaktériumkísérlet után lett.\n\n
 IND_06_47
-HRW TV. Helyi tévé, helyi\nhírekkel.\n\n\n\n\n\n
+HRW TV. Helyi tévé, helyi\nhírekkel.\n\n
 IND_06_53
-Szerszámgyár. Olcsó és\nbiztonságos szerszámokat\ngyártanak.\n\n\n\n\n
+Szerszámgyár. Olcsó és\nbiztonságos szerszámokat\ngyártanak.\n\n
 IND_06_54
-Szerszámgyár. Olcsó és\nbiztonságos szerszámokat\ngyártanak.\n\n\n\n\n
+Szerszámgyár. Olcsó és\nbiztonságos szerszámokat\ngyártanak.\n\n
 IND_06_55
-Pezsgőtabletta gyár.\n\n\n\n\n\n\n
+Pezsgőtabletta gyár.\n\n
 IND_06_56
-Borostyános ház.\n\n\n\n\n\n\n
+Borostyános ház.\n\n
 IND_06_57
-Boszorkányok háza.\nGyerekek figyelem!!!.\n\n\n\n\n\n
+Boszorkányok háza.\nGyerekek figyelem!!!.\n\n
 IND_06_59
-Kis Atomreaktor. Csak a\nkörnyező házakat tudja\nellátni energiával.\n\n\n\n\n
+Kis Atomreaktor. Csak a\nkörnyező házakat tudja\nellátni energiával.\n\n
 IND_06_60
-Krematórium.\n\n\n\n\n\n\n
+Krematórium.\n\n
 IND_07_01
-Ez csak egy földalatti üzem\nfelső része. Sok pici kínai\ndolgozik benne.\n\n\n\n\n
+Ez csak egy földalatti üzem\nfelső része. Sok pici kínai\ndolgozik benne.\n\n
 IND_07_02
-Ipari Múzeum.\n\n\n\n\n\n\n
+Ipari Múzeum.\n\n
 IND_07_03
-Faszén árusító kis üzlet.\n\n\n\n\n\n\n
+Faszén árusító kis üzlet.\n\n
 IND_07_04
-Sörtartály\n\n\n\n\n\n\n
+Sörtartály\n\n
 IND_07_09
-Kis ház.\n\n\n\n\n\n\n
+Kis ház.\n\n
 IND_07_10
-Zöldségraktár\n\n\n\n\n\n\n
+Zöldségraktár\n\n
 IND_07_15
-Börtön.\n\n\n\n\n\n\n
+Börtön.\n\n
 IND_07_17
-Börtön.\n\n\n\n\n\n\n
+Börtön.\n\n
 IND_08_03
-Tüzéptelep.\n\n\n\n\n\n\n
+Tüzéptelep.\n\n
 IND_08_31
-Vasárú Gyár. Kalapácsot,\ncsavarhúzót és egyéb\nvasárút gyártanak.\n\n\n\n\n
+Vasárú Gyár. Kalapácsot,\ncsavarhúzót és egyéb\nvasárút gyártanak.\n\n
 IND_08_36
-A helyi sörgyár.\n\nItt gyártják a \nlegjobb söröket.\n\n\n\n\n
+A helyi sörgyár.\n\nItt gyártják a \nlegjobb söröket.\n\n
 IND_10_01
-Telekommunikációs torony.\n\n\n\n\n\n\n
+Telekommunikációs torony.\n\n
 IND_10_02
-Telekommunikációs torony.\nÚgy építették, hogy\nfigyelembe vették a zöldek\najánlásait.\n\n\n\n
+Telekommunikációs torony.\nÚgy építették, hogy\nfigyelembe vették a zöldek\najánlásait.\n\n
 IND_10_03
-Autóbontó.\n\n\n\n\n\n\n
+Autóbontó.\n\n
 IND_10_04
-ÁNTSZ ellenőrzése alatt álló\népület.\n\n\n\n\n\n
+ÁNTSZ ellenőrzése alatt álló\népület.\n\n
 IND_10_10
-Javítóműhely. Kertészeti\ngépeket javítanak.\n\n\n\n\n\n
+Javítóműhely. Kertészeti\ngépeket javítanak.\n\n
 IND_10_12
-Kommunikációs torony.\n\n\n\n\n\n\n
+Kommunikációs torony.\n\n
 IND_10_13
-Autójavító.\n\n\n\n\n\n\n
+Autójavító.\n\n
 IND_10_16
-Kis varroda. A Hong Kongi\nolcsó árú ellen hozták létre.\n\n\n\n\n\n
+Kis varroda. A Hong Kongi\nolcsó árú ellen hozták létre.\n\n
 IND_10_17
-Újrahasznosító Központ.\n\n\n\n\n\n\n
+Újrahasznosító Központ.\n\n
 IND_10_18
-Elektronikai Műhely. Olcsó\nTV-ket, rádiókat gyártanak.\n\n\n\n\n\n
+Elektronikai Műhely. Olcsó\nTV-ket, rádiókat gyártanak.\n\n
 IND_10_19
-Félvezető Gyár. Magas\nfrekvenciás\nberendezésekhez gyártanak\nfélvezetőket.\n\n\n\n
+Félvezető Gyár. Magas\nfrekvenciás\nberendezésekhez gyártanak\nfélvezetőket.\n\n
 IND_10_22
-Kis Elektronikai Üzem.\n\n\n\n\n\n\n
+Kis Elektronikai Üzem.\n\n
 IND_10_23
-Senkiháza. Nem lehet tudni\nkié.\n\n\n\n\n\n
+Senkiháza. Nem lehet tudni\nkié.\n\n
 IND_10_24
-Senkiháza. Nem lehet tudni\nkié.\n\n\n\n\n\n
+Senkiháza. Nem lehet tudni\nkié.\n\n
 IND_10_25
-Ipari létesítmény. Még nincs\nfordítás.\n\n\n\n\n\n
+Ipari létesítmény. Még nincs\nfordítás.\n\n
 IND_10_26
-Konzervgyár. Olyan hideg\nvan belül, hogy a\nlegnagyobb nyári melegben\nis a külső falak jegesek.\n\n\n\n
+Konzervgyár. Olyan hideg\nvan belül, hogy a\nlegnagyobb nyári melegben\nis a külső falak jegesek.\n\n
 IND_11_01
-Építkezés.\n\n\n\n\n\n\n
+Építkezés.\n\n
 IND_11_16
-Kis varroda. A Hong Kongi\nolcsó árú ellen hozták létre.\n\n\n\n\n\n
+Kis varroda. A Hong Kongi\nolcsó árú ellen hozták létre.\n\n
 IND_11_46
-Korporáció Központ. A\nvezérigazgató bázisugrást\ntesz minden reggel a\nlegfelsőbb szintről.\n\n\n\n
+Korporáció Központ. A\nvezérigazgató bázisugrást\ntesz minden reggel a\nlegfelsőbb szintről.\n\n
 IND_11_47
-Plakátnyomtató.\n\n\n\n\n\n\n
+Plakátnyomtató.\n\n
 IND_11_48
-Csalfi&Hazufi Ügyvédi Iroda.\nPiszkos ügyek elvállalói.\n\n\n\n\n\n
+Csalfi&Hazufi Ügyvédi Iroda.\nPiszkos ügyek elvállalói.\n\n
 IND_11_49
-Biztonságtechnikai Cég.\n\n\n\n\n\n\n
+Biztonságtechnikai Cég.\n\n
 IND_11_51
-Űrkutatási Központ.\n\n\n\n\n\n\n
+Űrkutatási Központ.\n\n
 IND_11_52
-Vajgyár.\n\n\n\n\n\n\n
+Vajgyár.\n\n
 IND_11_57
-Exotikus Halak. A föld\nminden fajta exotikus\nhalait itt meg lehet\nvásárolni.\n\n\n\n
+Exotikus Halak. A föld\nminden fajta exotikus\nhalait itt meg lehet\nvásárolni.\n\n
 IND_11_58
-Orvosi Labor. Titkos\nkísérletek helye.\n\n\n\n\n\n
+Orvosi Labor. Titkos\nkísérletek helye.\n\n
 IND_12_16
-Hong Kongi Textil Üzem. A\nHong Kongiak visszavágnak.\n\n\n\n\n\n
+Hong Kongi Textil Üzem. A\nHong Kongiak visszavágnak.\n\n
 JUSTICE
-Igazságügyi palota.\n\n\n\n\n\n\n
+Igazságügyi palota.\n\n
 Lighthouse_0
 Világítótorony. \nAmióta megépült a navigáció \n a tengereken sokkal\nkönnyebb. \nSok ember akarja meglátogatni\nés \nnézni ahogy a hullámok\nnyaldossák a partot.\n
 Lighthouse_1
@@ -933,9 +861,9 @@ Faárufogadó dokk
 LuftPost1950_AirportBlg
 Posta állomás (1950)
 MANOR_0
-Reneszánsz Kastély.\n\n\n\n\n\n\n
+Reneszánsz Kastély.\n\n
 MARKET_PLACE_0
-Csütörtöki Piac.\n\n\n\n\n\n\n
+Csütörtöki Piac.\n\n
 medium_classic_bus_stop
 Megálló
 medium_early_bus_stop
@@ -943,7 +871,7 @@ Fedett megálló
 medium_modern_bus_stop
 Közepes megálló
 MILITARY_RADAR
-Katonai radar. Figyelem ezt\nmessze el kell kerülni. Még\nmindig olvasod? Na tünés\ninnen.\n\n\n\n
+Katonai radar. Figyelem ezt\nmessze el kell kerülni. Még\nmindig olvasod? Na tünés\ninnen.\n\n
 Modern_Warehouse
 Raktárépület
 ModernPostOffice
@@ -956,24 +884,22 @@ MonorailFoundation
 Egysínű vasút alap.
 MonorailGround
 Mágnesvasúti alap
-MonorailStation
-Mágnesvaút megálló
 MT_HOTEL_0
 Majestic Hotel.\n\nEz egy nagyon híres hotel. \nA szobák nagyon drágák, de \nmindenki itt akar megszállni, \nvagy legalább az éttermben \nvacsorázni.\n\n
 MUSEUM_0
-Modern Múzeum. Régebben\nvár volt, majd kastéllyá\nátépítették. Most\nmúzeumként funkcionál.\n\n\n\n
+Modern Múzeum. Régebben\nvár volt, majd kastéllyá\nátépítették. Most\nmúzeumként funkcionál.\n\n
 OBSERVATORY
-Obszervatórium. Nappal\nturisták, éjszaka tudósok\nlakják. Rengetek multimédiás\nshow helyszíne.\n\n\n\n
+Obszervatórium. Nappal\nturisták, éjszaka tudósok\nlakják. Rengetek multimédiás\nshow helyszíne.\n\n
 Old_gate
 Városkapu
 OLD_HOUSE_0
-Építészeti Múzeum. Sok\nturista látogatja.\n\n\n\n\n\n
+Építészeti Múzeum. Sok\nturista látogatja.\n\n
 OpenTrainStop
 Nyitott pályaudvar.
 Pagoda01
-Pagoda\n\n\n\n\n\n\n
+Pagoda\n\n
 PARK_0
-Szabadidőpark.\n\n\n\n\n\n\n
+Szabadidőpark.\n\n
 parking_(catchemnt_area_ext)1
 Parkoló
 parking_(catchemnt_area_ext)2
@@ -989,713 +915,669 @@ Reptéri postaépület
 Radar3
 Radar
 RADIO_TOWER_0
-Chit-Chat FM Rádió. Élő\nadások vannak naponta\n"14" és "16" óra között,\nmely sok látogatót vonz.\n\n\n\n
+Chit-Chat FM Rádió. Élő\nadások vannak naponta\n"14" és "16" óra között,\nmely sok látogatót vonz.\n\n
 RES_00_01
-Hepi Hippi Tábor. A cím\nminden elmond :).\n\n\n\n\n\n
+Hepi Hippi Tábor. A cím\nminden elmond :).\n\n
 RES_00_02
-Kis kertes ház.\n\n\n\n\n\n\n
+Kis kertes ház.\n\n
 RES_00_03
-Faház.\n\n\n\n\n\n\n
+Faház.\n\n
 RES_00_04
-Kis ház.\n\n\n\n\n\n\n
-RES_00_05
-4 családos ház.\n\n\n\n\n\n\n
+Kis ház.\n\n
 RES_00_06
-Óvoda.\n\n\n\n\n\n\n
+Óvoda.\n\n
 RES_00_07
-Taverna ház.\n\n\n\n\n\n\n
+Taverna ház.\n\n
 RES_00_08
-Kis Faház.\n\n\n\n\n\n\n
-RES_00_09
-Youth Hostel.\n\n\n\n\n\n\n
-RES_00_10
-Nagycsaládos ház.\n\n\n\n\n\n\n
+Kis Faház.\n\n
 RES_00_11
-Kis park.\n\n\n\n\n\n\n
+Kis park.\n\n
 RES_00_12
-Század eleji faház.\n\n\n\n\n\n\n
+Század eleji faház.\n\n
 RES_00_13
-Öreg családi ház.\n\n\n\n\n\n\n
+Öreg családi ház.\n\n
 RES_00_14
-Tömbház.\n\n\n\n\n\n\n
+Tömbház.\n\n
 RES_00_15
-Régi stílusú villa.\n\n\n\n\n\n\n
+Régi stílusú villa.\n\n
 RES_00_16
-Uszoda.\n\n\n\n\n\n\n
+Uszoda.\n\n
 RES_00_17
-6 lakásos tömbház.\n\n\n\n\n\n\n
+6 lakásos tömbház.\n\n
 RES_00_18
-Luxus érház.\n\n\n\n\n\n\n
+Luxus érház.\n\n
 RES_00_19
-Gerenda lakás.\n\n\n\n\n\n\n
+Gerenda lakás.\n\n
 RES_00_20
-Hostel.\n\n\n\n\n\n\n
+Hostel.\n\n
 RES_00_21
-Rehabilitált lakások.\n\n\n\n\n\n\n
+Rehabilitált lakások.\n\n
 RES_00_22
-Öreg villa.\n\n\n\n\n\n\n
-RES_00_23
-Csodapark.\n\n\n\n\n\n\n
-RES_00_24
-Modern téglaház.\n\n\n\n\n\n\n
+Öreg villa.\n\n
 RES_00_25
-Tömbház "3" emeletes.\n\n\n\n\n\n\n
-RES_00_26
-Emlékszobor.\n\n\n\n\n\n\n
-RES_00_27
-Felújított lakások.\n\n\n\n\n\n\n
-RES_00_28
-Nászút ház.\n\n\n\n\n\n\n
+Tömbház "3" emeletes.\n\n
 RES_00_29
-Tömbház.\n\n\n\n\n\n\n
-RES_00_30
-Csodapark.\n\n\n\n\n\n\n
+Tömbház.\n\n
 RES_00_52
-Imaház.\n\n\n\n\n\n\n
+Imaház.\n\n
 RES_00_53
-Sir Hans Groper szobra.\n\n\n\n\n\n\n
+Sir Hans Groper szobra.\n\n
 RES_00_60
-Szállítmányozási Központ.\n\n\n\n\n\n\n
+Szállítmányozási Központ.\n\n
 RES_01_01
-Itt gyülekeznek a Simutrans\nlegszerencsétlenebb\nfazonjai.\n\n\n\n\n
+Itt gyülekeznek a Simutrans\nlegszerencsétlenebb\nfazonjai.\n\n
 RES_01_02
-Családi ház.\n\n\n\n\n\n\n
+Családi ház.\n\n
 RES_01_03
-Extra Luxusház.\n\n\n\n\n\n\n
+Extra Luxusház.\n\n
 RES_01_04
-Kunyhó.\n\n\n\n\n\n\n
+Kunyhó.\n\n
 RES_01_05
-Duplex ház.\n\n\n\n\n\n\n
+Duplex ház.\n\n
 RES_01_09
-Polgári ház.\n\n\n\n\n\n\n
+Polgári ház.\n\n
 RES_01_10
-Pirosajtós ház.\n\n\n\n\n\n\n
+Pirosajtós ház.\n\n
 RES_01_12
-Építőtelki ház.\n\n\n\n\n\n\n
+Építőtelki ház.\n\n
 RES_01_13
-Családi ház.\n\n\n\n\n\n\n
+Családi ház.\n\n
 RES_01_14
-Olcsó ház.\n\n\n\n\n\n\n
+Olcsó ház.\n\n
 RES_01_15
-Ikerház.\n\n\n\n\n\n\n
+Ikerház.\n\n
 RES_01_16
-Kis park.\n\n\n\n\n\n\n
+Kis park.\n\n
 RES_01_17
-Jerry lakása.\n\n\n\n\n\n\n
+Jerry lakása.\n\n
 RES_01_18
-Luxus palota.\n\n\n\n\n\n\n
+Luxus palota.\n\n
 RES_01_19
-Turistaház.\n\n\n\n\n\n\n
-RES_01_20
-Panorámás ház.\n\n\n\n\n\n\n
+Turistaház.\n\n
 RES_01_21
-Gregoriánus ház.\n\n\n\n\n\n\n
+Gregoriánus ház.\n\n
 RES_01_22
-Kertészlakás.\n\n\n\n\n\n\n
+Kertészlakás.\n\n
 RES_01_23
-Gótikus Park.\n\n\n\n\n\n\n
+Gótikus Park.\n\n
 RES_01_24
-Tömbház "3-4" szobás\nlakások.\n\n\n\n\n\n
+Tömbház "3-4" szobás\nlakások.\n\n
 RES_01_25
-Manzárdos ház.\n\n\n\n\n\n\n
+Manzárdos ház.\n\n
 RES_01_26
-Aranyhalas Tavacska.\n\n\n\n\n\n\n
+Aranyhalas Tavacska.\n\n
 RES_01_27
-Tömbház.\n\n\n\n\n\n\n
+Tömbház.\n\n
 RES_01_28
-Szociális lakások. A város\ntulajdona.\n\n\n\n\n\n
+Szociális lakások. A város\ntulajdona.\n\n
 RES_01_29
-Pirostetős lakás.\n\n\n\n\n\n\n
+Pirostetős lakás.\n\n
 RES_01_30
-Emlékmű.\n\n\n\n\n\n\n
+Emlékmű.\n\n
 RES_01_31
-19 századi ház.\n\n\n\n\n\n\n
-RES_01_32
-Régi bérház.\n\n\n\n\n\n\n
+19 századi ház.\n\n
 RES_01_33
-Régi bérház.\n\n\n\n\n\n\n
+Régi bérház.\n\n
 RES_01_34
-Régi bérház.\n\n\n\n\n\n\n
+Régi bérház.\n\n
 RES_01_35
-Ólomüveges ház.\n\n\n\n\n\n\n
-RES_01_36
-Üzletes tömbház.\n\n\n\n\n\n\n
+Ólomüveges ház.\n\n
 RES_01_37
-Sarokház.\n\n\n\n\n\n\n
+Sarokház.\n\n
 RES_01_38
-Könyvesbolt.\n\n\n\n\n\n\n
+Könyvesbolt.\n\n
 RES_01_39
-Szivar Üzlet.\n\n\n\n\n\n\n
+Szivar Üzlet.\n\n
 RES_01_41
-Viktoriánus ház.\n\n\n\n\n\n\n
-RES_01_42
-Gazdag ember háza.\n\n\n\n\n\n\n
+Viktoriánus ház.\n\n
 RES_01_45
-Luxusház.\n\n\n\n\n\n\n
+Luxusház.\n\n
 RES_01_46
-Tömbház.\n\n\n\n\n\n\n
+Tömbház.\n\n
 RES_01_49
-Tűzpusztította ház.\n\n\n\n\n\n\n
+Tűzpusztította ház.\n\n
 RES_01_50
-Modern irodaház.\n\n\n\n\n\n\n
+Modern irodaház.\n\n
 RES_01_60
-Turista Infócenter.\n\n\n\n\n\n\n
+Turista Infócenter.\n\n
 RES_02_03
-Faház.\n\n\n\n\n\n\n
+Faház.\n\n
 RES_02_04
-Kertvárosi ház.\n\n\n\n\n\n\n
+Kertvárosi ház.\n\n
 RES_02_05
-Mr.és Mrs. Kegal háza. Még\nnem döntötték el milyenre\nfessék.\n\n\n\n\n
+Mr.és Mrs. Kegal háza. Még\nnem döntötték el milyenre\nfessék.\n\n
 RES_02_09
-Icipici ház.\n\n\n\n\n\n\n
+Icipici ház.\n\n
 RES_02_10
-Filozófus ház. Régen egy\nThomas nevezetű filozófus\nlakott benne. Manapság egy\nPiszkos Fred nevezetű\nügyvéd tulajdona.\n\n\n
+Filozófus ház. Régen egy\nThomas nevezetű filozófus\nlakott benne. Manapság egy\nPiszkos Fred nevezetű\nügyvéd tulajdona.\n\n
 RES_02_12
-Bob háza. Csak sajnos\nelfelejtette a padlót\nbefoltozni.\n\n\n\n\n
+Bob háza. Csak sajnos\nelfelejtette a padlót\nbefoltozni.\n\n
 RES_02_13
-Kis Színház.\n\n\n\n\n\n\n
+Kis Színház.\n\n
 RES_02_14
-Pornó Műhely.\n\n\n\n\n\n\n
+Pornó Műhely.\n\n
 RES_02_15
-Apartmanok.\n\n\n\n\n\n\n
+Apartmanok.\n\n
 RES_02_16
-Alpesi Hotel.\n\n\n\n\n\n\n
+Alpesi Hotel.\n\n
 RES_02_17
-Nagy családi ház.\n\n\n\n\n\n\n
+Nagy családi ház.\n\n
 RES_02_18
-Éjjeli Pillangók háza. A\ntulajdonosok csakis éjjel\ntávoznak a házból.\n\n\n\n\n
+Éjjeli Pillangók háza. A\ntulajdonosok csakis éjjel\ntávoznak a házból.\n\n
 RES_02_19
-Steven Queen\nforgatókönyvíró lakása.\n\n\n\n\n\n
+Steven Queen\nforgatókönyvíró lakása.\n\n
 RES_02_20
-Árvaház.\n\n\n\n\n\n\n
+Árvaház.\n\n
 RES_02_21
-Furcsa tinitüni ház.\n\n\n\n\n\n\n
+Furcsa tinitüni ház.\n\n
 RES_02_22
-Boszorkány háza.\n\n\n\n\n\n\n
+Boszorkány háza.\n\n
 RES_02_24
-Betonház.\n\n\n\n\n\n\n
+Betonház.\n\n
 RES_02_27
-Egyetemi épület.\n\n\n\n\n\n\n
+Egyetemi épület.\n\n
 RES_02_28
-Tornyos németalföldi lábasház.\n\n\n\n\n\n\n
+Tornyos németalföldi lábasház.\n\n
 RES_02_33
-Városi tó. Szép\naranyhalacskák vannak\nbenne.\n\n\n\n\n
+Városi tó. Szép\naranyhalacskák vannak\nbenne.\n\n
 RES_02_38
-Szép park. A látvány\nmindenért kárpótol.\n\n\n\n\n\n
+Szép park. A látvány\nmindenért kárpótol.\n\n
 RES_02_39
-Veszélyes park. Elég sok\nrablás történt itt a\nközelmúltban.\n\n\n\n\n
+Veszélyes park. Elég sok\nrablás történt itt a\nközelmúltban.\n\n
 RES_03_05
-Kertes családi ház.\n\n\n\n\n\n\n
+Kertes családi ház.\n\n
 RES_03_09
-Családosok háza.\n\n\n\n\n\n\n
+Családosok háza.\n\n
 RES_03_10
-Családi ház.\n\n\n\n\n\n\n
+Családi ház.\n\n
 RES_03_13
-Panzió.\n\n\n\n\n\n\n
+Panzió.\n\n
 RES_03_14
 Titkos Magánlabor. A\ntulajdonosa a pincében egy\nolyan labort rendezett be\nahol egy új, melléktermék\nnélküli üzemanyagot próbál\nkifejleszteni.\n\n
 RES_03_15
-Matematikus háza.\n\n\n\n\n\n\n
+Matematikus háza.\n\n
 RES_03_16
-Híres vonattervező háza.\n\n\n\n\n\n\n
+Híres vonattervező háza.\n\n
 RES_03_18
-Németalföldi parasztház.\n\n\n\n\n\n\n
+Németalföldi parasztház.\n\n
 RES_03_19
-Németalföldi ikerház.\n\n\n\n\n\n\n
+Németalföldi ikerház.\n\n
 RES_03_20
-Emeletes vidéki ház.\n\n\n\n\n\n\n
+Emeletes vidéki ház.\n\n
 RES_03_22
-Örült elme otthona. A pasi,\naki itt lakik az alagsorban\negy új úgymond "tiszta"\nüzemanyag kifejlesztésén\ndolgozik.\n\n\n
+Örült elme otthona. A pasi,\naki itt lakik az alagsorban\negy új úgymond "tiszta"\nüzemanyag kifejlesztésén\ndolgozik.\n\n
 RES_03_27
-Az alagsorban lakó furcsa\nemberke, egy új tiszta\nüzemanyag kifejlesztésén\ndolgozik.\n\n\n\n
+Az alagsorban lakó furcsa\nemberke, egy új tiszta\nüzemanyag kifejlesztésén\ndolgozik.\n\n
 RES_03_31
 Félig kész lakások. A\nbeköltözők rémülten vették\nészre, hogy az építtető cég\nrosszul szerelte be a\ncsővezetékeket és emiatt\nnem lehet használni sem a\nkagylókat sem a vécét.\n
-RES_03_32
-Tömbház.\n\n\n\n\n\n\n
 RES_03_33
-A helyi Történelmi Egyesület\náltal állított szoborcsoport.\n\n\n\n\n\n
+A helyi Történelmi Egyesület\náltal állított szoborcsoport.\n\n
 RES_03_34
-Telekommunikációs ház.\n\nGyors internet, \nkábeltévé szatelit stb.\n\n\n\n\n
+Telekommunikációs ház.\n\nGyors internet, \nkábeltévé szatelit stb.\n\n
 RES_03_38
-Park.\n\n\n\n\n\n\n
+Park.\n\n
 RES_03_39
-A Simutrans lakói emelték a\nhős Micimackó számára.\n\n\n\n\n\n
+A Simutrans lakói emelték a\nhős Micimackó számára.\n\n
 RES_04_20
-Falusi Iskola és könyvtár.\n\n\n\n\n\n\n
+Falusi Iskola és könyvtár.\n\n
 RES_05_01
-Mobilház.\n\n\n\n\n\n\n
+Mobilház.\n\n
 RES_05_02
-Szinglilakás.\n\n\n\n\n\n\n
+Szinglilakás.\n\n
 RES_05_03
-Barakk.\n\n\n\n\n\n\n
+Barakk.\n\n
 RES_05_04
-Álomház.\n\n\n\n\n\n\n
+Álomház.\n\n
 RES_05_05
-Virágkertes családi ház.\n\n\n\n\n\n\n
+Virágkertes családi ház.\n\n
 RES_05_06
-Barakk házak.\n\n\n\n\n\n\n
+Barakk házak.\n\n
 RES_05_07
-Mobil ház.\n\n\n\n\n\n\n
-RES_05_08
-Családi ház.\n\n\n\n\n\n\n
+Mobil ház.\n\n
 RES_05_09
-Nagycsaládos ház.\n\n\n\n\n\n\n
-RES_05_10
-Háromsoros házak.\n\n\n\n\n\n\n
+Nagycsaládos ház.\n\n
 RES_05_11
-Kis halastó.\n\n\n\n\n\n\n
+Kis halastó.\n\n
 RES_05_12
-Garázsos ház.\n\n\n\n\n\n\n
+Garázsos ház.\n\n
 RES_05_13
-Vendégház.\n\n\n\n\n\n\n
+Vendégház.\n\n
 RES_05_14
-Nagy családi ház.\n\n\n\n\n\n\n
+Nagy családi ház.\n\n
 RES_05_15
-Hanta Gyurka lakása.\n\n\n\n\n\n\n
+Hanta Gyurka lakása.\n\n
 RES_05_16
-Luxus villa.\n\n\n\n\n\n\n
+Luxus villa.\n\n
 RES_05_17
-Nagy bérház.\n\n\n\n\n\n\n
+Nagy bérház.\n\n
 RES_05_18
-Nagy tömbház.\n\n\n\n\n\n\n
+Nagy tömbház.\n\n
 RES_05_19
-High-Tech ház. Friss\ntechnika bűvöletében élő\nmilliomosok lakóhelye.\n\n\n\n\n
+High-Tech ház. Friss\ntechnika bűvöletében élő\nmilliomosok lakóhelye.\n\n
 RES_05_20
-Öröklakások.\n\n\n\n\n\n\n
+Öröklakások.\n\n
 RES_05_21
-Szociális lakások. A város\ntulajdona.\n\n\n\n\n\n
+Szociális lakások. A város\ntulajdona.\n\n
 RES_05_22
-Vendéglakások. Egyik multi\nbirtokolja.\n\n\n\n\n\n
+Vendéglakások. Egyik multi\nbirtokolja.\n\n
 RES_05_24
-L panellakások. Egy és két\nszobás lakásokat lehet\nvásárolni.\n\n\n\n\n
+L panellakások. Egy és két\nszobás lakásokat lehet\nvásárolni.\n\n
 RES_05_25
-Simustay Star Hotel.\n\n\n\n\n\n\n
+Simustay Star Hotel.\n\n
 RES_05_27
-Lidérc ház.\n\n\n\n\n\n\n
+Lidérc ház.\n\n
 RES_05_28
-Simustay Hotel.\n\n\n\n\n\n\n
+Simustay Hotel.\n\n
 RES_05_30
-William "Wimpy"\nWipchester, a Bugerboos\nFine Fast Food Dining\ngyorsétteremlánc\nalapítójának háza.\n\n\n
+William "Wimpy"\nWipchester, a Bugerboos\nFine Fast Food Dining\ngyorsétteremlánc\nalapítójának háza.\n\n
 RES_06_01
-Szegénylakás.\n\n\n\n\n\n\n
+Szegénylakás.\n\n
 RES_06_02
-Kis ház.\n\n\n\n\n\n\n
+Kis ház.\n\n
 RES_06_03
-Családos ház.\n\n\n\n\n\n\n
+Családos ház.\n\n
 RES_06_04
-Kis ház. Kis kocsival, kis\ngarázzsal.\n\n\n\n\n\n
+Kis ház. Kis kocsival, kis\ngarázzsal.\n\n
 RES_06_05
-Rönkház.\n\n\n\n\n\n\n
+Rönkház.\n\n
 RES_06_06
-Apró lakások.\n\n\n\n\n\n\n
+Apró lakások.\n\n
 RES_06_07
-Kunyhó.\n\n\n\n\n\n\n
+Kunyhó.\n\n
 RES_06_08
-Családi ház. Kisebb\ncsaládnak.\n\n\n\n\n\n
+Családi ház. Kisebb\ncsaládnak.\n\n
 RES_06_09
-Félig kész ház.\n\n\n\n\n\n\n
+Félig kész ház.\n\n
 RES_06_10
-Új típusú téglalakás.\n\n\n\n\n\n\n
+Új típusú téglalakás.\n\n
 RES_06_11
-Mesterséges Tó.\n\n\n\n\n\n\n
+Mesterséges Tó.\n\n
 RES_06_12
-Családi ház.\n\n\n\n\n\n\n
+Családi ház.\n\n
 RES_06_13
-Nyárilak.\n\n\n\n\n\n\n
+Nyárilak.\n\n
 RES_06_14
-Lakópark.\n\n\n\n\n\n\n
+Lakópark.\n\n
 RES_06_15
-Lord John Snobbsbery\npalotája.\n\n\n\n\n\n
+Lord John Snobbsbery\npalotája.\n\n
 RES_06_16
-Bérház.\n\n\n\n\n\n\n
+Bérház.\n\n
 RES_06_17
-Kő bérház.\n\n\n\n\n\n\n
+Kő bérház.\n\n
 RES_06_18
-Duplex ház.\n\n\n\n\n\n\n
+Duplex ház.\n\n
 RES_06_19
-Kósza Lakópark. Frissen\népült modern apartmanok.\n\n\n\n\n\n
+Kósza Lakópark. Frissen\népült modern apartmanok.\n\n
 RES_06_21
-Sárga ház.\n\n\n\n\n\n\n
+Sárga ház.\n\n
 RES_06_22
-Régi börtön. A régi börtönből\n"2-3" szobás lakásokat\nalakítottak ki. A legújabb\nsláger a menő lakásokat\nkeresők körében.\n\n\n
+Régi börtön. A régi börtönből\n"2-3" szobás lakásokat\nalakítottak ki. A legújabb\nsláger a menő lakásokat\nkeresők körében.\n\n
 RES_06_24
-Kétszintes tégla sorház\nüzletsorral.\n\n\n\n\n\n
+Kétszintes tégla sorház\nüzletsorral.\n\n
 RES_06_25
-Kétszintes tégla sorház\ngarázsokkal.\n\n\n\n\n\n
+Kétszintes tégla sorház\ngarázsokkal.\n\n
 RES_06_27
-Modern emeletes ház.\n\n\n\n\n\n\n
+Modern emeletes ház.\n\n
 RES_06_30
-Kis bolt.\n\n\n\n\n\n\n
+Kis bolt.\n\n
 RES_06_31
-Tégla lakópark.\n\n\n\n\n\n\n
+Tégla lakópark.\n\n
 RES_06_32
-Az Olimpiai úszócsapat\nedzőtermei.\n\n\n\n\n\n
+Az Olimpiai úszócsapat\nedzőtermei.\n\n
 RES_06_33
-Ódon irodaépület. Frissen\nfelújítva.\n\n\n\n\n\n
+Ódon irodaépület. Frissen\nfelújítva.\n\n
 RES_06_34
-Nagy lakópark.\n\n\n\n\n\n\n
+Nagy lakópark.\n\n
 RES_06_35
-Lakótorony.\n\n\n\n\n\n\n
+Lakótorony.\n\n
 RES_06_36
-Kubai tömbház.\n\n\n\n\n\n\n
+Kubai tömbház.\n\n
 RES_06_37
-Ósdi ház.\n\n\n\n\n\n\n
+Ósdi ház.\n\n
 RES_06_38
-Menza.\n\n\n\n\n\n\n
+Menza.\n\n
 RES_06_40
-Régebbi tömbház.\n\n\n\n\n\n\n
+Régebbi tömbház.\n\n
 RES_06_41
-Légkondícionált irodaház.\n\n\n\n\n\n\n
+Légkondícionált irodaház.\n\n
 RES_06_42
-Olcsó bérlakások.\n\n\n\n\n\n\n
+Olcsó bérlakások.\n\n
 RES_06_43
-Lakóház.\n\n\n\n\n\n\n
+Lakóház.\n\n
 RES_06_44
-Panorámás ház.\n\n\n\n\n\n\n
+Panorámás ház.\n\n
 RES_06_48
-Fiatal családok háza.\n\n\n\n\n\n\n
+Fiatal családok háza.\n\n
 RES_06_52
-Acél ház.\n\n\n\n\n\n\n
+Acél ház.\n\n
 RES_06_53
-Diákszállás.\n\n\n\n\n\n\n
+Diákszállás.\n\n
 RES_06_54
-Gazdag csávók lakása.\n\n\n\n\n\n\n
+Gazdag csávók lakása.\n\n
 RES_06_55
-Maffiózok háza.\n\n\n\n\n\n\n
+Maffiózok háza.\n\n
 RES_06_56
-Bérház. Új lakó csakis akkor\nköltözhet be, ha azt az\nösszes lakó jóváhagyja.\n\n\n\n\n
+Bérház. Új lakó csakis akkor\nköltözhet be, ha azt az\nösszes lakó jóváhagyja.\n\n
 RES_06_57
-Légkondis ház.\n\n\n\n\n\n\n
+Légkondis ház.\n\n
 RES_06_60
-Beton Lakótorony.\n\n\n\n\n\n\n
+Beton Lakótorony.\n\n
 RES_07_01
-Lakás parkolóval.\n\n\n\n\n\n\n
+Lakás parkolóval.\n\n
 RES_07_02
-Icipici ház.\n\n\n\n\n\n\n
+Icipici ház.\n\n
 RES_07_03
-Családi ház. Nyugdíjasok\nlaknak benne.\n\n\n\n\n\n
+Családi ház. Nyugdíjasok\nlaknak benne.\n\n
 RES_07_04
-Kis ház Kis kocsival, kis\ngarázzsal.\n\n\n\n\n\n
+Kis ház Kis kocsival, kis\ngarázzsal.\n\n
 RES_07_05
-Otromba ház.\n\n\n\n\n\n\n
+Otromba ház.\n\n
 RES_07_06
-Lapos manzárdos ház.\n\n\n\n\n\n\n
+Lapos manzárdos ház.\n\n
 RES_07_07
-Ikerház.\n\n\n\n\n\n\n
+Ikerház.\n\n
 RES_07_08
-Emeletes ház. Jacky Broken\nhacker rezidenciája.\n\n\n\n\n\n
+Emeletes ház. Jacky Broken\nhacker rezidenciája.\n\n
 RES_07_09
-Családi ház kocsival.\n\n\n\n\n\n\n
+Családi ház kocsival.\n\n
 RES_07_10
-Tinédzserek lakása.\n\n\n\n\n\n\n
+Tinédzserek lakása.\n\n
 RES_07_12
 Fura szakács háza.\n\nAz ember aki ebben a\nházban \nlakik zöldségeket nevel. \nAmit termel azt meg is főzi \nde valmi furcsa dolog miatt \nmindig videóval rögzíti a \nfőzéseit, de nem mutatja \nmeg soha senkinek.\n\n
 RES_07_13
-Bűnözők háza. Itt lakik a\nSimutrans legkeresettebb\nbűnözője.\n\n\n\n\n
+Bűnözők háza. Itt lakik a\nSimutrans legkeresettebb\nbűnözője.\n\n
 RES_07_14
-Ikerház.\n\n\n\n\n\n\n
+Ikerház.\n\n
 RES_07_15
-Genetika labor.\n\n\n\n\n\n\n
+Genetika labor.\n\n
 RES_07_16
-Medencés ház.\n\n\n\n\n\n\n
+Medencés ház.\n\n
 RES_07_17
-Típusház.\n\n\n\n\n\n\n
+Típusház.\n\n
 RES_07_18
-Retro ház.\n\n\n\n\n\n\n
+Retro ház.\n\n
 RES_07_19
-Németalföldi emeletes\nlakóház.\n\n\n\n\n\n
+Németalföldi emeletes\nlakóház.\n\n
 RES_07_21
-Apartmanok.\n\n\n\n\n\n\n
+Apartmanok.\n\n
 RES_07_22
-3 emeletes\nkönnyűszerkezetes ház\n\n\n\n\n\n
+3 emeletes\nkönnyűszerkezetes ház\n\n
 RES_07_24
-Panelház\n\n\n\n\n\n\n
+Panelház\n\n
 RES_07_25
-Tömbház üzletekkel.\n\n\n\n\n\n\n
+Tömbház üzletekkel.\n\n
 RES_08_10
-Jégkrémpalota.\n\n\n\n\n\n\n
+Jégkrémpalota.\n\n
 RES_08_11
-Japánkert a Jin és Jang \nelvei alapján épült.\n\n\n\n\n\n
+Japánkert a Jin és Jang \nelvei alapján épült.\n\n
 RES_08_12
 A híres halász John B. \nSplendens háza. A legtöbb \nidőt Ázsiában tölti ezért \neladta az autóját, ha \nmégis a városban van akkor \ngyakran biciklizik.\n\n
 RES_08_13
-Lloyd Greggory Sniffington\nüzletmágnás háza.\n\n\n\n\n\n
+Lloyd Greggory Sniffington\nüzletmágnás háza.\n\n
 RES_08_14
 Szimla kis házikó.\n\nEz egy elvált nő háza akinek \na mottója a következő: \n"A fű mindig zöldebb a \nszomszédnál, de nekem az \nsajátom tetszik úgy ahogy \nvan."\n\n
 RES_08_15
 Banánfarmer palota.\n\nEz a palota egy\nbanánfarmeré \na trópusokon, elég lerobbant \nde most újítják fel. A \nbanánültetvényt pedig \ntehénfarmmá alakítják.\n\n
 RES_08_16
-Németalföldi parasztház.\n\n\n\n\n\n\n
+Németalföldi parasztház.\n\n
 RES_08_17
 Betonház drága kőlapokkal.\n\nEz a ház úgy néz ki mintha \nkőböl épült volna, pedig \nsima betonból van amelyet \ndrága kőlapok borítanak. \nA szóbeszéd szerint ez a\nKGB \negyik titkos helye, bár senki \nsem tudja bizonyítani, azért \nmindenki elkerüli.\n\n
 RES_08_18
-Felejtékeny ember háza.\n\nGyakran felejti a \nslusszkulcsut a kocsijában \nezért mindig a helyi \nlakatost kell kihívnia.\n\n\n
+Felejtékeny ember háza.\n\nGyakran felejti a \nslusszkulcsut a kocsijában \nezért mindig a helyi \nlakatost kell kihívnia.\n\n
 RES_08_21
-Kis lakópark.\n\nCsak három apartman és sok \nparkosított terület van itt. \nHa fiatal szingli vagy akkor \nez az idális választás \nszámodra.\n\n\n
+Kis lakópark.\n\nCsak három apartman és sok \nparkosított terület van itt. \nHa fiatal szingli vagy akkor \nez az idális választás \nszámodra.\n\n
 RES_08_31
 Özvegy háza.\n\nEgy gazdag özvegyasszony \nlakott itt de meghalt. a \nvégrendeletében meghagyta \nhogy az egész házat meg kell \nvenni a lakóktól és a \nmacskáinak kell menhelyet \ncsinálni belőle. Ma mindenki \ncsak úgy ismeri, hogy a \n"Helyi Macskaház".\n\n
 RES_08_32
-Tégla tömbház.\n\n\n\n\n\n\n
+Tégla tömbház.\n\n
 RES_08_34
-Garzonház.\n\nA fiataloknak építették \nsok a házibuli és miegyéb \nde csak 30 alattiaknak!\n\n\n\n
+Garzonház.\n\nA fiataloknak építették \nsok a házibuli és miegyéb \nde csak 30 alattiaknak!\n\n
 RES_08_36
 Önkormányzati tömbház.\n\nHa szerencsés vagy és a \nszüleid a születésedkor \nbejelentetkeztek az \nÖnkormányzatnál, akkor lehet \nesélyed beköltözni ide \nmielőtt nyugdíjba mész.\n\n
 RES_08_43
-Telekommunikációs ház.\n\n\n\n\n\n\n
+Telekommunikációs ház.\n\n
 RES_09_35
-Modern irodaház.\n\n\n\n\n\n\n
+Modern irodaház.\n\n
 RES_10_01
-Park Csoda. Remekbe\ntervezett zöld övezet.\n\n\n\n\n\n
+Park Csoda. Remekbe\ntervezett zöld övezet.\n\n
 RES_10_02
-Kis ház.\n\n\n\n\n\n\n
+Kis ház.\n\n
 RES_10_03
-Modern ház.\n\n\n\n\n\n\n
-RES_10_04
-Konténer ház.\n\n\n\n\n\n\n
+Modern ház.\n\n
 RES_10_05
-Rönkház szegényeknek.\n\n\n\n\n\n\n
-RES_10_06
-Manzárdos ház.\n\n\n\n\n\n\n
-RES_10_07
-Luxusház.\n\n\n\n\n\n\n
+Rönkház szegényeknek.\n\n
 RES_10_08
-Családi ház. Kutyásoknak.\n\n\n\n\n\n\n
+Családi ház. Kutyásoknak.\n\n
 RES_10_09
-Kőház.\n\n\n\n\n\n\n
+Kőház.\n\n
 RES_10_10
-Ex-titkosügynök háza.\n\n\n\n\n\n\n
+Ex-titkosügynök háza.\n\n
 RES_10_12
-Csúnya spion háza.\n\n\n\n\n\n\n
+Csúnya spion háza.\n\n
 RES_10_13
-Jerry Autójavító Műhely\ntulajdonosának háza.\n\n\n\n\n\n
-RES_10_14
-Téglaház.\n\n\n\n\n\n\n
+Jerry Autójavító Műhely\ntulajdonosának háza.\n\n
 RES_10_15
-Ikerház.\n\n\n\n\n\n\n
+Ikerház.\n\n
 RES_10_16
-Kis házikó. Két család lakik\nbékésen egymás mellett.\n\n\n\n\n\n
+Kis házikó. Két család lakik\nbékésen egymás mellett.\n\n
 RES_10_17
-Építész háza.\n\n\n\n\n\n\n
+Építész háza.\n\n
 RES_10_18
-Modern lakosztályok.\n\n\n\n\n\n\n
+Modern lakosztályok.\n\n
 RES_10_19
-Tömbház.\n\n\n\n\n\n\n
+Tömbház.\n\n
 RES_10_21
-Németalföldi parasztház.\n\n\n\n\n\n\n
+Németalföldi parasztház.\n\n
 RES_10_22
-Dr. Slim Hopkins lakóhelye.\nHíres dietetikus.\n\n\n\n\n\n
+Dr. Slim Hopkins lakóhelye.\nHíres dietetikus.\n\n
 RES_10_24
 Ima Starr egykori híres\nszínnő háza.\n\nJátszott pár tini filmben \npéldául "Én egy tini szajha \nvoltam" vagy "A mami miért \nnő a hasam egyre\nnagyobbra" \ncíműben. Mostanában \nvisszavonultan él ebben a \nházban a 13 macskájával \nés soha nem jön ki.\n\n
 RES_10_25
-Praktikus lakások.\n\n\n\n\n\n\n
+Praktikus lakások.\n\n
 RES_10_26
-Magánlakások.\n\n\n\n\n\n\n
+Magánlakások.\n\n
 RES_10_29
-Enjoy living lakópark.\n\n\n\n\n\n\n
+Enjoy living lakópark.\n\n
 RES_10_30
-Modern ház.\n\nközponti fűtéssel, \ninternettel és kábeltévével \nrendelkeznek a lakások. \nNem túl szép de praktikus.\n\n\n
+Modern ház.\n\nközponti fűtéssel, \ninternettel és kábeltévével \nrendelkeznek a lakások. \nNem túl szép de praktikus.\n\n
 RES_11_03
-Díjnyertes kertes ház.\n\n\n\n\n\n\n
+Díjnyertes kertes ház.\n\n
 RES_11_04
-Mr Bean háza.\n\n\n\n\n\n\n
+Mr Bean háza.\n\n
 RES_11_05
-Olcsó rönkház.\n\n\n\n\n\n\n
+Olcsó rönkház.\n\n
 RES_11_06
-Juan a szerencsejátékos\nháza.\n\n\n\n\n\n
+Juan a szerencsejátékos\nháza.\n\n
 RES_11_09
-Családi ház. Egy\nsokgyermekes család városi\nrezidenciája.\n\n\n\n\n
+Családi ház. Egy\nsokgyermekes család városi\nrezidenciája.\n\n
 RES_11_10
-Falubolondjának háza.\n\n\n\n\n\n\n
+Falubolondjának háza.\n\n
 RES_11_12
-Lakás akinek lakói a\nvadméhek miatt nem igazán\nmernek kint mászkálni.\n\n\n\n\n
+Lakás akinek lakói a\nvadméhek miatt nem igazán\nmernek kint mászkálni.\n\n
 RES_11_13
-Műanyagház.\nMűanyagtéglákból épült.\n\n\n\n\n\n
-RES_11_14
-Puskás Öcsi focista\nlakóhelye.\n\n\n\n\n\n
+Műanyagház.\nMűanyagtéglákból épült.\n\n
 RES_11_15
-Királyházi leszármazottak\nlakóhelye.\n\n\n\n\n\n
+Királyházi leszármazottak\nlakóhelye.\n\n
 RES_11_17
-Beton bérház.\n\n\n\n\n\n\n
+Beton bérház.\n\n
 RES_11_18
-Való Világ ház.\n\n\n\n\n\n\n
+Való Világ ház.\n\n
 RES_11_19
-Tomas háza.\n\n\n\n\n\n\n
+Tomas háza.\n\n
 RES_11_20
-Tömbház fiatal tudósóknak.\n\nItt csupa fiatal lakik \nde ők nem bulizni járnak \nhanem a tudománynak \nszentelik az idejüket.\n\n\n
+Tömbház fiatal tudósóknak.\n\nItt csupa fiatal lakik \nde ők nem bulizni járnak \nhanem a tudománynak \nszentelik az idejüket.\n\n
 RES_11_21
-Németalföldi lábas ház.\n\nAz alsó részen a gazdasági \nhelységek vannak a család a \nfelső és a padlásszinten él.\n\n\n\n
+Németalföldi lábas ház.\n\nAz alsó részen a gazdasági \nhelységek vannak a család a \nfelső és a padlásszinten él.\n\n
 RES_11_22
-Dr. Oceánosz oceanográfus\nlakóhelye. Ő fedezte fel a\nSimutrans oceánban a\nlegelső halrajokat.\n\n\n\n
+Dr. Oceánosz oceanográfus\nlakóhelye. Ő fedezte fel a\nSimutrans oceánban a\nlegelső halrajokat.\n\n
 RES_11_24
-Kis panelház.\n\nItt laknak a munkások \nés a szegények.\n\n\n\n\n
+Kis panelház.\n\nItt laknak a munkások \nés a szegények.\n\n
 RES_11_25
-Privát középiskola.\n\n\n\n\n\n\n
+Privát középiskola.\n\n
 RES_11_29
 "Baba kocka" ház.\n\nEz a ház úgy néz ki mintha \nkisbaba építette vona \nkockákból, pedig belül egész \nmodern. Íme néhány előny a \nsok közül: ADSL internet, \nközponti szagelszívó, \nmodern konyha.\n\n
 RES_11_30
-Könnyűszerkezetesház.\n\nEzen házakat veszik azok \naz emberek akik eddig \npanelben laktak.\n\n\n\n
+Könnyűszerkezetesház.\n\nEzen házakat veszik azok \naz emberek akik eddig \npanelben laktak.\n\n
 RES_11_31
 Közösségi ház.\n\nEgy nagyon összetartó \nközösség lakik itt. A \ngyerekek mindig együtt \njátszanak. A felnőttek \nminden hétvégén együtt \npiknikeznek.\n\n
 RES_11_32
-Szocreál ház.\n\nItt laknak a munkáscsaládok.\n\n\n\n\n\n
+Szocreál ház.\n\nItt laknak a munkáscsaládok.\n\n
 RES_11_33
-Solár-ház.\n\nA forradalmian új tervezés \nés a napkollektorok \nalkalmazása teszi vonzóvá \nezt az épületet. Napelemek \nenergiáját használják a \nfűtésre és a hűtésre. \nEz egy Zöld ház.\n\n\n
+Solár-ház.\n\nA forradalmian új tervezés \nés a napkollektorok \nalkalmazása teszi vonzóvá \nezt az épületet. Napelemek \nenergiáját használják a \nfűtésre és a hűtésre. \nEz egy Zöld ház.\n\n
 RES_11_40
-Fiatal házasok háza.\n\n\n\n\n\n\n
+Fiatal házasok háza.\n\n
 RES_11_41
-Lakópark.\n\n\n\n\n\n\n
+Lakópark.\n\n
 RES_11_45
-Reprezentatív ház.\n\n\n\n\n\n\n
+Reprezentatív ház.\n\n
 RES_11_46
-Csodaház.\n\n\n\n\n\n\n
+Csodaház.\n\n
 RES_11_47
-Mondén lakások.\n\n\n\n\n\n\n
+Mondén lakások.\n\n
 RES_11_50
-Trikky Épülete.\n\n\n\n\n\n\n
-RES_11_51
-Mozisztárok Otthona.\n\n\n\n\n\n\n
+Trikky Épülete.\n\n
 RES_11_58
-Lews Creww háza. A híres\nszuperhős lakik itt.\n\n\n\n\n\n
+Lews Creww háza. A híres\nszuperhős lakik itt.\n\n
 RES_11_59
-Új Lakótömb. Nem lakik\nbenne senki mert az\nújsághirdetésben rossz\nszámot adtak meg.\n\n\n\n
+Új Lakótömb. Nem lakik\nbenne senki mert az\nújsághirdetésben rossz\nszámot adtak meg.\n\n
 RES_11_60
-Stílus Lakótorony.\n\n\n\n\n\n\n
+Stílus Lakótorony.\n\n
 RES_12_03
-Fekete ház.\n\n\n\n\n\n\n
+Fekete ház.\n\n
 RES_12_04
-Nagy garázsos családi ház.\n\n\n\n\n\n\n
+Nagy garázsos családi ház.\n\n
 RES_12_09
-C ház.\n\n\n\n\n\n\n
+C ház.\n\n
 RES_12_10
-Judit és Pali háza.\n\n\n\n\n\n\n
+Judit és Pali háza.\n\n
 RES_12_12
-Király háza.\n\n\n\n\n\n\n
+Király háza.\n\n
 RES_12_13
-Lapostetős sorház.\n\n\n\n\n\n\n
+Lapostetős sorház.\n\n
 RES_12_14
-"Bádogház"\n\n\n\n\n\n\n
+"Bádogház"\n\n
 RES_12_15
-Egyszintes ikerpanel.\n\n\n\n\n\n\n
+Egyszintes ikerpanel.\n\n
 RES_12_16
-Felújított vidéki ház.\n\n\n\n\n\n\n
+Felújított vidéki ház.\n\n
 RES_12_17
-Kis németalföldi ház\n\n\n\n\n\n\n
+Kis németalföldi ház\n\n
 RES_12_18
-Emeletes ikerház.\n\n\n\n\n\n\n
+Emeletes ikerház.\n\n
 RES_12_20
-Négylakásos panelház.\n\nItt laknak a munkások \nés a szegények.\n\n\n\n\n
+Négylakásos panelház.\n\nItt laknak a munkások \nés a szegények.\n\n
 RES_12_21
-Kétszintes ikerpanel.\n\n\n\n\n\n\n
+Kétszintes ikerpanel.\n\n
 RES_12_22
-Kétszintes panelsorház.\n\n\n\n\n\n\n
+Kétszintes panelsorház.\n\n
 RES_12_24
-háromszintes panelsorház.\n\n\n\n\n\n\n
+háromszintes panelsorház.\n\n
 RES_12_25
-Milleniumi emeletes téglaház.\n\nVan egy fekete hajú smaragdzöld\n szemű lány aki figyel \ntéged az ablakon keresztül \nés csábosan pislog.\n\n\n
+Milleniumi emeletes téglaház.\n\nVan egy fekete hajú smaragdzöld\n szemű lány aki figyel \ntéged az ablakon keresztül \nés csábosan pislog.\n\n
 RES_12_30
-Könnyűszerkezetesház.\n\nEzen házakat veszik azok \naz emberek akik eddig \npanelben laktak.\n\n\n\n
+Könnyűszerkezetesház.\n\nEzen házakat veszik azok \naz emberek akik eddig \npanelben laktak.\n\n
 RES_12_32
-Tető.\n\n\n\n\n\n\n
+Tető.\n\n
 RES_13_13
-Lapostetős panelsorház.\n\n\n\n\n\n\n
+Lapostetős panelsorház.\n\n
 RES_13_14
-Kétlakásos panelház.\n\nItt laknak a munkások \nés a szegények.\n\n\n\n\n
+Kétlakásos panelház.\n\nItt laknak a munkások \nés a szegények.\n\n
 RES_13_15
-Egyszintes tégla ikerház.\n\n\n\n\n\n\n
+Egyszintes tégla ikerház.\n\n
 RES_13_16
-Úszómedence\n\n\n\n\n\n\n
+Úszómedence\n\n
 RES_13_17
-Díszburkolatú ikerház.\n\n\n\n\n\n\n
+Díszburkolatú ikerház.\n\n
 RES_13_18
-Egyszintes panelsorház.\n\n\n\n\n\n\n
+Egyszintes panelsorház.\n\n
 RES_13_20
-Négylakásos tégla.\n\nItt laknak az értelmiségiek\n\n\n\n\n\n
+Négylakásos tégla.\n\nItt laknak az értelmiségiek\n\n
 RES_13_21
-Kétszintes tégla ikerház.\n\n\n\n\n\n\n
+Kétszintes tégla ikerház.\n\n
 RES_13_22
-Kétszintes téglasorház.\n\n\n\n\n\n\n
+Kétszintes téglasorház.\n\n
 RES_13_24
-Háromszintes téglasorház.\n\n\n\n\n\n\n
+Háromszintes téglasorház.\n\n
 RES_13_25
-Milleniumi emeletes téglaház.\n\nVan egy fekete hajú smaragdzöld\n szemű lány aki figyel \ntéged az ablakon keresztül \nés csábosan pislog.\n\n\n
+Milleniumi emeletes téglaház.\n\nVan egy fekete hajú smaragdzöld\n szemű lány aki figyel \ntéged az ablakon keresztül \nés csábosan pislog.\n\n
 RES_13_31
-Szocreál ház.\n\nItt laknak a munkáscsaládok.\n\n\n\n\n\n
+Szocreál ház.\n\nItt laknak a munkáscsaládok.\n\n
 RES_13_32
-Tető.\n\n\n\n\n\n\n
+Tető.\n\n
 RES_13_46
-Félkészház volt drogosoknak.\nŐk szeretik, mivel a vad \ntervezés elég hallucinogén \nérzést kelt bennük, ezért \nnem használnak többé drogot.\n\n\n
+Félkészház volt drogosoknak.\nŐk szeretik, mivel a vad \ntervezés elég hallucinogén \nérzést kelt bennük, ezért \nnem használnak többé drogot.\n\n
 RES_13_60
-Kermi Béka Lakása.\n\n\n\n\n\n\n
+Kermi Béka Lakása.\n\n
 RES_14_13
-Lapostetős téglasorház.\n\n\n\n\n\n\n
+Lapostetős téglasorház.\n\n
 RES_14_14
-Kétlakásos téglaház.\n\nItt laknak az értelmiségiek\n\n\n\n\n\n
+Kétlakásos téglaház.\n\nItt laknak az értelmiségiek\n\n
 RES_14_16
-Kétszintes lapostetős panelsorház.\n\n\n\n\n\n\n
+Kétszintes lapostetős panelsorház.\n\n
 RES_14_17
 Németalföldi lábasház.\n\nEz a kis ház már nagyon \nrégóta áll itt. Nagyon \nszerencsésnek kell lenni \nahhoz, hogy találkozz a \nfafaragóval aki itt lakik, \nmivel egész nap a hátsó \nudvarban üldögél és faragja \na kanalakat, tányérokat, \nszobrokat. A helyiekbeszélik, \nhogy amikor elutaznak az \nŐ munkái emlékeztetik őket \naz otthonukra.\n\n
 RES_14_18
-Egyszintes téglasorház.\n\n\n\n\n\n\n
+Egyszintes téglasorház.\n\n
 RES_14_20
-Háromszintes lapostetős panelsorház.\n\n\n\n\n\n\n
+Háromszintes lapostetős panelsorház.\n\n
 RES_14_21
-Négyszintes lapostetős panelsorház.\n\n\n\n\n\n\n
+Négyszintes lapostetős panelsorház.\n\n
 RES_14_22
-Ötszintes lapostetős panelsorház.\n\n\n\n\n\n\n
+Ötszintes lapostetős panelsorház.\n\n
 RES_14_24
-Hatlakásos téglaház.\n\nItt laknak az értelmiségiek\n\n\n\n\n\n
+Hatlakásos téglaház.\n\nItt laknak az értelmiségiek\n\n
 RES_14_31
-Tető.\n\n\n\n\n\n\n
+Tető.\n\n
 RES_15_13
-Lapostetős téglasorház.\n\n\n\n\n\n\n
+Lapostetős téglasorház.\n\n
 RES_15_14
-Kis tornyos ház.\n\n\n\n\n\n\n
+Kis tornyos ház.\n\n
 RES_15_16
-Kétszintes lapostetős panelsorház.\n\n\n\n\n\n\n
+Kétszintes lapostetős panelsorház.\n\n
 RES_15_17
 Summerfield villa
 RES_15_20
-Háromszintes lapostetős panelsorház.\n\n\n\n\n\n\n
+Háromszintes lapostetős panelsorház.\n\n
 RES_15_21
-Négyszintes panelsorház.\n\n\n\n\n\n\n
+Négyszintes panelsorház.\n\n
 RES_15_22
-Ötszintes téglasorház.\n\n\n\n\n\n\n
+Ötszintes téglasorház.\n\n
 RES_15_31
-Tető.\n\n\n\n\n\n\n
+Tető.\n\n
 RES_16_14
-Modern gerendaház.\n\n\n\n\n\n\n
+Modern gerendaház.\n\n
 RES_16_16
-Kétgyszintes téglasorház.\n\n\n\n\n\n\n
+Kétgyszintes téglasorház.\n\n
 RES_16_20
-Háromszintes téglasorház.\n\n\n\n\n\n\n
+Háromszintes téglasorház.\n\n
 RES_16_21
-Négyszintes téglasorház.\n\n\n\n\n\n\n
+Négyszintes téglasorház.\n\n
 RES_17_16
-Kétszintes téglasorház.\n\n\n\n\n\n\n
+Kétszintes téglasorház.\n\n
 RES_17_20
-Háromszintes téglasorház.\n\n\n\n\n\n\n
+Háromszintes téglasorház.\n\n
 RES_17_21
-Négyszintes téglasorház.\n\n\n\n\n\n\n
+Négyszintes téglasorház.\n\n
 rmax_clock_tower
 Toronyóra. \nEnnek a toronynak sajátos \nformája van. Sokan úgy \ntartják hogy Fabels \ntornyának romjai alapján \nkészült, de ez valóban \nmodern épület és az órája \naz egyik legpotosabb egész \nSimuvilágban.\n
 rmax_courthouse
-Bíróság? vagy udvar?\n\n\n\n\n\n\n
+Bíróság? vagy udvar?\n\n
 rmax_DenkManualTeam
 Ragyogó fáklya emlékmű. \nEzt az emlékművet mindazon \nemberek tiszteletére \nemelték akik segítettek a \nSimutrans valamely részének \nelkészítésében (pl.: Wiki, \nsúgó, leírások, fordítások \nstb.) \nKöszönjük Nektek!\n
 rmax_dictator_statue
 Jószívű diktátor. \nJószívű diktátor szobránál \nsok hajadon lány alélt a \nszobor talpazatára, ezért a \nműemlékvédelmi miniszter \nlánckordont építetett köré, \nde ez sem segített. Néhány \neltökélt helyi lakos azt \nhiszi hogy a szobor valamilyen \nrejtélyes termékenységet \nsegítő erőt sugároz.\n\n
 rmax_fabio_bust
-Fagonellus Romanus szobra\n\n\n\n\n\n\n
+Fagonellus Romanus szobra\n\n
 rmax_icarus
 Rakéta Indító Központ.\nEz az a hely ahonnan az \nIkarusz Zrt. -az első cég \naki tökéletesítette a \nhordozórakétákkal kilőtt \nműholdak földkörüli pályára \nállításának technológiáját- \nfellövi a rakétáit. \nSzerncsére Ők nem azonosak \na pusztító névrokon céggel. \nEmellett nagyon sok túrista \nszereti megnézni a kilövéseket.\n\n
 rmax_mosque
 As-Salem mecset.\nMinden egyes alkalommal \namikor a Müezzin az éneke \nmegszólal itt gyülnek össze \na Muszlim közösség hívei \nimára. As-Salem az egy fajta \nneve Allahnak a 99 közül, \nami Békét jelent.\n\n
 ROCK_0
-Székelykő. Vulkanikus\neredetű. Kirándulók kedvenc\nhelye.\n\n\n\n\n
+Székelykő. Vulkanikus\neredetű. Kirándulók kedvenc\nhelye.\n\n
 RUIN_0
-Romok.\n\n\n\n\n\n\n
+Romok.\n\n
 RUIN_1
-Bánffy kastély.\n\n\n\n\n\n\n
+Bánffy kastély.\n\n
 Russian_Cathedral
 Orosz katedrális
 Secession_Chapel
@@ -1711,13 +1593,11 @@ Mezei megálló
 small_early_bus_stop
 Megálló
 SMALL_MANOR
-Uradalmi birtok.\n\n\n\n\n\n\n
+Uradalmi birtok.\n\n
 st_benedict_church
 Szent Benedek Templom.\nEz az egyik legszebb\ntemplom \nSimuvilágban. Sok túrista \njön megnézni,de néhányan \nimádkozni jönnek. Sok \nfelbecsülhetet értékú \nfestmény van itt, mégsem \nlopják el őket.\n\n
 ST_PETER
-Szent Péter Katedrális.\n\n\n\n\n\n\n
-SUSHI_HOSPITAL
-SUSHI Korház. Azoknak\nkiknek nem telik\nluxuskórházra.\n\n\n\n\n
+Szent Péter Katedrális.\n\n
 Suspended_Monorail_Bahnhof_Modern
 Függesztett Monorail megálló(modern)
 Terminal1930_AirportBlg
@@ -1739,9 +1619,9 @@ Pályaudvar.
 TramDepot
 Villamos kocsiszín.
 TRIUMPH
-Diadalív. Még anno Napik\nkirály emeltette győzelmei\nemlékére. Az építész nem\nvolt más mint MHz.\n\n\n\n
+Diadalív. Még anno Napik\nkirály emeltette győzelmei\nemlékére. Az építész nem\nvolt más mint MHz.\n\n
 TV_TOWER_0
-TV torony.\n\n\n\n\n\n\n
+TV torony.\n\n
 TV_TOWER_1
 TV torony.\nAz egyik legmagasabb\ntorony \na világon. Az emberek \nszeretik a barátságos \néttermét és bárját a hatalmas \nablakokkal és a csodálatos \npanorámával. Az egész \ntorony lassan körbefordul.\n\n
 Very_Big_Terminal
@@ -1751,27 +1631,23 @@ Viktoriánus stílusban épült állomás.
 VillageTrainStop
 Falusi megálló
 WHEEL
-Időkerék. A turisták egyik\nkedvenc célpontja. Szép\nkilátás nyílik a tetejéről.\n\n\n\n\n
+Időkerék. A turisták egyik\nkedvenc célpontja. Szép\nkilátás nyílik a tetejéről.\n\n
 Windmill
-Szélmalom.\n\n\n\n\n\n\n
+Szélmalom.\n\n
 WOODEN_CHURCH
-Fatemplom.\n\n\n\n\n\n\n
+Fatemplom.\n\n
 #__________________________________dummy_info___________________________________
 #__________________________________dummy_info___________________________________
 factory_Cementmill_details
 Cementgyár
 factory_fish_pond_details
 <title>Halastó, halnevelő leírása</title><h1>Halastó</h1><p>Természetes és mesterséges tavak ahol halakat tenyésztenek.</p><p>A középkori Európában az erődöknél, kolostoroknál és a kastélyoknál is elterjedt volt, ahol a többnyire önellátó kolóniák éltek. Mostanában inkább kelet Ázsiában népszerű (főként Japánban), ahol a koi pontyot lehet tartani.</p><p>Ezekben a tavakban nevelik a halakat, majd lehalásszák, aztán szállítják, végül pedig feldolgozzák élelmiszerré. Az ilyen tavakban tilos úszni.</p><p>Ezek a telepek fejlett agrárkultúrával rendelkeznek főleg a fotoszintetizáció terén, mivel a halakat nem csak mesterséges táplálékkal etetik.</p><p>\n
-factory_Kohlekraftwerk_details
-<title>Széntüzelésű erőmű</title><h1>Széntüzelésű erőmű</h1><p>Ezekben az erőművekben az szén elégetésével felmelegítik a gőzturbina csőrendszerében keringő vizet, mely gőzzé válik és egy gőzturbinának a lapátjait forgatja amely összeköttetésben van egy generátorral amely villamosenergiát  termel</p>\n
-factory_Nutzwald_details
-<title>Faültetvény leírása<\title><h1>Fakitermelés<\h1><p>Az ültetvényen fakitermelés folyik. Minden kivágott fa után egy újat ültetnek. A kivágott rönkök további felhasználásra kerülnek. A feldolgozásuk után papír vagy deszka lesz belőlük.<\p>
 factory_Oelbohrinsel_details
 <title>Olajfúró torony leírása</title><h1>Olajfúró torony</h1><p>A 20. század második fele az iparosodás korszaka. A világ olajszükséglete hirtelen megugrik, 10 évenként a duplájára nő. A mélytengeri olajmezők is kiaknázásra kerültek.<br><br>Az olajfúró tornyok képesek akár a 200 méteres mélységben rejtőző olajmezők kiaknázására. A tornyok minden infrastrukturális egységgel rendelkeznek. A helységek nagy része akár a víz alatt is lehet. Amúgy egy ilyen torony üzemeltetése sok pénzbe kerül.<br><br>A világ legnagyobb fúrótornya a Statfjord B és Norvégia építette. Súlya 800000 tonnát is meghaladja, magassága pedig 192 méter. A fúrótoronnyal pedig további 80 méterrel magasodik a víz felszíne felé.<p>
 factory_Oelfeld_details
 <title>Olajmező leírása</title><h1>Olajmező</h1><p>Az olaj a modern világ egyik legfontosabb nyersanyaga. Nélkülözhetetlen  alapanyaga a festékeknek, műanyagoknak, kenőanyagoknak. A 20. század elején pedig fűtésre is használták. Fontossága a gépkocsik tömeges gyártásával egyidőben megnőtt. Ma már a világ el sem képzelhető modern belsőégésű motorok nélkül, amihez az üzemanyagot a nyersolaj feldolgozásából nyerik.</p><p><br><br>Hogy egésszen pontosan hogyan alakultak ki az olajmezők a mai napig sincs letisztázva, valószínűleg hasonlatosan a szénmedencékhez, csak nagyobb nyomás alatt és oxigén nélkül. Az olajmezők, többnyire földgázzal együtt fordulnak elő, ez utóbbit könnyűszerrel a felszínre lehet hozni.</p>
 factory_oilkraftwerk_details
-<title>Olajtüzelésű erőmű</title><h1>Olajtüzelésű erőmű</h1><p>Ezekben az erőművekben az olaj és olajszármazékok elégetésével vizet melegítenek amely gőzzé válik melyet egy gőzturbinán keresztülvezetve villamosenergiát  termelnek</p>\n
+<title>Olajtüzelésű erőmű</title><h1>Olajtüzelésű erőmű</h1><p>Ezekben az erőművekben az olaj és olajszármazékok elégetésé©vel vizet melegítenek amely gőzzé válik melyet egy gőzturbinán keresztülvezetve villamosenergiát  termelnek</p>\n
 factory_TANKE1_details
 <title>Benzinkút magyarázat</title><h>Benzinkút </h><p>Ennél a benzinkútnál nincs kiszolgáló személyzet mivel önkiszolgáló. Minden vezető saját maga tankol.<p>\n
 #____________________________________factory____________________________________
@@ -1800,16 +1676,12 @@ cornfield
 Kukorica mező
 cotton_farm_w_fields
 Gyapot mező
-cotton_field
-Gyapot mező
 cow_farm
 Tehén farm
 dairy
 Tejcsarnok
 Druckerei
 Nyomda
-electronics_factory
-Elektronikai üzem
 Erzbergwerk
 Vasércbánya
 ethanol_plant
@@ -1824,16 +1696,10 @@ ForestPlantation
 Faültetvény
 Glass_factory
 Üveggyár
-grain_farm
-Gabona mező
 grain_farm_w_fields
 Gabona mező
 grain_mill
 Malom
-Kohlekraftwerk
-Szénfűtésű hőerőmű
-Materialswholesale
-Tüzéptelep
 MaterialsWholesales
 Tüzéptelep
 meat_packing_plant
@@ -1844,8 +1710,6 @@ Moebelfabrik
 Bútor üzem
 Moebelhaus
 Bevásárló Központ
-Nutzwald
-Faültetvény
 Oelbohrinsel
 Olajfúró torony
 Oelfeld
@@ -1865,8 +1729,6 @@ Finomító
 Saegewerk
 Fűrészmalom
 sand_quarry_dd
-Homokbánya
-Sandquarry
 Homokbánya
 shaft_coal_mine
 Szénbánya
@@ -1894,10 +1756,6 @@ waste_incinerator_kraftwerk
 Szemétfeldolgozó
 wind_kraftwerk
 Szélerőmű
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
-grain_field
-Gabona mező
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -1976,8 +1834,6 @@ waste
 szemét
 wool
 gyapjú
-#___________________________________menu_text___________________________________
-#___________________________________menu_text___________________________________
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 CATEGORY_01
@@ -1994,8 +1850,8 @@ CATEGORY_06
 fa és fűrészárú
 CATEGORY_07
 farm termék
-#__________________________________record_text__________________________________
-#__________________________________record_text__________________________________
+Monoraildepot
+Mágnesvasút depó
 #___________________________________roadsign____________________________________
 #___________________________________roadsign____________________________________
 airport_oneway
@@ -2012,8 +1868,6 @@ choose_point
 Útválasztó tábla
 choose_signal_monorail
 Monorail peronválasztó jelzőlámpa
-choosesign_digital_jp
-Digitális útvonalválasztó tábla
 ChooseSignals
 Peron választó jelzőlámpa
 Classic_ChooseSignals_right
@@ -2068,162 +1922,116 @@ traffic_light
 Forgalmi fényjelző
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
-cactus000
-Saguaro kaktusz.\n\n\n\n\n\n\n
-cactus001
-Saguaro kaktusz.\n\n\n\n\n\n\n
-cactus002
-Kaktusz.\n\n\n\n\n\n\n
 palm010
-Pálma fa\n\n\n\n\n\n\n
+Pálma fa\n\n
 palm011
-Pálma fa\n\n\n\n\n\n\n
+Pálma fa\n\n
 tree020
-Fa\n\n\n\n\n\n\n
+Fa\n\n
 tree021
-Körtefa\n\n\n\n\n\n\n
+Körtefa\n\n
 tree022
-Szilvafa\n\n\n\n\n\n\n
+Szilvafa\n\n
 tree023
-Cseresznyefa\n\n\n\n\n\n\n
+Cseresznyefa\n\n
 tree024
-Tölgyfa\n\n\n\n\n\n\n
+Tölgyfa\n\n
 tree025
-Szőlőhárs\n\n\n\n\n\n\n
+Szőlőhárs\n\n
 tree030
-Tölgy\n\n\n\n\n\n\n
+Tölgy\n\n
 tree031
-Almafa\n\n\n\n\n\n\n
+Almafa\n\n
 tree032
-Kőris\n\n\n\n\n\n\n
+Kőris\n\n
 tree040
-Nyár\n\n\n\n\n\n\n
+Nyár\n\n
 tree041
-Vadszilva\n\n\n\n\n\n\n
+Vadszilva\n\n
 tree042
-Nyír\n\n\n\n\n\n\n
+Nyír\n\n
 tree050
-Bukszus\n\n\n\n\n\n\n
+Bukszus\n\n
 tree051
-Jegenye\n\n\n\n\n\n\n
+Jegenye\n\n
 tree052
-Óriás tuja\n\n\n\n\n\n\n
+Óriás tuja\n\n
 tree060
-Bükk\n\n\n\n\n\n\n
+Bükk\n\n
 tree061
-Bükk\n\n\n\n\n\n\n
+Bükk\n\n
 tree062
-Vérszilva\n\n\n\n\n\n\n
+Vérszilva\n\n
 tree063
-Hárs\n\n\n\n\n\n\n
+Hárs\n\n
 tree070
-Tuja\n\n\n\n\n\n\n
+Tuja\n\n
 tree071
-Orgona\n\n\n\n\n\n\n
+Orgona\n\n
 tree072
-Óriás tuja.\n\n\n\n\n\n\n
+Óriás tuja.\n\n
 tree080
-Orgona\n\n\n\n\n\n\n
+Orgona\n\n
 tree081
-Vadalma\n\n\n\n\n\n\n
+Vadalma\n\n
 tree082
-Vadkörte\n\n\n\n\n\n\n
+Vadkörte\n\n
 tree083
-Ezüst fenyő\n\n\n\n\n\n\n
+Ezüst fenyő\n\n
 tree090
-Óriástölgy\n\n\n\n\n\n\n
+Óriástölgy\n\n
 tree091
-Jegenyefenyő\n\n\n\n\n\n\n
+Jegenyefenyő\n\n
 tree100
-Erdeifenyő\n\n\n\n\n\n\n
+Erdeifenyő\n\n
 tree110
-Erdeifenyő\n\n\n\n\n\n\n
+Erdeifenyő\n\n
 tree120
-Sarki fenyő\n\n\n\n\n\n\n
+Sarki fenyő\n\n
 tree121
-Sarki luc\n\n\n\n\n\n\n
+Sarki luc\n\n
 tree122
-Sarki hófenyő\n\n\n\n\n\n\n
+Sarki hófenyő\n\n
 tree130
-Sarki fenyő\n\n\n\n\n\n\n
+Sarki fenyő\n\n
 tree131
-sarki luc\n\n\n\n\n\n\n
+sarki luc\n\n
 tree132
-Sarki hófenyő\n\n\n\n\n\n\n
+Sarki hófenyő\n\n
 tree133
-Hegyi lucfenyő\n\n\n\n\n\n\n
+Hegyi lucfenyő\n\n
 tree140
-Ezüstfenyő\n\n\n\n\n\n\n
+Ezüstfenyő\n\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnel
 Vasúti alagút
-RoadTunnel
-Közúti alagút
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
-1Ben140
-Limet mozdony
-1Bens155
-Robo mozdony
 1Benst134
 Pixie mozdony
 1Benst135t
 Gremlin mozdony
 1Benst138
 Apple Pie mozdony
-1Benst161
-Turbo mozdony
 1Benst162t
 Jet mozdony
-1Benst181
-Gelding mozdony
 1Benst238
 Frog mozdony
-1Benst281
-Workhorse mozdony
 1Dampflokomotive
 Hello mozdony
 20ft_Container_Trailer-128set
 Darabáru szállító utánfutó
 2Diesellokomotive
 BR218 mozdony
-3Bens185
-Santa mozdony
 3Bens186t
 Lemon mozdony
 3Dampflokomotive
 Chippy mozdony
 40ft_Container_Trailer
 Darabáru szállító utánfutó
-451_Head
-451 motorvonat (első)
-451_Tail
-451 motorvonat (hátsó)
-451_Waggon
-451 motorvonat vagon (középső)
-471_Head
-471 motorvonat (első)
-471_Tail
-471 motorvonat (hátsó)
-471_Waggon
-471 motorvonat vagon (középső)
-7BenE11
-Bennhardt E-11 mozdony
-Aeroqueen_JR_Bus_Kanto
-Aeroqueen autóbusz
 Airport_express_shuttle
 Reptéribusz gyors ingajárat
-AR4_back
-AR-4 "Kikin" motorvonat (hátsó)
-AR4_front
-AR-4 "Kikin" motorvonat (első)
-AR4_mid_engine
-AR-4 "Kikin" motorvonat (középső-A)
-AR4_mid_trainer
-AR-4 "Kikin" motorvonat (középső-B)
-Asahi_Bus
-Asahi busz
 Autotransportwagen
 Canonball-B autószállító vagon
 BB-TS_Milk_Mack_Trailer
@@ -2234,16 +2042,12 @@ Big_Erztruck
 RVg szénszállító
 Bretterwagen
 Deszkaszállító-B vagon
-Btx020
-OnD Btx020 motorvonat
 Budd_Coach
 EMD E5A Silver Meteor motorvonat (személykocsi középső)
 Budd_Observation
 EMD E5A Silver Meteor motorvonat (hátsó)
 Budd_RPO
 EMD E5A Silver Meteor motorvonat (postakocsi)
-Bulk_Ship_0
-PMNV nyersanyagszállító tanker
 Bulk_trailer_0
 Nyersanyagszállító-A utánfutó
 Bulk_Truck_0
@@ -2254,12 +2058,6 @@ Bulk_Truck_3
 VSYS-Tatra 815 nyersanyagszállító kocsi
 Bulk_Truck_4
 Volvo nyersanyagszállító kocsi
-Bulker_Bulk
-BB nyersanyagszállító teherhajó
-Bulker_Steel
-BB acélszállító tanker
-Bulker_Wood
-BB rönkszállító tanker
 caboose_1
 Fékezőkocsi
 caboose_2
@@ -2280,8 +2078,6 @@ CB_ALBATROS
 Canonball-Skoda 498 "Albatros" mozdony
 CB_DB-130_8
 Canonball & H-Trans 130/8 "Ludmila" mozdony
-CD851
-OnD CD851 motorvonat
 Cement_Carrier_Fast
 Gyors cementszállító vagon
 Cement_trailer_0
@@ -2294,10 +2090,6 @@ Cement_Waggon_1
 BB-PMNV-A cementszállító vagon
 Cementwagen
 SergeS cementszállító vagon
-Ceres_Tender
-Monatetsu Ceres-szerkocsi
-CKD_731
-CKD 731 mozdony
 CKD_749
 CKD 749 mozdony
 CKD_750
@@ -2310,8 +2102,6 @@ Concretewagen
 PMNV Mixer 12 betonkeverő vagon
 Concretewagen_1
 PMNV Mixer 16 betonkeverő vagon
-Container_Truck
-Konténerszállító (darabárú)
 Cooling_trailer_0
 PMNV hűtő utánfutó
 Cooling_Truck_0
@@ -2326,14 +2116,6 @@ Cooling_wagon_1
 Container hűtő vagon
 Cooling_wagon_2
 Cannonball hűtővagon
-D231_back
-D-231 "Shy" motorvonat (hátsó)
-D231_front
-D-231 "Shy" motorvonat (első)
-D231_mid
-D-231 "Shy" motorvonat (középső)
-Daisetsu_Maru
-Daisetsu Maru utasszállító
 DB_ADm101
 Haru-DB ADm101 személyszállító vagon
 DB_Apmz121
@@ -2342,56 +2124,20 @@ DB_Bm235
 Haru-DB Bm235 személyszállító vagon
 DB_BR103_1
 Haru BR-103 mozdony
-Dc110
-KIHA 110-141 motorvonat (első)
-Dc110_car
-KIHA 110-141 motorvonat (hátsó)
-Dc22
-Kiha22 "Green Class" motorvonat
 DueWAG_GT6_motorwaggon
 GT6 villamos
 DueWAG_GT6_tailwaggon
 GT6 villamos pótkocsi
 E_423
 Sindor E-432 mozdony
-Eiden_Deo_903-KIRARA
-Kirara-903 villamos
-Eiden_Deo_904-KIRARA
-Kirara-904 villamos
 EM400_1
 EM400 villamos
 EMD_E5A_Silver_Meteor
 EMD E5A Silver Meteor motorvonat (első)
 EMD_E5B_Silver_Comet
 EMD E5A Silver Silver motorvonat (első)
-Europa_Car_Transporter
-TS-MHz "Europa" autószállító tanker
-Europa_Goods_Transporter
-TS-MHz "Europa" darabáru-szállító tanker
-Evil_BR153
-Evil BR 153/155 "Sprinter" motorvonat
-Evil_BR170_Back
-Evil BR 170 "Thunderbird" motorvonat (hátsó)
-Evil_BR170_Front
-Evil BR 170 "Thunderbird" motorvonat (első)
-Evil_BR170_Mid
-Evil BR 170 "Thunderbird" motorvonat (középső)
-Evil_BR357_Back
-Evil BR 357 "Electrostar" motorvonat (hátsó)
-Evil_BR357_Front
-Evil BR 357 "Electrostar" motorvonat (első)
-Evil_BR357_M
-Evil BR 357 "Electrostar" motorvonat (közép-A)
-Evil_BR357_PT
-Evil BR 357 "Electrostar" motorvonat (közép-B)
-Evil_Daimler_DMS_Londoner
-Evil-Daimler DMS Londoner emeletesbusz
 Evil_DF-11
 Evil DF-11 mozdony
-Evil_Guy_Wulfrunian
-Evil-Guy Wulfrunian emeletesbusz
-Evil_New_Flyer_D40-90
-Evil New Flyer D40-90 autóbusz
 Evil_P-100_(carriage)
 Evil P-100 motorvonat (középső)
 Evil_P-100_(front_engine)
@@ -2400,36 +2146,10 @@ Evil_P-100_(mail)
 Evil P-100 posta motorvonat
 Evil_P-100_(rear_engine)
 Evil P-100 motorvonat (hátsó)
-Evil_Scania_K94UB
-Evil-Scania K94UB emeletesbusz
-Evil_Scania_K94UB_Liner
-Evil-Scania K94UB távolsági emeletesbusz
-Evil-AEC_RM
-Evil-AEC emeletesbusz
-Evil-Cicu_L32_Liner
-Evil-Cicu L32 távolsági autóbusz
 Evil-Jitluen_67_Minibus
 Evil-Jitluen 67 minibusz
-Evil-Jitluen_Beluga_FA_MKD-12
-Evil-Jitluen Beluga FA MKD-12 autóbusz
-Evil-Jitluen_Beluga_FA_SR
-Evil-Jitluen Beluga FA SR autóbusz
-Evil-Jitluen_Beluga_FA_SU-10
-Evil-Jitluen Beluga FA SU-10 autóbusz
 Express_tender
 Canonball szerkocsi
-Fabric_Hopper_0
-PMNV Bed textíliaszállító vagon
-Fabric_Hopper_1
-Canonball-PMNV textíliaszállító vagon
-Fabric_Truck_0
-PMNV textíliaszállító kocsi
-FastFerry
-Légpárnás személyszállító komp
-Ferry_Mail_Extension
-Postafunkció hozzáadás
-Fishing_Boat_0
-LR halászhajó
 Fishing_Boat_1
 PH halászhajó
 Fluid_trailer_0
@@ -2444,16 +2164,6 @@ Fluid_Truck_2
 S.Kroytor ZUK-20 olajszármazék szállítókocsi
 Fluid_Truck_3
 Magirus olajszármazék szállítókocsi
-Freighter_Goods
-BB darabáru-szállító tanker
-FUSO_Aeromidi_Keio_Bus
-FUSO Aeromidi Keio autóbusz
-FUSO_Aerostar_Kanachu_Bus
-FUSO Aerostar Kanachu autóbusz
-GALA_Kanto_Railway
-GALA Kanto autóbusz
-Goods_schiff
-JET darabáru-szállító tanker
 Goods_trailer_0
 Mitsubishi Fuso Super-A darabáru-szállító utánfutó
 Goods_trailer_1
@@ -2486,28 +2196,14 @@ Goods_waggon_4
 HS darabáru-szállító vagon
 Goods_waggon_5
 RVg darabáru-szállító vagon
-Grain_Ship_0
-PMNV gabonaszállító tanker
 Grain_trailer_0
 PMNV gabonaszállító utánfutó
 Grain_Truck_1
 VSYS-Tatra gabonaszállító kocsi
-Grain_wagon_0
-Gabonaszállító vagon
-Grain_wagon_1
-Canonball gabonaszállító vagon
 Haru_2C1_Cheetah
 Cheetah gőzmozdony
 Haru_2D1_Buffalo
 2D1 Buffalo gőzmozdony
-Haru_Boeing747-200
-Boeing 747-200 repülőgép
-Haru_Boeing747-200F_(CARGO)
-Boeing 747-200F teherszállító repülőgép
-Haru_Boeing747-200F_(MAIL)
-Boeing 747-200F postai repülőgép
-Haru_Boeing747-400
-Boeing 747-400 repülőgép
 Haru_C44-9W
 Haru C449W mozdony
 Haru_DF4
@@ -2588,30 +2284,12 @@ Haru-X2000_mid
 Haru-X2000 motorvonat (középső)
 Haru-X2000_rear
 Haru-X2000 motorvonat (hátsó)
-HIBARI-YS-11-100
-Hibari YS-11-100 utasszállító
-HIBARI-YS-11A-200
-Hibari YS-11A-200 utasszállító
-HIBARI-YS-11A-400_Cargo
-Hibari YS-11A-400 áruszállító
-HIBARI-YS-11A-400_Mail
-Hibari YS-11A-400 Levélszállító
-HIBARI-YS-11A-500
-Hibari YS-11A-500 utasszállító
-Highway_Postal_Truck
-Levélszállító kamion
-Hikyaku_Truck
-Hikyaku áruszállító
 Holzwagen
 Rönkszállító-C vagon
 Holzwagen_0
 Rönkszállító-A vagon
 Holzwagen_1
 Rönkszállító-B vagon
-ISUZU_Erga_Odakyu_Bus
-ISUZU Erga Odakyu autóbusz
-JNR_B6
-JNR B6 mozdony
 JNR_C11
 JNR SL C11 mozdony
 JNR_C62
@@ -2632,58 +2310,12 @@ JR_700_Shinkansen_HRS_(Pantograph_II)_PC
 Shinkansen HRS 700 motorvonat (áramszedős II)
 JR_700_Shinkansen_HRS_(Tailcar)_PC
 Shinkansen HRS 700 motorvonat (hátsó)
-JR_Shinkansen_723
-JR Shinkansen Series 700 motorvonat (első)
-JR_Shinkansen_724
-JR Shinkansen Series 700 motorvonat (hátsó)
-JR_Shinkansen_725
-JR Shinkansen Series 700 motorvonat (középső-A)
-JR_Shinkansen_726
-JR Shinkansen Series 700 motorvonat (középső-B)
-JRF_EF210
-JRF EF210 mozdony
-JRW_281
-JRW 281 elektromos motorvonat (első)
-JRW_281_Mid
-JRW 281 elektromos motorvonat (középső)
-JRW_281_tail
-JRW 281 elektromos motorvonat (hátsó)
-JRW_Mc123
-JRW Mc123 motorvonat
-kagoshima_U-tram
-Kagoshima U-713 villamos
-Karl_MCW_Super_Metrobus_12m
-Karl-MCW Super Metrobus 12m emeletesbusz
-Karl-MCW_Super_Metrobus_12M-158
-Karl-MCW Super Metrobus 12M 158 emeletesbusz
-Karl-MCW_Super_Metrobus_12M-214
-Karl-MCW Super Metrobus 12M 214 emeletesbusz
-KC-B10M_Keisei_Bus
-KC-B10M Keisei autóbusz
-KC-B10M_Keisei_Bus_Extension
-KC-B10M Keisei pótkocsi
-KEIFUKU_Mobo101
-Keifuku Mobo-101 villamos
-KEIFUKU_Mobo301
-Keifuku Mobo-301 villamos
-KEIHAN_type80
-Keihan-80 villamos
 Kord_TT_bulk
 Kord TT nyersanyagszállító kocsi
-Kord_TT_fabric
-Kord TT zsákszállító kocsi
 Kord_TT_grain
 Kord TT gabonaszállító kocsi
-Kuro-Neko_Truck
-Kuro-Neko áruszállító teherkocsi
-Leyland_Olympian
-Karl-Leyland Olympian 11M emeletesbusz
 MA461_waggon
 RVg-DB MA-461 motorvonat (középső)
-Mack_Truck_0
-Mack-A kamionfülke
-Mack_Truck_2
-Mack-B kamionfülke
 Mack_Truck_Cooling_Trailer
 Mack Truck hűtő utánfutó
 Mack_Truck_Goods_Trailer
@@ -2714,10 +2346,6 @@ MHz-C11C_Bulk_Barge
 MHz-C11C szénszállító uszály
 MHz-C11C_Wood_Barge
 MHz C11C deszkaszállító uszály
-MHz-C130_Hercules
-MHz C-130 Hercules (áruszállító)
-MHz-C130_Hercules_(cooled)
-MHz C-130 Hercules (hűtöttáruszállító)
 MHz-C273U_Cement_Barge
 MHz C-273U Cementszállító uszály
 MHz-C35_Goods_Barge
@@ -2726,16 +2354,6 @@ MHz-C3P_Post_Barge
 MHz C-3P Postaszállító uszály
 MHz-CC47_Container_Barge
 MHz C-C47 Konténerszállító uszály
-MHz-Fokker_F27
-Fokker F27 repülőgép
-MHz-Il-76_Candid
-MHz IL-76 Candid Áruszállító repülőgép
-MHz-Ju-51
-MHz Ju-51 Postarepülő
-MHz-McDonnell-Douglas_DC10
-DC10 repülőgép
-MHz-McDonnell-Douglas_DC3
-DC3 repülőgép
 MHz-MT7_Milk_Barge
 MHz MT-7 Tejszállító uszály
 MHz-OT5_Oil_Barge
@@ -2752,14 +2370,8 @@ Milk_Truck_1
 S.Kroytor-ZIL tejszállító kocsi
 Milk_Truck_2
 Magirus tejszállító kocsi
-Milk_Waggon_0
-BB-B tejszállító vagon
-Milk_Waggon_1
-BB-A tejszállító vagon
 mja-MAN19332-128set
 MAN 19332
-mja-ScaniaP380_fabrics
-Scania P380 gyapotszállító
 mja-ScaniaP380_tanker
 Scania P380 olajszállító
 mja-ScaniaP420_concretemixer
@@ -2780,46 +2392,8 @@ mja-volvoVN660
 Volvo VN660 kamionfej
 mja-Zil130-128set
 Zil 130
-moha2100
-Moha 2100 motorvonat
-Monatetsu_Steam_Ceres
-Monatetsu Ceres-gőzmozdony
-MS_Hino_goods Truck
-MS Hino áruszállító teherkocsi
 MS_sprinter_mail
 MS Sprinter postakocsi
-nankai21K_Front
-Nankai 21000 "Zoom Car" motorvonat (első)
-nankai21K_Rear
-Nankai 21000 "Zoom Car" motorvonat (hátsó)
-Nankai6K_E
-Nankai 6000 motorvonat (hátsó)
-Nankai6K_M
-Nankai 6000 motorvonat (első)
-Nankai6K_T
-Nankai 6000 motorvonat (középső)
-Nishitetsu_Truck
-Nishitetsu darabáru szállító
-Oeltankschiff
-LMP olajszármazék szállító tanker
-Oelwagen
-Shorty-MAVA olajszármazék szállító vagon
-Oelwagen_0
-Olajszármazék szállító vagon (A)
-Oelwagen_1
-Olajszármazék szállító vagon (B)
-OER_D_3000_Head
-OER-D 30000 motorvonat (első)
-OER_D_3000_Tail
-OER-D 30000 motorvonat (hátsó)
-OER_D_3000_Waggon
-OER-D 30000 motorvonat (középső)
-okaden_type9200_momo_A
-Okaden MoMo 9200 villamos (első)
-okaden_type9200_momo_B
-Okaden MoMo 9200 villamos (hátsó)
-Old_Ferry_0
-RMS Ocean Queen "Titanic" komp
 Passagierwagen
 Canonball BTx 60 személyszállító vagon
 Passanger_waggon_0
@@ -2832,8 +2406,6 @@ Passanger_waggon_3
 RA BTx 50 személyszállító vagon
 Passanger_waggon_MAITE39
 JNR MAITE 39 személyszállító vagon
-Pelican_Truck
-Pelican darabárú szállító
 Planck_Truck_0
 PMNV-Canonball Bed deszkaszállító kocsi
 Plank_Truck_2
@@ -2858,16 +2430,10 @@ PMNV_Cruiser_Mini
 PMNV minibusz
 PMNV_Fabric_Trailer_0
 PMNV-A textíliaszállító utánfutó
-PMNV_Fabric_Trailer_1
-PMNV-B textíliaszállító utánfutó
-PMNV_Goods_Ship
-PMNV darabáru-szállító tanker
 PMNV_Grain_Truck_0
 PMNV Classic gabonaszállító kocsi
 PMNV_Hydrogen_Cruiser
 PMNV Hydrogen Cruiser autóbusz
-PMNV_International_Cabover
-PMNV International kamionfülke
 PMNV_Mack_Bulk_Trailer_0
 PMNV Mack nyersanyagszállító utánfutó
 PMNV_Mack_Cement_Trailer_L
@@ -2878,10 +2444,6 @@ PMNV_Mack_Concrete_Trailer_O
 Mack betonszállító utánfutó
 PMNV_Mack_cooled_Trailer_O
 Mack hűtő utánfutó
-PMNV_Mack_Cotton_Trailer_0
-PMNV Mack gyapotszállító utánfutó
-PMNV_Mack_Fabric_Trailer_O
-Mack textiliaszállító utánfutó
 PMNV_Mack_Goods_Trailer_O
 Mack darabárú-szállító utánfutó
 PMNV_Mack_Grain_Trailer_0
@@ -2952,8 +2514,6 @@ PMNV-TC-5P_Mail_Man
 PMNV TC-5P Postaszállító
 Post_Barge
 MHz postahajó
-Post_Ship
-PMNV postahajó
 Post_waggon_0
 PV-80 posta vagon
 Postwagen
@@ -3010,10 +2570,6 @@ RVg_2006_container_car
 RVg áruszállító vagon (2006/27)
 RVg_2011_container_car
 RVg áruszállító vagon (2011/27)
-RVg_A318-100
-RVg A318-100
-RVg_A380
-RVg A-380
 RVg_Bulk_Waggon_00
 RVg nyersanyagszállító vagon (1850/20)
 RVg_Bulk_Waggon_01
@@ -3030,8 +2586,6 @@ RVg_Bulk_Waggon_06
 RVg nyersanyagszállító vagon (2019/35)
 RVg_Cementwagen
 RVg cementszállító vagon
-RVg_Comet
-RVg Comet
 RVg_Cooling_car
 RVg hűtőkocsi
 RVg_Daylight
@@ -3046,12 +2600,6 @@ RVg_Daylight_tender
 Daylight szerkocsi
 RVg_Daylight_waggon
 Daylight személyszállító vagon
-RVg_early_milk_waggon
-RVg tejszállító vagon
-RVg_F-27
-RVg F-27
-RVg_Flyer-W8B
-Flyer W8B repülőgép
 RVg_Flying_Berliner_(front)
 RVg Berliner motorvonat (első)
 RVg_Flying_Berliner_(tail)
@@ -3068,8 +2616,6 @@ RVg_Hiawatha_tender
 Hiawatha szerkocsi
 RVg_Hiawatha_waggon
 Hiawatha személyszállító vagon
-RVg_Ju52
-RVg Ju-52
 RVg_M1
 M1 motorvonat (első)
 RVg_M1_tail
@@ -3144,8 +2690,6 @@ RVg-B_101
 RVg B-101 autóbusz
 RVg-B_107
 RVg B-107 autóbusz
-RVg-Bulk_Freighter
-RVg darabárú-szállító tanker (A)
 RVg-D22-Rola
 RVg-D22-Kamionszállító
 RVg-D23-Camel
@@ -3160,10 +2704,6 @@ RVg-E17-Spring
 RVg-E17 "Spring" villanymozdony
 RVg-Express_Tender
 RVg Express szerkocsi
-RVg-G5_Posttaxi
-RVg-G5 postarepülő
-RVg-Goods_Liner
-RVg darabárú-szállító tanker (C)
 RVg-Goods_waggon
 RVg darabáru-szállító vagon
 RVg-Heavy-Tender
@@ -3184,8 +2724,6 @@ RVg-LK_Cement_Truck
 RVg "LK" cementszállító  kocsi
 RVg-LK_Cooling_Truck
 RVg LK hűtőkocsi
-RVg-LK_Fabric_Truck
-RVg LK textíliaszállító kocsi
 RVg-LK_Goods_Truck
 RVg-LK áruszállító
 RVg-LK_Grain_Truck
@@ -3194,8 +2732,6 @@ RVg-LK_Plank_Truck
 RVg LK deszkaszállító kocsi
 RVg-LK_Steel_Truck
 RVg LK acélszállító kocsi
-RVg-Lockheed_Constellation
-Constellation repülőgép
 RVg-Oil-Tender
 RVg szerkocsi
 RVg-Pioneer_Alladin
@@ -3218,22 +2754,12 @@ RVg-Sail_Goods_Ship_0
 RVg darabáru-szállító vitorlás
 RVg-Sail_Passanger_Ship_0
 RVg személyszállító vitorlás
-RVg-Sea_Liner
-Adria óceánjáró
-RVg-Sea_Liner_II
-Balaton óceánjáró
 RVg-Steam_Goods_Ship_0
 RVg darabáru-szállító gőzhajó
 RVg-Steam_Passanger_Ship_0
 RVg személyszállító gőzhajó
-RVg-Steel_Hauler
-RVg acélszállító tanker
-RVg-Tanker
-RVg darabárú-szállító tanker (B)
 RVg-Tender
 RVg szerkocsi
-RVg-Wood_Hauler
-RVg rönkszállító tanker
 RX_1064
 RX-1064 autóbusz
 S_Kroytor_Gaz-2
@@ -3264,28 +2790,10 @@ S_Kroytor_Traveler
 S.Kroytor Traveler távolságibusz
 Sail_Post_Ship_0
 Postaszállító vitorlás
-SBB_IC2k
-SBB IC2
-SBB_IC2k_bistro
-SBB IC2 étkező kocsi
-SBB_IC2k_tail
-SBB IC2 (hátsó)
-SBB_IC2k_waggon
-SBB IC2 vagon
 SBB_Re4_4_II
 SBB Re4 4 II mozdony
-SBB_Re460
-SBB Re 460 villanymozdony
 SBB_Re6_6
 SBB Re6 6 mozdony
-Seagull_Car
-Seagull motorvonat (középső-B)
-Seagull_Head
-Seagull motorvonat (első)
-Seagull_Motor
-Seagull motorvonat (középső-A)
-Seagull_Tail
-Seagull motorvonat (hátsó)
 Sentinel_Cement_Lorry
 Sentinel cementszállító kocsi
 Sentinel_Cement_Trailer
@@ -3298,22 +2806,6 @@ Sentinel_Wood_Lorry
 Sentinel rönkszállító kocsi
 Sentinel_Wood_Trailer
 Sentinel rönkszállító utánfutó
-Shinkansen_500_Head
-Nozomi motorvonat (első)
-Shinkansen_500_Pantograph
-Nozomi motorvonat (középső-A)
-Shinkansen_500_Tail
-Nozomi motorvonat (hátsó)
-Shinkansen_500_Waggon
-Nozomi motorvonat (középső-B)
-Shinkansen_series0_back
-Shinkansen motorvonat (hátsó)
-Shinkansen_series0_front
-Shinkansen motorvonat (első)
-Shinkansen_series0_mid
-Shinkansen motorvonat (középső)
-Sindor-Rohrbach_Rocco
-Rohrbach repülő-csónak
 SK_Mail_Truck_1
 S.Kroytor postakocsi
 skoda_1_tr_128
@@ -3390,8 +2882,6 @@ Stahlwagen_3
 RVg acélszállító vagon (1912/30)
 Steel_Truck_0
 PMNV Bed acélszállító kocsi
-Super_Citybus_1
-Super Citybus I emeletesbusz
 T_101
 T-101 villamos
 T_102
@@ -3434,28 +2924,8 @@ Thunder_(rear_engine)
 Thunder motorvonat (hátsó)
 Thunder_(waggon)
 Thunder motorvonat (középső)
-Tobu_Bus
-Tobu Busz
-Tobu_Dial_Bus
-Tobu helyi busz
-Tobu_Highway_Bus
-Tobu távolsági busz
-Tobu_Truck
-Tobu darabárú szállító teherkocsi
 TS_Mack_Bulk_Trailer_0
 TS "L" nyersanyagszállító utánfutó
-TS_Mack_Bulk_Trailer_1
-TS nyersanyagszállító utánfutó
-TS_Mack_Container_Trailer_S
-TS "S" nyersanyagszállító utánfutó
-TS_Ocean_Liner
-TS Ocean óceánjáró (személyszállítás)
-TS_Ocean_Star
-TS Ocean Star óceánjáró (személyszállítás)
-TS-MHZ_Schoner
-TS-MHZ Schoner személyszállító vitorlás
-UD_Nonstep_Tokyu_Bus
-UD Nonstep Tokyu autóbusz
 Vitus-AVECO_Eurocargo_Bretter
 Vitus-Aveco Eurocargo deszkaszállító
 Vitus-AVECO_Eurocargo_bulk_transporter
@@ -3490,10 +2960,6 @@ VSYS_Tatra_138_Grain
 Tatra 138 gabonaszállító kocsi
 VSYS_Tatra_813_Clossus
 VSYS Tatra 813 "Colossus" kamion
-Western_Observation
-Monatetsu Ceres-Western kilátó kocsi
-Western_Passenger_Car
-Monatetsu Ceres-Western személyszállító kocsi
 Wood_Trailer_0
 Rönkszállító utánfutó
 Wood_Truck_0
@@ -3522,40 +2988,18 @@ yoshi_wup196502
 GTW-65 gyorsvasút (középső) 
 yoshi_wup196503
 GTW-65 gyorsvasút (hátsó)
-Youtei_Maru
-Youtei Maru - dízel - személyszállító hajó
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 air_movement_area
 Salakos kifutópálya
-air_movement_area_old
-Reptéri guruló zóna (régi)
-asphalt_road
-Aszfaltos út
-autobahn
-Autópálya
-city_road
-Városi út
-cobblestone_road
-Kockaköves út
-concrete_road
-Betonút
 concrete_sleeper_track
 Betontalpas sín
-concrete_tram_track
-Betontalpas villamos sín
-dirt_road
-Földút
-gravel_road
-Kavicsút
 High_quality_track
 Gyorsvasúti sín
 low_quality_track
 Rögtönzött sín
 Powerline
 elektromos hálózat
-Rillenschienen
-Villamos sín
 river_00
 Hajózható folyó
 river_01
@@ -3574,8 +3018,6 @@ steel_sleeper_track
 Acéltalpas sín
 Suspended_Monorail_Track
 Függesztett egysínű vasúti sín
-US_asphalt_road
-US aszfaltos út
 water_road
 Csatorna
 wooden_sleeper_track

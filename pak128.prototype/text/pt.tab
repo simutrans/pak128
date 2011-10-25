@@ -5,18 +5,24 @@
 #                            Language: pt Portugues                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 13.10 2010                           #
+#                           Date Created: 25.10 2011                           #
 #                                                                              #
 #                                   authors:                                   #
+#                               Adilson - Adilson                              #
+#                                    note:                                     #
 #                                 André - An_dz                                #
 #                 note: Sempre verifica aonde os textos estão!                 #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
 #                        Francisco Gonçalves - Francisco                       #
 #                                    note:                                     #
 #                              Frank Penz - FrankP                             #
 #                                    note:                                     #
-#                          Igor Eliezer - IgorEliezer                          #
+#                                 - IgorEliezer                                #
 #                                    note:                                     #
 #                  Richard Gatinho Ruas Ramos - RichardGatinho                 #
+#                                    note:                                     #
+#                                - VictorKoehler                               #
 #                                    note:                                     #
 #                             Eric Oliveira - eric                             #
 #                                    note:                                     #
@@ -30,12 +36,6 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 Ponte ferroviária de concreto
-ClassicRoad
-Ponte rodoviária de concreto
-Concrete_Road_Bridge
-Ponte de concreto de alta velocidade
-Plate_Girder_Bridge
-Ponte de vigas
 PowerBridge
 Travessia para linha de transmissão
 RVg_Concrete_Rail_Bridge
@@ -44,14 +44,6 @@ Schwebebahn_p_bridge
 Monotrilho (ponte)
 SteelRail
 Ponte ferroviária de aço
-SteelRail2
-Ponte ferroviária suspensa
-SteelRoad1
-Ponte rodoviária de aço
-SteelRoad2
-Ponte rodoviária de aço tubular
-u_truss_bridge
-Ponte metálica
 water_bridge
 Canal elevado
 Wooden_Rail
@@ -120,8 +112,6 @@ big_classic_bus_stop
 Grande ponto de ônibus
 big_modern_bus_stop
 Grande Abrigo Modeno de Ônibus
-BigTerminal1930_AirportBlg_S
-Terminal aéreo
 BigTerminal1950_AirportBlg_S
 Terminal aéreo (1950)
 Bulk_Dock
@@ -140,20 +130,16 @@ CarStop
 Área de carga
 CASTLE_0
 Este era o castelo do rei\nNapik. A maior parte dele foi\ndestruída durante uma\ngrande guerra, mas foi\nreconstruído no século 19 e\nagora guarda uma famosa\ncoleção de armaduras e\nespadas.\n
-CHURCH_00
-Cateral Gótica\n\nEsta antiga catedral gótica é\natualmente um lugar\nturístico e de arte sacra\nmais do que um lugar de\noração. No entanto, os\nresponsáveis pela igreja\naparentemente gostam\ndisso, pois os turistas\ngeram mais renda que os\npróprios fiéis. Como os\nturistas não podem chegar\nà catedral de carro, haverá\nmuitos passageiros demandando\nserviço.\n
-CHURCH_01
-Igrejinha\n\nEsta pequena igreja é ainda um\nlugar amigável onde as\npessoas podem encontrar\namigos, bater um papo e\nprocurar por algo maior que\nas coisas mundanas.\n
 CHURCH_02
 Igreja Rosa\n\nEssa estranha igreja foi\nconstruída por um famoso\nmonge maluco que, em\n1654, pintou toda a\nconstrução de rosa. Até\nhoje a igreja ainda brilha\ncomo uma luz que guia o\ncampo.\n
 CHURCH_03
-Igreja\n\nEsta igreja é famosa pelas\npinturas que estão em seu\ninterior, além de seu\nagradável entorno.\n\n\n
+Igreja\n\nEsta igreja é famosa pelas\npinturas que estão em seu\ninterior, além de seu\nagradável entorno.\n\n
 CHURCH_04
-Sinagoga\n\nApesar de ter uma aparência um\ntanto árabe, trata-se de\numa sinagoga dirigida por\njudeus fiéis.\n\n\n
+Sinagoga\n\nApesar de ter uma aparência um\ntanto árabe, trata-se de\numa sinagoga dirigida por\njudeus fiéis.\n\n
 CHURCH_05
 Igreja de São Miguel\n\nEsta jóia da arquitetura foi\nconstruída no final do\nséculo XIX. Chama atenção\no sua cobertura metálica,\nassinada por Alexander\nGustavus Eiffel.\n
 CHURCH_06
-Igreja da Vila\n\nUma igreja típica de cidade\npequena.\n\n\n\n\n
+Igreja da Vila\n\nUma igreja típica de cidade\npequena.\n\n
 CIRCUS_0
 Circo Humberto\n\nO famoso circo fez desta\ncidade seu destino final.\nSua clássica tenda foi\npreservada para conservar\na atmosfera original, mas\ncomo todos os artistas\ntrouxeram suas casas para\ncá, você pode acabar\nficando aqui e se tornando\num turista popular. O circo\nconta com o famoso\nJumbo, o elefante que se senta\na cada vez que ouve um sino\ntocar. Tome cuidado para não\ntocar o sino enquanto estiver\natrás de Jumbo, para não acabar\namassado.\n
 CIVILIAN_RADAR
@@ -183,7 +169,7 @@ Este excêntrico restaurante\noriental dá vista para um\nlindo jardim japonês. Vá
 COM_00_09
 Esta pequena construção\nparece uma antiga taverna\nmedieval. O proprietário a\nconstruiu assim para\npassar o tempo com seus\namigos lá dentro ou no\njardim tomando uma boa\ncerveja gelada. Sua renda\nvem do aluguel de uma\ncarroça para os negócios\nvizinhos.\n
 COM_00_10
-Uma loja de tijolos\nvermelhos\n\n\n\n\n\n
+Uma loja de tijolos\nvermelhos\n\n
 COM_00_11
 Essa casa abriga um pet\nshop especializado em\nanimais de estimação\ndaqueles bem fofinhos. O\nproprietário mora em cima\nde seu estabelecimento,\ncom a mulher, 13 cachorros\ne 27 gatos convivendo em\nplena harmonia. \n
 COM_00_12
@@ -197,7 +183,7 @@ Embaixo deste brilhante\ntelhado estão abrigados\numa joalheria e uma\npadaria, 
 COM_00_16
 A farmácia Cura Certa é\nconhecida pela sua grande\nvariedade de produtos\nmédicos - de todos os\ntipos de pílulas e\nmedicamentos a curativos\ne muletas.\n
 COM_00_17
-Na Eugênio Roupas Finas\nvocê encontra os estilos\nmais fashion por um\nprecinho camarada. \n\n\n\n
+Na Eugênio Roupas Finas\nvocê encontra os estilos\nmais fashion por um\nprecinho camarada. \n\n
 COM_00_18
 Chateaux Touch possuem\ncamas e cafés-da-manhã\nmaravilhosos.\nCuriosamente, o hotel\nganhou cinco estrelas no\nGuia Para Escapadelas\nAmorosas e Lugares Para\nDesencalhar.\n
 COM_00_19
@@ -205,17 +191,15 @@ Antes de se tornar dono\ndesta loja de roupas, o\nproprietário era um\njardineir
 COM_00_21
 Este estacionamento é um\nesconderijo para uma\ngangue de senhoras. Ali\nocorrem reuniões de\nvelhinhas que estão\ndescontentes com a\nsituação da cidade. Elas se\nencontram pela madrugada\ne correm pelas roncam os\nmotores de suas cadeiras\nde rodas motorizadas.\nArmadas com bengalas e\nmuletas, elas\ninescrupulosamente batem em\nqualquer jovem bêbado que tem\no azar de encontrá-las. Graças à\natividade da gangue, quase não\nhá pichações no bairro.\n
 COM_00_22
-Este prédio não existe.\n\n\n\n\n\n\n
-COM_00_23
-Bloco de escritórios\n\n\n\n\n\n\n
+Este prédio não existe.\n\n
 COM_01_01
-Pequena fábrica de\nconservas de peixe.\n\n\n\n\n\n
+Pequena fábrica de\nconservas de peixe.\n\n
 COM_01_13
 Este restaurante atrai\nmuitos clientes pela\nqualidade de seus pratos\ncom peixes e frutos do mar\ne também pela mesa de\nsinuca. A casa lota em dias\nde torneios de bilhar.\nMuitos saboreiam os pratos\nassistindo e torcendo.\n
 COM_01_15
 Neste galpão você pode\nencontrar de tudo para\nconstruir ou reformar a sua\ncasa. Em caso de dúvida, a\ndona irá lhe ajudar a\nescolher os azulejos. Ela\nmesma reformou o banheiro\ndela.\n
 COM_01_17
-Muitos clientes vão a este\nsupermercado nos fins de\nsemana para saborear as\namostras grátis e conversar\ncom as promotoras.\n\n\n
+Muitos clientes vão a este\nsupermercado nos fins de\nsemana para saborear as\namostras grátis e conversar\ncom as promotoras.\n\n
 COM_01_18
 Este prédio se disfarça de\nigreja, mas já foi utilizado\npara sacrifícios\nritualísticos. A reunião\nanual de bruxas continua\nacontecendo aqui\nanualmente no Halloween.\n
 COM_01_19
@@ -225,7 +209,7 @@ Neste bancos você\nconsegue empréstimos\nfacilmente, mas pagar pode\nser um pouc
 COM_01_23
 Este prédio está\nabandonado há anos, mas\nestá sempre bonito por fora\npara que o dono consiga\nalugar os outdoors em cima\nda construção. Alguns\nshows de rock ocorrem na\ncobertura durante a\nmadrugada.\n
 COM_01_26
-Estes chalés são ótimos\npara o inverno. Você pode\nassar seus próprios\nmarshmallows na lareira do\nquarto.\n\n\n
+Estes chalés são ótimos\npara o inverno. Você pode\nassar seus próprios\nmarshmallows na lareira do\nquarto.\n\n
 COM_01_28
 O que já fora um antigo\ncolégio hoje abriga uma\nfábrica de bombas de água.\nA empresa é muito famosa\npela boa conduta que tem\ncom seus trabalhadores.\nApesar dos salários serem\numa mixaria, eles\ncontinuam gostando de\ntrabalhar aqui.\n
 COM_01_29
@@ -233,17 +217,17 @@ As escadas laterais deste\nedifício, levam-te\ndirectamente ao escritório\ndo fa
 COM_01_36
 Este edifício alberga vários\nescritórios de advogados e\nconsultórios médicos e pelo\nmenos três companhias de\nseguros, mas é mais\nconhecido pela enorme\nbandeira que flutua no\nmastro colocado no\ntelhado, apenas nos\nferiados nacionais.\n
 COM_01_60
-Torre Esmeralda\n\n\n\n\n\n\n
+Torre Esmeralda\n\n
 COM_03_28
 Os escritórios deste\nedifícios eram tão grandes\ne a demanda tão pouca que\nos administradores\nfreqüentemente se\nachavam perdidos nos\nespaços vazios. Assim, um\ndos proprietários resolveu\nreduzir os escritórios a\nlargura de uma parede para\ndentro. A idéia atraiu tantos\npotenciais ocupantes que\no dono decidiu construir outro\nedifício desse. Por isso, preste\natenção que outro edifício\ndesses pode aparecer.\n
 COM_05_01
 Este é o bar mais popular\ndas redondezas. O\ninteressante é que apenas\nservem água engarrafada e\nsaladas. O que é óptimo\nporque os clientes ficam\nefectivamente mais\ninteressados na musica ao\nvivo do que nas bebidas ou\nna comida. \n
 COM_05_02
-Isto é um parque de estacionamento.\nNinguém consegue perceber a\ntua curiosidade, ou será\nque descobristes algo de\nextraordinário?\n\n\n
+Isto é um parque de estacionamento.\nNinguém consegue perceber a\ntua curiosidade, ou será\nque descobristes algo de\nextraordinário?\n\n
 COM_05_03
 O Bule Escaldante é uma\nsimpática casa de chá,\nonde podes levar o teu par.\nO agradável aroma do chá, a\nmusica oriental e a luz\nsuave criam um fantástico\ne romântico ambiente.\n
 COM_05_04
-Esta pequena loja vende\nbicicletas e acessórios\ndesportivos. Este é o lugar\nque deverás visitar antes\nde entrar nalgum torneio.\n\n\n
+Esta pequena loja vende\nbicicletas e acessórios\ndesportivos. Este é o lugar\nque deverás visitar antes\nde entrar nalgum torneio.\n\n
 COM_06_14
 A JC Rações é na cidade o\nmelhor lugar para adquirir\nsuprimentos para seu\ncavalo. Na frente está o\nmesmo vagão que trouxe os\nantepassados de JC\nquando eles se\nestabeleceram aqui há mais\nde duzentos anos.\n
 Container1TrainStop
@@ -252,8 +236,6 @@ Container2TrainStop
 Estação moderna para contêineres
 Control_StationBlg
 Torre de Controle de Tráfego
-CoveredTrainStop
-Parada de Trens Coberta
 Crate_Goods_Dock
 Termianal de contêineres
 CunnersdorfStopBlg
@@ -267,9 +249,9 @@ Monumento 'Obrigado MHz!'\n\nEste monumento é dedicado\nao famoso arquiteto Geor
 DenkHajo
 Este monumento é dedicado\na Hansjörg Malthaner. Ele\ndesenvolveu esse jogo\ndurante sete anos. Sem\nseu esforço e sacrifício,\neste jogo não seria\npssível. Por favor, não\nignore seus esforços, pare\num momento para que ele\ndsaiba que seu trabalho\nnão foi em vão, que seu\njogo continua sendo\njogado. Envie-lhe um cartão\npostal endereçado a:\nHansjörg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart\nGermany\n
 DenkOwen
-Monumento a Owen Rudge\n\nEste lugar é dedicado a Owen\nRudge, famoso financista e\ntécnico de som.\n\n\n\n
+Monumento a Owen Rudge\n\nEste lugar é dedicado a Owen\nRudge, famoso financista e\ntécnico de som.\n\n
 DenkPatrick
-Monumento a Patrick Nesbitt\n\nEste monumento é dedicado a\nPatrick Nesbitt, que ajudou\na fazer muitos edifícios e\nveículos para o SimuTrans.\n\n\n
+Monumento a Patrick Nesbitt\n\nEste monumento é dedicado a\nPatrick Nesbitt, que ajudou\na fazer muitos edifícios e\nveículos para o SimuTrans.\n\n
 DenkRaven
 Monumento a Raven\n\nRaven é um grande projetista de\nveículos, notadamente\nferroviários. Não obstante,\ntambém cria edifícios muito\nbelos, embelezando as\ncidades. \n
 DenkSeth
@@ -277,11 +259,11 @@ Este lugar é dedicado\na Seth C. Triggs, o\nfamoso arquiteto que\nprojetou tanto
 DenkTomas
 Este monumento é\ndedicado a Tomas\nKubes, que ajudou a\nincrementar o\nSimutrans em\nmuitíssimos aspectos,\ncom sugestões e muito trabalho\n\n
 DenkTrikky
-Este monumento é\ndedicado a 'Trikky'\nRick McGreal o\nfamoso arquiteto que\nprojetou tantos\nedifícios\nimpressionantes.\n\n\n
+Este monumento é\ndedicado a 'Trikky'\nRick McGreal o\nfamoso arquiteto que\nprojetou tantos\nedifícios\nimpressionantes.\n\n
 DenkVM
 Este monumento é\ndedicado a Manfred\n'VT Vienna'\nTomaschitz, o famoso\nengenheiro que\nprojetou tantos\nveículos ferroviários de\nalto nível.\n\n
 DenkVolker
-Este "Stupa" foi\nconstruído por Volker\nMeyer que\ndesenvolveu\nSimutrans em\ndiversas áreas.\n\n\n
+Este "Stupa" foi\nconstruído por Volker\nMeyer que\ndesenvolveu\nSimutrans em\ndiversas áreas.\n\n
 ELEMENTARY_SCHOOL_1
 Escola Fundamental\n\nNeste lugar as crianças obtêm\nsua primeira educação.\nMatemática, línguas,\nhistória e ciências são das\nmatérias menos atrativas\naos pequenos. Eles\npreferem pintar e cantar.\nComo eles não podem\ndirigir, a escola atrai muitos\npassageiros para ela. Mas\ntambém não é bom pôr\nônibus de luxo para servi-la.\n
 ELEMENTARY_SCHOOL_2
@@ -291,7 +273,7 @@ Bombeiros\n\nAqui fica a sede do\ncorpo de bombeiros\nda cidade. Tem\ncaminhões,
 Fluid_StationBlg
 Armazenamento de Fluidos
 FORT_FUN
-Forte\n\nEste forte é um parque de\ndiversões que relembra os\nfilmes de faroeste.\n\n\n\n
+Forte\n\nEste forte é um parque de\ndiversões que relembra os\nfilmes de faroeste.\n\n
 FreightTrainStop
 Estação de carga\n
 FUTURISTIC_TOWER_0
@@ -314,16 +296,14 @@ HQ2
 Quartel-General
 IND_00_01
 Só mesmo no alto de uma\ncolina para uma serralheria\nnão atrapalhar os vizinhos.\nSe você precisar de madeira\ncortada sem ter que ouvi-la\nser serrada, é só trazê-la\naqui que eles cortam tudo\npor um preço camarada.\n
-IND_00_04
-Esta enorme cisterna pode\narmazenar 500 metros\ncúbicos de água. A edícula\nà esquerda contém os\ncontroles das válvulas. Um\nerro pode fazer faltar água\nou transformar essa parte\nda cidade num rio!\n
 IND_00_05
 Esta é uma pequena\npadaria. Antigamente eram\ncomuns por este lugar, mas\nos supermercados quase\nacabaram com elas, com\nseus preços menores. Porém\no pão daqui é de uma\nqualidade muito superior,\nalém dos doces, que não\nquem faça melhores a\nquilômetros de distância.\n
 IND_00_06
 Você ficará surpreso com o\nque é fabricado aqui -\nvasos de flores! Mas são\nvasos de todas as formas,\nexceto as convencionais.\nAgora estão fazendo vasos\nem espiral!\n
 IND_00_10
-Há algum tempo, o dono do\nterreno quis construir dois\narmazéns aqui. Agora estão\nesperando pela mercadoria.\n\n\n\n
+Há algum tempo, o dono do\nterreno quis construir dois\narmazéns aqui. Agora estão\nesperando pela mercadoria.\n\n
 IND_00_13
-A Mecânica do João é uma\nrede popular de mecânicas.\n\n\n\n\n\n
+A Mecânica do João é uma\nrede popular de mecânicas.\n\n
 IND_00_14
 Este edifício é uma\npequena cervejaria. Embora\nnão possa competir com as\ngigantes do mercado que\nexportam para o mundo\ntodo, os bares locais\npreferem a cerveja deles,\npois tem um sabor todo\nespecial.\n
 IND_00_15
@@ -334,12 +314,10 @@ IND_00_17
 Embora o prédio pareça\nabandonado, aqui na\nverdade funciona uma\nempresa lucrativa. Mas\nninguém sabe o que é\narmazenado no tanque\nverde ao alto.\n
 IND_00_18
 Embora o prédio pareça\nabandonado, aqui na\nverdade funciona uma\noutra empresa lucrativa.\nMas ninguém sabe o que é\narmazenado no tanque\nverde ao alto, além do dono\nda outra empresa instalada\nnum edifício igualzinho a\nesse.\n
-IND_00_19
-Esta fábrica produz vários\nprodutos em plástico. Um\ndos seus produtos mais\npopulares é a napa com\ntextura de mármore cinza.\nClaro, há grande demanda e\ncom isso a empresa está se\nexpandindo sempre.\n
 IND_00_20
 Mais outra fábrica de napa\ncom textura de mármore\ncinza. Porém aqui produzem\noutros tipos de napa,\ninclusive lonas de\ncaminhão, que não passam\nde uma versão mais grossa\nda napa comum. É possível\nver vários caminhões por aí\ncom suas cargas cobertas\ncom a lona saída daqui.\n
 JUSTICE
-Tribunal de Justiça\n\nAqui são realizados muitos\njulgamentos por dia. Há\nadvogados entrando e\nsaindo a todo momento.\n\n\n
+Tribunal de Justiça\n\nAqui são realizados muitos\njulgamentos por dia. Há\nadvogados entrando e\nsaindo a todo momento.\n\n
 Lighthouse_0
 Farol\n\nDesde que os faróis foram\nimplantados, os mares se\ntornaram mais seguros e\nfáceis de navegar. Há\nmuitas pessoas que\ndesejam visitar esse aqui e\nver as ondas baterem no\nparapeito.\n
 Lighthouse_1
@@ -372,8 +350,6 @@ MonorailFoundation
 Sustentação de via elevada
 MonorailGround
 Sustentação de via elevada
-MonorailStation
-Estação elevada
 MT_HOTEL_0
 Este hotel é muito\nfamoso. Os quartos\nsão muito caros, mas\ntodos ainda estão\ntentando se\nhospedar nele ou,\npelo menos, fazer\numa refeição em seu restaurante.\n\n
 MUSEUM_0
@@ -407,25 +383,21 @@ Rádio Chit-Chat FM\n\nUm bom número de pessoas\ndesejam vir aqui, porque\npromet
 RES_00_02
 Pequena casa encontrável\nnas periferias da cidade.\nUm casal de idosos mora\naqui. A vizinhança é bem\nsossegada, bom lugar para\naproveitar os benefícios da\nterceira idade. No jardim,\nplantam algumas verduras\npara economizar um\ndinheirinho.\n
 RES_00_03
-Se você não pode ter uma\ncasa de madeira no campo,\nvocê ainda pode tê-la - na\ncidade.\n\n\n\n
+Se você não pode ter uma\ncasa de madeira no campo,\nvocê ainda pode tê-la - na\ncidade.\n\n
 RES_00_04
 Pequena casa. Neste lugar,\nalgumas pessoas têm uma\nsegunda casa, para\naproveitar alguns\nmomentos em silêncio com\no verde, longe de suas\nvidas estressantes. É um\nbom lugar para que os\nfilhos possam dar algumas\nfestas.\n
-RES_00_05
-Um prédio pequeno. Quatro\nfamílias podem morar aqui.\nAs paredes finas não\nfacilitam muito a vida,\nprincipalmente se o vizinho\ntiver uma bateria (que\nobviamente ele não toca...).\n
 RES_00_07
 Este antigo bar foi\nreconstruído como casa do\nantigo dono. O bar\nmudou-se para o porão, e\ncontinua sendo um ponto\nde encontro para os\nantigos amigos dele.\nInfelizmente, o pebolim\nqubrou e nunca foi\nconsertado. \n
-RES_00_26
-Esta estátua é dedicada à\nfamosa frase "Palavras\nque movem o mundo". A\nentrada foi proibida porque\nalgumas pessoas quase\ndestruíram-na por fazer\npiquenique em cima da\nbola!\n
 RES_02_12
 Esta casa é habitada por\numa família comum de\nclasse média. O pai sai\nlogo cedo e a mãe, um\npouco mais tarde, para\ntrabalhar. Os filhos vão para\na escola à tarde, assim\ndormem também até mais\ntarde. Muitas vezes,\nquando um deles fica na\ninternet até tarde da noite,\no outro é obrigado a\nacordá-lo na hora do almoço,\npara que não perca a aula...\n
 RES_02_13
 Aqui antes funcionava um\npequeno teatro. Quando\nabriu um cinema na\nredondeza, o número de\nespectadores caiu muito, a\ntal ponto que o teatro teve\nde ser fechado. Agora o\nprédio está sendo\nreformado para que seja\nocupado por três\napartamentos. Como a\nestrutura não está sendo\nmuito modificada, será\npossívetel ter a sala de estar no\npalco! \n
 RES_02_14
-O cavalheiro que mora aqui\ntem uma oficina nos fundos\nonde passa o dia inteiro\ntrabalhando montando uma\nbiblioteca... pornô!\n\n\n
+O cavalheiro que mora aqui\ntem uma oficina nos fundos\nonde passa o dia inteiro\ntrabalhando montando uma\nbiblioteca... pornô!\n\n
 RES_02_15
 Esta casa foi construída\noriginalmete como uma só.\nMas com o tempo o dono\npassou a achá-la muito\ngrande, e assim a dividiu\nem duas, uma maior, onde\nmora com sua família, e\noutra menor, que aluga.\n
 RES_02_17
-Esta casa poderia abrigar\nmuitas famílias, porém\npertence a um casal com\nseu exército de filhos.\n\n\n\n
+Esta casa poderia abrigar\nmuitas famílias, porém\npertence a um casal com\nseu exército de filhos.\n\n
 RES_02_18
 Nesta casa habita uma\nfamília de cozinheiros\nfamosos na região. Eles\nmoram no andar superior, e\nno térreo mantêm seu\nrestaurante, que é\nfreqüentado por todo tipo\nde gente, já que aqui há\npratos para todos os\nbolsos. E todos,\ninvariavelmente, saem\nelogiando.\n
 RES_02_19
@@ -443,11 +415,11 @@ As pessoas que moram\nnesse prédio são tão\nsistemáticas que não ha\nmuito o que
 rmax_clock_tower
 Torre do relógio  \n  \nEsta torre do relógio tem uma\narquitetura estranha.\nAlguns pensam que foi\ninspirado pela Torre das\nruínas de Fabel mas\nrealmente é um recente\nedifício e seu relógio é um\ndos mais precisos no\nSimuworld inteiro.\n
 rmax_courthouse
-Tribunal de Justiça\n\n\n\n\n\n\n
+Tribunal de Justiça\n\n
 rmax_DenkManualTeam
 Tocha Luminosa\n\nEste monumento, com sua\ntocha permanentemente\nacesa, é uma homenagem\nàqueles que escrevem e\nmantêm as ajudas internas,\nos manuais e o Wiki, e\nàqueles que de alguma\nmaneira iluminam os\nmistérios desse incrível\njogo que é o Simutrans.\n
 rmax_fabio_bust
-Busto de Fagonellus\nRomanus\n\n\n\n\n\n
+Busto de Fagonellus\nRomanus\n\n
 rmax_icarus
 Base Espacial\n\nNesta base espacial são\nlançados os foguetes que\nlançam os satélites que\npermitem que as\ncomunicações no SiMundo\nsejam tão rápidas, aliás, em\ntempo real, de maneira que\nse saiba o tempo todo a\nreal situação de cada\nveículo e de cada estação\nou parada.\n
 rmax_mosque
@@ -455,7 +427,7 @@ Mesquita de Al-Salaam\n\nSempre que os muezins cantam\nnos minaretes da mesquita
 RUIN_1
 Esta é a ruína de um\ncastelo muito\nfamoso. Muitos\ncapítulos da história\nforam escritos aqui.\nPor isso ele é um ímã\npara turistas de todo\no mundo. Todo o mundo\nquer vê-lo.\nE tem lá o seu toque de romantismo,\nnão?\n\n
 Russian_Cathedral
-Catedral de São Basílio\n\n\n\n\n\n\n
+Catedral de São Basílio\n\n
 sh_oasis_seasons
 Oásis\n\nUm oásis é um local no meio\ndo deserto onde as\ncondições para a vida são\nmais favoráveis. Qualquer\nforma de vida vagando pelo\ndeserto deseja chegar o\nquanto antes a um desses\nlocais para matar a sede e\npoder descansar sob a\nsombra das palmeiras.\n
 ShipDepot
@@ -468,8 +440,6 @@ SMALL_MANOR
 Palacete\n\nEste palacete foi um dia a\nmorada de um fidalgo.\nDepois que morreu, o\npalacete ficou abandonado.\nNo início do século, foi\ndescoberto que aí havia\numa grande coleção de arte,\nem bom estado. Hoje o\npalacete é um museu\naberto ao público, que pode\nadmirar belas obras a baixo\ncusto. Muitas escolas trazem\nseus alunos para conhecê-lo.\n
 st_benedict_church
 Igreja de São Bento\n\nEsta igreja é uma das mais\nbonitas do SiMundo. Muitos\nturistas vêm visitá-la,\nenqunto outros vêm para\norar. Em seu interior há\nmuitas pinturas sacras de\nvalor inestimável, que nem\nvisitantes nem fiéis deixam\nde apreciar.\n
-SUSHI_HOSPITAL
-Hospital Sushi\n\nO Hospital Sushi é o lugar\nonde uma boa parte da\ncolônia chinesa da cidade\ntrabalha, exceto aqueles\nque têm seus próprios\nrestaurantes. Por isso os\nserviços médicos aqui têm\nbom preço e uma qualidade\naté que boa. Por isso, quem\nnão pode pagar por um\nótimo hospital vêm se tratar\naqui, em vez de ir a clinícas um\ntanto ou quanto suspeitas. Mas\ncomo aqui não tem\nestacionamento, quem não vem de\nambulância deve ir e voltar de\ntransporte público.\n
 Suspended_Monorail_Bahnhof_Modern
 Estação suspensa
 Terminal1930_AirportBlg
@@ -491,11 +461,11 @@ Estação ferroviária com cobertura
 TramDepot
 Depósito de bondes
 TRIUMPH
-Arco do Triunfo \n\n\n\n\n\n\n
+Arco do Triunfo \n\n
 TV_TOWER_0
 Torre de TV\n\nA televisão local transmite\ndaqui. Além disso permite\numa visão ampla da cidade,\no que proporciona notícias\nimportantes sobre ela. \n\n
 TV_TOWER_1
-Torre de TV\n\n\n\n\n\n\n
+Torre de TV\n\n
 Very_Big_Terminal
 Terminal de passageiros gigante
 VictorianStation
@@ -505,11 +475,9 @@ Pequena Parada de Trens
 WHEEL
 Roda Gigante\n\nEsta roda gigante já rodou\nbastante, mas há tempos\nestá neste local. Do seu alto\ntem-se uma vista muito\nbonita.\n\n
 Windmill
-Moinho de vento\n\n\n\n\n\n\n
+Moinho de vento\n\n
 WOODEN_CHURCH
-Igreja Protestante,\nconstruída por imigrantes\nalemães\n\n\n\n\n
-#__________________________________dummy_info___________________________________
-#__________________________________dummy_info___________________________________
+Igreja Protestante,\nconstruída por imigrantes\nalemães\n\n
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -534,16 +502,12 @@ Concretefactory
 Concreteira
 cornfield
 Plantação de milho
-cotton_field
-Plantação de algodão
 cow_farm
 Fazenda de gado
 dairy
 Laticínio
 Druckerei
 Editora
-electronics_factory
-Fábrica de eletrônicos
 Erzbergwerk
 Mina de ferro
 ethanol_plant
@@ -556,24 +520,16 @@ food_processing_plant
 Fábrica de alimentos
 Glass_factory
 Fábrica de vidro
-grain_farm
-Fazenda de grãos
 grain_farm_w_fields
 Fazenda de grãos
 grain_mill
 Moinho
-Kohlekraftwerk
-Usina termoelétrica
-Materialswholesale
-Depósito de materiais
 modern_fuel_station
 Posto de gasolina moderno
 Moebelfabrik
 Fábrica de móveis
 Moebelhaus
 Centro comercial
-Nutzwald
-Floresta
 Oelbohrinsel
 Plataforma de petróleo
 Oelfeld
@@ -590,8 +546,6 @@ Raffinerie
 Refinaria
 Saegewerk
 Serraria
-Sandquarry
-Mina de areia
 shaft_coal_mine
 Mina de carvão
 sheep_farm
@@ -614,8 +568,6 @@ waste_incinerator_kraftwerk
 Incinerador
 wind_kraftwerk
 Usina eólio-elétrica
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -710,8 +662,8 @@ CATEGORY_06
 merc. longas
 CATEGORY_07
 tecidos
-#__________________________________record_text__________________________________
-#__________________________________record_text__________________________________
+Monoraildepot
+Depósito ferroviário elevado
 #___________________________________roadsign____________________________________
 #___________________________________roadsign____________________________________
 air_one-way
@@ -754,102 +706,36 @@ traffic_light
 Semáforo
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
-cactus000
-Cáctus\n\n\n\n\n\n\n
-cactus001
-Cáctus\n\n\n\n\n\n\n
-cactus002
-Cáctus\n\n\n\n\n\n\n
-tree021
-Árvore\n\n\n\n\n\n\n
-tree022
-Árvore\n\n\n\n\n\n\n
-tree023
-Árvore\n\n\n\n\n\n\n
-tree024
-Árvore\n\n\n\n\n\n\n
-tree025
-Árvore\n\n\n\n\n\n\n
-tree030
-Árvore\n\n\n\n\n\n\n
-tree031
-Árvore\n\n\n\n\n\n\n
-tree032
-Árvore\n\n\n\n\n\n\n
-tree040
-Árvore\n\n\n\n\n\n\n
-tree041
-Árvore\n\n\n\n\n\n\n
-tree042
-Árvore\n\n\n\n\n\n\n
 tree100
-Abeto da montanha\n\n\n\n\n\n\n
+Abeto da montanha\n\n
 tree110
-Abeto da montanha\n\n\n\n\n\n\n
+Abeto da montanha\n\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnel
 Túnel ferroviário
-RoadTunnel
-Túnel rodoviário
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
-1Ben140
-Bennhardt B-140 "Limet"
-1Bens155
-Bennhardt B-155 "Robo"
 1Benst134
 Bennhardt B-134 "Pixie"
 1Benst135t
 Bennhardt B-135 "Gremlin"
 1Benst138
 Bennhardt B-138 "Apple pie"
-1Benst161
-Bennhardt B-161 "Turbo"
 1Benst162t
 Bennhardt B-162 "Jet"
-1Benst181
-Bennhardt B-181 "Gelding"
 1Benst238
 Bennhardt B-238 "Frog"
-1Benst281
-Bennhardt B-281 "Workhorse"
 1Dampflokomotive
 RVg 0-4-0T
 2Diesellokomotive
 H-Trans BR218
-3Bens185
-Bennhardt B-185 "Santa"
 3Bens186t
 Bennhardt B-186 "Lemon"
 3Dampflokomotive
 RVg 0-3-0 "Chippy"
-451_Head
-VTS, MEZ 451
-451_Tail
-VTS, MEZ 451 (traseira)
-451_Waggon
-VTS, MEZ 451 (vagão)
-471_Head
-CKD - Skoda 471
-471_Tail
-CKD - Skoda 471 (traseira)
-471_Waggon
-CKD - Skoda 471 (vagão)
-7BenE11
-Bennhardt E-11
-Aeroqueen_JR_Bus_Kanto
-Aeroqueen JR Bus Kanto
 Airport_express_shuttle
 Ônibus Expresso de Aeroporto
-AR4_back
-AR-4 (motor traseiro)
-AR4_front
-AR-4 "Kikin"
-AR4_mid_engine
-AR-4 (motor intermediário)
-AR4_mid_trainer
-AR-4 (vagão)
 Autotransportwagen
 Cannonball
 BB-TS_Milk_Mack_Trailer
@@ -858,16 +744,12 @@ Big_Bretterwagen
 Big Bretterwagen
 Bretterwagen
 Vagão para tábuas
-Btx020
-OnD Btx020
 Budd_Coach
 Budd (vagão)
 Budd_Observation
 Budd (traseira)
 Budd_RPO
 Budd RPO
-Bulk_Ship_0
-Graneleiro PMNV
 Bulk_trailer_0
 Reboque para granel
 Bulk_Truck_0
@@ -878,12 +760,6 @@ Bulk_Truck_3
 VSYS-Tatra 815 (granel)
 Bulk_Truck_4
 Volvo (granéis)
-Bulker_Bulk
-Graneleiro BB
-Bulker_Steel
-Navio acieiro BB
-Bulker_Wood
-Madeireiro BB
 Car_Tramsport_Trailer_0
 Reboque TS
 Car_Transporter_0
@@ -898,8 +774,6 @@ CB_ALBATROS
 Canonball-Skoda 498 "Albatros"
 CB_DB-130_8
 Canonball & H-Trans 130/8 "Ludmila"
-CD851
-OnD CD851
 Cement_Carrier_Fast
 Cimenteiro
 Cement_trailer_0
@@ -912,8 +786,6 @@ Cement_Waggon_1
 Reboque cimenteiro BB-PMNV
 Cementwagen
 Vagão cimenteiro SergeS
-CKD_731
-CKD 731
 CKD_749
 CKD 749
 CKD_750
@@ -940,12 +812,6 @@ Cooling_wagon_1
 Contêiner frigoríco
 Cooling_wagon_2
 Contêiner frigorífico
-D231_back
-D-231 (motor traseiro)
-D231_front
-D-231 "Shy"
-D231_mid
-D-231 (vagão)
 DB_ADm101
 Haru ADm101
 DB_Apmz121
@@ -954,46 +820,14 @@ DB_Bm235
 Haru Bm235
 DB_BR103_1
 Haru BR-103
-Dc110
-Monatetsu KIHA 110-141
-Dc110_car
-Monatetsu KIHA 110-141 (vagão)
-Dc22
-Kiha22 "Green Class"
 EM400_1
 Sindor-FK EM400
 EMD_E5A_Silver_Meteor
 EMD E5A - Silver Meteor
 EMD_E5B_Silver_Comet
 EMD E5B - Silver Comet
-Europa_Car_Transporter
-Navio-cegonha TS-MHz "Europa"
-Europa_Goods_Transporter
-Cargueiro TS-MHz "Europa"
-Evil_BR153
-Evil BR 153/155 "Sprinter"
-Evil_BR170_Back
-Evil BR 170 (traseiro)
-Evil_BR170_Front
-Evil BR 170 "Turbostar"
-Evil_BR170_Mid
-Evil BR 170 (vagão)
-Evil_BR357_Back
-Evil BR 357 (traseiro)
-Evil_BR357_Front
-Evil BR 357 "Electrostar"
-Evil_BR357_M
-Evil BR 357 (motor)
-Evil_BR357_PT
-Evil BR 357 (pantógrafo)
-Evil_Daimler_DMS_Londoner
-Evil-Daimler DMS Londoner
 Evil_DF-11
 Evil DF-11
-Evil_Guy_Wulfrunian
-Evil-Guy Wulfrunian
-Evil_New_Flyer_D40-90
-Evil New Flyer D40-90
 Evil_P-100_(carriage)
 Evil P-100 (reboque)
 Evil_P-100_(front_engine)
@@ -1002,24 +836,10 @@ Evil_P-100_(mail)
 Evil P-100 Mail Car
 Evil_P-100_(rear_engine)
 RVg P-100 (traseira)
-Evil_Scania_K94UB
-Evil-Scania K94UB
-Evil_Scania_K94UB_Liner
-Evil-Scania K94UB Liner
-Evil-Cicu_L32_Liner
-Evil-Cicu L32 Liner
 Evil-Jitluen_67_Minibus
 Evil-Jitluen 67 Minibus
-Evil-Jitluen_Beluga_FA_MKD-12
-Evil-Jitluen Beluga FA MKD-12
-Evil-Jitluen_Beluga_FA_SR
-Evil-Jitluen Beluga FA SR
-Evil-Jitluen_Beluga_FA_SU-10
-Evil-Jitluen Beluga FA SU-10
 Express_tender
 Tender
-Fishing_Boat_0
-Traineira LR
 Fluid_trailer_0
 Reboque para fluido AJ
 Fluid_trailer_1
@@ -1032,16 +852,6 @@ Fluid_Truck_2
 S.Kroytor ZUK-20
 Fluid_Truck_3
 Magirus Oil Truck 1923
-Freighter_Goods
-Porta-contêineres BB
-FUSO_Aeromidi_Keio_Bus
-Ônibus Aeromidi Keio FUSO
-FUSO_Aerostar_Kanachu_Bus
-Ônibus Aerostar Kanachu FUSO
-GALA_Kanto_Railway
-Ônibus Kanto GALA
-Goods_schiff
-Navio cargueiro JET
 Goods_trailer_0
 Reboque para Caminhão Mitsubishi Fuso
 Goods_trailer_1
@@ -1072,16 +882,10 @@ Goods_waggon_3
 Goods Container Car
 Goods_waggon_4
 HS Goods Container Car
-Grain_Ship_0
-Carregador de Grãos PMNV
 Grain_trailer_0
 Reboque para caixas PMNV Classic Grain Trailer
 Grain_Truck_1
 VSYS-Tatra 815 (grain)
-Grain_wagon_0
-Canonball Grain Waggon
-Grain_wagon_1
-Canonball Grain Hopper
 Haru_F7A
 Haru F7 A
 Haru_F7B
@@ -1106,8 +910,6 @@ Holzwagen_0
 Wood Carrier
 Holzwagen_1
 Log Hopper
-ISUZU_Erga_Odakyu_Bus
-ISUZU Erga Odakyu Bus
 JNR_C11
 JNR SL C11
 JNR_C62
@@ -1118,54 +920,16 @@ JNR_DD51
 JNR DD51
 JNR_tender_S
 Tênder
-JR_Shinkansen_723
-JR Shinkansen Series 700
-JR_Shinkansen_724
-JR Shinkansen Series 700 (traseiro)
-JR_Shinkansen_725
-JR Shinkansen Series 700 (pantógrafo)
-JR_Shinkansen_726
-JR Shinkansen Series 700 (reboque)
-JRF_EF210
-JRF EF210
-JRW_Mc123
-JRW Mc123
-Karl_MCW_Super_Metrobus_12m
-Karl-MCW Super Metrobus 12m
-Karl-MCW_Super_Metrobus_12M-158
-Karl-MCW Super Metrobus 12M 158
-Karl-MCW_Super_Metrobus_12M-214
-Karl-MCW Super Metrobus 12M 214
 Kord_TT_bulk
 Kord TT (granel)
-Kord_TT_fabric
-Kord TT (tecido)
 Kord_TT_grain
 Kord TT (grão)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 air_movement_area
 Pista de taxiamento de asfalto
-air_movement_area_old
-Pista de taxiamento de paralelepípedos
-asphalt_road
-Rodovia asfaltada
-autobahn
-Rodovia expressa
-city_road
-Via urbana
-cobblestone_road
-Via de paralelepípedo
-concrete_road
-Rodovia de concreto
 concrete_sleeper_track
 Trilho sobre dormentes de concreto
-concrete_tram_track
-Trilho de bonde sobre leito de concreto
-dirt_road
-Estrada de terra
-gravel_road
-Estrada de cascalho
 High_quality_track
 Trilho de alta qualidade
 low_quality_track
@@ -1176,8 +940,6 @@ old_taxiway
 Pista de taxiamento de grama
 Powerline
 Linha de transmissão de alta voltagem
-Rillenschienen
-Tirlho de bonde
 river_00
 Rio
 river_01
@@ -1196,8 +958,6 @@ steel_sleeper_track
 Trilho de alta velocidade
 Suspended_Monorail_Track
 Monotrilho suspenso
-US_asphalt_road
-Rodovia asfaltada norte-americana
 water_road
 Canal
 wooden_sleeper_track

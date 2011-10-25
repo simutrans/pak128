@@ -5,7 +5,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 28.03 2011                           #
+#                           Date Created: 25.10 2011                           #
 #                                                                              #
 #                                   authors:                                   #
 #                            Alexander Brose - AlexB                           #
@@ -46,6 +46,8 @@
 #                                    note:                                     #
 #                                    - Paco_m                                  #
 #                                    note:                                     #
+#                                   - Xelofino                                 #
+#                                    note:                                     #
 #                                 compo - compo                                #
 #                                    note:                                     #
 #                               Florian - floppy                               #
@@ -84,12 +86,6 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 Eisenbahnbrücke - Beton
-ClassicRoad
-Straßenbrücke - Beton
-Concrete_Road_Bridge
-Straßenbrücke - Beton
-Plate_Girder_Bridge
-Eisenbahnbrücke - Holz/Beton
 PowerBridge
 Hochspannungsleitung (von Berg zu Berg)
 RVg_Concrete_Rail_Bridge
@@ -98,14 +94,6 @@ Schwebebahn_p_bridge
 Schwebebahn-Brücke
 SteelRail
 Eisenbahnbrücke - Stahl
-SteelRail2
-Eisenbahnbrücke - Stahl
-SteelRoad1
-Straßenbrücke - Stahl
-SteelRoad2
-Straßenbrücke - Stahlrohr
-u_truss_bridge
-Gerüstbrücke
 water_bridge
 Kanalbrücke
 Wooden_Rail
@@ -174,8 +162,6 @@ big_classic_bus_stop
 Bushaltestelle (mit Aludach)
 big_modern_bus_stop
 Bushaltestelle (mit Glasdach)
-BigTerminal1930_AirportBlg_S
-Großes Passagierterminal (1930)
 BigTerminal1950_AirportBlg_S
 Großes Flughafenterminal (1950)
 Bulk_Dock
@@ -195,21 +181,17 @@ Bus und LKW Depot
 CarStop
 Frachthof
 CASTLE_0
-Fürstlicher Landsitz\n\nBesonders sehenswert ist die\nSchloßkapelle.\n\n\n\n\n
-CHURCH_00
-St. Michael Kirche\n\nMan beachte die Schnitzereien\nam Altar.\n\n\n\n\n
-CHURCH_01
-Ansgari Kirche\n\nSeit Pfarrer Dietrichsen das\nsegensreiche Amt angetreten\nhat, ist die Kirche so stark\nbesucht, wie es wohl nur in\nder guten alten Zeit alle\nSonntage üblich war. Er\nbeschreibt in seinen Predigden\ndie Sünde derart detailliert,\ndass soger Profis noch so\nmanches lernen können.\n
+Fürstlicher Landsitz\n\nBesonders sehenswert ist die\nSchloßkapelle.\n\n
 CHURCH_02
 Moderne Kirche\n\nUnglücklicherweise beging Architekt Synthbass\neinen kleinen, allerdings\nverhängnisvollen\nPlanungsfehler. Der virtuose\nOrganist Paulandse musste\nentlassen werden. Der nun\neingesetzte Diskjockey gilt\nals unbedeutend und musste\nsogar lernen, das Geläut auf\nein Zeichen des Pfarrers hin\naufzulegen.\n
 CHURCH_03
 Heilig-Geist-Kirche\n\nDie Andachten sind vor allem\ndurch die\nComputerspiel-kritischen\nPredigten des weltgewandten\nPfarrers Nocedil bekannt und\nauch beliebt.\n
 CHURCH_04
-Moschee\n\nVom Minarett ertönt der Ruf zum\nGebet. Heute leider nur noch\nüber Lautsprecher.\n\n\n\n
+Moschee\n\nVom Minarett ertönt der Ruf zum\nGebet. Heute leider nur noch\nüber Lautsprecher.\n\n
 CHURCH_05
 Mauronier-Kirche\n\nDie ausgesprochen fromme\nGlaubensrichtung gilt als nahezu\nunbekannt. Und so soll es auch\nsein. Denn der Engel\nverkündete dem Laienguru\nNontromas im Wachtraum, die\nMauronier würden die wahren\n144.000 repräsentieren.\n
 CHURCH_06
-Stadtkirche\n\nEine kleine Kirche mit\ngotischen Elementen.\n\n\n\n\n
+Stadtkirche\n\nEine kleine Kirche mit\ngotischen Elementen.\n\n
 CIRCUS_0
 Zirkus\n\nHerrrreinspaziert! Dompteur Leo mit seinen\nRaubtieren, Duo Zarewitsch am\nTrapez und Bai'jian auf dem\nHochseil sind Nummern, die\nmuss man gesehen haben!\nMagier Halo lässt alles\nverschwinden, und das\nClownduo Juli+August stellt\nsich beim Wohnung renovieren\neinfach umwerfend an!\n
 CIVILIAN_RADAR
@@ -235,15 +217,15 @@ Elektronik-Fachhandel\n"Gimberzeral". Man bekommt\nnahezu alles, was irgendwie\n
 COM_00_07
 Blumenladen "Natürliche\nSchönheit". Der richtige Ort,\nsich Topfpflanzen für die\nFensterbank, Jungbäume für\nden Garten oder einfach einen\nBlumenstrauß zu kaufen. Auralia\nWeigerich, die Inhaberin,\nversichert eifrig jedem\nBesucher, dass die Blumen\nimmer frisch sind und auch\nlange halten werden. Ihre\nherrlichsten Kreationen\nzüchtet sie im Obergeschoss unter\nKunstlicht.\n
 COM_00_08
-Chinarestaurant "Schwarzer\nLotus". Heute: Frische, noch\nzappelnde Kaulquappen aus\neigenem Anbau.\n\n\n\n
+Chinarestaurant "Schwarzer\nLotus". Heute: Frische, noch\nzappelnde Kaulquappen aus\neigenem Anbau.\n\n
 COM_00_09
 Dieses schöne Häuschen\ngleicht einem alten\nmittelalterlichen Gasthaus. Der\nEigentümer hat es so\nhergerichtet weil er es mag\ndort zu sitzen (oder im\nGarten) und mit seinen\nFreunden ein kaltes Bier zu\ntrinken. Er finanziert seine\nExistenz indem er\nPferdefuhrwerke an die\nnahegelegenen Unternehmen\nvermietet.\n
 COM_00_10
-Ein Wohnhaus aus roten\nZiegelsteinen\n\n\n\n\n\n
+Ein Wohnhaus aus roten\nZiegelsteinen\n\n
 COM_00_11
 Tierhandlung "Terrisiam" hat\nsich auf niedliche, kleine\nHunde und Katzen spezialisiert.\nIn der oberen Etage lebt der\nLadeninhaber mit seiner Frau\nsowie den 13 Hunden und 27\nKatzen, welche dort den\nganzen Tag friedlich spielen.\n
 COM_00_12
-Ju Jutsu Dojo. Meister: Bhao\nFu. Probetraining: Mo 15:00\nUhr - 17:00 Uhr. Schuhe bitte\nim Eingangsbereich stehen\nlassen.\n\n\n
+Ju Jutsu Dojo. Meister: Bhao\nFu. Probetraining: Mo 15:00\nUhr - 17:00 Uhr. Schuhe bitte\nim Eingangsbereich stehen\nlassen.\n\n
 COM_00_13
 Nirgendwo wird man einen\nbesseren Cappucino entdecken\nals im Dachcafé Lorelli. Im\nHochsommer wird das Eis mit\nbesonders weiten\nPapierschirmchen garniert. Man\nsagt, die Wespen kommen\nnicht wegen der bunten\nSchirmchen, sondern wegen\ndes lieblich süßen Duftes.\n
 COM_00_14
@@ -251,7 +233,7 @@ Werners Sanitärinstallation. Im\nUntergeschoss gelangen wir in\nden Laden mit Ge
 COM_00_15
 In der unteren Etage befindet\nsich die traditionsträchtige\nSchuhhandlung "Ritter &\nSöhne". Leute, die etwas auf\nsich halten, erwerben ihre\nSchuhe nur bei "Ritter &\nSöhne" - zu Preisen, für\nwelche andere Leute Autos\nkaufen. Über den\nerschreckend langsamen\nFahrstuhl gelangen wir zu den\nBüros verschiedener Firmen\nund Krankenkassen in den oberen\nGeschossen.\n
 COM_00_16
-Juwelier Rocheaux.\nHochkarätige Auswahl,\nglänzender Service.\n\n\n\n\n
+Juwelier Rocheaux.\nHochkarätige Auswahl,\nglänzender Service.\n\n
 COM_00_17
 Berufsbekleidung "Eisenhart".\nFrüher florierte die Fabrik und\nbeschäftigte 200 Angestellte,\ndoch längst schon ist die\nProduktion ausgelagert\nworden.\n\n
 COM_00_18
@@ -260,88 +242,60 @@ COM_00_19
 Kreatives Geschäftsgebäude.\nDie vielen langen und schmalen\nBüroräume und die offenen\nSäulengänge an der\nAußenseite sorgen für ein\nderart anregendes\nArbeitsklima, dass Überstunden\nan der Tagesordnung sind, auch\nwenn es längst nichts mehr zu\ntun gibt.\n
 COM_00_21
 Dieses Parkhaus ist ein\nVersteck für Altenherrschaft.\nDieses sehr ungewöhnliche\nSyndikat gruppiert sich aus\nalten Damen die unglücklich\nsind mit der momentanen Lage\nder Stadt. Sie treffen sich\num Mitternacht und dann rasen\nsie für den Rest der Nacht\nauf den umliegenden Straßen\nin ihren gepanzerten,\nmotorisierten Rollstühlen\nherum. Bewaffnet mit Gehstöcken\nund Krücken, besiegen sie gnadenlos\njeden betrunkenen Jugendlichen der\ndas Pech hat sie auf seinem Weg von\nder Kneipe nach Hause zu treffen.\nDank für ihre Arbeit ist diese\nNachbarschaft frei von Graffiti.\n
-COM_00_22
-Geschäftshaus\n\n\n\n\n\n\n
-COM_00_23
-Wohnhaus\n\n\n\n\n\n\n
-COM_00_60
-Hochhaus\n\n\n\n\n\n\n
 COM_01_01
-Pizzeria\n\n\n\n\n\n\n
-COM_01_05
-Wohnhaus\n\n\n\n\n\n\n
+Pizzeria\nRondo Mehlfladen\nDas Geheimrezept des Besitzers sind seine ingenießbaren Piazza: Jeder echten Mafiosi wird beim Anblick so so schlecht, dass er die Flucht ergreift.\n
 COM_01_13
 Schon seit 3 Generationen\nbetreibt die Familie Tragner\neine Konditorei. Der einst\nkleine Laden ist mittlerweile\num ein Café, gedeckte\nGartenwirtschaften und einen\nSpielplatz erweitert worden\nund ein regelrechter Magnet\nfür Familien, die auf ihrem\nSonntagsausflug einkehren,\ngeworden. Geld und Ideen für\neinen weiteren Ausbau wären\nvorhanden, nur Platz ist keiner mehr\nvorhanden.\n
-COM_01_15
-Wohnblock mit Geschäften\n\n\n\n\n\n\n
 COM_01_17
-Parkhaus\n\n\n\n\n\n\n
+Park
 COM_01_18
-In der etwas düsteren\nFlohmarkthalle wird mehr\ngefeilscht als auf einem\norientalischen Bazar.\n\n\n\n
+In der etwas düsteren\nFlohmarkthalle wird mehr\ngefeilscht als auf einem\norientalischen Bazar.\n\n
 COM_01_19
 Wenn Sie das Spielwarenhaus\n"Elekars Piratentruhe"\nbetreten, werden Sie\nSpielzeug entdecken,\nwelches sie noch nie zu\nGesicht bekommen haben! Das\nstadtbekannte Geschäft\nverkauft nur die besten\nModellbahnen, die weltweit\nzu haben sind.\n
-COM_01_21
-Geschäftshaus\n\n\n\n\n\n\n
-COM_01_23
-Geschäftshaus\n\n\n\n\n\n\n
-COM_01_26
-Wohnhaus\n\n\n\n\n\n\n
 COM_01_28
 Städtisches Wasserwerk. Der\nleitende Ingenieur Hanzwao\nverweist voller Stolz auf die\nneueste Errungenschaft, eine\nelegante Flachbohrtechnik.\nBei dem Genuss einer\nKostprobe aus einem der\nüberall aufgestellten\nWasserspender wird dem\nBesucher erstmalig klar, wie\nnaturnitriertes Wasser aus\nlandwirtschaftlich genutzten\nEinzugsgebieten wirklich zu\nschmecken hat.\n
 COM_01_29
 Die Treppe an der\nGebäudeseite führt zu der\nBürotür von niemand anderem\nals dem Privatdetektiven\nArchibald Lillyhammer. Die\nTV-Werbung kennt wohl jeder:\n"Er findet jeden, überall. Mit\nGeldzurückgarantie!!". Was er\nnicht sagt ist, dass er das\nmeiste Geld an denjenigen\nverdient, die er findet, die\naber nicht gefunden werden\nwollen!\n
 COM_01_35
-Staatlicher Geheimdienst.\nWarum er wohl so heißen mag,\nwo ihn doch jeder kennt?\n\n\n\n\n
+Staatlicher Geheimdienst.\nWarum er wohl so heißen mag,\nwo ihn doch jeder kennt?\n\n
 COM_01_36
 Zollverwaltung. Im oberen\nStockwerk sind die\nFahndungsdienste\nuntergebracht - ja natürlich\nim gesamten Stockwerk.\nSelbst gelegentliche\nFahndungserfolge bringen dem\nStaat mehr Geld ein, als er\nfür die Beamten der unteren\nEtagen an Gehältern ausgeben\nkann.\n
-COM_01_47
-Hochhaus\n\n\n\n\n\n\n
 COM_01_52
 Von außen völlig unscheinbar\nverbirgt sich im Inneren des\nGebäudes doch die\nberüchtigte, offiziell\ngeleugnete "Staatliche\nTransport-Kontrolleinheit",\nwelche betrügerischen\nTransportunternehmern\nsprichwörtlich die Hölle heiß\nmacht.\n
 COM_01_60
-Hochhaus \n\n\n\n\n\n\n
-COM_02_13
-Wohnhaus\n\n\n\n\n\n\n
-COM_02_15
-Wohnhaus\n\n\n\n\n\n\n
-COM_03_21
-Wohnhaus\n\n\n\n\n\n\n
-COM_03_28
-Hausblock mit Büros\n\n\n\n\n\n\n
+Hochhaus \n\n
 COM_05_01
 Club "Dijonne" gilt als\nausgesprochen beliebt. Das\nauffällige an ihm ist, dass nur\ngesundes Essen und Getränke\nin Flaschen serviert werden.\nAber die meisten Besucher\ninteressieren sich sowieso nur\nfür die Live-Musik.\n
 COM_05_02
-Parkplatz mit zentraler\nParkuhr.\n\n\n\n\n\n
+Parkplatz mit zentraler\nParkuhr.\n\n
 COM_05_03
 Eisdiele "Schoko-Vanille". Im\nSommer sind nicht mal mehr\nStapelplätze verfügbar, im\nWinter dagegen ist die Diele\nwie ausgestorben. Statistisch\ngesehen läuft der Laden also\nmittelprächtig.\n
 COM_05_04
 Das ist "Heidruns Keramik\nStübchen". Das Angebot\numfasst vor allem Geschirr,\naber auch andere\nHaushaltsgegenstände aus Ton\nund Keramik. Das Sortiment\nreicht von geschmackvoll bis\nkitschig. Aber wie Heidrun\nselbst immer sagt: "Den\nLeuten g'fällts, dem einen von\nallein, dem anderen muss\nman's eben aufschwatzen."\n
 COM_05_05
-In dem kleinen Geschäft\nwerden Mikrowellengeräte\nund Toaster verkauft und\nrepariert. Tja, und das war's\nauch schon.\n\n\n
+In dem kleinen Geschäft\nwerden Mikrowellengeräte\nund Toaster verkauft und\nrepariert. Tja, und das war's\nauch schon.\n\n
 COM_05_06
-Fit for Fun. Ihre günstige\nFitness-Oase!\n\n\n\n\n\n
+Fit for Fun. Ihre günstige\nFitness-Oase!\n\n
 COM_05_07
 Ein großer Parkplatz. Die\nBäume mussten schon so\nmanchen Stoß, verursacht\ndurch Autofahrer, welche\nden falschen Gang eingelegt\nhatten,  hinnehmen.\n\n
 COM_05_08
 Bowlingbahn. Trotz der\nunebenen Bahnen ist die Halle\njeden Freitag Abend\nvollkommen überfüllt. Einen\nStrike hat's hier schon lange\nnicht mehr gegeben.\n\n
 COM_05_09
-Boutique Rocheaux.\nSchmeichelnde Angebote und\npassgenaue Beratung.\n\n\n\n\n
+Boutique Rocheaux.\nSchmeichelnde Angebote und\npassgenaue Beratung.\n\n
 COM_05_10
 Geisterbahn. Öffnungszeiten: Fr\n13 - 23 Uhr. Fragen Sie die\nLeute, wie ihnen das\nVergnügen gefiel. Die meisten\nbekommen Gänsehaut, werden\nkreidebleich oder schauen\nverlegen weg. An Tagen mit\nstarken Nerven sollten Sie den\netwas überteuerten\nEintrittspreis nicht scheuen.\n
 COM_05_11
-Kruppers Modellbauladen soll\nsogar dazu übergegangen sein,\nSimutrans-Gebäude für\nModellbahnen anzufertigen!\n\n\n\n
+Kruppers Modellbauladen soll\nsogar dazu übergegangen sein,\nSimutrans-Gebäude für\nModellbahnen anzufertigen!\n\n
 COM_05_12
 Das etwas langweilige und im\nMoment leerstehende\nBürogebäude will sich\ndemnächst der Nachahmer\nFriedensreich Hundertwassers\nvornehmen. Also sichern Sie\nsich schon mal eine der bald\nheißbegehrten Wohnungen -\nderzeit noch zum sehr\ngünstigen Preis.\n
 COM_05_13
 Die landwirt- schaftliche\nGenossenschaft betreibt\nschon seit einem Jahrhundert\neinen Quartierladen. Vor 5\nJahren wurde dieser\nmodernen Ansprüchen\ngerechte Neubau erstellt.\n
-COM_05_14
-Eine Bank, die hauptsächlich\nim\nVermögensverwaltungsgeschäft\naktiv ist. Vermögende Kunden\nmit Wertschriftendepots über\n1 Million Cr sind gern gesehen,\ngegen Aufpreis gibt es die\nüblichen Finanzdienstleistungen\nauch für weniger\nwohlhabende. Die Kreditzinsen\nsind enorm, und nachdem ein\nTransportunternehmer seine\nZinsen nicht pünktlich bezahlen\nkonnte, bekommen Betriebe aus\ndieser Branche grundsätzlich keine\nKredite mehr.\n
 COM_05_15
 Geld- und Werttransporte\nTrefeis. In boomenden Zeiten\nund bei schlechter\nallgemeiner Wirtschaftslage\nkönnen die Transporte nur\nGeleitschutz erhalten, wenn\nder Kunde sich selbst um die\nBewaffnung der Spezialisten\nbemüht.\n
 COM_05_16
-Partykeller. Das Bier wird vom\nTanklager frisch gezapft.\n\n\n\n\n\n
+Partykeller. Das Bier wird vom\nTanklager frisch gezapft.\n\n
 COM_05_17
-Ein Multiplex-Kino, in dem\nauch 3D-Filme gezeigt\nwerden.\n\n\n\n\n
+Ein Multiplex-Kino, in dem\nauch 3D-Filme gezeigt\nwerden.\n\n
 COM_05_18
 Museum für Zeitgenössische\nKunst. Bilder, Skulpturen,\nInstallationen und andere\nKunstwerke verschiedenster\ninternationaler Künstler können\nbetrachtet und bewundert\nwerden. Auch das Gebäude\nselbst gilt durch seine\nnüchterne Monumentalität als\narchitektonisches Kunstwerk\nund hat dem Architekten Lord\nNorbert Förster mehrere\nPreise eingebracht.\n
 COM_05_19
@@ -355,35 +309,33 @@ Parkhaus. Finden Sie keinen\nParkplatz auf der Straße? Dann\nkriegen Sie hier be
 COM_05_23
 Der Sitz der örtlichen\nWohnungsbau- gesellschaft. Sie\nsuchen noch ein hübsches\nDomizil? Sprechen Sie doch\neinfach bei unseren Beratern\nvor.\n\n
 COM_05_24
-Im Hotel "Simulöwe"\nübernachten bevorzugt\nGeschäftsreisende.\n\n\n\n\n
+Im Hotel "Simulöwe"\nübernachten bevorzugt\nGeschäftsreisende.\n\n
 COM_06_01
 Das Restaurant "Zum\nRotweinfuchs" ist ein\nbeliebter Treffpunkt älterer\nMänner. Kaffee und Essen sind\nnicht besonders gut, aber die\nmeisten Gäste besuchen das\nRestaurant auch nur, um bei\neinem Viertele über das\nWetter und die "Gute alte\nZeit" zu plaudern.\n
 COM_06_02
 Ja, es gibt ihn, den Parkplatz\nmit der kostenlosen\nParkmöglichkeit. Doch\nVorsicht, es scheint in der\nUmgebung jede Menge Diebe zu\ngeben.\n\n
 COM_06_03
-Ein Freiluftkonzert der Band\nMHz! Hören Sie einen Moment\nrein, die Musik wird Ihnen\ngefallen.\n\n\n\n
+Ein Freiluftkonzert der Band\nMHz! Hören Sie einen Moment\nrein, die Musik wird Ihnen\ngefallen.\n\n
 COM_06_04
 In Rogers Garage gibt's\nÖlwechsel und Wagenwäsche\nin 15 Minuten oder weniger.\nUnd in einer Stunde können\nüber ein Dutzend Aufträge\nerledigt werden. Das macht\nRoger, den Besitzer,\nglücklich.\n
 COM_06_05
-Otari Klub.\nAufnahmebedingungen: Alter:\n50+ , Freundin: 25- ,\nVermögen:  2.000.000+\n\n\n\n
+Otari Klub.\nAufnahmebedingungen: Alter:\n50+ , Freundin: 25- ,\nVermögen:  2.000.000+\n\n
 COM_06_06
 Taxizentrale. Sie fragen,\nwarum 4 Taxis abrufbereit\nstehen? Die Stadt wächst\nständig. Niemand kennt sich\nnoch aus. Wenn gar ein Kunde\nein Fahrzeug zu einem\nStadtteil beordert, den es gar\nnicht gibt, werden\ntatsächlich 8 suchende Augen\nbenötigt.\n
 COM_06_07
-Das besondere an dem\nmodernen Ökoparklätzen ist,\ndass die Autos seitwärts auf\ndie Stellplätze geschoben\nwerden müssen.\n\n\n
-COM_06_08
-Elektrogeschäft\n\n\n\n\n\n\n
+Das besondere an dem\nmodernen Ökoparklätzen ist,\ndass die Autos seitwärts auf\ndie Stellplätze geschoben\nwerden müssen.\n\n
 COM_06_09
-Das ehemalige Stadtgefängnis.\nHeute werden die Zellen nur\nnoch zur Ausnüchterung\nbenutzt.\n\n\n\n
+Das ehemalige Stadtgefängnis.\nHeute werden die Zellen nur\nnoch zur Ausnüchterung\nbenutzt.\n\n
 COM_06_10
-Nach einem Um- und Ausbau\nist das Gefängnis wieder\nseiner ursprünglichen\nBestimmung übergeben\nworden.\n\n\n
+Nach einem Um- und Ausbau\nist das Gefängnis wieder\nseiner ursprünglichen\nBestimmung übergeben\nworden.\n\n
 COM_06_12
 Über dem Tor prangt das\nSchild "Auto". In der beinahe\nblitzsauberen Werkstatt werden\nalte Autos liebevoll umgebaut\noder je nach Zustand auch\nausgeschlachtet. Original-\nErsatzteile sind bei Liebhabern\nechter Schnauferl heiß\nbegehrt. Meister Lärmbolz ist\nnicht nur Künster in seinem\nFach, er verdient mit dem\nGeschäft auch gutes Geld.\n
 COM_06_13
-Ein großer Friseursalon. Er ist\nzwar immer gut frequentiert,\ndoch die Atmosphäre ist\nNichts im Vergleich zu jener\nin einem kleinen Laden.\n\n\n
+Ein großer Friseursalon. Er ist\nzwar immer gut frequentiert,\ndoch die Atmosphäre ist\nNichts im Vergleich zu jener\nin einem kleinen Laden.\n\n
 COM_06_14
-Westernclub. Pferde bitte\ndraußen anbinden.\n\n\n\n\n\n
+Westernclub. Pferde bitte\ndraußen anbinden.\n\n
 COM_06_16
-Partyschuppen. Der Whisky\nwird im Benzinlager gebrannt\nund in Original-Ölbarrels im\netwas niedrigen Keller\ngelagert.\n\n\n
+Partyschuppen. Der Whisky\nwird im Benzinlager gebrannt\nund in Original-Ölbarrels im\netwas niedrigen Keller\ngelagert.\n\n
 COM_06_17
 Wenn die Stadt wächst,\nwachsen auch die\nFastfood-Tempel. Wir betreten\nein zweigeschossiges Lokal\nder bekannten Burger-Kette\nmit dem großen gelben W.\n\n
 COM_06_18
@@ -395,19 +347,19 @@ Im Redaktionsgebäude des\nlokalen Radiosenders werden\nauch die Staumeldungen\nz
 COM_06_21
 Im pharmazeutischen Labor\ndes weltbekannten\nPharmakonzerns "Schwabe"\nwerden Medikamente\nentwickelt und Gen-Tests\ndurchgeführt.\n\n
 COM_06_22
-Ja, auch wenn es niemand\nglauben mag, hinter einer solch\neintönigen und tristen Fassade\nverbergen sich die Büroräume\neines Farbenherstellers.\n\n\n
+Ja, auch wenn es niemand\nglauben mag, hinter einer solch\neintönigen und tristen Fassade\nverbergen sich die Büroräume\neines Farbenherstellers.\n\n
 COM_06_26
 Ein Plattenbauhaus, in dem\nniemand mehr wohnen wollte\n- die Wohnungen genügten den\nheutigen Ansprüchen nicht\nmehr. Mittlerweile zu Büros\numfunktioniert, haben alle\nimmer noch eine eigene\nKüche, in welcher die\nMitarbeiter ihr Mittagessen\naufwärmen können.\n
 COM_06_27
 Genauso spartanisch wie die\nGebäudehülle wirkt, sind auch\ndie Büros eingerichtet.\nImmerhin gibt es einen Lift im\nGebäude - was aber nicht\nheissen soll, dass man damit\nauch immer fahren kann.\n
 COM_06_30
-Ein Betrieb zur Herstellung\ngefriergetrockneter Gerichte\nfür Raumfahrer.\n\n\n\n\n
+Ein Betrieb zur Herstellung\ngefriergetrockneter Gerichte\nfür Raumfahrer.\n\n
 COM_06_31
 Wer das luxuriöse Büro sucht,\nsollte sich an die Verwaltung\nim Erdgeschoss wenden. Das\nGebäude bietet jeden\nerdenklichen Service wie\nautomatische Glas-Türen für\njedes Büro...\n
 COM_06_32
-Hochhaus, ausgestattet mit\nmodernster Solartechnik\n\n\n\n\n\n
+Hochhaus, ausgestattet mit\nmodernster Solartechnik\n\n
 COM_06_33
-Das Nobel-Hotel der Stadt. Es\nsind keine Wünsche mehr\ndenkbar, die sich nicht für\nsehr viel Geld realisieren\nließen.\n\n\n
+Das Nobel-Hotel der Stadt. Es\nsind keine Wünsche mehr\ndenkbar, die sich nicht für\nsehr viel Geld realisieren\nließen.\n\n
 COM_06_34
 An dutzenden von Computern\nzerbrechen sich die\nIngenieure der Camiona AG den\nKopf über die Entwürfe für\nneue\nSimutrans-Straßenfahrzeuge.\n\n
 COM_06_35
@@ -421,9 +373,9 @@ Die Fassade des\nWohnkomplexes mag eher\neintönig anmuten. Doch die\nRaumaufteil
 COM_06_39
 Die Balkonbrüstungen des\nBürokomplexes aus den\n1960er Jahren sind reine\nAttrappen. Nach einer\nfundierten Idee von Prof.\nMarkhomi entwickelten\nArchitekten Elemente,\nwelche den Beschäftigten\neinen heimeligen Eindruck\nvermitteln sollten. Man hoffte\nauf noch solidere\nArbeitsleistung. Doch die\nErinnerung an das traute Heim sorgt\nden ganzen tristen Büroalltag über\nfür Feierabendstimmung. Die\nBauweise wurde sehr schnell\nwieder aufgegeben.\n
 COM_06_40
-Das schwarze Gebäude wurde\nim städtischen Schulzentrum\nvon den jüngsten Architekten\nder Stadt entworfen.\n\n\n\n
+Das schwarze Gebäude wurde\nim städtischen Schulzentrum\nvon den jüngsten Architekten\nder Stadt entworfen.\n\n
 COM_06_41
-Das dreieckige Gebäude wurde\ngebaut, um in der Stadt\nendlich eine etwas andere\nForm sehen zu können.\n\n\n\n
+Das dreieckige Gebäude wurde\ngebaut, um in der Stadt\nendlich eine etwas andere\nForm sehen zu können.\n\n
 COM_06_42
 Der dreieckige Grundriss war\nals Ideallösung für\nGrundstücke an den Spitzen\nschräger T-Straßenmündungen\ngeplant worden. Seit die\nStadt für private\nStadtbildbegrünung Prämien\nvergibt, seit Werbefirmen für\ndas Aufstellung von\nLitfassäulen gute Pachten\nbezahlen, und seit für die\nprivate Aufstellung von\nParkbänken nichts bezahlt wird,\nfindet man Dreieckshäuser jetzt\nimmer häufiger auch in den langen\nStraßenzügen.\n
 COM_06_43
@@ -431,7 +383,7 @@ Modernes Bürohochhaus. Die\nFunkmasten ermöglichen die\nweltweite Kommunikation.
 COM_06_44
 Das Haus des Geizhalses Pfenn\nDrehoft gibt nur vor, sauber zu\nsein. In Wirklichkeit ist in den\noberen Etagen eine\nTierhandlung untergebracht,\ndie sich auf Schlangen und\ngroße Spinnen spezialisiert hat.\nDort bekommt man auch das\njeweilige (lebende) Futter.\n
 COM_06_45
-Ein sehr farbenfrohes\nHochhaus. Der Entwurf stammt\nvon den Kindern einer\nGrundschule.\n\n\n\n
+Ein sehr farbenfrohes\nHochhaus. Der Entwurf stammt\nvon den Kindern einer\nGrundschule.\n\n
 COM_06_46
 Ein hochmodernes und extrem\nteures Bürohaus mit\nvorzüglichem Luftaustasch.\nDie Technik selbst ist von den\nWüstenvölkern abgeguckt und\nbraucht kaum Energie. Die\nSchornsteine sind\nBestandteile der\nLüftungsschächte.\n
 COM_06_47
@@ -441,13 +393,11 @@ Die Nutzung von Glasfronten\nermöglicht zwar den Bau\nrecht preiswerter und\nden
 COM_06_49
 Nein, keine Sorge, den\nFinanciers waren keineswegs\ndie Mittel knapp geworden.\nDen netten Luxus des\nbegrünten Gehweges\nzwischen den Gebäuden\nwollte man sich schon gönnen.\nDoch in Chefetagen mag man\nes gar nicht, wenn einem vom\nNachbargebäude her bei der\nmeist verantwortungsvollen\nTätigkeit zugeschaut werden\nkann. Angestellte könnten womöglich\nmehr lernen, als es dem eigenen\nSessel zuträglich sein mag.\n
 COM_06_50
-Eine große Wetterstation. Bei\nihr laufen alle Meldungen von\nkleinen Wetterstationen aus\ndem Umland zusammen.\n\n\n\n
-COM_06_51
-Der hochmoderne\nBürokomplex wurde ohne\nTrennwände erstellt. Firmen\nkönnen komplette Etagen\nbelegen oder sich die\nFlächen nach Belieben teilen.\nDem Hausmeister obliegt die\nAufstellung der Raumteiler je\nnach Bedarf.\n
+Eine große Wetterstation. Bei\nihr laufen alle Meldungen von\nkleinen Wetterstationen aus\ndem Umland zusammen.\n\n
 COM_06_52
 Aus der Höhe des Baukrans\nvermag der Sensitive zu lesen,\nwelche Höhe das\nentstehende Gebäude nicht\nüberschreiten wird. Aus dem\ntechnischen Grundaufbau\nwollen wir schließen, dass\nbald ein Geschäftskomplex\nviele neue Arbeitsplätze\nermöglichen wird.\n
 COM_06_53
-Ja, der Baukran. Seine\nAnwesenheit beflügelt die\nPhanthasie meist viel stärker\nals der bereits begonnene Bau.\n\n\n\n
+Ja, der Baukran. Seine\nAnwesenheit beflügelt die\nPhanthasie meist viel stärker\nals der bereits begonnene Bau.\n\n
 COM_06_54
 Das moderne Gebäude kann\nauch in Gegenden errichtet\nwerden, in welchen die vor\nallem winterwichtigen\nRohrsysteme der Fernheizung\nnicht verlegt sind. Die\nSolaranlage basiert auf dem\nneuesten Erkenntnisstand.\n
 COM_06_55
@@ -456,120 +406,86 @@ COM_06_56
 Mit der Nutzung von\nThermoverglasung wagte\nStararchitekt Mentohel ein\nrisikobehaftetes, doch\ninzwischen längst\namortisiertes Konzept. Die\npassende dezente Farbgebung\nund die harmonierende\nHeraushebung der\nMauerbereiche sorgen nach\nwie vor für überraschend\nhohe Attraktivität.\n
 COM_06_57
 Thermoverglasung und die\noptische Eingliederung durch\nverschiedene gelungene\nFarbkonzepte gelten in der\nBranche als Markenzeichen\ndes Stararchitekten\nMentohel. Der auch vom\nFlachdach aus zugängliche Lift\ngestattet in zum Glück sehr\nseltenen Ernstfällen rasche\nHilfeleistung durch\nRettungshubschrauber.\n
-COM_06_58
-Die allweil gestressten\nGeschäftsleitungsmitglieder\nhatten es satt, immer wieder\nverspätet an Sitzungen zu\nerscheinen, weil sie auf der\nFahrt zum Flughafen im Stau\nsteckengebleiben sind. So kam\nes, dass auf dem grossen Dach\nein Hubschrauberlandeplatz\neingerichtet worden ist.\n
 COM_06_59
 Der moderne Stil des\nWohnkomplexes kann leider\nnicht über den finanziellen\nTiefschlag hinwegtrösten,\nwelcher durch die\nfehlgeplante zentrale\nGebläse-Entlüftung entstand.\nDie Bewohner wollten die\nFensterbelüftung nicht\naufgeben. Die Gebläseanlage\nwurde abgeschaltet, während\nsie derzeit noch nicht einmal\nvollständig finanziert ist.\n
 COM_06_60
-Inkassobüro Jäger&Partner\njagt auch ihrem Geld nach -\nnatürlich nur gegen Provision!\n\n\n\n\n
+Inkassobüro Jäger&Partner\njagt auch ihrem Geld nach -\nnatürlich nur gegen Provision!\n\n
 COM_07_01
-Eine Autowerkstatt, in der alle\nAutomarken repariert werden.\n\n\n\n\n\n
+Eine Autowerkstatt, in der alle\nAutomarken repariert werden.\n\n
 COM_07_02
-Wiegold-Imbiss. Werbung ist\nalles!\n\n\n\n\n\n
+Wiegold-Imbiss. Werbung ist\nalles!\n\n
 COM_07_03
 Schnellrestaurant einer\ngänzlich unbekannten Kette,\ndie mit einem leuchtend\ngelben "M" wirbt und den\nSlogan in "Ich liebe es nicht"\nändern sollte.\n\n
 COM_07_04
 Autohaus der Spitzenklasse.\nDer rostige Kadett vorne links\ngehört übrigens dem\nEingetümer, der Wagen daneben\nkommt nächste Woche auf\nden Schr... ääh ... wollen Sie\nein Auto? Supersonderpreis!!!\nNur 350.000km, kein TÜV,\nkeine AU, und nur 5.000 ?. Nur\nheute! Ok, dann halt nicht;\nschade eigentlich, der Wagen\nfährt noch oder fuhr\nzumindest noch vor zwei Jahren ...\n
 COM_07_05
-In Giovannis Gelateria gibt's\nechtes italienisches Eis -\nmmmhhh...\n\n\n\n\n
-COM_07_06
-Wohnhaus\n\n\n\n\n\n\n
-COM_07_08
-Geschäftshaus\n\n\n\n\n\n\n
+In Giovannis Gelateria gibt's\nechtes italienisches Eis -\nmmmhhh...\n\n
 COM_07_09
 Das Tierheim ist ständig\nüberfüllt, weil mehr Tiere\nabgegeben als abgeholt\nwerden. Zum Glück gibt es\nnoch einige Bauernhöfe in der\nUmgebung.\n\n
-COM_07_12
-Haus\n\n\n\n\n\n\n
 COM_07_13
 Spedition Brumm&Brummi.\nGroße Aktivitäten zeigt der\nBetrieb normalerweise nicht.\nNur letzte Woche waren ein\npaar Leute da und haben alles\nkaputt gemacht. Die Leute\nkamen vom Finanzamt ...\n
 COM_07_14
-Westernclub. Pferde bitte\ndraußen anbinden.\n\n\n\n\n\n
-COM_07_16
-Wohnhaus\n\n\n\n\n\n\n
+Westernclub. Pferde bitte\ndraußen anbinden.\n\n
 COM_07_17
 Eins der Schnellrestaurants von\nBurgeroo. Hier ist letzte\nWoche mal jemandem\nschlecht geworden.\nVorletzte übrigens auch. Und\nvorvorletzte. Und ...\n\n
 COM_07_18
-Parkhaus\n\n\n\n\n\n\n
-COM_07_19
-Wohnhaus\n\n\n\n\n\n\n
+Park
 COM_07_20
 Rund 40 Journalisten der\n"Simutrans Kompakt" tippen\nsich in dem Büroblock die\nFinger wund, damit die\nörtliche Bevölkerung über\nalles wichtige und weniger\nwichtige der Region\ninformiert ist.\n
-COM_07_21
-Geschäftshäuser\n\n\n\n\n\n\n
-COM_07_22
-Wohnblock\n\n\n\n\n\n\n
 COM_08_01
 Startplatz für Heißluftballone.\nZwar stellt der Ballonflug\nnicht gerade eine effiziente\nMethode der\nPersonenbeförderung dar, aber\ndafür ist das Reiseerlebnis um\nso faszinierender.\n
 COM_08_14
-Parkhaus\n\n\n\n\n\n\n
-COM_08_18
-Wohnhaus\n\n\n\n\n\n\n
+Park
 COM_08_32
 Die neckische Idee, die\nZugänge zu den Büros über\nAussenbalkone zu führen,\nschlug bei den ersten\nBürobenutzern eher auf wenig\nGegenliebe - Höhenangst und\nstürmisches Wetter sind einige\nder Gründe, weshalb Betriebe\nmit viel Publikumsverkehr bald\nwieder ausgezogen sind. Heute\nprägen Domizilgesellschaften,\nAnwalt- und Treuhandbüros\ndie Namensschilder am Gebäude,\nund die sind den Zutrittsbarrieren\nweniger abgeneigt. Aber hartnäckige\nKonsumentenschutz- Journalisten\nschreckt das nicht.\n
 COM_08_33
 Dachschwimmbad und\nTennishalle sind nur zwei\nAnnehmlichkeiten des\nSporthotels Olycamps. Wenn\nIhnen danach ist, können Sie\nvom Deckengewölbe der\nEingangshalle sogar\nBungee-Springen.\n
 COM_08_37
-Verschiedenfarbige\nZwillingstürme, die Heimat der\nstaatlichen Statistischen\nÄmter.\n\n\n\n
+Verschiedenfarbige\nZwillingstürme, die Heimat der\nstaatlichen Statistischen\nÄmter.\n\n
 COM_08_38
 Gebäude mit mehr als 5\nStockwerken sollen über\nmindestens einen Fahrstuhl\nverfügen. Architekt Tulpe\nführte den Auftrag mehr als\ngewissenhaft aus, er plante 4\nFahrstühle. Die Hausverwaltung\nrätselt nun, aus welchem\nGrund die Büros in den oberen\nEtagen so schwer zu\nvermieten sind.\n
 COM_08_39
-Obwohl es nicht so aussieht,\nist das Haus mit modernster\nHeiztechnik auf dem Dach\nausgestattet. Daher sind die\nHeizkosten noch erträglich.\n\n\n
+Obwohl es nicht so aussieht,\nist das Haus mit modernster\nHeiztechnik auf dem Dach\nausgestattet. Daher sind die\nHeizkosten noch erträglich.\n\n
 COM_08_40
 Das Unron-Gebäude ist der\nHandelsplatz des bekannten\nÖlhändlers. Die meisten wissen\naber nicht, dass in dem\nGebäude auch die\nUmweltschutzorganisation\n"Rettet die Meere"\ndomiziliert ist. Nach\nTankerunfällen kommt es\nimmer wieder zum Streit\nzwischen den Angestellten\nbeider Betriebe.\n
 COM_08_60
 Der recht triste Komplex\nbietet reichlich Raum sowohl\nfür Wohnzwecke als auch für\nden Gewerbebedarf. In\nIndustriestädten schießen\nderartige Zweckbauten\nderzeit quasi wie die Pilze aus\ndem Boden.\n
 COM_09_18
-Römischer Tempel\n\n\n\n\n\n\n
+Römischer Tempel\n\n
 COM_09_22
-Tabakwarenladen\n\n\n\n\n\n\n
+Tabakwarenladen\n"zum hustenen Zigarillos"\n
 COM_10_01
 Zoohandlung "PET" versucht,\nFischzuchten Konkurrenz zu\nmachen. Aber statt der Fische\ngedeihen meist nur die Algen.\nTrotzdem gibt es\nVerdienstmöglichkeiten: In\nFischzuchten sind keine\nKatzen zu haben.\n
 COM_10_04
-Billigwarenladen "Der\nMoorhamster" verkauft alles,\nwas man so braucht, für 1\nCredit. Die Qualität ist dem\nentsprechend.\n\n\n
-COM_10_05
-Sie haben es eilig und wollen\nnicht selber kochen? Dann\nkommen Sie zu Wiegold mit\ndem goldenen W, wo es immer\ndie schnellsten Hamburger und\nPommes frites gibt.\n\n
-COM_10_07
-Von außen betrachtet scheint\ndas Gebäude nicht besonders\ngross zu sein; aber im\nUntergrund hat ein\nGeheimdienst Quartier\nbezogen. Die Leute, die hier\narbeiten, werden niemandem\nje ein Sterbenswörtchen von\nihrer Tätigkeit preisgeben.\n
+Billigwarenladen "Der\nMoorhamster" verkauft alles,\nwas man so braucht, für 1\nCredit. Die Qualität ist dem\nentsprechend.\n\n
 COM_10_11
 Eine moderne Pyramide. An\ndem Beispiel sieht man, wie\ndie Geschichte Einfluss auf\nmoderne Gebäude hat. Im\nInnern der Pyramide befindet\nsich übrigens eine große\nBibliothek.\n
 COM_10_12
-Von der Sendestation\n"PULSAR" aus wird über\nSatellit die ganze Welt mit\ndem Kanal "Verkehrswege der\nRegion" versorgt.\n\n\n
-COM_10_14
-Haus\n\n\n\n\n\n\n
+Von der Sendestation\n"PULSAR" aus wird über\nSatellit die ganze Welt mit\ndem Kanal "Verkehrswege der\nRegion" versorgt.\n\n
 COM_10_15
 Das moderne Bürogebäude im\nStil eines Wohnhauses ist\nrettungslos überfüllt mit \nProgrammierern, die hart an\ndem perfekten\nBetriebssystem für Computer\narbeiten.\n
 COM_10_16
-Ein Autohaus mitten in der\nStadt. Der Händler verkauft\nseine Neuwagen zur Zeit\nbesonders billig. Wollen Sie\nauch einen?\n\n\n
+Ein Autohaus mitten in der\nStadt. Der Händler verkauft\nseine Neuwagen zur Zeit\nbesonders billig. Wollen Sie\nauch einen?\n\n
 COM_10_19
-Das Ärztehaus ist ein Beispiel\ndafür, wie der Stadtrat die\nStadt mit Kunst am Bau\nverschönern möchte.\n\n\n\n
+Das Ärztehaus ist ein Beispiel\ndafür, wie der Stadtrat die\nStadt mit Kunst am Bau\nverschönern möchte.\n\n
 COM_10_21
 Musikschule "Sägergeige".\nJetzt übt gerade der Jan am\nKlavier, und der macht das\nschon gut. Er kann schon die\nTöne C und D spielen und ist\nerst 27!!!\n\n
-COM_10_23
-Wir befinden uns vor dem\nKonzernsitz der Büffel AG. Die\nFirma hat ein Monopol für\nSocken. Alle Socken, die Sie\ntragen (ausgenommen solche\naus China), wurden von einer\nihrer Tochtergesellschaften\nhergestellt. Wundern Sie sich\nalso nicht darüber, dass\nSocken so teuer sind.\n
-COM_10_24
-Die Büros der Anwaltskanzlei\nWasserbüffel & Partner. Jüngst\nhattte man selbst eine Klage\nlaufen. Sie richtete sich\ngegen die Büffel AG. Deren\nFirmenlogo sei zu ändern, da\njenes ihrem eigenen zu sehr\nähnle. Auszug aus der\nKlage-Begründung: "Beratung in\nRechtsangelegenheiten ist ein\nähnliches Produkt wie\nSocken. Rechtliche\nBeratungen benötigt jeder Mensch\njeden Tag, genau wie man jeden Tag\nSocken trägt." Das Gericht hatte\ndie Klage abgewiesen. Wollen wir\nhoffen, solche Zeiten mögen nie\nüber uns kommen.\n
 COM_10_25
 Der schmucklose Bau ist eines\nder ersten Bürogebäude aus\nStahl und Glas. Damals dachte\nnoch niemand an eine Reinigung\nder äußeren Fensterflächen,\nweshalb sämtliche\nEinrichtungen dafür fehlen und\ndas Gebäude heute ziemlich\ntrist daherkommt.\n
 COM_11_01
-Die kleine Fischzucht\n"Ramirezii" bedient alle\nAquarien- und\nZierfischliebhaber von\nSimutrans.\n\n\n
-COM_11_14
-Haus\n\n\n\n\n\n\n
+Die kleine Fischzucht\n"Ramirezii" bedient alle\nAquarien- und\nZierfischliebhaber von\nSimutrans.\n\n
 COM_11_15
-Eisdiele\n\n\n\n\n\n\n
+Eisdiele\nmit internationalen Spezialitäten wie Sushi-Eis oder gefrorenen Maiskolben\n
 COM_11_29
 Sitz der Jung-Wung Web Hosting\nCompany - falls sie günstigen\nSpeicherplatz für ihre\nWebseite suchen, tätigen Sie\nhier ihre Anfrage. Ursprünglich\nein Geschäft für billige\nKleider, erweiterte man das\nSortiment um billige\nInternet-Angebote.\nHoffentlich ist der Service\nnicht so miserabel, wie es\nderen Kleider sind.\n
-COM_11_31
-Das weltbekannte\nLabyrinth-Gebäude mit seinen\nverwinkelten Gängen, endlosen\nTreppen und Liften mit\nAusgängen auf allen Seiten. Die\nLifttüren öffnen sich zufällig\nin irgendeinem Stockwerk und\nauf irgendeiner Seite.\n
-COM_11_32
-Haben Sie schon einmal daran\ngedacht, größere\nSimutrans-Netzwerke\naufzubauen? Falls ja, ist\n"Kyber&Soft" der richtige\nOrt, sich einen neuen PC mit\ngenug Arbeitsspeicher\nzuzulegen, auf dem ein Spiel\nmit einer 4096x4096-Karte,\n350 Städten und 200\nMilliarden Passagieren pro Jahr\nlaufen kann. Nur...bezahlen\nsollten sie die Kiste dann halt auch\nkönnen.\n
 COM_11_33
-Die Dachterasse des\nHochhauses hat so riesige\nAusmaße, dass Tennis-Spielen\nmöglich ist.\n\n\n\n
+Die Dachterasse des\nHochhauses hat so riesige\nAusmaße, dass Tennis-Spielen\nmöglich ist.\n\n
 COM_11_41
 Wegen Platzmangel musste das\nSpital in die Höhe gebaut\nwerden - dementsprechend\nübergroß erscheint der\nLandeplatz für den\nRettungshelikopter.\n\n
 COM_11_42
-Baustelle. Üben wir Geduld.\nWenn Baulöwe "Hoch&Wackel"\nein Projekt in Angriff nimmt,\ngelingt das auch.\n\n\n\n
+Baustelle. Üben wir Geduld.\nWenn Baulöwe "Hoch&Wackel"\nein Projekt in Angriff nimmt,\ngelingt das auch.\n\n
 COM_11_45
-Hochhaus mit geschwungener\nGlasfassade\n\n\n\n\n\n
+Hochhaus mit geschwungener\nGlasfassade\n\n
 COM_11_46
 Das Grand-Hotel San Gottardo\nTerme ist der richtige Platz,\nsich zu erholen und zu\nentspannen. Der Ort ist\nautofrei, Zufahrt zum Hotel ist\neine kleine Zahnradbahn.\nLeider wurde der Prunkbau aus\ndem 19. Jahrhundert\nabgerissen. Kenner sind der\nAnsicht, der hypermoderne\nKomplex sei ein daneben\ngeratener Nachfolger der\neinstigen Augenweide.\n
 COM_11_48
@@ -579,27 +495,23 @@ Oft mit dem\nnaturwissenschaftlichen\nMuseum verwechselt, ist das\nGebäude der S
 COM_11_50
 Zentrale Interplanetare\nWissensbibliothek und\nSushi-Bar. Die Existenz oder\nKenntnis von Aliens und\ndergleichen wird bestritten;\nes ist eigentlich immer noch\nnur eine Sushi-Bar.\n
 COM_11_53
-Der streng technisch wirkende\nBüroturm beherbergt einige\nAnwaltskanzleien sowie\nmedizinische Einrichtungen.\n\n\n\n
+Der streng technisch wirkende\nBüroturm beherbergt einige\nAnwaltskanzleien sowie\nmedizinische Einrichtungen.\n\n
 COM_11_54
 Nein, es sind keine\nabgedunkelten\nFensterscheiben, es sind\nPlatten aus\nKohlefaser-Verbundwerkstoffen.\nDurch blau gefärbte\nKunststoffstreifen kann Licht\nin das Gebäude fallen. Die\nBaukosten waren enorm, aber\ndie Belastbarkeit der Wände\nsorgt für Überlegenheit in\nerdbebengefährdeten\nGebieten.\n
 COM_11_55
 Der einmalige Gebäudeentwurf\nist ein Markenzeichen der\nKleinkariert GmbH, einem kaum\nbekannten Hersteller von\nMillimeterpapier. Weil versäumt\nwurde, die Marke schützen zu\nlassen, mussten später auf\nKlage eines Konkurrenten\nschwarze Fenster eingebaut\nwerden.\n
 COM_11_57
-Großbaustelle.\n\n\n\n\n\n\n
-COM_11_58
-Im Stammhaus der Feuerzeug\nAG konnte die Arbeit\ninzwischen wieder\naufgenommen werden. Ein\nKampfjäger hatte während\neiner Nachtübung das\nmonumentale Wahrzeichen des\nKonzerns vom Dach gerissen.\nDie Gebäudeschäden sind\nwieder behoben. Das neue\nWahrzeichen wird demnächst\naus Hong Kong eingeflogen.\n
+Großbaustelle.\n\n
 COM_11_59
 Der Glasturm ist in Wahrheit ein\ngigantisches Treibhaus mit\nBewässerungsanlage, in dem\nein breites Sortiment an\nKräutern und Gemüsesorten\ngezüchtet wird.\nSeltsamerweise heißen alle\nKunden Hans, Sepp oder Paul\nund leiden an einer seltsamen\nAugenkrankheit, die sie stark\nschielen lässt.\n
 COM_12_01
-Verein der Umwelthasser. Sie\nwerden im Umkreis von 100m\ngarantiert kein Grün entdecken\nkönnen.\n\n\n\n
+Verein der Umwelthasser. Sie\nwerden im Umkreis von 100m\ngarantiert kein Grün entdecken\nkönnen.\n\n
 Container1TrainStop
 Containerbahnhof
 Container2TrainStop
 Containerbahnhof (Neu)
 Control_StationBlg
 Stellwerk
-CoveredTrainStop
-Teilgeschlossener Bahnhof (Passagiere)
 Crate_Goods_Dock
 Güterhafen
 CunnersdorfStopBlg
@@ -609,31 +521,31 @@ Das Atomium. Es wurde für\nirgendeine Ausstellung gebaut,\naber leider kann sich
 DenkFlor
 Denkmal für Flor\n\nFlor 'WF Ultd.' Wauters hat als\ngroßartiger Ingenieur viele\nStraßen- und\nSchienenfahrzeuge\nkonstruiert. Ebenfalls bekannt\nwurde er durch die\nKonstruktion diverser gut\nfunktionierender Fabriken.\n
 DenkGeorg
-Denkmal\n\nGeorg v/o MHz verdankt Simutrans\nviele bis ins Detail\nausgearbeitete Gebäude,\nFahrzeuge und andere Objekte.\n\n\n
+Denkmal\n\nGeorg v/o MHz verdankt Simutrans\nviele bis ins Detail\nausgearbeitete Gebäude,\nFahrzeuge und andere Objekte.\n\n
 DenkHajo
 Denkmal\n\nWidmung und Dank gelten Hajo, dem\nSchöpfer von Simutrans.\nMögen ihm auch weiterhin\nmitreissende Ideen sowie die\nUnsterblichkeit seines Werkes\nbeschieden sein.\n
 DenkOwen
-Denkmal\n\nDie Widmung gilt Owen Rudge,\ndem großartigen\nFinanzexperten und\nSound-Techniker.\n\n\n
+Denkmal\n\nDie Widmung gilt Owen Rudge,\ndem großartigen\nFinanzexperten und\nSound-Techniker.\n\n
 DenkPatrick
-Denkmal\n\nPatrick Nesbitt leistete mit vielen\nGebäuden und Fahrzeugen\neinen unschätzbaren Beitrag zu\nSimutrans.\n\n\n
+Denkmal\n\nPatrick Nesbitt leistete mit vielen\nGebäuden und Fahrzeugen\neinen unschätzbaren Beitrag zu\nSimutrans.\n\n
 DenkRaven
-Denkmal\n\nGewidmet Raven, dem "Raben",\ndessen viele Fahrzeuge\nSimutrans beflügeln.\n\n\n\n
+Denkmal\n\nGewidmet Raven, dem "Raben",\ndessen viele Fahrzeuge\nSimutrans beflügeln.\n\n
 DenkSeth
 Denkmal\n\nSeth C. Triggs schuf viele\ninteressante Stadtgebäude. Er\nist bekannt für seine diversen\nUntersuchungen zur\nVerbesserung des Verkehrs-\nsystems.\n
 DenkTomas
 Denkmal\n\nTomas Kubes arbeitete immer\nwieder unermüdlich daran,\nSimutrans in vielen Bereichen\ndurch Rat und Tat\nvoranzubringen.\n\n
 DenkTrikky
-Denkmal\n\n'Trikky' Rick McGreal erbaute als\nunermüdlicher Architekt viele\nneue Gebäude.\n\n\n\n
+Denkmal\n\n'Trikky' Rick McGreal erbaute als\nunermüdlicher Architekt viele\nneue Gebäude.\n\n
 DenkVM
-Denkmal\n\nManfred 'VT Vienna' Tomaschitz\nkonstruierte als großartiger\nIngenieur viele\nSchienenfahrzeuge.\n\n\n
+Denkmal\n\nManfred 'VT Vienna' Tomaschitz\nkonstruierte als großartiger\nIngenieur viele\nSchienenfahrzeuge.\n\n
 DenkVolker
 Denkmal\n\nDas Kleinod wurde von Volker\nMeyer erstellt, der Simutrans\nin vielen, vielen Bereichen\nerweitert und vorangebracht\nhat.\n\n
 ELEMENTARY_SCHOOL_1
-Grundschule\n\n\n\n\n\n\n
+Grundschule\n\n
 ELEMENTARY_SCHOOL_2
-Hauptschule\n\n\n\n\n\n\n
+Hauptschule\n\n
 Firestation
-Feuerwehrstation\n\n\n\n\n\n\n
+Feuerwehrstation\n\n
 Fluid_StationBlg
 Öltank
 FORT_FUN
@@ -641,17 +553,17 @@ Westernkulisse\n\nFort Funter ist eine Filmstadt,\nderen Besichtigung sich\nwirk
 FreightTrainStop
 Güterbahnhof
 FUTURISTIC_TOWER_0
-Futuristischer Turm\n\n\n\n\n\n\n
+Futuristischer Turm\n\n
 Gas_StationBlg
 Gasbehälter
 Goods_StationBlg
 Lagerschuppen
 GRASS_STADIUM
-Park Stadion\n\nAuf dem Rasenplatz treffen\nsich die hiesigen Fußballclubs\nzu ihren Heimspielen.\n\n\n\n
+Park Stadion\n\nAuf dem Rasenplatz treffen\nsich die hiesigen Fußballclubs\nzu ihren Heimspielen.\n\n
 GREEN_HOUSE
-Gewächshaus\n\nDa es leider keinen\nBotanischen Garten in der\nNähe gibt, lohnt sich der\nBesuch des kleinen\nGewächshauses. Zur Zeit ist\nKamelienblütezeit. Der\nbetörende Duft der Blüten läd\nein zu einem ganz besonderen\nErlebnis.\n
+GewächsDa es leider keinen\nBotanischen Garten in der\nNähe gibt, lohnt sich der\nBesuch des kleinen\nGewächshauses. Zur Zeit ist\nKamelienblütezeit. Der\nbetörende Duft der Blüten läd\nein zu einem ganz besonderen\nErlebnis.\n
 HIGH_SCHOOL_1
-Gymnasium\n\n\n\n\n\n\n
+Gymnasium\n\n
 HOUSE_RUINS_0
 Ruine\n\nDas einst kunstvoll errichtete\nGemäuer stammt noch aus\njener Zeit, als Landsknechte\nund Rittersleute durchaus\nnoch emsig bemüht waren,\nsich an Kriegstagen mit\nSchwert und Lanze den\nLebensweg gegenseitig zu\nbeenden. Über Details wird Sie\ndie bezaubernde\nFremdenführerin informieren.\n
 HQ1
@@ -663,17 +575,15 @@ Etwas isoliert steht das\nNotschlachtungshaus der\nStadt. Die Szenen, die sich\n
 IND_00_02
 In dem kleinen, unscheinbaren\nHolzhaus betreibt Wohud Lignar\neine der wenigen noch\nerhaltenen Dampfsägemühlen.\nSein Service zum niedrigen\nPreis wird von Liebhabern\noffener Kamine sehr\ngeschätzt. Landwirt\nDrungweiser stellt für den\nTransport gern seinen\nKleinbulldog nebst Anhänger\nzur Verfügung.\n
 IND_00_03
-Kukuruzfeld\n\nWie hahn zagt: Kukuruku!\n\n\n\n\n\n
-IND_00_04
-Die riesige Zisterne fasst 500\nKubikmeter Wasser. Das kleine\nHäuschen daneben beinhaltet\ninteressante\nKontrollmöglichkeiten.\n\n\n
+Kukuruzfeld\n\nWie Hahn zagt: Kukuruku!\n\n
 IND_00_05
 Bis in die 1960er Jahre hinein\nwaren vor allem in Siedlungen\ndie kleinen Hausbäckereien\nsehr geschätzt. Man kannte\nnoch den guten, alten\nKohleherd und verfügte\nselten über eine\nBackmöglichkeit. Als dann die\naufkommenden Supermärkte\nihre anfangs noch recht\npreiswerten Fertigkuchen\nanboten und sich immer mehr\nBäckereiketten bis in die Dörfer\nhinein etablierten, geriet das nette\nBrauchtum recht schnell und fast\nvollständig in Vergessenheit.\n
 IND_00_06
-Sie werden überrascht sein,\nwas hier produziert wird -\nBlumentöpfe! Ja, wirklich!\n\n\n\n\n
+Sie werden überrascht sein,\nwas hier produziert wird -\nBlumentöpfe! Ja, wirklich!\n\n
 IND_00_10
-Der Besitzer des Gründstücks\nentschied sich vor einiger\nZeit, 2 Lagerhäuser zu bauen.\nBeide sind fertig gestellt und\nwarten nun auf Waren.\n\n\n
+Der Besitzer des Gründstücks\nentschied sich vor einiger\nZeit, 2 Lagerhäuser zu bauen.\nBeide sind fertig gestellt und\nwarten nun auf Waren.\n\n
 IND_00_13
-Jeremias' KFZ-Werkstatt ist\nder beliebten Werkstatt-Kette\n"Dufahr&Irep" angeschlossen.\n\n\n\n\n
+Jeremias' KFZ-Werkstatt ist\nder beliebten Werkstatt-Kette\n"Dufahr&Irep" angeschlossen.\n\n
 IND_00_14
 Die kleine Brauerei\n"Auerhahngold" konnte ihre\nSelbständigkeit gegenüber den\nalles vereinnahmenden\nGiganten bewahren. Lokale\nPubs bevorzugen das regionale\nBier wegen des individuellen\nGeschmacks\ntraditionsbewusster Braukunst.\nKenner kehren sehr gern in\nPubs ein, deren Wirte den\nhohen Wert traditioneller\nBraukunst noch zu schätzen wissen.\n
 IND_00_15
@@ -681,111 +591,71 @@ Die Snart&Umis AG investiert\nkompromisslos in die Zukunft\nund entwickelt neue\
 IND_00_16
 Da sich der Besitzer des\nUnternehmens weigert, mit\nunserem Agenten zu sprechen,\nkönnen wir Ihnen keine\nweiteren Informationen zu\ndem Gebäude geben. (In\nWirklichkeit ist dies die Fabrik,\nin der Jeremias'\nKFZ-Werkstatt Ersatzteile\nproduzieren lässt.)\n
 IND_00_17
-Obwohl die Fabrik verlassen\nwirkt, produziert sie doch\nprofitabel. Allerdings weiß\nniemand, wozu der riesige\nTank auf dem Dach gut ist.\n\n\n
+Obwohl die Fabrik verlassen\nwirkt, produziert sie doch\nprofitabel. Allerdings weiß\nniemand, wozu der riesige\nTank auf dem Dach gut ist.\n\n
 IND_00_18
 Likörhersteller\n"Rökil&Metryl" produziert in\nder ehemaligen Glasfabrik auch\ndie Flaschen für die Abfüllung.\nDr. Pref wollte uns die\nRezeptur des besonderen\nGetränkes aus verständlichen\nGründen nicht verraten.\nImmerhin ist bekannt, dass\nsonnengereifter\nPfefferminz-Presssaft ein\nvorzügliches Aroma\nentwickelt. - Nein, über den Zweck\ndes großen Dachtanks liegen uns\nkeine Informationen vor.\n
-IND_00_19
-In der traditionell\nausgestatteten Fabrik der\nGranol AG werden\nverschiedene Kunststoffwaren\nproduziert. Unter den\nbeliebtesten Produkten\nbefindet sich das typische\ngrau-marmorierte Linoleum.\nNatürlich besteht eine große\nNachfrage, darum expandiert\ndas Unternehmen\nkontinuierlich.\n
 IND_00_20
-Die ehemalige Gießerei. Der\nStaub steckt fest in den\nRitzen des Ziegelgemäuers.\nEine Gießerei ist nicht gerade\nein sehr gesunder Arbeitsort.\n\n\n
+Die ehemalige Gießerei. Der\nStaub steckt fest in den\nRitzen des Ziegelgemäuers.\nEine Gießerei ist nicht gerade\nein sehr gesunder Arbeitsort.\n\n
 IND_00_21
-In den Silos wird das\nGetreide für die Stadt\ngelagert. Was in dem Gebäude\nerforscht wird, weiß niemand\nso genau.\n\n\n
+In den Silos wird das\nGetreide für die Stadt\ngelagert. Was in dem Gebäude\nerforscht wird, weiß niemand\nso genau.\n\n
 IND_00_22
 Zur Fabrik der Raib KG werden\nhäufig vom städtischen\nTierheim abgelehnte Haustiere\ngebracht, welche dann zu\nTierversuchen genutzt\nwerden. Auf die Frage, wie\nder Besitzer der Fabrik\nmoralisch mit der Situation\nklar komme, antwortete er:\n"Woher sonst sollen wir\nwissen, ob Ihre Haustiere\nunser Tierfutter mögen, wenn\nwir es nicht zuvor testen?"\n
 IND_00_24
-Die Firma Schütte & Co. ist\nbekannt für ihren\nhochwertigen\nEisenbahnschotter.\n\n\n\n
+Die Firma Schütte & Co. ist\nbekannt für ihren\nhochwertigen\nEisenbahnschotter.\n\n
 IND_00_25
 Die Firma "Selten so gelacht"\nstellt Scherzartikel aus\nKunststoffen her. Sie\nversucht sich auch in\nInnovationen wie WC-Schüsseln\nmit Knalleffekt und\nSekundenkleberzahnpasta -\nalso, sie versucht es.\n
 IND_00_28
-In der Bark AG werden die\nneuen Simutrans-Frachter\nentwickelt.\n\n\n\n\n
+In der Bark AG werden die\nneuen Simutrans-Frachter\nentwickelt.\n\n
 IND_00_29
 Die Glagur KG produziert\neingelegtes Gemüse. Das sagt\nalles, Sie werden\nwahrscheinlich keine\nweiteren Informationen\nbenötigen.\n\n
-IND_00_30
-In der Konservenfabrik der\nKohlfein KG wurde jüngst eine\nrecht umfangreiche\nModernisierung durchgeführt.\nInvestieren Sie Vertrauen in\ndie neue Preisgestaltung.\nVitaminschonung und EU sollten\nder ewig nur sinnlos\nüberfüllten\nKonsumenten-Geldbörse\ndeutlich vorgezogen werden.\n
 IND_01_01
-Eine Büchsenwerkstatt der\nArmee. Was Sie aus der Ferne\nfür einen Feldweg halten\nmögen, sind die Spuren einer\nPanzerübung.\n\n\n
+Eine Büchsenwerkstatt der\nArmee. Was Sie aus der Ferne\nfür einen Feldweg halten\nmögen, sind die Spuren einer\nPanzerübung.\n\n
 IND_01_03
-Wiese mit Rindern\n\n\n\n\n\n\n
+Wiese mit Rindern\n\n
 IND_01_04
-Park\n\n\n\n\n\n\n
+Park\n\n
 IND_01_05
-Sie werden überrascht\ndarüber sein, was hier\nproduziert wird - Keimlinge!\nJa, wirklich!\n\n\n\n
+Sie werden überrascht\ndarüber sein, was hier\nproduziert wird - Keimlinge!\nJa, wirklich!\n\n
 IND_01_06
-Was aussieht wie eine\nHolzsauna, ist das Atelier einer\nlokalen Künstlergröße.\n\n\n\n\n
-IND_01_11
-Wohnhaus\n\n\n\n\n\n\n
+Was aussieht wie eine\nHolzsauna, ist das Atelier einer\nlokalen Künstlergröße.\n\n
 IND_01_13
-Das Gebäude steht im Moment\nzum Verkauf. Lasst uns\nschauen, wie lange es dauert,\nbis es jemand kauft!\n\n\n\n
+Das Gebäude steht im Moment\nzum Verkauf. Lasst uns\nschauen, wie lange es dauert,\nbis es jemand kauft!\n\n
 IND_01_15
-Werkhalle\n\n\n\n\n\n\n
+Werkhalle\n\n
 IND_01_16
-Windmühle/nHier wird Mehl\ngemahlen.\n\n\n\n\n\n
-IND_01_19
-Die Petry AG produziert\nverschiedene\nKunststoffwaren. Als eine\nTochter der erfolgreichen\nGranol AG konzentriert sich\ndie Firma auf die Produktion\nsehr unterschiedlicher\nProduktarten wie\nPET-Flaschen und\nPlastiktüten.\n
+Windmühle/nHier wird Mehl\ngemahlen.\n\n
 IND_01_20
 Natürlich ist die alte Gießerei\nnoch bzw. wieder in Betrieb.\nKommen Sie doch am Freitag\nAbend vorbei, sofern sie zu\nden wahren Metal-Freaks\ngehören. Der\nWerkshallen-Sound kann\ngeradezu süchtig machen -\nwas an solchen Partys\nteilweise feilgeboten wird,\nleider auch...\n
-IND_01_29
-Altes Haus\n\n\n\n\n\n\n
 IND_01_30
-Seifenfabrik\n\n\n\n\n\n\n
+Die alte Seifenfabrik hat trotz\nihres Alters bis heute eine\nblitzsaubere Fassade. Woran das\nwohl liegen mag?\n
 IND_01_35
 Eine historische\nKohlenhandlung. Über einen\nhandbetriebenen Lift wurde\ndie Kohle nach oben gezogen\nund dann in Pferdefuhrwerke\nfallen gelassen. Mittlerweile\nist der Lift durch ein\nautomatisches Förderband,\ndas Pferdefuhrwerk durch\nLastwagen und die Kohle\ndurch Kies ersetzt worden.\n
 IND_01_36
 Die Fabrik der Rochkam KG ist\neine der größten\nUmweltverschmutzerinnen,\ndenn sie wird mit billiger\nKohle befeuert. Die Leute in\nder Umgebung hassen die\nFabrik, sie ist ein Synonym für\nsauren Regen.\n
 IND_01_37
-In den hohen Hallen der\nMelindi AG, einer\nfleischverarbeitenden Fabrik,\nreifen Salami und geräuchter\nSchinken.\n\n\n
-IND_01_38
-Das wunderschöne Gebäude\ndatiert aus der Frühzeit der\nIndustrialisierung. Da es ein\nsehr solides Gebäude ist,\nwird es vermutlich noch\nmindestens weitere 70 Jahre\nhier stehen.\n
-IND_01_39
-Noch heute werden im alten\nZiegelbau der Büchler AG\nMaschinenteile gefräst,\ngebohrt, gefeilt und poliert.\n\n\n\n
-IND_01_40
-Das Gebäude ist mit\nziemlicher Sicherheit immer\nwieder das Ziel von\nPolizeikontrollen. Es hält sich\nhartnäckig das Gerücht, dass\nsich in den Kellerräumen eine\nSchwarzbrennerei für Kirsch\nund Schnaps befindet. Wundern\nwir uns darüber, wenn die\nOrtspolizisten ab und zu recht\nbetrunken wirken?\n
-IND_01_41
-Wenn schon die meisten\nTextilien aus China kommen,\ndie Webmaschinen für China\nstammen aus der Fabrik der\nSnurr KG!\n\n\n
-IND_01_42
-Die Fabrikhalle beinhaltet nur\nnoch einen Skaterpark. Doch\nschon bald will ein Hersteller\nvon Verbandsmaterial\neinziehen. Deren Manager\nhaben den Begriff\n"Kundennähe" wohl etwas zu\nwörtlich genommen.\n
-IND_01_45
-Die  Flüps KG ist der Ort, an\ndem die kleinen Plastikteile\nfür die Enden von\nSchnürsenkeln gefertigt\nwerden. Die Firma scheint ein\nMonopol zu besitzen, da\nniemand sonst darauf\ngekommen ist, so etwas\nnaheliegendes zu produzieren.\n
-IND_01_50
-Die Tingla-Gruppe musste vor\neiniger Zeit Konkurs anmelden.\nFür das Fabrikgebäude konnte\nnoch kein neuer Interessent\ngefunden werden. Dabei stellen\nnitratzersetzte Grundmauern\nheutzutage doch kein ernst zu\nnehmendes Problem mehr dar.\n
+In den hohen Hallen der\nMelindi AG, einer\nfleischverarbeitenden Fabrik,\nreifen Salami und geräuchter\nSchinken.\n\n
 IND_02_01
-Acker\n\n\n\n\n\n\n
+Acker\n\n
 IND_02_03
-Weizenfeld\n\n\n\n\n\n\n
-IND_02_04
-Baumschule\n\n\n\n\n\n\n
-IND_02_05
-Wassermühle\n\n\n\n\n\n\n
-IND_02_15
-Fabrik\n\n\n\n\n\n\n
+Weizenfeld\n\n
 IND_03_01
-Erdbeerfeld\n\n\n\n\n\n\n
+Erdbeerfeld\nvon Mai bis Oktober dank dem nahen Chemiwerk.\n
 IND_03_02
-Acker\n\n\n\n\n\n\n
-IND_03_05
-Wassermühle\n\n\n\n\n\n\n
-IND_03_15
-Bauernhof\n\n\n\n\n\n\n
-IND_04_01
-Wiese\n\n\n\n\n\n\n
+Acker\n\n
 IND_04_02
-Rapsfeld\n\n\n\n\n\n\n
+Rapsfeld\n\n
 IND_05_01
 Obwohl das Gebäude immer\nnoch als "Industrielles\nObjekt" registriert ist, wurde\ndie alte Schmiede\ntatsächlich vor langer Zeit\ngeschlossen und die Hütte aus\nihren Überresten gebaut.\n
-IND_05_02
-Dies ist ein idealer Platz, um\nSchüttgut wie Kohle, Sand\noder Stein zu lagern, evtl.\nsogar mehr. Das einzige,\nworüber man sich Sorgen\nmachen muss, sind\nregnerische Jahreszeiten.\n
-IND_05_03
-Die Anlage ist ein wichtiger\nTeil der städtischen\nInfrastruktur. Gasleitungen\nwerden mit kraftvollen\nPumpen verbunden, die den\nDruck konstant halten.\n\n
 IND_05_04
-Die auffällige Anlage speichert\nGas, um benachbarte Haushalte\nzu versorgen. Achtung -\nZündquellen fernhalten!\n\n\n\n
+Die auffällige Anlage speichert\nGas, um benachbarte Haushalte\nzu versorgen. Achtung -\nZündquellen fernhalten!\n\n
 IND_05_05
 Eine Pumpstation für\nErdwärme. Der Wärmetauscher\nkann im Sommer auch auf\nKlimaanlage zum Kühlen der\nangeschlossenen Häuser\numgestellt werden.\n\n
 IND_05_06
-Im Gebäude befinden sich 2\nDrehbänke und ein alter,\ndicker Mann, der seinen\nLehrlingen immer wieder\nbefiehlt, härter zu arbeiten.\n\n\n
+Im Gebäude befinden sich 2\nDrehbänke und ein alter,\ndicker Mann, der seinen\nLehrlingen immer wieder\nbefiehlt, härter zu arbeiten.\n\n
 IND_05_07
 Die Vross KG verarbeitet\nSchweröl. In der Anlage\nwerden noch einigermaßen\nleich- tere Bestandteile für\nSchiffsdieselmotoren\nextrahiert.\n\n
 IND_05_08
-Die Vross KG verarbeitet\nSchweröl. Das Ergebnis ist das\nMaterial für neue Straßen -\nAsphalt.\n\n\n\n
+Die Vross KG verarbeitet\nSchweröl. Das Ergebnis ist das\nMaterial für neue Straßen -\nAsphalt.\n\n
 IND_05_09
 Solche einfache metallene\nLagerhallen gehören zu den\nGebäudetypen, die mit\ngewisser Wahrscheinlichkeit\nZufluchtsorte für Obdachlose\nwerden, wenn sie längere Zeit\nleer stehen.\n
 IND_05_10
@@ -793,9 +663,9 @@ Der Lagerhallenkomplex wird\nvon einer Supermarktkette\ngeführt. In den Hallen w
 IND_05_11
 In dem ordentlichen\nSteingebäude wird aus Ton\nSteinzeug hergestellt, das in\nnahegelegene Städte\ngeliefert wird. Obwohl alles in\nOrdnung zu sein scheint, ist im\nInneren nicht genug Platz für\ndie komplette Produktion und\ndas Büro.\n
 IND_05_12
-Transformator Station. Die\nHochspannung vom Kraftwerk\n(10kV AC) wird auf 230V\nWechselstrom für Endnutzer\ntransformiert.\n\n\n
+Transformator Station. Die\nHochspannung vom Kraftwerk\n(10kV AC) wird auf 230V\nWechselstrom für Endnutzer\ntransformiert.\n\n
 IND_05_13
-Ein Chemiewerk, das teilweise\nrecht aggressive und giftige\nReinigungsmittel für\nIndustriebetriebe herstellt.\n\n\n\n
+Ein Chemiewerk, das teilweise\nrecht aggressive und giftige\nReinigungsmittel für\nIndustriebetriebe herstellt.\n\n
 IND_05_14
 Die Bekyrell AG produziert alle\nmöglichen Arten von\nPräzisionsmess- instrumenten.\nDas Unternehmen hat eine\ninteressante Geschichte, aber\ndas Fenster ist zu klein für\neine so lange Geschichte.\n
 IND_05_15
@@ -807,7 +677,7 @@ Die Chemiefabrik Wygran ist der\nstolze Träger des Preises\n"Die umweltfreund- l
 IND_05_18
 Die neuste Errungenschaft an\ndem heruntergekommenen\nTanklager ist das Absperrgitter.\nImmer wieder kamen\nPersonen zu Schaden, als sie\nsich an lecken Stellen illegal\nselbst bedienten.\n
 IND_05_19
-Flüssiggasbehälter. Rauchen\nVerboten!!!\n\n\n\n\n\n
+Flüssiggasbehälter. Rauchen\nVerboten!!!\n\n
 IND_05_20
 In der alten Weberei stand\nfrüher ein mechanischer\nWebstuhl neben dem anderen.\nDer auf alt gemachte Kamin ist\nneueren Datums. Heute werden\nin den Hallen Filtertextilien\nerforscht und getestet.\n
 IND_05_21
@@ -815,15 +685,15 @@ Eines von vielen Warenhäusern.\nSeien Sie nicht verwundert\nvon dem Schornstein 
 IND_05_22
 Eine Schuhmanufaktur, die\nhauptsächlich Schmuckteile\nfür Designerschuhe herstellt.\nWas sie unter eigenem Namen\nals fertige Schuhe verkaufen,\npasst oft nicht und ist bald\ndurchgetreten.\n
 IND_05_23
-Obwohl nicht mehr so gefragt\nwie früher, werden in der\nSchmiedewerkstatt "Der\nGluthammer" uralte Werkzeuge\nund Einrichtungen repariert.\n\n\n
+Obwohl nicht mehr so gefragt\nwie früher, werden in der\nSchmiedewerkstatt "Der\nGluthammer" uralte Werkzeuge\nund Einrichtungen repariert.\n\n
 IND_05_24
 In dem historischen Gebäude\nwurden einige der weltweit\nersten Automobile gebaut.\nNoch heute ist die Garage auf\ndie Instandhaltung alter\nMotorfahrzeuge spezialisiert.\n\n
 IND_05_25
 Drei hohe grüne\nFlüssigkeitstanks. Obwohl der\nWachmann mit 5 riesigen\nHunden Wache schiebt, fehlt\njeden Monat eine gewisse\nMenge. Vielleicht weil es vom\nWachmann gestohlen wurde?\nOder weil es reiner Alkohol\nist?\n
 IND_05_26
-Ein großer Öltank. Da er kaum\nein Rückhaltebecken hat, kann\ner nur zu einem Bruchteil und\nals Zwischenlager genutzt\nwerden.\n\n\n
+Ein großer Öltank. Da er kaum\nein Rückhaltebecken hat, kann\ner nur zu einem Bruchteil und\nals Zwischenlager genutzt\nwerden.\n\n
 IND_05_27
-Eine von unzähligen\nErdgasanlangen. Kontroll- und\nVerteilerstationen werden\nseit einigen Jahren meist\noberirdisch gebaut.\n\n\n
+Eine von unzähligen\nErdgasanlangen. Kontroll- und\nVerteilerstationen werden\nseit einigen Jahren meist\noberirdisch gebaut.\n\n
 IND_05_28
 Eine von unzähligen\nErdgasanlangen. In der\nPrüfstation wird der\nGeruchsstoffanteil gemessen.\nDer beamtete Prüfer leitet\ndie Untersuchungsbefunde\nunverzüglich an die Zentrale\nweiter.\n
 IND_05_29
@@ -839,7 +709,7 @@ Das Kühlhaus dient als\nSammelstelle für\nSchlachtabfälle. Die hohe\nMauer soll 
 IND_06_04
 Die ehemaligen Mietgaragen\nwurden zu Thomas'\nKFZ-Werkstadt\nzusammengefasst. Die\nAnwohner glauben, dass\nThomas der Hauptkonkurrent\nJeremias' sei. Tatsächlich\narbeiten beide in einem\nPreiskartell zusammen - was\nnatürlich offiziell nicht\nnachgewiesen werden kann.\n
 IND_06_05
-Ein Blockheizkraftwerk für 20\nangrenzende Wohnblöcke.\n\n\n\n\n\n
+Ein Blockheizkraftwerk für 20\nangrenzende Wohnblöcke.\n\n
 IND_06_06
 Vier alte Lagerschuppen, seit\n30 Jahren ein "Provisorium"\nfür eine von einer\ngemeinnützigen Stiftung\ngetragenen\nBehindertenwerkstatt.\n\n
 IND_06_07
@@ -847,35 +717,35 @@ Die Anlage wird als\nWasserschloss bezeichnet. Der\nfest angestellte Putzer kann
 IND_06_08
 Das Tanklager einer\nSchnapsbrennerei. Die\nBrennerei ging Konkurs, die\nalten, baufälligen Gebäude\nwurden abgerissen, die Tanks\nsind stehengeblieben. Die Bank,\ndie schon genug Kredite\nabschreiben musste, wollte\nkeine zusätzlichen Kosten\nmehr anfallen lassen.\n
 IND_06_09
-2 Lagerhallen. Eine Wand, die in\nWirklichkeit aus einer langen\nTürreihe besteht, garantiert\neinfachen und schnellen\nZugriff auf alles.\n\n\n
+2 Lagerhallen. Eine Wand, die in\nWirklichkeit aus einer langen\nTürreihe besteht, garantiert\neinfachen und schnellen\nZugriff auf alles.\n\n
 IND_06_10
 Das Gebäude gilt als\npotentielles Ziel für\nPolizei-Razzien. Es wird zwar\nversucht, Die Hallen wie die\nLagerhäuser einer\nSupermarktkette wirken zu\nlassen. Doch wir haben es mit\ndem geheimen Lager\nasiatischer Straßenhändler zu\ntun. Allein wird die Polizei\nden Fall allerdings nicht lösen\nkönnen, da keine Spuren zu\nsichern sind. An die Einschaltung des\nWirtschaftskontrolldienstes denkt\noffenbar niemand.\n
 IND_06_11
-In der Wasser-\naufbereitungsanlage wird das\nWasser mit Chlor versetzt, um\ndie darin enthaltenen Keime\nabzutöten.\n\n\n
+In der Wasser-\naufbereitungsanlage wird das\nWasser mit Chlor versetzt, um\ndie darin enthaltenen Keime\nabzutöten.\n\n
 IND_06_12
-Flüssigchemikalien bis zum\nAbwinken (aber bitte nicht\ntrinken!)\n\n\n\n\n
+Flüssigchemikalien bis zum\nAbwinken (aber bitte nicht\ntrinken!)\n\n
 IND_06_13
-Silos und Wohngebäude einer\nlandwirtschaftlichen\nVersuchsanstalt.\n\n\n\n\n
+Silos und Wohngebäude einer\nlandwirtschaftlichen\nVersuchsanstalt.\n\n
 IND_06_14
-Die Niederdruck- Dampfturbine\nstellt ein Industriedenkmal von\nnationaler Bedeutung dar!\n\n\n\n\n
+Die Niederdruck- Dampfturbine\nstellt ein Industriedenkmal von\nnationaler Bedeutung dar!\n\n
 IND_06_15
-Ein Streusalzlager, ohne das es\nim Winter auf den umliegenden\nAutobahnen oft zu\nchaotischen Zuständen\nkommen würde.\n\n\n
+Ein Streusalzlager, ohne das es\nim Winter auf den umliegenden\nAutobahnen oft zu\nchaotischen Zuständen\nkommen würde.\n\n
 IND_06_17
-Eine typische\nVorgartenwerkstatt.\n\n\n\n\n\n
+Eine typische\nVorgartenwerkstatt.\n\n
 IND_06_18
-Sie könnten noch stundenlang\nzusehen, wie sich der\nWinterdienst auf seinen Einsatz\nvorbereitet.\n\n\n\n
+Sie könnten noch stundenlang\nzusehen, wie sich der\nWinterdienst auf seinen Einsatz\nvorbereitet.\n\n
 IND_06_22
 Im Lagerhaus "Fredoklein"\nwerden Lebensmittel bis zur\nAuslieferung an\nSchnellrestaurants mittels\neines speziell\numweltverträglichen Systems\nfrisch gehalten. Obwohl das\nUnternehmen hochrentabel\nist, wurden alle Maler\nentlassen.\n
 IND_06_25
 Da es nur eine Lagerstätte für\nFlüssigchemikalien ist, gibt es\nnichts besonderes über das\nGebäude zu sagen. Manchmal\ngelangen gefährliche Stoffe in\ndie Umwelt, doch die Polizei\nnimmt Bestechungsgelder an...\nAber nicht weitersagen!\n
 IND_06_27
-Wasserspeicher\n\n\n\n\n\n\n
+Wasserspeicher\n\n
 IND_06_30
-Ein Kühlturm des ehemaligen\nKernkraftwerkes.\nWahrscheinlich ist er beim\nAbriss einfach vergessen\nworden.\n\n\n
+Ein Kühlturm des ehemaligen\nKernkraftwerkes.\nWahrscheinlich ist er beim\nAbriss einfach vergessen\nworden.\n\n
 IND_06_31
 Ein Teilchenbeschleuniger. Zu\nsehen sind allerdings nur die\nVerwaltungs- und\nWerkstatträume. Der\neigentliche Beschleuniger\nbefindet sich in einer 12 km\nlangen, ringförmigen,\nunterirdischen Betonröhre.\n
 IND_06_32
-Eine Briefkastenfirma der CIA,\nangeblich eine Kaffeerösterei.\n\n\n\n\n\n
+Eine Briefkastenfirma der CIA,\nangeblich eine Kaffeerösterei.\n\n
 IND_06_33
 In der kleinen Fabrik wird\netwas hergestellt, wofür man\nkleine Holzstäbe und Graphit\nbenötigt - Bleistifte! Nicht\neinfach die gewöhnlichen\nroten, sondern auch solche\nmit Werbeaufdruck.\n
 IND_06_34
@@ -885,17 +755,17 @@ In der Dachwohnung der Fabrik\nwohnt ein Mann, der\ntagtäglich die Münzen seiner
 IND_06_36
 Die Futtermittelsilos dürften\neigentlich gar nicht mehr in\nder Industriezone stehen.\nAlso hat der Besitzer ein\nGebäude darum herum gebaut,\nin welchem passend zur\neigentlichen Produktion\nSuppenwürfel hergestellt\nwerden.\n
 IND_06_43
-Auch Abfüllanlagen müssen\nirgendwo entwickelt und\nproduziert werden. Konkret\ngeschieht dies in den\nThersis-Werken.\n\n\n
+Auch Abfüllanlagen müssen\nirgendwo entwickelt und\nproduziert werden. Konkret\ngeschieht dies in den\nThersis-Werken.\n\n
 IND_06_44
 In der Druckerei Keller weiss\nman schon am Abend vorher,\nwas Sie morgen in ihrer\nZeitung lesen werden. Lange\nPapierbänder, bedruckt und\nunbedruckt, laufen durch die 5\nOffsetmaschinen. Damit ist die\nDruckerei Keller mit Abstand\ndie grösste und\nleistungsstärkste weit und\nbreit.\n
 IND_06_45
-Firma "Fagott" stellt\nhauptsächlich\nBluetoothgeräte her.\n\n\n\n\n
+Firma "Fagott" stellt\nhauptsächlich\nBluetoothgeräte her.\n\n
 IND_06_46
 Die grüne Farbe des\nBiotechnologielabors ist das\nErgebnis eines misslungenen\nExperiments: Auf der Fassade\nwurden Bakterien verteilt,\nwelche Graffiti vertilgen\nsollten. Zuerst lief das\nExperiment auch gut, bis den\nBakterien die Farbe ausging und\nsie im Todeskampf einen\ngrünen Stoff absonderten.\n
 IND_06_47
 Die lange Dampfloktradition\nhinterließ ihre Spuren im\nBürotrakt der Uralschien AG.\nGanze Fuhrwerksladungen\nhochgeheimer Trassenpläne\ngerieten bereits in der\nGründungsphase des\nUnternehmens in falsche\nHände. Der Bau des\nPförtnerhauses wurde\nunvermeidbare Pflicht. Die\ngrimmig schauenden\nWachtposten öffnen den Schlagbaum\nnur für legitimierte\nTransportfahrzeuge von\nSimutrans-Unternehmungen.\n
 IND_06_53
-Das Unernehmen ist stolz, der\ngrößte inländische Hersteller\nvon spottbilligen Digitaluhren zu\nsein.\n\n\n\n
+Das Unernehmen ist stolz, der\ngrößte inländische Hersteller\nvon spottbilligen Digitaluhren zu\nsein.\n\n
 IND_06_54
 Konstruktionsbüro "Tattersall"\nhat sich auf die Planung von\nHängebrücken spezialisiert.\nTatsächlich kommt\ngelegentlich ein Auftrag herein\n- meist aus den Hochlagen der\nAnden.\n
 IND_06_55
@@ -907,29 +777,23 @@ Worauf lässt der orange\nVerputz des Gebäudes\nschliessen? Genau, auf die\nZusam
 IND_06_59
 Etwas anderes als eine\nVerbrennungsanlage kann das\neigentlich gar nicht sein.\nVerbrannt werden\nSonderabfälle, die besonders\nhohe Brenntemperaturen\nerfordern, aber auch\nverseuchte Tierkadaver\nwerden hier vernichtet.\n
 IND_06_60
-Ein thermisches Kraftwerk für\ndie Stromproduktion im Winter,\nwenn die Wasserkraftwerke\nnicht ausreichend Leistung ins\nNetz speisen können.\n\n\n
+Ein thermisches Kraftwerk für\ndie Stromproduktion im Winter,\nwenn die Wasserkraftwerke\nnicht ausreichend Leistung ins\nNetz speisen können.\n\n
 IND_07_01
 In der Fernsteuer- zentrale\nwird der Betrieb eines\nBahnnetzes von 200 km Länge\nüberwacht. Für den Fall, dass\nsich Störungen nur vor Ort\nbeheben lassen, steht ein\nFahrzeug bereit.\n
 IND_07_02
-Lüftungsschacht eines\nStraßentunnels.\n\n\n\n\n\n
+Lüftungsschacht eines\nStraßentunnels.\n\n
 IND_07_03
 Auf dem Werksgelände stapeln\nsich abgefahrene Pneus. Aus\nPlatzmangel wurden viele\nPneus durch den Häcksler\ngelassen, aber auf Dauer ist das\nEntsorgungsproblem so\nnatürlich nicht gelöst.\n
 IND_07_04
 Als ob es nicht schon genug\nTanks gäbe, musste auch auf\ndem Grundstück der Fa. Rissig\nnoch einer aufgestellt\nwerden. Überflüssig ist er\ndennoch nicht; er ist\nlebensmittelecht ausgekleidet\nund wird als Zwischenlager,\nvor allem für Speiseöle,\nvermietet.\n
 IND_07_09
-Ein altes Busdepot.\n\n\n\n\n\n\n
+Ein altes Busdepot.\n\n
 IND_07_10
-Regelmäßig 14 Tage vor\nSilvester fahren große\nKolonnen 3-t Lieferwagen\nunbeladen die Lagerhallen an.\nBelieferungsfahrten erfolgen in\nkleinen Konvois über das ganze\nJahr verteilt.\n
-IND_07_15
-Haus\n\n\n\n\n\n\n
-IND_07_17
-Fabrik\n\n\n\n\n\n\n
+Regelmäßig 14 Tage vor\nSilvester fahren große\nKolonnen 30t Lieferwagen\nunbeladen die Lagerhallen an.\nBelieferungsfahrten erfolgen in\nkleinen Konvois über das ganze\nJahr verteilt.\n
 IND_08_03
-Bei der Verschrottung alter\nAutos fällt auch Altöl an, das\nhier in Fässer abgefüllt und\ndann in einer nahen Fabrik\nverheizt wird.\n\n\n
+Bei der Verschrottung alter\nAutos fällt auch Altöl an, das\nhier in Fässer abgefüllt und\ndann in einer nahen Fabrik\nverheizt wird.\n\n
 IND_08_31
 Ein Rundgang durch die Fabrik\nist der Traum jedes\nHeimwerkers: Hämmer,\nSchraubenzieher,\nSchraubenschlüssel usw.\nwerden in den Klipano-Werken\nhergestellt.\n
-IND_08_36
-Möbelhaus\n\n\n\n\n\n\n
 IND_10_01
 Alle erwarten, ständig\nrauschfreien\nMobiltelefonempfang zu haben,\naber bitte keine Antenne in\nihrer Nähe erdulden zu\nmüssen.\n\n
 IND_10_02
@@ -937,11 +801,11 @@ Ein Mobilfunkmast. Aufgrund\nder Tarife der Betreiberfirma\nwurde ein Zaun erric
 IND_10_03
 Im Hinterhof des Gebäudes\nhat ein Bauunternehmer seinen\nKran- und Fuhrpark\nuntergebracht. Teilweise\nmüssen die Baumaschinen für\ndie Lagerung selbst an den Kran\ngehängt werden!\n
 IND_10_04
-Rohlinge für Grabsteine gibt es\nbei Steinmetz Arthur\nHungerbühler noch zuhauf.\n\n\n\n\n
+Rohlinge für Grabsteine gibt es\nbei Steinmetz Arthur\nHungerbühler noch zuhauf.\n\n
 IND_10_10
 Haben Sie einen alten,\nreparaturbedürftigen\nRasenmäher? Die Leute hier\nsind nicht gerade gut im\nRasenmäher reparieren, sie\nverlangen aber viel für die\nInspizierung.\n
 IND_10_12
-Amtliche Fahrzeug- kontrolle.\nAuch Simutrans-Busse müssen\nbei ihr abgenommen werden.\n\n\n\n\n
+Amtliche Fahrzeug- kontrolle.\nAuch Simutrans-Busse müssen\nbei ihr abgenommen werden.\n\n
 IND_10_13
 Was das wohl wird???\nJedenfalls zieht die Baustelle\nviele alte Männer an, die\nfrüher selbst auf dem Bau\ngearbeitet haben, und über die\nneueste Bautechnik\nfachsimpeln.\n
 IND_10_16
@@ -949,7 +813,7 @@ Die kleine Fabrik produziert\nKleidungsstücke - Hosen,\nSocken, Shirts, alles. O
 IND_10_17
 In den Starkal-Werken bastelt\nman an neuen Zügen. Der\nletzte Entwurf, ein Shinkansen\nmit Raketenantrieb, wurde\nleider wegen der\nLärmbelästigung auf Eis gelegt.\n\n
 IND_10_18
-Eine der Elektronikfabriken.\nFragen Sie sich, woher die\nbilligen TV-Antennen und\nCoaxialkabel herkommen? Hier\nist die Antwort!\n\n\n
+Eine der Elektronikfabriken.\nFragen Sie sich, woher die\nbilligen TV-Antennen und\nCoaxialkabel herkommen? Hier\nist die Antwort!\n\n
 IND_10_19
 In der Lütteka KG werden\nHalbleiter für\nHochfrequenztechnik\nproduziert. Dies ist im\nZeitalter der Mobiltelefone\nund der drahtlosen\nKommunikation eine ziemlich\ngute Idee.\n
 IND_10_22
@@ -957,19 +821,19 @@ Die Unternehmensgruppe\nproduziert alle möglichen\nArten von Radios. Betrachten\
 IND_10_23
 Die Bachmann Bau AG war einst\ndie größte Baufirma der\nRegion, bis auch sie über die\nImmobilienkrise stolperte. Aus\nden ehemaligen Büros sind\nLofts geworden, doch Herr\nBachmann hat sich wieder\naufgerafft und handelt erneut\nmit Baumaterialien.\n
 IND_10_24
-Ein Haus voller Ateliers. Gerade\nwird ein fertiges Kunstwerk\nverladen.\n\n\n\n\n
+Ein Haus voller Ateliers. Gerade\nwird ein fertiges Kunstwerk\nverladen.\n\n
 IND_10_25
-Hier sitzt die\n"Softwareschmiede". Ja,\nganz recht, das Amboss-Design\nist beabsichtigt.\n\n\n\n
+Hier sitzt die\n"Softwareschmiede". Ja,\nganz recht, das Amboss-Design\nist beabsichtigt.\n\n
 IND_10_26
 Bei der Plüss GmbH wird\nGefriergut verarbeitet und\numgepackt. Da es im innern des\nGebäudes ständig kühl ist,\nsind die Fenster meist\nbeschlagen.\n\n
 IND_11_01
-Eine kleine Ich-AG. Für ein\nDach hat es bei dem Baumarkt\nnicht gereicht...\n\n\n\n\n
+Eine kleine Ich-AG. Für ein\nDach hat es bei dem Baumarkt\nnicht gereicht...\n\n
 IND_11_16
-Das Haus gehört einem\nKonkurswaren- händler! Auf\nzwei Etagen kann man günstige\nPosten erstehen.\n\n\n\n
+Das Haus gehört einem\nKonkurswaren- händler! Auf\nzwei Etagen kann man günstige\nPosten erstehen.\n\n
 IND_11_46
 Firmensitz einer Chemiefirma.\nDie Firmenbosse in der\nobersten Etage testen jedes\nQuartal die\nFunktionstüchtigkeit ihrer\n"goldenen Fallschirme".\n\n
 IND_11_47
-Eine Fabrik für optische\nGeräte, die vor allem bei der\nVermessung eingesetzt\nwerden.\n\n\n\n
+Eine Fabrik für optische\nGeräte, die vor allem bei der\nVermessung eingesetzt\nwerden.\n\n
 IND_11_48
 Bei der Hell&Klar-Gruppe\nkönnen Sie ein reiches\nRepertoire an nullpunktenergie-\nbetriebenen Werkzeugen\nbewundern und kaufen.\nFilialleiter Max Trix versichert\nseinen meist zufriedenen\nKunden, der Anschluss an die\nStromversorgung sei nur aus\nKompatibilitäts- gründen nötig.\nWird er auf die hohen\nStromkosten der letzten\nMonate angesprochen, meldet sich\nmeist sein Mobiltelefon, er hat dann\nganz dringende Dinge zu erledigen.\n
 IND_11_49
@@ -995,9 +859,9 @@ Holzladehafen
 LuftPost1950_AirportBlg
 Flughafengebäude Post (1950)
 MANOR_0
-Schloss Manor\n\nEine traumhafte Anlage, deren\nBesichtigung man nicht\nverpassen sollte.\n\n\n\n
+Schloss Manor\n\nEine traumhafte Anlage, deren\nBesichtigung man nicht\nverpassen sollte.\n\n
 MARKET_PLACE_0
-Marktplatz\n\n\n\n\n\n\n
+Marktplatz\n\n
 medium_classic_bus_stop
 Bushaltestelle (mit grauem Bushäuschen)
 medium_early_bus_stop
@@ -1005,7 +869,7 @@ Bushaltestelle (mit braunem Bushäuschen)\n\n
 medium_modern_bus_stop
 Bushaltestelle (mit Bushäuschen aus Glas)
 MILITARY_RADAR
-Abhörstation\n\n\n\n\n\n\n
+Abhörstation\n\n
 Modern_Warehouse
 Lagerhalle
 ModernPostOffice
@@ -1018,12 +882,10 @@ MonorailFoundation
 Schuppen
 MonorailGround
 Schuppen
-MonorailStation
-Schwebebahnstation
 MT_HOTEL_0
 Hotel\n\nEin berühmtes Hotel. Und\nobwohl die Preise sehr hoch\nsind, wollen viele einmal hier\nübernachten oder wenigstens\nim exzellenten Hotelrestaurant\nspeisen.\n
 MUSEUM_0
-Museum\n\nEin Ort, an dem all das\naufgehoben wird, das andere\nfrüher verloren haben.\n\n\n\n
+Museum\n\nEin Ort, an dem all das\naufgehoben wird, das andere\nfrüher verloren haben.\n\n
 OBSERVATORY
 Sternwarte\n\nMit dem Spiegelteleskop\nwerden astronomische\nObjekte im sichtbaren\nSpektrum beobachtet. An\nTagen der Offenen Tür platzt\ndie Sternwarte vor Besuchern\naus allen Nähten.\n
 Old_gate
@@ -1033,9 +895,9 @@ Historisches Gebäude\n\nEin Patrizierbau aus dem 16.\nJahrhundert. Die Patrizier
 OpenTrainStop
 Einfacher Bahnsteig
 Pagoda01
-Pagode\n\n\n\n\n\n\n
+Pagode\n\n
 PARK_0
-Großer Park mit See\n\n\n\n\n\n\n
+Großer Park mit See\n\n
 parking_(catchemnt_area_ext)1
 Parkplätze (P&R)
 parking_(catchemnt_area_ext)2
@@ -1053,73 +915,53 @@ Radar
 RADIO_TOWER_0
 Talkradio L.A.B.E.R.\n\nHier ist der Sitz des lokalen\nRadiosenders L.A.B.E.R. Er\nlockt immer einige Leute an,\ndie hoffen in der "Offenen\nStunde" zwischen 13:00 und\n14:00 Uhr einmal ins Radio zu\nkommen.\n
 RES_00_01
-Campingplatz\n\n\n\n\n\n\n
+Campingplatz\n\n
 RES_00_02
-Ein kleines Haus mit Garten\n\n\n\n\n\n\n
+Ein kleines Haus mit Garten\n\n
 RES_00_03
 Der Bungalow bietet Platz für\nzwei Erwachsene und ein\nBaby. Dementsprechend hat es\nschon viele Mieter gesehen,\ndie mit ihrem Kind lieber in\neine geräumigere Wohnung\numgezogen sind.\n
 RES_00_04
-Der Freizeit-Bauernhof eines\nBankdirektors!\n\n\n\n\n\n
-RES_00_05
-Auch wenn es nicht danach\naussieht, leben hier zwei\nFamilien mit Kindern. Der Clou:\nDas gesamte Grundstück ist\nzweifach unterkellert!\n\n\n
+Der Freizeit-Bauernhof eines\nBankdirektors!\n\n
 RES_00_06
-Kleine Wohnanlage. Ideal für\nFamilien mit Kindern.\n\n\n\n\n\n
+Kleine Wohnanlage. Ideal für\nFamilien mit Kindern.\n\n
 RES_00_07
-Das Highlight des geräumigen\nEinfamilienhauses ist der\nsteinerne  Pizzaofen.\nSelbstverständlich wohnt hier\neine italienische Familie.\n\n\n
+Das Highlight des geräumigen\nEinfamilienhauses ist der\nsteinerne  Pizzaofen.\nSelbstverständlich wohnt hier\neine italienische Familie.\n\n
 RES_00_08
-Für eine kleine Familie\noptimal, fehlt dem\nGrundstück nur noch etwas\nBepflanzung hinter dem Haus.\n\n\n\n
-RES_00_09
-Wer wundert sich nicht über\nden dreifachen Kamin?\nAllerdings gibt es dafür eine\nganz simple Erklärung: Im\nKeller des Hauses verbirgt sich\nein Blockheizkraftwerk für\ndie gesamte Nachbarschaft,\ndurch dessen Einkünfte\nMeiers ihre Hypothek\nabbezahlen.\n
-RES_00_10
-Dank des etwas futuristischen\nDesigns steht der Wohnblock\nnie leer.\n\n\n\n\n
+Für eine kleine Familie\noptimal, fehlt dem\nGrundstück nur noch etwas\nBepflanzung hinter dem Haus.\n\n
 RES_00_11
-Der Stadtpark, ein grüner\nTupfen in der oft\nzugepflasterten Stadt.\n\n\n\n\n
+Der Stadtpark, ein grüner\nTupfen in der oft\nzugepflasterten Stadt.\n\n
 RES_00_12
 Eigentlich stand das Haus der\nMüllers ja mal gerade. Aber\ndurch ein spezielles, sehr\nseltenes, plattentektonisches\nPhänomen begann das Haus\nirgendwann, sich zu drehen.\nZur Zeit verharrt es in seiner\nPosition. Aber wer weiß,\nvielleicht dreht es sich\nirgendwann wieder ein Stück\nweiter.\n
-RES_00_13
-Wohnhaus mit Garage.\n\n\n\n\n\n\n
 RES_00_14
-Ein schönes Wohnhaus mit\nVorgarten. Leider ist es etwas\naufwändig, den Gartenzaun so\nschön blütenweiß zu halten.\n\n\n\n
+Ein schönes Wohnhaus mit\nVorgarten. Leider ist es etwas\naufwändig, den Gartenzaun so\nschön blütenweiß zu halten.\n\n
 RES_00_15
 Der berühmte Opernsänger\nHelmut Jäger ließ sich die\nalte Villa herrichten, um hier\nseinen Lebensabend zu\nverbringen. Inzwischen wohnen\nandere Leute in dem\nluxoriösen Domizil, aber der\nKonzertflügel des Opernstars\nsoll immer noch im Salon\nstehen.\n
 RES_00_16
-Das städtische Freibad\n\n\n\n\n\n\n
+Das städtische Freibad\nOrt von Millionen guter Kindheitserinnerungen\n
 RES_00_17
-Ein modernes Doppelhaus, in\ndem zwei Familien bequem\nPlatz finden.\n\n\n\n\n
+Ein modernes Doppelhaus, in\ndem zwei Familien bequem\nPlatz finden.\n\n
 RES_00_18
 In dem geräumigen\nMehrparteienhaus leben auch\nviele Kinder, so dass niemals\nLangeweile aufkommt. Und\nauch die Jugendlichen im Haus\nwissen sich gegenseitig zu\nbeschäftigen...\n
 RES_00_19
-Das Fachwerkhaus wurde -\nglaubt man der Inschrift über\ndem Kellereingang - anno\ndomini MDCLIV erbaut.\n\n\n\n
+Das Fachwerkhaus wurde -\nglaubt man der Inschrift über\ndem Kellereingang - anno\ndomini MDCLIV erbaut.\n\n
 RES_00_20
-Durch seine eckige Form war\ndas Haus einfach und günstig zu\nbauen und belastete Wagners\nFinanzen trotz der Größe\nnicht zu stark.\n\n\n
+Durch seine eckige Form war\ndas Haus einfach und günstig zu\nbauen und belastete Wagners\nFinanzen trotz der Größe\nnicht zu stark.\n\n
 RES_00_21
 Dies war einmal eine richtige\nSchule mit richtigen Lehren\nund richtigen Schülern und\neinem richtig\npsychopathischen\nHausmeister. Tja ... den\nHausmeister gibt es noch ...\nund die Schule.\n
 RES_00_22
 Die alte Villa eines\nFabrikbesitzers aus der\nGegend. Nachdem er seine\nFabrik für einen guten Preis an\neine grosse Firma verkauft\nhat, verbringt er hier nun\nzusammen mit seiner Frau\nseinen Lebensabend. Der\neinzigste Sohn besucht eine\nbekannte Universität, um auch\neinmal ein großer\nGeschäftsmann werden zu\nkönnen. Manchmal finden im Haus\nPokerabende statt, an denen andere\nreiche Herren der Stadt teilnehmen.\n
-RES_00_23
-In Anlehnung an längst\nvergessene Menschenrituale\ndes Ringetauschens entstand\ndie Plastik unter dem\nfragwürdigen Titel "Die\nHeirat".\n\n
-RES_00_24
-Ein modernes Backsteinhaus\nohne Besonderheiten. Im Haus\nhaben mehrere Familien Platz,\nwelche den Vorteil genießen,\nnah am Stadtzentrum zu\nwohnen und  trotzdem kein\nVermögen an Miete zu\nbezahlen.\n
 RES_00_25
 Ein Mehrfamilienhaus mit 3\nEtagen. Je mehr Menschen\nvom Land in die Stadt ziehen,\ndestso mehr Wohnraum wird\ngebraucht. Also wurde damit\nbegonnen, höhere Häuser zu\nbauen. Die Wohnqualitäten\ndürften dort allerdings\ndeutlich schlechter sein.\n
-RES_00_26
-Die Statue mitten im\nOlivium-Park soll an einen\nberühmten Sohn der Stadt,\neinen Weltmeister im\nGewichtheben, erinnern.\n\n\n
-RES_00_27
-Ehemals beherbergten die\nArkaden ein\nKolonialwarengeschäft, doch\nmittlerweile leben gut\nbetuchte Singles in dem\nhistorischen Haus.\n\n
-RES_00_28
-Großes Wohnhaus mit vier\nSchornsteinen, einem\nSatteldach, vierunddreißig\nFenstern verteilt über drei\nEtagen, mindestens zwei\nTüren, vier Arkadenbögen,\neinem grünen Baum und\nholprigem Kopfsteinpflaster.\n
 RES_00_29
-Ein früher Wohnblock, in dem\nes ziemlich ringhörig ist.\n\n\n\n\n\n
-RES_00_30
-Die gefallenen Soldaten, deren\nNamen in den Sockel des\nDenkmals eingraviert sind,\nhaben für ihr Vaterland\ngekämpft wie die Löwen.\n\n\n
+Ein früher Wohnblock, in dem\nes ziemlich ringhörig ist.\n\n
 RES_00_52
-Kriegerinnendenkmal für die\nEmanzipation und so ...\n\n\n\n\n\n
+Kriegerinnendenkmal für die\nEmanzipation und so ...\n\n
 RES_00_53
 Ein selbstherrlicher\nBürgermeister  wollte sich\nnoch zu Lebzeiten selbst ein\nDenkmal setzten. Die\nFertigstellung hat er nicht\nmehr erlebt, seine Nachfolger\nmüssen die Finanzen ins Lot\nbringen, und die Gerichte\nwerden auch noch eine Weile\nbeschäftigt sein.\n
 RES_00_60
-Sandstein ist sehr\nwitterungsanfällig - das sieht\nman der Statue auch an.\n\n\n\n\n
+Sandstein ist sehr\nwitterungsanfällig - das sieht\nman der Statue auch an.\n\n
 RES_01_01
-Man glaubt es kaum, aber auf\ndem Grundstück lebt jemand:\nEin Manager, der getarnt jedes\nWochenende seine Ruhe\ngenießt.\n\n\n
+Man glaubt es kaum, aber auf\ndem Grundstück lebt jemand:\nEin Manager, der getarnt jedes\nWochenende seine Ruhe\ngenießt.\n\n
 RES_01_02
 In dem kleinen Häuschen\nwohnt ein netter, älterer\nMann, den alle nur "Herr\nBlume" nennen, weil sein\neinziges Hobby neben seinen\nEnkelkindern sein kleines\nBlumenbeet ist, das er\nliebevoll pflegt.\n
 RES_01_03
@@ -1131,29 +973,27 @@ Die lange Antenne auf dem\nroten Haus deutet auf einen\nAmateurfunker als Bewohn
 RES_01_09
 Der Seitenflügel ist erst\nspäter angebaut worden, damit\nder Sammler, der in dem\nnetten Backsteinhaus wohnt,\nauch weiterhin seiner\nLeidenschaft frönen kann.\n\n
 RES_01_10
-Bei dem karminroten\nWinkelbungalow weiss man\nimmer, woher der Wind weht.\n\n\n\n\n
+Bei dem karminroten\nWinkelbungalow weiss man\nimmer, woher der Wind weht.\n\n
 RES_01_12
 Arbeiterbarracken für\nMenschen, die von weiter her\nkommen und unter der Woche\nin den Fabriken arbeiten.\nMeistens sind es Arbeiter aus\nden Kohle- oder Erzminen. Es\nist alles sehr einfach\ngehalten, nur Betten und zwei\nBäder. Die Spinde sind mit\nFotos übersät.\n
 RES_01_13
-Hier leben und schaukeln Anne\nund Bernd mit ihren Eltern. Sie\nspielen auch oft in ihrem gut\ngetarnten Baumhaus.\n\n\n\n
+Hier leben und schaukeln Anne\nund Bernd mit ihren Eltern. Sie\nspielen auch oft in ihrem gut\ngetarnten Baumhaus.\n\n
 RES_01_14
-Ein altes Haus, bei dem der\nKeller noch nicht tief\nausgehoben worden ist.\n\n\n\n\n
+Ein altes Haus, bei dem der\nKeller noch nicht tief\nausgehoben worden ist.\n\n
 RES_01_15
 Das solide gebaute Haus\nbeinhaltet drei Wohnungen.\nAber es ist nicht so, dass\njede eine Etage in Anspruch\nnimmt. Jede Wohnung geht\nüber die ganze Höhe. Stellen\nSie sich vor, sie müssten 2\nEtagen höher hinauf, um von\nder Küche in ihr Zimmer zu\ngelangen.\n
 RES_01_16
-Im östlichen Teil des\nStadtparks stehen ein paar\nwirklich alte Bäume. Einige\nmussten aber schon gefällt\nwerden.\n\n\n
+Im östlichen Teil des\nStadtparks stehen ein paar\nwirklich alte Bäume. Einige\nmussten aber schon gefällt\nwerden.\n\n
 RES_01_17
-Ein Doppelhaus, bei dem ein\nHaus das Spiegelbild des\nanderen ist.\n\n\n\n\n
+Ein Doppelhaus, bei dem ein\nHaus das Spiegelbild des\nanderen ist.\n\n
 RES_01_18
 Die T-Form wurde gewählt,\ndamit alle Bewohner an dem\nherrlichen Ort mit Blick auf\nSee und Berge in drei\nRichtungen die Aussicht\ngeniessen können.\n\n
 RES_01_19
-Der Architekt des Hauses mit\nder grünen Fassade macht\ngerne Ferien im Schwarzwld.\n\n\n\n\n
-RES_01_20
-In dem langen und schmalen\nHaus war kein Platz für eine\nTreppe. Also wurden Leitern\nund Kletterseile mittig im Haus\nmontiert.\n\n\n
+Der Architekt des Hauses mit\nder grünen Fassade macht\ngerne Ferien im Schwarzwld.\n\n
 RES_01_21
 Die alte Fabrik wurde vor\nJahren zu einem Wohnhaus\numgebaut. Nun stehen\nWohnungen mit hohen Räumen\nzur Verfügung, welche nicht\nwirklich billig im Preis oder in\nder Miete, aber auf jeden Fall\nspeziell sind. Die großen\nFenster sollen vor allem\nMenschen anlocken, welche\nauf helle Räume stehen.\n
 RES_01_22
-Durch die Steinbauweise wirkt\nes zwar alt, in Wirklichkeit\nentstand das Gebäude aber\nerst 2003.\n\n\n\n
+Durch die Steinbauweise wirkt\nes zwar alt, in Wirklichkeit\nentstand das Gebäude aber\nerst 2003.\n\n
 RES_01_23
 An den neuen Holzständen sind\nOrtspläne mit Inseraten und\nStandorten der lokalen\nGewerbebetriebe\nangeschlagen. Inserate von\nSpeditionsunternehmen\nwerden allerdings nicht gern\ngesehen und von sogenannten\nStrauchdieben in Nacht- und\nNebel-Aktionen entfernt.\n
 RES_01_24
@@ -1165,51 +1005,43 @@ Eltern aufgepasst! Wenn die\nlieben Kleinen verschwunden\nsind, spielen sie\nwah
 RES_01_27
 Der Prototyp eines privaten\nMehrfamilienhaus. Abhängig von\nder Lage im Ort haben die\nHäuser 2 oder mehr\nStockwerke. Die Mietpreise\nsind okay, deshalb gibt es\nauch nur selten leere\nWohnungen. Ein Nachteil ist,\ndass man gezwungen wird,\neinen speziellen\nTelefonanbieter zu wählen,\nwelcher auch nicht gerade\nder günstigste ist. Die Aktion bringt\ndem Vermieter allerdings ein paar\nScheine extra ein. \n
 RES_01_28
-Die Ziegelfassade ist die\nZierde des\nMehrfamilienhauses. In den\nWohnungen sind übrigens\nteilweise Steinböden verlegt.\n\n\n
+Die Ziegelfassade ist die\nZierde des\nMehrfamilienhauses. In den\nWohnungen sind übrigens\nteilweise Steinböden verlegt.\n\n
 RES_01_29
 Die attraktive rote Farbe des\nDaches wurde von einem der\nallerersten Bewohner\nausgesucht. Seiner Ansicht\nnach soll die Farbpigmentierung\neine bestimmte Wellenlänge\ndes Lichtes reflektieren,\ndamit UFOs zur Landung auf\ndem Dach angelockt werden\nsollen.\n
 RES_01_30
-Unter dem Dach haben schon\nmanche, die vom Gewitter\nüberrascht worden sind,\nZuflucht gesucht.\n\n\n\n
+Unter dem Dach haben schon\nmanche, die vom Gewitter\nüberrascht worden sind,\nZuflucht gesucht.\n\n
 RES_01_31
 Das städtische Wohnhaus\nstammt aus dem frühen 19.\nJahrhunderts. Der Gebäudetyp\nwurde in einer Art Kreis\ngebaut, so dass es Innenhöfe\ngab (typisch für Gebäude aus\njener Zeit). Zur Straße hin\nsind die Wohnungen groß und\nmit vielen Zimmern\nausgestattet. Zum Hof hin sind\ndie Wohnungen kleiner. Dort\nwohnten damals die ärmeren\nSchichten der Bevölkerung (z.B.\nArbeiter).\n
-RES_01_32
-Reihenhaus aus der Mitte des\n20. Jahrhunderts. Die Räume\nder Wohnungen sind fast\ndoppelt so hoch, wie es\nheutzutage üblich ist. \n\n\n
 RES_01_33
 Ein Wohnhaus aus der Mitte des\n20. Jahrhunderts. Es hat nicht\ndie für jene Zeit typischen\nhohen Räume, verfügt dafür\naber über den Innenhof. In\nden Hof kann man mit dem\nAuto durch das Tor gelangen.\nEs war ursprünglich für die\nKohlefahrzeuge vorgesehen,\nwelche ihre Ladung in den Hof\nbrachten (was besser war als\neinen Berg direkt auf der\nStraße zu haben).\n
 RES_01_34
 Ein Wohnhaus aus der Mitte des\n20.Jahrhunderts. Es hat nicht\ndie für diese Zeit typischen\nhohen Räume. Es wurde auch\nnicht in der Kreisform gebaut\nund nimmt somit weniger Platz\nweg. Dafür fehlt aber auch der\nInnenhof.\n
 RES_01_35
 Kurz vor dem Verfall des\nHauses fand sich ein Investor,\nder es renovierte. Nach den\nUmbauten hat das Gebäude\nnichts von seinem alten Glanz\nund Charme verloren. Echte\nMeisterwerke sind die\nDekorationen um die Fenster.\nOb die hohen Mieten den\nUmbau wohl refinanzieren?\n
-RES_01_36
-Ein sanierter Altbau. Im\nErdgeschoss befinden sich\nGeschäfte und ein kleines\nBistro. Auf den höheren\nStockwerken liegen\nWohnungen, welche nicht\nunbedingt von den\nGeschäftsinhabern bewohnt\nwerden. Vorteil: Man lebt\nmitten in der Stadt. Nachteil:\nman findet kaum einen nahen\nParkplatz.\n
 RES_01_37
-Das Eckhaus befindet sich in\nder Fußgängerzone. Das\nwunderschöne Gebäude hat\nein exquisites Cafe und\nmehrere luxuriöse Apartments.\n\n\n
+Das Eckhaus befindet sich in\nder Fußgängerzone. Das\nwunderschöne Gebäude hat\nein exquisites Cafe und\nmehrere luxuriöse Apartments.\n\n
 RES_01_38
 Dass das Haus, das vor dem\nAutomobilzeitalter gebaut\nworden war, trotzdem\nGaragen hat, liegt daran, dass\ndie Verkaufsflächen im\nErdgeschoss lange\nleerstanden. Die eingezogenen\nWände verbessern auch die\nTragfähigkeit des Gebäudes.\n
 RES_01_39
 Ein Gebäude, das am Ende des\n19. Jahrhunderts über und\nüber mit Fabrikarbeitern belegt\ngewesen ist. Sie haben in der\nStadt Arbeit und ihr Glück\nversucht und waren froh,\nüberhaupt ein Bett zu haben.\n
 RES_01_41
 Die Bewohner des Eckhauses\nim frühen viktorianischem Stil\nsind alle prüde und reserviert.\nSie stören sich bereits daran,\nwenn sich ein junges Pärchen\nim Innenhof küsst.\n\n
-RES_01_42
-Dies war einmal das Haus des\nvermögendsten und\neinflussreichsten Mannes in\nder Stadt. Als er starb,\nweinten alle, die ihn kannten,\num ihn...alle außer seinen drei\ngeldgierigen Kindern, welche\ndie Erbschaft schon geteilt\nund das Haus zum Verkauf\nausgeschrieben hatten, noch\nbevor ihr Vater im Grab lag.\n
 RES_01_45
 Wenn sie jemandem in dem\nEckhaus begegnen, müssen sie\nihn nur ansehen, und schon\nwissen sie, in welche\nRichtung seine Wohnung zeigt:\nKorrekt gekleidete wohnen\nRichtung Norden, normal\ngekleidete Richtung Osten,\nbunt und ausgefallen\ngekleidete Richtung Süden,\nund leger gekleidete Richtung Westen.\n\n
 RES_01_46
 In der Maisonettewohnung\nzuoberst im Haus wohnt der\nSänger und Hardrockmusiker\nAlco Grölemäuler. Er feiert\njede Nacht Partys und gibt\nKonzerte mit seiner Band für\nseine Mieter in seiner Wohnung.\nEr brüstet sich damit, jede\nMenge Fans in seiner Umgebung\nzu haben. Kein Wunder, denn\nwer seine "Musik" nicht mag,\nzieht sowieso bald wieder\naus.\n
 RES_01_49
 Eine ältere Frau kontrolliert\nimmer zweimal, ob der Herd\nauch wirklich ausgeschaltet\nist, bevor sie die Wohnung\nverlässt - nachdem sie ihn\neinmal vergessen hatte\nauszuschalten und fast einen\nHausbrand verursachte.\n
-RES_01_50
-Hotel\n\n\n\n\n\n\n
 RES_01_60
 Der eisernen Kriegerin wurde\nvor langer Zeit ein Denkmal aus\nSandstein errichtet. Die\nDenkmalspfleger dürfen nun\nfast regelmäßig viel Geld oder\nwahlweise viel von ihrer\nFreitzeit aufwänden, um das\nhistorische Kunstwerk zu\nerhalten.\n
 RES_02_03
-In der kleinen Waldhütte lebt\nein Förster. Wie romantisch...\n\n\n\n\n\n
+In der kleinen Waldhütte lebt\nein Förster. Wie romantisch...\n\n
 RES_02_04
 Kleines Gartenhaus oder auch\n"Datsche" genannt. Es dient\nals eine Art zweites Zuhause\noder Zuflucht für Menschen,\ndie in einer Stadt wohnen.\nHier kann man einige ruhige\nMomente im Grünen verbringen\nund sich vom stressigen Leben\nzu erholen. Für Jugendliche\nist es eine gute Location, um\ndie eine oder andere Party zu\nfeiern.\n
 RES_02_05
 Diese Baracken sind\nAbwartswohnungen für die\numliegenden Schulhäuser. Die\neinst darin enthaltenen\nWohnungen mussten\nSchulzimmern weichen.\n\n
 RES_02_09
-Das unscheinbare Haus hat den\nHaupteingang auf der anderen\nSeite. Hier schauen sie auf die\nRückansicht.\n\n\n\n
+Das unscheinbare Haus hat den\nHaupteingang auf der anderen\nSeite. Hier schauen sie auf die\nRückansicht.\n\n
 RES_02_10
 Unverkennbar eine alte Mühle,\nbei der die Bauern das Korn\noben anlieferten und unten das\nMehl abholten. Das Haus gehört\neiner Stiftung, die sich der\nErhaltung industriehistorischer\nGebäude verschrieben hat. Das\nObergeschoss ist aber immer\nnoch von einer Familie\nbewohnt.\n
 RES_02_12
@@ -1217,7 +1049,7 @@ Als Bernhard das Haus baute,\nmachte er einen Fehler bei\nder Planung: Hinter de
 RES_02_13
 Das Haus mit dem\nrundgezogenen Satteldach war\ndie erste Tennishalle der\nStadt. Mittlerweile wurde\neine größere gebaut, und in\nder alten wurden Wohnungen\neingerichtet. Die Wohnungen\nsind sehr offen, mit wenigen\nUnterteilungen ausgebaut, da\ndie ursprüngliche Statik keine\ngroßen Belastungen zulässt.\n
 RES_02_14
-Die farbliche Gestaltung soll\nauch äußerlich widergeben,\ndass in den beiden\nGeschossen verschieden\ngesinnte Leute wohnen.\n\n\n
+Die farbliche Gestaltung soll\nauch äußerlich widergeben,\ndass in den beiden\nGeschossen verschieden\ngesinnte Leute wohnen.\n\n
 RES_02_15
 Gebaut als Einfamilienhaus, hat\nder Besitzer, als seine Kinder\nausgezogen sind, im oberen\nStockwerk eine separate\nWohnung eingerichtet, die er\nvermietet hat.\n\n
 RES_02_16
@@ -1234,18 +1066,14 @@ RES_02_21
 Architekten scheinen die\ngeheimen Träume der\nBauherren mitunter regelrecht\nzu spüren. Haus "Landvogt" ist\nauch innen so verwinkelt, wie\nes von aussen aussieht, was\nvor allem die Kinder und deren\nSchulkameraden schätzen,\ndie fast jeden freien\nNachmittag hier verbringen.\n
 RES_02_22
 Nur eine alte Dame lebt in dem\nHaus. Sie hat schon viele ihrer\nVerwandten überlebt, und\nKunst und Krempel stapelt\nsich. Wenigstens finden ihre\nErben dann noch etwas\nWertvolles als Entschädigung\nfür die viele Räumungsarbeit.\n
-RES_02_24
-Wohnhaus\n\n\n\n\n\n\n
 RES_02_27
 Mit dem knalligen Grün konnten\nsich viele Nachbarn lange nicht\nabfinden. Sie liessen ihren\nUnmut an den Mietern des\nBlocks aus, indem sie sie als\n"Grasfrösche" bezeichneten.\n\n
-RES_02_28
-Haus\n\n\n\n\n\n\n
 RES_02_33
-Büste von Fredi Apfelschäler,\ndem Zubereiter der\nweltberühmten Willi-Teller.\n\n\n\n\n
+Büste von Fredi Apfelschäler,\ndem Zubereiter der\nweltberühmten Willi-Teller.\n\n
 RES_02_38
 Welchem Wanderer gehört der\nRucksack? Ich kann Euch aber\nversichern, er passt immer\nnoch besser als die\n"Kunstwerke", die einmal auf\nden Sockeln standen. Sie\nstammten von einem\nSchrottkünstler, und\ntatsächlich hat die Abfuhr sie\nanstandslos mitgenommen,\nnachdem bei der Polizei eine\nAnzeige wegen illegaler\nAbfallentsorgung eingegangen war.\nMeine Güte, gab das ein Theater mit\ndem Künstler!\n
 RES_02_39
-Ein Kreuz und vier sitzende\nFrauen, von denen jede eine\nandere Sprache spricht - der\nSchweizerpark.\n\n\n\n
+Ein Kreuz und vier sitzende\nFrauen, von denen jede eine\nandere Sprache spricht - der\nSchweizerpark.\n\n
 RES_03_05
 Solche Reihenein-\nfamilienhäuser aus\nFertigelementen wurden in\nden letzten Jahren\nmassenweise aus dem Boden\ngestampft.\n\n
 RES_03_09
@@ -1260,30 +1088,24 @@ RES_03_15
 Dies ist das Zuhause eines\nMathematikers und seiner\ngrossen Familie. Mathematik\nscheint am profitabelsten zu\nsein, wenn man es auf einer\nBank zur Anwendung bringen\nkann.\n
 RES_03_16
 Eine Lehrerin für Latein und\nGriechisch wollte sich ein\nstilechtes Haus bauen lassen.\nLeider streikten ihre Sklaven\n(Schüler aus ihrer Klasse!)\nschon recht bald, und die\nbezahlten Baumeister hatten\nkein Verständnis für derart\nunkonventionelle Pläne.\n
-RES_03_18
-Gutshof\n\n\n\n\n\n\n
-RES_03_19
-Kolonialwarenladen\n\n\n\n\n\n\n
 RES_03_20
-Gasthof 'Zum grünen Baum'\n\n\n\n\n\n\n
+Gasthof 'Zum grünen Baum'\ndessen Farben von den vielen Trunkenen Gästen kruz nach Sperrstunde herrührt.\n
 RES_03_22
 Der Mann, der hier lebt, hat\nein Labor im Keller, wo er\nversucht, einen sauberen\nBrennstoff zu entwickeln.\nNiemand weiss, wo er die\nRohmaterialien her hat, aber\ner verbringt viel Zeit in den\numliegenden Parks und kehrt\nimmer mit frischem\nNachschub nach Hause zurück.\n
 RES_03_27
-In der Dragoner-Kaserne\nwohnen nur Männer - Frauen\nsind hier unerwünscht.\n\n\n\n\n
+In der Dragoner-Kaserne\nwohnen nur Männer - Frauen\nsind hier unerwünscht.\n\n
 RES_03_31
-Die unterste Wohnung ist\nziemlich dunkel, nachdem\nderen Fenster einer\nPlakatwand geopfert worden\nsind.\n\n\n
-RES_03_32
-Zwei Altstadthäuser mit\nvielen Erkern. Die Bewohner\nsind überwiegend Studenten.\n\n\n\n\n
+Die unterste Wohnung ist\nziemlich dunkel, nachdem\nderen Fenster einer\nPlakatwand geopfert worden\nsind.\n\n
 RES_03_33
-Eine Eule als Sinnbild für die\nWeisheit.\n\n\n\n\n\n
+Eine Eule als Sinnbild für die\nWeisheit.\n\n
 RES_03_34
-Mietskaserne der 70'er\n\n\n\n\n\n\n
+Mietskaserne der 70'er\n\n
 RES_03_38
-Eine Metallplastik, die von\nAuswärtigen des öfteren mit\neinem Abfallkübel\nverwechselt wird, trotz\nAufschrift "Hier kein Abfall".\n\n\n
+Eine Metallplastik, die von\nAuswärtigen des öfteren mit\neinem Abfallkübel\nverwechselt wird, trotz\nAufschrift "Hier kein Abfall".\n\n
 RES_03_39
-Unter dem Ritter Conrad von\nWasserfluh erhielt der Ort das\nMarktrecht.\n\n\n\n\n
+Unter dem Ritter Conrad von\nWasserfluh erhielt der Ort das\nMarktrecht.\n\n
 RES_04_20
-Stadtpalais\n\n\n\n\n\n\n
+Stadtpalais\ndes alten Großmoguls von Hechterdingen, erreichten aus den Erlösen seinen Einweckgummimonopols.\n
 RES_05_01
 Wohncontainer findet man in\nden armen Teilen der Stadt.\nHier leben Menschen, die das\nSchicksal hart getroffen hat\noder einfach nur die Nase voll\nvom normalen Leben haben. Das\nwichtigste, was man hier\nbraucht, ist ein Fernseher.\n
 RES_05_02
@@ -1297,15 +1119,11 @@ Ein typisches Einfamilienhaus\nmit einem kleinen Garten für\nBlumenliebhaber. De
 RES_05_06
 Das ist zwar eher eine Baracke\nals ein Haus, aber wenn man\neine kleine "Armee" zu Hause\nhat, ist es genau das richtige.\nDas Haus ist komplett aus Holz\ngebaut. Die Kinder haben zwar\nnur einen grossen Schlafraum, \naber sie kümmern sich nicht\ndarum, denn es ist wichtiger,\nein Auge auf die\nNachbarskinder zu haben....\n
 RES_05_07
-Unspektakuläres\nEinfamilienhaus. Es gibt nichts\ndarüber zu berichten. Die\nBewohner haben keine\nLeichen im Keller.\n\n\n
-RES_05_08
-Ein selbstgebautes Haus für 6\nPersonen. Die obere Etage\nbesteht ausschliesslich aus\nSchlafzimmern. In der unteren\nEtage befinden sich dann\nWohnzimmer, Küche und Bad.\nWenn die Kinder eines Tages\nihren Führerschein machen,\nwird der Hausherr merken,\ndass eine Garage nicht genug\nist.\n
+Unspektakuläres\nEinfamilienhaus. Es gibt nichts\ndarüber zu berichten. Die\nBewohner haben keine\nLeichen im Keller.\n\n
 RES_05_09
 Ein Haus für grössere Familien\nim typischen Stil\neingeschossiger Gebäude. Da\nLand zum Bauzeitpunkt wenig\nkostete, war es billiger, ein\nHaus mit grosser Grundfläche,\nanstatt eines mehrstöckigen\nHauses zu bauen.\n
-RES_05_10
-3 Reihenhäuser, wie man sie\nin kleineren Städten\nvorfindet. Sie bieten die\nMöglichkeit, günstig an die\neigenen 4 Wände zu kommen.\nMan kennt sich, und die Kinder\nspielen zusammen. Hier ist die\nWelt noch heile.\n
 RES_05_11
-Wohl der einzige Teich, an\ndem Angeln noch nicht\nverboten ist.\n\n\n\n\n
+Wohl der einzige Teich, an\ndem Angeln noch nicht\nverboten ist.\n\n
 RES_05_12
 Ein Haus mit eingebauter\nGarage. Alles praktisch unter\neinem Dach. Falls die Familie\ngegen alle Erwartungen doch\nwächst, muss die Garage\neinem weiteren Schlafraum\nweichen.\n
 RES_05_13
@@ -1329,7 +1147,7 @@ Ein Wohnblock der Stadt.\nEinige der Wohnungen sind\nSozialwohnungen, d.h. sie s
 RES_05_22
 Das Gästehaus einer grossen\nFirma. Es hat mehrere kleine\nWohnungen, zwei grosse\nGemeinschaftsräume und\neinen Fernsehraum. Gäste aus\nanderen Städten oder\nLändern, die für eine längere\nZeit in der Firma arbeiten,\nkönnen hier günstig wohnen.\n
 RES_05_24
-Was haben Sie vermutet, was\ndieses Gebäude sein könnte?\nHaben Sie schon an ein Alters-\nund Pflegeheim gedacht?\n\n\n\n
+Was haben Sie vermutet, was\ndieses Gebäude sein könnte?\nHaben Sie schon an ein Alters-\nund Pflegeheim gedacht?\n\n
 RES_05_25
 Das rote Dach und die grüne\nFassade sind das\nMarkenzeichen der populären\nHotelkette "SimuGutNacht".\nVon Zimmer mit Frühstück bis\nzu 5 Sternen bietet die Kette\nfür jeden etwas Passendes.\n
 RES_05_27
@@ -1339,19 +1157,19 @@ Ein Haus mit günstigen\nWohnungen. Aber es wurde\nschon lange nicht mehr\ninvest
 RES_05_30
 Seltsamerweise hat das\nGebäude über viele\nJahrzehnte kein Aufsehen\nerregt, bis sich herausgestellt\nhat, dass Willi Wiegold, der\nGründer der\nWiegold-Schnellrestaurants,\nwährend der Gründung seines\nUnternehmens in diesem\nBlock gewohnt hat. Es ist\nsomit die Geburtsstätte des\nWiegold-Konzerns.\n
 RES_06_01
-Die Bewohner des kleinen\nHauses sind auch mehr\nunterwegs als zuhause.\n\n\n\n\n
+Die Bewohner des kleinen\nHauses sind auch mehr\nunterwegs als zuhause.\n\n
 RES_06_02
 Das kleine Wohnhaus ähnelt\njenem, in dem die Besitzer\nfrüher wohnten. Sie sind mit\nihren Nachbarn nie gut\nausgekommen; hier haben sie\njetzt keine mehr.\n\n
 RES_06_03
 Das tyische Haus eines\nAutonarrs. Sein Baby hat exakt\nden gleichen Platz wie er\nselbst. Ausserdem kann man\neine grosse Terrasse erkennen.\nMan kann dort tagein, tagaus\nsitzen und vorbeigehende\nLeute beobachten (falls man\nnicht gerade mit seinem Baby\ndurch die Gegend düst).\n
 RES_06_04
-Ein kleines Heim mit einer\nkleinen Garage für ein kleines\nAuto.\n\n\n\n\n
+Ein kleines Heim mit einer\nkleinen Garage für ein kleines\nAuto.\n\n
 RES_06_05
 Zwei kleine Holzhäuschen,\nwelche eigentlich nur für\nSingles geeignet sind (mit\noder ohne Kinder). Die\nNachbarschaftsverhältnisse\nsind mehr als gut.\n\n
 RES_06_06
 Haus "Junger Friese" hat 2 \nkleine Wohnungen. Beide\nParteien besitzen ein Stück\ndes Gartens. Probleme kann es\neigentlich nur geben, wenn\nsich die eine Familie einen\nHund kauft und die andere eine\nKatze. Mit ein bisschen Glück\nwird dies nie eintreten.\n
 RES_06_07
-Eine Blockhütte, die der\nBewohner mit Holz aus seinem\neigenen Wald bauen liess.\n\n\n\n\n
+Eine Blockhütte, die der\nBewohner mit Holz aus seinem\neigenen Wald bauen liess.\n\n
 RES_06_08
 Haus "Waldstolz" bietet Raum\nfür eine durchschnittliche\nFamilie. Es hat einen eigenen\nGarten, in welchem man seine\nFreizeit geniessen oder\nspielen kann. Im Obergeschoss\nbefinden sich ein Estrich und\nein ruhiges Arbeitszimmer.\n
 RES_06_09
@@ -1361,21 +1179,21 @@ Ein neueres Haus mit grosser\nFensterfront im Wohnzimmer.\nNichts für Leute, die
 RES_06_11
 Der künstlich angelegte See\nmit Springbrunnen ist ein sehr\nfriedliches Plätzchen. Im\nSommer finden sich viele\nLeute ein, setzen sich ins Gras\nund lesen, während sie die\nSonne und das Plätschern des\nWassers geniessen. Ursprünglich\nwar das Betreten des Rasens\nverboten, aber angesichts der\nvielen Leute wurde das Verbot\nbald aufgehoben.\n
 RES_06_12
-Einfaches Einfamilienhaus mit\nallem, was man braucht.\n\n\n\n\n\n
+Einfaches Einfamilienhaus mit\nallem, was man braucht.\n\n
 RES_06_13
 Ein Ferienhaus im\nsüdländischen Stil. Irgendein\nreicher Mann kaufte das Haus,\ndas damals noch ausserhalb\nder Stadt lag, um aus seiner\nengen Stadtwohnung\nauszubrechen. Heute ist es von\nweiteren Häusern umringt, aber\nimmer noch ein ruhigerer Ort\nals die Stadtwohnung.\n
 RES_06_14
-Das kleine Wohnhaus ist die\nSchöpfung eines Architekten,\nder bei der Arbeit ziemlich\nmüde war.\n\n\n\n
+Das kleine Wohnhaus ist die\nSchöpfung eines Architekten,\nder bei der Arbeit ziemlich\nmüde war.\n\n
 RES_06_15
-In Rotterstraße 11 wird noch\ngebaut. Gerade wird das Dach\ngedeckt, und nächstens wird\nein Öltank in die Grube\neingelassen.\n\n\n
+In Rotterstraße 11 wird noch\ngebaut. Gerade wird das Dach\ngedeckt, und nächstens wird\nein Öltank in die Grube\neingelassen.\n\n
 RES_06_16
-Rohbau eines\nMehrfamilienhauses.\n\n\n\n\n\n
+Rohbau eines\nMehrfamilienhauses.\n\n
 RES_06_17
 Ein Mehrfamilienhaus mit\neinigen Wohnungen. Gebaut aus\nNaturstein, was die Heizkosten\nsenken soll. Die Miete ist\ndeshalb etwas höher als\nanderswo. Man braucht schon\neine gewisse ökologische\nGrundhaltung, um die\nMehrkosten zu akzeptieren.\nWill man alles richtig machen,\nsollte man dann auch ein\nFahrrad anstatt eines Autos\nbesitzen.\n
 RES_06_18
-Das Minergiehaus hat grosse\nund gut abgedichtete Fenster,\ndamit möglichst mehr Licht\nund Wärme ins Haus hinein- als\nhinausgelangt.\n\n\n
+Das Minergiehaus hat grosse\nund gut abgedichtete Fenster,\ndamit möglichst mehr Licht\nund Wärme ins Haus hinein- als\nhinausgelangt.\n\n
 RES_06_19
-Eine der kleineren, aber dafür\numso romantischeren\nPensionen der Hotelkette\n"SimuGutNacht".\n\n\n\n
+Eine der kleineren, aber dafür\numso romantischeren\nPensionen der Hotelkette\n"SimuGutNacht".\n\n
 RES_06_21
 Nachdem der Besitzer des\nWohnblocks das Lied "Goldene\nRosen" gehört hat, wollte er\nden Block ebenfalls goldfarben\nverputzen lassen. Leider war\nnur dieses recht triste Gelb\nverfügbar, und lange nicht alle\nBewohner sind glücklich über\ndie Farbwahl.\n
 RES_06_22
@@ -1384,8 +1202,6 @@ RES_06_24
 Das bunte Treiben in den\nLadengeschäften stört die\nMiter des Winkelhauses sicher\nnicht. Doch sprechen sie die\nLeute besser nicht auf die\njüngst erfolgte Stillegung der\nUmgehungsstraße an. Und das\nnur, weil der Bürgermeister\neinen Platz für ein Denkmal\nbenötigte - sein Denkmal.\n
 RES_06_25
 Oh ja, laut geht es in dem\netwas ringhörigen Haus oft zu\nund her: Wenn im Erdeschoss\ndie Griechen abends festen,\nlädt der Bewohner im 1.\nStock seine Combo zum\nProben ein, worauf im 2.\nStock der Hobbyspengler\nebenfalls wieder munter wird.\nDennoch kommt es nicht zum\nStreit: Die Griechen haben\nMusik zum Fest, und die\nCombo hat ein Metronom.\n
-RES_06_27
-Wohnhaus (MHz)\n\n\n\n\n\n\n
 RES_06_30
 Das Vorstadtgeschäftshaus\nbietet in den beiden oberen\nEtagen je eine Wohnung für die\nkinderreiche Familie und je\nein Apartment mit der Auflage\n"nur an älteres Ehepaar oder\nan ältere Dame zu vermieten".\nDie Snob GmbH führt Erlesenes\nbis hin zu den sehr selten\ngewordenen Chelcea-Toys.\n
 RES_06_31
@@ -1395,7 +1211,7 @@ Zwei Etagen Garagen und\nPlätze zur Autopflege sind das\nFundament, auf dem sowo
 RES_06_33
 Da nach dem Abriss des\nangebauten Nachbarhauses eine\nkahle Brandschutzmauer zum\nVorschein kam, wollte man\netwas zur Verschönerung\nunternehmen. Die örtliche\nBrauerei "Klosterbrunnen"\nhatte dabei nicht gerade die\noriginellste Idee, aber die\nfinanziell lukrativste - ein\nriesiges Werbefresko.\n
 RES_06_34
-Ein vierschrötiger Wohnblock\nohne Balkone. Die Luft in der\nStadt ist sowieso ungesund,\nalso kann man sich Balkone\ngenausogut sparen.\n\n\n
+Ein vierschrötiger Wohnblock\nohne Balkone. Die Luft in der\nStadt ist sowieso ungesund,\nalso kann man sich Balkone\ngenausogut sparen.\n\n
 RES_06_35
 Ein Billig-Wohnhaus. Günstige\nWohnungen ohne jeden\nKomfort. Einige Leute haben\nsich selbst eine billige\nKlimaanlage gekauft. Das alte\nHaus ist nicht besonders\nsauber, aber die Menschen\nkönnen sich keine andere\nWohnung leisten.\n
 RES_06_36
@@ -1405,13 +1221,13 @@ Ein Wohnblock typisch für die\nZeit, in dem\nWohnungsknappheit herrschte.\nSchne
 RES_06_38
 Die grossräumigen Wohnungen\nmit Gourmetküchen und\nautomatischen\nReinigungsgeräten sollten\neigentlich zahlungskräftige\nLeute anziehen. Doch das\nGebäude wurde an einer\nunglücklichen Lage errichtet:\nSeit die Anflugroute über dem\nGebäude liegt, müssen\nBewohner mit billigen\nWohnungen angelockt werden.\n
 RES_06_40
-Das mausgraue Äussere des\nGebäudes steht in Kontrast\nzum bunten Innenleben: Überall\nGrafitti aus den letzten 30\nJahren.\n\n\n
+Das mausgraue Äussere des\nGebäudes steht in Kontrast\nzum bunten Innenleben: Überall\nGrafitti aus den letzten 30\nJahren.\n\n
 RES_06_41
-Versicherungskammer\n\n\n\n\n\n\n
+Versicherungskammer\n\n
 RES_06_42
 Ein Haus mit billigen Wohnungen.\nDie oft ausländischen Mieter\nhaben zum Haus auch nicht\nunbedingt Sorge getragen, und\nweil sowieso immer alles\nkaputtgeht, lässt der\nVerwalter auch nicht mehr\nalles reparieren.\n
 RES_06_43
-Ein Mietshaus für 64 Parteien.\nIn Realität sieht das Haus\nallerdings weniger dunkel und\nwuchtig aus, als die Zeichnung\nvermuten lässt.\n\n\n
+Ein Mietshaus für 64 Parteien.\nIn Realität sieht das Haus\nallerdings weniger dunkel und\nwuchtig aus, als die Zeichnung\nvermuten lässt.\n\n
 RES_06_44
 Der wunderschöne\nLandschaftsgarten um das Haus\nherum ist das Werk der\nLangzeitbewohnerin Agnes\nHildebrand. Sie weigert sich,\njemandem das Geheimnis\nihrer Kunst weiterzugeben\nsondern sagt immer nur, es\nliege am richtigen Dünger.\n
 RES_06_48
@@ -1431,15 +1247,15 @@ Auf den ersten Blick scheint\nauf dem Dach eine Klimaanlage\ninstalliert zu sein
 RES_06_60
 Nur besser Verdienende\nkönnen sich Wohnungen in\nechten Terassenhäusern\nleisten. Und wer ist schon\nbesserverdienend? Architekt\nMalewitz ersann ein\nHochhauskonzept, mit dem\nbeinahe erschwinglicher\nWohnraum für die werktätigen\nBevölkerungsschichten\nrealisiert werden kann.\n
 RES_07_01
-Was wie ein kleines Haus\naussieht, ist ein ziemlich\ngrosser Wohnwagen. Zum\nFahren lässt er sich noch\netwas zusammenklappen.\n\n\n
+Was wie ein kleines Haus\naussieht, ist ein ziemlich\ngrosser Wohnwagen. Zum\nFahren lässt er sich noch\netwas zusammenklappen.\n\n
 RES_07_02
 Das wirklich kleine Haus wird\nim Prospekt als Winkelbungalow\nangepriesen. Aber wenigstens\nlebt man in den eigenen vier\nWänden an einem warmen\nPlätzchen.\n\n
 RES_07_03
 Das Haus des Rentnerehe-\npaares Schnuckenschäfer\nstellt eine wahre Augenweide\ndar. Am Fischteich ist ein\nschattiges Plätzchen, wo sie\nverweilen und den Fischen\nzusehen.\n
 RES_07_04
-Wenn die Bewohnerin des\nHauses nicht arbeitet, ist sie\ndennoch selten zuhause -\nentweder trainiert sie, oder\nsie tanzt im Ausgang.\n\n\n
+Wenn die Bewohnerin des\nHauses nicht arbeitet, ist sie\ndennoch selten zuhause -\nentweder trainiert sie, oder\nsie tanzt im Ausgang.\n\n
 RES_07_05
-Eine Garage für zwei Häuser.\nDie Nachbarn kennen sich gut;\nman hat regen Kontakt, wenn\nder andere wieder einmal sein\nAuto wegstellen sollte.\n\n\n
+Eine Garage für zwei Häuser.\nDie Nachbarn kennen sich gut;\nman hat regen Kontakt, wenn\nder andere wieder einmal sein\nAuto wegstellen sollte.\n\n
 RES_07_06
 Ein sehr individuelles Gebäude\nganz nach dem Geschmack\ndes Bauherren. Aber\nGeschmäcker ändern sich mit\nder Zeit, und schon seit\nlängerem möchte er das Haus\nverkaufen. Besichtigt haben\ndas Haus schon viele, aber\nzugesagt hat es noch\nniemandem.\n
 RES_07_07
@@ -1447,7 +1263,7 @@ Im Hirtenweg 27 wohnen\nalteingesessene Alt-68er. Die\nHäuschen sehen zwar fast\
 RES_07_08
 Das Haus ist neu und der Baum\nnoch jung. Aber schon bald\nwird er das Haus überragen und\nuns den Blick darauf\nversperren. Betrachten Sie es\nalso genau!\n\n
 RES_07_09
-Der Eingang durch die Garage\nund zwei Türen ist\ngelegentlich mühsam, dafür\nist der Wärmeverlust im Winter\nviel geringer.\n\n\n
+Der Eingang durch die Garage\nund zwei Türen ist\ngelegentlich mühsam, dafür\nist der Wärmeverlust im Winter\nviel geringer.\n\n
 RES_07_10
 In dem Winkelhäuschen\nwohnen Jugendliche, die ihre\nFreizeit hauptsächlich mit\nComputerspielen verbringen.\nWenn Sie also einem Schüler\nmit viereckigen Augen\nbegegnen, könnte er hier\nwohnen.\n
 RES_07_12
@@ -1457,27 +1273,21 @@ Dies ist das Versteck des\nmeistgesuchten Verbrechers\nin Simutrans. Er glaubt, 
 RES_07_14
 Ein Doppelhaus ist billiger zu\nbauen als zwei getrennte\nHäuser. Aber wenn man\ngemerkt hat, dass der Nachbar\nTrompeter bei der Stadtmusik\nist, kommt man bald zur\nEinsicht, am falschen Ort\ngespart zu haben.\n
 RES_07_15
-Das Einfamilienhaus wirkt\nprotziger, als es seine\nBewohner sind.\n\n\n\n\n
+Das Einfamilienhaus wirkt\nprotziger, als es seine\nBewohner sind.\n\n
 RES_07_16
 Der Traum eines jeden\nMenschen: ein eigenes Haus\nmit Garten und\nSchwimmbecken. Die\nSteuerbelastung durch das\nObjekt in der\nFiskus-Geier-Straße ist aber\neher ein Albtraum.\n
 RES_07_17
 Ziegelbau mit Blechdach ist\neine Kombination, die im Bild\nzwar schön aussieht, aber der\nBesitzer kann davon nur\nabraten: Man hört sofort, wenn\nes regnet, und immer wieder\nfindet das Wasser einen Weg ins\nGebäudeinnere.\n
 RES_07_18
-Im Obergeschoss wohnt ein\nSammler von alten Computern;\nwelches Gerät hat er wohl\ngerade in Betrieb?\n\n\n\n
-RES_07_19
-Wohnhaus (MHz)\n\n\n\n\n\n\n
+Im Obergeschoss wohnt ein\nSammler von alten Computern;\nwelches Gerät hat er wohl\ngerade in Betrieb?\n\n
 RES_07_21
 Jeder Bewohner des\nspartanisch anmutenden\nGebäudes fährt einen\nKleinwagen. Zum Glück, sonst\nwäre nicht genug Platz für\nalle Fahrzeuge.\n\n
-RES_07_22
-Wohnhaus (MHz)\n\n\n\n\n\n\n
-RES_07_24
-Wohnhaus (MHz)\n\n\n\n\n\n\n
 RES_07_25
 Sie sollten vielleicht nicht nur\nschauend und bewundernd\ndurch die Vorstadt\nschlendern. Besuchen Sie\nruhig auch die\nLadengeschäfte. In Eleks\nFeinkostladen werden\nZitteraale im eigenen Strom\nangeboten. Plaudern Sie auch\nruhig mit den freundlich\nwirkenden Hausbewohnern. Von\nihnen können Sie noch viel\nwichtigeres über die Gegend\nerfahren.\n
 RES_08_10
-Der Bauherr hatte die\nPhilosophie, dass jedes Heim\neine Veranda haben sollte, wo\nman sich mit der Familie oder\nmit Freunden vergnügen kann.\n\n\n
+Der Bauherr hatte die\nPhilosophie, dass jedes Heim\neine Veranda haben sollte, wo\nman sich mit der Familie oder\nmit Freunden vergnügen kann.\n\n
 RES_08_11
-Japanischer Garten, ausgelegt\nnach den Prinpien von Ying und\nYang.\n\n\n\n\n
+Japanischer Garten, ausgelegt\nnach den Prinpien von Ying und\nYang.\n\n
 RES_08_12
 In der Wiesenstraße 19 wohnt\neine junge, umweltbewusste\nFamilie, die bewusst auf ein\neigenes Auto verzichtet.\nDamit das so bleibt, muss der\nöffentliche Verker gut\nfunktionieren.\n
 RES_08_13
@@ -1486,40 +1296,26 @@ RES_08_14
 Weil das Haus einem Künstler\ngehört, wurde es leicht\nschräg gebaut, damit\nPassanten immer wieder\ndarüber diskutieren, ob dies\noder das gerade oder schief\nist.\n
 RES_08_15
 Auch wenn viele Räume etwas\ndunkel sind, ermöglichen die\nWohnungen im Haus "Pueblo"\nangenehmes Wohnen. Im\nSommer werden die\nBewohner auch schon mal\nbeneidet.\n
-RES_08_16
-Wohnhaus (RVg)\n\n\n\n\n\n\n
 RES_08_17
 In dem solide gebauten\nBlocksteinhaus wohnt unter\nanderem auch ein Zahnarzt,\nder in seiner Freizeit gerne\nwerkt. Bei den Kindern im Haus\nheisst er aber nicht nur\ndeshalb "Dr. Bohrmaschine".\n
 RES_08_18
 In dem gefällig wirkenden\nWohnhaus wurde eine Wohnung\nfrei. Der Vermieter hat einem\njungen Ehepaar auf Druck\nanderer Mieter gekündigt, als\nbekannt wurde, dass sie\nschwanger ist.\n
 RES_08_21
-Drei kleine Wohnungen und ein\nParkplatz bietet das\ndreigeschossige Wohnhaus. Für\nAlleinstehende vermutlich\neine gute Wahl.\n\n\n
+Drei kleine Wohnungen und ein\nParkplatz bietet das\ndreigeschossige Wohnhaus. Für\nAlleinstehende vermutlich\neine gute Wahl.\n\n
 RES_08_31
-Der Block ist gerade noch\nklein genug, dass sich alle\nBewohner kennen.\n\n\n\n\n
+Der Block ist gerade noch\nklein genug, dass sich alle\nBewohner kennen.\n\n
 RES_08_32
 Der viele Blumenschmuck an\ndem Haus ist für alle\nBetrachter eine Zier. Doch im\nHaus herrscht blanker Neid,\nwenn die Geranien der\nNachbarin schöner blühen als\ndie eigenen.\n
-RES_08_34
-Wohnhaus (RVg)\n\n\n\n\n\n\n
-RES_08_36
-Wohnhaus (RVg)\n\n\n\n\n\n\n
 RES_08_43
 Die grössten Wohnungen in dem\ntristen Wohnblock haben 2\nZimmer. Familien leben hier\nkeine. Jeder geht seinen\neigenen Weg, und untereinander\nkennt man sich kaum.\n\n
-RES_09_35
-Wohnblock\n\n\n\n\n\n\n
 RES_10_01
-Der Andrang an dem kleinen\nPicknickplatz richtet sich\nganz nach dem Wetter.\n\n\n\n\n
+Der Andrang an dem kleinen\nPicknickplatz richtet sich\nganz nach dem Wetter.\n\n
 RES_10_02
 Nettes kleines Haus. Man sieht\nsolche Häuser, wenn man\ndurch die Vororte von\nStädten fährt. Obwohl immer\nein Auto in der Garage parkt,\nsieht man nie einen Menschen\nam Haus.\n
 RES_10_03
 Ein Beispiel für seltsame\nmoderne Architektur. Man hat\nwohl vergessen, Fenster in\nden Vorderteil zu bauen. Nun\nkönnte man es leicht für eine\nArt Lagerhaus halten, wenn die\nBlumen im Garten nicht eine\nandere Geschichte erzählen\nwürden.\n
-RES_10_04
-Ein grösseres Einfamilienhaus.\nEinige Menschen machen sich\ndarüber lustig, dass es wie ein\nContainer aussieht. Aber was\nstört es den Besitzer? Er hat\nschliesslich den Pool. Sieht\nman sich die geometrischen\nFormen so an, so kann man\ndavon ausgehen, dass hier\nhöchstwahrscheinlich ein\nMathematiker wohnt.\n
 RES_10_05
-Die beiden Reihen- häuschen\naus Holz sind eine Alternative\nfür ärmere Leute, die nicht in\nihrem Wohnanhänger versauern\nwollen.\n\n\n
-RES_10_06
-Ein grosses Dach ohne Haus. Die\nspezielle Gebäudeart findet\nman vor allem in Wäldern. Es\ngibt etwas Wohnraum unten und\neinen Raum für\nSchlafgelegenheiten oben. Man\nsollte auf seinen Kopf\naufpassen, wenn man nach oben\ngeht.\n
-RES_10_07
-Ein Haus für Leute mit einem\nhohen Standard. Alles ist\nmodern und stylisch. So gibt\nes also viele weisse Wände\nmit wertvollen Bildern.\nAusserdem gibt es eine Bar\nund eine riesige Küche. Die\nBewohner schätzen ihre\nPrivatsphäre. Somit gibt es\nentweder einen grossen Hund\noder ein grosses Tor.\n
+Die beiden Reihen- häuschen\naus Holz sind eine Alternative\nfür ärmere Leute, die nicht in\nihrem Wohnanhänger versauern\nwollen.\n\n
 RES_10_08
 Mittelgrosses Haus für eine\nkleine Familie und ein Haustier.\nDas Ziegelsteinhaus wird die\nEinwohner vorm pustenden\nWolf beschützen. Ausserdem\nhat es eine Terrasse vor der\nTür, perfekt um ein paar\nStühle dort aufzustellen.\nWieder ein gutes Beispiel für\nein günstiges einstöckiges\nGebäude.\n
 RES_10_09
@@ -1530,10 +1326,8 @@ RES_10_12
 Dem Bewohner des sehr\nnüchtern gehaltenen\nBausatzhauses sind schnelle\nAutos wichtiger als schönes\nWohnen. Und weil er kaum\nzuhause ist, stört es ihn noch\nweniger, dass sein Haus auch\nvon innen einen so eintönigen\nEindruck wie von aussen\nmacht.\n
 RES_10_13
 Jeremias' Autowerkstatt\nkaufte das Haus, damit sich\nliegengebliebene\nAutomobilisten einquartieren\nkönnen, während der Wagen\nrepariert wird. Aber die Preise\nsind viel zu hoch, so dass die\nBetten meist leer bleiben.\n
-RES_10_14
-Eigentlich kann sich niemand\nmehr dran erinnern, wann\ndiese Form der Architektur\nmal "cool" war. Leuchtend\nrote Wände und Gras auf dem\nDach?? Man hört manchmal\nMusik aus den späten\nsechziger Jahren von dort.\nKönnte das ein Hinweis sein?\n
 RES_10_15
-In dem soliden Blocksteinhaus\nwohnen zwei Familien, die gut\nmiteinander auskommen.\n\n\n\n\n
+In dem soliden Blocksteinhaus\nwohnen zwei Familien, die gut\nmiteinander auskommen.\n\n
 RES_10_16
 Über die Geschichte des\nHauses in der Sägewerkstraße\nund seiner Bewohner könnte\nman ein Buch schreiben. Jeder\nneue Bewohner hat es noch\nein bisschen ausgebaut, und\nmittlerweile dokumentiert es\ndie Baugeschichte der\nletzten 80 Jahre.\n
 RES_10_17
@@ -1542,8 +1336,6 @@ RES_10_18
 Das weiss verputzte\nKontergiebelhaus zeigt sich als\nBeispiel für moderne\nArchtitektur. Es umgeht die\nklassischen Formen des\nHausbaus. Über den beiden\nEtagenwohnungen befindet\nsich ein Studio. Die grossen\nFenster sorgen für helle\nRäume. Im Studio lassen sich\ntolle Partys feiern.\n
 RES_10_19
 Falls deine Frau viel Platz will\nund einen grossen Balkon oder\nTerasse, dann könnte das Haus\nvom Zeichenbrett eines\ntessiner Architekten die\nLösung sein. Es gibt niemals\nSchatten auf dem Balkon an\nsonnigen Tagen, da sich das\nHaus darunter befindet.\nAllerdings braucht man eine\nrichtige Putzkolonne für\nsolch ein grosses Haus (mit\nder richtigen Erziehung sollten\nKinder reichen).\n
-RES_10_21
-Wohnhaus (MHz)\n\n\n\n\n\n\n
 RES_10_22
 Ein Notar liess sich einst ein\nHaus bauen, das sehr auf seine\nBedürfnisse und seine grosse\nFamilie samt Hausangestellten\nzugeschnitten war. Die\nunzeitgemässe Einteilung des\nGebäudes ist mit ein Grund,\nweshalb es schon seit\nlängerem leer steht.\n
 RES_10_24
@@ -1561,7 +1353,7 @@ Das rote Fertighaus hat schon\nüber 15-mal den Preis\n"Vorplatz des Monats"\ngew
 RES_11_04
 Herrn Dillmann kann man oft\nbeim Autowaschen unter\nseinem Ahorn auf dem\nVorplatz antreffen. Im Herbst\nwäscht er seinen Wagen\nmanchmal mehrmals am Tag,\nwenn ihn fallende Blätter\nständig aufs neue\nverschmutzen.\n
 RES_11_05
-Zwei Reihenhäuschen aus Holz\n- spottbillig, aber wegen des\nrosaroten Anstrichs will\ntrotzdem niemand dort\nwohnen.\n\n\n
+Zwei Reihenhäuschen aus Holz\n- spottbillig, aber wegen des\nrosaroten Anstrichs will\ntrotzdem niemand dort\nwohnen.\n\n
 RES_11_06
 Hans kaufte die Hütte, ohne zu\nwissen, dass sie bereits von\neinem Geist bewohnt ist. Er\nschläft deshalb oft im Büro,\ndenn der Geist will die ganze\nNacht mit ihm Karten spielen.\n\n
 RES_11_09
@@ -1569,27 +1361,19 @@ Der Bewohner des\nWinkelhauses hat seine Garage\neiner riesigen Modelleisenbahn\
 RES_11_10
 Das Windrad verleiht dem Haus\nmit dem dominierenden\nBalkon einen zusätzlichen\nHauch von wildem Westen. Und\nin der Wüste steht es auch -\nin der Betonwüste.\n\n
 RES_11_12
-Zwei Häuser im Chalet-Stil.\nUnd in jeder Wohnung hängt\neine Kuckucksuhr.\n\n\n\n\n
+Zwei Häuser im Chalet-Stil.\nUnd in jeder Wohnung hängt\neine Kuckucksuhr.\n\n
 RES_11_13
 Die Wände des Winkelhauses\nsind aus Kunststoffelementen,\nein neuartiges System zum\nschnellen Errichten von\nGebäuden. Der Grundriss kann\nallerdings nicht verändert\nwerden.\n
-RES_11_14
-Der Mann aus dem Haus mit\ndem eigenwilligen Pultdach\nhat ein besonderes Hobby:\nRasenmähen! Wieso\nausgerechnet Rasenmähen?\nNun, eigentlich ist er\nFormel-1-Fan, aber da er sich\nkein derartiges Rennauto\nleisten kann, bringt ihn der\nLärm des Rasenmähermotors\nin die entsprechende\nStimmung.\n
 RES_11_15
 In dem roten Backsteinhaus\nwohnt der vierte Cousin eines\nberühmten Königs. Er wird\nvermutlich nie König werden,\nalso arbeitet er weiterhin als\nKoch.\n\n
 RES_11_17
 Der versetzt gebaute\nWohnkomplex wurde auf dem\nGelände eines ehemaligen\nParks errichtet. In dem Park\nlebten Eichhörnchen, und als\ndas Haus stand, sind sie\nebenfalls in die Dachwohnung\neingezogen. Gelegentlich\nerschrecken sie die\nBewohner nachts mit ihren\nGeräuschen.\n
 RES_11_18
-In dem riesengrossen\nEinfamilienhaus wohnen lauter\ndicke Leute. Wären sie auch\nso dick, wenn sie ein\nkleineres Haus hätten?\n\n\n
+In dem riesengrossen\nEinfamilienhaus wohnen lauter\ndicke Leute. Wären sie auch\nso dick, wenn sie ein\nkleineres Haus hätten?\n\n
 RES_11_19
-Die Waldhütte gehört dem\nJagdverein. Meistens wird\ndarin aber gefestet und nicht\ngejagt.\n\n\n\n
-RES_11_20
-Wohnhaus (MHz)\n\n\n\n\n\n\n
-RES_11_21
-Wohnhaus (RVg)\n\n\n\n\n\n\n
+Die Waldhütte gehört dem\nJagdverein. Meistens wird\ndarin aber gefestet und nicht\ngejagt.\n\n
 RES_11_22
 In dem Gebäude, welches uns\nunweigerlich an das Land der\naufgehenden Sonne denken\nlässt, wollten schon manche\nein chinesisches Restaurant\neröffnen. Die Lage wäre\ndurchaus gut, nur die\nBausubstanz lässt einen\nsolchen Ausbau nicht zu, so\ndass dem Besitzer nichts\nanderes übrig bleibt, als\nweiterhin unpraktische\nWohnungen zu geringen Mieten\nanzubieten.\n
-RES_11_24
-Mietshaus\n\n\n\n\n\n\n
 RES_11_25
 Solche Reihenmehr-\nfamilienhäuser für\nFabrikarbeiter wurden zu\nBeginn der Industrialisierung\nmassenweise gebaut.\nMittlerweile sind viele wieder\nverschwunden, dies ist eines\nder wenigen übriggebliebenen.\n
 RES_11_29
@@ -1598,8 +1382,6 @@ RES_11_30
 Im Obergeschoss residiert der\nHausbesitzer, Herr Rebani, der\nwohl bekannteste Winzer weit\nund breit. Der Verputz des\nHauses zeigt die Farben der 5\nJahreszeiten aus der\nSichtweise des Weinkenners.\nDie Farben eines gesunden\nBodens und des erlesenen\nRotweines dominieren. Auch\nWachstum, Reife und die Zeit\ndes Eisweins sind vertreten.\nAllerdings stand Hausmeister Erlwein\nnicht so sehr stabil auf seinen\nBeinen, als er die Information gab. 5\nJahreszeiten?\n
 RES_11_31
 Die beiden Häuser sind viel\nälter, als es die\nPlattenverkleidung vermuten\nlässt. Sogar die\nZwischenböden sind noch aus\nHolz, und wo sich der\nBewohner in der Wohnung\ndarüber gerade befindet, ist\nkein Geheimnis.\n
-RES_11_32
-Wohnhaus (MHz)\n\n\n\n\n\n\n
 RES_11_33
 Der innovative Gebäudeentwurf\nbeinhaltet einen\nSonnenkollektor auf dem\nDach, der alle\nWärmebedürfnisse befriedigt,\nund die grosse Oberfläche\nsorgt im Sommer für Kühlung.\nEin sehr energieeffizientes\nHaus.\n
 RES_11_40
@@ -1607,15 +1389,13 @@ In der Jahnstraße 19 wohnen\ninsbesondere junge Leute, die\ngerade von zu Hause\
 RES_11_41
 Möchten Sie einmal einen\nWohnblock mit Wendeltreppe\nerleben? Dann können Sie sich\nglücklich schätzen, wenn Sie\numsonst in das beigefarbene\nGebäude gelangen können -\ndie Bewohner verlangen von\nFremden, die die Treppe\nsehen wollen, nämlich\nEintritt!\n
 RES_11_45
-Die beiden oberen Etagen\nbilden das Penthouse. Dazu\ngehört auch eine großzügige\nDachterrasse, auf der man\ncoole Partys feiern kann.\n\n\n
+Die beiden oberen Etagen\nbilden das Penthouse. Dazu\ngehört auch eine großzügige\nDachterrasse, auf der man\ncoole Partys feiern kann.\n\n
 RES_11_46
 Das architektonische Wunder\nsieht eher wie Kunst als wie\nein Wohnhaus aus. Die Mieter\nwohnen hier sehr gerne, denn\nes hat einen gewissen Status,\nin so einem berühmten\nGebäude zu wohnen.\n
 RES_11_47
 Die Einbuchtungen auf jeder\nSeite des Blocks machen es\nerst möglich, Wohnungen so\neinzuteilen, dass sie auch\nwohnlich eingerichtet werden\nkönnen.\n\n
 RES_11_50
 Als das Gebäude "Trikky"\ngebaut worden ist, wurde es in\nFachkreisen wegen seines\ninnovativen Entwurfs und seiner\nfortschrittlichen Technik\ngerühmt. Der Bau wurde\nbehindert, weil das\nArchäologische Institut der\nUniversität auf dem\nGrundstück eine\nsteinzeitliche Feuerstelle\nvermutet hatte. Nach\nzweijährigen Grabungen, Termin- und\nKostenüberschreitungen sind den\nArchäologen aber nur drei\nFlaschendeckel und eine alte\nZahnbürste in die Hände gefallen.\n
-RES_11_51
-Sie denken, die leuchtende\nFarbe des respektablen\nBlockes würde viele\nnektarsuchende Insekten\nanlocken? Ziehen Sie\nmindestens in die sechste\nEtage. Sie werden einige\naktive Mitglieder des\nörtlichen Tierschutzbundes\nkennenlernen.\n
 RES_11_58
 Es war schon immer Ihr\nTraum, rund um die Uhr dem\nmunteren Treiben in einer\nWarteschleife zusehen zu\nkönnen? Die Lage ist günstig.\nIn der Turmstraße 83 wurde\ngerade eine Wohnung in der\nobersten Etage\nzwangsgeräumt. Der Mieter\nhatte aus verständlichen\nGründen über Jahre versäumt,\nseine Miete pünktlich zu\nbezahlen.\n
 RES_11_59
@@ -1631,139 +1411,45 @@ Traditionelles Wohnhaus. Drei\nGenerationen einer Familie\nwohnen noch unter ein
 RES_12_10
 Sie kennen die soliden\nLeistungen der Firma\nBlockhouse noch nicht?\nBesichtigung des Musterhauses\njeweils Mo - Do, 16:00 -\n20:00 Uhr und nach\nVereinbarung. Telefon:\n0815/4711\n
 RES_12_12
-Wenn man ganz genau hinsieht,\nerkennt man, dass das Haus auf\nPfählen steht. Bei heftigem\nRegen stand das Grundwasser\nauch schon im Keller.\n\n\n
+Wenn man ganz genau hinsieht,\nerkennt man, dass das Haus auf\nPfählen steht. Bei heftigem\nRegen stand das Grundwasser\nauch schon im Keller.\n\n
 RES_12_13
-Bungalowsiedlung\n\n\n\n\n\n\n
-RES_12_14
-Wohnhaus (Propermike)\n\n\n\n\n\n\n
+In der Bungalowsiedlung\nist jeder seines Quaders Glückes Schmied.\n
 RES_12_15
-Ehemalige Fabrik für\nHaushaltswaren\n\n\n\n\n\n
-RES_12_16
-Wohnhaus (MHz)\n\n\n\n\n\n\n
-RES_12_17
-Wohnhaus (RVg)\n\n\n\n\n\n\n
-RES_12_18
-Wohnhaus (MHz)\n\n\n\n\n\n\n
+Ehemalige Fabrik für\nHaushaltswaren\n\n
 RES_12_19
-Alter Brauereihof\n\n\n\n\n\n\n
-RES_12_20
-Mehrfamilienhaus\n\n\n\n\n\n\n
+Alter Brauereihof\n\n
 RES_12_21
-Wohnhaus mit kleiner Werkstatt\n\n\n\n\n\n\n
-RES_12_22
-Wohnblock\n\n\n\n\n\n\n
-RES_12_24
-Mehrfamilienhaus\n\n\n\n\n\n\n
-RES_12_25
-Wohnhaus (MHz)\n\n\n\n\n\n\n
+Wohnhaus mit kleiner Werkstatt\n\n
 RES_12_30
 Reihenblock. Mieter Müller\ngibt immer wieder Anlass zu\nKlagen, wenn seine exotischen\nHaustiere die Freiheit\ngenießen und ängstliche\nMitbewohner zu Hausarrest\nverdammen.\n
-RES_12_32
-Wohnhaus\n\n\n\n\n\n\n
-RES_13_12
-Kleines Schilfhaus\n\n\n\n\n\n\n
-RES_13_13
-Künstlerateliers\n\n\n\n\n\n\n
-RES_13_14
-Zweifamilienhaus\n\n\n\n\n\n\n
-RES_13_15
-Backsteinhaus\n\n\n\n\n\n\n
-RES_13_16
-Swimming Pool\n\n\n\n\n\n\n
-RES_13_17
-Wohnhaus (MHz)\n\n\n\n\n\n\n
-RES_13_18
-Genossenschaftsblock\n\n\n\n\n\n\n
-RES_13_20
-Arbeiterhäuschen\n\n\n\n\n\n\n
-RES_13_21
-Sozialbau\n\n\n\n\n\n\n
-RES_13_22
-Sozialwohnungen\n\n\n\n\n\n\n
-RES_13_24
-Backsteinbau\n\n\n\n\n\n\n
-RES_13_25
-Wohnhaus (MHz)\n\n\n\n\n\n\n
-RES_13_31
-Wohnhaus (Mhz)\n\n\n\n\n\n\n
-RES_13_32
-Wohnhaus\n\n\n\n\n\n\n
 RES_13_46
-Das wildes Design des\nÜbergangsheims für Ex-Junkies\nbietet den Bewohnern genug\nFlash-Backs, so dass sie\nnichts vermissen.\n\n\n
+Das wildes Design des\nÜbergangsheims für Ex-Junkies\nbietet den Bewohnern genug\nFlash-Backs, so dass sie\nnichts vermissen.\n\n
 RES_13_60
 Gewidmet Kermit, dem\nFrosch: Das "Es ist nicht\nleicht, grün zu sein"-Haus! Ein\nMagnet für alle Grün-Liebhaber\naus Nah und Fern. Die\nvielfältigen Grünschattierungen\nder Fassade und die\ngedämpften Grüntöne der\nInnenausstattung lassen\nerahnen, warum das so ist.\n
-RES_14_13
-Künstlergilde\n\n\n\n\n\n\n
-RES_14_14
-Experimentelles\nNachkriegshaus\n\n\n\n\n\n
-RES_14_16
-Übergangswohnheim\n\n\n\n\n\n\n
-RES_14_17
-Wohnhaus (L17) (RVg)\n\n\n\n\n\n\n
-RES_14_18
-Wohnhaus\n\n\n\n\n\n\n
-RES_14_20
-Wohnhaus\n\n\n\n\n\n\n
-RES_14_21
-Wohnhaus\n\n\n\n\n\n\n
-RES_14_22
-Wohnhaus\n\n\n\n\n\n\n
-RES_14_24
-Wohnhaus\n\n\n\n\n\n\n
-RES_14_31
-Wohnhaus\n\n\n\n\n\n\n
-RES_15_13
-Wohnhaus\n\n\n\n\n\n\n
-RES_15_14
-Wohnhaus\n\n\n\n\n\n\n
-RES_15_16
-Wohnhaus\n\n\n\n\n\n\n
 RES_15_17
-Villa Sommerfeld\n\n\n\n\n\n\n
-RES_15_20
-Wohnhaus\n\n\n\n\n\n\n
-RES_15_21
-Wohnhaus\n\n\n\n\n\n\n
-RES_15_22
-Wohnhaus\n\n\n\n\n\n\n
-RES_15_31
-Wohnhaus\n\n\n\n\n\n\n
-RES_16_14
-Wohnhaus\n\n\n\n\n\n\n
-RES_16_16
-Wohnhaus\n\n\n\n\n\n\n
-RES_16_20
-Wohnhaus\n\n\n\n\n\n\n
-RES_16_21
-Wohnhaus\n\n\n\n\n\n\n
-RES_17_16
-Wohnhaus\n\n\n\n\n\n\n
-RES_17_20
-Wohnhaus\n\n\n\n\n\n\n
-RES_17_21
-Wohnhaus\n\n\n\n\n\n\n
+Villa Sommerfeld\n\n
 rmax_clock_tower
 Uhrenturm\n\nDieser Uhrenturm verfügt über ein\nungewöhnliches Design.\nManche denken es wurde von\nden Ruinen des Turms zu Fabel\ninspiriert, aber es handelt sich\ntatsächlich vielmehr um ein\nmodernes Bauwerk und es\nträgt eine der genauesten\nUhren der Simuwelt.\n
 rmax_courthouse
-Gerichtsgebäude\n\nHier wird Recht gesprochen.\n\n\n\n\n\n
+Gerichtsgebäude\n\nHier wird Recht gesprochen.\n\n
 rmax_DenkManualTeam
 Fackel der Erleuchtung\n\nDieses Denkmal gilt all jenen, die\ndas Simutrans-Wiki, Hilfetexte\nim Spiel und andere\nHandbücher erstellen und\npflegen, und damit helfen,\nLicht in die Mysterien von\nSimutrans zu bringen.\n\nDanke!\n
 rmax_dictator_statue
 Der Gütige Diktator\n\nDer gütige Diktator (mit Hand in\nder Weste) - so viele\nJungfrauen sind zu Füßen\ndieser Statue bereits in\nOhnmacht gefallen, dass das\nGesundheitsministerium eine\nAbsperrkette errichten ließ.\nLeider ohne Erfolg. Viele\nAnwohner glauben nun dieses\nDenkmal strahle eine seltsame,\nfremdartige (Fruchtbarkeits-)\nKraft aus...\n
 rmax_fabio_bust
-Fagonellus Romanus\n\n\n\n\n\n\n\n
+Fagonellus Romanus\n\n
 rmax_icarus
-Raketenstartgelände Icarus\n\n\n\n\n\n\n
+Raketenstartgelände Icarus\n\n
 rmax_mosque
 As-Salâm Moschee\n\nJedes mal wenn der Muezzin von\nden hohen Minaretten singt,\nversammeln  sich die\nmoslemischen Simuthaner um\nhier zu beten. As-Salâm ist\neiner der 99 Namen Allahs und\nbedeutet "Der Frieden".\n
 ROCK_0
-Der Felsen\n\nMan muss ihn gesehen haben.\n\n\n\n\n\n
+Der Felsen\n\nMan muss ihn gesehen haben.\n\n
 RUIN_0
 Ruine\n\nBurg Leuchtenfels\n\nNoch immer sind wesentliche\nTeile erkennbar, die das\nmittelaterliche Leben in der\nAnlage lebendig erhalten.\n\n
 RUIN_1
 Schlossruine\n\nNach den Aufzeichnungen in alten\nChroniken konnte der\nSchlossherr, Graf von\nEichenhain alle Schlachten\nsiegreich führen - bis auf\neine.\n
 Russian_Cathedral
-Russische Kirche\n\n\n\n\n\n\n
+Russische Kirche\n\n
 Secession_Chapel
 Secession Kapelle
 sh_oasis_seasons
@@ -1782,8 +1468,6 @@ st_benedict_church
 St. Benedikt Kirche\n\nDiese Kirche ist eine der\nschönsten in der ganzen\nSimuwelt. Viele Touristen\nkommen um sie zu bestaunen,\ndeutlich weniger um dort\nauch zu beten.\n
 ST_PETER
 St. Peter Kirche\n\nNachdem Sie - die erlesenen\nSchnitereien am Opferstock\ngebührend gewürdigt haben,\nwird Ihnen Bischof Herdinand\ngern seinen Segen spenden und\nSie voller demütigem Stolz zu\nden mächtigen Orgelpfeifen\nführen. Sie müssen an das\nWunder im 13. Jahrhundert\nnicht einmal glauben. Sie\nsehen ja, das Material der\nPfeifen ist auf Erden vollkommen\nunbekannt.\n
-SUSHI_HOSPITAL
-Kreiskrankenhaus\n\nSie werden keinen Arzt und\nkeinen Professor jüngeren\nAlters entdecken können. Die\nSpezialisten verfügen über\nderart hohe Berufserfahrung,\ndass sie in keiner anderen\nEinrichtung noch eine\nAnstellung hätten finden\nkönnen.\n
 Suspended_Monorail_Bahnhof_Modern
 Moderner Schwebebahn-Bahnhof
 Terminal1930_AirportBlg
@@ -1807,9 +1491,9 @@ Tramdepot
 TRIUMPH
 Triumphbogen\n\nDer Prachtbau stammt noch aus\nder Römerzeit und erfährt\nregelmäßige und sorgfältige\nDenkmalspflege. - Das\nMonument steht in Kiel? Sie\nbewundern gerade uralte,\ngermanische Baukunst.\n
 TV_TOWER_0
-Fernsehturm\n\n\n\n\n\n\n
+Fernsehturm\n\n
 TV_TOWER_1
-Fernsehturm\n\n\n\n\n\n\n
+Fernsehturm\n\n
 Very_Big_Terminal
 Flughafenabfertigungshalle (3x3)
 VictorianStation
@@ -1824,40 +1508,26 @@ WOODEN_CHURCH
 Alte Kapelle\n\nLängst wurde der kleine, aber\ndennoch ehrwürdige Bau zu\neiner großen\nSehenswürdigkeit. Die\nMalereien eines begnadeten\nLaienkünstlers sind perfekt\nerhalten, obwohl niemals ein\nRestaurator Hand an sie gelegt\nhat.\n
 #__________________________________dummy_info___________________________________
 #__________________________________dummy_info___________________________________
-factory_autoshop3_details
-<title>Autohaus</title>\n\nLeider sind noch keine Details vorhanden!
 factory_bakery_details
 <title>Großbäckerei</title>\n\nLeckere Brote und Schrippen werden hier am laufenden Band von Nachts bis zum frühen Vormittag für die Simuaner hergestellt.
 factory_brewery_details
 <title>Brauerei</title>\n\nHier wird das Getreide in schmackhaftes Bier vergoren.
-factory_cannery_details
-<title>Dosenfabrik</title>Leider sind noch keine Details vorhanden!
-factory_car_assembly_plant_details
-<title>Autohersteller</title>\n\nAutomobilfabrik
-factory_car_dealer_details
-<title>Autohaus</title>\n\nAutohändler
 factory_Cementmill_details
 <title>Zementfabrik</title>\n\nHier wird der Zement hergestellt, der für den Bau der Simutranshäuser gebraucht wird.
 factory_chicken_farm_details
 <title>Hühnerhof</title>\n\nHier wird nicht nur das Fleisch der Hühner, sondern auch der Mist verkauft.\n
-factory_classical_goods_factory_details
-<title>Fertigwarenfabrik</title>\n\nLeider sind noch keine Details vorhanden!
 factory_Concretefactory_details
 <title>Betonwerk</title>\n\nBetonteile, die im Baustoffhandel verkauft werden, werden hier produziert.
 factory_cornfield_details
 <title>Kornfeld</title>\n\nAuf diesem landwirtschaftlichem Getreidefeld wird Korn angebaut. Das Korn wird in der Ethanolfabrik zu Ethanol verarbeitet.\n
 factory_cotton_farm_w_fields_details
-<title>Bauernhof mit Baumwollfeldern</title>\n\n\nDie Baumwolle von diesem Feld wird dringend in der Textilfabrik gebraucht.
-factory_cotton_field_details
-<title>Baumwollplantage</title>\n\nAus der Baumwolle von diesem Feld werden Kleidungsstücke in der Textilfabrik hergestellt.\n\n
+<title>Bauernhof mit Baumwollfeldern</title>\n\nDie Baumwolle von diesem Feld wird dringend in der Textilfabrik gebraucht.
 factory_cow_farm_details
 <title>Bauernhof (Rinder)</title>\n\nEin Bauernhof mit grossen Ställen, in denen die örtlichen Rinderherden die Nächte und die Winter verbringen. Ausgestattet mit modernsten Melkanlagen und Fütterungsmethoden. Aber hier wird viel Wert auf natürliches Futter und artgerechte Tierhaltung gelegt.
 factory_dairy_details
 <title>Molkerei</title>\n\nHier wird Milch in Gläsern abgefüllt und verkauft.
 factory_Druckerei_details
 <title>Druckerei</title>\n\nHier wird die Stadtzeitung gedruckt.
-factory_electronics_factory_details
-<title>Elektronikfabrik</title>\n\nLeider sind noch keine Details vorhanden
 factory_Erzbergwerk_details
 <title>Erzbergwerk</title>\nEin Erzbergwerk im Tagebau. Die ergiebigsten Eisenerzlager befinden sich in geologisch alten Gesteinsschichten; sie entstanden, als die ersten Photosynthesealgen die Meere mit Sauerstoff anreicherten und das im Meer gelöste Eisen sich als Rost auf den Stränden und auf dem Meeresgrund absetzte.
 factory_ethanol_plant_details
@@ -1866,56 +1536,24 @@ factory_fish_pond_details
 <title>Fischzuchtanlage</title>\nBei einigen Fischarten, vor allem Lachsen, lohnt sich ein Zuchtbetrieb.
 factory_fish_swarm_details
 <title>Fischschwarm im Meer</title>\nReiche Fischgründe galten lange Zeit als unerschöpfliche Nahrungsquelle, doch manche gelten heute als überfischt. In den grossen Schleppnetzen der industriellen Fischerei verfangen sich auch immer wieder geschützte Tiere.
-factory_food_processing_plant_details
-<title>Lebensmittelfabrik</title>\nLeider sind noch keine Details vorhanden.
-factory_Glass_factory_details
-<title>Glasfabrik</title>\nLeider sind noch keine Details vorhanden.
-factory_grain_farm_details
-<title>Getreidehof</title>\nHauptanbaugebiete für Weizen sind die winterkalten Schwarzerdegebiete der gemässigten Klimazone (Norden der USA, Ukraine), wo Getreidefelder gigantische Ausmasse annehmen können.
-factory_grain_farm_w_fields_details
-<title>Getreidehof</title>\n\nLeider sind noch keine Details vorhanden!
-factory_grain_mill_details
-<title>Getreidemühle</title>\nLeider sind noch keine Details vorhanden.
-factory_Kohlekraftwerk_details
-<title>Kohlekraftwerk</title>\nThermische Kraftwerke mit Kohlefeuerung bilden in manchen Ländern das Rückgrat der Stromversorgung, auch wenn viele Kraftwerke mittlerweile mit Öl oder Gas befeuert werden. Die Hitze der Kohlefeuerung bringt Wasser zum Kochen, das dann eine Dampfturbine antreibt, die an die Generatoren gekoppelt ist.
-factory_Materialswholesale_details
-<title>Baustoffhandel</title>\nAlle Arten von Baumaterialien sind auf diesem Gelände erhältlich. Mindestens im Rohbau sollten Sie ein Haus fertigstellen können, ohne einen anderen Lieferanten als diesen Baumarkt beziehen zu müssen. 
-factory_modern_fuel_station_details
-<title>Tankstelle</title>\n\nLeider sind noch keine Details vorhanden!
 factory_Moebelfabrik_details
 <title>Möbelfabrik</title>\nAuch Möbel sind Modetrends unterliegende Massenware geworden. Kaum ein Möbelstück aus dieser Fabrik ist noch durch die Hände eines echten Möbelschreiners gegangen, und dann meist auch nur, weil die Maschine nicht genau das gemacht hat, was sie sollte.
 factory_Moebelhaus_details
 <title>Möbelhaus</title>\nWie erhöht man die Rendite pro Verkaufsfläche? Man verkauft die Möbel in Einzelteilen, zusammengelegt in Schachteln, und lässt sie von den Käufern zuhause zusammenbauen.
-factory_Nutzwald_details
-<title>Nutzwald</title><h1>Nutzwald Details</h1><p>In den Wäldern wächst der wichtigste nachwachsende Roh-, Bau- und Werkstoff sowie Energieträger Holz heran, der durch die Forstwirtschaft bereitgestellt und durch die Holz- und Papierwirtschaft in hochwertige Marktprodukte umgewandelt wird.</p>
 factory_Oelbohrinsel_details
 <title>Ölbohrinsel</title>\nDie Ölbohrinseln wurden in der 2. Hälfte des 20. Jahrhunderts entwickelt, als die Landressourcen den Ölbedarf nicht mehr decken konnten. Die Ölbohrinseln bohren riesige Öllagerstätten im Kontinentalschelf (0-200m unter dem Meer) an. Durch den dort vorherrschenden Druck kommt das Öl dann ohne menschliches Zutun in die Lager der Ölbohrinsel, die sich meist direkt über dem Meeresgrund befinden.
 factory_Oelfeld_details
 <title>Ölfeld</title><h1>Ölfelder</h1><p>Öl ist ein Rohstoff, der für Lacke, Schmierstoffe und auch als Brennstoff für die Heizung bis zum Ende des 19. Jahrhunderts benutzt wurde. Danach wurde es sehr wichtig durch den Boom von Verbennungsmotoren und Autos.</p><p><br><br>\nÖl ist eine Flüssigkeit, bestehend aus mehreren Kolenwasserstoffen. Es ist unklar, wie genau die Ölvorkommen entstanden, wahrscheinlich war es ein ähnlicher Prozess wie bei Kohlevorkommen, aber mit einigen zusätzlichen Bedingungen - unter hohem Druck und ohne Sauerstoff. Sie liegen mehrere hundert Meter tief. Öl ist normalerweise zusammen mit Gas unter hohem Druck, was es erleichtert es mit Pumpen an die Oberfläche zu fördern. <p>
 factory_oilkraftwerk_details
 <title>Ölkraftwerk</title>\nThermische Kraftwerke mit Ölfeuerung bilden in manchen Ländern das Rückgrat der Stromversorgung. Die Hitze der Ölfeuerung bringt Wasser zum kochen, das dann eine Dampfturbine antreibt, die an die Generatoren gekoppelt ist.
-factory_old_powerplant_kraftwerk_details
-<title>Kohlekraftwerk</title>\n\nLeider sind noch keine Details vorhanden!
-factory_open_coal_mine_details
-<title>Kohlenzeche (Tagebau)</title>\n\nLeider sind noch keine Details vorhanden!
 factory_Papierfabrik_details
 <title>Papierfabrik</title>\nPapier besteht aus Zellstoff, der aus Holz gewonnen wird. Damit Papier wirklich weiss wird, muss es zusätzlich gebleicht werden.
-factory_publisher_details
-<title>Buchverlag</title>\n\nLeider sind noch keine Details vorhanden!
 factory_Raffinerie_details
 <title>Raffinerie</title>\nIn einer Raffinerie werden die Rohölbestandteile getrennt. Leichte Bestandteile werden zu Benzin, schwerere zu Heizöl, Dieselkraftstoff, Schmierstoffen und dergleichen. Die Nachfrage nach Benzin ist jedoch relativ grösser, als das Erdöl leichte Bestandteile enthält; durch Cracken (lange Molekülketten werden in kurze aufgebrochen) kann dieses Missverhältnis korrigiert werden.
 factory_Saegewerk_details
 <title>Sägewerk</title>\nBaumstämme werden auf die vom Abnehmer gewünschte Grösse zugeschnitten. Ein ringförmig angelegtes Holzlager kann darüber hinaus die Lärmbelastung für die Nachbarschaft verringern. Bis Holz zu Brettern verarbeitet werden kann, muss es nach dem geschlagen werden noch einige Jahre trocknen.
-factory_Sandquarry_details
-<title>Sandgrube</title>\nHier wird Sand abgebaut. Sand findet im Straßenbau, in der Glasherstellung, in Betonwerken und weiteren Industrien Verwendung.
-factory_shaft_coal_mine_details
-<title>Kohlenzeche</title>\n\nLeider sind noch keine Details vorhanden.
 factory_sheep_farm_details
-<title>Bauernhof (Schafe)</title>\nSollten Sie beim Simutrans spielen tatsächlich einmal eingeschlafen sein, haben sie wohl die Schafe auf der Grafik gezählt...
-factory_shopping_mall_details
-<title>Einkaufszentrum</title>\n\nLeider sind noch keine Details vorhanden!
-factory_steel_mill_details
-<title>Stahlwerk</title>\n\nLeider sind noch keine Details vorhanden!
+<title>Bauernhof (Schafe)</title>\nSollten Sie beim Simutrans spielen tatsächlich einmal eingeschlafen sein, haben sie wohl die Schafe auf der Grafik gezählt ...
 factory_Stonequarry_details
 <title>Steinbruch</title>\nWas in einem Steinbruch gemacht wird, ist eigentlich klar: Steine werden aus dem kompakten Fels gebrochen, heute meist mit Hilfe von Sprengladungen. Das Bild zeigt einen Steinbruch, der sich in die Tiefe frisst, in Berggegenden werden Steinbrüche oft in eine bestehende Felswand vorgetrieben.
 factory_supermarket_details
@@ -1956,14 +1594,10 @@ cornfield
 Kornfeld
 cotton_farm_w_fields
 Bauernhof mit Baumwollfeldern
-cotton_field
-Baumwollfeld
 cow_farm
 Bauernhof (Rinder)
 dairy
 Molkerei
-electronics_factory
-Elektronikfabrik
 ethanol_plant
 Ethanolfabrik
 fish_pond
@@ -1976,14 +1610,10 @@ ForestPlantation
 Forstwirtschaft
 Glass_factory
 Glasfabrik
-grain_farm
-Getreidehof
 grain_farm_w_fields
 Getreidehof
 grain_mill
 Getreidemühle
-Materialswholesale
-Baustoffhandel
 MaterialsWholesales
 Materialgroßhandel
 meat_packing_plant
@@ -2009,8 +1639,6 @@ Buchverlag
 Saegewerk
 Sägewerk
 sand_quarry_dd
-Sandgrube
-Sandquarry
 Sandgrube
 shaft_coal_mine
 Kohlenzeche
@@ -2038,10 +1666,6 @@ waste_incinerator_kraftwerk
 Müllverbrennungsanlage
 wind_kraftwerk
 Windkraftwerk
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
-grain_field
-Getreidefeld
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 beer
@@ -2124,6 +1748,8 @@ monorail vehicle
 Schwebebahnwagen
 Monorailboden
 Erhöhter Verkehrsweg
+Monoraildepot
+Schwebebahndepot
 Monorailhalt
 Schwebebahnhalt
 Monorailhalt muss auf\nMonorail liegen!\n
@@ -2154,8 +1780,6 @@ choose_point
 Haltepunktauswahl
 choose_signal_monorail
 Gleiswahlsignal (Schwebebahn)
-choosesign_digital_jp
-Haltepunktauswahl (digital)
 ChooseSignals
 Gleiswahlsignal
 Classic_ChooseSignals_right
@@ -2210,162 +1834,42 @@ traffic_light
 Verkehrsampel
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
-cactus000
-Saguaro-Kaktus\n\n\n\n\n\n\n
-cactus001
-Saguaro-Kaktus\n\n\n\n\n\n\n
-cactus002
-Kaktus\n\n\n\n\n\n\n
 palm010
-Palme\n\n\n\n\n\n\n
+Palme\n
 palm011
-Palme\n\n\n\n\n\n\n
-tree020
-Baum\n\n\n\n\n\n\n
-tree021
-Baum\n\n\n\n\n\n\n
-tree022
-Baum\n\n\n\n\n\n\n
-tree023
-Baum\n\n\n\n\n\n\n
-tree024
-Baum\n\n\n\n\n\n\n
-tree025
-Baum\n\n\n\n\n\n\n
-tree030
-Baum\n\n\n\n\n\n\n
-tree031
-Baum\n\n\n\n\n\n\n
-tree032
-Baum\n\n\n\n\n\n\n
-tree040
-Baum\n\n\n\n\n\n\n
-tree041
-Baum\n\n\n\n\n\n\n
-tree042
-Baum\n\n\n\n\n\n\n
-tree050
-Baum\n\n\n\n\n\n\n
-tree051
-Baum\n\n\n\n\n\n\n
-tree052
-Baum\n\n\n\n\n\n\n
-tree060
-Baum\n\n\n\n\n\n\n
-tree061
-Baum\n\n\n\n\n\n\n
-tree062
-Baum\n\n\n\n\n\n\n
-tree063
-Baum\n\n\n\n\n\n\n
-tree070
-Baum\n\n\n\n\n\n\n
-tree071
-Baum\n\n\n\n\n\n\n
-tree072
-Baum\n\n\n\n\n\n\n
-tree080
-Baum\n\n\n\n\n\n\n
-tree081
-Baum\n\n\n\n\n\n\n
-tree082
-Baum\n\n\n\n\n\n\n
-tree083
-Baum\n\n\n\n\n\n\n
-tree090
-Baum\n\n\n\n\n\n\n
-tree091
-Baum\n\n\n\n\n\n\n
-tree100
-Baum\n\n\n\n\n\n\n
+Palme\n
 tree110
-Bergfichte\n\n\n\n\n\n\n
-tree120
-Baum\n\n\n\n\n\n\n
-tree121
-Baum\n\n\n\n\n\n\n
-tree122
-Baum\n\n\n\n\n\n\n
-tree130
-Baum\n\n\n\n\n\n\n
-tree131
-Baum\n\n\n\n\n\n\n
-tree132
-Baum\n\n\n\n\n\n\n
-tree133
-Baum\n\n\n\n\n\n\n
-tree140
-Baum\n\n\n\n\n\n\n
+Bergfichte\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnel
 Eisenbahntunnel
-RoadTunnel
-Straßentunnel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
-1Ben140
-E-Lok Bennhardt B-140
-1Bens155
-E-Lok Bennhardt B-155
 1Benst134
 D-Lok Bennhardt B-134 "Pixie"
 1Benst135t
 D-Lok Bennhardt B-135 "Gremlin"
 1Benst138
 W-Lok Bennhardt B-138 "Apple"
-1Benst161
-D-Lok Bennhardt B-161 "Turbo"
 1Benst162t
 D-Lok Bennhardt B-162 "Jet"
-1Benst181
-D-Lok Bennhardt B-181 "Gelding"
 1Benst238
 W-Lok Bennhardt B-238 "Frosch"
-1Benst281
-D-Lok Bennhardt B-281 "Arbeitspferd"
 1Dampflokomotive
 Dampflok H-Trans 0-4-0T
 20ft_Container_Trailer-128set
 20-Fuß Containerauflieger
 2Diesellokomotive
 D-Lok "BR 218"
-3Bens185
-E-Lok Bennhardt 185 "Santa"
 3Bens186t
 E-Lok Bennhardt B-186 "Zitrone"
 3Dampflokomotive
 Dampflok RVg 0-3-0
 40ft_Container_Trailer
 40-Fuß Containerauflieger
-451_Head
-E-Triebwagen MEZ 451
-451_Tail
-MEZ 451 (Triebwagen hinten )
-451_Waggon
-MEZ 451 (Passagierwagen)
-471_Head
-E-Triebwagen "CKD-Skoda 471"
-471_Tail
-CKD - Skoda 471 Triebwagen hinten
-471_Waggon
-CKD - Skoda 471 (Passagierwagen)
-7BenE11
-E-Lok "Bennhardt E-11"
-Aeroqueen_JR_Bus_Kanto
-Bus Aeroqueen JR Kanto
 Airport_express_shuttle
 Flughafen-Express Shuttle-Bus
-AR4_back
-AR-4 Triebwagen hinten
-AR4_front
-E-Triebwagen AR-4 "Kikin"
-AR4_mid_engine
-AR-4 (Stromabnehmerwagen)
-AR4_mid_trainer
-AR-4 (Paasagierwagen)
-Asahi_Bus
-Bus "Asahi"
 Autotransportwagen
 Canonball Autotransporter
 BB-TS_Milk_Mack_Trailer
@@ -2374,16 +1878,12 @@ Big_Bretterwagen
 RVg Langholz- und Bretterwaggon
 Big_Erztruck
 MHz Muldenkipper
-Btx020
-Btx020 (Passagierwagen)
 Budd_Coach
 Budd RPO (Personenwagen)
 Budd_Observation
 Budd RPO (Schlusswagen)
 Budd_RPO
 Budd RPO (Post)
-Bulk_Ship_0
-PMNV Frachter (Schüttgut)
 Bulk_trailer_0
 Schüttgutanhänger
 Bulk_Truck_0
@@ -2394,12 +1894,6 @@ Bulk_Truck_3
 Lkw VSYS-Tatra 815 (Schüttgut)
 Bulk_Truck_4
 Lkw Volvo LV76-78 (Schüttgut)
-Bulker_Bulk
-BB Frachter (Schüttgut)
-Bulker_Steel
-BB Frachter (Stahl)
-Bulker_Wood
-BB Frachter (Bretter/Langholz)
 caboose_1
 Begleitwagen 1
 caboose_2
@@ -2420,8 +1914,6 @@ CB_ALBATROS
 Dampflok Skoda 498 "Albatros""
 CB_DB-130_8
 D-Lok "Canonball & H-Trans BR132"
-CD851
-D-Triebwagen OnD CD851
 Cement_Carrier_Fast
 Zementwaggon
 Cement_trailer_0
@@ -2434,10 +1926,6 @@ Cement_Waggon_1
 BB-PMNV Zementwagen
 Cementwagen
 SergeS Zementwagen
-Ceres_Tender
-Ceres Tender
-CKD_731
-D-Lok "CKD 731"
 CKD_749
 D-Lok "CKD 749"
 CKD_750
@@ -2450,8 +1938,6 @@ Concretewagen
 PMNV Beton Mischer
 Concretewagen_1
 Betonteilewaggon
-Container_Truck
-Container-LKW (Stückgut)
 Cooling_trailer_0
 PMNV Kühlanhänger
 Cooling_Truck_0
@@ -2466,14 +1952,6 @@ Cooling_wagon_1
 Canonball Kühlwagen
 Cooling_wagon_2
 Cannonball Kühlwagen
-D231_back
-D-231 Triebwagen hinten
-D231_front
-D-Triebwagen D-231 "Shy"
-D231_mid
-D-231 (Passagierwagen)
-Daisetsu_Maru
-Personenfähre "Daisetu Maru"
 DB_ADm101
 Haru-DB ADm101 (Speisewagen)
 DB_Apmz121
@@ -2482,56 +1960,20 @@ DB_Bm235
 DB Bm235 (Passagierwagen)
 DB_BR103_1
 E-Lok DB Baureihe 103
-Dc110
-D-Triebwagen "KIHA 110"
-Dc110_car
-KIHA 110 (Passagierwagen)
-Dc22
-D-Triebwagen "DC22"
 DueWAG_GT6_motorwaggon
 E-Triebwagen "Due WAG GT6"
 DueWAG_GT6_tailwaggon
 Due WAG GT6 (Passagierwagen)
 E_423
 E-Lok Sindor E 423 "Spitzenklasse"
-Eiden_Deo_903-KIRARA
-E-Triebwagen "Eiden-Deo 903-KIRARA"
-Eiden_Deo_904-KIRARA
-Eiden-Deo 904-KIRARA (Passagierwagen)
 EM400_1
 E-Triebwagen "Sindor-FK EM400"
 EMD_E5A_Silver_Meteor
 D-Triebwagen EMD E5A Silbermeteor (A)
 EMD_E5B_Silver_Comet
 D-Triebwagen EMD E5B Silberkomet (B)
-Europa_Car_Transporter
-TS-MHz Autotransporter "Europa"
-Europa_Goods_Transporter
-TS-MHz Containerschiff "Europa" 
-Evil_BR153
-D-Triebwagen Evil BR 153/155 "Sprinter"
-Evil_BR170_Back
-Evil BR 170 Treibwagen hinten
-Evil_BR170_Front
-D-Triebwagen Evil BR 170 "Turbostar"
-Evil_BR170_Mid
-Evil BR 170 (Passagierwagen)
-Evil_BR357_Back
-Evil BR 357 Triebwagen hinten
-Evil_BR357_Front
-E-Triebwagen Evil BR 357 "Electrostar"
-Evil_BR357_M
-Evil BR 357 (Passagierwagen)
-Evil_BR357_PT
-Evil BR 357 (Stromabnehmerwagen)
-Evil_Daimler_DMS_Londoner
-Evil-Daimler DMS Londoner
 Evil_DF-11
 D-Lok "Evil DF-11"
-Evil_Guy_Wulfrunian
-Evil-Guy Wulfrunian
-Evil_New_Flyer_D40-90
-Evil New Flyer D40-90
 Evil_P-100_(carriage)
 RVg P-100 (Passagierwagen)
 Evil_P-100_(front_engine)
@@ -2540,36 +1982,10 @@ Evil_P-100_(mail)
 RVg P-100 (Postwagen)
 Evil_P-100_(rear_engine)
 RVg P-100 Triebwagen hinten
-Evil_Scania_K94UB
-Evil-Scania K94UB
-Evil_Scania_K94UB_Liner
-Evil-Scania K94UB Liner
-Evil-AEC_RM
-Evil-AEC RM Doppelstockbus
-Evil-Cicu_L32_Liner
-Evil-Cicu L32 Liner
 Evil-Jitluen_67_Minibus
 Evil-Jitluen 67 Minibus
-Evil-Jitluen_Beluga_FA_MKD-12
-Evil-Jitluen Beluga FA MKD-12
-Evil-Jitluen_Beluga_FA_SR
-Evil-Jitluen Beluga FA SR
-Evil-Jitluen_Beluga_FA_SU-10
-Evil-Jitluen Beluga FA SU-10
 Express_tender
 Skoda-Tender
-Fabric_Hopper_0
-PMNV Güterwagen (Wolle/Weizen)
-Fabric_Hopper_1
-Canonball-PMNV (Wolle/Weizen)
-Fabric_Truck_0
-PMNV LKW (Weizen/Wolle)
-FastFerry
-Hovermarine HM527 Hovercraft
-Ferry_Mail_Extension
-Posterweiterung für Fähren
-Fishing_Boat_0
-LR Fischtrawler
 Fishing_Boat_1
 MHz Fischerboot
 Fluid_trailer_0
@@ -2584,16 +2000,6 @@ Fluid_Truck_2
 S.Kroytor ZUK-20 (Öl/Benzin)
 Fluid_Truck_3
 Magirus Öllaster 1923
-Freighter_Goods
-BB Containerschiff (Stückgut)
-FUSO_Aeromidi_Keio_Bus
-FUSO Aeromidi Keio Bus
-FUSO_Aerostar_Kanachu_Bus
-FUSO Aerostar Kanachu Bus
-GALA_Kanto_Railway
-GALA Kanto Railway
-Goods_schiff
-JET Stückgutfrachter
 Goods_trailer_0
 Mitsubishi Anhänger (Stückgut)
 Goods_trailer_1
@@ -2626,28 +2032,14 @@ Goods_waggon_4
 HS Containertragwagen
 Goods_waggon_5
 RVg Güterwagen
-Grain_Ship_0
-PMNV Getreidefrachter
 Grain_trailer_0
 PMNV Getreideanhänger
 Grain_Truck_1
 VSYS-Tatra 815 (Getreide)
-Grain_wagon_0
-Canonball Kippwagen (Getreide/Wolle)
-Grain_wagon_1
-Canonball Getreidewagen
 Haru_2C1_Cheetah
 Dampflok "2C1 Gepard"
 Haru_2D1_Buffalo
 Dampflok "2D1 Büffel"
-Haru_Boeing747-200
-Boeing 747-200
-Haru_Boeing747-200F_(CARGO)
-Boeing 747-200 Frachtflugzeug
-Haru_Boeing747-200F_(MAIL)
-Boeing 747-200 Postflugzeug
-Haru_Boeing747-400
-Boeing 747-400 Jumbo
 Haru_C44-9W
 D-Lok "C44-9W Dash"
 Haru_DF4
@@ -2728,30 +2120,12 @@ Haru-X2000_mid
 X2000 (Passagierwagen)
 Haru-X2000_rear
 X2000 Triebwagen hinten
-HIBARI-YS-11-100
-Hibari-YS-11-100
-HIBARI-YS-11A-200
-Hibari-YS-11A-200
-HIBARI-YS-11A-400_Cargo
-Hibari-YS-11A-400 Frachtflugzeug
-HIBARI-YS-11A-400_Mail
-Hibari-YS-11A-400 Postflugzeug
-HIBARI-YS-11A-500
-Hibari-YS-11A-500
-Highway_Postal_Truck
-MAN-LKW (Post)
-Hikyaku_Truck
-Hikyaku Lkw (Stückgut)
 Holzwagen
 Langholztransporter
 Holzwagen_0
 RVg Doppelwagen für Holz 
 Holzwagen_1
 RVg vierachsig Holzwagen
-ISUZU_Erga_Odakyu_Bus
-ISUZU Erga Odakyu Bus
-JNR_B6
-Dampflok "JNR B6"
 JNR_C11
 Dampflok "JNR SL C11"
 JNR_C62
@@ -2772,58 +2146,12 @@ JR_700_Shinkansen_HRS_(Pantograph_II)_PC
 JR 700 Series Shinkansen (Stromabnehmerwagen 2)
 JR_700_Shinkansen_HRS_(Tailcar)_PC
 JR 700 Series Shinkansen Triebwagen hinten
-JR_Shinkansen_723
-E-Triebwagen JR Shinkansen Series 700
-JR_Shinkansen_724
-JR Shinkansen Series 700 Triebwagen hinten
-JR_Shinkansen_725
-JR Shinkansen Series 700 (Stromabnehmerwagen)
-JR_Shinkansen_726
-JR Shinkansen Series 700 (Passagierwagen)
-JRF_EF210
-E-Lok JRF EF210 "Momotaro"
-JRW_281
-E-Triebwagen JRW 281
-JRW_281_Mid
-JRW 281 (Passagierwagen)
-JRW_281_tail
-JRW 281 Triebwagen hinten 
-JRW_Mc123
-E-Triebwagen 939-JRW Mc123
-kagoshima_U-tram
-Tramtriebwagen 713-Kagoshima
-Karl_MCW_Super_Metrobus_12m
-Karl-MCW Super Metrobus 12m
-Karl-MCW_Super_Metrobus_12M-158
-Karl-MCW Super Metrobus 12M 158
-Karl-MCW_Super_Metrobus_12M-214
-Karl-MCW Super Metrobus 12M 214
-KC-B10M_Keisei_Bus
-KC-B10M Keisei Bus (führende)
-KC-B10M_Keisei_Bus_Extension
-KC-B10M Keisei Bus (End)
-KEIFUKU_Mobo101
-Tramtriebwagen  KEIFUKU Mobo101
-KEIFUKU_Mobo301
-Tramtriebwagen KEIFUKU Mobo301
-KEIHAN_type80
-Tramtriebwagen KEIHAN type80
 Kord_TT_bulk
 Kord TT (Schüttgut)
-Kord_TT_fabric
-Kord TT Lkw (Weizen/Wolle)
 Kord_TT_grain
 Kord TT Lkw (Weizen/Wolle)
-Kuro-Neko_Truck
-Kuro-Neko Lkw (Stückgut)
-Leyland_Olympian
-Karl-Leyland Olympian 11M
 MA461_waggon
 RVg-DB MA-461 (Passagierwagen)
-Mack_Truck_0
-Sattelzugmaschine Teddy's Mack 
-Mack_Truck_2
-Sattelzugmaschine Mack 
 Mack_Truck_Cooling_Trailer
 Sattelauflieger Mack (Kühlwaren)
 Mack_Truck_Goods_Trailer
@@ -2854,10 +2182,6 @@ MHz-C11C_Bulk_Barge
 MHz C11C für Schüttgut
 MHz-C11C_Wood_Barge
 MHz C11C für Holz/Bretter
-MHz-C130_Hercules
-MHz C-130 Herkules (Fracht)
-MHz-C130_Hercules_(cooled)
-MHz C-130 Herkules (Gefriergut)
 MHz-C273U_Cement_Barge
 MHz C273U Zementfrachter
 MHz-C35_Goods_Barge
@@ -2866,16 +2190,6 @@ MHz-C3P_Post_Barge
 MHz C3P Postschiff
 MHz-CC47_Container_Barge
 Containerschiff MHz CC47 (Stückgut)
-MHz-Fokker_F27
-MHz Fokker F27
-MHz-Il-76_Candid
-Frachtflugzeug MHz Il-76 (Stückgut)
-MHz-Ju-51
-MHz Junkers Ju-51 Postflugzeug
-MHz-McDonnell-Douglas_DC10
-MHz-McDonnell Douglas DC-10
-MHz-McDonnell-Douglas_DC3
-MHz-Dakota DC3
 MHz-MT7_Milk_Barge
 Tankschiff MHz MT7 (Milch)
 MHz-OT5_Oil_Barge
@@ -2892,14 +2206,8 @@ Milk_Truck_1
 S.Kroytor-ZIL Milchwagen
 Milk_Truck_2
 Magirus Milchtankwagen
-Milk_Waggon_0
-BB Kesselwagen (Milch)
-Milk_Waggon_1
-BB Milchwagen
 mja-MAN19332-128set
 MAN 19332
-mja-ScaniaP380_fabrics
-Lkw Scania P380 (Wolle/Weizen)
 mja-ScaniaP380_tanker
 Tankwagen Scania P380 (Öl/Benzin)
 mja-ScaniaP420_concretemixer
@@ -2920,46 +2228,8 @@ mja-volvoVN660
 Sattelzugmaschine Volvo VN660
 mja-Zil130-128set
 Zil 130
-moha2100
-Tramtriebwagen Moha 2100
-Monatetsu_Steam_Ceres
-Dampflok "Monatetsu Ceres"
-MS_Hino_goods Truck
-Lkw MS-Hino (Stückgut)
 MS_sprinter_mail
 Mercedes-Benz Sprinter (Post)
-nankai21K_Front
-E-Triebwagen Nankai 21000 "Summer"
-nankai21K_Rear
-Nankai 21000 Triebwagen hinten
-Nankai6K_E
-Nankai 6000 Triebwagen hinten
-Nankai6K_M
-E-Triebwagen Nankai 6000
-Nankai6K_T
-Nankai 6000 (Passagierwagen)
-Nishitetsu_Truck
-Lkw Nishitetsu (Stückgut)
-Oeltankschiff
-LMP Öltanker
-Oelwagen
-Tankwagen Shorty-MAVA (Öl/Benzin)
-Oelwagen_0
-Tankwagen Shorty (Öl/Benzin)
-Oelwagen_1
-Tankwagen shorty139aj (Öl/Benzin)
-OER_D_3000_Head
-W-Triebwagen OER-D 30000
-OER_D_3000_Tail
-OER-D 30000 Triebwagen hinten
-OER_D_3000_Waggon
-OER-D 30000 (Passagierwagen)
-okaden_type9200_momo_A
-E-Triebwagen 713-Okaden 9200
-okaden_type9200_momo_B
-713-Okaden 9200 Triebwagen hinten
-Old_Ferry_0
-Dampfschiff "Graf Zeppelin"
 Passagierwagen
 Passagierwagen Canonball BTx 060 2.Klasse
 Passanger_waggon_0
@@ -2972,8 +2242,6 @@ Passanger_waggon_3
 Passagierwagen RA BTx 050 2.Klasse
 Passanger_waggon_MAITE39
 Passagierwagen JNR MAITE 39 1.Klasse
-Pelican_Truck
-Lkw Pelikan Laster (Stückgut)
 Planck_Truck_0
 Lkw PMNV-Canonball (Bretter/Langholz)
 Plank_Truck_2
@@ -2998,16 +2266,10 @@ PMNV_Cruiser_Mini
 PMNV Cruiser Mini
 PMNV_Fabric_Trailer_0
 PMNV Anhänger(Getreide,Wolle)
-PMNV_Fabric_Trailer_1
-PMNV Anhänger (Getreide,Wolle)
-PMNV_Goods_Ship
-PMNV Containerschiff (Stückgut)
 PMNV_Grain_Truck_0
 PMNV Getreide-LKW
 PMNV_Hydrogen_Cruiser
 PMNV Hydrogen Cruiser
-PMNV_International_Cabover
-Sattelzugmaschine PMNV International Cabover
 PMNV_Mack_Bulk_Trailer_0
 PMNV Mack Bulk Anhänger (Schüttgut)
 PMNV_Mack_Cement_Trailer_L
@@ -3018,10 +2280,6 @@ PMNV_Mack_Concrete_Trailer_O
 PMNV Mack Anhänger (Betonteile)
 PMNV_Mack_cooled_Trailer_O
 PMNV Mack Kühlanhänger (Kühlwaren)
-PMNV_Mack_Cotton_Trailer_0
-PMNV Mack Anhänger (Getreide/Wolle)
-PMNV_Mack_Fabric_Trailer_O
-PMNV Mack Anhänger (Getreide/Wolle)
 PMNV_Mack_Goods_Trailer_O
 PMNV Mack Anhänger (Stückgut)
 PMNV_Mack_Grain_Trailer_0
@@ -3092,8 +2350,6 @@ PMNV-TC-5P_Mail_Man
 Triebwagen PMNV TC-5P (Post)
 Post_Barge
 Postboot
-Post_Ship
-Postschiff
 Post_waggon_0
 PV 80 Postwagen
 Postwagen
@@ -3148,10 +2404,6 @@ RVg_2006_container_car
 RVg Containerwagen (Stückgut)
 RVg_2011_container_car
 RVg Containerwagen (Stückgut)
-RVg_A318-100
-Airbus A318-100 (RVg)
-RVg_A380
-Airbus A380 (RVg)
 RVg_Bulk_Waggon_00
 RVg Schüttgutwagen
 RVg_Bulk_Waggon_01
@@ -3168,8 +2420,6 @@ RVg_Bulk_Waggon_06
 RVg Schüttgutwagen
 RVg_Cementwagen
 RVg Zementwagen
-RVg_Comet
-DeHavilland Comet (RVg)
 RVg_Cooling_car
 RVg Kühlwagen
 RVg_Daylight
@@ -3184,12 +2434,6 @@ RVg_Daylight_tender
 RVg Morgenstern (Tender)
 RVg_Daylight_waggon
 RVg Morgenstern (Passagierwagen)
-RVg_early_milk_waggon
-RVg Milch-Kesselwagen
-RVg_F-27
-Fokker F-27 (RVg)(Post)
-RVg_Flyer-W8B
-RVg W8B Wasserflugzeug
 RVg_Flying_Berliner_(front)
 D-Triebwagen "Fliegender Berliner" (RVg)
 RVg_Flying_Berliner_(tail)
@@ -3206,8 +2450,6 @@ RVg_Hiawatha_tender
 RVg Hiawatha Express (Tender)
 RVg_Hiawatha_waggon
 RVg Hiawatha Express (Passagierwagen)
-RVg_Ju52
-Junkers Ju-52 "Tante Ju" (RVg)
 RVg_M1
 E-Triebwagen RVg M1
 RVg_M1_tail
@@ -3282,8 +2524,6 @@ RVg-B_101
 RVg B22
 RVg-B_107
 RVg B149 Rotzwerg
-RVg-Bulk_Freighter
-RVg Güterschiff (Schüttgut)
 RVg-D22-Rola
 D-Lok "RVg D22 Rola"
 RVg-D23-Camel
@@ -3298,10 +2538,6 @@ RVg-E17-Spring
 E-Lok RVg E17 "Feder"
 RVg-Express_Tender
 RVg Express Tender
-RVg-G5_Posttaxi
-RVg G5 Postflugzeug
-RVg-Goods_Liner
-RVg Frachtschiff (Stückgut)
 RVg-Goods_waggon
 RVg Güterwagen (Stückgut)
 RVg-Heavy-Tender
@@ -3322,8 +2558,6 @@ RVg-LK_Cement_Truck
 RVg LK LKW (Zement)
 RVg-LK_Cooling_Truck
 RVg-LK V44 mit Kühlaggregat
-RVg-LK_Fabric_Truck
-RVg-LK V32 LKW (Getreide, Wolle)
 RVg-LK_Goods_Truck
 RVg-LK (Stückgut)
 RVg-LK_Grain_Truck
@@ -3332,8 +2566,6 @@ RVg-LK_Plank_Truck
 RVg-LK V37 (Bretter)
 RVg-LK_Steel_Truck
 RVg-LK V38 (Stahl)
-RVg-Lockheed_Constellation
-RVg Lockheed EC-121 Passagierflugzeug
 RVg-Oil-Tender
 RVg Tender für Brennöl
 RVg-Pioneer_Alladin
@@ -3356,22 +2588,12 @@ RVg-Sail_Goods_Ship_0
 RVg Segelschiff (Stückgut)
 RVg-Sail_Passanger_Ship_0
 RVg Segelschiff (Passagiere)
-RVg-Sea_Liner
-RVg Passagierschiff "Elbe" 
-RVg-Sea_Liner_II
-RVg Passagierschiff "Silesia"
 RVg-Steam_Goods_Ship_0
 RVg Frachtraddampfer (Stückgut)
 RVg-Steam_Passanger_Ship_0
 RVg Raddampfer (Passagiere)
-RVg-Steel_Hauler
-RVg Glattdecker (Stahl)
-RVg-Tanker
-RVg Tanker (Öl/Benzin)
 RVg-Tender
 RVg Tender
-RVg-Wood_Hauler
-RVg Holzfrachter
 RX_1064
 RX 1064 Bus
 S_Kroytor_Gaz-2
@@ -3402,28 +2624,10 @@ S_Kroytor_Traveler
 S.Kroytor Traveler
 Sail_Post_Ship_0
 Segelschiff (Post)
-SBB_IC2k
-SBB_IC2k (Diesel)
-SBB_IC2k_bistro
-SBB IC2 Bistro Speisewagen
-SBB_IC2k_tail
-SSB_IC2k Endwagen
-SBB_IC2k_waggon
-SBB_IC2k Personenwagen
 SBB_Re4_4_II
 E-Lok Haru-SBB Re 4/4 II
-SBB_Re460
-E-Lok SBB Re 460
 SBB_Re6_6
 E-Lok Haru-SBB Re 6/6 - "Gotthardlok"
-Seagull_Car
-MCM Silbermöwe (Passagierwagen)
-Seagull_Head
-E-Triebwagen MCM Silbermöwe
-Seagull_Motor
-MCM Silbermöwe (Stromabnehmer)
-Seagull_Tail
-MCM Silbermöwe Triebwagen hinten
 Sentinel_Cement_Lorry
 Sindor-Sentinel (Zement)
 Sentinel_Cement_Trailer
@@ -3436,22 +2640,6 @@ Sentinel_Wood_Lorry
 Sindor-Sentinel (Langholz/Bretter)
 Sentinel_Wood_Trailer
 Sentinel Holzanhänger 
-Shinkansen_500_Head
-E-Triebwagen JR Shinkansen Serie 500
-Shinkansen_500_Pantograph
-JR Shinkansen Serie 500 (Stromabnehmer)
-Shinkansen_500_Tail
-JR Shinkansen Serie 500 (Schlusswagen)
-Shinkansen_500_Waggon
-JR Shinkansen Serie 500 (Passagierwagen)
-Shinkansen_series0_back
-Shinkansen Serie 0 (Schlusswagen)
-Shinkansen_series0_front
-E-Triebwagen Shinkansen Serie 0
-Shinkansen_series0_mid
-Shinkansen Serie 0 (Passagierwagen)
-Sindor-Rohrbach_Rocco
-Sindor-Rohrbach Rocco Wasserflugzeug
 SK_Mail_Truck_1
 S.Kroytor Postauto
 Skoda_109E
@@ -3478,8 +2666,6 @@ Stahlwagen_3
 RVg Stahlwagen
 Steel_Truck_0
 PMNV LKW (Stahl)
-Super_Citybus_1
-Super Citybus I
 T_101
 Tramtriebwagen RVg T101
 T_102
@@ -3516,28 +2702,8 @@ Thunder_(rear_engine)
 BB Thunder (Schlusswagen)
 Thunder_(waggon)
 BB Thunder (Passagierwagen)
-Tobu_Bus
-Tobu Bus
-Tobu_Dial_Bus
-Tobu Bus
-Tobu_Highway_Bus
-Tobu Langstreckenbus
-Tobu_Truck
-Tobu LKW (Stückgut)
 TS_Mack_Bulk_Trailer_0
 TS Sattelauflieger (Schüttgut)
-TS_Mack_Bulk_Trailer_1
-TS Sattelauflieger (Schüttgut)
-TS_Mack_Container_Trailer_S
-TS Containerauflieger (Stückgut)
-TS_Ocean_Liner
-TS Ozean Liner
-TS_Ocean_Star
-TS Meerstern Ozeanliner
-TS-MHZ_Schoner
-TS-MHz Karavelle Segelschiff
-UD_Nonstep_Tokyu_Bus
-UD Nonstep Tokyu Bus
 Vitus-AVECO_Eurocargo_Bretter
 Vitus-Aveco Eurocargo (Bretter)
 Vitus-AVECO_Eurocargo_bulk_transporter
@@ -3572,10 +2738,6 @@ VSYS_Tatra_138_Grain
 VSYS Tatra 138 (Weizen/Wolle)
 VSYS_Tatra_813_Clossus
 Zugmaschine VSYS Tatra 813 Colossus
-Western_Observation
-Monatetsu Ceres (Aussichtswagen)
-Western_Passenger_Car
-Monatetsu Ceres (Passagierwagen)
 Wood_Trailer_0
 Shorty-Volvo Langholz-Anhänger
 Wood_Truck_0
@@ -3604,40 +2766,18 @@ yoshi_wup196502
 GTW 85 Nebenwagen 1
 yoshi_wup196503
 GTW 85 Nebenwagen 2
-Youtei_Maru
-Personenfähre "Youtei Maru"
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 air_movement_area
 Rollfeld
-air_movement_area_old
-Rollweg (alt)
-asphalt_road
-Asphaltierte Straße
-autobahn
-Autobahn
-city_road
-Geteerte Straße
-cobblestone_road
-Kopfsteinpflasterstraße
-concrete_road
-Betonierte Straße
 concrete_sleeper_track
 Gleis mit Betonschwellen
-concrete_tram_track
-Tramschienen auf Betongrund
-dirt_road
-Feldweg
-gravel_road
-Schotterpiste
 High_quality_track
 Gleis
 low_quality_track
 Nebenbahngleis
 Powerline
 Hochspannungsleitungen
-Rillenschienen
-Tramschienen
 runway_modern
 Piste
 Schwebebahn_p_ground
@@ -3646,8 +2786,6 @@ steel_sleeper_track
 Hochgeschwindigkeitsgleis
 Suspended_Monorail_Track
 Schwebebahnschiene (hoch)
-US_asphalt_road
-Schnellstraße
 water_road
 Kanal
 wooden_sleeper_track

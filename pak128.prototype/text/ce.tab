@@ -5,14 +5,18 @@
 #                            Language: ce C-English                            #
 #                                Encoding: ASCII                               #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 27.02 2010                           #
+#                           Date Created: 25.10 2011                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
 #                              Frank Penz - FrankP                             #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
 #                                    note:                                     #
 #                           Lincoln Sayger - skreyola                          #
+#                                    note:                                     #
+#                                     - test                                   #
 #                                    note:                                     #
 #                                                                              #
 ################################################################################
@@ -20,26 +24,12 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 Concrete Rail Bridge
-ClassicRoad
-Urban Road Bridge
-Concrete_Road_Bridge
-Autobahn Bridge
-Plate_Girder_Bridge
-Plate Girder Bridge
 RVg_Concrete_Rail_Bridge
 Steel Suspension Bridge
 Schwebebahn_p_bridge
 Suspended Train Track Bridge
 SteelRail
 Steel Railroad Bridge
-SteelRail2
-High-Speed Steel Railroad Bridge
-SteelRoad1
-Steel Road Bridge
-SteelRoad2
-High-Speed Steel Road Bridge
-u_truss_bridge
-Railroad Truss Bridge
 Wooden_Rail
 Wooden Railroad Bridge
 #___________________________________building____________________________________
@@ -94,8 +84,6 @@ big_classic_bus_stop
 Large Bus Stop (1935)
 big_modern_bus_stop
 Large Glass Bus Stop
-BigTerminal1930_AirportBlg_S
-Large Terminal Building (1930)
 BigTerminal1950_AirportBlg_S
 Larger Terminal Building (1950)
 Bulk_Dock
@@ -114,10 +102,6 @@ CarStop
 Truck Loading Bay
 CASTLE_0
 This castle was built by\nKing Napik.  It was largely\ndestroyed in a war, but\nwas rebuilt in the\n19th-Century.  Now it is\nused as a museum, and\nhouses a large collection\nof swords and armour.\n
-CHURCH_00
-Gothic Cathedral\n\nThis old cathedral is now\nless a place of worship\nthan an exhibition of\nsacred art.  The church\nauthorities have been said\nto enjoy the situation,\nsince the tourists bring in\nfar more money than the\ncongregation does.\n
-CHURCH_01
-Small Church\n\nThis small, forgotten church\nis a nice place to meet\nfriends, hold community\nevents, and seek a\nmeaning deeper than the\ndaily commute.\n
 CHURCH_02
 Pink Church\n\nThis little church was built by\na renowned, but eccentric,\nmonk.  In the year 1654, he\npainted the whole building\npink.  Even today one can\nsee remnants of the pink\npaint.\n
 CHURCH_03
@@ -182,8 +166,6 @@ COM_00_23
 Small Office Building\n\nThis small office building\nholds the Simutrans\nAssociation for the\nDisabled.  This organisation\ntries to enable disabled\npeople with a technique\ncalled yelling.  So far they\nhaven't had much success,\nbut some government\nfunding is on the way, and\nthey plan to buy\nmegaphones in order to increase\nthe effectiveness of their\ntherapy.\n
 COM_06_57
 This building is designed to\nbe disaster-proof.  The\noffices are on stilts in\ncase of a flood.  If there is\nan earthquake, the building\nwill automatically\ncounter-act the movement.\n Also, in case of a fire or\nstock market crash, the\nlower tier has inflatable\nairbags to catch people\njumping from higher levels.\n
-COM_06_58
-Although the helipad makes\nthis building look like a\nhospital, it is really home\nto an elite group of secret\nagents.  If only they could\nafford some helicopters,\nthen the secret agents\nmight be able to go on a\nmission.\n
 COM_06_59
 This building was designed\nby the architect to appear\nas though it were\nupside-down.  Rumour has\nit that she even requested\nthat the sewer pipes came\nout of the ground and\nentered the building at the\ntop.\n
 COM_06_60
@@ -232,8 +214,6 @@ Container2TrainStop
 Container Platform
 Control_StationBlg
 Railroad Control Tower
-CoveredTrainStop
-Covered Passenger Platform
 Crate_Goods_Dock
 Container-Loading Harbour
 CunnersdorfStopBlg
@@ -348,8 +328,6 @@ MonorailFoundation
 Monorail Structure Foundation
 MonorailGround
 Monorail Structure Foundation
-MonorailStation
-Monorail/Schwebebahn Platform
 MT_HOTEL_0
 This is a ver famous hotel. \nAlthough rooms are\nexpensive, everbody in the\ncity still wants to stay\nhere.  Some of the more\naffluent residents visit the\ndining room at least once a\nweek.\n
 MUSEUM_0
@@ -420,8 +398,6 @@ st_benedict_church
 St.Benedict's Church\n\nThis church was built by\nSt.Benedict himself. \nBenedict is the patron\nsaint of Speed Bonusses,\nwhich is why he has a dove\nfixed to the tallest dome. \nIt is a symbol of the\nfastest transportation\nform: flight.\n
 ST_PETER
 Saint Peter's Church\n\nThe late-Roman church of\nSt.Peter's, built around\n1220, has a fine structured\nchorus gallery, frescos\nfrom the middle of the 13th\ncentury and the\nwell-preserved mummy of\n"The Holy Reeve". This is\nan old mummified body that\nis more than 300 years old,\nwhich was probably Wilhelm\nof Holbach, the royal reeve. The\nmummy is located in an alcove in\nthe western wall.\n
-SUSHI_HOSPITAL
-Qu'in Hospital\n\nThis hospital is the favoured\nhealth facility of all\nChinese immigrants to\nSimutransland.  Since most\nof the doctors themselves\nimmigrated from pak.japan,\nthe hospital offers the\nfinest herbal treatments\nand accupuncture clinics\navailable.\n
 Suspended_Monorail_Bahnhof_Modern
 Covered Monorail/Schwebebahn Platform
 Terminal1930_AirportBlg
@@ -460,8 +436,6 @@ Windmill
 Dutch Windmill\n\nSome people visit this windmill\nbecause they enjoy\nwatching it go 'round;\nothers like to get out of\nthe city; still others like\nthrowing rocks to see if\nthey can hit the blades.\n
 WOODEN_CHURCH
 Hamish Wooden Church\n\nA simple church, intended\nto focus attention on the\nLord.\n\n\n\n
-#__________________________________dummy_info___________________________________
-#__________________________________dummy_info___________________________________
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -480,22 +454,14 @@ Cementmill
 Cement Mill
 chicken_farm
 Chicken Farm
-cotton_field
-Cotton Farm
 cow_farm
 Dairy Farm
 dairy
 Ice Cream Factory
 Druckerei
 Publishing House
-electronics_factory
-Electronics Factory
 Erzbergwerk
 Iron Ore Mine
-Kohlekraftwerk
-Coal-Fired Power Plant
-Materialswholesale
-Building Materials Yard
 Moebelfabrik
 Furniture Factory
 Moebelhaus
@@ -506,8 +472,6 @@ shaft_coal_mine
 Coal Mine
 TANKE1
 Gas Station
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -560,8 +524,6 @@ Stone
 stone
 textile
 textiles
-#___________________________________menu_text___________________________________
-#___________________________________menu_text___________________________________
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 CATEGORY_01
@@ -578,8 +540,8 @@ CATEGORY_06
 wood
 CATEGORY_07
 Fabric
-#__________________________________record_text__________________________________
-#__________________________________record_text__________________________________
+Monoraildepot
+Monorail/Schwebebahn Depot
 #___________________________________roadsign____________________________________
 #___________________________________roadsign____________________________________
 airport_oneway
@@ -614,74 +576,32 @@ Minimum80
 Road Sign: "Minimum Speed 80km/h"
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
-tree091
-Tree\n\n\n\n\n\n\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnel
 Rail Tunnel
-RoadTunnel
-Road Tunnel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
-1Ben140
-Bennhardt B-140 "Limet"
-1Bens155
-Bennhardt B-155 "Robo"
 1Benst134
 Bennhardt B-134 "Pixie"
 1Benst135t
 Bennhardt B-135 "Gremlin"
 1Benst138
 Bennhardt B-138 "Apple pie"
-1Benst161
-Bennhardt B-161 "Turbo"
 1Benst162t
 Bennhardt B-162 "Jet"
-1Benst181
-Bennhardt B-181 "Gelding"
 1Benst238
 Bennhardt B-238 "Frog"
-1Benst281
-Bennhardt B-281 "Workhorse"
 1Dampflokomotive
 RVg 0-4-0T
 2Diesellokomotive
 H-Trans BR218
-3Bens185
-Bennhardt B-185 "Santa"
 3Bens186t
 Bennhardt B-186 "Lemon"
 3Dampflokomotive
 RVg 0-3-0 "Chippy"
-451_Head
-MEZ 451
-451_Tail
-MEZ 451 (End)
-451_Waggon
-MEZ 451 (Car)
-471_Head
-Skoda 471
-471_Tail
-Skoda 471 (End)
-471_Waggon
-Skoda 471 (Car)
-7BenE11
-Bennhardt E-11
-Aeroqueen_JR_Bus_Kanto
-Aeroqueen Bus (Japanese Kanto Railway)
 Airport_express_shuttle
 Airport Shuttle Bus
-AR4_back
-AR-4 (End)
-AR4_front
-AR-4 "Kikin"
-AR4_mid_engine
-AR-4 (Middle Engine)
-AR4_mid_trainer
-AR-4 (Car)
-Asahi_Bus
-Asahi Bus
 Autotransportwagen
 Automobile Rack
 BB-TS_Milk_Mack_Trailer
@@ -692,16 +612,12 @@ Big_Erztruck
 MHz T-183 Ore Truck
 Bretterwagen
 Lumber Car
-Btx020
-BTx 20
 Budd_Coach
 "Bud" Passenger Coach
 Budd_Observation
 "Budd" End Car
 Budd_RPO
 "Budd" Mail Car
-Bulk_Ship_0
-PMNV Bulk Transporter
 Bulk_trailer_0
 Bulk Goods Trailer
 Bulk_Truck_0
@@ -712,12 +628,6 @@ Bulk_Truck_3
 Tatra 815
 Bulk_Truck_4
 Volvo Truck
-Bulker_Bulk
-BB Bulker
-Bulker_Steel
-BB Steel Carrier
-Bulker_Wood
-BB Wood Transporter
 Car_Tramsport_Trailer_0
 TechServ Auto Trailer
 Car_Transporter_0
@@ -732,8 +642,6 @@ CB_ALBATROS
 Skoda 498 "Albatross"
 CB_DB-130_8
 BRAW-61000 "Taiga Drum"
-CD851
-CD-851
 Cement_Carrier_Fast
 Cement Globule Car
 Cement_trailer_0
@@ -746,10 +654,6 @@ Cement_Waggon_1
 PMNV Cement Car
 Cementwagen
 Cement Hopper Car
-Ceres_Tender
-Ceres Tender
-CKD_731
-CKD-731
 CKD_749
 CKD-749
 CKD_750
@@ -762,8 +666,6 @@ Concretewagen
 PMNV Concrete Mixer 12
 Concretewagen_1
 PMNV Concrete Mixer 16
-Container_Truck
-G-Trans Boxed Goods Truck
 Cooling_trailer_0
 PMNV Cooled Trailer
 Cooling_Truck_0
@@ -778,14 +680,6 @@ Cooling_wagon_1
 Refrigerated Car (1952)
 Cooling_wagon_2
 Cannonball Refrigerated Boxcar
-D231_back
-SHI D-231 (End)
-D231_front
-SHI D-231
-D231_mid
-SHI D-231 (Bi-Level Car)
-Daisetsu_Maru
-Ferry 'Daisetsu Maru'
 DB_ADm101
 AD-101m
 DB_Apmz121
@@ -794,56 +688,20 @@ DB_Bm235
 BM-235 Passenger Car
 DB_BR103_1
 Haru "Bromine" 103
-Dc110
-KIHA 110-141
-Dc110_car
-KIHA 110-141 (Car)
-Dc22
-KIHA 22 "Green Class"
 DueWAG_GT6_motorwaggon
 W.A.G. GT-6
 DueWAG_GT6_tailwaggon
 W.A.G. GT-6 (End)
 E_423
 Sindor E-432 "Top Class"
-Eiden_Deo_903-KIRARA
-KIRARA-903
-Eiden_Deo_904-KIRARA
-KIRARA-903 (End)
 EM400_1
 Sindor EM-400
 EMD_E5A_Silver_Meteor
 EMD E5 "Silver Meteor"
 EMD_E5B_Silver_Comet
 EMD E5 "Silver Comet" (B Unit)
-Europa_Car_Transporter
-TechServ "Europa" Car Transporter
-Europa_Goods_Transporter
-TechServ "Europa" Goods Transporter
-Evil_BR153
-BR-153/155 "Sprinter"
-Evil_BR170_Back
-BR-170 (rear)
-Evil_BR170_Front
-BR-170 "Turbostar"
-Evil_BR170_Mid
-BR-170 (middle)
-Evil_BR357_Back
-BR-357 (rear)
-Evil_BR357_Front
-BR-357 "Electrostar"
-Evil_BR357_M
-BR-357 (motor)
-Evil_BR357_PT
-BR-357 (pantograph)
-Evil_Daimler_DMS_Londoner
-Daimler DMS "Londoner"
 Evil_DF-11
 DF-11
-Evil_Guy_Wulfrunian
-Guy Wulfrunian
-Evil_New_Flyer_D40-90
-New Flyer D40
 Evil_P-100_(carriage)
 RVg P-100 (carriage)
 Evil_P-100_(front_engine)
@@ -852,36 +710,10 @@ Evil_P-100_(mail)
 RVg P-100 (mail)
 Evil_P-100_(rear_engine)
 RVg P-100 (rear)
-Evil_Scania_K94UB
-Scania K94UB Urban Coach
-Evil_Scania_K94UB_Liner
-Scania K94UB Highway Coach
-Evil-AEC_RM
-Bi-Level Bus (1948)
-Evil-Cicu_L32_Liner
-Cicu L32 Passenger Coach
 Evil-Jitluen_67_Minibus
 Jitluen 67 Minibus
-Evil-Jitluen_Beluga_FA_MKD-12
-Jitluen MKD-12 "Beluga"
-Evil-Jitluen_Beluga_FA_SR
-Jitluen SR "Beluga"
-Evil-Jitluen_Beluga_FA_SU-10
-Jitluen SU-10 "Beluga"
 Express_tender
 Albatross Tender
-Fabric_Hopper_0
-PMNV Fabric Car
-Fabric_Hopper_1
-Cannonball Fabric Car
-Fabric_Truck_0
-PMNV Fabric Truck
-FastFerry
-Hovermarine HM527 Hovercraft
-Ferry_Mail_Extension
-Ferry Mail Extension
-Fishing_Boat_0
-LR Fishing Boat
 Fishing_Boat_1
 MHz Fishing Trawler
 Fluid_trailer_0
@@ -896,14 +728,6 @@ Fluid_Truck_2
 ZUK-20 Oil Truck
 Fluid_Truck_3
 Magirus Oil Truck
-FUSO_Aeromidi_Keio_Bus
-Mitsubish FUSO Aeromidi
-FUSO_Aerostar_Kanachu_Bus
-Mitsubish FUSO Aerostar
-GALA_Kanto_Railway
-Isuzu GALA
-Goods_schiff
-JET Closed Carrier
 Goods_trailer_0
 Mitsubishi FUSO Super Truck (trailer)
 Goods_trailer_1
@@ -918,10 +742,6 @@ Haru-PlanV
 Plan V
 Haru-PlanV(rear)
 Plan V (rear)
-ISUZU_Erga_Odakyu_Bus
-Isuzu Erga
-JNR_B6
-JNR B6
 JNR_C11
 JNR C11
 JNR_C62
@@ -932,46 +752,10 @@ JNR_DD51
 JNR DD51
 JNR_tender_S
 JNR Tender (D51;C62)
-JR_Shinkansen_723
-Shinkansen Series 723
-JR_Shinkansen_724
-Shinkansen Series 724 (End)
-JR_Shinkansen_725
-Shinkansen Series 725 (Pantograph Car)
-JR_Shinkansen_726
-Shinkansen Series 726 (Passenger Car)
-JRF_EF210
-JRF EF-210
-JRW_Mc123
-JRW Mc123
-Karl_MCW_Super_Metrobus_12m
-MCW "Super Metrobus" 12M
-Karl-MCW_Super_Metrobus_12M-158
-MCW "Super Metrobus" 12M-158
-Karl-MCW_Super_Metrobus_12M-214
-MCW "Super Metrobus" 12M-214
-KC-B10M_Keisei_Bus
-KC-B10m Articulated Bus
-KC-B10M_Keisei_Bus_Extension
-KC-B10m (End)
-KEIFUKU_Mobo101
-Keifuku Mobo 101
-KEIFUKU_Mobo301
-Keifuku Mobo 301
-KEIHAN_type80
-Keihan Type 80
 Kord_TT_bulk
-Kord TT
-Kord_TT_fabric
 Kord TT
 Kord_TT_grain
 Kord TT
-Leyland_Olympian
-Leyland "Olympian" 11M
-Mack_Truck_0
-2005 Mack Truck
-Mack_Truck_2
-1993 Mack Truck
 Mack_Truck_Cooling_Trailer
 Refrigerated Trailer (International;Mack;Peterbilt)
 Mack_Truck_Goods_Trailer
@@ -1000,10 +784,6 @@ MHz_TRAM_1980
 T-235 "SuperCity"
 MHz-C11C_Bulk_Barge
 C11C Bulk Barge
-MHz-C130_Hercules
-Lockheed C-130 "Hercules"
-MHz-C130_Hercules_(cooled)
-Lockheed C-130 "Hercules" (Refrigerated)
 MHz-C273U_Cement_Barge
 C273U Cement Barge
 MHz-C35_Goods_Barge
@@ -1012,16 +792,6 @@ MHz-C3P_Post_Barge
 C3P Mail Barge
 MHz-CC47_Container_Barge
 CC47 Container Ship
-MHz-Fokker_F27
-Fokker F-27 "Friendship"
-MHz-Il-76_Candid
-Ilyushin Il-76 "Candid"
-MHz-Ju-51
-Junker's Ju-51
-MHz-McDonnell-Douglas_DC10
-McDonnell-Douglas DC-10
-MHz-McDonnell-Douglas_DC3
-McDonnell-Douglas DC-3
 MHz-MT7_Milk_Barge
 MT7 Milk Barge
 MHz-OT5_Oil_Barge
@@ -1036,12 +806,6 @@ Milk_Truck_1
 Milk Truck (1968)
 Milk_Truck_2
 Milk Truck "Magirus" (1951)
-Milk_Waggon_0
-Milk Tanker Car (1956)
-Milk_Waggon_1
-Milk Tanker Car (1920)
-moha2100
-Moha 2100
 PMNV_50_Mack
 Mack Truck (1950)
 PMNV_Canonball_Car_Trailer
@@ -1058,16 +822,10 @@ PMNV_Cruiser_Mini
 Haitink Minibus II
 PMNV_Fabric_Trailer_0
 Closed Fabric Trailer (1964)
-PMNV_Fabric_Trailer_1
-Open Fabric Trailer (1977)
-PMNV_Goods_Ship
-Container Ship
 PMNV_Grain_Truck_0
 Grain Truck (1981)
 PMNV_Hydrogen_Cruiser
 New Flyer Hydrogen Bus
-PMNV_International_Cabover
-International Truck with Sleeper (1982)
 PMNV_Mack_Bulk_Trailer_0
 Bulk Goods Trailer (1951)
 PMNV_Mack_Cement_Trailer_L
@@ -1078,10 +836,6 @@ PMNV_Mack_Concrete_Trailer_O
 Concrete Trailer (1951)
 PMNV_Mack_cooled_Trailer_O
 Refrigerated Trailer (1951)
-PMNV_Mack_Cotton_Trailer_0
-Fabric Trailer (1962)
-PMNV_Mack_Fabric_Trailer_O
-Fabric Trailer (1952)
 PMNV_Mack_Goods_Trailer_O
 Goods Truck (1951)
 PMNV_Mack_Grain_Trailer_0
@@ -1152,8 +906,6 @@ PMNV-TC-5P_Mail_Man
 TC-5P
 Post_Barge
 Mail Boat (1928)
-Post_Ship
-Mail Ship (1952)
 Post_waggon_0
 PV-80 Mail Car
 Postwagen
@@ -1178,20 +930,8 @@ RVg "Daylight" Passenger Car
 #______________________________________way______________________________________
 air_movement_area
 Taxiway
-asphalt_road
-Asphalt Road
-autobahn
-Autobahn
-city_road
-Road with Sidewalk
-cobblestone_road
-Cobblestone Road
 concrete_sleeper_track
 Railroad Track (Concrete Sleepers)
-concrete_tram_track
-High-Speed Tram Track
-dirt_road
-Dirt Road
 low_quality_track
 Railroad Track (1810)
 Powerline

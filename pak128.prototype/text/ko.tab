@@ -5,9 +5,11 @@
 #                              Language: ko Korean                             #
 #                                Encoding: UTF-8                               #
 #                                Font : cyr.bdf                                #
-#                           Date Created: 23.08 2010                           #
+#                           Date Created: 25.10 2011                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
 #                              Frank Penz - FrankP                             #
 #                                    note:                                     #
 #                               J. H. Lee - JHLee                              #
@@ -20,12 +22,6 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 콘크리트 철도 교량
-ClassicRoad
-콘크리트 도로 교량
-Concrete_Road_Bridge
-고속도로 다리
-Plate_Girder_Bridge
-그리더 철도 교량
 PowerBridge
 전력선 다리
 RVg_Concrete_Rail_Bridge
@@ -34,14 +30,6 @@ Schwebebahn_p_bridge
 현수식 모노레일(교량)
 SteelRail
 철재 철도 교량
-SteelRail2
-견고한 철재 철도 교량
-SteelRoad1
-철재 도로 교량
-SteelRoad2
-철재튜브 도로 교량
-u_truss_bridge
-트러스 교량
 water_bridge
 수로교
 Wooden_Rail
@@ -108,8 +96,6 @@ big_classic_bus_stop
 대형 버스정류장
 big_modern_bus_stop
 대형 현대식 버스정류장
-BigTerminal1930_AirportBlg_S
-대형 공항승객 터미널
 BigTerminal1950_AirportBlg_S
 대형 공항승객 터미널(1950년식)
 Bulk_Dock
@@ -140,8 +126,6 @@ Container2TrainStop
 진보된 컨테이너 역
 Control_StationBlg
 역 제어 건물
-CoveredTrainStop
-지붕있는 플랫폼
 Crate_Goods_Dock
 컨테이너 항구
 CunnersdorfStopBlg
@@ -151,7 +135,7 @@ Firestation
 Fluid_StationBlg
 유류 저장 건물
 FORT_FUN
-역사적인 요새\n\n\n\n\n\n\n
+역사적인 요새\n\n
 FreightTrainStop
 화물열차 역
 FUTURISTIC_TOWER_0
@@ -183,21 +167,19 @@ ModernPostOffice
 ModernTrainStop
 현대식 열차역
 MonorailDepot
-고가 모노레일 차량기지
+현수식 모노레일 차고
 MonorailFoundation
 모노레일 기초기반
 MonorailGround
 모노레일 기초기반
-MonorailStation
-고가 플랫폼
 Old_gate
 도시 게이트\n\n
 OpenTrainStop
 간이 플랫폼
 Pagoda01
-파고다\n\n\n\n\n\n\n
+파고다\n\n
 PARK_0
-연못있는 대형공원\n\n\n\n\n\n\n
+연못있는 대형공원\n\n
 parking_(catchemnt_area_ext)1
 주차장
 parking_(catchemnt_area_ext)2
@@ -213,7 +195,7 @@ PostOffice1920_AirportBlg
 Radar3
 레이더
 Russian_Cathedral
-러시아 정교회\n\n\n\n\n\n\n
+러시아 정교회\n\n
 ShipDepot
 조선소
 ShipStop
@@ -274,8 +256,6 @@ factory_old_powerplant_kraftwerk_details
 석탄발전소(상세)
 factory_open_coal_mine_details
 노천탄광(상세)
-factory_Sandquarry_details
-모래채석장(상세)
 factory_shopping_mall_details
 쇼핑몰(상세)
 factory_steel_mill_details
@@ -312,16 +292,12 @@ cornfield
 옥수수밭
 cotton_farm_w_fields
 목화 농장
-cotton_field
-목화밭
 cow_farm
 목장
 dairy
 유제품공장
 Druckerei
 인쇄소
-electronics_factory
-전자제품 공장
 Erzbergwerk
 철광산
 ethanol_plant
@@ -336,16 +312,10 @@ ForestPlantation
 벌목용 숲
 Glass_factory
 유리공장
-grain_farm
-곡물농장
 grain_farm_w_fields
 곡물농장
 grain_mill
 제분소
-Kohlekraftwerk
-석탄발전소
-Materialswholesale
-건축자재업자
 MaterialsWholesales
 건축자재 도매상
 meat_packing_plant
@@ -356,8 +326,6 @@ Moebelfabrik
 가구공장
 Moebelhaus
 쇼핑센터
-Nutzwald
-인공숲
 Oelbohrinsel
 석유시추선
 Oelfeld
@@ -377,8 +345,6 @@ Raffinerie
 Saegewerk
 제재소
 sand_quarry_dd
-모래 채석장
-Sandquarry
 모래 채석장
 shaft_coal_mine
 탄광
@@ -406,10 +372,6 @@ waste_incinerator_kraftwerk
 쓰레기소각장
 wind_kraftwerk
 풍력발전소
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
-grain_field
-곡식 밭
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -510,22 +472,6 @@ CATEGORY_06
 목재
 CATEGORY_07
 농장 생산
-CATEGORY_08
-()
-CATEGORY_09
-()
-CATEGORY_10
-()
-CATEGORY_11
-()
-CATEGORY_12
-()
-CATEGORY_13
-()
-CATEGORY_14
-()
-CATEGORY_15
-()
 Monorail
 현수식 모노레일
 monorail vehicle
@@ -564,8 +510,6 @@ choose_point
 목적지 선택 표지
 choose_signal_monorail
 모노레일 플랫폼 선택 신호등
-choosesign_digital_jp
-디지털 도로 선택 표지
 ChooseSignals
 플랫폼 선택 신호등(표준)
 Classic_ChooseSignals_right
@@ -620,124 +564,26 @@ traffic_light
 도로 신호등
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
-cactus000
-선인장\n\n\n\n\n\n\n
-cactus001
-선인장\n\n\n\n\n\n\n
-cactus002
-선인장\n\n\n\n\n\n\n
 palm010
-야자수\n\n\n\n\n\n\n
+야자수\n\n
 palm011
-야자수\n\n\n\n\n\n\n
-tree020
-나무\n\n\n\n\n\n\n
-tree021
-나무\n\n\n\n\n\n\n
-tree022
-나무\n\n\n\n\n\n\n
-tree023
-나무\n\n\n\n\n\n\n
-tree024
-나무\n\n\n\n\n\n\n
-tree025
-나무\n\n\n\n\n\n\n
-tree030
-나무\n\n\n\n\n\n\n
-tree031
-나무\n\n\n\n\n\n\n
-tree032
-나무\n\n\n\n\n\n\n
-tree040
-나무\n\n\n\n\n\n\n
-tree041
-나무\n\n\n\n\n\n\n
-tree042
-나무\n\n\n\n\n\n\n
-tree050
-나무\n\n\n\n\n\n\n
-tree051
-나무\n\n\n\n\n\n\n
-tree052
-나무\n\n\n\n\n\n\n
-tree060
-나무\n\n\n\n\n\n\n
-tree061
-나무\n\n\n\n\n\n\n
-tree062
-나무\n\n\n\n\n\n\n
-tree063
-나무\n\n\n\n\n\n\n
-tree070
-나무\n\n\n\n\n\n\n
-tree071
-나무\n\n\n\n\n\n\n
-tree072
-나무\n\n\n\n\n\n\n
-tree080
-나무\n\n\n\n\n\n\n
-tree081
-나무\n\n\n\n\n\n\n
-tree082
-나무\n\n\n\n\n\n\n
-tree083
-나무\n\n\n\n\n\n\n
-tree090
-나무\n\n\n\n\n\n\n
-tree091
-나무\n\n\n\n\n\n\n
+야자수\n\n
 tree100
-산악 가문비나무\n\n\n\n\n\n\n
+산악 가문비
 tree110
-산악 가문비나무\n\n\n\n\n\n\n
-tree120
-나무\n\n\n\n\n\n\n
-tree121
-나무\n\n\n\n\n\n\n
-tree122
-나무\n\n\n\n\n\n\n
-tree130
-나무\n\n\n\n\n\n\n
-tree131
-나무\n\n\n\n\n\n\n
-tree132
-나무\n\n\n\n\n\n\n
+산악 가문비
 tree133
-산악 가문비나무\n\n\n\n\n\n\n
-tree140
-나무\n\n\n\n\n\n\n
+산악 가문비
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnel
 철도터널
-RoadTunnel
-도로터널
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 air_movement_area
 타맥 유도로
-air_movement_area_old
-석재포장 유도로
-asphalt_road
-아스팔트 도로
-autobahn
-고속도로
-city_road
-시내도로
-cobblestone_road
-자갈 도로
-concrete_road
-콘크리트 도로
 concrete_sleeper_track
 콘크리트침목 철로
-concrete_tram_track
-콘크리트 노면전차 선로
-dirt_road
-비포장 도로
-gravel_road
-자갈 도로
 High_quality_track
 고속철로
 low_quality_track
@@ -748,8 +594,6 @@ old_taxiway
 구형 유도로
 Powerline
 고압전선
-Rillenschienen
-노면전차 선로
 river_00
 항해가능한 강
 river_01
@@ -768,8 +612,6 @@ steel_sleeper_track
 강철침목 철로
 Suspended_Monorail_Track
 현수식 모노레일 선로
-US_asphalt_road
-미국식 아스팔트 도로
 water_road
 운하
 wooden_sleeper_track

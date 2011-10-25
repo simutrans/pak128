@@ -5,7 +5,7 @@
 #                            Language: sk Slovencina                           #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 13.03 2011                           #
+#                           Date Created: 25.10 2011                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -22,24 +22,12 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 Betónový most
-ClassicRoad
-Betónový most
-Concrete_Road_Bridge
-diaµnièný most
-Plate_Girder_Bridge
-trámový most
 RVg_Concrete_Rail_Bridge
 závesný oceµový most
 Schwebebahn_p_bridge
 most Alwegu
 SteelRail
 oceµový most
-SteelRail2
-masívny oceµový most
-SteelRoad1
-oceµový most
-u_truss_bridge
-priehradový most
 Wooden_Rail
 drevený most
 #___________________________________building____________________________________
@@ -90,8 +78,6 @@ big_classic_bus_stop
 Zastávka s po¹tovou schránkou
 big_modern_bus_stop
 Autobusové nástupi¹te (moderné)
-BigTerminal1930_AirportBlg_S
-Stredný leti¹tný terminál
 BigTerminal1950_AirportBlg_S
 Veµký leti¹tný terminál
 Bulk_Dock
@@ -106,10 +92,6 @@ CarDepot
 vozovòa
 CarStop
 nákladná rampa
-CHURCH_00
-Gotická katedrála\n\nTáto katedrála je skôr\nturistická atrakcia s\nvýstavou sakrálneho\numenia ne¾ miesto\nbohoslu¾ieb. Miestnym\ncirkevným hodnostárom\nv¹ak táto situácia oèividne\nvyhovuje, preto¾e priná¹a\nvy¹¹ie príjmy ako odpustky\nich oveèiek. Máloktorý\nnáv¹tevník vie, ¾e tunaj¹í\noltár "Klaòanie troch kráµov" je\nlen kópiou. Originál nechal biskup\npred èasom preda».\n
-CHURCH_01
-Vidiecky kostol\n\nTento malý zabudnutý kostol je\nstále príjemným miestom,\nkde sa mô¾ete stretnú» s\npriateµmi, poklábosi» alebo\nhµada» nieèo vy¹¹ie ne¾\npozemské statky.\n
 CHURCH_02
 Ru¾ový kostolík\n\nTento kuriózny kostol bol\npostavený v roku 1654\nbláznivým mníchom, ktorý\nho celý natrel na ru¾ovo.\nFarba èasom zhnedla, ale\nmeno mu zostalo. Tento\nbláznivý mních sa neskôr\npres»ahoval do Pre¹porku,\nkde postavil Modrý kostolík,\nktorý je skutoène modrý a¾\ndo dne¹ných dní.\n
 CHURCH_03
@@ -119,7 +101,7 @@ Synagóga\n\nTie¾ ste si mysleli, ¾e ide o\nme¹itu? Túto zvlá¹tnu\nsynagógu posta
 CHURCH_05
 Katedrála Sv. Michala\n\nTento architektonický klenot\nbol postavený na konci\n19.storoèia. Za svoju\natraktivitu vïaèí kovovej\nstreche, ktorú skon¹truoval\nAlexander Gustavus Eiffel.\n
 CHURCH_06
-Kostol\n\nTypický kostol men¹ích\nmesteèiek.\n\n\n\n\n
+Kostol\n\nTypický kostol men¹ích\nmesteèiek.\n\n
 classic_mailbox
 Po¹tová schránka
 ClosedTrainStop
@@ -127,15 +109,13 @@ Zastre¹ené nástupi¹te
 CoalTrainStop
 Nákladisko sypkých materiálov
 COM_00_10
-Dom oblo¾ený èervenými\ntehlami.\n\n\n\n\n\n
+Dom oblo¾ený èervenými\ntehlami.\n\n
 Container1TrainStop
 Prekladisko kontajnerov
 Container2TrainStop
 nákladná stanica
 Control_StationBlg
 stavadlo
-CoveredTrainStop
-Kryté nástupi¹te
 Crate_Goods_Dock
 Kontajnerové prekladisko
 CunnersdorfStopBlg
@@ -157,7 +137,7 @@ Toto je riaditeµtvo tvojej spoloènosti. Tu sa rozhoduje, kadiaµ povedie¹ svoju d
 IND_00_01
 Toto je miestna továreò na\nhluk. Hocikto mô¾e prís» a\nvyrobi» toµko hluku, koµko\nlen chce. Problémy\nnastávajú a¾ pri odchode,\nlebo vtedy si musí ka¾dý\nsvoju èinnos» zaplati».\n
 IND_00_02
-Chcete rozreza» nejaké\ndrevo? Tak potom príd»e\nsem, na pílu.\n\n\n\n\n
+Chcete rozreza» nejaké\ndrevo? Tak potom príd»e\nsem, na pílu.\n\n
 Long_Goods_Dock
 Prekladisko rozmerného tovar
 LuftPost1950_AirportBlg
@@ -182,10 +162,8 @@ MonorailFoundation
 Základy Alwegu
 MonorailGround
 Základy Alwegu
-MonorailStation
-Nástupi¹te Alwegu
 MUSEUM_0
-Múzeum\n\n\n\n\n\n\n
+Múzeum\n\n
 OpenTrainStop
 Perón
 parking_(catchemnt_area_ext)1
@@ -200,42 +178,10 @@ PostOffice
 Po¹ta
 PostOffice1920_AirportBlg
 Aeropo¹ta
-RES_12_32
-Jednoducho dom\n\n\n\n\n\n\n
-RES_13_14
-Dru¾stevné byty\n\n\n\n\n\n\n
-RES_13_15
-Dru¾stevné byty\n\n\n\n\n\n\n
-RES_13_32
-Jednoducho dom\n\n\n\n\n\n\n
-RES_14_22
-Dru¾stevné byty\n\n\n\n\n\n\n
-RES_14_24
-Dru¾stevné byty\n\n\n\n\n\n\n
-RES_14_31
-Jednoducho dom\n\n\n\n\n\n\n
-RES_15_13
-Dru¾stevné byty\n\n\n\n\n\n\n
 RES_15_14
-Ta zelená strecha je\notrasná, pravda?\n\n\n\n\n\n
-RES_15_16
-Dvojdomok\n\n\n\n\n\n\n
-RES_15_20
-Dru¾stevné byty\n\n\n\n\n\n\n
-RES_15_21
-Dru¾stevné byty\n\n\n\n\n\n\n
-RES_15_31
-Jednoducho dom\n\n\n\n\n\n\n
+Ta zelená strecha je\notrasná, pravda?\n\n
 RES_16_14
-Rodinný dom s krbom. Kto\nby si ne¾elal domok ako je\ntento?\n\n\n\n\n
-RES_16_16
-Dru¾stevné byty\n\n\n\n\n\n\n
-RES_16_21
-Dru¾stevné byty\n\n\n\n\n\n\n
-RES_17_20
-Dru¾stevné byty\n\n\n\n\n\n\n
-RES_17_21
-Dru¾stevné byty\n\n\n\n\n\n\n
+Rodinný dom s krbom. Kto\nby si ne¾elal domok ako je\ntento?\n\n
 Russian_Cathedral
 Pravoslávna katedrála\n\nHoci túto katedrálu postavili\nv prvej polovici 20. storoèia\nrobotníci z Podkarpatskej Rusy,\nmnohí veria, ¾e vznikla\npri príle¾itosti náv¹tevy Petra Veµkého.\n
 Secession_Chapel
@@ -278,8 +224,6 @@ VillageTrainStop
 Vidiecka zastávka
 Windmill
 Veterný mlyn\n\nNiekto sa chodí dpozera» na veterný\nmlyn, preto¾e sa mu páèi\nelegancia, s ktorou sa vo\nvetre otáèajú jeho lopatky;\nniekto zase proto, ¾e sa mu\nchce ís» na prechádzku a nemá\nv okolí lep¹í cieµ. No a niektorí\nvýtr¾níci chodia k veternému\nmlynu, aby si po òom\nvyskú¹ali hodi» kameòom.\n
-#__________________________________dummy_info___________________________________
-#__________________________________dummy_info___________________________________
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 bakery
@@ -304,16 +248,12 @@ cornfield
 Kukurièné pole
 cotton_farm_w_fields
 Bavlníková plantá¾
-cotton_field
-Bavlníková plantá¾
 cow_farm
 Kravín
 dairy
 Mliekáreò
 Druckerei
 Tlaèiareò
-electronics_factory
-Elektrotechnický závod
 Erzbergwerk
 ®eleznorudná baòa
 ethanol_plant
@@ -326,24 +266,16 @@ food_processing_plant
 Potravinársky závod
 Glass_factory
 Skláreò
-grain_farm
-Farma
 grain_farm_w_fields
 Obilná farma
 grain_mill
 Mlyn
-Kohlekraftwerk
-Uhoµná elektráreò
-Materialswholesale
-Stavebniny
 modern_fuel_station
 Moderná èerpacia stanica
 Moebelfabrik
 Nábytkáreò
 Moebelhaus
 IKEA
-Nutzwald
-Lesný závod
 Oelbohrinsel
 Ropná plo¹ina
 Oelfeld
@@ -362,8 +294,6 @@ Raffinerie
 Rafinéria
 Saegewerk
 Píla
-Sandquarry
-Pieskovcový lom
 shaft_coal_mine
 Uhoµná baòa
 sheep_farm
@@ -386,10 +316,6 @@ waste_incinerator_kraftwerk
 Spalovòa
 wind_kraftwerk
 Veterná elektráreò
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
-grain_field
-P¹enièné pole
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -464,8 +390,6 @@ waste
 odpadu
 wool
 vlny
-#___________________________________menu_text___________________________________
-#___________________________________menu_text___________________________________
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 CATEGORY_01
@@ -482,8 +406,8 @@ CATEGORY_06
 drevo
 CATEGORY_07
 poµnoprodukty
-#__________________________________record_text__________________________________
-#__________________________________record_text__________________________________
+Monoraildepot
+Vozov?a Alwegu
 #___________________________________roadsign____________________________________
 #___________________________________roadsign____________________________________
 airport_oneway
@@ -514,112 +438,16 @@ traffic_light
 semafóry
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
-cactus000
-kaktus\n\n\n\n\n\n\n
-cactus001
-Kaktus\n\n\n\n\n\n\n
-cactus002
-Kaktus\n\n\n\n\n\n\n
 palm011
-palma\n\n\n\n\n\n\n
-tree020
-Strom\n\n\n\n\n\n\n
-tree021
-Strom\n\n\n\n\n\n\n
-tree022
-Strom\n\n\n\n\n\n\n
-tree023
-Strom\n\n\n\n\n\n\n
-tree024
-Strom\n\n\n\n\n\n\n
-tree025
-Strom\n\n\n\n\n\n\n
-tree030
-Strom\n\n\n\n\n\n\n
-tree031
-Strom\n\n\n\n\n\n\n
-tree032
-Strom\n\n\n\n\n\n\n
-tree040
-Strom\n\n\n\n\n\n\n
-tree041
-Strom\n\n\n\n\n\n\n
-tree042
-Strom\n\n\n\n\n\n\n
-tree050
-Strom\n\n\n\n\n\n\n
-tree051
-Strom\n\n\n\n\n\n\n
-tree052
-Strom\n\n\n\n\n\n\n
-tree060
-Strom\n\n\n\n\n\n\n
-tree061
-Strom\n\n\n\n\n\n\n
-tree062
-Strom\n\n\n\n\n\n\n
-tree063
-Strom\n\n\n\n\n\n\n
-tree070
-Strom\n\n\n\n\n\n\n
-tree071
-Strom\n\n\n\n\n\n\n
-tree072
-Strom\n\n\n\n\n\n\n
-tree080
-Strom\n\n\n\n\n\n\n
-tree081
-Strom\n\n\n\n\n\n\n
-tree082
-Strom\n\n\n\n\n\n\n
-tree083
-Strom\n\n\n\n\n\n\n
-tree090
-Strom\n\n\n\n\n\n\n
-tree091
-Strom\n\n\n\n\n\n\n
-tree120
-Strom\n\n\n\n\n\n\n
-tree121
-Strom\n\n\n\n\n\n\n
-tree122
-Strom\n\n\n\n\n\n\n
-tree130
-Strom\n\n\n\n\n\n\n
-tree131
-Strom\n\n\n\n\n\n\n
-tree132
-Strom\n\n\n\n\n\n\n
-tree140
-Strom\n\n\n\n\n\n\n
+palma\n\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnel
 ®eleznièný tunel
-RoadTunnel
-Tunel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
-451_Head
-451 "Pantograf" [EM475.1] (predný)
-451_Tail
-451 "Pantograf" [EM475.1] (zadný)
-451_Waggon
-051 "Pantograf" (vlo¾ený)
-471_Head
-471 "E¹us"
-471_Tail
-971 "E¹us" (riadiaci)
-471_Waggon
-071 "E¹us" (vlo¾ený)
-Btx020
-Btx020 (vagón)
 CB_ALBATROS
 498 (Albatros)
-CD851
-851 (M 286.1 Krokodýl)
-CKD_731
-731 "©pageta" [T457.1]
 CKD_749
 751 "Zamraèená" [T478.1]
 CKD_750
@@ -632,20 +460,6 @@ MHz_TRAM_1930
 T-113
 MHz_TRAM_1980
 T-235 "SuperCity"
-MHz-C130_Hercules
-Lockheed C-130 "Hercules" (cargo)
-MHz-C130_Hercules_(cooled)
-Lockheed C-130 "Hercules" (mrazené potraviny)
-MHz-Fokker_F27
-Fokker F27
-MHz-Il-76_Candid
-Ilju¹in Il-76 
-MHz-Ju-51
-Junkers Ju-51
-MHz-McDonnell-Douglas_DC10
-McDonnell Douglas DC-10
-MHz-McDonnell-Douglas_DC3
-Douglas DC-3
 Post_Barge
 MHz po¹tová bárka
 Praga_Bus
@@ -668,8 +482,6 @@ RVg_Flying_Berliner_(front)
 Lietajúci Berlíòan (predný)
 RVg_Flying_Berliner_(tail)
 Lietajúci Berlíòan (zadný)
-RVg_Ju52
-Junkers Ju-52
 RVg_Passanger_Trailer
 KS osobná vleèka
 RVg_Post_Trailer
@@ -778,26 +590,8 @@ skoda180
 #______________________________________way______________________________________
 air_movement_area
 asfaltová rolovacia plocha
-air_movement_area_old
-dlá¾dená rolovacia plocha
-asphalt_road
-asfaltová vozovka
-autobahn
-diaµnica
-city_road
-cestská cesta
-cobblestone_road
-dlá¾dená vozovka
-concrete_road
-betónová vozovka
 concrete_sleeper_track
 tra» s betónovými podvalmi
-concrete_tram_track
-tra» s betónovým povrchom
-dirt_road
-nespevnená vozovka
-gravel_road
-spevnená vozovka
 High_quality_track
 koridorová tra»
 low_quality_track
@@ -806,8 +600,6 @@ old_runway
 Trávnatá pristávacia plocha
 Powerline
 Vedenie vysokého napätia
-Rillenschienen
-Elektrièková tra»
 runway_modern
 Moderná runway
 Schwebebahn_p_ground
@@ -816,8 +608,6 @@ steel_sleeper_track
 vysokorýchlostná tra»
 Suspended_Monorail_Track
 Vysutá tra» Alwegu
-US_asphalt_road
-americká vozovka
 water_road
 kanál
 wooden_sleeper_track

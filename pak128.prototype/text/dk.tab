@@ -5,9 +5,11 @@
 #                              Language: dk Dansk                              #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 27.02 2010                           #
+#                           Date Created: 25.10 2011                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
 #                              Frank Penz - FrankP                             #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
@@ -18,12 +20,8 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 Jernbanebro (beton)
-ClassicRoad
-Vejbro (beton)
 SteelRail
 Byg jernbanebro (stål)
-SteelRoad1
-Byg vejbro (stål)
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -51,27 +49,25 @@ Indeværende er en børnehave,\nder hvor små børn kan lege\nsamtidigt med at deres
 COM_00_02
 Denne hyggelige cafe er\nvelkendt for sin store\nsandwicher. Ejeren nægter at\nudgive sin hemmelige opskrift,\nmen rygterne siger at han gror\nfrugterne hjemme i hans egen\nhave.\n
 COM_06_13
-En stor barber butik der altid\nhar travlt. Men stadig\natmosfæren er stadig\nfuldkommen forskellig fra\nandre mindre butikker.\n\n\n
+En stor barber butik der altid\nhar travlt. Men stadig\natmosfæren er stadig\nfuldkommen forskellig fra\nandre mindre butikker.\n\n
 DenkFlor
 Dette monument tilegnes Flor\n'WF Ultd.' Wauters, den\nberømte ingeniør som skabte så\nmange glimrende køretøjer. Han\ner ligeledes kendt for at have\ndesignet mange velfungerende\nfabrikker.\n
 DenkOwen
-Denne plads tilegnes Owen\nRudge, den berømte\nfinansexpert og lydtekniker.\n\n\n\n\n
+Denne plads tilegnes Owen\nRudge, den berømte\nfinansexpert og lydtekniker.\n\n
 DenkSeth
 Denne plads tilegnes Seth C.\nTriggs, den berømte arkitekt\nsom designede så mange\nsmukke bygninger. Han er\nligeledes kendt for at have\ngjort mange studier over\nhvorledes man kan forbedre\ntrafiksystemet.\n
 DenkTomas
-Dette monument tilegnes\nTomas Kubes, der forbedrede\nSimutrans på mange, mange\nområder med gode råd og\nhårdt arbejde.\n\n\n
+Dette monument tilegnes\nTomas Kubes, der forbedrede\nSimutrans på mange, mange\nområder med gode råd og\nhårdt arbejde.\n\n
 DenkTrikky
-Dette monument tilegnes\n'Trikky' Rick McGreal, den\nberømte arkitekt som\ndesignede så mange\nimponerende bygninger.\n\n\n
+Dette monument tilegnes\n'Trikky' Rick McGreal, den\nberømte arkitekt som\ndesignede så mange\nimponerende bygninger.\n\n
 DenkVM
-Dette monument tilegnes\nManfred 'VT Wien' Tomaschitz,\nden berømte ingeniør som\ndesignede mange utrolig gode\ntoge.\n\n\n
+Dette monument tilegnes\nManfred 'VT Wien' Tomaschitz,\nden berømte ingeniør som\ndesignede mange utrolig gode\ntoge.\n\n
 DenkVolker
-Dette monument tilegnes\nVolker Meyer, som\nforbedrede Simutrans på\nmange, mange måder.\n\n\n\n
+Dette monument tilegnes\nVolker Meyer, som\nforbedrede Simutrans på\nmange, mange måder.\n\n
 RUIN_0
-En prægtig, gammel borgruin.\nKom forbi og mærk historiens\nvingesus!\n\n\n\n\n
+En prægtig, gammel borgruin.\nKom forbi og mærk historiens\nvingesus!\n\n
 Windmill
-Mølle\n\n\n\n\n\n\n
-#__________________________________dummy_info___________________________________
-#__________________________________dummy_info___________________________________
+Mølle\n\n
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 bakery
@@ -80,8 +76,6 @@ brewery
 Bryggeri
 cannery
 Konservesfabrik
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -122,38 +116,18 @@ Stahl
 stål
 Stone
 sten
-#___________________________________menu_text___________________________________
-#___________________________________menu_text___________________________________
-#_________________________________program_text__________________________________
-#_________________________________program_text__________________________________
-#__________________________________record_text__________________________________
-#__________________________________record_text__________________________________
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
-#_____________________________________tree______________________________________
-#_____________________________________tree______________________________________
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
-1Ben140
-Bennhardt BR140 (el)
 1Dampflokomotive
 H-Trans 0-4-0T (damp)
 2Diesellokomotive
 H-Trans BR218 (diesel)
-7BenE11
-Bennhardt E11 (el)
 Autotransportwagen
 TPI Lopomo Biltransportvogn
 BB-TS_Milk_Mack_Trailer
 Balcebox-TS Mælke Trailer
 Bretterwagen
 VT Wien Bræddevogn
-Btx020
-OnD Btx020
-Bulk_Ship_0
-PMNV Container Skib
 Bulk_trailer_0
 Massegods Trailer
 Bulk_Truck_0
@@ -164,12 +138,6 @@ Bulk_Truck_3
 VSYS-Tatra 815 (Massegods)
 Bulk_Truck_4
 Volvo Massegods Truck
-Bulker_Bulk
-BB Container Skib
-Bulker_Steel
-BB Stål Container Skib
-Bulker_Wood
-BB Træ Container Skib
 Car_Tramsport_Trailer_0
 TS Bil Trailer
 Car_Transporter_0
@@ -182,23 +150,11 @@ Cementwagen
 WF Ultd. Cementtankvogn
 Concretewagen
 WF Ultd. Betontankvogn
-FastFerry
-O.Bang Hurtigfærge
 Holzwagen
 H-Trans Tømmervogn
-Oeltankschiff
-TPI Lopomo Olietanker
-Oelwagen
-VT Wien Olietankvogn
 Passagierwagen
 H-Trans Passagervogn
 Postwagen
 H-Trans Post/Baggagevogn
 Stahlwagen
 VT Wien Stålvogn
-#______________________________________way______________________________________
-#______________________________________way______________________________________
-cobblestone_road
-Brostensvej
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________

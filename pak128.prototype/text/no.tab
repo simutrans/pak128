@@ -5,7 +5,7 @@
 #                              Language: no Norsk                              #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 21.03 2011                           #
+#                           Date Created: 25.10 2011                           #
 #                                                                              #
 #                                   authors:                                   #
 #                         Christian Berntsen - DonChris                        #
@@ -24,10 +24,6 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 Betong flat bro
-ClassicRoad
-Betong vei bro
-Concrete_Road_Bridge
-Riksvei bro
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -60,8 +56,6 @@ Avila_Warehouse_StationBlg
 Varehus Stasjon Byggning
 big_classic_bus_stop
 Stor buss stop
-BigTerminal1930_AirportBlg_S
-Stor terminal hall
 BigTerminal1950_AirportBlg_S
 Stor temrinal hall
 Bulk_Dock
@@ -78,22 +72,18 @@ CarStop
 Innlastings bukt
 CASTLE_0
 Dette slottet tilhørte en gang\ntil kong Napik. Meste parten av\ndet ble ødelagt under en stor\nkrig, men ble ombygd på 1900\ntallet, og nå huser en veldig\nkjent samling av gammle\nrustninger og sverd.\n
-CHURCH_00
-Gotisk Katedral\n\nDenne gammle gotiske katedralen\ner nå mer en turist atraktsjon\nsom huser en utstilling av\nsacral kunst enn et sted av\ntilbedelse. Men, tydligvis\nkirkens autoriteter liker\nsituasjonen, etter som turister\nkan bringe mere inntekter enn\nderes egen tilhengere. Siden\nturister ikke kan nå det med\negne biler, vil det bli mange\npassasjerer kreve tjeneste.\n
-CHURCH_01
-Små Kirke\n\nDenne små glemte kirken er\nfremdeles et fint vennelig\nsted hvor mennesker kan møte\nvenner, snakke med hverandre\nå søke noe høyere enn\njordiske eiendeler.\n
 CHURCH_02
 Rosa Kirke\n\nDenne besynderlige kirken ble bygd\nav en feirende gal munk, som i\nåret 1654, malte hele\nbygningen rosa. Til denne tiden\nfortsetter den å skinne some\nen 'kamp' radiofyr.\n\n
 CHURCH_03
 Kirke\n\nDette er en kjent kirke, som\ntiltrekker mennesker med\ndens hyggelige\nomstendigheter og intresanne\nmaleriene innvendig. \n\n
 CHURCH_04
-Synagoge\n\nVell denne minster ligner litt\narabisk, men er faktisk en\nsynagoge.\n\n\n\n
+Synagoge\n\nVell denne minster ligner litt\narabisk, men er faktisk en\nsynagoge.\n\n
 CHURCH_05
 St. Michael's.\n\nDen arkitektoniske edelstein\nble bygd i slutten av 1900\ntallet, og er interessant på\ngrunn av dens metall tak,\ntegnet av Alexander Gustavus\nEiffel.\n
 CIRCUS_0
 Sirkus Humberto\n\nDet kjente sirkuset gjorde\ndenne byen dens endelige\ndestinasjon. Det klassiske\nteltet ble oppbevart for å\nbeholde den originale\natmosfæren, men alle sirkus\nmenneskene kjøpte deres\negne hus her, så du kan regne\nmed at det står her, å bli\nmeget populær turist mål.\nSirkuset kjennetegner den\nkjente elefanten Jumbo, som sitter\nned hver gang den hører bjellen. Så\nvær forsiktig og ikke ringe i bjellen\nmens man står bak Jumbom, med\nmindre do vil bli meget flat.\n
 CIVILIAN_RADAR
-Observatorium\n\nKanskje du ikke tror det, men\ndetter er et vanelig\nobservatorium. Radio\nobservatorium selvfølgelig...\n\n\n
+Observatorium\n\nKanskje du ikke tror det, men\ndetter er et vanelig\nobservatorium. Radio\nobservatorium selvfølgelig...\n\n
 classic_mailbox
 Gate Postboks
 ClosedTrainStop
@@ -112,20 +102,16 @@ Container2TrainStop
 Avansert kontainer stasjon
 Control_StationBlg
 Stasjon Kontroll Bygning
-CoveredTrainStop
-Dekket Platform
 Crate_Goods_Dock
 Kontainer havn
 Fluid_StationBlg
 Væske Stasjon Byggning
 JUSTICE
-Rettferdighets Hus\n\n\n\n\n\n\n
+Rettferdighets Hus\n\n
 medium_classic_bus_stop
 Buss stop
 small_classic_bus_stop
 Primitiv buss stop
-#__________________________________dummy_info___________________________________
-#__________________________________dummy_info___________________________________
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -146,8 +132,6 @@ chicken_farm
 Kylling farm
 Concretefactory
 Sement mixer
-cotton_field
-Bomull felt
 cow_farm
 Kyr gårdsplass
 fish_pond
@@ -156,8 +140,6 @@ fish_swarm
 Fiske sverm
 food_processing_plant
 Matfabrikk
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -184,12 +166,6 @@ flour
 mel
 food
 mat
-#___________________________________menu_text___________________________________
-#___________________________________menu_text___________________________________
-#_________________________________program_text__________________________________
-#_________________________________program_text__________________________________
-#__________________________________record_text__________________________________
-#__________________________________record_text__________________________________
 #___________________________________roadsign____________________________________
 #___________________________________roadsign____________________________________
 autobahn_classic_entrance
@@ -202,82 +178,38 @@ autobahn_modern_exit
 Riksvei utgang
 choose_point
 Velg destinasjons skilt
-#_____________________________________tree______________________________________
-#_____________________________________tree______________________________________
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
-1Ben140
-Bennhardt B-140 "Limet"
-1Bens155
-Bennhardt B-155 "Robo"
 1Benst134
 Bennhardt B-134 "Pixie"
 1Benst135t
 Bennhardt B-135 "Gremlin"
 1Benst138
 Bennhardt B-138 "Apple pie"
-1Benst161
-Bennhardt B-161 "Turbo"
 1Benst162t
 Bennhardt B-162 "Jet"
-1Benst181
-Bennhardt B-181 "Gelding"
 1Benst238
 Bennhardt B-238 "Frog"
-1Benst281
-Bennhardt B-281 "Workhorse"
 1Dampflokomotive
 RVg 0-4-0T
 2Diesellokomotive
 H-Trans BR218
-3Bens185
-Bennhardt B-185 "Santa"
 3Bens186t
 Bennhardt B-186 "Lemon"
 3Dampflokomotive
 RVg 0-3-0 - Chippy
-451_Head
-VTS, MEZ 451
-451_Tail
-VTS, MEZ 451 (hale)
-451_Waggon
-VTS, MEZ 451 (vogn)
-471_Head
-CKD - Skoda 471
-471_Tail
-CKD - Skoda 471 (hale)
-471_Waggon
-CKD - Skoda 471 (mid)
-7BenE11
-Bennhardt E-11
-Aeroqueen_JR_Bus_Kanto
-Aeroqueen JR Bus Kanto
-AR4_back
-AR-4 (rear engine)
-AR4_front
-AR-4 "Kikin"
-AR4_mid_engine
-AR-4 (mid engine)
-AR4_mid_trainer
-AR-4 (waggon)
 Autotransportwagen
 Kanonball Bil Transporter
 BB-TS_Milk_Mack_Trailer
 BlacBox-TS Melk Trailer
 Bretterwagen
 Planke Transporter
-Btx020
-OnD Btx020
 Budd_Coach
 Knoppet Passasjer Vogn
 Budd_Observation
 Knoppet Kuppel Tog
 Budd_RPO
 Knoppet RPO
-Bulk_Ship_0
-PMNV Bulk Transporter
 Bulk_trailer_0
 Bulk Trailer
 Bulk_Truck_0
@@ -288,12 +220,6 @@ Bulk_Truck_3
 VSYS-Tatra 815 (Bulk)
 Bulk_Truck_4
 Volvo Bulk Lastebil
-Bulker_Bulk
-BB Bulker
-Bulker_Steel
-BB Stål Frakter
-Bulker_Wood
-BB Ved Transporter
 Car_Tramsport_Trailer_0
 TS Bil Trailer
 Car_Transporter_0
@@ -306,8 +232,6 @@ CB_ALBATROS
 Canonball-Skoda 498 "Albatros"
 CB_DB-130_8
 Canonball & H-Trans BRAW61000 "Taiga Drum"
-CD851
-OnD CD851
 Cement_Carrier_Fast
 Sement bil
 Cement_trailer_0
@@ -320,8 +244,6 @@ Cement_Waggon_1
 BB-PMNV Sement Bil
 Cementwagen
 SergeS Sement Cistern
-CKD_731
-CKD 731
 CKD_749
 CKD 749
 CKD_750
@@ -346,12 +268,6 @@ Cooling_wagon_0
 Kanonball Kjøling Vogn
 Cooling_wagon_1
 Kjøling Kontainer Vogn
-D231_back
-SHI D-231 (rear engine)
-D231_front
-SHI D-231 "Shy"
-D231_mid
-SHI D-231 (vogn)
 Fluid_trailer_0
 AJ Olje Tanker
 Fluid_trailer_1
@@ -368,19 +284,5 @@ Magirus Oil Truck 1923
 #______________________________________way______________________________________
 air_movement_area
 Rullebane
-asphalt_road
-Asfalt vei
-autobahn
-Motorvei
-city_road
-By vei
-cobblestone_road
-Cobblestein vei
-concrete_road
-Sement veit
 concrete_sleeper_track
 Sement Sleeper Spor
-concrete_tram_track
-Sement Trikk Spor
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________

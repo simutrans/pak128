@@ -5,12 +5,16 @@
 #                             Language: hr Hrvatski                            #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                            Date Created: 8.06 2010                           #
+#                           Date Created: 25.10 2011                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
 #                                    - EdinU                                   #
 #                                    note:                                     #
 #                              Frank Penz - FrankP                             #
+#                                    note:                                     #
+#                                   - Nico192                                  #
 #                                    note:                                     #
 #                          Alen Milincevic - phantom25                         #
 #                                    note:                                     #
@@ -22,12 +26,6 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 Betonski most (Haru)
-ClassicRoad
-Betonski cestovni most
-Concrete_Road_Bridge
-Most za autocestu
-Plate_Girder_Bridge
-Most od nosaca
 PowerBridge
 Most Za Dalekovod
 RVg_Concrete_Rail_Bridge
@@ -36,14 +34,6 @@ Schwebebahn_p_bridge
 Viseci Monorail (most)
 SteelRail
 Celicni zeljeznicki most
-SteelRail2
-Cvrsti celicni most
-SteelRoad1
-Celicni cestovni most
-SteelRoad2
-Cjevasti cestovni most
-u_truss_bridge
-Most Na Skeli
 water_bridge
 Kanalski Most
 Wooden_Rail
@@ -112,8 +102,6 @@ big_classic_bus_stop
 Veliko atubusno stajaliste
 big_modern_bus_stop
 Veliko moderno autobusno stajaliste
-BigTerminal1930_AirportBlg_S
-Veliki Putnicki Terminal
 BigTerminal1950_AirportBlg_S
 Veliki Putnicki Terminal (1950)
 Bulk_Dock
@@ -134,24 +122,20 @@ CarStop
 Zaljev Punjenja
 CASTLE_0
 Stari dvorac\n\nOvaj je dvorac nekada pripadao\nKralju Napiku. Vecina ga je\nunistena tijekom velikog\nrata, ali je ponovno sagradjen u\ndevetnaestom stoljecu,\ni sada sadrzava vrlo\npoztnatu kolekciju starih\noklopa i maceva.\n
-CHURCH_00
-Goticka Katedrala\n\nOva stara goticka katedrala je\nsada vise turisticka\natrakcija koja dsadrzi\nizlozbu svete umjetnosti nego mjesto za stovanje.\nSvejedno, izgleda kako\ncrkvene vlasti vole ovakvu\nsituaciju, jer turisti mogu\ndonijeti vise zarade nego slijedbenici.Jer\nturisti ne mogu doseci svojim\nosobnim automobilima,biti ce\npuno putnika koji zahtijevaju\nprijevoz.\n
-CHURCH_01
-Mala Crkva\n\nOva mala zaboravljena crkva je\njos uvijek prijateljsko mjesto\ngdje se ljudi sastaju\ns prijateljima, pricaju medjusobno\ni traze nesto vise\nnego zemaljske posjede.\n
 CHURCH_02
 Lila Crkva\n\bOva cudna crkva je sagradjena\nod slavnog ludog\nsvecenika, koji je 1654 godine\nobojao cijelu zgradu\nlila. Boja je izblijedila\nodavno,ali ime\njos uvijek ostalo do danas.\n
 CHURCH_03
 Crkva\n\nOvo je poznata crkva,\nkoja privlaci ljude sa\nsvojim ugodnim okolisem\ni zanimljivim\nslikama unutra.\n\n
 CHURCH_04
-Sinagoga\n\nIako ovaj manastir izgleda malo\nArabski, ipak je\nsinagoga.\n\n\n\n
+Sinagoga\n\nIako ovaj manastir izgleda malo\nArabski, ipak je\nsinagoga.\n\n
 CHURCH_05
 St.Michael\n\nOvaj arhitektonski dragulj je\nsagradjen krajem 19-tog\nstoljeca, i zanimljiv je\njer ima metalni krov,\nprojektiran od Alexandera\nGustavusa Eiffela.\n
 CHURCH_06
-Crkva\n\nTipicna seoska ili crkva\nod malog grada.\n\n\n\n\n
+Crkva\n\nTipicna seoska ili crkva\nod malog grada.\n\n
 CIRCUS_0
 Cirkus Humberto\n\nPoznati cirkus je napravio ovaj\ngrad konacnim odredistem.\Starinski sator je\nsacuvan kako bi se sacuvala\noriginalna atmosfera, ali svi\ncirkuski ljudi su kupili\nsvoje vlastite kuce ovdje, tako\nmozete racunati na ostajanje\novdje, i postati\npoznati turisticki cilj.\nCirkus ima poznatog\nslona Jumba,koji sjedne\nsvaki puta kada cuje zvono.Dakle\nbudite oprezni i ne koristite zvono\nDok stojite iza Jumba,\nosim ako ne volite biti vrlo plosnati.\n
 CIVILIAN_RADAR
-Promatracnica\n\nMozda ne vjerujete, ali\nono je normalna\npromatracnica. Radioteleskop, naravno...\n\n\n
+Promatracnica\n\nMozda ne vjerujete, ali\nono je normalna\npromatracnica. Radioteleskop, naravno...\n\n
 classic_mailbox
 Postanski Sanducic
 ClosedTrainStop
@@ -159,75 +143,69 @@ Sasvim pokrivena platforma
 CoalTrainStop
 Stanica sa ugljenom
 COM_00_10
-Kuca je poplocena crvenim\nciglicama.\n\n\n\n\n\n
+Kuca je poplocena crvenim\nciglicama.\n\n
 COM_00_22
-Uredska zgrada\n\n\n\n\n\n\n
+Uredska zgrada\n\n
 COM_00_23
-Stanarska zgrada\n\n\n\n\n\n\n
+Stanarska zgrada\n\n
 COM_00_60
-Visoka strseca zgrada\n\n\n\n\n\n\n
+Visoka strseca zgrada\n\n
 COM_01_01
-riblja trgovina\n\n\n\n\n\n\n
+riblja trgovina\n\n
 COM_01_05
-Stanarska Zgrada\n\n\n\n\n\n\n
+Stanarska Zgrada\n\n
 COM_01_15
-Blok stanova sa trgovinama\n\n\n\n\n\n\n
+Blok stanova sa trgovinama\n\n
 COM_01_17
-Visekatni Autopark\n\n\n\n\n\n\n
+Visekatni Autopark\n\n
 COM_01_21
-Bok ureda\n\n\n\n\n\n\n
+Bok ureda\n\n
 COM_01_23
-Bolk ureda\n\n\n\n\n\n\n
+Bolk ureda\n\n
 COM_01_26
-Stanarska zgrada\n\n\n\n\n\n\n
+Stanarska zgrada\n\n
 COM_01_47
-Visokostreca zgrada\n\n\n\n\n\n\n
+Visokostreca zgrada\n\n
 COM_01_60
-Visokostrseca Zgrada\n\n\n\n\n\n\n
+Visokostrseca Zgrada\n\n
 COM_02_13
-Stanarska Zgrada\n\n\n\n\n\n\n
+Stanarska Zgrada\n\n
 COM_02_15
-Stanarska Zgrada\n\n\n\n\n\n\n
+Stanarska Zgrada\n\n
 COM_03_21
-Stanarska Zgrada\n\n\n\n\n\n\n
-COM_06_08
-Trgovina Elektronikom\n\n\n\n\n\n\n
+Stanarska Zgrada\n\n
 COM_07_06
-Stanarska Zgrada\n\n\n\n\n\n\n
-COM_07_08
-Poslovna Zgrada\n\n\n\n\n\n\n
+Stanarska Zgrada\n\n
 COM_07_12
-Kuca\n\n\n\n\n\n\n
+Kuca\n\n
 COM_07_16
-Stanarska Zgrada\n\n\n\n\n\n\n
+Stanarska Zgrada\n\n
 COM_07_18
-Visespratni Autopark\n\n\n\n\n\n\n
+Visespratni Autopark\n\n
 COM_07_19
-Stanarska Zgrada\n\n\n\n\n\n\n
+Stanarska Zgrada\n\n
 COM_07_21
-Stanarska Zgrada\n\n\n\n\n\n\n
+Stanarska Zgrada\n\n
 COM_07_22
-Blok Stanova\n\n\n\n\n\n\n
+Blok Stanova\n\n
 COM_08_14
-Visekatni Autopark\n\n\n\n\n\n\n
+Visekatni Autopark\n\n
 COM_08_18
-Stambena Zgrada\n\n\n\n\n\n\n
+Stambena Zgrada\n\n
 COM_09_18
-Rimski Hram\n\n\n\n\n\n\n
+Rimski Hram\n\n
 COM_10_14
-Kuca\n\n\n\n\n\n\n
+Kuca\n\n
 COM_11_14
-Kuca\n\n\n\n\n\n\n
+Kuca\n\n
 COM_11_15
-Salon sladoleda\n\n\n\n\n\n\n
+Salon sladoleda\n\n
 Container1TrainStop
 Kontejnerska stanica
 Container2TrainStop
 Napredna kontejnerska stanica
 Control_StationBlg
 Zgrada Kontrole Stanice
-CoveredTrainStop
-Orekrivena Platforma
 Crate_Goods_Dock
 Kontejnerski dok
 CunnersdorfStopBlg
@@ -237,7 +215,7 @@ Vatrogasna Stanica\n\nOvo je gradska vatrogasna stanica.Ona\nposjeduje vatrogasn
 Fluid_StationBlg
 Postaja Vodotornja
 FORT_FUN
-Povijesni Dvorac\n\n\n\n\n\n\n
+Povijesni Dvorac\n\n
 FreightTrainStop
 Teretno Stajaliste Vlaka
 Gas_StationBlg
@@ -251,15 +229,15 @@ Sredisnjice
 HQ2
 Sredisnjice (II)
 IND_00_03
-Plantaza\n\n\n\n\n\n\n
+Plantaza\n\n
 IND_01_03
-Pasnjak sa Kravama\n\n\n\n\n\n\n
+Pasnjak sa Kravama\n\n
 IND_01_04
-Park\n\n\n\n\n\n\n
+Park\n\n
 IND_01_11
-Stambena zgrada\n\n\n\n\n\n\n
+Stambena zgrada\n\n
 JUSTICE
-Sudnica\n\nOvo je gradska sudnica\n,gdje se odrzavaju sudjenja\ncesto. Odvjetnici dolaze\ni odlaze neprestano.\n\n\n
+Sudnica\n\nOvo je gradska sudnica\n,gdje se odrzavaju sudjenja\ncesto. Odvjetnici dolaze\ni odlaze neprestano.\n\n
 Long_Goods_Dock
 Dugacki robni dok
 medium_classic_bus_stop
@@ -280,14 +258,12 @@ MonorailFoundation
 Monorail Temelj
 MonorailGround
 Monorail temelj
-MonorailStation
-Uzdignuta platforma
 Old_gate
 Vrata Grada\n\n
 OpenTrainStop
 Jednostavna platforma
 Pagoda01
-Pagoda\n\n\n\n\n\n\n
+Pagoda\n\n
 PostOffice
 Posta
 PostOffice1920_AirportBlg
@@ -295,7 +271,7 @@ Zgrada Zracne Poste
 Radar3
 Radar
 Russian_Cathedral
-Ruska crkva\n\n\n\n\n\n
+Ruska crkva\n\n
 ShipDepot
 Brodski depo
 ShipStop
@@ -330,8 +306,6 @@ VictorianStation
 Stanica u viktorijanskom stilu
 VillageTrainStop
 Seoska stanica
-#__________________________________dummy_info___________________________________
-#__________________________________dummy_info___________________________________
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -358,16 +332,12 @@ cornfield
 Polje Kukuruza
 cotton_farm_w_fields
 Pamucna plantaza
-cotton_field
-Pamucno polje
 cow_farm
 Stocno dvoriste
 dairy
 Mljekara
 Druckerei
 Tiskara
-electronics_factory
-Tvornica elektronike
 Erzbergwerk
 Rudnik zeljezne rude
 ethanol_plant
@@ -382,16 +352,10 @@ ForestPlantation
 Plantaza drva
 Glass_factory
 Staklana
-grain_farm
-Farma zitarica
 grain_farm_w_fields
 Farma zitarica
 grain_mill
 Mlin zitarica
-Kohlekraftwerk
-Ugljena elektrana
-Materialswholesale
-Prodavaonica materijala na veliko
 MaterialsWholesales
 Prodaja materijala na veliko
 meat_packing_plant
@@ -402,8 +366,6 @@ Moebelfabrik
 Tvornica Pokucstva
 Moebelhaus
 Kucna Trgovina
-Nutzwald
-Plantaza Drva
 Oelbohrinsel
 Naftna platforma
 Oelfeld
@@ -424,8 +386,6 @@ Saegewerk
 Pilana
 sand_quarry_dd
 Pjescani kamenolom
-Sandquarry
-Kamenolom Pijeska
 shaft_coal_mine
 Ugljenokop
 shaft_coal_mine_small
@@ -452,10 +412,6 @@ waste_incinerator_kraftwerk
 Spalionica otpada
 wind_kraftwerk
 Vjetroturbina
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
-grain_field
-Polje zita
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -560,6 +516,8 @@ monorail vehicle
 monorail vozilo
 Monorailboden
 Uzdignut put
+Monoraildepot
+Uzdignuti tracnicki depo
 Monorails are not available yet!
 Monorail jos nije dostupan.
 remove monorails
@@ -624,14 +582,10 @@ Signals
 Signal (standardni tip)
 traffic_light
 Prometno svjetlo
-#_____________________________________tree______________________________________
-#_____________________________________tree______________________________________
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnel
 Zeljeznicki tunel
-RoadTunnel
-Cestovni tunel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 Postwagen
@@ -642,8 +596,6 @@ RVg-B_101
 RVg B22
 RVg-B_107
 RVG B149-Crveni patuljak
-RVg-Bulk_Freighter
-RVg Teretni Brod
 RVg-D22-Rola
 RVg D22 "Rola"
 RVg-D23-Camel
@@ -658,10 +610,6 @@ RVg-E17-Spring
 RVg E17
 RVg-Express_Tender
 RVg Ekspres Tender
-RVg-G5_Posttaxi
-RVg G5
-RVg-Goods_Liner
-RVg S-12
 RVg-Goods_waggon
 RVg Zatvoreni vagon
 RVg-Heavy-Tender
@@ -682,8 +630,6 @@ RVg-LK_Cement_Truck
 RVg-LK V44 - cement
 RVg-LK_Cooling_Truck
 RVg-LK V44 - hladnjaca
-RVg-LK_Fabric_Truck
-RVg-LK V32 - tkanina
 RVg-LK_Goods_Truck
 RVg-LK kamion za prijevoz robe
 RVg-LK_Grain_Truck
@@ -692,8 +638,6 @@ RVg-LK_Plank_Truck
 RVh-LK V37 - trupci
 RVg-LK_Steel_Truck
 RVg-LK V32 - celik
-RVg-Lockheed_Constellation
-RVg EC-121 
 RVg-Oil-Tender
 RVg Naftni Tender
 RVg-Pioneer_Alladin
@@ -716,28 +660,10 @@ RVg-Sail_Goods_Ship_0
 RVg Trgovacki Brod
 RVg-Sail_Passanger_Ship_0
 RVg Putnicki Jedrenjak
-RVg-Sea_Liner
-RVg Prekooceanski putnicki brod
 #______________________________________way______________________________________
 #______________________________________way______________________________________
-asphalt_road
-Asfaltna Ulica
-autobahn
-Autocesta
-city_road
-Gradska ulica
-cobblestone_road
-cesta kaldrma
-concrete_road
-Betonska ulica
 concrete_sleeper_track
 Betonski Zeljeznicki Prag
-concrete_tram_track
-Betonska Tramvajska Tracnica
-dirt_road
-Prasnjava cesta
-gravel_road
-Makadam
 High_quality_track
 Tracnice visoke kvalitete
 low_quality_track
@@ -748,8 +674,6 @@ old_taxiway
 Travnata vozna staza
 Powerline
 Visokonaponski dalekovod
-Rillenschienen
-Tramvajske tracnice
 river_00
 Plovna Rijeka
 river_01
@@ -768,8 +692,6 @@ steel_sleeper_track
 Viskobrzniski prag
 Suspended_Monorail_Track
 Uzdignuta Monorail Tracnica
-US_asphalt_road
-US asfaltna ulica
 water_road
 Kanal
 wooden_sleeper_track

@@ -5,12 +5,16 @@
 #                              Language: fi Suomi                              #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 23.05 2010                           #
+#                           Date Created: 25.10 2011                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
 #                              Esa Lindroos - Esa                              #
 #                                    note:                                     #
 #                              Frank Penz - FrankP                             #
+#                                    note:                                     #
+#                                    - alluk                                   #
 #                                    note:                                     #
 #                        Jaakko Mäkinen - jaakko.makinen                       #
 #                                    note:                                     #
@@ -22,12 +26,6 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 Betonirakenteinen rautatiesilta
-ClassicRoad
-Betonirakenteinen maantiesilta
-Concrete_Road_Bridge
-Betoni maantie silta
-Plate_Girder_Bridge
-Rautatie silta
 PowerBridge
 Voimalinjasilta
 RVg_Concrete_Rail_Bridge
@@ -36,14 +34,6 @@ Schwebebahn_p_bridge
 Monorail (silta)
 SteelRail
 Teräksinen rautatiesilta
-SteelRail2
-Teräsputki rautatiesilta
-SteelRoad1
-Teräsrakenteinen maantiesilta
-SteelRoad2
-Teräsputki maantiesilta
-u_truss_bridge
-Ristikkosilta
 water_bridge
 Akvedukti
 Wooden_Rail
@@ -112,8 +102,6 @@ big_classic_bus_stop
 Suuri bussipysäkki
 big_modern_bus_stop
 Suuri moderni bussipysäkki
-BigTerminal1930_AirportBlg_S
-Suuri matkustajaterminaali
 BigTerminal1950_AirportBlg_S
 Suuri matkustajaterminaali (1950)
 Bulk_Dock
@@ -134,24 +122,20 @@ CarStop
 Lastaus-alue
 CASTLE_0
 Linna\n\nTämä linna kuului Kuningas Napikille.\nSuuri osa siitä tuhoutui suuren\nsodan aikana, mutta se\nrakennettiin uudelleen\n1800-luvulla, ja nyt toimii\nmuseona.\n
-CHURCH_00
-Goottilainen katedraali\n\nTämä vanha kirkko on nykyään\nenemmin nähtävyys kuin\nherran huone.\n\n\n\n
-CHURCH_01
-Pieni kirkko\n\n\n\n\n\n\n\n
 CHURCH_02
 Pinkki Kirkko
 CHURCH_03
-Kirkko\n\nTämä on kuuluisa kirkko, joka\nhoukuttelee turisteja\nkauempaakin. \n\n\n\n
+Kirkko\n\nTämä on kuuluisa kirkko, joka\nhoukuttelee turisteja\nkauempaakin. \n\n
 CHURCH_04
-Synagooga\n\n\n\n\n\n\n
+Synagooga\n\n
 CHURCH_05
 Pyhän Mikaelin kirkko\n\nTämä arkitektuurinen aarre\nrakennettiin 1800-luvulla. Siinä\non peltikatto jonka on\nsuunnitellur Alexander Gustavus\nEiffel.\n\n
 CHURCH_06
-Kirkko\n\n Tyypillinen pienen taajaman kirkko.\n\n\n\n\n
+Kirkko\n\n Tyypillinen pienen taajaman kirkko.\n\n
 CIRCUS_0
-Sirkus Humberto\n\n\n\n\n\n\n
+Sirkus Humberto\n\n
 CIVILIAN_RADAR
-Tutka\n\n\n\n\n\n\n\n
+Tutka\n\n
 classic_mailbox
 Postilaatikko
 ClosedTrainStop
@@ -159,39 +143,37 @@ Katettu asemalaituri
 CoalTrainStop
 Hiiliasema
 COM_00_01
-Esikoulu\n\n\n\n\n\n\n
+Esikoulu\n\n
 COM_00_02
-Kahvila, jossa tarjoillaan\nerityisen hyviä sämpylöitä.\n\n\n\n\n\n
+Kahvila, jossa tarjoillaan\nerityisen hyviä sämpylöitä.\n\n
 COM_00_03
-Brown Powder - kahvila\n\n\n\n\n\n\n
+Brown Powder - kahvila\n\n
 COM_00_05
-Irlantilaispubi\n\n\n\n\n\n\n
+Irlantilaispubi\n\n
 COM_00_07
-Kukkakauppa\n\n\n\n\n\n\n
+Kukkakauppa\n\n
 COM_00_08
-Upea itämainen ravintola, jossa\non tyylikäs japanilainen\npuutarha\n\n\n\n\n
+Upea itämainen ravintola, jossa\non tyylikäs japanilainen\npuutarha\n\n
 COM_00_13
-Lounasravintola\n\n\n\n\n\n\n
+Lounasravintola\n\n
 COM_00_18
-Chateaux Touche - bed and\nbreakfast\n\n\n\n\n\n
+Chateaux Touche - bed and\nbreakfast\n\n
 COM_00_19
-Vaatekauppa\n\n\n\n\n\n\n
+Vaatekauppa\n\n
 COM_00_21
-Parkkihalli\n\n\n\n\n\n\n
+Parkkihalli\n\n
 COM_00_22
-Lasinen moderni liikerakennus\n\n\n\n\n\n\n
+Lasinen moderni liikerakennus\n\n
 COM_05_23
-Moderni toimistotalo\n\n\n\n\n\n\n
+Moderni toimistotalo\n\n
 COM_06_60
-Tämän talon on omistanut\nitselleen Mika "Lahha"\nKatajamäki, joka auttoi\nsuomen kielisten käännöksien\nkanssa.\n\n\n
+Tämän talon on omistanut\nitselleen Mika "Lahha"\nKatajamäki, joka auttoi\nsuomen kielisten käännöksien\nkanssa.\n\n
 Container1TrainStop
 Konttiasema
 Container2TrainStop
 Kontti asema
 Control_StationBlg
 Valvontatorni
-CoveredTrainStop
-Katettu asemalaituri
 Crate_Goods_Dock
 Rahtilaituri
 CunnersdorfStopBlg
@@ -203,43 +185,43 @@ Kiitos MHz!\n\nTämä muistomerkki on omistettu\nGeorg:lle kuuluisalle\narkitehdil
 DenkHajo
 Muistomerkki\n\nTämä patsas on omistettu\nHansjorg Mathaner:lle, joka loi\nsimutransin seitsemässä\nvuodessa. Ilman häntä\nsimutransia ei olisi\nolemassakaan. Älkää unohtako\nhänen uhraustaan!\n
 DenkOwen
-DenkOwen  Tämä paikka on\nomistettu Owen Rudgelle,\nkuuluisalle finannsiexpertille, ja\nääniteknikolle.\n\n\n\n
+DenkOwen  Tämä paikka on\nomistettu Owen Rudgelle,\nkuuluisalle finannsiexpertille, ja\nääniteknikolle.\n\n
 DenkPatrick
-Tämä muistomerkki on\nomistettu Patrick Nesnitt:lle,\njoka auttoi monien rakennus ja\nkulkuneuvojen tekemisessä.\n\n\n\n
+Tämä muistomerkki on\nomistettu Patrick Nesnitt:lle,\njoka auttoi monien rakennus ja\nkulkuneuvojen tekemisessä.\n\n
 DenkRaven
 Kiitti Raven\n\nTämä muisto merkki on omistettu\nRaven:lle kuuluisalla insinöörille\nja RVg:n perustajalle. RVg\nvalmistaa monia erilsisia\nkulkuneuvoja. Viime aikoina\nRaven keskittyi taloihin ja\nrakensi monta upeaa rakennusta.\n\n
 DenkSeth
 Muistomerkki\n\nTämä paikka on omistettu Seth C.\nTriggsille, kuuluisalle\narkkitehdille, joka suunnitteli\nmonia kauniita kaupunki-\nrakennuksia. Hän on myös\ntunnettu monista tutkimuksista,\nkuinka parantaa\nliikennejärjestelmiä.\n
 DenkTomas
-Tämä monumentti on\nomistettu Tomas Kubesille,\njoka auttoi parantamaan\nSimutransia monin, monin puolin\nneuvoilla ja kovalla työllä.\n\n\n
+Tämä monumentti on\nomistettu Tomas Kubesille,\njoka auttoi parantamaan\nSimutransia monin, monin puolin\nneuvoilla ja kovalla työllä.\n\n
 DenkTrikky
-DenkTrikky  Tämä monumentti\non omistettu 'Trikky' Rick\nMcGrealille, kuuluisalle\narkkitehdille, joka suunnitteli\nmonia vaikuttavia rakennuksia.\n\n\n
+DenkTrikky  Tämä monumentti\non omistettu 'Trikky' Rick\nMcGrealille, kuuluisalle\narkkitehdille, joka suunnitteli\nmonia vaikuttavia rakennuksia.\n\n
 DenkVM
 DenkVM  Tämä monumentti on\nomistettu Manfred 'VT Vienna'\nTomaschitzille, kuuluisallee\ninsinöörille, joka suunnitteli\nerittäin hyviä\nrautatiekulkuneuvoja.\n\n
 DenkVolker
-DenkVolker  Tämän Stupan \nrakensi Volker Meyer, joka\nparansi Simutransia monilta,\nmonilta alueilta.\n\n\n\n
+DenkVolker  Tämän Stupan \nrakensi Volker Meyer, joka\nparansi Simutransia monilta,\nmonilta alueilta.\n\n
 ELEMENTARY_SCHOOL_1
-Ala-aste\n\nTäällä lapset saavat ensimmäisen\nkosketuksensa koulutuksen\nmaailmaan.\n\n\n\n
+Ala-aste\n\nTäällä lapset saavat ensimmäisen\nkosketuksensa koulutuksen\nmaailmaan.\n\n
 ELEMENTARY_SCHOOL_2
-Ylä-aste\n\n\n\n\n\n\n
+Ylä-aste\n\n
 Firestation
-Paloasema\n\n\n\n\n\n\n
+Paloasema\n\n
 Fluid_StationBlg
 Öljysäiliö
 FORT_FUN
-Lännenkylä\n\n\n\n\n\n\n
+Lännenkylä\n\n
 FreightTrainStop
 Rahtijunapysäkki
 FUTURISTIC_TOWER_0
-Näköalatorni\n\n\n\n\n\n\n
+Näköalatorni\n\n
 Gas_StationBlg
 Kaasusäiliö
 Goods_StationBlg
 Kappaletavara-asema
 GREEN_HOUSE
-Kasvihuone\n\n\n\n\n\n\n
+Kasvihuone\n\n
 HIGH_SCHOOL_1
-Yliopisto\n\n\n\n\n\n\n
+Yliopisto\n\n
 HQ1
 Päämaja
 JUSTICE
@@ -249,7 +231,7 @@ Majakka\n\nKun majakat rakennettiin\nSimumaailmaan, merenkäynnistä\ntuli helpomp
 Long_Goods_Dock
 Puutavara laituri
 MARKET_PLACE_0
-Markkinat\n\n\n\n\n\n\n
+Markkinat\n\n
 medium_classic_bus_stop
 Bussi pysäkki
 Modern_Warehouse
@@ -271,7 +253,7 @@ Laivaposti toimisto
 PostOffice
 Posti toimisto
 RADIO_TOWER_0
-Pälä pälä FM radio asema\n\n\n\n\n\n\n
+Pälä pälä FM radio asema\n\n
 RES_01_10
 Moderni talo\n
 RES_01_12
@@ -295,11 +277,9 @@ Satama
 small_classic_bus_stop
 Bussipysäkki
 st_benedict_church
-Pyhän Benediktuksen kirkko\n\n\n\n\n\n\n
+Pyhän Benediktuksen kirkko\n\n
 ST_PETER
-Myöhäisromaaninen Pyhän\nPietarin kirkko vuodelta 1220. \n\n\n\n\n\n
-SUSHI_HOSPITAL
-Sushi hospital - sairaala\n\n\n\n\n\n\n
+Myöhäisromaaninen Pyhän\nPietarin kirkko vuodelta 1220. \n\n
 Suspended_Monorail_Bahnhof_Modern
 Monorail-asema
 Terminal1930_AirportBlg
@@ -321,9 +301,9 @@ Junapysäkki
 TramDepot
 Raitiovaunuvarikko
 TRIUMPH
-Riemukaari keisari Napikin\najalta.\n\n\n\n\n\n
+Riemukaari keisari Napikin\najalta.\n\n
 TV_TOWER_0
-TV-linkkitorni\n\n\n\n\n\n\n
+TV-linkkitorni\n\n
 Very_Big_Terminal
 Valtava terminaali (3x3)
 VictorianStation
@@ -331,15 +311,13 @@ Viktoriaaninen asema
 VillageTrainStop
 Kyläpysäkki
 Windmill
-Tuulimylly\n\n\n\n\n\n\n
+Tuulimylly\n\n
 WOODEN_CHURCH
-Puinen kirkko\n\n This Wooden Church was built\nby the Hamish people.\n\n\n\n\n
+Puinen kirkko\n\n This Wooden Church was built\nby the Hamish people.\n\n
 #__________________________________dummy_info___________________________________
 #__________________________________dummy_info___________________________________
 factory_Cementmill_details
 Sementtimylly
-factory_Nutzwald_details
-<title>Viljelymetsistä</title><h1>Viljelymetsät</h1><p>Metsissä kasvaa tärkein uusiutuva materiaali ja energian lähde, Siitä valmistetaan korkea luokkaisia tuotteita ja paperia.</p>\n
 factory_Papierfabrik_details
 <title>Paperitehdas</title>\n\n<h1>Paperin valmistus</h1>\n\n<p>Nykyn valtaosa paperista valmistetaan teollisesti puukuiduista pitklle automatisoidulla prosessilla. Ert muutkin kuidut sopivat, mutta metsteollisuus ei ole panostanut niiden tutkimukseen, koska puun riittvyys on vaikuttanut turvatulta. Taloudellinen ja ympristystvllinen tulevaisuuden vaihtoehto puulle on olkisellu.\n</p>\n<p>\nK tupuu tuotiin ennen tavallisemmin uittamalla proomujen avulla, nykyisin maateitse rekoilla, laivoilla tai rautateitse. Kuorimarummuissa puista poistetaan kuori. Rungot jatkavat matkaansa; kuoret poltetaan energiaksi tai kytetn maanparannusaineena. Osa puunrungoista haketetaan lastuiksi (puuhakkeeksi), jotka varastoidaan, osa hiotaan hiokemassaksi. Lastuista voidaan valmistaa puumassaa lhinn kahdella eri tavalla: hake keitetn lipess, jolloin puusta liukenee ligniini, mutta runsaasti muutakin. Nin saadaan sellumassaa. Vaihtoehtoisesti hake hierretn mekaanisesti. Ksittelyjen tuloksena puusta muodostuu massaa (hioke, hierre tai sellu), joka pestn ja useimmiten valkaistaan (valkaisematonta massaa josta syntyy ruskeaa paperimateriaalia, kytetn lhinn pakkauspaperien ja -kartonkien valmistukseen).\n</p>\n<p>\nSyntynyt ko ea paperimassa laimennetaan perlaatikossa lismll vett, jolloin tuloksena on massaliuos, josta noin 99 prosenttia on vett. Tss vaiheessa voidaan massaan mys list erinisi tyteaineita esimerkiksi kaoliinia, talkkia tai kalsiumkarbonaattia. Tyteainelisyksen pasialliset edut ovat opasiteetin (lpinkymttmyyden) kasvaminen, matta- tai kiiltopintaisuuden stely ja raaka-ainekustannuksien halventuminen. Tm massa suihkutetaan viiraosalle muodostumaan ohueksi tasaiseksi rainaksi, ja sen jlkeen prosessin suurin tehtv on poistaa vesi eri keinoilla. Ensin viiralla vett valuu pois (suotautuminen), sitten raina puristetaan suurien telojen lpi (mrkpuristus), ja viimeksi paperiraina kulkee kuivatusosalle jossa se menee kuumien telojen pintaa pitkin huomattavan matkan, jolloin loput tasapainokosteuden ylittvst vedest poistuu haihtumalla (kuivatus).\n</p>
 #____________________________________factory____________________________________
@@ -368,16 +346,12 @@ cornfield
 Maissipelto
 cotton_farm_w_fields
 Puuvillaplantaasi
-cotton_field
-Puuvillapelto
 cow_farm
 Karjatila
 dairy
 Meijeri
 Druckerei
 Kirjapaino
-electronics_factory
-Elektroniikkatehdas
 Erzbergwerk
 Rautakaivos
 ethanol_plant
@@ -392,16 +366,10 @@ ForestPlantation
 Viljelysmetsä
 Glass_factory
 Lasitehdas
-grain_farm
-Farmi
 grain_farm_w_fields
 Viljafarmi
 grain_mill
 Mylly
-Kohlekraftwerk
-Hiilivoimala
-Materialswholesale
-Tarviketukku
 MaterialsWholesales
 Tavaratukku
 meat_packing_plant
@@ -412,8 +380,6 @@ Moebelfabrik
 Huonekalutehdas
 Moebelhaus
 Huonekalukauppa
-Nutzwald
-Viljelysmetsä
 Oelbohrinsel
 Öljynporauslautta
 Oelfeld
@@ -434,8 +400,6 @@ Saegewerk
 Saha
 sand_quarry_dd
 Hiekkakaivos
-Sandquarry
-Hiekkalouhos
 shaft_coal_mine
 Hiilikaivos
 shaft_coal_mine_small
@@ -462,10 +426,6 @@ waste_incinerator_kraftwerk
 Jätteenpolttolaitos
 wind_kraftwerk
 Tuulivoimalaitos
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
-grain_field
-Viljapelto
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -570,6 +530,8 @@ monorail vehicle
 yksiraidejuna
 Monorailboden
 Monorail-raiteen tuki
+Monoraildepot
+Monorail-talli
 Monorailhalt muss auf\nMonorail liegen!\n
 Monorail-asema täytyy\nasettaa Monorail-radalle!
 Monorails are not available yet!
@@ -596,8 +558,6 @@ choose_point
 Aseman valinta -osoitin
 choose_signal_monorail
 Yksiraideaseman valinta -osoitin
-choosesign_digital_jp
-Digitaalinen pysäkin valinta -osoitin
 ChooseSignals
 Aseman valinta -osoitin
 Classic_ChooseSignals_right
@@ -646,82 +606,40 @@ traffic_light
 Liikennevalo
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
-cactus000
-Kaktus\n\n\n\n\n\n\n
 palm011
-Palmu\n\n\n\n\n\n\n
+Palmu\n\n
 tree023
-Puu\n\n\n\n\n\n\n
+Puu\n\n
 tree100
-Lehtikuusi\n\n\n\n\n\n\n
+Lehtikuusi\n\n
 tree110
-Lehtikuusi\n\n\n\n\n\n\n
+Lehtikuusi\n\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnel
 Rautatietunneli
-RoadTunnel
-Tietunneli
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
-1Ben140
-Bennhardt BR140
-1Bens155
-Bennhardt B-155 "Robotti"
 1Benst134
 Bennhardt B-134 "Pixie"
 1Benst135t
 Bennhardt B-135 "Riiviö"
 1Benst138
 Bennhardt B-138 "Omenapiiras"
-1Benst161
-Bennhardt B-161 "Turbo"
 1Benst162t
 Bennhardt B-162 "Jetti"
-1Benst181
-Bennhardt B-181 "Ruuna" 
 1Benst238
 Bennhardt B-238 "Sammakko"
-1Benst281
-Bennhardt B-281 "Työhevonen"
 1Dampflokomotive
 RVg 0-4-0T
 2Diesellokomotive
 H-Trans BR218
-3Bens185
-Bennhardt B-185 "Pukki"
 3Bens186t
 Bennhardt B-186 "Sitruuna"
 3Dampflokomotive
 RVg 0-3-0 "Chippy"
-451_Head
-VTS, MEZ 451
-451_Tail
-VTS, MEZ 451 (Peräpää)
-451_Waggon
-VTS, MEZ 451 vaunu
-471_Head
-CKD - Skoda 471 veturi
-471_Tail
-CKD - Skoda 471 (peräpää)
-471_Waggon
-CKD - Skoda 471 vaunu
-7BenE11
-Bennhardt E11
-Aeroqueen_JR_Bus_Kanto
-Aeroqueen JR bussi
 Airport_express_shuttle
 Lentokenttäbussi
-AR4_back
-AR-4 takamoottori
-AR4_front
-AR-4 "Kikin" veturi
-AR4_mid_engine
-AR-4 keskimoottori
-AR4_mid_trainer
-AR-4 vaunu
-Asahi_Bus
-Asahi bussi
 Autotransportwagen
 Napik Cannonball Autonkuljetusvaunu
 BB-TS_Milk_Mack_Trailer
@@ -732,8 +650,6 @@ Big_Erztruck
 Suuri rautamalmirekka
 Bretterwagen
 VT Vienna lautavaunu
-Btx020
-OnD Btx020
 Budd_Coach
 Budd matkustajavaunu
 Bulk_trailer_0
@@ -744,12 +660,6 @@ Bulk_Truck_2
 VSYS-Tatra 801
 Bulk_Truck_4
 Volvo Raaka-aine rekka
-Bulker_Bulk
-BB bulkkilaiva
-Bulker_Steel
-BB Rahtilaiva (teräs)
-Bulker_Wood
-BB Rahtilaiva (PUU)
 Car_Tramsport_Trailer_0
 TS Autojen kuljetus perävaunu
 Car_Transporter_0
@@ -770,10 +680,6 @@ Cement_Waggon_1
 BB-PMNV Sementtivaunu
 Cementwagen
 Sementtivaunu
-Ceres_Tender
-Ceres-tenderi
-CKD_731
-CKD 731
 CKD_749
 CKD 749
 CKD_750
@@ -798,12 +704,6 @@ Cooling_wagon_1
 Kylmävaunu
 Cooling_wagon_2
 Cannonball-kylmävaunu
-D231_back
-SHI D-231 (taka)
-D231_front
-SHI D-231
-D231_mid
-SHI D-231 matkustajavaunu
 DB_ADm101
 Haru ADm101 matkustajavaunu
 DB_Apmz121
@@ -816,34 +716,8 @@ EMD_E5A_Silver_Meteor
 EMD E5A - Hopea Nuoli
 EMD_E5B_Silver_Comet
 EMD E5B - Hopea Komeetta
-Europa_Car_Transporter
-TS-MHz Autolautta "Europa"
-Europa_Goods_Transporter
-TS-MHz Rahtilaiva "Europa\
-Evil_BR153
-Evil BR 153/155
-Evil_BR170_Back
-Evil BR 170 (taka)
-Evil_BR170_Front
-Evil BR 170 "Turbostar" veturi
-Evil_BR170_Mid
-Evil BR 170 keskivaunu
-Evil_BR357_Back
-Evil BR 357 viimeinen vaunu
-Evil_BR357_Front
-Evil BR 357 "Electrostar"
-Evil_BR357_M
-Evil BR 357 (moottori vaunu)
-Evil_BR357_PT
-Evil BR 357 matkustajavaunu
-Evil_Daimler_DMS_Londoner
-Evil-Daimler DMS Londoner
 Evil_DF-11
 Evil DF-11
-Evil_Guy_Wulfrunian
-Evil-Guy Wulfrunian
-Evil_New_Flyer_D40-90
-Evil New Flyer D40-90
 Evil_P-100_(carriage)
 RVg P-100 (matkustajavaunu)
 Evil_P-100_(front_engine)
@@ -852,30 +726,10 @@ Evil_P-100_(mail)
 Evil P-100 Postivaunu
 Evil_P-100_(rear_engine)
 RVg P-100 (taka)
-Evil_Scania_K94UB
-Evil-Scania K94UB
-Evil_Scania_K94UB_Liner
-Evil-Scania K94UB Liner
-Evil-AEC_RM
-Evil-AEC RM
-Evil-Cicu_L32_Liner
-Evil-Cicu L32
 Evil-Jitluen_67_Minibus
 Evil-Jitluen 67
-Evil-Jitluen_Beluga_FA_MKD-12
-Evil-FA MKD-12
-Evil-Jitluen_Beluga_FA_SR
-Evil-FA SR
-Evil-Jitluen_Beluga_FA_SU-10
-Evil-FA SU-10
 Express_tender
 Hiilivaunu
-FastFerry
-HM527 ilmatyynyalus
-Ferry_Mail_Extension
-Lautan postilaajennos
-Fishing_Boat_0
-LR Kalastusalus
 Fishing_Boat_1
 MHz Troolari
 Fluid_trailer_0
@@ -890,16 +744,6 @@ Fluid_Truck_2
 S.Kroytor ZUK-20 tankkiauato
 Fluid_Truck_3
 Magirus öljyrekka 1923
-Freighter_Goods
-BB konttilaiva
-FUSO_Aeromidi_Keio_Bus
-FUSO Aeromidi Keio bussi
-FUSO_Aerostar_Kanachu_Bus
-FUSO Aerostar Kanachu bussi
-GALA_Kanto_Railway
-GALA Kanto vetybussi
-Goods_schiff
-JET kappaletavaralaiva
 Goods_trailer_0
 Mitsubishi Fuso Super Truck kappaletavaravaunu
 Goods_trailer_1
@@ -916,8 +760,6 @@ Goods_Truck_2
 PMNV kappaletavararekka
 Holzwagen
 H-Trans puutavaravaunu
-JNR_B6
-JNR B6
 JNR_C11
 Nabe-JNR SL c11
 JNR_C62
@@ -938,12 +780,6 @@ JR_700_Shinkansen_HRS_(Pantograph_II)_PC
 JR 700 Series Shinkansen HRS (sähköistys II)
 JR_700_Shinkansen_HRS_(Tailcar)_PC
 JR 700 Series Shinkansen HRS (perä)
-Oeltankschiff
-TPI Lopomo öljytankkeri
-Oelwagen
-VT Vienna öljysäiliövaunu
-Old_Ferry_0
-Valtamerihöyrylaiva
 Passagierwagen
 H-Trans matkustajavaunu
 PMNV-PB1970
@@ -1000,8 +836,6 @@ Stahlwagen
 VT Vienna teräsvaunu
 Steel_Truck_0
 PMNV Bed teräsrekka
-Super_Citybus_1
-Super Citybus I bussi
 T_101
 RVg T101 raitiovaunu
 T_102
@@ -1040,18 +874,6 @@ Thunder_(waggon)
 BB Thunder matkustajavaunu
 TS_Mack_Bulk_Trailer_0
 TS-Mack kevyt bulkkitavaraperävaunu
-TS_Mack_Bulk_Trailer_1
-TS bulkkitavaraperävaunu
-TS_Mack_Container_Trailer_S
-TS lyhyt konttiperävaunu
-TS_Ocean_Liner
-TS matkustajaristeilijä
-TS_Ocean_Star
-TS Ocean Star matkustajaristeilijä
-TS-MHZ_Schoner
-TS-MHz matkustajakuunari
-UD_Nonstep_Tokyu_Bus
-UD Nonstep Tokyu bussi
 Vitus-AVECO_Eurocargo_Bretter
 Vitus-Aveco Eurocargo (lankkurekka)
 Vitus-AVECO_Eurocargo_bulk_transporter
@@ -1098,30 +920,10 @@ Yoshi monorail (viimeinen vaunu, 1965)
 #______________________________________way______________________________________
 air_movement_area
 Asfalttirullaustie
-air_movement_area_old
-Kivinen rullaustie
-asphalt_road
-Asfalttitie
-autobahn
-Moottoritie
-city_road
-Katu
-cobblestone_road
-Mukulakivitie
-concrete_road
-Betonitie
 concrete_sleeper_track
 Betoni palkki rata
-concrete_tram_track
-Betoni Raitiovaunu rata
-dirt_road
-hiekkatie
-gravel_road
-Soratie
 Powerline
 Voimalinja
-Rillenschienen
-Raitiovaunuraiteet
 river_00
 Joki
 river_01
@@ -1138,8 +940,6 @@ steel_sleeper_track
 Nopea rautatie
 Suspended_Monorail_Track
 Monorail-rata
-US_asphalt_road
-US asfalttitie
 water_road
 Kanava
 wooden_sleeper_track

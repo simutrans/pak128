@@ -5,9 +5,11 @@
 #                             Language: cz Cestina                             #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 18.05 2010                           #
+#                           Date Created: 25.10 2011                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
 #                              Frank Penz - FrankP                             #
 #                                    note:                                     #
 #                                    - JOHNY                                   #
@@ -15,6 +17,8 @@
 #                        Václav Macùrek - VaclavMacurek                        #
 #                                    note:                                     #
 #                                   - hernajs                                  #
+#                                    note:                                     #
+#                           Jiri Svoboda - jxsvoboda                           #
 #                                    note:                                     #
 #                              Tomá¹ Kube¹ - napik                             #
 #                                    note:                                     #
@@ -25,19 +29,13 @@
 #                         Tomá¹ Vrbický - vrbicky_tomas                        #
 #                     note: Don´thurry up! Death is faster.                    #
 #                            Vladimír Slávik - vsys                            #
-#                             note: Vladimír Slávik                            #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 ClassicRail
 Plochý betonový most (Nabe)
-ClassicRoad
-Betonový silnièní most
-Concrete_Road_Bridge
-Dálnièní most
-Plate_Girder_Bridge
-Ocelový viadukt
 PowerBridge
 Most vedení VN
 RVg_Concrete_Rail_Bridge
@@ -46,14 +44,6 @@ Schwebebahn_p_bridge
 Jednokolejka (most)
 SteelRail
 Ocelový ¾eleznièní most
-SteelRail2
-Uzavøený ¾eleznièní most
-SteelRoad1
-Ocelový silnièní most
-SteelRoad2
-Tubusový silnièní most
-u_truss_bridge
-Visutá tra» (most)
 water_bridge
 Prùplavový most
 Wooden_Rail
@@ -122,8 +112,6 @@ big_classic_bus_stop
 Velká zastávka
 big_modern_bus_stop
 Velká moderní zastávka
-BigTerminal1930_AirportBlg_S
-Velká leti¹tní hala
 BigTerminal1950_AirportBlg_S
 Velká odbavovací hala
 Bulk_Dock
@@ -144,10 +132,6 @@ CarStop
 Nakládací rampa
 CASTLE_0
 Starý hrad\n\nStavba byla u¾ívaná jako hrad\nkrále Napíka. Vìt¹ina byla\nznièena bìhem velké války,\nav¹ak byla v 19.století\nopravena a pøebudována.\nNyní poskytuje k vidìní\nslavnou kolekci starých\nbrnìní a meèù.\n
-CHURCH_00
-Gotická katedrála\n\nTato stará gotická katedrála\nje nyní atraktivnìj¹í ne¾\nkdy døíve. Je to èasté místo\nveøejných výstav a nikoliv\nprostøedí pro uctívání. Zdá\nse, ¾e to je pro církev\nlep¹í, proto¾e zisk z turistù\nje mnohem vy¹¹í, ne¾\ndesátek vybraný z\nklasických bohoslu¾eb.\nJeliko¾ se turisté nemohou\ndostat ke kostelu vlastním\nvozem, do¾adují se dopravního\nspojení.\n
-CHURCH_01
-Kostelík\n\nTento malý zapomenutý kostel\nje stále krásné pøátelské\nmísto pro setkávání s\npøáteli, povídání a hledání\nnìèeho vy¹¹ího, ne¾ je\npozemský majetek.\n
 CHURCH_02
 Rù¾ový kostel\n\nTento malebný kostel proslavil\n¹ílený mnich, který v roce\n1654 natøel celý objekt na\nrù¾ovo. Rù¾ová barva\nèasem vybledla a smyla se,\nale jméno zùstalo. Jistý\nèlovìk dostal nápad barvu\nobnovit, ale narazil na\npamátkový úøad, který to\nzamítl.\n
 CHURCH_03
@@ -187,7 +171,7 @@ Tato vynikající orientální\nrestaurace má vyhlídku na\nkrásnou japonskou\nzahrad
 COM_00_09
 Dùm povozníka Vávry\n\nKlasický pøíbìh chudáka, který\nzbohatl a opìt o v¹echno\npøi¹el. Povozník Vávra získal\nobrovské jmìní na leasingu\nkoní, ale po nástupu aut\ndali zákazníci pøednost\ndopravì neznìèi¹»ující\nulice a tak teï Vávra sedí\ndoma a zamraèenì pozoruje\nsilnici za oknem.\n
 COM_00_10
-Dùm oblo¾ený èervenými\ncihlami.\n\n\n\n\n\n
+Dùm oblo¾ený èervenými\ncihlami.\n\n
 COM_00_11
 V této budovì se nalézá\nzverimex specializující se\nna milouèké malé pejsky a\nkoèièky. Pov¹imnìme si\nprosím majitelova bytu ve\ndruhém poschodí, kde spolu\ns ním a jeho ¾enou pøebývá\n13 psù a 27 koèek\nmírumilovnì si hrajících\ncelý den...\n
 COM_00_12
@@ -231,7 +215,7 @@ Pøi vstupu do tohoto domu\nobjevíte hraèky, které jste\ndozajista je¹tì nevidìli
 COM_01_21
 Autosalon fy CMG. Prodávají\nhlavnì u¾itkové vozy,\npickupy, dodávky a malé\nnáklaïáky. Vedení\nspoleènosti se rozhodlo, ¾e\nzkusí nìco nového -\nSportovní vùz s max.\nrychlostí 350km/h. Je¹tì\nnemají jméno, ale studie\nvypadají velmi slibnì a\nmo¾ná bude k dispozici\nnovináøùm zaèátkem\npøí¹tího roku.\n
 COM_01_23
-Malý obchodní dùm, dole\njsou obchùdky s\nelektronikou a nad nimi\njsou kanceláøe firem.\n\n\n\n
+Malý obchodní dùm, dole\njsou obchùdky s\nelektronikou a nad nimi\njsou kanceláøe firem.\n\n
 COM_01_26
 Dùm "U èerné ovce"\n\nKdysi slavný veøejný dùm, nyní\nvelmi soukromá rezidence\npána z Jenèe. Vinný sklípek\npro hosty a pøátele v\npøízemí, otevøeno dennì od\njedenácti do svítání. \n
 COM_01_28
@@ -241,7 +225,7 @@ Postranní schody nevedou\nk nikomu jinému ne¾\nvrchnímu radovi Vacátkovi.\nTen s
 COM_01_35
 Budova kanceláøí místní\npoboèky BIS. Èasto mù¾e¹\npozorovat plí¾ící se agenty\njak bistøí u¹i, aby mohli\nvyslechnout tvé\ntelefonáty, nebo se ti\nprohrabávají v ko¹i ve\nsnaze odhalit ¹piona\nprodávajícího státní\ntajemství.\n
 COM_01_36
-V tomto domì jsou rùzné\nprávní kanceláøe, inzertní\nagentury, také jsou tu tøi\npoji¹»ovací kanceláøe.\n\n\n\n
+V tomto domì jsou rùzné\nprávní kanceláøe, inzertní\nagentury, také jsou tu tøi\npoji¹»ovací kanceláøe.\n\n
 COM_01_47
 Tento hotýlek je\nvyhledáván hlavnì díky\nsvým pøíjemnì vybaveným\napartmánùm a diskrétní\nobsluze. Mimo to je tento\nhotýlek v klidné lokalitì.\n\n
 COM_01_52
@@ -259,13 +243,13 @@ U tohoto vì¾áku zjistili, ¾e\npoptávka po kanceláøích je\nmen¹í, ne¾ pøedpovídal
 COM_05_01
 Nejoblíbenìj¹í klub v okolí.\nJe pozoruhodný zejména\ntím, ¾e nabízí pouze stolní\nvodu a racionální vý¾ivu.\nNa¹tìstí se zákazníci\nzajímají spí¹ o ¾ivou\nhudbu, ne¾ o konzumaci\nzdej¹ích specialit.\n
 COM_05_02
-Parkovi¹tì, co bys chtìl\nje¹tì sly¹et? Nebo je zde\nsnad nìco divného?\n\n\n\n\n
+Parkovi¹tì, co bys chtìl\nje¹tì sly¹et? Nebo je zde\nsnad nìco divného?\n\n
 COM_05_03
 Tato malá èajovna "Horký\n¹álek" je skvìlým místem,\nkde se mù¾e¹ setkat s\nvrstevníky. Vùnì dobrého\nèaje, východní hudba a\ntlumená svìtla vytváøí\npøíjemnì romantickou\natmosféru.\n
 COM_05_04
 V tomto malém obchodì se\nprodávají bicykly a rùzné\nsportovní potøeby. Pøed\nzaèátkem rùzných místních\npøeborù tu mù¾e¹ narazit na\ncelou øadu borcù.\n\n
 COM_05_05
-V tomto krámì opravují a\nprodávají mikrovlnné trouby\na topinkovaèe. To je v¹e,\nco zde nabízí, k ¾ivobytí jim\nto zjevnì staèí.\n\n\n
+V tomto krámì opravují a\nprodávají mikrovlnné trouby\na topinkovaèe. To je v¹e,\nco zde nabízí, k ¾ivobytí jim\nto zjevnì staèí.\n\n
 COM_05_06
 Tohle je módní boutique\n"Vypadá¹ bájeènì".\nNejlep¹í místo, kde mù¾e¹\nutratit svùj mìsíèní pøíjem\nabys byl obleèen správnì\n"in". Mo¾ná ale zná¹\nmnohem lep¹í místa, kde\nmù¾e¹ utrácet peníze. To\nby vysvìtlovalo, proè se\nzdej¹í prodavaèi, potulující\nse po liduprázdném\nobchodì, cítí tak osamìle.\n
 COM_05_07
@@ -273,7 +257,7 @@ Tento kus chodníku je\nvyhrazen na parkování. Je\ntotálnì zaplnìný. V tomto\nroz
 COM_05_08
 Toto bowling centrum\nvypadá jako pøíjemné\nmísto, kde mù¾e¹ strávit\nodpoledne s rodinou, ale ve\nskuteènosti je tento podnik\nzázemím místního podsvìtí.\n\n
 COM_05_09
-Do této lékárny si mù¾e¹\nchodit kupovat drogy, ale\njak se dozví¹ pøeètením\ncedule na dveøích, tak jen\nty legální...\n\n\n
+Do této lékárny si mù¾e¹\nchodit kupovat drogy, ale\njak se dozví¹ pøeètením\ncedule na dveøích, tak jen\nty legální...\n\n
 COM_05_10
 Kasino s obskurním\nnázvem: Prohraj spodky.\nAèkoliv neuvidí¹ v jeho\nokolí pobíhat ¾ádné\nskuteèné naháèe, ze\nzachmuøených výrazù v\ntváøích odcházejících\nhostù mù¾e¹ vyèíst, ¾e\nmálokdo mìl ¹tìstí a\npodaøilo se mu vyhrát.\nVyvolává to otázku proè\nvùbec lidé chodí dovnitø?\n
 COM_05_11
@@ -282,8 +266,6 @@ COM_05_12
 Kanceláøe mìstského úøadu.\nNa radnici u¾ nebylo místo,\nproto se zastupitelstvo\nrozhodlo pøesunout èást\núøedníkù sem. Je tu lep¹í\nvybavení, prostory jsou\nnové a vyhovují v¹em\nnormám.\n
 COM_05_13
 Kouká¹ se na laciný hotel.\nProto¾e ceny jsou nízké, je\nhotel vìt¹inou plnì\nobsazen. Nenabízí ¾ádný\nvelký komfort, ale dostane¹\npokoj s vlastní koupelnou a\nzáchodem. (Ov¹em nesmí ti\nvadit, ¾e sprcha obvykle\nnefunguje a záchod mù¾e\nbýt docela solidní\nkompost...)\n
-COM_05_14
-Místní poboèka Simutrans\nBank. Pokud neví¹, kam bys\nzakopal svùj hrnec s\npenìzi, pøines je sem.\nPeníze investujeme,\nzpronevìøíme nebo\nvytunelujeme podle toho\njak se zrovna vyspíme.\n
 COM_05_15
 Zde se pøed nedávnem\nusadila spoleènost, která\nse pokou¹í stát levnou\nalternativou k zásilkovým\nslu¾bám. Zatím se jí daøí,\nnicménì tøi nejvìt¹í\nmonopolní podniky v oboru\nvìtøí nebezpeèí a vzácnì\ntáhnou za jeden provaz.\nKdo ví, s èím pøijdou, tøeba\ntu u¾ za pár mìsícù\nnajdete jen ceduli "k\npronájmu".\n
 COM_05_16
@@ -318,20 +300,18 @@ COM_06_06
 Centrála místní taxislu¾by.\nMají 12 vozù a docela se\njim daøí, ve mìstì toti¾\nnení ¾ádná konkurence.\nMo¾ná je na èase zlep¹it\nmìstskou dopravu.\n\n
 COM_06_07
 Na tomto zapadlém mìstì\nje legraèní parkování.\nMno¾ství aut musí být na\nparkovi¹tì zatlaèeno po\nstranì. Toto by se ale mìlo\nbrzy zmìnit, proto¾e jistá\nfirma hodlá vyrábìt malá\nautíèka Clever, která budou\nmoci parkovat bez potí¾í i\nna tomto omezeném\nprostoru.\n
-COM_06_08
-Jedna z poboèek\nspoleènosti AHOJL czech.\nSpomocí svého sloganu\n"Dnes za peníze, zítra\nzadarmo!" pøilákali mnoho\nzákazníkù, kteøí si myslí, ¾e\nzítra budou nakupovat\nzadarmo.\n
 COM_06_09
 Toto vìzení je oproti\nostatním vìznicím ponìkud\nmen¹í. Pokud se nìjaké\nznámé osobnosti dostanou\ndo vìzení, obvykle jsou\numístìny do míst jako je\ntoto. Ne, skuteènì se\nnemusíte obávat, ¾e by zde\nmístní klienti odpoèítávali\nminuty svého trestu\npoèítáním kapek kanoucích\nze stropu malé, temné,\nplesnivinou páchnoucí kobky\nvybavené jen úzkou pryènou a\notvorem v podlaze. Leda snad, ¾e\nby zaèal prosakovat bazén...\n
 COM_06_10
 Od dob, kdy bylo\nzprivatizováno vìzeòství\nse zaèaly objevovat\ntakovéto vìznice v¹ude.\nUkázalo se, ¾e privátní\nvìzeòství je mnohlem lep¹í\nne¾ státní, proto¾e\ntakovéhle malé vìznice ve\nmìstì se samy u¾iví. No\nøeknìte, nepotøebovali jste\nsi nìkdy najmout na pár\ndnù levnou pracovní sílu?\nZastane práci v¹ude tam, kde\nnevadí, ¾e musí nosit kouli na\nnoze.\n
 COM_06_12
-Sídlo firmy Faster. Navrhuje\nnová vozidla pro celou hru\nSimutrans. Vìt¹ina vozidel\nve va¹ich depech byla\nnavr¾ena právì tady.\n\n\n
+Sídlo firmy Faster. Navrhuje\nnová vozidla pro celou hru\nSimutrans. Vìt¹ina vozidel\nve va¹ich depech byla\nnavr¾ena právì tady.\n\n
 COM_06_13
 Holièství. Opravdu velké\nholièství. Tady tì ostøíhají\na oholí - jakkoliv, kdekoliv,\nkdykoliv (nejlépe poka¾dé)\na v neposlední øadì o\ncokoliv.\n\n
 COM_06_14
 Mìstské divadlo. Hraje se\ntu ka¾dou støedu, sobotu a\nnedìli. Kritikové ne¹etøí\nchválou na místního\nre¾iséra, proto sem jezdí\nèím dál víc lidí i z okolních\nmìst.\n
 COM_06_16
-Starý vodojem, ve kterém\nji¾ dávno není voda. V\nsouèasnosti je doupìtem\nmístního gangu, který si\nøíká "liquideath".\n\n\n
+Starý vodojem, ve kterém\nji¾ dávno není voda. V\nsouèasnosti je doupìtem\nmístního gangu, který si\nøíká "liquideath".\n\n
 COM_06_17
 Ve vìt¹ím mìstì ji¾ nestaèí\nklasická Borgerboo's\nrestaurace, tak¾e firma\nBorgerboo's pøistavìla\nje¹tì druhé patro, aby\nmohla prodávat je¹tì více\nje¹tì lep¹ích hamburgerù a\nhranolek.\n
 COM_06_18
@@ -381,7 +361,7 @@ Na horních dvou patrech\nnaleznete nahrávací studio\nSmaShitz. Zde nahrává\nheav
 COM_06_45
 Tady sídlí firma na výrobu\nmalíøských barev.\nPøekvapivì v jejich\nkatalogu chybí ¾lutá a\nfialová. Mo¾ná ji v¹echnu\nspotøebovali...\n\n
 COM_06_46
-Drahá, pøepychová,\nklimatizovaná kanceláøská\nbudova s vlastní spalovnou\nodpadu.\n\n\n\n
+Drahá, pøepychová,\nklimatizovaná kanceláøská\nbudova s vlastní spalovnou\nodpadu.\n\n
 COM_06_47
 Místní kanceláøe firmy\nvyrábìjící známou\nstavebnici "LAGO". Budova\nje také postavena z kostek\ntéto stavebnice. Skuteènì,\nstavba trvala padesáti\nlidem 10,000 èlovìkohodin a\ncelá budova je sestavena\nz 15,764,992 kostek.\nBudova pìknì vypadá a\ndobøe funguje. Lidé v okolí\nse sází, zda se podaøí\nzabránit dìtem v rozkrádání\nzákladù budovy døíve, ne¾li se\ncelá budova zhroutí.\n
 COM_06_48
@@ -390,8 +370,6 @@ COM_06_49
 Dal¹í z slumovitých vì¾ákù\ns nekoneènými øadami\nèíslovaných dveøí, z nich¾\nka¾dé patøí nìjaké\nnedùle¾ité spoleènosti,\nkterá nemù¾e ani pomyslet\nna nájem èi vlastnictví\nsamostatné kanceláøské\nbudovy.\n
 COM_06_50
 Architekt byl pøi navrhování\nvelmi praktický. Vìdìl, ¾e v\nka¾dé kanceláøi sedí pár\nneoblíbencù. Tak¾e 4 lidi v\ntéto firmì dostali svoje\npatro, jen musí projít kolem\nv¹ech ostatních z firmy. \n
-COM_06_51
-Nemocnice Twin Oaks\nMemorial vstoupila do\nhistorie krátce po jejím\notevøení. Zde toti¾ vyrobili\nprvní umìlá prsa... Jednoho\ndne byly v menu kuøecí\nprsíèka, ale zásobovací\nautomobil, který je pøivá¾el\nmìl cestou poruchu a\nnedojel. ©éfkuchaø nechtìl\npacienty zklamat, a tak\nvymyslel a uvaøil prsní\nnáhra¾ku z vývaru, drceného\nkøemene a sojového proteinu.\nJíst se to sice moc nedalo, ale\nnedávno museli roz¹íøit kuchyò,\naby mohli uspokojit v¹echny\nobjednávky. Poptávka se toti¾\nna¹la jinde.\n
 COM_06_52
 Jakmile se postaví nová\nbudova, prodá se a pak se\nstrhne. Pak se postaví\nnová budova, prodá se a\npak se strhne. Pak se\npostaví nová budo.......\nTakhle se vydìlávají\npeníze, ale a¾ tahle aféra\npraskne nekdo to ¹ílenì\nods ....... káèe.\n
 COM_06_53
@@ -404,8 +382,6 @@ COM_06_56
 Obchodní støedisko a\nfitness centrum s terasou\nv pátém patøe. Uvnitø tého¾\npatra je Bar a Gril Krásných\nTìl - místo, kam cestou ze\nsquashe s oblibou chodí na\nsvaèinu mana¾eøi a jiná\nkravatácká sebranka. Ka¾dý\nbox uvnitø baru má okno,\nkterým lze pozorovat cvièící\nsportovce (a pøedev¹ím\nsportovkynì).\n
 COM_06_57
 Zde se nejspí¹e poprvé\nsetkáváte s budovou, která\nbyla navr¾ena s maximálním\ndùrazem na pøeèkávání\n¾ivelných i ostatních\npohrom. Stojí na pilíøích,\nkteré poskytují výteènou\nochranu pøed povodní;\nrovnì¾ jsou schopné\nminimalizovat efekt\nzemìtøesení. Pro pøípad\npo¾áru èi krachu na burze\nzachytí lidi skákající z vy¹¹ích\npater mìkouèké nafukovací vaky\nv prvním poschodí.\n
-COM_06_58
-Obecní policejní stanice,\nsoudní síò a vìznice s\nheliportem na støe¹e. Kdyby\ntak mìli rozpoèet na\nnìjakou helikoptéru, mohlo\nby toto místo mít i lep¹í\nvyu¾ití, ne¾ jako solárium,\nkde se opalují strá¾níci,\nkteøí zrovna nejsou ve\nslu¾bì.\n
 COM_06_59
 Vì¾ák ve\nfunkcionalistickém stylu.\nV¹imnìte si, ¾e architekt se\nneobával kombinací barev,\nani materiálù. Jak vidíte, je\nvýsledek jeho práce více,\nne¾li zajímavý.\n
 COM_06_60
@@ -422,8 +398,6 @@ COM_07_05
 Simu Krajská Knihovna\nnenabízí jen knihy a ¹iroký\nvýbìr periodik. Její\nchloubou se stalo pìt\npoèítaèù s internetovou\npøípojkou, které mù¾e za\nmírný obolus vyu¾ít\nveøejnost. Bývají zde k\nvidìní fanou¹ci Simutransu,\njejich¾ poèítaèe se ocitly\nmimo provoz a teï mají\nabs»ák.\n
 COM_07_06
 O této kanceláøské budovì\nnejsou témìø ¾ádné\ninformace. Pravdìpodobnì\nto bude sídlo nìkteré z\nkonkurenèních pøepravních\nspoleèností.\n\n
-COM_07_08
-Prodejna zahradní techniky\nTato prodejna nabízí velké\nmno¾ství zahradní techniky\nznaèky Jawasaky. V\nnabídce mají v¹e od\nobyèejné sekaèky a¾ po\nvíceúèelové traktùrky, které\nVám pøes léto pomohou\nposekat trávník a v zimì\nodhrnout sníh z pøíjezdové\ncesty.\n
 COM_07_09
 Obèas se tady v útulku pro\nopu¹tìná zvíøata zastaví\npár lidí, aby nìkteré\nadoptovali. Nane¹tìstí se\nzde zastavuje mnohem více\nlidí, aby se svého zvíøete\nco nejjednodu¹eji zbavili. V\nokolních mìstech se\nbohudík v¾dy najde nìkdo,\nu nìj¾ mají ¹anci najít\ndomov alespoò\nnejnároènìj¹í exoti.\n
 COM_07_12
@@ -433,7 +407,7 @@ Firma "Ná¹ traktor" -\nprodávají traktory. Majitel\nje pedant a v¹em musí být\nj
 COM_07_14
 Zemìdìlský trh, tady\nzemìdìlci prodávají svoji\núrodu pøímo lidem. Pro nì je\nto extra pøíjem a lidi si\nmohou èerstvou zeleninu\nkoupit levnìji ne¾ v\nsupermarketu.\n
 COM_07_16
-Øídící støedisko svìta\nSimutrans. Odsud se øídí\nv¹e od výsadby nových\nstromù a¾ po východ a\nzápad slunce.\n\n\n
+Øídící støedisko svìta\nSimutrans. Odsud se øídí\nv¹e od výsadby nových\nstromù a¾ po východ a\nzápad slunce.\n\n
 COM_07_17
 Jak roste mesto, roste i\nBurgeroo's. Dole dostenete\nklasické burgery a hranolky,\nv patøe pak steaky a\nbifteky s peèenými\nbramborami.\n\n
 COM_07_18
@@ -469,15 +443,11 @@ Zajímalo vás nìkdy, jak\nfungují ¾eleznièní\nsemafory? Ka¾dý semafor\nmá tady ¾á
 COM_09_18
 Knihovna v zru¹eném øímském chrámu.
 COM_09_22
-Trafika\n Zde je mo¾né i zakoupit jízdenky a kupóny MHD.\n\n\n\n\n\n
+Trafika\n Zde je mo¾né i zakoupit jízdenky a kupóny MHD.\n\n
 COM_10_01
 Zverimex sna¾ící se\nkonkurovat místní\nakvaristice, ale vodní\nrostliny mají se¾rané od\n¹nekù a rybky v¾dycky\npojdou. Ale pøesto krámek\nnezkrachuje, proto¾e v\nakvaristice si nekoupí¹\nkotì.\n
 COM_10_04
-V tomto moderním obchodì\nprodávají v¹echno za\njednotnou cenu 1 kredit. Ale\npozor, odnes si pouze to,\nco sis zaplatil!\n\n\n
-COM_10_05
-Spìchá¹ a má¹ hlad? Nikde\nti nenabídnou tak rychle\ntak výborné hamburgery,\njako v Burgeroovì\nBurgrárnì, jediné pravé, se\nzlatým "W" ve znaku.\n\n
-COM_10_07
-Zvenèí to vypadá jako\npomìrnì nenápadná\nbudova, ale je to jen\nzdaøilé mimikry pro vládní\npodzemní komplex, který\nzastøe¹uje øadu tajných\nprogramù. Nikdo, z tìch,\nkdo pracují v této budovì\nti neøekne, co ve\nskuteènosti dìlá.\n
+V tomto moderním obchodì\nprodávají v¹echno za\njednotnou cenu 1 kredit. Ale\npozor, odnes si pouze to,\nco sis zaplatil!\n\n
 COM_10_11
 Tato pyramida je pøíkladem\nvlivu staré architektury na\nmoderních stavbách. Pokud\ntì zajímá co to je, je to\nautoopravna a prodejna\nautomobilù jisté známé,\nnejmenované znaèky. Také\ntì udivuje, naè takováto\nfirma potøebuje zrovna\ntakovouto budovu?\n
 COM_10_12
@@ -487,35 +457,27 @@ Budova postavená\nsovìtským architektem.\nMalá okna chrání proti\nsibiøským mraz
 COM_10_15
 Tyto moderní kanceláøe\njsou obsazeny\npoèítaèovými programátory,\nkteøí se pokou¹í vyvinout\nnaprosto bezchybný\noperaèní systém.\n\n
 COM_10_16
-Tento autosalon má jednu\nzvlá¹tnost, auta v druhém\npodla¾í. Majitel chtìl mít\ndvojnásobek aut na\nstejném pùdorysu. \n\n\n
+Tento autosalon má jednu\nzvlá¹tnost, auta v druhém\npodla¾í. Majitel chtìl mít\ndvojnásobek aut na\nstejném pùdorysu. \n\n
 COM_10_19
-Nádherná nástìnná malba\nna zdi tohoto domu je\nsouèástí projektu mìsta\npro zkrá¹lení prostøedí.\n\n\n\n
+Nádherná nástìnná malba\nna zdi tohoto domu je\nsouèástí projektu mìsta\npro zkrá¹lení prostøedí.\n\n
 COM_10_21
 SPT Telecom pou¾ívá tuto\nbudovu jako výjezdovku\npro své opraváøe. Staèí\nzavolat a oni si to pøipelá¹í.\nOtazkou je jak zavoláte\nopraváøe telefonu, kdy¾\nmáte rozbitý telefon.\n
-COM_10_23
-Zde sídlí vedení firmy Velký\nBuvol. Tato spoleènost má\nmonopol na výrobu\npono¾ek. V¹echny pono¾ky,\nkteré nosí¹ (kromì tìch\njednorázových z èínské\nprodukce), byly vyrobeny v\njedné z poboèek této\nspoleènosti. Teï u¾ se\ndoufám nediví¹, proè jsou\nv¹echny pono¾ky tak\ndrahé...\n
-COM_10_24
-Zde sídlí advokátní kanceláø\nMalý Buvol. Toto doupì\nsmrdutých právníkù se\npokou¹í soudit s firmou\nVelký Buvol, proto¾e\npou¾ívá velmi podobné\nfiremní logo. Zatím\nnedosáhli úspìchu, proto¾e\nsoudní dvùr odmítá pøijmout\nmy¹lenku, ¾e právní aparát\nmá nìco spoleèného s\ntakovým produktem, jakým\njsou pono¾ky. Argument, ¾e\nprávní slu¾by jsou potøeba ka¾dý\nden, stejnì jako pono¾ky vyvolal\nnaprosté pohor¹ení. Mù¾eme jen\ndoufat, ¾e nikdy nenadejde den,\nkdy by tomu tak skuteènì bylo.\n
 COM_10_25
 Tato záøivá, sklenìná\nbudova je jednou z prvních\nbudov stavìných ze skla.\nPochází z doby, kdy je¹tì\nnikdo neuva¾oval o jejím\nmytí, tak¾e nemá\ninstalován jeøáb na mytí.\nVlastnì v souèasnosti u¾\nzas a¾ tak záøivá není.\n
 COM_11_01
-Místní akvaristika\nposkytuje rybièky a krmiva\nakvaristùm ze Simutransu.\n\n\n\n\n
+Místní akvaristika\nposkytuje rybièky a krmiva\nakvaristùm ze Simutransu.\n\n
 COM_11_14
 Sídlo mrazírenské firmy.\nSpoleènost financují inuité\nz od¹kodnìní kanadské\nvlády. Ojínìná okna\nnapovídají, ¾e nìkdo opìt\nzapomnìl zabouchnout\nmra¾ák, ale proto¾e tu\npracují jen Rusové a\nEskymáci, nikomu to nevadí.\nNa dveøe klepejte v\nrukavicích a neolizujte\nzábradlí.\n
 COM_11_15
 Zelináøství. Tento rodinný\npodnik nabízí jedno\nnejkvalitnìj¹ích a\nnejlep¹ích zbo¾í v celém\nmìstì. No a je¹tì aby ne,\nkdy¾ zeleninu pìstuje celá\nrodina na malé zahrádce za\nmìstem...\n
 COM_11_29
 Sídlo firmy Jung-Wung web\nhosting. Pokud shání¹\nlevný web hosting, pøeptej\nse zde. Zøejmì nìjací\nasij¹tí trhovci upgradovali\nsvùj stánek s laciným\nobleèením a pozvedli ho na\nvy¹¹í úroveò prodejem\nlevných webových slu¾eb.\nNezbývá, ne¾ doufat, ¾e\nbudou dosahovat vy¹¹ích\nkvalit, ne¾li jejich obleèení.\n
-COM_11_31
-Svìtovì proslulé bludi¹tì,\nznámé spletí klikatých\nchodeb, rozsáhlých síní i\nmno¾stvím schodi¹t,\nnemluvì o systému\nneuvìøitelného mno¾ství\nnáhodnì se otevírajících\ndveøí ve v¹ech patrech.\n
-COM_11_32
-Stalo se Vám, ¾e jste si\nchtìli vyzkou¹et je¹tì\nvìt¹í dopravní sítì v\nSimutransu? Pokud ano,\ntady máte to pravé místo k\nnákupu nového PC s\ndostatkem RAM ke hraní\nmapy 4096x4096 s 350\nmìsty a 20 miliardami\ncestujících ka¾dý rok!\n
 COM_11_33
 Toto je honosné sídlo\nvelkolepého programu\n"projekt HNIZZ" (Hledáme\nNormální Inteligentní ®ivot\nna Zemi), celá budova\nslou¾í k vyhodnocování\ninformací sta¾ených z\ntisícù poèítaèù z celého\nsvìta. Cílem projektu je\npokusit se zjistit zda na\nZemi existuje inteligentní\n¾ivot. Má to zatím omezený\núspìch, v¹echny nalezené\ninteligentní entity hrály v dobì\nsledování Simutrans.\n
 COM_11_41
 Budova s nejfuturiètìj¹ím\nvzhledem na svìtì. Je\npostavená jako testovací\nobjekt techologií\n"vesmírného výtahu". Ten\nby mìl zajistit\ndosa¾itelnost vesmíru s\ntémìø nulovými náklady na\ndopravu. Test se zdaøil - o\ntom není pochyb. Kdyby se\npodobná budova postavila\nz normálních materiálù\n(beton, ¾elezo, cihly), zhroutila\nby se vlastní vahou bìhem\nnìkolika minut. Ale díky\nmateriálùm je cena budovy\nvysoká, tak¾e hlavní investoøi\node¹li. Ted se bude èekat nìkolik\ndesetiletí, a¾ se vymyslí nové\npostupy na výrobu tohoto\nrevoluèního materiálu. Mezitím\nbudou vìdci sbírat data o\nstárnutí tohoto hypermateriálu.\n
 COM_11_42
-Základy nových\nkanceláøských budov\nsvìtové pøepravní\nspoleènosti.\n\n\n\n
+Základy nových\nkanceláøských budov\nsvìtové pøepravní\nspoleènosti.\n\n
 COM_11_45
 Aèkoliv nájemníci se ji¾\npomalu usidlují ve svých\nnových domovech, budova\nstále není dostavìna.\nRybník vpøedu bude\nvodotrysk, za ním¾ má být\nrestaurace.\n
 COM_11_46
@@ -534,20 +496,16 @@ COM_11_55
 Tento zcela jedineèný\nstavitelský design je dílem\npodniku Papírny Kùrovec,\nnepøíli¹ známého vynálezce\ngrafického papíru. Kdy¾ si\nnepodali patent, museli\nzmìnit barvu oken kvùli\nbyrokracii patentového\núøadu.\n
 COM_11_57
 Kdy¾ jeden jeøáb nestaèí,\nje potøeba druhý. Jeøáby\ndokonèí práci 2x tak rychle.\nJeden se vyu¾ívá pro lehké\nmateriály a druhá zvedá\ncelá patra a zdi.\n\n
-COM_11_58
-O této budovì není nic\nznámo. Na¹im detektivùm\nzastoupili cestu jakýsi mu¾i\nv èerném. Divné ¾e?\n\n\n\n
 COM_11_59
 Tato celosklenìná budova\nje skleník a hydroponická\nfarma. Uvnitø roste pøehr¹le\nbylin a rozmanitých druhù\nzeleniny. Jejich nejlep¹í\nskliznì kouøí zákazníci po\ncelém svìtì. Zará¾ející je,\n¾e v¹ichni tito zákazníci\ntrpí podobnou oèní vadou\nprojevující se nepøítomným\npohledem a ponìkud\nsklovitou zarudlostí oèí.\n
 COM_12_01
-Toto holièství je skvìlým\nmístem, kde si mù¾e¹\nnechat na hlavì vytvoøit\núèesy tìch nej¹ílenìj¹ích\nbarev a tvarù.\n\n\n
+Toto holièství je skvìlým\nmístem, kde si mù¾e¹\nnechat na hlavì vytvoøit\núèesy tìch nej¹ílenìj¹ích\nbarev a tvarù.\n\n
 Container1TrainStop
 Pøekladi¹tì kontejnerù
 Container2TrainStop
 Moderní pøekladi¹tì kontejnerù
 Control_StationBlg
 Nádra¾ní velín
-CoveredTrainStop
-Kryté nástupi¹tì
 Crate_Goods_Dock
 Kontejnerový pøístav
 CunnersdorfStopBlg
@@ -561,7 +519,7 @@ Georgùv památník.\n\nGeorg (MHz) byl zku¹ený\narchitekt, který navrhl\nnepøebern
 DenkHajo
 Památník Hanse Jörga Malthanera.\n\nTento monument je\nvìnován Hansi\nMalthanerovi, èlovìku který\nsvým nezmìrným úsilým\nrozjel a dlouho øídil vývoj\nSimutransu. Bez jeho\nneutuchajícího zápalu, díky\nkterému projekt pøe¾il i\ndoby, kdy od nìj dávali lidé\nruce pryè, by Simutrans\nnikdy neexistoval.\nNyní se ji¾ na vývoji aktivnì\nnepodílí, ¹tafetu pøevzali jiní.\nPøesto zùstává nejdùle¾itìj¹ím\nèlovìkem v historii Simutransu.\nPokud se Vám hra líbí, po¹lete mu\nprosím podìkování ve formì\nnìjakého hezkého pohledu:\nHansjorg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart.\n
 DenkOwen
-Památník Owena Rudgea\n\nToto místo je vìnováno\nOwenovi Rudgeovi,\nslavnému finanènímu\nexpertovi a zvukovému\ntechnikovi.\n\n\n
+Památník Owena Rudgea\n\nToto místo je vìnováno\nOwenovi Rudgeovi,\nslavnému finanènímu\nexpertovi a zvukovému\ntechnikovi.\n\n
 DenkPatrick
 Patrickùv památník.\n\nTento jableèný pomník patøí\n"PMNV" Patricku Nesbittovi,\nv¹estrannému konstruktérovi, který navrhl\nmnoho budov, lodí a\nsilnièních i ¾eleznièních\nvozidel.\n
 DenkRaven
@@ -609,31 +567,27 @@ HQ2
 IND_00_01
 Tento malý domeèek hezky\nna kopeèku je úplnì\nú¾asným místem pro výrobu\nhluku. Toto je tedy místní\ntovárna na hluk! Lidé sem\npøijdou, vyrábí hluk, vyrábí\ndokonce tolik hluku na kolik\njim jejich síli staèí. Jediný\nháèek je v tom, ¾e pøi\nodchodu se musí platit.\nKolik je tøeba platit není\nnikdy známo pøedem, tak¾e\nto mù¾e eventualnì vést a¾ k\ntomu, ¾e nìkteøí lidé pokraèují ve\nvýrobì hluku dále.\n
 IND_00_02
-Tento malý, nenápadný\ndøevìný domek je místní\nparní pila. Chce¹-li levnì\nrozøezat nìjaké døevo,\nzaskoè sem.\n\n\n
+Tento malý, nenápadný\ndøevìný domek je místní\nparní pila. Chce¹-li levnì\nrozøezat nìjaké døevo,\nzaskoè sem.\n\n
 IND_00_03
-Pole kukuøice\n\nKukuøice. Popkorn. Mo¾ná se to\nnerýmuje, ale lidi si ho\nstejnì koupí. Pop.\n\n\n\n
-IND_00_04
-Tato obrovská cisterna\npojme 500 kubíkù vody.\nMalá boudièka nalevo\nobsahuje rùzná\npozoruhodná kontrolní\nzaøízení, nejdùle¾itìj¹í z\nnich je kávovar.\n
+Pole kukuøice\n\nKukuøice. Popkorn. Mo¾ná se to\nnerýmuje, ale lidi si ho\nstejnì koupí. Pop.\n\n
 IND_00_05
 Malé pekaøství. Døíve\nnaprosto bì¾ná zále¾itost,\nv souèasnosti v¹ak jsou\ntakovéto krámky\nvytlaèovány vlivem\nsupermarketù s ni¾¹ími\ncenami.\n
 IND_00_06
 Budete pøekvapeni tím, co\nse zde vyrábí - kvìtináèe!\nA¾ vám dìti rozbijou\nbalónem ty co máte za\noknem, u¾ víte kam jít\nnakupovat. ®ádný plastový\nvikslajvant od Bobra, ale\npoctivá keramika!\n
 IND_00_10
-Majitel tohoto pozemku se\nrozhodl vybudovat dvì\nskladi¹tì. A tak zde nyní\nstojí a èekají na zbo¾í,\nkteré do nich nìkdo ulo¾í.\n\n\n
+Majitel tohoto pozemku se\nrozhodl vybudovat dvì\nskladi¹tì. A tak zde nyní\nstojí a èekají na zbo¾í,\nkteré do nich nìkdo ulo¾í.\n\n
 IND_00_13
-Jerryho autoopravna,\nsouèást oblíbeného øetìzce\nopraven.\n\n\n\n\n
+Jerryho autoopravna,\nsouèást oblíbeného øetìzce\nopraven.\n\n
 IND_00_14
 Tento domek je malý\npivovar. Nemù¾e sice\nsoutì¾it s pivovarnickými\ngiganty exportujícími do\nciziny, nicménì místní\nosvì¾ovny preferují\nregionální produkci s její\nspecifickou chutí.\n
 IND_00_15
-Velmi dùle¾itá budova,\nvyrábí tady tramvaje! Tady\njsou ne¾ si je nechá¹\ndovézt do depa.\n\n\n\n
+Velmi dùle¾itá budova,\nvyrábí tady tramvaje! Tady\njsou ne¾ si je nechá¹\ndovézt do depa.\n\n
 IND_00_16
 Proto¾e majitel této\nspoleènosti pøeru¹il\nkomunikaci s na¹imi\nagenty, aèkoliv nás to\nvelmi mrzí, nemù¾eme o\ntéto budovì podat ¾ádné\nbli¾¹í informace. (Vtip: Toto\nje továrna kde Jerryho\nautoopravna vyrábí\nsouèástky).\n
 IND_00_17
 Aèkoliv tato budova pùsobí\nopu¹tìným dojmem, ve\nskuteènosti je to dal¹í\nprofitující firma. I pøesto\nv¹ak stále nikdo netu¹í, na\nco je ta obrovská cisterna\nna støe¹e dobrá.\n
 IND_00_18
 Aèkoliv tato budova pùsobí\nopu¹tìným dojmem, ve\nskuteènosti je to dal¹í\nprofitující firma. I pøesto\nv¹ak stále nikdo netu¹í, na\nco je ta obrovská cisterna\nna støe¹e dobrá.\n
-IND_00_19
-Na dvoøe továrnièky se válí\nhromada odpadkù. Václav\nu¾ je mìl dávno odvézt, ale\nproto¾e je na nemocenské,\nhodili to na Karla. Karel ale\nmá papíry na záda a tak se\ntam ta hromada hromadí\ndál.\n
 IND_00_20
 V této továrnì se vyrábí\ncelá øada vìcí z umìlé\nhmoty. Nejpopulárnìj¹í je\ntypické ¹edivé linoleum s\nmramorovou texturou. Po\nnìèem tak nudném je  ve\nstátních institucích velká\npoptávka, tak¾e tato firma\nse budoucnosti obávat\nnemusí.\n
 IND_00_21
@@ -648,8 +602,6 @@ IND_00_28
 Firma na likvidaci dat si tu\nzøídila sídlo. Levnì skartuje\ndokumenty z bank,\nnemocnic, nebo osobní\núdaje klientù rùzných firem.\nPapír se pak recykluje na\nbalení rùzného zbo¾í a\ninformace se prodají na\ninternetu.\n
 IND_00_29
 Firma usazená v tomto\ndomì vyrábí nakládanou\nzeleninu. V modrých\ntlakových nádr¾ích pøed\nbudovou kvasí zelí. Velmi\nnebezpeèné místo.\n\n
-IND_00_30
-Architektonický styl budovy\nnaznaèuje inspiraci\nDivokým západem. Ne,\nnesídlí tu Buffalo Grill ani\nkanceláø vymahaèù\npohledávek, ale Sedm\nJateèních, firma na\nzpracování odpadù z\nmasokombinátù.\n
 IND_01_01
 Zde není nikdo ¹»astný,\ntedy a¾ na nesná¹enlivého\njezdce, který sem do\nvolného terénu jezdí z\nhoustnoucího provozu.\nDobøe, toto je pouze jedna\nverze pøíbìhu. Dal¹í je, ¾e\ntoto malé zaøízení je\nvlastnì obrovský podzemní\nkomplex slou¾ící tajným\nvládním výzkumùm. Asi je ti\njasné, ¾e tato budova musí\nbýt brzo srovnána se zemí a\nvzniklý prostor mù¾e být vyu¾itý\npro nìjaké sporty\n
 IND_01_03
@@ -661,45 +613,27 @@ Budete pøekvapeni tím, co\nse zde vyrábí - trpaslíci!\nSádroví trpaslíci pro\nvi
 IND_01_06
 Tento srub u¾ dlouhá léta\nvlastní dva nerudní staøíci,\npùvodnì zlatokopové.\nProto¾e jim ¹tìstí na\nYukonu nepøálo, slo¾ili\ndohromady úspory sotva na\ntenhle spoleèný barák. Brzo\nale zjistili, ¾e jim to spolu\nneklape, a tak si ka¾dý\nvyhradil pøesnou polovinu\npodlahy a jedny kamna.\nSkøíò vyhozená pøed domem\nnaznaèuje, ¾e zase jeden z nich\nporu¹il hranice svého klaimu.\n
 IND_01_11
-Zámeènická dílna mistra\nGeliona.\n\n\n\n\n\n
+Zámeènická dílna mistra\nGeliona.\n\n
 IND_01_13
-Tento dùm je na prodej.\nUvidíme, jak dlouho tu bude\nstát, ne¾li ho nìkdo koupí.\n\n\n\n\n
+Tento dùm je na prodej.\nUvidíme, jak dlouho tu bude\nstát, ne¾li ho nìkdo koupí.\n\n
 IND_01_15
 Malý výrobní závod, který\nstaví luxusní sportovní\nvzná¹edla Aeronautil.\nZdravotní poji¹tìní a\nkvìtiny pro pozùstalé v\ncenì. Na¹e motto -\n"Vìrnost a¾ za hrob!"\n
 IND_01_16
 Vìtrný mlýn\n\nVe zdej¹ím mlýnì prý stra¹í.\nKdy¾ tam veèer pøinesete\npytel s obilím, do rána je\npryè! Na povìsti vydìlává\nhlavnì místní pekárna.\nDu¹ièkové koláèky zvìdavci\ndoslova berou prodavaèùm\nz pod rukou. \n
-IND_01_19
-Tato továrna vyrábí\nmno¾ství umìlohmotných\nvýrobkù. Je to souèást\nprosperující firmy, v této\nèásti se vyrábí takové\nvìci, jako PET lahve a\nigelitové ta¹ky.\n
 IND_01_20
 Továrna je jednou z èástí\njisté prosperující firmy.\nVyrábí celou øadu\nsyntetických výrobkù, jako\nprùmyslová barviva a\nplexisklo.\n\n
 IND_01_29
 Bývalá tvrz, kterou si dùlní\nin¾enýr Marek pøestavìl na\nlaboratoø. V¹echny pokusy\no výrobu karburátoru\nschopného absolutního\nspalování zatím ztroskotaly.\nNa¹tìstí. \nZklamaný in¾enýr tedy dál objí¾dí\nsousedy ve svém\nosmiválcovém parním\nkabrioletu a hledá\nsponzora.\n
-IND_01_30
-Mýdlovar\n\n\n\n\n\n\n
 IND_01_35
-Silnièáøi tady mají\nvýjezdovou stanici. Jejich\nsypaèe jsou v pohotovosti\na èekají a¾ padne první\nvloèka.\n\n\n
+Silnièáøi tady mají\nvýjezdovou stanici. Jejich\nsypaèe jsou v pohotovosti\na èekají a¾ padne první\nvloèka.\n\n
 IND_01_36
 Tato továrna je jedním z\nnejvìt¹ích zneèi¹tovatelù\novzdu¹í, proto¾e spaluje\nnekvalitní uhlí. Je to pøímo\nsynonymum pro kyselý\ndé¹t. Lidé z ¹irokého okolí ji\nupøímnì nenávidí.\n
 IND_01_37
 Toto je stará centrální\nkotelna. Dodává horkou\npáru okolním prùmyslovým\nbudovám. Mo¾ná není úplnì\nekologická a netìsní, ale\nvrátný si nestì¾uje; je tam\nteplo a má na èem uvaøit\nkafe.\n
-IND_01_38
-Stavba této pozoruhodné\nbudovy se datuje a¾ k\nsamým poèátkùm\nprùmyslové revoluce.\nProto¾e je to skuteènì\nbytelná budova, bude zde\npravdìpodobnì stát je¹tì\nminimálnì 70 let.\n
-IND_01_39
-Stavba této pozoruhodné\nbudovy se datuje a¾ k\nsamým poèátkùm\nprùmyslové revoluce.\nProto¾e je to skuteènì\nbytelná budova, bude zde\npravdìpodobnì stát je¹tì\nminimálnì 70 let.\n
-IND_01_40
-Tato budova je velmi\noblíbeným místem\npolicejních zátahù. Øíká se,\n¾e tento starý dùm ukrývá\npokoutní obchod s\npa¹ovanou whisky a\nvodkou prodávanou\npochopitelnì bez spotøební\ndanì. Samozøejmì jsou to\njenom klepy, nicménì\nkdyby to byla pravda,\ndávalo by to jistý smysl\nskuteènosti, ¾e místní neúplatní\nstrá¾ci poøádku jsou\npermanentnì na ¹rot.\n
-IND_01_41
-You Betcha - továrna na\nkulièková lo¾iska. Kdy¾\njsme se mana¾era ptali,\nproè jsou jejich lo¾iska tak\nodolná, odpovìdìl nám, ¾e\njejich koule jsou z oceli.\n\n
-IND_01_42
-Broke-N-Bone koleèkové\nbrusle a pøíslu¹enství je\nfirma neustále\nzdokonalující zpùsoby, jak\nmohou extrémní skejtáci\npøijít k novým vyra¾eným\nzubùm..\n
-IND_01_45
-Toto je místo, kde se\nvyrábìjí umìlohmotná\nzakonèení ke tkanièkám.\nZdá se, ¾e mají\nkontumaènì monopol,\nproto¾e se nena¹el nikdo\njiný, koho by napadlo\nvyrábìt tak naprosto bì¾né\nvìci.\n
-IND_01_50
-Kdykoliv budete potøebovat\ncokoliv, mù¾ete jít sem.\nJsou známí jako jeden z\nnejlep¹ích výrobcù na trhu\na dokonce vyhráli i nìkolik\ncen za inovace. Staèí\nzavolat a zeptat se, co to\nvlastnì vyrábí.\n
 IND_02_01
-Zorané pole. Co to tu ra¹í?\n\n\n\n\n\n\n
+Zorané pole. Co to tu ra¹í?\n\n
 IND_02_03
-®ito. Krásné, zlaté, chlupaté\n... ale co ty èerné teèky? ®e\nby námel?\n\n\n\n\n
+®ito. Krásné, zlaté, chlupaté\n... ale co ty èerné teèky? ®e\nby námel?\n\n
 IND_02_04
 Políèko starého vdovce. Po\nodchodu své ¾eny u¾ nebyl\nschopen udr¾ovat vinici v\ncelé ¹íøi, proto jedna její\npùlka zarùstá býlím a\nmladými stromky. To vítají\n¹paèci, kteøí odsud\npoøádají nájezdy na vinici v\ndobì skliznì a tak staøíkovi\npravidelnì zbývá tak akorát\nna jedinou láhev vína. Ale ti\nco ochutnali, øíkají, ¾e není\nlep¹ího!\n
 IND_02_05
@@ -711,29 +645,25 @@ Pole konopí. Technického -\nu¾ívá se na látky, na\nprovazy, na papír. Nechá¹\nto
 IND_03_02
 Za kamennou zídkou rostou\njahody. Trochu pøerostlé\njahody. Sousedi se\nposmívají, ¾e na nì Karel\nbude potøebovat ¹tafle, ale\na»! Jednou se zaèervená. A\npak, bohdá, i soused sám\n¾ebøík pùjèí.\n
 IND_03_05
-První zdokumentovaný\npokus o ekologickou tì¾bu\nropy. No, není to krása?\n\n\n\n\n
+První zdokumentovaný\npokus o ekologickou tì¾bu\nropy. No, není to krása?\n\n
 IND_03_15
 Malý kravín, odkud\npocházejí ty bájeèné\nmodré sýry s bílou plísní na\npovrchu, které staèí\nrozkrojit a samy naskáèou\ndo pusy. \n\n
 IND_04_01
 Slavné pole, které zvìènil\nve své básni Ota Nedejse:\n"Pod okny mi kvete hrách.\nAch."\n\nO tom, ¾e to byl velký\nrurální básník, svìdèí i fakt,\n¾e na tomto poli odjak¾iva\npìstují fazole. \n
 IND_04_02
-Obilí. Co dodat. Obilí. \n\n\n\n\n\n\n
+Obilí. Co dodat. Obilí. \n\n
 IND_05_01
 Pøesto¾e tato budova je\nstále registrována jako\n"prùmyslový objekt", je to\nji¾ hodnì dávno, co byla\nkovárna zavøena a tato\nbouda je postavena z\njejích pozùstatkù.\n
-IND_05_02
-Ideální místo pro\nskladování hromad uhlí,\npísku, kamenù a vùbec\nv¹eho mo¾ného. Jediné,\nèeho je tøeba se obávat\njsou dlouhá, de¹tivá\nobdobí.\n
-IND_05_03
-Toto je zajímavá èást\nmìstské infrastruktury.\nPlynové potrubí je\npøipojeno k silným\nèerpadlùm, které udr¾ují\nplyn pod patøièným tlakem.\n\n
 IND_05_04
-Tato nápadná stavba je\nzásobníkem plynu, kterým\npak napájí domácnosti v\nokolí. Pozor - zákaz vstupu\ns otevøeným ohnìm!\n\n\n
+Tato nápadná stavba je\nzásobníkem plynu, kterým\npak napájí domácnosti v\nokolí. Pozor - zákaz vstupu\ns otevøeným ohnìm!\n\n
 IND_05_05
 Klimatizace potøebuje\ntepelné výmìníky, právì se\nna jedny koukáte. Tady se\nvoda ochlazuje témìø na\nbod mrazu a pak se posílá\ndo budov.\n\n
 IND_05_06
-V této budovì mù¾e¹ najít\ndva bì¾ící soustruhy a\nstarého tlus»ocha neustále\nkomandujícího jeho dva\nuènì.\n\n\n
+V této budovì mù¾e¹ najít\ndva bì¾ící soustruhy a\nstarého tlus»ocha neustále\nkomandujícího jeho dva\nuènì.\n\n
 IND_05_07
-Tohle je továrna zpracující\nnejtì¾¹í slo¾ky ropy.\nProdukuje materiál pro\nstavbu cest - asfalt.\n\n\n\n
+Tohle je továrna zpracující\nnejtì¾¹í slo¾ky ropy.\nProdukuje materiál pro\nstavbu cest - asfalt.\n\n
 IND_05_08
-Zde je továrna zpracující\nnejtì¾¹í slo¾ky ropy.\nProdukuje materiál pro\nstavbu cest - asfalt.\n\n\n\n
+Zde je továrna zpracující\nnejtì¾¹í slo¾ky ropy.\nProdukuje materiál pro\nstavbu cest - asfalt.\n\n
 IND_05_09
 Blankytnì modrý sklad je\nvidìt u¾ z dálky a v¾dycky\nlákal nejrùznìj¹í umìlce,\nkteøí jej pøená¹eli na rùzná\nplátna a jiné obrazy. Tenhle\nmìsíc je v mìstské galerii\nvýstava tìchto dìl.\n
 IND_05_10
@@ -741,15 +671,15 @@ Tento komplex skladi¹t je\nvyu¾íván provozovatelem\nsítì supermarketù. Obvykle\n
 IND_05_11
 Hezká cihlová budova. Je to\nhrnèíøství, je¾ své hlinìné\nvýrobky distribuuje po\nokolních mìstech. Na první\npohled se zde zdá v¹echno\nv poøádku, fakticky zde ale\nnení dostatek místa pro\nve¹keré dílny a kanceláøe.\n
 IND_05_12
-Transformátorová stanice.\nTransformuje elektøinu z 10\nkV na normální proud (230\nV) pro koncové odbìratele.\n\n\n\n
+Transformátorová stanice.\nTransformuje elektøinu z 10\nkV na normální proud (230\nV) pro koncové odbìratele.\n\n
 IND_05_13
 V tomto minipivovaru vaøí\nextra silné pivo. Nejen, ¾e\nje toto pivo poøádná pecka,\nlze jej s výhodou pou¾ít i\njako výteèný odstraòovaè\nnátìrù.\n\n
 IND_05_14
-Továrna na pøesné mìøící\npøístroje. Tato firma má\nzajímavou historii, ale toto\nokno je pøíli¹ malé pro tak\nob¹írný pøíbìh.\n\n\n
+Továrna na pøesné mìøící\npøístroje. Tato firma má\nzajímavou historii, ale toto\nokno je pøíli¹ malé pro tak\nob¹írný pøíbìh.\n\n
 IND_05_15
 Plynárna, prùmyslová\nbudova velkého významu.\nNechce¹ doufám tvrdit, ¾e\nnepou¾ívá¹ plynový sporák!\nJedno z mnoha zaøízení\nobjevujících se okolo mìst.\n\n
 IND_05_16
-Sídlo zásilkové firmy Tailor.\nCokoliv potøebujete poslat\nkamkoliv po Simusvìtì,\ntady je to pravé místo kam\njit.\n\n\n
+Sídlo zásilkové firmy Tailor.\nCokoliv potøebujete poslat\nkamkoliv po Simusvìtì,\ntady je to pravé místo kam\njit.\n\n
 IND_05_17
 Chemièka - hrdý nositel\nceny "Ekologický prùmysl\n1960", z doby, kdy vyrábìt\nekologicky znamenalo jen\npamatovat si, kam jsme co\nvyhodili. Drtivá vìt¹ina\njejich výrobkù jsou\nchemické látky urèené k\ndal¹ímu zpracování.\n
 IND_05_18
@@ -769,19 +699,19 @@ Døíve se v této továrnì\nnìco vyrábìlo. Dnes to je\nobyèejný sklad. V komínì\nse
 IND_05_25
 Tøi vysoké, zelené cisterny\nna kapaliny. Pøesto¾e hlídaè\nsi poøídil pìt obrovských\npsù, ka¾dý mìsíc se nìjaký\nobsah ztrácí. Mo¾ná je to\nproto, ¾e ho krade on sám?\nUrèitì to v¹ak má nìjakou\nsouvislost s tím, ¾e v\ncisternách je ulo¾en èistý\nalkohol.\n
 IND_05_26
-Dal¹í z mnoha\nplynárenských zaøízení.\nToto je moderní, vìt¹ina\ninstalace je zabudována\npod povrchem.\n\n\n
+Dal¹í z mnoha\nplynárenských zaøízení.\nToto je moderní, vìt¹ina\ninstalace je zabudována\npod povrchem.\n\n
 IND_05_27
-Dal¹í z mnoha\nplynárenských zaøízení.\nToto je moderní, vìt¹ina\ninstalace je zabudována\npod povrchem.\n\n\n
+Dal¹í z mnoha\nplynárenských zaøízení.\nToto je moderní, vìt¹ina\ninstalace je zabudována\npod povrchem.\n\n
 IND_05_28
-Zase jedno z mnoha\nplynárenských zaøízení.\nToto je moderní, vìt¹ina\ninstalace je zabudována\npod povrchem.\n\n\n
+Zase jedno z mnoha\nplynárenských zaøízení.\nToto je moderní, vìt¹ina\ninstalace je zabudována\npod povrchem.\n\n
 IND_05_29
 V této továrnì se vyrábí\nv¹echny druhy víèek a\nzavírátek - malá, velká,\nkruhová i hranatá,\n¹roubovací, zacvakávací,\numìlohmotná i hliníková.\nObchody ale v poslední\ndobì moc nejdou, tak firma\npøemý¹lí, ¾e by svùj\nzavírací business roz¹íøila i\no výrobu uchycovacích\nkrou¾kù a policejních pout.\nZvlá¹» od té doby, co policisté\npou¾ívají jednorázová plastová\npouta by to mohl být dobrý\nk¹eft.\n
 IND_05_30
 Firma sídlící v této budovì\nse zabývá výrobou umìlého\novoce. Mù¾e se to zdát\nsmì¹né, ale co by si bez ní\npoèali aran¾éøi, kdy¾ se\npøírodní ovoce rychle kazí a\nhnìdne. Její výrobky\nuvidíte v ka¾dé druhé\nvýloze.\n
 IND_06_01
-Pozemní stanice telefonní\nspoleènosti.\n\n\n\n\n\n
+Pozemní stanice telefonní\nspoleènosti.\n\n
 IND_06_02
-Kus zemì obehnaný\no¹klivou, betonovou zdí -\njestli¾e stavíte dùm,\nnìkteré materiály máte\nzcela jistì odsud.\n\n\n
+Kus zemì obehnaný\no¹klivou, betonovou zdí -\njestli¾e stavíte dùm,\nnìkteré materiály máte\nzcela jistì odsud.\n\n
 IND_06_03
 Jestli vám pøijde divné, ¾e\ntenhle sklad má rozmìry\ngará¾e pro motorku, tak\njste úplnì vedle - tohle je\njen výtah, dal¹í tøi patra\njsou pod zemí. A to proto,\naby se u¹etøilo na cenì\npozemkù, které jsou ve\nmìstì v¾dy velmi drahé.\n
 IND_06_04
@@ -795,7 +725,7 @@ Tato nádr¾ se musí poøád\nlesknout, to aby odrá¾ela\nteplo zpátky do vzduchu.\nS
 IND_06_08
 Z barvy zásobníkù je vidìt,\n¾e jsou z le¹tìné mìdi. Mìï\nje to jediné, co udr¾elo\nkyselinu unvitø. Na to se ale\npøi¹lo a¾ po mnoha únicích\nv uplynulých letech. A to je\ntaké hlavní dùvod, proè tu\ndodnes zamìstnanci chodí\nv ochraných oblecích a\nmají pomìdìné boty.\n
 IND_06_09
-Dva sklady. Celá jedna\nstìna je dlouhou øadou\ndveøí zaji¹tujících snadný\npøístup k èemukoliv, co je\numístìno uvnitø.\n\n\n
+Dva sklady. Celá jedna\nstìna je dlouhou øadou\ndveøí zaji¹tujících snadný\npøístup k èemukoliv, co je\numístìno uvnitø.\n\n
 IND_06_10
 Toto místo je velmi\npravdìpodobný cíl\npolicejních zátahù.\nNavenek vypadá jako sklad\nnìjakého supermarketu, ale\nve skuteènosti je to tajné\nskladi¹tì asijské mafie.\nOdpovìdný vedoucí: Kim\nÈong Il\n
 IND_06_11
@@ -807,7 +737,7 @@ Lakovna. Lakuje se tady\núplnì v¹echno od aut a¾ po\ndøevìné desky. Firma má\nsp
 IND_06_14
 Výzkumná laboratoø patøící\nk místní univerzitì a\nzkoumá se tu mikrovlnné\nzáøení. Mohlo by se vyu¾ít v\nmnoha smìrech a tak není\nproblém sehnat sponzory,\nkteøí budou celý výzkum platit.\nZatím se výzkum teprve\nrozjí¾dí, ale ji¾ teï je mezi\nstudenty o práci v\nlaboratoøi opravdu veliký\nzájem. Kdo by také nechtìl\npracovat v na výzkumu, který\nmimo jiné zahrnuje ohøívání\nsvaèiny, která je k mání v\nlaboratoøi zdarma. Tato zajímavá\nèinnost je souèástí výzkumu\nvlivu mirkovlnných pøenosových\nkanálù na okolní prostøedí.\n
 IND_06_15
-Tato budova je na prodej.\nUvidíme jak dlouho tu bude\nstát, ne¾li ji nìkdo koupí.\n\n\n\n\n
+Tato budova je na prodej.\nUvidíme jak dlouho tu bude\nstát, ne¾li ji nìkdo koupí.\n\n
 IND_06_17
 Automobilový servis. Kdy¾\nse nìco pokazí, tito lidé\nbudou mít souèástky na\nopravu. Problém je v tom,\n¾e nikdo ze zamìstnaných\nnení automechanik, tak¾e\nnikdo neví co a jak. \n
 IND_06_18
@@ -823,7 +753,7 @@ Chladící vì¾ podzemní\nelektrárny. Lidé se ptají na\núèel elektrárny uprostøed\n
 IND_06_31
 Zde se vyrábí zápalky.\nStruèný pøíbìh stromù je\nasi tento: Dlouhé roky\nrostou v lese, pak padnou\na rozpraskají, a¾ se\nnakonec rozpadnou na malé\nkousky døeva na ¹krtání.\n
 IND_06_32
-Advokátní kanceláø  Smith,\nUnger a Eppes. Brzy se\nrozroste tak, ¾e uvidí¹\nkanceláøe S.U.E i v tvé\nblízkosti.\n\n\n
+Advokátní kanceláø  Smith,\nUnger a Eppes. Brzy se\nrozroste tak, ¾e uvidí¹\nkanceláøe S.U.E i v tvé\nblízkosti.\n\n
 IND_06_33
 V této továrnì se vyrábí\nnìco skuteènì potøebného.\nMalé kousky døeva a\ngrafitu. Ano, tu¾ky! Nejen\nstandardní ¾luté a hnìdé,\nale i s reklamními texty.\nPokud tì to zajímá, volej\n420728542770.\n
 IND_06_34
@@ -835,7 +765,7 @@ Distribuèní centrum semínek\nv elegantní zelené. Pokud\nchcete záhon sluneènic,\
 IND_06_43
 Pohøební agentura\nFunusservis se dostala na\nvýsluní obchodního\núspìchu v dobì, kdy se\nmajitel firmy ¾ijící v\npodkroví této budovy\npøestìhoval do mìsta a lidé\nzaèali výraznì èastìji\numírat.\n
 IND_06_44
-Jistì, zvenèí to vypadá\njako továrna, ale uvnitø je\nvelmi dobøe ukrytá pøí¹erná\nheavy metal punk rapová\nskupina Loud Noize.\n\n\n
+Jistì, zvenèí to vypadá\njako továrna, ale uvnitø je\nvelmi dobøe ukrytá pøí¹erná\nheavy metal punk rapová\nskupina Loud Noize.\n\n
 IND_06_45
 Nejen, ¾e v¹ichni musí\nprojít skrze bezpeènostní\nbránu, ka¾dý zamìstnanec\nmusí ka¾dé ráno\nzarecitovat firemní mantru,\naby smìl branou vùbec\nprojít.\n
 IND_06_46
@@ -849,7 +779,7 @@ Tento výrobce náøadí\nnahradil jiný národní\nøetìzec kutilských potøeb\nsvými ex
 IND_06_55
 Zpìnìná voda s.r.o si\nnechala natøít budovu firmy\njejich firemní modrou\nbarvou. Háèek je v tom, ¾e\nv bezmraèných letních\ndnech zamìstnanci zoufale\nprojí¾dí kolem budovy,\nnáslednì se shroma¾ïují na\nplá¾i a diskutují o\nohromujícím maskovacím\nefektu jejich barvy.\n
 IND_06_56
-Uvnitø tohoto domu není nic\nzvlá¹tního, ale zvenèí je\nten nejvìt¹í bøeètan, jaký\njsem v ¾ivotì vidìl.\n\n\n\n
+Uvnitø tohoto domu není nic\nzvlá¹tního, ale zvenèí je\nten nejvìt¹í bøeètan, jaký\njsem v ¾ivotì vidìl.\n\n
 IND_06_57
 Ka¾dý zná pohádky o\nje¾ibabách a perníkových\nchaloupkách. Nu¾e,\npøedstav si, ¾e zaèaly\nspolupracovat a tohle je\njejich perníkové mìsto, kde\nmíchají své dryjáky a vaøí\npivo. DÌTI POZOR!!!\n
 IND_06_59
@@ -911,7 +841,7 @@ Toto je supermoderní\npoèítaèem øízená továrna\nna výrobu psího krmení.\nNeuvidí
 IND_10_26
 Produkce mra¾ených\nvýrobkù, vevnitø je taková\nklendra, ¾e budova je ze\nseverní strany stále\npokrytá ledem - i v tìch\nnejparnìj¹ích letních\ndnech. V té dobì ale tento\nzvlá¹tní jev stì¾í uvidíte,\nproto¾e stìna je celá\nobklopená dìtmi. Veèer se\nchlazení vypíná, aby si\nmohli rodièe dìti odlepit.\n
 IND_11_01
-Stavba, nebo spí¹ její\nzaèátek. Vzhledem k pou¾ití\ndøeva pøi stavbì to asi\nbude nìco drahého.  \n\n\n\n
+Stavba, nebo spí¹ její\nzaèátek. Vzhledem k pou¾ití\ndøeva pøi stavbì to asi\nbude nìco drahého.  \n\n
 IND_11_16
 Zdá se vám barva na\nstìnách povìdomá? Ano,\nje to ta kráva - tedy Mirka.\nZde se balí bonbóny a\nèokoládové tabulky\ndovezené ze ©výcarska do\nalobalu, aby jste se\nnepocintali døív, ne¾\ndonesete náklad a¾ do úst. \n
 IND_11_46
@@ -966,8 +896,6 @@ MonorailFoundation
 Základy jednokolejky
 MonorailGround
 Podlo¾í jednokolejky
-MonorailStation
-Visuté nástupi¹tì
 MT_HOTEL_0
 Hotel\n\nToto je velmi slavný hotel.\nPokoje jsou velmi drahé,\nale ka¾dý pøímo umírá po tom, zùstat zde na víkend\nnebo si alespoò dát jídlo v hotelové restauraci.\n
 MUSEUM_0
@@ -1008,58 +936,40 @@ RES_00_03
 Jestli mù¾ete mít chatrè v\nlese, proè ji nemít ve\nmìstì? Nikdo neví jak se tu\ntenhle dùm objevil, je\ndocela mo¾né, ¾e je tu\nodjak¾iva.\n\n
 RES_00_04
 Malý dùm. Nìkdy lidé, kteøí\n¾ijí ve mìstech, mají\nnìjakou chatu na\nklidnìj¹ím místì, aby si\nodpoèinuli od stresu ve\nmìstì. Je to dobøe\numístìná chatka i pro dìti,\nproto¾e tam mohou obèas\nudìlat nìjakou party.\n
-RES_00_05
-Støednì velký dùm. Uvnitø\nmohou ¾it 4 rodiny. Tenké\nstìny dìlají nìkdy ze\n¾ivota peklo, zvlá¹», kdy¾\nse kluk od vedle uèí hrát na\nbubny, co¾ mu zatím\nsamozøejmì nejde.\n
 RES_00_06
 Kontaktovali jsme majitelku\ntohoto domu a ptali se na\npodrobnosti o domu, ale\nodmítla odpovìdìt, dokud\nv¹echna prùmyslová\nzaøízení ve mìstì\nnezveøejní podrobnosti o\njejich èinnosti.\n
 RES_00_07
 Tohle byl døív bar, teï je\npøestavìný na domov\nbývalého majitele. Bar dole\nje poøád v provozu pro\nstaré známé. Bohu¾el\nmini-fotbal se rozbil a u¾\njej nikdo neopravil.\n
 RES_00_08
-Malá ubytovna pro ne víc\nne¾ 10 turistù. Hodí se\nhlavnì pro studenty, není\ntu moc draho.\n\n\n\n
-RES_00_09
-Ubytovna pro mladé.\nVìt¹inou se tu ubytují\nsportovní kluby na\nsoustøedìní. Je tu levnì a\ndobøe vaøí, tak¾e je tenhle\nhostel pomìrnì oblíbený.\n\n
-RES_00_10
-Dùm pro vìt¹í rodinu. Dìti\ndospìly a byly potøeba\ndal¹í místnosti, tak je\ntatínek pøistavìl. Teï u¾ se\njen stará o svou zimní\nzahradu, kterou taky\npøistavìl.\n
+Malá ubytovna pro ne víc\nne¾ 10 turistù. Hodí se\nhlavnì pro studenty, není\ntu moc draho.\n\n
 RES_00_11
-Malý park. Skvìlé místo na\nsetkání nebo procházku.\nLépe ne¾ v parku si\nneodpoèinete.\n\n\n\n
+Malý park. Skvìlé místo na\nsetkání nebo procházku.\nLépe ne¾ v parku si\nneodpoèinete.\n\n
 RES_00_12
-Staromódní døevìný dùm.\nSpousta lidí by si takový\npøála.\n\n\n\n\n
+Staromódní døevìný dùm.\nSpousta lidí by si takový\npøála.\n\n
 RES_00_13
 Typický dùm pro vesnici\nnebo pøedmìstí. Nahoøe\nmù¾e bydlet rodina s dìtmi\na dole tøeba babièka s\ndìdou. Anebo se byt dole\nmù¾e pronajmout.\n\n
 RES_00_14
 Tento dùm má jen pøízemí. V\ndomì je velká hala s\nvysokým stropem, ve\nzbytku podkroví je jen\nvelmi nízký prostor na\nv¹elijaké harampádí.\n\n
 RES_00_15
-Stará vila. Odjak¾iva tam ¾ili\nbohatí lidé. Velmi èasto tam\npoøádají veèírky pro\nsmetánku z celého mìsta.\n\n\n\n
+Stará vila. Odjak¾iva tam ¾ili\nbohatí lidé. Velmi èasto tam\npoøádají veèírky pro\nsmetánku z celého mìsta.\n\n
 RES_00_16
-Nekrytý bazén. Dìti se tu v\nlétì v¾dycky vyøádí. Není\nsice moc hluboký, ale to\ndìtem nevadí.\n\n\n\n
+Nekrytý bazén. Dìti se tu v\nlétì v¾dycky vyøádí. Není\nsice moc hluboký, ale to\ndìtem nevadí.\n\n
 RES_00_17
-Dvojdùm. Je velký a\nprostorný. Je velmi\npohodlné tu ¾ít, ale musíte\nvycházet se sousedy.\n\n\n\n
+Dvojdùm. Je velký a\nprostorný. Je velmi\npohodlné tu ¾ít, ale musíte\nvycházet se sousedy.\n\n
 RES_00_18
-Luxusní byty pro dvì\nrodiny. Ka¾dá rodina má\njedno patro a dvì gará¾e.\n\n\n\n\n
+Luxusní byty pro dvì\nrodiny. Ka¾dá rodina má\njedno patro a dvì gará¾e.\n\n
 RES_00_19
-Starý hotel. Do mìsta jezdí\nspousta turistù. Nìkolik lidí\nsem jezdí ka¾dý rok u¾ 40\nlet. Není luxusní, ale není\nani pøíli¹ drahý.\n\n\n
+Starý hotel. Do mìsta jezdí\nspousta turistù. Nìkolik lidí\nsem jezdí ka¾dý rok u¾ 40\nlet. Není luxusní, ale není\nani pøíli¹ drahý.\n\n
 RES_00_20
-Hostel pro skupiny po 30ti\nlidech. Vhodný pro ¹kolní\nvýlety.\n\n\n\n\n
+Hostel pro skupiny po 30ti\nlidech. Vhodný pro ¹kolní\nvýlety.\n\n
 RES_00_21
-Stará ¹kola, pøed nìkolika\nlety ji pøestavìli a teï se v\nní bydlí. Stropy jsou vysoké\na okna velká. Bydlí se tu\ncelkem dobøe.\n\n\n
+Stará ¹kola, pøed nìkolika\nlety ji pøestavìli a teï se v\nní bydlí. Stropy jsou vysoké\na okna velká. Bydlí se tu\ncelkem dobøe.\n\n
 RES_00_22
 Stará vila. Je oblo¾ená\ndøevem, dodává jí to vzhled\nstarobylosti. Patøí\nuhlobaronovi ze sousedního\nmìsta. Jeho syn studuje\nna univerzitì, aby se stal\nmagnátem, jako jeho otec.\nBrzy si na¹etøí na svùj\nprvní dùlek. \n
-RES_00_23
-Tohle je symbol ohnì.\nPamátník má lidem\npøipomínat Prométhea, který\nukradl oheò bohùm a dal jej\nlidem.\n\n\n
-RES_00_24
-Dùm s nájemními byty v\nanglickém stylu. Mù¾e v\nnìm bydlet docela dost lidí,\nale má malé místnosti.\n\n\n\n
 RES_00_25
-Dùm s byty, pùvodnì mìl\njen dvì patra, ale majitel\nse rozhodl pøistavìt dal¹í\npatro pro velký zájem o\nbydlení v centru mìsta.\n\n\n
-RES_00_26
-Atlas. Toto je socha\nAtlase, který podle starých\nøeckých bájí dr¾el celou\nZemi svým tìlem. Monument\nmusel být ohrazen øetìzem\npo té, co jej skupinka\nmladistvých málem znièila\ntím, ¾e si na vr¹ku koule\nudìlal picknick. Ne ¾e by\nmaldí neumìli pøelézt øetìz,\nale teï ji¾ jim mohou\npolicisté dát pokutu,\nproto¾e výmluva, ¾e netu¹ili, ¾e\nse na monument nesmí lézt\nnebude úèinná.\n
-RES_00_27
-Starý renesanèní dùm. Byl\npøestavìný a novì\nomítnutý, bohu¾el tímto\nbylo po¹kozeno skoro\nv¹echno to historické, co\nna nìm bylo.\n\n
-RES_00_28
-Tento kouzelný narù¾ovìlý\ndùm je *** hotel\nspecializovaný na líbánky a\nnarozeninové párty. Má\nvelmi pøíznivé ceny. Ptáte\nse, z èeho se zaplatí\nv¹echny ty ¹kody po\ndivokých noèních jízdách?\nHledejte pod sekcí\nwebkamery, pouze pro\nplatící u¾ivatele.\n
+Dùm s byty, pùvodnì mìl\njen dvì patra, ale majitel\nse rozhodl pøistavìt dal¹í\npatro pro velký zájem o\nbydlení v centru mìsta.\n\n
 RES_00_29
-Men¹í bytový dùm. Je\nzrekonstruovaný zvenku i\nzevnitø, je také dobøe\nzateplený, tak¾e nájemné\nnení zrovna nízké.\n\n\n
-RES_00_30
-Tato socha se jmenuje\nZlatý barzoj. Barzoj je\nruský chrt. Socha je sfinga\njako poleno. Zdá se, ¾e\nnìkterý z projektantù\npomíchal návrhy výtvarníkù.\nNikdo si zatím nestì¾uje -\nono pojmenovat Sfingu\nSfinga, to není ¾ádné\numìní...\n
+Men¹í bytový dùm. Je\nzrekonstruovaný zvenku i\nzevnitø, je také dobøe\nzateplený, tak¾e nájemné\nnení zrovna nízké.\n\n
 RES_00_52
 Na¹e bohynì drah. Tisíce\nhráèù Simutransu se k ní\ndennì modlí..."ké¾ mé\nkoleje le¾í rovnì a mé linky\nvyná¹ejí. Ó uchraò prosím\nmé køi¾ovatky kolizí a nech\nmé vlaky v¾dy nalézt\ncestu...".\n
 RES_00_53
@@ -1067,7 +977,7 @@ Tato socha je pocta siru\nHansi Groperovi. Byl\nsubjektem v tisících\npøípadù se
 RES_00_60
 Socha Afrodity, staroøecké\nbohynì lásky. Mìsto ji dalo\npostavit, aby pøipomínala,\n¾e zakladatel mìsta byl\nemigrant z dalekého Øecka\na ze srdce domovinu\nnenávidìl. To má za to.\n
 RES_01_01
-Smutný kemp pro ty ménì\n¹tastné obyvatele\nSimutransu.\n\n\n\n\n
+Smutný kemp pro ty ménì\n¹tastné obyvatele\nSimutransu.\n\n
 RES_01_02
 Malý pøedmìstský dùm. ®ijí\nv nìm vìt¹inou malé rodiny\ns prùmìrným pøíjmem.\nVìt¹inou pracují v centru,\nale ¾ijí na okraji mìsta, kde\nje vet¹í klid.\n\n
 RES_01_03
@@ -1077,85 +987,77 @@ Tenhle domek mu¾e být\ndobrý druhý domov. Na\nuklidnìní a pøemý¹lení o\n¾ivotì. 
 RES_01_05
 Dva malé domky. Není v\nnich moc místa, ale jsou\nvelmi útulné. Lidé si v¾dy\npletli jeden s druhým, tak\nse majitelé rozhodli, ¾e\nnamalují ka¾dý jinou\nbarvou.\n
 RES_01_09
-Toto je hezký rodinný\ndomeèek. Poskytuje útulné\nbydlení pro jednu ¹»astnou\nrodinu, pejska a dvì\nkoèièky. Èièièi...\n\n\n
+Toto je hezký rodinný\ndomeèek. Poskytuje útulné\nbydlení pro jednu ¹»astnou\nrodinu, pejska a dvì\nkoèièky. Èièièi...\n\n
 RES_01_10
 Tenhle dùm je vevnitø\ndocela velký a prostorný.\nMajitel chtìl je¹tì obydlet\npodkroví, ale to by nesmìl\nmít èernou støechu - v létì\nje tam pìkná sauna.\n\n
 RES_01_12
-Ubytovna pro zamìstnance.\nNejrùznìj¹í firmy zde\nubytovávají své\npracovníky, vìt¹inou jsou\nto dìlníci nebo horníci.\n\n\n
+Ubytovna pro zamìstnance.\nNejrùznìj¹í firmy zde\nubytovávají své\npracovníky, vìt¹inou jsou\nto dìlníci nebo horníci.\n\n
 RES_01_13
 Star¹í dùm s velkou\nzahradou, ve které je sad\njabloní. V¾dycky koncem\nléta sem chodí kluci ze\nsousedství a potají chodí\nna jablka.\n\n
 RES_01_14
 Dùm oblo¾ený døevem. Do\nmìsta se moc nehodí, ale\nmajiteli to nevadí, rád se\nodli¹uje od ostatních,\ntak¾e mu takový dùm\nvyhovuje.\n\n
 RES_01_15
-Stará vila. Odjak¾iva tam ¾ili\nbohatí lidé. Velmi èasto tam\npoøádají veèírky pro\nsmetánku z celého mìsta.\n\n\n\n
+Stará vila. Odjak¾iva tam ¾ili\nbohatí lidé. Velmi èasto tam\npoøádají veèírky pro\nsmetánku z celého mìsta.\n\n
 RES_01_16
-Malý park. Skvìlé místo na\nsetkání nebo procházku.\nLépe ne¾ v parku si\nneodpoèinete.\n\n\n\n
+Malý park. Skvìlé místo na\nsetkání nebo procházku.\nLépe ne¾ v parku si\nneodpoèinete.\n\n
 RES_01_17
-Dvojdùm. Je velký a\nprostorný. Jediné co mu\nchybí je zahrada.\n\n\n\n\n
+Dvojdùm. Je velký a\nprostorný. Jediné co mu\nchybí je zahrada.\n\n
 RES_01_18
-Luxusní byty pro dvì\nrodiny. Ka¾dá rodina má\njedno patro.\n\n\n\n\n
+Luxusní byty pro dvì\nrodiny. Ka¾dá rodina má\njedno patro.\n\n
 RES_01_19
 Hotel jak vystøi¾ený z\nnìjakého horského\nstøediska. Mù¾ete se tu\nubytovat, pùjèit si kolo a\nvydávat se na projí¾ïky do\nokolní krajiny, která má\njistì co nabídnout.\n
-RES_01_20
-Mìstské láznì. Jsou tu\nléèivé prameny, které\npomáhají hlavnì lidem s\nonemocnìními za¾ívacího\nústrojí. Proto se tu\nubytovávají lidé z ¹irokého\nokolí. A co víc, nemusí vás\nsem posílat lékaø, mù¾ete\npøijet a ubytovat se úplnì\nsami.\n
 RES_01_21
-Stará ¹kola, pøed nìkolika\nlety ji pøedìlali a teï se v\nní bydlí. Starou ¹kolu je¹tì\npoøád pøipomíná ¹kolní dvùr\nuprostøed.\n\n\n
+Stará ¹kola, pøed nìkolika\nlety ji pøedìlali a teï se v\nní bydlí. Starou ¹kolu je¹tì\npoøád pøipomíná ¹kolní dvùr\nuprostøed.\n\n
 RES_01_22
 "Èerný dùm" - tak tomuto\ndomu pøezdívají lidé z okolí.\nØíkají, ¾e v nìm stra¹í, to\nproto, ¾e vypadá, ¾e má\nohromnou pùdu, kam by se\nschovala spousta\nstra¹idel, ale ta pùda u¾ je\ndávno pøestavìná na\npodkrovní byt.\n
 RES_01_23
 Mìstský park. Mù¾ete si\nsem jít v klidu sníst\nhamburger, co jste si\nkoupili v centru na\nprocházce. Je tu klid a\nnikdo vás nebude ru¹it.\n\n
 RES_01_24
-Staré byty, u¾ tady moc lidí\nnebydlí. Za pár let se\nchystá demolice, uvidíte ¾e\ndo dvou let tenhle dùm\nzmizí...\n\n\n
+Staré byty, u¾ tady moc lidí\nnebydlí. Za pár let se\nchystá demolice, uvidíte ¾e\ndo dvou let tenhle dùm\nzmizí...\n\n
 RES_01_25
 Pozor, nikomu to neøíkejte,\nale na pùdì ¾ijí tøi malé\nopu¹tìné dìti. Pøes noc\njsou hezky po tichu a pøes\nden, kdy¾ jsou lidé pryè\nchytají holubi, my¹i a\nveverky aby nemìly hlad.\nJeliko¾ o nich nikdo neví,\nnemusí chodit do ¹koly.\n
 RES_01_26
 V tomto hezkém jezírku\nbývaly oran¾ové rybky.\nJen¾e pak Novákùm utekl\njejich kocour a bìhem\ntýdne je v¹echny vylovil a\nse¾ral. A pak ¾e koèky\nnemají rády vodu!\n
 RES_01_27
-Dùm s byty. V ka¾dém ze\nètyø pater je jeden byt, ale\njsou celkem velké. Proto\ntaky nejsou moc levné.\n\n\n\n
+Dùm s byty. V ka¾dém ze\nètyø pater je jeden byt, ale\njsou celkem velké. Proto\ntaky nejsou moc levné.\n\n
 RES_01_28
-Dùm s byty, který vlastní\nmìsto. Ubytovává tu lidi s\nmalým pøíjmem, kteøí si\nnemohou poøídit lep¹í a\ndra¾¹í bydlení.\n\n\n
+Dùm s byty, který vlastní\nmìsto. Ubytovává tu lidi s\nmalým pøíjmem, kteøí si\nnemohou poøídit lep¹í a\ndra¾¹í bydlení.\n\n
 RES_01_29
 Dùm s byty. Jsou to velmi\noblíbené byty, hlavnì kvùli\ntìm obrovským balkonùm.\nSami vidíte, man¾elky jsou\n¹tìstím bez sebe, kdy¾ je\nmù¾ou celé zaplnit\nkvìtináèi.\n
 RES_01_30
 Toto je velmi zajímavý\npomník. Nejen¾e se\nhistorikové dohadují, kdo\nasi mohl být jeho autorem\na kdy asi tak mohl být\npostavený, ale hlavnì\nnikdo neví, co to k sakru je.\n
 RES_01_31
-Rohový dùm. Pùvodnì v\nnìm sídlila lékaøská fakulta\nmístní univerzity, ale dnes\nse dùm pøedìlal na koleje\npro studenty.\n\n\n
-RES_01_32
-Nájemní domy. Jeden z nich\n(ten vìt¹í) byl nedávno\nrestaurován zvenku i\nzevnitø. Mìsto, které domy\nvlastní plánuje ¾e je prodá,\naby pøibyly peníze do\nrozpoètu...\n
+Rohový dùm. Pùvodnì v\nnìm sídlila lékaøská fakulta\nmístní univerzity, ale dnes\nse dùm pøedìlal na koleje\npro studenty.\n\n
 RES_01_33
-Renesanèní palác. Neví se\npøesnì kdy byl postaven,\nale odhaduje se na 17.\nstoletí.\n\n\n\n
+Renesanèní palác. Neví se\npøesnì kdy byl postaven,\nale odhaduje se na 17.\nstoletí.\n\n
 RES_01_34
 Pùvodnì to byl dùm z 19.\nstoletí, ale pozdìj¹í majitel\nse rozhodl, ¾e jej\nzrekonstruuje tak, aby\nvypadal jako renesanèní,\npozdìji se ale dostal do\nrukou dvìma majitelùm a\nka¾dý si svou pùlku omítl\njinou barvou.\n
 RES_01_35
 Starý renesanèní palác. V\ndomì sídlí mìstská\nknihovna. V pøízemí je\ndìtská literatura, v prvním\nposchodí je beletrie, v\ndruhém je vìdecká a\nvzdìlávací literatura a ve\ntøetím jsou historické knihy.\nV nejvy¹¹ích patrech jsou\nstaré a je¹tì neprobádané\nknihy.\n
-RES_01_36
-Starý dùm. V podloubí je\nhospoda, kam chodí mladí z\ncelého mìsta. Mo¾ná proto\nse nahoøe tak ¹patnì bydlí,\nmladí dìlají v noci stra¹ný\nnepoøádek.\n\n
 RES_01_37
 Starý náro¾ní dùm. V pøízemí\njsou obchody a v ostatních\npatrech se bydlí. V bytech\njsou velmi vysoké stropy a\nokna jsou velká, tak¾e to\nv¹e pùsobí velmi prostornì.\n\n
 RES_01_38
-Dùm, ve kterém mìstská\nradnice ubytovává své\npracovníky, kteøí se kvùli\npráci museli pøistìhovat do\nmìsta.\n\n\n
+Dùm, ve kterém mìstská\nradnice ubytovává své\npracovníky, kteøí se kvùli\npráci museli pøistìhovat do\nmìsta.\n\n
 RES_01_39
 Toto se tváøí jako velmi\nluxusní obchod s kuøáckým\npøíslu¹enstvím. Mù¾ete si tu\nkoupit doutníky, dýmky\natd., ale pokud znáte\nsprávné heslo, mù¾ete jít\ndo zadní místnosti a tam je\nteprve to pravé kuøivo.\n
 RES_01_41
 Náro¾ní dùm. V pøízemí sídlí\ncestovní kanceláø, v\nostatních patrech jsou\nnájemníci. Zvenèí vypadá\nbudova moc pìknì, je\nzrekonstruovaná, ale\npotøebovala by rekonstrukci\ni vevnitø, hlavnì\nderatizaci...\n
-RES_01_42
-Tohle býval kdysi nejvy¹¹í\ndùm ve mìstì, ale potom\npøi¹la doba panelákù a\nmrakodrapù...\n\n\n\n
 RES_01_45
 Byty v tomto domì jsou\nèerstvì zrekonstruované.\nV¹ichni radní mají po svém\nzvolení nárok bydlet v\ndomech jako je tenhle.\nByty jsou velké a\nprostorné.\n
 RES_01_46
 Dùm s luxusními byty. Bydlí\ntady ti bohat¹í z mìsta.\nNìkteøí tu sice mají\nkoupené byty, ale ani\nnebydlí v tomto mìstì.\nBydlí tu jen kdy¾ pøijedou\nna pár dní.\n
 RES_01_49
-Dùm, ve kterém mìstská\nradnice ubytovává své\npracovníky, kteøí se kvùli\npráci museli pøistìhovat do\nmìsta.\n\n\n
+Dùm, ve kterém mìstská\nradnice ubytovává své\npracovníky, kteøí se kvùli\npráci museli pøistìhovat do\nmìsta.\n\n
 RES_01_50
-Veliký, ale laciný hotel.\n\n\n\n\n\n\n
+Veliký, ale laciný hotel.\n\n
 RES_01_60
-Socha Bo¾eny Nìmcové,\nkterá nám dala tolik\nkrásných knih o starých\ndobách.\n\n\n\n
+Socha Bo¾eny Nìmcové,\nkterá nám dala tolik\nkrásných knih o starých\ndobách.\n\n
 RES_02_03
-Malý dùm. Bydlí v nìm ale\nvelmi líný majitel. Trávu na\ndvorku neposekal, u¾ to\nbude dobrých pár mìsícù.\n\n\n\n
+Malý dùm. Bydlí v nìm ale\nvelmi líný majitel. Trávu na\ndvorku neposekal, u¾ to\nbude dobrých pár mìsícù.\n\n
 RES_02_04
 Tenhle typ malých domù\nnajdete hlavnì na\npøedmìstích. Zahrádka je\njednoduchá ale moc pìkná,\nèasto tam najdete dìti jak\nsi hrají. Nejsou to bohatí,\nco tu bydlí, ale i malý dùm\nmu¾e být hrad.\n
 RES_02_05
-Dva malé domky. Není v\nnich moc místa, ale jsou\nvelmi útulné. Jsou spí¹ pro\nsamotáøe, ne¾ pro rodinu s\ndìtmi.\n\n\n
+Dva malé domky. Není v\nnich moc místa, ale jsou\nvelmi útulné. Jsou spí¹ pro\nsamotáøe, ne¾ pro rodinu s\ndìtmi.\n\n
 RES_02_09
 Moc pìkný domek. Je velmi\nprosvìtlený, v ka¾dé zdi je\nnìkolik oken a kdyby\nnebyly stìny mezi pokoji,\nani by nebylo kam dát\nobrazy.\n\n
 RES_02_10
@@ -1165,7 +1067,7 @@ Zvlá¹tní støecha, ¾e jo? Je\nto obyèejná plechová\nstøecha, jenom má\nspeciální 
 RES_02_13
 Místní hotel. Má deset\npokojù na ubytování, v\nka¾dém je televize a\npøipojení k internetu. ®ádný\nvelký luxus, ale je to\npohodlné ubytování, kdy¾\njste na pár dní ve mìstì.\n
 RES_02_14
-Domov dùchodcù. Tenhle je\ntro¹ku luxusnìj¹í, ka¾dý\nobyvatel má svého\nasistenta, svùj pokoj, ve\nkterém má televizi.\n\n\n
+Domov dùchodcù. Tenhle je\ntro¹ku luxusnìj¹í, ka¾dý\nobyvatel má svého\nasistenta, svùj pokoj, ve\nkterém má televizi.\n\n
 RES_02_15
 Døevìný dùm. Byt nahoøe je\nk pronajmutí. Byt dole patøí\nmajiteli. Døíve nahoøe\nbydlela maminka majitele,\nale po její smrti se rozhodl\nbyt pronajmout.\n\n
 RES_02_16
@@ -1173,7 +1075,7 @@ V tomto hotelu se sna¾í\nvyvolat atmosféru, ¾e jste\nv Alpách. V ¹est ráno\nusly
 RES_02_17
 V tomhle domì sídlí místí\ncharitativní organizace.\nDole jsou kanceláøe pro\nveøejnost, v prvním patøe\njsou ostatní kanceláøe.\nnahoøe v podkroví jsou\nobrovské hromady papíru...\n
 RES_02_18
-Ani se neptejte kdo tady\nbydlí a buïte rádi, ¾e\nnejsou vùbec vidìt.\n\n\n\n\n
+Ani se neptejte kdo tady\nbydlí a buïte rádi, ¾e\nnejsou vùbec vidìt.\n\n
 RES_02_19
 Mìstské byty. Bydlí tu\nvìt¹inou lidi z ni¾¹ích\nsociálních sfér, ale jen ti,\nkteøí se o své byty starají,\nmìstská radnice si o svých\nbudoucích nájemnících\nzjistila co ¹lo, aby se\nnestalo, ¾e nezodpovìdní\nnájemníci své byty znièí.\n
 RES_02_20
@@ -1199,15 +1101,15 @@ Pùvodnì stály ètyøi\ntakovéhle chatièky na\njednom pozemku. Bydleli v\nnich ètyø
 RES_03_09
 Jedna chatièka je na\nprodej. Zbylé tøi rodiny se k\nsobì chovají moc hezky a\nhroznì se bojí, ¾e do\nneobydlenou chatièku koupí\nnìjaký neurvalec a naru¹í\njim jejich pohodu.\n
 RES_03_10
-Tady se ráda shroma¾ïují\ndìcka z celého okolí. Paní\ndomácí pro nì má v¾dycky\núsmìv a nìco dobrého. Ale\npova¾te ten ryk a hluk.\n\n\n
+Tady se ráda shroma¾ïují\ndìcka z celého okolí. Paní\ndomácí pro nì má v¾dycky\núsmìv a nìco dobrého. Ale\npova¾te ten ryk a hluk.\n\n
 RES_03_13
 Ty dva stromky na\nzahrádce jsou jako\nstvoøené pro houpací sí».\nNo øeknìte, hezky se veèer\nnatáhnout a koukat na\nnebe, není to paráda? Co\nkdyby je¹tì nìkdo pøinesl\npivo...?\n
 RES_03_14
-Místní penzion. Výborné\nmísto na ubytování. Je tu\nlevnì, dobøe vaøí a v okolí\nje tolik míst kam si mù¾ete\nvyjet tøeba na kole...\n\n\n
+Místní penzion. Výborné\nmísto na ubytování. Je tu\nlevnì, dobøe vaøí a v okolí\nje tolik míst kam si mù¾ete\nvyjet tøeba na kole...\n\n
 RES_03_15
 Cihlový dùm v londýnském\nstylu. Do mìsta se\npøistìhoval jeden\nlondýnský architekt a\nzaèala mu chybìt anglická\narchitektura, tak zaèal\nnavrhovat domy, které znal\nze svého rodi¹tì.\n
 RES_03_16
-Místní rodinný hotýlek. Je\ntu útulno, ka¾dý se sem rád\nvrací. Mají tu milý personál\ndobøe vaøí a k tomu jsou\nlevní.\n\n\n
+Místní rodinný hotýlek. Je\ntu útulno, ka¾dý se sem rád\nvrací. Mají tu milý personál\ndobøe vaøí a k tomu jsou\nlevní.\n\n
 RES_03_18
 Pøekrásný venkovský dùm\npostavený jedním ze\nslavných moøeplavcù\nJasenatovysem\nAntarktisem, který se po\nsvém návratu z ji¾ních moøí\nnav¾dy zøekl lodí a zalo¾il\nspoleènost zabývající se\npøestavbou pramic na\npovozy. \n
 RES_03_19
@@ -1220,14 +1122,12 @@ RES_03_27
 Majitel tìchto apartmánù je\nmístní politik. A co se stane\nkdy¾ majitel zjistí, ¾e ho\nnevolili? Zvedne jim nájem.\nSám je ve stranì, která\nprosazuje deregulaci\nnájmù, ta¾e v dùsledku je\nnájemníkùm jedno jestli ho\nvolili nebo ne.\n
 RES_03_31
 Starý obytný dùm.\nKdybyste se náhodou divili,\nco je to ¾luté dole u domu,\ntak to je telefonní budka,\nve mìstì u¾ jich není moc\nk vidìní, ka¾dý má svùj\nmobil. Kdo by také pou¾íval\nstaré nemobilní telefony,\nkdy¾ je volání dra¾¹í a\nslu¾by hor¹í.\n
-RES_03_32
-Nájemní domy. Vlastní je\nmìsto a pronajímá je\nchud¹ím lidem. Ne¾ije se v\nnich toti¾ moc pohodlnì a\nvevnitø v domech je\npomìrnì nepoøádek...\n\n
 RES_03_33
 Místní organizace\n"Osobnosti historie" se\nsna¾í zviditelnit  nìkteré,\npodle nich nedocenìné,\njedince Simusvìta. Proto\nstaví podobné pomníky,\núspìch mají pøedev¹ím u\nnejèastìj¹ích náv¹tìvníkù\nparkù - holubù.\n
 RES_03_34
 Nízkonákladový dùm. Místo\nvýtahu je zde toèité\nschodi¹tì, v domì je jedna\nspoleèná místnost se\nsatelitní televizí. Mladí a\nalternativní jsou s tímto\nbydlením spokojeni, kdo\nspìchá ráno do práce,\nspustí si z okna lano. A co\nmajitel øíká na\nbezpeènostní pøedpisy? \nJa nerosumìt, mlufi¹\npomaleji...\n
 RES_03_38
-A¾ topoly v tomhle parku\nvyrostou, bude tu pìkný\nstín a v okolí busty T.G.M.\nbude pøíjemné posezení.\n\n\n\n
+A¾ topoly v tomhle parku\nvyrostou, bude tu pìkný\nstín a v okolí busty T.G.M.\nbude pøíjemné posezení.\n\n
 RES_03_39
 Místní organizace\n"Osobnosti historie" se\nsna¾í zviditelnit nìkteré,\npodle nich nedocenìné,\njedince Simusvìta. Tato\njezdecká socha je\nneznámý hrdina, který\nodvrátil invazi veverek a\nkrys. Fontánka je plná\nmincí, které sem naházeli\nturisté.\n
 RES_04_20
@@ -1245,21 +1145,17 @@ RES_05_05
 RES_05_06
 Tohle jsou víc kasárna ne¾\ndùm. Ale kdy¾ máte "malou\narmádu" pak je to OK. Dìti\nsice mají jen jednu velkou\nmístnost na spaní, ale to\njim moc nevadí, hlavnì\nkdy¾ z ní vidí na kamarády z\ndomu pøes ulici a mù¾ou na\nsebe poøvávat.\n
 RES_05_07
-Velmi prostorný dùm pro\njednu rodinu. Dìlají se v\nnìm výborné párty, známé\npo celém mìstì.\n\n\n\n
-RES_05_08
-Dùm pro rodinu do ¹esti lidí\ns velkou zahradou. V prvním\npatøe jsou lo¾nice, dole je\nkuchyò, koupelna, obývák...\n\n\n\n
+Velmi prostorný dùm pro\njednu rodinu. Dìlají se v\nnìm výborné párty, známé\npo celém mìstì.\n\n
 RES_05_09
-Dùm pro vìt¹í rodinu.\nTypický bungalov -\npozemky jsou levné, tak\nproè stavìt nìkolik pater?\n\n\n\n
-RES_05_10
-Trojdomek. V ka¾dém ze tøí\nbytù mù¾e ¾ít jedna rodina.\nNejsou to velké byty, ale\njsou moc útulné.\n\n\n\n
+Dùm pro vìt¹í rodinu.\nTypický bungalov -\npozemky jsou levné, tak\nproè stavìt nìkolik pater?\n\n
 RES_05_11
 Malý rybník. Je to projekt\nmìstské radnice, kterým se\nsna¾í poskytnout obèanùm\nmísto na odpoèinek. Do\nrybníka vysadili nìkolik\nstovek ryb.\n\n
 RES_05_12
-Dùm s gará¾í. To je\npraktické, a kdy¾ se rodina\nrozroste víc ne¾ se èekalo,\ntak se gará¾ pøedìlá na\ndal¹í pokoj.\n\n\n
+Dùm s gará¾í. To je\npraktické, a kdy¾ se rodina\nrozroste víc ne¾ se èekalo,\ntak se gará¾ pøedìlá na\ndal¹í pokoj.\n\n
 RES_05_13
 Motel - pøespávají tu lidé,\nkteøí jsou ve mìstì jen na\nnoc nebo dvì. Pokoje moc\nvybavené nejsou, v\nka¾dém je postel, skøíò a\ntelevize.\n\n
 RES_05_14
-Velký rodinný dùm. Je\ndøevìný a kdy¾ je opravdu\nzima, tak se jen tì¾ko\nvytápí. Majitel jistì\npøemý¹lí jak jej zateplit.\n\n\n
+Velký rodinný dùm. Je\ndøevìný a kdy¾ je opravdu\nzima, tak se jen tì¾ko\nvytápí. Majitel jistì\npøemý¹lí jak jej zateplit.\n\n
 RES_05_15
 Tesaø Tøíska se jednou v\nhospodì vsadil a prohrál. A\ntak si musel postavit nový\ndomeèek. Ze solidarity mu\npomáhali je¹tì jeho\nkamarádi pokrývaè Do¹ka a\ninstalatér Trubka.\n
 RES_05_16
@@ -1271,11 +1167,11 @@ Byty pro støednì velké\nrodiny se støednì velkými\npøíjmy. Velmi prosvìtlené\nby
 RES_05_19
 Internát místní\nmatematické základní ¹koly.\nJe to vyhlá¹ená ¹kola v\ncelé zemi a vze¹lo z ní\nmnoho slavných vìdcù,\nproto jsou studenti ochotni\ndojí¾dìt i z velké dálky.\nVíte, ¾e rozmìr dvora je\npøesnì dvì pí kvadrát\nmetrù?\n
 RES_05_20
-Hodnì velký dùm. V ka¾dém\npatøe je jeden byt. Velký\nzájem je hlavnì o dva\nmen¹í podkrovní byty.\n\n\n\n
+Hodnì velký dùm. V ka¾dém\npatøe je jeden byt. Velký\nzájem je hlavnì o dva\nmen¹í podkrovní byty.\n\n
 RES_05_21
 Obecní byty. Nájemné je\nvelmi levné, ale moc dobøe\nse tu ne¾ije, je tu ¹pinavo\na lidé se o dùm moc\nnestarají. ©tìkot psa o\npatro ní¾, køièící dìcka od\nsousedù - kupte si ¹punty\ndo u¹í nebo zabu¹te na\nstìnu.\n
 RES_05_22
-Kombinovaný dùm, dole je\nvelká posilovna a bazén.\nNahoøe jsou dva rozlehlé\nbyty, které vlastní místní\nelita.\n\n\n
+Kombinovaný dùm, dole je\nvelká posilovna a bazén.\nNahoøe jsou dva rozlehlé\nbyty, které vlastní místní\nelita.\n\n
 RES_05_24
 Tyhle øadové domky\ndùvìrnì znáte z na¹ich\nmìst: horní dvì patra jsou\nobytná, ve spodních jsou\nobchody. Na rohu prodávají\nkola, vlevo je bytový textil,\nvpravo èínská restaurace\nTchien-an-men. Kolik z nás\nvyrostlo v podobných\nmìsteèkách?\n
 RES_05_25
@@ -1283,19 +1179,19 @@ Nový bytový dùm. Postavili\njej teprve nedávno, ale u¾\nje a¾ na pár bytù\nrozpr
 RES_05_27
 Ve ètvrtém patøe bydlí\nslavný herec, který\npropùjèil svùj hlas jedné z\npostavièek Teletubbies.\nNepøeje si být jmenován,\nproto¾e se bojí anonymních\ntelefonátù. \n
 RES_05_28
-Tento novì opravený\nèin¾áèek je velmi útulným\nmístem. Byty sice nejsou\nmoc veliké, ale pøíjemnì se\nv nich ¾ije.\n\n\n
+Tento novì opravený\nèin¾áèek je velmi útulným\nmístem. Byty sice nejsou\nmoc veliké, ale pøíjemnì se\nv nich ¾ije.\n\n
 RES_05_30
 Kdyby vám pøi¹lo divné, ¾e\nu tohoto domu najdete\nvýlohy i v druhém patøe,\nvìøte ¾e nejste sami. Ale je\nto rozhodnì originální\nøe¹ení, které mù¾e pøilákat\n... tøeba okolojedoucí\ncestující v dvoupatrových\nautobusech. \n
 RES_06_01
-Tuto budovu najdete\nnejèastìji v nejchud¹ích\nèástech mìsta. ®ijí v ní lidé\ns velmi nízkým nebo témìø\n¾ádným pøíjmem.\n\n\n
+Tuto budovu najdete\nnejèastìji v nejchud¹ích\nèástech mìsta. ®ijí v ní lidé\ns velmi nízkým nebo témìø\n¾ádným pøíjmem.\n\n
 RES_06_02
-Malý domek pro jednoho\nèlovìka. Ne¾ije se tu\n¹patnì, neotravují vás\nsousedi, máte tu klid, ale\npro dva lidi je to moc malé.\n\n\n
+Malý domek pro jednoho\nèlovìka. Ne¾ije se tu\n¹patnì, neotravují vás\nsousedi, máte tu klid, ale\npro dva lidi je to moc malé.\n\n
 RES_06_03
 To, ¾e je tenhle dùm skoro\nstejnì velký jako jeho\ngará¾, vùbec nevadí. Má\nvelkou terasu, na které\nmù¾ete sedìt klidnì celý\nrok a pozorovat lidi jak\nprocházejí kolem.\n
 RES_06_04
 Malý domek. Perfektnì se\nhodí pro pár lidí v\ndùchodovém vìku. Mo¾ná,\n¾e se rozhodnou prodat\nauto a zbourat gará¾, místo\nní by mohla být pìkná\nzahrádka.\n
 RES_06_05
-Dva malé domky pro lidi co\n¾ijí sami a bez dìtí.\n\n\n\n\n\n
+Dva malé domky pro lidi co\n¾ijí sami a bez dìtí.\n\n
 RES_06_06
 V tomhle domì jsou dva\nmalé byty. Obìma patøí èást\nzadního dvora. Problémy\nnastanou kdy¾ rodina vlevo\nsi poøídí psa a rodina\nvpravo koèku.\n\n
 RES_06_07
@@ -1309,7 +1205,7 @@ Tenhle rodinný dùm mìl\npùvodnì je¹tì gará¾, ale\npak si majitel øekl, ¾e si z n
 RES_06_11
 Malý rybník. Je to projekt\nmìstské radnice, kterým se\nsna¾í poskytnout obèanùm\nmísto na odpoèinek. Do\nrybníka vysadili nìkolik\nstovek ryb. \n\nA jednu chobotnici, proti\nvandalùm. Ale p¹¹t. \n
 RES_06_12
-Rodinný dùm. Má moc\npìknou zahrádku, to dá asi\nhodnì práce, poøád kleèet\nv hlínì a okopávat zeleninu.\n\n\n\n
+Rodinný dùm. Má moc\npìknou zahrádku, to dá asi\nhodnì práce, poøád kleèet\nv hlínì a okopávat zeleninu.\n\n
 RES_06_13
 Dùm místního boháèe.\nVìt¹ina lidí si o nìm myslí\nsvé a nebaví se s ním.\nMajitel domu si toti¾ myslí,\n¾e kdy¾ má peníze mù¾e\nv¹echno... jako tøeba\noblo¾it stìny zelenými\nkachlièkami. \n
 RES_06_14
@@ -1319,9 +1215,9 @@ Budoucí domov jednoho\nanglického lorda. Jeho\njméno by se dalo velmi\nvolnì pøe
 RES_06_16
 Stavba domu. Staví se tu\nrodinný dùm, v men¹í èásti\nbude mo¾ná bydlet i\nbabièka, ale to se je¹tì\nneví, mo¾ná ¾e bude lep¹í\nnechat babièku na venkovì\na byt dole pronajmout...\n
 RES_06_17
-Starý kamenný dùm. Dole\njsou kanceláøe rodinné\nfirmy a i tak je ve druhém\npatøe dost místa pro tøi\ngenerace podnikatelù.\n\n\n
+Starý kamenný dùm. Dole\njsou kanceláøe rodinné\nfirmy a i tak je ve druhém\npatøe dost místa pro tøi\ngenerace podnikatelù.\n\n
 RES_06_18
-Dùm se tøemi malými byty.\nRodina se sem jen tì¾ko\nvejde, jsou spí¹ pro nìjaké\nsamotáøe.\n\n\n\n
+Dùm se tøemi malými byty.\nRodina se sem jen tì¾ko\nvejde, jsou spí¹ pro nìjaké\nsamotáøe.\n\n
 RES_06_19
 Tento obytný dùm byl\npøestavìn na luxusní\nkliniku. Døíve v nìm byly\nmalé byty, ale pøedstavte\nsi, ¾e to co vám pøijde jako\nmalý byt se najednou\nstane privátním\nnemocnièním pokojem. O\ntom jste ani nesnili.\nPacienti si libují, ¾e vláda\nkoneènì zprivatizovala\nzdravotnictví. \nA tu O Èervené karkulce\nznáte taky?\n
 RES_06_21
@@ -1337,9 +1233,9 @@ Pøíjemné bydlení v centru\npro ty, kteøí chtìjí to\nnejlep¹í za svoje peníze.\nN
 RES_06_30
 Zas jeden z pohotových\nnápadù architekta,\npojmenovat obchodní dùm\n"OBCHOD" je vskutku nìco\nnevídaného. Kdyby jeho\n¹éfa pøi tom, kdy¾ to\nsly¹el, netrefil infarkt,\nurèitì by to vetoval a\nnavrhl nìco jiného. Na\ndruhou stranu slu¾by\nObchodu jsou opravdu na\nvysoké úrovni, kdy¾ tady\nnìco není a vy to sháníte,\nprodavaè mrkne do poèítaèe a\nobjedná zbo¾í z sesterského\nobchodu. Vy ho jednodu¹e\nzaplatíte a oni vám ho dodají\npøímo domù.\n
 RES_06_31
-Hotelový dùm. Nahoøe jsou\napartmány a dole je\nspoleèenská místnost a\nvstupní hala. V podzemí je\nje¹tì fitcentrum.\n\n\n
+Hotelový dùm. Nahoøe jsou\napartmány a dole je\nspoleèenská místnost a\nvstupní hala. V podzemí je\nje¹tì fitcentrum.\n\n
 RES_06_32
-Hotelový dùm. Nahoøe jsou\napartmány a dole je\nspoleèenská místnost a\nvstupní hala. V podzemí je\nje¹tì fitcentrum.\n\n\n
+Hotelový dùm. Nahoøe jsou\napartmány a dole je\nspoleèenská místnost a\nvstupní hala. V podzemí je\nje¹tì fitcentrum.\n\n
 RES_06_33
 Toto je relativnì nový\nèin¾ák. Postavilo ho mìsto,\ntak¾e je v nìm velmi\npøijatelné nájemné.\nZanechte si zajít chut na\nto, ¾e na vás vyjde øada!\nReklama na s poskakující\nplechovkou Colalocy loni\nvyhrála marketingovou\nsoutì¾ "Oblbovák roku".\n
 RES_06_34
@@ -1361,7 +1257,7 @@ Tento èin¾ák má skuteènì\nstøechu z vlnitého plechu.\nStará ulétla pøi jedné vìt
 RES_06_43
 Masivní vì¾ák ze skla a\ncihel. Uvnitø najdete dvì\nvýtahové ¹achty a\npravdìpodobnì i jeden\nfungující výtah. Svìtlo na\ncentrálním schodi¹ti\nvìt¹inou nefunguje,\nstupaèky ve stìnách kvílí a\npøi bouøce je tyè\nhromosvodu velmi èastým\ncílem. Mo¾ná byste na¹li\nlep¹í byt, ale tohle je dùm\ns bohatou historií - úèinkoval u¾\nv mnoha hororech.\n
 RES_06_44
-V tomhle domì jsou docela\nluxusní byty. Jsou pomìrnì\ndrahé, ale uvnitø je\nv¹echno nové a ¾ije se tu\nmoc dobøe.\n\n\n
+V tomhle domì jsou docela\nluxusní byty. Jsou pomìrnì\ndrahé, ale uvnitø je\nv¹echno nové a ¾ije se tu\nmoc dobøe.\n\n
 RES_06_48
 Nový dùm s byty. Bydlí v\nnìm spousta rodin,\nvìt¹inou s dìtmi. Stát\npøispívá rodinám s dìtmi na\nbydlení v tomto domì,\ntak¾e není moc drahé.\n\n
 RES_06_52
@@ -1373,7 +1269,7 @@ Star¹í panelák. Je tu\nstandardní bydlení,\nv¹echno se dá pøe¾ít a¾ na\nnesnesit
 RES_06_55
 Nová vý¹ková budova s\nbyty dost velkými aby v\nnich mohla bydlet i\nètyøèlenná rodina. V tomhle\ndomì si snad ani není na\nco si stì¾ovat, stìny jsou\nsilné, výtahy jezdí poøád a\nv zimì je tam pìknì teplo.\n
 RES_06_56
-Tento modernìj¹í panelák\nje docela pohodlným\nmístem k ¾ivotu. Netrpí toti¾\nvìt¹inou problémù jeho\nbratøíèkù.\n\n\n
+Tento modernìj¹í panelák\nje docela pohodlným\nmístem k ¾ivotu. Netrpí toti¾\nvìt¹inou problémù jeho\nbratøíèkù.\n\n
 RES_06_57
 Star¹í mrakodrap. Bydlení v\nnìm není pøíli¹ pøíjemné. V\nzimì stìny moc netìsní a\nje potøeba hodnì topit,\nvýtahy vìènì nefungují a\nnìkdy ani neteèe voda...\n\n
 RES_06_60
@@ -1381,11 +1277,11 @@ Star¹í vý¹ková budova. I\nkdy¾ vypadá relativnì\nfe¹ácky a je to nejvy¹¹í\ndùm v
 RES_07_01
 Døíve to byl pøívìs, ale\nmajitel ho nìjak upevnil k\nzemi a udìlal tomu lep¹í\nstøechu, je to lep¹í ne¾ nic.\nSnad se¾ene brzy dost\npenìz aby se mohl\npøestìhovat do nìjakého\nbytu.\n
 RES_07_02
-Malinký domek. Má nízké\nstropy a cítíte se v nìm\nvelmi stísnìnì, ale kdy¾ na\njiný dùm nebo byt nemáte,\nmusí vám to staèit.\n\n\n
+Malinký domek. Má nízké\nstropy a cítíte se v nìm\nvelmi stísnìnì, ale kdy¾ na\njiný dùm nebo byt nemáte,\nmusí vám to staèit.\n\n
 RES_07_03
-Tento malý dùm mù¾e být\npìkným domovem pro pár v\ndùchodu. Mohou v klidu a\nve stínu stromu odpoèívat\na sledovat ryby v rybníce.\n\n\n
+Tento malý dùm mù¾e být\npìkným domovem pro pár v\ndùchodu. Mohou v klidu a\nve stínu stromu odpoèívat\na sledovat ryby v rybníce.\n\n
 RES_07_04
-Tohle je malý dùm s malou\ngará¾í pro malé auto. Je to\nale trochu nedomy¹lené:\nkdo by tímhle jel do práce?\n\n\n\n
+Tohle je malý dùm s malou\ngará¾í pro malé auto. Je to\nale trochu nedomy¹lené:\nkdo by tímhle jel do práce?\n\n
 RES_07_05
 V jednoduchosti je síla. V\ntohoto domku jsou tøi\nmístnosti, oddìlené jen\ntenouèkými stìnami. Vlastní\nzdi domu jsou taky pìknì\ntenké, ale ¾ít se v tom dá.\nNavíc má poøádnou anténu\npro poøádnou televizi.\n
 RES_07_06
@@ -1395,7 +1291,7 @@ Rodièe dvojèat se rozhodli\npozemek rozdìlit na stejné\ndíly a darovat je dìtem.
 RES_07_08
 Rodinný dùm s velkou\ngará¾í. Majitel je\nautomechanik na vlastní\nnoze a tak je rád ¾e mù¾e\nráno vstát a jít jen pár\nkrokù k sobì do gará¾e, kde\nkromì obìda dìlá a¾ do\nveèera - baví ho to.\n
 RES_07_09
-Zavilý fanou¹ek pana\nBeana si koupil jeho\nroztomilé malé autíèko.\nNetu¹il, ¾e se jednou stane\ntak populární.\n\n\n
+Zavilý fanou¹ek pana\nBeana si koupil jeho\nroztomilé malé autíèko.\nNetu¹il, ¾e se jednou stane\ntak populární.\n\n
 RES_07_10
 Rodinný domek. Majitel\nchtìl mít i gará¾, ale\nnakonec si postavil o\nmístnost víc, aby se dìti\nnemusely tísnit v jedné\nmístnosti.\n\n
 RES_07_12
@@ -1405,13 +1301,13 @@ Nenápadný domeèek\nnejvìt¹ího kriminálníka\nSimutransu. Vykrádá vlaky\nna nádra¾
 RES_07_14
 Ubytovna pro studenty. V\nprvním domì je hospoda,\nkde se podávají snídanì a\nveèeøe, ale pøes den je\npøístupná i veøejnosti a\nmù¾ete si zajít na pivo.\n\n
 RES_07_15
-Tady bydlí známá genetická\nvìdkynì a její man¾el,\nspolu s nimi také jejich\nètyøi naklonovaní psi.\n\n\n\n
+Tady bydlí známá genetická\nvìdkynì a její man¾el,\nspolu s nimi také jejich\nètyøi naklonovaní psi.\n\n
 RES_07_16
 Domov dùchodcù. Není to tu\n¾ádný luxus, ale staøí lidé,\nkteøí se u¾ o sebe nemohou\npostarat jsou za toto místo\nrádi. Navíc nejsou sami, ale\nka¾dý tu má spoustu pøátel\n\n
 RES_07_17
-Starý kamenný dùm. Dole\njsou kanceláøe jedné firmy.\nnahoøe jsou dva byty pro\ndvì men¹í rodiny.\n\n\n\n
+Starý kamenný dùm. Dole\njsou kanceláøe jedné firmy.\nnahoøe jsou dva byty pro\ndvì men¹í rodiny.\n\n
 RES_07_18
-Toto je úplnì obyèejný\nrodinný dùm. Od ostatních\nse li¹í snad jedinì svojí\nnevzhledností.\n\n\n\n
+Toto je úplnì obyèejný\nrodinný dùm. Od ostatních\nse li¹í snad jedinì svojí\nnevzhledností.\n\n
 RES_07_19
 Vila èistièe stok. Èlovìk by\nnevìøil, co v¹echno se v\nkanále nenajde. A ¾e z\núplného mála se dá\npostavit tak velký dùm. V\nrohu zahrady stojí cvièná\nlatrína.\n
 RES_07_21
@@ -1437,7 +1333,7 @@ Bývalý majitel banánové\nplantá¾e si nechal dùm\nrozebrat a pøesunout do\nmìsta.
 RES_08_16
 Dùm prodavaèe zeber. ®e\nokolo domu nevidíte ¾ádnou\nzebru? No vidíte, jak je\ndobrý obchodník! V\npøístøe¹ku jsou uskladnìné\nbarvy.\n\n
 RES_08_17
-Starý kamenný dùm. Dole\nsídlí men¹í firma. Nahoøe je\nvelký a prostorný byt pro\njednu vet¹í rodinu.\n\n\n\n
+Starý kamenný dùm. Dole\nsídlí men¹í firma. Nahoøe je\nvelký a prostorný byt pro\njednu vet¹í rodinu.\n\n
 RES_08_18
 Pán, který tu ¾ije je\nchronický zapomnìtlivec.\nMístní zámeèník si k nìmu\nnainstaloval pøímou linku a\nzva¾uje dokonce zøízení\nsvé poboèky v jedné\npøízemní místnosti.\n
 RES_08_21
@@ -1451,35 +1347,27 @@ Kdy¾ mìsto zadávalo\nzakázku, po¾adavky na\nvítìzný projekt byly: co\nnejvíc náj
 RES_08_36
 Tato budova je pøehlídkou\nmy¹lenkové sterility\narchitekta mìstské\nstavební firmy. Funkènì\nnení nijak ¹patná,\nposkytuje docela pohodlné,\nenergeticky úsporné\nbydlení, ale vypadá tak\nhroznì obyèejnì.\n
 RES_08_43
-Obyèejné byty. Normálnìj¹í\nu¾ to být nemù¾e. Nic není\nzvlá¹tního na tomto domì.\n\n\n\n\n
+Obyèejné byty. Normálnìj¹í\nu¾ to být nemù¾e. Nic není\nzvlá¹tního na tomto domì.\n\n
 RES_09_35
-V tomto domì nikdy\nnefunguje výtah.\nTo je dùvod, proè zde ste¾í\nzahlédne¹ staré lidi.\n\n\n\n
+V tomto domì nikdy\nnefunguje výtah.\nTo je dùvod, proè zde ste¾í\nzahlédne¹ staré lidi.\n\n
 RES_10_01
 Pomìrnì chudì vypadající\nparèík je ve skuteènosti\nprojekt ocenìný nejvy¹¹í\ncenou. Architekt byl poslán\nza hranice Simutransu, aby\ntam ¾il spokojený a dlouhý\n¾ivot na vlastní náklady.\n
 RES_10_02
 Pìkný malý dùm. Toto je\nten druh domu, který vidíte,\nkdy¾ projí¾díte pøedmìstími\nVa¹eho mìsta. I kdy¾ je\nauto skoro v¾dy v gará¾i,\nnikdy nikoho v okolí domu\nneuvidíte.\n
 RES_10_03
 Tohle je zvlá¹tní druh\nmoderní architektury. Nìkdo\nzapomnìl postavit okna do\npøední èásti, tak¾e by si\nnìkdo mohl myslet, ¾e je to\nnìco jako sklad, ale\nkvìtiny vzadu øíkají nìco\njiného.\n
-RES_10_04
-Tenhle dùm se perfektnì\nhodí nìjakému bohatému\nchlápkovi, který ¾ije sám.\n®ádná velká zahrádka, o\nkterou by se musel starat,\nnavíc má bazén u kterého\nse dají dìlat párty...\n
 RES_10_05
-Tyhle døevìné domy jsou\ndobrou mo¾ností pro ty\nchud¹í, kteøí nechtìjí\nzùstat v pøívìsu.\n\n\n\n
-RES_10_06
-Tohle je jen velká støecha\nbez domu obklopená lesními\nstromy. Staví je ekologiètí\nblázni, chtìjí být obklopeni\npøírodou, ale líbí se jim ve\nmìstì, se v¹emi tìmi\nslu¾bami. Jenom¾e nemìli\npeníze na dùm tak postavili\njen støechu.\n
-RES_10_07
-Dùm pro lidi s tro¹ku vy¹¹ím\nstandardem. V¹echno je\nmoderní a stylové. Velký\nbar i velká kuchyò jsou\nèástí domu.\n\n\n
+Tyhle døevìné domy jsou\ndobrou mo¾ností pro ty\nchud¹í, kteøí nechtìjí\nzùstat v pøívìsu.\n\n
 RES_10_08
-Støednì velký dùm pro\nstøednì velkou rodinu se\npsem. Terasa si øíká o to,\naby tam nìkdo dal houpací\nkøeslo.\n\n\n
+Støednì velký dùm pro\nstøednì velkou rodinu se\npsem. Terasa si øíká o to,\naby tam nìkdo dal houpací\nkøeslo.\n\n
 RES_10_09
-Tenhle dùm je z pøírodního\nkamene. Je dobøe izolovaný\na nepou¹tí ven témìø\n¾ádnou energii.\n\n\n\n
+Tenhle dùm je z pøírodního\nkamene. Je dobøe izolovaný\na nepou¹tí ven témìø\n¾ádnou energii.\n\n
 RES_10_10
-Døevem obkládaný dùm.\nMù¾e tu ¾ít nìkdo, kdo u¾\nmá dost své minulosti a\nchce se vìnovat zahrádce\na tøeba kutilství.\n\n\n
+Døevem obkládaný dùm.\nMù¾e tu ¾ít nìkdo, kdo u¾\nmá dost své minulosti a\nchce se vìnovat zahrádce\na tøeba kutilství.\n\n
 RES_10_12
 V tomhle domku bydlí mladý\npár, je¹tì nemají dìti,\nzatím si u¾ívají ¾ivota. Mu¾\njezdí ka¾dý den do práce\ndo centra, kde dìlá v\njednom podniku\nprogramátora. ®ena pracuje\nna radnici jako sekretáøka.\nMají se dobøe, nic jim\nnechybí.\n
 RES_10_13
 V tomhle domì bydlí dva\nbratøi. Bydlí spolu od té\ndoby, co se oba\nodstìhovali od rodièù.\nTenhle byt jim vyhovuje, je\nvelký akorát pro nì a nemá\n¾ádnou velkou zahradu, o\nkterou je tøeba se poøád\nstarat.\n
-RES_10_14
-Zvlá¹tní druh architektury -\nty barvy, a k tomu je¹tì\ntráva na støe¹e! Ale jinak\njsou uvnitø velmi útulné\nbyty.\n\n\n
 RES_10_15
 Pùvodnì to byl malý\njednopatrový domeèek, ale\npo smrti pøedchozích\nmajitelù se nový rozhodl\npøistavìt je¹tì jedno patro\na teï tu bydlí dvì rodiny, v\nka¾dém patøe jedna.\n
 RES_10_16
@@ -1487,7 +1375,7 @@ Dùm starosty mìsta. Poøídil\nsi ho za pìkné peníze,\nobyvatelé mìsta si myslí,\n
 RES_10_17
 Kdy¾ si pan Vomáèka\nkoneènì naspoøil a zavázal\nse platit dal¹ích tøicet let\nhypotéku, øekl si, ¾e to co\nsi postaví nebude nìjaký\nobyèejný tuctový dùm...\n\n
 RES_10_18
-Moderní, kubistický dùm. Je\nprostorný a prozáøený\nsvìtlem, je v nìm jen\njeden byt a nahoøe je\nateliér.\n\n\n
+Moderní, kubistický dùm. Je\nprostorný a prozáøený\nsvìtlem, je v nìm jen\njeden byt a nahoøe je\nateliér.\n\n
 RES_10_19
 Moderní dùm. Velmi\nproslunìný dùm, nikde v\ndomì není temný kout. A\nkdy¾ je venku nádhernì,\nmù¾ete se opalovat na\nstøe¹e.\n\n
 RES_10_21
@@ -1497,13 +1385,13 @@ Tento dvoupodla¾ní dùm si\nnechal postavit Doktor\n"Dieta". Pùvodním\npovoláním 
 RES_10_24
 Pùvodnì to byl nemastný\nneslaný domek pro dvì\nrodiny. Kdy¾ se ale ta\nrodina nahoøe rozrostla,\npøipravil tatínek pro svojí\ndceru a zetì bizarní\nnástavbu.\n
 RES_10_25
-Dùm s byty - je jich tu 12.\nJsou to sice malé byty, ale\nlidi zde bydlí, proto¾e je\ndùm v centru a je odsud\nblízko snad v¹ude.\n\n\n
+Dùm s byty - je jich tu 12.\nJsou to sice malé byty, ale\nlidi zde bydlí, proto¾e je\ndùm v centru a je odsud\nblízko snad v¹ude.\n\n
 RES_10_26
 Starý panelák. Moc lidí tu\nbydlet nechce, byty jsou\nmalé a stísnìné, ale není tu\ntak draho a je to kousek do\ncentra za prací a do\nobchodù.\n\n
 RES_10_29
-Dùm s byty. Moderní\narchitektura se zajímavì\nmísí a kombinuje s rù¾ovou\nbarvou.\n\n\n\n
+Dùm s byty. Moderní\narchitektura se zajímavì\nmísí a kombinuje s rù¾ovou\nbarvou.\n\n
 RES_10_30
-Koleje místní univerzity.\nStudenti bydlí na pokojích\npo dvou nebo po tøech.\nSamozøejmostí je internet a\nklub dole v suterénu.\n\n\n
+Koleje místní univerzity.\nStudenti bydlí na pokojích\npo dvou nebo po tøech.\nSamozøejmostí je internet a\nklub dole v suterénu.\n\n
 RES_11_03
 Toto je celkem normální\ndomek. V¹ichni lidé jej ale\nmajiteli závidí. Koupil dùm\ntoti¾ neuvìøitelnì levnì. V\nSuperZnovì na nìj fikanì\nnalepil èárový kód z domku\npro panenky. Pokladní se\nsice divila, ¾e je dùm tak\nlevný, ale nakonec jej\nnamarkovala. Od té doby\nhotové domy v\nsupermarketu radìji\nneprodávají.\n
 RES_11_04
@@ -1515,13 +1403,11 @@ Døevìný dùm. Je ve mìstì\nod nepamìti, v¹ichni se\ndiví jakto¾e je¹tì poøád\nsto
 RES_11_09
 Mohlo by se zdát, ¾e je\ntenhle dùm velký, ale není\ntomu tak. Má velkou gará¾ a\nta zabere spoustu místa,\nnavíc má jen jedno patro, v\npodkroví není vùbec nic.\n\n
 RES_11_10
-Pokud nechcete bydlení\nøe¹it, mù¾ete si jej nechat\npostavit na klíè. Kdy¾ firmu\nnebudete hlídat, mù¾ete\npak skonèit v tomto.\n\n\n
+Pokud nechcete bydlení\nøe¹it, mù¾ete si jej nechat\npostavit na klíè. Kdy¾ firmu\nnebudete hlídat, mù¾ete\npak skonèit v tomto.\n\n
 RES_11_12
 Toto je úsvit nového vìku\nbydlení, kdy v¹echnu práci\nza èlovìka udìlají stroje a\njemu zbyde èas slunit se\nna zahrádce, popíjet\ncoctail a sledovat dìti\nhrající si na písku. Tyto dva\ndomky byly pøidìleny\nsériovým èíslùm C-241 a\nC-243 za nadstandartní\nvýkon.\n
 RES_11_13
 Kamenné oblo¾ení domku je\nz plastu. No vá¾nì! Kdy¾ si\nnemù¾ete dovolit pravý\nkámen, je tohle skvìlé\nøe¹ení. Bohu¾el, majitel\nzjevnì ¹etøí i na zalévání\nstromu v zahradì.\n
-RES_11_14
-Zvlá¹tní architektura\ntohoto domu napovídá, ¾e\narchitekt nebude místní,\npochází z Norska, kde je\ntenhle styl údajnì hodnì\npopulární.\n\n
 RES_11_15
 Toto je dùm ètvrtého\nbratrance jednoho\nslavného vladaøe. Pokud se\nnestane masovým vrahem,\nnezbyde mu ne¾ nadosmrti\nzùstat u svého øemesla.\nBýt kuchaøem v místní\nkantýnì ale mù¾e být pro\nkariéru krále dobrý zaèátek.\n\n
 RES_11_17
@@ -1535,17 +1421,17 @@ Za domem je starý skleník,\nkterým prorùstá meruòka.\nPaní, které patøí, bylo lí
 RES_11_21
 Hrázdìné zdi byly\npo¾ehnáním v dobì, kdy\nzedníci je¹tì neznali\nvodováhu a malta byla\nje¹tì v plenkách. Mohli se\npak vymlouvat: "Ale pani,\nty zdi nejsu køivy, to jen ty\nfo¹ny pracuju, dy» je to\npøírodní material, no ni?" \n
 RES_11_22
-Soukromá knihovna.\nNenajdete tu v¹echny\nknihy, ale jen\nspecializované knihy s\ndopravní tematikou.\n\n\n
+Soukromá knihovna.\nNenajdete tu v¹echny\nknihy, ale jen\nspecializované knihy s\ndopravní tematikou.\n\n
 RES_11_24
-Tøípatrový dùm postavený\nmìstem pro sociálnì slab¹í\nrodiny.\n\n\n\n\n
+Tøípatrový dùm postavený\nmìstem pro sociálnì slab¹í\nrodiny.\n\n
 RES_11_25
 V prvním a druhém patøe\ntohoto domu sídlí soukromá\nmateøská ¹kolka, s\nlo¾nicemi v nejvy¹¹ím patøe\na podkroví. Zde na sebe\n¾alovali a kradli si hraèky\nnìkteøí z nejslavnìj¹ích\nstavitelù a logistikù\nSimutransu.\n
 RES_11_29
-Dùm s byty. Moderní\narchitektura dìlá tento dùm\nvelmi atraktivní. Terasy se\nzahrádkami budou v módì\npoøád.\n\n\n
+Dùm s byty. Moderní\narchitektura dìlá tento dùm\nvelmi atraktivní. Terasy se\nzahrádkami budou v módì\npoøád.\n\n
 RES_11_30
 Pan Voborný z druhého\npatra tajnì po veèerech\nnav¹tìvuje sousedku\nTáòu, zatímco její mu¾ se\ndvoøí dceøi továrníka\n©iktance. A dole u¾ zase\nnìkdo zru¹il bzuèák. Mo¾ná\nje to moderní dùm, ale lidi\njsou poøád lidi. Teï abych\nmrznul dole, ne¾ mi Voborná\nhodí klíèe.\n
 RES_11_31
-V tomto domì vládne mezi\nnájemníky duch solidarity.\nAby taky ne - bydlí tu samí\nodboráøi. \n\n\n\n
+V tomto domì vládne mezi\nnájemníky duch solidarity.\nAby taky ne - bydlí tu samí\nodboráøi. \n\n
 RES_11_32
 Panelák. Vidìli jste ho\nnìkdy? Bydleli jste v nìm\nnìkdy? Vychutnávali jste\nsi nìkdy svì¾í vánek\npronikající skrze\nneutìsnìná okna a ¹kvíry v\npanelech? Vytírali jste\nnìkdy vodu po sousedovi\ndvì patra vý¹? \nNe? ©»astní nevìdoucí.\n
 RES_11_33
@@ -1553,23 +1439,21 @@ Tento futuristický design\nzahrnuje solární kolektor na\nstøe¹e, který poskytuje
 RES_11_40
 Vysoko¹kolské koleje pro\nstudenty. Tyto koleje\nvlastní místní univerzita.\nUbytovávají se sem jen\nlidé z velké dálky, proto¾e\nzájemcù je mnoho.\n\n
 RES_11_41
-Nové byty postavené\njednou firmou. Pronajímá\nbyty docela levnì, proto je\no nì velký zájem.\n\n\n\n
+Nové byty postavené\njednou firmou. Pronajímá\nbyty docela levnì, proto je\no nì velký zájem.\n\n
 RES_11_45
-Nové byty postavené\njednou firmou. Pronajímá\nbyty docela levnì, proto je\no nì velký zájem.\n\n\n\n
+Nové byty postavené\njednou firmou. Pronajímá\nbyty docela levnì, proto je\no nì velký zájem.\n\n
 RES_11_46
 Tento architektonický\nzázrak vyhlí¾í spí¹e jako\numìlecký pøedmìt ne¾ jako\nèin¾ák. V¹ichni\npodnájemníci jsou hrdí ¾e\nmohou bydlet v tak\npresti¾ní a známé budovì.\n
 RES_11_47
 Vysoko¹kolské koleje pro\nstudenty. Tyto koleje\nvlastní místní univerzita.\nUbytovávají se sem jen\nstudenty z velké dálky,\nproto¾e zájemcù je mnoho.\n\n
 RES_11_50
 Vysoko¹kolské koleje pro\nstudenty. Tyto koleje\nvlastní místní univerzita.\nUbytovávají se sem jen\nlidé z velké dálky (nebo ti\nkteøí dají úplatek), proto¾e\nzájemcù je velmi mnoho.\n
-RES_11_51
-Na pátém poschodí v bytì\n5B ¾ije - kdo jiný ne¾\nbývalý dìtský herec\nChester "Peewee"\nMackenzy. Stále nosí svùj\nznaèkový klobouèek a\nrudou vázanku. Miluje kdy¾\nna jej lidi na ulici poznávají\na køièí "Peewee!" tak¾e na\nnì mù¾e jeèet a obla¾it je\nsvým léta drilovaným\nproslovem o tom, ¾e tamto\nbyla jen jeho role kdy¾ byl malý,\nale teï u¾ vyrostl a...\n
 RES_11_58
 "Moderní bydlení" - malé\nbyty, jen to nejzákladnìj¹í\nvybavení. V bytì je\nkoupelna se záchodem,\nkuchyò spojená s\nobývákem a lo¾nice.\n\n
 RES_11_59
 Panelák. Má novou omítku,\ntaky to dalo práce plazit se\na¾ do takových vý¹ek, ale\naspoò nevypadá ¾e je tak\nstarý, Nevìøili byste, ale u¾\nje 40 let starý.\n\n
 RES_11_60
-Moderní vý¹ková budova.\nBydlení uvnitø je moc\nzajímavé. Jeden byt je\nv¾dy ve více patrech, ale\nje v¾dy prostorný.\n\n\n
+Moderní vý¹ková budova.\nBydlení uvnitø je moc\nzajímavé. Jeden byt je\nv¾dy ve více patrech, ale\nje v¾dy prostorný.\n\n
 RES_12_03
 Tento dùm je první\nvla¹tovkou jedineèného\nmodulárního systému, který\nlze snadno roz¹iøovat a\npozmìòovat podle libosti.\nPokud je zapotøebí dal¹í\nmístnost, objednáte ji na\nzákaznické lince a necháte\npøipojit tøeba jako dal¹í\npatro. Naopak pokud máte\nmísta nazbyt, mù¾ete pár\nblokù prodat jiným\nzájemcùm.\n
 RES_12_04
@@ -1579,9 +1463,7 @@ Ubytovna pro cizince.\nVìt¹inou tu bydlí imigranti z\nvýchodu, kteøí ve mìstì\nv
 RES_12_10
 Rodinný domek s velkou\nterasou. ®ije tady bohatá\nrodinka, i kdy¾ to na první\npohled nevypadá - mají\nsatelit a pøijímají velkou\nspoustu kanálù.\n\n
 RES_12_12
-Zde stojí domek pøítele\nsousedky ètvrtého\nbratrance slavného vladaøe.\nA to je bohu¾el také jeho\njediný ¾ivotní úspìch.\n\n\n
-RES_12_13
-Montovaný dvojdomek.\n\n\n\n\n\n\n
+Zde stojí domek pøítele\nsousedky ètvrtého\nbratrance slavného vladaøe.\nA to je bohu¾el také jeho\njediný ¾ivotní úspìch.\n\n
 RES_12_14
 Po krizi letecké dopravy\nvyrostly na pøedmìstích\ntyto nízkonákladové domky\nz trupù dopravních letadel.\nBrzy se ale z nich stalo\nbydlení pro zbohatlíky, kteøí\nse teï navzájem\npøedhánìjí, kdo první získá\npro svoji zimní zahradu\nkokpit Airbusu A380. \n
 RES_12_15
@@ -1595,7 +1477,7 @@ Kdy¾ projektovali tento\ndomek pro ètyøi rodiny,\nmysleli na v¹echno. Skoro.\nPr
 RES_12_19
 Starý pivovar
 RES_12_20
-Dvoupatrový dùm. Byty\njsou sice malé, ale bydlí\nzde jen mladí lidé bez dìtí,\ntak¾e si vystaèí.\n\n\n\n
+Dvoupatrový dùm. Byty\njsou sice malé, ale bydlí\nzde jen mladí lidé bez dìtí,\ntak¾e si vystaèí.\n\n
 RES_12_21
 Produkce tu¾ek byla v této\ntovárnì zastavena ji¾\ndávno. Poté byla budova \nvevnitø pøestavìna na\nlevné byty. Nicménì\nindustriální vzezøení\nzùstane této budovì\nvtisknuté patrnì ji¾ na\nvìky.\n
 RES_12_22
@@ -1606,90 +1488,50 @@ RES_12_25
 Za oknem ve tøetím patøe\npøímo pod balkonem vás za\nzávìsem pozoruje dívka s\nhavraními vlasy a\nsmaragdovýma oèima.\nPrávì mrkla.\n\n
 RES_12_30
 Bydlení pro mladé. Po velké\nsociální krizi se nìkteøí\nmlad¹í spoluobèané\nrozhodli nedotovat státní\npokladnu a postavili si\nspoleènými silami\nsobìstaèné domy. Ka¾dý\ntento dùm je zemì sama\npro sebe, parlament sídlí v\npodkroví a armáda stojí na\nstrá¾i u dveøí. Pøes v¹echny\nsnahy ale i obyvatelé\ntohoto domu stárnou... \n
-RES_12_32
-Prostì dùm\n\n\n\n\n\n\n
 RES_13_12
 Pùvodnì nádra¾ní budova,\n nyní ubytovna pro slu¹né bezdomovce.
-RES_13_13
-Dvojdomek\n\n\n\n\n\n\n
-RES_13_14
-Dru¾stevní byty\n\n\n\n\n\n\n
-RES_13_15
-Dru¾stevní byty\n\n\n\n\n\n\n
 RES_13_16
 Plavecký bazén. Místní\nvyprávìjí, ¾e kdy¾ ho\nstavìli, vítr dìlníkùm\nzamíchal poznámky a tak je\nhloubka bazénu jeho\ndélkou, ¹íøka hloubkou a\ndélka ¹íøkou. Místní\npotápìèský krou¾ek je\nnad¹en, plavci ji¾ ménì.\n
 RES_13_17
 I kdybyste nájemníky\ntohoto domu rozkrájeli,\nnebudou vám schopni øíct,\nkam vedou ony trojice\nmalých svìtlíkù pod\nstøechou. Mezi námi, jsou\nto pùvodní vìtráky od\nkravína, který pozdìji\npøestavìli na byty.\n
-RES_13_18
-Dru¾stevní byty.\n\n\n\n\n\n\n
 RES_13_20
-Tohle je hodnì podezøelý\ndùm. Mnoho lidí ve¹lo\ndovnitø, ale nikdo ven...\n\n\n\n\n
+Tohle je hodnì podezøelý\ndùm. Mnoho lidí ve¹lo\ndovnitø, ale nikdo ven...\n\n
 RES_13_21
-V tomto domì ¾ije stará\no¹klivá èarodejnice s\nèerným, nevrlým kocourem.\n\n\n\n\n
-RES_13_22
-Dru¾stevní byty.\n\n\n\n\n\n\n
+V tomto domì ¾ije stará\no¹klivá èarodejnice s\nèerným, nevrlým kocourem.\n\n
 RES_13_24
-Èin¾ovní dùm z padesátých\nlet.\n\n\n\n\n\n
+Èin¾ovní dùm z padesátých\nlet.\n\n
 RES_13_25
 Na malém trávníku pøed\ndomem díky jednomu\nhodnému pánovi od jara\nkvetou rudé a zlaté\ntulipány a ka¾dý mù¾e pøijít\na jeden si utrhnout a\ndarovat ho blízkému\nèlovìku.\n
 RES_13_31
 Hádejte; zaèíná to na "p",\nkonèí na "k" a ne¾ to\nèlovìk vysloví, pou¾ije\nspoustu sprostých slov na\n"p" a na "k". Nevíte? No\npøeci panelák!\n\n
-RES_13_32
-Prostì dùm\n\n\n\n\n\n\n
 RES_13_46
-Moderní architektura. Jeden\nbyt není jen v jednom\npatøe, ale hned v nìkolika.\nBydlení je tu ale hodnì\ndrahé.\n\n\n
+Moderní architektura. Jeden\nbyt není jen v jednom\npatøe, ale hned v nìkolika.\nBydlení je tu ale hodnì\ndrahé.\n\n
 RES_13_60
 Moderní vý¹ková budova.\nRadnice uzavøela s\narchitektem smlouvu a ji¾\nbrzy bude takových staveb\npo mìstì víc. Dokonce se\njedná i o tom, ¾e se takové\ndomy budou stavìt i v\njiných mìstech.\n
 RES_14_13
-Dvojdomek, nic extra, ale\ncihlové zdi ho pøeci jen èiní\nhezèím, ne¾li jeho\nbetonové bratøíèky.\n\n\n\n
+Dvojdomek, nic extra, ale\ncihlové zdi ho pøeci jen èiní\nhezèím, ne¾li jeho\nbetonové bratøíèky.\n\n
 RES_14_14
 Tato bytovka není tak\no¹klivá, jak je tomu u\nbytovek zvykem. Pøeci jen,\nstaré dobré cihly nikdy\nnebudou vypadat tak\no¹klivì, jako beton.\n\n
 RES_14_16
-Dal¹í variace na téma\n"betonová kostka".\n\n\n\n\n\n
+Dal¹í variace na téma\n"betonová kostka".\n\n
 RES_14_17
 Tento dùm tu stojí od\nnepamìti. Majitele ale\nzahlédnete málokdy. Je to\nmálomluvný øezbáø, který\nvzadu na dvorku vyøezává\nl¾íce, talíøe, so¹ky -\ncokoliv, co ho baví. Místní\nsi jeho výtvory rádi kupují;\nøíkají, ¾e a» s nimi cestují\njakkoli daleko, zùstává jim\nv nich skrytý kousek\ndomova. \n
 RES_14_18
-Tento dùm je mnohem\nkomfortnìj¹í, ne¾li by se na\nprvní pohled mohlo zdát.\n\n\n\n\n
+Tento dùm je mnohem\nkomfortnìj¹í, ne¾li by se na\nprvní pohled mohlo zdát.\n\n
 RES_14_20
-Dal¹í panelový dùm. Mnozí se podivují nad jeho zvlá¹tní modrou barvou. Kolují zvìsti, ¾e za ní stojí nadstandartní vztahy stavitele a místního obchodníka s barvami.\n\n\n\n\n\n\n
+Dal¹í panelový dùm. Mnozí se podivují nad jeho zvlá¹tní modrou barvou. Kolují zvìsti, ¾e za ní stojí nadstandartní vztahy stavitele a místního obchodníka s barvami.\n\n
 RES_14_21
-Je zde hromada mnohem\nhezèích domù. Tak proè se\nzajímá¹ zrovna o tento?\n\n\n\n\n
-RES_14_22
-Dru¾stevní byty\n\n\n\n\n\n\n
-RES_14_24
-Dru¾stevní byty\n\n\n\n\n\n\n
-RES_14_31
-Prostì dùm\n\n\n\n\n\n\n
-RES_15_13
-Dru¾stevní byty\n\n\n\n\n\n\n
+Je zde hromada mnohem\nhezèích domù. Tak proè se\nzajímá¹ zrovna o tento?\n\n
 RES_15_14
-Ta zelená støecha je\notøesná, ¾e?\n\n\n\n\n\n
-RES_15_16
-Dvojdomek\n\n\n\n\n\n\n
+Ta zelená støecha je\notøesná, ¾e?\n\n
 RES_15_17
 Velmi starý,\n ale pìknì spravovaný dùm místní rodiny,\n její¾ pøedci patøili k vysoké ¹lechtì.
-RES_15_20
-Dru¾stevní byty\n\n\n\n\n\n\n
-RES_15_21
-Dru¾stevní byty\n\n\n\n\n\n\n
 RES_15_22
 V tomto domì jsou byty\nzamìstnancù blízké\nautomobilky. Dùm je zcela\nnový a nájem je taky\npøijatelný (asi proto, ¾e na\nnìj továrna svým\nzamìstnancùm pøispívá)\n
-RES_15_31
-Prostì dùm\n\n\n\n\n\n\n
 RES_16_14
-Rodinný domek s krbem.\nKdo by takový nechtìl?\n\n\n\n\n\n
-RES_16_16
-Dru¾stevní byty\n\n\n\n\n\n\n
+Rodinný domek s krbem.\nKdo by takový nechtìl?\n\n
 RES_16_20
 Tento bytový dvojdomek je\nvrcholným dílem architekta\nRavena. Bohu¾el ji¾ nemìl\nmo¾nost dal¹í budovy\nnavrhnout, proto¾e byl\nprohlá¹en za blázna poté,\nco se prohlásil, ¾e pøestaví\ncelý svìt Simutrans k\nobrazu svému.\n
-RES_16_21
-Dru¾stevní byty\n\n\n\n\n\n\n
-RES_17_16
-®enské domovy\n\n\n\n\n\n\n
-RES_17_20
-Dru¾stevní byty\n\n\n\n\n\n\n
-RES_17_21
-Dru¾stevní byty\n\n\n\n\n\n\n
 rmax_clock_tower
 Hodinová vì¾\n\nNavzdory její podobì s mýtickou\nfabulónskou vì¾í není tato\nbudova pøíli¹ letitá. I tak\nmá ale vìk na to, aby ji\nmísto dnes módních rádiem\nøízených èasových\nzákladen pohánìlo solidní\nmosazné soustrojí.\n
 rmax_courthouse
@@ -1730,8 +1572,6 @@ st_benedict_church
 Chrám Svatého Benedikta\n\nByl postaven za císaøe\nDiokleciána v byzantském\nslohu a je jednou z nejstar¹ích dochovaných\npamátek Simusvìta. Andìl\nna nejvy¹¹í vì¾i má\npohnutou historii. Je ze skla a mnohokrát v historii\nèelil nepøízni poèasí i válkám, pøesto dodnes na\nSlunci záøí vnitøním svìtlem\nneporu¹en. Legenda praví, ¾e je\nv nìm uchováno èisté srdce\nSpasitele.\n
 ST_PETER
 Svatý Petr\n\nPozdnì románský kostel\npostavený okolo r. 1220, s\nkøí¾ovou lodí zdobenou\nfreskami z poloviny 13.\nstoletí. V prosklené rakvi je\nulo¾eno mumifikované tìlo\nkrálovského správce Petra\nBoka, které pøetrvalo po\nsedm staletí a¾ do dne¹ní\ndoby beze zmìny. Podle\nlegendy byl Petr Bok tak\n¹tìdrým mecená¹em kostela,\nproto¾e byl hnán strachem o své\nzdraví. Za to byl po smrti\n"odmìnìn" skuteènì\nneznièitelným tìlem. \n
-SUSHI_HOSPITAL
-Su¹i-Nemocnice\n\nTato nemocnice vznikla jako\npracovní místo pro vìt¹inu\nèínské populace ve mìstì,\ns výjimkou èinnosti\nrestaurací. Z tohoto dùvodu\nmù¾e nabídnout rychlou,\nlevnou a kvalifikovanìj¹í\nlékaøskou péèi, a tak ji mají\nrádi lidé, kteøí si nemohou\ndovolit luxusní nemocnice a nechtìjí nav¹tívit kliniky\nnízké kvality. Neposkytuje mnoho\nparkovacích míst. Ka¾dý, kdo\nnení pøivezen a odvezen\nsanitkou, musí pou¾ít veøejnou\ndopravu.\n
 Suspended_Monorail_Bahnhof_Modern
 Zastávka jednokolejky
 Terminal1930_AirportBlg
@@ -1796,16 +1636,12 @@ factory_cornfield_details
 <title>Kukuøièné pole - detaily</title>\n<h1>Kukuøièné pole</h1><p>Kukuøice pochází z horských oblastí Ji¾ní Ameriky. Jedná se o robustní trávy dorùstající vý¹ky nejèastìji 0,5-6 m. Do Evropy se dostala koncem 15. století a odsud se rychle roz¹íøila do ostatních koutù svìta. Kukuøici se lidovì øíká i selské ¾ito.</p>
 factory_cotton_farm_w_fields_details
 <title>Bavlníková plantá¾ - detaily</title>\n<h1>Bavlníková plantá¾</h1><p>Bavlna je nejdùle¾itìj¹í ze v¹ech plodin pìstovaných pro výrobu textilního vlákna. Vlákna se získávají z plodu keøe bavlníku.\nBavlnìná vlákna jsou pøítomna ve více ne¾ 50% dnes vyrábìných textilií. Kultivace bavlny mìla výrazný ekonomický dopad ji¾ od doby, kdy byla bavlna poprvé domestikována pøed pøibli¾nì 5000 lety.</p>
-factory_cotton_field_details
-<title>Bavlníkové pole - detaily</title>\n<h1>Bavlníkové pole</h1><p>V Evropì byla bavlna neznámá a¾ do pozdního støedovìku. V dobì prùmyslové revoluce se v¹ak bavlna stala díky svým fyzikálním vlastnostem velmi dùle¾itou pro textilní prùmysl a koncem 19. století pøedstavovala pøibli¾nì 80% objemu v¹ech textilních materiálù. Na dne¹ní produkci textilií se bavlna podílí zhruba 40%.</p>
 factory_cow_farm_details
 <title>Kravín - detaily</title>\n<h1>Kravín</h1><p>Zde se chovají krávy pro maso a nebo pro mléko. Vedle prasete je tur domácí jedním z neju¾iteènìj¹ích chovných zvíøat.</p>
 factory_dairy_details
 <title>Mlékárna - detaily</title>\n<h1>Mlékárna</h1><p>Mlékárna je továrna, ve které se zpracovává mléko na velké mno¾ství produktù. Napø. jogurt byl vymy¹len v Radlické mlékárnì na Smíchovì. Nìkolik l¾ièek jahodové marmelády na povrchu jogurtu mìlo zabránit vytváøení plísní na jogurtu.</p>
 factory_Druckerei_details
 <title>Tiskárna - detaily</title>\n<h1>Tiskárna</h1><p>Polygrafie je výrobní obor, který zpracovává a tiskem rozmno¾uje textové a obrazové pøedlohy. Zahrnuje tyto základní výrobní fáze: zhotovování tiskových forem, tisk, dokonèovací výroba a pøidru¾ené odborné èinnosti.</p>
-factory_electronics_factory_details
-<title>Továrna na elektroniku - detaily</title>\n<h1>Továrna na elektroniku</h1><p>Elektrotechnika je ? ve srovnání s jinými odvìtvími techniky ? obor velmi mladý. Na Èeském vysokém uèení technickém se zaèala pøedná¹et teprve na konci 19. století. Její rozvoj byl v¹ak poté velmi dynamický a bouølivì se ¹íøil z poslucháren a laboratoøí do praktického ¾ivota. Elektøina se rázem stala symbolem pokroku, dùkazem vítìzství lidského ducha.</p>
 factory_Erzbergwerk_details
 <title>Dùl na ¾eleznou rudu - detaily</title>\n<h1>Dùl na ¾eleznou rudu</h1><p>®elezná ruda je hornina, minerál, který obsahuje ¾elezo v takové chemické formì, která umo¾òuje jeho hospodárné získání hutnickými metodami. ®elezné rudy se zpravidla tì¾í hornickým zpùsobem. Jsou to jednak hlubinné doly nebo mnohem èastìji povrchová tì¾ba.</p><p>Úpravárenskými pochody jako drcením v èelis»ových a válcových drtièích, praním a flotací se takto vytì¾ená surová ruda zbavuje hlu¹iny a dosáhne se vy¹¹ího obsahu ¾eleza. Takto upravená a obohacená ruda se dopravuje do hutních podnikù.</p>
 factory_ethanol_plant_details
@@ -1818,24 +1654,16 @@ factory_food_processing_plant_details
 <title>Potravináøský závod - detaily</title>\n<h1>Potravináøský závod</h1><p>Potravináøský prùmysl se zabývá výrobou potravin, po¾ivatin a nápojù ve velkém. Nezaøazuje se tedy do nìho znaèná výroba po domácku ani drobná výroba ¾ivnostenská. Mimo jiné to jsou: Cukrovarnictví, Lihovarnictví a ¹krobárny, Vinaøské závody, Masokombináty, Polotovary, Nápoje, Stáèírny minerálních vod a zpracování tabáku.</p>
 factory_Glass_factory_details
 <title>Sklárna - detaily</title>\n<h1>Sklárna</h1>\n<p>Zpùsob výroby skla je u v¹ech typù témìø stejný - pøipravená smìs se roztaví a následnì se chladí.\nPodle pøísad se sklo dìlí na olovnaté, sodné, draselné atd.\nDal¹í dìlení je podle zpùsobu tvarování (plavené nebo foukané) a samozøejmì pou¾ití - varné, chemické, atd. Na barvení se pou¾ívaly a stále pou¾ívají kovy, pouze nìkteré byly nahrazeny jinými.\nS nástupem plastù význam skla jako obalové hmoty ustupuje a pravdìpodobnì nejvìt¹í zakázkou poslední doby je výroba lahví nejen pro pivovary.</p>
-factory_grain_farm_details
-<title>JZD - detaily</title>\n<h1>Více o p¹enicích</h1>\n<p>Archeologické nálezy dokládají pìstování p¹enice jednozrnky na území Íránu ji¾ 6 000 let pø. n. l. Hlavními obilnicemi svìta jsou USA a území SNS, døíve jí byl napø. Egypt a Sumer.</p>\n<p>P¹enice poskytují zrno, které se pou¾ívá jako potravina, krmivo a jako surovina. Zpracovávají se také stébla (sláma) a otruby (semenné slupky a mouka). Výhodou p¹enice, tak jako u jiných obilovin je pomìrnì jednoduchá skladovatelnost a pomìrnì dlouhá trvanlivost. P¹enice mají vysokou vý¾ivnou hodnotu. V Evropì jsou základní potravináøskou surovinou pro výrobu peèiva, tìstovin a rozmanitých pokrmù.</p>\n<p>Prùmyslovì se vyu¾ívá jako surovina k výrobì ¹krobu, lihu nebo piva.</p>
 factory_grain_farm_w_fields_details
 <title>P¹enièné pole</title>\n<h1>P¹enièné pole</h1><p>V zemìdìlské krajinì jsou od sebe jednotlivá pole èasto oddìlena mezemi (úzký pás neobdìlávané zemì mezi poli), pøípadnì jsou v polích i køovinaté ostrùvky s nìkolika stromky, tzv. remízky.</p><p>V èeských zemích byla tradièní úzká pole rozdìlená mezemi, v dobì kolektivizace v raném komunismu byli zemìdìlci nuceni vstupovat do zemìdìlských dru¾stev kolchozního typu JZD, jednotlivá pole byla rozoráváním mezí spojována do velkých lánù (lán byl pùvodnì plo¹nou jednotkou). V Polsku, kde k takové míøe kolektivizace nedo¹lo, se zachovala drobná políèka i pøes dobu komunismu.</p>
 factory_grain_mill_details
 <title>Mlýn - detaily</title>\n<h1>Mlýn</h1><p>Døíve se mlýnem nazývalo v¹e, co bylo hnáno vodou, respektive vodním kolem. Dnes mlýnem nazýváme soubor strojù urèených k rozmìlòování materiálù. Mlynáøství je velmi staré øemeslo. Bylo to zpùsobeno jednak v¹udepøítomnou zemìdìlskou výrobou a souèasnì obtí¾nou dopravou zrna na vìt¹í vzdálenosti v dobách, kdy je¹tì nebyla dostateènì provázaná ¾eleznièní a silnièní sí». Mlýn stával snad u ka¾dé vìt¹í vsi.</p><p>Dnes jsou mlýny vybaveny strojním pohonem a slou¾í k velkokapacitní výrobì mouky.</p>\n
-factory_Kohlekraftwerk_details
-<title>Uhelná elektrárna - detaily</title>\n<h1>Uhelná elektrárna</h1><p>Chemická energie vázaná v uhlí, je bì¾ným procesem spalování pøemìòována nejprve na energii tepelnou. Ta se poté dále pøevádí nejprve na mechanickou energii resp. kinetickou energii, teplonosným médiem zde bývá nejèastìji bì¾ná vodní pára vyrábìná v parogenerátoru. </p><p>Pára je pøivádìna do turbíny, co¾ je zaøízení mechanicky spojené s elektrickým generátorem respektive s alternátorem. Kinetická energie je z parní turbíny vyvádìna do alternátoru spoleèným høídelem, mechanická kinetická energie z høídele stroje se tak dále pøevádí pomocí alternátoru na elektrickou energii, která je ze stroje vyvádìna do elektrorozvodné sítì.</p>\n
-factory_Materialswholesale_details
-<title>Hobbymarket - detaily</title>\n<h1>Hobbymarket</h1><p>Obliba hobbymarketù v Èeské republice výraznì roste, pøesto¾e napøíklad zahrádkáøské kolonie v mìstech zmìnily postupem èasu svou tváø. Místo pìstování ovoce a zeleniny slou¾í tyto pozemky pøedev¹ím k rekreaci. Ve velkých mìstech, jako je Praha èi Brno, zahrádkáøe vytlaèuje zástavba. Mìsta se rozrùstají a hodnota døíve zahrádkáøských parcel stoupá. Zahrádkaøení se pøesto vìnuje stále pomìrnì hodnì lidí. Na pozemcích, kde se ale døíve spí¹e pìstovaly zelenina a ovoce, v¹ak lidé nyní staví nové chatky, poøizují si bazény èi stavìjí prolézaèky pro dìti. Tento trend je patrný v øadì krajù. Hobbymarkety proto mají poøád své zákazníky.</p>
 factory_modern_fuel_station_details
 <title>Stanice na biopalivo - detaily</title>\n<h1>Stanice na biopalivo</h1><p>Palivo E85 je smìs skládající se z 85 procent z bioetanolu a z 15 procent z Naturalu 95. Proti klasickému benzinu má jízda na palivo E85 hlavní výhodu v sní¾ení emisí výfukových plynù. Nevýhodou je naopak ni¾sí mìrná vyhøevnost paliva a tedy mírnì vy¹¹í spotøeba oproti klasickým palivùm.</p>
 factory_Moebelfabrik_details
 <title>Truhláøství - detaily</title>\n<h1>Truhláøství</h1><p>Truhláøství se odlouèilo od tesaøství nìkdy ve 12. století. Pøedmìty truhláøské produkce byly pùvodnì zhotoveny ze ¹típaných døevìných dílcù, dranic nebo trámcù. Teprve pozdìji se zaèalo u¾ívat sloupcových rámù s výplní. Soubor tehdej¹ích pracovních nástrojù pøedstavovala sekera, dláta, teslice, poøízy, nebozezy a pila. Dnes se spí¹e pou¾ívá progresívní technologie výroby a moderní èíslicovì øízené stroje.</p>
 factory_Moebelhaus_details
 <title>Obchod s nábytkem - detaily</title>\n<h1>Obchod s nábytkem</h1><p>Nábytek provází lidstvo u¾ od dob, kdy se zaèali lidé usazovat a zakládat osady pøed nìkolika tisíci lety. Starý nábytek se do dne¹ní doby uchoval v podobì maleb na stìnách (napø. nìkteré nálezy v Pompejích). Nábytek byl objeven i ve starém Egyptì v hrobkách faraónù. Nábytek je s lidmi ji¾ velmi dlouho a dá se pøedpokládat, ¾e tomu tak bude i v budoucnu.</p>
-factory_Nutzwald_details
-<title>Prùmyslový les - detaily</title>\n<h1>Prùmyslový les </h1>\n<p>Lesnictví poskytuje døevo - jednu z nejdùle¾itìj¹ích surovin a zároveò energetický zdroj. Døevo je dále zpracováváno døevaøským a papírenským prùmyslem na velmi cenìné produkty.</p>
 factory_Oelbohrinsel_details
 <title>Ropná plo¹ina - detaily</title>\n<h1>Ropa a ropné plo¹iny</h1>\n<p>21. století ¾ízní po ropì. Ka¾dých 10 let se spotøeba zdvojnásobí. Ropné plo¹iny tì¾í tuto surovinu v mìlkých ¹elfových moøích (hloubka do 200m). Plo¹iny jsou ve skuteènosti obrovské, ale málokdo si to uvìdomuje, vìt¹ina je toti¾ ukryta pod hladinou. </p>\n<p>Nejvìt¹í plo¹ina jaká byla kdy postavena, je norský Statfjord B. Vá¾í 800.000 tun a celková vý¹ka je 192m.</p>
 factory_Oelfeld_details
@@ -1854,8 +1682,6 @@ factory_Raffinerie_details
 <title>Rafinerie - Detaily</title>\n<h1>Rafinerie</h1>\n<p>Ropná rafinerie je petrochemický závod, kde je ropa nejdøíve doèi¹tìna (zejména odsolením) a následnì destilací zpracovávána na benzíny, petroleje, nafty, mazut a asfalty - mazut a asfalty jsou v¹ak jen odpady, pøesto¾e se mazut dále zpracovává na látky vyu¾ívané k výrobì plastù (pøedev¹ím ethylen a propylen), pøièem¾ vznikají dal¹í odpady, které rovnì¾ lze zu¾itkovat.</p><p>Pùvodnì byly v rafineriích stavìny i závody, které s zpracováním ropy nemìly nic spoleèného. V poslední dobì se v¹ak tyto závody ji¾ nestaví nebo nejsou v rukou majitele rafinerie. </p><p>Míra komplexnosti rafinerie je vyjadøována tzv. Nelsonovým indexem komplexity. Èím vy¹¹í je tento index, tím vy¹¹í rafinérské mar¾e je mo¾né pøi zpracování ropy dosáhnout.</p>
 factory_Saegewerk_details
 <title>Pila - detaily</title>\n<h1>Pila</h1>\n<p>Historie vodních pil je velmi dlouhá. První zmínky se objevují ji¾ ve 4. století (na øece Ruøe a také na pohon z mìstských vodovodù v Øímì). U nás se jejich historie datuje od støedovìku, kdy si rozvoj mìst vynutil potøebu rychlým a pøesným zpùsobem získávat vhodné polotovary pro budované stavby. Pily obsluhovali  pilaøi.</p><p>Na moderní pásovkové technologii pil se pou¾ívaji kulatinové výøezy, které jsou zbaveny kùry. Koøenové nábìhy jsou odebrány a výøezy následnì procházejí elektronickým mìøícím rámem. Hlavním strojem v pilnici je pásovka a kombinované zaøízení pro omítání a rozmítání výøezù.</p>
-factory_Sandquarry_details
-<title>Pískovna - detaily</title>\n<h1>Pískovna</h1>\n<p>V pískovnì se tì¾í, jak jinak, písek. Ten poté vozí do skláren, kde jej pøetaví na sklo, nebo jej prodávají na stavby, kde se pøidává do betonù a omítek.</p>
 factory_shaft_coal_mine_details
 <title>Hlubinné uhelné doly - detaily</title>\n<h1>Hlubinné uhelné doly</h1>\n<p>Hlubinnì je tì¾eno pøedev¹ím èerné uhlí, ale v provozu jsou i hlubinné doly s tì¾bou hnìdého uhlí (jeden takový je poblí¾ Mostu). Právì hlubinné (nejen) uhelné doly byly hlavní pøíèinou odlesnìní nìkterých území a výsadby rychlerostoucích druhù jehliènanù jako jsou smrky.</p><p>Èerné uhlí je prvohorního pùvodu a je proto ulo¾eno v vìt¹í hloubce. Vznikalo zuhelòováním stromových plavuní padlých do ba¾in v období prvohor. Zbytky èerného uhlí je mo¾né objevit i na povrchu a to tam, kde byly výchozy lo¾isek na povrch.</p><p>Na území Èeské Republiky se v souèasné dobì èerné uhlí tì¾í pouze v Ostravsko-karvinském revíru. Prokázaná tì¾ba èerného uhlí je i v Kru¹ných Horách v okolí obce Hora Svaté Kateøiny.</p><p>Hlubinné doly jsou mnohem star¹ím zpùsobem tì¾by uhlí ne¾ povrchové, nebo» tento zpùsob tì¾by je i pøes mnohá nebezpeèí mnohem jednodu¹¹í ne¾ je tomu u povrchové tì¾by. První hlubinné doly témìø výhradnì sledovaly lo¾isko tì¾eného materiálu a z dùvodu technického vybavení horníkù nemìly tak vysokou produktivitu.</p>
 factory_sheep_farm_details
@@ -1904,16 +1730,12 @@ cornfield
 Kukuøièné pole
 cotton_farm_w_fields
 Bavlníková plantá¾
-cotton_field
-Bavlníkové pole
 cow_farm
 Kravín
 dairy
 Mlékárna
 Druckerei
 Tiskárna
-electronics_factory
-Továrna na elektroniku
 Erzbergwerk
 Dùl na ¾eleznou rudu
 ethanol_plant
@@ -1928,16 +1750,10 @@ ForestPlantation
 Prùmyslový les
 Glass_factory
 Sklárna
-grain_farm
-JZD
 grain_farm_w_fields
 P¹enièné pole
 grain_mill
 Mlýn
-Kohlekraftwerk
-Uhelná elektrárna
-Materialswholesale
-Hobbymarket
 MaterialsWholesales
 Stavebniny
 meat_packing_plant
@@ -1948,8 +1764,6 @@ Moebelfabrik
 Truhláøství
 Moebelhaus
 Obchod s nábytkem
-Nutzwald
-Prùmyslový les 
 Oelbohrinsel
 Ropná plo¹ina
 Oelfeld
@@ -1969,8 +1783,6 @@ Rafinerie
 Saegewerk
 Pila
 sand_quarry_dd
-Pískovna
-Sandquarry
 Pískovna
 shaft_coal_mine
 Hlubinný uhelný dùl
@@ -1998,10 +1810,6 @@ waste_incinerator_kraftwerk
 Spalovna odpadù
 wind_kraftwerk
 Vìtrná elektrárna
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
-grain_field
-Obilné pole
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -2124,6 +1932,8 @@ monorail vehicle
 Vozidlo visuté dráhy
 Monorailboden
 Základy visuté dráhy
+Monoraildepot
+Depo visuté dráhy
 Monorailhalt
 Zastávka visuté dráhy
 Monorailhalt muss auf\nMonorail liegen!\n
@@ -2154,8 +1964,6 @@ choose_point
 Znaèka vyber pøí¹tí zastávku
 choose_signal_monorail
 Návìstidlo volby stanièní koleje (jednokolejka)
-choosesign_digital_jp
-Znaèka pro volbu zastávky
 ChooseSignals
 Návìstidlo volby stanièní koleje (standardní typ)
 Classic_ChooseSignals_right
@@ -2210,162 +2018,68 @@ traffic_light
 Semafor
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
-cactus000
-Saguaro\n\n\n\n\n\n\n
-cactus001
-Saguaro\n\n\n\n\n\n\n
-cactus002
-Kaktus\n\n\n\n\n\n\n
 palm010
-palma\n\n\n\n\n\n\n
+palma\n
 palm011
-palma\n\n\n\n\n\n\n
-tree020
-Strom\n\n\n\n\n\n\n
+palma\n
 tree021
-Bøíza\n\n\n\n\n\n\n
-tree022
-Strom\n\n\n\n\n\n\n
-tree023
-Strom\n\n\n\n\n\n\n
-tree024
-Strom\n\n\n\n\n\n\n
-tree025
-Strom\n\n\n\n\n\n\n
-tree030
-Strom\n\n\n\n\n\n\n
-tree031
-Strom\n\n\n\n\n\n\n
-tree032
-Strom\n\n\n\n\n\n\n
-tree040
-Strom\n\n\n\n\n\n\n
-tree041
-Strom\n\n\n\n\n\n\n
-tree042
-Strom\n\n\n\n\n\n\n
-tree050
-Strom\n\n\n\n\n\n\n
+Bøíza\n
 tree051
-Topol èerný\n\n\n\n\n\n\n
+Topol èerný\n
 tree052
-Topol èerný\n\n\n\n\n\n\n
-tree060
-Strom\n\n\n\n\n\n\n
+Topol èerný\n
 tree061
-Lípa\n\n\n\n\n\n\n
-tree062
-Strom\n\n\n\n\n\n\n
-tree063
-Strom\n\n\n\n\n\n\n
-tree070
-Strom\n\n\n\n\n\n\n
+Lípa\n\n
 tree071
-Keø\n\n\n\n\n\n\n
+Keø\n
 tree072
-Jalovec\n\n\n\n\n\n\n
+Jalovec\n
 tree080
-Keø\n\n\n\n\n\n\n
-tree081
-Strom\n\n\n\n\n\n\n
-tree082
-Strom\n\n\n\n\n\n\n
-tree083
-Strom\n\n\n\n\n\n\n
+Keø\n
 tree090
-Borovice èerná\n\n\n\n\n\n\n
-tree091
-Strom\n\n\n\n\n\n\n
+Borovice èerná\n
 tree100
-Borovice èerná\n\n\n\n\n\n\n
+Borovice èerná\n
 tree110
-Smrk horský\n\n\n\n\n\n\n
+Smrk horský\n
 tree120
-Smrk\n\n\n\n\n\n\n
-tree121
-Strom\n\n\n\n\n\n\n
-tree122
-Strom\n\n\n\n\n\n\n
+Smrk\n
 tree130
-Smrk\n\n\n\n\n\n\n
-tree131
-Strom\n\n\n\n\n\n\n
-tree132
-Strom\n\n\n\n\n\n\n
+Smrk\n
 tree133
-Horský smrk\n\n\n\n\n\n\n
+Horský smrk\n
 tree140
-Borovice\n\n\n\n\n\n\n
+Borovice\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnel
 ®eleznièní tunel
-RoadTunnel
-Silnièní tunel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
-1Ben140
-Bennhardt B-140 "Limetka"
-1Bens155
-Bennhardt B-155 "Robo"
 1Benst134
 Bennhardt B-134 "Pixie"
 1Benst135t
 Bennhardt B-135 "Trpaslík"
 1Benst138
 Bennhardt B-138 "Koláè"
-1Benst161
-Bennhardt B-161 "Turbo"
 1Benst162t
 Bennhardt B-162 "Jet"
-1Benst181
-Bennhardt B-181 "Valach"
 1Benst238
 Bennhardt B-238 "®abák"
-1Benst281
-Bennhardt B-281 "Tahoun"
 1Dampflokomotive
 RVg 0-4-0T
 20ft_Container_Trailer-128set
 Kontejnerový návìs na zbo¾í (20 stop)
 2Diesellokomotive
 H-Trans BR218
-3Bens185
-Bennhardt B-185 "Santa"
 3Bens186t
 Bennhardt B-186 "Citrón"
 3Dampflokomotive
 RVg 0-3-0 "Èiperka"
 40ft_Container_Trailer
 Kontejnerový návìs na zbo¾í (40 stop)
-451_Head
-VTS, MEZ 451
-451_Tail
-VTS, MEZ 451 (zadní)
-451_Waggon
-VTS, MEZ 451 (vùz)
-471_Head
-ÈKD-©koda 471 "Ledovec"
-471_Tail
-ÈKD - ©koda 471 (zadní)
-471_Waggon
-ÈKD - ©koda 471 (vùz)
-7BenE11
-Bennhardt E-11
-Aeroqueen_JR_Bus_Kanto
-Aeroqueen JR Kanto
 Airport_express_shuttle
 Leti¹tní expres
-AR4_back
-AR-4 (zadní)
-AR4_front
-AR-4 "Kikin"
-AR4_mid_engine
-AR-4 (prostøední)
-AR4_mid_trainer
-AR-4 (vagón)
-Asahi_Bus
-Asahi autobus
 Autotransportwagen
 Canonball pøepravní vagón (auta)
 BB-TS_Milk_Mack_Trailer
@@ -2376,16 +2090,12 @@ Big_Erztruck
 MHz velký nákladní automobil
 Bretterwagen
 Plo¹inový vagon (prkna)
-Btx020
-OnD Btx020
 Budd_Coach
 Budd RPO (vagon)
 Budd_Observation
 Budd RPO (jídelní vùz)
 Budd_RPO
 Budd RPO (po¹tovní)
-Bulk_Ship_0
-PMNV Loï na sypké zbo¾í
 Bulk_trailer_0
 Pøívìs na sypké materiály
 Bulk_Truck_0
@@ -2396,12 +2106,6 @@ Bulk_Truck_3
 VSYS-Tatra 815 (sypké materiály)
 Bulk_Truck_4
 Volvo LV76-78 Sypké materiály
-Bulker_Bulk
-BB Loï na sypké zbo¾í
-Bulker_Steel
-BB Loï na ocel
-Bulker_Wood
-BB Loï na døevo
 caboose_1
 Slu¾ební vùz
 caboose_2
@@ -2422,8 +2126,6 @@ CB_ALBATROS
 RVg ©koda 498 "Albatros"
 CB_DB-130_8
 Canonball & H-Trans BR132 "Ludmila"
-CD851
-OnD CD851 "Krokodýl"
 Cement_Carrier_Fast
 Vagon na cement
 Cement_trailer_0
@@ -2436,10 +2138,6 @@ Cement_Waggon_1
 BB-PMNV vagón na cement
 Cementwagen
 SergeSova cisterna na cement
-Ceres_Tender
-Tendr (Ceres)
-CKD_731
-ÈKD 731 "©pageta"
 CKD_749
 ÈKD 749 "Zamraèená"
 CKD_750
@@ -2452,8 +2150,6 @@ Concretewagen
 PMNV Míchaèka na beton 12
 Concretewagen_1
 PMNV Plo¹inový vùz na beton
-Container_Truck
-Kontejnerový náklaïák (kusové zbo¾í)
 Cooling_trailer_0
 PMNV Mrazírenský pøívìs
 Cooling_Truck_0
@@ -2468,14 +2164,6 @@ Cooling_wagon_1
 Chladící kontejnerový vùz
 Cooling_wagon_2
 Cannonball mrazírenský vagón
-D231_back
-D-231 (zadní)
-D231_front
-D-231 "Váhavá"
-D231_mid
-D-231 (vagón)
-Daisetsu_Maru
-Daisetsu Maru
 DB_ADm101
 Haru-DB ADm101
 DB_Apmz121
@@ -2484,56 +2172,20 @@ DB_Bm235
 Haru-DB Bm235
 DB_BR103_1
 Haru BR-103
-Dc110
-KIHA 110-141
-Dc110_car
-KIHA 110-141 vùz
-Dc22
-Kiha22 "Zelená tøída"
 DueWAG_GT6_motorwaggon
 Due WAG GT6
 DueWAG_GT6_tailwaggon
 Due WAG GT6 pøívìs
 E_423
 Sindor E 423 
-Eiden_Deo_903-KIRARA
-Eiden-Deo 903-KIRARA
-Eiden_Deo_904-KIRARA
-Eiden-Deo 904-KIRARA (vleèný vùz)
 EM400_1
 Sindor-FK EM400
 EMD_E5A_Silver_Meteor
 EMD E5A Støíbrný meteor
 EMD_E5B_Silver_Comet
 EMD E5B Støíbrná kometa
-Europa_Car_Transporter
-TS-MHz Loï na pøepravu aut "Europa"
-Europa_Goods_Transporter
-TS-MHz Loï na pøepravu zbo¾í "Europa"
-Evil_BR153
-Evil BR 153/155 "Sprinter"
-Evil_BR170_Back
-Evil BR 170 (zadní)
-Evil_BR170_Front
-Evil BR 170 "Turbostar"
-Evil_BR170_Mid
-Evil BR 170 (prostøední)
-Evil_BR357_Back
-Evil BR 357 (zadní)
-Evil_BR357_Front
-Evil BR 357 "Electrostar"
-Evil_BR357_M
-Evil BR 357 (motorový vùz)
-Evil_BR357_PT
-Evil BR 357 (pantograf)
-Evil_Daimler_DMS_Londoner
-Evil-Daimler DMS Londoner
 Evil_DF-11
 Evil DF-11
-Evil_Guy_Wulfrunian
-Evil-Guy Wulfrunian
-Evil_New_Flyer_D40-90
-Evil New Flyer D40-90
 Evil_P-100_(carriage)
 RVg P-100 (vagón)
 Evil_P-100_(front_engine)
@@ -2542,36 +2194,10 @@ Evil_P-100_(mail)
 RVg P-100 (po¹tovní)
 Evil_P-100_(rear_engine)
 RVg P-100 (koncový)
-Evil_Scania_K94UB
-Evil-Scania K94UB
-Evil_Scania_K94UB_Liner
-Evil-Scania K94UB Liner
-Evil-AEC_RM
-Evil-AEC RM
-Evil-Cicu_L32_Liner
-Evil-Cicu L32 Dálkový
 Evil-Jitluen_67_Minibus
 Evil-Jitluen 67 Minibus
-Evil-Jitluen_Beluga_FA_MKD-12
-Evil-Jitluen Beluga FA MKD-12
-Evil-Jitluen_Beluga_FA_SR
-Evil-Jitluen Beluga FA SR
-Evil-Jitluen_Beluga_FA_SU-10
-Evil-Jitluen Beluga FA SU-10
 Express_tender
 Tendr
-Fabric_Hopper_0
-PMNV vagón na pøízi
-Fabric_Hopper_1
-Canonball-PMNV pøepravník (vlna a bavlna)
-Fabric_Truck_0
-PMNV Pøepravník na tkaniny
-FastFerry
-Hovermarine HM527 (vzná¹edlo)
-Ferry_Mail_Extension
-Dodateèný prostor na po¹tu
-Fishing_Boat_0
-LR Rybáøská loï
 Fishing_Boat_1
 MHz Rybáøská bárka
 Fluid_trailer_0
@@ -2586,16 +2212,6 @@ Fluid_Truck_2
 S.Kroytor ZUK-20
 Fluid_Truck_3
 Magirus Cisterna 1923
-Freighter_Goods
-BB Loï na pøepravu kontejnerù (zbo¾í)
-FUSO_Aeromidi_Keio_Bus
-FUSO Aeromidi Keio Bus
-FUSO_Aerostar_Kanachu_Bus
-FUSO Aerostar Kanachu Bus
-GALA_Kanto_Railway
-GALA Kanto Railway
-Goods_schiff
-JET Loï na pøepravu zbo¾í
 Goods_trailer_0
 Mitsubishi Fuso Super Truck - pøívìs
 Goods_trailer_1
@@ -2628,28 +2244,14 @@ Goods_waggon_4
 HS Kontejnerový vùz na zbo¾í
 Goods_waggon_5
 RVg skøíòový vùz
-Grain_Ship_0
-PMNV Loï na pøepravu obilí
 Grain_trailer_0
 PMNV Pøívìs na zrní
 Grain_Truck_1
 VSYS-Tatra 815 (zrní)
-Grain_wagon_0
-Canonball Výsypný vùz na obilí
-Grain_wagon_1
-Canonball Krytý vùz na obilí
 Haru_2C1_Cheetah
 Haru 2C1 Gepard
 Haru_2D1_Buffalo
 Haru 2D1 Bizon
-Haru_Boeing747-200
-Haru Boeing 747-200
-Haru_Boeing747-200F_(CARGO)
-Haru Boeing 747-200 Cargo
-Haru_Boeing747-200F_(MAIL)
-Haru Boeing 747-200 Kurýr
-Haru_Boeing747-400
-Haru Boeing 747-400 Jumbo
 Haru_C44-9W
 Haru C44-9W "Bì¾ec"
 Haru_DF4
@@ -2730,30 +2332,12 @@ Haru-X2000_mid
 Haru X2000 (vagón)
 Haru-X2000_rear
 Haru X2000 (koncový)
-HIBARI-YS-11-100
-Hibari-YS-11-100
-HIBARI-YS-11A-200
-Hibari-YS-11A-200
-HIBARI-YS-11A-400_Cargo
-Hibari-YS-11A-400 Cargo
-HIBARI-YS-11A-400_Mail
-Hibari-YS-11A-400 Po¹tovní
-HIBARI-YS-11A-500
-Hibari-YS-11A-500
-Highway_Postal_Truck
-Dálnièní po¹tovní náklaïák
-Hikyaku_Truck
-Hikiyaku nákladní vùz (kusové zbo¾í)
 Holzwagen
 Klanicový vagón
 Holzwagen_0
 RVg Dvojvagón na klády
 Holzwagen_1
 RVg Klanicový vagón ètyøosý
-ISUZU_Erga_Odakyu_Bus
-ISUZU Erga Odakyu Bus
-JNR_B6
-JNR B6
 JNR_C11
 JNR SL C11
 JNR_C62
@@ -2774,58 +2358,12 @@ JR_700_Shinkansen_HRS_(Pantograph_II)_PC
 JR 700 Series Shinkansen HRS (Pantograf II)
 JR_700_Shinkansen_HRS_(Tailcar)_PC
 JR 700 Series Shinkansen HRS (zadní èást)
-JR_Shinkansen_723
-JR Shinkansen Series 700  
-JR_Shinkansen_724
-JR Shinkansen Series 700 (zadní)
-JR_Shinkansen_725
-JR Shinkansen Series 700 (pantograf)
-JR_Shinkansen_726
-JR Shinkansen Series 700 (vùz)
-JRF_EF210
-JRF EF210
-JRW_281
-JRW 281
-JRW_281_Mid
-JRW 281 (støed)
-JRW_281_tail
-JRW 281 (zadní)
-JRW_Mc123
-939-JRW Mc123
-kagoshima_U-tram
-713-Kagoshima 1000 "U-tram"
-Karl_MCW_Super_Metrobus_12m
-Karl-MCW Super Metrobus 12m
-Karl-MCW_Super_Metrobus_12M-158
-Karl-MCW Super Metrobus 12M 158
-Karl-MCW_Super_Metrobus_12M-214
-Karl-MCW Super Metrobus 12M 214
-KC-B10M_Keisei_Bus
-KC-B10M Keisei Bus (pøední èást)
-KC-B10M_Keisei_Bus_Extension
-KC-B10M Keisei Bus (prodlou¾ení)
-KEIFUKU_Mobo101
-KEIFUKU Mobo101
-KEIFUKU_Mobo301
-KEIFUKU Mobo301
-KEIHAN_type80
-KEIHAN type80
 Kord_TT_bulk
 Kord TT (sypký materiál)
-Kord_TT_fabric
-Kord TT (tkaniny)
 Kord_TT_grain
 Kord TT (zrní - sypký materiál)
-Kuro-Neko_Truck
-Kuro-Neko nákladní vùz (kusové zbo¾í)
-Leyland_Olympian
-Karl-Leyland Olympian 11M
 MA461_waggon
 MA461 - vagón
-Mack_Truck_0
-Teddyho Mack Truck VISION
-Mack_Truck_2
-Tahaè Mack 
 Mack_Truck_Cooling_Trailer
 Mack Truck - Chladící návìs
 Mack_Truck_Goods_Trailer
@@ -2856,10 +2394,6 @@ MHz-C11C_Bulk_Barge
 MHz C11C Remorkér na uhlí
 MHz-C11C_Wood_Barge
 MHz bárka C11C na døevo
-MHz-C130_Hercules
-MHz C-130 Herkules (cargo)
-MHz-C130_Hercules_(cooled)
-MHz C-130 Herkules (mra¾ené potraviny)
 MHz-C273U_Cement_Barge
 MHz C273U remorkér na cement
 MHz-C35_Goods_Barge
@@ -2868,16 +2402,6 @@ MHz-C3P_Post_Barge
 MHz C3P Po¹ta
 MHz-CC47_Container_Barge
 MHz CC47 Kontejnerová loï (zbo¾í)
-MHz-Fokker_F27
-MHz Fokker F27
-MHz-Il-76_Candid
-MHz Il-76 Candid
-MHz-Ju-51
-MHz Ju-51
-MHz-McDonnell-Douglas_DC10
-MHz-McDonnell Douglas DC-10
-MHz-McDonnell-Douglas_DC3
-MHz-McDonnell Douglas DC-3 Dakota
 MHz-MT7_Milk_Barge
 MHz MT7 (mléko)
 MHz-OT5_Oil_Barge
@@ -2894,14 +2418,8 @@ Milk_Truck_1
 S.Kroytor-ZIL Mléèná cisterna
 Milk_Truck_2
 Magirus Cisterna na mléko
-Milk_Waggon_0
-BB Cisterna na mléko typ 2
-Milk_Waggon_1
-BB Cisterna na mléko
 mja-MAN19332-128set
 mja-MAN 19332
-mja-ScaniaP380_fabrics
-mja-Scania P380 (tkaniny)
 mja-ScaniaP380_tanker
 mja-Scania P380 - cisterna
 mja-ScaniaP420_concretemixer
@@ -2922,46 +2440,8 @@ mja-volvoVN660
 Volvo VN660 tahaè
 mja-Zil130-128set
 mja-Zil 130
-moha2100
-Moha 2100
-Monatetsu_Steam_Ceres
-Monantetsu Ceres
-MS_Hino_goods Truck
-Hino
 MS_sprinter_mail
 Sprinter po¹tovní vùz
-nankai21K_Front
-Nankai 21000 "Bzuèák"
-nankai21K_Rear
-Nankai 21000 (zadní)
-Nankai6K_E
-Haguruma Nankai 6000 (zadní)
-Nankai6K_M
-Haguruma Nankai 6000
-Nankai6K_T
-Haguruma Nankai 6000 (vagón)
-Nishitetsu_Truck
-Nishitetsu
-Oeltankschiff
-LMP Tanker
-Oelwagen
-Shorty-MAVA Cisterna 30
-Oelwagen_0
-Shortyho cisterna na ropu
-Oelwagen_1
-Shortyho cisterna na ropné produkty
-OER_D_3000_Head
-OER-D 30000
-OER_D_3000_Tail
-OER-D 30000 (zadní)
-OER_D_3000_Waggon
-OER-D 30000 (vagón)
-okaden_type9200_momo_A
-713-Okaden 9200 "MOMO"
-okaden_type9200_momo_B
-713-Okaden 9200 "MOMO" (zadní)
-Old_Ferry_0
-RMS Královna moøí "Titanic"
 Passagierwagen
 Canonball BTx 060 2. tøída
 Passanger_waggon_0
@@ -2974,8 +2454,6 @@ Passanger_waggon_3
 RA BTx 050 2. tøída
 Passanger_waggon_MAITE39
 Nabe-JNR MAITE 39 1. tøída
-Pelican_Truck
-Náklaïák Pelikán (kusové zbo¾í)
 Planck_Truck_0
 PMNV-Canonball Plochý vùz (prkna)
 Plank_Truck_2
@@ -3000,16 +2478,10 @@ PMNV_Cruiser_Mini
 PMNV Cruiser Mini
 PMNV_Fabric_Trailer_0
 PMNV Uzavøený pøívìs na tkaniny
-PMNV_Fabric_Trailer_1
-PMNV Otevøený pøívìs na tkaniny
-PMNV_Goods_Ship
-PMNV Kontejnerová loï (zbo¾í)
 PMNV_Grain_Truck_0
 PMNV Náklaïák na zrní
 PMNV_Hydrogen_Cruiser
 PMNV vodíkový autobus
-PMNV_International_Cabover
-PMNV Tahaè
 PMNV_Mack_Bulk_Trailer_0
 PMNV Mack Návìs 22 (sypké materiály)
 PMNV_Mack_Cement_Trailer_L
@@ -3020,10 +2492,6 @@ PMNV_Mack_Concrete_Trailer_O
 PMNV Mack Návìs "B" (beton)
 PMNV_Mack_cooled_Trailer_O
 PMNV Mack Chlazený návìs 
-PMNV_Mack_Cotton_Trailer_0
-PMNV Mack Návìs na tkaniny
-PMNV_Mack_Fabric_Trailer_O
-PMNV Mack Krátký návìs na tkaniny
 PMNV_Mack_Goods_Trailer_O
 PMNV Mack Návìs na zbo¾í
 PMNV_Mack_Grain_Trailer_0
@@ -3094,8 +2562,6 @@ PMNV-TC-5P_Mail_Man
 PMNV TC-5P Po¹»ák
 Post_Barge
 MHz Po¹tovní bárka
-Post_Ship
-PMNV Po¹tovní loï
 Post_waggon_0
 PV 80 Po¹tovní vùz
 Postwagen
@@ -3152,10 +2618,6 @@ RVg_2006_container_car
 RVg kontejnerový vagón (2006/27)
 RVg_2011_container_car
 RVg kontejnerový vagón (2011/27)
-RVg_A318-100
-RVg A318-100
-RVg_A380
-RVg A-380
 RVg_Bulk_Waggon_00
 RVg vagón na sypké náklady (1850/20)
 RVg_Bulk_Waggon_01
@@ -3172,8 +2634,6 @@ RVg_Bulk_Waggon_06
 RVg vagón na sypké náklady (2019/35)
 RVg_Cementwagen
 RVg vagón na cement
-RVg_Comet
-RVg Kometa
 RVg_Cooling_car
 RVg chladírenský vagón
 RVg_Daylight
@@ -3188,12 +2648,6 @@ RVg_Daylight_tender
 RVg "Úsvit" (tendr)
 RVg_Daylight_waggon
 RVg "Úsvit" (vagon)
-RVg_early_milk_waggon
-RVg cisterna na mléko
-RVg_F-27
-RVg F-27
-RVg_Flyer-W8B
-RVg W8B 
 RVg_Flying_Berliner_(front)
 RVg Létající Berlíòan (lokomotiva)
 RVg_Flying_Berliner_(tail)
@@ -3210,8 +2664,6 @@ RVg_Hiawatha_tender
 RVg expres Hiawatha (uhlák)
 RVg_Hiawatha_waggon
 RVg expres Hiawatha (vagon)
-RVg_Ju52
-RVg Ju-52
 RVg_M1
 RVg M1 (lokomotiva)
 RVg_M1_tail
@@ -3286,8 +2738,6 @@ RVg-B_101
 RVg B22 Autobus
 RVg-B_107
 RVg B149 Èervený skøítek
-RVg-Bulk_Freighter
-RVg Nákladní loï (zbo¾í)
 RVg-D22-Rola
 RVg D22 Rola
 RVg-D23-Camel
@@ -3302,10 +2752,6 @@ RVg-E17-Spring
 RVg E17 "Pru¾ina"
 RVg-Express_Tender
 RVg Expresní Tendr
-RVg-G5_Posttaxi
-RVg G5 Expresní po¹ta
-RVg-Goods_Liner
-RVg S-12 Nákladní loï
 RVg-Goods_waggon
 RVg Uzavøený vagón (dobytèák)
 RVg-Heavy-Tender
@@ -3326,8 +2772,6 @@ RVg-LK_Cement_Truck
 RVg LK (cement)
 RVg-LK_Cooling_Truck
 RVg-LK V44 chladící vùz
-RVg-LK_Fabric_Truck
-RVg-LK V32 na pøízi
 RVg-LK_Goods_Truck
 RVg-LK náklaïák na zbo¾í
 RVg-LK_Grain_Truck
@@ -3336,8 +2780,6 @@ RVg-LK_Plank_Truck
 RVg-LK V37 klanicový vùz na prkna
 RVg-LK_Steel_Truck
 RVg-LK V38 plochý vùz na ocel
-RVg-Lockheed_Constellation
-RVg Lockheed EC-121 Constellation
 RVg-Oil-Tender
 RVg Tendr na topný olej
 RVg-Pioneer_Alladin
@@ -3360,22 +2802,12 @@ RVg-Sail_Goods_Ship_0
 RVg Obchodní bárka
 RVg-Sail_Passanger_Ship_0
 RVg Fregata
-RVg-Sea_Liner
-RVg QE
-RVg-Sea_Liner_II
-RVg QE2
 RVg-Steam_Goods_Ship_0
 RVg Nákladní parník
 RVg-Steam_Passanger_Ship_0
 RVg Kolesový parník
-RVg-Steel_Hauler
-RVg Nákladní loï (ocel)
-RVg-Tanker
-RVg SuperTanker (ropa,benzín)
 RVg-Tender
 RVg Tendr
-RVg-Wood_Hauler
-RVg Nákladní loï na døevo
 RX_1064
 RX 1064 Autobus
 S_Kroytor_Gaz-2
@@ -3436,12 +2868,6 @@ SAC-Airbus_A380-800F_128_set
 SAC-Airbus A380-800F (nákladní)
 SAC-Airbus_A380-800P_128_set
 SAC-Airbus A380-800P (letecká po¹ta)
-SAC-Boeing_707_128_set
-SAC-Boeing 707
-SAC-Boeing_727_128_set
-SAC-Boeing 727
-SAC-Boeing_737_128_set
-SAC-Boeing 737
 SAC-Boeing_747-200_128_set
 SAC-Boeing 747-200
 SAC-Boeing_747-200F_128_set
@@ -3450,8 +2876,6 @@ SAC-Boeing_747-200P_128_set
 SAC-Boeing 747-200P (letecká po¹ta)
 SAC-Boeing_747-400_128_set
 SAC-Boeing 747-400
-SAC-Boeing_777_128_set
-SAC-Boeing 777
 SAC-De_Havilland_Comet_128_set
 SAC-De Havilland Comet
 SAC-Douglas_DC-3_128_set
@@ -3480,28 +2904,10 @@ SAC-Rohrbach_Rocco_128_set
 SAC-Rohrbach Rocco
 Sail_Post_Ship_0
 Po¹tovní kutr
-SBB_IC2k
-SBB IC2 Èelní vùz
-SBB_IC2k_bistro
-SBB IC2 Jídelní vùz
-SBB_IC2k_tail
-SBB IC2 Koncový vùz
-SBB_IC2k_waggon
-SBB IC2 Vùz
 SBB_Re4_4_II
 Haru-SBB Re 4/4 II
-SBB_Re460
-SBB Re 460
 SBB_Re6_6
 Haru-SBB Re 6/6 "Gotthard"
-Seagull_Car
-MCM Seagull (vùz)
-Seagull_Head
-MCM Racek
-Seagull_Motor
-MCM Racek (pantograf)
-Seagull_Tail
-MCM Racek (zadní)
 Sentinel_Cement_Lorry
 Sindor-Sentinel - cement
 Sentinel_Cement_Trailer
@@ -3514,22 +2920,6 @@ Sentinel_Wood_Lorry
 Sindor-Sentinel na pøepravu klád
 Sentinel_Wood_Trailer
 Pøívìs pro Sentinel - klády
-Shinkansen_500_Head
-JR Shinkansen Øada 500 "Nozomi"
-Shinkansen_500_Pantograph
-JR Shinkansen Series 500 (pantograf)
-Shinkansen_500_Tail
-JR Shinkansen Øada 500 (zadní)
-Shinkansen_500_Waggon
-JR Shinkansen Øada 500 (vùz)
-Shinkansen_series0_back
-Shinkansen Øada 0 (zadní)
-Shinkansen_series0_front
-Shinkansen Øada 0
-Shinkansen_series0_mid
-Shinkansen Øada 0 (prostøední)
-Sindor-Rohrbach_Rocco
-Sindor-Rohrbach Rocco Hydroplán
 SK_Mail_Truck_1
 S.Kroytor po¹tovní vùz
 skoda_1_tr_128
@@ -3606,8 +2996,6 @@ Stahlwagen_3
 RVg vagón na ocelové pláty (ocel)
 Steel_Truck_0
 PMNV Plochý vùz (ocel)
-Super_Citybus_1
-Super Citybus I
 T_101
 RVg T101
 T_102
@@ -3650,28 +3038,8 @@ Thunder_(rear_engine)
 BB Thunder (koncový)
 Thunder_(waggon)
 BB Thunder (vagón)
-Tobu_Bus
-Tobu autobus
-Tobu_Dial_Bus
-Tobu linkový autobus
-Tobu_Highway_Bus
-Tobu dálkový autobus
-Tobu_Truck
-Tobu nákladní auto (kusové zbo¾í)
 TS_Mack_Bulk_Trailer_0
 TS lehký návìs na sypké náklady
-TS_Mack_Bulk_Trailer_1
-TS návìs na sypké náklady
-TS_Mack_Container_Trailer_S
-TS krátký kontejnerový návìs
-TS_Ocean_Liner
-TS Zaoceánský parník
-TS_Ocean_Star
-TS Moøská hvìzda
-TS-MHZ_Schoner
-TS-MHz Karavela
-UD_Nonstep_Tokyu_Bus
-UD Nonstep Tokyu Bus
 Vitus-AVECO_Eurocargo_Bretter
 Vitus-Aveco Eurocargo (prkna)
 Vitus-AVECO_Eurocargo_bulk_transporter
@@ -3706,10 +3074,6 @@ VSYS_Tatra_138_Grain
 VSYS Tatra 138 (zrní)
 VSYS_Tatra_813_Clossus
 VSYS Tatra 813 "Kolos"
-Western_Observation
-Western vyhlídkový vùz
-Western_Passenger_Car
-Western osobní vùz
 Wood_Trailer_0
 VSYS Pøívìs - døevo
 Wood_Truck_0
@@ -3738,32 +3102,12 @@ yoshi_wup196502
 GTW 85 spojka
 yoshi_wup196503
 GTW 85 konec
-Youtei_Maru
-Youtei Maru
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 air_movement_area
 Pojí¾dìcí plocha
-air_movement_area_old
-Dlá¾dìná pojí¾dìcí plocha
-asphalt_road
-Asfaltová silnice
-autobahn
-Dálnice
-city_road
-Mìstská silnice
-cobblestone_road
-Dlá¾dìná silnice
-concrete_road
-Betonová silnice
 concrete_sleeper_track
 Tra» s betonovými pra¾ci
-concrete_tram_track
-Tramvajový pás
-dirt_road
-Polní cesta
-gravel_road
-©tìrková cesta
 High_quality_track
 Tra» vysoké kvality
 low_quality_track
@@ -3774,8 +3118,6 @@ old_taxiway
 Pojí¾dìcí plocha
 Powerline
 Vedení vysokého napìtí
-Rillenschienen
-Tramvajová tra»
 river_00
 Splavná øeka
 river_01
@@ -3794,8 +3136,6 @@ steel_sleeper_track
 Vysokorychlostní koridor
 Suspended_Monorail_Track
 Vysutá jednokolejka
-US_asphalt_road
-Americká asfaltová silnice
 water_road
 Kanál øíèní dopravy
 wooden_sleeper_track
