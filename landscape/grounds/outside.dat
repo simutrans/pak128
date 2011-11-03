@@ -1,0 +1,7 @@
+Obj=ground
+Name=Outside
+copyright=pak128 1.99.0 + nightly
+hangtyp * animation
+Image[0][0]=outside.1.1
+--------------------------------------------------------------------------------
+ 
