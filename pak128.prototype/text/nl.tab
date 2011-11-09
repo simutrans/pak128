@@ -5,7 +5,7 @@
 #                            Language: nl Nederlands                           #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 25.10 2011                           #
+#                            Date Created: 2.11 2011                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                   - Combuijs                                 #
@@ -104,10 +104,12 @@ big_classic_bus_stop
 Grote Bushalte
 big_modern_bus_stop
 Moderne bushalte
+BigTerminal1930_AirportBlg
+Luchthaven Terminal (1930)
 BigTerminal1950_AirportBlg_S
-Grote passagiersterminal van 1950 (Zuid)
+Grote passagiersterminal (1950)
 Bulk_Dock
-Goederenhaven
+Bulkgoederenhaven
 Bulk_StationBlg
 Bulkgoederenopslag
 bus_terminus
@@ -1682,6 +1684,8 @@ dairy
 Melkfabriek
 Druckerei
 Drukkerij
+electronics_factory_new
+Elektronicafabriek
 Erzbergwerk
 IJzererts mijn
 ethanol_plant
@@ -1694,6 +1698,8 @@ food_processing_plant
 Voedingsmiddelenfabriek
 ForestPlantation
 Productiebos
+Geothermal powerplant_kraftwerk
+Geothermische centrale
 Glass_factory
 Glasfabriek
 grain_farm_w_fields
@@ -1716,6 +1722,8 @@ Oelfeld
 Olieveld
 oilkraftwerk
 Electr. centrale/olie
+old_fish_cannery
+Visconservenfabriek
 old_powerplant_kraftwerk
 Kolencentrale
 open_coal_mine
@@ -1738,8 +1746,12 @@ sheep_farm
 Schapenfarm
 shopping_mall
 Winkelcentrum
+SolarThermalOne_kraftwerk
+Zonne-energie centrale
 steel_mill
 Staalfabriek
+StirlingThermalCollectorsFarm_kraftwerk
+Sterling Warmtekrachtcentrale
 Stonequarry
 Steengroeve
 supermarket
@@ -1980,10 +1992,18 @@ Big_Bretterwagen
 Oplegger voor planken
 Big_Erztruck
 Vrachtwagen voor Bulkgoed
+BR-373_Car
+BR-373 Eurostar
+BR-373_Eurostar
+BR-373 Eurostar
+BR-373_FrontCar
+BR-373 Eurostar
 Bretterwagen
 Oplegger voor planken
 Budd_Coach
 Budd RPO (passagierswagen)
+Budd_Lounge
+Budd RPO (passagierswagen met uitkijk)
 Budd_Observation
 Budd Wagon
 Budd_RPO

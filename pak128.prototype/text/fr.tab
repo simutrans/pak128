@@ -5,7 +5,7 @@
 #                             Language: fr Francais                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 25.10 2011                           #
+#                            Date Created: 9.11 2011                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                  - Christophe                                #
@@ -33,7 +33,7 @@
 #                            Luc Mallet - luc.mallet                           #
 #                                    note:                                     #
 #                                     - mEGa                                   #
-#                          note: Tilecutter translator                         #
+#                            note: French translator                           #
 #                          Christophe Manaud - manaud                          #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
@@ -458,6 +458,8 @@ PostOffice1920_AirportBlg
 Ancien batiment de la poste aerienne
 Radar3
 Radar
+radiant_house
+Maison Radieuse\nBâtiment de Le Corbusier\nC'est la coopérative de propriétaires qui gère la résidence.
 RADIO_TOWER_0
 C'est le studio de la radio\nlocale "Chit-Chat FM". Un\ncertain nombre de\npersonnes s'y rendent, car\nla radio a promi de laisser\nles spectateurs à y venir,\nchaque jour, de 13h00 à\n14h00.\n
 RES_00_01
