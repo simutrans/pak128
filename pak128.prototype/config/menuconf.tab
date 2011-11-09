@@ -17,6 +17,7 @@
 icon_width = 32
 icon_height = 32
 
+
 # FIRST SECTION: general tools
 # these tools have an icon, a cursor, and maybe a sound
 # each entry has the form: general_tool[i]=a,b,c,k
@@ -108,6 +109,7 @@ general_tool[33]=,,11,
 general_tool[34]=,,11,
 general_tool[35]=16,13,11,K
 
+
 # SECOND SECTION: simple tools
 # since these tools act immeadiately
 # they have only an icon assigned
@@ -116,37 +118,42 @@ general_tool[35]=16,13,11,K
 # a is the icon as number in menu: menu.SimpleTools.pak
 # k is the key to toggle this
 #
-# WKZ_PAUSE =              0
-# WKZ_FASTFORWARD =        1
-# WKZ_SCREENSHOT =         2
-# WKZ_INCREASE_INDUSTRY =  3
-# WKZ_UNDO =               4
-# WKZ_SWITCH_PLAYER =      5
-# WKZ_STEP_YEAR =          6
-# WKZ_CHANGE_GAME_SPEED =  7
-# WKZ_ZOOM_IN =            8
-# WKZ_ZOOM_OUT =           9
-# WKZ_SHOW_COVERAGE =     10
-# WKZ_SHOW_NAMES =        11
-# WKZ_SHOW_GRID =         12
-# WKZ_SHOW_TREES =        13
-# WKZ_SHOW_HOUSES =       14
-# WKZ_SHOW_UNDERGROUND =  15
-# WKZ_ROTATE90 =          16
-# WKZ_QUIT =              17
-# WKZ_FILL_TREES =        18
-# WKZ_DAYNIGHT_LEVEL =    19
-# WKZ_VEHICLE_TOOLTIPS=   20
-# WKZ_TOOGLE_PAX=         21
-# WKZ_TOOGLE_PEDESTRIANS= 22
-# WKZ_TRAFFIC_LEVEL=      23
-# WKZ_CONVOI_TOOL=        24
-# WKZ_LINE_TOOL=          25
-# WKZ_DEPOT_TOOL=         26 (internal use)
-# WKZ_PWDHASH_TOOL=       27 (internal use)
-# WKZ_SET_PLAYER_TOOL=    28 (internal use)
-# WKZ_TRAFFIC_LIGHT_TOOL= 29 (internal use)
-#
+# WKZ_PAUSE =               0
+# WKZ_FASTFORWARD =         1
+# WKZ_SCREENSHOT =          2
+# WKZ_INCREASE_INDUSTRY =   3
+# WKZ_UNDO =                4
+# WKZ_SWITCH_PLAYER =       5
+# WKZ_STEP_YEAR =           6
+# WKZ_CHANGE_GAME_SPEED =   7
+# WKZ_ZOOM_IN =             8
+# WKZ_ZOOM_OUT =            9
+# WKZ_SHOW_COVERAGE =      10
+# WKZ_SHOW_NAMES =         11
+# WKZ_SHOW_GRID =          12
+# WKZ_SHOW_TREES =         13
+# WKZ_SHOW_HOUSES =        14
+# WKZ_SHOW_UNDERGROUND =   15
+# WKZ_ROTATE90 =           16
+# WKZ_QUIT =               17
+# WKZ_FILL_TREES =         18
+# WKZ_DAYNIGHT_LEVEL =     19
+# WKZ_VEHICLE_TOOLTIPS =   20
+# WKZ_TOOGLE_PAX =         21
+# WKZ_TOOGLE_PEDESTRIANS = 22
+# WKZ_TRAFFIC_LEVEL =      23
+# WKZ_CONVOI_TOOL =        24
+# WKZ_LINE_TOOL =          25
+# WKZ_DEPOT_TOOL =         26 // only for internal use
+# WKZ_PWDHASH_TOOL =       27 // only for internal use
+# WKZ_SET_PLAYER_TOOL =    28 // only for internal use
+# WKZ_TRAFFIC_LIGHT_TOOL = 29 // only for internal use
+# WKZ_CHANGE_CITY_TOOL =   30 // only for internal use
+# WKZ_RENAME_TOOL =        31 // only for internal use
+# WKZ_ADD_MESSAGE_TOOL =   32 // only for internal use
+# WKZ_TOGGLE_RESERVATION = 33
+# WKZ_VIEW_OWNER =         34
+
 simple_tool[0]=0,p
 simple_tool[1]=1,W
 simple_tool[2]=2,c
@@ -168,6 +175,7 @@ simple_tool[16]=4,R
 # Quit (17) removed due to people accidentally killing their games
 #simple_tool[17]=,X
 simple_tool[20]=,/
+simple_tool[34]=,O
 
 
 # THIRD SECTION: dialoge tools
