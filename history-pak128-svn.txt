@@ -5,6 +5,45 @@ For full history or technical details see svn logs.
 Names in brackets after message list the author/originator of change. It does not necessarily have to be member of pak128 team - external contributors are there as well.
 
 
+09.11.2011
+	- Add show owner tool (VS)
+	- Update translations (VS)
+03.11.2011
+	- New water and outside tiles (Fabio)
+10.10.2011
+	- Add road and rail gates to block other players (Fabio)
+03.10.2011
+	- Replace tram tacks with a new set (Fabio)
+19.09.2011
+	- Update road set (Fabio)
+15.09.2011
+	- Fix too long container wagons (Zeno)
+30.08.2011
+	- Add Croatian city list (phantom25)
+27.08.2011
+	- Fix alignment of MV Balmoral (Zeno)
+15.07.2011
+	- Add "Radiant House", a SMSC winner (mEGa)
+16.06.2011
+	- Fix zooming icon on large warehouse (VaclavMacurek)
+23.05.2011
+	- Change cacti into groundobjs to prevent forests (VS)
+18.05.2011
+	- Add player colour to rail depot (Sim)
+15.05.2011
+	- Add remove tool for power lines (DirrrtyDirk)
+	- Add compatibility entries for new roads (VS)
+30.04.2011
+	- Fix some trees' climates (VS)
+29.04.2011
+	- Fix graphical glitches on trees (VS)
+21.04.2011
+	- Add timeline for truck trailers (Zeno)
+19.04.2011
+	- Fix swapped images on Goods_waggon_0 (DirrrtyDirk)
+	- Add power line bridge button (Erik, Fabio)
+	- Fix special colours on MJa trailers (VS)
+
 ## pak128 version 1.99.0 ##
 
 19.04.2011
