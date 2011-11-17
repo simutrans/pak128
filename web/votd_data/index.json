@@ -1,0 +1,60 @@
+[
+
+{"date": "2010-07-01", "text":
+"<img src='votd_data/0000_tanker_barrels.png' alt='Wood Barrels Railcar' id='votd-main-illustration' /> <h3>Wood Barrels Railcar</h3> <p>Rail wagon where oil is carried inside wood barrels</p>" },
+
+{"date": "2010-07-01", "text":
+"<img src='votd_data/0001_tanker_iron.png' alt='Twin Iron Tanks' id='votd-main-illustration' /> <h3>Twin Iron Tanks</h3> <p>Rail wagon with two iron tanks on top</p>" },
+
+{"date": "2010-07-01", "text":
+"<img src='votd_data/0002_tanker_csd502.png' alt='CSD-502 Tank Wagon' id='votd-main-illustration' /> <h3>CSD-502 Tank Wagon</h3> <p>Old style short tanker with 12&nbsp;m<sup>3</sup> of capacity</p>" },
+
+{"date": "2010-07-01", "text":
+"<img src='votd_data/0003_tanker_csd556.png' alt='CSD-556 Tank Wagon' id='votd-main-illustration' /> <h3>CSD-556 Tank Wagon</h3> <p>Old style short tanker with 15&nbsp;m<sup>3</sup> of capacity</p>" },
+
+{"date": "2010-07-01", "text":
+"<img src='votd_data/0004_tanker_esso.png' alt='Esso Tank Wagon' id='votd-main-illustration' /> <h3>Esso Tank Wagon</h3> <p>Short Esso tanker for oil transport (19&nbsp;m<sup>3</sup>)</p>" },
+
+{"date": "2010-07-01", "text":
+"<img src='votd_data/0005_tanker_cepsa.png' alt='Cepsa Tank Wagon' id='votd-main-illustration' /> <h3>Cepsa Tank Wagon</h3> <p>Modern spanish oil tanker with capacity for 24&nbsp;m<sup>3</sup></p>" },
+
+{"date": "2010-07-01", "text":
+"<img src='votd_data/0006_tanker_vtg.png' alt='VTG Tank Wagon' id='votd-main-illustration' /> <h3>VTG Tank Wagon</h3> <p>Modern german oil tanker with capacity for 28&nbsp;m<sup>3</sup></p>" },
+
+{"date": "2010-07-01", "text":
+"<img src='votd_data/0007_tanker_essoxl.png' alt='Esso XL Tank Wagon' id='votd-main-illustration' /> <h3>Esso XL Tank Wagon</h3> <p>Modern Esso oil tanker with capacity for 32&nbsp;m<sup>3</sup></p>" },
+
+{"date": "2010-07-01", "text":
+"<img src='votd_data/0008_tanker_vtgcesa.png' alt='VTG CeSa Tank Wagon' id='votd-main-illustration' /> <h3>VTG CeSa Tank Wagon</h3> <p>Newest Alsthom oil tanker with capacity for 35&nbsp;<sup>3</sup></p>" },
+
+{"date": "2011-02-20", "text":
+"<img src='votd_data/0009_class100.png' alt='Class 100 underground' id='votd-main-illustration' /> <h3>Class 100 underground train</h3> <p>An underground train with capacity of 238 passengers per wagon, introduced in 1926.</p>" },
+
+{"date": "2011-02-20", "text":
+"<img src='votd_data/0010_class200.png' alt='Class 200A underground' id='votd-main-illustration' /> <h3>Class 200A underground train</h3> <p>A 1944 underground train with capacity of 190 passengers per car.</p>" },
+
+{"date": "2011-02-20", "text":
+"<img src='votd_data/0011_class200b.png' alt='Class 200B underground' id='votd-main-illustration' /> <h3>Class 200B underground train</h3> <p>Underground train available in 1953 with capacity of 383 passengers total in each engine &amp; car pair.</p>" },
+
+{"date": "2011-02-20", "text":
+"<img src='votd_data/0012_class300.png' alt='Class 300 underground' id='votd-main-illustration' /> <h3>Class 300 underground train</h3> <p>1962 underground train, capable of transporting 236 passengers in each engine &amp; car couple.</p>" },
+
+{"date": "2011-02-20", "text":
+"<img src='votd_data/0013_class400.png' alt='Class 400 underground' id='votd-main-illustration' /> <h3>Class 400 underground train</h3> <p>Underground train for 386 passengers in every engine &amp; car formation. Available from 1958 to 1973.</p>" },
+
+{"date": "2011-02-20", "text":
+"<img src='votd_data/0014_class500.png' alt='Class 500 underground' id='votd-main-illustration' /> <h3>Class 500 underground train</h3> <p>A 2003 underground train with capacity for 346 passengers in engine+car formation.</p>" },
+
+{"date": "2011-02-20", "text":
+"<img src='votd_data/0015_class1000.png' alt='Class 1000 underground' id='votd-main-illustration' /> <h3>Class 1000 underground train</h3> <p>Underground train for 236 passengers in each wagon, available since 1970.</p>" },
+
+{"date": "2011-02-20", "text":
+"<img src='votd_data/0016_class2000.png' alt='Class 2000 underground' id='votd-main-illustration' /> <h3>Class 2000 underground train</h3> <p>Underground train for 348 passengers in each engine &amp; car pair, introduced in 1992.</p>" },
+
+{"date": "2011-02-20", "text": 
+"<img src='votd_data/0017_class3000.png' alt='Class 3000 underground' id='votd-main-illustration' /> <h3>Class 3000 underground train</h3> <p>An underground train driving in 3-vehicle configuration with unpowered middle car. Capacity for 515 passengers in the whole unit. Introduced 1986.</p>" },
+
+{"date": "2011-02-20", "text":
+"<img src='votd_data/0018_class6000.png' alt='Class 6000 underground' id='votd-main-illustration' /> <h3>Class 6000 underground train</h3> <p>This five-car unit, introduced in 2007, can hold 1155 passengers at once.</p>" }
+
+]
