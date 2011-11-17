@@ -2,7 +2,19 @@
 
 <html>
 <head>
-<!-- used: native json, data uris, html5, png with alpha; IE baseline is 8 -->
+<!--
+* Used tech: native json, data uris, html5, png with alpha; IE baseline is 8.
+* Reducing requests with inline css, script & data helps noticeably download time.
+* If you want to look at the sources in their full glory, this page lives in svn:
+	https://simutrans.svn.sourceforge.net/svnroot/simutrans/pak128/web
+* The principles used:
+	* graceful fallback is important,
+	* desktop and mobile are one,
+	* eye candy is good but optional.
+* Thanks to http://caniuse.com/
+* Authors are listed in footer, history is in svn
+* Copyright and licensing? Treat this as PD (CC-0), except for images.
+-->
 
 <meta content="text/html; charset=utf-8" http-equiv="content-type" />
 <title>Simutrans 128x128 Tileset Home</title>
@@ -10,208 +22,208 @@
 
 <style type="text/css">
 * { /* reset all */
-  margin: 0;
-  padding: 0;
-  border: none;
-  border-width: 0;
-  color: black;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-width: 0;
+	color: black;
 }
 
 html {
-  background-color: #E9E9E9;
-  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/wgALCABAAIABAREA/8QAFwABAQEBAAAAAAAAAAAAAAAAAQACB//aAAgBAQAAAAHoswkxU1ELRTVOYaYRcpSTU5qYqkmEkpoYhahFyuYaac1JST//xAAUEAEAAAAAAAAAAAAAAAAAAABw/9oACAEBAAEFAgD/xAAUEAEAAAAAAAAAAAAAAAAAAABw/9oACAEBAAY/AgD/xAAdEAABBAMBAQAAAAAAAAAAAAAAARARMSAhQXFR/9oACAEBAAE/IVnrU9EkECNqcbwkjrSTvTQe4b6/hvpJYmUfCn8I20kFKdE21EFIdbxoEZbEa2WetT0SQTvTQetGyjpeEkdacY+FHMPDfSSxHogpDuCbojbSQUreH//aAAgBAQAAABCZLU1crgk07C+ZWk0Irmw2/8QAIhABAAMAAgICAwEBAAAAAAAAAQARITFBUWFxgRCRsaHB/9oACAEBAAE/EGsh6vnjiA9uY083fqVQ2UeYVq7zzBK0fMs68Sq2VFTpTCracY0Ju9yqMt6lC0jcQDEyHzUN7E44rzHVhYZldy1N6+o2pcSjvn1AAmQXojavcp0pBppaTH4iVfcAVZoUWMrhNgDnf4LDF5+ptP5Nr6lbsquvuGKnRLd/2A41ZDV4hdlauBgkFGm4N58paiu3FLz7JSi/1MW9TcfuXVMgE3+5g1bENFbAU1Oa+PUGscRt52AnJL6ml2Sq2VFTpT5mW7jKGBfcVeZ41uUqzfiVTfcsyHq+fiA8nmNJt36lUNlEK1d55glaPmWdeIL0RtXuUrFINNLic0VkaYg0a6ltEc7hvYnHFeY6sLDMruWpvX1G1LiUd8+oAElV19wxU6Jbv+wHGrJpvELsrVyrx3PSSuE2AOd/gsMXn6m0/k2vqArcy6u6jWitgKanm49QaxxG272Fhil9TTki4Raiu3FB/pKUfyNLXibh9wNP+Sytb4n/2Q==); /* iso-grid; images/bckg.jpg */
+	background-color: #E9E9E9;
+	background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/wgALCABAAIABAREA/8QAFwABAQEBAAAAAAAAAAAAAAAAAQACB//aAAgBAQAAAAHoswkxU1ELRTVOYaYRcpSTU5qYqkmEkpoYhahFyuYaac1JST//xAAUEAEAAAAAAAAAAAAAAAAAAABw/9oACAEBAAEFAgD/xAAUEAEAAAAAAAAAAAAAAAAAAABw/9oACAEBAAY/AgD/xAAdEAABBAMBAQAAAAAAAAAAAAAAARARMSAhQXFR/9oACAEBAAE/IVnrU9EkECNqcbwkjrSTvTQe4b6/hvpJYmUfCn8I20kFKdE21EFIdbxoEZbEa2WetT0SQTvTQetGyjpeEkdacY+FHMPDfSSxHogpDuCbojbSQUreH//aAAgBAQAAABCZLU1crgk07C+ZWk0Irmw2/8QAIhABAAMAAgICAwEBAAAAAAAAAQARITFBUWFxgRCRsaHB/9oACAEBAAE/EGsh6vnjiA9uY083fqVQ2UeYVq7zzBK0fMs68Sq2VFTpTCracY0Ju9yqMt6lC0jcQDEyHzUN7E44rzHVhYZldy1N6+o2pcSjvn1AAmQXojavcp0pBppaTH4iVfcAVZoUWMrhNgDnf4LDF5+ptP5Nr6lbsquvuGKnRLd/2A41ZDV4hdlauBgkFGm4N58paiu3FLz7JSi/1MW9TcfuXVMgE3+5g1bENFbAU1Oa+PUGscRt52AnJL6ml2Sq2VFTpT5mW7jKGBfcVeZ41uUqzfiVTfcsyHq+fiA8nmNJt36lUNlEK1d55glaPmWdeIL0RtXuUrFINNLic0VkaYg0a6ltEc7hvYnHFeY6sLDMruWpvX1G1LiUd8+oAElV19wxU6Jbv+wHGrJpvELsrVyrx3PSSuE2AOd/gsMXn6m0/k2vqArcy6u6jWitgKanm49QaxxG272Fhil9TTki4Raiu3FB/pKUfyNLXibh9wNP+Sytb4n/2Q==); /* iso-grid; images/bckg.jpg */
 }
 
 body {
-  font-family: Verdana, Tahoma, Arial;
-  font-size: 90%;
-  text-align: left;
-  color: black;
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 90%;
+	text-align: left;
+	color: black;
 }
 
 h1 {
-  font-size: 200%;
-  margin: 1em 0 1em 0;
+	font-size: 200%;
+	margin: 1em 0 1em 0;
 }
 
 h2 {
-  font-size: 120%;
-  margin: 0.7em 0 0.7em 0;
+	font-size: 120%;
+	margin: 0.7em 0 0.7em 0;
 }
 
 h3 {
-  font-size: 100%;
-  margin: 0.5em 0 0.5em 0;
+	font-size: 100%;
+	margin: 0.5em 0 0.5em 0;
 }
 
 p { /* common for all paragraphs */
-  margin: 1em 0 1em 0; /* text flow - top & bottom, sides are left for manipulation */
-  text-align: justify;
+	margin: 1em 0 1em 0; /* text flow - top & bottom, sides are left for manipulation */
+	text-align: justify;
 }
 
 strong {
-  font-size: 125%;
+	font-size: 125%;
 }
 
 span[title], abbr[title] {
-  border-bottom: 1px dashed #AAAAAA;
-  cursor: help;
+	border-bottom: 1px dashed #AAAAAA;
+	cursor: help;
 }
 
 dt {
-  font-weight: bold;
-  margin-top: 1.5em;
+	font-weight: bold;
+	margin-top: 1.5em;
 }
 
 dd {
-  padding-left: 1em;
+	padding-left: 1em;
 }
 
 a {
-  font-weight: bold;
-  color: #50608E;
-  text-decoration: none;
+	font-weight: bold;
+	color: #50608E;
+	text-decoration: none;
 }
 a:hover {
-  color: #152560;
-  text-decoration: underline;
+	color: #152560;
+	text-decoration: underline;
 }
 
 img#biglogo {
-  float: left;
-  position: relative;
-  top: -0.5em;
-  margin: 1em 1em 1em 0;
+	float: left;
+	position: relative;
+	top: -0.5em;
+	margin: 1em 1em 1em 0;
 }
 
 header {
-  overflow: hidden;
-  margin: 0 2% 2em 2%;
-  display: block;
+	overflow: hidden;
+	margin: 0 2% 2em 2%;
+	display: block;
 }
 
 header p {
-  margin: 2em;
+	margin: 2em;
 }
 
 p#download {
-  text-align: center;
-  margin: 2em 2em 5em 2em;
-  display: block;
-  clear: left;
-  float: none;
-  max-width: none;
+	text-align: center;
+	margin: 2em 2em 5em 2em;
+	display: block;
+	clear: left;
+	float: none;
+	max-width: none;
 }
 
 div#content {
-  width: 100%;
-  position: relative;
-  overflow: visible;
-  /* children with absolute position will be calculated WITHIN this block! */
+	width: 100%;
+	position: relative;
+	overflow: visible;
+	/* children with absolute position will be calculated WITHIN this block! */
 }
 
 footer {
-  background: #CCCCCC;
-  width: 100%;
-  padding-top: 1em; /* this hides the uneven botom ends of side bars */
-  padding-bottom: 1em;
-  position: relative;
-  margin: 0;
-  display: block;
+	background: #CCCCCC;
+	width: 100%;
+	padding-top: 1em; /* this hides the uneven botom ends of side bars */
+	padding-bottom: 1em;
+	position: relative;
+	margin: 0;
+	display: block;
 }
 
 section { /* common class for "tabs" */
-  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAXcCAAAAAC3ntedAAAAAXNSR0IArs4c6QAAAAJiS0dEAP+Hj8y/AAADzUlEQVR4nO3VrZLbVhgG4EP3Csr3BoKXBosZmi0zEVgQsFQspERkSUBIiWY6JSECS0wyI9DMooBkOpmkTaYXkepYdqz/zUqs8xwzW+9zfr7vyOHh09+fHsryzR9F8dvr16/u7vJfX77Msuz29uYm3e2ur7fbzWaTPK/H1dWzelxeXv5Sj4uLixfll69fwz+f3+/398uE8OKvb+HD5+rtCuHf8OXPaoVw8Xv4+K4aCHlLuDkKSU+4PJ5DeKiqeeGxXVTVOuEELBZ+AEuFM7BQaAHLhDawSOgAS/qhCyxYQw/4WaEsT0If+CmhLOOTjTAAHheaeFnm+dUoMCHcHoVzPMviGkaAOeEc32yyLJ7DGDAptOO7XZ7FWowC40ITv2/id+kBeD4BjAid2e92u6LID/0wAfSFsiyyomjHkySEZAboCM3sRT2y7BxvenISOAutwkXgGD/15DRwFNp1r4G8iZ+7egaIQrfuEYjx9r2YA6p+3bMiyUO47dyLGWBY9zj7qSdP74cJIE/G6h5C915EYRSoN1qPYd37N+u6FsaAcMjn38tu3UfuZi2MAKEeMZ6m7bqP3+4JIAbS+nOue/lm4v3QB/YxWSZJjB9WcKh77KgpoQek4Xu9/TQtQ55HINb92JMTwgC4r+P1/kOdT+Psh69nhA6QHGaPx5eEVnxWaAPp/hRPmoNs/TYptB/ah31yjKdpGPvPGhFajzXzNvHtdlDdCaEN7JOmA+o1DOKTQgsI2+YQR2afETo73W73SX/vjwm9x8dv55wwH5gVXh2EJwJD4anAQHgy0BeeDvSEBUBXWAJ0hEVAW1gGtISFwFlYCvwQFgMnYTlwFFYAjbAGOAirgCisA2phJVC9XQtUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgP8P8B+EB1lhGyPhwgAAAABJRU5ErkJggg==)  no-repeat top left; /* loco + vertical stripe; images/divback.png */
-  margin: 0 2% 0 2%;
-  padding-bottom: 2em;
-  height: 100%;
-  overflow: visible;
-  top: 0;
-  display: block;
+	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAXcCAAAAAC3ntedAAAAAXNSR0IArs4c6QAAAAJiS0dEAP+Hj8y/AAADzUlEQVR4nO3VrZLbVhgG4EP3Csr3BoKXBosZmi0zEVgQsFQspERkSUBIiWY6JSECS0wyI9DMooBkOpmkTaYXkepYdqz/zUqs8xwzW+9zfr7vyOHh09+fHsryzR9F8dvr16/u7vJfX77Msuz29uYm3e2ur7fbzWaTPK/H1dWzelxeXv5Sj4uLixfll69fwz+f3+/398uE8OKvb+HD5+rtCuHf8OXPaoVw8Xv4+K4aCHlLuDkKSU+4PJ5DeKiqeeGxXVTVOuEELBZ+AEuFM7BQaAHLhDawSOgAS/qhCyxYQw/4WaEsT0If+CmhLOOTjTAAHheaeFnm+dUoMCHcHoVzPMviGkaAOeEc32yyLJ7DGDAptOO7XZ7FWowC40ITv2/id+kBeD4BjAid2e92u6LID/0wAfSFsiyyomjHkySEZAboCM3sRT2y7BxvenISOAutwkXgGD/15DRwFNp1r4G8iZ+7egaIQrfuEYjx9r2YA6p+3bMiyUO47dyLGWBY9zj7qSdP74cJIE/G6h5C915EYRSoN1qPYd37N+u6FsaAcMjn38tu3UfuZi2MAKEeMZ6m7bqP3+4JIAbS+nOue/lm4v3QB/YxWSZJjB9WcKh77KgpoQek4Xu9/TQtQ55HINb92JMTwgC4r+P1/kOdT+Psh69nhA6QHGaPx5eEVnxWaAPp/hRPmoNs/TYptB/ah31yjKdpGPvPGhFajzXzNvHtdlDdCaEN7JOmA+o1DOKTQgsI2+YQR2afETo73W73SX/vjwm9x8dv55wwH5gVXh2EJwJD4anAQHgy0BeeDvSEBUBXWAJ0hEVAW1gGtISFwFlYCvwQFgMnYTlwFFYAjbAGOAirgCisA2phJVC9XQtUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgP8P8B+EB1lhGyPhwgAAAABJRU5ErkJggg==)  no-repeat top left; /* loco + vertical stripe; images/divback.png */
+	margin: 0 2% 0 2%;
+	padding-bottom: 2em;
+	height: 100%;
+	overflow: visible;
+	top: 0;
+	display: block;
 }
 
 section#info {
-  width: 56%;
+	width: 56%;
 }
 
 section#news {
-  width: 40%;
-  position: absolute;
-  left: 56%;
+	width: 40%;
+	position: absolute;
+	left: 56%;
 }
 
 section#votd {
-  display: none;
-  position: absolute;
+	display: none;
+	position: absolute;
 }
 
 section p, section dl, section h2, section h3,
 section img#votd-main-illustration {
-  /* items in "tabs" */
-  padding-left: 76px; /* because of bg image size */
-  padding-right: 1em; /* just some space */
+	/* items in "tabs" */
+	padding-left: 76px; /* because of bg image size */
+	padding-right: 1em; /* just some space */
 }
 
 section#votd img#reloader {
-  position: absolute;
-  right: 0; top: 1em;
-  cursor: pointer;
-  margin-left: 1em;
+	position: absolute;
+	right: 0; top: 1em;
+	cursor: pointer;
+	margin-left: 1em;
 }
 
 footer * {
-  color: #808080;
+	color: #808080;
 }
 
 footer p {
-  text-align: center;
-  font-size: 75%;
-  padding: 0 1em 0 1em; /* nothing vertically - done by parent */
-  margin-bottom: 0; /* don't push empty space below */
+	text-align: center;
+	font-size: 75%;
+	padding: 0 1em 0 1em; /* nothing vertically - done by parent */
+	margin-bottom: 0; /* don't push empty space below */
 }
 
 em {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
 }
 
 footer a {
-  color: #7586B7;
+	color: #7586B7;
 }
 
 footer p#votd_disabled {
-  color: #C08080;
+	color: #C08080;
 }
 
 .mobileonly {
-  display: none;
+	display: none;
 }
 
 #info p, .wide header p {
-  max-width: 40em;
+	max-width: 40em;
 }
 
 .wide section#info {
-  width: 44% !important;
+	width: 44% !important;
 }
 
 .wide section#news {
-  width: 30% !important;
-  left: 44% !important;
+	width: 30% !important;
+	left: 44% !important;
 }
 
 .wide section#votd {
-  width: 22% !important;
-  display: block !important;
-  left: 74% !important;
+	width: 22% !important;
+	display: block !important;
+	left: 74% !important;
 }
 
 .wide header p {
-  /*max-width: 40em;*/
-  width: 30%;
-  float: left;
-  margin: 2em 2em 1em 2em;
+	/*max-width: 40em;*/
+	width: 30%;
+	float: left;
+	margin: 2em 2em 1em 2em;
 }
 </style>
 
@@ -286,6 +298,7 @@ function handleIncomingIndex() {
 //-------
 
 function stepRequests() {
+	// steps requests, which means it downloads index first if needed
 	if ((request.readyState == 4) || (request.readyState == 0)) { // prepared to send?
 		if (content_visible) {
 			if (!index_data) {
@@ -296,11 +309,23 @@ function stepRequests() {
 			} else {
 				if (new_content_index != content_index) {
 					content_index = new_content_index;
-					filename = index_data[content_index]["file"];
-					connection_type = "data";
-					request.onreadystatechange = handleIncomingData;
-					request.open("GET", "votd_data/"+filename, true);
-					request.send();
+					var filename = index_data[content_index]["file"];
+					var text = index_data[content_index]["text"];
+					if (filename) {
+						// presence of file name takes precedence - d/l it for content
+						connection_type = "data";
+						request.onreadystatechange = handleIncomingData;
+						request.open("GET", "votd_data/" + filename, true);
+						request.send();
+					} else if (text) {
+						// use "inline" text if present
+						content_data = text;
+						Update();
+					} else {
+						// neither is present...
+						content_data = "<p>Malformed data :-( Tell the authors, please...</p>";
+						Update();
+					}
 				}
 			}
 		}
@@ -335,22 +360,16 @@ function Update() {
 
 function pageLoaded() {
 	if (votd_enabled) {
-		resizeInfo();
-		Update();
+		resizeHandler();
 		stepRequests();
 	}
 }
 
-//-------
-
-function resizeInfo() {
-	content_visible = votd_enabled && (bodyScreenWidth() >= 1200);
-}
 
 //-------
 
 function resizeHandler() {
-	resizeInfo();
+	content_visible = votd_enabled && (bodyScreenWidth() >= 1200);
 	Update();
 }
 
