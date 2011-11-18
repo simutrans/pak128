@@ -255,7 +255,8 @@ class Entry :
 				elif cmd == "wait" :
 					time.sleep(float(param))
 				elif cmd == "delete" :
-					deletePath(param)
+					tmp = parsePaths(param)
+					deletePath(tmp[0])
 				elif cmd == "mkdir" :
 					ensurePath(param)
 				elif cmd == "echo" :
