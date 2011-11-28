@@ -258,7 +258,7 @@ cost_maintain_transformer=100
 # 2 = (default) use settings during game creation
 # 3 = use settings during game creation, new games on
 #
-use_timeline = 2
+#use_timeline = 3
 
 # Starting year of the game:
 # Setting it below 1930 is not recommended!
