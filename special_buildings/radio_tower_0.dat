@@ -4,5 +4,7 @@ Copyright=Patrick
 Type=cur
 Passengers=5
 Dims=1,1
+climates=tropic,mediterran,temperate,tundra
+needs_ground=1
 BackImage[0][0][0][1][0]=radio_tower_0.1.0
 BackImage[0][0][0][0][0]=radio_tower_0.2.0
