@@ -8,5 +8,6 @@ Chance=10
 #intro_year=1965
 #retire_year=2140
 Dims=1,1
+climates=desert,tropic,mediterran
 BackImage[0][0][0][1][0]=rmax_mosque.1.0
 BackImage[0][0][0][0][0]=rmax_mosque.2.0

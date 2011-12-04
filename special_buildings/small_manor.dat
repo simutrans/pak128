@@ -3,5 +3,6 @@ Name=SMALL_MANOR
 Copyright=MHz
 Type=cur
 Passengers=60
+climates=temperate,tundra
 BackImage[0][0][0][1][0]=small_manor.1.0
 BackImage[0][0][0][0][0]=small_manor.2.0

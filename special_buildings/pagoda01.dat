@@ -4,6 +4,7 @@ Copyright=Rmax500
 Type=cur
 Passengers=30
 Dims=1,1,1
+climates=mediterran,temperate,tundra
 #intro_year=1960
 #retire_year=2030
 BackImage[0][0][0][0][0]=pagoda01.1.0

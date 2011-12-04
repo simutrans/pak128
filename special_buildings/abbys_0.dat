@@ -3,5 +3,6 @@ Name=ABBYS_0
 Copyright=MHz
 Type=cur
 Passengers=70
+climates=tropic,mediterran,temperate,tundra
 BackImage[0][0][0][1][0]=abbys_0.1.0
 BackImage[0][0][0][0][0]=abbys_0.2.0
