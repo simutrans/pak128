@@ -26,6 +26,3 @@ station_buildings
 tram_tracks
 tunnels_all
 water_all
-
-OPTIONS
-compile yes

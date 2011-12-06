@@ -5,6 +5,13 @@ For full history or technical details see svn logs.
 Names in brackets after message list the author/originator of change. It does not necessarily have to be member of pak128 team - external contributors are there as well.
 
 
+03.12.2011
+	- Add two new ferries from SRGC (VS, mEGa)
+	- Fix weird or wrong climates and backgrounds on some special buildings (VS)
+28.11.2011
+	- Fix wrong timeline settings in simuconf.tab (VS)
+19.11.2011
+	- Improved graphics on some Czech locomotives (TommPa9)
 09.11.2011
 	- Add show owner tool (VS)
 	- Update translations (VS)
