@@ -3,6 +3,8 @@
 # This file allows replacing objects. Mostly used for deprecated items.        #
 # Format is: first line name of old item, second line name of what replaces it #
 #                                                                              #
+# Caution when appending - there must be a line break after last *used* line   #
+#                                                                              #
 ###########################  Plastic -> piece goods  ###########################
 Freighter_Plastic
 Stoyko_Peev
@@ -392,3 +394,4 @@ Rillenschienen
 Tram_Track_050_A
 concrete_tram_track
 Tram_Track_090_A
+
