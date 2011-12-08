@@ -52,8 +52,7 @@ SingleImageParameterNames = [
 #-----
 
 class SimutransObject :
-	"""
-	DAT object container for data agnostic and non-invasive manipulation.
+	"""DAT object container for data-agnostic and non-invasive manipulation.
 	
 	Encapsulates a single game object. Actual data is stored in field
 	"lines" (list of strings), manipulation is abstracted mainly to
@@ -69,11 +68,10 @@ class SimutransObject :
 		self.image = None
 		self.save = False
 		
-	def loc (self, param) :
-		"""
-		Query the object for position of key "param".
+	def loc(self, param) :
+		"""Query the object for position of key "param".
 		
-		Returns the index if present, else -1.
+		Returns the (integer) index if present, otherwise -1.
 		"""
 		if type(param) != str :
 			raise KeyError('Not a string') # not a string
@@ -87,10 +85,9 @@ class SimutransObject :
 		return -1 # not found
 		
 	def ask(self, param, default=None, interpretation=True) :
-		"""
-		Query the object for a value.
+		"""Query the object for a value.
 		
-		Returns the value of "param" if present, else "default". With
+		Returns the value of "param" if present, otherwise "default". With
 		"interpretation" set on, return value is converted to an int if
 		it is a number.
 		"""
@@ -112,13 +109,12 @@ class SimutransObject :
 		return default # not found
 		
 	def ask_indexed(self, param) :
-		"""
-		Query the object for values of an indexed parameter.
+		"""Query the object for values of an indexed parameter.
 		
 		Returns indices and respective values of "param". Result format
 		is a list [(indices, value), (...), ... ] where both are strings.
 		Indices include the square brackets - eg. "[0][0][1][0][2]". If
-		the parameter is not present at all, empty list is returned.
+		the wanted parameter is not present at all, an empty list is returned.
 		"""
 		if type(param) != str :
 			raise KeyError('Not a string') # not a string
@@ -142,11 +138,11 @@ class SimutransObject :
 		return result # put back what was found 
 		
 	def put(self, param, value, weak=False) :
-		"""
-		Set a parameter to specified value.
+		"""Set a parameter to specified value.
 		
 		Sets "param" to "value"; the former must be a string. If "weak" is
 		True, absence of the parameter in object will result in exception.
+		Otherwise, the missing parameter will be appended as new last line.
 		"""
 		if type(param) != str :
 			raise KeyError('Not a string') # not a string
@@ -162,14 +158,14 @@ class SimutransObject :
 				self.lines[i] = "=".join(parts)
 				return
 			i = i + 1
+		# not found yet, so not present
 		if weak :
 			raise KeyError('Not present')
 		else :
 			self.lines.append(param + "=" + str(value))
 			
 	def allComments(self) :
-		"""
-		Return a list of all comments in the object.
+		"""Return a list of all comments in the object.
 		
 		Returns a list of all/any comments found within the object. When
 		none are present, the list is empty.
@@ -185,41 +181,29 @@ class SimutransObject :
 		return result
 		
 	def isObj(self) :
-		"""
-		Check if the object is an object.
+		"""Check if the object is an object recognizable by makeobj.
 		
 		Checks whether parameter "obj" is set. Returns boolean.
 		"""
 		return bool(self.has("obj",))
 		
 	def has(self, param) :
+		"""Check for presence of a parameter.
 		"""
-		Check for presence of parameter.
-		"""
-		# note that you can ask for 
-		if type(param) != str :
-			raise KeyError('Not a string') # not a string
-		lparam = param.lower() # improve loop speed
-		for line in self.lines :
-			if line.startswith("#") :
-				continue # skip comments
-			if line.strip().lower().startswith(lparam) :
-				return True # exists
-		return False # if it got here, it's not there
+		return self.loc(param) >= 0
 		
 	def isValid(self) :
-		"""
-		NOT IMPLEMENTED!
+		"""NOT IMPLEMENTED!
 		
 		Checks if the present parameters and their values form a valid
 		object.
 		"""
 		return True
 		# todo: add some code to check if it has the right parameters
+		# will be probably complicated
 	
 	def dump(self, file) :
-		"""
-		Dump the object to file.
+		"""Dump the object to an already opened file.
 		"""
 		for line in self.lines :
 			file.write(line)
@@ -227,10 +211,16 @@ class SimutransObject :
 #-----
 
 class SimutransImgParam :
-	"""
-	Container for Simutrans image reference handling.
+	"""Container for Simutrans image reference handling.
+	
+	Allows painless conversion of image references (everything to the
+	right of "=") from string to a structure and back. Understands all
+	normally used syntaxes recognized by makeobj; (non)recognition of
+	malformed inputs is probably not identical, though.
 	"""
 	def __init__(self, param=None) :
+		"""Create a new object from string.
+		"""
 		self.prefix = ""
 		self.file = ""
 		self.coords = [-1, -1]
@@ -253,7 +243,7 @@ class SimutransImgParam :
 				pos = ""
 								
 				if target.endswith(".png") :
-					# already full path -> reparse into canocical form
+					# already full path -> reparse into canonical form
 					target = target.replace(".png", "") + ".0.0"
 				if target.endswith(".PNG") :
 					# same with uppercase
@@ -283,10 +273,11 @@ class SimutransImgParam :
 				self.offset[1] = int(offsets[2])
 	
 	def __str__(self) :
+		"""Get a string representation usable in DAT file.
+		
+		Implicitly called when casting to a string: str(obj)
 		"""
-		Get a string representation usable in DAT file.
-		"""
-		result = self.prefix + self.file
+		result = self.prefix + self.file # always correct
 		if not self.isEmpty() :
 			result += ".%i.%i" % (self.coords[0], self.coords[1])
 			if self.hasOffsets() :
@@ -294,20 +285,19 @@ class SimutransImgParam :
 		return result
 	
 	def hasOffsets(self) :
-		"""Check if offsets are used."""
+		"""Check if offsets are used.
+		"""
 		return (self.offset[0] != 0) or (self.offset[1] != 0)
 	
 	def isEmpty(self) :
-		"""
-		Check if this means "no image".
+		"""Check if this means "no image".
 		
 		Tests whether the file reference is not set to special value "-".
 		"""
 		return self.file == "-"
 	
 	def isNozoom(self) :
-		"""
-		Check if the reference is set to "no zooming".
+		"""Check if the image is set to "no zooming".
 		
 		This is determined from file reference, which can include the
 		no-zoom mark in form of "> " prefix.
@@ -320,12 +310,14 @@ def loadFile(loc, mainlist) :
 	"""
 	Load objects and append to list.
 	
-	In "loc" supply a string with path to a dat file.
+	In "loc" supply a string with path to a dat file. Existing items
+	of "mainlist" are not touched.
 	
 	The only parsing done here is finding separators; this means that
 	"false" objects with no parameters can appear if the file contained
 	such data. Thus the resulting list is "dirty" and must be further
-	cleaned with some of the functions prune***().
+	cleaned with some of the functions prune***(). Object separators
+	are lines starting with at least THREE dashes ("---")!
 	"""
 	f = open(loc)
 	lines = f.readlines()
@@ -342,8 +334,7 @@ def loadFile(loc, mainlist) :
 #-----
 
 def walkFiles(topdir, callback, ignorefile="statsignore.conf", showplaces=False, cbparam=None, recurse=True, extension="dat") :
-	"""
-	Run a callback on specified file type in given tree.
+	"""Run a callback on specified file type in given tree.
 	
 	For every file ending in "extension" that is found in directory tree
 	beginning at "topdir", run "callback".
@@ -377,8 +368,7 @@ def walkFiles(topdir, callback, ignorefile="statsignore.conf", showplaces=False,
 #-----
 
 def pruneList(dataset) :
-	"""
-	Remove from object list all comment-only objects.
+	"""Remove from object list all comment-only objects.
 	"""
 	i = len(dataset) - 1
 	while i >= 0 :
@@ -389,8 +379,7 @@ def pruneList(dataset) :
 #-----
 
 def pruneObjs(dataset, toKeep) :
-	"""
-	Reduce object list to objects whose obj= value is one from "toKeep".
+	"""Reduce object list to objects whose obj= value is one from "toKeep".
 	"""
 	i = len(dataset) - 1
 	while i >= 0 :
@@ -401,8 +390,7 @@ def pruneObjs(dataset, toKeep) :
 #-----
 
 def pruneByParam(dataset, param, values, invert=False) :
-	"""
-	Reduce object list according to certain parameter's values.
+	"""Reduce object list according to certain parameter's values.
 	
 	Go through list "dataset" and keep only objects that have parameter
 	"param" and its value is found in list "values". By setting "invert" the
@@ -417,8 +405,7 @@ def pruneByParam(dataset, param, values, invert=False) :
 #-----
 
 def canonicalObjName(raw) :
-	"""
-	Turn object name to identifier safe in external environment.
+	"""Turn object name to identifier safe in external environment.
 	"""
 	# assume raw is a string
 	return raw.lower().replace(" ", "_").replace(".", "_")
@@ -427,11 +414,14 @@ def canonicalObjName(raw) :
 #-----
 
 def getPNGsize(filename) :
-	"""
-	Read from PNG file picture width and height. Returns as tuple.
+	"""Read from PNG file picture width and height. Returns as tuple.
+	
+	Crashes on files shorter than 24 Bytes (PNG is always longer). If the file is not
+	a PNG image, output is "random" garbage.
 	"""
 	f = open(filename, "rb")
 	f.seek(16) # skip: 8 file magic, 4 chunk length, 4 chunk name (IHDR)
+	# TODO: possibly check magic to ensure it's PNG
 	data = struct.unpack("!LL", f.read(8)) # contents are now (w,h)
 	f.close()
 	return data
