@@ -13,6 +13,13 @@ Productivity=100
 Range=80
 pax_level=30
 
+Electricity_demand=0
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=100
+Passenger_demand=0
+Passenger_boost=500
+
 OutputGood[0]=meat
 OutputCapacity[0]=300
 OutputFactor[0]=100

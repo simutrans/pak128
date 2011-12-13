@@ -1,10 +1,18 @@
 Obj=factory
 Name=ethanol_plant
 Copyright=Rmax500
+
 DistributionWeight=1
 Productivity=440
 Range=200
 pax_level=30
+
+Electricity_demand=0
+Electricity_boost=1000
+Mail_demand=0
+Mail_boost=200
+Passenger_demand=0
+Passenger_boost=500
 
 #everage input 540 * 1.5 = 810t
 #supplies 2 modern gas stations

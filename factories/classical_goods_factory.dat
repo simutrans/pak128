@@ -13,6 +13,13 @@ Productivity=320
 Range=180
 pax_level=50
 
+Electricity_demand=0
+Electricity_boost=1000
+Mail_demand=0
+Mail_boost=200
+Passenger_demand=0
+Passenger_boost=500
+
 #plastik consumable input 400
 InputGood[0]=Plastik
 InputCapacity[0]=1500

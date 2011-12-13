@@ -9,6 +9,13 @@ Productivity=420
 Range=120
 pax_level=90
 
+Electricity_demand=0
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=500
+Passenger_demand=0
+Passenger_boost=1200
+
 InputGood[0]=Moebel
 InputCapacity[0]=800
 InputSupplier[0]=0

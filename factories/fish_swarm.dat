@@ -12,6 +12,13 @@ Productivity=100
 Range=140
 pax_level=0
 
+Electricity_demand=0
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=0
+Passenger_demand=0
+Passenger_boost=0
+
 #need entry for stations
 enables_ware=1
 

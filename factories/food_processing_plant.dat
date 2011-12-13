@@ -12,6 +12,13 @@ Productivity=600
 Range=200
 pax_level=60
 
+Electricity_demand=0
+Electricity_boost=1000
+Mail_demand=0
+Mail_boost=200
+Passenger_demand=0
+Passenger_boost=500
+
 #total meat input 140
 InputGood[0]=meat
 InputFactor[0]=20

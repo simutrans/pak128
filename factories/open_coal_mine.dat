@@ -13,6 +13,13 @@ Productivity=80
 Range=50
 pax_level=55
 
+Electricity_demand=800
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=0
+Passenger_demand=0
+Passenger_boost=500
+
 OutputGood[0]=Kohle
 OutputCapacity[0]=300
 

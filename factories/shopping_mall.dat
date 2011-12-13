@@ -13,6 +13,13 @@ pax_level=100
 Copyright=Napik & Patrick & James Starr
 #intro_year=1950
 
+Electricity_demand=0
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=500
+Passenger_demand=0
+Passenger_boost=1500
+
 InputGood[0]=goods_
 InputCapacity[0]=1200
 InputSupplier[0]=0

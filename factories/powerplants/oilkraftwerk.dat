@@ -7,11 +7,17 @@ Productivity=600
 Range=400
 pax_level=20
 
-
 Smoke=industry_smoke
 SmokeTile=0,0
 SmokeOffset=-5,-58
 SmokeSpeed=256
+
+Electricity_demand=0
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=500
+Passenger_demand=0
+Passenger_boost=800
 
 InputGood[0]=Oel
 InputCapacity[0]=6000

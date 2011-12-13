@@ -13,6 +13,13 @@ Productivity=200
 Range=40
 pax_level=110
 
+Electricity_demand=0
+Electricity_boost=1000
+Mail_demand=0
+Mail_boost=200
+Passenger_demand=0
+Passenger_boost=500
+
 #steel input 400t
 InputGood[0]=Stahl
 InputCapacity[0]=2500

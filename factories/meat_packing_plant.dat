@@ -8,6 +8,13 @@ Productivity=120
 Range=80
 pax_level=20
 
+Electricity_demand=0
+Electricity_boost=1000
+Mail_demand=0
+Mail_boost=200
+Passenger_demand=0
+Passenger_boost=500
+
 InputGood[0]=meat
 InputCapacity[0]=900
 InputSupplier[0]=0

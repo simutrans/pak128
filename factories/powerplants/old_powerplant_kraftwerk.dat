@@ -14,8 +14,15 @@ Range=40
 pax_level=20
 #powerplant should have quite predictable consumption to ensure steady
 #flow of electricity
-Smoke=industry_smoke
 
+Electricity_demand=0
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=500
+Passenger_demand=0
+Passenger_boost=800
+
+Smoke=industry_smoke
 SmokeTile=0,0
 SmokeOffset=-42,-98
 # Tweak!

@@ -12,6 +12,13 @@ Productivity=80
 Range=40
 pax_level=15
 
+Electricity_demand=0
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=800
+Passenger_demand=0
+Passenger_boost=500
+
 Smoke=industry_smoke
 SmokeTile=1,0
 SmokeOffset=11,-59

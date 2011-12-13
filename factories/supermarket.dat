@@ -13,6 +13,13 @@ Range=200
 pax_level=120
 #intro_year=1930
 
+Electricity_demand=0
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=500
+Passenger_demand=0
+Passenger_boost=1500
+
 InputGood[0]=food
 InputCapacity[0]=1200
 InputSupplier[0]=2

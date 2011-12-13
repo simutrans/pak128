@@ -14,6 +14,13 @@ Range=40
 pax_level=65
 intro_year=1960
 
+Electricity_demand=0
+Electricity_boost=1000
+Mail_demand=0
+Mail_boost=200
+Passenger_demand=0
+Passenger_boost=500
+
 #plastic consumable input 600
 InputGood[0]=Plastik
 InputCapacity[0]=2000

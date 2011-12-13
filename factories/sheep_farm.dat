@@ -12,6 +12,13 @@ Productivity=270
 Range=120
 pax_level=10
 
+Electricity_demand=0
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=0
+Passenger_demand=0
+Passenger_boost=500
+
 OutputGood[0]=wool
 OutputCapacity[0]=800
 OutputFactor[0]=100

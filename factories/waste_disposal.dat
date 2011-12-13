@@ -9,6 +9,13 @@ Productivity=75
 Range=50
 pax_level=3
 
+Electricity_boost=0
+Electricity_demand=0
+Mail_demand=0
+Mail_boost=300
+Passenger_demand=0
+Passenger_boost=500
+
 OutputGood[0]=waste
 OutputCapacity[0]=300
 

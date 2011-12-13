@@ -11,6 +11,13 @@ pax_level=5
 Copyright=Patrick
 retire_year=2000
 
+Electricity_demand=0
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=500
+Passenger_demand=0
+Passenger_boost=1200
+
 InputGood[0]=Gasoline
 InputCapacity[0]=100
 InputSupplier[0]=0

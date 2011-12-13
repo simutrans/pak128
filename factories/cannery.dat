@@ -12,6 +12,13 @@ Productivity=160
 Range=80
 pax_level=30
 
+Electricity_demand=0
+Electricity_boost=1000
+Mail_demand=0
+Mail_boost=200
+Passenger_demand=0
+Passenger_boost=500
+
 #total fish input 140 (average 1pond one swarm)
 InputGood[0]=fish
 InputCapacity[0]=1500

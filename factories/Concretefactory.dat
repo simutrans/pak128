@@ -12,6 +12,13 @@ Productivity=400
 Range=140
 pax_level=15
 
+Electricity_demand=0
+Electricity_boost=1000
+Mail_demand=0
+Mail_boost=200
+Passenger_demand=0
+Passenger_boost=500
+
 #stone input 210 - part of this quarry production is consumed by cement mill
 InputGood[0]=Stone
 InputCapacity[0]=1700

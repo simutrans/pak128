@@ -11,6 +11,13 @@ Productivity=100
 Range=20
 pax_level=3
 
+Electricity_demand=0
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=500
+Passenger_demand=0
+Passenger_boost=1200
+
 InputGood[0]=Autos
 InputCapacity[0]=100
 InputSupplier[0]=0

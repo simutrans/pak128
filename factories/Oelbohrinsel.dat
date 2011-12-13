@@ -11,7 +11,13 @@ DistributionWeight=1
 Productivity=1000
 Range=400
 pax_level=15
-intro_year=1968
+
+Electricity_demand=0
+Electricity_boost=0
+Mail_demand=0
+Mail_boost=0
+Passenger_demand=0
+Passenger_boost=500
 
 #need entry for stations
 enables_pax=1
@@ -22,7 +28,7 @@ OutputGood[0]=Oel
 OutputCapacity[0]=1500
 
 MapColor=252
-intro_year=1970
+intro_year=1968
 Dims=3,3
 
 BackImage[0][0][0][0][0]=oelbohrinsel.2.2
