@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/python
 #  -*- coding: utf-8 -*-
 #
-#  Vladimír Slávik 2008 - 2010
-#  Python 2.5
+#  Vladimír Slávik 2008 - 2011
+#  Python 3.1
 #
 #  for Simutrans
 #  http://www.simutrans.com
@@ -14,7 +14,7 @@
 Easy handling of Simutrans DAT files.
 """
 
-from __future__ import print_function
+from __future__ import print_function, unicode_literals, division
 
 import glob, os, struct
 
@@ -68,14 +68,19 @@ class SimutransObject :
 		self.image = None
 		self.save = False
 		
+	def __CheckString(var) :
+		# check for being a string
+		# centralized to one function to allow easier changes
+		if not isinstance(var, str) :
+			raise KeyError('Not a string')
+		
 	def loc(self, param) :
 		"""Query the object for position of key "param".
 		
 		Returns the (integer) index if present, otherwise -1.
 		"""
-		if type(param) != str :
-			raise KeyError('Not a string') # not a string
-		lparam = param.lower() # improve loop speed
+		__CheckString(param)
+		lparam = param.lower()
 		for i in range(len(self.lines)) :
 			line = self.lines[i]
 			if (len(line) < 1) or line.startswith("#") :
@@ -91,9 +96,8 @@ class SimutransObject :
 		"interpretation" set on, return value is converted to an int if
 		it is a number.
 		"""
-		if type(param) != str :
-			raise KeyError('Not a string') # not a string
-		lparam = param.lower() # improve loop speed
+		__CheckString(param)
+		lparam = param.lower()
 		for line in self.lines :
 			if line.startswith("#") :
 				continue # skip comments
@@ -116,18 +120,16 @@ class SimutransObject :
 		Indices include the square brackets - eg. "[0][0][1][0][2]". If
 		the wanted parameter is not present at all, an empty list is returned.
 		"""
-		if type(param) != str :
-			raise KeyError('Not a string') # not a string
-		lparam = param.lower() # improve loop speed
-		# returns (by design) as default empty list []
-		result = []
+		__CheckString(param)
+		lparam = param.lower()
+		result = [] # returns (by design) a default empty list []
 		for line in self.lines :
 			if line.startswith("#") :
 				continue # skip comments
 			parts = line.split("=", 1)
 			brpos = parts[0].find("[")
 			if brpos == -1 :
-				continue # skip malformed lines with no [numbers] - HACK! do or die? dat da kvestion!
+				continue # skip malformed lines with no [numbers] - HACK!
 			tag = parts[0][:brpos].lower().strip()
 			# cut the tag name
 			if lparam == tag :
@@ -144,16 +146,16 @@ class SimutransObject :
 		True, absence of the parameter in object will result in exception.
 		Otherwise, the missing parameter will be appended as new last line.
 		"""
-		if type(param) != str :
-			raise KeyError('Not a string') # not a string
+		__CheckString(param)
 		i = 0
+		lparam = param.lower()
 		while i < len(self.lines) :
 			line = self.lines[i]
 			if line.startswith("#") :
 				i = i + 1
 				continue # skip comments
 			parts = line.split("=", 1)
-			if parts[0].lower().strip() == param.lower() :
+			if parts[0].lower().strip() == lparam :
 				parts[1] = str(value) + "\n"
 				self.lines[i] = "=".join(parts)
 				return
