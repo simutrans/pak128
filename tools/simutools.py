@@ -61,12 +61,9 @@ class SimutransObject :
 	does not explicitly require their alteration.
 	"""
 	
-	def __init__(self, srcloc = "") :
-		self.lines = []
+	def __init__(self, srcloc = "", textdata=[]) :
+		self.lines = textdata
 		self.srcfile = srcloc
-		self.newfile = ""
-		self.image = None
-		self.save = False
 		
 	def __CheckString(var) :
 		# check for being a string

@@ -33,6 +33,9 @@ def procObj(obj) :
 	objtype = ""
 	objname = ""
 	ratedimages = []
+	obj.save = False
+	obj.image = None
+	obj.newfile = ""
 	for line in obj.lines :
 		l = line.lower()
 		score = 0
