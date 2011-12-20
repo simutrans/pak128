@@ -38,6 +38,9 @@ merge128.php, merge_general.php
 pakmak.py (one folder higher)
  - The build system for pak128. Not much documentation... if there is a lot of interest, I can document make a new thread about this one.
 
+report-trees.py
+ - Loads all trees in subfolders and builds a graphical overview table with their climates.
+
 report-unused-images.py
  - loads all dats in subfolders and looks at all png files there, too, then compares which tiles of these are used and generates reports - copies of pong images with used tiles replaced by red
 
@@ -53,8 +56,14 @@ split-houses-singletile.py
 split-vehicles.py
  - Splits vehicles to one file per object.
 
+tab2html.py
+ - Turns translation files exported from SimuTranslator into HTML with correct character encoding.
+
 timeline-chart.py
  - Creates a graphical timeline overview for vehicles.
+
+tree-align-interactive.py
+ - Interactive re-alignment tool for trees.
 
 veh-speeds.py
  - Reads all vehicles and creates speed statistics in csv format.
