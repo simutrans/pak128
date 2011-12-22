@@ -22,18 +22,36 @@ from struct import unpack
 badcounter = 0
 allcounter = 0
 
+png_types = {
+	0: "grayscale",
+	2: "RGB",
+	3: "indexed",
+	4: "grey+alpha",
+	6: "RGBA",
+}
+
+#-----
+
+def pngType(color, palette) :
+	try :
+		kind = png_types[color]
+	except :
+		kind = str(color)
+	return " color type: %s, %d bpp" % (kind, palette)
+
 #-----
 
 def procFile(png) :
 	global badcounter, allcounter
 	f = open(png, 'rb')
-	f.seek(8 + (4 + 4) + (4 + 4 + 1))
-	# 8 bytes header, 4 length, 4 IHDR, 4+4 width+height, 1 palette
+	f.seek(8 + (4 + 4) + (4 + 4))
+	# 8 bytes header, 4 length, 4 IHDR, 4+4 width+height
+	d = unpack("B", f.read(1))[0] # read "bit depth/palette" entry
 	c = unpack("B", f.read(1))[0] # read "color" entry
 	
-	if c != 2 :
+	if (c != 2) or (d != 8) :
 		print(png)
-		print("color type: %d" % c)
+		print(pngType(c, d))
 		badcounter = badcounter + 1
 	f.close()
 	allcounter = allcounter + 1
