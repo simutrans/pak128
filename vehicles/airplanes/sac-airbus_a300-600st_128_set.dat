@@ -1,4 +1,4 @@
-#Airbus A300-600ST «Beluga»
+#Airbus A300-600ST ï¿½Belugaï¿½
 #Special high volume freight services
 #-------------------------------------------------------------------------------
 obj=vehicle
@@ -13,8 +13,8 @@ speed=780
 power=19500
 weight=86
 gear=80
-cost=164779000
-runningcost=2639
+cost=220171000
+runningcost=920
 intro_year=1995
 intro_month=9
 sound=5
