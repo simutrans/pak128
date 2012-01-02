@@ -1,7 +1,5 @@
 Obj=factory
 name=old_powerplant_kraftwerk
-Location=Land
-
 copyright=Raven
 
 #needed consumption in tones   : 315t (3 coalmines)
@@ -9,17 +7,19 @@ copyright=Raven
 #required productivity with cf.: 630
 
 DistributionWeight=2
+Location=Land
+
 Productivity=600
-Range=40
-pax_level=20
+Range=0
+
 #powerplant should have quite predictable consumption to ensure steady
 #flow of electricity
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=0
-Mail_demand=0
+Mail_demand=5
 Mail_boost=500
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=800
 
 Smoke=industry_smoke

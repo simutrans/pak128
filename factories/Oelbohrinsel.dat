@@ -9,14 +9,13 @@ Location=Water
 
 DistributionWeight=1
 Productivity=1000
-Range=400
-pax_level=15
+Range=0
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=0
-Mail_demand=0
-Mail_boost=0
-Passenger_demand=0
+Mail_demand=5
+Mail_boost=1
+Passenger_demand=20
 Passenger_boost=500
 
 #need entry for stations

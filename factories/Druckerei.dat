@@ -1,25 +1,25 @@
 Obj=factory
 name=Druckerei
 copyright=Patrick
+
 Location=Land
-
-#needed productivity in tones  : 570 (4 trains / month)
-#size                          : 2x2 = 4
-#average productivity per tile : 71
-
 DistributionWeight=1
-Productivity=500
-Range=140
-pax_level=40
 
-Electricity_demand=0
+# needed productivity in tones  : 570 (4 trains / month)
+# size                          : 2x2 = 4
+# average productivity per tile : 71
+
+Productivity=500
+Range=0
+
+Electricity_amount=0
 Electricity_boost=1000
-Mail_demand=0
+Mail_demand=10
 Mail_boost=200
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
-#total input 330
+# total input 330
 InputGood[0]=Papier
 InputCapacity[0]=800
 InputSupplier[0]=0

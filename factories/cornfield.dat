@@ -2,26 +2,27 @@ Obj=factory
 Name=cornfield
 Copyright=Rmax500
 
+Location=Land
 DistributionWeight=1
-Productivity=175
-Range=50
+intro_year=2000
 
-Electricity_demand=0
+Productivity=175
+Range=0
+
+Electricity_amount=0
 Electricity_boost=0
 Mail_demand=0
 Mail_boost=0
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
-#average 200
+# average 200
 OutputGood[0]=corn
 OutputCapacity[0]=200
 OutputFactor[0]=100
 
 MapColor=134
-intro_year=2000
 Dims=3,3
-
 climates=mediterran,temperate,tundra
 
 BackImage[0][0][0][0][0]=cornfield.0.2

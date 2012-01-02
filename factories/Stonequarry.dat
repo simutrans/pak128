@@ -1,22 +1,22 @@
 Obj=factory
 name=Stonequarry
-Location=Land
 copyright=Flor Wauters & Patrick
 
-#needed productivity in tones  : 250t (1.5 train per month)
-#size                          : 3x3 = 9
-#average productivity per tile : 14
-
+Location=Land
 DistributionWeight=1
-Productivity=200
-Range=100
-pax_level=50
 
-Electricity_demand=0
+# needed productivity in tones  : 250t (1.5 train per month)
+# size                          : 3x3 = 9
+# average productivity per tile : 14
+
+Productivity=200
+Range=0
+
+Electricity_amount=0
 Electricity_boost=800
 Mail_demand=0
 Mail_boost=0
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
 OutputGood[0]=Stone

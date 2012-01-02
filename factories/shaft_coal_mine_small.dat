@@ -6,19 +6,18 @@ copyright=Raven
 
 DistributionWeight=1
 MapColor=90
-Range=50
-
-pax_level=50
 
 OutputGood[0]=Kohle
 OutputCapacity[0]=300
-Productivity=40
 
-Electricity_demand=0
+Productivity=40
+Range=0
+
+Electricity_amount=0
 Electricity_boost=800
 Mail_demand=0
 Mail_boost=0
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
 Dims=2,2

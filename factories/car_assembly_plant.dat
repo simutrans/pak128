@@ -1,32 +1,31 @@
-
 Obj=factory
 name=car_assembly_plant
 copyright=Joker
+
 Location=Land
-
-#needed productivity in tones  : 220cars (4 trains / month)
-#size                          : 3x3 = 9
-#average productivity per tile : 11
-
 DistributionWeight=1
-Productivity=200
-Range=40
-pax_level=110
 
-Electricity_demand=0
+# needed productivity in tones  : 220cars (4 trains / month)
+# size                          : 3x3 = 9
+# average productivity per tile : 11
+
+Productivity=200
+Range=0
+
+Electricity_amount=0
 Electricity_boost=1000
-Mail_demand=0
+Mail_demand=10
 Mail_boost=200
-Passenger_demand=0
+Passenger_demand=100
 Passenger_boost=500
 
-#steel input 400t
+# steel input 400t
 InputGood[0]=Stahl
 InputCapacity[0]=2500
 InputFactor[0]=190
 InputSupplier[0]=0
 
-#plastik consumable input 400t
+# plastik consumable input 400t
 InputGood[1]=Plastik
 InputFactor[1]=210
 InputCapacity[1]=4000

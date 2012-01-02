@@ -6,16 +6,14 @@ copyright=MHz
 #size                          : 3x3 = 9
 #average productivity per tile : 33
 
-DistributionWeight=1
 Productivity=500
-Range=100
-pax_level=30
+Range=0
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=1000
-Mail_demand=0
+Mail_demand=10
 Mail_boost=200
-Passenger_demand=0
+Passenger_demand=100
 Passenger_boost=500
 
 #Average input total 1600t
@@ -37,6 +35,7 @@ OutputCapacity[2]=300
 OutputFactor[2]=25
 
 Location=Land
+DistributionWeight=1
 MapColor=253
 Dims=3,3
 

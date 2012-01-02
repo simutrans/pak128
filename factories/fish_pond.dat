@@ -1,22 +1,22 @@
 Obj=factory
 name=fish_pond
 copyright=Napik
+
 Location=Land
+DistributionWeight=1
 
 #needed productivity in tones  : 100 (1/2 train / month)
 #size                          : 4x3 = 12
 #average productivity per tile : 8
 
-DistributionWeight=1
 Productivity=50
-Range=100
-pax_level=5
+Range=0
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=0
 Mail_demand=0
 Mail_boost=0
-Passenger_demand=0
+Passenger_demand=10
 Passenger_boost=500
 
 OutputGood[0]=fish

@@ -1,23 +1,23 @@
 Obj=factory
 name=supermarket
 copyright=James Starr
+
 Location=City
-
-#needed productivity in tones  : 400
-#size                          : 4x4 = 16
-#average productivity per tile : 12,2
-
 DistributionWeight=2
+
+# needed productivity in tones  : 400
+# size                          : 4x4 = 16
+# average productivity per tile : 12,2
+
 Productivity=350
-Range=200
-pax_level=120
+Range=0
 #intro_year=1930
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=0
-Mail_demand=0
+Mail_demand=50
 Mail_boost=500
-Passenger_demand=0
+Passenger_demand=200
 Passenger_boost=1500
 
 InputGood[0]=food

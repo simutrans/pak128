@@ -1,22 +1,22 @@
 Obj=factory
 name=waste_incinerator_kraftwerk
 copyright=MHz
+
 Location=Land
 DistributionWeight=1
 
-#average rate:            100
-#total consumption:       300t
-#the trick here is needed to allow only modest electricity production
+# average rate:            100
+# total consumption:       300t
+# the trick here is needed to allow only modest electricity production
 
 Productivity=80
-Range=40
-pax_level=15
+Range=0
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=0
-Mail_demand=0
+Mail_demand=10
 Mail_boost=800
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
 Smoke=industry_smoke

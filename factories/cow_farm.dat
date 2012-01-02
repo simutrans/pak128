@@ -1,23 +1,23 @@
 Obj=factory
 name=cow_farm
 copyright=BlackBox
-#proper translation Cattle Yard
+# proper translation Cattle Yard
+
 Location=Land
-
-#needed productivity in tones  : 140 (1 train / month)
-#size                          : 5x5 = 25
-#average productivity per tile : 3
-
 DistributionWeight=1
-Productivity=100
-Range=80
-pax_level=30
 
-Electricity_demand=0
+# needed productivity in tones  : 140 (1 train / month)
+# size                          : 5x5 = 25
+# average productivity per tile : 3
+
+Productivity=100
+Range=0
+
+Electricity_amount=0
 Electricity_boost=0
-Mail_demand=0
+Mail_demand=5
 Mail_boost=100
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
 OutputGood[0]=meat

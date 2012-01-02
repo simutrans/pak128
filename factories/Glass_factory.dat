@@ -2,28 +2,26 @@
 Obj=factory
 name=Glass_factory
 copyright=Patrick
+
 Location=Land
+DistributionWeight=1
 
 #needed productivity in tones  : 125t (0.75 train per month)
 #size                          : 2x2 = 4
 #average productivity per tile : 16
 
-DistributionWeight=1
 Productivity=100
-Range=50
-pax_level=20
+Range=0
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=1000
-Mail_demand=0
+Mail_demand=5
 Mail_boost=200
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
 OutputGood[0]=glass
 OutputCapacity[0]=800
-
-MapColor=117
 
 Smoke=industry_smoke
 SmokeTile=0,0
@@ -45,6 +43,7 @@ InputSupplier[1]=0
 OutputGood[0]=glass
 OutputCapacity[0]=400
 
+MapColor=117
 MapColor=225
 Dims=2,2
 

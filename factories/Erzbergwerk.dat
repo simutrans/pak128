@@ -1,22 +1,22 @@
 Obj=factory
 name=Erzbergwerk
 copyright=Napik
+
 Location=Land
-
-#needed productivity in tones  : 840t (4 trains / month)
-#size                          : 5x5 = 25
-#average productivity per tile : 16.8
-
 DistributionWeight=1
-Productivity=800
-Range=80
-pax_level=70
 
-Electricity_demand=0
+# needed productivity in tones  : 840t (4 trains / month)
+# size                          : 5x5 = 25
+# average productivity per tile : 16.8
+
+Productivity=800
+Range=0
+
+Electricity_amount=0
 Electricity_boost=800
 Mail_demand=0
 Mail_boost=0
-Passenger_demand=0
+Passenger_demand=40
 Passenger_boost=500
 
 OutputGood[0]=Eisenerz

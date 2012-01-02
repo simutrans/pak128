@@ -1,25 +1,25 @@
 Obj=factory
 name=brewery
 copyright=James Starr
+
 Location=City
-
-#needed productivity in tones  : 560 (3 trains / month)
-#size                          : 4x4 = 16
-#average productivity per tile : 17,5
-
 DistributionWeight=1
-Productivity=500
-Range=120
-pax_level=50
 
-Electricity_demand=0
+# needed productivity in tones  : 560 (3 trains / month)
+# size                          : 4x4 = 16
+# average productivity per tile : 17,5
+
+Productivity=500
+Range=0
+
+Electricity_amount=0
 Electricity_boost=1000
-Mail_demand=0
+Mail_demand=10
 Mail_boost=200
-Passenger_demand=0
+Passenger_demand=60
 Passenger_boost=500
 
-#total grain input 280
+# total grain input 280
 InputGood[0]=grain
 InputFactor[0]=50
 InputCapacity[0]=2800

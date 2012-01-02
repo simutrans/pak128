@@ -2,18 +2,18 @@
 Obj=factory
 name=waste_disposal
 copyright=MHz
-Location=City
 
+Location=City
 DistributionWeight=3
+
 Productivity=75
-Range=50
-pax_level=3
+Range=0
 
 Electricity_boost=0
-Electricity_demand=0
-Mail_demand=0
+Electricity_amount=0
+Mail_demand=15
 Mail_boost=300
-Passenger_demand=0
+Passenger_demand=30
 Passenger_boost=500
 
 OutputGood[0]=waste

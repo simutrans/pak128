@@ -1,23 +1,23 @@
 Obj=factory
 name=shopping_mall
-Location=City
-
-#needed productivity in tones  : 400
-#size                          : 4x4 = 16
-#average productivity per tile : 12,2
-
-DistributionWeight=2
-Productivity=250
-Range=100
-pax_level=100
 Copyright=Napik & Patrick & James Starr
+
+Location=City
+DistributionWeight=2
+
+# needed productivity in tones  : 400
+# size                          : 4x4 = 16
+# average productivity per tile : 12,2
+
+Productivity=250
+Range=0
 #intro_year=1950
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=0
-Mail_demand=0
+Mail_demand=20
 Mail_boost=500
-Passenger_demand=0
+Passenger_demand=50
 Passenger_boost=1500
 
 InputGood[0]=goods_

@@ -1,32 +1,31 @@
 Obj=factory
 name=classical_goods_factory
-# used to be: goods_factory
-Location=Land
 copyright=Rmax500
 
-#needed productivity in tones  : 400creates (3 trains / month)
-#size                          : 2x2 = 4
-#average productivity per tile : 50
-
+Location=Land
 DistributionWeight=1
-Productivity=320
-Range=180
-pax_level=50
 
-Electricity_demand=0
+# needed productivity in tones  : 400 crates (3 trains / month)
+# size                          : 2x2 = 4
+# average productivity per tile : 50
+
+Productivity=320
+Range=0
+
+Electricity_amount=0
 Electricity_boost=1000
-Mail_demand=0
+Mail_demand=10
 Mail_boost=200
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
-#plastik consumable input 400
+# plastik consumable input 400
 InputGood[0]=Plastik
 InputCapacity[0]=1500
 InputSupplier[0]=0
 InputFactor[0]=110
 
-#steel consumable input 300
+# steel consumable input 300
 InputGood[1]=Stahl
 InputCapacity[1]=1200
 InputSupplier[1]=0

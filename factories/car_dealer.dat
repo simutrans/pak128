@@ -1,22 +1,22 @@
 Obj=factory
 name=car_dealer
 copyright=Joker
+
 Location=City
-
-#needed productivity in tones  : 110cars (2 trains / month)
-#size                          : 3x3 = 9
-#average productivity per tile : 12
-
 DistributionWeight=1
-Productivity=100
-Range=20
-pax_level=10
 
-Electricity_demand=0
+# needed productivity in tones  : 110cars (2 trains / month)
+# size                          : 3x3 = 9
+# average productivity per tile : 12
+
+Productivity=100
+Range=0
+
+Electricity_amount=0
 Electricity_boost=0
-Mail_demand=0
+Mail_demand=10
 Mail_boost=500
-Passenger_demand=0
+Passenger_demand=50
 Passenger_boost=1200
 
 InputGood[0]=Autos

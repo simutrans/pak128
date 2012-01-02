@@ -1,25 +1,25 @@
 Obj=factory
 name=fish_swarm
 copyright=Patrick
+
 Location=Water
-
-#needed productivity in tones  : 170 (? ship / month)
-#size                          : 3x2 = 6
-#average productivity per tile : 14
-
 DistributionWeight=2
-Productivity=100
-Range=140
-pax_level=0
 
-Electricity_demand=0
+# needed productivity in tones  : 170 (? ship / month)
+# size                          : 3x2 = 6
+# average productivity per tile : 14
+
+Productivity=100
+Range=0
+
+Electricity_amount=0
 Electricity_boost=0
 Mail_demand=0
 Mail_boost=0
 Passenger_demand=0
 Passenger_boost=0
 
-#need entry for stations
+# need entry for stations
 enables_ware=1
 
 OutputGood[0]=fish
@@ -27,7 +27,6 @@ OutputCapacity[0]=25
 
 MapColor=134
 Dims=2,3,2
-
 animation_time=100
 
 BackImage[0][0][0][0][0]=fish_swarm.0.4

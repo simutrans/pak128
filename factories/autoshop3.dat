@@ -1,21 +1,18 @@
 Obj=factory
 name=autoshop3
-
 copyright=Joker
 
 Location=City
-
 DistributionWeight=1
+
 Productivity=100
+Range=0
 
-Range=20
-pax_level=3
-
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=0
-Mail_demand=0
+Mail_demand=10
 Mail_boost=500
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=1200
 
 InputGood[0]=Autos

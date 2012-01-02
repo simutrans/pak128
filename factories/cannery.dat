@@ -1,37 +1,38 @@
 Obj=factory
 name=cannery
-Location=Land
 copyright=Patrick
 
-#needed productivity in tones  : 200 (3 trains / month)
-#size                          : 3x3 = 9
-#average productivity per tile : 11
-
+Location=Land
 DistributionWeight=1
-Productivity=160
-Range=80
-pax_level=30
+Intro_year=1940
 
-Electricity_demand=0
+# needed productivity in tones  : 200 (3 trains / month)
+# size                          : 3x3 = 9
+# average productivity per tile : 11
+
+Productivity=160
+Range=0
+
+Electricity_amount=0
 Electricity_boost=1000
-Mail_demand=0
+Mail_demand=5
 Mail_boost=200
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
-#total fish input 140 (average 1pond one swarm)
+# total fish input 140 (average 1 pond one swarm)
 InputGood[0]=fish
 InputCapacity[0]=1500
 InputSupplier[0]=0
 InputFactor[0]=70
 
-#total meat input 140
+# total meat input 140
 InputGood[2]=meat
 InputCapacity[2]=1800
 InputSupplier[2]=0
 InputFactor[2]=60
 
-#parasites on other steel chain assumed load 100
+# parasites on other steel chain assumed load 100
 InputGood[1]=Stahl
 InputCapacity[1]=500
 InputSupplier[1]=0
@@ -39,8 +40,6 @@ InputFactor[1]=25
 
 OutputGood[0]=canned_food
 OutputCapacity[0]=800
-
-Intro_year=1940
 
 MapColor=120
 Dims=3,3

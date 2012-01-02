@@ -1,32 +1,32 @@
 Obj=factory
 name=steel_mill
 copyright=Rmax500
-#used to be: Stahlwerk
+# used to be: Stahlwerk
+
 Location=City
-
-#needed productivity in tones  : 400t (2 trains / month)
-#average productivity per tile : 22
-
 DistributionWeight=1
-Productivity=350
-Range=100
-pax_level=105
 
-Electricity_demand=0
+# needed productivity in tones  : 400t (2 trains / month)
+# average productivity per tile : 22
+# total input 840
+
+Productivity=350
+Range=0
+
+Electricity_amount=0
 Electricity_boost=1000
-Mail_demand=0
+Mail_demand=5
 Mail_boost=200
-Passenger_demand=0
+Passenger_demand=100
 Passenger_boost=500
 
 Smoke=industry_smoke
 SmokeTile=0,0
-#x - <- -> +
-#from the approximate middle of the 128x128 tile, in 64x64 scale
+# x - <- -> +
+# from the approximate middle of the 128x128 tile, in 64x64 scale
 SmokeOffset=3,-29
 SmokeSpeed=128
 
-#total input 840
 InputGood[0]=Eisenerz
 InputCapacity[0]=12000
 InputSupplier[0]=0

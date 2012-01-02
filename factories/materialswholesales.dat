@@ -8,14 +8,13 @@ copyright=Fabio Gonella
 
 DistributionWeight=1
 Productivity=400
-Range=140
-pax_level=50
+Range=0
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=100
-Mail_demand=0
+Mail_demand=20
 Mail_boost=500
-Passenger_demand=0
+Passenger_demand=50
 Passenger_boost=1200
 
 InputGood[0]=Concrete

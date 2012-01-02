@@ -1,31 +1,31 @@
 Obj=factory
 name=dairy
 copyright=BlackBox
+
 Location=City
-
-#needed productivity in tones  : 250 (1,2 train / month)
-#size                          : 2x2 = 4
-#average productivity per tile : 44
-
 DistributionWeight=1
-Productivity=200
-Range=100
-pax_level=80
 
-Electricity_demand=0
+# needed productivity in tones  : 250 (1,2 train / month)
+# size                          : 2x2 = 4
+# average productivity per tile : 44
+
+Productivity=200
+Range=0
+
+Electricity_amount=0
 Electricity_boost=1000
-Mail_demand=0
+Mail_demand=20
 Mail_boost=500
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=800
 
-#total milk input 280
+# total milk input 280
 InputGood[0]=milk
 InputFactor[0]=108
 InputCapacity[0]=1400
 InputSupplier[0]=0
 
-#total glass input 125
+# total glass input 125
 InputGood[1]=glass
 InputFactor[1]=55
 InputCapacity[1]=3000

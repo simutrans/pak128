@@ -1,22 +1,22 @@
 Obj=factory
 name=Papierfabrik
 copyright=MHz
+
 Location=Land
+DistributionWeight=1
 
 #needed productivity in tones  : 330t (2 trains / month)
 #size                          : 2x2 = 4
 #average productivity per tile : 41
 
-DistributionWeight=1
 Productivity=300
-Range=60
-pax_level=45
+Range=0
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=1000
-Mail_demand=0
+Mail_demand=5
 Mail_boost=200
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
 Smoke=industry_smoke

@@ -1,22 +1,23 @@
 Obj=factory
 name=oilkraftwerk
 copyright=Patrick
+
 Location=Land
 DistributionWeight=1
+
 Productivity=600
-Range=400
-pax_level=20
+Range=0
 
 Smoke=industry_smoke
 SmokeTile=0,0
 SmokeOffset=-5,-58
 SmokeSpeed=256
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=0
-Mail_demand=0
+Mail_demand=10
 Mail_boost=500
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=800
 
 InputGood[0]=Oel

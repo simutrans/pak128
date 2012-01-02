@@ -1,22 +1,22 @@
 Obj=factory
 name=Oelfeld
 copyright=MHz
+
 Location=Land
+DistributionWeight=1
 
 #needed productivity in tones  : 400t (2 trains / month)
 #size                          : 2x2 = 4
 #average productivity per tile : 50
 
-DistributionWeight=1
 Productivity=300
-Range=100
-pax_level=10
+Range=0
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=800
 Mail_demand=0
 Mail_boost=0
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
 OutputGood[0]=Oel

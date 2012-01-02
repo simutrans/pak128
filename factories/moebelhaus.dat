@@ -6,14 +6,13 @@ copyright=Gouv
 Location=City
 DistributionWeight=1
 Productivity=420
-Range=120
-pax_level=90
+Range=0
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=0
-Mail_demand=0
+Mail_demand=20
 Mail_boost=500
-Passenger_demand=0
+Passenger_demand=50
 Passenger_boost=1200
 
 InputGood[0]=Moebel

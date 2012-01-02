@@ -1,22 +1,22 @@
 Obj=factory
 name=sheep_farm
-Location=Land
 copyright=Patrick & Napik
 
-#needed productivity in tones  : 330 (1 trains / month)
-#size                          : 3x3 = 9
-#average productivity per tile : 18
-
+Location=Land
 DistributionWeight=1
-Productivity=270
-Range=120
-pax_level=10
 
-Electricity_demand=0
+# needed productivity in tones  : 330 (1 trains / month)
+# size                          : 3x3 = 9
+# average productivity per tile : 18
+
+Productivity=270
+Range=0
+
+Electricity_amount=0
 Electricity_boost=0
 Mail_demand=0
 Mail_boost=0
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
 OutputGood[0]=wool

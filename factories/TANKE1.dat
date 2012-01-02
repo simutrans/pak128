@@ -1,21 +1,20 @@
 Obj=factory
 name=TANKE1
-Location=City
-
-DistributionWeight=4
-Productivity=100
-
-Range=50
-pax_level=5
-
 Copyright=Patrick
+
+Location=City
+DistributionWeight=4
+
+Productivity=100
+Range=0
+
 retire_year=2000
 
-Electricity_demand=0
+Electricity_amount=0
 Electricity_boost=0
-Mail_demand=0
+Mail_demand=10
 Mail_boost=500
-Passenger_demand=0
+Passenger_demand=50
 Passenger_boost=1200
 
 InputGood[0]=Gasoline

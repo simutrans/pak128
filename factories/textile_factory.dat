@@ -1,31 +1,31 @@
 Obj=factory
 name=textile_factory
 copyright=Patrick
+
 Location=City
-
-#needed productivity in tones  : 200 (1 train / month)
-#size                          : 3x3 = 9
-#average productivity per tile : 11
-
 DistributionWeight=1
-Productivity=200
-Range=50
-pax_level=82
 
-Electricity_demand=0
+# needed productivity in tones  : 200 (1 train / month)
+# size                          : 3x3 = 9
+# average productivity per tile : 11
+
+Productivity=200
+Range=0
+
+Electricity_amount=0
 Electricity_boost=1000
-Mail_demand=0
+Mail_demand=10
 Mail_boost=200
-Passenger_demand=0
+Passenger_demand=20
 Passenger_boost=500
 
-#total wool input 660
+# total wool input 660
 InputGood[0]=wool
 InputCapacity[0]=6600
 InputSupplier[0]=0
 InputFactor[0]=330
 
-#total cotton input 400
+# total cotton input 400
 InputGood[1]=cotton
 InputCapacity[1]=4000
 InputSupplier[1]=0
