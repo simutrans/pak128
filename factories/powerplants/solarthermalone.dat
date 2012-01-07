@@ -5,11 +5,12 @@ copyright=vilvoh
 Location=Land
 
 chance=1
-Distributionweight=3
+Distributionweight=1
 
-Productivity=10 
+Productivity=15
 Range=10
 electricity_proportion=2
+electricity_amount=5
 
 MapColor=93
 

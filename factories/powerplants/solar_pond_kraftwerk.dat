@@ -4,10 +4,11 @@ copyright=vilvoh
 
 Location=Land
 chance=100
-Distributionweight=3
+Distributionweight=1
 Productivity=70
 Range=20
 electricity_proportion=2
+electricity_amount=5
 
 MapColor=93
 

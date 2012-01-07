@@ -7,6 +7,7 @@ Distributionweight=3
 Productivity=12 
 Range=10
 electricity_proportion=2
+electricity_amount=5
 MapColor=93
 intro_year=1980
 intro_month=1
