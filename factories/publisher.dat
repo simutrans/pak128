@@ -9,11 +9,11 @@ Productivity=250
 Range=0
 
 Electricity_amount=0
-Electricity_boost=1000
+Electricity_boost=0
 Mail_demand=20
-Mail_boost=200
+Mail_boost=800
 Passenger_demand=20
-Passenger_boost=500
+Passenger_boost=700
 
 InputGood[0]=Bucher
 InputCapacity[0]=800
