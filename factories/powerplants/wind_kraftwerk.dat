@@ -10,6 +10,8 @@ pax_level=0
 needs_ground=1
 intro_year=1995
 
+electricity_amount=10
+
 #InputGood[0]=none
 #InputCapacity[0]=8000
 #InputSupplier[0]=3

@@ -13,7 +13,7 @@ SmokeTile=0,0
 SmokeOffset=-5,-58
 SmokeSpeed=256
 
-Electricity_amount=0
+Electricity_amount=800
 Electricity_boost=0
 Mail_demand=10
 Mail_boost=500
