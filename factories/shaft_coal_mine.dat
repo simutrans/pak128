@@ -13,7 +13,7 @@ OutputCapacity[0]=300
 Productivity=80
 Range=0
 
-Electricity_amount=0
+Electricity_amount=150
 Electricity_boost=800
 Mail_demand=0
 Mail_boost=0

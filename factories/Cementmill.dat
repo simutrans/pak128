@@ -12,7 +12,7 @@ DistributionWeight=1
 Productivity=100
 Range=0
 
-Electricity_amount=0
+Electricity_amount=80
 Electricity_boost=1000
 Mail_demand=5
 Mail_boost=200
