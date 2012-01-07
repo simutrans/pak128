@@ -12,7 +12,7 @@ Electricity_amount=0
 Electricity_boost=0
 Mail_demand=20
 Mail_boost=500
-Passenger_demand=50
+Passenger_demand=70
 Passenger_boost=1200
 
 InputGood[0]=Moebel

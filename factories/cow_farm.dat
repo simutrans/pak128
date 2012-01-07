@@ -17,7 +17,7 @@ Electricity_amount=0
 Electricity_boost=0
 Mail_demand=5
 Mail_boost=100
-Passenger_demand=20
+Passenger_demand=10
 Passenger_boost=500
 
 OutputGood[0]=meat

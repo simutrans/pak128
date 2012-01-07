@@ -12,7 +12,7 @@ Electricity_amount=0
 Electricity_boost=1000
 Mail_demand=10
 Mail_boost=200
-Passenger_demand=20
+Passenger_demand=30
 Passenger_boost=500
 
 InputGood[0]=fish
