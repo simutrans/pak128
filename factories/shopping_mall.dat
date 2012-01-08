@@ -10,7 +10,7 @@ DistributionWeight=2
 # average productivity per tile : 12,2
 
 Productivity=250
-Range=0
+Range=100
 #intro_year=1950
 
 Electricity_amount=0

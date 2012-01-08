@@ -10,7 +10,7 @@ DistributionWeight=2
 Location=Land
 
 Productivity=600
-Range=0
+Range=40
 
 # powerplant should have quite predictable consumption to ensure steady
 # flow of electricity

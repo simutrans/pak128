@@ -6,7 +6,7 @@ Location=Land
 DistributionWeight=1
 
 Productivity=600
-Range=0
+Range=400
 
 Smoke=industry_smoke
 SmokeTile=0,0

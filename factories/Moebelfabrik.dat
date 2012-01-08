@@ -9,7 +9,7 @@ copyright=MHz
 
 DistributionWeight=1
 Productivity=180
-Range=0
+Range=300
 
 Electricity_amount=30
 Electricity_boost=1000

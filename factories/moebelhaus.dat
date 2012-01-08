@@ -6,7 +6,7 @@ copyright=Gouv
 Location=City
 DistributionWeight=1
 Productivity=420
-Range=0
+Range=120
 
 Electricity_amount=0
 Electricity_boost=0

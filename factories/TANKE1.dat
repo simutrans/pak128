@@ -6,7 +6,7 @@ Location=City
 DistributionWeight=4
 
 Productivity=100
-Range=0
+Range=50
 
 retire_year=2000
 

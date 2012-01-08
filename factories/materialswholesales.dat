@@ -8,7 +8,7 @@ copyright=Fabio Gonella
 
 DistributionWeight=1
 Productivity=400
-Range=0
+Range=140
 
 Electricity_amount=10
 Electricity_boost=100

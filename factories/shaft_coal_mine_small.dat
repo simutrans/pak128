@@ -11,7 +11,7 @@ OutputGood[0]=Kohle
 OutputCapacity[0]=300
 
 Productivity=40
-Range=0
+Range=20
 
 Electricity_amount=150
 Electricity_boost=800

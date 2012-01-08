@@ -9,7 +9,7 @@ Location=Land
 
 DistributionWeight=1
 Productivity=520
-Range=0
+Range=40
 
 Electricity_amount=100
 Electricity_boost=1000

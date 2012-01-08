@@ -10,7 +10,7 @@ DistributionWeight=1
 # average productivity per tile : 17,5
 
 Productivity=500
-Range=0
+Range=120
 
 Electricity_amount=10
 Electricity_boost=1000

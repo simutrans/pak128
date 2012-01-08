@@ -5,7 +5,7 @@ Copyright=Rmax500
 Location=City
 DistributionWeight=1
 Productivity=200
-Range=0
+Range=100
 
 Electricity_amount=0
 Electricity_boost=0

@@ -11,7 +11,7 @@ DistributionWeight=1
 
 
 Productivity=180
-Range=0
+Range=80
 
 Electricity_amount=0
 Electricity_boost=0

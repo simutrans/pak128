@@ -9,7 +9,7 @@ Location=Water
 
 DistributionWeight=1
 Productivity=1000
-Range=0
+Range=400
 
 Electricity_amount=0
 Electricity_boost=0

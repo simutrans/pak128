@@ -11,7 +11,7 @@ DistributionWeight=1
 # total input 840
 
 Productivity=350
-Range=0
+Range=100
 
 Electricity_amount=800
 Electricity_boost=1000

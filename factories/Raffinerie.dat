@@ -7,7 +7,7 @@ copyright=MHz
 #average productivity per tile : 33
 
 Productivity=500
-Range=0
+Range=100
 
 Electricity_amount=100
 Electricity_boost=1000

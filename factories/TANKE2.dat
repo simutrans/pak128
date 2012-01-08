@@ -6,7 +6,7 @@ Location=City
 DistributionWeight=4
 
 Productivity=100
-Range=00
+Range=50
 
 intro_year=1960
 

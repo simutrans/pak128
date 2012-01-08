@@ -7,7 +7,7 @@ DistributionWeight=1
 intro_year=2000
 
 Productivity=175
-Range=0
+Range=50
 
 Electricity_amount=0
 Electricity_boost=0

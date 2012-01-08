@@ -11,7 +11,7 @@ Intro_year=1940
 # average productivity per tile : 11
 
 Productivity=160
-Range=0
+Range=80
 
 Electricity_amount=50
 Electricity_boost=1000

@@ -10,7 +10,7 @@ DistributionWeight=1
 # the trick here is needed to allow only modest electricity production
 
 Productivity=80
-Range=0
+Range=40
 
 Electricity_amount=50
 Electricity_boost=0

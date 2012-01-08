@@ -7,7 +7,7 @@ DistributionWeight=1
 intro_year=1960
 
 Productivity=180
-Range=0
+Range=40
 
 Electricity_amount=100
 Electricity_boost=1000

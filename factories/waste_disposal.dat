@@ -7,7 +7,7 @@ Location=City
 DistributionWeight=3
 
 Productivity=75
-Range=0
+Range=50
 
 Electricity_boost=0
 Electricity_amount=0

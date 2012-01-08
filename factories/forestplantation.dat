@@ -12,7 +12,7 @@ has_snow=1
 dims=3,3,1
 
 Productivity=10
-Range=0
+Range=10
 
 Electricity_amount=0
 Electricity_boost=0
