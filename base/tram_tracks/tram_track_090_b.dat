@@ -1,19 +1,23 @@
-
 Obj=way
 Name=Tram_Track_090_B
-waytype=track
 copyright=Fabio Gonella
+
+waytype=track
 system_type=7
-cost=25000
-maintenance=300
+
+cost=50000
+maintenance=500
+
 topspeed=90
 max_weight=30
-intro_year = 1880
-intro_month = 9
-# skin
+
+intro_year = 1980
+intro_month = 5
+
 cursor=tram_track_090_b.7.1,0,-16
 icon=> tram_track_090_b.7.0
-# rbis * animation
+
+# summer
 Image[-][0]=tram_track_090_b.1.0
 Image[N][0]=tram_track_090_b.1.1
 Image[S][0]=tram_track_090_b.1.2
@@ -34,12 +38,12 @@ Diagonal[NE][0]=tram_track_090_b.6.0
 Diagonal[SE][0]=tram_track_090_b.6.1
 Diagonal[NW][0]=tram_track_090_b.6.2
 Diagonal[SW][0]=tram_track_090_b.6.3
-# hangtyp * animation
 ImageUp[3][0]=tram_track_090_b.5.0
 ImageUp[6][0]=tram_track_090_b.5.1
 ImageUp[9][0]=tram_track_090_b.5.2
 ImageUp[12][0]=tram_track_090_b.5.3
-# rbis * animation
+
+# winter
 Image[-][1]=tram_track_090_b.3.0
 Image[N][1]=tram_track_090_b.3.1
 Image[S][1]=tram_track_090_b.3.2
@@ -60,7 +64,6 @@ Diagonal[NE][1]=tram_track_090_b.6.4
 Diagonal[SE][1]=tram_track_090_b.6.5
 Diagonal[NW][1]=tram_track_090_b.6.6
 Diagonal[SW][1]=tram_track_090_b.6.7
-# hangtyp * animation
 ImageUp[3][1]=tram_track_090_b.5.4
 ImageUp[6][1]=tram_track_090_b.5.5
 ImageUp[9][1]=tram_track_090_b.5.6

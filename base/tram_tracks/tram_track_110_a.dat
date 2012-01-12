@@ -1,19 +1,22 @@
-
 Obj=way
 Name=Tram_Track_110_A
-waytype=track
 copyright=Fabio Gonella
+
+waytype=track
 system_type=7
-cost=25000
-maintenance=300
+
+cost=75000
+maintenance=750
+
 topspeed=110
 max_weight=30
-intro_year = 1880
-intro_month = 9
-# skin
+
+intro_year = 2003
+intro_month = 7
+
 cursor=tram_track_110_a.4.1,0,-16
 icon=> tram_track_110_a.4.0
-# rbis * animation
+
 Image[-][0]=tram_track_110_a.1.0
 Image[N][0]=tram_track_110_a.1.1
 Image[S][0]=tram_track_110_a.1.2
@@ -34,7 +37,6 @@ Diagonal[NE][0]=tram_track_110_a.3.4
 Diagonal[SE][0]=tram_track_110_a.3.5
 Diagonal[NW][0]=tram_track_110_a.3.6
 Diagonal[SW][0]=tram_track_110_a.3.7
-# hangtyp * animation
 ImageUp[3][0]=tram_track_110_a.3.0
 ImageUp[6][0]=tram_track_110_a.3.1
 ImageUp[9][0]=tram_track_110_a.3.2
