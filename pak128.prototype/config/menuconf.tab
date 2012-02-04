@@ -7,12 +7,12 @@
 # changes for pak128: FrankP, VS, DirrrtyDirk
 #
 
-# With these file, each menu/tool/toolbar can be assigned a meaning
-# there are four different kind of tools
-# general_tools: like query, remove, alter land, ...
-# click tools: pause, fast forward, ...
-# dialoge tools: open a dialoge like minimap, settings, finances, ...
-# toolbar tools: open toolbars like slope tools, road tools, ...
+# With this file, each menu/tool/toolbar can be assigned a meaning.
+# There are four different kind of tools:
+#  general_tools: like query, remove, alter land, ...
+#  click tools: pause, fast forward, ...
+#  dialoge tools: open a dialoge like minimap, settings, finances, ...
+#  toolbar tools: open toolbars like slope tools, road tools, ...
 
 icon_width = 32
 icon_height = 32
@@ -64,9 +64,9 @@ icon_height = 32
 # WKZ_STOP_MOVER =        31
 # WKZ_MAKE_STOP_PUBLIC =  32
 # WKZ_REMOVE_WAYOBJ=      33
-# WKZ_UNDERGROUND_PICK=   34
-# WKZ_BUY_HOUSE=          35
-# WKZ_CITYROAD=           36
+# WKZ_UNDERGROUND_PICK =  34
+# WKZ_BUY_HOUSE =         35
+# WKZ_CITYROAD =          36
 
 #
 general_tool[0]=0,0,9,a
@@ -108,6 +108,7 @@ general_tool[32]=15,11,,
 general_tool[33]=,,11,
 general_tool[34]=,,11,
 general_tool[35]=16,13,11,K
+# cityroad (36) not set up here
 
 
 # SECOND SECTION: simple tools
@@ -186,35 +187,35 @@ simple_tool[34]=,O
 # a is the icon as number in menu: menu.DialogeTools.pak
 # k is the key to toggle this
 #
-# WKZ_HELP=0
-# WKZ_OPTIONEN=1
-# WKZ_MINIMAP=2
-# WKZ_LINEOVERVIEW=3
-# WKZ_MESSAGE=4
-# WKZ_FINANCES=5
-# WKZ_PLAYERS=6
-# WKZ_DISPLAYOPTIONS=7
-# WKZ_SOUND=8
-# WKZ_LANGUAGE=9
-# WKZ_PLAYERCOLOR=10
-# WKZ_JUMP=11
-# WKZ_LOAD=12
-# WKZ_SAVE=13
-# WKZ_LIST_HALT=14
-# WKZ_LIST_CONVOI=15
-# WKZ_LIST_TOWN=16
-# WKZ_LIST_GOODS=17
-# WKZ_LIST_FACTORY=18
-# WKZ_LIST_CURIOSITY=19
-# WKZ_EDIT_FACTORY=20
-# WKZ_EDIT_ATTRACTION=21
-# WKZ_EDIT_HOUSE=22
-# WKZ_EDIT_TREE=23
-# WKZ_ENLARGE_MAP=24
-# WKZ_LIST_LABEL=25
-# WKZ_CLIMATES=26
-# WKZ_SETTINGS=27
-# WKZ_GAMEINFO_NETWORK=28
+# WKZ_HELP =              0
+# WKZ_OPTIONEN =          1
+# WKZ_MINIMAP =           2
+# WKZ_LINEOVERVIEW =      3
+# WKZ_MESSAGE =           4
+# WKZ_FINANCES =          5
+# WKZ_PLAYERS =           6
+# WKZ_DISPLAYOPTIONS =    7
+# WKZ_SOUND =             8
+# WKZ_LANGUAGE =          9
+# WKZ_PLAYERCOLOR =      10
+# WKZ_JUMP =             11
+# WKZ_LOAD =             12
+# WKZ_SAVE =             13
+# WKZ_LIST_HALT =        14
+# WKZ_LIST_CONVOI =      15
+# WKZ_LIST_TOWN =        16
+# WKZ_LIST_GOODS =       17
+# WKZ_LIST_FACTORY =     18
+# WKZ_LIST_CURIOSITY =   19
+# WKZ_EDIT_FACTORY =     20
+# WKZ_EDIT_ATTRACTION =  21
+# WKZ_EDIT_HOUSE =       22
+# WKZ_EDIT_TREE =        23
+# WKZ_ENLARGE_MAP =      24
+# WKZ_LIST_LABEL =       25
+# WKZ_CLIMATES =         26
+# WKZ_SETTINGS =         27
+# WKZ_GAMEINFO_NETWORK = 28
 #
 dialog_tool[0]=0,?
 dialog_tool[1]=1,Q
@@ -244,7 +245,7 @@ dialog_tool[24]=25
 dialog_tool[25]=20,
 #dialog_tool[26]= 
 #dialog_tool[27]= 
-dialog_tool[28]=26,n 
+dialog_tool[28]=26,n
 
 
 # FINAL SECTION: compose all tool bars
@@ -326,20 +327,22 @@ toolbar[0][23]=dialog_tool[0]
 toolbar[0][24]=-
 toolbar[0][25]=simple_tool[7],,.,+1
 toolbar[0][26]=simple_tool[7],,#44,-1
+toolbar[0][27]=simple_tool[0],,^p,
 # since ST r2031: allow manual change of daylight
-toolbar[0][27]=simple_tool[19],,+,+
-toolbar[0][28]=simple_tool[19],,-,-
-toolbar[0][29]=simple_tool[19],,*,4
-toolbar[0][30]=simple_tool[8]
-toolbar[0][31]=simple_tool[9]
+toolbar[0][28]=simple_tool[19],,+,+
+toolbar[0][29]=simple_tool[19],,-,-
+toolbar[0][30]=simple_tool[19],,*,4
+toolbar[0][31]=simple_tool[8]
+toolbar[0][32]=simple_tool[9]
 # underground slice mode modifications
-toolbar[0][32]=simple_tool[15],29,^U,K
-toolbar[0][33]=simple_tool[15],,END,I
-toolbar[0][34]=simple_tool[15],,HOME,D
-toolbar[0][35]=simple_tool[12]
-toolbar[0][36]=simple_tool[16]
-toolbar[0][37]=-
-toolbar[0][38]=dialog_tool[28]
+toolbar[0][33]=simple_tool[15],29,^U,K
+toolbar[0][34]=simple_tool[15],,END,I
+toolbar[0][35]=simple_tool[15],,HOME,D
+toolbar[0][36]=simple_tool[12]
+toolbar[0][37]=simple_tool[16]
+# network mode button
+toolbar[0][38]=-
+toolbar[0][39]=dialog_tool[28]
 
 # slope tools
 toolbar[1][0]=general_tool[2]
