@@ -320,29 +320,28 @@ toolbar[0][17]=dialog_tool[4]
 toolbar[0][18]=dialog_tool[5]
 toolbar[0][19]=-
 toolbar[0][20]=simple_tool[2]
-toolbar[0][21]=simple_tool[0]
+toolbar[0][21]=simple_tool[0],,^p,
 toolbar[0][22]=simple_tool[1]
 toolbar[0][23]=dialog_tool[0]
 # invisible tools (here because they need a parameter or are added twice)
 toolbar[0][24]=-
 toolbar[0][25]=simple_tool[7],,.,+1
 toolbar[0][26]=simple_tool[7],,#44,-1
-toolbar[0][27]=simple_tool[0],,^p,
 # since ST r2031: allow manual change of daylight
-toolbar[0][28]=simple_tool[19],,+,+
-toolbar[0][29]=simple_tool[19],,-,-
-toolbar[0][30]=simple_tool[19],,*,4
-toolbar[0][31]=simple_tool[8]
-toolbar[0][32]=simple_tool[9]
+toolbar[0][27]=simple_tool[19],,+,+
+toolbar[0][28]=simple_tool[19],,-,-
+toolbar[0][29]=simple_tool[19],,*,4
+toolbar[0][30]=simple_tool[8]
+toolbar[0][31]=simple_tool[9]
 # underground slice mode modifications
-toolbar[0][33]=simple_tool[15],29,^U,K
-toolbar[0][34]=simple_tool[15],,END,I
-toolbar[0][35]=simple_tool[15],,HOME,D
-toolbar[0][36]=simple_tool[12]
-toolbar[0][37]=simple_tool[16]
+toolbar[0][32]=simple_tool[15],29,^U,K
+toolbar[0][33]=simple_tool[15],,END,I
+toolbar[0][34]=simple_tool[15],,HOME,D
+toolbar[0][35]=simple_tool[12]
+toolbar[0][36]=simple_tool[16]
 # network mode button
-toolbar[0][38]=-
-toolbar[0][39]=dialog_tool[28]
+toolbar[0][37]=-
+toolbar[0][38]=dialog_tool[28]
 
 # slope tools
 toolbar[1][0]=general_tool[2]
