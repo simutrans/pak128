@@ -5,7 +5,7 @@
 #                              Language: pl Polski                             #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 25.10 2011                           #
+#                           Date Created: 23.01 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                       Bartlomiej Weclewski - BarthVader                      #
@@ -20,7 +20,7 @@
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
 #                                    note:                                     #
-#                                 Kamil - qamil                                #
+#                                    - qamil                                   #
 #                                    note:                                     #
 #                                                                              #
 ################################################################################
@@ -28,6 +28,8 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 Betonowy p³aski most (Haru)
+PowerBridge
+"Most" dla linii wysokiego napiêcia
 RVg_Concrete_Rail_Bridge
 Most podwieszany (RvG)
 Schwebebahn_p_bridge
@@ -302,8 +304,16 @@ DenkVolker
 To mauzoleum zosta³o\nzbudowane dla Volkera\nMeyera,\nprogrami¶cie-magikowi,\nktóry poprawi³ wiele opcji\ngry Simutrans.\n\n
 ELEMENTARY_SCHOOL_1
 Szko³a Podstawowa\n\nJest to miejsce gdzie dzieci\nzdobywaj± swoj± pierwsz±\nwidzê. Matematyka, jêzyki,\nhistoria i inne przedmioty\ns± najmniej wa¿nymi.\nM³odzi uczniowie zazwyczaj\nlubi± rysowaæ, a jeszcze\nbardziej ¶piewaæ. M³odzi\nludzie nie mog± je¼dziæ\nsamochodami wiêc to\nmiejsce generuje du¿e\nzapotrzebowanie na us³ugi\ntransportowe. Uwa¿aj jednak,\nluksusowe autobusy nie s±\nzalecane.\n
+Fluid_StationBlg
+Zbiornik ropy/benzyny
 FORT_FUN
 Historyczny fort\n\n
+FreightTrainStop
+Stacja towarowa
+Gas_StationBlg
+Zbiornik gazu
+Goods_StationBlg
+Magazyny
 HQ1
 Centrala
 HQ2
@@ -347,7 +357,7 @@ Piekarnia
 brewery
 Browar
 cannery
-Fabryka puszkowanej ¿ywno¶ci
+Fabryka konserw
 car_assembly_plant
 Montownia samochodów
 car_dealer
@@ -447,79 +457,81 @@ Elektrownia wiatrowa
 Autos
 Samochody
 beer
-piwo
+Piwo
 Bretter
-deski
+Deski
 Bucher
 Ksi±¿ki
 canned_food
-Puszkowana ¿ywno¶æ
-Cement
-cement
+Konserwy
 Chemicals
-chemikalia
+Chemikalia
 Concrete
-beton
+Beton
 corn
-kukurydza
+Kukurydza
 cotton
-bawe³na
+Bawe³na
 Eisenerz
-ruda ¿elaza
+Ruda ¿elaza
 electronics
-elektronika
+Elektronika
 Ethanol
-etanol
+Etanol
 fertilizer
-nawóz
+Nawóz
 fish
-ryby
+Ryby
 flour
-m±ka
+M±ka
 food
-¿ywno¶æ
+¯ywno¶æ
 Gasoline
-benzyna
+Benzyna
 glass
-szk³o
+Szk³o
 goods_
-towary
+Towary
 grain
-zbo¿e
+Zbo¿e
 Holz
-drewno
+Drewno
 Kohle
-wêgiel
+Wêgiel
 meat
-miêso
+Miêso
 milk
-mleko
+Mleko
 Moebel
-meble
+Meble
 None
 nic
 Oel
-ropa naftowa
-Papier
-papier
+Ropa naftowa
 Passagiere
-pasa¿erowie
+Pasa¿erowie
 Post
-poczta
+Poczta
 Sand
-piasek
+Piasek
 Stahl
-stal
+Stal
 Stone
-kamieñ
+Kamieñ
 textile
-ubrania
+Ubrania
 waste
-¶mieci
+¦mieci
 wool
-we³na
+We³na
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+MONORAILTOOLS
+Buduj kolej podwieszan±
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
+Build monorail depot
+Baza kolei podwieszanej
 CATEGORY_01
 czê¶ci
 CATEGORY_02
@@ -534,8 +546,16 @@ CATEGORY_06
 drewno
 CATEGORY_07
 produkty rolne
+Monorail
+Kolej podwieszana
 Monoraildepot
 Zajezdnia kolei jednoszynowej
+Monorails are not available yet!
+Kolej podwieszana nie jest jeszcze dostêpna!
+#__________________________________record_text__________________________________
+#__________________________________record_text__________________________________
+New world record for monorails: %.1f km/h by %s.
+Nowy rekord prêdko¶ci kolei podwieszanej: %.1f km/h osi±gniêty przez %s.
 #___________________________________roadsign____________________________________
 #___________________________________roadsign____________________________________
 airport_oneway
@@ -554,12 +574,24 @@ choose_signal_monorail
 Semafor wyboru peronu dla kolei jednoszynowej
 ChooseSignals
 Semafor wyboru peronu
+Classic_ChooseSignals_right
+Sygna³ wyboru peronu
+Classic_LongSignals_right
+Sygna³ d³ugiego bloku
+Classic_preSignals_right
+Pre-sygna³
 Early_ChooseSignals_right
 Sygna³ automatycznego wyboru peronu
+Early_LongSignals_right
+Sygna³ d³ugiego bloku
 Minimum80
 Min. prêdko¶æ 80 km/h
 NoEntry
 Zakaz wjazdu
+preSignals
+Pre-sygna³
+Railgate
+Brama kolejowa
 RoadClosed
 Blokada drogi
 Signal_Monorail
@@ -674,6 +706,10 @@ Post_waggon_0
 PV 80 - wagon pocztowy
 Postwagen
 Wagon pocztowy
+S_Kroytor_Ikarus-280
+Ikarus 280
+S_Kroytor_Ikarus-280_ext
+Ikarus 280 (doczepa)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 air_movement_area

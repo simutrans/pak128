@@ -5,7 +5,7 @@
 #                             Language: fr Francais                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 9.11 2011                           #
+#                            Date Created: 6.02 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                  - Christophe                                #
@@ -124,6 +124,8 @@ big_classic_bus_stop
 Gare routière
 big_modern_bus_stop
 Gare routière moderne
+BigTerminal1930_AirportBlg
+Grand Terminal voyager de 1930
 BigTerminal1950_AirportBlg_S
 Grand terminal voyageur
 Bulk_Dock
@@ -153,7 +155,7 @@ Même si ce temple\nressemble à une mosquée,\nc'est une synagogue.\n\n
 CHURCH_05
 L'église St Michel\nconstruite à la fin du\nXIXème siècle est connue\npour son toit métallique\nconçu par\nAlexandre-Gustave Eiffel.\n\n
 CHURCH_06
-Eglise\n\n
+Eglise\n\n. cette église typique\na les cloches qui sonnent\nchaque jour à midi.\n
 CIRCUS_0
 Cirque Humberto\n\nLe célèbre cirque a fait de\ncette ville sa dernière\ndestination. La tente\nclassique a été gardée pour\npréserver l'atmosphère\noriginale, mais tous les\ngens du cirque ont acheté\nleur maison ici donc vous\npouvez compter sur eux\npour rester ici et devenir\ntrès populaires auprès des\ntouristes. Le cirque propose le\ncélèbre éléphant Jumbo qui\ns'assied dès qu'il entend la\ncloche sonner. Soyez donc\nprudent et évitez de sonner la\ncloche si vous vous trouvez\nderrière Jumbo, à moins de\nsouhaiter d'être très plat.\n
 CIVILIAN_RADAR
@@ -204,6 +206,8 @@ COM_00_19
 Ce magasin de vêtement\nest tenu par un jardinier\ncompétent. La question\nintéressante est : pourquoi\ny a-t-il tant d'agents\nsecrets qui viennent\nacheter leur costard ici ?\nN'est-ce pas suspect ?\n
 COM_00_21
 Ce parking est le repère de\nla gentocratie. A minuit se\nrencontre l' Association\ndes Menagères\nCinquentenaires\nMecontantes pour les raids\nen fauteils roulant\nmotorisés durant lesquelles\nils frappent tous les ados\nsaouls qu'ils rencontrent\navec leur cannes et leur\nsacs. Grace à leur activité,\nce quartier enregistre des taux\nde delinquance très faible.\n
+COM_00_22
+Agence locale bancaire\n\nCe petit bureau est le siège de la banque Alternative et de la Compagnie des Tortillas de Simutrans. Tous les mardis\n et les jeudis midi,\n vous pouvez voir les dirigeants\n de la banque offrir gratuitement\n des tortillas aux passants.\n
 COM_00_23
 Édifice résidentiel\n Les chats et les chiens\n sont interdits mais pas\n les tortues, les lamas et\n les crocodiles.\n\n
 COM_00_60
@@ -224,6 +228,8 @@ COM_01_19
 Cette boutique vend des\nmodels réduits de trains au\nmeilleur rapport qualité-prix\ndu monde! En plus d'être le\nrevendeur des  grandes\nmarques (Simutrix,\nMärklsimu, Roccoco,\nFleishboy, etc..), le proprio\ninvente et construit\nlui-même certains modèles\n(mais attention au prix !!!).\n
 COM_01_23
 Édifice à bureaux avec\npublicités\n\n
+COM_01_26
+Appartement dans le style "Framework"
 COM_01_28
 Ici on construit des\npompes à eau. La\ncompagnie est connue pour\nle respect de ses\nemployés. Même si le salaire\nest inférieur à la moyenne,\nles ouvriers adorent leur\ntravail ici.\n
 COM_01_29
@@ -236,6 +242,8 @@ COM_01_47
 Tour résidentielle\n\n
 COM_01_52
 Si seulement les\narchitectes de cet\nimmeuble n'avaient pas été\nsi soucieux de notre santé.\nAfin que nous fassions de\nl'activité physique, ils\nn'ont pas installé\nd'ascenseur. Ils ont\ninstallé des ressorts avec\ndes pistons à ait comprimé\nsur les portes. Et le pire de\ntout, c'est que la cafétéria\nne propose que des légumes et\non ne peut y boire que de l'eau\nnon-sucrée !\n
+COM_01_60
+Gratte-ciel du Haut\n\n
 COM_03_28
 Les bureaux de cet édifice\nétaient tellement grand que\nles clients se perdaient\ndans les espaces vides.\nLe propriétaire a décidé de réduire\nl'espace d'un mur vers l'intérieur.\nLa demande a augmenté fortement,\nassez pour en construire un deuxième.\n
 COM_05_01
@@ -261,11 +269,11 @@ Ceci est le Casino "Perdez\nvotre pantalon".\nA moins que vous ne\nvoyez pas les
 COM_05_11
 Ceci est un vieux bureau\nutilisé par les services\nsociaux pour ses nombreux\nprogrammes de recherche\net d'aide à la jeunesse\nitinérante. Exemples :\n"Quels batiments faire\nexploser?" ou "Quelle\nvoiture voler?"\n
 COM_05_12
-Ce batiment beneficie\nd'une protection\nrevolutionnaire contre les\ninondations: il est surelevé\nde 30 mètres.\nLe problème est que les\ninondations n'existent pas\ndans Simutrans, aussi le\nbas est utilisé comme\nparking.\n
+Ce bâtiment bénéficie\nd'une protection\nrévolutionnaire contre les\ninondations : il est surélevé\nde 30 mètres.\nLe problème est que les\ninondations n'existent pas\ndans Simutrans, aussi le\nbas est utilisé comme\nparking.\n
 COM_05_13
 Ceci est un Formule Un. Prix\nbas, taux d'occupation\n135%. Ce n'est pas le grand\nluxe, mais au moins vous\naurez une douche et des\ntoilettes (meme si les deux\nsont souvent sales...)\n
 COM_05_15
-À la boutique Chez Joe,\non trouve tout les appareils\ntéléguidés imaginables. Des autos\naux avions vous trouverez de tout\nen plus de conseils d'expert.\nIl y a même un pièce en forme\nde tour de contrôle.\n
+À la boutique Chez Joe,\non trouve tous les appareils\ntéléguidés imaginables. Des autos\naux avions vous trouverez de tout\nen plus de conseils d'experts.\nIl y a même une pièce en forme\nde tour de contrôle.\n
 COM_05_16
 Vous allez souvent trouver\ndes jeunes se baignant\ndans ce réservoir.\nDans ces cas, il est\nrecommendé d'attendre\nquelques heures avant de\nboire l'eau...\ndu moins jusqu'à ce que l'eau ne\nsoit plus jaunâtre.\n
 COM_05_17
@@ -280,6 +288,8 @@ COM_05_21
 Les accidents sont rares\nà Simuland grâce aux\nfantastiques systèmes de\ntransport en commun.\nN'empêche que c'est rassurant\nde savoir qu'il y a\ndes ambulances qui peuvent\nvous conduire à cet hôpital\ndes plus moderne.\n
 COM_05_22
 Si tu ne peux pas te\nstationner dans la rue,\ntu dois aller dans ce\nstationnement. Tu vas payer\nun prix de fou et ta\nvoiture ne sera même\npas en sécurité.\nC'est dommage mais il\nn'y pas d'autre choix.\n
+COM_05_23
+À l'origine conçu comme bâtiment de niveau unique avec\nune cours intérieure ouverte\n, ce bâtiment a pris un nouveau visage hors du commun\n quand la demande\nde bureaux supplémentaires\n au centre-ville\n a forcé les propriétaires à augmenter de l'espace\n.\n
 COM_07_01
 Ce petit magasin d'outillage\nest un des survivants dans\nla bataille avec les grandes\nsurfaces qui gagnent,\nchaque jour, plus de\nclients. Manifestement, il\noffre quelque chose de\nspécial. Peut-être qu'une\nbelle femme se trouve\nderrière le comptoir, qui\nsait?\n
 Container1TrainStop
@@ -291,7 +301,7 @@ Service du contrôle
 Crate_Goods_Dock
 Port aux conteneurs
 CunnersdorfStopBlg
-Batiment d'une gare de village
+Bâtiment d'une gare de village
 CUR_01_128_JH
 Cet "Atomium" a été\nconstruit pour une sorte\nd'exposition. Mais personne\nne se souvient vraiment de\nce qu'était cette\nexposition. Alors on l'a\ntransformé en un\nrestaurant de grande\nclasse. Les tables dans "la\nboule" d'en haut offre\nvraiment une belle vue and\non doit y resrver une table\nau moins deux semaines à\nl'avance!\n
 DenkFlor
@@ -329,7 +339,7 @@ Bourgade western\n\n
 FreightTrainStop
 Gare de marchandises
 FUTURISTIC_TOWER_0
-Cette tour offre une vue\nmagnifique sur les\npaysages au alentours. Au\n1er étage , il y a un petit\nbar, alors vous pouvez\nboire un verre en apréciant\nla vue. Même si le prix ne\npas vraiment\nbon-marché,cette tour\nattire beaucoup de\nvisiteurs.\n
+Tour moderne\n\nCette tour offre une vue\nmagnifique sur les\npaysages aux alentours. Au\n1er étage, il y a un petit\nbar, alors vous pouvez\nboire un verre en appréciant\nla vue. Même si le prix n'est\npas vraiment\nbon marché, cette tour\nattire beaucoup de\nvisiteurs.\n
 Gas_StationBlg
 Gazomètre
 Goods_StationBlg
@@ -347,7 +357,7 @@ Centrale - d'ici vous dirigez votre société. Oui, c'est seulement une halle de m
 IND_00_01
 Un petit bâtiment sur une coline\nest un endroit parfait\npour faire du bruit.  Voici la\nbruiterie, où les gens \nvont pour faire tout le bruit\n qu'ils veulent. Mais soyez\navertis, vous devez payer\nà la sortie, et les frais\nne sont pas indiqués \nà l'entrée.\n\n
 IND_00_02
-Ce vieux batiment est\nun moulin alimenté au charbon.\nIl n'a pas produit de planches\ndepuis des années,\ndonc ne soyez pas tentés de\nlui fournir des planches ou de charbon !\n
+Ce vieux bâtiment est\nune scierie alimentée au charbon.\nElle n'a pas produit de planches\ndepuis des années,\ndonc ne soyez pas tentés de\nlui fournir du bois ou du charbon !\n
 IND_00_03
 Champ de maïs\n\nMaïs rôti! Maïs rôti! Venez voir\net écoutez, comme il fait\nPop! \n\n
 IND_00_05
@@ -355,7 +365,7 @@ C'est une petite\nboulangerie. Elle etaient\navant courantes, mais la\nconsommat
 IND_00_06
 Vous seriez surpris de\nsavoir ce qui est produit\nici... des pots de fleurs! Si!\nSi!\n\n
 IND_00_10
-Entrepot demandant\ndesesperement des choses\nà stocker depuis sa\nconstruction.\n\n
+Entrepôt attendant\ndésespérément des choses\nà stocker depuis sa\nconstruction.\n\n
 IND_00_13
 Une des nombreuses\nfranchises du populaire\nGarage Jerry\n\n
 IND_00_14
@@ -371,9 +381,9 @@ Il ne se passe pas grand\nchose ici, sauf les\nconducteurs qui passent\nsur l'he
 IND_01_03
 Prairie avec des vaches\n\n
 IND_01_05
-Vous allez être très surpris,\nmais ici on produit des\ngremlins ! Oui, si je vous le\ndit !\n\n
+Vous allez être très surpris,\nmais ici on produit des\ngremlins ! Oui, si je vous le\ndis !\n\n
 IND_01_06
-Vous allez être très surpris,\nmais ici on produit des\ngnomes ! Oui, si je vous le\ndit !\n\n
+Vous allez être très surpris,\nmais ici on produit des\ngnomes ! Oui, si je vous le\ndis !\n\n
 IND_01_13
 Ce bâtiment a été\nrécemment mis en vente.\nVoyons combien de temps il\nfaudra attendre pour qu'il\nsoit à nouveau habité.\n\n
 IND_01_20
@@ -389,7 +399,7 @@ Champ effondu. Patienter -\nil y a un temps pour tout.\n\n
 IND_02_03
 Champ de seigle. Avez vous\nla dernière édition limitée de\npain de seigle Superb II?\nMhmmm, délicieux...\n\n
 IND_02_04
-Un demi-vignoble. Le veuf\nn'était pas capable de\nmaintenir qu'un moitié de\nvignoble. Le reste est\nmaintenant embroussaillé,\nétant une maison pour des\nétourneaux, qui mangent\nchaque année les raisins\nplus vite que le vieux veuf. \n\n
+Un demi-vignoble. Le veuf\nn'était capable de\nmaintenir qu'une moitié de\nvignoble. Le reste est\nmaintenant embroussaillé\net est devenu une maison pour\nles étourneaux, qui mangent\nchaque année les raisins\nplus vite que le vieux veuf. \n\n
 IND_03_01
 Champ de chanvre. \nChanvre. Pas marihuana.\nVraiment.\n\n
 IND_04_02
@@ -427,7 +437,7 @@ Fondation pour monorail
 MonorailGround
 Support de la ligne magnétique 
 MT_HOTEL_0
-Hotel "Simunuit"\n\nC'est un hotel très connu.\nLes nuitées sont très\nchères, mais tout le monde\nmeurt d'envie de dormir ici,\nou, au moins, prendre un\nrepas au restaurant de\nl'hotel.\n
+Hôtel "Simunuit"\n\nC'est un hôtel très connu.\nLes nuitées sont très\nchères, mais tout le monde\nmeurt d'envie de dormir ici,\nou, au moins, prendre un\nrepas au restaurant de\nl'hôtel.\n
 MUSEUM_0
 Musée technologique\n\nCe bâtiment fut l'hôtel\nde ville, puis il a été\nreconstruit en résidence de\nluxe et récemment\ntransformé en musée public\nde science et de\ntechnologie. Vous pouvez\nvoir de vieux véhicules,\napprendre sur l'avancée de\nla physique ou participer à\nun des nombreux\nséminaires.\n
 OBSERVATORY
@@ -455,7 +465,7 @@ Office de la poste maritime
 PostOffice
 Office de poste
 PostOffice1920_AirportBlg
-Ancien batiment de la poste aerienne
+Ancien bâtiment de la poste aérienne
 Radar3
 Radar
 radiant_house
@@ -465,7 +475,7 @@ C'est le studio de la radio\nlocale "Chit-Chat FM". Un\ncertain nombre de\nperso
 RES_00_01
 Le camp des campeurs\njoyeux, c'est le lieu de \nrencontre pour avoir du\nplaisir à l'extérieur.\nSitué en ville, les feux\nde camps sont permis.\nPlusieurs campeurs vont pêcher\nleurs repas dans l'étang de\nla ville.
 RES_00_02
-Petite maison en banlieu.\n Un vieu couple y vie.\n L'endroit est calme et\npaisible, parfait pour jouir\n des bénéfices de leur pension.\nDans leur jardin ils\nfont pousser des légumes\n pour sauver de l'argent.\n
+Petite maison en banlieue.\n Un vieux couple y vie.\n L'endroit est calme et\npaisible, parfait pour jouir\n des bénéfices de leur pension.\nDans leur jardin, ils\nfont pousser des légumes\n pour faire des économies.\n
 RES_00_03
 Si vous ne pouvez pas\nvous payer un chalet\nen forêt vous pouvez\nquand même en avoir\nun... en pleine ville.\n\n
 RES_00_04
@@ -474,6 +484,10 @@ rmax_clock_tower
 Tour de l'horloge\n\n
 rmax_courthouse
 Palais de justice\n\n
+rmax_DenkManualTeam
+Monument de la Torche Lumineuse.\n\nCe monument est dédié à ceux\nqui aident à créer et maintenir le Wiki,\nles textes d'aide du jeu et d'autres manuels,\nà tous ceux qui éclairent\nles mystères de simutrans.\n\nMerci!\n
+rmax_dictator_statue
+Le dictateur Bienveillant.\n\nLe Dictateur Bienveillant (qui de la main agit)\n- tant de jeunes filles ont défailli\nà la base de cette statue,\nqu'à la fin le Ministère de l'Anxiété\na installé une ceinture de chaîne\nautour de son périmètre.\nRien n'y a fait.\nBeaucoup de résidents croient maintenant\nque du monument rayonne\nun peu de pouvoir de fertilité mystérieuse.\n
 rmax_fabio_bust
 Fagonellus Romanus\n\nLe buste de Fabio, aussi appelé "Fagonellus".\nLes gens viennent en masse admirer ce monument,\nà la gloire de ses simcréations.
 rmax_icarus
@@ -536,6 +550,8 @@ VictorianStation
 Station de style Victorien
 VillageTrainStop
 Gare régionale
+WernerServer
+Serveur de Werner.\n\nMonument à la gloire\ndu premier serveur de jeu de Simutrans.\n\n 
 WHEEL
 Grande Roue\n\nCette grande roue,\nseule attraction restante d'un ancien parc à thèmes,\nest appelée "la roulette russe".\nElle offre une vue incroyable sur la ville,\nsi vous n'avez pas le vertige !\n
 Windmill
@@ -644,6 +660,10 @@ sheep_farm
 Ferme de mouton
 shopping_mall
 Grand magasin
+Solar Pond_kraftwerk
+Centrale à bassin solaire
+SolarThermalOne_kraftwerk
+Champs de panneaux solaires
 steel_mill
 Aciérie
 Stonequarry

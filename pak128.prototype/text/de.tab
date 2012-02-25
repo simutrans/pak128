@@ -5,7 +5,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 25.10 2011                           #
+#                            Date Created: 2.02 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                            Alexander Brose - AlexB                           #
@@ -58,6 +58,8 @@
 #                                    note:                                     #
 #                                - jounior-fuchs                               #
 #                                    note:                                     #
+#                            Hendrik - missingpiece                            #
+#                                    note:                                     #
 #                              Markus Rex - msrex                              #
 #                                    note:                                     #
 #                                    - petter                                  #
@@ -88,6 +90,10 @@ ClassicRail
 Eisenbahnbrücke - Beton
 PowerBridge
 Hochspannungsleitung (von Berg zu Berg)
+road_030_bridge
+Straßenbrücke
+road_200_bridge
+Straßenbrücke 200km/h
 RVg_Concrete_Rail_Bridge
 Eisenbahnbrücke - gewölbter Stahlbau
 Schwebebahn_p_bridge
@@ -133,21 +139,25 @@ Moderner Hangar (1990)
 ABBYS_0
 Alte Abtei\n\nDie Mönche brauen das\nSchwarzbier just nach jenem\nuraltem Rezept, welches die\nGrundlage für das wetbekannte\nReinheitsgebot von\nSimuTranssylvanien werden\nsollte.\n
 Airport1920_AirportBlg
-Flugabfertigungshalle (von 1918)
+Flughafengebäude - Personen (1918-1932)
 Airport1930PostOffice
-Flughafengebäude Post (1930)
+Flughafengebäude - Post (1930-1955)
 Airport1990_Big_AirportBlg
-grosses Terminalgebäude (1990)
+Flughafengebäude groß - Personen (1989-????)
+Airport1990_Big_PostOffice
+Flughafengebäude groß - Post (1989-2040)
 Airport1990_Entrance_AirportBlg
-Flughafen-Haupteingang (1990)
+Flughafengebäude - Eingang (1989-????)
 Airport1990_Gates_AirportBlg
-kleines Flughafengebäude (1990)
+Flughafengebäude klein - (1989-????)
 Airport1990_PostOffice
-Flughafengebäude Post (1990)
+Flughafengebäude klein - Post (1990-????)
 Airport1990_Small_AirportBlg
-kleines Terminalgebäude (1990)
+Flughafengebäude klein - Personen (1989-????)
+Airport1990_Small_PostOffice
+Flughafengebäude klein - Post (1989-2040)
 Airport1990_Warehouse
-Flughafengebäude Fracht (1990)
+Flughafengebäude - Fracht (1990-????)
 AirStop_AirportBlg
 Vorfeld
 Almuthof_StationBlg
@@ -162,8 +172,10 @@ big_classic_bus_stop
 Bushaltestelle (mit Aludach)
 big_modern_bus_stop
 Bushaltestelle (mit Glasdach)
+BigTerminal1930_AirportBlg
+Flughafengebäude - Personen (1935-1950)
 BigTerminal1950_AirportBlg_S
-Großes Flughafenterminal (1950)
+Großes Flughafenterminal - Personen (1950-1989)
 Bulk_Dock
 Schüttguthafen
 Bulk_StationBlg
@@ -871,9 +883,13 @@ Bushaltestelle (mit Bushäuschen aus Glas)
 MILITARY_RADAR
 Abhörstation\n\n
 Modern_Warehouse
-Lagerhalle
+Lagerhaus klein - Fracht (Haltestellenerweiterung)
+modern_warehouse_big
+Lagerhaus groß - Fracht (Haltestellenerweiterung)
 ModernPostOffice
-Postverteilzentrum
+Postamt klein - Post (Haltestellenerweiterung)
+ModernPostOfficeLarge
+Postamt groß - Post (Haltestellenerweiterung)
 ModernTrainStop
 Moderner Bahnhof (Passagiere)
 MonorailDepot
@@ -888,6 +904,8 @@ MUSEUM_0
 Museum\n\nEin Ort, an dem all das\naufgehoben wird, das andere\nfrüher verloren haben.\n\n
 OBSERVATORY
 Sternwarte\n\nMit dem Spiegelteleskop\nwerden astronomische\nObjekte im sichtbaren\nSpektrum beobachtet. An\nTagen der Offenen Tür platzt\ndie Sternwarte vor Besuchern\naus allen Nähten.\n
+OfficeTrainStop
+Bahnhof klein - ohne Fracht,Passagiere,Post (1940-????)
 Old_gate
 Altes Schloss
 OLD_HOUSE_0
@@ -904,12 +922,16 @@ parking_(catchemnt_area_ext)2
 Parkplätze (P&R)
 parking_(catchemnt_area_ext)3
 Parkplätze (P&R)
+plain_tile_high
+Bahnhoferweiterung - Fracht
 Post_Dock
 Posthafen
 PostOffice
 Postamt
 PostOffice1920_AirportBlg
 Luftpost-Gebäude (1920)
+PostOfficeOldLarge
+Postamt groß - Post (1860-1977)
 Radar3
 Radar
 RADIO_TOWER_0
@@ -1506,12 +1528,20 @@ Windmill
 Windmühle\n\nVon den Werken uralter\nÖkologiekunst kann auch heute\nnoch viel gelernt werden.\nLeider waren die\nWindleitplatten noch nicht\nerfunden. Moderne Kreatoren\nhätten sie sicher gern als\nBeispiele studiert. Denn wer\nwollte nicht mit 8-facher\nWindverstärkung noch bei\nWindstärke 2 erfolgreich Korn\nmahlen oder Strom produzieren?\n
 WOODEN_CHURCH
 Alte Kapelle\n\nLängst wurde der kleine, aber\ndennoch ehrwürdige Bau zu\neiner großen\nSehenswürdigkeit. Die\nMalereien eines begnadeten\nLaienkünstlers sind perfekt\nerhalten, obwohl niemals ein\nRestaurator Hand an sie gelegt\nhat.\n
+#____________________________________citycar____________________________________
+#____________________________________citycar____________________________________
+ambulance_0
+Krankenwagen
+ambulance_1
+Krankenwagen
 #__________________________________dummy_info___________________________________
 #__________________________________dummy_info___________________________________
 factory_bakery_details
 <title>Großbäckerei</title>\n\nLeckere Brote und Schrippen werden hier am laufenden Band von Nachts bis zum frühen Vormittag für die Simuaner hergestellt.
 factory_brewery_details
 <title>Brauerei</title>\n\nHier wird das Getreide in schmackhaftes Bier vergoren.
+factory_cannery_details
+Hier werden Fleisch und Fische in Dosen verpackt.
 factory_Cementmill_details
 <title>Zementfabrik</title>\n\nHier wird der Zement hergestellt, der für den Bau der Simutranshäuser gebraucht wird.
 factory_chicken_farm_details
@@ -1533,7 +1563,7 @@ factory_Erzbergwerk_details
 factory_ethanol_plant_details
 <title>Ethanolfabrik</title>\nEthanol-Kraftstoff ist ein klopffester Ottokraftstoff mit einer Oktanzahl von mindestens 104 ROZ.
 factory_fish_pond_details
-<title>Fischzuchtanlage</title>\nBei einigen Fischarten, vor allem Lachsen, lohnt sich ein Zuchtbetrieb.
+<title>Fischzuchtanlage</title>\n<h1>Teichwirtschaft</h1>\n\n<p>Bei einer Teichwirtschaft werden Fische in Teichen für die Nahrungsindustrie gezüchtet. Hauptsächlich handelt es sich dabei um verschiedene Arten von Lachs, Karpfen, Barsch und Forelle.
 factory_fish_swarm_details
 <title>Fischschwarm im Meer</title>\nReiche Fischgründe galten lange Zeit als unerschöpfliche Nahrungsquelle, doch manche gelten heute als überfischt. In den grossen Schleppnetzen der industriellen Fischerei verfangen sich auch immer wieder geschützte Tiere.
 factory_Moebelfabrik_details
@@ -1598,6 +1628,8 @@ cow_farm
 Bauernhof (Rinder)
 dairy
 Molkerei
+electronics_factory_new
+Elektronik-Fabrik
 ethanol_plant
 Ethanolfabrik
 fish_pond
@@ -1608,6 +1640,8 @@ food_processing_plant
 Lebensmittelfabrik
 ForestPlantation
 Forstwirtschaft
+Geothermal powerplant_kraftwerk
+Erdwärmekraftwerk
 Glass_factory
 Glasfabrik
 grain_farm_w_fields
@@ -1630,12 +1664,16 @@ Oelfeld
 Ölfeld
 oilkraftwerk
 Ölkraftwerk
+old_fish_cannery
+Fischkonservenfabrik
 old_powerplant_kraftwerk
 Kohlekraftwerk
 open_coal_mine
 Kohlenzeche (Tagebau)
 publisher
 Buchverlag
+Raffinerie
+Ölraffinerie
 Saegewerk
 Sägewerk
 sand_quarry_dd
@@ -1648,6 +1686,12 @@ sheep_farm
 Bauernhof (Schafe)
 shopping_mall
 Einkaufszentrum
+Solar Pond_kraftwerk
+Wasserkraftwerk
+SolarPowerTowerPS10_kraftwerk
+Solarkraftwerk
+SolarThermalOne_kraftwerk
+Solarkraftwerk
 steel_mill
 Stahlwerk
 Stonequarry
@@ -1702,6 +1746,8 @@ goods_
 Fertigwaren
 grain
 Getreide
+Holz
+Langholz
 meat
 Fleisch
 milk
@@ -1720,6 +1766,10 @@ waste
 Abfälle
 wool
 Schafwolle
+#__________________________________ground_obj___________________________________
+#__________________________________ground_obj___________________________________
+cactus000_1
+Kaktus
 #___________________________________menu_text___________________________________
 #___________________________________menu_text___________________________________
 MONORAILTOOLS
@@ -1844,6 +1894,18 @@ Bergfichte\n
 #____________________________________tunnel_____________________________________
 RailTunnel
 Eisenbahntunnel
+road_040_tunnel
+Straßentunnel 40km/h
+road_050_tunnel
+Straßentunnel 50km/h
+road_070_tunnel
+Straßentunnel 70km/h
+road_090_tunnel
+Straßentunnel 90km/h
+road_110_tunnel
+Straßentunnel 110km/h
+road_130_tunnel
+Straßentunnel 130km/h
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -1878,8 +1940,20 @@ Big_Bretterwagen
 RVg Langholz- und Bretterwaggon
 Big_Erztruck
 MHz Muldenkipper
+Black_Osprey
+Handelsschiff(Dampf) - Stahl (1918-1958)
+Black_Osprey_(goods)
+Handelsschiff(Dampf) - Paletten  (1918-1958)
+Black_Osprey_(grain)
+Handelsschiff(Dampf) - landw. Güter (1918-1958)
+Bretterwagen
+Rungenwagen - Bretter (1960-1984)
+British_Premier
+Handelsschiff(Dampf) - Öl/Benzin (1922-1959)
 Budd_Coach
 Budd RPO (Personenwagen)
+Budd_Lounge
+Budd_Lounge - Personen
 Budd_Observation
 Budd RPO (Schlusswagen)
 Budd_RPO
@@ -1966,6 +2040,10 @@ DueWAG_GT6_tailwaggon
 Due WAG GT6 (Passagierwagen)
 E_423
 E-Lok Sindor E 423 "Spitzenklasse"
+Eaglescliffe_Hall
+Handelsschiff(Dampf) - Schüttgut (1928-1961)
+Eaglescliffe_Hall_(lumber)
+Handelsschiff(Dampf) - Langholz (1928-1961)
 EM400_1
 E-Triebwagen "Sindor-FK EM400"
 EMD_E5A_Silver_Meteor
@@ -2622,6 +2700,8 @@ S_Kroytor_PAZ-772
 S.Kroytor PAZ-772
 S_Kroytor_Traveler
 S.Kroytor Traveler
+SAC-McDonnell_Douglas_MD-11F_(cooled_goods)_128_set
+SAC-McDonnell Douglas MD-11F Kühlgut Transportflugzeug
 Sail_Post_Ship_0
 Segelschiff (Post)
 SBB_Re4_4_II
@@ -2776,8 +2856,14 @@ High_quality_track
 Gleis
 low_quality_track
 Nebenbahngleis
+old_runway
+Landebahn (Gras)
+old_taxiway
+Rollbahn (Gras)
 Powerline
 Hochspannungsleitungen
+road_200
+Straße 200km/h
 runway_modern
 Piste
 Schwebebahn_p_ground
@@ -2786,6 +2872,18 @@ steel_sleeper_track
 Hochgeschwindigkeitsgleis
 Suspended_Monorail_Track
 Schwebebahnschiene (hoch)
+Tram_Track_050_A
+Straßenbahngleis 50km/h
+Tram_Track_070_A
+Straßenbahngleis 70km/h
+Tram_Track_070_B
+Straßenbahngleis 70km/h
+Tram_Track_090_A
+Straßenbahngleis 90km/h
+Tram_Track_090_B
+Straßenbahngleis 90km/h
+Tram_Track_110_A
+Straßenbahngleis 110km/h
 water_road
 Kanal
 wooden_sleeper_track

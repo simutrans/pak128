@@ -5,7 +5,7 @@
 #                             Language: it Italiano                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 25.10 2011                           #
+#                           Date Created: 11.01 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -32,6 +32,24 @@ ClassicRail
 Ponte in cemento
 PowerBridge
 Ponte linea alta tensione
+road_030_bridge
+Ponte di legno
+road_040_bridge
+Ponte di mattoni
+road_050_bridge
+Ponte di mattoni sostenuto da pilastri
+road_055_bridge
+Ponte di ciotoli
+road_070_bridge
+Ponte in mattoni con barriere di ferro
+road_090_bridge
+Ponte in cemento sospeso
+road_110_bridge
+Ponte in cemento sospeso a scorrimento veloce
+road_130_bridge
+Ponte in cemento sospeso ad alta velocità
+road_200_bridge
+Ponte in cemento sospeso ad alta velocità con barriere di protezione
 RVg_Concrete_Rail_Bridge
 Ponte a sospensione in acciaio (RVg)
 Schwebebahn_p_bridge
@@ -562,6 +580,8 @@ Oelfeld
 Pompa estrazione petrolio
 oilkraftwerk
 Centrale elettrica a petrolio
+old_fish_cannery
+Vecchio conservificio ittico
 old_powerplant_kraftwerk
 Centrale elettrica a carbone
 open_coal_mine
@@ -584,6 +604,12 @@ sheep_farm
 Allevamento pecore
 shopping_mall
 Centro commerciale
+Solar Pond_kraftwerk
+Centrale elettrica a biogas
+SolarPowerTowerPS10_kraftwerk
+Centrale elettrica solare a torre
+SolarThermalOne_kraftwerk
+Centrale elettrica fotovoltaica
 steel_mill
 Acciaieria
 Stonequarry
@@ -784,6 +810,10 @@ preSignal_Monorail
 Presegnali linea levitazione
 preSignals
 Presegnali (tipo standard)
+Railgate
+Cancello ferroviario (permette l'accesso solo ai tuoi veicoli)
+RisingBollards
+Dissuasori mobili (permettono l'accesso solo ai tuoi veicoli)
 RoadClosed
 Blocco stradale
 Signal_Monorail

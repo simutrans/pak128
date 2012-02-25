@@ -5,7 +5,7 @@
 #                            Language: zh T. Chinese                           #
 #                                Encoding: UTF-8                               #
 #                           Font : wenquanyi_9pt.bdf                           #
-#                           Date Created: 25.10 2011                           #
+#                           Date Created: 14.12 2011                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -19,6 +19,8 @@
 #                          Anson Leung - ansonscleung                          #
 #                                    note:                                     #
 #                           Issac Chau - chautakhuen                           #
+#                                    note:                                     #
+#                                    - jn4481                                  #
 #                                    note:                                     #
 #                                   - knightly                                 #
 #                                    note:                                     #
@@ -210,6 +212,8 @@ ShipStop
 客輪碼頭
 small_classic_bus_stop
 小型巴士站
+ST_PETER
+聖彼德大教堂
 Suspended_Monorail_Bahnhof_Modern
 單軌鐵路月台
 Terminal1930_AirportBlg
@@ -230,6 +234,8 @@ TrainStop
 列車月台
 TramDepot
 輕鐵車廠
+TV_TOWER_0
+電視發射站
 TV_TOWER_1
 電視信號發射塔\n
 Very_Big_Terminal
@@ -244,6 +250,8 @@ WOODEN_CHURCH
 木製教堂\n
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
+autoshop3
+汽車店
 bakery
 麵包店
 brewery
@@ -389,13 +397,19 @@ MONORAILTOOLS
 Build monorail depot
 興建單軌鐵路廠
 CATEGORY_01
-混載貨物
+細小貨物
 CATEGORY_02
 重型貨物
 CATEGORY_03
 石油/汽油
 CATEGORY_04
 冷凍貨物
+CATEGORY_05
+流體食品
+CATEGORY_06
+木材
+CATEGORY_07
+農場產品
 Monorail
 單軌鐵路
 monorail vehicle
@@ -432,6 +446,10 @@ traffic_light
 #____________________________________tunnel_____________________________________
 RailTunnel
 鐵路隧道
+#____________________________________vehicle____________________________________
+#____________________________________vehicle____________________________________
+Cement_Carrier_Fast
+水泥拖卡
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 concrete_sleeper_track

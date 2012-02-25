@@ -5,7 +5,7 @@
 #                             Language: cz Cestina                             #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 25.10 2011                           #
+#                           Date Created: 25.02 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -38,6 +38,10 @@ ClassicRail
 Plochý betonový most (Nabe)
 PowerBridge
 Most vedení VN
+road_030_bridge
+Døevìný silnièní most
+road_200_bridge
+Dálnièní most
 RVg_Concrete_Rail_Bridge
 Klenutý ocelový most (RVg)
 Schwebebahn_p_bridge
@@ -88,6 +92,8 @@ Airport1930PostOffice
 Letecká po¹ta
 Airport1990_Big_AirportBlg
 Leti¹tní Terminál
+Airport1990_Big_PostOffice
+Velký po¹tovní terminál
 Airport1990_Entrance_AirportBlg
 Vstupní brána
 Airport1990_Gates_AirportBlg
@@ -96,6 +102,8 @@ Airport1990_PostOffice
 Letecká po¹ta
 Airport1990_Small_AirportBlg
 Moderní Èekárna
+Airport1990_Small_PostOffice
+Malý po¹tovní terminál
 Airport1990_Warehouse
 Budova nákladní dopravy (CARGO)
 AirStop_AirportBlg
@@ -112,6 +120,8 @@ big_classic_bus_stop
 Velká zastávka
 big_modern_bus_stop
 Velká moderní zastávka
+BigTerminal1930_AirportBlg
+Velká odbavovací hala
 BigTerminal1950_AirportBlg_S
 Velká odbavovací hala
 Bulk_Dock
@@ -624,6 +634,8 @@ IND_01_20
 Továrna je jednou z èástí\njisté prosperující firmy.\nVyrábí celou øadu\nsyntetických výrobkù, jako\nprùmyslová barviva a\nplexisklo.\n\n
 IND_01_29
 Bývalá tvrz, kterou si dùlní\nin¾enýr Marek pøestavìl na\nlaboratoø. V¹echny pokusy\no výrobu karburátoru\nschopného absolutního\nspalování zatím ztroskotaly.\nNa¹tìstí. \nZklamaný in¾enýr tedy dál objí¾dí\nsousedy ve svém\nosmiválcovém parním\nkabrioletu a hledá\nsponzora.\n
+IND_01_30
+Varna mýdla pro svou kvalitu ¾ádaného po celém svìtì.
 IND_01_35
 Silnièáøi tady mají\nvýjezdovou stanici. Jejich\nsypaèe jsou v pohotovosti\na èekají a¾ padne první\nvloèka.\n\n
 IND_01_36
@@ -886,8 +898,12 @@ MILITARY_RADAR
 Vojenský radar\n\nVojenský objekt, VSTUP ZAKÁZÁN.\nJdìte pryè! Øekl jsem jdìte\npryè! Já to myslel\nVÁ®NÌ!!!!!!!!! OKAM®ITÌ\nZAVØETE TOTO OKNO A\nODSCROLUJTE JINAM\n!!!!!!!!!!!!!!!!!\n
 Modern_Warehouse
 Moderní skladi¹tì
+modern_warehouse_big
+Velké skladi¹tì
 ModernPostOffice
 Moderní po¹ta
+ModernPostOfficeLarge
+Velký po¹tovní úøad
 ModernTrainStop
 Moderní vlakové nádra¾í
 MonorailDepot
@@ -902,6 +918,8 @@ MUSEUM_0
 Mìstské technické muzeum\n\nPùvodnì hrádek, poté zámeèek a nakonec mìstské technické muzeum, kterým je dodnes.\nNáv¹tìvníci zde mohou\nobdivovat modely prvních\nletadel, lodí, parních\nlokomotiv a dozvìdìt se\nspoustu dal¹ích\nzajímavostí ze svìta vìdy\na techniky. Pravidelnì se\nzde také poøádají\npøedná¹ky a besedy.\n
 OBSERVATORY
 Hvìzdárna Ondrákov\n\nZatímco jedni astronomové v noci sledují oblohu, ve dne sem pøicházejí turisté,\naby se z malé místní výstavy a také od dal¹ích astronomù dovìdìli, co v¹echno u¾ bylo na hvìzdné obloze objeveno.
+OfficeTrainStop
+Krytá ¾eleznièní zastávka
 Old_gate
 Stará hradní brána\n\nPùvodnì byla souèástí obrany jednoho hradu,\nale kdy¾ hrad spadl,\nstala se souèástí hradeb mìsta,\nkteré vyrostlo pod ním.\nA kdy¾ se mìsto rozrostlo tak,\n¾e mu bylo území chránìné hradbami malé,\nbyly hradby zbourány a zbyla jen tato brána.
 OLD_HOUSE_0
@@ -918,14 +936,20 @@ parking_(catchemnt_area_ext)2
 Parkovi¹tì
 parking_(catchemnt_area_ext)3
 Parkovi¹tì
+plain_tile_high
+Manipulaèní plocha
 Post_Dock
 Pøístav s po¹tou
 PostOffice
 Po¹ta
 PostOffice1920_AirportBlg
 Letecká Po¹ta
+PostOfficeOldLarge
+Velký po¹tovní úøad
 Radar3
 Radar
+radiant_house
+Záøící dùm\n\nUkázka modernistické architektury padesátých a¾ ¹edesátých let dvacátého století. Leè zapsán na seznam chránìných budov, stále obýván. A to lidmi, kteøí nemají pøíli¹né po¾adavky na komfort.
 RADIO_TOWER_0
 FM rádio stanice\n\nVìt¹inu èasu odtud vysílá rádio Skøivan FM.\nMezi 13:00 a 14:30 je zde fronta lidí,\nkteøí chtìjí být hostem vysílání.\n
 RES_00_01
@@ -1610,6 +1634,10 @@ Windmill
 Vìtrný mlýn\n\nNìkdo se chodí dívat na vìtrný\nmlýn, proto¾e se mu líbí\nelegance, se kterou se otáèí jeho lopatky;\nnìkdo zase proto¾e se mu\nchce na procházku a nemá\nv okolí lep¹í cíl. No a nìkteøí\nvýtr¾níci chodí k vìtrnému\nmlýnu, aby si po nìm\nvyzkou¹eli hodit kamenem.\n
 WOODEN_CHURCH
 Døevìný kostel\n\nTento kostel byl postavený\nlidmi, kteøí mají rádi výzvy,\nstojí bez pou¾ití jediného\nhøebíèku.\n
+#____________________________________citycar____________________________________
+#____________________________________citycar____________________________________
+Horse_Carriage_For_2_public
+Koòský povoz
 #__________________________________dummy_info___________________________________
 #__________________________________dummy_info___________________________________
 factory_autoshop3_details
@@ -1736,6 +1764,8 @@ dairy
 Mlékárna
 Druckerei
 Tiskárna
+electronics_factory_new
+Továrna na elektroniku
 Erzbergwerk
 Dùl na ¾eleznou rudu
 ethanol_plant
@@ -1748,6 +1778,8 @@ food_processing_plant
 Potravináøský závod
 ForestPlantation
 Prùmyslový les
+Geothermal powerplant_kraftwerk
+Geotermální elektrárna
 Glass_factory
 Sklárna
 grain_farm_w_fields
@@ -2088,10 +2120,30 @@ Big_Bretterwagen
 RVg velký vagón na døevo a prkna
 Big_Erztruck
 MHz velký nákladní automobil
+Black_Osprey
+Black Osprey (ocel)
+Black_Osprey_(goods)
+Black Osprey (paletované zbo¾í)
+Black_Osprey_(grain)
+Black Osprey (na obilí)
+BR-373_Back
+BR 373 (Eurostar) Zadní øídící vùz
+BR-373_BackCar
+BR 373 (Eurostar) Zadní vlo¾ený vùz
+BR-373_Car
+BR 373 (Eurostar) Støední vlo¾ený vùz
+BR-373_Eurostar
+BR 373 (Eurostar) Pøední øídící vùz
+BR-373_FrontCar
+BR 373 (Eurostar) Pøední vlo¾ený vùz
 Bretterwagen
 Plo¹inový vagon (prkna)
+British_Premier
+British Premier (technické kapaliny)
 Budd_Coach
 Budd RPO (vagon)
+Budd_Lounge
+Budd RPO (Zadní osobní vùz)
 Budd_Observation
 Budd RPO (jídelní vùz)
 Budd_RPO
@@ -2164,6 +2216,8 @@ Cooling_wagon_1
 Chladící kontejnerový vùz
 Cooling_wagon_2
 Cannonball mrazírenský vagón
+CPH_Motorcar
+CPH Motorový vùz
 DB_ADm101
 Haru-DB ADm101
 DB_Apmz121
@@ -2178,12 +2232,22 @@ DueWAG_GT6_tailwaggon
 Due WAG GT6 pøívìs
 E_423
 Sindor E 423 
+Eaglescliffe_Hall
+Eaglescliffe Hall (sypké nerostné suroviny)
+Eaglescliffe_Hall_(lumber)
+Eaglescliffe Hall (døevo)
+Edmund_Fitzgerald
+Edmund Fitzgerald (ocel)
+Edmund_Fitzgerald_(wood)
+Edmund Fitzgerald (døevo)
 EM400_1
 Sindor-FK EM400
 EMD_E5A_Silver_Meteor
 EMD E5A Støíbrný meteor
 EMD_E5B_Silver_Comet
 EMD E5B Støíbrná kometa
+EMD-FT_(C)
+EMD FT zadní lokomotiva
 Evil_DF-11
 Evil DF-11
 Evil_P-100_(carriage)
@@ -2198,6 +2262,8 @@ Evil-Jitluen_67_Minibus
 Evil-Jitluen 67 Minibus
 Express_tender
 Tendr
+Ferry_Mail_Extension_(small)
+Doplòkový po¹tovní prostor (malý)
 Fishing_Boat_1
 MHz Rybáøská bárka
 Fluid_trailer_0
@@ -2248,6 +2314,8 @@ Grain_trailer_0
 PMNV Pøívìs na zrní
 Grain_Truck_1
 VSYS-Tatra 815 (zrní)
+Gripsholm
+Doplòkový po¹tovní prostor (velký)
 Haru_2C1_Cheetah
 Haru 2C1 Gepard
 Haru_2D1_Buffalo
@@ -2362,6 +2430,8 @@ Kord_TT_bulk
 Kord TT (sypký materiál)
 Kord_TT_grain
 Kord TT (zrní - sypký materiál)
+Liner_Mail_Extension_(large)
+Doplòkový po¹tovní prostor (velký)
 MA461_waggon
 MA461 - vagón
 Mack_Truck_Cooling_Trailer
@@ -2418,6 +2488,10 @@ Milk_Truck_1
 S.Kroytor-ZIL Mléèná cisterna
 Milk_Truck_2
 Magirus Cisterna na mléko
+mja-bulk_trailer_l
+MJA Dlouhý návìs pro sypké nerostné suroviny
+mja-bulk_trailer_m
+MJA Krátký návìs pro sypké nerostné suroviny
 mja-MAN19332-128set
 mja-MAN 19332
 mja-ScaniaP380_tanker
@@ -2442,6 +2516,24 @@ mja-Zil130-128set
 mja-Zil 130
 MS_sprinter_mail
 Sprinter po¹tovní vùz
+MV_Balmoral
+MV Balmoral
+MV_Fedra
+MV Fedra (sypké nerostné suroviny)
+MV_Lake_Illawarra
+MV Lake Illawarra (sypké nerostné suroviny)
+MV_Lake_Illawarra_(grain)
+MV Lake Illawarra (obilí)
+New_Zealand_Star
+New Zealand Star (chlazené potraviny)
+Nordic_Heron
+Nordic Heron (technické kapaliny)
+Nordic_Heron_(liquid_food)
+Nordic Heron (tekuté potraviny)
+Nororn
+Nororn (chlazené potraviny)
+Owari_Maru
+Owari Maru (sypké nerostné suroviny)
 Passagierwagen
 Canonball BTx 060 2. tøída
 Passanger_waggon_0
@@ -2454,6 +2546,18 @@ Passanger_waggon_3
 RA BTx 050 2. tøída
 Passanger_waggon_MAITE39
 Nabe-JNR MAITE 39 1. tøída
+Patagonia
+Patagonia (paletované zbo¾í)
+Patagonia_(farm_products)
+Patagonia (obilí)
+Pegaso_6038_InterCity
+Pegaso 6038 Dálkový autobus
+Pegaso_6038_Urban
+Pegaso 6038 Mìstský autobus
+Pegaso-Seida_5020_InterCity
+Pegaso-Seida 5020 Dálkový autobus
+Pegaso-Seida_5020_Urban
+Pegaso-Seida 5020 Mìstský autobus
 Planck_Truck_0
 PMNV-Canonball Plochý vùz (prkna)
 Plank_Truck_2
@@ -2578,10 +2682,16 @@ Praga_N_milk
 Sindor-Praga N na mléko
 Praga_TOT_128
 Praga TOT
+Queen_Elisabeth_2
+Queen Elisabeth II.
 R_01
 RVg R1 - vlecny vuz
 R_02
 RVg R2 - vlecny vuz
+Rigoletto
+Rigoletto (auta)
+RMS_Baltic
+RMS Baltic
 RVg_0-1-4-0
 RVg 0-1-4-0
 RVg_1064_White_Bulk
@@ -2984,6 +3094,10 @@ skoda163
 ©koda 163 "Pershing"
 skoda180
 ©koda 180 "©estikolák"
+SMC_H-38_City_Bus
+SMC H38 Mìstský autobus
+SMC_H-98_City_Bus
+SMC H98 Mìstský autobus
 Stahlwagen
 Canonball nákladní vùz (ocel)
 Stahlwagen_0
@@ -2996,6 +3110,8 @@ Stahlwagen_3
 RVg vagón na ocelové pláty (ocel)
 Steel_Truck_0
 PMNV Plochý vùz (ocel)
+Stoyko_Peev
+Stoyko Peev (paletované zbo¾í)
 T_101
 RVg T101
 T_102
@@ -3074,6 +3190,12 @@ VSYS_Tatra_138_Grain
 VSYS Tatra 138 (zrní)
 VSYS_Tatra_813_Clossus
 VSYS Tatra 813 "Kolos"
+Willamette_Chief
+Willamette Chief
+Willamette_Chief_(farm_goods)
+Willamette Chief (obilí)
+Willamette_Chief_(goods)
+Willamette Chief (paletované zbo¾í)
 Wood_Trailer_0
 VSYS Pøívìs - døevo
 Wood_Truck_0
@@ -3144,6 +3266,8 @@ Tra» s døevìnými pra¾ci
 #__________________________________way-object___________________________________
 High_Speed_Catenary
 Vysokorychlostní trolej
+modern_runway-extMrkLgt
+Moderní osvìtlení runwaye
 old_catenary
 Stará trolej
 standard_catenary

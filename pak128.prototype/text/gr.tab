@@ -5,7 +5,7 @@
 #                             Language: gr Ellinika                            #
 #                                Encoding: UTF-8                               #
 #                                Font : cyr.bdf                                #
-#                            Date Created: 9.11 2011                           #
+#                            Date Created: 2.02 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -91,7 +91,7 @@ Airport1990_Warehouse
 AirStop_AirportBlg
 Χώρος επιβίβασης αεροσκαφών
 Almuthof_StationBlg
-Υπαίθριος σταθμός
+Αστικός σταθμός
 Avila_Big_StationBlg
 Μεγάλο κτήριο επιβατών
 Avila_Small_StationBlg
@@ -106,11 +106,131 @@ BigTerminal1930_AirportBlg
 Μεγάλος τερματικός σταθμός αεροδρομίου (1930)
 BigTerminal1950_AirportBlg_S
 Μεγάλος τερματικός σταθμός αεροδρομίου (1950)
+bus_terminus
+Σύγχρονος τερματικός σταθμός λεωφορείων
+CarStop
+Χώρος φορτοεκφόρτωση
+classic_mailbox
+Γραμματοκιβώτιο
+ClosedTrainStop
+Πλήρως καλυμμένη αποβάθρα
+CoalTrainStop
+Σταθμός με άνθρακα
+Container1TrainStop
+Σταθμός εμπορευματοκιβωτίων
+Container2TrainStop
+Προηγμένος σταθμός εμπορευματοκιβωτίων
+Control_StationBlg
+Κτήριο ελέγχου σταθμού
+CunnersdorfStopBlg
+Κτήριο αγροτικού σταθμού
+FreightTrainStop
+Σταθμός εμπορευματοκιβωτίων
+medium_classic_bus_stop
+Στάση λεωφορείων με σκέπαστρο
+medium_early_bus_stop
+Στάση λεωφορείων με σκέπαστρο
+medium_modern_bus_stop
+Σύγχρονη στάση λεωφορείων
+ModernTrainStop
+Σύγχρονος σταθμός
+OpenTrainStop
+Απλή πλατφόρμα
+parking_(catchemnt_area_ext)1
+Θέση στάθμευσης
+parking_(catchemnt_area_ext)2
+Θέση στάθμευσης
+parking_(catchemnt_area_ext)3
+Θέση στάθμευσης
+#___________________________________roadsign____________________________________
+#___________________________________roadsign____________________________________
+autobahn_classic_entrance
+Αυτοκινητόδρομος
+autobahn_classic_exit
+Τέλος αυτοκινητόδρομου
+autobahn_modern_entrance
+Σύγχρονος αυτοκινητόδρομος
+autobahn_modern_exit
+Τέλος σύγχρονου αυτοκινητόδρομου
+choose_point
+Πινακίδα επιλογής προορισμού
+ChooseSignals
+Σήμα επιλογής αποβάθρας (κανονικό)
+Classic_ChooseSignals_right
+Σήμα επιλογής αποβάθρας (κλασσικό)
+Classic_LongSignals_right
+Σήμα μακρινού αποκλεισμού (κλασσικό)
+Classic_preSignals_right
+Προειδοποιητικό σήμα (κλασσικό)
+Classic_Signals_right
+Σιδ/κό σήμα (κλασσικό)
+Early_ChooseSignals_right
+Σήμα επιλογής αποβάθρας (πρώιμο)
+Early_LongSignals_right
+Σήμα μακρινού αποκλεισμού (πρώιμο)
+Early_preSignals_right
+Προειδοποιητικό σήμα (πρώιμο)
+Early_Signals_right
+Σιδ/κό σήμα (πρώιμο)
+EndOfChooseSignals
+Τέλος σήματος επιλογής αποβάθρας
+LongSignals
+Σήμα μακρινού αποκλεισμού (κανονικό)
+Minimum80
+Ελάχιστο επιτρεπόµενο όριο ταχύτητας
+Modern_ChooseSignals_right
+Σήμα επιλογής αποβάθρας (σύγχρονο)
+Modern_EndOfChooseSignals_right
+Τέλος σήματος επιλογής αποβάθρας (σύγχρονο)
+Modern_LongSignals_right
+Σήμα μακρινού αποκλεισμού (σύγχρονο)
+Modern_OneWaySignals_right
+Σιδ/κό σήμα μονής κατεύθυνσης (σύγχρονο)
+Modern_preSignals_right
+Προειδοποιητικό σήμα (σύγχρονο)
+Modern_Signals_right
+Σιδ/κό σήμα (σύγχρονο)
+NoEntry
+Απαγορεύεται η είσοδος σε όλα τα οχήματα
+OneWaySignals
+Σιδ/κό σήμα μονής κατεύθυνσης (κανονικό)
+preSignals
+Προειδοποιητικό σήμα (κανονικό)
+RoadClosed
+Οδόφραγμα
+Signals
+Σιδ/κό σήμα (κανονικό)
+traffic_light
+Φανάρι
+#____________________________________tunnel_____________________________________
+#____________________________________tunnel_____________________________________
+RailTunnel
+Σιδηροδρομική σήραγγα
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 air_movement_area
 Τροχόδρομος από άσφαλτο
+High_quality_track
+Σιδ/κή γραμμή υψηλής ποιότητας
+low_quality_track
+Σιδ/κή γραμμή χαμηλής ποιότητας
 old_taxiway
 Τροχόδρομος από γρασίδι
 runway_modern
 Σύγχρονος διάδρομος απογείωσης
+steel_sleeper_track
+Σιδ/κή γραμμή υψηλής ταχύτητας
+wooden_sleeper_track
+Ξύλινη σιδ/κή γραμμή
+#__________________________________way-object___________________________________
+#__________________________________way-object___________________________________
+High_Speed_Catenary
+Ηλεκτρική γραμμή υψηλής ταχύτητας
+old_catenary
+Πρώιμη ηλεκτρική γραμμή 
+standard_catenary
+Ηλεκτρική γραμμή
+Third_Rail_Electrification
+Ηλεκτροδότηση τρίτης σιδ/κής γραμμής
+TrolleyBus_Electrification
+Ηλεκτροδότηση τρόλεϊ

@@ -5,7 +5,7 @@
 #                             Language: ja Japanese                            #
 #                                Encoding: UTF-8                               #
 #                               Font : m+10r.bdf                               #
-#                           Date Created: 25.10 2011                           #
+#                           Date Created: 25.02 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -78,6 +78,8 @@ Airport1930PostOffice
 空港郵便局(1930年)
 Airport1990_Big_AirportBlg
 ターミナルビル(1990)
+Airport1990_Big_PostOffice
+空港大型郵便局(1990)
 Airport1990_Entrance_AirportBlg
 エントランスゲート(1990)
 Airport1990_Gates_AirportBlg
@@ -86,6 +88,8 @@ Airport1990_PostOffice
 空港郵便局(1990)
 Airport1990_Small_AirportBlg
 待合ホール(1990)
+Airport1990_Small_PostOffice
+空港小型郵便局(1990)
 Airport1990_Warehouse
 貨物ターミナル(1990)
 AirStop_AirportBlg
@@ -100,6 +104,8 @@ big_classic_bus_stop
 大型停留所
 big_modern_bus_stop
 現代風大型停留所
+BigTerminal1930_AirportBlg
+大型ターミナル(1930年)
 BigTerminal1950_AirportBlg_S
 大型ターミナル(1950年)
 Bulk_Dock
@@ -110,6 +116,8 @@ bus_terminus
 バスターミナル
 canal_ChannelStop
 運河港
+canal_ware_stop
+運河港（貨物）
 Car_StationBlg
 駅駐車場
 CarDepot
@@ -758,6 +766,8 @@ Modern_Warehouse
 現代風倉庫
 ModernPostOffice
 都市型郵便局
+ModernPostOfficeLarge
+都市型郵便局（大）
 ModernTrainStop
 現代風駅
 MonorailDepot
@@ -794,6 +804,8 @@ PostOffice
 郵便局
 PostOffice1920_AirportBlg
 エアメール取扱所(1920)
+PostOfficeOldLarge
+旧型郵便局（大）
 Radar3
 レーダー
 RADIO_TOWER_0
