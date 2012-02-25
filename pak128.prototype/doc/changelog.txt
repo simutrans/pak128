@@ -1,7 +1,7 @@
 
 simutrans128 (2.0.0) stable; urgency=low
 
-  * Compatible Simtrans version: .111.0
+  * Compatible Simtrans version: .111.2
   * New roads, bridges, elevated roads and tram tracks by Fabio
   * New set of residential blocks from Fabio
   * New water tiles and animation by Fabio
