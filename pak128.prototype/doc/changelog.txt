@@ -1,17 +1,27 @@
 
-simutrans128 (2.0.0) stable; urgency=low
+simutrans128 (2.1.0) stable; urgency=low
 
-  * Compatible Simtrans version: .111.2
-  * New roads, bridges, elevated roads and tram tracks by Fabio
+  * Compatible Simutrans version: .111.2
   * New set of residential blocks from Fabio
-  * New water tiles and animation by Fabio
-  * Private way signs for roads and rail (Fabio again...)
   * Airplane and tram balancing
   * Two new ferries from SRGC
   * New special buildings by mEGa
   * New factory production modifiers
   * Many other bugfixes and improvements - for more detailed list look at
         history-pak128-svn.txt
+
+ -- Vladimir Slavik <slavik.vladimir@@seznam.cz> & the pak128 team  25 Feb 2012 14:00 +0100
+
+simutrans128 (2.0.0) stable; urgency=low
+
+  * Compatible Simutrans version: .111.0
+  * New roads, bridges, elevated roads and tram tracks by Fabio
+  * Various fixes to trees
+  * Many other bugfixes and improvements - for more detailed list look at
+        history-pak128-svn.txt
+
+ -- Vladimir Slavik <slavik.vladimir@@seznam.cz> & the pak128 team  9 Nov 2011 11:13 +0100
+
 
 simutrans128 (1.99.0) unstable; urgency=high
 
