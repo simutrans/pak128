@@ -4,7 +4,24 @@ history of pak128 svn - important changes for gameplay
 For full history or technical details see svn logs.
 Names in brackets after message list the author/originator of change. It does not necessarily have to be member of pak128 team - external contributors are there as well.
 
+## pak128 version 2.1.0 ##
 
+21.01.2012
+	- Tram balancing (Zeno)
+12.01.2012
+	- Change tram track prices and maintenance (Arkadiusz)
+07.01.2012
+	- Change industry production increases and boosts (VS)
+07.01.2012
+	- Fix wrong data on B-747 (Zeno)
+31.12.2011
+	- Airplane balancing (Zeno)
+22.12.2011
+	- Add a big set of residential blocks (Fabio)
+19.12.2011
+	- Capacity of Z-2000 lowered from 120 to 90 passengers (Zeno)
+12.12.2011
+	- Add library and modern church (mEGa)
 03.12.2011
 	- Add two new ferries from SRGC (VS, mEGa)
 	- Fix weird or wrong climates and backgrounds on some special buildings (VS)
@@ -12,6 +29,9 @@ Names in brackets after message list the author/originator of change. It does no
 	- Fix wrong timeline settings in simuconf.tab (VS)
 19.11.2011
 	- Improved graphics on some Czech locomotives (TommPa9)
+
+## pak128 version 2.0.0 ##
+
 09.11.2011
 	- Add show owner tool (VS)
 	- Update translations (VS)
