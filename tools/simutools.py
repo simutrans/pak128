@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/python
 #  -*- coding: utf-8 -*-
 #
-#  Vladimír Slávik 2008 - 2011
-#  Python 3.1
+#  Vladimír Slávik 2008 - 2012
+#  Python 3.2
 #
 #  for Simutrans
 #  http://www.simutrans.com
@@ -65,7 +65,7 @@ class SimutransObject :
 		self.lines = textdata
 		self.srcfile = srcloc
 		
-	def __CheckString(var) :
+	def __CheckString(self, var) :
 		# check for being a string
 		# centralized to one function to allow easier changes
 		if not isinstance(var, str) :
@@ -76,7 +76,7 @@ class SimutransObject :
 		
 		Returns the (integer) index if present, otherwise -1.
 		"""
-		__CheckString(param)
+		self.__CheckString(param)
 		lparam = param.lower()
 		for i in range(len(self.lines)) :
 			line = self.lines[i]
@@ -93,7 +93,7 @@ class SimutransObject :
 		"interpretation" set on, return value is converted to an int if
 		it is a number.
 		"""
-		__CheckString(param)
+		self.__CheckString(param)
 		lparam = param.lower()
 		for line in self.lines :
 			if line.startswith("#") :
@@ -117,7 +117,7 @@ class SimutransObject :
 		Indices include the square brackets - eg. "[0][0][1][0][2]". If
 		the wanted parameter is not present at all, an empty list is returned.
 		"""
-		__CheckString(param)
+		self.__CheckString(param)
 		lparam = param.lower()
 		result = [] # returns (by design) a default empty list []
 		for line in self.lines :
@@ -143,7 +143,7 @@ class SimutransObject :
 		True, absence of the parameter in object will result in exception.
 		Otherwise, the missing parameter will be appended as new last line.
 		"""
-		__CheckString(param)
+		self.__CheckString(param)
 		i = 0
 		lparam = param.lower()
 		while i < len(self.lines) :
