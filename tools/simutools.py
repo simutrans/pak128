@@ -62,7 +62,7 @@ class SimutransObject :
 	"""
 	
 	def __init__(self, srcloc = "", textdata=[]) :
-		self.lines = textdata
+		self.lines = list(textdata)
 		self.srcfile = srcloc
 		
 	def __CheckString(self, var) :
@@ -354,6 +354,8 @@ def walkFiles(topdir, callback, ignorefile="statsignore.conf", showplaces=False,
 	if showplaces :
 		print(topdir)
 	for file in glob.glob(os.path.join(topdir, "*." + extension)) :
+		if showplaces :
+			print(" ", file)
 		if cbparam != None :
 			callback(file, cbparam)
 		else :
