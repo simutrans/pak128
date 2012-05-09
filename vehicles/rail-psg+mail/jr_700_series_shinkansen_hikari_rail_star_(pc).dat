@@ -23,8 +23,8 @@ speed=285
 power=0
 weight=39
 
-cost=5224000
-runningcost=61
+cost=10483000
+runningcost=49
 
 intro_year=2000
 intro_month=3

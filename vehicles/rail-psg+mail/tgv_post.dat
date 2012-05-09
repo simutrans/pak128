@@ -20,8 +20,8 @@ retire_month=8
 # this is incredibly useful for high speed lines, so retire only when high
 # speed units with mail cars are available (thunder)
 
-cost=39210000
-RunningCost=521
+cost=51811000
+RunningCost=406
 
 sound=-1
 
