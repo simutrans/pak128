@@ -9,9 +9,9 @@ payload=0
 speed=152
 power=0
 weight=62
-cost=1118000
+cost=3106000
 
-runningcost=19
+runningcost=28
 intro_year=1947
 intro_month=7
 retire_year=1966
