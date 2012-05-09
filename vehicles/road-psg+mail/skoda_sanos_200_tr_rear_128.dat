@@ -12,8 +12,8 @@ intro_year=1968
 intro_month=1
 retire_year=1983
 retire_month=1
-cost=360000
-runningcost=36
+cost=2732000
+runningcost=47
 constraint[prev][0]=skoda_sanos_200_tr_128
 constraint[next][0]=none
 

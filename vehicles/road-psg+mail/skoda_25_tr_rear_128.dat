@@ -1,12 +1,12 @@
 
 obj=vehicle
 name=skoda_25_tr_rear_128
-cost=360000
+cost=684000
 payload=50
 speed=70
 weight=6
 good=Passagiere
-runningcost=39
+runningcost=26
 intro_year=2012
 intro_month=1
 waytype=road

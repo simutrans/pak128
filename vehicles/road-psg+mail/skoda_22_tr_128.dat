@@ -1,12 +1,12 @@
 
 obj=vehicle
 name=skoda_22_tr_128
-cost=360000
+cost=1103000
 payload=79
 speed=65
 weight=6
 good=Passagiere
-runningcost=80
+runningcost=44
 intro_year=1997
 intro_month=1
 retire_year=2025

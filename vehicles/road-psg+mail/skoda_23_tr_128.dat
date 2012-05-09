@@ -1,12 +1,12 @@
 
 obj=vehicle
 name=skoda_23_tr_128
-cost=360000
+cost=1747000
 payload=100
 speed=70
 weight=9
 good=Passagiere
-runningcost=82
+runningcost=66
 intro_year=1998
 intro_month=3
 waytype=road

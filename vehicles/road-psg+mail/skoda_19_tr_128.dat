@@ -1,12 +1,12 @@
 
 obj=vehicle
 name=skoda_19_tr_128
-cost=360000
+cost=2216000
 payload=100
 speed=70
 weight=9
 good=Passagiere
-runningcost=70
+runningcost=80
 intro_year=1985
 intro_month=1
 retire_year=2005

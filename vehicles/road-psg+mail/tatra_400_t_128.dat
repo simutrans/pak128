@@ -1,12 +1,12 @@
 
 obj=vehicle
 name=TATRA_400_T_128
-cost=360000
+cost=2172000
 payload=80
 speed=50
 weight=12
 good=Passagiere
-runningcost=55
+runningcost=103
 intro_year=1940
 intro_month=7
 retire_year=1955

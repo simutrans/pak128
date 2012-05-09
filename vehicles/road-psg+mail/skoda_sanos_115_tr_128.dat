@@ -1,12 +1,12 @@
 
 obj=vehicle
 name=skoda_sanos_115_tr_128
-cost=360000
+cost=2179000
 payload=90
 speed=65
 weight=10
 good=Passagiere
-runningcost=82
+runningcost=84
 intro_year=1968
 intro_month=1
 retire_year=1983

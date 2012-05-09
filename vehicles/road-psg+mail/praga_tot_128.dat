@@ -1,12 +1,12 @@
 
 obj=vehicle
 name=Praga_TOT_128
-cost=360000
+cost=2410000
 payload=80
 speed=50
 weight=10
 good=Passagiere
-runningcost=39
+runningcost=114
 intro_year=1936
 intro_month=6
 retire_year=1948
