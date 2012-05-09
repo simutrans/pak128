@@ -12,8 +12,8 @@ speed=160
 power=0
 weight=16
 
-cost=968000
-runningcost=22
+cost=1254000
+runningcost=10
 
 intro_year=2022
 intro_month=10

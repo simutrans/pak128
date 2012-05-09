@@ -12,8 +12,8 @@ speed=180
 power=0
 weight=18
 
-cost=1248000
-runningcost=25
+cost=1551000
+runningcost=11
 
 intro_year=2027
 intro_month=4
