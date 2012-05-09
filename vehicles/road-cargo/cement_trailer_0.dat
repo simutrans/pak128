@@ -12,8 +12,8 @@ speed=80
 power=0
 weight=5
 
-cost=126000
-runningcost=14
+cost=146000
+runningcost=6
 
 intro_year=1985
 intro_month=2

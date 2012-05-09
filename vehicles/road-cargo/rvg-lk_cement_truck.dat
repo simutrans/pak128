@@ -1,7 +1,7 @@
 obj=vehicle
 name=RVg-LK_Cement_Truck
 copyright=Raven
-waytype=Road
+waytype=road
 engine_type=diesel
 freight=Cement
 payload=5
@@ -9,7 +9,7 @@ speed=40
 power=38
 gear=90
 weight=5
-cost=103000
+cost=138000
 runningcost=12
 intro_year=1929
 intro_month=6

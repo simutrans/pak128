@@ -10,8 +10,8 @@ payload=16
 speed=110
 power=0
 weight=2
-cost=448000
-runningcost=63
+cost=699000
+runningcost=19
 
 intro_year=1961
 intro_month=11

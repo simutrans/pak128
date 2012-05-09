@@ -10,8 +10,8 @@ speed=80
 power=0
 weight=7
 
-cost=180000
-runningcost=20
+cost=211000
+runningcost=8
 
 intro_year=1968
 intro_month=6

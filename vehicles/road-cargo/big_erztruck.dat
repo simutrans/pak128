@@ -4,7 +4,7 @@ obj=vehicle
 name=Big_Erztruck
 copyright=MHz
 
-waytype=Road
+waytype=road
 engine_type=Diesel
 
 freight=Kohle
@@ -15,8 +15,8 @@ power=1335
 gear=95
 weight=135
 
-cost=4185000
-runningcost=442
+cost=937000
+runningcost=177
 
 intro_year=1970
 intro_month=1
