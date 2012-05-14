@@ -170,7 +170,7 @@ length=6
 #system_type=1
 # skin
 icon=> schwebebahn_p_bridge.3.0
-cursor=schwebebahn_p_ground.6.3
+cursor=schwebebahn_p_ground_back.6.3
 # rbis * animation
 #Image[-]=monotrack.1.0
 pillar_distance=1
