@@ -342,6 +342,7 @@ toolbar[0][36]=simple_tool[16]
 # network mode button
 toolbar[0][37]=-
 toolbar[0][38]=dialog_tool[28]
+toolbar[0][39]=toolbar[12],31,,NGTOOLS,special.txt
 
 # slope tools
 toolbar[1][0]=general_tool[2]
@@ -484,5 +485,19 @@ toolbar[11][3]=dialog_tool[17]
 toolbar[11][4]=dialog_tool[18]
 toolbar[11][5]=dialog_tool[19]
 toolbar[11][6]=dialog_tool[25]
+
+
+# narrow gauge tools
+toolbar[12][0]=ways(8,0)
+toolbar[12][1]=ways(8,1)
+toolbar[12][2]=bridges(8)
+toolbar[12][3]=tunnels(8)
+toolbar[12][4]=wayobjs(8)
+toolbar[12][5]=signs(8)
+toolbar[12][6]=general_tool[17],32,,8
+toolbar[12][7]=buildings(33,8)
+toolbar[12][8]=buildings(34,8)
+toolbar[12][9]=buildings(35,8)
+
 
 # EOF
