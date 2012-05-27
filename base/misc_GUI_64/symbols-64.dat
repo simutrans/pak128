@@ -89,6 +89,11 @@ copyright=none
 Image[0]=> ls-symbols.1.7
 --------------------
 Obj=symbol
+name=NarrowgaugeStop
+copyright=none
+Image[0]=> ls-symbols.1.8
+--------------------
+Obj=symbol
 name=Passagiere
 copyright=none
 Image[0]=> ls-symbols.2.0
