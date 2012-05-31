@@ -133,7 +133,7 @@ def procObj(obj) :
 	
 	pygame.image.save(newimage, os.path.join(outdir, img_name + ".png"))
 	
-	f = open(os.path.join(outdir, objname.lower() + ".dat"), 'w')
+	f = open(os.path.join(outdir, img_name + ".dat"), 'w')
 	for l in obj.lines :
 		f.write(l)
 	f.close()
