@@ -12,6 +12,8 @@ monorail_track=1949,50,1950,60,1984,70,1985,85,2012,85,2032,105
 
 tram_track=1940,50,1970,70,1986,76,2025,108
 
+narrowgauge_track=1880,20,1900,30,1940,40,1960,50,1980,70
+# just testing values
+
 # missing waytypes:
-# narrowgauge_track=?
 # maglev_track=?
