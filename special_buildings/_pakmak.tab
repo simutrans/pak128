@@ -1,7 +1,7 @@
 FOLDERS
+city
+landscape
 monuments
 townhalls
 
 OPTIONS
-compile yes
-merge building.special.pak
