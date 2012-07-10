@@ -10,8 +10,8 @@ speed=100
 power=180
 gear=100
 weight=6
-cost=1051000
-runningcost=27
+cost=757000
+runningcost=18
 intro_year=1998
 intro_month=1
 constraint[prev][0]=T_202_Cityway_B1
@@ -28,4 +28,3 @@ emptyimage[e]=t_202_cityway_d.1.4
 emptyimage[se]=t_202_cityway_d.1.5
 emptyimage[s]=t_202_cityway_d.1.6
 emptyimage[sw]=t_202_cityway_d.1.7
--------------------------------------------------------

@@ -12,8 +12,8 @@ speed=100
 power=120
 gear=100
 weight=8
-cost=1562000
-runningcost=41
+cost=757000
+runningcost=19
 intro_year=2004
 intro_month=1
 constraint[prev][0]=none
@@ -32,4 +32,3 @@ emptyimage[e]=t_222_combino_supra_a.1.4
 emptyimage[se]=t_222_combino_supra_a.1.5
 emptyimage[s]=t_222_combino_supra_a.1.6
 emptyimage[sw]=t_222_combino_supra_a.1.7
--------------------------------------------------------

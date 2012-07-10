@@ -10,8 +10,8 @@ speed=100
 power=240
 gear=100
 weight=8
-cost=1509000
-runningcost=38
+cost=757000
+runningcost=26
 intro_year=2002
 intro_month=1
 constraint[prev][0]=none
@@ -28,4 +28,3 @@ emptyimage[e]=t_212_sirio_a.1.4
 emptyimage[se]=t_212_sirio_a.1.5
 emptyimage[s]=t_212_sirio_a.1.6
 emptyimage[sw]=t_212_sirio_a.1.7
--------------------------------------------------------

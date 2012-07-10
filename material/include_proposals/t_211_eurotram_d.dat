@@ -10,8 +10,8 @@ speed=100
 power=240
 gear=100
 weight=3
-cost=1382000
-runningcost=35
+cost=757000
+runningcost=16
 intro_year=1996
 intro_month=1
 constraint[prev][0]=T_211_Eurotram_B
@@ -28,4 +28,3 @@ emptyimage[e]=t_211_eurotram_d.1.4
 emptyimage[se]=t_211_eurotram_d.1.5
 emptyimage[s]=t_211_eurotram_d.1.6
 emptyimage[sw]=t_211_eurotram_d.1.7
--------------------------------------------------------

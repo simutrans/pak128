@@ -10,14 +10,14 @@ speed=100
 power=0
 gear=100
 weight=6
-cost=455000
+cost=757000
 runningcost=10
 intro_year=2002
 intro_month=1
 constraint[prev][0]=T_212_Sirio_A
 #
 constraint[next][0]=T_212_Sirio_C
-#
+constraint[next][1]=T_212_Sirio_D
 smoke=-1
 sound=-1
 emptyimage[w]=t_212_sirio_e.1.0
@@ -28,4 +28,3 @@ emptyimage[e]=t_212_sirio_e.1.4
 emptyimage[se]=t_212_sirio_e.1.5
 emptyimage[s]=t_212_sirio_e.1.6
 emptyimage[sw]=t_212_sirio_e.1.7
--------------------------------------------------------
