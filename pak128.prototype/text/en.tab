@@ -5,106 +5,114 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 25.10 2011                           #
+#                           Date Created: 11.07 2012                           #
 #                                                                              #
 #                                   authors:                                   #
-#                          Markus Pristovsek - prissi                          #
+#                            Alexander Brose - AlexB                           #
 #                                    note:                                     #
-#                               Sven Osada - sojo                              #
-#                         note: maintainer pak96.comic                         #
-#                         Roman Schwörer - Gotthardlok                         #
-#                                    note:                                     #
-#                            Colin W Anetts - Colin                            #
-#                                    note:                                     #
-#                           Hansjörg Malthaner - Hajo                          #
-#                                    note:                                     #
+#                                    - An_dz                                   #
+#                   note: Verified where all texts are shown                   #
 #                         Klaus Thenmayer - Bitfreezer                         #
-#                                    note:                                     #
-#                       Venkatesh Parthasarathy - Venkat                       #
-#                                    note:                                     #
-#                            Jonas Bushart - jonasbb                           #
-#                                    note:                                     #
-#                           Sava Bogdanets - Sava2004                          #
 #                                    note:                                     #
 #                                  - Christian                                 #
 #                                    note:                                     #
-#                                   - shinexus                                 #
+#                            Colin W Anetts - Colin                            #
 #                                    note:                                     #
 #                            Colin Teubner - ColinT                            #
 #                                    note:                                     #
-#                           Lincoln Sayger - skreyola                          #
-#                                    note:                                     #
-#                                    - GerdW                                   #
-#                                    note:                                     #
-#                                   - TheHood                                  #
-#                                    note:                                     #
-#                                 - transporter                                #
-#                                    note:                                     #
-#                                 André - An_dz                                #
-#                 note: Sempre verifica aonde os textos estão!                 #
-#                                   - knightly                                 #
+#                                   - Combuijs                                 #
 #                                    note:                                     #
 #                             Michael Hohl - Cruzer                            #
 #                       note: Administrator pak192.comic                       #
-#                                - jounior-fuchs                               #
-#                                    note:                                     #
-#                                    - petter                                  #
-#                                    note:                                     #
-#                                   - Xelofino                                 #
-#                                    note:                                     #
-#                            Alexander Brose - AlexB                           #
-#                                    note:                                     #
-#                           Michael Olbricht - whoami                          #
-#                                    note:                                     #
-#                                   - Combuijs                                 #
+#                             Dirk W. - DirrrtyDirk                            #
 #                                    note:                                     #
 #                                    - Dwachs                                  #
 #                                    note:                                     #
-#                             Dirk W. - DirrrtyDirk                            #
+#                              Frank Penz - FrankP                             #
+#                                    note:                                     #
+#                                    - GerdW                                   #
+#                                    note:                                     #
+#                         Roman Schwörer - Gotthardlok                         #
+#                                    note:                                     #
+#                           Hansjörg Malthaner - Hajo                          #
+#                                    note:                                     #
+#                                 - IgorEliezer                                #
 #                                    note:                                     #
 #                              Jaroslaw - Jaroslaw                             #
+#                                    note:                                     #
+#                             Marcus Haupt - Marcus                            #
+#note: if I´m not available by email to proximity.de try mail@marcus-haupt.de (#
+#                                   - Nico192                                  #
+#                                    note:                                     #
+#                                 - Nicole_Chen                                #
+#                                    note:                                     #
+#                                    - Paco_m                                  #
+#                                    note:                                     #
+#                           Sava Bogdanets - Sava2004                          #
+#                                    note:                                     #
+#                          Susanna Björverud - Susanna                         #
+#                                    note:                                     #
+#                            James P. Hood - TheHood                           #
+#                                    note:                                     #
+#                                   - Timothy                                  #
+#                                    note:                                     #
+#                       Venkatesh Parthasarathy - Venkat                       #
+#                                    note:                                     #
+#                                   - Xelofino                                 #
+#                                    note:                                     #
+#                            Carl Baker - carlbaker                            #
 #                                    note:                                     #
 #                                  - enternald                                 #
 #     note: Need more lt translators. Eiti ? http://simutrans-germany.com/     #
 #                               Florian - floppy                               #
 #                                    note:                                     #
-#                              Frank Penz - FrankP                             #
-#                                    note:                                     #
-#                                    - Paco_m                                  #
-#                                    note:                                     #
-#                            Günter Beine - gebeine                            #
-#                        note: maintainer pak128.german                        #
-#                                 - IgorEliezer                                #
+#                                   - gebeine                                  #
+#                        note: maintainer PAK128.german                        #
+#                        Lorenz Van Damme - gforcetheone                       #
 #                                    note:                                     #
 #                          James E. Petts - jamespetts                         #
 #  note: Maintainer for Simutrans-Experimental. Also works on Pak128.Britain.  #
-#                        Lorenz Van Damme - gforcetheone                       #
+#                            Jonas Bushart - jonasbb                           #
 #                                    note:                                     #
-#                             Marcus Haupt - Marcus                            #
-#note: if I´m not available by email to proximity.de try mail@marcus-haupt.de (#
+#                                - jounior-fuchs                               #
+#                                    note:                                     #
+#                                   - knightly                                 #
+#                                    note:                                     #
 #                             Mark Knoester - mark                             #
-#                                    note:                                     #
-#                              Tomá? Kube? - napik                             #
 #                                    note:                                     #
 #                              Markus Rex - msrex                              #
 #                                    note:                                     #
-#                                   - Nico192                                  #
+#                              Tomá? Kube? - napik                             #
+#                                    note:                                     #
+#                                   - neroden                                  #
+#                               note: Programmer                               #
+#                                    - petter                                  #
 #                                    note:                                     #
 #                             P. Hamming - phamming                            #
 #                                    note:                                     #
+#                          Markus Pristovsek - prissi                          #
+#                                    note:                                     #
 #                                     - sdog                                   #
 #                                    note:                                     #
-#                            Vladimír Slávik - vsys                            #
+#                                   - shinexus                                 #
 #                                    note:                                     #
-#                          Susanna Björverud - Susanna                         #
+#                           Lincoln Sayger - skreyola                          #
 #                                    note:                                     #
 #                                    - smu42                                   #
 #                                    note:                                     #
-#                                   - Timothy                                  #
+#                               Sven Osada - sojo                              #
+#                         note: maintainer pak96.comic                         #
+#                                 - transporter                                #
+#                                    note:                                     #
+#                              Jon - viewofheaven                              #
+#                                    note:                                     #
+#                              Xavier Paz - vilvoh                             #
 #                                    note:                                     #
 #                         Tomá? Vrbický - vrbicky_tomas                        #
 #                     note: Don´thurry up! Death is faster.                    #
-#                              Xavier Paz - vilvoh                             #
+#                            Vladimír Slávik - vsys                            #
+#                                    note:                                     #
+#                           Michael Olbricht - whoami                          #
 #                                    note:                                     #
 #                                                                              #
 ################################################################################
@@ -1880,8 +1888,16 @@ Big_Bretterwagen
 RVg Big Planks Car
 Big_Erztruck
 MHz Big Ore Truck
+Black_Osprey
+Black Osprey (steel)
+Black_Osprey_(goods)
+Black Osprey (goods)
+Black_Osprey_(grain)
+Black Osprey (grain bulker)
 Bretterwagen
 BB Plank Car
+British_Premier
+British Premier
 Budd_Coach
 Budd RPO Passenger Coach
 Budd_Observation
@@ -1970,6 +1986,14 @@ DueWAG_GT6_tailwaggon
 Due WAG GT6 waggon
 E_423
 Sindor E-432 - "Top class"
+Eaglescliffe_Hall
+Eaglescliffe Hall (bulker)
+Eaglescliffe_Hall_(lumber)
+Eaglescliffe Hall (wood)
+Edmund_Fitzgerald
+Edmund Fitzgerald (steel)
+Edmund_Fitzgerald_(wood)
+Edmund Fitzgerald (wood)
 EM400_1
 Sindor-FK EM400
 EMD_E5A_Silver_Meteor
@@ -1990,6 +2014,8 @@ Evil-Jitluen_67_Minibus
 Evil-Jitluen 67 Minibus
 Express_tender
 Tender
+Ferry_Mail_Extension_(small)
+Ferry Mail Extension (small)
 Fishing_Boat_1
 MHz Fish Trawler
 Fluid_trailer_0
@@ -2154,6 +2180,8 @@ Kord_TT_bulk
 Kord TT (bulk)
 Kord_TT_grain
 Kord TT (grain)
+Liner_Mail_Extension_(large)
+Ferry Mail Extension (large)
 MA461_waggon
 RVg-DB MA-461 (car)
 Mack_Truck_Cooling_Trailer
@@ -2234,6 +2262,22 @@ mja-Zil130-128set
 mja-Zil 130
 MS_sprinter_mail
 MS-Sprinter Mail Van
+MV_Balmoral
+MV Balmoral
+MV_Fedra
+MV Fedra (bulker)
+MV_Lake_Illawarra
+MV Lake Illawarra (bulker)
+MV_Lake_Illawarra_(grain)
+MV Lake Illawarra (grain bulker)
+New_Zealand_Star
+New Zealand Star (reefer)
+Nordic_Heron
+Nordic Heron (tanker)
+Nordic_Heron_(liquid_food)
+Nordic Heron (liquid food)
+Owari_Maru
+Owari Maru (bulker)
 Passagierwagen
 Canonball BTx 060 2nd Grade Coach
 Passanger_waggon_0
@@ -2246,6 +2290,10 @@ Passanger_waggon_3
 RA BTx 050 2nd Grade Coach
 Passanger_waggon_MAITE39
 Nabe-JNR MAITE 39 1st Grade Coach
+Patagonia
+Patagonia (goods)
+Patagonia_(farm_products)
+Patagonia (grain bulker)
 Planck_Truck_0
 PMNV-Canonball Bed Truck (planks)
 Plank_Truck_2
@@ -2370,10 +2418,14 @@ Praga_N_milk
 Sindor-Praga N milk transporter
 Praga_TOT_128
 Praga TOT
+Queen_Elisabeth_2
+Queen Elisabeth II
 R_01
 RVg R1 - car
 R_02
 RVg R2 - car
+RMS_Baltic
+RMS Baltic
 RVg_0-1-4-0
 RVg 0-1-4-0
 RVg_1064_White_Bulk
@@ -2788,6 +2840,8 @@ Stahlwagen_3
 RVg steel plate wagon (steel)
 Steel_Truck_0
 PMNV Bed Truck (steel)
+Stoyko_Peev
+Stoyko Peev
 T_101
 RVg T101
 T_102
@@ -2832,6 +2886,8 @@ Thunder_(waggon)
 BB Thunder (waggon)
 TS_Mack_Bulk_Trailer_0
 TS Light Bulk Cargo Trailer
+Veveri_ship_128set
+Veveri
 Vitus-AVECO_Eurocargo_Bretter
 Vitus-Aveco Eurocargo (planck transporter)
 Vitus-AVECO_Eurocargo_bulk_transporter
@@ -2866,6 +2922,12 @@ VSYS_Tatra_138_Grain
 VSYS Tatra 138 (grain)
 VSYS_Tatra_813_Clossus
 VSYS Tatra 813 "Colossus"
+Willamette_Chief
+Willamette Chief
+Willamette_Chief_(farm_goods)
+Willamette Chief (grain)
+Willamette_Chief_(goods)
+Willamette Chief (goods)
 Wood_Trailer_0
 VSYS Wood Trailer
 Wood_Truck_0

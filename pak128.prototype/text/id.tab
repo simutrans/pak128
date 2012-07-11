@@ -5,7 +5,7 @@
 #                            Language: id Indonesia                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 24.02 2012                           #
+#                           Date Created: 28.02 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -88,6 +88,10 @@ HQ1
 Markas Besar
 medium_early_bus_stop
 Halte Klasik
+MonorailFoundation
+Pondasi Monorel
+MonorailGround
+Pondasi Monorel
 OpenTrainStop
 Stasiun Barang (terbuka)
 Post_Dock
@@ -374,6 +378,8 @@ monorail vehicle
 Kendaraan Monorel
 Monorailboden
 Substruktur Monorel
+Monoraildepot
+Dipo Monorel
 Monorailhalt
 Stasiun Monorel
 Monorailhalt muss auf\nMonorail liegen!\n

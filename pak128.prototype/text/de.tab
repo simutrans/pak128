@@ -5,7 +5,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 2.02 2012                           #
+#                           Date Created: 11.07 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                            Alexander Brose - AlexB                           #
@@ -52,8 +52,8 @@
 #                                    note:                                     #
 #                               Florian - floppy                               #
 #                                    note:                                     #
-#                            Günter Beine - gebeine                            #
-#                        note: maintainer pak128.german                        #
+#                                   - gebeine                                  #
+#                        note: maintainer PAK128.german                        #
 #                            Jonas Bushart - jonasbb                           #
 #                                    note:                                     #
 #                                - jounior-fuchs                               #
@@ -573,7 +573,7 @@ Lagerschuppen
 GRASS_STADIUM
 Park Stadion\n\nAuf dem Rasenplatz treffen\nsich die hiesigen Fußballclubs\nzu ihren Heimspielen.\n\n
 GREEN_HOUSE
-GewächsDa es leider keinen\nBotanischen Garten in der\nNähe gibt, lohnt sich der\nBesuch des kleinen\nGewächshauses. Zur Zeit ist\nKamelienblütezeit. Der\nbetörende Duft der Blüten läd\nein zu einem ganz besonderen\nErlebnis.\n
+Gewächshaus\n\nDa es leider keinen\nBotanischen Garten in der\nNähe gibt, lohnt sich der\nBesuch des kleinen\nGewächshauses. Zur Zeit ist\nKamelienblütezeit. Der\nbetörende Duft der Blüten läd\nein zu einem ganz besonderen\nErlebnis.\n
 HIGH_SCHOOL_1
 Gymnasium\n\n
 HOUSE_RUINS_0

@@ -5,7 +5,7 @@
 #                             Language: ja Japanese                            #
 #                                Encoding: UTF-8                               #
 #                               Font : m+10r.bdf                               #
-#                           Date Created: 25.02 2012                           #
+#                            Date Created: 6.07 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -28,6 +28,26 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 コンクリートの鉄道橋
+PowerBridge
+送電橋
+road_030_bridge
+橋 30Km/h
+road_040_bridge
+橋 40Km/h
+road_050_bridge
+橋 50Km/h
+road_055_bridge
+橋 55Km/h
+road_070_bridge
+橋 70Km/h
+road_090_bridge
+橋 90Km/h
+road_110_bridge
+橋 110Km/h
+road_130_bridge
+橋 130Km/h
+road_200_bridge
+橋 200Km/h
 RVg_Concrete_Rail_Bridge
 コンクリートの鉄道橋
 Schwebebahn_p_bridge
@@ -94,6 +114,8 @@ Airport1990_Warehouse
 貨物ターミナル(1990)
 AirStop_AirportBlg
 駐機場
+Almuthof_StationBlg
+田舎の駅舎
 Avila_Big_StationBlg
 大型駅舎
 Avila_Small_StationBlg
@@ -742,6 +764,8 @@ IND_12_16
 香港の布生地生産者の逆襲 だ！彼らは我々の工場の一\n角を乗っ取り、製造物のた めの工場として 使っていま\nす。この建物は警察に目を つけられているようです。\n
 JUSTICE
 裁判所\n\nこれは町の裁判所です。毎\n日裁判が行われていて、弁\n護士が行き来しています。\n
+library_holy_genevieve
+聖ジェネビーブ図書館
 Lighthouse_0
 灯台\n\n灯台が建設されて以来、シ\nムワールド海の航海は、よ\nり簡単でより安全になって\nいます。ここを訪問して、\n手すりにもたれて波を見た\nがっている多くの人々がい\nます。\n
 Lighthouse_1
@@ -764,6 +788,8 @@ MILITARY_RADAR
 軍用レーダー\n\nこの建物は軍の機密施設で\nあります。退去してくださ\nい！　本官は退去してくだ\nさいと申しました！　本官がお願いした退去\nとは、あなたがこのウィンドウを閉じて画面\nをスクロールさせることを意味するのであり\nます！\nな・・・あなたはまだ読んでいるのでありま\nすか？　ただちにウィンドウを閉じて、画面\nをスクロールさせてください。あなたはここ\nにいることにはなっておりませんです。退去\n願います！！！\n
 Modern_Warehouse
 現代風倉庫
+modern_warehouse_big
+現代風倉庫(大)
 ModernPostOffice
 都市型郵便局
 ModernPostOfficeLarge
@@ -782,6 +808,8 @@ MUSEUM_0
 博物館\n\nこの建物はかつては市の役\n所でした。後に城館に改築\nされ、さらに近年、自然科\n学と科学技術の公営博物館として再改装され\nました。あなたは古い乗り物の模型に触れた\nり、物理学の進歩を学んだり、数多くあるセ\nミナーの一つに出席したりすることができま\nす。\n
 OBSERVATORY
 天文台\n\nこれは、シムワールドで多\nくの重要な発見をしたこと\nで知られるGeorg博士の天\n文台です。天文学者が空を観測するのは夜の\n間なので、昼間に観光客が訪れるのは歓迎さ\nれ、多くの講義やマルチメディアを使った学\n術展示が用意されています。展示はとても興\n味深く、たいへんわかりやすく、魅力的なの\nで、展示室はいつも混雑しています。\n
+OfficeTrainStop
+駅事務所
 Old_gate
 市門\n\n
 OLD_HOUSE_0
@@ -798,6 +826,8 @@ parking_(catchemnt_area_ext)2
 路肩駐車場
 parking_(catchemnt_area_ext)3
 路肩駐車場
+plain_tile_high
+貨物集積所
 Post_Dock
 郵便取り扱い港
 PostOffice
@@ -1020,6 +1050,12 @@ small_early_bus_stop
 初期小型停留所
 SMALL_MANOR
 荘園美術館\n\nこの小さい荘園はかつては\n高名な貴族の邸宅でした。\nけれども当主が亡くなった\n後、家門の名声は徐々に衰えてゆき、邸宅の\n存在も忘れ去られました。20世紀のはじめ、\n大規模な美術コレクションの存在によってこ\nの邸宅は「再発見」され、多くの拝観者が訪\nれるようになりました。その美しさを維持す\nるために、荘園は自治体によって管理され、\n少額の拝観料を払えば誰でも中に入ることが\nできます。いまや、この荘園の存在は広く知\nれ渡り、学校の遠足や、週末の行楽旅行の目\n的としても頻繁に用いられています。\n
+special_ALSF-2_DT_stop
+進入灯
+special_PAPI_stop
+進入角指示灯
+special_wingbar-r_stop
+滑走路末端補助灯
 st_benedict_church
 聖ベネディクト教会\n\n
 ST_PETER
@@ -1094,6 +1130,8 @@ dairy
 乳製品工場
 Druckerei
 印刷工場
+electronics_factory_new
+電化製品工場
 Erzbergwerk
 鉄鉱石鉱山
 ethanol_plant
@@ -1106,6 +1144,8 @@ food_processing_plant
 食品加工工場
 ForestPlantation
 植林地
+Geothermal powerplant_kraftwerk
+地熱発電所
 Glass_factory
 ガラス工場
 grain_farm_w_fields
@@ -1128,6 +1168,8 @@ Oelfeld
 油田
 oilkraftwerk
 石油火力発電所
+old_fish_cannery
+魚缶詰工場
 old_powerplant_kraftwerk
 石炭発電所
 open_coal_mine
@@ -1150,8 +1192,22 @@ sheep_farm
 羊牧場
 shopping_mall
 ショッピングモール
+Solar Pond_kraftwerk
+ソーラーポンド式発電所
+SolarPowerTowerPS10_kraftwerk
+太陽光発電所
+SolarThermalOne_kraftwerk
+トラフ式太陽熱発電所
 steel_mill
 製鉄所
+StirlingParabolicCollectorsFarm_kraftwerk
+ディッシュ式太陽熱発電所
+StirlingSolarThermalTrackerFarm_kraftwerk
+ディッシュ式太陽熱発電所
+StirlingSolarTrackersFarm_kraftwerk
+太陽光発電所
+StirlingThermalCollectorsFarm_kraftwerk
+ディッシュ式太陽熱発電所
 Stonequarry
 採石場
 supermarket
@@ -1228,8 +1284,12 @@ Oel
 原油
 Papier
 紙
+Passagiere
+旅客
 Plastik
 プラスチック
+Post
+郵便
 Sand
 砂
 Stahl
@@ -1280,8 +1340,40 @@ choose_signal_monorail
 モノレール用振分信号
 ChooseSignals
 場内信号機(入線振分)
+Classic_ChooseSignals_right
+場内信号機(入線振分)
+Classic_LongSignals_right
+多閉塞信号(腕木式)
+Classic_preSignals_right
+プレシグナル(腕木式)
+Classic_Signals_right
+信号機(腕木式)
+Early_ChooseSignals_right
+場内信号機(入線振分)
+Early_LongSignals_right
+多閉塞信号(手旗式)
+Early_preSignals_right
+プレシグナル(手旗式)
+Early_Signals_right
+信号機(手旗式)
+EndOfChooseSignals
+入線振分終端標識
+LongSignals
+多閉塞信号
 Minimum80
 最低速度80km/h標識
+Modern_ChooseSignals_right
+場内信号機(入線振分)
+Modern_EndOfChooseSignals_right
+現代風入線振分終端標識
+Modern_LongSignals_right
+多閉塞信号(色灯式)
+Modern_OneWaySignals_right
+一方通行標識
+Modern_preSignals_right
+プレシグナル(色灯式)
+Modern_Signals_right
+信号機(色灯式)
 NoEntry
 進入禁止標識
 OneWaySignals
@@ -1290,6 +1382,10 @@ preSignal_Monorail
 モノレール用プレシグナル
 preSignals
 プレシグナル
+Railgate
+ゲート
+RisingBollards
+車止め
 RoadClosed
 通行止め標識
 Signal_Monorail
@@ -1312,6 +1408,18 @@ tree110
 #____________________________________tunnel_____________________________________
 RailTunnel
 トンネル(鉄道)
+road_040_tunnel
+トンネル 40Km/h
+road_050_tunnel
+トンネル 50Km/h
+road_070_tunnel
+トンネル 70Km/h
+road_090_tunnel
+トンネル 90Km/h
+road_110_tunnel
+トンネル 110Km/h
+road_130_tunnel
+トンネル 130Km/h
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -1326,12 +1434,16 @@ Bennhardt B-162 "ジェット"
 Bennhardt B-238 "フロッグ"
 1Dampflokomotive
 RVg 0-4-0T
+20ft_Container_Trailer-128set
+20フィートコンテナトレーラー
 2Diesellokomotive
 ドイツ国鉄 BR218
 3Bens186t
 Bennhardt B-186 "Lemon"
 3Dampflokomotive
 RVg 0-3-0 - Chippy
+40ft_Container_Trailer
+40フィートコンテナトレーラー
 Airport_express_shuttle
 空港シャトルバス
 Autotransportwagen
@@ -1684,6 +1796,8 @@ mja-volvoVN660
 ボルボ VN660
 MS_sprinter_mail
 スプリンター郵便車
+New_Zealand_Star
+ニュージーランドスター
 Passagierwagen
 BTx 060 二等客車
 Passanger_waggon_0
@@ -1818,6 +1932,8 @@ Praga_N_Cistern
 プラガ N型 タンク車
 Praga_N_milk
 プラガ N型 ミルク輸送車
+Queen_Elisabeth_2
+クイーンエリザベス2世号
 RVg_0-1-4-0
 RVg 0-1-4-0
 RVg_1064_White_Bulk
@@ -2020,6 +2136,238 @@ S_Kroytor_Ikarus-280
 S.Kroytor Ikarus-280 (連接バス)
 S_Kroytor_Ikarus-280_ext
 S.Kroytor Ikarus-280 (連接バス後部)
+SAC-Aerospatiale_Concorde_128_set
+アエロスパシアル コンコルド
+SAC-Airbus_A300-600C_128_set
+エアバス A300-600C
+SAC-Airbus_A300-600F_128_set
+エアバス A300-600F
+SAC-Airbus_A300-600P_128_set
+エアバス A300-600P
+SAC-Airbus_A300-600ST_128_set
+エアバス A300-600ST
+SAC-Airbus_A300-B4_128_set
+エアバス A300-B4
+SAC-Airbus_A310-200_128_set
+エアバス A310-200
+SAC-Airbus_A310-200C_128_set
+エアバス A310-200C
+SAC-Airbus_A310-200F_128_set
+エアバス A310-200F
+SAC-Airbus_A310-200P_128_set
+エアバス A310-200P
+SAC-Airbus_A318-100_128_set
+エアバス A318-100
+SAC-Airbus_A319-100_128_set
+エアバス A319-100
+SAC-Airbus_A320-200_128_set
+エアバス A320-200
+SAC-Airbus_A321-200_128_set
+エアバス A321-200
+SAC-Airbus_A330-200_128_set
+エアバス A330-200
+SAC-Airbus_A330-200f_cooled_128_set
+エアバス A330-200F 低温貨物
+SAC-Airbus_A330-200f_goods_128_set
+エアバス A330-200F 混載貨物
+SAC-Airbus_A330-200f_mail_128_set
+エアバス A330-200F 郵便
+SAC-Airbus_A330-300_128_set
+エアバス A330-300
+SAC-Airbus_A340-200_128_set
+エアバス A340-200
+SAC-Airbus_A340-300_128_set
+エアバス A340-300
+SAC-Airbus_A340-500_128_set
+エアバス A340-500
+SAC-Airbus_A340-600_128_set
+エアバス A340-600
+SAC-Airbus_A350-1000_128_set
+エアバス A350-1000
+SAC-Airbus_A350-800_128_set
+エアバス A350-800
+SAC-Airbus_A350-900_128_set
+エアバス A350-900
+SAC-Airbus_A350-900f_cooled_128_set
+エアバス A350-900F 低温貨物
+SAC-Airbus_A350-900f_goods_128_set
+エアバス A350-900F 混載貨物
+SAC-Airbus_A350-900f_mail_128_set
+エアバス A350-900F 郵便
+SAC-Airbus_A380-800_128_set
+エアバス A380-800
+SAC-Airbus_A380-800C_128_set
+エアバス A380-800C
+SAC-Airbus_A380-800F_128_set
+エアバス A380-800F
+SAC-Airbus_A380-800P_128_set
+エアバス A380-800P
+SAC-Airbus_A380-900_128_set
+エアバス A380-900
+SAC-BAC_1-11
+ブリティッシュ・エアクラフト 1-11
+SAC-Boeing_707-020_128_set
+ボーイング 707-020
+SAC-Boeing_707-120_128_set
+ボーイング 707-120
+SAC-Boeing_707-320_128_set
+ボーイング 707-320
+SAC-Boeing_727-100_128_set
+ボーイング 727-100
+SAC-Boeing_727-200_128_set
+ボーイング 727-200
+SAC-Boeing_737-100_128_set
+ボーイング 737-100
+SAC-Boeing_737-200_128_set
+ボーイング 737-200
+SAC-Boeing_737-300_128_set
+ボーイング 737-300
+SAC-Boeing_737-400_128_set
+ボーイング 737-400
+SAC-Boeing_737-500_128_set
+ボーイング 737-500
+SAC-Boeing_737-600_128_set
+ボーイング 737-600
+SAC-Boeing_737-700_128_set
+ボーイング 737-700
+SAC-Boeing_737-800_128_set
+ボーイング 737-800
+SAC-Boeing_737-900_128_set
+ボーイング 737-900
+SAC-Boeing_747-200_128_set
+ボーイング 747-200
+SAC-Boeing_747-200C_128_set
+ボーイング 747-200C 低温貨物
+SAC-Boeing_747-200F_128_set
+ボーイング 747-200F 混載貨物
+SAC-Boeing_747-200P_128_set
+ボーイング 747-200P 郵便
+SAC-Boeing_747-300_128_set
+ボーイング 747-300
+SAC-Boeing_747-400_128_set
+ボーイング 747-400
+SAC-Boeing_747-400F_Cooled_128_set
+ボーイング 747-400F 低温貨物\n
+SAC-Boeing_747-400F_Goods_128_set
+ボーイング 747-400F 混載貨物
+SAC-Boeing_747-400F_Mail_128_set
+ボーイング 747-400F 郵便
+SAC-Boeing_747-8F_Cooled_128_set
+ボーイング 747-8F 低温貨物
+SAC-Boeing_747-8F_Goods_128_set
+ボーイング 747-8F 混載貨物
+SAC-Boeing_747-8F_Mail_128_set
+ボーイング 747-8F 郵便
+SAC-Boeing_747-8I_128_set
+ボーイング 747-8I
+SAC-Boeing_757-200_128_set
+ボーイング 757-200
+SAC-Boeing_757-200f_cooled_128_set
+ボーイング 757-200F 低温貨物
+SAC-Boeing_757-200f_goods_128_set
+ボーイング 757-200F 混載貨物
+SAC-Boeing_757-200f_mail_128_set
+ボーイング 757-200F 郵便
+SAC-Boeing_757-300_128_set
+ボーイング 757-300
+SAC-Boeing_767-200_128_set
+ボーイング 767-200
+SAC-Boeing_767-300_128_set
+ボーイング 767-300
+SAC-Boeing_767-300F_cooled_128_set
+ボーイング 767-300F 低温貨物
+SAC-Boeing_767-300F_goods_128_set
+ボーイング 767-300F 混載貨物
+SAC-Boeing_767-300F_mail_128_set
+ボーイング 767-300F 郵便
+SAC-Boeing_767-400_128_set
+ボーイング 767-400
+SAC-Boeing_777-200_128_set
+ボーイング 777-200
+SAC-Boeing_777-200F_cooled_128_set
+ボーイング 777-200F 低温貨物
+SAC-Boeing_777-200F_goods_128_set
+ボーイング 777-200F 混載貨物
+SAC-Boeing_777-200F_mail_128_set
+ボーイング 777-200F 郵便
+SAC-Boeing_777-300_128_set
+ボーイング 777-300
+SAC-Boeing_B-377_Stratoliner
+ボーイング B-377 Stratoliner
+SAC-Bombardier_CRJ-200
+ボンバルディア CRJ-200
+SAC-Bombardier_CRJ-900
+ボンバルディア CRJ-900
+SAC-De_Havilland_Comet_128_set
+デ・ハビランド コメット
+SAC-Douglas_DC-3_128_set
+ダグラス DC-3
+SAC-Douglas_DC-5_128_set
+ダグラス DC-5
+SAC-Douglas_DC-6_128_set
+ダグラス DC-6
+SAC-Douglas_DC-8-30_128_set
+ダグラス DC-8-30
+SAC-Douglas_DC-8-50_Mail_128_set
+ダグラス DC-8-50 郵便
+SAC-Douglas_DC-8-60_128_set
+ダグラス DC-8-60
+SAC-Douglas_DC-9-10_128_set
+ダグラス DC-9-10
+SAC-Douglas_DC-9-30_128_set
+ダグラス DC-9-30
+SAC-Douglas_DC-9-30LWF_Mail_128_set
+ダグラス DC-9-30LWF 郵便
+SAC-Douglas_DC-9-50_128_set
+ダグラス DC-9-50
+SAC-Embraer_E-170
+エンブラエル E170
+SAC-Embraer_E-190
+エンブラエル E-190
+SAC-Fokker_F-27_128_set
+フォッカー F-27
+SAC-Fokker_F-27_Mail_128_set
+フォッカー F-27 郵便
+SAC-Handley_Page_W8B_128_set
+ハンドレページ W.8B
+SAC-Ilyushin_IL-76_Candid_128_set
+イリューシン Il-76 キャンディッド
+SAC-Junkers_Ju-52_128_set
+ユンカース Ju-52
+SAC-Junkers_Ju-52_Mail_128_set
+ユンカース Ju-52 郵便
+SAC-Lockheed_C-130C_Hercules_128_set
+ロッキード C-130C ハーキュリーズ
+SAC-Lockheed_C-130F_Hercules_128_set
+ロッキード C-130F ハーキュリーズ
+SAC-Lockheed_C-130J_Super_Hercules_(cooled)_128_set
+ロッキード C-130J スーパーハーキュリーズ 低温貨物
+SAC-Lockheed_C-130J_Super_Hercules_(goods)_128_set
+ロッキード C-130J スーパーハーキュリーズ 混載貨物
+SAC-Lockheed_Constellation_128_set
+ロッキード コンステレーション
+SAC-McDonnell_Douglas_DC-10_128_set
+マクドネル・ダグラス DC-10
+SAC-McDonnell_Douglas_DC-10F_(cooled_goods)_128_set
+マクドネル・ダグラス DC-10F 低温貨物
+SAC-McDonnell_Douglas_DC-10F_(goods)_128_set
+マクドネル・ダグラス DC-10F 混載貨物
+SAC-McDonnell_Douglas_DC-10F_(mail)_128_set
+マクドネル・ダグラス DC-10F 郵便
+SAC-McDonnell_Douglas_MD-11_128_set
+マクドネル・ダグラス MD-11
+SAC-McDonnell_Douglas_MD-11F_(cooled_goods)_128_set
+マクドネル・ダグラス MD-11F 低温貨物
+SAC-McDonnell_Douglas_MD-11F_(goods)_128_set
+マクドネル・ダグラス MD-11F 混載貨物
+SAC-McDonnell_Douglas_MD-11F_(mail)_128_set
+マクドネル・ダグラス MD-11F 郵便
+SAC-McDonnell_Douglas_MD-80_128_set
+マクドネル・ダグラス MD-80
+SAC-McDonnell_Douglas_MD-90_128_set
+マクドネル・ダグラス MD-90
+SAC-Rohrbach_Rocco_128_set
+ロールバッハ ロッコ
 Sail_Post_Ship_0
 帆走郵便船
 SBB_Re4_4_II
@@ -2180,6 +2528,44 @@ old_taxiway
 草の誘導路
 Powerline
 送電線
+river_00
+河
+river_01
+大きな川
+river_02
+川
+river_03
+狭い川
+river_04
+小川
+road_030
+道路 30Km/h
+road_040
+道路 40Km/h
+road_050
+道路 50Km/h
+road_050_elevated
+高架道路 50Km/h
+road_055
+道路 55Km/h
+road_070
+道路 70Km/h
+road_090
+道路 90Km/h
+road_090_elevated
+高架道路 90Km/h
+road_110
+道路 110Km/h
+road_110_elevated
+高架道路 110Km/h
+road_130
+道路 130Km/h
+road_130_elevated
+高架道路 130Km/h
+road_200
+道路 200Km/h\n
+road_200_elevated
+高架道路 200Km/h
 runway_modern
 滑走路
 Schwebebahn_p_ground
@@ -2196,6 +2582,8 @@ wooden_sleeper_track
 #__________________________________way-object___________________________________
 High_Speed_Catenary
 高速鉄道用架線
+modern_runway-extMrkLgt
+灯火類(景観用)
 old_catenary
 初期型架線
 standard_catenary

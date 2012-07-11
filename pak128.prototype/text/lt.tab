@@ -5,7 +5,7 @@
 #                            Language: lt Lithuanian                           #
 #                                Encoding: UTF-8                               #
 #                                Font : cyr.bdf                                #
-#                           Date Created: 25.10 2011                           #
+#                           Date Created: 11.07 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -36,6 +36,14 @@ Wooden_Rail
 Medinis tiltas
 #___________________________________building____________________________________
 #___________________________________building____________________________________
+01_CITY
+Rotušė
+02_CITY
+Rotušė
+03_CITY
+Rotušė
+04_CITY
+Rotušė
 1920_AirDepot
 Angaras
 1930AirDepot
@@ -100,6 +108,16 @@ ClosedTrainStop
 Visiškai užverta platforma
 CoalTrainStop
 Anglių stotis
+Control_StationBlg
+Iešmininkų bokštas
+Fluid_StationBlg
+naftos cisterna
+FreightTrainStop
+Krovinių platforma
+Gas_StationBlg
+Dujų cisterna
+Goods_StationBlg
+Sandėlis
 MonorailDepot
 Vienb?gio depas
 ShipDepot
@@ -330,6 +348,10 @@ Monoraildepot
 Vienb?gio depas
 Monorailhalt
 vienbėgio stotis
+Monorails are not available yet!
+Vienbėgiai dar neatsirado.
+remove monorails
+Šalinti vienbėgį
 #___________________________________roadsign____________________________________
 #___________________________________roadsign____________________________________
 air_one-way
@@ -392,6 +414,8 @@ preSignal_Monorail
 Presignalas
 preSignals
 Presignalas
+Railgate
+Barjeras kitų žaidėjų eismui valdyti (naudinga multiplayer rėžime).
 RoadClosed
 Kelio užtvaras
 Signal_Monorail
@@ -586,6 +610,8 @@ Haru_E3_KOMACHI_(rear)
 Haru E3 "Komachi" (galas)
 Holzwagen
 Miškovežio vagonas
+JNR_C11
+RavenCo JNR-C11 2-8-4
 Kord_TT_bulk
 Kord TT savivartis
 Kord_TT_grain
@@ -788,3 +814,11 @@ yoshi_wup196502
 GTW 85 vidurys
 yoshi_wup196503
 GTW 85 galas
+#______________________________________way______________________________________
+#______________________________________way______________________________________
+Powerline
+Elektros linija
+runway_modern
+Pakilimo takas
+steel_sleeper_track
+Plieninio pagrindo bėgiai

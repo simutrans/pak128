@@ -5,7 +5,7 @@
 #                             Language: cz Cestina                             #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 25.02 2012                           #
+#                           Date Created: 11.07 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -17,6 +17,8 @@
 #                        Václav Macùrek - VaclavMacurek                        #
 #                                    note:                                     #
 #                                   - hernajs                                  #
+#                                    note:                                     #
+#                              Honza Kobel - jk271                             #
 #                                    note:                                     #
 #                           Jiri Svoboda - jxsvoboda                           #
 #                                    note:                                     #
@@ -40,6 +42,14 @@ PowerBridge
 Most vedení VN
 road_030_bridge
 Døevìný silnièní most
+road_050_bridge
+silnièní most
+road_055_bridge
+Kamenný most
+road_070_bridge
+silnièní most
+road_110_bridge
+silnièní most
 road_200_bridge
 Dálnièní most
 RVg_Concrete_Rail_Bridge
@@ -566,6 +576,8 @@ GRASS_STADIUM
 Malý fotbalový stadion\n\nStadion sice patøí místnímu juniorskému fotbalovému klubu,\nale velmi èasto se zde konají sportovní soutì¾e místních ¹kol.\nA kdy¾ je volno, mù¾e sem pøijít kdokoli a potichu dbát o své tìlo.
 GREEN_HOUSE
 Skleník\n\nTento skleník byl vyu¾íván jako\nobchod. Ale pøed èasem\njeho vlastník pøi¹el na to,\n¾e lidé sem pøicházejí bez\nzjevného zájmu nìco si\nkoupit. A tak zmìnil dùm na\nzimní tropickou zahradu.\nNyní je v nìm spousta\nvzácných kvìtin a dùm je\ndobøe znám po celém svìtì.\n
+hall_extended_station
+Nádra¾ní nákupní centrum
 HIGH_SCHOOL_1
 Støední ¹kola\n\nMísto, kde se mladým lidem\ndostane dal¹í vzdìlání.\nUèeny jsou pøedev¹ím exaktní pøedmìty jako matematika, fyzika a s.pol,\nale studenti se nevyhnou ani výuce jazykù, dìjepisu, zemìpisu, pøírodopisu a dal¹ím.\n
 HOUSE_RUINS_0
@@ -876,6 +888,8 @@ IND_12_16
 Hongkong¹tí textilní výrobci\nvrací úder! Pøevzali jednu z\ntováren a vyu¾ívají jí jako\ndílny pro jejich vlastní\nvýrobky. Na¹tìstí jim zatím\núøady nepovolily prodej,\nproto¾e dali na trièka\nchybné oznaèení Made in\nHongkong. \n
 JUSTICE
 Mìstský soud\n\nMísto øe¹ení vìt¹iny sporù,\nkteré se ve mìstì objeví.\nNení právníka,\nkterý by v této budovì nikdy nebyl.\n
+library_holy_genevieve
+Knihovna sv. Vor¹ily\n\nLeè církevní knihovna, je mo¾né zde potkat nemalé mno¾ství agnostikù i ateistù, kterak dr¾í ¾ivotopisy svatých.
 Lighthouse_0
 Maják\n\nJi¾ od dávných dob ukazuje\ntento maják bezpeènou\ncestu lodím míøícím do\npøístavu. Pøístav sice ji¾\ndávno zanikl, ale maják\nstojí stále. Dnes ji¾\nnenaviguje lodì, stala se z nìj vyhledávaná turistická\natrakce.\n
 Lighthouse_1
@@ -1578,6 +1592,8 @@ RUIN_1
 Ruina hradu\n\nToto je zøícenina slavného hradu.\nHodnì kapitol\nhistorie bylo napsáno právì zde.\nZ tohoto dùvodu je\ntoto místo skuteèným\nmagnetem pro turisty z celého svìta.\n
 Russian_Cathedral
 Katedrála svatého Vasila\n\nTahle katedrála byla postavena hlavnì pro lázeòské hosty z Ruska. Na m¹e jich moc nechodí, ale vzhledem k jejich bohatství a ¹tìdrosti chrám rozhodnì nechátrá. Uvnitø je nádherný ikonostas, na jeho¾ výstavu prý padl celý les.
+Sacred_heart_church
+Kostel Nejsvìtìj¹ího srdce Pánì\n\nJiné kostely jsou vìt¹inou zavøené, ale tento je otevøen po celý den - i v noci. Zatímco vìøící se chodí modlit, nevìøící obdivují výzdobu a architekturu.
 Secession_Chapel
 Men¹í secesní kaple\n\nStøechu má u¾ na¹tìstí opravenou. Obèas nìkdo zapálí svíèku pod køí¾kem.
 sh_oasis_seasons
@@ -1628,6 +1644,8 @@ VictorianStation
 Stanice ve viktoriánském stylu
 VillageTrainStop
 Vesnické nástupi¹tì
+WernerServer
+Wernerùv pomník\n\nUvnitø stavby pøipomínající skøíò poèítaèe je umístìn poèítaè s ulo¾eným vìdomím lidí, bez nich¾ by Simutrans nebylo mo¾no hrát po síti.
 WHEEL
 Ruské kolo\n\nV¹em je dobøe známá - hlavnì\nstar¹í generaci,\nkterá chodila do zábavných\nparkù. Dnes je to spí¹\nvyhlídkové místo pro dìti,\naby se podívaly kde v parku co stojí.\n
 Windmill
@@ -1636,8 +1654,36 @@ WOODEN_CHURCH
 Døevìný kostel\n\nTento kostel byl postavený\nlidmi, kteøí mají rádi výzvy,\nstojí bez pou¾ití jediného\nhøebíèku.\n
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
+ambulance_0
+Stará sanitka
+ambulance_1
+Vyslou¾ilá vojenská sanitka
 Horse_Carriage_For_2_public
 Koòský povoz
+ms_foord_gallaxie_brown
+Ford Galaxy hnìdé barvy
+ms_foord_gallaxie_white
+Ford Galaxy bílé barvy
+ms_megane_blue
+Renault Megane modré barvy
+ms_megane_green
+Renault Megane zelené barvy
+ms_mustang_blue
+Ford Mustang modré barvy
+ms_mustang_green
+Ford Mustang zelené barvy
+ms_mustang_red
+Ford Mustang èervené barvy
+ms_scenic_green
+Renault Scenic zelené barvy
+RVg_dumptruck_1
+Uzavøený právì umytý popeláøský vùz
+RVg_dumptruck_2
+Uzavøený posprejovaný popeláøský vùz
+school_bus_0
+©kolní autobus
+VS_T-813-cammo
+Tatra 813 v vojenském zbarvení
 #__________________________________dummy_info___________________________________
 #__________________________________dummy_info___________________________________
 factory_autoshop3_details
@@ -1773,7 +1819,7 @@ Kvasný závod
 fish_pond
 Chovný rybník
 fish_swarm
-Sádky
+Rybí hejno
 food_processing_plant
 Potravináøský závod
 ForestPlantation
@@ -1802,6 +1848,8 @@ Oelfeld
 Ropné vrty
 oilkraftwerk
 Elektrárna na mazut
+old_fish_cannery
+Konzervárna
 old_powerplant_kraftwerk
 Uhelná elektrárna
 open_coal_mine
@@ -1853,7 +1901,7 @@ prkna
 Bucher
 knihy
 canned_food
-Konzervované jídlo
+konzervované jídlo
 Cement
 cement
 Chemicals
@@ -1903,7 +1951,7 @@ surová ropa
 Papier
 papír
 Passagiere
-Cestující
+cestující
 Plastik
 plasty
 Post
@@ -2054,6 +2102,8 @@ palm010
 palma\n
 palm011
 palma\n
+tree020
+Bøíza bìlokorá
 tree021
 Bøíza\n
 tree051
@@ -2246,8 +2296,12 @@ EMD_E5A_Silver_Meteor
 EMD E5A Støíbrný meteor
 EMD_E5B_Silver_Comet
 EMD E5B Støíbrná kometa
+EMD-FT_(A)
+EMD FT A (pøední lokomotiva)
+EMD-FT_(B)
+EMD FT B (strojovna bez stanovi¹tì strojvùdce)
 EMD-FT_(C)
-EMD FT zadní lokomotiva
+EMD FT C (zadní lokomotiva)
 Evil_DF-11
 Evil DF-11
 Evil_P-100_(carriage)
@@ -2266,6 +2320,24 @@ Ferry_Mail_Extension_(small)
 Doplòkový po¹tovní prostor (malý)
 Fishing_Boat_1
 MHz Rybáøská bárka
+fluid_00_Wood_Barrels_Wagon
+Cisternový vagon na technické kapaliny (s døevìnými sudy)
+fluid_01_Iron_Tanks_Wagon
+Cisternový vagon na technické kapaliny (s kovovými sudy)
+fluid_02_CSD-502_Tank_Wagon
+Cisternový vagon na technické kapaliny (typ ÈSD 502)
+fluid_03_CSD-556_Tank_Wagon
+Cisternový vagon na technické kapaliny (typ ÈSD 556)
+fluid_04_Esso_Tank_Wagon
+Cisternový vagon na technické kapaliny (ESSO)
+fluid_05_CEPSA_Tank_Wagon
+Cisternový vagon na technické kapaliny (CEPSA)
+fluid_06_VTG_Tank_Wagon
+Cisternový vagon na technické kapaliny (typ VTG)
+fluid_07_Esso_XL_Tank_Wagon
+Cisternový vagon na technické kapaliny (ESSOP ExtraLarge)
+fluid_08_VTG_CeSa_Tank_Wagon
+Cisternový vagon na technické kapaliny (typ VTG CeSa)
 Fluid_trailer_0
 AJ Cisterna na kapaliny
 Fluid_trailer_1
@@ -2314,8 +2386,6 @@ Grain_trailer_0
 PMNV Pøívìs na zrní
 Grain_Truck_1
 VSYS-Tatra 815 (zrní)
-Gripsholm
-Doplòkový po¹tovní prostor (velký)
 Haru_2C1_Cheetah
 Haru 2C1 Gepard
 Haru_2D1_Buffalo
@@ -2432,6 +2502,10 @@ Kord_TT_grain
 Kord TT (zrní - sypký materiál)
 Liner_Mail_Extension_(large)
 Doplòkový po¹tovní prostor (velký)
+LKAB_IORE_Back
+LKAB IORE zadní lokomotiva
+LKAB_IORE_Front
+LKAB IORE pøední lokomotiva
 MA461_waggon
 MA461 - vagón
 Mack_Truck_Cooling_Trailer
@@ -2516,6 +2590,12 @@ mja-Zil130-128set
 mja-Zil 130
 MS_sprinter_mail
 Sprinter po¹tovní vùz
+MTAB_Dm_Back
+SJ Dm zadní lokomotiva
+MTAB_Dm_Front
+SJ Dm pøední lokomotiva
+MTAB_Dm3
+SJ Dm lokomotiva bez stanovi¹tì strojvùdce (Dm3)
 MV_Balmoral
 MV Balmoral
 MV_Fedra
@@ -2558,6 +2638,12 @@ Pegaso-Seida_5020_InterCity
 Pegaso-Seida 5020 Dálkový autobus
 Pegaso-Seida_5020_Urban
 Pegaso-Seida 5020 Mìstský autobus
+Pioneer_Zephyr
+Pioneer Zephyr (lokomotiva)
+Pioneer_Zephyr_Car
+Pioneer Zephyr (vlo¾ený osobní vùz)
+Pioneer_Zephyr_Tail
+Pioneer Zephyr (koncový osobní vùz)
 Planck_Truck_0
 PMNV-Canonball Plochý vùz (prkna)
 Plank_Truck_2
@@ -2688,6 +2774,38 @@ R_01
 RVg R1 - vlecny vuz
 R_02
 RVg R2 - vlecny vuz
+Renfe_Series_10200_(Player_Colors)
+RENFE øada 10200
+Renfe_Series_301_(Player_Colors)
+RENFE øada 301
+Renfe_Series_311_(Player_Colors)
+RENFE øada 311
+Renfe_Series_314_(Player_Colors)
+RENFE øada 314
+Renfe_Series_316_(Player_Colors)
+RENFE øada 316
+Renfe_Series_318_(Player_Colors)
+RENFE øada 318
+Renfe_Series_319.300_(Player_Colors)
+RENFE øada 319.300
+Renfe_Series_334_(Player_Colors)
+RENFE øada 334
+Renfe_Series_350_Talgo_(Player_Colors)
+RENFE øada 350 TALGO (lokomotiva)
+Renfe_Series_350_Talgo_Car_(Player_Colors)
+RENFE øada 350 TALGO (osobní vùz)
+Renfe_Series_350_Talgo_Mail_Car_(Player_Colors)
+RENFE øada 350 TALGO (po¹tovní vùz)
+Renfe_Series_350_Talgo_Restaurant_Car_(Player_Colors)
+RENFE øada 350 TALGO (jídelní vùz)
+Renfe_Z-2000_Car
+RENFE Z2000 osobní vùz
+Renfe_Z-2000_Mail_Car
+RENFE Z2000 po¹tovní vùz
+Renfe6000_Post
+RENFE 6000 po¹tovní vùz
+Renfe6000_Psg
+RENFE 6000 osobní vùz
 Rigoletto
 Rigoletto (auta)
 RMS_Baltic
@@ -2954,12 +3072,14 @@ SAC-Airbus_A300-600F_128_set
 SAC-Airbus A300-600F (nákladní)
 SAC-Airbus_A300-600P_128_set
 SAC-Airbus A300-600P (letecká po¹ta)
+SAC-Airbus_A300-600ST_128_set
+Airbus A300-600ST (mra¾ené zbo¾í)
 SAC-Airbus_A300-B4_128_set
-SAC-Airbus A300-B4
+Airbus A300-B4
 SAC-Airbus_A310-200_128_set
-SAC-Airbus A310 200
+Airbus A310-200
 SAC-Airbus_A310-200C_128_set
-SAC-Airbus A310-200C (mrazící)
+Airbus A310-200C (mra¾ené zbo¾í)
 SAC-Airbus_A310-200F_128_set
 SAC-Airbus A310-200F (nákladní)
 SAC-Airbus_A310-200P_128_set
@@ -2978,18 +3098,106 @@ SAC-Airbus_A380-800F_128_set
 SAC-Airbus A380-800F (nákladní)
 SAC-Airbus_A380-800P_128_set
 SAC-Airbus A380-800P (letecká po¹ta)
+SAC-Boeing_707-020_128_set
+Boeing 707-020
+SAC-Boeing_707-120_128_set
+Boeing 707-120
+SAC-Boeing_707-320_128_set
+Boeing 707-320
+SAC-Boeing_727-100_128_set
+Boeing 727-100
+SAC-Boeing_727-200_128_set
+Boeing 727-200
+SAC-Boeing_737-100_128_set
+Boeing 737-100
+SAC-Boeing_737-200_128_set
+Boeing 737-200
+SAC-Boeing_737-300_128_set
+Boeing 737-300
+SAC-Boeing_737-400_128_set
+Boeing 737-400
+SAC-Boeing_737-500_128_set
+Boeing 737-500
+SAC-Boeing_737-600_128_set
+Boeing 737-600
+SAC-Boeing_737-700_128_set
+Boeing 737-700
+SAC-Boeing_737-800_128_set
+Boeing 737-800
+SAC-Boeing_737-900_128_set
+Boeing 737-900
 SAC-Boeing_747-200_128_set
 SAC-Boeing 747-200
+SAC-Boeing_747-200C_128_set
+Boeing 747-200 (mra¾ené zbo¾í)
 SAC-Boeing_747-200F_128_set
-SAC-Boeing 747-200F (nákladní)
+Boeing 747-200 (paletované zbo¾í)
 SAC-Boeing_747-200P_128_set
-SAC-Boeing 747-200P (letecká po¹ta)
+Boeing 747-200 (letecká po¹ta)
+SAC-Boeing_747-300_128_set
+Boeing 747-300
 SAC-Boeing_747-400_128_set
-SAC-Boeing 747-400
+Boeing 747-400
+SAC-Boeing_747-400F_Cooled_128_set
+Boeing 747-400 (mra¾ené zbo¾í)
+SAC-Boeing_747-400F_Goods_128_set
+Boeing 747-400 (paletované zbo¾í)
+SAC-Boeing_747-400F_Mail_128_set
+Boeing 747-400 (letecká po¹ta)
+SAC-Boeing_747-8F_Cooled_128_set
+Boeing 747-8F (mra¾ené zbo¾í)
+SAC-Boeing_747-8F_Goods_128_set
+Boeing 747-8F (paletované zbo¾í)
+SAC-Boeing_747-8F_Mail_128_set
+Boeing 747-8F (letecká po¹ta)
+SAC-Boeing_747-8I_128_set
+Boeing 747-8I
+SAC-Boeing_757-200_128_set
+Boeing 757-200
+SAC-Boeing_757-200f_cooled_128_set
+Boeing 757-200F (mra¾ené zbo¾í)
+SAC-Boeing_757-200f_goods_128_set
+Boeing 757-200F (paletované zbo¾í)
+SAC-Boeing_757-200f_mail_128_set
+Boeing 757-200F (letecká po¹ta)
+SAC-Boeing_757-300_128_set
+Boeing 757-300
+SAC-Boeing_767-200_128_set
+Boeing 767-200
+SAC-Boeing_767-300_128_set
+Boeing 767-300\n
+SAC-Boeing_767-300F_cooled_128_set
+Boeing 767-300F (mra¾ené zbo¾í)
+SAC-Boeing_767-300F_goods_128_set
+Boeing 767-300F (paletované zbo¾í)
+SAC-Boeing_767-300F_mail_128_set
+Boeing 767-300F (letecká po¹ta)
+SAC-Boeing_767-400_128_set
+Boeing 767-400
+SAC-Boeing_777-200_128_set
+Boeing 777-200
+SAC-Boeing_777-200F_cooled_128_set
+Boeing 777-200F (mra¾ené zbo¾í)
+SAC-Boeing_777-200F_goods_128_set
+Boeing 777-200F (paletované zbo¾í)
+SAC-Boeing_777-200F_mail_128_set
+Boeing 777-200F (letecká po¹ta)
+SAC-Boeing_777-300_128_set
+Boeing 777-300
+SAC-Boeing_B-377_Stratoliner
+Boeing B-377 Stratoliner
+SAC-Bombardier_CRJ-200
+Bombardier CRJ-200
+SAC-Bombardier_CRJ-900
+Bombardier CRJ-900
 SAC-De_Havilland_Comet_128_set
 SAC-De Havilland Comet
 SAC-Douglas_DC-3_128_set
 SAC-Douglas DC-3
+SAC-Embraer_E-170
+Embraer E-170
+SAC-Embraer_E-190
+Embraer E-190
 SAC-Fokker_F-27_128_set
 SAC-Fokker F-27
 SAC-Fokker_F-27_Mail_128_set
@@ -3098,6 +3306,20 @@ SMC_H-38_City_Bus
 SMC H38 Mìstský autobus
 SMC_H-98_City_Bus
 SMC H98 Mìstský autobus
+SMC_HDL-1400
+HDL-1400
+SMC_HDL-1600
+HDL-1600
+SMC_HDL-1800
+HDL-1800
+SMC_HDL-2000
+HDL-2000
+SMC_HDL-2500
+HDL-2500
+SMC_HDL-3000
+HDL-3000
+SMC_HDL-4000
+HDL-4000
 Stahlwagen
 Canonball nákladní vùz (ocel)
 Stahlwagen_0
@@ -3140,12 +3362,38 @@ T_110A
 RVg T110a Super Tram
 T_110B
 RVg T110b Super Tram
+TalgoExpressCar
+Talgo Expres (osobní vùz)
+TalgoExpressMail
+Talgo Expres (po¹tovní vùz)
+TalgoExpressRestaurant
+Talgo Expres (jídelní vùz)
 TATRA_400_T_128
 Tatra 400 T
 TATRA_401_T_128
 Tatra 401 T
 TATRA_86_T_128
 Tatra 86 T
+TGV_4400
+TGV PSE (Pøední lokomotiva)
+TGV_4400_Back
+TGV PSE (Zadní lokomotiva)
+TGV_4400_Car
+TGV PSE (Vleèný vùz)
+TGV_Atlantique
+TGV Atlantique (Pøední lokomotiva)
+TGV_Atlantique_(Back)
+TGV Atlantique (Zadní lokomotiva)
+TGV_Atlantique_(Car)
+TGV Atlantique (Vleèný vùz)
+TGV_Post
+TGV Le Poste (Pøední lokomotiva)
+TGV_Post_Back
+TGV Le Poste (Zadní lokomotiva)
+TGV_Post_Car_A
+TGV Le Poste (Pøední vlo¾ený vùz)
+TGV_Post_Car_B
+TGV Le Poste (Zadní vlo¾ený vùz)
 Thunder_(front_engine)
 BB Thunder
 Thunder_(mail)
@@ -3154,8 +3402,18 @@ Thunder_(rear_engine)
 BB Thunder (koncový)
 Thunder_(waggon)
 BB Thunder (vagón)
+TMB_Class_100
+TMB øada 100
+TMB_Class_1000
+TMB øada 1000
+TMB_Class_2000
+TMB øada 2000 (øídící vùz)
+TMB_Class_2000_Car
+TMB øada 2000 (vlo¾ený vùz)
 TS_Mack_Bulk_Trailer_0
 TS lehký návìs na sypké náklady
+Veveri_ship_128set
+Veveøí
 Vitus-AVECO_Eurocargo_Bretter
 Vitus-Aveco Eurocargo (prkna)
 Vitus-AVECO_Eurocargo_bulk_transporter
@@ -3190,6 +3448,12 @@ VSYS_Tatra_138_Grain
 VSYS Tatra 138 (zrní)
 VSYS_Tatra_813_Clossus
 VSYS Tatra 813 "Kolos"
+VT105_Addon
+VT 105 (Motorový vùz)
+VT105_Car_Addon
+VT 105 (Vlo¾ený vleèný vùz)
+VT105_Tail_Addon
+VT 105 (Koncový vleèný vùz)
 Willamette_Chief
 Willamette Chief
 Willamette_Chief_(farm_goods)
@@ -3250,6 +3514,8 @@ river_03
 Øeka
 river_04
 Øíèka
+road_110_elevated
+vyvý¹ená silnice
 runway_modern
 Pøistávací dráha
 Schwebebahn_p_ground

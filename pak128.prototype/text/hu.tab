@@ -5,7 +5,7 @@
 #                              Language: hu Magyar                             #
 #                                Encoding: UTF-8                               #
 #                                Font : cyr.bdf                                #
-#                           Date Created: 25.10 2011                           #
+#                           Date Created: 11.07 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -26,6 +26,24 @@ ClassicRail
 Beton vasúti híd
 PowerBridge
 Elektromos vezeték híd
+road_030_bridge
+Fahíd (30)
+road_040_bridge
+Kőhíd (40 km/h)
+road_050_bridge
+Közúti híd (50 km/h)
+road_055_bridge
+Kőhíd (55 km/h)
+road_070_bridge
+Közúti híd (70 km/h)
+road_090_bridge
+Közúti híd (90 km/h)
+road_110_bridge
+Közúti híd (110 km/h)
+road_130_bridge
+Közúti híd (130 km/h)
+road_200_bridge
+Közúti híd (200 km/h)
 RVg_Concrete_Rail_Bridge
 RVg függő vasúti acélhíd
 Schwebebahn_p_bridge
@@ -76,6 +94,8 @@ Airport1930PostOffice
 Posta állomás (1930)
 Airport1990_Big_AirportBlg
 Modern terminál (váróterem)
+Airport1990_Big_PostOffice
+Posta hivatal
 Airport1990_Entrance_AirportBlg
 Bejárati kapu
 Airport1990_Gates_AirportBlg
@@ -84,6 +104,8 @@ Airport1990_PostOffice
 Reptéri Postahivatal
 Airport1990_Small_AirportBlg
 Modern váróterem
+Airport1990_Small_PostOffice
+Posta
 Airport1990_Warehouse
 Áruraktár (CARGO)
 AirStop_AirportBlg
@@ -100,6 +122,8 @@ big_classic_bus_stop
 Megálló
 big_modern_bus_stop
 Tágas megálló
+BigTerminal1930_AirportBlg
+Légi terminál
 BigTerminal1950_AirportBlg_S
 Nagy légi reptér (1950) É-D
 Bulk_Dock
@@ -119,7 +143,7 @@ Kocsiszín.
 CarStop
 Rakodóudvar.
 CASTLE_0
-Napik Király Kastélya.\n\n
+Napik Király Kastélya\n\n
 CHURCH_02
 Apátság.\n\n
 CHURCH_03
@@ -129,7 +153,7 @@ Zsinagóga.\n\n
 CHURCH_05
 Szent Mihály Katedrális.\n\n
 CHURCH_06
-Templom.\nFalusi vagy kisvárosi \ntemplom.\n\n
+Templom\n\nFalusi vagy kisvárosi \ntemplom.\n\n\n
 CIRCUS_0
 Cirkusz.\n\n
 CIVILIAN_RADAR
@@ -430,6 +454,8 @@ COM_08_60
 A vasút forgalom irányítási\nközpontja.\n\n
 COM_09_18
 Román stílusú templom
+COM_09_22
+Motel
 COM_10_01
 Rádió Ga-Ga-Rin. Itt mindig\nmodern slágereket\njátszanak.\n\n
 COM_10_04
@@ -497,7 +523,7 @@ Konténerfogadó dokk
 CunnersdorfStopBlg
 Falusi állomás épület
 CUR_01_128_JH
-Atomium. Kiállítások és\nkoncertek helyszíne.\n\n
+Atomium\n\nKiállítások és\nkoncertek helyszíne.\n\n
 DenkFlor
 Flor WF Ultd.' Wautersnek a\nkedves mérnöknek ki oly sok\njárművet tervezett.\n\n
 DenkGeorg
@@ -853,9 +879,9 @@ Hong Kongi Textil Üzem. A\nHong Kongiak visszavágnak.\n\n
 JUSTICE
 Igazságügyi palota.\n\n
 Lighthouse_0
-Világítótorony. \nAmióta megépült a navigáció \n a tengereken sokkal\nkönnyebb. \nSok ember akarja meglátogatni\nés \nnézni ahogy a hullámok\nnyaldossák a partot.\n
+Világítótorony\n\nAmióta megépült a navigáció \n a tengereken sokkal\nkönnyebb. \nSok ember akarja meglátogatni\nés \nnézni ahogy a hullámok\nnyaldossák a partot.\n
 Lighthouse_1
-Világítótorony. \nAmióta megépült a navigáció \n a tengereken sokkal\nkönnyebb. \nA különös alakja miatt a \ntengerészek állandóan \npanaszkodnak.\n
+Világítótorony\n\nAmióta megépült a navigáció \n a tengereken sokkal\nkönnyebb. \nA különös alakja miatt a \ntengerészek állandóan \npanaszkodnak.\n
 Long_Goods_Dock
 Faárufogadó dokk
 LuftPost1950_AirportBlg
@@ -863,7 +889,7 @@ Posta állomás (1950)
 MANOR_0
 Reneszánsz Kastély.\n\n
 MARKET_PLACE_0
-Csütörtöki Piac.\n\n
+Csütörtöki Piac\n\n
 medium_classic_bus_stop
 Megálló
 medium_early_bus_stop
@@ -871,11 +897,15 @@ Fedett megálló
 medium_modern_bus_stop
 Közepes megálló
 MILITARY_RADAR
-Katonai radar. Figyelem ezt\nmessze el kell kerülni. Még\nmindig olvasod? Na tünés\ninnen.\n\n
+Katonai radar\n\n Figyelem ezt\nmessze el kell kerülni. Még\nmindig olvasod? Na tünés\ninnen.\n\n
 Modern_Warehouse
 Raktárépület
+modern_warehouse_big
+Modern raktár
 ModernPostOffice
 Modern Postaközpont.
+ModernPostOfficeLarge
+Központi postahivatal
 ModernTrainStop
 Modern pályaudvar.
 MonorailDepot
@@ -885,15 +915,17 @@ Egysínű vasút alap.
 MonorailGround
 Mágnesvasúti alap
 MT_HOTEL_0
-Majestic Hotel.\n\nEz egy nagyon híres hotel. \nA szobák nagyon drágák, de \nmindenki itt akar megszállni, \nvagy legalább az éttermben \nvacsorázni.\n\n
+Majestic Hotel\n\nEz egy nagyon híres hotel. \nA szobák nagyon drágák, de \nmindenki itt akar megszállni, \nvagy legalább az éttermben \nvacsorázni.\n\n
 MUSEUM_0
-Modern Múzeum. Régebben\nvár volt, majd kastéllyá\nátépítették. Most\nmúzeumként funkcionál.\n\n
+Modern Múzeum\n\nRégebben\nvár volt, majd kastéllyá\nátépítették. Most\nmúzeumként funkcionál.\n\n
 OBSERVATORY
-Obszervatórium. Nappal\nturisták, éjszaka tudósok\nlakják. Rengetek multimédiás\nshow helyszíne.\n\n
+Obszervatórium\n\n Nappal turisták,\néjszaka tudósok\nlakják. Rengeteg multimédiás\nshow helyszíne.\n\n
+OfficeTrainStop
+Vasúti megálló
 Old_gate
 Városkapu
 OLD_HOUSE_0
-Építészeti Múzeum. Sok\nturista látogatja.\n\n
+Építészeti Múzeum\n\n Sok turista látogatja.\n
 OpenTrainStop
 Nyitott pályaudvar.
 Pagoda01
@@ -906,16 +938,20 @@ parking_(catchemnt_area_ext)2
 Parkoló
 parking_(catchemnt_area_ext)3
 Parkoló
+plain_tile_high
+Rakodótér
 Post_Dock
 Postafogadó dokk
 PostOffice
 Posta.
 PostOffice1920_AirportBlg
 Reptéri postaépület
+PostOfficeOldLarge
+Régi postahivatal
 Radar3
 Radar
 RADIO_TOWER_0
-Chit-Chat FM Rádió. Élő\nadások vannak naponta\n"14" és "16" óra között,\nmely sok látogatót vonz.\n\n
+Chit-Chat FM Rádió.\n\n Élő adások vannak naponta\n"14" és "16" óra között,\nmely sok látogatót vonz.\n\n
 RES_00_01
 Hepi Hippi Tábor. A cím\nminden elmond :).\n\n
 RES_00_02
@@ -1464,6 +1500,8 @@ RES_12_17
 Kis németalföldi ház\n\n
 RES_12_18
 Emeletes ikerház.\n\n
+RES_12_19
+Családi ház\na századfordulón\n\n
 RES_12_20
 Négylakásos panelház.\n\nItt laknak a munkások \nés a szegények.\n\n
 RES_12_21
@@ -1478,6 +1516,8 @@ RES_12_30
 Könnyűszerkezetesház.\n\nEzen házakat veszik azok \naz emberek akik eddig \npanelben laktak.\n\n
 RES_12_32
 Tető.\n\n
+RES_13_12
+Kis házikó
 RES_13_13
 Lapostetős panelsorház.\n\n
 RES_13_14
@@ -1558,10 +1598,12 @@ RES_17_20
 Háromszintes téglasorház.\n\n
 RES_17_21
 Négyszintes téglasorház.\n\n
+RES_65_12
+Kis szürke ház.\Nyugdíjas házaspár lakhelye.\n\n
 rmax_clock_tower
-Toronyóra. \nEnnek a toronynak sajátos \nformája van. Sokan úgy \ntartják hogy Fabels \ntornyának romjai alapján \nkészült, de ez valóban \nmodern épület és az órája \naz egyik legpotosabb egész \nSimuvilágban.\n
+Toronyóra\n\nEnnek a toronynak sajátos \nformája van. Sokan úgy \ntartják hogy Fabels \ntornyának romjai alapján \nkészült, de ez valójában \nmodern épület és az órája \naz egyik legpontosabb egész \nSimuvilágban.\n
 rmax_courthouse
-Bíróság? vagy udvar?\n\n
+Bíróság\n\n
 rmax_DenkManualTeam
 Ragyogó fáklya emlékmű. \nEzt az emlékművet mindazon \nemberek tiszteletére \nemelték akik segítettek a \nSimutrans valamely részének \nelkészítésében (pl.: Wiki, \nsúgó, leírások, fordítások \nstb.) \nKöszönjük Nektek!\n
 rmax_dictator_statue
@@ -1569,11 +1611,11 @@ Jószívű diktátor. \nJószívű diktátor szobránál \nsok hajadon lány al�
 rmax_fabio_bust
 Fagonellus Romanus szobra\n\n
 rmax_icarus
-Rakéta Indító Központ.\nEz az a hely ahonnan az \nIkarusz Zrt. -az első cég \naki tökéletesítette a \nhordozórakétákkal kilőtt \nműholdak földkörüli pályára \nállításának technológiáját- \nfellövi a rakétáit. \nSzerncsére Ők nem azonosak \na pusztító névrokon céggel. \nEmellett nagyon sok túrista \nszereti megnézni a kilövéseket.\n\n
+Rakéta Indító Központ.\n\nEz az a hely ahonnan az \nIkarusz Zrt. -az első cég \naki tökéletesítette a \nhordozórakétákkal kilőtt \nműholdak földkörüli pályára \nállításának technológiáját- \nfellövi a rakétáit. \nSzerncsére Ők nem azonosak \na pusztító névrokon céggel. \nEmellett nagyon sok turista \nszereti megnézni a kilövéseket.\n\n
 rmax_mosque
-As-Salem mecset.\nMinden egyes alkalommal \namikor a Müezzin az éneke \nmegszólal itt gyülnek össze \na Muszlim közösség hívei \nimára. As-Salem az egy fajta \nneve Allahnak a 99 közül, \nami Békét jelent.\n\n
+As-Salem mecset.\n\nMinden egyes alkalommal \namikor a Müezzin az éneke \nmegszólal itt gyűlnek össze \na Muszlim közösség hívei \nimára. As-Salem az egy fajta \nneve Allahnak a 99 közül, \nami Békét jelent.\n\n
 ROCK_0
-Székelykő. Vulkanikus\neredetű. Kirándulók kedvenc\nhelye.\n\n
+Székelykő.\n\n Vulkanikus eredetű.\n Kirándulók kedvenc\nhelye.\n\n
 RUIN_0
 Romok.\n\n
 RUIN_1
@@ -1583,7 +1625,7 @@ Orosz katedrális
 Secession_Chapel
 Szecessziós kápolna
 sh_oasis_seasons
-Oázis.\nAz oázis azon kevés helyek \negyike a sivatban ahol élet \nvan. Minden ember és állat \naki a sivatban jár az betér \nide felfrissülni és pihenni \na pálmák alatt.\n\n
+Oázis\n\nAz oázis azon kevés helyek \negyike a sivatban ahol élet \nvan. Minden ember és állat \naki a sivatban jár az betér \nide felfrissülni és pihenni \na pálmák alatt.\n\n
 ShipDepot
 Hajódokk.
 ShipStop
@@ -1595,7 +1637,7 @@ Megálló
 SMALL_MANOR
 Uradalmi birtok.\n\n
 st_benedict_church
-Szent Benedek Templom.\nEz az egyik legszebb\ntemplom \nSimuvilágban. Sok túrista \njön megnézni,de néhányan \nimádkozni jönnek. Sok \nfelbecsülhetet értékú \nfestmény van itt, mégsem \nlopják el őket.\n\n
+Szent Benedek Templom\n\nEz az egyik legszebb\n templom \nSimuvilágban. Sok turista \njön megnézni,de néhányan \nimádkozni jönnek. Sok \nfelbecsülhetetlen értékű \nfestmény van itt, mégsem \nlopják el őket.\n\n
 ST_PETER
 Szent Péter Katedrális.\n\n
 Suspended_Monorail_Bahnhof_Modern
@@ -1619,23 +1661,31 @@ Pályaudvar.
 TramDepot
 Villamos kocsiszín.
 TRIUMPH
-Diadalív. Még anno Napik\nkirály emeltette győzelmei\nemlékére. Az építész nem\nvolt más mint MHz.\n\n
+Diadalív\n\n Még anno Napik\nkirály emeltette győzelmei\nemlékére. Az építész nem\nvolt más mint MHz.\n\n
 TV_TOWER_0
 TV torony.\n\n
 TV_TOWER_1
-TV torony.\nAz egyik legmagasabb\ntorony \na világon. Az emberek \nszeretik a barátságos \néttermét és bárját a hatalmas \nablakokkal és a csodálatos \npanorámával. Az egész \ntorony lassan körbefordul.\n\n
+TV torony\n\nAz egyik legmagasabb\b torony \na világon. Az emberek \nszeretik a barátságos \néttermét és bárját a hatalmas \nablakokkal és a csodálatos \npanorámával. Az egész \ntorony lassan körbefordul.\n\n
 Very_Big_Terminal
 Nagy légi terminál
 VictorianStation
 Viktoriánus stílusban épült állomás.
 VillageTrainStop
 Falusi megálló
+WernerServer
+Werner szerver\n\n Werner emlékműve.
 WHEEL
-Időkerék. A turisták egyik\nkedvenc célpontja. Szép\nkilátás nyílik a tetejéről.\n\n
+Időkerék\n\n A turisták egyik\nkedvenc célpontja. Szép\nkilátás nyílik a tetejéről.\n\n
 Windmill
 Szélmalom.\n\n
 WOODEN_CHURCH
 Fatemplom.\n\n
+#____________________________________citycar____________________________________
+#____________________________________citycar____________________________________
+ambulance_0
+Mentőkocsi
+ambulance_1
+Mentőkocsi
 #__________________________________dummy_info___________________________________
 #__________________________________dummy_info___________________________________
 factory_Cementmill_details
@@ -1682,6 +1732,8 @@ dairy
 Tejcsarnok
 Druckerei
 Nyomda
+electronics_factory_new
+Elektronikai üzem
 Erzbergwerk
 Vasércbánya
 ethanol_plant
@@ -1694,6 +1746,8 @@ food_processing_plant
 Élelmiszer üzem
 ForestPlantation
 Faültetvény
+Geothermal powerplant_kraftwerk
+Geotermális erőmű
 Glass_factory
 Üveggyár
 grain_farm_w_fields
@@ -2006,6 +2060,18 @@ Ezüstfenyő\n\n
 #____________________________________tunnel_____________________________________
 RailTunnel
 Vasúti alagút
+road_040_tunnel
+Közúti alagút (40 km/h)
+road_050_tunnel
+Közúti alagút (50 km/h)
+road_070_tunnel
+Közúti alagút (70 km/h)
+road_090_tunnel
+Közúti alagút (90 km/h)
+road_110_tunnel
+Közúti alagút (110 km/h)
+road_130_tunnel
+Közúti alagút (130 km/h)
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -3010,6 +3076,34 @@ river_03
 Folyó
 river_04
 Patak
+road_030
+Földút 
+road_040
+Macskaköves út 
+road_050
+Városi út
+road_050_elevated
+Megemelt út
+road_055
+Betonút
+road_070
+Aszfaltút
+road_090
+Aszfaltút(90)
+road_090_elevated
+Megemelt út
+road_110
+Aszfaltút(110)
+road_110_elevated
+Megemelt út
+road_130
+Gyorsforgalmi út
+road_130_elevated
+Megemelt út
+road_200
+Autópálya
+road_200_elevated
+Megemelt út
 runway_modern
 Modern kifutópálya
 Schwebebahn_p_ground
@@ -3018,6 +3112,18 @@ steel_sleeper_track
 Acéltalpas sín
 Suspended_Monorail_Track
 Függesztett egysínű vasúti sín
+Tram_Track_050_A
+Villamos pálya
+Tram_Track_070_A
+Villamos pálya
+Tram_Track_070_B
+Villamos pálya
+Tram_Track_090_A
+Villamos pálya
+Tram_Track_090_B
+Villamos pálya
+Tram_Track_110_A
+Villamos pálya
 water_road
 Csatorna
 wooden_sleeper_track

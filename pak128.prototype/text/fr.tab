@@ -5,7 +5,7 @@
 #                             Language: fr Francais                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 6.02 2012                           #
+#                            Date Created: 1.07 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                  - Christophe                                #
@@ -36,6 +36,8 @@
 #                            note: French translator                           #
 #                          Christophe Manaud - manaud                          #
 #                                    note:                                     #
+#                           Maxime Cheminel - maxime                           #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
 #                                    note:                                     #
 #                                                                              #
@@ -46,6 +48,12 @@ ClassicRail
 Pont ferroviaire plat en béton
 PowerBridge
 Pont à haute tension
+road_030_bridge
+Pont routier
+road_040_bridge
+Pont rue 40 km/h
+road_050_bridge
+rie surélevée à 50 km/h
 RVg_Concrete_Rail_Bridge
 Pont en acier suspendu
 Schwebebahn_p_bridge
@@ -53,7 +61,7 @@ Monorail Suspendu (pont)
 SteelRail
 Pont ferroviaire en acier
 water_bridge
-Canal surélevé
+Pont-canal
 Wooden_Rail
 Pont ferroviaire en bois
 #___________________________________building____________________________________
@@ -226,6 +234,8 @@ COM_01_18
 Ce bâtiment, déguisé en\nune église, a été par le\npassé utilisé pour des\nsacrifices. Aujourd'hui seul\nle club de sorcellerie local\nvient encore y faire des\nrituels.\n
 COM_01_19
 Cette boutique vend des\nmodels réduits de trains au\nmeilleur rapport qualité-prix\ndu monde! En plus d'être le\nrevendeur des  grandes\nmarques (Simutrix,\nMärklsimu, Roccoco,\nFleishboy, etc..), le proprio\ninvente et construit\nlui-même certains modèles\n(mais attention au prix !!!).\n
+COM_01_21
+Bureaux\n\n
 COM_01_23
 Édifice à bureaux avec\npublicités\n\n
 COM_01_26
@@ -348,6 +358,8 @@ GRASS_STADIUM
 Stade\n\n
 GREEN_HOUSE
 Cette serre a eu été un\nmagasin tout à fait normal.\nMais après un certain\ntemps, le proprio a compris\nque les gens venaient\nsouvent que pour\nzyeuter sans l'intention\nd'acheter. Alors il a\nconverti son magasin en\njardin d'hiver tropical.\nMaintenant la serre abrite\nquelques plantes rares et\nest connu dans tout le pays.\n
+hall_extended_station
+Hall de gare avec dépendances
 HIGH_SCHOOL_1
 Lycée - C'est l'endroit où\nles jeunes peuvent\ncontinuer leur éducation.\nMême si officiellement seul\nles sujets scientifics sont\nenseignés, la plupart des\nélèves prennent des cours\nà option - par exemple:\n'Les contactes humains' ou\n'1000 et une manières de\ncommuniquer ses\némotions'.\n
 HOUSE_RUINS_0
@@ -406,6 +418,8 @@ IND_04_02
 Ceci n'est pas un champ.\n\n
 JUSTICE
 Palais de justice. Celui qui\na le meilleur avocat,\ngagnera. C'est juste.\n\n
+library_holy_genevieve
+Bibliothèque Sainte Geneviève
 Lighthouse_0
 Phare\n\nDepuis la construction de ce phare,\nles mers du Simunivers sont plus sûres.\Les touristes aiment monter les 352 marches\npour admirer les rouleaux sur les rochers.\n
 Lighthouse_1
@@ -466,6 +480,8 @@ PostOffice
 Office de poste
 PostOffice1920_AirportBlg
 Ancien bâtiment de la poste aérienne
+PostOfficeOldLarge
+Poste centrale
 Radar3
 Radar
 radiant_house
@@ -502,6 +518,8 @@ RUIN_1
 C'est la ruine d'un château\ntrès connu. Beaucoup de\nchapitres de l'histoire ont\nété écrit ici. C'est un vrai\nattraction pour les tourites\ndu monde entier. Tout le\nmonde est enthousiaste\nquand il s'agit d'aller le\nvoir. Et puis,... ne\nsont-elles pas romantiques\nces ruines, après tout ?\n
 Russian_Cathedral
 Cathédrale Russe\n\nLa Cathédrale de Basile le Bienheureux\na été commandée par Ivan le Terrible.\nCe qui est terrible,\nc'est que l'on raconte que l'architecte y aurait perdu les yeux.\nMais vous pouvez la visiter,\nsans que celà ne vous coûte les yeux de la tête !\n
+Sacred_heart_church
+Eglise du Sacré Coeur
 Secession_Chapel
 Chapelle de la Sécession\n\nQuel curieux nom pour ce petit oratoire isolé !\n
 sh_oasis_seasons
@@ -856,6 +874,8 @@ Sapin de montagne\n\n
 #____________________________________tunnel_____________________________________
 RailTunnel
 Tunnel ferroviaire
+road_050_tunnel
+tunnel et rue à 50 km/h
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -996,6 +1016,8 @@ Evil-Jitluen_67_Minibus
 Minibus Evil-Jitluen 67
 Express_tender
 Tender express
+Ferry_yeu_128set
+Ferry Oggia
 Fishing_Boat_1
 MHz Chalutier
 fluid_00_Wood_Barrels_Wagon
@@ -1538,6 +1560,20 @@ T_110A
 RVg T110a ST
 T_110B
 RVg T110b ST
+TGV_Atlantique
+TGV Atlantique (tête)
+TGV_Atlantique_(Back)
+TGV Atlantique (queue)
+TGV_Atlantique_(Car)
+TGV Atlantique (wagon)
+TGV_Post
+TGV La Poste (tête)
+TGV_Post_Back
+TGV La Poste (queue)
+TGV_Post_Car_A
+TGV La Poste (wagon)
+TGV_Post_Car_B
+TGV La Poste (wagon 2)
 Thunder_(front_engine)
 Tornado (motrice avant électrique)
 Thunder_(mail)
@@ -1582,6 +1618,8 @@ VSYS_Tatra_138_Grain
 VSYS Tatra 138 (céreales)
 VSYS_Tatra_813_Clossus
 VSYS Tatra 813 Colossus
+Willamette_Chief
+Willamette
 Wood_Trailer_0
 VSYS Remorque pour le bois
 Wood_Truck_0
