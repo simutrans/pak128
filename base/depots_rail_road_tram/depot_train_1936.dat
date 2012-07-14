@@ -1,0 +1,15 @@
+Obj=building
+Name=Depot_train_1936
+copyright=Raven, mEGa
+type=depot
+waytype=track
+Dims=1,1,2
+NoInfo=1
+intro_year = 1936
+intro_month = 1
+icon=> depot_train_1936.1.4
+cursor=depot_train_1936.1.5
+BackImage[0][0][0][0][0]=depot_train_1936.1.0
+FrontImage[0][0][0][0][0]=depot_train_1936.1.2
+BackImage[1][0][0][0][0]=depot_train_1936.1.1
+FrontImage[1][0][0][0][0]=depot_train_1936.1.3
