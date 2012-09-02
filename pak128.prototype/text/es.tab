@@ -5,7 +5,7 @@
 #                             Language: es Espanol                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 25.10 2011                           #
+#                            Date Created: 2.09 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                   - Diegote                                  #
@@ -16,8 +16,8 @@
 #                                    note:                                     #
 #                                    - Paco_m                                  #
 #                                    note:                                     #
-#                       Zeno (Albert Ruiz) - albert.yuste                      #
-#                                    note:                                     #
+#                                 - albert.yuste                               #
+#                               note: Albert Ruiz                              #
 #                                    - ispero                                  #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
@@ -31,7 +31,25 @@
 ClassicRail
 Puente ferroviario con vigas de cemento
 PowerBridge
-Lineas Alta Tensión
+Puente para linea de alta tensión
+road_030_bridge
+Puente de madera
+road_040_bridge
+Puente adoquinado
+road_050_bridge
+Puente asfaltado
+road_055_bridge
+Puente de piedra
+road_070_bridge
+Puente de carretera
+road_090_bridge
+Puente moderno de carretera
+road_110_bridge
+Puente de vía rápida
+road_130_bridge
+Puente de autopista
+road_200_bridge
+Puente moderno de autopista
 RVg_Concrete_Rail_Bridge
 Puente colgante de acero (RVg)
 Schwebebahn_p_bridge
@@ -90,6 +108,8 @@ Airport1990_PostOffice
 Oficina de Correo
 Airport1990_Small_AirportBlg
 Sala de Espera Moderna
+Airport1990_Small_PostOffice
+Terminal regional de correo
 Airport1990_Warehouse
 Terminal de Bienes (Cargas)
 AirStop_AirportBlg
@@ -106,6 +126,8 @@ big_classic_bus_stop
 Parada gemelo
 big_modern_bus_stop
 Estación de autobuses
+BigTerminal1930_AirportBlg
+Terminal grande para pasajeros
 BigTerminal1950_AirportBlg_S
 Terminal de pasajeros grande (1950)
 Bulk_Dock
@@ -537,7 +559,7 @@ Este es el parque de\nbomberos de la localidad.\nGuarda el camión de\nbomberos, 
 Fluid_StationBlg
 Tanque 
 FORT_FUN
-Fuerte del viejo oeste\n\n
+Fuerte del viejo oeste\n\nPequeños y grandes se lo pasan\nen grande en este\nparque temático del viejo oeste.\nCon el gran éxito que tiene\nentre la población,\nes un negocio seguro para\nel atrevido empresario de transportes\nque haga llegar primero\nuna linea de autobuses.\n\n
 FreightTrainStop
 Estación mercante
 FUTURISTIC_TOWER_0
@@ -550,6 +572,8 @@ GRASS_STADIUM
 Estadio de hierba\n\nEste estadio de hierba es un\nlugar excelente para\npracticar el footing y jugar\nal fútbol (o balompié, como\notros lo llaman). A menudo,\nuno se puede encontrar\ncon gente menos activa\nque observa a los\ndeportistas desde los\nbancos bajo el árbol.\n
 GREEN_HOUSE
 Este invernadero era una\ntienda normal; sin embargo,\ntras cierto tiempo, su\ndueño se dio cuenta de que\nla gente solía venir a echar\nun vistazo sin intención de\ncomprar nada. Así que\nconvirtió su tienda en un\njardín tropical de invierno.\nAhora este invernadero\ncontiene algunas plantar\nbastante raras y es muy\nconocido en todo el país.\n
+hall_extended_station
+Gran edificio sobre la estación
 HIGH_SCHOOL_1
 Instituto de segunda\nenseñanza. Es un lugar\ndonde los jóvenes deberían\ncontinuar su educación.\nAunque oficialmente sólo se\nenseñan asignaturas\ncientíficas, la mayor parte\nde los estudiantes suelen\nrepasar asignaturas que ya\ncursaban en la escuela,\naunque no necesariamente\ndurante las clases:\nContactos Sociales y Contactos\nPróximos Interpersonales, por\nnombrar algunas de ellas.\n
 HOUSE_RUINS_0
@@ -860,8 +884,10 @@ IND_12_16
 Los productores de tejido\nde Hong Kong atacan de\nnuevo! Compraron una de\nnuestras fábricas y la usan\ncomo almacén para sus\nproductos. En este edificio\nes muy probable que hayan\nredadas policiales.\n
 JUSTICE
 Tribunal de Justicia\n\nEste es el Tribunal de Justicia\nde la ciudad, en donde se\nrealizan los juicios.\nAbogados van y vienen\nconstantemente.\n\n
+library_holy_genevieve
+Biblioteca de Santa Geneviève\n\nEsta es la biblioteca\nmás grande de la región.\nMultitud de estudiantes y\neruditos pasan por estas\ninstalaciones cada día.\n
 Lighthouse_0
-Faro\n\nDesde que se construyeron, la\nnavegacion en Simutrans\nse ha hechop más fácil y\nsegura. Mucha gente que\nquiere visitar uno de estos\ny contemplar las olas\nrompiendo contra la costa\n
+Faro\n\nDesde que se construyeron, la\nnavegacion en Simutrans\nse ha hecho más fácil y\nsegura. Mucha gente ahora\nquiere visitar uno de estos\ny contemplar las olas\nrompiendo contra la costa.\n
 Lighthouse_1
 Faro\n\nDesde que se construyeron, la\nnavegacion en Simutrans\nse ha hechop más fácil y\nsegura. Esta es uno de los\nmas raros, pero ningun\nmarinero se ha quejado\nnunca.\n
 Long_Goods_Dock
@@ -881,23 +907,29 @@ Parada modernismo
 MILITARY_RADAR
 Radar Militar\n\n¡Esta es una estructura militar\nsecreta! ¡Sal de aquí! ¡Te\ndije que te fueras! ¡Si digo\nque te vayas, es porque te\ndigo que debes cerrar la\nventana e irte de aquí!\n¿Que? ¿Todavía me estás\nleyendo? ¡Cierra de\ninmediato esa ventana y\nvete! ¡No deberías estar\naquí! ¡¡¡Vete!!!\n
 Modern_Warehouse
-Almacén modernizado
+Almacén modernizado (pequeño)
+modern_warehouse_big
+Almacén modernizado (grande)
 ModernPostOffice
-Oficina de correos moderno
+Oficina de correos moderna (pequeña)
+ModernPostOfficeLarge
+Oficina de correos moderna (grande)
 ModernTrainStop
 Cancha cubierta 
 MonorailDepot
 Depósito de locomotoras magnéticas
 MonorailFoundation
-Fundación de Monocarril
+Cimientos para monorraíl
 MonorailGround
 Montante de monocarril
 MT_HOTEL_0
-Un famoso hotel, con\nhabitaciones carísimas,\npero todos mueren por\nquedarse un día aquí o al\nmenos poder disfrutar de la\ncomida del comedor del\nHotel.\n
+Hotel\n\nUn famoso hotel, con\nhabitaciones carísimas,\npero todos mueren por\nquedarse un día aquí o al\nmenos poder disfrutar de la\ncomida del comedor del\nHotel.\n
 MUSEUM_0
-Anteriormente era un\ncastillo, luego fue\nreconstruido y hace poco\nfue convertido en un\nmuseo público de ciencia y\ntecnología. Puedes venir a\nver modelos de viejos\nautomóviles, aprender de\nlos avances de la física o\nparticipar en los\nseminarios.\n
+Museo\n\nAnteriormente era un\ncastillo, luego fue\nreconstruido y hace poco\nfue convertido en un\nmuseo público de ciencia y\ntecnología. Puedes venir a\nver modelos de viejos\nautomóviles, aprender de\nlos avances de la física o\nparticipar en los\nseminarios.\n
 OBSERVATORY
 Observatorio\n\nEste es uno de los más\nconocidos observatorios,\nen donde se han realizado\nmucho de los\ndescubrimientos de\nSimuverse. Mientras los\nastrónomos trabajan de\nnoche y miran el cielo, los\nturistas pueden asistir\ndurante el día, pudiendo\nver las exhibiciones\nmultimedia o leer libros. Lo que\nse exhibe es muy interesante,\nentendible y algo atraviso, por lo\ncual suele ser muy visitado.\n
+OfficeTrainStop
+Andén con edificio
 Old_gate
 Antigua torre
 OLD_HOUSE_0
@@ -914,14 +946,20 @@ parking_(catchemnt_area_ext)2
 Estacionamiento
 parking_(catchemnt_area_ext)3
 Estacionamiento
+plain_tile_high
+Plataforma vacía
 Post_Dock
 Puerto Postal
 PostOffice
 Oficina de Correos
 PostOffice1920_AirportBlg
 Edificio de Correo Aéreo
+PostOfficeOldLarge
+Oficina de correos (grande)
 Radar3
 Estación de radar
+radiant_house
+Casa radiante
 RADIO_TOWER_0
 Estación de radio FM Chit-Chat\n\nEsta es la estación de radio\nFM de Chit-Chat, donde\nmucha gente gusta de\nvenir, ya que los\norganizadores prometen\nque los visitantes saldrán\nal aire todos los días entre\nlas 13:00 y 14:30 hs.\n
 RES_00_01
@@ -1576,6 +1614,8 @@ RUIN_1
 Estas son las ruinas de un\ncastillo muy famoso. Aquí\nse escribieron muchos\ncapítulos de la historia,\nasí que es un auténtico\niman para el turismo\nmundial. A todos les\nencanta. Al fin y al cabo,\nlas ruinas son muy\nrománticas, ¿verdad?\n
 Russian_Cathedral
 Catedral Ortodoxa\n\n
+Sacred_heart_church
+Iglesia del Sagrado Corazón\n
 Secession_Chapel
 Capilla de la Secesión
 sh_oasis_seasons
@@ -1599,7 +1639,7 @@ luces de pista lateral
 st_benedict_church
 Iglesia de St. Benedict\n\nEsta iglesia es una de las\nmas bonitas de Simutrans.\nMuchos turistas  vienen de\nvisita, unos pocos vienen a\nrezar. Alberga en su interior\npinturas de incalculable\nvalor, y nadie las echaria\nde menos.\n
 ST_PETER
-Iglesia de St. Peter\n\nLa iglesia de St.Peter's, del\nrománico tardío, fue\nconstruida hacia el año\n1200. Tiene un gran coro,\nfrescos de mitad del siglo\nXIII y la momia "The Holy\nReeve" muy bien\nconservada . Esta antigo\npersonaje momificado tiene\nmas de 300 años,\nprobablemente se trate de\nWilhem de Holbach, el consejero\nreal. La momia esta expuesta en\nuna alcoba en el ala oeste de la\niglesiawestern wall.\n
+Iglesia de St. Peter\n\nLa iglesia de St.Peter's, del\nrománico tardío, fue\nconstruida hacia el año\n1200. Tiene un gran coro,\nfrescos de mitad del siglo\nXIII y la momia "The Holy\nReeve" muy bien\nconservada . Esta antigo\npersonaje momificado tiene\nmas de 300 años,\nprobablemente se trate de\nWilhem de Holbach, el consejero\nreal. La momia esta expuesta en\nuna alcoba en el ala oeste de la\niglesia.\n
 Suspended_Monorail_Bahnhof_Modern
 Parada de MonoCarril
 Terminal1930_AirportBlg
@@ -1638,6 +1678,10 @@ Windmill
 Molino de Viento. Mucha\ngente disfruta visitando\neste molino de viento\nmientras da vueltas.\nAlgunos gustan de salir a\ndar una vuelta y verlo,\notros de arrojarle piedras y\nver si le pueden pegar a\nalguna de las aspas.\n
 WOODEN_CHURCH
 Iglesia de Madera\n\nEsta Iglesia de madera fue\nconstruida por la gente de\nla religión Hamish.\n\n
+#____________________________________citycar____________________________________
+#____________________________________citycar____________________________________
+Horse_Carriage_For_2_public
+Carreta privada
 #__________________________________dummy_info___________________________________
 #__________________________________dummy_info___________________________________
 factory_bakery_details
@@ -1693,7 +1737,7 @@ Industria cervecera
 cannery
 Conservera
 car_assembly_plant
-Fábrica coches
+Fábrica de coches
 car_dealer
 Concesionario coches
 Cementmill
@@ -1707,13 +1751,15 @@ Fábrica de hormigón
 cornfield
 Campo de maíz
 cotton_farm_w_fields
-Granja de algodón
+Plantación de algodón
 cow_farm
 Granja de vacuno
 dairy
 Lechería
 Druckerei
 Imprenta
+electronics_factory_new
+Fábrica de productos electrónicos
 Erzbergwerk
 Mina de hierro
 ethanol_plant
@@ -1726,6 +1772,8 @@ food_processing_plant
 Procesadora de alimentos
 ForestPlantation
 Explotación Forestal
+Geothermal powerplant_kraftwerk
+Planta de energía geotérmica
 Glass_factory
 Fábrica de vidrio
 grain_farm_w_fields
@@ -1748,8 +1796,10 @@ Oelfeld
 Pozo de petróleo
 oilkraftwerk
 Central a mazut
+old_fish_cannery
+Conservera de pescado
 old_powerplant_kraftwerk
-Central térmica
+Central térmica de carbón
 open_coal_mine
 Mina de carbón a cielo abierto
 Papierfabrik
@@ -1770,8 +1820,22 @@ sheep_farm
 Granja ovina
 shopping_mall
 Galería
+Solar Pond_kraftwerk
+Estanque de energía solar
+SolarPowerTowerPS10_kraftwerk
+Torre de energía solar
+SolarThermalOne_kraftwerk
+Paneles solares
 steel_mill
 Fundición hierro
+StirlingParabolicCollectorsFarm_kraftwerk
+Estación de colectores solares
+StirlingSolarThermalTrackerFarm_kraftwerk
+Estación de colectores solares
+StirlingSolarTrackersFarm_kraftwerk
+Estación de colectores solares
+StirlingThermalCollectorsFarm_kraftwerk
+Estación de colectores solares
 Stonequarry
 Cantera de piedra
 supermarket
@@ -1783,7 +1847,7 @@ Gasolinera Redsol
 textile_factory
 Factoría textil
 waste_disposal
-Basurero
+Vertedero
 waste_incinerator_kraftwerk
 Incineradora
 wind_kraftwerk
@@ -1970,6 +2034,10 @@ preSignal_Monorail
 Pre-señales de monorrail
 preSignals
 Pre-señales
+Railgate
+Puerta de ferrocarril
+RisingBollards
+Pivotes elevables
 RoadClosed
 Barrera
 Signal_Monorail
@@ -2010,6 +2078,18 @@ Conífera de montaña\n\n
 #____________________________________tunnel_____________________________________
 RailTunnel
 Túnel ferroviario
+road_040_tunnel
+Tunel de carretera (40 Km/h)
+road_050_tunnel
+Tunel de carretera (50 Km/h)
+road_070_tunnel
+Tunel de carretera (70 Km/h)
+road_090_tunnel
+Tunel de carretera (90 Km/h)
+road_110_tunnel
+Túnel de autopista (110 Km/h)
+road_130_tunnel
+Túnel de autopista (130 Km/h)
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -2024,6 +2104,12 @@ Bennhardt B-162 "Jet"
 Bennhardt B-238 "Rano"
 1Dampflokomotive
 H-Trans 0-4-0T
+2000_Class
+Clase 2000 Australiano
+2000_Class_Car
+Clase 2000 (coche)
+2000_Class_Tail
+Clase 2000 (cabina)
 20ft_Container_Trailer-128set
 Trailer de Contenedores 20ft
 2Diesellokomotive
@@ -2034,6 +2120,10 @@ Bennhardt B-186 "Limón"
 RVg 0-3-0
 40ft_Container_Trailer
 Trailer de Contenedores 40ft
+620_Railcar_Addon
+Clase 620 Australiano (cabina)
+720_Railcar_Addon
+Clase 720 Australiano
 Airport_express_shuttle
 Autobus lanzadera
 Autotransportwagen
@@ -2044,10 +2134,30 @@ Big_Bretterwagen
 RVg Vagón de tablones 
 Big_Erztruck
 MHZ Volquete de minería
+Black_Osprey
+Black Osprey (acero)
+Black_Osprey_(goods)
+Black Osprey (mercancías)
+Black_Osprey_(grain)
+Black Osprey (grano/cereales)
+BR-373_Back
+BR-373 (cabina)
+BR-373_BackCar
+BR-373 (último coche)
+BR-373_Car
+BR-373 (cotxe)
+BR-373_Eurostar
+BR-373 "Eurostar"
+BR-373_FrontCar
+BR-373 (primer coche)
 Bretterwagen
 VT Vienna Vagón para tablones
+British_Premier
+British Premier
 Budd_Coach
 Budd RPO (vagón)
+Budd_Lounge
+Budd RPO (vagón comedor)
 Budd_Observation
 Budd RPO (panorámico) 
 Budd_RPO
@@ -2120,6 +2230,8 @@ Cooling_wagon_1
 Vagón de contenedores frigoríficos
 Cooling_wagon_2
 Cannonball Vagón refrigerado
+CPH_Motorcar
+Ferrobús CPH Australiano
 DB_ADm101
 Haru ADm101
 DB_Apmz121
@@ -2134,12 +2246,26 @@ DueWAG_GT6_tailwaggon
 Due WAG GT6 vagón
 E_423
 Sindor E 423
+Eaglescliffe_Hall
+Eaglescliffe Hall (granel)
+Eaglescliffe_Hall_(lumber)
+Eaglescliffe Hall (madera)
+Edmund_Fitzgerald
+Edmund Fitzgerald (acero)
+Edmund_Fitzgerald_(wood)
+Edmund Fitzgerald (madera)
 EM400_1
 Sindor-Krizik EM400
 EMD_E5A_Silver_Meteor
 EMD E5A Rosicler 
 EMD_E5B_Silver_Comet
 EMD E5B Cometa argentado 
+EMD-FT_(A)
+EMD-FT
+EMD-FT_(B)
+EMD-FT (motor)
+EMD-FT_(C)
+EMD-FT (cabina)
 Evil_DF-11
 Evil DF-11
 Evil_P-100_(carriage)
@@ -2154,8 +2280,30 @@ Evil-Jitluen_67_Minibus
 Minibus Evil-Jitluen 67
 Express_tender
 Tender
+Ferry_Mail_Extension_(small)
+Extensión de correo para ferry (small)
+Ferry_yeu_128set
+Ferry Oggia
 Fishing_Boat_1
 MHz Barquía 
+fluid_00_Wood_Barrels_Wagon
+Vagoneta con barriles de madera
+fluid_01_Iron_Tanks_Wagon
+Vagoneta con barriles metálicos
+fluid_02_CSD-502_Tank_Wagon
+Vagón cisterna ?SD-502
+fluid_03_CSD-556_Tank_Wagon
+Vagó cisterna ?SD-556
+fluid_04_Esso_Tank_Wagon
+Vagón cisterna Esso
+fluid_05_CEPSA_Tank_Wagon
+Vagón cisterna CEPSA
+fluid_06_VTG_Tank_Wagon
+Vagón cisterna VTG
+fluid_07_Esso_XL_Tank_Wagon
+Vagón cisterna Esso XL
+fluid_08_VTG_CeSa_Tank_Wagon
+Vagón cisterna VTG CeSa
 Fluid_trailer_0
 AJ Remolque tanque 
 Fluid_trailer_1
@@ -2168,6 +2316,8 @@ Fluid_Truck_2
 S.Kroytor ZUK-20 Tanque
 Fluid_Truck_3
 Magirus 1923 Autotanque \n
+Freya
+Ferry "MV Freya"
 Goods_trailer_0
 Mitsubishi Fuso Super Truck Rem.
 Goods_trailer_1
@@ -2204,6 +2354,8 @@ Grain_trailer_0
 PMNV Remolque Cereales 
 Grain_Truck_1
 VSYS-Tatra 815 (cereales)
+Gripsholm
+Transatlántico Gripsholm
 Haru_2C1_Cheetah
 Haru 2C1 Onza 
 Haru_2D1_Buffalo
@@ -2318,6 +2470,12 @@ Kord_TT_bulk
 Kord TT (friables)
 Kord_TT_grain
 Kord TT (granos)
+Liner_Mail_Extension_(large)
+Extensión de correo para transatlánticos
+LKAB_IORE_Back
+LKAB IORE
+LKAB_IORE_Front
+LKAB IORE
 MA461_waggon
 MA-461 Vagón
 Mack_Truck_Cooling_Trailer
@@ -2368,12 +2526,36 @@ MHz-P11C_Wood_Boat
 MHz P11C Barcaza para Madera 
 MHz-R2A_Push-Tug
 MHz R2A Tractor 
+milk_00_bottled_milk_wagon
+Vagoneta para botes de leche
+milk_01_twin_barrel_wagon
+Vagoneta con barriles para líquidos
+milk_02_old_tank_wagon
+Vagón tanque para líquidos
+milk_03_6_wheeled_milk_wagon
+Vagón lechero de tres ejes
+milk_04_rvg_early_milk_waggon
+Vagón tanque para leche
+milk_05_milk_waggon_1
+Vagón cisterna para líquidos
+milk_06_4_axle_milk_wagon
+Vagón cisterna 4-AX para líquidos
+milk_07_milk_waggon_0
+Vagón cisterna refrigerado
+milk_08_bloomsburg_fair_milk_wagon
+Vagón lechero Bloomsburg
+milk_09_bordens_milk_wagon
+Vagón lechero Borden
 Milk_Truck_0
 PMNV Camión lechero
 Milk_Truck_1
 S.Kroytor-ZIL Camión lechero
 Milk_Truck_2
 Magirus Autotanque lechero
+mja-bulk_trailer_l
+Remolque para áridos MJA-L300
+mja-bulk_trailer_m
+Remolque para áridos MJA-M220
 mja-MAN19332-128set
 MAN 19332
 mja-ScaniaP380_tanker
@@ -2398,6 +2580,30 @@ mja-Zil130-128set
 Zil 130
 MS_sprinter_mail
 MS-Sprinter Furgoneta de correo
+MTAB_Dm_Back
+MTAB Dm (cabina)
+MTAB_Dm_Front
+MTAB Dm
+MTAB_Dm3
+MTAB Dm3 (motor intermedio)
+MV_Balmoral
+Ferry Balmoral
+MV_Fedra
+Mercante Fedra (carbón)
+MV_Lake_Illawarra
+Mercante Lake Illawarra (carbón)
+MV_Lake_Illawarra_(grain)
+Mercante Lake Illawarra (cereales)
+New_Zealand_Star
+Barco refrigerado New Zealand Star
+Nordic_Heron
+Petrolero Nordic Heron
+Nordic_Heron_(liquid_food)
+Barco tanque Nordic Heron
+Nororn
+Pesquero moderno Nororn
+Owari_Maru
+Owari Maru (granel)
 Passagierwagen
 Canonball BTx Coche 2.Clase
 Passanger_waggon_0
@@ -2410,6 +2616,24 @@ Passanger_waggon_3
 RA BTx 050 2.Clase
 Passanger_waggon_MAITE39
 Nabe-JNR MAITE 1.Clase
+Patagonia
+Mercante Patagonia
+Patagonia_(farm_products)
+Mercante para cereales Patagonia
+Pegaso_6038_InterCity
+Pegaso 6038 (interurbano)
+Pegaso_6038_Urban
+Pegaso 6038 (urbano)
+Pegaso-Seida_5020_InterCity
+Pegaso-Seida 5020 (interurbano)
+Pegaso-Seida_5020_Urban
+Pegaso-Seida 5020 (urbano)
+Pioneer_Zephyr
+Pioneer Zephyr
+Pioneer_Zephyr_Car
+Pioneer Zephyr - Coche
+Pioneer_Zephyr_Tail
+Pioneer Zephyr - Coche de cola
 Planck_Truck_0
 PMNV-Canonball (planchas)
 Plank_Truck_2
@@ -2449,7 +2673,7 @@ PMNV Mack Trailer para cemento
 PMNV_Mack_cooled_Trailer_O
 PMNV Mack Trailer para refrigerados
 PMNV_Mack_Goods_Trailer_O
-PMNV-Mack Trailer "C" para grano
+PMNV-Mack Trailer "C" para mercancía
 PMNV_Mack_Grain_Trailer_0
 PMNV Mack Trailer para grano
 PMNV_Mack_Grain_Trailer_O
@@ -2493,7 +2717,7 @@ PMNV Trailer para correo
 PMNV_Steel_Trailer_0
 PMNV Trailer - cama (acero)
 PMNV_TC-119-Snake
-PMNV TC-119 Serpiente (vagon B)
+PMNV TC-119 Serpiente (vagon A)
 PMNV_TC-119-Snake_b
 PMNV TC-119 Serpiente (vagon B)
 PMNV_TC-44-Hydrogen_Car
@@ -2534,10 +2758,90 @@ Praga_N_milk
 Praga N Cisterna para lácteos
 Praga_TOT_128
 Praga TOT
+Queen_Elisabeth_2
+Transatlántico Queen Elisabeth II
 R_01
 RVg R1 Jardinera
 R_02
 RVg R2 Arrastradora
+Renfe_250_(German)
+RENFE Serie 250 "Alemana"
+Renfe_252_Altaria
+RENFE Serie 252 Altaria
+Renfe_269_Altaria
+RENFE Serie 269 "Japonesa"
+Renfe_270
+RENFE Serie 270
+Renfe_274_(Bathtube)
+RENFE Serie 274 "Bañera"
+Renfe_276_(French)
+RENFE Serie 276 "Francesa"
+Renfe_279_(Benemerita)
+RENFE Serie 279 "Benemérita"
+Renfe_310_(Coastguard)
+RENFE Serie 310 "Guardacostas"
+Renfe_319_(Yankie)
+RENFE Serie 319 "Yanki"
+Renfe_333_(Rambo)
+RENFE Serie 333 "Rambo"
+Renfe_340_(Egg)
+RENFE Serie 340 "Huevo"
+Renfe_438_Back
+RENFE Serie 438 (cabina)
+Renfe_438_Front
+RENFE Serie 438
+Renfe_440
+RENFE Serie 440
+Renfe_440_Back
+RENFE Serie 440 (cabina)
+Renfe_440_Car
+RENFE Serie 440 (coche)
+Renfe_447
+RENFE Serie 447
+Renfe_447_Back
+RENFE Serie 447 (cabina)
+Renfe_447_Car
+RENFE Serie 447 (coche)
+Renfe_Series_10200_(Player_Colors)
+RENFE Serie 10200
+Renfe_Series_301_(Player_Colors)
+RENFE Serie 301
+Renfe_Series_311_(Player_Colors)
+RENFE Serie 311
+Renfe_Series_314_(Player_Colors)
+RENFE Serie 314
+Renfe_Series_316_(Player_Colors)
+RENFE Serie 316 "Marilyn"
+Renfe_Series_318_(Player_Colors)
+RENFE Serie 318
+Renfe_Series_319.300_(Player_Colors)
+RENFE Serie 319.300
+Renfe_Series_334_(Player_Colors)
+RENFE Serie 334
+Renfe_Series_350_Talgo_(Player_Colors)
+RENFE Serie 350 Talgo
+Renfe_Series_350_Talgo_Car_(Player_Colors)
+RENFE Coche Talgo II
+Renfe_Series_350_Talgo_Mail_Car_(Player_Colors)
+RENFE Furgón Talgo II
+Renfe_Series_350_Talgo_Restaurant_Car_(Player_Colors)
+RENFE Restaurante Talgo II
+Renfe_Tgpps_Grain_Hopper
+RENFE Vagón Tolva para Grano TGPPS
+Renfe_Uagp_Grain_Hopper
+RENFE Vagón Tolva para Grano UAGP
+Renfe_Z-2000_Car
+RENFE Coche Z-2000
+Renfe_Z-2000_Mail_Car
+RENFE Furgón Z-2000
+Renfe6000_Post
+RENFE Furgón Serie 6000
+Renfe6000_Psg
+RENFE Coche Serie 6000
+Rigoletto
+Barco porta-coches Rigoletto
+RMS_Baltic
+Transatlántico RMS Baltic
 RVg_0-1-4-0
 RVg 0-1-4-0
 RVg_1064_White_Bulk
@@ -2800,6 +3104,8 @@ SAC-Airbus_A300-600F_128_set
 Airbus A300-600F
 SAC-Airbus_A300-600P_128_set
 Airbus A300-600P
+SAC-Airbus_A300-600ST_128_set
+Airbus A300-600ST Beluga
 SAC-Airbus_A300-B4_128_set
 Airbus A300-B4
 SAC-Airbus_A310-200_128_set
@@ -2810,12 +3116,44 @@ SAC-Airbus_A310-200F_128_set
 Airbus A310-200F
 SAC-Airbus_A310-200P_128_set
 Airbus A310-200P
+SAC-Airbus_A318-100_128_set
+Airbus A318-100
+SAC-Airbus_A319-100_128_set
+Airbus A319-100
 SAC-Airbus_A320-200_128_set
 Airbus A320-200
+SAC-Airbus_A321-200_128_set
+Airbus A321-200
 SAC-Airbus_A330-200_128_set
 Airbus A330-200
+SAC-Airbus_A330-200f_cooled_128_set
+Airbus A330-200F (congelados)
+SAC-Airbus_A330-200f_goods_128_set
+Airbus A330-200F (mercancías)
+SAC-Airbus_A330-200f_mail_128_set
+Airbus A330-200F (correo)
+SAC-Airbus_A330-300_128_set
+Airbus A330-300
+SAC-Airbus_A340-200_128_set
+Airbus A340-200
 SAC-Airbus_A340-300_128_set
 Airbus A340-300
+SAC-Airbus_A340-500_128_set
+Airbus A340-500
+SAC-Airbus_A340-600_128_set
+Airbus A340-600
+SAC-Airbus_A350-1000_128_set
+Airbus A350-1000
+SAC-Airbus_A350-800_128_set
+Airbus A350-800
+SAC-Airbus_A350-900_128_set
+Airbus A350-900
+SAC-Airbus_A350-900f_cooled_128_set
+Airbus A350-900F (congelados)
+SAC-Airbus_A350-900f_goods_128_set
+Airbus A350-900F (mercaderies)
+SAC-Airbus_A350-900f_mail_128_set
+Airbus A350-900F (correo)
 SAC-Airbus_A380-800_128_set
 Airbus A380-800
 SAC-Airbus_A380-800C_128_set
@@ -2824,22 +3162,132 @@ SAC-Airbus_A380-800F_128_set
 Airbus A380-800F
 SAC-Airbus_A380-800P_128_set
 Airbus A380-800P
+SAC-Airbus_A380-900_128_set
+Airbus A380-900
+SAC-BAC_1-11
+BAC 1-11
+SAC-Boeing_707-020_128_set
+Boeing 707-020
+SAC-Boeing_707-120_128_set
+Boeing 707-120
+SAC-Boeing_707-320_128_set
+Boeing 707-320
+SAC-Boeing_727-100_128_set
+Boeing 727-100
+SAC-Boeing_727-200_128_set
+Boeing 727-200
+SAC-Boeing_737-100_128_set
+Boeing 737-100
+SAC-Boeing_737-200_128_set
+Boeing 737-200
+SAC-Boeing_737-300_128_set
+Boeing 737-300
+SAC-Boeing_737-400_128_set
+Boeing 737-400
+SAC-Boeing_737-500_128_set
+Boeing 737-500
+SAC-Boeing_737-600_128_set
+Boeing 737-600
+SAC-Boeing_737-700_128_set
+Boeing 737-700
+SAC-Boeing_737-800_128_set
+Boeing 737-800
+SAC-Boeing_737-900_128_set
+Boeing 737-900
 SAC-Boeing_747-200_128_set
 Boeing 747-200
+SAC-Boeing_747-200C_128_set
+Boeing 747-200F (congelados)
 SAC-Boeing_747-200F_128_set
-Boeing 747-200F
+Boeing 747-200F (mercancías)
 SAC-Boeing_747-200P_128_set
-Boeing 747-200P
+Boeing 747-200F (correo)
+SAC-Boeing_747-300_128_set
+Boeing 747-300
 SAC-Boeing_747-400_128_set
 Boeing 747-400
+SAC-Boeing_747-400F_Cooled_128_set
+Boeing 747-400F (congelados)
+SAC-Boeing_747-400F_Goods_128_set
+Boeing 747-400F (mercancías)
+SAC-Boeing_747-400F_Mail_128_set
+Boeing 747-400F (correo)
+SAC-Boeing_747-8F_Cooled_128_set
+Boeing 747-8F (congelados)
+SAC-Boeing_747-8F_Goods_128_set
+Boeing 747-8F (mercancías)
+SAC-Boeing_747-8F_Mail_128_set
+Boeing 747-8F (correo)
+SAC-Boeing_747-8I_128_set
+Boeing 747-8I
+SAC-Boeing_757-200_128_set
+Boeing 757-200
+SAC-Boeing_757-200f_cooled_128_set
+Boeing 757-200F (congelados)
+SAC-Boeing_757-200f_goods_128_set
+Boeing 757-200F (mercancías)
+SAC-Boeing_757-200f_mail_128_set
+Boeing 757-200F (correo)
+SAC-Boeing_757-300_128_set
+Boeing 757-300
+SAC-Boeing_767-200_128_set
+Boeing 767-200
+SAC-Boeing_767-300_128_set
+Boeing 767-300
+SAC-Boeing_767-300F_cooled_128_set
+Boeing 767-300F (congelados)
+SAC-Boeing_767-300F_goods_128_set
+Boeing 767-300F (mercancías)
+SAC-Boeing_767-300F_mail_128_set
+Boeing 767-300F (correo)
+SAC-Boeing_767-400_128_set
+Boeing 767-400
+SAC-Boeing_777-200_128_set
+Boeing 777-200
+SAC-Boeing_777-200F_cooled_128_set
+Boeing 777-200F (congelados)
+SAC-Boeing_777-200F_goods_128_set
+Boeing 777-200F (mercancías)
+SAC-Boeing_777-200F_mail_128_set
+Boeing 777-200F (correo)
+SAC-Boeing_777-300_128_set
+Boeing 777-300
+SAC-Boeing_B-377_Stratoliner
+Boeing 377 Stratoliner
+SAC-Bombardier_CRJ-200
+Bombardier CRJ-200
+SAC-Bombardier_CRJ-900
+Bombardier CRJ-900
 SAC-De_Havilland_Comet_128_set
 De Havilland Comet
 SAC-Douglas_DC-3_128_set
 Douglas DC-3
+SAC-Douglas_DC-5_128_set
+Douglas DC-5
+SAC-Douglas_DC-6_128_set
+Douglas DC-6
+SAC-Douglas_DC-8-30_128_set
+Douglas DC-8-30
+SAC-Douglas_DC-8-50_Mail_128_set
+Douglas DC-8-50 (correo)
+SAC-Douglas_DC-8-60_128_set
+Douglas DC-8-60
+SAC-Douglas_DC-9-10_128_set
+Douglas DC-9-10
+SAC-Douglas_DC-9-30_128_set
+Douglas DC-9-30
+SAC-Douglas_DC-9-30LWF_Mail_128_set
+Douglas DC-9-30LWF (correo)
+SAC-Douglas_DC-9-50_128_set
+Douglas DC-9-50
+SAC-Embraer_E-170
+Embraer E-170
+SAC-Embraer_E-190
+Embraer E-190
 SAC-Fokker_F-27_128_set
 Fokker F-27
 SAC-Fokker_F-27_Mail_128_set
-Fokker F-27 Correos
+Fokker F-27 (correo)
 SAC-Handley_Page_W8B_128_set
 Handley Page W8B
 SAC-Ilyushin_IL-76_Candid_128_set
@@ -2847,15 +3295,37 @@ Ilyushin IL-76 Candid
 SAC-Junkers_Ju-52_128_set
 Junkers Ju-52
 SAC-Junkers_Ju-52_Mail_128_set
-Junkers Ju-52 Correos
+Junkers Ju-52 (correo)
 SAC-Lockheed_C-130C_Hercules_128_set
-Lockheed C-130C Hercules
+Lockheed C-130F Hercules (congelados)
 SAC-Lockheed_C-130F_Hercules_128_set
-Lockheed C-130F Hercules
+Lockheed C-130F Hercules (mercancías)
+SAC-Lockheed_C-130J_Super_Hercules_(cooled)_128_set
+Lockheed C-130J Súper Hercules (congelados)
+SAC-Lockheed_C-130J_Super_Hercules_(goods)_128_set
+Lockheed C-130J Súper Hercules (mercancías)
 SAC-Lockheed_Constellation_128_set
 Lockheed Constellation
 SAC-McDonnell_Douglas_DC-10_128_set
 McDonnell Douglas DC-10
+SAC-McDonnell_Douglas_DC-10F_(cooled_goods)_128_set
+McDonnell Douglas DC-10F (congelados)
+SAC-McDonnell_Douglas_DC-10F_(goods)_128_set
+McDonnell Douglas DC-10F (mercancías)
+SAC-McDonnell_Douglas_DC-10F_(mail)_128_set
+McDonnell Douglas DC-10F (correo)
+SAC-McDonnell_Douglas_MD-11_128_set
+McDonnell Douglas MD-11
+SAC-McDonnell_Douglas_MD-11F_(cooled_goods)_128_set
+McDonnell Douglas MD-11F (congelados)
+SAC-McDonnell_Douglas_MD-11F_(goods)_128_set
+McDonnell Douglas MD-11F (mercancías)
+SAC-McDonnell_Douglas_MD-11F_(mail)_128_set
+McDonnell Douglas MD-11F (correo)
+SAC-McDonnell_Douglas_MD-80_128_set
+McDonnell Douglas MD-80
+SAC-McDonnell_Douglas_MD-90_128_set
+McDonnell Douglas MD-90
 SAC-Rohrbach_Rocco_128_set
 Rohrbach Rocco
 Sail_Post_Ship_0
@@ -2940,6 +3410,12 @@ skoda163
 Skoda 163
 skoda180
 Skoda 180 
+SMC_Long_Grain_Hopper
+SMC Vagón Tolva para Grano
+SMC_Medium_Grain_Car
+SMC Vagón Volquete para sacos
+SMC_Short_Grain_Car
+SMC Vagoneta Volquete para sacos
 Stahlwagen
 Vagón para acero
 Stahlwagen_0
@@ -2994,6 +3470,46 @@ Thunder_(rear_engine)
 BB Thunder (posterior)
 Thunder_(waggon)
 BB Thunder (coche)
+TMB_Class_100
+Metro TMB Serie 100
+TMB_Class_1000
+Metro TMB Serie 1000
+TMB_Class_2000
+Metro TMB Serie 2000
+TMB_Class_2000_Car
+Metro TMB Serie 2000 (coche)
+TMB_Class_200A
+Metro TMB Serie 200A
+TMB_Class_200B
+Metro TMB Serie 200B
+TMB_Class_200B_Car
+Metro TMB Serie 200B (coche)
+TMB_Class_300
+Metro TMB Serie 300
+TMB_Class_300_Car
+Metro TMB Serie 300 (coche)
+TMB_Class_3000
+Metro TMB Serie 3000
+TMB_Class_3000_Back
+Metro TMB Serie 3000 (cabina)
+TMB_Class_3000_Car
+Metro TMB Serie 3000 (coche)
+TMB_Class_400
+Metro TMB Serie 400
+TMB_Class_400_Car
+Metro TMB Serie 400 (coche)
+TMB_Class_500
+Metro TMB Serie 500
+TMB_Class_500_Car
+Metro TMB Serie 500 (coche)
+TMB_Class_6000
+Metro TMB Serie 6000
+TMB_Class_6000_Back
+Metro TMB Serie 6000 (cabina)
+TMB_Class_6000_Car
+Metro TMB Serie 6000 (coche)
+TMB_Class_6000_Powered_Car
+Metro TMB Serie 6000 (cotxe motor)
 TS_Mack_Bulk_Trailer_0
 TS Semirremolque MF
 Vitus-AVECO_Eurocargo_Bretter
@@ -3084,6 +3600,34 @@ river_03
 Pequeño rio
 river_04
 Riachuelo
+road_030
+Camino de tierra
+road_040
+Calle de adoquines
+road_050
+Calle asfaltada
+road_050_elevated
+Calle asfaltada elevada
+road_055
+Carretera de piedra
+road_070
+Carretera asfaltada
+road_090
+Carretera moderna asfaltada
+road_090_elevated
+Carretera asfaltada elevada
+road_110
+Autovía
+road_110_elevated
+Autovía elevada
+road_130
+Autopista
+road_130_elevated
+Autopista elevada
+road_200
+Autopista moderna
+road_200_elevated
+Autopista moderna elevada
 runway_modern
 Pista de aterrizaje 
 Schwebebahn_p_ground
@@ -3092,6 +3636,18 @@ steel_sleeper_track
 Vía con traviesas de acero
 Suspended_Monorail_Track
 Via de Monorrail colgante
+Tram_Track_050_A
+Vía de tranvia normal (50 Km/h)
+Tram_Track_070_A
+Via de tramvia reforzada (70 Km/h, pintada)
+Tram_Track_070_B
+Vía de tranvia reforzada (70 Km/h)
+Tram_Track_090_A
+Vía de tranvia moderno (90 Km/h, pintada)
+Tram_Track_090_B
+Vía de tranvia moderno (90 Km/h)
+Tram_Track_110_A
+Vía de tranvia rápido(110 Km/h)
 water_road
 Canal
 wooden_sleeper_track
@@ -3101,7 +3657,7 @@ Vía con traviesas de madera
 High_Speed_Catenary
 Catenaria de alta velocidad
 modern_runway-extMrkLgt
-Pista aterrizaje moderna
+Iluminación para pista de aterrizaje
 old_catenary
 Catenaria antigua
 standard_catenary

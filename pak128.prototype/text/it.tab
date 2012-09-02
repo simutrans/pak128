@@ -5,7 +5,7 @@
 #                             Language: it Italiano                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 11.01 2012                           #
+#                            Date Created: 2.09 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -210,6 +210,10 @@ COM_00_19
 Negozio di vestiti\n\nIl negozio di vestiti è gestito\nda un giardiniere. La domanda\ninteressante è: perché molti\nagenti segreti comprano i loro\nvestiti qui? Non è strano?\n\n
 COM_00_21
 Parcheggio\n\nQuesto parcheggio è un\nnascondiglio per la gang dei\nvecchi. È un gruppo molto strano,\ncomposto da signore anziane non\ncontente dello stato attuale\ndella città. Si incontrano a\nmezzanotte e poi vagano per\nle strade con le loro carrozzine\nmotorizzate per il resto\ndella notte. Armate di bastoni\nda passeggio e stampelle, esse\npicchiano senza pietà ogni\ngiovane ubriaco abbastanza\nsfortunato da incontrarle nella\nstrada di ritorno verso casa\ndal pub. Grazie alla loro\nattività, il quartiere è\nabbastanza libero dai graffiti.\n\n
+COM_00_22
+Ufficio bancario locale\n\nQuesto piccolo edificio per uffici\nè la sede della Simutrans\nAlternate Bank e Tortilla\nCompany. I martedì\n e giovedì a pranzo,\npuoi vedere i manager della\nbanca dare tortillas gratis\nai passanti.\n
+COM_00_23
+Piccolo edificio per uffici\n\nQuesto piccolo edificio per\nuffici ospita l'associazione per\ni disabili.Questa organizzazione\ncerca di riabilitare i disabili\ncon una tecnica chiamata urlo.Non\nhanno avuto molto successo,ma\nqualche fondo statale è\nin arrivo, e\nhanno in programma di\nacquistare dei megafoni per\nincrementare gli effetti della\nloro terapia.\n
 COM_01_13
 Fish N' Sticks\n\nFish N' Sticks è il ristorante\ndi mare con piscina più fine di\nSimuworld. A molte persone piace\nmangiare fuori al piano\n\nsuperiore, ad altre dentro\nguardando tornei di biliardo.\n\n
 COM_01_18
@@ -348,6 +352,14 @@ HQ2
 Sede (III)
 IND_00_01
 Fermata del Rumore\n\nUn piccolo edificio sulla\n\ncollina è un punto perfetto\n\nper fare rumore. Questa è la\n\nFermata Del Rumore, dove la\n\ngente va per fare tutto il\n\ncasino che vuole. Ma stai\n\nattento, devi pagare quando\n\nesci, e non c'è alcun cartello\n\nche indichi quanto costa prima\n\ndi entrare.\n
+IND_00_02
+Questo vecchio edificio è una\nsegheria a carbone. Non\nproduce tavole o pannelli\nda anni,quindi\nnon essere tentato a portarci\nlegno o carbone.\n\n
+IND_00_17
+Anche se questo edificio sembra\nabbandonato, in realtà è\ndi un gruppo molto\nsviluppato. Ma nessuno sa\na che serva quell'enorme\nserbatoio sul tetto.\n\n
+IND_00_20
+Quest'industria produce\nvari tipi di prodotti in plastica.\nIl prodotto più famoso è il\nlinoleum con texture di marmo.\nNaturalmente c'è una grande domanda,\nquindi l'azienda si sta espandendo.\n\n
+IND_00_28
+Questa è la sede di\nun'azienda di distruzione documenti,\nche lavora per banche,\nospedali e altre compagnie che\nhanno a che fare con dati\personali dei clienti.\nLa carta distrutta è usata per\nimpacchettare beni sfusi.\n\n
 JUSTICE
 Palazzo di giustizia\n\nQui uomini onesti e meno\nentrano ed escono\ndalla scena quotidianamente, secondo\nil principio che "La legge è\nuguale per tutti"\n\n
 Lighthouse_0
@@ -454,6 +466,8 @@ RUIN_1
 Rovine\n\nQueste sono le rovine di un\ncastello molto famoso. Molti\ncapitoli di storia sono stati\nscritti qui, così è una\ncalamita per i turisti di\ntutto il mondo. Tutti quelli\nche le vedono rimangono\nentusiasti. E, dopo tutto,\nle rovine sono abbastanza\nromantiche, o no?\n\n
 Russian_Cathedral
 Chiesa russa\n\n
+Sacred_heart_church
+Chiesa del Sacro Cuore\n\n
 Secession_Chapel
 Cappella della Secessione\n\n
 sh_oasis_seasons
@@ -510,6 +524,12 @@ Windmill
 Mulino a vento\n\nQualche persona viene qui per\nvisitare il mulino e vederlo\ngirare. Ad altre persone piace\nandare fuori città. Ad altre\npersone piace tirare sassi al\nrotore per cercare di colpire\nle pale.\n\n
 WOODEN_CHURCH
 Chiesa di legno\n\nQuesta chiesa è stata costruita\ndagli Hamish.\n\n
+#____________________________________citycar____________________________________
+#____________________________________citycar____________________________________
+ambulance_0
+Ambulanza
+ambulance_1
+Ambulanza
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3

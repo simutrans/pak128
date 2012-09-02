@@ -5,13 +5,17 @@
 #                            Language: ce C-English                            #
 #                                Encoding: ASCII                               #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 25.10 2011                           #
+#                            Date Created: 2.09 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
 #                                    note:                                     #
 #                              Frank Penz - FrankP                             #
 #                                    note:                                     #
+#                            Carl Baker - carlbaker                            #
+#                                    note:                                     #
+#                                   - neroden                                  #
+#                               note: Programmer                               #
 #                          Markus Pristovsek - prissi                          #
 #                                    note:                                     #
 #                           Lincoln Sayger - skreyola                          #
@@ -24,6 +28,8 @@
 #____________________________________bridge_____________________________________
 ClassicRail
 Concrete Rail Bridge
+road_030_bridge
+Wooden road bridge
 RVg_Concrete_Rail_Bridge
 Steel Suspension Bridge
 Schwebebahn_p_bridge

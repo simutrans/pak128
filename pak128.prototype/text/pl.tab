@@ -5,7 +5,7 @@
 #                              Language: pl Polski                             #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 11.07 2012                           #
+#                            Date Created: 2.09 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                       Bartlomiej Weclewski - BarthVader                      #
@@ -832,6 +832,8 @@ Early_ChooseSignals_right
 Sygna³ automatycznego wyboru peronu
 Early_LongSignals_right
 Sygna³ d³ugiego bloku
+EndOfChooseSignals
+Sygna³ koñca wyboru peronu
 LongSignals
 D³ugi sygna³ blokowy (typ standardowy)
 Minimum80
