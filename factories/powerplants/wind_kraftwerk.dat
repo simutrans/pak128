@@ -17,7 +17,7 @@ electricity_amount=10
 #InputSupplier[0]=3
 #InputFactor[0]=50
 
-MapColor=93
+MapColor=134
 Dims=1,1
 animation_time=50
 

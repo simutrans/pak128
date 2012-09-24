@@ -26,7 +26,7 @@ InputSupplier[0]=0
 #the input factor is a trick how to make powerplant produce more power than mines consume
 InputFactor[0]=50
 
-MapColor=93
+MapColor=131
 Dims=3,3
 
 #This set of backimages is the one used to make the non-animated version.
