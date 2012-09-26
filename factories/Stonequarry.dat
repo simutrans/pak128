@@ -22,7 +22,7 @@ Passenger_boost=500
 OutputGood[0]=Stone
 OutputCapacity[0]=800
 
-MapColor=8
+MapColor=9
 Dims=3,3
 #climates=mediterran,temperate,tundra
 

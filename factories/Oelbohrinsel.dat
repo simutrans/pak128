@@ -26,7 +26,7 @@ enables_ware=1
 OutputGood[0]=Oel
 OutputCapacity[0]=1500
 
-MapColor=252
+MapColor=76
 intro_year=1968
 Dims=3,3
 

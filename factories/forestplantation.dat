@@ -6,7 +6,7 @@ Location=Land
 DistributionWeight=1
 
 climates=tropic,mediterran,temperate,tundra
-MapColor=16
+MapColor=87
 needs_ground=1
 has_snow=1
 dims=3,3,1

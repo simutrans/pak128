@@ -22,7 +22,7 @@ Passenger_boost=500
 OutputGood[0]=Kohle
 OutputCapacity[0]=300
 
-MapColor=90
+MapColor=176
 Dims=4,4
 climates=mediterran,temperate,tundra
 intro_year=1955

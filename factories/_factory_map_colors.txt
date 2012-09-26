@@ -1,0 +1,44 @@
+This file lists map colours for factory groups. The numbers are for post-.99 colour table. Old colours can be retrieved from svn history, if needed at all. Where possible, colours match these of pak64.
+
+----------
+
+Oil sources
+	deep violet
+	76
+
+Coal mines
+	very dark brown, nearly black
+	176
+
+Gas/petrol stations
+	yellowish
+	28 (only gasoline)
+	30 (ethanol)
+
+Power plants
+	reddish hues
+	131 (coal)
+	132 (oil)
+	134 (no input goods, free energy)
+
+Sawmills
+	brown
+	190
+
+Forests
+	light pea green
+	87
+
+Stone
+	dark gray
+	9
+
+Sand
+	light gray
+	14
+
+Grain
+	shiny yellow
+	31
+
+* TODO...

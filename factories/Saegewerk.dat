@@ -28,7 +28,7 @@ InputFactor[0]=125
 OutputGood[0]=Bretter
 OutputCapacity[0]=500
 
-MapColor=17
+MapColor=190
 Dims=2,2
 climates=tropic,mediterran,temperate,tundra
 

@@ -5,7 +5,7 @@ Location=Land
 copyright=Raven
 
 DistributionWeight=1
-MapColor=90
+MapColor=176
 
 OutputGood[0]=Kohle
 OutputCapacity[0]=300

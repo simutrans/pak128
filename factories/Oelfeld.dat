@@ -22,7 +22,7 @@ Passenger_boost=500
 OutputGood[0]=Oel
 OutputCapacity[0]=800
 
-MapColor=252
+MapColor=76
 Dims=2,2
 
 BackImage[0][0][0][0][0]=oelfeld.0.3

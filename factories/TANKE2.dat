@@ -22,7 +22,7 @@ InputCapacity[0]=100
 InputSupplier[0]=0
 InputFactor[0]=100
 
-MapColor=254
+MapColor=28
 Dims=1,2
 needs_ground=0
 

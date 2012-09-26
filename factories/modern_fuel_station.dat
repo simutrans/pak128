@@ -24,7 +24,7 @@ InputCapacity[1]=2000
 InputSupplier[1]=0
 InputFactor[1]=125
 
-MapColor=254
+MapColor=30
 intro_year=2000
 Dims=3,3
 
