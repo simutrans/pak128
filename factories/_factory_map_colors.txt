@@ -87,8 +87,51 @@ Materials wholesale
 	light washed out blue
 	7
 
+Cow farm
+	very light brown
+	95
 
+Sheep farm
+	light brown
+	93
+
+Brewery
+	light dirty greenish yellow (beer-like? lol)
+	198
+
+Bakery
+	dark yellow-green (darkened iexplore "crap")
+	194
+
+Furniture factory
+	dark brown with strong reddish hint
+	186
+
+Food processing plant
+	pink
+	119
+
+Fish sources
+	dark blue
+	147
+
+Canneries
+	desaturated violet, various darkness
+	219 (fish)
+	222 (meat)
+	220 (both)
 
 
 
 * TODO...
+
+ethanol distillery
+corn fields
+cotton farm
+glass factory
+electronics
+chicken farm
+publisher
+textile factory
+goods factory
+all 3 market type consumers

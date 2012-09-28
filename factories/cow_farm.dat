@@ -28,7 +28,7 @@ OutputGood[1]=milk
 OutputCapacity[1]=300
 OutputFactor[1]=200
 
-MapColor=135
+MapColor=95
 Dims=5,5
 climates=mediterran,temperate,tundra
 needs_ground=1

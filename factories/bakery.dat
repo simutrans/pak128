@@ -33,7 +33,7 @@ InputSupplier[0]=0
 #OutputGood[0]=food
 #OutputCapacity[0]=400
 
-MapColor=119
+MapColor=194
 Dims=3,3
 
 BackImage[0][0][0][0][0]=bakery.0.2

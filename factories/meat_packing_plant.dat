@@ -30,7 +30,7 @@ OutputCapacity[0]=800
 intro_year=1880
 retire_year=1940
 
-MapColor=140
+MapColor=222
 
 dims=3,2,4
 Needs_Ground=1

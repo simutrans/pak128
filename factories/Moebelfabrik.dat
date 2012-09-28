@@ -26,7 +26,7 @@ InputFactor[0]=110
 OutputGood[0]=Moebel
 OutputCapacity[0]=200
 
-MapColor=35
+MapColor=186
 Dims=2,2
 
 BackImage[0][0][0][0][0]=moebelfabrik.0.1
