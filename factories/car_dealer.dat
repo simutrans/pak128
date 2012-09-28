@@ -23,7 +23,7 @@ InputGood[0]=Autos
 InputCapacity[0]=150
 InputSupplier[0]=0
 
-MapColor=233
+MapColor=175
 Dims=4,4,1
 
 BackImage[0][0][0][0][0]=car_dealer.0.0

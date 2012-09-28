@@ -37,7 +37,7 @@ InputFactor[2]=22
 OutputGood[0]=Concrete
 OutputCapacity[0]=500
 
-MapColor=11
+MapColor=10
 Dims=2,2
 
 BackImage[0][0][0][0][0]=concretefactory.1.1

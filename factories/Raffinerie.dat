@@ -36,7 +36,7 @@ OutputFactor[2]=25
 
 Location=Land
 DistributionWeight=1
-MapColor=253
+MapColor=58
 Dims=3,3
 
 BackImage[0][0][0][0][0]=raffinerie.0.3

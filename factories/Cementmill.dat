@@ -39,7 +39,7 @@ InputSupplier[1]=0
 OutputGood[0]=Cement
 OutputCapacity[0]=500
 
-MapColor=10
+MapColor=13
 Dims=2,2
 
 BackImage[0][0][0][0][0]=cementmill.1.0

@@ -33,7 +33,7 @@ InputFactor[1]=20
 OutputGood[0]=Bucher
 OutputCapacity[0]=300
 
-MapColor=19
+MapColor=50
 Dims=2,2
 
 BackImage[0][0][0][0][0]=druckerei.0.1

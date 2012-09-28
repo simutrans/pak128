@@ -29,7 +29,7 @@ InputGood[2]=Stahl
 InputCapacity[2]=400
 InputSupplier[2]=0
 
-MapColor=3
+MapColor=7
 
 Passengers=100
 intro_year=1900

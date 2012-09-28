@@ -22,7 +22,7 @@ Passenger_boost=500
 OutputGood[0]=Eisenerz
 OutputCapacity[0]=900
 
-MapColor=104
+MapColor=178
 Dims=5,5
 
 BackImage[0][0][0][0][0]=erzbergwerk.0.4

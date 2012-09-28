@@ -33,7 +33,7 @@ InputFactor[0]=70
 OutputGood[0]=Papier
 OutputCapacity[0]=500
 
-MapColor=18
+MapColor=55
 Dims=2,2
 climates=temperate,tundra
 

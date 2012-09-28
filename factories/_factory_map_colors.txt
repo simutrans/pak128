@@ -37,8 +37,58 @@ Sand
 	light gray
 	14
 
-Grain
+Iron ore
+	dark brown
+	178
+
+Steel
+	light blue
+	23
+
+Grain farms
 	shiny yellow
 	31
+
+Refinery
+	dark violet (darker than oil wells)
+	58
+
+Paper mill
+	cyan
+	55
+
+Printer
+	dark green
+	50
+
+Dairy
+	light gray
+	214
+
+Grain mill
+	light "dirty" yellow
+	175
+
+Cars
+	light "dirty" yellow (producer)
+	30
+	light "dirty" yellow (consumer) (lighter than producers)
+	175
+
+Cement mill
+	medium-lightish gray
+	13
+
+Concrete factory
+	mid-dark gray
+	10
+
+Materials wholesale
+	light washed out blue
+	7
+
+
+
+
 
 * TODO...

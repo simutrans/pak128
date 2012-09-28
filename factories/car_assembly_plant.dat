@@ -34,7 +34,7 @@ InputSupplier[1]=0
 OutputGood[0]=Autos
 OutputCapacity[0]=100
 
-MapColor=240
+MapColor=30
 Dims=5,5,1
 
 BackImage[0][0][0][0][0]=car_assembly_plant.0.0

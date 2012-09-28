@@ -19,7 +19,7 @@ InputGood[0]=Autos
 InputCapacity[0]=100
 InputSupplier[0]=0
 
-MapColor=233
+MapColor=175
 Dims=2,2,1
 
 BackImage[0][0][0][0][0]=autoshop3.0.0
