@@ -17,7 +17,7 @@ pax_level=15
 OutputGood[0]=cotton
 OutputCapacity[0]=800
 
-MapColor=195
+MapColor=215
 Dims=3,3
 
 climates=mediterran,temperate

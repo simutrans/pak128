@@ -35,7 +35,7 @@ InputCapacity[2]=2000
 InputSupplier[2]=0
 InputFactor[2]=110
 
-MapColor=101
+MapColor=140
 Dims=4,4
 
 BackImage[0][0][0][0][0]=shopping_mall.0.3

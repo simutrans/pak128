@@ -39,7 +39,7 @@ InputFactor[2]=45
 OutputGood[0]=goods_
 OutputCapacity[0]=400
 
-MapColor=96
+MapColor=78
 Dims=3,3
 
 BackImage[0][0][0][0][0]=classical_goods_factory.0.2

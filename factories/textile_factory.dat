@@ -34,7 +34,7 @@ InputFactor[1]=200
 OutputGood[0]=textile
 OutputCapacity[0]=300
 
-MapColor=197
+MapColor=39
 Dims=2,2
 
 BackImage[0][0][0][0][0]=textile_factory.1.1

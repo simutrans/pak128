@@ -35,7 +35,7 @@ InputCapacity[2]=3000
 InputSupplier[2]=0
 InputFactor[2]=180
 
-MapColor=100
+MapColor=143
 Dims=4,4
 
 BackImage[0][0][0][0][0]=supermarket.0.3

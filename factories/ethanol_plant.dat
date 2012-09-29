@@ -27,7 +27,7 @@ OutputGood[0]=Ethanol
 OutputCapacity[0]=500
 OutputFactor[0]=100
 
-MapColor=252
+MapColor=62
 intro_year=2000
 Dims=3,3
 

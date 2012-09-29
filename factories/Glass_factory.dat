@@ -43,8 +43,7 @@ InputSupplier[1]=0
 OutputGood[0]=glass
 OutputCapacity[0]=400
 
-MapColor=117
-MapColor=225
+MapColor=223
 Dims=2,2
 
 BackImage[0][0][0][0][0]=glass_factory.1.1

@@ -21,7 +21,7 @@ OutputGood[0]=corn
 OutputCapacity[0]=200
 OutputFactor[0]=100
 
-MapColor=134
+MapColor=71
 Dims=3,3
 climates=mediterran,temperate,tundra
 

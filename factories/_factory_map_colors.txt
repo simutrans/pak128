@@ -1,5 +1,8 @@
 This file lists map colours for factory groups. The numbers are for post-.99 colour table. Old colours can be retrieved from svn history, if needed at all. Where possible, colours match these of pak64.
 
+ref. colour table:
+http://simutrans-germany.com/wiki/wiki/de_FactoryDef#mapcolor
+
 ----------
 
 Oil sources
@@ -20,6 +23,7 @@ Power plants
 	131 (coal)
 	132 (oil)
 	134 (no input goods, free energy)
+	135 (waste incinerator)
 
 Sawmills
 	brown
@@ -92,8 +96,12 @@ Cow farm
 	95
 
 Sheep farm
-	light brown
+	dirty light brown
 	93
+
+Chicken farm
+	darker dirty brown
+	91
 
 Brewery
 	light dirty greenish yellow (beer-like? lol)
@@ -121,17 +129,48 @@ Canneries
 	222 (meat)
 	220 (both)
 
+Corn field
+	light brown
+	71
 
+Cotton farm
+	dirty white
+	215
 
-* TODO...
+Ethanol distillery
+	brick/violet
+	62
 
-ethanol distillery
-corn fields
-cotton farm
-glass factory
-electronics
-chicken farm
-publisher
-textile factory
-goods factory
-all 3 market type consumers
+Glass factory
+	light bueish gray
+	223
+
+Electronics factory
+	mid-light blue
+	151
+
+Publisher (book market)
+	washed out mid-green
+	125
+
+Textile factory
+	bright red
+	39
+
+Goods factory
+	strong pink
+	78
+
+Waste disposal yard
+	ugly bleached mint green
+	127
+
+Markets
+	light greens 137-143
+	137 (home market)
+	140 (shopping mall)
+	143 (supermarket)
+
+----------
+
+Don't laugh at my creative names or else! -- VS

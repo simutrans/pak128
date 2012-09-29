@@ -20,7 +20,7 @@ InputCapacity[0]=800
 InputSupplier[0]=0
 InputFactor[0]=100
 
-MapColor=101
+MapColor=125
 Dims=2,2,1
 
 BackImage[0][0][0][0][0]=publisher.1.3

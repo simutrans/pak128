@@ -37,7 +37,7 @@ InputFactor[2]=62
 OutputGood[0]=electronics
 OutputCapacity[0]=100
 
-MapColor=99
+MapColor=151
 dims=5,5,4
 needs_ground=1
 has_snow=1

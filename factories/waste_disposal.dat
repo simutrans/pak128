@@ -19,7 +19,7 @@ Passenger_boost=500
 OutputGood[0]=waste
 OutputCapacity[0]=300
 
-MapColor=10
+MapColor=127
 Dims=1,2
 
 BackImage[0][0][0][0][0]=waste_disposal.1.1

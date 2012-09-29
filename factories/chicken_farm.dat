@@ -27,7 +27,7 @@ OutputGood[1]=meat
 OutputCapacity[1]=200
 OutputFactor[1]=100
 
-MapColor=136
+MapColor=91
 Dims=3,3
 climates=mediterran,temperate,tundra
 

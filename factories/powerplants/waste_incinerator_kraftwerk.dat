@@ -29,7 +29,7 @@ InputCapacity[0]=8000
 InputSupplier[0]=0
 InputFactor[0]=300
 
-MapColor=10
+MapColor=135
 Dims=2,2
 
 BackImage[0][0][0][0][0]=waste_incinerator_kraftwerk.0.1
