@@ -4,8 +4,40 @@ history of pak128 svn - important changes for gameplay
 For full history or technical details see svn logs.
 Names in brackets after message list the author/originator of change. It does not necessarily have to be member of pak128 team - external contributors are there as well.
 
+
+
+30.09.2012
+	- add set of trams (Fabio)
+29.09.2012
+	- minimap industry colours changed to match pak64 (VS)
+08.08.2012
+	- new container crane station extension (Martin)
+14.07.2012
+	- new rail depot (mEGa)
+08.07.2012
+	- add Little Central Park (mEGa)
+29.06.2012
+	- airplane pricing rebalanced (Zeno)
+31.05.2012
+	- new futuristic city buses (Christian)
+	- add early concrete truck (Martin)
+28.05.2012
+	- cargo station extension - ramp (VS)
+27.05.2012
+	- enable menu for narrow gauge (VS)
+	- add electrification remove tools (VS)
+09.05.2012
+	- update prices for all vehicles except trams and ships (zeno)
+10.03.2012
+	- new station waiting hall (mEGa)
+
 ## pak128 version 2.1.0 ##
 
+13.02.2012
+	- fix annoying problem with sound file crashing the game (VS)
+04.02.2012
+	- Increase tram catenary speed to 110 kph to match tracks (VS)
+	- add ctrl+P shortcut for pause (VS)
 21.01.2012
 	- Tram balancing (Zeno)
 12.01.2012

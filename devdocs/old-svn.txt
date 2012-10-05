@@ -1,0 +1,5 @@
+The set has been originally developed outside versioning systems. SimuTranslator was originally meant for 
+
+First repository, hosted by Werner and later Timothy, received first commit in July 2008. Over time, it accumulated 1308 revisions, the last on 17th April 2011.
+
+The pakset's state (not history) has then been imported to Sourceforge's svn, alongside other paksets. The import started one day after final commit to previous repo, making it r453 on SF.
