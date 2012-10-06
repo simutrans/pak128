@@ -1,8 +1,14 @@
 obj=building
 name=RES_06_30
-copyright=MHz
+copyright=MHz & Fabio Gonella
 type=res
 level=30
 intro_year=1947
 retire_year=2019
-backimage[0][0][0][0][0]=res_06_30.1.0
+dims=1,1,1
+seasons=2
+needs_ground=0
+#Summer
+backimage[0][0][0][0][0][0]=res_06_30.1.0
+#Winter
+backimage[0][0][0][0][0][1]=res_06_30.1.1
