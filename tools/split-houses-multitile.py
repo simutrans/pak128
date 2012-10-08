@@ -1,8 +1,8 @@
 ﻿#! /usr/bin/python
 #  -*- coding: utf-8 -*-
 #
-#  Vladimír Slávik 2008
-#  Python 2.5
+#  Vladimír Slávik 2008-2012
+#  Python 3.2
 #
 #  for Simutrans
 #  http://www.simutrans.com
@@ -39,7 +39,7 @@ loadedimages = {}
 
 def procObj(obj) :
 	objname = obj.ask("name")
-	print "processing", objname
+	print("processing", objname)
 	
 	if obj.ask("type", "none").lower() in ["res", "com", "ind", "cur"] : # needs default string because of lower()
 		
@@ -69,13 +69,13 @@ def procObj(obj) :
 		
 		targetcoords = [0, 1]
 		
-		for i in xrange(len(images)) :
+		for i in range(len(images)) :
 			indices, imgref = images[i]
 			imgref = simutools.SimutransImgParam(imgref)
 			
 			imgname = os.path.normpath(os.path.join(os.path.dirname(obj.srcfile), imgref.file + ".png"))
 			
-			if not loadedimages.has_key(imgname) :
+			if not imgname in loadedimages :
 				loadedimages[imgname] = pygame.image.load(imgname)
 			
 			srccoords_px = pygame.Rect(imgref.coords[1] * paksize, \
@@ -106,8 +106,8 @@ def procObj(obj) :
 try :
 	import pygame
 except ImportError :
-	print "This script needs PyGame to work!"
-	print "Visit  http://www.pygame.org  to get it."
+	print("This script needs PyGame to work!")
+	print("Visit  http://www.pygame.org  to get it.")
 else :
 	pygame.font.init()
 	font = pygame.font.Font(None, fntsize)
