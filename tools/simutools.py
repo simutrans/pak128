@@ -15,8 +15,11 @@ Easy handling of Simutrans DAT files.
 """
 
 from __future__ import print_function, unicode_literals, division
+from __future__ import nested_scopes
 
 import glob, os, struct
+
+from operator import gt, ge, lt, le, eq, ne
 
 #-----
 
@@ -393,6 +396,131 @@ def pruneByParam(dataset, param, values, invert=False) :
 	i = len(dataset) - 1
 	while i >= 0 :
 		if not ((dataset[i].ask(param) in values) ^ invert) :
+			del(dataset[i])
+		i = i - 1
+
+#-----
+
+def pruneByParamCmp(dataset, param, cmpoperator, value, interpretation="auto", retrievefailresult=False, comparefailresult=False) :
+	"""Reduce object list according to certain parameter's values.
+	
+	Go through list "dataset" and keep only objects that satisfy comparison
+	>>param cmpoperator value<< (eg. "speed" "<=" "45"). With "interpretation",
+	behaviour can be further refined with type conversion prior to comparison.
+	
+	For not present parameter, comparison result is substituted by
+	"retrievefailresult". For type conversion failure, comparison result is
+	substituted by "comparefailresult".
+	
+	Possible "interpretation" values:
+	* "none"    don't convert at all, compare string with given type
+	              (fastest but works for few type/comparison combinations)
+	* "auto"    cast to type of "value" (DEFAULT)
+	* "str"     cast to strings
+	              (makes sense only for equality check)
+	* "num"     cast to number (float)
+	              (commas and dots resolved correctly)
+	* "magic"   try "num", "str", "auto" and "none" until something works
+	              (slowest but human-like, may fail weirdly)
+	
+	Allowed expressions for "cmpoperator" are:  < > = == != ! <= >= => =< *
+	
+	Asterisk "*" is a special operator for presence, regardless of "value" -
+	it also overrides "retrievefailresult" by setting it to true.
+	"""
+	
+	# The generalized "what to do now" table is 2-D, one dimension with
+	# operator and one with interpretation. However, operators can be
+	# off-sourced to a hash of functions, and * is special anyway.
+	
+	# hash of functions from module "operator"
+	operator_table = {
+		"==" : eq,
+		"="  : eq,
+		"!"  : ne,
+		"!=" : ne,
+		">"  : gt,
+		"<"  : lt,
+		">=" : ge,
+		"=>" : ge,
+		"<=" : le,
+		"=<" : le
+	}
+
+	# easiest to write as loop over another function, using RETURN
+	
+	def evalParamCmpOneObj(obj) :
+		# needs nested scopes !!!!
+		objval = obj.ask(param) # defaults to None
+		
+		if objval == None :
+			return retrievefailresult
+		if cmpoperator == "*" :
+			return True # if the first test passed, * is automatically satisfied
+		
+		typedval = None
+		typedcmp = None
+		if interpretation == "none" :
+			typedval = objval
+			typedcmp = value
+		elif interpretation == "auto" :
+			try :
+				paramtype = type(value)
+				typedval = paramtype(objval)
+				typedcmp = paramtype(value)
+				return operator_table[cmpoperator](typedval, typedcmp)
+			except :
+				return comparefailresult
+		elif interpretation == "str" :
+			try :
+				typedval = str(objval)
+				typedcmp = str(value)
+				return operator_table[cmpoperator](typedval, typedcmp)
+			except :
+				return comparefailresult
+		elif interpretation == "num" :
+			try :
+				typedval = float(objval)
+				typedcmp = float(value)
+				return operator_table[cmpoperator](typedval, typedcmp)
+			except :
+				return comparefailresult
+		elif interpretation == "magic" :
+			# in this mode, life is great and errors do not concern us... pass!
+			# expectation: jump to EXCEPT occurs before RETURN happens
+			try :
+				typedval = float(objval)
+				typedcmp = float(value)
+				return operator_table[cmpoperator](typedval, typedcmp)
+			except :
+				pass
+			try :
+				typedval = str(objval)
+				typedcmp = str(value)
+				return operator_table[cmpoperator](typedval, typedcmp)
+			except :
+				pass
+			try :
+				paramtype = type(value)
+				typedval = paramtype(objval)
+				typedcmp = paramtype(value)
+				return operator_table[cmpoperator](typedval, typedcmp)
+			except :
+				pass
+			# all possibilities exhausted, a direct comparison is called for!
+			typedval = objval
+			typedcmp = value
+			return operator_table[cmpoperator](typedval, typedcmp)
+	
+	
+	if cmpoperator not in ["=", "==", "!", "!=", "<", ">", "<=", "=<", ">=", "=>", "*"] :
+		raise ValueError("Invalid operator specified")
+	if interpretation not in ["none", "auto", "str", "num", "magic"] :
+		raise ValueError("Invalid interpretation specification")
+	
+	i = len(dataset) - 1
+	while i >= 0 :
+		if not evalParamCmpOneObj(dataset[i]) :
 			del(dataset[i])
 		i = i - 1
 
