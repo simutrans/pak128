@@ -87,13 +87,13 @@ compat = {}
 
 def objCompare(A, B) :
 	# first should come object with earlier dates!
-	a_intro = A.ask("intro_year", 0) * 12 + A.ask("intro_month", 0)
-	b_intro = B.ask("intro_year", 0) * 12 + B.ask("intro_month", 1) - 1
+	a_intro = int(A.ask("intro_year", 0)) * 12 + int(A.ask("intro_month", 0))
+	b_intro = int(B.ask("intro_year", 0)) * 12 + int(B.ask("intro_month", 1)) - 1
 	if a_intro != b_intro :
 		return cmp(a_intro, b_intro)
 	else :
-		a_retro = A.ask("retire_year", 2999) * 12 + A.ask("retire_month", 0)
-		b_retro = B.ask("retire_year", 2999) * 12 + B.ask("retire_month", 1) - 1
+		a_retro = int(A.ask("retire_year", 2999)) * 12 + int(A.ask("retire_month", 0))
+		b_retro = int(B.ask("retire_year", 2999)) * 12 + int(B.ask("retire_month", 1)) - 1
 		return cmp(a_retro, b_retro)
 
 #-----
@@ -104,23 +104,23 @@ def prepareCanvas() :
 	start_year = 0
 	i = 0
 	while start_year == 0 :
-		start_year = Data[i].ask("intro_year", 0)
+		start_year = int(Data[i].ask("intro_year", "0"))
 		i += 1
 	# intro is primary sorting, so just skip the first items without intro date
 	
 	end_year_retire = 0
 	end_year_intro = 0
 	for item in Data :
-		intro_year = item.ask("intro_year", 0)
-		retire_year = item.ask("retire_year", 0)
-		intro_month = item.ask("intro_month", 1) - 1
-		retire_month = item.ask("retire_month", 1) - 1
+		intro_year = int(item.ask("intro_year", 0))
+		retire_year = int(item.ask("retire_year", 0))
+		intro_month = int(item.ask("intro_month", 1)) - 1
+		retire_month = int(item.ask("retire_month", 1)) - 1
 		if (intro_year * 12 + intro_month) < (retire_year * 12 + retire_month) or (retire_year == 0):
 			# check for valid timeline (disabling)
 			end_year_retire = max(end_year_retire, retire_year)
 			end_year_intro = max(end_year_intro, intro_year)
-		max_power = max(max_power, (item.ask("power", 0) * item.ask("gear", 100)) / 100)
-		max_speed = max(max_speed, item.ask("speed", 0))
+		max_power = max(max_power, (int(item.ask("power", 0)) * int(item.ask("gear", 100))) / 100)
+		max_speed = max(max_speed, int(item.ask("speed", 0)))
 	
 	# all else is not sorted or has special cases and must be found in the whole dataset
 	
@@ -161,10 +161,10 @@ def procObj(i) :
 	obj = Data[i]
 	objname = obj.ask("name")
 	
-	intro_year = obj.ask("intro_year", 0)
-	intro_month = obj.ask("intro_month", 1) - 1
-	retire_year = obj.ask("retire_year", stop_year)
-	retire_month = obj.ask("retire_month", 1) - 1
+	intro_year = int(obj.ask("intro_year", 0))
+	intro_month = int(obj.ask("intro_month", 1)) - 1
+	retire_year = int(obj.ask("retire_year", stop_year))
+	retire_month = int(obj.ask("retire_month", 1)) - 1
 	
 	bin_number = i / bin_height # which bin is this in
 	bin_position = i % bin_height # which item is this in that bin
@@ -212,8 +212,8 @@ def procObj(i) :
 	end_y = start_y + item_height - 2
 	if not is_disabled :
 		canvas.fill(data_color, (start_x, start_y, end_x - start_x, end_y - start_y))
-		speed_length = obj.ask("speed", 0) * parameter_bar_max / max_speed if max_speed > 0 else 0
-		power_length = (obj.ask("power", 0) * obj.ask("gear", 100)) * parameter_bar_max / 100 / max_power if max_power > 0 else 0
+		speed_length = int(obj.ask("speed", 0)) * parameter_bar_max / max_speed if max_speed > 0 else 0
+		power_length = (int(obj.ask("power", 0)) * int(obj.ask("gear", 100))) * parameter_bar_max / 100 / max_power if max_power > 0 else 0
 		# integer arithmetic - multiplication always first!
 		start = (start_x, start_y)
 		end = (start_x + speed_length, start_y)
@@ -279,8 +279,8 @@ def procObj(i) :
 	canvas.blit(surf, targetcoords)
 	# name written
 	
-	text = "%i km/h" % obj.ask("speed", 0)
-	pwr = obj.ask("power", 0)
+	text = "%i km/h" % int(obj.ask("speed", 0))
+	pwr = int(obj.ask("power", 0))
 	if pwr > 0 : text += ", %i kW" % pwr
 	surf = font.render(text, font_aa, name_color)
 	if not is_disabled :

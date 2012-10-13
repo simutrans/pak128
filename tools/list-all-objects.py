@@ -21,7 +21,7 @@ Data = []
 simutools.walkFiles(os.getcwd(), simutools.loadFile, cbparam=Data)
 simutools.pruneList(Data)
 
-names = [obj.ask("name", "", False) for obj in Data]
+names = [obj.ask("name", "") for obj in Data]
 names.sort()
 
 print("\n".join(names))

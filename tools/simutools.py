@@ -86,12 +86,10 @@ class SimutransObject :
 				return i
 		return -1 # not found
 		
-	def ask(self, param, default=None, interpretation=True) :
+	def ask(self, param, default=None) :
 		"""Query the object for a value.
 		
-		Returns the value of "param" if present, otherwise "default". With
-		"interpretation" set on, return value is converted to an int if
-		it is a number.
+		Returns the value of "param" if present, otherwise "default".
 		"""
 		self.__CheckString(param)
 		lparam = param.lower()
@@ -101,11 +99,6 @@ class SimutransObject :
 			parts = line.split("=", 1)
 			if lparam == parts[0].lower().strip() :
 				result = parts[1].strip()
-				if interpretation :
-					try :
-						result = int(result)
-					except ValueError :
-						pass
 				return result
 		return default # not found
 		

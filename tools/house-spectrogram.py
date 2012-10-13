@@ -81,10 +81,10 @@ else :
 	counter = 0
 	for obj in Data :
 		type = obj.ask("type", "?").lower()
-		level = obj.ask("level")
-		if (level != None) and (type in output.keys()) :
-			intro = max(int(obj.ask("intro_year", "1800", False)), min_year)
-			retro = min(int(obj.ask("retire_year", "5000", False)), max_year)
+		level = int(obj.ask("level", -1))
+		if (level != -1) and (type in output.keys()) :
+			intro = max(int(obj.ask("intro_year", 1800)), min_year)
+			retro = min(int(obj.ask("retire_year", 5000)), max_year)
 			for year in xrange(intro, retro + 1) :
 				position = (level, year) # sparse matrix indexing
 				try :

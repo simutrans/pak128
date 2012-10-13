@@ -55,9 +55,9 @@ timedata = {
 	}
 
 for veh in Data :
-	intro = veh.ask("intro_year", 0)
-	outro = veh.ask("retire_year", 5000)
-	speed = veh.ask("speed", 0)
+	intro = int(veh.ask("intro_year", "0"))
+	outro = int(veh.ask("retire_year", "5000"))
+	speed = int(veh.ask("speed", "0"))
 	way = veh.ask("waytype")
 	if way != None and speed > 0 :
 		# is real?
