@@ -1,0 +1,11 @@
+Obj=building
+Name=french_park_1
+Type=cur
+Passengers=30
+intro_year=1900
+chance=100
+build_time=500
+Copyright=mEGa
+dims=1,1,1
+BackImage[0][0][0][0][0][0]=french_park_1.1.0
+BackImage[0][0][0][0][0][1]=french_park_1.1.1
