@@ -1,13 +1,11 @@
 Obj=building
-Type=cur
-Name=ABBYS_0
+Name=Abbaye
 Copyright=MHz & mEGa
+Type=cur
 Passengers=70
-climates=tropic,mediterran,temperate,tundra
-seasons=2
-
+dims=1,1,1
 BackImage[0][0][0][1][0][0]=abbys_0.1.0
 BackImage[0][0][0][0][0][0]=abbys_0.2.0
-
 BackImage[0][0][0][1][0][1]=abbys_0.1.1
 BackImage[0][0][0][0][0][1]=abbys_0.2.1
+
