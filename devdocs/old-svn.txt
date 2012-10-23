@@ -1,4 +1,4 @@
-The set has been originally developed outside versioning systems. SimuTranslator was originally meant for 
+The set has been originally developed outside versioning systems. SimuTranslator was originally meant for that purpose, but the data volume stretched php's limitations.
 
 First repository, hosted by Werner and later Timothy, received first commit in July 2008. Over time, it accumulated 1308 revisions, the last on 17th April 2011.
 

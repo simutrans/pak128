@@ -10,7 +10,7 @@ Rationale: no problems with case-sensitive filesystems and OSes, same with codep
 * absolutely no non-ascii characters (eg. בטרצש‗) in file names whatsoever
 * no spaces, use _ instead
 * don't use . dot, makeobj does not like it in image names
-* no Big_Letters or CamelCase, especially for images, all lower_case (but dat files don't matter that much)
+* lower_case is strongly preferred  to Big_Letters or CamelCase, especially for images
 * try to stay within lowercase alphanumeric and -_
 * all extensions (dat, png) lowercase
 
@@ -41,7 +41,7 @@ Summary: know what you are doing, keep up to date when working, don't make life 
 * do not forget to add commit message describing what the change brings
 * before starting any endeavour, update your working copy - so that you don't work in already deprecated environment
 * do not be afraid to try things in your local copy - with svn you can quickly return to the "official" state
-* try to keep comits "on topic" - when the changes belong to different categories, split them into more commits so that keeping track of what changed is easier
+* try to keep commits "on topic" - when the changes belong to different categories, split them into more commits so that keeping track of what changed is easier
 * if possible, optimize image file size when it changed anyway - with software such as pngcrush or optipng it is possible to reduce images typically by 15% and sometimes even 50% (but do keep them 24 bpp)
 * when adding archives, try to use the strongest format available - usually bz2; zip is weakest!
 
