@@ -1,7 +1,7 @@
 Obj=building
 Name=WOODEN_CHURCH
-Copyright=MHz
+Copyright=MHz & mEGa
 Type=cur
 Passengers=90
-climates=temperate,tundra,rocky
-BackImage[0][0][0][0][0]=wooden_church.1.0
+BackImage[0][0][0][0][0][0]=wooden_church.1.0
+BackImage[0][0][0][0][0][1]=wooden_church.1.1
