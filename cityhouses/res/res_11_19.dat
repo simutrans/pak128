@@ -1,10 +1,11 @@
 obj=building
 name=RES_11_19
-copyright=Patrick & Fabio Gonella
+copyright=Patrick & Fabio Gonella & Sarlock
 type=res
 level=19
 intro_year=1994
 retire_year=2999
+climates=rocky,tundra
 dims=1,1,1
 seasons=2
 needs_ground=1

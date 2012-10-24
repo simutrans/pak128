@@ -1,10 +1,11 @@
 obj=building
 name=RES_02_16
-copyright=MHz & Fabio Gonella
+copyright=MHz & Fabio Gonella & Sarlock
 type=res
 level=16
 intro_year=1906
 retire_year=1964
+climates=rocky,tundra
 dims=1,1,1
 seasons=2
 needs_ground=1

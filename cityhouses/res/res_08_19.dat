@@ -1,0 +1,17 @@
+obj=building
+name=RES_08_19
+copyright=Raven & Fabio Gonella
+type=res
+level=19
+intro_year=1970
+retire_year=2019
+climates=mediterran,desert,tropic
+dims=1,1,2
+seasons=2
+needs_ground=1
+#Summer
+backimage[0][0][0][0][0][0]=res_08_19.1.0
+backimage[1][0][0][0][0][0]=res_08_19.1.1
+#Winter
+backimage[0][0][0][0][0][1]=res_08_19.1.2
+backimage[1][0][0][0][0][1]=res_08_19.1.3
