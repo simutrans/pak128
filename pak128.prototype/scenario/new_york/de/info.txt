@@ -1,0 +1,20 @@
+Wir schreiben das Jahr 1960. Der Bürgermeister von New York hat eine
+große Vision: eine Stadt mit einem nützlichen und effizienten öffentlichen
+Verkehrssystem. Für dieses Ziel sammelt er Gelder von allen Städten der Region,
+ingesamt 2 Millionen.
+<br><br>
+Nun wird die Stelle eines Verkehrsmanagers ausgeschrieben. Folgende Fakten stellt der
+Bürgermeister zusammen:
+<br><br>
+Start:	1960<br>
+Verfügbare Mittel:	2.000.000<br>
+Einwohner:	2.200.000<br>
+Städte:	~80<br>
+Fabriken:	~70<br>
+Flughäfen: 	4<br>
+<br><br>
+Sie sind der einzige ernstzunehmende Bewerber --- Insider sprechen allerdings davon, dass Sie einfach
+nur der billigste sind...
+<br><br>
+Nichtsdestotrotz gewährt Ihnen der Bürgermeister Zugriff auf das Konto mit den
+Geldern zum Aufbau des Verkehrssystems.

@@ -1,0 +1,15 @@
+-- <it>Only trams</it> are allowed for transport.<br> <br>
+
+-- <it>Only single stations</it> (stops) of ONE tile. Never expand stations,
+to spread out, with parking places, post offices, bus stops or such.<br> <br>
+
+-- <it>Do not touch 3 stations: Cambridge TOP station, Ripon CS and
+Cambridge CS.</it> You can't change the exact locations of these
+stations. (34,39,0 - 25,45,5 - 18,55,0) All other stations you can remove
+or replace.<br> <br>
+
+-- You can change, expand, delete everything you want, and build
+anything new you like. You can build roads, you may use
+upper/lower land, and use more than one tram for a route, with
+double tracks and signals.<br> <br>
+

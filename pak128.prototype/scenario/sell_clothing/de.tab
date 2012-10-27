@@ -1,0 +1,26 @@
+You can set up routes anywhere on the map and service any existing industries.
+Außer folgenden Einschränkungen kannst du alles bauen und alle Industrien verbinden.
+-- <it>Only ships all allowed to cross the sound near Coventry. No bridges or tunnels allowed. </it>
+-- <it>Waren dürfen nur mit Schiffen über das Meer bei Coventry transportiert werden.</it><br><br>-- <it>Keine Brücken oder Tunnel übers Wasser.</it>
+You won the scenario!
+Du hast den Auftrag erfolgreich abgeschlossen und das Szenario gewonnen!
+<st>You lost!</st> <br> <br>You could not finish the goal within the given time frame.
+<st>Kündigung!</st> <br> <br>Das dauerte viel zu lange....
+<st>You lost!</st> <br> <br>You were not able to employ and keep running enough trawlers.
+<st>Kündigung!</st> <br> <br>Sie haben einfach zuwenig Fischkutter laufen.
+<st>You lost!</st> <br> <br>The is too much fish at the cannery.
+<st>Kündigung!</st> <br> <br>Dein Chef ist im wahrsten Sinne des Wortes stinksauer. Der letzte Trawler brachte das Lager und das Fass zum Überlaufen.
+You are running {trawler} trawlers, which delivered {fish} tons of fish. Too less, unfortunately.
+{trawler} Trawlers und {fish} Tonnen Fisch geliefert. Das reicht nicht.
+Your fishing transportation is running well.<br><br>No production at the steel works, yet.
+Die Fischerei läuft an. Gut gemacht!<br><br>Im Stahlwerk wird noch nicht gearbeitet.
+Steel is produced, your trawlers are running, and there are already {goods} goods at the supermarket in Coventry.
+Der Stahl stapelt sich, und die Hochöfen glühen.<br><br>Und es sind schon {goods} Güter in Coventry eingetroffen.
+The supermarket is selling canned fish quickly.<br><br>The textile factory is not yet producing.
+Die Bevölkerung von Coventry reißt dem Supermarkt die Fischkonserven aus den Händen. Und mit den Trawlern ist der Nachschub gesichert.<br><br>Leider ist im Ausgangslager der Textilfabrik noch gähnende Leere.
+The first crates of textiles can now be transported. You can are allowed to build bridges.<br><br>The supermarket in London is waiting for the first delivery.
+Der erste Stoffballen liegt in der Abholhalle. Ob die Erlaubnis Brücken bauen zu dürfen jetzt noch etwas bringt?<br><br>Jedenfalls sind die Regale im Supermarkt in London noch leer.
+London seems to love canned fish!<br><br>The citizens of Salisbury are waiting eagerly to test the fish.
+Die Londoner scheinen die Fischdosen zu lieben. Vielleicht solltest du noch Chips verkaufen?<br><br>Es ist noch nichts in Salisbury angekommen.
+You won!
+Gewonnen!

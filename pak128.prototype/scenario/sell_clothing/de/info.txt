@@ -1,0 +1,11 @@
+Dein Transportunternehmen hat den Auftrag bis zum Ende des Jahres
+{endyear}, Texilien nach Salisbury zu liefern.
+Um das dafür nötige Kapital zu bekommen, hast du ein Abkommen mit dem Besitzer der Konservenfabrik in Coventry.
+Er stellt dir ein Startkapital zur Verfügung, um seinen Betrieb ordentlich ans Laufen zu bringen.
+<br>
+<br>
+So lange du nicht pleite gehst und am 1.1.{endyear} keine Schulden da sind, hast du fast völlig freie Hand.
+<br>
+<br>
+Die Einschränkungen und Anforderungen die der Fabrikbesitzer vorgibt, werden dir nach und nach mitgeteilt.
+Dummerweise gibt es keine Frachtflugzeuge.

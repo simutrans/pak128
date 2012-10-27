@@ -1,0 +1,5 @@
+Der Bürgermeister legt in Absprache mit dem Stadtrat folgende Regeln fest:<br><br>
+-- keine neue Brücken oder Tunnel zum Queren des Hudson Rivers<br>
+-- über den East River kann beliebig gebaut werden <br>
+-- Abreißen von Gebäuden ist teuer (fünfmal teurer als normal) <br>
+-- es werden keine neuen Industrien gegründet

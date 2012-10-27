@@ -1,0 +1,12 @@
+-- <it>Nur Straßenbahnen</it> dürfen als Transportmittel benutzt werden.<br> <br>
+
+-- <it>Nur Einzelhaltestellen</it> bestehend aus einem Feld.
+Haltestellen dürfen nicht erweitert werden.<br> <br>
+
+-- <it>Die drei Stationen Cambridge TOP station, Ripon CS and
+Cambridge CS dürfen nicht verändert werden.</it> <br> <br>
+
+-- Alles andere auf der Karte darf verändert und abgerissen werden. Sie dürfen Straßen bauen,
+   Land anheben oder absenken. Sie dürfen ein gigantisches Straßenbahnnetz errichten: doppelspurig, mit allen Schikanen.
+<br> <br>
+

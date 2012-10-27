@@ -1,0 +1,9 @@
+Your transport company got the task to deliver textiles to Salisbury until the end of {endyear}.
+In order to obtain enough starting money you settled an agreement with the owner of the fish cannery in Coventry.
+<br>
+<br>
+As long as you are not going bankrupt, you will be given the freedom to start a transport company.
+<br>
+<br>
+The factory owner will tell you his requirements and restrictions in time.
+Unfortunately there are no freigth airplanes to bridge the landmasses between Coventry and Salisbury.

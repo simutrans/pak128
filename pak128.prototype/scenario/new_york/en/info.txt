@@ -1,0 +1,15 @@
+We are writing the year 1960 and the mayor of the City New York has a great vision, a city
+with a useful public transport system. So he starts to collect money from all towns in the
+area, including Jersey too. After a time the bank account shows 2.000.000 for his great vision.
+<br><br>
+Now he is looking up for a skilled manager of the new public transport company. Quite difficult,
+because nearly everyone is asking him a lot of questions. The mayor decided to create a list of facts:
+<br><br>
+start year:	1960<br>
+money:	2.000.000<br>
+inhabitants:	2.200.000<br>
+cities:	~80<br>
+factories:	~70<br>
+public airports : 	4<br>
+<br><br>
+As you are the only applicant for this fantastic job, the mayor hands over the bank account.

@@ -1,0 +1,11 @@
+<it>Goal 3:</it> <br> <br>
+The factory owner is enthusiastic about your results such that he requires you to employ {trawler} trawlers.
+However, the fish has to be processed now.
+Transport steel to the cannery, and transport the canned fish to the shopping mall in Coventry.
+<br><br>
+The cooling capacities at the cannery are not infinite. The factory owner will sack you if he smeels the fish,
+which happens if as much as 15000t fish are stored at the factory.
+In order to employ the demanded {trawler} trawlers, there is only one solution: Transport as much stell
+as soon as possible to the cannery.
+<br><br>
+Target: canned fish arrives at the shopping mall in Coventry, {trawler} Trawlers employed and running.

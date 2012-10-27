@@ -1,0 +1,7 @@
+<it> Stufe 1: </it><br><br>
+Bringe 1000t Fisch ins Lager der Konservenfabrik und beschäftige mindestens {trawler} Trawler.
+Da die Fischereibehörde besorgt um die Fischgründe ist, sind Tunnel und Brücken verboten.
+<br><br>
+Das Ganze sollte bis spätestens Ende 1930 erledigt sein.
+<br><br>
+Ziel: {trawler} Trawler, die Fisch transportiert haben, 1000t Fisch im Lager der Konservenfabrik.

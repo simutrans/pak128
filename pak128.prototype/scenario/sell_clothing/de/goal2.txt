@@ -1,0 +1,7 @@
+<it>Stufe 2:</it> <br> <br>
+Der Fisch für die Konservenproduktion ist da.
+Produziere nun bei London etwas Stahl.
+Um den Transport nach Coventry musst du dich erst in der nächsten Stufe kümmern.
+Du solltest jedenfalls eine Menge Geld dafür vorhalten...
+<br><br>
+Ziel: Stahl im Stahlwerk produziert.

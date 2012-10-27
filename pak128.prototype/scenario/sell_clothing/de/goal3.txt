@@ -1,0 +1,13 @@
+<it>Stufe 3:</it> <br> <br>
+Der Fabrikbesitzer ist so begeistert von deiner bisherigen Arbeit, dass er dir höhere Ziele setzt:
+Beschäftige {trawler} Trawler.
+Allerdings muss der Fisch nun verarbeitet werden.
+Liefere Stahl in die Konservernfabrik und dann Konserven in den Supermarkt in Coventry.
+Leider wird dir beim Kauf des Schiffes zum Stahltransport kein Rabatt eingeräumt und du musst den vollen Preis bezahlen.
+<br><br>
+Die Kühlkapazitäten in der Fischfabrik sind begrenzt. Der Fabrikbesitzer droht dir mit Kündigung,
+wenn du zuviel wertvollen Fisch anlieferst. Bei knapp 15000t Fisch in der Fabrik ist die Schmerzgrenze (und wohl
+auch die Geruchsgrenze) erreicht.
+Um also {trawler} Trawler zu beschäftigen, gibt es nur eine Lösung: Schaffe soviel Stahl heran wie nur möglich!
+<br><br>
+Ziel: Konserven im Supermarkt in Coventry angekommen, {trawler} Trawler beschäftigt.

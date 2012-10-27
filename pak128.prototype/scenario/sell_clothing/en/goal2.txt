@@ -1,0 +1,7 @@
+<it>Goal 2:</it> <br> <br>
+Now there is fish at the fish cannery, which is lacking the
+supply of steel. Produce some steel in the steel mill near London.
+You do not need to care about transporting it to Coventry now. But
+prepared to spend a lot of money for setting up such a transport route.
+<br><br>
+Target: steel is produced at the steel mill.

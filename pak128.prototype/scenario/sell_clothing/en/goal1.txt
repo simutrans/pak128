@@ -1,0 +1,7 @@
+<it> Sub-Goal 1: </it><br><br>
+Deliver 1000t of fish to the fish cannery while employing {trawler} Trawlers.
+A powerful seaman's lobby requires you use ships to transport good across the sound near Coventry.
+<br><br>
+You  have to accomplish this goal by the end of 1930.
+<br><br>
+Target: run {trawler} trawlers that transported fish, deliver 1000t of fish to the cannery.
