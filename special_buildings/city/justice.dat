@@ -1,10 +1,12 @@
 Obj=building
 Name=JUSTICE
-Copyright=MHz
+Copyright=MHz & mEGa
 Type=cur
 Build_Time=7600
 Chance=20
 Passengers=50
 Dims=1,1
-BackImage[0][0][0][0][0]=justice.2.0
-BackImage[0][0][0][1][0]=justice.1.0
+BackImage[0][0][0][0][0][0]=justice.2.0
+BackImage[0][0][0][1][0][0]=justice.1.0
+BackImage[0][0][0][0][0][1]=justice.2.1
+BackImage[0][0][0][1][0][1]=justice.1.1

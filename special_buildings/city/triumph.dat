@@ -1,9 +1,13 @@
 Obj=building
 Name=TRIUMPH
-copyright=MHz
+copyright=MHz & mEGa
 Type=cur
 Build_Time=20000
 Chance=25
 Passengers=90
+climates=mediterran, temperate
 Dims=1,1
-BackImage[0][0][0][0][0]=triumph.1.0
+BackImage[0][0][0][0][0][0]=triumph.1.0
+BackImage[0][0][0][0][0][0]=triumph.1.1
+BackImage[1][0][0][0][0][1]=triumph.1.2
+BackImage[1][0][0][0][0][1]=triumph.1.3

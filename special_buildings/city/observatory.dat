@@ -1,9 +1,12 @@
 Obj=building
 Name=OBSERVATORY
 Type=cur
-Copyright=MHz
+Copyright=MHz & mEGa
 Build_Time=18000
 Chance=33
 Passengers=30
 Dims=1,1
-BackImage[0][0][0][0][0]=observatory.1.0
+BackImage[0][0][0][0][0][0]=observatory.1.0
+BackImage[1][0][0][0][0][0]=observatory.1.1
+BackImage[0][0][0][0][0][1]=observatory.1.0
+BackImage[1][0][0][0][0][1]=observatory.1.1

@@ -1,11 +1,13 @@
 Obj=building
 Name=rmax_clock_tower
-Copyright=Rmax500
+Copyright=Rmax500 & mEGa
 Type=cur
 Passengers=30
 Build_Time=5800
 Chance=27
 intro_year=1950
 retire_year=2140
-BackImage[0][0][0][1][0]=rmax_clock_tower.1.0
-BackImage[0][0][0][0][0]=rmax_clock_tower.2.0
+BackImage[0][0][0][1][0][0]=rmax_clock_tower.1.0
+BackImage[0][0][0][0][0][0]=rmax_clock_tower.2.0
+BackImage[0][0][0][1][0][1]=rmax_clock_tower.1.1
+BackImage[0][0][0][0][0][1]=rmax_clock_tower.2.1

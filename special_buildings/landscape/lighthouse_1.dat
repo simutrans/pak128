@@ -1,6 +1,6 @@
 Obj=building
 name=Lighthouse_1
-copyright=MHz
+copyright=MHz & mEGa
 intro_year=1875
 type=cur
 passengers=15
@@ -9,5 +9,7 @@ location=Land
 chance=75
 needs_ground=1
 Dims=1,1
-BackImage[0][0][0][0][0]=lighthouse_1.2.0
-BackImage[0][0][0][1][0]=lighthouse_1.1.0
+BackImage[0][0][0][0][0][0]=lighthouse_1.2.0
+BackImage[0][0][0][1][0][0]=lighthouse_1.1.0
+BackImage[0][0][0][0][0][1]=lighthouse_1.2.1
+BackImage[0][0][0][1][0][1]=lighthouse_1.1.1

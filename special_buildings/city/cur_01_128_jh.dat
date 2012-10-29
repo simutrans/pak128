@@ -1,10 +1,13 @@
 Obj=building
 Name=CUR_01_128_JH
 Type=cur
-Copyright=Jan Polacek
+Copyright=Jan Polacek & mEGa
 Passengers=70
 Build_Time=15000
 Chance=20
+climates=desert,mediterran,temperate 
 Dims=1,1
-BackImage[0][0][0][0][0]=cur_01_128_jh.2.0
-BackImage[0][0][0][1][0]=cur_01_128_jh.1.0
+BackImage[0][0][0][0][0][0]=cur_01_128_jh.2.0
+BackImage[0][0][0][1][0][0]=cur_01_128_jh.1.0
+BackImage[0][0][0][0][0][1]=cur_01_128_jh.2.1
+BackImage[0][0][0][1][0][1]=cur_01_128_jh.1.1
