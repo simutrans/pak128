@@ -5,6 +5,7 @@ copyright=Raven
 
 type=stop
 waytype=track
+allow_underground=0
 
 # lowest level is 2!
 Level=2

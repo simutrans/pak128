@@ -8,6 +8,7 @@ enables_pax=1
 Dims=1,1,2
 NoInfo=1
 Level=9
+allow_underground=0
 intro_year =1870
 retire_year=1990
 #intro like standard track

@@ -15,6 +15,7 @@ type=stop
 waytype=road
 enables_ware=1
 Level=3
+allow_underground=2
 NoInfo=1
 Dims=1,1,4
 intro_year = 1887
