@@ -2,6 +2,9 @@
  * New York City scenario
  */
 
+/// version of script
+local version = 1
+
 /// specify the savegame to load
 map.file = "new_york.sve"
 
@@ -10,7 +13,7 @@ map.file = "new_york.sve"
 scenario.short_description = "New York"
 
 scenario.author = "ny911 (scripting by Dwachs)"
-scenario.version = "0.1"
+scenario.version = "0." + (version + 1)
 
 
 function get_info_text(pl)
@@ -51,6 +54,9 @@ local airports = {
 	new = { pos = [207, 731] }
 	tet = { pos = [162, 283] }
 }
+
+/// stores version of script, init with default 0
+persistent.version <- 0
 
 function start()
 {
@@ -104,6 +110,15 @@ function is_scenario_completed(pl)
 
 function resume_game()
 {
+	// check for script version
+	if ( !("version" in persistent) ){
+		persistent.version <- 0
+	}
+	// update forbidden tools if necessary
+	if ( persistent.version < version ) {
+		update()
+	}
+
 	city_midtown = city_x(398, 421)
 
 	// correct settings of savegame: no industries will be created
@@ -115,8 +130,10 @@ local governors_island = { x1=418, x2=437, y1=617, y2=650 }
 
 // no bridge across any of these tiles
 local hudson_river = [
-	{x=393, y=617},
-	{x=382, y=532},
+	{x=390, y=617},
+	{x=373, y=532},
+	{x=350, y=512},
+	{x=371, y=497},
 	{x=345, y=488},
 	{x=340, y=333},
 	{x=326, y=133},
@@ -133,13 +150,12 @@ local error_hudson = [
 
 function forbid_tools_on_hudson()
 {
-	local pl_list = [0, player_all]
+	persistent.version = version
+
 	for(local j=0; j<tools_not_allowed_on_hudson.len(); j++) {
-		foreach(pl in pl_list) {
 			for(local i=0; i<hudson_river.len()-1; i++) {
-				rules.forbid_way_tool_rect(pl, tools_not_allowed_on_hudson[j], wt_all, hudson_river[i], hudson_river[i+1], ttext(error_hudson[j]))
+				rules.forbid_way_tool_rect(player_all, tools_not_allowed_on_hudson[j], wt_all, hudson_river[i], hudson_river[i+1], ttext(error_hudson[j]))
 			}
-		}
 	}
 }
 
@@ -153,4 +169,33 @@ function is_work_allowed_here(pl, tool_id, pos)
 		return null
 	}
 	return null // null is equivalent to 'allowed'
+}
+
+// compatibility code follows
+// old versions of scenario had different forbidden rectangles
+local hudson_river_compatibility = [
+	[ // version 0
+		{x=393, y=617},
+		{x=382, y=532},
+		{x=345, y=488},
+		{x=340, y=333},
+		{x=326, y=133},
+		{x=308, y=0}
+	]
+]
+
+// update forbidden tools
+function update()
+{
+	local old_hudson_river = hudson_river_compatibility[ persistent.version ]
+	local pl_list = [0, player_all]
+
+	for(local j=0; j<tools_not_allowed_on_hudson.len(); j++) {
+		foreach(pl in pl_list) {
+			for(local i=0; i<old_hudson_river.len()-1; i++) {
+				rules.allow_way_tool_rect(pl, tools_not_allowed_on_hudson[j], wt_all, old_hudson_river[i], old_hudson_river[i+1])
+			}
+		}
+	}
+	forbid_tools_on_hudson()
 }
