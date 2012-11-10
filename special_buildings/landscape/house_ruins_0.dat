@@ -5,5 +5,5 @@ Type=cur
 Passengers=40
 climates=mediterran,temperate 
 dim=1,1
-BackImage[0][0][0][0][0]][0]=house_ruins_0.1.0
-BackImage[0][0][0][0][0]][1]=house_ruins_0.1.1
+BackImage[0][0][0][0][0][0]=house_ruins_0.1.0
+BackImage[0][0][0][0][0][1]=house_ruins_0.1.1
