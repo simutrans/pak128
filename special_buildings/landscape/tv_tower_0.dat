@@ -1,10 +1,12 @@
 Obj=building
 Name=TV_TOWER_0
+copyright=Patrick & mEGa
 Type=cur
 Passengers=20
-copyright=Patrick
-Dims=1,1
+intro_year=1945
 needs_ground=1
-climates=tropic,mediterran,temperate,tundra,rocky
-BackImage[0][0][0][1][0]=tv_tower_0.1.0
-BackImage[0][0][0][0][0]=tv_tower_0.2.0
+Dims=1,1
+BackImage[0][0][0][1][0][0]=tv_tower_0.1.0
+BackImage[0][0][0][0][0][0]=tv_tower_0.2.0
+BackImage[0][0][0][1][0][1]=tv_tower_0.1.1
+BackImage[0][0][0][0][0][1]=tv_tower_0.2.1
