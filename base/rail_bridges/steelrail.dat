@@ -1,12 +1,12 @@
 
 Obj=bridge
-name=SteelRail
+name=TRACK_280_BRIDGE
 copyright=Raven
 waytype=track
 
-topspeed=160
-cost=190000
-maintenance=1800
+topspeed=280
+cost=150000
+maintenance=2500
 max_lenght=10
 
 pillar_distance=1

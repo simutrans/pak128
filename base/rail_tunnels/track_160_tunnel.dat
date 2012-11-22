@@ -1,0 +1,33 @@
+#TUNNEL
+obj=tunnel
+name=TRACK_160_TUNNEL
+copyright=Fabio Gonella
+waytype=track
+cost=120000
+maintenance=1800
+topspeed=160
+max_weight=120
+intro_year=1930
+intro_month=1
+retire_year=2000
+retire_month=1
+icon=> track_160_tunnel.0.6
+cursor=track_160_tunnel.0.7,0,-16
+#SUMMER
+FrontImage[N][0]=track_160_tunnel.1.0
+BackImage[N][0]=track_160_tunnel.1.1
+FrontImage[S][0]=track_160_tunnel.1.2
+BackImage[S][0]=track_160_tunnel.1.3
+FrontImage[E][0]=track_160_tunnel.1.4
+BackImage[E][0]=track_160_tunnel.1.5
+FrontImage[W][0]=track_160_tunnel.1.6
+BackImage[W][0]=track_160_tunnel.1.7
+#WINTER
+FrontImage[N][1]=track_160_tunnel.2.0
+BackImage[N][1]=track_160_tunnel.2.1
+FrontImage[S][1]=track_160_tunnel.2.2
+BackImage[S][1]=track_160_tunnel.2.3
+FrontImage[E][1]=track_160_tunnel.2.4
+BackImage[E][1]=track_160_tunnel.2.5
+FrontImage[W][1]=track_160_tunnel.2.6
+BackImage[W][1]=track_160_tunnel.2.7

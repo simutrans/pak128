@@ -11,9 +11,11 @@ misc_GUI_64
 pedestrians
 powerlines
 rail_bridges
+rail_elevated
 rail_signals
 rail_stations
 rail_tracks
+rail_tunnels
 road_bridges
 road_elevated
 road_signs
@@ -24,5 +26,4 @@ schwebebahn_all
 smokes
 station_buildings
 tram_tracks
-tunnels_all
 water_all

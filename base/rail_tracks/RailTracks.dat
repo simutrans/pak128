@@ -86,47 +86,6 @@ ImageUp[12]=way-rails_1-128.0.7
 
 --------------------------------------------------------------------------------
 
-Obj=way
-Name=concrete_sleeper_track
-waytype=track
-cost=30000
-maintenance=800
-topspeed=160
-max_weight=150
-intro_year = 1932
-intro_month = 2
-copyright=Nabe & Napik
-# skin
-cursor=way-rails_2-128.1.12
-icon=> way-rails_2-128.1.11
-# rbis * animation
-Image[-]=way-rails_2-128.0.2
-Image[N]=way-rails_2-128.1.8
-Image[S]=way-rails_2-128.1.6
-Image[E]=way-rails_2-128.1.7
-Image[W]=way-rails_2-128.1.9
-Image[NS]=way-rails_2-128.0.0
-Image[EW]=way-rails_2-128.0.1
-Image[NSE]=way-rails_2-128.1.3
-Image[NSW]=way-rails_2-128.1.1
-Image[NEW]=way-rails_2-128.1.2
-Image[SEW]=way-rails_2-128.1.4
-Image[NSEW]=way-rails_2-128.1.0
-Image[NE]=way-rails_2-128.0.4
-Image[SE]=way-rails_2-128.0.6
-Image[NW]=way-rails_2-128.0.5
-Image[SW]=way-rails_2-128.0.3
-Diagonal[NE]=way-rails_2-128.0.12
-Diagonal[SE]=way-rails_2-128.0.14
-Diagonal[NW]=way-rails_2-128.0.13
-Diagonal[SW]=way-rails_2-128.0.11
-# hangtyp * animation
-ImageUp[3]=way-rails_2-128.0.9
-ImageUp[6]=way-rails_2-128.0.10
-ImageUp[9]=way-rails_2-128.0.8
-ImageUp[12]=way-rails_2-128.0.7
-
---------------------------------------------------------------------------------
 
 Obj=way
 Name=High_quality_track
