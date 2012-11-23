@@ -1,0 +1,30 @@
+obj=bridge
+name=ClassicRail
+copyright=Nabe
+waytype=track
+
+topspeed=95
+cost=65000
+maintenance=750
+
+pillar_distance=2
+max_lenght=16
+
+backPillar[S]=classicrail.2.3
+backPillar[W]=classicrail.2.1
+
+cursor=classicrail.1.0
+icon=> classicrail.2.0
+
+BackImage[NS]=classicrail.0.5
+BackImage[EW]=classicrail.0.4
+BackStart[N]=classicrail.0.0
+BackStart[S]=classicrail.0.2
+BackStart[E]=classicrail.0.1
+BackStart[W]=classicrail.0.3
+BackRamp[N]=classicrail.1.1
+BackRamp[S]=classicrail.1.3
+BackRamp[E]=classicrail.1.4
+BackRamp[W]=classicrail.1.2
+
+# EOF

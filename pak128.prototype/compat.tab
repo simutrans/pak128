@@ -396,5 +396,11 @@ concrete_tram_track
 Tram_Track_090_A
 SteelRail
 TRACK_160_BRIDGE
+RVg_Concrete_Rail_Bridge
+TRACK_120_BRIDGE
+ClassicRail
+TRACK_100_BRIDGE
 concrete_sleeper_track
 TRACK_160
+wooden_sleeper_track
+TRACK_120
