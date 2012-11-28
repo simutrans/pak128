@@ -1,0 +1,30 @@
+Obj=ground
+Name=Slopes
+copyright=Fabio Gonella from http://www.public-domain-image.com
+#
+# http://www.public-domain-image.com/textures-and-patterns-public-domain-images-pictures/rock-stone-texture-public-domain-images-pictures/rock-texture-stock-photo.jpg.html
+#
+# West
+Image[0][0]=-
+Image[1][0]=slope.1.0
+Image[2][0]=-
+Image[3][0]=slope.1.1
+Image[4][0]=slope.1.2
+Image[5][0]=slope.1.3
+Image[6][0]=-
+Image[7][0]=slope.1.4
+Image[8][0]=slope.1.7
+Image[9][0]=-
+Image[10][0]=-
+# North
+Image[11][0]=-
+Image[12][0]=slope.2.0
+Image[13][0]=-
+Image[14][0]=slope.2.1
+Image[15][0]=slope.2.2
+Image[16][0]=slope.2.3
+Image[17][0]=-
+Image[18][0]=slope.2.4
+Image[19][0]=slope.2.7
+Image[20][0]=-
+Image[21][0]=-
