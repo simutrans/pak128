@@ -77,9 +77,10 @@ intercity_road_length = 6000
 # Intercityroad with timeline: intercity_road[number]=name,intro-year,retire-year
 # .. number = 0..9 - up to ten different intercity_roads possible
 # .. name = name of an existing pak file
-intercity_road[0] = road_055,0,1910
-intercity_road[1] = road_070,1910,1965
-intercity_road[2] = road_130,1965,2999
+intercity_road[0] = road_070,1910,1965
+intercity_road[1] = road_090,1965,2999
+intercity_road[2] = road_055,1700,1910
+intercity_road[3] = road_030,0,1700
 
 # Type of city roads - must be available as PAK file.
 # Cityroad with timeline: city_road[number]=name,intro-year,retire-year
