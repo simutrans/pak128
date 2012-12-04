@@ -1,4 +1,25 @@
 
+
+simutrans128 (2.2.0) stable; urgency=high
+
+  * Fabio & mEGa decided to put some snow into our winter! Lots of city houses
+    and attractions reworked, added snow, rotations etc.
+  * Lots of new parks and sport facilities from mEGa
+  * Fabio's set of rail tracks, tunnels, bridges and elevated ways is finished
+  * A number of station extensions, a new truck stop and new depot
+  * Modern tram set from Fabio
+  * New doubledecker, futuristic buses, early concrete truck...
+  * Simutrans Fried Chicken - a new city consumer for meat, by Sarlock
+  * Tropical Mayan pyramid
+  * Rebalanced pricing of all modes of transport
+  * Minimap colours are not a mess any more!
+  * Narrow gauge addons should finally work
+  * ???
+  * Many other bugfixes and improvements - for more detailed list look at
+        history-pak128-svn.txt
+
+ -- Vladimir Slavik <slavik.vladimir@@seznam.cz> & the pak128 team  TODO:DATETIME
+
 simutrans128 (2.1.0) stable; urgency=low
 
   * Compatible Simutrans version: .111.2

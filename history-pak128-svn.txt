@@ -5,7 +5,40 @@ For full history or technical details see svn logs.
 Names in brackets after message list the author/originator of change. It does not necessarily have to be member of pak128 team - external contributors are there as well.
 
 
-
+04.12.2012
+	- fix problems with locomotive balancing (Zeno)
+03.12.2012
+	- new graphics for high school (mEGa)
+30.11.2012
+	- new attraction - tennis court (mEGa)
+28.11.2012
+	- new graphics for "grass stadium" (mEGa)
+	- new slope wall textures (Fabio)
+23.11.2012
+	- add meat consuming city industry - SFC (Sarlock)
+22.11.2012
+	- start replacing rail tracks with Fabio's set (Fabio)
+	- add rugby stadium (mEGa)
+20.11.2012
+	- add AEC Aclo Regent III double decker (Zeno)
+02.11.2012
+	- sort stations into underground and overground types (VS)
+31.10.2012
+	- rail vehicle price and maintenance balancing (Zeno)
+27.10.2012
+	- add scripted scenarios (dwachs)
+21.10.2012
+	- new house (Sarlock)
+17.10.2012
+	- add new truck drive-through stop (VS)
+	- the Winter project expands to tourist attractions (mEGa)
+	- add two new parks and a skiing resort (mEGa)
+08.10.2012
+	- add Mayan temple tourist attraction (Zeno)
+07.10.2012
+	- add big container crane (Zeno)
+06.10.2012
+	- start of the Winter in city project (Fabio)
 30.09.2012
 	- add set of trams (Fabio)
 29.09.2012
