@@ -43,8 +43,19 @@ def flushStd() :
 
 def ensurePath(path) :
 	"""Grants that the target directory exists."""
-	if not os.path.isdir(path) :
-		os.makedirs(path) # fails if there is already something with the name but not a dir
+	parts = os.path.split(path)
+	for i in range(len(parts)) :
+		# iterate progressively deeper into suggested tree
+		thispath = os.path.join(*parts[:i+1])
+		if os.path.isdir(thispath) :
+			pass # already exists
+		elif os.path.exists(thispath) :
+			raise Exception("Path contains a file and can not be created!")
+		else :
+			# can be only a missing dir at this point
+			os.mkdir(thispath)
+	# if not os.path.isdir(path) :
+		# os.makedirs(path) # fails if there is already something with the name but not a dir
 
 def fix(caller, path, info) :
 	"""Attempts to forcefully remove a filesystem object."""
@@ -143,6 +154,7 @@ class Entry :
 			"COMMANDS-BEFORE" : [],
 			"COMMANDS-MIDDLE" : [],
 			"COMMANDS-AFTER" : [],
+			"REM" : [],
 		}
 		self.workdir = ""
 		self.data["OPTIONS"]["cmd"] = "makeobj"
