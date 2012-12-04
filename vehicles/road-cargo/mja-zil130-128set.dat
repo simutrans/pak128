@@ -9,13 +9,13 @@ Retire_Year=1996
 Retire_Month=8
 
 Waytype=road
-Engine_type=Diesel
+Engine_type=diesel
 Smoke=Diesel
 
 Sound=engine-start-diesel-1.wav
 
-Cost=554000
-RunningCost=37
+Cost=2081000
+RunningCost=74
 Speed=90
 Gear=56
 Power=127

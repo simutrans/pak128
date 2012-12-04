@@ -8,13 +8,13 @@ Retire_Year=1978
 Retire_Month=10
 
 Waytype=road
-Engine_type=Diesel
+Engine_type=diesel
 Smoke=Diesel
 
 Sound=truck.wav
 
-Cost=537000
-RunningCost=35
+Cost=2015000
+RunningCost=70
 Speed=90
 Gear=61
 Power=195
