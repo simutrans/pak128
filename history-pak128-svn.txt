@@ -60,7 +60,7 @@ Names in brackets after message list the author/originator of change. It does no
 	- enable menu for narrow gauge (VS)
 	- add electrification remove tools (VS)
 09.05.2012
-	- update prices for all vehicles except trams and ships (zeno)
+	- update prices for all vehicles except trams and ships (Zeno)
 10.03.2012
 	- new station waiting hall (mEGa)
 
@@ -119,7 +119,7 @@ Names in brackets after message list the author/originator of change. It does no
 16.06.2011
 	- Fix zooming icon on large warehouse (VaclavMacurek)
 23.05.2011
-	- Change cacti into groundobjs to prevent forests (VS)
+	- Change cacti into ground objects to prevent forests (VS)
 18.05.2011
 	- Add player colour to rail depot (Sim)
 15.05.2011
@@ -183,9 +183,9 @@ Names in brackets after message list the author/originator of change. It does no
 23.02.2011
 	- Expand Boeing 777 & add 757 series (Zeno)
 22.02.2011
-	- Repository moved to Timothy's server, acessible again
+	- Repository moved to Timothy's server, accessible again
 07.02.2011
-	- Add makefile (sdog)
+	- Add makefile (Sdog)
 19.01.2011
 	- Expand Boeing 747 series (Zeno)
 23.01.2011
@@ -210,7 +210,7 @@ Names in brackets after message list the author/originator of change. It does no
 	- Replace graphics on modern warehouse (Zeno)
 	- Add player colour to tank railcar (Zeno)
 06.12.2010
-	- Lower RCs for uderground (Zeno)
+	- Lower RCs for underground (Zeno)
 04.12.2010
 	- Add rules for house construction inside blocks (VS)
 17.11.2010
@@ -223,7 +223,7 @@ Names in brackets after message list the author/originator of change. It does no
 26.10.2010
 	- Replaced all ships (Zeno)
 23.10.2010
-	- Fix swapped mail & psg on Z-2000 (Zeno)
+	- Fix swapped mail & pax on Z-2000 (Zeno)
 13.10.2010
 	- Add icons for status bar (DirrrtyDirk)
 06.10.2010
@@ -264,7 +264,7 @@ Names in brackets after message list the author/originator of change. It does no
 20.05.2010
 	- Correct tree alignment (VS)
 07.05.2010
-	- New power plants: geothermal, solar ponds (vilvoh)
+	- New power plants: geothermal, solar ponds (Vilvoh)
 04.05.2010
 	- Add missing needs_ground for Zeno's cannery (VS)
 01.05.2010
@@ -286,7 +286,7 @@ Names in brackets after message list the author/originator of change. It does no
 ## pak128 version 1.4.6 ##
 
 24.02.2010
-	- new set of solar power plants (vilvoh)
+	- new set of solar power plants (Vilvoh)
 	- add old style cannery (Zeno)
 	- replaced some rail wagon graphics (VS)
 30.01.2010
@@ -318,7 +318,7 @@ Names in brackets after message list the author/originator of change. It does no
 26.10.2009
 	- realigned some trucks (Martin)
 22.10.2009
-	- new graphics for monorail/schwebebahn depot (vilvoh)
+	- new graphics for monorail/schwebebahn depot (Vilvoh)
 13.10.2009
 	- menu updates (DirrrtyDirk)
 21.09.2009
@@ -362,7 +362,7 @@ Names in brackets after message list the author/originator of change. It does no
 	- fix some vehicles not showing on electric tab (VS)
 	- do not merge vehicles' pak files (VS)
 01.04.2009
-	- fix statues being the only lv60 buildings in early eras (VS)
+	- fix statues being the only level 60 buildings in early eras (VS)
 24.03.2009
 	- update concrete truck graphics (VS)
 08.03.2009
@@ -371,7 +371,7 @@ Names in brackets after message list the author/originator of change. It does no
 27.02.2009
 	- fix late retire dates for tenders (VS)
 24.02.2009
-	- another attempt to fix SBB IC2000 (whoami)
+	- another attempt to fix SBB IC2000 (Whoami)
 	- increased maintenance of gravel road from 20 to 50; numbers are recalculated for length of game month! (VS)
 21.02.2009
 	- moved from special toolbar to editor toolbar: plant forest, found new city (VS)
@@ -408,15 +408,15 @@ Names in brackets after message list the author/originator of change. It does no
 	- change oilfield graphic to better from MHz (VS)
 	- add reduced trolleybus pack from TommPa9 (VS)
 13.01.2009
-	- add button for making stop public (Frank, werner)
+	- add button for making stop public (Frank, Werner)
 04.01.2009
-	- fix needs_ground isue with station (Frank)
+	- fix needs_ground issue with station (Frank)
 24.12.2008
 	- added caboose wagons for small passenger transport on freight trains (VS)
 23.12.2008
-	- add button for enlarging map (werner)
+	- add button for enlarging map (Werner)
 	- lower trolleybus catenary maintenance again: 15->5 (VS)
-	- change field settings for farms to 80 and apropriate production (VS)
+	- change field settings for farms to 80 and appropriate production (VS)
 	- increase minimal factory distance from 6 to 20 (VS)
 20.12.2008
 	- some cargo steam locos can now be coupled (VS)
@@ -429,21 +429,21 @@ Names in brackets after message list the author/originator of change. It does no
 11.12.2008
 	- added cotton fields (VS)
 06.12.2008
-	- added toolbar icons for maglev (gauthier)
+	- added toolbar icons for maglev (Gauthier)
 04.12.2008
-	- added maglev to menu toolbars (gauthier)
+	- added maglev to menu toolbars (Gauthier)
 23.11.2008
 	- new experimental prices for locomotives (Zeno)
 19.11.2008
 	- Add: monorail texts are again specific in pak128 (schwebebahn) (Frank)
 09.11.2008
-	- Fix: canal stop didn't accept mail (yoshi)
+	- Fix: canal stop didn't accept mail (Yoshi)
 03.11.2008
 	- Made trolleybus catenary more expensive: 1->15 (VS)
 14.10.2008
-	- New city rules (fabio)
+	- New city rules (Fabio)
 10.10.2008
-	- Allowed trucks and trailers without retire dates to combine (werner)
+	- Allowed trucks and trailers without retire dates to combine (Werner)
 09.10.2008
 	- Added new cotton farm (Patrick)
 03.10.2008
@@ -451,7 +451,7 @@ Names in brackets after message list the author/originator of change. It does no
 02.10.2008
 	- fixed wrong Dims for factory publisher - caused empty rotations (VS)
 27.09.2008
-	- menuconf.tab entries (key + and -) for: allow manual change of daylight (available since ST r2031:) (whoami)
+	- menuconf.tab entries (key + and -) for: allow manual change of daylight (available since ST r2031:) (Whoami)
 25.09.2008
 	- Powerline bridge graphics (VS)
 22.09.2008
@@ -471,7 +471,7 @@ Names in brackets after message list the author/originator of change. It does no
 	- removed outdated copyright lines for my work in the .dat file (DirrrtyDirk)
 10.09.2008
 	- Corrected wrong traffic lights in 2 directions (DirrrtyDirk)
-	- re-enabled shortcut l for powerline in menuconf.tab (whoami)
+	- re-enabled shortcut l for powerline in menuconf.tab (Whoami)
 	- Added Passenger/Mail/Goods symbols to all icons on stops and extension buildings where missing (DirrrtyDirk)
 09.09.2008
 	- Changed cursor for traffic lights (red now on top, green at the bottom) (DirrrtyDirk)
@@ -482,22 +482,22 @@ Names in brackets after message list the author/originator of change. It does no
 01.09.2008
 	- added lights to "Tigress" high speed train (DirrrtyDirk)
 31.08.2008
-	- copying citylist_*.txt files from Pak128 1.3.5 (from both pak128/text/ and text/, renaming conflicting older ones) (whoami)
-	- setting all monorail buildings (esp. depot) to intro date 3/1901, because they are needed in the game then. (whoami)
-	- syntax error in dat caused missing back image of train depot (whoami)
+	- copying citylist_*.txt files from Pak128 1.3.5 (from both pak128/text/ and text/, renaming conflicting older ones) (Whoami)
+	- setting all monorail buildings (esp. depot) to intro date 3/1901, because they are needed in the game then. (Whoami)
+	- syntax error in dat caused missing back image of train depot (Whoami)
 30.08.2008
-	- del climates jungle (old_powerplant.dat) (FrankP)
+	- deleted climates jungle (old_powerplant.dat) (FrankP)
 29.08.2008
 	- changed pillars bridge ClassicRail (way-bridges-rail_concrete_1-128.png) (DirrrtyDirk)
 25.08.2008
 	- changed bonus speed for water and air (speedbonus.tab) (FrankP)
 16.08.2008
-	- undoing certain changes to train signals - don't work as intended / as documented (whoami)
+	- undoing certain changes to train signals - don't work as intended / as documented (Whoami)
 10.08.2008
-	- corrected train signals .DAT (most changes only for compliance with the rules) (whoami)
-	- fix graphics errors in privat-traffic_lights-128.png (whoami)
+	- corrected train signals .DAT (most changes only for compliance with the rules) (Whoami)
+	- fix graphics errors in privat-traffic_lights-128.png (Whoami)
 07.08.2008
-	- fix hq (FrankP)
+	- fix HQ (FrankP)
 05.08.2008
 	- fix key 'e' in menuconf.tab (FrankP)
 04.08.2008
@@ -508,14 +508,14 @@ Names in brackets after message list the author/originator of change. It does no
 20.07.2008
 	- fix free_route Classic_ChooseSignals_right (FrankP)
 16.07.2008
-	- del double intro_year choosesign_digital_jp (FrankP)
+	- deleted double intro_year choosesign_digital_jp (FrankP)
 14.07.2008
 	- animated water (FrankP)
 13.07.2008
 	- optimizing graphics and animation factory Moebelhaus (a0-homemarket-128.png, factories-wood-128.dat); pak file size 3 MB -> 410 kB (FrankP)
-	- fix grafics bug car_factory.png (FrankP)
-	- fix and optimizing grafics and animation factory Materialswholesale (a0-materialswholesale-128.png, factories-material-128.dat); pak file size 777 kB -> 81 kB (FrankP)
-	- optimizing grafics and animation factory Sandquarry (a0-Sandquarry-128.png, factories-material-128.dat); pak file size 393 kB -> 145 kB (FrankP)
+	- fix graphics bug car_factory.png (FrankP)
+	- fix and optimizing graphics and animation factory Materialswholesale (a0-materialswholesale-128.png, factories-material-128.dat); pak file size 777 kB -> 81 kB (FrankP)
+	- optimizing graphics and animation factory Sandquarry (a0-Sandquarry-128.png, factories-material-128.dat); pak file size 393 kB -> 145 kB (FrankP)
 	- change pillar bridge ClassicRoad (way-bridges-road_1-128.png) (FrankP)
 12.07.2008
 	- fix rail-road-crossing (barriers and special colors) (FrankP)
@@ -524,11 +524,12 @@ Names in brackets after message list the author/originator of change. It does no
 	- fix dims factory Moebelhaus (factories-wood-128.dat) (FrankP)
 	- change fountain 01_CITY (FrankP)
 09.07.2008
-	- change trees; del hight, add seasons, change image (FrankP)
-	- add cursors fagonella bus stops (FrankP)
+	- change trees; deleted height, add seasons, change image (FrankP)
+	- add cursors Fabio bus stops (FrankP)
 08.07.2008
 	- add cursor for 1940AirDepot (FrankP)
-	- possition cursor Airport-1930 and Luftdepot1920 (FrankP)
+	- position cursor Airport-1930 and Luftdepot1920 (FrankP)
 06.07.2008
 	- change menu, cursor and player buildings for simutrans 0-100.0 (FrankP)
 	- change button powerlines : pixel -> render (FrankP)
+	

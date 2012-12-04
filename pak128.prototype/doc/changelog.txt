@@ -79,7 +79,7 @@ simutrans128 (1.4.5) stable; urgency=low
 
   * Compatible Simutrans version: .102.0
   * Support for landscape rivers (Fabio)
-  * Industry rebalancing
+  * Industry re-balancing
   * Many other bugfixes and improvements - for more detailed list look at
         history-pak128-svn.txt
 
@@ -98,7 +98,7 @@ simutrans128 (1.4.4) stable; urgency=low
   * Many other bugfixes and improvements - for more detailed list look at
         history-pak128-svn.txt
 
- -- Vladimir Slavik <vs@@vs.simutrans.com> & the pak128 team  28 Jan 2009 18:35:00 +0100
+ -- Vladimir Slavik <slavik.vladimir@@seznam.cz> & the pak128 team  28 Jan 2009 18:35:00 +0100
 
 
 simutrans128 (1.4.3) unstable; urgency=low
@@ -112,15 +112,15 @@ simutrans128 (1.4.3) unstable; urgency=low
   * Various image fixes
   * Fixed many sound issues
 
- -- Vladimir Slavik <vs@@vs.simutrans.com>  19 Apr 2008 18:49:00 +0100
+ -- Vladimir Slavik <slavik.vladimir@@seznam.cz>  19 Apr 2008 18:49:00 +0100
 
 
-simutrans128 (1.4.2.1, 1.4.2.2) unofficial
+simutrans128 (1.4.2.1, 1.4.2.2) unofficial; urgency=high
 
-  * ??? - important changes listed above
+  * important changes listed above
   * Many thanks to those who helped!
 
- -- Fabio Gonella, Whoami  ???
+ -- Fabio Gonella, Whoami
 
 
 simutrans128 (1.4.2) stable; urgency=low
@@ -128,12 +128,12 @@ simutrans128 (1.4.2) stable; urgency=low
   * Compatible Simutrans version: .99.09
   * Added Secession Chapel and Old Tower curiosity buildings from Gelion
   * Added city buildings from Gelion
-  * Added residental buildings and hotel from Rmax (prepared by VS)
+  * Added residential buildings and hotel from Rmax (prepared by VS)
   * Added house from shunter (prepared by VS)
   * Added new signals from Fabio
   * Corrected white stalk for empty Aveco Eurocargo
 
- -- Tomas Kubes <t_kubes@yahoo.com>  3 Mar 2007 22:00:00 +0100
+ -- Tomas Kubes <t_kubes@@yahoo.com>  3 Mar 2007 22:00:00 +0100
 
 
 simutrans128 (1.4.1) stable; urgency=low
@@ -141,12 +141,12 @@ simutrans128 (1.4.1) stable; urgency=low
   * Compatible Simutrans version: .99.08.1
   * Corrected ethanol distribution bug
   * Corrected IC2K bug
-  * Added new water from Fagonella
-  * Added new car factory graphics from Joker (has a deffierent size, but backward compability is preserved - will use old grpahics in such case)
+  * Added new water from Fabio
+  * Added new car factory graphics from Joker (has a different size, but backward compatibility is preserved - will use old graphics in such case)
   * Added midi files from pak64
   * Adjusted package structure for version .99.08
 
- -- Tomas Kubes <t_kubes@yahoo.com>  10 feb 2007 23:00:00 +0100
+ -- Tomas Kubes <t_kubes@@yahoo.com>  10 feb 2007 23:00:00 +0100
 
 
 simutrans128 (1.4.0) stable; urgency=low
@@ -156,21 +156,21 @@ simutrans128 (1.4.0) stable; urgency=low
   * Grain is now lightweight goods too (together with corn, cotton, and wool)
   * Introduced ethanol chain corn field (corn) -> ethanol plant (ethanol) -> modern gas station (images from Rmax500)
   * Changed graphics for the steel mill, now 4x4 (from Rmax500)
-  * Chnaged graphics for the goods factory, now 3x3 (from Rmax500)
-  * Changed graphics for the coal mine, nox 4x4 (from Rmax500)
+  * Changed graphics for the goods factory, now 3x3 (from Rmax500)
+  * Changed graphics for the coal mine, now 4x4 (from Rmax500)
   * Be careful, change of factory sizes introduced SAVEGAME INCOMPATIBILITY (you can get compatibility pack)
   * Set climates for some factories
-  * Added new set of arabic styled townhalls for desert climates from Rmax500 (prepared by Fagonella)
+  * Added new set of Arab style townhalls for desert climates from Rmax500 (prepared by Fabio)
   * Added level 5 normal townhall
 
- -- Tomas Kubes <t_kubes@yahoo.com>  17 Jan 2007 23:00:00 +0100
+ -- Tomas Kubes <t_kubes@@yahoo.com>  17 Jan 2007 23:00:00 +0100
 
 
 simutrans128 (1.3.8) stable; urgency=low
 
   * Compatible Simutrans version: .99.05.1
   * Increased city hall fountain animation speed
-  * Repaired city building error for com level 15-19, thaks VS, cause still unknown
+  * Repaired city building error for com level 15-19, thanks VS, cause still unknown
   * Added trucks: mja-ScaniaR620Topline, mja-ScaniaR500Topline, mja-ScaniaR500Topline_goods, mja-ScaniaR500Topline_cooledgoods, mja-ScaniaP380_tanker, mja-ScaniaP380_fabrics, mja-ScaniaP420_concretemixer, mja-ScaniaP420_longgoods, mja-volvoVN660, Big_Erztruck, MS_sprinter_mail, Nishitetsu_Truck, MS_Hino_goodsTruck, Highway_Postal_Truck, Kuro-Neko_Truck, Pelican_Truck, Hikyaku_Truck, Container_Truck
   * Added trams: kagoshima_U-tram, okaden_type9200_momo (unit)
   * Added busses: Tobu_Bus, Tobu_Highway_Bus, Tobu_Dial_Bus, Asahi_Bus, Tobu_Truck, Airport_express_shuttle
@@ -181,7 +181,7 @@ simutrans128 (1.3.8) stable; urgency=low
   * Adjusted truck+trailer matching (3 new trucks were introduced)
   * Added copyrights to some rail vehicles
 
- -- Tomas Kubes <t_kubes@yahoo.com>  17 Dec 2006 23:00:00 +0100
+ -- Tomas Kubes <t_kubes@@yahoo.com>  17 Dec 2006 23:00:00 +0100
 
 
 simutrans128 (1.3.7) stable; urgency=low
@@ -201,27 +201,27 @@ simutrans128 (1.3.7) stable; urgency=low
   * Choose point signal and sign fixed (tested for cars)
   * Added a modern choose point sign from J.Sawabushi
   * Top speed of low quality track decreased to 65 km/h to compensate for low maintenance (80 cents)
-  * Powerliens cost lowered to 350cr
+  * Powerlines cost lowered to 350cr
   * Wind turbine productivity increased to 15-30 units
   * Average consumption of markets was increased, and range of consumption speeds was decreased
 
- -- Tomas Kubes <t_kubes@yahoo.com>  25 Nov 2006 22:00:00 +0100
+ -- Tomas Kubes <t_kubes@@yahoo.com>  25 Nov 2006 22:00:00 +0100
 
 
 simutrans128 (1.3.6.a) stable; urgency=low
 
   * Compatible Simutrans version: .99.02.1
   * Fixed black signal image
-  * Paper is now crate goods cathegory
+  * Paper is now crate goods category
   * Fixed engine constraints (5 locos, IC2K set)
 
- -- Tomas Kubes <t_kubes@yahoo.com>  19 Oct 2006 22:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  19 Oct 2006 22:00:00 +0200
 
 
 simutrans128 (1.3.6) stable; urgency=low
 
   * Compatible Simutrans version: .99.02.1
-  * Wood and plancks are now in long goods cathegory
+  * Wood and planks are now in long goods category
   * Added runway lights for modern runway (from Shunter)
   * New airport one way markers
   * Fixed choose loading bay sign
@@ -237,10 +237,10 @@ simutrans128 (1.3.6) stable; urgency=low
   * Added a wind turbine powerplant from Raven (jumps but no solution known)
   * Some curiosity buildings have their ground removed
   * Added great TV tower (from A. Brose)
-  * Added new canals from Fagonella
+  * Added new canals from Fabio
   * Next release will bring new factories from Rmax (will not be backward compatible!!!)
 
- -- Tomas Kubes <t_kubes@yahoo.com>  16 Oct 2006 21:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  16 Oct 2006 21:00:00 +0200
 
 
 simutrans128 (1.3.5) stable; urgency=low
@@ -254,7 +254,7 @@ simutrans128 (1.3.5) stable; urgency=low
   * Added images for all cargoes for 17 trucks and trailers (painted by VS)
   * Discarded 1 truck and 1 trailer
 
- -- Tomas Kubes <t_kubes@yahoo.com>  01 Oct 2006 22:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  01 Oct 2006 22:00:00 +0200
 
 
 simutrans128 (1.3.5) stable; urgency=low
@@ -262,11 +262,11 @@ simutrans128 (1.3.5) stable; urgency=low
   * Compatible Simutrans version: .99.01.0
   * Updated commercial buildings climate definitions (by Gunter Beine)
   * Added tree climate definitions
-  * Switched to new ground definitions (files from Kerion)
+  * Switched to new ground definitions (files from Kieron)
   * Updated ground textures
   * Added new Simu logos (Prissi & ?)
 
- -- Tomas Kubes <t_kubes@yahoo.com>  23 Sep 2006 20:50:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  23 Sep 2006 20:50:00 +0200
 
 
 simutrans128 (1.3.4) stable; urgency=low
@@ -278,19 +278,19 @@ simutrans128 (1.3.4) stable; urgency=low
   * Plane stop has transparent background
   * Added bus terminus from Timothy
   * Added 3rd rail electrification from Timothy
-  * Added new signals from Fagonella (need update)
+  * Added new signals from Fabio (need update)
   * Added new overhead wires from Raven
-  * Re-aded old overhead wires and rebalanced current set of electrifications (thnaks Yoshi)
+  * Re-added old overhead wires and rebalanced current set of electrifications (thanks Yoshi)
   * Improved electrification cursors and icons
   * Improved old HQ from MHz
-  * Added HQ lvl 2 from Rmax500
+  * Added HQ level 2 from Rmax500
   * Improved special construction cursor
   * Added monorail signals from Yoshi
-  * Added airport radar from Shunter (adjusted roataion speed)
+  * Added airport radar from Shunter (adjusted rotation speed)
   * Added airport one way signs from Shunter
   * Added Icarus Rocket from Rmax500
 
- -- Tomas Kubes <t_kubes@yahoo.com>  09 Sep 2006 23:50:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  09 Sep 2006 23:50:00 +0200
 
 
 simutrans128 (1.3.3) stable; urgency=low
@@ -304,9 +304,9 @@ simutrans128 (1.3.3) stable; urgency=low
   * Added 2 new Japan ferries
   * Added wood barge and wood boat from MHz
   * Added new planes from Raven (prepared by Patrick)
-  * Added courthouse from Rmax500, appears at size 30000, 40%, 135 psg. level
+  * Added courthouse from Rmax500, appears at size 30000, 40%, 135 pax. level
 
- -- Tomas Kubes <t_kubes@yahoo.com>  25 Aug 2006 23:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  25 Aug 2006 23:00:00 +0200
 
 
 simutrans128 (1.3.2) stable; urgency=low
@@ -317,16 +317,16 @@ simutrans128 (1.3.2) stable; urgency=low
   * New taxiways (old and new)
   * Added monument to manual writers (from Rmax500)
 
- -- Tomas Kubes <t_kubes@yahoo.com>  07 Aug 2006 19:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  07 Aug 2006 19:00:00 +0200
 
 
 simutrans128 (1.3.1) stable; urgency=low
 
   * Compatible Simutrans version: .88.10.5
-  * Added special buildings from rmax
-  * Added city buildings from rmax and Martin
+  * Added special buildings from Rmax
+  * Added city buildings from Rmax and Martin
 
- -- Tomas Kubes <t_kubes@yahoo.com>  30 Jul 2006 16:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  30 Jul 2006 16:00:00 +0200
 
 
 simutrans128 (1.3.0) stable; urgency=medium
@@ -334,26 +334,26 @@ simutrans128 (1.3.0) stable; urgency=medium
   * Compatible Simutrans version: .88.10.5
   * There are changes in packing of city buildings, clean installation is required!
   * Economic reform - revenues now match new speed bonuses (finally), changes of goods revenues, prices and running costs of all vehicles
-  * Many vehicles received retire times - depos will not be so crowded
-  * Added new suspended monorail stop from yoshi
-  * Added ground monorail and monorail bridge (yoshi & fagonella)
+  * Many vehicles received retire times - depots will not be so crowded
+  * Added new suspended monorail stop from Yoshi
+  * Added ground monorail and monorail bridge (Yoshi & Fabio)
   * Fixed many typos in vehicle stats
   * Updated graphics for old monorail stop
   * Added mysterious monument to Isaac
   * Fixed some copyright information
 
- -- Tomas Kubes <t_kubes@yahoo.com>  13 Jul 2006 16:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  13 Jul 2006 16:00:00 +0200
 
 
 simutrans128 (1.2.9.f) stable; urgency=low
 
   * Compatible Simutrans version: .88.10.5 (wrong pricing)
-  * Added new choose signals, reordered signal grpahics as proposed by Fagonella
-  * Replaced current monorail by Schwabenbahn from Yoshi, modified Patrick's cars to match it
+  * Added new choose signals, reordered signal graphics as proposed by Fabio
+  * Replaced current monorail by Schwebebahn from Yoshi, modified Patrick's cars to match it
   * Corrected way type for runways
   * Fixed fish swarm (will now display factory info window properly)
 
- -- Tomas Kubes <t_kubes@yahoo.com>  04 Jul 2006 22:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  04 Jul 2006 22:00:00 +0200
 
 
 simutrans128 (1.2.9.e) stable; urgency=low
@@ -364,15 +364,15 @@ simutrans128 (1.2.9.e) stable; urgency=low
   * Fixed prices for all road signs
   * Added 1990 airport building - painted by MHz, assembled by Marco
   * Added more construction sites
-  * Added 57 new city cars from propermike
+  * Added 57 new city cars from Propermike
   * Coal and wooden chains were rebalanced
   * Added 3 new tourist attractions from Rmax
-  * Added copyrights to som tourist attractions
+  * Added copyrights to some tourist attractions
   * Created remove menu icons
   * Changed special construction icon
-  * Added fences from fagonella
+  * Added fences from Fabio
 
- -- Tomas Kubes <t_kubes@yahoo.com>  03 Jul 2006 10:05:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  03 Jul 2006 10:05:00 +0200
 
 
 simutrans128 (1.2.9.d) stable; urgency=low
@@ -380,13 +380,13 @@ simutrans128 (1.2.9.d) stable; urgency=low
   * Compatible Simutrans version: .88.06.3 (wrong pricing)
   * Improved graphics for Tatra 815 Concrete (VS)
 
- -- Tomas Kubes <t_kubes@yahoo.com>  18 May 2006 21:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  18 May 2006 21:00:00 +0200
 
 
 simutrans128 (1.2.9.c) stable; urgency=low
 
   * Compatible Simutrans version: .88.05.1
-  * Internal change to the goods ca thegory numbers (for pak64 compatibility), should not be noticeable for players
+  * Internal change to the goods category numbers (for pak64 compatibility), should not be noticeable for players
   * All vehicles have their copyrights assigned (many thanks to Gunter for doing this!)
   * Added airport buildings for year 1920 from MHz (dat file created by Marco)
   * Added 1990 airport tower from MHz (dat file created by Marco)
@@ -397,11 +397,11 @@ simutrans128 (1.2.9.c) stable; urgency=low
   * Added two new station buildings from MHz
   * Added monorail ground (is in the special building menu)
   * Corrected type of monorail (elevated) stop
-  * Added parkings from Fagonella
+  * Added parkings from Fabio
   * Converted Sindor-Rohrbach_Rocco to aircraft (was ship before, updated graphics)
   * Converted sail ship engines from bio to sail
 
- -- Tomas Kubes <t_kubes@yahoo.com>  25 Mar 2006 22:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  25 Mar 2006 22:00:00 +0200
 
 
 simutrans128 (1.2.9.b) stable; urgency=low
@@ -411,10 +411,10 @@ simutrans128 (1.2.9.b) stable; urgency=low
   * Implemented workaround for tunnel W entrance
   * Improved station icons, fixed empty platform icon (by Marco)
   * Rail engine sounds fixed (were badly messed)
-  * Added 13 new city houses from variouis authors (dat file created by Gunter)
-  * Oil rigs and fishswarms will now accept goods and/or passangers properly
+  * Added 13 new city houses from various authors (dat file created by Gunter)
+  * Oil rigs and fish swarms will now accept goods and/or passengers properly
 
- -- Tomas Kubes <t_kubes@yahoo.com>  11 Mar 2006 11:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  11 Mar 2006 11:00:00 +0200
 
 
 simutrans128 (1.2.9.a) stable; urgency=low
@@ -422,19 +422,19 @@ simutrans128 (1.2.9.a) stable; urgency=low
   * Compatible Simutrans version: .88.04.3
   * This is only intermediate release to bring out some new features before major needed reworks for 88.04 are finished, there is still the pricing problem
   * Sounds compatible with .88.04 added
-  * Good symbols to station icons added (by marco)
+  * Good symbols to station icons added (by Marco)
   * Air symbol fixed
   * Air buildings are now automatically oriented, this leads to incompatibility with old names! (use compatibility directory 4 for your savegames)
   * Huge terminal now has 2 orientations
   * Cursors for 1930 airport buildings created (1950 were used before)
-  * Availa passanger station buildings will now appear in rail menu
+  * Avila passenger station buildings will now appear in rail menu
   * Added 88.04 related entries to the simuconf.tab
-  * Added a set of new busstops from Fagonella
-  * Added highway sign from Fagonella
+  * Added a set of new bus stops from Fabio
+  * Added highway sign from Fabio
   * Added 3 older city cars from MHz
   * Many base object names in English and Czech fixed
 
- -- Tomas Kubes <t_kubes@yahoo.com>  25 Feb 2006 17:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  25 Feb 2006 17:00:00 +0200
 
 
 simutrans128 (1.2.9) stable; urgency=low
@@ -442,7 +442,7 @@ simutrans128 (1.2.9) stable; urgency=low
   * Compatible Simutrans version: .88.04
   * This is only intermediate release to bring out some new features before major needed reworks for 88.04 are finished, there is still the pricing problem
   * Added a batch of 23 new city houses from MHz, Raven and Propermike (dat files created by Gunter)
-  * Added a batch of 20 new city houses from MHz, postprocessed by VS (dat file created by Gunter)
+  * Added a batch of 20 new city houses from MHz, post-processed by VS (dat file created by Gunter)
   * Adjusted supportive walls and basement definitions to match .88.04
   * Used new texture from MHz for supportive walls
   * Allowed classic road bridge to span unlimited lengths
@@ -450,21 +450,21 @@ simutrans128 (1.2.9) stable; urgency=low
   * Added new tree from MHz
   * Changed 2 old tree images to the "fallen tree" from MHz
 
- -- Tomas Kubes <t_kubes@yahoo.com>  10 Feb 2006 17:00:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  10 Feb 2006 17:00:00 +0200
 
 
 simutrans128 (1.2.8) stable; urgency=low
 
   * Compatible Simutrans version: .88.02.1
   * Added 3 engines: little steamer, older diesel, new electric
-  * Added 5 slower railunits spanning from 1940 to 2012
+  * Added 5 slower rail units spanning from 1940 to 2012
   * Added modern warehouse station building
   * added Tatra T3 Tram (from Haru)
-  * Cleaned all vehicles from unwanted occurences of player colors (Vladimir Slavik)
+  * Cleaned all vehicles from unwanted occurrences of player colors (Vladimir Slavik)
   * Added runway numbers (from MHz)
-  * Reverted to older iamges for rail electrification, as these fit tram tracks better
-  * Added passanger harbour from MHz
-  * Magalomaniacs can now build very big 3x3 squares large terminal from MHz
+  * Reverted to older images for rail electrification, as these fit tram tracks better
+  * Added passengers harbour from MHz
+  * Megalomaniacs can now build very big 3x3 squares large terminal from MHz
   * Added new slopes from Prissi
   * Adopted new graphics for 747 JumboJet from Haru (4 types)
   * Added NZ citylist from Colin to pak128/text folder (rename citlist_en_nz.txt to citylist_en.txt to use it)
@@ -474,7 +474,7 @@ simutrans128 (1.2.8) stable; urgency=low
   * Added monorail station
   * Updated translation texts.
 
- -- Tomas Kubes <t_kubes@yahoo.com>  29 Jan 2006 21:10:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  29 Jan 2006 21:10:00 +0200
 
 
 simutrans128 (1.2.7) stable; urgency=low
@@ -484,19 +484,19 @@ simutrans128 (1.2.7) stable; urgency=low
   * Drastically increased the consumption of gas station (up to 100-150 from 10-20)
   * Corrected rail signal graphics (was moving on places where it was not supposed to)
   * Implemented new canal graphics (from Patrick) + updated it slightly
-  * Upadted canal stop (Patrick)
+  * Updated canal stop (Patrick)
   * Improved positioning of canal stop (now has Back and Front image)
   * Added new 4 docks from MHz (discarded old one)
-  * Replaced oilrig image by new one from MHz
-  * Added author names for residental city buildigns (work of Gunter Beine)
-  * Added author names for industrial city buildigns (work of Gunter Beine)
+  * Replaced oil rig image by new one from MHz
+  * Added author names for residential city buildings (work of Gunter Beine)
+  * Added author names for industrial city buildings (work of Gunter Beine)
   * Added 7 new engines: 3 diesel shunters, 3 slower high power diesels, 1 slower electric (this should pull down the average speed in later years)
-  * Decreased runnig costs of some ships slightly
+  * Decreased running costs of some ships slightly
   * Added canal barges: MHz bulk barge (two tile - that was hard work) and 7 other ships (all from MHz)
-  * Added 5 new planes: 1 for goods, 1 for frozen goods, 2 for post and 1 for passangers (RVg and MHz), still have more to go
+  * Added 5 new planes: 1 for goods, 1 for frozen goods, 2 for post and 1 for passengers (RVg and MHz), still have more to go
   * Worked on plane prices (but not tested the results)
 
- -- Tomas Kubes <t_kubes@yahoo.com>  25 Dec 2005 21:10:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  25 Dec 2005 21:10:00 +0200
 
 
 simutrans128 (1.2.6) stable; urgency=low
@@ -512,7 +512,7 @@ simutrans128 (1.2.6) stable; urgency=low
   * Added 2 rail bridges from Japan (663) (still need aligning)
   * Changed builder symbol
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Sat, 23 Nov 2005 21:10:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Sat, 23 Nov 2005 21:10:00 +0200
 
 
 simutrans128 (1.2.5) stable; urgency=low
@@ -521,13 +521,13 @@ simutrans128 (1.2.5) stable; urgency=low
   * Drastically decreased speed bonuses for "slow" freight
   * Added new menu symbols for new functions (fast forward, list tools, edit tools)
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Sat, 23 Nov 2005 13:19:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Sat, 23 Nov 2005 13:19:00 +0200
 
 
 simutrans128 (1.2.4) stable; urgency=low
 
   * Compatible Simutrans version: .87.02
-  * Updated configs and texts to match new executable
+  * Updated config and texts to match new executable
   * Added new artificial slopes from MHz (finally we have properly textured perfect looking slopes)
   * Fixed many night color problems (thanks to VS and his Shades tool)
   * Added introduction dates for all city buildings
@@ -537,40 +537,40 @@ simutrans128 (1.2.4) stable; urgency=low
   * Added electricity and stop-plane symbols
   * Added autobahn bridge from Patrick (has other name)
   * Changed distribution weight for city cars (reducing bad ones to 1)
-  * Added 30 new city cars from propermike (now streets are really various - with timeline off)
+  * Added 30 new city cars from Propermike (now streets are really various - with timeline off)
   * Changed the category of plastic to the crate goods
   * Discarded some plastic carrying vehicles and converted others to cement
     BEWARE: this might cause save incompatibility, in that case use compatible3 directory.
-  * Added new Patricks trailers for older Macks (8 pieces)
+  * Added new Patrick's trailers for older Mack's (8 pieces)
   * Centered the ships on the tile, so that they will fit the canals better
   * Added intro dates to townhalls (1720)
   * Fixed the jumping townhall fountain problem (finally)
   * Added 4 new stations from Raven (small village stop, empty stop, 2 container stops)
-  * Adjusted intro and outro dates of stations so that only one of each type will be available at a time
+  * Adjusted intro and retire dates of stations so that only one of each type will be available at a time
   * Unified rail menu icons; now all icons are of the same size and direction, that make bureaucrats like me very happy
   * Created airplane icon in the menu (not yet functional)
   * Added RVg ship fleet - 7 pieces!
   * Added mail extension for modern liner ships (dare to not like it!)
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Sat, 18 Nov 2005 23:45:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Sat, 18 Nov 2005 23:45:00 +0200
 
 
 simutrans128 (1.2.3) stable; urgency=low
 
   * Compatible Simutrans version: .86.09.3 (also 86.10.1+)
-  * Added 3 houses - 2 residental, 1 commercial (fish market)
+  * Added 3 houses - 2 residential, 1 commercial (fish market)
   * Added 2 DMU's: HST, VT98 (Haru)
-  * Added Hiawatha Steam train set (RVg) - luxurious highspeeder
+  * Added Hiawatha Steam train set (RVg) - luxurious high speeder
   * Added Daylight Steam train set (RVg) - heavy and strong commuter
   * Added old Alladin EMU (RVg)
   * Added M1 EMU (RVg) - futuristic all purpose commuter,supports long trains
   * Added TGV Duplex EMU (RVg) (only single train allowed, due to too long graphics for heads)
   * Added Thunder 2 EMU (RVg)
-  * Added Tigress EMU (RVg) - ultimate passanger carrier
-  * Shuffeled the intro dates for various EMUs, now last introduction is at 2038 - Tigress 400 kmh
+  * Added Tigress EMU (RVg) - ultimate passenger carrier
+  * Shuffled the intro dates for various EMUs, now last introduction is at 2038 - Tigress 400 km/h
   * Added 2 more tourist buildings - circus, fort fun (MHz)
-  * Decreased passanger generation and lowered build times for city tourist b.
-  * Added WASTE CHAIN (waste collector -> waste incenerator [produces power])
+  * Decreased passenger generation and lowered build times for city tourist b.
+  * Added WASTE CHAIN (waste collector -> waste incinerator [produces power])
   * Waste is transported as regular bulk goods, pays bit better than coal
   * Added two new city cars - waste trucks
   * Finally made coal powerplant to smoke (man that was lot of work)
@@ -578,7 +578,7 @@ simutrans128 (1.2.3) stable; urgency=low
   * Added traffic light tool
   * Changed cursors for road signs - now they are absolutely clear
   * Added pillars to concrete bridge VS, fixed some alignment problems
-  * Added pillers for concrete road bridge
+  * Added pillars for concrete road bridge
   * Added length limits for all bridges
   * Added large set of city cars from Propermike
   * Added automated retire times for certain classes of vehicles (will be customized later) in general busses (25y), engines (50y), rail units (30y), trams (30y)
@@ -586,22 +586,22 @@ simutrans128 (1.2.3) stable; urgency=low
   * Added 2 Isaac US styled roads
   * Added 2 steam engines from Haru
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Mon, 03 Oct 2005 12:50:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Mon, 03 Oct 2005 12:50:00 +0200
 
 
 simutrans128 (1.2.2) stable; urgency=low
 
   * Compatible Simutrans version: .86.08.0
   * Upgraded pre-signals to 3 state graphics
-  * Upgraded 3 passanger waggons to new Ravens graphics, added player colors.
-  * Upgraded Albatros to new Raven's grapihics
+  * Upgraded 3 passenger waggons to new Ravens graphics, added player colors.
+  * Upgraded Albatross to new Raven's graphics
   * Upgraded Deltic with new images
   * Upgraded Marks Express wagons with their new graphics
   * Tunnel entrances split to two images again (back + front)
   * Implemented first part of new slope graphics
-  * Added Patricks' Mack trailers rematching
+  * Added Patrick's Mack trailers rematching
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Sat, 10 Sep 2005 12:50:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Sat, 10 Sep 2005 12:50:00 +0200
 
 
 simutrans128 (1.2.1) stable; urgency=low
@@ -614,10 +614,10 @@ simutrans128 (1.2.1) stable; urgency=low
   * Changed: Glass now goes to the brewery, not home market
   * Changed: Supermarket split to supermarket (food, cf, beer) + shopping mall (goods, textile, electronics); home market (furniture, books, fertilizer)
   * Update simuconf.tab with new entries (autosave now on)
-  * Todo: Shopping mall still uses the same graphics as supermarket
+  * To do: Shopping mall still uses the same graphics as supermarket
   * Added oil power plant
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Sat, 20 Aug 2005 16:48:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Sat, 20 Aug 2005 16:48:00 +0200
 
 
 simutrans128 (1.2.0) stable; urgency=low
@@ -628,7 +628,7 @@ simutrans128 (1.2.0) stable; urgency=low
   * Added 3 station buildings
   * Updated translation files
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Wed, 1 Juj 2005 23:48:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Wed, 1 Jun 2005 23:48:00 +0200
 
 
 simutrans128 (1.1.4) unstable; urgency=low
@@ -643,10 +643,10 @@ simutrans128 (1.1.4) unstable; urgency=low
   * Upgraded simuconf.tab
   * Adjusted some trailers
   * Fixed problems with factory productions
-  * Added intro and outro yers for city cars
-  * Loaded new English and German translations (English part 1 proof readed by JV)
+  * Added intro and retire years for city cars
+  * Loaded new English and German translations (English part 1 proof read by JV)
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Fri, 27 May 2005 14:29:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Fri, 27 May 2005 14:29:00 +0200
 
 
 simutrans128 (1.1.3) unstable; urgency=low
@@ -661,7 +661,7 @@ simutrans128 (1.1.3) unstable; urgency=low
   * Added monument to Raven and MHz
   * Fixed small dat file glitches
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Wed, 18 May 2005 20:51:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Wed, 18 May 2005 20:51:00 +0200
 
 
 simutrans128 (1.1.2) stable; urgency=low
@@ -670,7 +670,7 @@ simutrans128 (1.1.2) stable; urgency=low
   * Fixed compatibility issues.
   * Upgraded some menu icons
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Thu, 14 Apr 2005 19:58:00 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Thu, 14 Apr 2005 19:58:00 +0200
 
 
 simutrans128 (1.1.1) stable; urgency=low
@@ -681,28 +681,28 @@ simutrans128 (1.1.1) stable; urgency=low
   * Corrected few images
   * Replaced 3 buildings
   * Added 7 new rail vehicles
-  * Noticably increased gear values for high speed vehicles
+  * Noticeably increased gear values for high speed vehicles
   * Added coupling feature to some rail units
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Thu, 07 Apr 2005 14:58:34 +0200
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Thu, 07 Apr 2005 14:58:34 +0200
 
 
 simutrans128 (1.1.0) stable; urgency=medium
 
   * Compatible Simutrans version: .85.04.1
   * Many new game objects were added.
-  * Aproximately 160 new city buildings.
+  * Approximately 160 new city buildings.
   * About 100 new or updated vehicles.
-  * Many factory iamges were updated.
+  * Many factory images were updated.
   * Countless graphics glitches fixed.
-  * Prices, runnig costs and revenues were heavily changed.
+  * Prices, running costs and revenues were heavily changed.
   * Powers and gear values were tweaked
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Mon, 25 Mar 2005 14:49:39 +0100
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Mon, 25 Mar 2005 14:49:39 +0100
 
 
 simutrans128 (1.0.0) stable; urgency=high
 
   * Initial 1.0 Release - first milestone version of the 128x128 image set.
 
- -- Tomas Kubes <t_kubes@yahoo.com>  Mon, 22 Nov 2004 16:29:06 +0100
+ -- Tomas Kubes <t_kubes@@yahoo.com>  Mon, 22 Nov 2004 16:29:06 +0100
