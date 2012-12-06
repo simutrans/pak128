@@ -13,8 +13,8 @@ cost=80000
 maintenance=2200
 topspeed=200
 max_weight=80
-intro_year = 1980
-intro_month = 1
+intro_year=1980
+intro_month=1
 icon=> road_200.0.6
 cursor=road_200.0.7,0,-16
 #SUMMER BACK

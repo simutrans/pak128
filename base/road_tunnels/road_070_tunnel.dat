@@ -8,10 +8,10 @@ cost=120000
 maintenance=2100
 topspeed=70
 max_weight=80
-intro_year = 1900
-intro_month = 1
-retire_year = 1965
-retire_month = 1
+intro_year=1900
+intro_month=1
+retire_year=1965
+retire_month=1
 icon=> road_070_tunnel.0.6
 cursor=road_070_tunnel.0.7,0,-16
 #SUMMER

@@ -13,8 +13,8 @@ cost=27000
 maintenance=750
 topspeed=90
 max_weight=80
-intro_year = 1945
-intro_month = 1
+intro_year=1945
+intro_month=1
 icon=> road_090.0.6
 cursor=road_090.0.7,0,-16
 #SUMMER

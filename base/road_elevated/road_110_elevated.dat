@@ -9,10 +9,10 @@ cost=130000
 maintenance=2100
 topspeed=110
 max_weight=80
-intro_year = 1930
-intro_month = 1
-retire_year = 1980
-retire_month = 1
+intro_year=1930
+intro_month=1
+retire_year=1980
+retire_month=1
 icon=> road_110_elevated.0.6
 cursor=road_110_elevated.0.7,0,-48
 #SUMMER
