@@ -7,7 +7,7 @@
 # no entry sign
 obj=roadsign
 name=NoEntry
-copyright=Napik
+copyright=Napik & Fabio Gonella
 min_speed=0
 single_way=1
 cost=500
@@ -25,13 +25,13 @@ Cursor=player-roadsigns-128.0.5
 
 # minimum speed 80
 obj=roadsign
-copyright=Patrick
+copyright=Patrick & Fabio Gonella
 name=Minimum80
 min_speed=80
 single_way=0
 waytype=road
 cost=500
-intro_year = 1950
+intro_year = 1930
 image[0]=player-roadsigns-128.1.0
 Image[1]=player-roadsigns-128.1.1
 Image[2]=player-roadsigns-128.1.2
@@ -41,9 +41,27 @@ Cursor=player-roadsigns-128.1.5
 
 --------------------------------------------------------------------------------
 
+# minimum speed 100
+obj=roadsign
+copyright=Patrick & Fabio Gonella
+name=Minimum100
+min_speed=100
+single_way=0
+waytype=road
+cost=500
+intro_year = 1970
+image[0]=player-roadsigns-128.2.0
+Image[1]=player-roadsigns-128.2.1
+Image[2]=player-roadsigns-128.2.2
+Image[3]=player-roadsigns-128.2.3
+Icon=> player-roadsigns-128.2.4
+Cursor=player-roadsigns-128.2.5
+
+--------------------------------------------------------------------------------
+
 # road block
 obj=roadsign
-copyright=Isaac
+copyright=Isaac & Fabio Gonella
 name=RoadClosed
 min_speed=400
 single_way=0
