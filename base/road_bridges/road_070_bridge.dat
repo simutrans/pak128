@@ -8,6 +8,7 @@ maintenance=1200
 topspeed=70
 max_weight=80
 max_lenght=10
+max_height=4
 intro_year=1900
 intro_month=1
 retire_year=1965

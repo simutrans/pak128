@@ -8,6 +8,7 @@ maintenance=1800
 topspeed=30
 max_weight=40
 max_lenght=4
+max_height=2
 intro_year=1
 intro_month=1
 icon=> road_030_bridge.0.6

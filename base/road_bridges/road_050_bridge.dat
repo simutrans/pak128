@@ -8,6 +8,7 @@ maintenance=1100
 topspeed=50
 max_weight=60
 max_lenght=8
+max_height=6
 intro_year=1930
 intro_month=1
 icon=> road_050_bridge.0.6
