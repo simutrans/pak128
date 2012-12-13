@@ -1,6 +1,6 @@
 #TRACK
 obj=way
-name=Rail_Track_80B
+name=Rail_Track_080B
 copyright=Fabio Gonella
 waytype=track
 draw_as_ding=0
@@ -87,7 +87,7 @@ ImageUp[12][1]=!01@55.3.60
 ----------------------------------------
 #BRIDGE
 obj=bridge
-name=Rail_Track_80B_Bridge
+name=Rail_Track_080B_Bridge
 copyright=Fabio Gonella
 waytype=track
 cost=45000
@@ -153,10 +153,10 @@ backPillar[W][1]=!01@55.14.63
 ----------------------------------------
 #TUNNEL
 obj=tunnel
-name=Rail_Track_80B_Tunnel
+name=Rail_Track_080B_Tunnel
 copyright=Fabio Gonella
 waytype=track
-way=Rail_Track_80B
+way=Rail_Track_080B
 cost=85000
 maintenance=1300
 topspeed=80
@@ -188,7 +188,7 @@ BackImage[W][1]=!01@55.8.61
 ----------------------------------------
 #TRACK
 obj=way
-name=Rail_Track_60
+name=Rail_Track_060
 copyright=Fabio Gonella
 waytype=track
 draw_as_ding=0
@@ -275,7 +275,7 @@ ImageUp[12][1]=!01@55.19.55
 ----------------------------------------
 #BRIDGE
 obj=bridge
-name=Rail_Track_60B_Bridge
+name=Rail_Track_060B_Bridge
 copyright=Fabio Gonella
 waytype=track
 cost=44000
@@ -341,7 +341,7 @@ backPillar[W][1]=!01@55.14.58,16,8
 ----------------------------------------
 #BRIDGE
 obj=bridge
-name=Rail_Track_60_Bridge
+name=Rail_Track_060_Bridge
 copyright=Fabio Gonella
 waytype=track
 cost=44000
