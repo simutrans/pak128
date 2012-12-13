@@ -400,8 +400,12 @@ u_truss_bridge
 Rail_Track_100_Bridge
 ClassicRail
 Rail_Track_100_Bridge
+Wooden_Rail
+Rail_Track_60_Bridge
 concrete_sleeper_track
 Rail_Track_160
 wooden_sleeper_track
 Rail_Track_120
+low_quality_track
+Rail_Track_60
 #
