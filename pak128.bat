@@ -77,8 +77,7 @@ cd ..\catenary_all
 echo Compiling Crossings
 
 cd ..\crossings_all
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.crossing.all.pak
- ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/way.crossing.all.pak ./ >>..\..\err.txt
 
 echo Compiling Depots
 
@@ -109,12 +108,10 @@ cd ..\rail_elevated
 ..\..\makeobj.exe pak128 ../../simutrans/pak128/way.rail_elevated.all.pak ./ >>..\..\err.txt
 
 cd ..\rail_signals
-..\..\makeobj.exe pak128 ../../simutrans/pak128/rail_signals.all.pak
- ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/rail_signals.all.pak ./ >>..\..\err.txt
 
 cd ..\rail_stations
-..\..\makeobj.exe pak128 ../../simutrans/pak128/rail_station.all.pak
- ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/rail_station.all.pak ./ >>..\..\err.txt
 
 cd ..\rail_tracks
 ..\..\makeobj.exe pak128 ../../simutrans/pak128/way.rail_track.all.pak ./ >>..\..\err.txt
