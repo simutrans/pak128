@@ -1,8 +1,10 @@
 obj=tree
 name=tree081
 copyright=Shunter
+DistributionWeight=25
 climates=tropic,mediterran,temperate
 seasons=4
+
 image[0][0]=tree081.1.0,12,-23
 image[1][0]=tree081.1.1,11,-22
 image[2][0]=tree081.1.2,10,-23

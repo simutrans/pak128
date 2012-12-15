@@ -1,11 +1,12 @@
 #tree type: Small tree
-#Prefferd_Density=4
-#Ditribution_Weight=3
+
 obj=tree
 name=tree050
 copyright=Hajo
-climates=temperate,tundra
+DistributionWeight=15
+climates=temperate
 seasons=1
+
 image[0][0]=tree050.1.0,13,-8
 image[1][0]=tree050.1.1,9,-6
 image[2][0]=tree050.1.2,6,-7

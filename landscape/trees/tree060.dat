@@ -1,11 +1,12 @@
 #tree type: dark green
-#Prefferd_Density=2
-#Ditribution_Weight=7
+
 obj=tree
 name=tree060
 copyright=Hajo
+DistributionWeight=15
 climates=temperate
 seasons=1
+
 image[0][0]=tree060.1.0,12,-10
 image[1][0]=tree060.1.1,7,-12
 image[2][0]=tree060.1.2,4,-14

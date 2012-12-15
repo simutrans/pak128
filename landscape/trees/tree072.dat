@@ -1,8 +1,10 @@
 obj=tree
 name=tree072
 copyright=Shunter
-climates=temperate,tundra
+DistributionWeight=20
+climates=temperate
 seasons=4
+
 image[0][0]=tree072.1.0,0,-21
 image[1][0]=tree072.1.1,2,-20
 image[2][0]=tree072.1.2,6,-17

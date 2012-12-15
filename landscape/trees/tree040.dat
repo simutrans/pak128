@@ -1,11 +1,12 @@
 #tree type: Pear tree
-#Prefferd_Density=6
-#Ditribution_Weight=2
+
 obj=tree
 name=tree040
 copyright=Hajo
+DistributionWeight=20
 climates=mediterran,temperate
 seasons=1
+
 image[0][0]=tree040.1.0,-2,-17
 image[1][0]=tree040.1.1,-2,-16
 image[2][0]=tree040.1.2,-2,-16

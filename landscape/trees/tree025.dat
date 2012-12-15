@@ -1,8 +1,10 @@
 obj=tree
 name=tree025
 copyright=MHz
-climates=mediterran,temperate
+DistributionWeight=20
+climates=mediterran
 seasons=4
+
 image[0][0]=tree025.1.0,5,-13
 image[1][0]=tree025.1.1,3,-14
 image[2][0]=tree025.1.2,0,-13

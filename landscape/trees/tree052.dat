@@ -1,11 +1,12 @@
 #tree type: Poplar
-#Prefferd_Density=1
-#Ditribution_Weight=2
+
 obj=tree
 name=tree052
 copyright=Napik
+DistributionWeight=10
 climates=mediterran,temperate
 seasons=1
+
 image[0][0]=tree052.1.0,1,-20
 image[1][0]=tree052.1.1,1,-19
 image[2][0]=tree052.1.2,0,-18

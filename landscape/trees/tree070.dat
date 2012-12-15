@@ -1,12 +1,13 @@
 #tree type: small dark green
 #oak
-#Prefferd_Density=5
-#Ditribution_Weight=3
+
 obj=tree
 name=tree070
 copyright=Hajo
-climates=temperate,tundra
+DistributionWeight=15
+climates=temperate
 seasons=1
+
 image[0][0]=tree070.1.0,4,-15
 image[1][0]=tree070.1.1,1,-15
 image[2][0]=tree070.1.2,3,-15

@@ -1,11 +1,12 @@
 #tree type: spruce
-#Prefferd_Density=5
-#Ditribution_Weight=3
+
 obj=tree
 name=tree121
 copyright=Napik
+DistributionWeight=0
 climates=tundra,rocky
 seasons=1
+
 image[0][0]=tree121.1.0,0,-13
 image[1][0]=tree121.1.1,0,-13
 image[2][0]=tree121.1.2,0,-13

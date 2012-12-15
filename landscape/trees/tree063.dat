@@ -1,11 +1,12 @@
 #tree type: dark + brown
-#Prefferd_Density=8
-#Distribution_Weight=6
+
 obj=tree
 name=tree063
 copyright=Shunter
+DistributionWeight=20
 climates=temperate
 seasons=1
+
 image[0][0]=tree063.1.0,2,-11
 image[1][0]=tree063.1.1,2,-10
 image[2][0]=tree063.1.2,2,-9

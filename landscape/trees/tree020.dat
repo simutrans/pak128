@@ -1,11 +1,12 @@
 #tree type: Birk
-#Prefferd_Density=8
-#Ditribution_Weight=4
+
 obj=tree
 name=tree020
 copyright=Hajo
 climates=tropic,mediterran,temperate
+DistributionWeight=25
 seasons=1
+
 image[0][0]=tree020.1.0,4,-5
 image[1][0]=tree020.1.1,3,-6
 image[2][0]=tree020.1.2,4,-5

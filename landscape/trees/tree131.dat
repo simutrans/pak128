@@ -1,8 +1,10 @@
 obj=tree
 name=tree131
 copyright=Shunter
+DistributionWeight=0
 climates=tundra,rocky
 seasons=4
+
 image[0][0]=tree131.1.0,6,-22
 image[1][0]=tree131.1.1,8,-21
 image[2][0]=tree131.1.2,10,-24

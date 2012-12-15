@@ -1,11 +1,12 @@
 #tree type: Birk
-#Prefferd_Density=1
-#Ditribution_Weight=2
+
 obj=tree
 name=tree021
 copyright=Napik
+DistributionWeight=15
 climates=tropic,mediterran,temperate
 seasons=1
+
 image[0][0]=tree021.1.0,10,-3
 image[1][0]=tree021.1.1,1,-7
 image[2][0]=tree021.1.2,9,-9

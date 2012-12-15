@@ -1,11 +1,12 @@
 #tree type: big bush
-#Prefferd_Density=6
-#Ditribution_Weight=4
+
 obj=tree
 name=tree071
 copyright=Hajo
-climates=temperate,tundra
+DistributionWeight=20
+climates=temperate
 seasons=1
+
 image[0][0]=tree071.1.0,7,-16
 image[1][0]=tree071.1.1,6,-16
 image[2][0]=tree071.1.2,6,-16

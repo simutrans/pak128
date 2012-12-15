@@ -1,11 +1,12 @@
 #tree type: spruce
-#Prefferd_Density=4
-#Ditribution_Weight=4
+
 obj=tree
 name=tree140
 copyright=Napik
+DistributionWeight=0
 climates=rocky
 seasons=1
+
 image[0][0]=tree140.1.0,-1,-13
 image[1][0]=tree140.1.1,0,-12
 image[2][0]=tree140.1.2,0,-13
