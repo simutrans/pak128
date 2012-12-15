@@ -87,7 +87,7 @@ def procObj(obj) :
 			score = 50
 		elif l.startswith("front_closedimage") :
 			score = 100
-		if l.find("=-") != -1 :
+		if (l.find("=-") != -1) or ("-" in l[-3:-1]) :
 			score = -1000
 		# if it is a valid image, it is rated higher than 0
 		if score > 0 :
