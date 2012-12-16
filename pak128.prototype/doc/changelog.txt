@@ -14,7 +14,7 @@ simutrans128 (2.2.0) stable; urgency=high
   * Rebalanced pricing of all modes of transport
   * Minimap colours are not a mess any more!
   * Narrow gauge addons should finally work
-  * ???
+  * High altitude trees from Sarlock
   * Many other bugfixes and improvements - for more detailed list look at
         history-pak128-svn.txt
 

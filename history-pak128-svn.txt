@@ -5,8 +5,30 @@ For full history or technical details see svn logs.
 Names in brackets after message list the author/originator of change. It does not necessarily have to be member of pak128 team - external contributors are there as well.
 
 
+15.12.2012
+	- add new trees from Sarlock, disable some old ones (Sarlock)
+13.12.2012
+	- add old-time High school (mEGa)
+	- road graphics fixes (Fabio)
+12.12.2012
+	- add Novabus RTS-06 (Zeno)
+	- road graphics fixes (Fabio)
+11.12.2012
+	- road graphics fixes (Fabio)
+08.12.2012
+	- add Flexible Twin bus (Zeno)
+07.12.2012
+	- add Twin Coach bus (Zeno)
+	- all road signs repositioned correctly (Fabio)
+	- road graphics fixes (Fabio)
+06.12.2012
+	- various graphics fixes to railways Fabio)
+05.12.2012
+	- add power line tunnel (Fabio)
 04.12.2012
 	- fix problems with locomotive balancing (Zeno)
+	- fix too weak locomotive Talgo 350 (Zeno)
+	- new graphics and fixes for roads (Fabio)
 03.12.2012
 	- new graphics for high school (mEGa)
 30.11.2012
