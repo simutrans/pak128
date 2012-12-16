@@ -6,7 +6,7 @@ Compilation
 -----------
 
 Currently these build systems are available:
-* pakmak.py           (preferred)
+* pakmak.py
 * makefile            (presently outdated)
 * Windows batch file
 
@@ -42,7 +42,7 @@ Given how the source/compilation paradigm breaks when translated from "programmi
 
 Generally, user-level distribution form of material are compiled PAK files. Their sources are the PNG and DAT files available here, without exception. This fulfills at least the letter of the law of "being open source".
 
-True "openess", however, suggests that the whole process should be replicable, which is not always possible. Still, in some cases, there are available initial or intermediate forms of material from which the graphics are rendered in some way. Providing these consistently is beyond the scope of this project, but encouraged.
+True "openess", however, suggests that the whole process should be replicable, which is not always possible. Still, in some cases, there are available initial or intermediate forms of material from which the graphics are rendered in some way. Providing these consistently is beyond the scope of this project, but encouraged. Folders or files that contain these usually contain "src" somewhere in their name.
 
 
 Contact
