@@ -5,7 +5,7 @@
 #                             Language: fr Francais                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 2.09 2012                           #
+#                           Date Created: 18.12 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                  - Christophe                                #
@@ -277,7 +277,7 @@ Voilà ce qui est ecrit que la\nporte de la pharmacie :\n"Cette pharmacie est\nl'
 COM_05_10
 Ceci est le Casino "Perdez\nvotre pantalon".\nA moins que vous ne\nvoyez pas les personnes\nqui en sortent presque\nnues ou les faces\ndeconfites des clients,\nvous pouvez devinez que la\nseule personne heureuse\nici est le propriétaire. Mais\npourquoi ce casino est-il si\npopulaire?\n
 COM_05_11
-Ceci est un vieux bureau\nutilisé par les services\nsociaux pour ses nombreux\nprogrammes de recherche\net d'aide à la jeunesse\nitinérante. Exemples :\n"Quels batiments faire\nexploser?" ou "Quelle\nvoiture voler?"\n
+Ceci est un vieux bureau\nutilisé par les services\nsociaux pour ses nombreux\nprogrammes de recherche\net d'aide à la jeunesse\nitinérante. Exemples :\n"Quels bâtiments faire\nexploser ?" ou "Quelle\nvoiture voler ?"\n
 COM_05_12
 Ce bâtiment bénéficie\nd'une protection\nrévolutionnaire contre les\ninondations : il est surélevé\nde 30 mètres.\nLe problème est que les\ninondations n'existent pas\ndans Simutrans, aussi le\nbas est utilisé comme\nparking.\n
 COM_05_13
@@ -302,14 +302,20 @@ COM_05_23
 À l'origine conçu comme bâtiment de niveau unique avec\nune cours intérieure ouverte\n, ce bâtiment a pris un nouveau visage hors du commun\n quand la demande\nde bureaux supplémentaires\n au centre-ville\n a forcé les propriétaires à augmenter de l'espace\n.\n
 COM_07_01
 Ce petit magasin d'outillage\nest un des survivants dans\nla bataille avec les grandes\nsurfaces qui gagnent,\nchaque jour, plus de\nclients. Manifestement, il\noffre quelque chose de\nspécial. Peut-être qu'une\nbelle femme se trouve\nderrière le comptoir, qui\nsait?\n
+container_crane_span
+Grand portique pour conteneurs
 Container1TrainStop
 Entrepôt des conteneurs 
 Container2TrainStop
 Entrepôt des conteneurs 
+containercrane
+petit portique pour conteneurs
 Control_StationBlg
 Service du contrôle
 Crate_Goods_Dock
 Port aux conteneurs
+Cross_Country_skiing_resort
+Station de ski de fond
 CunnersdorfStopBlg
 Bâtiment d'une gare de village
 CUR_01_128_JH
@@ -319,13 +325,13 @@ Ce monument est dédié à\nFlor 'WFUltd.' Wauters le\ncélèbre ingénieur qui créa\n
 DenkGeorg
 Merci MHz !\n\Ce monument est dédié\nau célèbre architecte\nGeorg, alias MHz,\nqui a conçu tant de\nbâtiments à travers\nle monde. Il a également conçu\nquelques véhicules exceptionnels.\n
 DenkHajo
-Célébrez et retenez dans\nvotre mémoire le créateur\nHansjorg Mathaner(Hajo),\nqui a consacré sept ans\npour construire Simutrans.\nSi vous souhaitez lui\nremercier, envoyez une\ncarte postale a l'adresse suivante:\nHansjorg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart\n\n
+Célébrez et retenez dans\nvotre mémoire le créateur\nHansjorg Mathaner (Hajo),\nqui a consacré sept ans\npour construire Simutrans.\nSi vous souhaitez le\nremercier, envoyez une\ncarte postale à l'adresse suivante :\nHansjorg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart\n\n
 DenkOwen
 Ce lieu est dédié à Owen\nRudge le célèbre expert des\nfinances et technicien du\nson.\n\n
 DenkPatrick
-Ce monument estdédié à\nPatrickNesbitt, qui a aidé\nàréaliser beaucoup\ndebâtiments et devéhicules\npourSimutrans.\n\n
+Ce monument est dédié à\nPatrick Nesbitt, qui a aidé\nà réaliser beaucoup\nde bâtiments et de véhicules\npour Simutrans.\n\n
 DenkRaven
-Ce monument est dédié à Raven,\n fameux ingénieur, créateur de la\nRVG-Raven Vehicles and Gears Corp.,\n pourvoyeuse d'une grande variété de véhicules.\nPlus récemment, Raven a travaillé\nsur les constructions urbaines,\nafin de produire de magnifiques batiments.\n
+Ce monument est dédié à Raven,\n fameux ingénieur, créateur de la\nRVG-Raven Vehicles and Gears Corp.,\n pourvoyeuse d'une grande variété de véhicules.\nPlus récemment, Raven a travaillé\nsur les constructions urbaines,\nafin de produire de magnifiques bâtiments.\n
 DenkSeth
 Ce lieu est dédié à Seth C.\nTriggs le célèbre\narchitecte qui dessina tant\nde magnifiques bâtiments\nurbains.\n\n
 DenkTomas
@@ -336,6 +342,8 @@ DenkVM
 Ce monument est dédié à\nManfred 'VTVienna'\nTomaschitzle célèbre\ningénieur qui réalisa le\ndesign de\nnombreux véhicules\nferroviaires.\n
 DenkVolker
 cette sculpturefut\ncontruite parVolker Meyer\nqui aperfectionnéSimutrans\ndans tantet tant\ndedomaines.\n\n
+Depot_train_1936
+Dépôt de trains 1936
 ELEMENTARY_SCHOOL_1
 école élémentaire\n\nC'est l'endroit où les enfants obtiennent leur première education. Math, langues, histoire et sciences y sontenseigné, mais les éléves n'aiment pas ça. Ils préférent plutôt la peinture ou la musique. Depuis que les enfants ne peuvent pas conduire desvoitures, cette école va générer beaucoup de traffic voyageur. Mais attention! Des bus luxurieux ne seront pas nécessaires!
 ELEMENTARY_SCHOOL_2
@@ -348,6 +356,10 @@ FORT_FUN
 Bourgade western\n\n
 FreightTrainStop
 Gare de marchandises
+french_garden_4
+Grands jardins à la française
+french_park_1
+Petit jardin à la française.
 FUTURISTIC_TOWER_0
 Tour moderne\n\nCette tour offre une vue\nmagnifique sur les\npaysages aux alentours. Au\n1er étage, il y a un petit\nbar, alors vous pouvez\nboire un verre en appréciant\nla vue. Même si le prix n'est\npas vraiment\nbon marché, cette tour\nattire beaucoup de\nvisiteurs.\n
 Gas_StationBlg
@@ -361,11 +373,15 @@ Cette serre a eu été un\nmagasin tout à fait normal.\nMais après un certain\ntem
 hall_extended_station
 Hall de gare avec dépendances
 HIGH_SCHOOL_1
-Lycée - C'est l'endroit où\nles jeunes peuvent\ncontinuer leur éducation.\nMême si officiellement seul\nles sujets scientifics sont\nenseignés, la plupart des\nélèves prennent des cours\nà option - par exemple:\n'Les contactes humains' ou\n'1000 et une manières de\ncommuniquer ses\némotions'.\n
+Lycée Moderne - C'est l'endroit où\nles jeunes peuvent\ncontinuer leur éducation.\nMême si officiellement seul\nles sujets scientifics sont\nenseignés, la plupart des\nélèves prennent des cours\nà option - par exemple:\n'Les contactes humains' ou\n'1000 et une manières de\ncommuniquer ses\némotions'.\n
+HIGH_SCHOOL_2
+Lycée ancien - Les élèves sont assurés d'avoir\nune éducation à la hauteur.\nLes mathématiques, l'histoire\net la morale sont les matières nobles\nenseignées
 HOUSE_RUINS_0
 Les épaves ?'une ville. Il\nn'y a resté que la mairie.\nLes historiques arrivent\npour rechercher le temps\nperdu et les touristes\nadorent les  jeux de scène\nlocale.\n
 HQ1
 Centrale - d'ici vous dirigez votre société. Oui, c'est seulement une halle de montage hors de service mais un jour...
+HQ2
+Siège international de Compagnie II
 IND_00_01
 Un petit bâtiment sur une coline\nest un endroit parfait\npour faire du bruit.  Voici la\nbruiterie, où les gens \nvont pour faire tout le bruit\n qu'ils veulent. Mais soyez\navertis, vous devez payer\nà la sortie, et les frais\nne sont pas indiqués \nà l'entrée.\n\n
 IND_00_02
@@ -383,7 +399,7 @@ Une des nombreuses\nfranchises du populaire\nGarage Jerry\n\n
 IND_00_14
 Ceci est une petite brasserie.\nElle ne peut pas rivaliser avec\nles géants du secteur qui exportent\n leur bière à travers le Simunivers,\nmais le café du coin préfère\nla douce amertume de cette bière locale.\¬
 IND_00_15
-C'est ici que sont construits\nles petits véhicules ferroviaires\navant d'être envoyés vers votre dépot.\
+C'est ici que sont construits\nles petits véhicules ferroviaires\navant d'être envoyés vers votre dépôt.\n
 IND_00_16
 En raison du refus du propriétaire\nde cette compagnie de parler à notre représentant,\nSimutrans ne peut vous donner aucune\ninformation au sujet de ce batiment.\nAvec toutes nos excuses !\nMais rassurez-vous,\nnous savons que ce lieu\nest utilisé par les garages Jerry !\n
 IND_00_17
@@ -419,11 +435,13 @@ Ceci n'est pas un champ.\n\n
 JUSTICE
 Palais de justice. Celui qui\na le meilleur avocat,\ngagnera. C'est juste.\n\n
 library_holy_genevieve
-Bibliothèque Sainte Geneviève
+Bibliothèque Sainte Geneviève\nLes rats de bibliothèque s'occupent\n de faire disparaître\les livres périmés ou idiots.
 Lighthouse_0
 Phare\n\nDepuis la construction de ce phare,\nles mers du Simunivers sont plus sûres.\Les touristes aiment monter les 352 marches\npour admirer les rouleaux sur les rochers.\n
 Lighthouse_1
 Phare\n\nDepuis la construction de ce phare,\nles mers du Simunivers sont plus sûres.\Ce phare possède une lanterne étrange,\nmais aucun marin ne s'en est plaint.\n
+Little_Central_Park
+Parc de centre-ville.\n Ne cherchez pas une ressemblance\navec son grand frère\naméricain. L'hiver, les habitants sortent leur patins 
 Long_Goods_Dock
 Port aux marchandise large
 LuftPost1950_AirportBlg
@@ -440,8 +458,12 @@ MILITARY_RADAR
 Radar militaire\n\nC'est une station secrète\nalors maintenant dégagez !\nJ'ai dit foutez le camp ! Si\nje vous dit de partir c'est\nqu'il faut faire défiler votre\nécran ailleurs !\nQuoi ?!? Vous êtes toujours en\ntrain de lire !!! Quittez\nimmédiatement cette\nfenêtre et partez !\n\n
 Modern_Warehouse
 Entrepôt moderne
+modern_warehouse_big
+Grand entrepôt de marchandises
 ModernPostOffice
 Bureau de poste moderne
+ModernPostOfficeLarge
+Grand bureau de poste moderne
 ModernTrainStop
 Gare moderne
 MonorailDepot
@@ -456,6 +478,8 @@ MUSEUM_0
 Musée technologique\n\nCe bâtiment fut l'hôtel\nde ville, puis il a été\nreconstruit en résidence de\nluxe et récemment\ntransformé en musée public\nde science et de\ntechnologie. Vous pouvez\nvoir de vieux véhicules,\napprendre sur l'avancée de\nla physique ou participer à\nun des nombreux\nséminaires.\n
 OBSERVATORY
 Toute personne\npassionnée de\nl'astronomie doit\nconnaître cet observatoire,\ncar beaucoup des grandes\ndécouvertes du simunivers\nont été faites ici. La nuit,\nles astronomes travaillent\net observent le ciel étoilé ;\ntandis que la journée les\ntouristes peuvent le visiter\ntout en visionnant des\nvidéos explicatives.\n
+OfficeTrainStop
+Petite gare rurale
 Old_gate
 Ancienne Porte\n\nCette vieille porte de cité\nest le seul vestige\ndu mur d'enceinte moyennageux\nde la ville.\nQuand elle n'est pas fermée\npour travaux,la salle supérieure\naccueille des expositions sur\nles anciens drapeaux et blasons.
 OLD_HOUSE_0
@@ -472,6 +496,8 @@ parking_(catchemnt_area_ext)2
 Parking
 parking_(catchemnt_area_ext)3
 Parking
+Percival_Maya_Temple
+Temple Maya Percival.\nsortez\nLes fouilles ont permis de découvrir\n une civilisation simutransienne \ntrès ancienne.
 plain_tile_high
 Plate-forme de stockage
 Post_Dock
@@ -491,11 +517,11 @@ C'est le studio de la radio\nlocale "Chit-Chat FM". Un\ncertain nombre de\nperso
 RES_00_01
 Le camp des campeurs\njoyeux, c'est le lieu de \nrencontre pour avoir du\nplaisir à l'extérieur.\nSitué en ville, les feux\nde camps sont permis.\nPlusieurs campeurs vont pêcher\nleurs repas dans l'étang de\nla ville.
 RES_00_02
-Petite maison en banlieue.\n Un vieux couple y vie.\n L'endroit est calme et\npaisible, parfait pour jouir\n des bénéfices de leur pension.\nDans leur jardin, ils\nfont pousser des légumes\n pour faire des économies.\n
+Petite maison en banlieue.\n Un vieux couple y vit.\n L'endroit est calme et\npaisible, parfait pour jouir\n des bénéfices de leur pension.\nDans leur jardin, ils\nfont pousser des légumes\n pour faire des économies.\n
 RES_00_03
 Si vous ne pouvez pas\nvous payer un chalet\nen forêt vous pouvez\nquand même en avoir\nun... en pleine ville.\n\n
 RES_00_04
-Petite maison. Les\ngens de la ville aiment\ns'acheter une résidence secondaire\npour vivre calmement en\nnature et fuir le stress de leurs\nvies. Excellent endroit pour leurs\nenfants d'organiser des party...\n
+Petite maison. Les\ngens de la ville aiment\ns'acheter une résidence secondaire\npour vivre calmement en\nnature et fuir le stress de leurs\nvies. Pour leurs enfants, c'est un excellent endroit pour organiser des fêtes...\n
 rmax_clock_tower
 Tour de l'horloge\n\n
 rmax_courthouse
@@ -678,6 +704,8 @@ sheep_farm
 Ferme de mouton
 shopping_mall
 Grand magasin
+Simutrans_Fried_Chicken
+Fast food du poulet. Les ailes et la cuisse sont frites dans
 Solar Pond_kraftwerk
 Centrale à bassin solaire
 SolarThermalOne_kraftwerk
@@ -758,6 +786,8 @@ None
 Vide
 Oel
 Pétrole
+Papier
+papier
 Passagiere
 Passagers
 Plastik
@@ -783,7 +813,7 @@ Outils monorails
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 Build monorail depot
-Construire une dépôt de monorail
+Construire un dépôt de monorail
 CATEGORY_01
 biens à la pièce
 CATEGORY_02
@@ -1631,7 +1661,7 @@ Ford V8 coe (bois)
 air_movement_area
 Taxiway moderne
 concrete_sleeper_track
-Rail aux traverses du béton 
+Rail aux traverses en béton
 High_quality_track
 Rail de qualité 
 low_quality_track
@@ -1660,3 +1690,5 @@ standard_catenary
 Catenaire moderne
 Third_Rail_Electrification
 Electrification par 3e rail
+TrolleyBus_Electrification
+Caténaires pour trolley bus

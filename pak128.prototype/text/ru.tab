@@ -5,7 +5,7 @@
 #                             Language: ru Russian                             #
 #                                Encoding: UTF-8                               #
 #                                Font : cyr.bdf                                #
-#                            Date Created: 2.09 2012                           #
+#                           Date Created: 18.12 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                       Semichenkov Alexander - AleksRevo                      #
@@ -17,6 +17,8 @@
 #                              Frank Penz - FrankP                             #
 #                                    note:                                     #
 #                           Sava Bogdanets - Sava2004                          #
+#                                    note:                                     #
+#                                    - SkyAn                                   #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
 #                                    note:                                     #
@@ -652,6 +654,10 @@ waste
 мусор
 wool
 шерсть
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+MONORAILTOOLS
+Монорельс/Магнитка
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 Build monorail depot
@@ -674,6 +680,8 @@ Monorail
 Подвесной монорельс
 monorail vehicle
 Монорельсовые т/с
+Monorailboden
+Основание монорельса
 Monoraildepot
 Монорельсовое депо
 Monorailhalt muss auf\nMonorail liegen!\n

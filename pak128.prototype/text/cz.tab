@@ -5,7 +5,7 @@
 #                             Language: cz Cestina                             #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                            Date Created: 2.09 2012                           #
+#                           Date Created: 18.12 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -148,6 +148,8 @@ Car_StationBlg
 Parkovi¹tì
 CarDepot
 Gará¾e
+CargoHighStop
+Prùjezdní nakládací rampa
 CarStop
 Nakládací rampa
 CASTLE_0
@@ -520,10 +522,14 @@ COM_11_59
 Tato celosklenìná budova\nje skleník a hydroponická\nfarma. Uvnitø roste pøehr¹le\nbylin a rozmanitých druhù\nzeleniny. Jejich nejlep¹í\nskliznì kouøí zákazníci po\ncelém svìtì. Zará¾ející je,\n¾e v¹ichni tito zákazníci\ntrpí podobnou oèní vadou\nprojevující se nepøítomným\npohledem a ponìkud\nsklovitou zarudlostí oèí.\n
 COM_12_01
 Toto holièství je skvìlým\nmístem, kde si mù¾e¹\nnechat na hlavì vytvoøit\núèesy tìch nej¹ílenìj¹ích\nbarev a tvarù.\n\n
+container_crane_span
+Velký kontejnerový jeøáb
 Container1TrainStop
 Pøekladi¹tì kontejnerù
 Container2TrainStop
 Moderní pøekladi¹tì kontejnerù
+containercrane
+Malý kontejnerový jeøáb
 Control_StationBlg
 Nádra¾ní velín
 Crate_Goods_Dock
@@ -966,6 +972,8 @@ radiant_house
 Záøící dùm\n\nUkázka modernistické architektury padesátých a¾ ¹edesátých let dvacátého století. Leè zapsán na seznam chránìných budov, stále obýván. A to lidmi, kteøí nemají pøíli¹né po¾adavky na komfort.
 RADIO_TOWER_0
 FM rádio stanice\n\nVìt¹inu èasu odtud vysílá rádio Skøivan FM.\nMezi 13:00 a 14:30 je zde fronta lidí,\nkteøí chtìjí být hostem vysílání.\n
+ramp_tile_high
+Manipulaèní rampa
 RES_00_01
 "U zálesáka" - alespoò to\ntvrdí cedule na okraji\npozemku. Tento kemp je\nsice ve mìstì, ale ohníèek\nje povolen. Mnoho\nrekreantu si svoji veèeøi\nuloví naèerno v nedalekém\nparkovém jezírku.\n
 RES_00_02

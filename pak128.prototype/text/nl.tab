@@ -5,7 +5,7 @@
 #                            Language: nl Nederlands                           #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 2.09 2012                           #
+#                           Date Created: 18.12 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                   - Combuijs                                 #
@@ -19,6 +19,8 @@
 #                        Lorenz Van Damme - gforcetheone                       #
 #                                    note:                                     #
 #                             Mark Knoester - mark                             #
+#                                    note:                                     #
+#                          Michel Vorenhout - michelv                          #
 #                                    note:                                     #
 #                             P. Hamming - phamming                            #
 #                                    note:                                     #
@@ -1007,7 +1009,7 @@ Tuinmanswoning met klimop\n\n
 RES_01_23
 Parkje\n\n
 RES_01_24
-Gerenoveerd kantoorgebouw, nu\nappartementen\n\n
+Gerenoveerd kantoorgebouw, nu\nmet appartementen\n\n
 RES_01_25
 Riant woonhuis\n\n
 RES_01_26

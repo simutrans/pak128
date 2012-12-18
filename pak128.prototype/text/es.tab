@@ -5,7 +5,7 @@
 #                             Language: es Espanol                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 2.09 2012                           #
+#                           Date Created: 18.12 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                   - Diegote                                  #
@@ -100,6 +100,8 @@ Airport1930PostOffice
 Terminal correo aéreo
 Airport1990_Big_AirportBlg
 Terminal de Aeropuerto
+Airport1990_Big_PostOffice
+Terminal internacional de correos
 Airport1990_Entrance_AirportBlg
 Puerta de Entrada
 Airport1990_Gates_AirportBlg
@@ -144,6 +146,8 @@ Car_StationBlg
 Aparcamiento
 CarDepot
 Cochera camión/bus
+CargoHighStop
+Parada de carga y descarga
 CarStop
 Plataforma de carga
 CASTLE_0
@@ -516,14 +520,20 @@ COM_11_59
 Este edificio hecho\ncompletamente de cristal\nes en realidad una granja\nde cultivo hidropónico y un\ninvernadero. Una amplia\nvariedad de plantas y\nverduras se cultiva aquí.\nPero su cosecha más\npopular atrae a clientes de\ntodo el mundo.\nIncreíblemente, todos\nparecen llamarse Colega,\nTío, o Hermano y tener una\naflicción extraña en los ojos que\nhace que ellos bizqueen mucho.\n
 COM_12_01
 Esta peluquería es un buen\nsitio donde cortarse el pelo\ny enterarse de todos los\nacontecimientos recientes.\n\n
+container_crane_span
+Gran grua para contenedores
 Container1TrainStop
 Estación por contenedores
 Container2TrainStop
 Terminal de contenedores
+containercrane
+Grúa para contenedores
 Control_StationBlg
 Garita
 Crate_Goods_Dock
 Puerto de contenedores
+Cross_Country_skiing_resort
+Estación de esquí nórdico
 CunnersdorfStopBlg
 Edificio de la Estación del Pueblo
 CUR_01_128_JH
@@ -550,6 +560,8 @@ DenkVM
 Dedicado a Manfred 'VT\nVienna' Tomaschitz, el\nfamoso ingeniero que\ndiseñó mucho material\nferroviario.\n\n
 DenkVolker
 Lugar construido  por Volker\nMeyer quien mejoró\nSimutrans en muchos,\nmuchos aspectos.\n\n
+Depot_train_1936
+Cochera de tren moderna
 ELEMENTARY_SCHOOL_1
 Escuela elemental\n\nEste es un lugar donde los\nniños deberían obtener su\neducación primaria.\nMatemáticas, lenguas,\nhistoria y ciencias están\nentre las asignaturas\nmenos deseadas. A los\njóvenes estudiantes les\nsuele gustar mucho más\ncantar y pintar. Puesto que\nlos jovencitos no saben\nconducir, este lugar generará un\nmontón de pasajeros. Pero,\n¡cuidado!, no se recomienda\nservir las líneas de alrededor\ncon autobuses lujosos.\n
 ELEMENTARY_SCHOOL_2
@@ -562,6 +574,10 @@ FORT_FUN
 Fuerte del viejo oeste\n\nPequeños y grandes se lo pasan\nen grande en este\nparque temático del viejo oeste.\nCon el gran éxito que tiene\nentre la población,\nes un negocio seguro para\nel atrevido empresario de transportes\nque haga llegar primero\nuna linea de autobuses.\n\n
 FreightTrainStop
 Estación mercante
+french_garden_4
+Jardines públicos
+french_park_1
+Parque y jardines
 FUTURISTIC_TOWER_0
 Esta torre ofrece grandes\nvistas del paisaje que la\nrodea. Además, hay un\npequeño bar en el piso\nsuperior donde puede tomar\nuna copa para aumentar el\nplacer de la vista. Aunque\nlos precios no son\ndemasiado bajos, esta\ntorre atrae a muchos\nvisitantes.\n
 Gas_StationBlg
@@ -576,6 +592,8 @@ hall_extended_station
 Gran edificio sobre la estación
 HIGH_SCHOOL_1
 Instituto de segunda\nenseñanza. Es un lugar\ndonde los jóvenes deberían\ncontinuar su educación.\nAunque oficialmente sólo se\nenseñan asignaturas\ncientíficas, la mayor parte\nde los estudiantes suelen\nrepasar asignaturas que ya\ncursaban en la escuela,\naunque no necesariamente\ndurante las clases:\nContactos Sociales y Contactos\nPróximos Interpersonales, por\nnombrar algunas de ellas.\n
+HIGH_SCHOOL_2
+La vieja escuela - Los estudiantes tienen la seguridad\nde una buena educación.\nLas matemáticas, la historia\ny la ética son las materias\nobligatorias que se les enseñan.
 HOUSE_RUINS_0
 En tiempos esto fue el\nayuntamiento de una\nciudad que ya no existe. A\nlos historiadores les gusta\nvenir para recordar el\npasado, y a los turistas les\ngusta venir a ver las\nrepresentaciones que\ntienen lugar bajo el árbol.\n
 HQ1
@@ -890,6 +908,8 @@ Lighthouse_0
 Faro\n\nDesde que se construyeron, la\nnavegacion en Simutrans\nse ha hecho más fácil y\nsegura. Mucha gente ahora\nquiere visitar uno de estos\ny contemplar las olas\nrompiendo contra la costa.\n
 Lighthouse_1
 Faro\n\nDesde que se construyeron, la\nnavegacion en Simutrans\nse ha hechop más fácil y\nsegura. Esta es uno de los\nmas raros, pero ningun\nmarinero se ha quejado\nnunca.\n
+Little_Central_Park
+El parque central de la ciudad.\n No busquéis ningún parecido\ncon su hermano mayor americano.
 Long_Goods_Dock
 Puerto mercantil
 LuftPost1950_AirportBlg
@@ -935,7 +955,7 @@ Antigua torre
 OLD_HOUSE_0
 Casa antigua\n\nEsta combinacion de gótico y\nrenacentista ha hecho que\nse convierta en un museo\nde arquitectura antigua.\nTiene ilustraciones y\nmaquetas de edificios\nantiguos. La exposicion es\nbastante interesante y fácil\nde entender, asi que esta a\nrebosar de gente casi\ntodos los días.\n
 OpenTrainStop
-Apeadero sencillo
+Andén sencillo de carga
 Pagoda01
 Pagoda\n\n
 PARK_0
@@ -946,6 +966,8 @@ parking_(catchemnt_area_ext)2
 Estacionamiento
 parking_(catchemnt_area_ext)3
 Estacionamiento
+Percival_Maya_Temple
+Templo Maia Percival\n Las excavaciones han puesto al descubierto\nuna civilización simutransiana\nmuy antigua!
 plain_tile_high
 Plataforma vacía
 Post_Dock
@@ -962,6 +984,8 @@ radiant_house
 Casa radiante
 RADIO_TOWER_0
 Estación de radio FM Chit-Chat\n\nEsta es la estación de radio\nFM de Chit-Chat, donde\nmucha gente gusta de\nvenir, ya que los\norganizadores prometen\nque los visitantes saldrán\nal aire todos los días entre\nlas 13:00 y 14:30 hs.\n
+ramp_tile_high
+Rampa de acceso
 RES_00_01
 El campamento 'Campista\nFeliz' es el lugar donde las\npersonas disfrutan al aire\nlibre. Aunque estos lugares\nestán dentro de la ciudad,\nlas fogatas están\npermitidas. Muchos\ncampistas consiguen su\ncomida pescando en el\nestanque de la ciudad.\n
 RES_00_02
@@ -1640,8 +1664,12 @@ st_benedict_church
 Iglesia de St. Benedict\n\nEsta iglesia es una de las\nmas bonitas de Simutrans.\nMuchos turistas  vienen de\nvisita, unos pocos vienen a\nrezar. Alberga en su interior\npinturas de incalculable\nvalor, y nadie las echaria\nde menos.\n
 ST_PETER
 Iglesia de St. Peter\n\nLa iglesia de St.Peter's, del\nrománico tardío, fue\nconstruida hacia el año\n1200. Tiene un gran coro,\nfrescos de mitad del siglo\nXIII y la momia "The Holy\nReeve" muy bien\nconservada . Esta antigo\npersonaje momificado tiene\nmas de 300 años,\nprobablemente se trate de\nWilhem de Holbach, el consejero\nreal. La momia esta expuesta en\nuna alcoba en el ala oeste de la\niglesia.\n
+STADIUM_RUGBY
+Estadio de rugby\nAquí es donde juega los partidos\nel equipo de rugby de\nla ciudad. Centenares\nde personas vienen los fines de semana\na verlos jugar.
 Suspended_Monorail_Bahnhof_Modern
 Parada de MonoCarril
+tennis_court
+Club de tenis\n El club de tenis de la ciudad\nes donde se juegan el torneo más\nprestigioso de la región, pero también\nse dan clases para los chicos,\npromoviendo la práctica del deporte y una\nvida sana.
 Terminal1930_AirportBlg
 Terminal aeropuerto simple
 Terminal1950_AirportBlg_S
@@ -1672,6 +1700,8 @@ VictorianStation
 Estación de estilo victoriano
 VillageTrainStop
 Parada férreo 
+WernerServer
+Monumento a "Wernieman"\n Este monumento lo ha construido la autoridad\nde Simutrans en honor a Werner Brandt\ny su servidor. Han proporcionado a la comunidad\nservicios muy útiles como svn, compilaciones\nnocturnas o compartición de ficheros.\nLo más divertido es que cuando él se va\nde vacaciones su router se niega a trabajar\ny ¡también se va de vacaciones!
 WHEEL
 Esta es la tan nombrada\nRueda Rusa. Es una famosa\natracción turística de\nviejos parques de\ndiversiones, pero que sigue\nsiendo llamativa. Desde\narriba, tiene una mágnifica\nvista para disfrutar.\n
 Windmill
@@ -1820,6 +1850,8 @@ sheep_farm
 Granja ovina
 shopping_mall
 Galería
+Simutrans_Fried_Chicken
+Cadena de comida rápida. Las alitas y los muslos de pollo se
 Solar Pond_kraftwerk
 Estanque de energía solar
 SolarPowerTowerPS10_kraftwerk
@@ -2076,6 +2108,8 @@ tree133
 Conífera de montaña\n\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
+PowerTunnel
+Túnel para línea eléctrica
 RailTunnel
 Túnel ferroviario
 road_040_tunnel
@@ -2124,6 +2158,8 @@ Trailer de Contenedores 40ft
 Clase 620 Australiano (cabina)
 720_Railcar_Addon
 Clase 720 Australiano
+AEC_Aclo_Regent_III
+AEC Aclo Regent III
 Airport_express_shuttle
 Autobus lanzadera
 Autotransportwagen
@@ -2232,6 +2268,16 @@ Cooling_wagon_2
 Cannonball Vagón refrigerado
 CPH_Motorcar
 Ferrobús CPH Australiano
+CST_Interliner_E55
+CST Interliner E55
+CST_Interliner_E55_Rear
+CST Interliner E55 (remolque)
+CST_Interliner_S45
+CST Interliner S45
+CST_Interliner_S55
+CST Interliner S55
+CST_Interliner_S55_Rear
+CST Interliner S55 (remolque)
 DB_ADm101
 Haru ADm101
 DB_Apmz121
@@ -2316,6 +2362,8 @@ Fluid_Truck_2
 S.Kroytor ZUK-20 Tanque
 Fluid_Truck_3
 Magirus 1923 Autotanque \n
+Flxible_Twin_FT2-40
+Flxible Twin FT2-40
 Freya
 Ferry "MV Freya"
 Goods_trailer_0
@@ -2552,6 +2600,8 @@ Milk_Truck_1
 S.Kroytor-ZIL Camión lechero
 Milk_Truck_2
 Magirus Autotanque lechero
+mja-20s_concretemixer
+Camión Cemento MJA-20S
 mja-bulk_trailer_l
 Remolque para áridos MJA-L300
 mja-bulk_trailer_m
@@ -2602,6 +2652,8 @@ Nordic_Heron_(liquid_food)
 Barco tanque Nordic Heron
 Nororn
 Pesquero moderno Nororn
+NovaBus_RTS-06_WFD
+NovaBus RTS-06 WFD
 Owari_Maru
 Owari Maru (granel)
 Passagierwagen
@@ -3105,7 +3157,7 @@ Airbus A300-600F
 SAC-Airbus_A300-600P_128_set
 Airbus A300-600P
 SAC-Airbus_A300-600ST_128_set
-Airbus A300-600ST Beluga
+Airbus A300-600ST "Beluga"
 SAC-Airbus_A300-B4_128_set
 Airbus A300-B4
 SAC-Airbus_A310-200_128_set
@@ -3346,6 +3398,12 @@ Sentinel_Wood_Lorry
 Sindor-Sentinel (troncos)
 Sentinel_Wood_Trailer
 Remolque Sentinel (troncos)
+Silver_City_Comet
+Silver City Comet
+Silver_City_Comet_Car
+Silver City Comet (coche)
+Silver_City_Comet_Post_Car
+Silver City Comet (correo)
 SK_Mail_Truck_1
 S.Kroytor Correo 
 skoda_1_tr_128
@@ -3410,12 +3468,98 @@ skoda163
 Skoda 163
 skoda180
 Skoda 180 
+SMC_Early_Grain_Hopper
+Vagón tolva corto para grano
+SMC_H-38_City_Bus
+Microbús SMC H-38
+SMC_H-98_City_Bus
+Autobús SMC H-98
+SMC_HDL-1400
+SMC HDL-1400
+SMC_HDL-1600
+SMC HDL-1600
+SMC_HDL-1800
+SMC HDL-1800
+SMC_HDL-2000
+SMC HDL-2000
+SMC_HDL-2500
+SMC HDL-2500
+SMC_HDL-3000
+SMC HDL-3000
+SMC_HDL-4000
+SMC HDL-4000
 SMC_Long_Grain_Hopper
 SMC Vagón Tolva para Grano
 SMC_Medium_Grain_Car
 SMC Vagón Volquete para sacos
+SMC_RT-100_Ugly_Duck
+SMC RT-100 «Patito Feo»
+SMC_RT-101_(car)
+SMC RT-101 (coche)
+SMC_RT-102_(mail_car)
+SMC RT-102 (furgón correos)
+SMC_RT-120_Mighty_Duck
+SMC RT-120 «Pato Poderoso»
+SMC_RT-121_(car)
+SMC RT-121 (coche)
+SMC_RT-122_(mail_car)
+SMC RT-122 (furgón correos)
+SMC_RT-350_Donald_Duck
+SMC RT-350 «Pato Donald»
+SMC_RT-351_(car)
+SMC RT-351 (coche)
+SMC_RT-352_(mail_car)
+SMC RT-352 (furgón correos)
+SMC_RT-600_Super_Duck
+SMC RT-600 «Súper Pato»
+SMC_RT-601_(single_deck_car)
+SMC RT-601 (coche)
+SMC_RT-602_(mail_car)
+SMC RT-602 (furgón correos)
+SMC_RT-605_(double_deck_car)
+SMC RT-605 (coche dos pisos)
+SMC_RT-900_Dry_Duck
+SMC RT-900 «Pato Seco»
+SMC_RT-901_(car)
+SMC RT-901 (coche)
+SMC_RT-902_(mail_car)
+SMC RT-902 (furgón correos)
+SMC_RT-909_(back_engine)
+SMC RT-909 (cabina)
 SMC_Short_Grain_Car
 SMC Vagoneta Volquete para sacos
+SMC_XT-1000_Proto_Duck
+SMC XT-1000 "Proto-Pato"
+SMC_XT-1001_(passenger_car)
+SMC XT-1001 (coche)
+SMC_XT-1002_(mail_car)
+SMC XT-1002 (correos)
+SMC_XT-1009_(back_engine)
+SMC XT-1009 (cabina)
+SMC_XT-300_Toasted_Duck
+SMC XT-300 "Pato Tostado"
+SMC_XT-301_(car)
+SMC XT-301 (coche)
+SMC_XT-302_(mail_car)
+SMC XT-302 (correo)
+SMC_XT-309_(back_engine)
+SMC XT-309 (cabina)
+SMC_XT-500_Hot_Duck
+SMC XT-500 "Pato Caliente"
+SMC_XT-501_(car)
+SMC XT-501 (coche)
+SMC_XT-502_(mail_car)
+SMC XT-502 (correo)
+SMC_XT-509_(back_engine)
+SMC XT-509 (cabina)
+SMC_XT-700_Fast_Duck
+SMC XT-700 "Pato Veloz"
+SMC_XT-701_(passenger_car)
+SMC XT-701 (coche)
+SMC_XT-702_(mail_car)
+SMC XT-702 (correo)
+SMC_XT-709_(back_engine)
+SMC XT-709 (cabina)
 Stahlwagen
 Vagón para acero
 Stahlwagen_0
@@ -3428,6 +3572,8 @@ Stahlwagen_3
 RVg vagón para acero (planchas)
 Steel_Truck_0
 PMNV Acero
+Stoyko_Peev
+Portacontenedores Stoyko Peev
 T_101
 RVg T101
 T_102
@@ -3456,12 +3602,98 @@ T_110A
 RVg T110a ST
 T_110B
 RVg T110b ST
+T_202_Cityway_A
+T-202 Cityway
+T_202_Cityway_B0
+T-202 Cityway (B)
+T_202_Cityway_B1
+T-202 Cityway (B1)
+T_202_Cityway_C0
+T-202 Cityway (C)
+T_202_Cityway_C1
+T-202 Cityway (C1)
+T_202_Cityway_D
+T-202 Cityway (D)
+T_202_Cityway_E0
+T-202 Cityway (E)
+T_202_Cityway_E1
+T-202 Cityway (E1)
+T_211_Eurotram_A
+T-211 Eurotram
+T_211_Eurotram_B
+T-211 Eurotram (B)
+T_211_Eurotram_C
+T-211 Eurotram (C)
+T_211_Eurotram_D
+T-211 Eurotram (D)
+T_211_Eurotram_E
+T-211 Eurotram (E)
+T_212_Sirio_A
+T-212 Sirio
+T_212_Sirio_B
+T-212 Sirio (B)
+T_212_Sirio_C
+T-212 Sirio (C)
+T_212_Sirio_D
+T-212 Sirio (D)
+T_212_Sirio_E
+T-212 Sirio (E)
+T_221_Combino_A
+T-221 Combino
+T_221_Combino_B
+T-221 Combino (B)
+T_221_Combino_C
+T-221 Combino (C)
+T_221_Combino_D
+T-221 Combino (D)
+T_221_Combino_E
+T-221 Combino (E)
+T_222_Combino_Supra_A
+T-222 Combino Supra
+T_222_Combino_Supra_B
+T-222 Combino Supra (B)
+T_222_Combino_Supra_C
+T-222 Combino Supra (C)
+T_222_Combino_Supra_D
+T-222 Combino Supra (D)
+T_222_Combino_Supra_E
+T-222 Combino Supra (E)
+TalgoExpressCar
+Coche Talgo Express
+TalgoExpressMail
+Furgón Talgo Express
+TalgoExpressRestaurant
+Coche Restaurante Talgo Express
+TalgoRegionalCar
+Coche Regional Talgo
+TalgoRegionalMail
+Furgón Regional Talgo
 TATRA_400_T_128
 Tatra 400 T
 TATRA_401_T_128
 Tatra 401 T
 TATRA_86_T_128
 Tatra 86 T
+TGV_4400
+TGV 4400
+TGV_4400_Back
+TGV 4400 (cabina)
+TGV_4400_Car
+TGV 4400 (coche)
+TGV_Atlantique
+TGV Atlantique
+TGV_Atlantique_(Back)
+TGV Atlantique (cabina)
+TGV_Atlantique_(Car)
+TGV Atlantique (coche)
+TGV_Post
+TGV Postal
+TGV_Post_Back
+TGV Postal (cabina)
+TGV_Post_Car_A
+TGV Postal (coche A)
+TGV_Post_Car_B
+TGV Postal (coche B)
 Thunder_(front_engine)
 BB Thunder
 Thunder_(mail)
@@ -3512,6 +3744,10 @@ TMB_Class_6000_Powered_Car
 Metro TMB Serie 6000 (cotxe motor)
 TS_Mack_Bulk_Trailer_0
 TS Semirremolque MF
+Twin_Coach_40
+Twin Coach 40
+Veveri_ship_128set
+Ferry Veveri
 Vitus-AVECO_Eurocargo_Bretter
 Vitus-Aveco Eurocargo (planchas)
 Vitus-AVECO_Eurocargo_bulk_transporter
@@ -3539,13 +3775,25 @@ VSYS Gran Acoplado postal
 VSYS_Post_Bus_Trailer_2
 VSYS Acoplado postal
 VSYS_Steel_Trailer_0
-VSYS Remolque cargoso (acero)
+VSYS Remolque pesado para acero
 VSYS_Tatra_138
 VSYS Tatra 138 MF
 VSYS_Tatra_138_Grain
 VSYS Tatra 138 (granos)
 VSYS_Tatra_813_Clossus
 VSYS Tatra 813 Colossus
+VT105_Addon
+VT-105
+VT105_Car_Addon
+VT-105 (coche)
+VT105_Tail_Addon
+VT-105 (coche cola)
+Willamette_Chief
+ferry Willamette Chief
+Willamette_Chief_(farm_goods)
+Carguero Willamette Chief (prod. agrícolas)
+Willamette_Chief_(goods)
+Carguero Willamette Chief (mercancías)
 Wood_Trailer_0
 Trailer para Madera VSYS
 Wood_Truck_0
@@ -3588,6 +3836,8 @@ old_runway
 Antigua Pista de aterrizaje
 old_taxiway
 Antigua Pista de maniobras
+PowerConduits
+Conducción eléctrica
 Powerline
 Cableado de Alto Voltaje
 river_00

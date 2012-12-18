@@ -5,7 +5,7 @@
 #                              Language: ca Catala                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 2.09 2012                           #
+#                           Date Created: 18.12 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -140,6 +140,8 @@ Car_StationBlg
 Aparcaments
 CarDepot
 Cotxera camió/autobús
+CargoHighStop
+Parada de càrrega i descàrrega
 CarStop
 Zona de càrrega per a camions
 CASTLE_0
@@ -164,14 +166,20 @@ ClosedTrainStop
 Estació de passatgers amb coberta metàl·lica
 CoalTrainStop
 Estació de mercaderies (carbó)
+container_crane_span
+Gran grua per a contenidors
 Container1TrainStop
 Estació de mercaderies mitjana (contenidors)
 Container2TrainStop
 Estació de mercaderies gran (contenidors)
+containercrane
+Grua per a contenidors
 Control_StationBlg
 Caseta de control
 Crate_Goods_Dock
 Moll de contenidors
+Cross_Country_skiing_resort
+Estació d'esquí nòrdic
 CunnersdorfStopBlg
 Estació rural
 CUR_01_128_JH
@@ -198,10 +206,12 @@ DenkVM
 Dedicat a Manfred 'VT\nVienna' Tomaschitz, el\nfamós enginyer que\nva dissenyar moltíssim material\nferroviari.\n\n
 DenkVolker
 Aquest lloc es va\nconstruir en honor al mag de\nla programació Volker\nMeyer, qui va millorar\nSimutrans en moltes, moltes coses.\n\n
+Depot_train_1936
+Cotxera de tren moderna
 ELEMENTARY_SCHOOL_1
-Escola de primària\n\nAquest és un lloc on els\nnens haurien d'obtenir la\seva educació primària.\nMatemàtiques, llengües,\nhistòria i ciències estan\nentre les assignatures\nmenys desitjades. Als\njoves estudiants els\nagrada molt més cantar\ni pintar. Donat que\nels jovenets no saben\nconduir, aquest lloc generarà\nmoltíssims passatgers.\n
+Escola Bressol\n\nMolts pares i mares passen\nper aquí pels matins a\ndeixar les seves criatures,\nper recollir-les més tard\nen sortir de la feina.\nÉs un lloc normalment tranquil,\nperò en aquests dos moments\ndel dia s'hi veu gent\nper tot arreu!\n
 ELEMENTARY_SCHOOL_2
-Institut de batxillerat\n\nUna de les coses interessants\nd'aquest institut de\nbatxillerat és que les classes\ncomencen a les 9 del matí, i acaben\npassat el migdia. La\nsegona cosa curiosa és\nque els alumnes hi assisteixen\ntota la setmana, inclosos\ndissabtes i diumenges!\n
+Escola de primària\n\nAquest és un lloc on els\nnens haurien d'obtenir la\seva educació primària.\nMatemàtiques, llengües,\nhistòria i ciències estan\nentre les assignatures\nmenys desitjades. Als\njoves estudiants els\nagrada molt més cantar\ni pintar. Donat que\nels jovenets no saben\nconduir, aquest lloc generarà\nmoltíssims passatgers.\n
 Firestation
 Parc de Bombers\n\nAquest és el parc de bombers\nde la ciutat. Aquí\ntrobem el camió de bombers,\nels bombers i una ambulància.\nAixò és de moment, perquè\nl'ambulància se l'enduran, un\ncop s'acabin les obres que\nfan a l'hospital.\n
 Fluid_StationBlg
@@ -210,6 +220,10 @@ FORT_FUN
 Fort del vell oest\n\nGrans i petits s'ho passen\nd'allò més bé en aquest\nparc temàtic del vell oest.\nAmb el gran èxit que té\nentre la població,\nés un negoci segur per\nl'atrevit empresari de transport\nque primer hi faci arribar\nuna línia d'autobusos.\n\n
 FreightTrainStop
 Estació de mercaderies
+french_garden_4
+Jardins públics
+french_park_1
+Parc i jardins
 FUTURISTIC_TOWER_0
 Torre\n\nAquesta torre ofereix grans vistes\ndel paisatge dels\nvoltants. El pis superior\ntambé té un petit bar, així\npots prendre alguna cosa mentre\ngaudeixes del plaer de les\nvistes. En cara que\nels preus son bastant elevats,\nla torre segueix atraient a molts\nvisitants.\n
 Gas_StationBlg
@@ -223,7 +237,9 @@ Hivernacle\n\nAquest hivernacle abans era\nuna botiga normal. Però després\nd'un
 hall_extended_station
 Gran edifici sobre l'estació
 HIGH_SCHOOL_1
-Escola Bressol\n\nMolts pares i mares passen\nper aquí pels matins a\ndeixar les seves criatures,\nper recollir-les més tard\nen sortir de la feina.\nÉs un lloc normalment tranquil,\nperò en aquests dos moments\ndel dia s'hi veu gent\nper tot arreu!\n
+Institut de batxillerat\n\nUna de les coses interessants\nd'aquest institut de\nbatxillerat és que les classes\ncomencen a les 9 del matí, i acaben\npassat el migdia. La\nsegona cosa curiosa és\nque els alumnes hi assisteixen\ntota la setmana, inclosos\ndissabtes i diumenges!\n
+HIGH_SCHOOL_2
+La vella escola - Els estudiants tenen la seguretat\nd'una bona educació.\nLes matemàtiques, la història\ni l'ètica són les matèries\nobligatòries que se'ls ensenyen.
 HOUSE_RUINS_0
 Casa en runes\n\nFa molt temps això era\nl'ajuntament d'un poble\nque ja no existeix. Als\nhistoriadors els agrada\nvenir per a recordar el\npassat, i als turistes els\nagrada venir a veure les\nobres de teatre que s'hi\nrepresenten, a l'aire lliure,\njust a sota de l'arbre.\n
 HQ1
@@ -238,6 +254,8 @@ Lighthouse_0
 Far\n\nDes que es van construir, la\nnavegació a Simutrans\ns'ha fet més fàcil i\nsegura. Molta gent ara\nvol visitar-ne un d'aquests\ni contemplar les onades\ntrencant contra la costa.\n
 Lighthouse_1
 Far\n\nDes que es van construir, la\nnavegació a Simutrans\ns'ha fet més fàcil i\nsegura. Aquest n'és un\ndels més extranys, però cap\nmariner se n'ha queixat\npas mai.\n
+Little_Central_Park
+El parc central de la ciutat.\n No busqueu pas cap semblança\namb el seu germà gran americà.
 Long_Goods_Dock
 Moll de mercaderies
 LuftPost1950_AirportBlg
@@ -294,6 +312,8 @@ parking_(catchemnt_area_ext)2
 Zona d'aparcaments
 parking_(catchemnt_area_ext)3
 Zona d'aparcaments
+Percival_Maya_Temple
+Temple Maia Percival\n Les excavacions han posat al descobert\nuna civilització simutransiana\nmolt antiga!
 plain_tile_high
 Plataforma buida
 Post_Dock
@@ -310,6 +330,8 @@ radiant_house
 Casa radiant
 RADIO_TOWER_0
 Estació de ràdio FM Chit-Chat\n\nAquesta és l'estació de ràdio\nFM de Chit-Chat, on\nels agrada venir a molta\ngent, ja que els\norganitzadors prometen\nque els visitants sortiran\nen directe tots els dies entre\n13:00 h. y 14:30 h.\n
+ramp_tile_high
+Rampa d'accés
 rmax_clock_tower
 Torre del rellotge\n\nTé un disseny peculiar.\nAlguns creuen que està\ninspirada en les runes de\nla Torre de Fabel però de\nfet, és un edifici de\nrecent construcció i el seu\nrellotge és un dels més\nprecisos de Simutrans.\n
 rmax_courthouse
@@ -358,8 +380,12 @@ st_benedict_church
 Església de St. Benet\n\nAquesta església és una de les\nmés boniques de Simutrans.\nMolts turistes vénen de\nvisita, mentre uns pocs vénen a\nresar. Acull al seu interior\npintures d'incalculable\nvalor, i ningú les trobaria\na faltar.\n
 ST_PETER
 Església de Sant Pere\n\nL'església de Sant Pere, del\nromànic tardà, va ser\nconstruïda cap l'any\n1200. Té un gran coral,\nfrescos de meitat del Segle\nXIII i la mòmia "The Holy\nReeve" molt ben\nconservada. Aquest antic\npersonatge momificat té\nmés de 300 anys,\ni probablement es tracta de\nWilhem de Holbach, el conseller\nreial. La mòmia està exposada en\nuna alcova a l'ala oest de\nl'església.\n
+STADIUM_RUGBY
+Estadi de rugby\nAquí es on juga els partits\nl'equip de rugby de\nla ciutat. Centenars\nde persones hi venen els caps de setmana\na veure'ls jugar.
 Suspended_Monorail_Bahnhof_Modern
 Estació de monocarril
+tennis_court
+Club de tenis\n El club de tenis de la ciutat\nés on es juga el torneig més\nprestigiós de la regió, però també\ns'hi fan classes per als nois,\npromovent la pràctica de l'esport i una\nvida sana.
 Terminal1930_AirportBlg
 Terminal de passatgers senzilla
 Terminal1950_AirportBlg_S
@@ -386,6 +412,8 @@ VictorianStation
 Estació de passatgers victoriana
 VillageTrainStop
 Estació senzilla per passatgers
+WernerServer
+Monument a "Wernieman"\n Aquest monument l'ha construit l'autoritat\nde Simutrans en honor a Werner Brandt\ni al seu servidor. Han proveït la comunitat\namb serveis molt útils com svn, compilacions\nnocturnes i compartició d'arxius.\nEl més divertit però és que quan ell se'n va\nde vacances el seu router es nega a treballar\ni també se'n va de vacances!
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
 Horse_Carriage_For_2_public
@@ -484,6 +512,8 @@ sheep_farm
 Granja de xais
 shopping_mall
 Centre comercial
+Simutrans_Fried_Chicken
+Cadena de menjar ràpid. Les ales i cuixes de pollastre es\n 
 Solar Pond_kraftwerk
 Estany d'energia solar
 SolarPowerTowerPS10_kraftwerk
@@ -712,6 +742,8 @@ traffic_light
 Semàfors
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
+PowerTunnel
+Túnel per a línia elèctrica
 RailTunnel
 Túnel ferroviari
 road_040_tunnel
@@ -760,6 +792,8 @@ Tràiler Contenidor 40ft
 Classe 620 Australià (cabina)
 720_Railcar_Addon
 Classe 720 Australià
+AEC_Aclo_Regent_III
+AEC Aclo Regent III
 Airport_express_shuttle
 Autobús llançadora
 Autotransportwagen
@@ -868,6 +902,16 @@ Cooling_wagon_2
 Vagó refrigerat hermètic Canonball
 CPH_Motorcar
 Ferrobús CPH Australià
+CST_Interliner_E55
+CST Interliner E55
+CST_Interliner_E55_Rear
+CST Interliner E55 (remolc)
+CST_Interliner_S45
+CST Interliner S45
+CST_Interliner_S55
+CST Interliner S55
+CST_Interliner_S55_Rear
+CST Interliner S55 (remolc)
 DB_ADm101
 Haru ADm101
 DB_Apmz121
@@ -952,6 +996,8 @@ Fluid_Truck_2
 ZUK-20 Cisterna
 Fluid_Truck_3
 Magirus 1923 Cisterna
+Flxible_Twin_FT2-40
+Flxible Twin FT2-40
 Freya
 Ferry "MV Freya"
 Goods_trailer_0
@@ -1188,6 +1234,8 @@ Milk_Truck_1
 Camió cisterna per llet Kroytor-ZIL
 Milk_Truck_2
 Camió tanc per llet Magirus
+mja-20s_concretemixer
+Camió Ciment MJA-20S
 mja-bulk_trailer_l
 Remolc per àrids MJA-L300
 mja-bulk_trailer_m
@@ -1238,6 +1286,8 @@ Nordic_Heron_(liquid_food)
 Vaixell tanc Nordic Heron
 Nororn
 Pesquer modern Nororn
+NovaBus_RTS-06_WFD
+NovaBus RTS-06 WFD
 Owari_Maru
 Owari Maru (engròs)
 Passagierwagen
@@ -1644,6 +1694,94 @@ RVg-DB_MA461
 RVg-DB MA-461
 RVg-DB_MA461_Tail
 RVg-DB MA-461 - Cabina
+RVg-E17-Spring
+RVg E17 "Espiral"
+RVg-Express_Tender
+RVg Tender Express
+RVg-Goods_waggon
+Furgó tancat RVg
+RVg-Heavy-Tender
+Gran Tender RVg
+RVg-KS_4510-33
+RVg-KS 4510-33
+RVg-KS_4510-45
+RVg-KS 4510-45
+RVg-KS_4510-69
+RVg-KS 4510-69
+RVg-KS_9020-31
+RVRVg-KS 9020-31
+RVg-KS_9020-58
+RVg-KS 9020-58
+RVg-KS_9020-92
+RVg-KS 9020-92
+RVg-LK_Cement_Truck
+RVg LK (ciment)
+RVg-LK_Cooling_Truck
+RVg-LK V44 (refrigerat)
+RVg-LK_Goods_Truck
+Furgó RVg-LK (mercaderies)
+RVg-LK_Grain_Truck
+RVg-LK V41 (gra)
+RVg-LK_Plank_Truck
+RVg-LK V37 (taulons)
+RVg-LK_Steel_Truck
+RVg-LK V38 (acer)
+RVg-Oil-Tender
+RVg Tender de mazut
+RVg-Pioneer_Alladin
+RVg Pioneer Alladin
+RVg-Pioneer_Alladin_rear
+RVg Pioneer Alladin (cua)
+RVg-Pioneer_Alladin_supply
+RVg Pioneer Alladin (motor)
+RVg-Pioneer_Alladin_waggon
+RVg Pioneer Alladin (cotxe)
+RVg-RHF401
+RVg-RHF 401 «Cocodril»
+RVg-S004-Little_Boy
+RVg S004 «Little Boy»
+RVg-S033-Red_Dwarf
+RVg S033 "Nan roig"
+RVg-S127-Blue_Cow
+RVg S033 "Vaca blava"
+RVg-Sail_Goods_Ship_0
+RVg Gavarra
+RVg-Sail_Passanger_Ship_0
+RVg Fragata
+RVg-Steam_Goods_Ship_0
+RVg mercant a vapor
+RVg-Steam_Passanger_Ship_0
+RVg Fery de pales a vapor 
+RVg-Tender
+RVg Tender
+RX_1064
+Autobús RX 1064
+S_Kroytor_Gaz-2
+S.Kroytor Gaz-2
+S_Kroytor_Gaz-3
+S.Kroytor Gaz-3
+S_Kroytor_Gaz-4
+S.Kroytor Gaz-4
+S_Kroytor_Ikarus-260
+S.Kroytor Ikarus-260
+S_Kroytor_Ikarus-260(l)
+Autobús de línia S.Kroytor Ikarus-260
+S_Kroytor_Ikarus-280
+S.Kroytor Ikarus-280
+S_Kroytor_Ikarus-280_ext
+S.Kroytor Ikarus-280 (remolc)
+S_Kroytor_LiAZ-5256
+S.Kroytor LiAZ-5256
+S_Kroytor_LiAZ-677
+S.Kroytor LiAZ-677
+S_Kroytor_Mercedes_Citaro
+S.Kroytor Mercedes Citaro
+S_Kroytor_PAZ-672
+S.Kroytor PAZ-672
+S_Kroytor_PAZ-772
+S.Kroytor PAZ-772
+S_Kroytor_Traveler
+S.Kroytor Traveler
 SAC-Aerospatiale_Concorde_128_set
 Aerospatiale Concorde
 SAC-Airbus_A300-600C_128_set
@@ -1653,7 +1791,7 @@ Airbus A300-600F
 SAC-Airbus_A300-600P_128_set
 Airbus A300-600P
 SAC-Airbus_A300-600ST_128_set
-Airbus A300-600ST Beluga
+Airbus A300-600ST "Beluga"
 SAC-Airbus_A300-B4_128_set
 Airbus A300-B4
 SAC-Airbus_A310-200_128_set
@@ -1876,12 +2014,328 @@ SAC-McDonnell_Douglas_MD-90_128_set
 McDonnell Douglas MD-90
 SAC-Rohrbach_Rocco_128_set
 Rohrbach Rocco
+Sail_Post_Ship_0
+Veler postal
+SBB_Re4_4_II
+Haru-SBB Re 4/4 II
+SBB_Re6_6
+Haru-SBB Re 6/6 "Gotthard"
+Sentinel_Cement_Lorry
+Camió Sindor-Sentinel per a ciment
+Sentinel_Cement_Trailer
+Remolc Sindor-Sentinel per a ciment
+Sentinel_Goods_Lorry
+Camió Sindor-Sentinel per a mercaderies
+Sentinel_Goods_Trailer
+Remolc Sindor-Sentinel per a mercaderies
+Sentinel_Wood_Lorry
+Camió Sindor-Sentinel per a troncs
+Sentinel_Wood_Trailer
+Remolc Sindor-Sentinel per a troncs
+Silver_City_Comet
+Silver City Comet
+Silver_City_Comet_Car
+Silver City Comet (cotxe)
+Silver_City_Comet_Post_Car
+Silver City Comet (correus)
+SK_Mail_Truck_1
+Camió S.Kroytor per a correu
+skoda_1_tr_128
+Skoda 1 tr
+skoda_10_tr_128
+Skoda 10 tr
+skoda_10_tr_rear_128
+Skoda 10 tr (cua)
+Skoda_109E
+Sindor-Skoda 109E
+skoda_11_tr_128
+Skoda 11 tr
+skoda_12_tr_128
+Skoda 12 tr
+skoda_14_tr_128
+Skoda 14 tr
+skoda_18_tr_128
+Skoda 18 tr
+skoda_18_tr_rear_128
+Skoda 18 tr (cua)
+skoda_19_tr_128
+Skoda 19 tr
+skoda_19_tr_mid_128
+Skoda 19 tr (central)
+skoda_19_tr_rear_128
+Skoda 19 tr (cua)
+skoda_21_tr_128
+Skoda 21 tr
+skoda_22_tr_128
+Skoda 22 tr
+skoda_22_tr_rear_128
+Skoda 22 tr (cua)
+skoda_23_tr_128
+Skoda 23 tr
+skoda_23_tr_mid_128
+Skoda 23 tr (central)
+skoda_23_tr_rear_128
+Skoda 23 tr (cua)
+skoda_24_tr_128
+Skoda 24 tr
+skoda_25_tr_128
+Skoda 25 tr
+skoda_25_tr_rear_128
+Skoda 25 tr (cua)
+skoda_6_tr_128
+Skoda 6 tr
+Skoda_706_grain
+Sindor-Skoda 706 per cereals
+Skoda_706_trailer_grain
+Remolc Sindor-S706 per cereals
+skoda_8_tr_128
+Skoda 8 tr
+skoda_sanos_115_tr_128
+Skoda Sanos 115 tr
+skoda_sanos_200_tr_128
+Skoda Sanos 200 tr
+skoda_sanos_200_tr_rear_128
+Skoda Sanos 200 tr (cua)
+skoda151
+Skoda 151
+skoda163
+Skoda 163
+skoda180
+Skoda 180
+SMC_Early_Grain_Hopper
+Vagó tremuja curt per a gra
+SMC_H-38_City_Bus
+Microbús SMC H-38
+SMC_H-98_City_Bus
+Autobús SMC H-98
+SMC_HDL-1400
+SMC HDL-1400
+SMC_HDL-1600
+SMC HDL-1600
+SMC_HDL-1800
+SMC HDL-1800
+SMC_HDL-2000
+SMC HDL-2000
+SMC_HDL-2500
+SMC HDL-2500
+SMC_HDL-3000
+SMC HDL-3000
+SMC_HDL-4000
+SMC HDL-4000
 SMC_Long_Grain_Hopper
 SMC Vagó Tremuja per Gra
 SMC_Medium_Grain_Car
 SMC Vagó Bolquet per sacs
+SMC_RT-100_Ugly_Duck
+SMC RT-100 «Aneguet Lleig»
+SMC_RT-101_(car)
+SMC RT-101 (cotxe)
+SMC_RT-102_(mail_car)
+SMC RT-102 (furgó correu)
+SMC_RT-120_Mighty_Duck
+SMC RT-120 «Ànec Poderós»
+SMC_RT-121_(car)
+SMC RT-121 (cotxe)
+SMC_RT-122_(mail_car)
+SMC RT-122 (furgó correu)
+SMC_RT-350_Donald_Duck
+SMC RT-350 «Ànec Donald»
+SMC_RT-351_(car)
+SMC RT-351 (cotxe)
+SMC_RT-352_(mail_car)
+SMC RT-352 (furgó correu)
+SMC_RT-600_Super_Duck
+SMC RT-600 «Súper Ànec»
+SMC_RT-601_(single_deck_car)
+SMC RT-601 (cotxe)
+SMC_RT-602_(mail_car)
+SMC RT-602 (furgó correu)
+SMC_RT-605_(double_deck_car)
+SMC RT-605 (cotxe dos pisos)
+SMC_RT-900_Dry_Duck
+SMC RT-900 «Ànec Sec»
+SMC_RT-901_(car)
+SMC RT-901 (cotxe)
+SMC_RT-902_(mail_car)
+SMC RT-902 (furgó correu)
+SMC_RT-909_(back_engine)
+SMC RT-909 (cabina)
 SMC_Short_Grain_Car
 SMC Vagoneta Bolquet per sacs
+SMC_XT-1000_Proto_Duck
+SMC XT-1000 "Proto-Ànec"
+SMC_XT-1001_(passenger_car)
+SMC XT-1001 (cotxe)
+SMC_XT-1002_(mail_car)
+SMC XT-1002 (correu)
+SMC_XT-1009_(back_engine)
+SMC XT-1009 (Cabina)
+SMC_XT-300_Toasted_Duck
+SMC XT-300 "Ànec Torrat"
+SMC_XT-301_(car)
+SMC XT-301 (cotxe)
+SMC_XT-302_(mail_car)
+SMC XT-302 (correu)
+SMC_XT-309_(back_engine)
+SMC XT-309 (cabina)
+SMC_XT-500_Hot_Duck
+SMC XT-500 "Ànec Calent"
+SMC_XT-501_(car)
+SMC XT-501 (cotxe)
+SMC_XT-502_(mail_car)
+SMC XT-502 (correu)
+SMC_XT-509_(back_engine)
+SMC XT-509 (cabina)
+SMC_XT-700_Fast_Duck
+SMC XT-700 "Ànec Ràpid"
+SMC_XT-701_(passenger_car)
+SMC XT-701 (cotxe)
+SMC_XT-702_(mail_car)
+SMC XT-702 (correu)
+SMC_XT-709_(back_engine)
+SMC XT-709 (cabina)
+Stahlwagen
+Vagó per a acer
+Stahlwagen_0
+Vagó Canonball per a acer
+Stahlwagen_1
+Vagó RVg per a acer
+Stahlwagen_2
+Vagó RVg per bobines d'acer
+Stahlwagen_3
+Vagó RVg per planxes d'acer
+Steel_Truck_0
+Camió plataforma PMNV per acer
+Stoyko_Peev
+Portacontenidors Stoyko Peev
+T_101
+RVg T101
+T_102
+RVg T102
+T_103
+RVg T103
+T_104
+RVg T104
+T_105
+RVg T105
+T_106
+RVg T106
+T_107A
+RVg T107
+T_107B
+RVg T107 (remolc)
+T_108A
+RVg T108
+T_108B
+RVg T108 (remolc)
+T_109A
+RVg T109
+T_109B
+RVg T109 (remolc)
+T_110A
+RVg T110 ST
+T_110B
+RVg T110 ST (remolc)
+T_202_Cityway_A
+T-202 Cityway
+T_202_Cityway_B0
+T-202 Cityway (B)
+T_202_Cityway_B1
+T-202 Cityway (B1)
+T_202_Cityway_C0
+T-202 Cityway (C)
+T_202_Cityway_C1
+T-202 Cityway (C1)
+T_202_Cityway_D
+T-202 Cityway (D)
+T_202_Cityway_E0
+T-202 Cityway (E)
+T_202_Cityway_E1
+T-202 Cityway (E1)
+T_211_Eurotram_A
+T-211 Eurotram
+T_211_Eurotram_B
+T-211 Eurotram (B)
+T_211_Eurotram_C
+T-211 Eurotram (C)
+T_211_Eurotram_D
+T-211 Eurotram (D)
+T_211_Eurotram_E
+T-211 Eurotram (E)
+T_212_Sirio_A
+T-212 Sirio
+T_212_Sirio_B
+T-212 Sirio (B)
+T_212_Sirio_C
+T-212 Sirio (C)
+T_212_Sirio_D
+T-212 Sirio (D)
+T_212_Sirio_E
+T-212 Sirio (E)
+T_221_Combino_A
+T-221 Combino
+T_221_Combino_B
+T-221 Combino (B)
+T_221_Combino_C
+T-221 Combino (C)
+T_221_Combino_D
+T-221 Combino (D)
+T_221_Combino_E
+T-221 Combino (E)
+T_222_Combino_Supra_A
+T-222 Combino Supra
+T_222_Combino_Supra_B
+T-222 Combino Supra (B)
+T_222_Combino_Supra_C
+T-222 Combino Supra (C)
+T_222_Combino_Supra_D
+T-222 Combino Supra (D)
+T_222_Combino_Supra_E
+T-222 Combino Supra (E)
+TalgoExpressCar
+Cotxe Talgo Express
+TalgoExpressMail
+Furgó Talgo Express
+TalgoExpressRestaurant
+Cotxe Restaurant Talgo Express
+TalgoRegionalCar
+Cotxe Regional Talgo
+TalgoRegionalMail
+Furgó Regional Talgo
+TATRA_400_T_128
+Tatra 400 T
+TATRA_401_T_128
+Tatra 401 T
+TATRA_86_T_128
+Tatra 86 T
+TGV_4400
+TGV 4400
+TGV_4400_Back
+TGV 4400 (cabina)
+TGV_4400_Car
+TGV 4400 (cotxe)
+TGV_Atlantique
+TGV Atlantique
+TGV_Atlantique_(Back)
+TGV Atlantique (cabina)
+TGV_Atlantique_(Car)
+TGV Atlantique (cotxe)
+TGV_Post
+TGV Postal
+TGV_Post_Back
+TGV Postal (cabina)
+TGV_Post_Car_A
+TGV Postal (cotxe A)
+TGV_Post_Car_B
+TGV Postal (cotxe B)
+Thunder_(front_engine)
+BB Thunder
+Thunder_(mail)
+BB Thunder (correu)
+Thunder_(rear_engine)
+BB Thunder (cabina)
+Thunder_(waggon)
+BB Thunder (cotxe)
 TMB_Class_100
 Metro TMB Sèrie 100
 TMB_Class_1000
@@ -1922,6 +2376,86 @@ TMB_Class_6000_Car
 Metro TMB Sèrie 6000 (cotxe)
 TMB_Class_6000_Powered_Car
 Metro TMB Sèrie 6000 (cotxe motor)
+TS_Mack_Bulk_Trailer_0
+Remolc lleuger obert TS
+Twin_Coach_40
+Twin Coach 40
+Veveri_ship_128set
+Ferry Veveri
+Vitus-AVECO_Eurocargo_Bretter
+Vitus-Aveco Eurocargo (taulons)
+Vitus-AVECO_Eurocargo_bulk_transporter
+Vitus-Aveco Eurocargo (granel)
+Vitus-AVECO_Eurocargo_freezing
+Vitus-Aveco Eurocargo (frigorífic)
+Vitus-AVECO_Eurocargo_tanker
+Vitus-Aveco Eurocargo (cisterna)
+Vitus-AVECO_Eurocargo_transporter
+Vitus-Aveco Eurocargo (mercaderia)
+VSYS_Car_Trailer_0
+VSYS Remolc Colossus (maquinària)
+VSYS_Concrete_Trailer_0
+VSYS plataforma per formigó
+vsys_garatt_0
+VSYS-Garatt 2DD2
+vsys_garatt_1
+VSYS-Garatt 2DD2 (central)
+vsys_garatt_2
+VSYS-Garatt 2DD2 (cua)
+VSYS_Post_Bus_Trailer_0
+VSYS Remolc correu
+VSYS_Post_Bus_Trailer_1
+VSYS Remolc pesat per correu
+VSYS_Post_Bus_Trailer_2
+VSYS Remolc lleuger per correu
+VSYS_Steel_Trailer_0
+VSYS Remolc pesant per acer
+VSYS_Tatra_138
+VSYS Tatra 138 MF
+VSYS_Tatra_138_Grain
+VSYS Tatra 138 (gra)
+VSYS_Tatra_813_Clossus
+VSYS Tatra 813 "Colossus"
+VT105_Addon
+VT-105
+VT105_Car_Addon
+VT-105 (cotxe)
+VT105_Tail_Addon
+VT-105 (cotxe cua)
+Willamette_Chief
+Ferry Willamette Chief
+Willamette_Chief_(farm_goods)
+Vaixell de càrrega Willamette Chief (prod. granja)
+Willamette_Chief_(goods)
+Vaixell de càrrega Willamette Chief (mercaderies)
+Wood_Trailer_0
+Tràiler per fusta VSYS
+Wood_Truck_0
+Camió Volvo-Shorty per troncs
+Wood_Truck_1
+Camió Ford V8 para fusta
+yoshi_wup01
+GTW 72
+yoshi_wup02
+GTW 72 (central)
+yoshi_wup03
+GTW 72 (cabina)
+yoshi_wup1900
+GTW 01
+yoshi_wup1950
+GTW 62
+yoshi_wup196201
+GTW 69
+yoshi_wup196202
+GTW 69 (central)
+yoshi_wup196203
+GTW 69 (cua)
+yoshi_wup196501
+GTW 85
+yoshi_wup196502
+GTW 85 (central)
+yoshi_wup196503
+GTW 85 (cua)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 air_movement_area
@@ -1936,6 +2470,8 @@ old_runway
 Pista d'aterratge d'herba
 old_taxiway
 Pista de maniobres d'herba
+PowerConduits
+Conducció elèctrica
 Powerline
 Línia d'alt voltatge
 river_00

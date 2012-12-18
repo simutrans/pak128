@@ -5,7 +5,7 @@
 #                              Language: pl Polski                             #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                            Date Created: 2.09 2012                           #
+#                           Date Created: 18.12 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                       Bartlomiej Weclewski - BarthVader                      #
@@ -408,6 +408,8 @@ ModernTrainStop
 Nowoczesna stacja kolejowa
 MonorailDepot
 Zajezdnia kolei jednoszynowej
+MonorailFoundation
+Magazyn kolei podwieszanej
 MT_HOTEL_0
 Hotel\nJest to znany hotel.\nMimo wysokich cen\nbardzo du¿o ludzi\nchce tutaj nocowaæ\noraz zje¶æ wytrawny\nposi³ek w jego restauracji.\n
 MUSEUM_0

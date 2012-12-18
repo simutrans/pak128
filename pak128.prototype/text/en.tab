@@ -5,7 +5,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 2.09 2012                           #
+#                           Date Created: 18.12 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                            Alexander Brose - AlexB                           #
@@ -60,6 +60,8 @@
 #                                    note:                                     #
 #                                   - Xelofino                                 #
 #                                    note:                                     #
+#                                 - albert.yuste                               #
+#                               note: Albert Ruiz                              #
 #                            Carl Baker - carlbaker                            #
 #                                    note:                                     #
 #                                  - enternald                                 #
@@ -79,6 +81,8 @@
 #                                   - knightly                                 #
 #                                    note:                                     #
 #                             Mark Knoester - mark                             #
+#                                    note:                                     #
+#                          Michel Vorenhout - michelv                          #
 #                                    note:                                     #
 #                              Markus Rex - msrex                              #
 #                                    note:                                     #
@@ -122,6 +126,24 @@ ClassicRail
 Concrete flat bridge (Nabe)
 PowerBridge
 Power Line Bridge
+road_030_bridge
+Wooden road bridge
+road_040_bridge
+City stone bridge
+road_050_bridge
+City bridge
+road_055_bridge
+Stone road bridge
+road_070_bridge
+Road bridge
+road_090_bridge
+Modern road bridge
+road_110_bridge
+Highway bridge
+road_130_bridge
+Freeway bridge
+road_200_bridge
+Modern freeway bridge
 RVg_Concrete_Rail_Bridge
 Suspension Steel Bridge (RVg)
 Schwebebahn_p_bridge
@@ -172,6 +194,8 @@ Airport1930PostOffice
 Airmail Office
 Airport1990_Big_AirportBlg
 Large Modern Passenger Terminal
+Airport1990_Big_PostOffice
+International mail terminal
 Airport1990_Entrance_AirportBlg
 Modern Airport Entrance
 Airport1990_Gates_AirportBlg
@@ -180,6 +204,8 @@ Airport1990_PostOffice
 Modern Airmail Office
 Airport1990_Small_AirportBlg
 Small Modern Passenger Terminal
+Airport1990_Small_PostOffice
+Regional mail terminal
 Airport1990_Warehouse
 Modern Cargo Terminal
 AirStop_AirportBlg
@@ -196,6 +222,8 @@ big_classic_bus_stop
 Large bus stop
 big_modern_bus_stop
 Large modern busstop
+BigTerminal1930_AirportBlg
+Big terminal for passengers
 BigTerminal1950_AirportBlg_S
 Large Passenger Terminal (1950)
 Bulk_Dock
@@ -212,6 +240,8 @@ Car_StationBlg
 Station Parking Lot
 CarDepot
 Garage
+CargoHighStop
+Drive-through loading bay
 CarStop
 Loading Bay
 CASTLE_0
@@ -546,14 +576,20 @@ COM_11_59
 This all-glass building is\nactually a greenhouse and\nhydroponics farm. In it a\nwide variety of herbs and\nvegetables is being grown.\nBut its most popular crop\ndraws customers from all\nover the world. Amazingly,\nthey all seem to be named\nDude, Man, or Bro and have\na strange eye affliction\nthat causes them to squint\na lot.\n
 COM_12_01
 This barber shop is a great\nplace to get your hair cut\nand catch up on all the\ncurrent events.\n\n
+container_crane_span
+Large container crane
 Container1TrainStop
 Container station
 Container2TrainStop
 Advanced container station
+containercrane
+Small container crane
 Control_StationBlg
 Station Control Building
 Crate_Goods_Dock
 Container dock
+Cross_Country_skiing_resort
+Cross country skiing resort
 CunnersdorfStopBlg
 Village Station Building
 CUR_01_128_JH
@@ -580,6 +616,8 @@ DenkVM
 This monument is\ndedicated to Manfred 'VT\nVienna' Tomaschitz the\nfamous engineer who\ndesigned many superior rail\nvehicles.\n\n
 DenkVolker
 This Stupa was built for the\nprogramming "arch-mage"\nVolker Meyer who improved\nSimutrans in many, many\nareas.\n\n
+Depot_train_1936
+Modern train depot
 ELEMENTARY_SCHOOL_1
 Elementary School\n\nThis is a place where children\nought to get their first\neducation. Math,\nlanguages, history and\nsciences are among the\nless favorable subjects.\nYoung students usually like\npainting and singing a lot\nbetter. Since young people\ncannot drive a car, this\nplace will generate lot of\npassengers. But beware,\nluxurious buses are not\nrecommended to serve lines\naround here.\n
 ELEMENTARY_SCHOOL_2
@@ -592,6 +630,10 @@ FORT_FUN
 Historic Fort\n\n
 FreightTrainStop
 Freight Train Stop
+french_garden_4
+Public gardens
+french_park_1
+Park and gardens
 FUTURISTIC_TOWER_0
 Tower\n\nThis tower offers great views\nof the surrounding\nlandscape. The top floor\nalso has a small bar, so\nyou can have a drink to\nenhance your viewing\npleasure. Although the\nprices are not that low,\nthis tower attracts many\nvisitors.\n
 Gas_StationBlg
@@ -599,11 +641,15 @@ Gas Station Building
 Goods_StationBlg
 Goods Station Building
 GRASS_STADIUM
-Grass Stadium\n\nThis grass stadium is an\nexcellent place to go\njogging and play football,\nor soccer, as others call it.\nOne can often find less\nfitness-minded partners\nwatching their sporting\nmates from the benches\nunder the tree's.\n
+Grass Stadium\n\nThis grass stadium is an\nexcellent place to go\njogging and play football,\nor soccer, as others call it.\nOne can often find less\nfitness-minded partners\nwatching their sporting\nmates from the benches\nunder the trees.\n
 GREEN_HOUSE
 Green-This greenhouse used to be a\nregular shop. But after\nsome time, its owner found\nout, that people are often\ncoming just to take a look\nwithout any intention of\nbuying anything. So he\nconverted his shop into a\ntropical winter garden. Now\nthis greenhouse contains\nsome really rare plants and\nis well known all over the\ncountry.\n
+hall_extended_station
+Big hall station building
 HIGH_SCHOOL_1
 High School\n\nThis is a place where young\npeople should continue\ntheir education. Although\nofficially only scientific\nsubjects are taught, most\nof the students usually\nremember some other\ncourses they were actually\ntaking while being at this\nschool, although not\nexactly during classes -\nSocial contacts and Closer\ninterpersonal contacts to name\njust some of them.\n
+HIGH_SCHOOL_2
+The old school\n\n Students are assured of\n a good education.\n Mathematics, history and\n ethics are compulsory subjects\n that are taught.
 HOUSE_RUINS_0
 House Ruins\n\nThis was once the mayor's\noffice of some town that\nno longer exists. Historians\nlike coming here to\nremember the past, and\ntourists come here to see\nthe plays performed\noutside under the tree.\n
 HQ1
@@ -928,6 +974,8 @@ parking_(catchemnt_area_ext)2
 Parking
 parking_(catchemnt_area_ext)3
 Parking
+Percival_Maya_Temple
+Percival Maya Temple\n Recent excavations have uncovered\nan ancient simutransian\ncivilization!
 Post_Dock
 Post dock
 PostOffice
@@ -938,28 +986,30 @@ Radar3
 Radar
 RADIO_TOWER_0
 Chit-Chat FM radio station\n\nThis is the home of the local\nChit-Chat FM radio station.\nQuite a few people are\nwilling to come here,\nbecause they promise to\nput guests on the air every\nday between 13:00 and\n14:30.\n
+ramp_tile_high
+Access ramp
 RES_00_01
 "Happy Campers Camp\nGround" is where people go\nto have fun outside. These\nplaces are inside the city,\nbut campfires are allowed.\nMany campers catch their\nmeals in the city fishing\npond.\n
 RES_00_02
-Small house on the\noutskirts of a city. An old\ncouple lives here. The\nsurroundings are quiet. A\ngood place to enjoy the\nbenefits of ones pension.\nIn the garden grow they\nsome vegetables to save\nmoney.\n
+Small house on the\noutskirts of a city. An old\ncouple lives here. The\nsurroundings are quiet. A\ngood place to enjoy the\nbenefits of ones pension.\nIn the garden they grow\nsome vegetables to save\nmoney.\n
 RES_00_03
 If you can't have a cabin\nin the woods, you can still\nhave a cabin - in the city.\n\n
 RES_00_04
-Small house. Sometimes\npeople who live in cities,\nget such a "second home"\nto get some quiet moments\nin the green, away from\ntheir stressful lives. Good\nlocation for their kids to\nhave parties...\n
+Small house. Sometimes\npeople who live in cities,\nbuy such a "second home"\nto get some quiet moments\nin the green, away from\ntheir stressful lives. Good\nlocation for their kids to\nhave parties...\n
 RES_00_06
-The owner of this home\nwas contacted and asked\nabout her home. She\nrefused to answer until all\nthose other industries in\ntown explain what they are\ndoing.\n
+The owner of this home\nwas contacted and asked\nabout her home. She\nrefused to answer until all\nthe other industries in\ntown explained what they were\ndoing.\n
 RES_00_07
-This former tavern was\nrebuilt and is now home to\nthe old proprietor. The bar\nwas moved downstairs and\nis still a meeting point for\nold friends. Sadly the table\nfootie got broken and was\nnever repaired.\n
+This former tavern was\nrebuilt and is now home to\nthe old proprietor. The bar\nwas moved downstairs and\nis still a meeting point for\nold friends. Sadly the table\nfootie broke and was\nnever repaired.\n
 RES_00_08
-This small wooden house\nprovides living space for\nthe large family of a\nfactory worker. It is not\nvery attractive living, but\nlove and care can bring\nmore happiness than\nexpensive furniture.\n
+This small wooden house\nprovides living space for\nthe large family of a\nfactory worker. It is not a\nvery attractive living, but\nlove and care can bring\nmore happiness than\nexpensive furniture.\n
 RES_00_11
 Small park - a place to\nmeet and greet, go jogging\nand watch birds.\n\n
 RES_00_12
-A stylish old wooden\nhouse. The wood was not\npainted, so yearly\nrepainting is unnecessary.\nHowever, one has to spend\na lot of time in making a\nchristmas decoration.\n
+A stylish old wooden\nhouse. The wood was not\npainted, so yearly\nrepainting is unnecessary.\nHowever, one has to spend\na lot of time making a\nchristmas decoration.\n
 RES_00_13
-From the number of\nwindows you might\nsuppose that several\npeople live under this roof.\nSadly, the children are\ngetting older and will leave\na deserted house. Still,\nthere is the possibility that\nrooms can be rented to\nstudents and seasonal\nworkers.\n
+From the number of\nwindows you might\nsuppose that several\npeople live under this roof.\nSadly, the children are\ngetting older and will leave\na deserted house. Still,\nthere is the possibility that\nrooms can be rented by\nstudents and seasonal\nworkers.\n
 RES_00_14
-Another one storey\nbuilding, this time with lots\nof windows, so there are\nno dark corners in any\nroom. This provides for\nextra energy and\nunstressful living, but if\nyou do not like cleaning\nwindows it is not a first\nchoice.\n
+Another one storey\nbuilding, this time with lots\nof windows, so there are\nno dark corners in the\nrooms. This gives some\nextra energy and\nunstressful living, but if\nyou do not like cleaning\nwindows it is not a first\nchoice.\n
 RES_00_15
 An old style villa - the\nwhite wood gives it a\nclassy appearance. The big\nattic is a gold mine for\ntreasure seekers. One must\nhave some money to live\nhere, for repairing and\nrepainting will cost a lot.\nStill, one can give dinners\nand big parties.\n
 RES_00_16
@@ -983,7 +1033,7 @@ Another solution for how to\npack lot of people under\none roof - the house is a
 RES_00_52
 Our Lady of the Track.\nThousands of Simutransers\ncan be heard daily in\nprayer... "May my tracks lie\nstraight and my lines be\ntrue. May all of my\nswitches work and never\njam, and may all of my\ntrains find a route."\n
 RES_00_53
-This statue is in honor of\nSir Hans Groper. He was the\nsubject of hundreds of\nsexual harassment cases\nand helped women's rights\nactivists set precedents to\nget several bills through\nthe legislature.\n
+This statue is in honor of\nSir Hans Groper. He was the\nsubject of hundreds of\nsexual harassment cases\nand helped women's rights\nactivists to set precedents to\nget several bills through\nthe legislature.\n
 RES_00_60
 Our Lady of the Line. Twin\nsister to Our Lady of the\nTrack, she is the patron\nsaint of all the lines big\nand small; rail, road, and\nsea. May all your lines be\nfruitful and multiply.\n
 RES_01_01
@@ -1001,19 +1051,19 @@ A basic design for the\ncookie cutter housing of\nsuburbia, this house\nstands o
 RES_01_10
 On a visit to the orient Mr.\nJones learned that a red\ndoor on a house is\nsupposed to bring good\nluck and prosperity to the\nhousehold. He thought he\nwould give it a try, but\nthen he got a little carried\naway.\n
 RES_01_12
-Worker barracks. These are\nfor people who work for a\nbig company during the\nweek; mostly in coal or ore\nmines. Living here is very\nsimple, just beds and two\nbathrooms. The lockers are\nfull of disgusting pictures.\n
+Worker barracks. These are\nfor people who work for a\nbig company during the\nweek; mostly in coal or ore\nmines. The standard here is \nbasic, just beds and two\nbathrooms. The lockers are\nfull of disgusting pictures, or you think otherwise?\n
 RES_01_13
 This kind of family house\nprovides space for even a\nlarge family. Or it can\nprovide very luxurious living\nto a small family. Currently\nonly three people are living\nhere. Every one of them\nhas his own room,\nbathroom and TV. Still, can\nsuch living be called happy\nif everyone is separated?\n
 RES_01_14
 This is a cheap home for a\nbig family. It offers plenty\nof space for five children.\nOften this house is a great\nsource of noise.\n\n
 RES_01_15
-This house holds three\nrather small appartments,\nbut not in such a way that\neach occupies one floor.\nEvery apartment takes up\nthe whole height of the\nhouse. Imagine, you must\ngo two floors to get to your\nroom below the roof from\nthe kitchen on the ground\nfloor.\n
+This house holds three\nrather small appartments,\nbut not in such a way that\neach occupies one floor.\nEvery apartment takes up\nthe whole height of the\nhouse. Imagine, you must\ngo two floors up to get to your\nroom below the roof from\nthe kitchen on the ground\nfloor.\n
 RES_01_16
-Small park - a place for\nquiet rest in nature in the\ncenter of your home town.\n\n
+Small park - a place for\na quiet rest in nature in the\ncenter of your home town.\n\n
 RES_01_17
-As Jerry's repair business\ngrows, his older places\nbecome nice homes.\n\n
+As Jerry's repair business\ngrows, his older place\nbecame nice homes.\n\n
 RES_01_18
-This large house is home to\none of the more fortunate\nfamilies of Simutrans\nSociety, but they have not\nforgotten the little people\nwho were not so well off.\nYou will often see them\nhelping those who are in\nneed.\n
+This large house is home to\none of the more fortunate\nfamilies of Simutrans\nSociety, but they have not\nforgotten the people that\n were not so fortunate.\nYou will often see them\nhelping those in need.\n\n
 RES_01_19
 This boarding house mainly\ncaters to transients and\ntourists. In fact it is a\nfavored stop for members\nof SKA. Not only because of\ntheir policy of no questions\nasked, but if anyone turns\nout to be missing it is\nassumed he just moved on,\nwhich works out just fine\nfor Serial Killers\nAnonymous.\n
 RES_01_21
@@ -1023,27 +1073,27 @@ The house of an old\ngardener. The walls are full\nof ivy, which made the\nhouse
 RES_01_23
 This beautiful park shows\nsome interesting parts of a\ngothic building that once\nstood on this place. It fell\ndown long centuries ago.\nBut its remains were\nexcavated recently. Some\nended up in a museum,\nsome here.\n
 RES_01_24
-This is the former office\nbuilding of a factory. In the\nlate eighties it was rebuilt\nand now it houses some\nflats. You can have a 3 or 4\nroom flat. Behind the house\nthere is a small garden for\nholding parties in summer,\netc.\n
+This is the former office\nbuilding of a factory. In the\nlate eighties it was rebuilt\nand now it houses some\nflats. You can have a 3 or 4\nroom flat. Behind the house\nthere is a small garden used\nfor parties in summer,\netc.\n
 RES_01_25
-In the attic live three small\nchildren. No one knows that\nthey are there. They remain\nas quiet as mice when\nanyone is home, and they\ntrap pigeons, rats and the\noccasional squirrel for\nfood.\n
+Three small children live\n in the attic. No one knows that\nthey are there. They remain\nas quiet as mice when\nsomeone is home, and they\ntrap pigeons, rats and the\noccasional squirrel for\nfood.\n
 RES_01_26
 This small lake with orange\nfish is an oasis of silence\nand relaxation from the\nstress of town.\n\n
 RES_01_27
 A private tenement. It has\n4 or more floors. The\ncharge is ok, so there is\nseldomly an empty flat. But\nyou have to sign a\ncontract with a particular\ntelephone company if you\nwant to live here. That\nprovides some extra income\nto the landlord.\n
 RES_01_28
-This house is owned by the\ncity. Some of the flats are\nsocial service flats. The\nhouse isn't very clean or\nsilent, with dogs barking,\npeople shouting and doors\nbanging. It is not a dream\nhouse. But it is cheap,\nhuh?\n
+This house is owned by the\ncity. Some of the flats are\nsocial service flats. The\nhouse isn't very clean nor\nsilent, with dogs barking,\npeople shouting and doors\nbanging. It is not a dream\nhouse. But it is cheap,\nhuh?\n
 RES_01_29
 The attractive red color of\nthe roof of this building\nwas chosen by one of the\noldest residents. However,\nlittle do the rest of the\ntenants know that this\nparticular pigment reflects\na distinctive wavelength of\nlight that is used by UFO's\nas a homing beacon.\n
 RES_01_30
 This monument was\nerected to honor some\ndead guy and the\norganization he founded.\nUnfortunately someone\nstole the plaque and no\none can now remember who\nit was for or what it was\nabout.\n
 RES_01_31
-City building dating from\nthe early 1900s. century; it\nis built around an inner\ncourtyard. This is famous\nfor buildings from the first\nhalf of the twentieth\ncentury. At the front are\nthe larger flats. Flats\nlooking onto the courtyard\nare mostly smaller and were\nmostly inhabited by worker\nfamilies.\n
+City building dating from\nthe early 19 hundreds; it\nis built around an inner\ncourtyard. This is famous\nfor buildings from the first\nhalf of the twentieth\ncentury. At the front are\nthe larger flats. Flats\nlooking onto the courtyard\nare mostly smaller and were\nmostly inhabited by worker\nfamilies.\n
 RES_01_33
 A residential building from\nthe middle of the twentieth\ncentury. This one doesn't\nhave the typical high\nrooms, but it has an inner\ncourtyard. The yard can be\nreached by car through the\ngate. Originally this was for\nthe coal trucks, which were\ndelivering a lot of coal to\nthe flats. But lately the\nhouse has been connected\nto gas pipes, so the yard can be\nused for kids to play in.\n
 RES_01_34
 A residential building from\nthe middle of the twentieth\ncentury. This one doesn't\nhave the typical high\nrooms. Nor was this version\nbuilt around a courtyard,\nthus needing less scarce\ncity space. All this is done\nto make the flats cheaper.\nNow this is really what you\ncall substandard living.\n
 RES_01_35
-Shortly before it collapsed\nan investor was found to\nrebuild this treasure. After\nthe reconstruction the\nbuilding hasn't lost its\nelegance. A real\nmasterpiece is the\ndecoration of the windows.\nWill the high rents repay\nthe investor?\n
+Shortly before it collapsed\nan investor was found to\nrebuild this treasure. After\nthe reconstruction the\nbuilding has regained its\nelegance. A real\nmasterpiece is the\ndecoration of the windows.\nWill the high rents repay\nthe investment?\n
 RES_01_37
 This corner house is\nlocated in the pedestrian\nmall of the city. The\nbeautiful building has a\nfine cafe and several first\nclass apartments.\n\n
 RES_01_38
@@ -1059,7 +1109,7 @@ The top floor is the private\nresidence of Leif\nLypscenker, the lead singer\nfo
 RES_01_49
 This building was almost\ndestroyed by fire when one\nof the residents took a\ncorrespondence course on\nsword swallowing and\nfire-breathing. He was later\nheard to say to a reporter,\n"My poor mother had been\nconfined to that bed and\noxygen tent for so long, I\njust wanted to cheer her\nup. It didn't say anything\nin the textbook about oxygen\ntents."\n
 RES_01_50
-Big, but cheap hotel.\n\n
+Big and cheap hotel.\n\n
 RES_01_60
 Our Lady of the Forum: May\nall your posts be read, may\nall replies offer helpful\nadvice and be of use to\nyou and may you never\nmerit an "RTFM".\n\n
 RES_02_03
@@ -1075,7 +1125,7 @@ This home was once the\nmain office of a\nphilosopher named Thomas,\nbut he was 
 RES_02_12
 Bob built this house, but\nforgot what he was doing\nwhen he designed the\ngarage. When you walk up\nthe steps and go through\nthe door, you fall two feet\nto the concrete floor.\n
 RES_02_13
-This house used to be a\nlocal theater. But since a\ncinema opened nearby, the\nnumber of visitors dropped\nso much that it had to be\nclosed. Now it is converted\ninto three apartments. It is\nrather funny living, as the\napartments were created\nwithout altering the interior\ntoo much. Imagine that:\nyou can have your living\nroom on the stage.\n
+This house used to be a\nlocal theater. But since a\ncinema opened nearby, the\nnumber of visitors dropped\nso much that it had to \nclose. Now it is converted\ninto three apartments. It is\nrather funny living, as the\napartments were created\nwithout altering the interior\ntoo much. Imagine that:\nyou have your living\nroom on the former stage.\n
 RES_02_14
 The gentleman who lives\nhere has a workshop in the\nback where he spends all\nday building up... his porn\nlibrary.\n\n
 RES_02_15
@@ -1107,9 +1157,9 @@ The people who live in\nthese four houses are all\nvery nice to each other.\nThe
 RES_03_10
 This is the house where all\nof the neighborhood kids\nlike to gather. There is\nalways something to do\nand the mother is always\nbaking good treats.\n\n
 RES_03_13
-After a long day of yard\nwork Mr. Hertz likes to\nspend his Saturday\nafternoons relaxing in his\nhammock suspended\nbetween the two trees in\nthe backyard.\n
+After a long week of hard\nwork Mr. Hertz likes to\nspend his Saturday\nafternoons relaxing in his\nhammock suspended\nbetween the two trees in\nthe backyard.\n
 RES_03_14
-When the coal economy\nexperienced its upswing\naround 1900, these houses\nwere built by hundreds in\nthe center of the densely\ndeveloped Ruhr district\n(Germany). Today these\nsettlements are maintained\nand recognized as a\ncultural heritage of the\nRuhr. Miners and steel\nworkers live here in cozy\nhouses next to one another and\nmaintain a good neighborhood.\nWhile the man is at his hard\nwork, the wife maintains the\nhouse and garden. This house in\nthe country is a well-deserved\ncompensation for these men for\ntheir hard manual labor.\n
+When the coal economy\nexperienced its upswing\naround 1900, these houses\nwere built by hundreds in\nthe center of the densely\ndeveloped Ruhr district\n(Germany). Today these\nsettlements are maintained\nand recognized as a\ncultural heritage of the\nRuhr. Miners and steel\nworkers live here in cozy\nhouses next to one another and\nmaintain a good neighborhood.\nWhile the man is at his hard\njob, the wife maintains the\nhouse and garden. This house in\nthe country is a well-deserved\ncompensation for these men for\ntheir hard manual labor.\n
 RES_03_15
 This is the home of a local\nmathematician and his\nlarge family. Mathematics\nseems to be most\nprofitable when you put it\nto use at the bank.\n\n
 RES_03_16
@@ -1119,7 +1169,7 @@ The man that lives here\nhas a secret laboratory in\nhis basement where he is\na
 RES_03_27
 This is the apartment\nbuilding owned by a local\npolitician. When tenants do\nnot vote correctly, they\noften find that their rent\nhas been raised.\n\n
 RES_03_31
-The residents here are a\nlittle put out. Only one day\nafter moving into the new\nbuilding it was found that\nthe plumbing contractor did\nnot properly install the\ndrain pipes and all of the\ntoilets backed up. Now,\nuntil they are repaired they\nmust all use the little\nyellow port-a-potty\noutside.\n
+The residents here are a\nlittle put out. Only one day\nafter moving into the new\nbuilding they found out that\nthe plumbing contractor had\nnot properly installed the\ndrains and all of the\ntoilets filled up. Now,\nuntil they are repaired they\nmust all use the little\nyellow port-a-potty\noutside.\n
 RES_03_33
 The local Historical Society\nerects these statues of\nfamous people. Most of the\nvisitors are pigeons.\n\n
 RES_03_34
@@ -1127,11 +1177,11 @@ Tenement block of the 70s\n\n
 RES_03_38
 This park was plagued by a\nchronic flasher. He would\nwalk around in a trench\ncoat and expose himself to\nwomen walking by. That is\nuntil Gladys Hudsucker, a\nlocal resident and avid\ngardener, saw him. They\nhave been married nine\nmonths now and he no\nlonger exposes himself in\npublic.\n
 RES_03_39
-The local Historical Society\nerected this statue to\nremind the citizens of the\nhero who saved Simutrans\nfrom the invading squirrels,\nrats, and jackals. The\nfountain was built by the\nlocal Wishers Society, and\nit is filled with coins.\n
+The local Historical Society\nerected this statue to\nremind the citizens of the\nhero who saved Simutrans\nfrom the invading squirrels,\nrats, and jackals. The\nfountain was built by the\nlocal Wishers Society, and\nit is filled up with coins.\n
 RES_05_01
 This is a mobile home that\nhouses one old retired\ncouple. They spend most of\nthe time sleeping, watching\nTV or playing card games.\nNothing is really clean or\nnew out there. This is\ndefinitely not the best\nplace to spend the autumn\nof your life.\n
 RES_05_02
-A small house for a single\nperson (and a car). Till you\nfind a partner for life this is\nquite enough - especially\nwhen considering the\ncleaning of the house.\n\n
+A small house for a single\nperson (and a car). Till you\nfind a partner for life this is\nquite enough - especially\nwhen taking the\ncleaning of the house into account.\n\n
 RES_05_03
 Barracks. Some local\ncompanies got those\nhouses for their workers.\nThey live here during the\nweek and go back to their\nfamilies on weekends.\n\n
 RES_05_04
@@ -1660,6 +1710,8 @@ sheep_farm
 Sheep farm
 shopping_mall
 Shopping Mall
+Simutrans_Fried_Chicken
+Simutrans Fried Chicken
 steel_mill
 Steel mill
 Stonequarry
@@ -1868,6 +1920,12 @@ Bennhardt B-162 "Jet"
 RVg-Bennhardt B-238 "Frog"
 1Dampflokomotive
 RVg 0-4-0T
+2000_Class
+Class 2000 (Australia)
+2000_Class_Car
+Class 2000 Car
+2000_Class_Tail
+Class 2000 tail cab
 20ft_Container_Trailer-128set
 20ft Goods Container Trailer
 2Diesellokomotive
@@ -1878,6 +1936,12 @@ Bennhardt B-186 "Lemon"
 RVg 0-3-0 "Chippy"
 40ft_Container_Trailer
 40ft Goods Container Trailer
+620_Railcar_Addon
+Class 620 (Australian)
+720_Railcar_Addon
+Class 720 (Australian)
+AEC_Aclo_Regent_III
+AEC Aclo Regent III
 Airport_express_shuttle
 Airport Express Shuttle Bus
 Autotransportwagen
@@ -1894,12 +1958,24 @@ Black_Osprey_(goods)
 Black Osprey (goods)
 Black_Osprey_(grain)
 Black Osprey (grain bulker)
+BR-373_Back
+BR-373 (rear cab)
+BR-373_BackCar
+BR-373 (last car)
+BR-373_Car
+BR-373 (car)
+BR-373_Eurostar
+BR-373 "Eurostar"
+BR-373_FrontCar
+BR-373 (first car)
 Bretterwagen
 BB Plank Car
 British_Premier
 British Premier
 Budd_Coach
 Budd RPO Passenger Coach
+Budd_Lounge
+Budd RPO Restaurant Car
 Budd_Observation
 Budd Dome Car
 Budd_RPO
@@ -1972,6 +2048,18 @@ Cooling_wagon_1
 Cooling Container Car
 Cooling_wagon_2
 Cannonball Cooling car
+CPH_Motorcar
+CPH Motorcar (Australian)
+CST_Interliner_E55
+CST Interliner E55
+CST_Interliner_E55_Rear
+CST Interliner E55 (trailer)
+CST_Interliner_S45
+CST Interliner S45
+CST_Interliner_S55
+CST Interliner S55
+CST_Interliner_S55_Rear
+CST Interliner S55 (trailer)
 DB_ADm101
 Haru ADm101
 DB_Apmz121
@@ -2000,6 +2088,12 @@ EMD_E5A_Silver_Meteor
 EMD E5A - Silver Meteor
 EMD_E5B_Silver_Comet
 EMD E5B - Silver Comet
+EMD-FT_(A)
+EMD-FT
+EMD-FT_(B)
+EMD-FT middle engine
+EMD-FT_(C)
+EMD-FT rear cab
 Evil_DF-11
 Evil DF-11
 Evil_P-100_(carriage)
@@ -2016,8 +2110,28 @@ Express_tender
 Tender
 Ferry_Mail_Extension_(small)
 Ferry Mail Extension (small)
+Ferry_yeu_128set
+Oggia Ferry
 Fishing_Boat_1
 MHz Fish Trawler
+fluid_00_Wood_Barrels_Wagon
+Wagon with wood barrels
+fluid_01_Iron_Tanks_Wagon
+Wagon with iron tanks
+fluid_02_CSD-502_Tank_Wagon
+?SD-502 tank wagon
+fluid_03_CSD-556_Tank_Wagon
+?SD-556 tank wagon
+fluid_04_Esso_Tank_Wagon
+Esso tank wagon
+fluid_05_CEPSA_Tank_Wagon
+CEPSA tank wagon
+fluid_06_VTG_Tank_Wagon
+VTG tank wagon
+fluid_07_Esso_XL_Tank_Wagon
+Esso XL tank wagon
+fluid_08_VTG_CeSa_Tank_Wagon
+VTG CeSa tank wagon
 Fluid_trailer_0
 AJ Oil Trailer
 Fluid_trailer_1
@@ -2030,6 +2144,8 @@ Fluid_Truck_2
 S.Kroytor ZUK-20
 Fluid_Truck_3
 Magirus Oil Truck 1923
+Flxible_Twin_FT2-40
+Flxible Twin FT2-40
 Goods_trailer_0
 Mitsubishi Fuso Super Truck - car
 Goods_trailer_1
@@ -2182,6 +2298,10 @@ Kord_TT_grain
 Kord TT (grain)
 Liner_Mail_Extension_(large)
 Ferry Mail Extension (large)
+LKAB_IORE_Back
+LKAB IORE
+LKAB_IORE_Front
+LKAB IORE
 MA461_waggon
 RVg-DB MA-461 (car)
 Mack_Truck_Cooling_Trailer
@@ -2232,12 +2352,38 @@ MHz-P11C_Wood_Boat
 MHz P11C Wood Boat
 MHz-R2A_Push-Tug
 MHz R2A Push-Tug
+milk_00_bottled_milk_wagon
+Wagon with bottles for milk
+milk_01_twin_barrel_wagon
+Wagon with barrels for liquid foods
+milk_02_old_tank_wagon
+Old liquid foods tank wagon
+milk_03_6_wheeled_milk_wagon
+Six wheeled milk wagon
+milk_04_rvg_early_milk_waggon
+Milk tank wagon
+milk_05_milk_waggon_1
+Tank wagon for liquid foods
+milk_06_4_axle_milk_wagon
+4-AX tank wagon for liquid foods
+milk_07_milk_waggon_0
+Refrigerated tank wagon
+milk_08_bloomsburg_fair_milk_wagon
+Bloomsburg Fair tank wagon
+milk_09_bordens_milk_wagon
+Bordens tank wagon for milk
 Milk_Truck_0
 PMNV Milk Cistern
 Milk_Truck_1
 S.Kroytor-ZIL Milk Mover
 Milk_Truck_2
 Magirus Milk Truck
+mja-20s_concretemixer
+MJA-20S Cement Lorry
+mja-bulk_trailer_l
+MJA-L300 Bulk Trailer
+mja-bulk_trailer_m
+MJA-M220 Bulk Trailer
 mja-MAN19332-128set
 mja-MAN 19332
 mja-ScaniaP380_tanker
@@ -2262,6 +2408,12 @@ mja-Zil130-128set
 mja-Zil 130
 MS_sprinter_mail
 MS-Sprinter Mail Van
+MTAB_Dm_Back
+MTAB Dm (rear cab)
+MTAB_Dm_Front
+MTAB Dm
+MTAB_Dm3
+MTAB Dm3 (middle engine)
 MV_Balmoral
 MV Balmoral
 MV_Fedra
@@ -2276,6 +2428,8 @@ Nordic_Heron
 Nordic Heron (tanker)
 Nordic_Heron_(liquid_food)
 Nordic Heron (liquid food)
+NovaBus_RTS-06_WFD
+Colonel's NovaBus RTS-06 WFD
 Owari_Maru
 Owari Maru (bulker)
 Passagierwagen
@@ -2294,6 +2448,20 @@ Patagonia
 Patagonia (goods)
 Patagonia_(farm_products)
 Patagonia (grain bulker)
+Pegaso_6038_InterCity
+Pegaso 6038 Intercity
+Pegaso_6038_Urban
+Pegaso 6038 Urban
+Pegaso-Seida_5020_InterCity
+Pegaso-Seida 5020 Intercity
+Pegaso-Seida_5020_Urban
+Pegaso-Seida 5020 Urban
+Pioneer_Zephyr
+Pioneer Zephyr
+Pioneer_Zephyr_Car
+Pioneer Zephyr Car
+Pioneer_Zephyr_Tail
+Pioneer Zephyr Tail Car
 Planck_Truck_0
 PMNV-Canonball Bed Truck (planks)
 Plank_Truck_2
@@ -2424,6 +2592,80 @@ R_01
 RVg R1 - car
 R_02
 RVg R2 - car
+Renfe_250_(German)
+RENFE Class 250 "German"
+Renfe_252_Altaria
+RENFE Class 252 "Altaria"
+Renfe_269_Altaria
+RENFE Class 269 "Japanese"
+Renfe_270
+RENFE Class 270
+Renfe_274_(Bathtube)
+RENFE Class 274 "Bathtube"
+Renfe_276_(French)
+RENFE Class 276 "French"
+Renfe_279_(Benemerita)
+RENFE Class 279 "Benemérita"
+Renfe_310_(Coastguard)
+RENFE Class 310 "Coastguard"
+Renfe_319_(Yankie)
+RENFE Class 319 "Yankie"
+Renfe_333_(Rambo)
+RENFE Class 333 "Rambo"
+Renfe_340_(Egg)
+RENFE Class 340 "Egg"
+Renfe_438_Back
+RENFE Class 438 back cab
+Renfe_438_Front
+RENFE Class 438
+Renfe_440
+RENFE Class 440
+Renfe_440_Back
+RENFE Class 440 back cab
+Renfe_440_Car
+RENFE Class 440 car
+Renfe_447
+RENFE Class 447
+Renfe_447_Back
+RENFE Class 447 back cab
+Renfe_447_Car
+RENFE Class 447 car
+Renfe_Series_10200_(Player_Colors)
+RENFE Class 10200
+Renfe_Series_301_(Player_Colors)
+RENFE Class 301
+Renfe_Series_311_(Player_Colors)
+RENFE Class 311
+Renfe_Series_314_(Player_Colors)
+RENFE Class 314
+Renfe_Series_316_(Player_Colors)
+RENFE Class 316 "Marilyn"
+Renfe_Series_318_(Player_Colors)
+RENFE Class 318
+Renfe_Series_319.300_(Player_Colors)
+RENFE Class 319.300
+Renfe_Series_334_(Player_Colors)
+RENFE Class 334
+Renfe_Series_350_Talgo_(Player_Colors)
+RENFE Class 350 Talgo
+Renfe_Series_350_Talgo_Car_(Player_Colors)
+RENFE Talgo-II Car
+Renfe_Series_350_Talgo_Mail_Car_(Player_Colors)
+RENFE Talgo-II mail car
+Renfe_Series_350_Talgo_Restaurant_Car_(Player_Colors)
+RENFE Talgo-II restaurant car
+Renfe_Tgpps_Grain_Hopper
+RENFE TGPPS grain hopper
+Renfe_Uagp_Grain_Hopper
+RENFE UAGP grain hopper
+Renfe_Z-2000_Car
+RENFE Z-2000 Car
+Renfe_Z-2000_Mail_Car
+RENFE Z-2000 Mail Car
+Renfe6000_Post
+RENFE Class 6000 Mail Car
+Renfe6000_Psg
+RENFE Class 6000 Passenger Car
 RMS_Baltic
 RMS Baltic
 RVg_0-1-4-0
@@ -2688,6 +2930,8 @@ SAC-Airbus_A300-600F_128_set
 SAC-Airbus A300-600F (Freighter)
 SAC-Airbus_A300-600P_128_set
 SAC-Airbus A300-600P (Air Mail)
+SAC-Airbus_A300-600ST_128_set
+Airbus A300-600ST "Beluga"
 SAC-Airbus_A300-B4_128_set
 SAC-Airbus A300-B4
 SAC-Airbus_A310-200_128_set
@@ -2698,54 +2942,218 @@ SAC-Airbus_A310-200F_128_set
 SAC-Airbus A310-200F (freighter)
 SAC-Airbus_A310-200P_128_set
 SAC-Airbus A310-200P (Air Mail)
+SAC-Airbus_A318-100_128_set
+Airbus A318-100
+SAC-Airbus_A319-100_128_set
+Airbus A319-100
 SAC-Airbus_A320-200_128_set
 SAC-Airbus A320-200
+SAC-Airbus_A321-200_128_set
+Airbus A321-200
 SAC-Airbus_A330-200_128_set
 SAC-Airbus A330-200
+SAC-Airbus_A330-200f_cooled_128_set
+Airbus A330-200F (cooled goods)
+SAC-Airbus_A330-200f_goods_128_set
+Airbus A330-200F (goods)
+SAC-Airbus_A330-200f_mail_128_set
+Airbus A330-200F (mail)
+SAC-Airbus_A330-300_128_set
+Airbus A330-300
+SAC-Airbus_A340-200_128_set
+Airbus A340-200
 SAC-Airbus_A340-300_128_set
 SAC-Airbus A340-300
+SAC-Airbus_A340-500_128_set
+Airbus A340-500
+SAC-Airbus_A340-600_128_set
+Airbus A340-600
+SAC-Airbus_A350-1000_128_set
+Airbus A350-1000
+SAC-Airbus_A350-800_128_set
+Airbus A350-800
+SAC-Airbus_A350-900_128_set
+Airbus A350-900
+SAC-Airbus_A350-900f_cooled_128_set
+Airbus A350-900F (cooled goods)
+SAC-Airbus_A350-900f_goods_128_set
+Airbus A350-900F (goods)
+SAC-Airbus_A350-900f_mail_128_set
+Airbus A350-900F (mail)
 SAC-Airbus_A380-800_128_set
-SAC-Airbus A380-800
+Airbus A380-800
 SAC-Airbus_A380-800C_128_set
-SAC-Airbus A380-800C (cooled)
+Airbus A380-800C (cooled goods)
 SAC-Airbus_A380-800F_128_set
-SAC-Airbus A380-800F (freighter)
+Airbus A380-800F (freighter)
 SAC-Airbus_A380-800P_128_set
-SAC-Airbus A380-800P (Air Mail)
+Airbus A380-800P (Air Mail)
+SAC-Airbus_A380-900_128_set
+Airbus A380-900
+SAC-BAC_1-11
+BAC One-Eleven
+SAC-Boeing_707-020_128_set
+Boeing 707-020
+SAC-Boeing_707-120_128_set
+Boeing 707-120
+SAC-Boeing_707-320_128_set
+Boeing 707-320
+SAC-Boeing_727-100_128_set
+Boeing 727-100
+SAC-Boeing_727-200_128_set
+Boeing 727-200
+SAC-Boeing_737-100_128_set
+Boeing 737-100
+SAC-Boeing_737-200_128_set
+Boeing 737-200
+SAC-Boeing_737-300_128_set
+Boeing 737-300
+SAC-Boeing_737-400_128_set
+Boeing 737-400
+SAC-Boeing_737-500_128_set
+Boeing 737-500
+SAC-Boeing_737-600_128_set
+Boeing 737-600
+SAC-Boeing_737-700_128_set
+Boeing 737-700
+SAC-Boeing_737-800_128_set
+Boeing 737-800
+SAC-Boeing_737-900_128_set
+Boeing 737-900
 SAC-Boeing_747-200_128_set
-SAC-Boeing 747-200
+Boeing 747-200
+SAC-Boeing_747-200C_128_set
+Boeing 747-200F (cooled goods)
 SAC-Boeing_747-200F_128_set
-SAC-Boeing 747-200F (Freighter)
+Boeing 747-200F (Freighter)
 SAC-Boeing_747-200P_128_set
-SAC-Boeing 747-200P (Air Mail)
+Boeing 747-200P (Air Mail)
+SAC-Boeing_747-300_128_set
+Boeing 747-300
 SAC-Boeing_747-400_128_set
-SAC-Boeing 747-400
+Boeing 747-400
+SAC-Boeing_747-400F_Cooled_128_set
+Boeing 747-400F (cooled goods)
+SAC-Boeing_747-400F_Goods_128_set
+Boeing 747-400F (Freighter)
+SAC-Boeing_747-400F_Mail_128_set
+Boeing 747-400F (Air Mail)
+SAC-Boeing_747-8F_Cooled_128_set
+Boeing 747-8F (cooled goods)
+SAC-Boeing_747-8F_Goods_128_set
+Boeing 747-8F (Freighter)
+SAC-Boeing_747-8F_Mail_128_set
+Boeing 747-8F (Air Mail)
+SAC-Boeing_747-8I_128_set
+Boeing 747-8I
+SAC-Boeing_757-200_128_set
+Boeing 757-200
+SAC-Boeing_757-200f_cooled_128_set
+Boeing 757-200F (cooled goods)
+SAC-Boeing_757-200f_goods_128_set
+Boeing 757-200F (Freighter)
+SAC-Boeing_757-200f_mail_128_set
+Boeing 757-200F (Air Mail)
+SAC-Boeing_757-300_128_set
+Boeing 757-300
+SAC-Boeing_767-200_128_set
+Boeing 767-200
+SAC-Boeing_767-300_128_set
+Boeing 767-300
+SAC-Boeing_767-300F_cooled_128_set
+Boeing 767-300F (cooled goods)
+SAC-Boeing_767-300F_goods_128_set
+Boeing 767-300F (Freighter)
+SAC-Boeing_767-300F_mail_128_set
+Boeing 767-300F (Air Mail)
+SAC-Boeing_767-400_128_set
+Boeing 767-400
+SAC-Boeing_777-200_128_set
+Boeing 777-200
+SAC-Boeing_777-200F_cooled_128_set
+Boeing 777-200F (cooled goods)
+SAC-Boeing_777-200F_goods_128_set
+Boeing 777-200F (Freighter)
+SAC-Boeing_777-200F_mail_128_set
+Boeing 777-200F (Air Mail)
+SAC-Boeing_777-300_128_set
+Boeing 777-300
+SAC-Boeing_B-377_Stratoliner
+Boeing 377 Stratoliner
+SAC-Bombardier_CRJ-200
+Bombardier CRJ-200
+SAC-Bombardier_CRJ-900
+Bombardier CRJ-900
 SAC-De_Havilland_Comet_128_set
-SAC-De Havilland Comet
+De Havilland Comet
 SAC-Douglas_DC-3_128_set
-SAC-Douglas DC-3
+Douglas DC-3
+SAC-Douglas_DC-5_128_set
+Douglas DC-5
+SAC-Douglas_DC-6_128_set
+Douglas DC-6
+SAC-Douglas_DC-8-30_128_set
+Douglas DC-8-30
+SAC-Douglas_DC-8-50_Mail_128_set
+Douglas DC-8-50 (Air Mail)
+SAC-Douglas_DC-8-60_128_set
+Douglas DC-8-60
+SAC-Douglas_DC-9-10_128_set
+Douglas DC-9-10
+SAC-Douglas_DC-9-30_128_set
+Douglas DC-9-30
+SAC-Douglas_DC-9-30LWF_Mail_128_set
+Douglas DC-9-30LWF (Air Mail)
+SAC-Douglas_DC-9-50_128_set
+Douglas DC-9-50
+SAC-Embraer_E-170
+Embraer E-170
+SAC-Embraer_E-190
+Embraer E-190
 SAC-Fokker_F-27_128_set
-SAC-Fokker F-27
+Fokker F-27
 SAC-Fokker_F-27_Mail_128_set
-SAC-Fokker F-27 (Air Mail)
+Fokker F-27 (Air Mail)
 SAC-Handley_Page_W8B_128_set
-SAC-Handley Page W8B
+Handley Page W8B
 SAC-Ilyushin_IL-76_Candid_128_set
-SAC-Ilyushin IL-76 "Candid"
+Ilyushin IL-76 "Candid"
 SAC-Junkers_Ju-52_128_set
-SAC-Junkers Ju-52
+Junkers Ju-52
 SAC-Junkers_Ju-52_Mail_128_set
-SAC-Junkers Ju-52 (Air Mail)
+Junkers Ju-52 (Air Mail)
 SAC-Lockheed_C-130C_Hercules_128_set
-SAC-Lockheed C-130C Hercules (cooled)
+Lockheed C-130C Hercules (cooled)
 SAC-Lockheed_C-130F_Hercules_128_set
-SAC-Lockheed C-130F Hercules (freighter)
+Lockheed C-130F Hercules (freighter)
+SAC-Lockheed_C-130J_Super_Hercules_(cooled)_128_set
+Lockheed C-130J Súper Hercules (cooled)
+SAC-Lockheed_C-130J_Super_Hercules_(goods)_128_set
+Lockheed C-130J Súper Hercules (freighter)
 SAC-Lockheed_Constellation_128_set
-SAC-Lockheed Constellation
+Lockheed Constellation
 SAC-McDonnell_Douglas_DC-10_128_set
-SAC-McDonnell Douglas DC-10
+McDonnell Douglas DC-10
+SAC-McDonnell_Douglas_DC-10F_(cooled_goods)_128_set
+McDonnell Douglas DC-10F (cooled)
+SAC-McDonnell_Douglas_DC-10F_(goods)_128_set
+McDonnell Douglas DC-10F (Freighter)
+SAC-McDonnell_Douglas_DC-10F_(mail)_128_set
+McDonnell Douglas DC-10F (Air Mail)
+SAC-McDonnell_Douglas_MD-11_128_set
+McDonnell Douglas MD-11
+SAC-McDonnell_Douglas_MD-11F_(cooled_goods)_128_set
+McDonnell Douglas MD-11F (cooled goods)
+SAC-McDonnell_Douglas_MD-11F_(goods)_128_set
+McDonnell Douglas MD-11F (Freighter)
+SAC-McDonnell_Douglas_MD-11F_(mail)_128_set
+McDonnell Douglas MD-11F (Air Mail)
+SAC-McDonnell_Douglas_MD-80_128_set
+McDonnell Douglas MD-80
+SAC-McDonnell_Douglas_MD-90_128_set
+McDonnell Douglas MD-90
 SAC-Rohrbach_Rocco_128_set
-SAC-Rohrbach Rocco
+Rohrbach Rocco
 Sail_Post_Ship_0
 Sail Post Ship
 SBB_Re4_4_II
@@ -2764,6 +3172,12 @@ Sentinel_Wood_Lorry
 Sindor-Sentinel Log Truck
 Sentinel_Wood_Trailer
 Sentinel Trailer - logs
+Silver_City_Comet
+Silver City Comet
+Silver_City_Comet_Car
+Silver City Comet Car
+Silver_City_Comet_Post_Car
+Silver City Comet Mail Car
 SK_Mail_Truck_1
 S.Kroytor Post Truck
 skoda_1_tr_128
@@ -2828,6 +3242,98 @@ skoda163
 Skoda 163
 skoda180
 Skoda 180
+SMC_Early_Grain_Hopper
+Short grain hopper
+SMC_H-38_City_Bus
+SMC H-38 MiniBus
+SMC_H-98_City_Bus
+SMC H-98 City Bus
+SMC_HDL-1400
+SMC HDL-1400
+SMC_HDL-1600
+SMC HDL-1600
+SMC_HDL-1800
+SMC HDL-1800
+SMC_HDL-2000
+SMC HDL-2000
+SMC_HDL-2500
+SMC HDL-2500
+SMC_HDL-3000
+SMC HDL-3000
+SMC_HDL-4000
+SMC HDL-4000
+SMC_Long_Grain_Hopper
+SMC Long Grain Hopper
+SMC_Medium_Grain_Car
+SMC Grain Sacks Wagon
+SMC_RT-100_Ugly_Duck
+SMC RT-100 "Ugly Duck"
+SMC_RT-101_(car)
+SMC RT-101 Car
+SMC_RT-102_(mail_car)
+SMC RT-102 Mail Car
+SMC_RT-120_Mighty_Duck
+SMC RT-120 "Mighty Duck"
+SMC_RT-121_(car)
+SMC RT-121 Car
+SMC_RT-122_(mail_car)
+SMC RT-121 Mail Car
+SMC_RT-350_Donald_Duck
+SMC RT-350 "Donald Duck"
+SMC_RT-351_(car)
+SMC RT-351 Car
+SMC_RT-352_(mail_car)
+SMC RT-352 Mail Car
+SMC_RT-600_Super_Duck
+SMC RT-600 "Super Duck"
+SMC_RT-601_(single_deck_car)
+SMC RT-601 Car
+SMC_RT-602_(mail_car)
+SMC RT-602 Mail Car
+SMC_RT-605_(double_deck_car)
+SMC RT-605 Double Deck Car
+SMC_RT-900_Dry_Duck
+SMC RT-900 "Dry Duck"
+SMC_RT-901_(car)
+SMC RT-901 Car
+SMC_RT-902_(mail_car)
+SMC RT-902 Mail Car
+SMC_RT-909_(back_engine)
+SMC RT-909 Rear Cab
+SMC_Short_Grain_Car
+SMC Wagon for grain sacks
+SMC_XT-1000_Proto_Duck
+SMC XT-1000 "ProtoDuck"
+SMC_XT-1001_(passenger_car)
+SMC XT-1001 Car
+SMC_XT-1002_(mail_car)
+SMC XT-1002 Mail Car
+SMC_XT-1009_(back_engine)
+SMC XT-1009 Rear Cab
+SMC_XT-300_Toasted_Duck
+SMC XT-300 "Toasted Duck"
+SMC_XT-301_(car)
+SMC XT-301 Car
+SMC_XT-302_(mail_car)
+SMC XT-302 Mail Car
+SMC_XT-309_(back_engine)
+SMC XT-309 Rear Cab
+SMC_XT-500_Hot_Duck
+SMC XT-500 "Hot Duck"
+SMC_XT-501_(car)
+SMC XT-501 Car
+SMC_XT-502_(mail_car)
+SMC XT-502 Mail Car
+SMC_XT-509_(back_engine)
+SMC XT-509 Rear Cab
+SMC_XT-700_Fast_Duck
+SMC XT-700 "Fast Duck"
+SMC_XT-701_(passenger_car)
+SMC XT-701 Car
+SMC_XT-702_(mail_car)
+SMC XT-702 Mail Car
+SMC_XT-709_(back_engine)
+SMC XT-709 Rear Cab
 Stahlwagen
 Canonball Bed Car (steel)
 Stahlwagen_0
