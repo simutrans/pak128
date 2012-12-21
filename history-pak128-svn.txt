@@ -5,6 +5,9 @@ For full history or technical details see svn logs.
 Names in brackets after message list the author/originator of change. It does not necessarily have to be member of pak128 team - external contributors are there as well.
 
 
+## pak128 version 2.2.0 ##
+
+
 15.12.2012
 	- add new trees from Sarlock, disable some old ones (Sarlock)
 13.12.2012

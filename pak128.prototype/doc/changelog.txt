@@ -18,7 +18,7 @@ simutrans128 (2.2.0) stable; urgency=high
   * Many other bugfixes and improvements - for more detailed list look at
         history-pak128-svn.txt
 
- -- Vladimir Slavik <slavik.vladimir@@seznam.cz> & the pak128 team  TODO:DATETIME
+ -- Vladimir Slavik <slavik.vladimir@@seznam.cz> & the pak128 team  22 Dec 2012 0:30 +0100
 
 simutrans128 (2.1.0) stable; urgency=low
 
