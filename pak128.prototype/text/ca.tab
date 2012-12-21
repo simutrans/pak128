@@ -5,7 +5,7 @@
 #                              Language: ca Catala                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 21.12 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -22,10 +22,38 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Pont ferroviari amb bigues de ciment
 PowerBridge
 Pont per a línia d'alta tensió
+Rail_Track_060_Bridge
+Pont de fusta per via de mercaderies
+Rail_Track_060B_Bridge
+Pont antic d'acer per a via de mercaderies
+Rail_Track_080_Bridge
+Pont de ferro per a via antiga
+Rail_Track_080B_Bridge
+Pont modern d'acer per a via de mercaderies
+Rail_Track_100_Bridge
+Pont per a via amb travesses de fusta
+Rail_Track_120_Bridge
+Pont per via ràpida amb travesses de fusta
+Rail_Track_120B_Bridge
+Pont per a via ràpida de mercaderies
+Rail_Track_140_Bridge
+Pont per a via exprés
+Rail_Track_160_Bridge
+Pont de formigó per a via exprés millorada
+Rail_Track_180_Bridge
+Pont de formigó per a via regional
+Rail_Track_200_Bridge
+Pont d'acer per a via exprés moderna
+Rail_Track_240_Bridge
+Pont amb estructura d'acer per a via exprés
+Rail_Track_280_Bridge
+Pont de formigó per a via d'alta velocitat
+Rail_Track_320_Bridge
+Pont amb carcassa de formigó per a via moderna d'alta velocitat
+Rail_Track_400_Bridge
+Pont amb carcassa de formigó per a via millorada d'alta velocitat
 road_030_bridge
 Pont de fusta
 road_040_bridge
@@ -44,16 +72,10 @@ road_130_bridge
 Pont d'autopista
 road_200_bridge
 Pont modern d'autopista
-RVg_Concrete_Rail_Bridge
-Pont en suspensió d'acer
 Schwebebahn_p_bridge
 Monocarril suspès (pont)
-SteelRail
-Pont ferroviari amb bigues d'acer
 water_bridge
 aqüeducte
-Wooden_Rail
-Pont ferroviari de fusta
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -327,7 +349,7 @@ Oficina de correus (gran)
 Radar3
 Estació de radar
 radiant_house
-Casa radiant
+Casa radiant\n\nEdifici Le Corbusier\nLa propia comunitat\nde veïns gestiona completament\nl'edifici.
 RADIO_TOWER_0
 Estació de ràdio FM Chit-Chat\n\nAquesta és l'estació de ràdio\nFM de Chit-Chat, on\nels agrada venir a molta\ngent, ja que els\norganitzadors prometen\nque els visitants sortiran\nen directe tots els dies entre\n13:00 h. y 14:30 h.\n
 ramp_tile_high
@@ -371,9 +393,9 @@ Cartell de parada d'autobús
 SMALL_MANOR
 Mansió\n\nAquesta petita mansió va ser\nantigament la gran casa\nd'un famós terratinent.\nEn canvi, donat que el\nsenyor va morir, la fama\nlentamente es va perdre i la\ncasa va ser oblidada per la\nmajoria, i només es va\nredescobrir a principis\ndel Segle XX, quan les\ngrans col·leccions\nd'art van començar a atraure a\nmolts visitants. Per a\nconservar la seva bellesa, la mansió\nés ara de propietat pública,\naccesible a qualsevol persona\nper una modesta tarifa. S'ha\nfet molt popular i coneguda, i\nés un destí freqüent de\nmoltes excursions escolars i\nviatges de cap de setmana.\n
 special_ALSF-2_DT_stop
-Barrera de claus
-special_PAPI_stop
 Llums de pista
+special_PAPI_stop
+Llums d'aproximació
 special_wingbar-r_stop
 Llums de pista lateral
 st_benedict_church
@@ -744,20 +766,44 @@ Semàfors
 #____________________________________tunnel_____________________________________
 PowerTunnel
 Túnel per a línia elèctrica
-RailTunnel
-Túnel ferroviari
+Rail_Track_080_Tunnel
+Túnel per via amb travesses de fusta
+Rail_Track_080B_Tunnel
+Túnel per a via de mercaderies
+Rail_Track_100_Tunnel
+Túnel per a via amb travesses de fusta
+Rail_Track_120_Tunnel
+Túnel per a via ràpida amb travesses de fusta
+Rail_Track_120B_Tunnel
+Túnel per a via ràpida de mercaderies
+Rail_Track_140_Tunnel
+Túnel per a via exprés
+Rail_Track_160_Tunnel
+Túnel per a via exprés millorada
+Rail_Track_180_Tunnel
+Túnel per a via regional
+Rail_Track_200_Tunnel
+Túnel per a via exprés d'alta qualitat
+Rail_Track_240_Tunnel
+Túnel per a via exprés
+Rail_Track_280_Tunnel
+Túnel per a via d'alta velocitat
+Rail_Track_320_Tunnel
+Túnel per a via moderna d'alta velocitat
+Rail_Track_400_Tunnel
+Túnel per a via millorada d'alta velocitat
 road_040_tunnel
-Túnel de carretera (40 Km/h)
+Túnel de carrer empedrat
 road_050_tunnel
-Túnel de carretera (50 Km/h)
+Túnel de carrer asfaltat
 road_070_tunnel
-Túnel de carretera (70 Km/h)
+Túnel de carretera asfaltada
 road_090_tunnel
-Túnel de carretera (90 Km/h)
+Túnel de carretera moderna
 road_110_tunnel
-Túnel d'autopista (110 Km/h)
+Túnel d'autovía
 road_130_tunnel
-Túnel d'autopista (130 Km/h)
+Túnel d'autopista
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -2460,12 +2506,6 @@ GTW 85 (cua)
 #______________________________________way______________________________________
 air_movement_area
 Pista de maniobres
-concrete_sleeper_track
-Via amb travesses de formigó
-High_quality_track
-Via reforçada
-low_quality_track
-Via tradicional de ferro
 old_runway
 Pista d'aterratge d'herba
 old_taxiway
@@ -2474,6 +2514,52 @@ PowerConduits
 Conducció elèctrica
 Powerline
 Línia d'alt voltatge
+Rail_Track_060
+Via antiga per a mercaderies
+Rail_Track_080
+Via antiga amb travesses de fusta
+Rail_Track_080B
+Via per a mercaderies
+Rail_Track_100
+Via amb travesses de fusta
+Rail_Track_120
+Via ràpida amb travesses de fusta
+Rail_Track_120_Elevated
+Via ràpida elevada amb travesses de fusta
+Rail_Track_120B
+Via ràpida per a mercaderies
+Rail_Track_140
+Via exprés
+Rail_Track_140_Elevated
+Via exprés elevada
+Rail_Track_160
+Via exprés millorada
+Rail_Track_160_Elevated
+Via exprés millorada elevada
+Rail_Track_180
+Via per servei regional
+Rail_Track_180_Elevated
+Via elevada per servei regional
+Rail_Track_200
+Via exprés d'alta qualitat
+Rail_Track_200_Elevated
+Via exprés elevada d'alta qualitat
+Rail_Track_240
+Via per serveis exprés
+Rail_Track_240_Elevated
+Via exprés elevada
+Rail_Track_280
+Via d'alta velocitat
+Rail_Track_280_Elevated
+Via elevada d'alta velocitat
+Rail_Track_320
+Via moderna d'alta velocitat
+Rail_Track_320_Elevated
+Via moderna elevada d'alta velocitat
+Rail_Track_400
+Via d'alta velocitat millorada
+Rail_Track_400_Elevated
+Via elevada d'alta velocitat millorada
 river_00
 Riu navegable
 river_01
@@ -2516,8 +2602,6 @@ runway_modern
 Pista d'aterratge
 Schwebebahn_p_ground
 Monocarril
-steel_sleeper_track
-Via d'alta velocitat
 Suspended_Monorail_Track
 Via de monocarril suspès
 Tram_Track_050_A
@@ -2534,8 +2618,6 @@ Tram_Track_110_A
 Via de tramvia ràpid (110 Km/h)
 water_road
 Canal
-wooden_sleeper_track
-Via amb travesses de fusta
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary

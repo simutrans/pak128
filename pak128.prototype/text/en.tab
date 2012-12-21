@@ -5,7 +5,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 21.12 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                            Alexander Brose - AlexB                           #
@@ -122,10 +122,38 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Concrete flat bridge (Nabe)
 PowerBridge
 Power Line Bridge
+Rail_Track_060_Bridge
+Wooden bridge for freight track
+Rail_Track_060B_Bridge
+Old steel bridge for freight track
+Rail_Track_080_Bridge
+Iron bridge for old track
+Rail_Track_080B_Bridge
+Modern steel bridge for freight track
+Rail_Track_100_Bridge
+Wooden sleeper track bridge
+Rail_Track_120_Bridge
+Fast wooden sleeper track bridge
+Rail_Track_120B_Bridge
+Fast freight track bridge
+Rail_Track_140_Bridge
+Express track bridge
+Rail_Track_160_Bridge
+Concrete bridge for enhanced express track
+Rail_Track_180_Bridge
+Concrete bridge for regional track
+Rail_Track_200_Bridge
+Steel bridge for modern express track
+Rail_Track_240_Bridge
+Steel structured bridge for express track
+Rail_Track_280_Bridge
+Concrete bridge for high speed track
+Rail_Track_320_Bridge
+Concrete framed bridge for modern high speed track
+Rail_Track_400_Bridge
+Concrete framed bridge for enhanced high speed track
 road_030_bridge
 Wooden road bridge
 road_040_bridge
@@ -144,16 +172,10 @@ road_130_bridge
 Freeway bridge
 road_200_bridge
 Modern freeway bridge
-RVg_Concrete_Rail_Bridge
-Suspension Steel Bridge (RVg)
 Schwebebahn_p_bridge
 Suspended Monorail (bridge)
-SteelRail
-Steel rail bridge
 water_bridge
 Canal Bridge
-Wooden_Rail
-Wooden railroad bridge
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -631,9 +653,9 @@ Historic Fort\n\n
 FreightTrainStop
 Freight Train Stop
 french_garden_4
-Public gardens
+Public gardens in French style
 french_park_1
-Park and gardens
+Park and gardens in French style
 FUTURISTIC_TOWER_0
 Tower\n\nThis tower offers great views\nof the surrounding\nlandscape. The top floor\nalso has a small bar, so\nyou can have a drink to\nenhance your viewing\npleasure. Although the\nprices are not that low,\nthis tower attracts many\nvisitors.\n
 Gas_StationBlg
@@ -920,10 +942,14 @@ IND_12_16
 Hong Kong textile\nproducers strike back! They\ntook over one of our\nfactories and use it as a\nwarehouse for their own\nproducts. This building is\nvery likely to be the target\nof a police raid.\n
 JUSTICE
 Justice Building\n\nThis is the city's Justice\nBuilding, where trials are\noften held. Lawyers come\nand go constantly.\n\n
+library_holy_genevieve
+Saint Geneviève\n\nThis is the biggest\nlibrary in the region.\nLots of students and\nerudites visit this\nbuilding every day.\n
 Lighthouse_0
 LightSince lighthouses have been\nbuilt, navigation in the\nSimuworld seas has\nbecome easier and safer.\nThere's a lot of people who\nwant to visit this one and\nwatch the waves leaning\non the handrail\n
 Lighthouse_1
 LightSince lighthouses have been\nbuilt, navigation in the\nSimuworld seas has\nbecome easier and safer.\nThis one has quite an odd\nshape, but no sailor has\never complained\n
+Little_Central_Park
+The central park of the city.\n Don't look for any resemblance\nwith its bigger american brother.
 Long_Goods_Dock
 Long cargo dock
 LuftPost1950_AirportBlg
@@ -942,8 +968,12 @@ MILITARY_RADAR
 Military Radar\n\nThis is a secret military\nstructure! Keep out! I said\nkeep out! If I mean keep\nout, I mean that you ought\nto close the window and\nscroll away!\n\nWhat? You are still reading?\nImmediately close the\nwindow and scroll away!\nYou are not supposed to be\nhere! Keep out!!!\n
 Modern_Warehouse
 Modern warehouse
+modern_warehouse_big
+Modern warehouse (big)
 ModernPostOffice
 Modern Post Office
+ModernPostOfficeLarge
+Modern post office (big)
 ModernTrainStop
 Modern Train Stop
 MonorailDepot
@@ -958,6 +988,8 @@ MUSEUM_0
 Museum\n\nThis was once a city castle; it\nhas been rebuilt to a\nchateau and recently\nconverted to a public\nmuseum of science and\ntechnology. You can watch\nmodels of old vehicles,\nlearn about advances in\nphysics or attend one of\nmany seminars.\n
 OBSERVATORY
 Observatory\n\nThis is very widely known\nGeorg's observatory where\nmany important discoveries\nin Simuverse were made.\nWhile astronomers work\nhere during the night and\nwatch the sky, tourists are\nwelcome during the day,\nwhen many lectures or\nmultimedia educational\nexhibitions are held. The\ndisplays are very interesting,\nhighly understandable and rather\nattractive, so the rooms are\nalmost always crowded.\n
+OfficeTrainStop
+Platform with building
 Old_gate
 City Gate\n\n
 OLD_HOUSE_0
@@ -976,14 +1008,20 @@ parking_(catchemnt_area_ext)3
 Parking
 Percival_Maya_Temple
 Percival Maya Temple\n Recent excavations have uncovered\nan ancient simutransian\ncivilization!
+plain_tile_high
+Empty high tile
 Post_Dock
 Post dock
 PostOffice
 Post office
 PostOffice1920_AirportBlg
 Airmail Building
+PostOfficeOldLarge
+Post office (big)
 Radar3
 Radar
+radiant_house
+Radiant house\n\nLe Corbusier building\nThe residents\nare who manage the building\nthemselves.
 RADIO_TOWER_0
 Chit-Chat FM radio station\n\nThis is the home of the local\nChit-Chat FM radio station.\nQuite a few people are\nwilling to come here,\nbecause they promise to\nput guests on the air every\nday between 13:00 and\n14:30.\n
 ramp_tile_high
@@ -1554,6 +1592,8 @@ RUIN_1
 Ruins\n\nThese are the ruins of very\nfamous castle. Many\nchapters of history were\nwritten here, so it is a real\nmagnet for tourists from all\nover the world. Everyone is\nkeen to see it. And after\nall, ruins are quite romantic\ntoo, aren't they?\n
 Russian_Cathedral
 Russian church\n\n
+Sacred_heart_church
+Sacred Heart Church\n
 Secession_Chapel
 Secession Chapel
 sh_oasis_seasons
@@ -1568,12 +1608,22 @@ small_early_bus_stop
 Bus stop
 SMALL_MANOR
 Manor\n\nThis small manor was once the\ngreat house of a famous\nlord. But since the lord has\ndied, the fame slowly wore\noff and the house was\nmostly forgotten, only to\nbe rediscovered in the\nearly of twentieth century,\nwhen large collections of\nart started to attract many\nvisitors. To preserve its\nbeauty, the manor is now public\nproperty, accessible to anyone\nfor a modest fee. It has become\nwell known and is a frequent\ndestination of many school\noutings or weekend trips.\n
+special_ALSF-2_DT_stop
+Taxi way lights
+special_PAPI_stop
+Approach lights
+special_wingbar-r_stop
+Side way lights
 st_benedict_church
 St. Benedict Church\n\nThis church is one of the\nmost beautiful churches in\nSimuworld. A lot of tourists\ncome and visit it, less\ncome to prey. Many\nunvaluable paintings are\nkept inside and nobody\nwould miss them\n
 ST_PETER
 St. Peter's Church\n\nThe late-Roman church of\nSt.Peter's, built around\n1220, has a fine structured\nchorus gallery, frescos\nfrom the middle of the 13th\ncentury and the\nwell-preserved mummy of\n"The Holy Reeve". This is\nan old mummified body that\nis more than 300 years old,\nwhich was probably Wilhelm\nof Holbach, the royal reeve. The\nmummy is located in an alcove in\nthe western wall.\n
+STADIUM_RUGBY
+Rugby stadium\nHere is where the rugby team\nplay their matches in the\n city. Hundreds\nof people come every weekend in the year to see\nthem play.
 Suspended_Monorail_Bahnhof_Modern
 Monorail Stop
+tennis_court
+Tennis club\n The tennis club of the city\nis where takes place the most prestigious\ntournament in the region, but\nthere are also classes for the youngsters,\npromoting the practice of sports and\na wealthy lifestyle.
 Terminal1930_AirportBlg
 Small terminal hall
 Terminal1950_AirportBlg_S
@@ -1604,12 +1654,18 @@ VictorianStation
 Station in Victorian Style
 VillageTrainStop
 Village station
+WernerServer
+Werner's nightly server\n\nThis right-angled statue towering above everyday traffic was built to express thanks to Wernieman. His machinery serves the players nightly builds, freshly complied, every day since ancient times.
 WHEEL
 Russian Wheel\n\nThis is the so called Russian\nwheel. It is a very famous\ntourist attraction from older\ntheme parks, but it is still\nattractive now. It provides\na wonderful view.\n
 Windmill
 Windmill\n\nSome people enjoy visiting this\nwindmill to watch it going\naround. Some people like to\nget out of town. And some\npeople just like to throw\nrocks at the rotors and see\nif they can hit them.\n
 WOODEN_CHURCH
 Wooden Church\n\nThis Wooden Church was built\nby the Hamish people.\n\n
+#____________________________________citycar____________________________________
+#____________________________________citycar____________________________________
+Horse_Carriage_For_2_public
+Private carriage
 #__________________________________dummy_info___________________________________
 #__________________________________dummy_info___________________________________
 factory_ethanol_plant_details
@@ -1654,6 +1710,8 @@ dairy
 Dairy
 Druckerei
 Printing works
+electronics_factory_new
+Electronics factory
 Erzbergwerk
 Iron ore mine
 ethanol_plant
@@ -1666,6 +1724,8 @@ food_processing_plant
 Food factory
 ForestPlantation
 Tree plantation
+Geothermal powerplant_kraftwerk
+Geothermal power plant
 Glass_factory
 Glass mill
 grain_farm_w_fields
@@ -1688,6 +1748,8 @@ Oelfeld
 Oil field
 oilkraftwerk
 Oil-fired Power Station
+old_fish_cannery
+Fish cannery
 old_powerplant_kraftwerk
 Coal power station
 open_coal_mine
@@ -1712,8 +1774,22 @@ shopping_mall
 Shopping Mall
 Simutrans_Fried_Chicken
 Simutrans Fried Chicken
+Solar Pond_kraftwerk
+Solar pond
+SolarPowerTowerPS10_kraftwerk
+Solar tower
+SolarThermalOne_kraftwerk
+Solar panels
 steel_mill
 Steel mill
+StirlingParabolicCollectorsFarm_kraftwerk
+Solar collector station
+StirlingSolarThermalTrackerFarm_kraftwerk
+Solar collector station
+StirlingSolarTrackersFarm_kraftwerk
+Solar colector station
+StirlingThermalCollectorsFarm_kraftwerk
+Solar collector station
 Stonequarry
 Stone quarry
 supermarket
@@ -1734,6 +1810,8 @@ Wind power plant
 #_____________________________________good______________________________________
 Autos
 automobiles
+beer
+Beer
 Bretter
 planks
 Bucher
@@ -1746,18 +1824,40 @@ Chemicals
 chemicals
 Concrete
 concrete
+corn
+Corn
+cotton
+Cotton
 Eisenerz
 iron ore
+electronics
+Electronics
 Ethanol
 ethanol
+fertilizer
+Fertilizer
+fish
+Fish
+flour
+Flour
+food
+Food
 Gasoline
 gasoline
+glass
+Glass
 goods_
 goods
+grain
+Grain
 Holz
 lumber
 Kohle
 coal
+meat
+Meat
+milk
+Milk
 Moebel
 furniture
 None
@@ -1778,6 +1878,12 @@ Stahl
 steel
 Stone
 stone
+textile
+Textile
+waste
+Waste
+wool
+Wool
 #___________________________________menu_text___________________________________
 #___________________________________menu_text___________________________________
 MONORAILTOOLS
@@ -1882,6 +1988,10 @@ preSignal_Monorail
 Monorail Presignal
 preSignals
 Presignal (standard type)
+Railgate
+Rail gate
+RisingBollards
+Raising bollards
 RoadClosed
 Road block
 Signal_Monorail
@@ -1904,8 +2014,46 @@ tree133
 Mountain spruce\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
-RailTunnel
-Rail tunnel
+PowerTunnel
+Tunnel for power conduits
+Rail_Track_080_Tunnel
+Wooden sleeper track tunnel
+Rail_Track_080B_Tunnel
+Freight track tunnel
+Rail_Track_100_Tunnel
+Wooden sleeper track tunnel
+Rail_Track_120_Tunnel
+Fast wooden sleeper track tunnel
+Rail_Track_120B_Tunnel
+Fast freight track tunnel
+Rail_Track_140_Tunnel
+Express track tunnel
+Rail_Track_160_Tunnel
+Enhanced express track tunnel
+Rail_Track_180_Tunnel
+Regional track tunnel
+Rail_Track_200_Tunnel
+High quality express track tunnel
+Rail_Track_240_Tunnel
+Express track tunnel
+Rail_Track_280_Tunnel
+High speed track tunnel
+Rail_Track_320_Tunnel
+Modern high speed track tunnel
+Rail_Track_400_Tunnel
+Enhanced high speed track tunnel
+road_040_tunnel
+Cobblestone road tunnel
+road_050_tunnel
+Asphalted street tunnel
+road_070_tunnel
+Asphalted road tunnel
+road_090_tunnel
+Modern road tunnel
+road_110_tunnel
+Highway tunnel
+road_130_tunnel
+Freeway tunnel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -3376,12 +3524,98 @@ T_110A
 RVg T110 - super tram
 T_110B
 RVg T110 II
+T_202_Cityway_A
+T-202 Cityway
+T_202_Cityway_B0
+T-202 Cityway (B)
+T_202_Cityway_B1
+T-202 Cityway (B1)
+T_202_Cityway_C0
+T-202 Cityway (C)
+T_202_Cityway_C1
+T-202 Cityway (C1)
+T_202_Cityway_D
+T-202 Cityway (D)
+T_202_Cityway_E0
+T-202 Cityway (E)
+T_202_Cityway_E1
+T-202 Cityway (E1)
+T_211_Eurotram_A
+T-211 Eurotram
+T_211_Eurotram_B
+T-211 Eurotram (B)
+T_211_Eurotram_C
+T-211 Eurotram (C)
+T_211_Eurotram_D
+T-211 Eurotram (D)
+T_211_Eurotram_E
+T-211 Eurotram (E)
+T_212_Sirio_A
+T-212 Sirio
+T_212_Sirio_B
+T-212 Sirio (B)
+T_212_Sirio_C
+T-212 Sirio (C)
+T_212_Sirio_D
+T-212 Sirio (D)
+T_212_Sirio_E
+T-212 Sirio (E)
+T_221_Combino_A
+T-221 Combino
+T_221_Combino_B
+T-221 Combino (B)
+T_221_Combino_C
+T-221 Combino (C)
+T_221_Combino_D
+T-221 Combino (D)
+T_221_Combino_E
+T-221 Combino (E)
+T_222_Combino_Supra_A
+T-222 Combino Supra
+T_222_Combino_Supra_B
+T-222 Combino Supra (B)
+T_222_Combino_Supra_C
+T-222 Combino Supra (C)
+T_222_Combino_Supra_D
+T-222 Combino Supra (D)
+T_222_Combino_Supra_E
+T-222 Combino Supra (E)
+TalgoExpressCar
+Talgo Express Car
+TalgoExpressMail
+Talgo Express Mailcar
+TalgoExpressRestaurant
+Talgo Express Restaurant Car
+TalgoRegionalCar
+Talgo Regional Car
+TalgoRegionalMail
+Talgo Regional Mailcar
 TATRA_400_T_128
 Tatra 400 T
 TATRA_401_T_128
 Tatra 401 T
 TATRA_86_T_128
 Tatra 86 T
+TGV_4400
+TGV 4400
+TGV_4400_Back
+TGV 4400 (back)
+TGV_4400_Car
+TGV 4400 (car)
+TGV_Atlantique
+TGV Atlantique
+TGV_Atlantique_(Back)
+TGV Atlantique (back)
+TGV_Atlantique_(Car)
+TGV Atlantique (car)
+TGV_Post
+TGV La Poste
+TGV_Post_Back
+TGV La Poste (back)
+TGV_Post_Car_A
+TGV La Poste (car A)
+TGV_Post_Car_B
+TGV La Poste (car B)
 Thunder_(front_engine)
 BB Thunder
 Thunder_(mail)
@@ -3390,8 +3624,50 @@ Thunder_(rear_engine)
 BB Thunder (tail)
 Thunder_(waggon)
 BB Thunder (waggon)
+TMB_Class_100
+TMB Underground Class 100
+TMB_Class_1000
+TMB Underground Class 1000
+TMB_Class_2000
+TMB Underground Class 2000
+TMB_Class_2000_Car
+TMB Underground Class 2000 Car
+TMB_Class_200A
+TMB Underground Class 200A
+TMB_Class_200B
+TMB Underground Class 200B
+TMB_Class_200B_Car
+TMB Underground Class 200B Car
+TMB_Class_300
+TMB Underground Class 300
+TMB_Class_300_Car
+TMB Underground Class 300 Car
+TMB_Class_3000
+TMB Underground Class 3000
+TMB_Class_3000_Back
+TMB Underground Class 3000 (back)
+TMB_Class_3000_Car
+TMB Underground Class 3000 Car
+TMB_Class_400
+TMB Underground Class 400
+TMB_Class_400_Car
+TMB Underground Class 400 Car
+TMB_Class_500
+TMB Underground Class 500
+TMB_Class_500_Car
+TMB Underground Class 500 Car
+TMB_Class_6000
+TMB Underground Class 6000
+TMB_Class_6000_Back
+TMB Underground Class 6000 (back)
+TMB_Class_6000_Car
+TMB Underground Class 6000 Car
+TMB_Class_6000_Powered_Car
+TMB Underground Class 6000 Powered Car
 TS_Mack_Bulk_Trailer_0
 TS Light Bulk Cargo Trailer
+Twin_Coach_40
+Twin Coach 40
 Veveri_ship_128set
 Veveri
 Vitus-AVECO_Eurocargo_Bretter
@@ -3428,6 +3704,12 @@ VSYS_Tatra_138_Grain
 VSYS Tatra 138 (grain)
 VSYS_Tatra_813_Clossus
 VSYS Tatra 813 "Colossus"
+VT105_Addon
+VT-105
+VT105_Car_Addon
+VT-105 Car
+VT105_Tail_Addon
+VT-105 Tail Car
 Willamette_Chief
 Willamette Chief
 Willamette_Chief_(farm_goods)
@@ -3466,18 +3748,60 @@ GTW 85 Tail
 #______________________________________way______________________________________
 air_movement_area
 Tarmac Taxiway
-concrete_sleeper_track
-Concrete Sleeper Track
-High_quality_track
-High quality track
-low_quality_track
-Low quality track
 old_runway
 Grass runway
 old_taxiway
 Grass Taxiway
+PowerConduits
+Power conduits
 Powerline
 High voltage transmission line
+Rail_Track_060
+Old freight track
+Rail_Track_080
+Old wooden sleeper track
+Rail_Track_080B
+Freight track
+Rail_Track_100
+Regular wooden sleeper track
+Rail_Track_120
+Fast wooden sleeper track
+Rail_Track_120_Elevated
+Fast wooden sleeper elevated track
+Rail_Track_120B
+Fast freight track
+Rail_Track_140
+Express track
+Rail_Track_140_Elevated
+Elevated express track
+Rail_Track_160
+Enhanced express track
+Rail_Track_160_Elevated
+Elevated enhaced express track
+Rail_Track_180
+Regional service track
+Rail_Track_180_Elevated
+Elevated regional service track
+Rail_Track_200
+High quality express track
+Rail_Track_200_Elevated
+Elevated high quality express track
+Rail_Track_240
+Express service track
+Rail_Track_240_Elevated
+Elevated express track
+Rail_Track_280
+High speed track
+Rail_Track_280_Elevated
+High speed elevated track
+Rail_Track_320
+Modern high speed track
+Rail_Track_320_Elevated
+Modern elevated high speed track
+Rail_Track_400
+Enhanced high speed track
+Rail_Track_400_Elevated
+Elevated enhanced high speed track
 river_00
 Navigable River
 river_01
@@ -3488,18 +3812,54 @@ river_03
 River
 river_04
 Stream
+road_030
+Dirt road
+road_040
+Cobblestone street
+road_050
+Asphalted street
+road_050_elevated
+Elevated asphalted street
+road_055
+Gravel road
+road_070
+Asphalted road
+road_090
+Modern asphalted road
+road_090_elevated
+Elevated asphalted road
+road_110
+Highway
+road_110_elevated
+Elevated highway
+road_130
+Freeway
+road_130_elevated
+Elevated freeway
+road_200
+Modern freeway
+road_200_elevated
+Modern elevated freeway
 runway_modern
 Modern runway
 Schwebebahn_p_ground
 Monorail (ground level)
-steel_sleeper_track
-High speed track
 Suspended_Monorail_Track
 Suspended Monorail Track
+Tram_Track_050_A
+Regular tram track (50 Km/h)
+Tram_Track_070_A
+Reinforced tram track (70 Km/h, painted)
+Tram_Track_070_B
+Reinforced tram track (70 Km/h)
+Tram_Track_090_A
+Modern tram track (90 Km/h, painted)
+Tram_Track_090_B
+Modern tram track (90 Km/h)
+Tram_Track_110_A
+Fast tram track (110 Km/h)
 water_road
 Canal
-wooden_sleeper_track
-Wooden Sleeper Track
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary

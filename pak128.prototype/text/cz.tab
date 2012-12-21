@@ -5,7 +5,7 @@
 #                             Language: cz Cestina                             #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 21.12 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -36,10 +36,10 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Plochý betonový most (Nabe)
 PowerBridge
 Most vedení VN
+Rail_Track_060_Bridge
+Døevìný most
 road_030_bridge
 Døevìný silnièní most
 road_050_bridge
@@ -52,16 +52,10 @@ road_110_bridge
 silnièní most
 road_200_bridge
 Dálnièní most
-RVg_Concrete_Rail_Bridge
-Klenutý ocelový most (RVg)
 Schwebebahn_p_bridge
 Jednokolejka (most)
-SteelRail
-Ocelový ¾eleznièní most
 water_bridge
 Prùplavový most
-Wooden_Rail
-Døevìný most
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -534,6 +528,8 @@ Control_StationBlg
 Nádra¾ní velín
 Crate_Goods_Dock
 Kontejnerový pøístav
+Cross_Country_skiing_resort
+Bì¾kaøská dráha\n\nBì¾kaøská dráha, postavená v obzvlá¹tì malebném koutì zdej¹í krajiny s kouzelnými smrèky. Mimo sezónu slou¾í i dal¹ím sportùm jako napøíklad cyklistika. Kam schovávají rolbu se ale neptejte, to je stále záhadou.
 CunnersdorfStopBlg
 Vesnická nádra¾ní budova
 CUR_01_128_JH
@@ -572,6 +568,10 @@ FORT_FUN
 Rodeo\n\nZábavné rodeo mìsteèko. Bylo\npùvodnì postaveno pro\nnatáèení filmu "Sedm\nzpáteèních", o\ndvojnásobném pøepadení\nvlaku na Divokém Západì.\n
 FreightTrainStop
 Nákladové nádra¾í
+french_garden_4
+Veøejnì pøístupný francouzský park
+french_park_1
+Parèík upravený ve francouzském stylu
 FUTURISTIC_TOWER_0
 Vyhlídková vì¾\n\nTato vì¾ nabízí krásný výhled\ndo krajiny, kterou je\nobklopena. Vy¹¹í patro také\nukrývá malý bar, tak¾e si\nmù¾ete dát nìco k pití ke zvý¹ení po¾itku z výhledu.\nAèkoliv ceny zde nejsou\nnízké, atrakce nikdy\nnepostrádá náv¹tìvníky.\n
 Gas_StationBlg
@@ -586,6 +586,8 @@ hall_extended_station
 Nádra¾ní nákupní centrum
 HIGH_SCHOOL_1
 Støední ¹kola\n\nMísto, kde se mladým lidem\ndostane dal¹í vzdìlání.\nUèeny jsou pøedev¹ím exaktní pøedmìty jako matematika, fyzika a s.pol,\nale studenti se nevyhnou ani výuce jazykù, dìjepisu, zemìpisu, pøírodopisu a dal¹ím.\n
+HIGH_SCHOOL_2
+Historická støední ¹kola\n\nVysoké stropy, ¹iroké chodby, tvrdé ¾idle, pøísní profesoøi, mrzutý ¹kolník, latina, historie, francouz¹tina, etika, matematika... a ¹erm!
 HOUSE_RUINS_0
 Ruina domu\n\nToto kdysi bývala radnice\nmìsta, které u¾ neexistuje.\nHistorikové sem rádi chodí\nvzpomínat na minulost a\nturisté se chodí koukat na\npøedstavení pod stromem.\n
 HQ1
@@ -956,6 +958,8 @@ parking_(catchemnt_area_ext)2
 Parkovi¹tì
 parking_(catchemnt_area_ext)3
 Parkovi¹tì
+Percival_Maya_Temple
+Simajský chrám\n\nNedávné sondy a následné vykopávky odhalily, ¾e kopeèek známý v¾dy jako "hranatý" ve skuteènosti ukrývá trosky dávné vyspìlé civilizace. Jaké ¹tìstí, ¾e si na své výpravì Sir Percival v¹iml nápadné podoby kamenných tabulek, které okolní rolníci pravidelnì vyorávají a opìt zahazují. Na rozdíl od místních domorodcù nelenil a poèal kopat v pøedtu¹e objevitelské slávy. Po dlouhém a neúspì¹ném pátrání v okolí vsadil na triangulaci, kterou jeho rival, Lord Pecivál, pova¾oval za módní výstøelek. Úspìch na sebe nenechal dlouho èekat. Na poèest právì probíhajícího mìsíce pak nazval novì objevenou civilizaci Simájskou.
 plain_tile_high
 Manipulaèní plocha
 Post_Dock
@@ -1880,6 +1884,8 @@ sheep_farm
 Ovèín
 shopping_mall
 Obchodní centrum
+Simutrans_Fried_Chicken
+Simutrans Fried Chicken
 steel_mill
 Slévárna
 Stonequarry
@@ -2142,8 +2148,46 @@ tree140
 Borovice\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
-RailTunnel
-®eleznièní tunel
+PowerTunnel
+Tunel vedení VN
+Rail_Track_080_Tunnel
+Tunel pro ranou tra» s døevìnými pra¾ci
+Rail_Track_080B_Tunnel
+Tunel pro nákladní tra»
+Rail_Track_100_Tunnel
+Tunel pro bì¾nou tra» s døevìnými pra¾ci
+Rail_Track_120_Tunnel
+Tunel pro rychlostní tra» s døevìnými pra¾ci
+Rail_Track_120B_Tunnel
+Tunel pro moderní nákladní tra» pro vy¹¹í rychlosti
+Rail_Track_140_Tunnel
+Tunel pro expresní tra»
+Rail_Track_160_Tunnel
+Tunel pro zpevnìnou expresní tra»
+Rail_Track_180_Tunnel
+Tunel pro regionální tra»
+Rail_Track_200_Tunnel
+Tunel pro expresní tra» vysoké kvality
+Rail_Track_240_Tunnel
+Tunel pro expresní tra»
+Rail_Track_280_Tunnel
+Tunel pro rychlostní tra»
+Rail_Track_320_Tunnel
+Tunel pro moderní tra» pro vysoké rychlosti
+Rail_Track_400_Tunnel
+Tunel pro moderní tra» pro velmi vysoké rychlosti
+road_040_tunnel
+Tunel se dlá¾dìnou ulicí
+road_050_tunnel
+Tunel s asfaltovou ulicí
+road_070_tunnel
+Tuenl s asfaltovou silnicí
+road_090_tunnel
+Tunel s moderní asfaltovou silnicí
+road_110_tunnel
+Rychlostní tunel
+road_130_tunnel
+Dálnièní tunel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -2168,6 +2212,8 @@ Bennhardt B-186 "Citrón"
 RVg 0-3-0 "Èiperka"
 40ft_Container_Trailer
 Kontejnerový návìs na zbo¾í (40 stop)
+AEC_Aclo_Regent_III
+AEC Aclo Regent III
 Airport_express_shuttle
 Leti¹tní expres
 Autotransportwagen
@@ -2564,6 +2610,8 @@ MHz-P11C_Wood_Boat
 MHz P11C Lodice na døevo
 MHz-R2A_Push-Tug
 MHz R2A Tlaèný èlun
+milk_07_milk_waggon_0
+Chlazený vagon na mléko
 Milk_Truck_0
 PMNV Cisterna na mléko
 Milk_Truck_1
@@ -3202,6 +3250,8 @@ SAC-De_Havilland_Comet_128_set
 SAC-De Havilland Comet
 SAC-Douglas_DC-3_128_set
 SAC-Douglas DC-3
+SAC-Douglas_DC-6_128_set
+Douglas DC-6
 SAC-Embraer_E-170
 Embraer E-170
 SAC-Embraer_E-190
@@ -3328,6 +3378,10 @@ SMC_HDL-3000
 HDL-3000
 SMC_HDL-4000
 HDL-4000
+SMC_RT-602_(mail_car)
+SMC RT-602, po¹tovní vùz
+SMC_XT-501_(car)
+SMC XT-501, osobní vùz
 Stahlwagen
 Canonball nákladní vùz (ocel)
 Stahlwagen_0
@@ -3500,18 +3554,60 @@ GTW 85 konec
 #______________________________________way______________________________________
 air_movement_area
 Pojí¾dìcí plocha
-concrete_sleeper_track
-Tra» s betonovými pra¾ci
-High_quality_track
-Tra» vysoké kvality
-low_quality_track
-Tra» nízké kvality
 old_runway
 Pøistávací dráha
 old_taxiway
 Pojí¾dìcí plocha
+PowerConduits
+Podzemní vedení VN
 Powerline
 Vedení vysokého napìtí
+Rail_Track_060
+Raná tra»
+Rail_Track_080
+Raná tra» s døevìnými pra¾ci
+Rail_Track_080B
+Nákladní tra»
+Rail_Track_100
+Bì¾ná tra» s døevìnými pra¾ci
+Rail_Track_120
+Rychlostní tra» s døevìnými pra¾ci
+Rail_Track_120_Elevated
+Vyvý¹ená rychlostní tra» s døevìnými pra¾ci
+Rail_Track_120B
+Moderní nákladní tra» pro vy¹¹í rychlosti
+Rail_Track_140
+Expresní tra»
+Rail_Track_140_Elevated
+Vyvý¹ená expresní tra»
+Rail_Track_160
+Zpevnìná expresní tra»
+Rail_Track_160_Elevated
+Vyvý¹ená zpevnìná expresní tra»
+Rail_Track_180
+Regionální tra»
+Rail_Track_180_Elevated
+Vyvý¹ená regionální tra»
+Rail_Track_200
+Expresní tra» vysoké kvality
+Rail_Track_200_Elevated
+Vyvý¹ená expresní tra» vysoké kvality
+Rail_Track_240
+Expresní tra»
+Rail_Track_240_Elevated
+Vyvý¹ená expresní tra»
+Rail_Track_280
+Rychlostní tra»
+Rail_Track_280_Elevated
+Vyvý¹ená rychlostní tra»
+Rail_Track_320
+Moderní tra» pro vysoké rychlosti
+Rail_Track_320_Elevated
+Vyvý¹ená moderní tra» pro vysoké rychlosti
+Rail_Track_400
+Moderní tra» pro velmi vysoké rychlosti
+Rail_Track_400_Elevated
+Vyvý¹ená moderní tra» pro velmi vysoké rychlosti
 river_00
 Splavná øeka
 river_01
@@ -3522,20 +3618,54 @@ river_03
 Øeka
 river_04
 Øíèka
+road_030
+Vyje¾dìná cesta
+road_040
+Dlá¾dìná ulice
+road_050
+Asfaltová ulice
+road_050_elevated
+Vyvý¹ená asfaltová ulice
+road_055
+©tìrková cesta
+road_070
+Asfaltová silnice
+road_090
+Moderní asfaltová silnice
+road_090_elevated
+Vyvý¹ená asfaltová silnice
+road_110
+Rychlostní silnice
 road_110_elevated
-vyvý¹ená silnice
+Vyvý¹ená rychlostní silnice
+road_130
+Dálnice
+road_130_elevated
+Vyvý¹ená dálnice
+road_200
+Rychlostní dálnice
+road_200_elevated
+Vyvý¹ená rychlostní dálnice
 runway_modern
 Pøistávací dráha
 Schwebebahn_p_ground
 Jednokolejka (pøízemní)
-steel_sleeper_track
-Vysokorychlostní koridor
 Suspended_Monorail_Track
 Vysutá jednokolejka
+Tram_Track_050_A
+Standardní tramvajová tra»
+Tram_Track_070_A
+Zpevnìná tramvajová tra» se znaèením
+Tram_Track_070_B
+Zpevnìná tramvajová tra»
+Tram_Track_090_A
+Moderní tramvajová tra»
+Tram_Track_090_B
+Moderní tramvajová tra» s trávou
+Tram_Track_110_A
+Rychlostní tramvajová tra»
 water_road
 Kanál øíèní dopravy
-wooden_sleeper_track
-Tra» s døevìnými pra¾ci
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary

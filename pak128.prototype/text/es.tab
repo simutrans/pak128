@@ -5,7 +5,7 @@
 #                             Language: es Espanol                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 21.12 2012                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                   - Diegote                                  #
@@ -28,10 +28,38 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Puente ferroviario con vigas de cemento
 PowerBridge
 Puente para linea de alta tensión
+Rail_Track_060_Bridge
+Puente de madera para via de mercancías
+Rail_Track_060B_Bridge
+Puente antiguo de acero para vía de mercancías
+Rail_Track_080_Bridge
+Puente de hierro para vía antigua
+Rail_Track_080B_Bridge
+Puente moderno de acero para vía de mercancías
+Rail_Track_100_Bridge
+Puente para vía con traviesas de madera
+Rail_Track_120_Bridge
+Puente para vía rápida con traviesas de madera
+Rail_Track_120B_Bridge
+Puente para vía rápida de mercancías
+Rail_Track_140_Bridge
+Puente para vía exprés
+Rail_Track_160_Bridge
+Puente de hormigón para vía exprés mejorada
+Rail_Track_180_Bridge
+Puente de hormigón para vía regional
+Rail_Track_200_Bridge
+Puente de acero para via exprés moderna
+Rail_Track_240_Bridge
+Puente con estructura de acero para vía exprés
+Rail_Track_280_Bridge
+Puente de hormigón para vía de alta velocidad
+Rail_Track_320_Bridge
+Puente con armazón de hormigón para vía moderna de alta velocidad
+Rail_Track_400_Bridge
+Puente con armazón de hormigón para vía mejorada de alta velocidad
 road_030_bridge
 Puente de madera
 road_040_bridge
@@ -50,16 +78,10 @@ road_130_bridge
 Puente de autopista
 road_200_bridge
 Puente moderno de autopista
-RVg_Concrete_Rail_Bridge
-Puente colgante de acero (RVg)
 Schwebebahn_p_bridge
 Monorraíl suspendido (puente)
-SteelRail
-Puente ferroviario con vigas de acero
 water_bridge
 acueducto
-Wooden_Rail
-Puente ferroviario de madera
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -981,7 +1003,7 @@ Oficina de correos (grande)
 Radar3
 Estación de radar
 radiant_house
-Casa radiante
+Casa radiante\n\nEdificio Le Corbusier\nLa propia comunidad\nde vecinos gestiona completamente\nel edificio.
 RADIO_TOWER_0
 Estación de radio FM Chit-Chat\n\nEsta es la estación de radio\nFM de Chit-Chat, donde\nmucha gente gusta de\nvenir, ya que los\norganizadores prometen\nque los visitantes saldrán\nal aire todos los días entre\nlas 13:00 y 14:30 hs.\n
 ramp_tile_high
@@ -1655,11 +1677,11 @@ Parada de autobús con poste
 SMALL_MANOR
 Esta pequeña mansión fue\nuna vez que la gran casa\nde un famoso terrateniente.\nSin embargo, dado que el\nseñor muerió, la fama\nlentamente se perdió y la\ncasa fue olvidada por la\nmayoría, y sólo fue\nredescubierta a principios\ndel siglo XX, cuando las\ngrandes colecciones de\narte comenzaron a atraer a\nmuchos visitantes. Para\nconservar su belleza, la mansión\nes ahora de propiedad pública,\naccesible a cualquier persona\npor una modesta tarifa. Se ha\nhecho muy popular y conocida, y\nes un destino frecuente de\nmuchas excursiones escolares y\nviajes de fin de semana.\n
 special_ALSF-2_DT_stop
-barrera de pinchos
+Luces de pista
 special_PAPI_stop
-luces de pista
+Luces de aproximación
 special_wingbar-r_stop
-luces de pista lateral
+Luces de pista lateral
 st_benedict_church
 Iglesia de St. Benedict\n\nEsta iglesia es una de las\nmas bonitas de Simutrans.\nMuchos turistas  vienen de\nvisita, unos pocos vienen a\nrezar. Alberga en su interior\npinturas de incalculable\nvalor, y nadie las echaria\nde menos.\n
 ST_PETER
@@ -1903,7 +1925,7 @@ Productos químicos
 Concrete
 Hormigón
 corn
-maíz
+Maíz
 cotton
 Algodón
 Eisenerz
@@ -2110,20 +2132,44 @@ Conífera de montaña\n\n
 #____________________________________tunnel_____________________________________
 PowerTunnel
 Túnel para línea eléctrica
-RailTunnel
-Túnel ferroviario
+Rail_Track_080_Tunnel
+Túnel para vía con traviesas de madera
+Rail_Track_080B_Tunnel
+Túnel para vía de mercancías
+Rail_Track_100_Tunnel
+Túnel para vía con traviesas de madera
+Rail_Track_120_Tunnel
+Túnel para vía rápida con traviesas de madera
+Rail_Track_120B_Tunnel
+Túnel para vía rápida para mercancías
+Rail_Track_140_Tunnel
+Túnel para vía exprés
+Rail_Track_160_Tunnel
+Túnel para vía exprés mejorada
+Rail_Track_180_Tunnel
+Túnel para vía regional
+Rail_Track_200_Tunnel
+Túnel para vía exprés de alta calidad
+Rail_Track_240_Tunnel
+Túnel para vía exprés
+Rail_Track_280_Tunnel
+Túnel para vía de alta velocidad
+Rail_Track_320_Tunnel
+Túnel para vía moderna de alta velocidad
+Rail_Track_400_Tunnel
+Túnel para vía mejorada de alta velocidad
 road_040_tunnel
-Tunel de carretera (40 Km/h)
+Tunel de calle adoquinada
 road_050_tunnel
-Tunel de carretera (50 Km/h)
+Tunel de calle asfaltada
 road_070_tunnel
-Tunel de carretera (70 Km/h)
+Tunel de carretera asfaltada
 road_090_tunnel
-Tunel de carretera (90 Km/h)
+Tunel de carretera moderna
 road_110_tunnel
-Túnel de autopista (110 Km/h)
+Túnel de autovía
 road_130_tunnel
-Túnel de autopista (130 Km/h)
+Túnel de autopista
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -3826,12 +3872,6 @@ GTW 85 (trasero)
 #______________________________________way______________________________________
 air_movement_area
 Pista de maniobras
-concrete_sleeper_track
-Vía con traviesas reforzadas
-High_quality_track
-Carril bienhecho 
-low_quality_track
-Vía de poca calidad
 old_runway
 Antigua Pista de aterrizaje
 old_taxiway
@@ -3840,6 +3880,52 @@ PowerConduits
 Conducción eléctrica
 Powerline
 Cableado de Alto Voltaje
+Rail_Track_060
+Vía antigua para mercancías
+Rail_Track_080
+Vía antigua con traviesas de madera
+Rail_Track_080B
+Vía para mercancías
+Rail_Track_100
+Vía con traviesas de madera
+Rail_Track_120
+Via rápida con traviesas de madera
+Rail_Track_120_Elevated
+Vía rápida elevada con traviesas de madera
+Rail_Track_120B
+Vía rápida para mercancías
+Rail_Track_140
+Vía exprés
+Rail_Track_140_Elevated
+Vía exprés elevada
+Rail_Track_160
+Vía exprés mejorada
+Rail_Track_160_Elevated
+Vía exprés mejorada elevada
+Rail_Track_180
+Vía para servicio regional
+Rail_Track_180_Elevated
+Vía elevada para servicio regional
+Rail_Track_200
+Vía exprés de alta calidad
+Rail_Track_200_Elevated
+Vía exprés elevada de alta calidad
+Rail_Track_240
+Vía para servicios exprés
+Rail_Track_240_Elevated
+Vía exprés elevada
+Rail_Track_280
+Vía de alta velocidad
+Rail_Track_280_Elevated
+Vía elevada de alta velocidad
+Rail_Track_320
+Vía moderna de alta velocidad
+Rail_Track_320_Elevated
+Vía moderna elevada de alta velocidad
+Rail_Track_400
+Vía de alta velocidad mejorada
+Rail_Track_400_Elevated
+Vía elevada de alta velocidad mejorada
 river_00
 Rio navegable
 river_01
@@ -3882,8 +3968,6 @@ runway_modern
 Pista de aterrizaje 
 Schwebebahn_p_ground
 Monorraíl
-steel_sleeper_track
-Vía con traviesas de acero
 Suspended_Monorail_Track
 Via de Monorrail colgante
 Tram_Track_050_A
@@ -3897,11 +3981,9 @@ Vía de tranvia moderno (90 Km/h, pintada)
 Tram_Track_090_B
 Vía de tranvia moderno (90 Km/h)
 Tram_Track_110_A
-Vía de tranvia rápido(110 Km/h)
+Vía de tranvia rápido (110 Km/h)
 water_road
 Canal
-wooden_sleeper_track
-Vía con traviesas de madera
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary
