@@ -1,7 +1,6 @@
-
 Obj=building
 Name=TrainStop
-copyright=Jan Polacek
+copyright=Jan Polacek & mEGa
 type=stop
 waytype=track
 enables_pax=1
@@ -16,8 +15,11 @@ retire_year=1990
 intro_month = 1
 icon=> trainstop.1.4
 cursor=trainstop.1.5
-BackImage[0][0][0][0][0]=trainstop.1.0
-BackImage[1][0][0][0][0]=trainstop.1.1
-FrontImage[0][0][0][0][0]=trainstop.1.2
-FrontImage[1][0][0][0][0]=trainstop.1.3
-
+BackImage[0][0][0][0][0][0]=trainstop.1.0
+BackImage[1][0][0][0][0][0]=trainstop.1.1
+FrontImage[0][0][0][0][0][0]=trainstop.1.2
+FrontImage[1][0][0][0][0][0]=trainstop.1.3
+BackImage[0][0][0][0][0][1]=trainstop.2.0
+BackImage[1][0][0][0][0][1]=trainstop.2.1
+FrontImage[0][0][0][0][0][1]=trainstop.2.2
+FrontImage[1][0][0][0][0][1]=trainstop.2.3
