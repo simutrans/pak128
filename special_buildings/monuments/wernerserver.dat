@@ -10,11 +10,6 @@
 obj=building
 name=WernerServer
 copyright=Zeno
-intro_month=1
-intro_year=1870
-retire_month=12
-retire_year=2199
-chance=100
 type=mon
 level=61
 needs_ground=1

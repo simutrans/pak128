@@ -1,0 +1,10 @@
+# Roundabout by Raiser. Not a monument to anyone!
+obj=building
+name=roundabout
+copyright=Raiser
+type=mon
+level=3
+needs_ground=0
+climates=temperate
+BackImage[0][0][0][0][0][0]=roundabout.1.0
+BackImage[0][0][0][0][1][0]=roundabout.1.1
