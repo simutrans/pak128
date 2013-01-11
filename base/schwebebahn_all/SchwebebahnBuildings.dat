@@ -55,7 +55,6 @@ waytype=monorail_track
 # must be 1*1
 Dims=1,1
 NoInfo=1
-type=shed
 BackImage[0][0][0][0][0]=ls-depot-monorail.0.6
 icon=> ls-depot-monorail.1.4
 cursor=ls-depot-monorail.1.5
