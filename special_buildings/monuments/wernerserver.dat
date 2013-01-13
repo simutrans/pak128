@@ -10,6 +10,7 @@
 obj=building
 name=WernerServer
 copyright=Zeno
+intro_year=1970
 type=mon
 level=61
 needs_ground=1
