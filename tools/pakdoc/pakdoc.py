@@ -1,0 +1,670 @@
+﻿#! /usr/bin/python
+#  -*- coding: utf-8 -*-
+#
+#  Vladimír Slávik 2013
+#  Python 3.1
+#
+#  for Simutrans
+#  http://www.simutrans.com
+#
+#  code is public domain
+#
+#
+# generate pakset overview
+
+#-----
+
+from __future__ import print_function, division
+
+import os
+from itertools import product
+from collections import defaultdict
+
+import simutools
+
+#-----
+
+# changeable configuration
+
+paksize = 128
+outdir = "pakdocs"
+imgformat = "jpg"
+
+#-----
+
+simubk = (231,255,255)
+Items = {"vehicle":[], "good":[], "factory":[], "bridge":[], "way":[], "tunnel":[], "station":[]}
+
+#-----
+
+def _(text) :
+	return text
+	# TODO: translations?
+
+#-----
+
+def local_filename(name) :
+	return os.path.join(outdir, name)
+	
+
+#-----
+
+def html_start(title, htmlclass="") :
+	return \
+"""<!DOCTYPE html>
+<html>
+<head>
+<title>%s</title>
+<script type="text/javascript" src="pakdoc-sorttable.js"></script>
+<link rel="stylesheet" type="text/css" href="pakdoc-style.css" />
+</head>
+<body lang="en" class="%s">
+<p class="nav"> Categories:
+<a href="_way_overview_all.html">ways</a> |
+<a href="_station_overview_all.html">stations</a> |
+<a href="_vehicle_overview_wt_all_gt_all.html">vehicles</a>.</p>""" % (title, htmlclass)
+
+#-----
+
+def html_end() :
+	return \
+"""<footer>Powered by
+<a href="http://www.python.org/">Python</a> script,
+<a href="http://www.pygame.org/">PyGame</a>
+and <a href="http://www.kryogenix.org/code/browser/sorttable/">sorttable</a>.</footer>
+</body>
+</html>
+"""
+
+#-----
+
+def html_deflist(somedict) :
+	a = [("<dt>" + key + "</dt>\n<dd>" + value + "</dd>\n") for key, value in somedict.items()]
+	return "<dl>\n" + "".join(a) + "</dl>\n"
+
+def html_h1(name) :
+	return "<h1>%s</h1>\n" % name
+
+def html_h2(name) :
+	return "<h2>%s</h2>\n" % name
+
+def html_img(path, htmlclass="") :
+	if htmlclass :
+		return """<img src="%s" class="%s" />""" % (path, htmlclass)
+	else :
+		return """<img src="%s" />""" % path
+
+#-----
+
+def split_data() :
+	k = list(Items.keys())
+	for obj in Data :
+		objtype = str(obj.ask("obj")).lower()
+		if objtype in k :
+			Items[objtype].append(obj)
+		elif objtype == "building" and obj.ask("type", "") in ["stop", "extension", "habour"] :
+			Items["station"].append(obj)
+
+#-----
+
+cache_size = 8
+imgcache = {}
+# caches last "cache_size" images, rotated by access frequency
+def get_png_tile(refstr, base, tilesize=paksize) :
+	# always returns a surface
+	imgref = simutools.SimutransImgParam(refstr)
+	image = pygame.Surface((tilesize, tilesize))
+	image.fill((231,255,255))
+	if imgref.file != "-" : # guaranteed to get here "-", correct name or other bug
+		filepath = os.path.join(os.path.dirname(base), imgref.file + ".png")
+		count = 0
+		source = None
+		try :
+			source,count = imgcache[filepath]
+		except : # not cached
+			source = pygame.image.load(filepath)
+		imgcache[filepath] = (source,count+1);
+		if len(imgcache) > cache_size : # prune cache
+			min_cnt = 65536 # infinity
+			min_pth = ""
+			for filepath,data in imgcache.items() :
+				if data[1] < min_cnt :
+					min_cnt = data[1]
+					min_pth = filepath
+			del imgcache[min_pth]
+		srccoords = pygame.Rect(imgref.coords[1] * tilesize, imgref.coords[0] * tilesize, tilesize, tilesize)
+		image.blit(source, [0,0], srccoords)
+	return image
+
+#-----
+
+def autocrop_image(input, colorkey=None) :
+	if colorkey :
+		input.set_colorkey(colorkey)
+	area = input.get_bounding_rect()
+	newimage = pygame.Surface(area.size)
+	newimage.fill(simubk)
+	newimage.blit(input, [0,0], area)
+	return newimage
+
+#-----
+
+paksize_cache = {}
+def get_paksize(obj) :
+	basepath = os.path.dirname(obj.srcfile)
+	value = paksize # failsafe or a dumb idea?
+	try :
+		value = paksize_cache[basepath]
+	except :
+		f = open(os.path.join(basepath, "_pakmak.tab"), 'r')
+		for line in f :
+			if line.startswith("size ") :
+				value = int(line[5:]) # prone to breaking - very simple
+				paksize_cache[basepath] = value
+				break
+		f.close()
+	return value
+	
+#-----
+
+def compose_way_icon(obj) :
+	tile = get_png_tile(obj.ask("icon", "-"), obj.srcfile)
+	tile.set_colorkey(simubk)
+	small = pygame.Surface((32,32)) # !!!! Magic numbers - icon size
+	small.blit(tile, [0,0], pygame.Rect(0,0,32,32)) # "crop"
+	return small
+
+def compose_way_image(obj) :
+	newimage = pygame.Surface((paksize,paksize))
+	newimage.fill(simubk)
+	ref = obj.ask("image[NS]","-") # way
+	if ref == "-":
+		ref = obj.ask("image[NS][0]","-") # way seasons
+	if ref == "-":
+		ref = obj.ask("backimage[N]","-") # tunnel
+	if ref == "-":
+		ref = obj.ask("backimage[N][0]","-") # tunnel seasons
+	if ref == "-":
+		ref = obj.ask("backimage[NS]","-") # bridge 
+	if ref == "-":
+		ref = obj.ask("backimage[NS][0]","-") # bridge seasons
+	backimage = get_png_tile(ref, obj.srcfile)
+	backimage.set_colorkey(simubk)
+	newimage.blit(backimage, [0,0])
+	ref = obj.ask("frontimage[NS]","-")
+	if ref == "-":
+		ref = obj.ask("frontimage[NS][0]","-")
+	if ref == "-":
+		ref = obj.ask("frontimage[N]","-")
+	if ref == "-":
+		ref = obj.ask("frontimage[N][0]","-")
+	if ref == "-":
+		ref = obj.ask("frontimage[NS]","-")
+	if ref == "-":
+		ref = obj.ask("frontimage[NS][0]","-")
+	frontimage = get_png_tile(ref, obj.srcfile)
+	frontimage.set_colorkey(simubk)
+	newimage.blit(frontimage, [0,0])
+	icon = get_png_tile(obj.ask("icon", "-"), obj.srcfile)
+	icon.set_colorkey(simubk)
+	newimage.blit(icon, [0,0])
+	return newimage
+
+#-----
+
+def generate_ways() :
+	waytypes = {"road":[], "track":[], "water":[], "tram_track":[], "air":[], "maglev_track":[], "monorail_track":[], "narrowgauge_track":[], "power":[]} #!!!!
+	all_ways = Items["way"]+Items["bridge"]+Items["tunnel"]
+	
+	# preprocessing - sort into types, graphics etc.
+	for obj in all_ways :
+		waytypes[obj.ask("waytype")].append(obj)
+		obj.cname = simutools.canonicalObjName(obj.ask("name"))
+		obj.fname = "way_%s.html" % obj.cname
+		obj.iconname = "icon_way_%s.%s" % (obj.cname, imgformat)
+	
+	# navigation links, need counts
+	links = ["""<a href="_way_overview_%s.html">%s (%d)</a>""" % (type,type,len(objs)) for type,objs in waytypes.items()]
+	links.insert(0, """<a href="_way_overview_all.html">all (%d)</a>""" % len(all_ways))
+	way_nav = """<p class="nav">waytypes: [ """ + " | ".join(links) + """ ]</p>\n"""
+	
+	# generate total overview
+	main_params = ["icon", "name", "waytype", "topspeed", "cost", "maintenance", "intro_year", "retire_year"] #!!!!
+	mainf = open(local_filename("_way_overview_all.html"), 'w')
+	mainf.write(html_start("Way overview, all types"))
+	mainf.write(way_nav)
+	mainf.write(html_h1("Way overview, all types"))
+	mainf.write("""<table class="sortable">\n<thead>""")
+	heads = ["<th>%s</th>"%p for p in main_params]
+	heads[0] = """<th class="sorttable_nosort">icon</th>"""
+	mainf.write("".join(heads) + "\n")
+	mainf.write("</thead>\n")
+	
+	# init local overviews
+	loc_f = {}
+	for wt in waytypes.keys() :
+		f = open(local_filename("_way_overview_%s.html" % wt), 'w')
+		f.write(html_start("Way overview, %s" % wt))
+		f.write(way_nav)
+		f.write(html_h1("Way overview - %s" % wt))
+		f.write("""<table class="sortable">\n<thead>""")
+		f.write("".join(heads) + "\n")
+		f.write("</thead>\n")
+		loc_f[wt] = f
+	
+	# generate individual objects
+	for obj in all_ways :
+		name = obj.ask("name")
+		f = open(local_filename(obj.fname), 'w')
+		f.write(html_start(name))
+		f.write(way_nav)
+		f.write(html_h1(name))
+		# icon
+		icon = compose_way_icon(obj)
+		pygame.image.save(icon, local_filename(obj.iconname))
+		# image composed from overlaid backimage and frontimage and icon
+		mainimage = compose_way_image(obj)
+		imagename = "image_way_%s.%s" % (obj.cname, imgformat)
+		pygame.image.save(mainimage, local_filename(imagename))
+		# output to own file
+		params = {}
+		detail_params = ["icon", "name", "waytype", "topspeed", "cost", "maintenance", "intro_year", "intro_month", "retire_year", "retire_month"] #!!!!
+		for param in detail_params :
+			params[param] = str(obj.ask(param, "-"))
+		type = obj.ask("obj")
+		if type=="way" and obj.ask("system_type")=="1" :
+			params["type"] = "elevated"
+		else :
+			params["type"] = type
+		params["icon"] = """<a href="%s"><img src="%s" /></a>""" % (obj.fname, obj.iconname)
+		params["name"] = """<a href="%s">%s</a>""" % (obj.fname,name)
+		f.write(html_img(imagename))
+		f.write(html_deflist(params))
+		# output to overviews
+		table_cells = ["<td>%s</td>" % params[p] for p in main_params]
+		table_line = "<tr>" + "".join(table_cells) + "</tr>\n"  # TODO: icon into main table!
+		mainf.write(table_line)
+		loc_f[params["waytype"]].write(table_line)
+		# finalize own file
+		f.write(html_end())
+		f.close()
+		
+	mainf.write("</table>\n")
+	mainf.write(html_end())
+	mainf.close()
+	
+	for wt in waytypes.keys() :
+		f = loc_f[wt]
+		f.write("</table>\n")
+		f.write(html_end())
+		f.close()
+
+#-----
+
+def compose_building_icon(obj) :
+	tile = get_png_tile(obj.ask("icon", "-"), obj.srcfile)
+	tile.set_colorkey(simubk)
+	small = pygame.Surface((32,32)) # !!!! Magic numbers - icon size
+	small.blit(tile, [0,0], pygame.Rect(0,0,32,32)) # "crop"
+	return small
+
+def compose_building_image(obj) :
+	# handle "any" size, height and shape of building - but assume max. 4x4x3 (x,y,z) dictated by buffer size
+	buffer.fill((0,0,0))
+	buffer.set_colorkey((0,0,0))
+	buffer.fill(simubk)
+	for z in range(3) : # outermost iteration must be over height!
+		for x in range(4) :
+			for y in range(4) :
+				# x,y,z logical - object coordinates
+				pos = [ (y+3-x)*paksize/2 , (y+x)*paksize/4 + paksize*(2-z) ] # order x,y canvas coordinates
+				ref = obj.ask("backimage[0][%d][%d][%d][0]" % (x,y,z), "-") # building
+				if ref == "-":
+					ref = obj.ask("backimage[0][%d][%d][%d][0][0]" % (x,y,z), "-") # building seasons
+				if ref != "-" :
+					backimage = get_png_tile(ref, obj.srcfile)
+					backimage.set_colorkey(simubk)
+					buffer.blit(backimage, pos)
+				ref = obj.ask("frontimage[0][%d][%d][%d][0]" % (x,y,z), "-") # building
+				if ref == "-":
+					ref = obj.ask("frontimage[0][%d][%d][%d][0][0]" % (x,y,z), "-") # building seasons
+				if ref != "-" :
+					frontimage = get_png_tile(ref, obj.srcfile)
+					frontimage.set_colorkey(simubk)
+					buffer.blit(frontimage, pos)
+	# crop to usable part, resize so that width is 128 px max
+	buffer.set_colorkey(simubk)
+	img = autocrop_image(buffer)
+	# img is now the whole item without borders
+	if img.get_width() <= 128 :
+		return img # this is good enough
+	else :
+		# need downsampling
+		ratio = 128 / img.get_width()
+		return pygame.transform.scale(img, (128, int(img.get_height()*ratio)))
+
+#-----
+
+def generate_stations() :
+	waytypes = {"extension":[], "road":[], "track":[], "water":[], "tram_track":[], "air":[], "maglev_track":[], "monorail_track":[], "narrowgauge_track":[]} #!!!!
+	for obj in Items["station"] :
+		name = obj.ask("name")
+		type = obj.ask("type", "")
+		if type == "extension" :
+			obj.put("waytype", "extension")
+		elif type == "habour" :
+			obj.put("waytype", "water")
+		wt = obj.ask("waytype", "extension").lower()
+		waytypes[wt].append(obj)
+		obj.cname = simutools.canonicalObjName(name)
+		obj.fname = "station_%s.html" % obj.cname
+		obj.iconname = "icon_station_%s.%s" % (obj.cname, imgformat)
+		enables = ""
+		pax = bool(int(obj.ask("enables_pax", "0")))
+		mail = bool(int(obj.ask("enables_post", "0")))
+		cargo = bool(int(obj.ask("enables_ware", "0")))
+		if pax :
+			enables += ", pax"
+		if mail :
+			enables += ", mail"
+		if cargo :
+			enables += ", cargo"
+		if enables :
+			enables = enables[2:]
+		else :
+			enables = "-"
+		obj.put("enables", enables)
+	
+	# navigation links, need counts
+	links = ["""<a href="_station_overview_%s.html">%s (%d)</a>""" % (type,type,len(objs)) for type,objs in waytypes.items()]
+	links.insert(0, """<a href="_station_overview_all.html">all (%d)</a>""" % len(Items["station"]))
+	stat_nav = """<p class="nav">waytypes: [ """ + " | ".join(links) + """ ]</p>\n"""
+	
+	# generate total overview
+	main_params = ["icon", "name", "waytype", "enables", "level", "intro_year", "retire_year"] #!!!!
+	mainf = open(local_filename("_station_overview_all.html"), 'w')
+	mainf.write(html_start("Station overview, all types"))
+	mainf.write(stat_nav)
+	mainf.write(html_h1("Station overview, all types"))
+	mainf.write("""<table class="sortable">\n<thead>""")
+	heads = ["<th>%s</th>"%p for p in main_params]
+	heads[0] = """<th class="sorttable_nosort">icon</th>"""
+	mainf.write("".join(heads) + "\n")
+	mainf.write("</thead>\n")
+	
+	# init local overviews
+	loc_f = {}
+	for wt in waytypes.keys() :
+		f = open(local_filename("_station_overview_%s.html" % wt), 'w')
+		f.write(html_start("Station overview - %s" % wt))
+		f.write(stat_nav)
+		f.write(html_h1("Station overview - %s" % wt))
+		f.write("""<table class="sortable">\n<thead>""")
+		f.write("".join(heads) + "\n")
+		f.write("</thead>\n")
+		loc_f[wt] = f
+	
+	for obj in Items["station"] :
+		name = obj.ask("name")
+		f = open(local_filename(obj.fname), 'w')
+		f.write(html_start(name))
+		f.write(stat_nav)
+		f.write(html_h1(name))
+		# icon
+		icon = compose_building_icon(obj)
+		pygame.image.save(icon, local_filename(obj.iconname))
+		# image composed from overlaid backimages and frontimages
+		mainimage = compose_building_image(obj)
+		imagename = "image_building_%s.%s" % (obj.cname, imgformat)
+		pygame.image.save(mainimage, local_filename(imagename))
+		f.write(html_img(imagename))
+		# output to own file
+		params = {}
+		detail_params = ["icon", "name", "type", "waytype", "enables", "level", "intro_year", "intro_month", "retire_year", "retire_month"] #!!!!
+		for param in detail_params :
+			params[param] = str(obj.ask(param, "-"))
+		params["icon"] = """<a href="%s"><img src="%s" /></a>""" % (obj.fname, obj.iconname)
+		params["name"] = """<a href="%s">%s</a>""" % (obj.fname, name)
+		params["waytype"] = obj.ask("waytype", "none")
+		f.write(html_deflist(params))
+		# output to overviews
+		table_cells = ["<td>%s</td>" % params[p] for p in main_params]
+		table_line = "<tr>" + "".join(table_cells) + "</tr>\n"
+		mainf.write(table_line)
+		loc_f[params["waytype"]].write(table_line)
+		# finalize own file
+		f.write(html_end())
+		f.close()
+		
+	mainf.write("</table>\n")
+	mainf.write(html_end())
+	mainf.close()
+	
+	for wt in waytypes.keys() :
+		f = loc_f[wt]
+		f.write("</table>\n")
+		f.write(html_end())
+		f.close()
+
+#-----
+
+goods_table = {} # translation table goods->categories
+goods_types = set()
+def preparse_goods() :
+	for obj in Items["good"] :
+		name = obj.ask("name")
+		catg = int(obj.ask("catg", "0"))
+		if catg == 0 :
+			goods_table[name] = name
+			goods_types.add(name)
+		else :
+			cat_str = "CATEGORY_%02d" % catg
+			goods_table[name] = cat_str
+			goods_types.add(cat_str)
+
+#-----
+
+def compose_vehicle_image(obj) :
+	tilesize = get_paksize(obj)
+	pieces = []
+	
+	ref = obj.ask("emptyimage[sw]", "-")
+	if ref == "-" :
+		# this view is always present!
+		raise Exception("malformed vehicle file")
+	pieces.append(autocrop_image(get_png_tile(ref, obj.srcfile, tilesize), simubk))
+	
+	css_width = 256 #!!! 256 magic number from css - space allowed for image
+	
+	# guesstimate item sizes after all the processing - assuming all images are +- same dimension
+	single_width = pieces[0].get_width()
+	single_height = pieces[0].get_height()
+	# everything is wider than higher, expecting that dimension as limiting
+	ratio = min(css_width / single_width, 1.0)
+	est_hgt = single_height * ratio
+	max_hgt = 320 #!!!! arbitrary magic number for maximal image height
+	max_items = int(max_hgt / est_hgt) # cast truncates
+	# 320/256 is >1, so max_items cannot be negative even for full tile
+	remaining = max_items - 1 # one already spent
+	
+	# find some more images...
+	if max_items > 0 :
+		loads = obj.ask_indexed("freightimagetype")
+		if len(loads) > 0 :
+			# got more freights
+			for i in range(min(len(loads),max_items)) :
+				ref = obj.ask("freightimage[%d][sw]" % i, "-")
+				if ref != "-" :
+					pieces.append(autocrop_image(get_png_tile(ref, obj.srcfile, tilesize), simubk))
+		else :
+			# only single freight, maybe?
+			ref = obj.ask("freightimage[sw]", "-")
+			if ref != "-" :
+				pieces.append(autocrop_image(get_png_tile(ref, obj.srcfile, tilesize), simubk))
+	
+	# compose images into a buffer - it is prepared externally
+	buffer.fill(simubk)
+	ypos = 0
+	for image in pieces :
+		image.set_colorkey(simubk)
+		buffer.blit(image, [0,ypos]) # images are already cropped
+		ypos += image.get_height() + 4 # some spacing does not hurt
+	usable = autocrop_image(buffer)
+	if usable.get_width() <= css_width :
+		return usable # this is good enough
+	else :
+		# need downsampling
+		ratio = css_width / usable.get_width() # now real numbers for composed image
+		return pygame.transform.scale(usable, (css_width, int(usable.get_height()*ratio)))
+	# assume estimated height was good enough - do not test further
+
+#-----
+
+def compose_vehicle_icon(obj) :
+	tilesize = get_paksize(obj)
+	ref = obj.ask("freightimage[sw]", "-") # normal loaded
+	if ref == "-" :
+		ref = obj.ask("freightimage[0][sw]", "-") # first loaded
+	if ref == "-" :
+		ref = obj.ask("emptyimage[sw]", "-") # normal empty
+	if ref == "-" :
+		raise Exception("malformed vehicle file")
+	view = get_png_tile(ref, obj.srcfile, tilesize)
+	view.set_colorkey(simubk)
+	newimage = autocrop_image(view)
+	return newimage
+
+#-----
+
+def generate_vehicles() :
+	waytypes = ["all", "road", "track", "water", "tram_track", "air", "maglev_track", "monorail_track", "narrowgauge_track"] #!!!!
+	goods = ["all"] + list(goods_types)
+	wtg_table = list(product(waytypes, goods)) # list of tuples (wt,gt)
+	
+	main_params = ["icon", "name", "waytype", "speed", "power", "freight", "payload", "cost", "runingcost", "intro_year", "retire_year"] #!!!!
+	heads = ["<th>%s</th>"%p for p in main_params]
+	heads[0] = """<th class="sorttable_nosort">image</th>"""
+	table_header = "".join(heads) + "\n"
+	
+	vehicles = {}
+	for wtg in wtg_table :
+		vehicles[wtg] = [[], 0, ""] # objects, file handle, html nav (reused by individual files!)
+	
+	# categorize and count stuff
+	for obj in Items["vehicle"] :
+		obj.put("goods", goods_table[obj.ask("freight", "None")]) # exchange goods for their categories where applicable
+		obj.cname = simutools.canonicalObjName(obj.ask("name"))
+		obj.fname = "vehicle_%s.html" % obj.cname
+		obj.iconname = "icon_veh_%s.%s" % (obj.cname, imgformat)
+		wt = obj.ask("waytype")
+		gt = obj.ask("goods", "None")
+		vehicles[(wt,gt)][0].append(obj)
+		vehicles[("all",gt)][0].append(obj)
+		vehicles[(wt,"all")][0].append(obj)
+		vehicles[("all","all")][0].append(obj)
+	
+	# overview html files - generate navigations, open files etc
+	for wtg in wtg_table :
+		wt,gt = wtg # unpack tuple into vars
+		
+		links = ["""<a href="_vehicle_overview_wt_%s_gt_%s.html">%s (%d)</a>""" % (iwt, gt, iwt, len(vehicles[(iwt,gt)][0])) for iwt in waytypes]
+		veh_wt_nav = """<p class="nav">waytypes: [ """ + " | ".join(links) + """ ]</p>\n"""
+		links = ["""<a href="_vehicle_overview_wt_%s_gt_%s.html">%s (%d)</a>""" % (wt, igt, igt, len(vehicles[(wt,igt)][0])) for igt in goods]
+		veh_g_nav = """<p class="nav">goods: [ """ + " | ".join(links) + """ ]</p>\n"""
+		veh_nav_help = """<p class="nav">(Clicking changes way or goods type, keeping the other as curently selected.)</p>\n"""
+		veh_nav = veh_wt_nav + veh_g_nav + veh_nav_help
+		
+		f = open(local_filename("_vehicle_overview_wt_%s_gt_%s.html" % (wt,gt)), 'w')
+		f.write(html_start("Vehicle overview - %s, %s" % (wt,gt)))
+		f.write(veh_nav)
+		f.write(html_h1("Vehicle overview - %s, %s" % (wt,gt)))
+		f.write("""<table class="sortable">\n<thead>""")
+		f.write(table_header)
+		f.write("</thead>\n")
+		
+		vehicles[wtg][1] = f
+		vehicles[wtg][2] = veh_nav
+	
+	for obj in Items["vehicle"] :
+		name = obj.ask("name")
+		f = open(local_filename(obj.fname), 'w')
+		f.write(html_start(name, "vehicle"))
+		# navigations - need way and goods type
+		wt = obj.ask("waytype")
+		gt = obj.ask("goods", "None")
+		f.write(vehicles[(wt,gt)][2])
+		f.write(html_h1(name))
+		# icon
+		icon = compose_vehicle_icon(obj)
+		pygame.image.save(icon, local_filename(obj.iconname))
+		# image
+		mainimage = compose_vehicle_image(obj)
+		imagename = "image_vehicle_%s.%s" % (obj.cname, imgformat)
+		pygame.image.save(mainimage, local_filename(imagename))
+		f.write(html_img(imagename))
+
+		# output to own file
+		params = {}
+		detail_params = main_params + ["intro_month", "retire_month", "engine_type", "weight", "gear", ]
+		for param in detail_params :
+			params[param] = obj.ask(param, "-")
+		params["icon"] = """<a href="%s"><img src="%s" /></a>""" % (obj.fname, obj.iconname)
+		params["name"] = """<a href="%s">%s</a>""" % (obj.fname, name)
+		f.write(html_deflist(params))
+		# output to overviews
+		table_cells = ["<td>%s</td>" % params[p] for p in main_params]
+		table_line = "<tr>" + "".join(table_cells) + "</tr>\n"
+		for spec in [(wt,gt), (wt, "all"), ("all",gt), ("all","all")] :
+			vehicles[spec][1].write(table_line)
+		# finalize own file
+		f.write(html_end())
+		f.close()
+	
+	for wtg in wtg_table :
+		f = vehicles[wtg][1]
+		f.write("</table>\n")
+		f.write(html_end())
+		f.close()
+
+#-----
+
+print("Starting.")
+try :
+	import pygame
+except ImportError :
+	print("This script needs PyGame to work!")
+	print("Visit  http://www.pygame.org  to get it.")
+	exit(1)
+
+print("Loading files...")
+Data = []
+simutools.walkFiles(os.getcwd(), simutools.loadFile, cbparam=Data)
+if not os.path.exists(outdir):
+	os.mkdir(outdir)
+split_data()
+del Data
+print("  ...data prepared.")
+
+print("Generating ways...")
+generate_ways()
+print("  ...done.")
+
+print("Generating stations...")
+buffer = pygame.Surface((4*paksize,9*paksize/2)) # enough for tiles xyz=4*4*3
+buffer.set_colorkey(simubk)
+generate_stations()
+print("  ...done.")
+
+print("Generating vehicles...")
+preparse_goods()
+buffer = pygame.Surface((512,512)) # vehicles need new buffer
+buffer.set_colorkey(simubk)
+generate_vehicles()
+print("  ...done.")
+
+# TODO: factories + goods "graph"
+
+print("Work finished.")
+
+#-----
+# EOF

@@ -1,0 +1,85 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	padding: 0em 2em;
+	background: #E7FFFF;
+}
+
+table {
+	margin: 1em 0;
+}
+
+a {
+	color: navy;
+}
+
+a:visited {
+	color: #770077;
+}
+
+td {
+	background: #CCDDDD;
+	color: black;
+	padding: 0.1em 0.3em;
+}
+
+th {
+	background: navy;
+	color: white;
+	min-width: 8em; /* maybe bad for narrow monitors? */
+	font-weight: bold;
+	padding: 0.1em 0.3em;
+}
+
+footer {
+	margin-top: 2em;
+	background: #CCDDDD;
+	padding: 0.5em 1em;
+	text-align: center;
+	margin: 0 -2em;
+}
+
+p {
+	margin: 1em 0; 
+}
+
+p.nav {
+	background: #CCDDDD;
+	padding: 0.5em 1em;
+	margin: 0 -2em;
+}
+
+h1 {
+	margin: 0.5em 0;
+}
+
+dl {
+	margin: 1em 0 1em 140px;
+}
+
+.vehicle dl {
+	margin-left: 268px;
+}
+
+dt{
+	font-weight: bold;
+	margin-top: 0.3em;
+}
+
+dd{
+	margin-left: 3em;
+}
+
+img {
+	float: left;
+	margin: 6px;
+}
+
+table img, dl img {
+	float: none;
+}
