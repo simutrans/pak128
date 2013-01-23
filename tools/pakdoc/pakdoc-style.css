@@ -5,6 +5,10 @@
 	border: 0;
 }
 
+html {
+	background: #CCDDDD;
+}
+
 body {
 	padding: 0em 2em;
 	background: #E7FFFF;

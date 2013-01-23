@@ -10,13 +10,14 @@
 #  code is public domain
 #
 #
-# generate pakset overview
+# generate pakset overview, save as a webpage structure
 
 #-----
 
 from __future__ import print_function, division
 
 import os
+from os.path import join
 from itertools import product
 from collections import defaultdict
 
@@ -27,6 +28,7 @@ import simutools
 # changeable configuration
 
 paksize = 128
+indir = os.getcwd()
 outdir = "pakdocs"
 imgformat = "jpg"
 
@@ -43,26 +45,30 @@ def _(text) :
 
 #-----
 
-def local_filename(name) :
-	return os.path.join(outdir, name)
+def local_filename(name, subfolder=None) :
+	if (type(subfolder) == str) and bool(subfolder) :
+		return join(outdir, subfolder, name)
+	else :
+		return join(outdir, name)
 	
 
 #-----
 
-def html_start(title, htmlclass="") :
-	return \
-"""<!DOCTYPE html>
+def html_start(title, subfolder=0, htmlclass="") :
+	leading = "".join(["../" for i in range(subfolder)])
+	headers = """<!DOCTYPE html>
 <html>
 <head>
-<title>%s</title>
-<script type="text/javascript" src="pakdoc-sorttable.js"></script>
-<link rel="stylesheet" type="text/css" href="pakdoc-style.css" />
+<title>{1}</title>
+<script type="text/javascript" src="{0}pakdoc-sorttable.js"></script>
+<link rel="stylesheet" type="text/css" href="{0}pakdoc-style.css" />
 </head>
-<body lang="en" class="%s">
+<body lang="en" class="{2}">
 <p class="nav"> Categories:
-<a href="_way_overview_all.html">ways</a> |
-<a href="_station_overview_all.html">stations</a> |
-<a href="_vehicle_overview_wt_all_gt_all.html">vehicles</a>.</p>""" % (title, htmlclass)
+<a href="{0}ways_all.html">ways</a> |
+<a href="{0}stations_all.html">stations</a> |
+<a href="{0}vehicles_wt_all_gt_all.html">vehicles</a>.</p>"""
+	return headers.format(leading, title, htmlclass)
 
 #-----
 
@@ -79,7 +85,7 @@ and <a href="http://www.kryogenix.org/code/browser/sorttable/">sorttable</a>.</f
 #-----
 
 def html_deflist(somedict) :
-	a = [("<dt>" + key + "</dt>\n<dd>" + value + "</dd>\n") for key, value in somedict.items()]
+	a = [("""<dt>%s</dt>\n<dd>%s</dd>\n""" % (key, value)) for key, value in somedict.items()]
 	return "<dl>\n" + "".join(a) + "</dl>\n"
 
 def html_h1(name) :
@@ -116,7 +122,7 @@ def get_png_tile(refstr, base, tilesize=paksize) :
 	image = pygame.Surface((tilesize, tilesize))
 	image.fill((231,255,255))
 	if imgref.file != "-" : # guaranteed to get here "-", correct name or other bug
-		filepath = os.path.join(os.path.dirname(base), imgref.file + ".png")
+		filepath = join(os.path.dirname(base), imgref.file + ".png")
 		count = 0
 		source = None
 		try :
@@ -156,7 +162,7 @@ def get_paksize(obj) :
 	try :
 		value = paksize_cache[basepath]
 	except :
-		f = open(os.path.join(basepath, "_pakmak.tab"), 'r')
+		f = open(join(basepath, "_pakmak.tab"), 'r')
 		for line in f :
 			if line.startswith("size ") :
 				value = int(line[5:]) # prone to breaking - very simple
@@ -175,6 +181,7 @@ def compose_way_icon(obj) :
 	return small
 
 def compose_way_image(obj) :
+	# TODO: consider offsets!
 	newimage = pygame.Surface((paksize,paksize))
 	newimage.fill(simubk)
 	ref = obj.ask("image[NS]","-") # way
@@ -220,31 +227,29 @@ def generate_ways() :
 	for obj in all_ways :
 		waytypes[obj.ask("waytype")].append(obj)
 		obj.cname = simutools.canonicalObjName(obj.ask("name"))
-		obj.fname = "way_%s.html" % obj.cname
-		obj.iconname = "icon_way_%s.%s" % (obj.cname, imgformat)
+		obj.fname = "%s.html" % obj.cname
+		obj.iconname = "%s_icon.%s" % (obj.cname, imgformat)
 	
 	# navigation links, need counts
-	links = ["""<a href="_way_overview_%s.html">%s (%d)</a>""" % (type,type,len(objs)) for type,objs in waytypes.items()]
-	links.insert(0, """<a href="_way_overview_all.html">all (%d)</a>""" % len(all_ways))
-	way_nav = """<p class="nav">waytypes: [ """ + " | ".join(links) + """ ]</p>\n"""
+	links = ["""<a href="ways_%s.html">%s (%d)</a>""" % (type,type,len(objs)) for type,objs in waytypes.items()]
+	links.insert(0, """<a href="ways_all.html">all (%d)</a>""" % len(all_ways))
+	way_nav = """<p class="nav">waytypes: [ %s ]</p>\n""" % (" | ".join(links))
 	
 	# generate total overview
 	main_params = ["icon", "name", "waytype", "topspeed", "cost", "maintenance", "intro_year", "retire_year"] #!!!!
-	mainf = open(local_filename("_way_overview_all.html"), 'w')
+	mainf = open(local_filename("ways_all.html"), 'w')
 	mainf.write(html_start("Way overview, all types"))
 	mainf.write(way_nav)
 	mainf.write(html_h1("Way overview, all types"))
-	mainf.write("""<table class="sortable">\n<thead>""")
-	heads = ["<th>%s</th>"%p for p in main_params]
+	heads = ["<th>%s</th>" % p for p in main_params]
 	heads[0] = """<th class="sorttable_nosort">icon</th>"""
-	mainf.write("".join(heads) + "\n")
-	mainf.write("</thead>\n")
+	mainf.write("""<table class="sortable">\n<thead>%s</thead>\n""" % "".join(heads))
 	
-	# init local overviews
+	# init specific overviews
 	loc_f = {}
 	for wt in waytypes.keys() :
-		f = open(local_filename("_way_overview_%s.html" % wt), 'w')
-		f.write(html_start("Way overview, %s" % wt))
+		f = open(local_filename("ways_%s.html" % wt), 'w')
+		f.write(html_start("Way overview - %s" % wt))
 		f.write(way_nav)
 		f.write(html_h1("Way overview - %s" % wt))
 		f.write("""<table class="sortable">\n<thead>""")
@@ -252,20 +257,25 @@ def generate_ways() :
 		f.write("</thead>\n")
 		loc_f[wt] = f
 	
+	# navigation again - retarget links (now in subfolder)
+	links = ["""<a href="../ways_%s.html">%s (%d)</a>""" % (type,type,len(objs)) for type,objs in waytypes.items()]
+	links.insert(0, """<a href="../ways_all.html">all (%d)</a>""" % len(all_ways))
+	way_nav = """<p class="nav">waytypes: [ %s ]</p>\n""" % (" | ".join(links))
+
 	# generate individual objects
 	for obj in all_ways :
 		name = obj.ask("name")
-		f = open(local_filename(obj.fname), 'w')
-		f.write(html_start(name))
+		f = open(local_filename(obj.fname, "ways"), 'w')
+		f.write(html_start(name, 1))
 		f.write(way_nav)
 		f.write(html_h1(name))
 		# icon
 		icon = compose_way_icon(obj)
-		pygame.image.save(icon, local_filename(obj.iconname))
+		pygame.image.save(icon, local_filename(obj.iconname, "ways"))
 		# image composed from overlaid backimage and frontimage and icon
 		mainimage = compose_way_image(obj)
-		imagename = "image_way_%s.%s" % (obj.cname, imgformat)
-		pygame.image.save(mainimage, local_filename(imagename))
+		imagename = "%s_image.%s" % (obj.cname, imgformat)
+		pygame.image.save(mainimage, local_filename(imagename, "ways"))
 		# output to own file
 		params = {}
 		detail_params = ["icon", "name", "waytype", "topspeed", "cost", "maintenance", "intro_year", "intro_month", "retire_year", "retire_month"] #!!!!
@@ -276,13 +286,14 @@ def generate_ways() :
 			params["type"] = "elevated"
 		else :
 			params["type"] = type
-		params["icon"] = """<a href="%s"><img src="%s" /></a>""" % (obj.fname, obj.iconname)
-		params["name"] = """<a href="%s">%s</a>""" % (obj.fname,name)
+		params["icon"] = html_img(obj.iconname)
 		f.write(html_img(imagename))
 		f.write(html_deflist(params))
 		# output to overviews
+		params["icon"] = """<a href="ways/%s"><img src="ways/%s" /></a>""" % (obj.fname, obj.iconname)
+		params["name"] = """<a href="ways/%s">%s</a>""" % (obj.fname, name)
 		table_cells = ["<td>%s</td>" % params[p] for p in main_params]
-		table_line = "<tr>" + "".join(table_cells) + "</tr>\n"  # TODO: icon into main table!
+		table_line = """<tr>%s</tr>\n""" % "".join(table_cells)
 		mainf.write(table_line)
 		loc_f[params["waytype"]].write(table_line)
 		# finalize own file
@@ -310,6 +321,7 @@ def compose_building_icon(obj) :
 
 def compose_building_image(obj) :
 	# handle "any" size, height and shape of building - but assume max. 4x4x3 (x,y,z) dictated by buffer size
+	# TODO: offsets!
 	buffer.fill((0,0,0))
 	buffer.set_colorkey((0,0,0))
 	buffer.fill(simubk)
@@ -347,6 +359,7 @@ def compose_building_image(obj) :
 
 def generate_stations() :
 	waytypes = {"extension":[], "road":[], "track":[], "water":[], "tram_track":[], "air":[], "maglev_track":[], "monorail_track":[], "narrowgauge_track":[]} #!!!!
+	
 	for obj in Items["station"] :
 		name = obj.ask("name")
 		type = obj.ask("type", "")
@@ -357,8 +370,8 @@ def generate_stations() :
 		wt = obj.ask("waytype", "extension").lower()
 		waytypes[wt].append(obj)
 		obj.cname = simutools.canonicalObjName(name)
-		obj.fname = "station_%s.html" % obj.cname
-		obj.iconname = "icon_station_%s.%s" % (obj.cname, imgformat)
+		obj.fname = "%s.html" % obj.cname
+		obj.iconname = "%s_icon.%s" % (obj.cname, imgformat)
 		enables = ""
 		pax = bool(int(obj.ask("enables_pax", "0")))
 		mail = bool(int(obj.ask("enables_post", "0")))
@@ -376,60 +389,62 @@ def generate_stations() :
 		obj.put("enables", enables)
 	
 	# navigation links, need counts
-	links = ["""<a href="_station_overview_%s.html">%s (%d)</a>""" % (type,type,len(objs)) for type,objs in waytypes.items()]
-	links.insert(0, """<a href="_station_overview_all.html">all (%d)</a>""" % len(Items["station"]))
-	stat_nav = """<p class="nav">waytypes: [ """ + " | ".join(links) + """ ]</p>\n"""
+	links = ["""<a href="stations_%s.html">%s (%d)</a>""" % (type,type,len(objs)) for type,objs in waytypes.items()]
+	links.insert(0, """<a href="stations_all.html">all (%d)</a>""" % len(Items["station"]))
+	stat_nav = """<p class="nav">waytypes: [ %s ]</p>\n""" % (" | ".join(links))
 	
 	# generate total overview
 	main_params = ["icon", "name", "waytype", "enables", "level", "intro_year", "retire_year"] #!!!!
-	mainf = open(local_filename("_station_overview_all.html"), 'w')
-	mainf.write(html_start("Station overview, all types"))
+	mainf = open(local_filename("stations_all.html"), 'w')
+	mainf.write(html_start("Station overview - all types"))
 	mainf.write(stat_nav)
-	mainf.write(html_h1("Station overview, all types"))
-	mainf.write("""<table class="sortable">\n<thead>""")
-	heads = ["<th>%s</th>"%p for p in main_params]
+	mainf.write(html_h1("Station overview - all types"))
+	heads = ["""<th>%s</th>""" % p for p in main_params]
 	heads[0] = """<th class="sorttable_nosort">icon</th>"""
-	mainf.write("".join(heads) + "\n")
-	mainf.write("</thead>\n")
+	mainf.write("""<table class="sortable">\n<thead>%s</thead>\n""" % "".join(heads))
 	
 	# init local overviews
 	loc_f = {}
 	for wt in waytypes.keys() :
-		f = open(local_filename("_station_overview_%s.html" % wt), 'w')
+		f = open(local_filename("stations_%s.html" % wt), 'w')
 		f.write(html_start("Station overview - %s" % wt))
 		f.write(stat_nav)
 		f.write(html_h1("Station overview - %s" % wt))
-		f.write("""<table class="sortable">\n<thead>""")
-		f.write("".join(heads) + "\n")
-		f.write("</thead>\n")
+		f.write("""<table class="sortable">\n<thead>%s</thead>\n""" % "".join(heads))
 		loc_f[wt] = f
+	
+	# navigation links again
+	links = ["""<a href="../stations_%s.html">%s (%d)</a>""" % (type,type,len(objs)) for type,objs in waytypes.items()]
+	links.insert(0, """<a href="../stations_all.html">all (%d)</a>""" % len(Items["station"]))
+	stat_nav = """<p class="nav">waytypes: [ %s ]</p>\n""" % (" | ".join(links))
 	
 	for obj in Items["station"] :
 		name = obj.ask("name")
-		f = open(local_filename(obj.fname), 'w')
-		f.write(html_start(name))
+		f = open(local_filename(obj.fname, "stations"), 'w')
+		f.write(html_start(name, 1))
 		f.write(stat_nav)
 		f.write(html_h1(name))
 		# icon
 		icon = compose_building_icon(obj)
-		pygame.image.save(icon, local_filename(obj.iconname))
+		pygame.image.save(icon, local_filename(obj.iconname, "stations"))
 		# image composed from overlaid backimages and frontimages
 		mainimage = compose_building_image(obj)
-		imagename = "image_building_%s.%s" % (obj.cname, imgformat)
-		pygame.image.save(mainimage, local_filename(imagename))
+		imagename = "%s_image.%s" % (obj.cname, imgformat)
+		pygame.image.save(mainimage, local_filename(imagename, "stations"))
 		f.write(html_img(imagename))
 		# output to own file
 		params = {}
 		detail_params = ["icon", "name", "type", "waytype", "enables", "level", "intro_year", "intro_month", "retire_year", "retire_month"] #!!!!
 		for param in detail_params :
 			params[param] = str(obj.ask(param, "-"))
-		params["icon"] = """<a href="%s"><img src="%s" /></a>""" % (obj.fname, obj.iconname)
-		params["name"] = """<a href="%s">%s</a>""" % (obj.fname, name)
+		params["icon"] = """<img src="%s" />""" % obj.iconname
 		params["waytype"] = obj.ask("waytype", "none")
 		f.write(html_deflist(params))
 		# output to overviews
+		params["icon"] = """<a href="stations/%s"><img src="stations/%s" /></a>""" % (obj.fname, obj.iconname)
+		params["name"] = """<a href="stations/%s">%s</a>""" % (obj.fname, name)
 		table_cells = ["<td>%s</td>" % params[p] for p in main_params]
-		table_line = "<tr>" + "".join(table_cells) + "</tr>\n"
+		table_line = """<tr>%s</tr>\n""" % "".join(table_cells)
 		mainf.write(table_line)
 		loc_f[params["waytype"]].write(table_line)
 		# finalize own file
@@ -542,13 +557,13 @@ def generate_vehicles() :
 	wtg_table = list(product(waytypes, goods)) # list of tuples (wt,gt)
 	
 	main_params = ["icon", "name", "waytype", "speed", "power", "freight", "payload", "cost", "runingcost", "intro_year", "retire_year"] #!!!!
-	heads = ["<th>%s</th>"%p for p in main_params]
+	heads = ["<th>%s</th>" % p for p in main_params]
 	heads[0] = """<th class="sorttable_nosort">image</th>"""
-	table_header = "".join(heads) + "\n"
+	table_header = """<thead>%s</thead>""" % ("".join(heads))
 	
 	vehicles = {}
 	for wtg in wtg_table :
-		vehicles[wtg] = [[], 0, ""] # objects, file handle, html nav (reused by individual files!)
+		vehicles[wtg] = [[], 0, "", ""] # objects, file handle, html nav, subfolder nav (reused by individual files!)
 	
 	# categorize and count stuff
 	for obj in Items["vehicle"] :
@@ -567,28 +582,35 @@ def generate_vehicles() :
 	for wtg in wtg_table :
 		wt,gt = wtg # unpack tuple into vars
 		
-		links = ["""<a href="_vehicle_overview_wt_%s_gt_%s.html">%s (%d)</a>""" % (iwt, gt, iwt, len(vehicles[(iwt,gt)][0])) for iwt in waytypes]
+		links = ["""<a href="vehicles_wt_%s_gt_%s.html">%s (%d)</a>""" % (iwt, gt, iwt, len(vehicles[(iwt,gt)][0])) for iwt in waytypes]
 		veh_wt_nav = """<p class="nav">waytypes: [ """ + " | ".join(links) + """ ]</p>\n"""
-		links = ["""<a href="_vehicle_overview_wt_%s_gt_%s.html">%s (%d)</a>""" % (wt, igt, igt, len(vehicles[(wt,igt)][0])) for igt in goods]
+		links = ["""<a href="vehicles_wt_%s_gt_%s.html">%s (%d)</a>""" % (wt, igt, igt, len(vehicles[(wt,igt)][0])) for igt in goods]
 		veh_g_nav = """<p class="nav">goods: [ """ + " | ".join(links) + """ ]</p>\n"""
 		veh_nav_help = """<p class="nav">(Clicking changes way or goods type, keeping the other as curently selected.)</p>\n"""
 		veh_nav = veh_wt_nav + veh_g_nav + veh_nav_help
+
+		links = ["""<a href="../vehicles_wt_%s_gt_%s.html">%s (%d)</a>""" % (iwt, gt, iwt, len(vehicles[(iwt,gt)][0])) for iwt in waytypes]
+		sub_wt_nav = """<p class="nav">waytypes: [ """ + " | ".join(links) + """ ]</p>\n"""
+		links = ["""<a href="../vehicles_wt_%s_gt_%s.html">%s (%d)</a>""" % (wt, igt, igt, len(vehicles[(wt,igt)][0])) for igt in goods]
+		sub_g_nav = """<p class="nav">goods: [ """ + " | ".join(links) + """ ]</p>\n"""
+		sub_nav_help = """<p class="nav">(Clicking changes way or goods type, keeping the other as curently selected.)</p>\n"""
+		sub_nav = veh_wt_nav + veh_g_nav + veh_nav_help
 		
-		f = open(local_filename("_vehicle_overview_wt_%s_gt_%s.html" % (wt,gt)), 'w')
+		f = open(local_filename("vehicles_wt_%s_gt_%s.html" % (wt,gt)), 'w')
 		f.write(html_start("Vehicle overview - %s, %s" % (wt,gt)))
 		f.write(veh_nav)
 		f.write(html_h1("Vehicle overview - %s, %s" % (wt,gt)))
-		f.write("""<table class="sortable">\n<thead>""")
+		f.write("""<table class="sortable">\n""")
 		f.write(table_header)
-		f.write("</thead>\n")
 		
 		vehicles[wtg][1] = f
 		vehicles[wtg][2] = veh_nav
+		vehicles[wtg][3] = sub_nav
 	
 	for obj in Items["vehicle"] :
 		name = obj.ask("name")
-		f = open(local_filename(obj.fname), 'w')
-		f.write(html_start(name, "vehicle"))
+		f = open(local_filename(obj.fname, "vehicles"), 'w')
+		f.write(html_start(name, 1, "vehicle"))
 		# navigations - need way and goods type
 		wt = obj.ask("waytype")
 		gt = obj.ask("goods", "None")
@@ -596,22 +618,23 @@ def generate_vehicles() :
 		f.write(html_h1(name))
 		# icon
 		icon = compose_vehicle_icon(obj)
-		pygame.image.save(icon, local_filename(obj.iconname))
+		pygame.image.save(icon, local_filename(obj.iconname, "vehicles"))
 		# image
 		mainimage = compose_vehicle_image(obj)
 		imagename = "image_vehicle_%s.%s" % (obj.cname, imgformat)
-		pygame.image.save(mainimage, local_filename(imagename))
+		pygame.image.save(mainimage, local_filename(imagename, "vehicles"))
 		f.write(html_img(imagename))
 
 		# output to own file
 		params = {}
-		detail_params = main_params + ["intro_month", "retire_month", "engine_type", "weight", "gear", ]
+		detail_params = main_params + ["intro_month", "retire_month", "engine_type", "weight", "gear"] #!!!!
 		for param in detail_params :
 			params[param] = obj.ask(param, "-")
-		params["icon"] = """<a href="%s"><img src="%s" /></a>""" % (obj.fname, obj.iconname)
-		params["name"] = """<a href="%s">%s</a>""" % (obj.fname, name)
+		params["icon"] = """<img src="%s" />""" % (obj.iconname)
 		f.write(html_deflist(params))
 		# output to overviews
+		params["icon"] = """<a href="vehicles/%s"><img src="vehicles/%s" /></a>""" % (obj.fname, obj.iconname)
+		params["name"] = """<a href="vehicles/%s">%s</a>""" % (obj.fname, name)
 		table_cells = ["<td>%s</td>" % params[p] for p in main_params]
 		table_line = "<tr>" + "".join(table_cells) + "</tr>\n"
 		for spec in [(wt,gt), (wt, "all"), ("all",gt), ("all","all")] :
@@ -638,20 +661,21 @@ except ImportError :
 
 print("Loading files...")
 Data = []
-simutools.walkFiles(os.getcwd(), simutools.loadFile, cbparam=Data)
-if not os.path.exists(outdir):
-	os.mkdir(outdir)
+simutools.walkFiles(indir, simutools.loadFile, cbparam=Data)
+os.makedirs(outdir, exist_ok=True)
 split_data()
 del Data
 print("  ...data prepared.")
 
 print("Generating ways...")
+os.makedirs(local_filename("ways"), exist_ok=True)
 generate_ways()
 print("  ...done.")
 
 print("Generating stations...")
 buffer = pygame.Surface((4*paksize,9*paksize/2)) # enough for tiles xyz=4*4*3
 buffer.set_colorkey(simubk)
+os.makedirs(local_filename("stations"), exist_ok=True)
 generate_stations()
 print("  ...done.")
 
@@ -659,6 +683,7 @@ print("Generating vehicles...")
 preparse_goods()
 buffer = pygame.Surface((512,512)) # vehicles need new buffer
 buffer.set_colorkey(simubk)
+os.makedirs(local_filename("vehicles"), exist_ok=True)
 generate_vehicles()
 print("  ...done.")
 
