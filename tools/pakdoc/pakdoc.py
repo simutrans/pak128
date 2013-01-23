@@ -31,6 +31,7 @@ paksize = 128
 indir = os.getcwd()
 outdir = "pakdocs"
 imgformat = "jpg"
+png_cache_size = 8
 
 #-----
 
@@ -113,9 +114,8 @@ def split_data() :
 
 #-----
 
-cache_size = 8
 imgcache = {}
-# caches last "cache_size" images, rotated by access frequency
+# caches last "png_cache_size" images, rotated by access frequency
 def get_png_tile(refstr, base, tilesize=paksize) :
 	# always returns a surface
 	imgref = simutools.SimutransImgParam(refstr)
@@ -125,19 +125,24 @@ def get_png_tile(refstr, base, tilesize=paksize) :
 		filepath = join(os.path.dirname(base), imgref.file + ".png")
 		count = 0
 		source = None
-		try :
-			source,count = imgcache[filepath]
-		except : # not cached
+		if png_cache_size > 0 :
+			try :
+				source,count = imgcache[filepath]
+			except : # not cached
+				source = pygame.image.load(filepath)
+				# will add to cache, prune first
+				if len(imgcache) > png_cache_size-1 :
+					min_cnt = 65536 # infinity
+					min_pth = ""
+					for filepath,data in imgcache.items() :
+						if data[1] < min_cnt :
+							min_cnt = data[1]
+							min_pth = filepath
+					del imgcache[min_pth]
+			imgcache[filepath] = (source,count+1);
+		else :
+			# caching off
 			source = pygame.image.load(filepath)
-		imgcache[filepath] = (source,count+1);
-		if len(imgcache) > cache_size : # prune cache
-			min_cnt = 65536 # infinity
-			min_pth = ""
-			for filepath,data in imgcache.items() :
-				if data[1] < min_cnt :
-					min_cnt = data[1]
-					min_pth = filepath
-			del imgcache[min_pth]
 		srccoords = pygame.Rect(imgref.coords[1] * tilesize, imgref.coords[0] * tilesize, tilesize, tilesize)
 		image.blit(source, [0,0], srccoords)
 	return image
