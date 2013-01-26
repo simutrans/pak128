@@ -5,7 +5,7 @@
 #                            Language: pt Portugues                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 16.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                               Adilson - Adilson                              #
@@ -34,20 +34,12 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Ponte ferroviária de concreto
 PowerBridge
 Travessia para linha de transmissão
-RVg_Concrete_Rail_Bridge
-Ponte de concreto em treliça (RVg)
 Schwebebahn_p_bridge
 Monotrilho (ponte)
-SteelRail
-Ponte ferroviária de aço
 water_bridge
 Canal elevado
-Wooden_Rail
-Ponte ferroviária de madeira
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -710,10 +702,6 @@ tree100
 Abeto da montanha\n\n
 tree110
 Abeto da montanha\n\n
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
-RailTunnel
-Túnel ferroviário
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -928,12 +916,6 @@ Kord TT (grão)
 #______________________________________way______________________________________
 air_movement_area
 Pista de taxiamento de asfalto
-concrete_sleeper_track
-Trilho sobre dormentes de concreto
-High_quality_track
-Trilho de alta qualidade
-low_quality_track
-Trilho de baixa qualidade
 old_runway
 Pista de pouso de grama
 old_taxiway
@@ -954,14 +936,10 @@ runway_modern
 Pista de pouso de asfalto
 Schwebebahn_p_ground
 Monotrilho suspenso (nível do solo)
-steel_sleeper_track
-Trilho de alta velocidade
 Suspended_Monorail_Track
 Monotrilho suspenso
 water_road
 Canal
-wooden_sleeper_track
-Trilho sobre dormentes de madeira
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 modern_runway-extMrkLgt

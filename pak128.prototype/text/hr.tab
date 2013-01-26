@@ -5,7 +5,7 @@
 #                             Language: hr Hrvatski                            #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -26,20 +26,12 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Betonski most (Haru)
 PowerBridge
 Most Za Dalekovod
-RVg_Concrete_Rail_Bridge
-Ovjeseni Celicni Most(RVg)
 Schwebebahn_p_bridge
 Viseci Monorail (most)
-SteelRail
-Celicni zeljeznicki most
 water_bridge
 Kanalski Most
-Wooden_Rail
-Drveni zeljeznicki most
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -584,10 +576,6 @@ Signals
 Signal (standardni tip)
 traffic_light
 Prometno svjetlo
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
-RailTunnel
-Zeljeznicki tunel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 Postwagen
@@ -664,12 +652,6 @@ RVg-Sail_Passanger_Ship_0
 RVg Putnicki Jedrenjak
 #______________________________________way______________________________________
 #______________________________________way______________________________________
-concrete_sleeper_track
-Betonski Zeljeznicki Prag
-High_quality_track
-Tracnice visoke kvalitete
-low_quality_track
-Tracnice niske kvalitete
 old_runway
 Travnata poletno/sletna staza
 old_taxiway
@@ -690,14 +672,10 @@ runway_modern
 Moderna poletno/sletna staza
 Schwebebahn_p_ground
 Monorail (nivo zemlje)
-steel_sleeper_track
-Viskobrzniski prag
 Suspended_Monorail_Track
 Uzdignuta Monorail Tracnica
 water_road
 Kanal
-wooden_sleeper_track
-Drveni Zeljeznicki Prag
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary

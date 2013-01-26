@@ -5,7 +5,7 @@
 #                             Language: it Italiano                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -20,6 +20,8 @@
 #                                    note:                                     #
 #                                   - notorius                                 #
 #                                    note:                                     #
+#                               ottavio - ottavio                              #
+#                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
 #                                    note:                                     #
 #                                Marco - rabanne                               #
@@ -28,8 +30,6 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Ponte in cemento
 PowerBridge
 Ponte linea alta tensione
 road_030_bridge
@@ -50,16 +50,10 @@ road_130_bridge
 Ponte in cemento sospeso ad alta velocità
 road_200_bridge
 Ponte in cemento sospeso ad alta velocità con barriere di protezione
-RVg_Concrete_Rail_Bridge
-Ponte a sospensione in acciaio (RVg)
 Schwebebahn_p_bridge
 Monorotaia sospesa (ponte)
-SteelRail
-Rotaia su ponte di acciaio
 water_bridge
 Ponte sul canale
-Wooden_Rail
-Rotaia su ponte di legno
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -852,10 +846,6 @@ tree110
 Abete\n\n
 tree133
 Abete montano\n\n
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
-RailTunnel
-Tunnel ferroviario
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -1908,12 +1898,6 @@ GTW 85 (coda)
 #______________________________________way______________________________________
 air_movement_area
 Pista di rullaggio in cemento
-concrete_sleeper_track
-Binario Traversine in Cemento
-High_quality_track
-Binario alta qualità
-low_quality_track
-Ferrovia bassa qualità
 old_runway
 Vecchia pista d'atterraggio
 old_taxiway
@@ -1934,14 +1918,10 @@ runway_modern
 Pista atterraggio moderna
 Schwebebahn_p_ground
 Monorotaia (livello terreno)
-steel_sleeper_track
-Ferrovia ad alta velocità
 Suspended_Monorail_Track
 Monorotaia sopraelevata
 water_road
 Canale
-wooden_sleeper_track
-Rotaia traversine in legno
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary

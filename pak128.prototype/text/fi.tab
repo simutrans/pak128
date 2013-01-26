@@ -5,7 +5,7 @@
 #                              Language: fi Suomi                              #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -24,20 +24,12 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Betonirakenteinen rautatiesilta
 PowerBridge
 Voimalinjasilta
-RVg_Concrete_Rail_Bridge
-Betonirautatie silta
 Schwebebahn_p_bridge
 Monorail (silta)
-SteelRail
-Teräksinen rautatiesilta
 water_bridge
 Akvedukti
-Wooden_Rail
-Puinen rautatiesilta
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -614,10 +606,6 @@ tree100
 Lehtikuusi\n\n
 tree110
 Lehtikuusi\n\n
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
-RailTunnel
-Rautatietunneli
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -920,8 +908,6 @@ Yoshi monorail (viimeinen vaunu, 1965)
 #______________________________________way______________________________________
 air_movement_area
 Asfalttirullaustie
-concrete_sleeper_track
-Betoni palkki rata
 Powerline
 Voimalinja
 river_00
@@ -936,14 +922,10 @@ river_04
 Puro
 runway_modern
 Moderni kiitorata
-steel_sleeper_track
-Nopea rautatie
 Suspended_Monorail_Track
 Monorail-rata
 water_road
 Kanava
-wooden_sleeper_track
-puupölkkyrautatie
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 TrolleyBus_Electrification

@@ -5,7 +5,7 @@
 #                              Language: hu Magyar                             #
 #                                Encoding: UTF-8                               #
 #                                Font : cyr.bdf                                #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -22,8 +22,6 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Beton vasúti híd
 PowerBridge
 Elektromos vezeték híd
 road_030_bridge
@@ -44,16 +42,10 @@ road_130_bridge
 Közúti híd (130 km/h)
 road_200_bridge
 Közúti híd (200 km/h)
-RVg_Concrete_Rail_Bridge
-RVg függő vasúti acélhíd
 Schwebebahn_p_bridge
 Függesztett egysínű vasút (híd)
-SteelRail
-Acél vasúti híd
 water_bridge
 Csatorna híd
-Wooden_Rail
-Facölöpös vasúti híd
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -2058,8 +2050,6 @@ tree140
 Ezüstfenyő\n\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
-RailTunnel
-Vasúti alagút
 road_040_tunnel
 Közúti alagút (40 km/h)
 road_050_tunnel
@@ -3058,12 +3048,6 @@ GTW-65 gyorsvasút (hátsó)
 #______________________________________way______________________________________
 air_movement_area
 Salakos kifutópálya
-concrete_sleeper_track
-Betontalpas sín
-High_quality_track
-Gyorsvasúti sín
-low_quality_track
-Rögtönzött sín
 Powerline
 elektromos hálózat
 river_00
@@ -3108,8 +3092,6 @@ runway_modern
 Modern kifutópálya
 Schwebebahn_p_ground
 Függesztett egysínű vasút (földi kapcsolat)
-steel_sleeper_track
-Acéltalpas sín
 Suspended_Monorail_Track
 Függesztett egysínű vasúti sín
 Tram_Track_050_A
@@ -3126,8 +3108,6 @@ Tram_Track_110_A
 Villamos pálya
 water_road
 Csatorna
-wooden_sleeper_track
-Fatalpas sín
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary

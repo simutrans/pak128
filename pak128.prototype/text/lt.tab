@@ -5,7 +5,7 @@
 #                            Language: lt Lithuanian                           #
 #                                Encoding: UTF-8                               #
 #                                Font : cyr.bdf                                #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -20,20 +20,12 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Betoninių plokščių tiltas
 PowerBridge
 Energijos tiltas
-RVg_Concrete_Rail_Bridge
-Plieno lydinio tiltas
 Schwebebahn_p_bridge
 Vienbėgio sąspara
-SteelRail
-Plieninis geležinkelio tiltas
 water_bridge
 Vandens tiltas
-Wooden_Rail
-Medinis tiltas
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -424,10 +416,6 @@ Signals
 Signalas
 traffic_light
 Šviesoforas
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
-RailTunnel
-Tunelis
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -820,5 +808,3 @@ Powerline
 Elektros linija
 runway_modern
 Pakilimo takas
-steel_sleeper_track
-Plieninio pagrindo bėgiai

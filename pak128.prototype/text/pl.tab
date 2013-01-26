@@ -5,7 +5,7 @@
 #                              Language: pl Polski                             #
 #                             Encoding: ISO-8859-2                             #
 #                            Font : prop-latin2.fnt                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                       Bartlomiej Weclewski - BarthVader                      #
@@ -26,8 +26,6 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-P³aski betonowy wiadukt (Haru)
 PowerBridge
 "Most" dla linii wysokiego napiêcia
 road_030_bridge
@@ -48,16 +46,10 @@ road_130_bridge
 Most na autostradzie
 road_200_bridge
 Niemiecka autostrada (most)
-RVg_Concrete_Rail_Bridge
-Most podwieszany (RVg)
 Schwebebahn_p_bridge
 Podwieszona kolej jednoszynowa (most)
-SteelRail
-Stalowy wiadukt
 water_bridge
 Akwedukt
-Wooden_Rail
-Drewniany wiadukt
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -942,8 +934,6 @@ tree140
 Drzewo
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
-RailTunnel
-Tunel kolejowy
 road_040_tunnel
 Tunel (40 km/h)
 road_050_tunnel
@@ -1142,12 +1132,6 @@ RVg T110 II
 #______________________________________way______________________________________
 air_movement_area
 Asfaltowy pas do ko³owania
-concrete_sleeper_track
-Szyny na betonowych podk³adach
-High_quality_track
-Dobre szyny
-low_quality_track
-Tanie szyny
 old_runway
 Trawiasty pas startowy
 old_taxiway
@@ -1196,8 +1180,6 @@ runway_modern
 Nowoczesny pas startowy
 Schwebebahn_p_ground
 Kolej jednoszynowa (przy gruncie)
-steel_sleeper_track
-Bardzo dobre szyny
 Suspended_Monorail_Track
 Podwieszany tor Monorail
 Tram_Track_050_A
@@ -1214,8 +1196,6 @@ Tram_Track_110_A
 Tory tramwajowe 110km/h
 water_road
 Kana³ wodny
-wooden_sleeper_track
-Szyny na belkach drewnianych
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary

@@ -5,7 +5,7 @@
 #                             Language: sv Svenska                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -26,20 +26,12 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Betongjärnvägsbro
 PowerBridge
 Kraftledningsbrygga
-RVg_Concrete_Rail_Bridge
-Fackverksbro
 Schwebebahn_p_bridge
 Bro för upphängd monorail
-SteelRail
-Ståljärnvägsbro
 water_bridge
 Kanalbro
-Wooden_Rail
-Träjärnvägsbro
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -624,10 +616,6 @@ tree131
 Gran\n\n
 tree133
 Gran\n\n
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
-RailTunnel
-Järnvägstunnel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -1118,12 +1106,6 @@ Ford V8 Timmerlastbil
 #______________________________________way______________________________________
 air_movement_area
 Asfalterad taxibana
-concrete_sleeper_track
-Spår på betongsliprar
-High_quality_track
-Högkvalitetsräls
-low_quality_track
-Lågkvalitetsräls
 old_runway
 Gräsrullbana
 old_taxiway
@@ -1144,14 +1126,10 @@ runway_modern
 Modern rullbana
 Schwebebahn_p_ground
 Markliggande monorailspår
-steel_sleeper_track
-Höghastighetsspår
 Suspended_Monorail_Track
 Upphöjt monorailspår
 water_road
 Kanal
-wooden_sleeper_track
-Spår på träslipers
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary

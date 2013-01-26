@@ -5,7 +5,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                            Alexander Brose - AlexB                           #
@@ -88,24 +88,16 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Eisenbahnbrücke - Beton
 PowerBridge
 Hochspannungsleitung (von Berg zu Berg)
 road_030_bridge
 Straßenbrücke
 road_200_bridge
 Straßenbrücke 200km/h
-RVg_Concrete_Rail_Bridge
-Eisenbahnbrücke - gewölbter Stahlbau
 Schwebebahn_p_bridge
 Schwebebahn-Brücke
-SteelRail
-Eisenbahnbrücke - Stahl
 water_bridge
 Kanalbrücke
-Wooden_Rail
-Eisenbahnbrücke - Holz
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -1894,8 +1886,6 @@ tree110
 Bergfichte\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
-RailTunnel
-Eisenbahntunnel
 road_040_tunnel
 Straßentunnel 40km/h
 road_050_tunnel
@@ -2852,12 +2842,6 @@ GTW 85 Nebenwagen 2
 #______________________________________way______________________________________
 air_movement_area
 Rollfeld
-concrete_sleeper_track
-Gleis mit Betonschwellen
-High_quality_track
-Gleis
-low_quality_track
-Nebenbahngleis
 old_runway
 Landebahn (Gras)
 old_taxiway
@@ -2870,8 +2854,6 @@ runway_modern
 Piste
 Schwebebahn_p_ground
 Schwebebahnschiene (niedrig)
-steel_sleeper_track
-Hochgeschwindigkeitsgleis
 Suspended_Monorail_Track
 Schwebebahnschiene (hoch)
 Tram_Track_050_A
@@ -2888,8 +2870,6 @@ Tram_Track_110_A
 Straßenbahngleis 110km/h
 water_road
 Kanal
-wooden_sleeper_track
-Gleis mit Holzschwellen
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary

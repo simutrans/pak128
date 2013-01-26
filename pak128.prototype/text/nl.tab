@@ -5,7 +5,7 @@
 #                            Language: nl Nederlands                           #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                   - Combuijs                                 #
@@ -34,20 +34,12 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Spoorbrug (beton)
 PowerBridge
 HSP mast
-RVg_Concrete_Rail_Bridge
-Spoorbrug Max 110 km/h
 Schwebebahn_p_bridge
 hangbrug monorail
-SteelRail
-Stalen spoorbrug 160 km/h
 water_bridge
 Aquaduct
-Wooden_Rail
-Houten spoorbrug 30 km/h
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -1956,10 +1948,6 @@ palm010
 Palmboom
 palm011
 Palmboom
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
-RailTunnel
-Spoorwegtunnel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -2182,12 +2170,6 @@ VSYS heavy cargo trailer - Auto`s en machinerie
 #______________________________________way______________________________________
 air_movement_area
 Asfalt Taxibaan
-concrete_sleeper_track
-Spoorrails op betonliggers
-High_quality_track
-Rails voor intercitytreinen
-low_quality_track
-Lage snelheid spoorrails
 old_runway
 Onverharde start/landingsbaan
 old_taxiway
@@ -2208,14 +2190,10 @@ runway_modern
 Start/landingsbaan
 Schwebebahn_p_ground
 Monorail (Grond niveau)
-steel_sleeper_track
-HSL-spoorrails
 Suspended_Monorail_Track
 Hanggedeelte Monorail 
 water_road
 Kanaal
-wooden_sleeper_track
-Spoorrails op bielzen
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary

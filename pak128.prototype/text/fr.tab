@@ -5,7 +5,7 @@
 #                             Language: fr Francais                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                  - Christophe                                #
@@ -44,8 +44,6 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Pont ferroviaire plat en béton
 PowerBridge
 Pont à haute tension
 road_030_bridge
@@ -54,16 +52,10 @@ road_040_bridge
 Pont rue 40 km/h
 road_050_bridge
 rie surélevée à 50 km/h
-RVg_Concrete_Rail_Bridge
-Pont en acier suspendu
 Schwebebahn_p_bridge
 Monorail Suspendu (pont)
-SteelRail
-Pont ferroviaire en acier
 water_bridge
 Pont-canal
-Wooden_Rail
-Pont ferroviaire en bois
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -562,8 +554,12 @@ st_benedict_church
 Eglise Saint Benoit\n\nCette église a été construite\npar St Benoit lui-même.\nBenoit est le saint patron\ndu bonus vitesse,c'est pourquoi\nune colombe a été installée\nau sommet du dome.\nC'est le symbole du plus rapide\nmoyen de transport !\n
 ST_PETER
 Eglise Saint Pierre\n\nCette église, dite de\nSt-Pierre, construite vers\n1220, a un ch?ur\nfinement structuré, des\nfresques datant du milieu\ndu 13ème siècle, et\nrenferme la momie (bien\nconservée) du "Sait-bailli".\nIl est mort il y a plus de\n300 ans, et on prétend qu'il\ns'appelait "Wilhelmde\nHolbach", le bailli royal. La\nmomie est située dans une\nalcove dans le mur à l'ouest.\n
+STADIUM_RUGBY
+Terrain de Rugby\n Stade d'entrainement\npour le top 14\nUn accès pour les ambulances\nest obligatoire.
 Suspended_Monorail_Bahnhof_Modern
 Arrêt pour monorail
+tennis_court
+Club de tennis\n Ce club de la ville participent\naux tournois les plus prestigieux de la région\nmais il sert aussi d'apprentissage aux plus jeunes\n à la promotion de la pratique du sport\n et d'un certain style vie.
 Terminal1930_AirportBlg
 Aérogare pionnier
 Terminal1950_AirportBlg_S
@@ -708,10 +704,20 @@ Simutrans_Fried_Chicken
 Fast food du poulet. Les ailes et la cuisse sont frites dans
 Solar Pond_kraftwerk
 Centrale à bassin solaire
+SolarPowerTowerPS10_kraftwerk
+four solaire
 SolarThermalOne_kraftwerk
 Champs de panneaux solaires
 steel_mill
 Aciérie
+StirlingParabolicCollectorsFarm_kraftwerk
+Usine de panneaux solaires
+StirlingSolarThermalTrackerFarm_kraftwerk
+Panneaux solaires
+StirlingSolarTrackersFarm_kraftwerk
+Stations de panneaux solaires
+StirlingThermalCollectorsFarm_kraftwerk
+Centrale de panneaux solaires
 Stonequarry
 Carrière de pierre
 supermarket
@@ -886,6 +892,8 @@ Modern_Signals_right
 Signaux modernes
 NoEntry
 Rue unisens
+OneWaySignals
+Panneau de sens unique (modèle standard)
 RoadClosed
 Barrage
 Signal_Monorail
@@ -902,8 +910,6 @@ tree110
 Sapin de montagne\n\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
-RailTunnel
-Tunnel ferroviaire
 road_050_tunnel
 tunnel et rue à 50 km/h
 #____________________________________vehicle____________________________________
@@ -1046,6 +1052,8 @@ Evil-Jitluen_67_Minibus
 Minibus Evil-Jitluen 67
 Express_tender
 Tender express
+Ferry_Mail_Extension_(small)
+Option de transport de courrier par ferry (petit volume)
 Ferry_yeu_128set
 Ferry Oggia
 Fishing_Boat_1
@@ -1660,26 +1668,16 @@ Ford V8 coe (bois)
 #______________________________________way______________________________________
 air_movement_area
 Taxiway moderne
-concrete_sleeper_track
-Rail aux traverses en béton
-High_quality_track
-Rail de qualité 
-low_quality_track
-Rail de mauvaise qualité
 Powerline
 Ligne a haute tension
 runway_modern
 Aérodrome 
 Schwebebahn_p_ground
 Voie pour monorail (au sol)
-steel_sleeper_track
-Rail pour ligne à grande vitesse
 Suspended_Monorail_Track
 Voie suspendue pour monorail
 water_road
 Canal
-wooden_sleeper_track
-Rail standard
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary

@@ -5,7 +5,7 @@
 #                            Language: id Indonesia                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -20,22 +20,16 @@
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
 #                                    note:                                     #
+#                                    - vonjo                                   #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Jembatan Beton
-RVg_Concrete_Rail_Bridge
-Jembatan Gantung
 Schwebebahn_p_bridge
 Jembatan Monorail
-SteelRail
-Jembatan Pelat Baja
 water_bridge
 Jembatan Kanal
-Wooden_Rail
-Jembatan Kayu
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -462,10 +456,6 @@ Signals
 Sinyal
 traffic_light
 Lampu Merah
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
-RailTunnel
-Terowongan
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -490,12 +480,6 @@ RVg 0-3-0 - Chippy
 #______________________________________way______________________________________
 air_movement_area
 Taxiway Modern
-concrete_sleeper_track
-Rel Beton
-High_quality_track
-Rel Besi
-low_quality_track
-Rel Rumput
 old_runway
 Runway Klasik
 old_taxiway
@@ -506,14 +490,10 @@ runway_modern
 Runway Modern
 Schwebebahn_p_ground
 Jalan Monorail (Tanah)
-steel_sleeper_track
-Rel Baja
 Suspended_Monorail_Track
 Jalan Monorail (Gantung)
 water_road
 Kanal
-wooden_sleeper_track
-Rel Kayu
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 old_catenary

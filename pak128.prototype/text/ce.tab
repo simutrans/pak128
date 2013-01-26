@@ -5,7 +5,7 @@
 #                            Language: ce C-English                            #
 #                                Encoding: ASCII                               #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 18.12 2012                           #
+#                           Date Created: 26.01 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - Dwachs                                  #
@@ -26,18 +26,10 @@
 ################################################################################
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-ClassicRail
-Concrete Rail Bridge
 road_030_bridge
 Wooden road bridge
-RVg_Concrete_Rail_Bridge
-Steel Suspension Bridge
 Schwebebahn_p_bridge
 Suspended Train Track Bridge
-SteelRail
-Steel Railroad Bridge
-Wooden_Rail
-Wooden Railroad Bridge
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -582,10 +574,6 @@ Minimum80
 Road Sign: "Minimum Speed 80km/h"
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
-RailTunnel
-Rail Tunnel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -936,10 +924,6 @@ RVg "Daylight" Passenger Car
 #______________________________________way______________________________________
 air_movement_area
 Taxiway
-concrete_sleeper_track
-Railroad Track (Concrete Sleepers)
-low_quality_track
-Railroad Track (1810)
 Powerline
 High-Power Transmission Line
 Schwebebahn_p_ground
