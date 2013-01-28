@@ -87,3 +87,13 @@ img {
 table img, dl img {
 	float: none;
 }
+
+table.constraints td {
+	background: none;
+	vertical-align: middle;
+}
+
+table.constraints td.this {
+	border-left: 1px solid navy;
+	border-right: 1px solid navy;
+}

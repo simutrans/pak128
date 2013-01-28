@@ -608,18 +608,21 @@ def generate_vehicles() :
 	for wtg in wtg_table :
 		vehicles[wtg] = [[], 0, "", ""] # objects, file handle, html nav, subfolder nav (reused by individual files!)
 	
+	name_table = {} # name:obj, for checking constraints
 	# categorize and count stuff
 	for obj in Items["vehicle"] :
 		obj.put("goods", goods_table[obj.ask("freight", "None")]) # exchange goods for their categories where applicable
-		obj.cname = simutools.canonicalObjName(obj.ask("name"))
-		obj.fname = "vehicle_%s.html" % obj.cname
-		obj.iconname = "icon_veh_%s.%s" % (obj.cname, imgformat)
+		name = obj.ask("name")
+		obj.cname = simutools.canonicalObjName(name)
+		obj.fname = "%s.html" % obj.cname
+		obj.iconname = "%s_icon.%s" % (obj.cname, imgformat)
 		wt = obj.ask("waytype")
 		gt = obj.ask("goods", "None")
 		vehicles[(wt,gt)][0].append(obj)
 		vehicles[("all",gt)][0].append(obj)
 		vehicles[(wt,"all")][0].append(obj)
 		vehicles[("all","all")][0].append(obj)
+		name_table[name] = obj
 	
 	# overview html files - generate navigations, open files etc
 	for wtg in wtg_table :
@@ -674,6 +677,53 @@ def generate_vehicles() :
 			params[param] = obj.ask(param, "-")
 		params["icon"] = """<img src="%s" />""" % (obj.iconname)
 		f.write(html_deflist(params))
+		
+		# constraints
+		f.write(html_h2("Constraints"))
+		f.write("""<table class="constraints">\n<thead><th>prev</th><th>this</th><th>next</th></thead>\n""")
+		constr = obj.ask_indexed("constraint")
+		prev = []
+		next = []
+		this = [name]
+		for c in constr :
+			if (c[1] != "none") and (c[1] not in name_table.keys()) :
+				print("  invalid constraint: %s, %s=%s" % (name, c[0], c[1]))
+				break
+			if c[0][:6] == "[prev]" :
+				prev.append(c[1])
+			elif c[0][:6] == "[next]" :
+				next.append(c[1])
+		# here, logic gets tricky because the axis of lists is orthogonal to order of writing the html table
+		# so make all lists same length into a "fake 2d array" spanning the 3, then "iterate sideways" across them
+		# resulting table has always full side columns and the middle has only first cell with rowspan
+		total_rows = max(len(prev), len(next), 1)
+		prev += [""]*(total_rows - len(prev)) # padding at ends
+		this += [""]*(total_rows - len(this))
+		next += [""]*(total_rows - len(next))
+		for i in range(total_rows) :
+			p = prev[i]
+			t = this[i]
+			n = next[i]
+			if p == "" :
+				p = "<td></td>"
+			elif p == "none" :
+				p = "<td>(start of convoy)</td>"
+			else :
+				pc = simutools.canonicalObjName(p)
+				p = """<td><a href="%s.html"><img src="%s_icon.%s" title="%s" /></a></td>""" % (pc, pc, imgformat, _(p))
+			if t != "" :
+				t = """<td rowspan="%d" class="this"><img src="%s" title="%s" /></td>""" % (total_rows, obj.iconname, _(name))
+				# special - has rowspan, centers etc.
+			if n == "" :
+				n = "<td></td>"
+			elif n == "none" :
+				n = "<td>(end of convoy)</td>"
+			else :
+				nc = simutools.canonicalObjName(n)
+				n = """<td><a href="%s.html"><img src="%s_icon.%s" title="%s" /></a></td>""" % (nc, nc, imgformat, _(n))
+			f.write("""<tr>%s%s%s</tr>\n""" % (p,t,n))
+		f.write("</table>\n")
+		
 		# output to overviews
 		params["icon"] = """<a href="vehicles/%s"><img src="vehicles/%s" /></a>""" % (obj.fname, obj.iconname)
 		params["name"] = """<a href="vehicles/%s">%s</a>""" % (obj.fname, _(name))
@@ -711,7 +761,6 @@ split_data()
 del Data
 load_translations()
 print("  ...data prepared.")
-
 
 print("Generating ways...")
 os.makedirs(local_filename("ways"), exist_ok=True)
