@@ -686,7 +686,7 @@ def generate_vehicles() :
 		next = []
 		this = [name]
 		for c in constr :
-			if (c[1] != "none") and (c[1] not in name_table.keys()) :
+			if (c[1].lower() != "none") and (c[1] not in name_table.keys()) :
 				print("  invalid constraint: %s, %s=%s" % (name, c[0], c[1]))
 				break
 			if c[0][:6] == "[prev]" :
