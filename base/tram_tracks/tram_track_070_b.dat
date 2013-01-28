@@ -2,8 +2,7 @@ Obj=way
 Name=Tram_Track_070_B
 copyright=Fabio Gonella
 
-waytype=track
-system_type=7
+waytype=tram_track
 
 cost=25000
 maintenance=300
