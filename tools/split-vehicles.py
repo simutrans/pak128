@@ -93,7 +93,7 @@ def procObj(obj) :
 	surf = font.render(text, False, (0,0,0), (255,255,255)) # black text on white
 	newimage.blit(surf, (10, 10 + 0 * text_step))
 	
-	text = "copyright: " + obj.ask("copyright", "?", False)
+	text = "copyright: " + obj.ask("copyright", "?")
 	surf = font.render(text, False, (0,0,0), (255,255,255)) # black text on white
 	newimage.blit(surf, (10, 10 + 1 * text_step))
 	
@@ -101,11 +101,11 @@ def procObj(obj) :
 	surf = font.render(text, False, (0,0,0), (255,255,255)) # black text on white
 	newimage.blit(surf, (10, 10 + 2 * text_step))
 
-	text = "stats: %s km/h, %s kW, %s/16 tile" % (obj.ask("speed", "???", False), obj.ask("power", "0", False), obj.ask("length", "8 (default)", False))
+	text = "stats: %s km/h, %s kW, %s/16 tile" % (obj.ask("speed", "???"), obj.ask("power", "0"), obj.ask("length", "8 (default)"))
 	surf = font.render(text, False, (0,0,0), (255,255,255)) # black text on white
 	newimage.blit(surf, (10, 10 + 3 * text_step))
 	
-	text = "cargo: %s  %s" % (obj.ask("payload", "0", False), obj.ask("freight", "None", False))
+	text = "cargo: %s  %s" % (obj.ask("payload", "0"), obj.ask("freight", "None"))
 	surf = font.render(text, False, (0,0,0), (255,255,255)) # black text on white
 	newimage.blit(surf, (10, 10 + 4 * text_step))
 	
