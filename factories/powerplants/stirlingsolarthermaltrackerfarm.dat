@@ -22,5 +22,5 @@ fields=ThermalTrackerField
 probability_to_spawn=50
 production_per_field=7
 max_fields=18
-min_fields=7
+min_fields=6
 has_snow=0
