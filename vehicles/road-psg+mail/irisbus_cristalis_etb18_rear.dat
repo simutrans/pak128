@@ -1,0 +1,30 @@
+# Cristalis ETB 18
+# Made by Irisbus
+# livery from city of Lyon
+
+obj=vehicle
+name=Irisbus_Cristalis_ETB18_rear
+waytype=road
+engine_type=electric
+length=7
+payload=82
+speed=80
+power=160
+gear=180
+cost=1949000
+weight=9
+runningcost=67
+copyright=Gwalch
+intro_year=2002
+freight=Passagiere
+Constraint[Prev][0]=Irisbus_Cristalis_ETB18_front
+Constraint[Next][0]=none
+
+EmptyImage[E]=irisbus_cristalis_etb18_rear.1.4
+EmptyImage[SE]=irisbus_cristalis_etb18_rear.1.5
+EmptyImage[S]=irisbus_cristalis_etb18_rear.1.6
+EmptyImage[NE]=irisbus_cristalis_etb18_rear.1.3
+EmptyImage[N]=irisbus_cristalis_etb18_rear.1.2
+EmptyImage[W]=irisbus_cristalis_etb18_rear.1.0
+EmptyImage[NW]=irisbus_cristalis_etb18_rear.1.1
+EmptyImage[SW]=irisbus_cristalis_etb18_rear.1.7

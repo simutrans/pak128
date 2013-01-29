@@ -1,0 +1,30 @@
+# Cristalis ETB 12
+# made by Irisbus
+# Livery from city of Limoges (France)
+
+obj=vehicle
+name=Irisbus_Cristalis_ETB12
+waytype=road
+engine_type=electric
+length=10
+payload=97
+speed=80
+power=160
+gear=200
+cost=2255000
+weight=13
+runningcost=80
+copyright=Gwalch
+intro_year=2002
+freight=Passagiere
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+EmptyImage[S]=irisbus_cristalis_etb12.1.6
+EmptyImage[E]=irisbus_cristalis_etb12.1.4
+EmptyImage[SE]=irisbus_cristalis_etb12.1.5
+EmptyImage[NE]=irisbus_cristalis_etb12.1.3
+EmptyImage[N]=irisbus_cristalis_etb12.1.2
+EmptyImage[W]=irisbus_cristalis_etb12.1.0
+EmptyImage[NW]=irisbus_cristalis_etb12.1.1
+EmptyImage[SW]=irisbus_cristalis_etb12.1.7

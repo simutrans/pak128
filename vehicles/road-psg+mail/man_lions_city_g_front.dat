@@ -1,0 +1,32 @@
+# Lion's City G
+# Made by MAN
+# Livery fron city of Brest (France)
+
+obj=vehicle
+name=Man_Lions_City_G_front
+waytype=road
+cost=1908000
+weight=10
+runningcost=81
+engine_type=diesel
+speed=83
+power=235
+gear=100
+freight=Passagiere
+payload=85
+intro_year=2004
+smoke=diesel
+sound=engine-start-diesel_0
+length=8
+copyright=Gwalch
+Constraint[Prev][0]=none
+Constraint[Next][0]=Man_Lions_City_G_back
+
+EmptyImage[W]=man_lions_city_g_front.1.0
+EmptyImage[NW]=man_lions_city_g_front.1.1
+EmptyImage[N]=man_lions_city_g_front.1.2
+EmptyImage[NE]=man_lions_city_g_front.1.3
+EmptyImage[E]=man_lions_city_g_front.1.4
+EmptyImage[SE]=man_lions_city_g_front.1.5
+EmptyImage[S]=man_lions_city_g_front.1.6
+EmptyImage[SW]=man_lions_city_g_front.1.7

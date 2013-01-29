@@ -1,0 +1,32 @@
+# Lion's City 
+# Made by MAN
+# Livery fron city of Castres (France)
+
+obj=vehicle
+name=Man_Lions_City
+waytype=road
+cost=2518000
+weight=12
+runningcost=107
+engine_type=diesel
+speed=85
+power=216
+gear=100
+freight=Passagiere
+payload=107
+intro_year=2004
+smoke=diesel
+sound=engine-start-diesel_0
+# length=8
+copyright=Gwalch
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+EmptyImage[W]=man_lions_city.1.0
+EmptyImage[NW]=man_lions_city.1.1
+EmptyImage[N]=man_lions_city.1.2
+EmptyImage[NE]=man_lions_city.1.3
+EmptyImage[E]=man_lions_city.1.4
+EmptyImage[SE]=man_lions_city.1.5
+EmptyImage[S]=man_lions_city.1.6
+EmptyImage[SW]=man_lions_city.1.7
