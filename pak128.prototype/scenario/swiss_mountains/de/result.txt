@@ -1,0 +1,10 @@
+Das Szenarioziel ist zu {ratio_scenario}% erreicht.<br>
+<br>
+Erreichte Passagierzahlen je Attraktion (zufrieden/unzufrieden):<br>
+{tourism_list}
+<br>
+Wird monatlich aktualisiert.<br>
+<br>
+{hq_text}<br>
+<br>
+<br>

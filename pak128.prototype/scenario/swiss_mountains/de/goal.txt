@@ -1,0 +1,17 @@
+Errichten sie für die folgenden Reiseziele in der Alpenregion
+an den angegebenen Positionen (auf die Höhe achten) jeweils eine
+Haltestelle. Die Haltestelle darf mehr als ein Feld umfassen,
+muss es aber nicht.<br>
+<br>
+Position - Name - Zielwerte (zufrieden/unzufrieden)<br>
+<br>{tourism_list}
+<br>
+Erreichen Sie für jede Haltestelle die angegebene Menge
+an zufriedenen Passagieren unter Einhaltung der maximalen Anzahl
+von unzufrieden Passagieren. Des weiteren erwartet man in der
+Region das als erfolgreicher Unternehmer einen großen Firmensitz
+bauen.<br>
+<br>
+Um neue Meldungen bei erfolgreichen Erdarbeiten zu unterbinden,
+auf Position {stop_messages} eine Haltestelle mit dem Namen
+"no message" errichten.<br>

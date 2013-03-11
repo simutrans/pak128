@@ -1,0 +1,42 @@
+The inhabitants of the Alps like their mountains and nature
+and they also protect these. Therefore it is understandable
+that earthworks, construction and tree cutting encounter
+little support. To go to issues out of the way, in all cantons
+of the region new regulations are implemented. Here are the
+key excerpts:<br>
+<br>
+<em>·</em> The rock pressure on tunnel is relevant for their approval.<br>
+<em>·</em> Supply three material wholesalers with sufficient planks and
+tunnels of the first level released rock pressure. When all wholesalers
+are supplied, there are two levels.<br>
+<em>·</em> for each material wholesalers with sufficient steel and concrete
+it is one further level approved rock pressure for tunnels.<br>
+<em>·</em> Earthwork cost each {price_terra}.<br>
+<em>·</em> The nearest town decides on earthworks.<br>
+<em>·</em> The citizens allow maximum {terra_max} earth moving ahead each city.<br>
+<em>·</em> After {terra_forget} months the people forget one earthwork.<br>
+<em>·</em> People from cities which have a minimum growth {terra_growth}
+will forget twice.<br>
+<em>·</em> Cities without growth in the past twelve months don't forget any earth movements.<br>
+<em>·</em> Each tree cost {price_tree} to cut down.<br>
+<em>·</em> The citizens do not want new factories. <br>
+<em>·</em> No routing over crowded stations.<br>
+<em>·</em> The air in the mountains, from level 6 on, is to thin for passengers.<br>
+<em>·</em> Cannels can only be built to level -5 in the lowlands.<br>
+<em>·</em> New runways are only in the lowlands to level -6 approved.<br>
+<br>
+<em>list of material wholesalers</em><br>
+<br>
+Currently, the maximum rock pressure for tunnels is {tunnel_max} levels.
+The target set for planks is {target_good_1} units, for steel and concrete
+are {target_good_2} units at the beginning of the month for the last twelve
+month. List of used materials (concrete / steel / planks). <br>
+<br>
+{wholesales}<br>
+<br>
+<em>list of cities</em> <br>
+<br>
+Earthmoving / months city name city growth <br>
+<br>
+{city_list}<br>
+<br>

@@ -1,0 +1,42 @@
+Die Bewohner der Alpenregion haben ihre Berge und Natur
+sehr gerne. Daher ist es verständlich, dass Erdarbeiten,
+Bauarbeiten und Rodungen auf wenig Zustimmung stoßen.
+Um Problemen aus dem Weg zu gehen wurde in allen Kantonen
+der Region eine neue Verordnung umgesetzt.
+Hier die wichtigsten Auszüge:<br>
+<br>
+<em>·</em> Der Gebirgsdruck über Tunnelbauten ist für deren Genehmigung relevant.<br>
+<em>·</em> Bei Versorgung von drei Materialgroßhändlern mit ausreichend Brettern
+werden Tunnelbauten für die erste Ebene Gebirgsdruck freigegeben. Werden
+alle Händler versorgt, sind es zwei Ebenen.<br>
+<em>·</em> Für jeden Materialgroßhändler mit ausreichend Stahl und Beton
+wird je eine weitere Ebene Gebirgsdruck für Tunnelbauten genehmigt.<br>
+<em>·</em> Erdarbeiten kosten jeweils {price_terra}.<br>
+<em>·</em> Die nächst gelegene Stadt entscheidet über Erdarbeiten.<br>
+<em>·</em> Die Bürger erlauben maximal {terra_max} Erdbewegungen im voraus je Stadt.<br>
+<em>·</em> Nach {terra_forget} Monaten vergessen die Bürger eine Erdbewegung.<br>
+<em>·</em> Bürger aus Städten mit einem Wachstum von mindestens {terra_growth}
+im Jahr vergessen doppelt so schnell die Erdbewegungen.<br>
+<em>·</em> Städte ohne Wachstum in den vergangenen zwölf Monaten vergessen keine Erdbewegungen.<br>
+<em>·</em> Für jeden gefällten Baum sind {price_tree} zu zahlen.<br>
+<em>·</em> Die Bürger wollen keine neuen Fabriken.<br>
+<em>·</em> Kein Routing über überfüllte Haltestellen.<br>
+<em>·</em> Ab Ebene 6 ist die Luft in den Bergen für Fahrgäste zu dünn.<br>
+<em>·</em> Kanäle können nur bis Ebene -5 gebaut werden.<br>
+<em>·</em> Neue Start- und Landebahnen werden nur im Flachland bis Ebene -6 genehmigt.<br>
+<br>
+<em>Liste der Materialgroßhändler</em><br>
+<br>
+Aktuell ist der maximale Gebirgsdruck für Tunnelbauten {tunnel_max} Ebenen.
+Die Zielmenge für Bretter ist {target_good_1} Einheiten, für Stahl und Beton
+sind es {target_good_2} Einheiten am Anfang des Monats für die letzten zwölf
+Monate. Liste verbrauchter Materialien (Beton/Stahl/Bretter).<br>
+<br>
+{wholesales}<br>
+<br>
+<em>Liste der Städte</em><br>
+<br>
+Erdbewegungen/Monate Stadtnamen Stadtwachstum <br>
+<br>
+{city_list}<br>
+<br>

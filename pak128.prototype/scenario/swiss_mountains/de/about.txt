@@ -1,0 +1,4 @@
+<em>Szenario:</em> {short_description}<br><br>
+<em>Version:</em> {version}<br><br>
+<em>Autor:</em> {author}<br><br>
+<em>Übersetzungen:</em> {translation}<br><br>

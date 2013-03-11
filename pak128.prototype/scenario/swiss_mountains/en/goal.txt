@@ -1,0 +1,16 @@
+Build for the following destinations in the Alps
+at the indicated positions (note the height) one
+station. The station may include more than one field,
+but it must not.<br>
+<br>
+Position - Name - Target (happy / unhappy) <br>
+<br>{tourism_list}
+<br>
+Reach for each stop the specified amount
+of happy passengers in compliance with the maximum number
+of unhappy passengers. Furthermore, it is expected in the
+region to build a large and luxurious headquarter.<br>
+<br>
+To prevent new messages from successful landscape change,
+build a station at {stop_messages} and change the name to
+"no message".<br>

@@ -1,0 +1,15 @@
+The spring begins and the debate over the last winter season resulted
+that the area needs more tourists. A great transport system for
+goods and passengers will be the solution, a job made for you.<br>
+<br>
+Thanks to a friend, telling you about the problems in the region you
+know that it is not simple to get permission for construction projects
+and it takes plenty of time to success.
+The basic parameters, for the challenge are:<br>
+<br>
+<em>start year:</em> {startyear}<br>
+<em>money:</em> {startcash}<br>
+<em>inhabitants:</em> {citizen}<br>
+<em>cities:</em> {towns}<br>
+<em>factories:</em> {factories}<br>
+<br>

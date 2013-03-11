@@ -1,0 +1,10 @@
+The scenario is up to {ratio_scenario}% complete.<br>
+<br>
+Passenger numbers reached each attraction (happy/unhappy):<br>
+{tourism_list}
+<br>
+Is updated monthly.<br>
+<br>
+{hq_text}<br>
+<br>
+<br>

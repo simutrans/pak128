@@ -1,0 +1,19 @@
+Mit dem Frühjahr beginnt die Nachlese der letzten Wintersaison
+und die Bürger in der von erheblichen Höhenunterschieden geprägten
+Region sind sich einig, dass sie mehr Touristen brauchen und
+dies nicht ohne ein ordentliches Nah- und Fernverkehrssystem geht.
+Eine Aufgabe wie für Sie gemacht.<br>
+<br>
+Dank eines Freundes haben sie aber noch rechtzeitig vor
+Vertragsabschluss erfahren, dass es in der gesamten Region nicht
+einfach ist Bauvorhaben für Verkehrszwecke durchzuführen. Daher wird
+die Zeitvorgabe aus dem Vertrag entfernt und sie haben beliebig viel
+Zeit für eine gute Umsetzung ihrer Ideen. Die Eckwerte, der für Sie
+wohl eher kleinen Herausforderung, lauten:<br>
+<br>
+<em>Startjahr:</em> {startyear}<br>
+<em>Geld:</em> {startcash}<br>
+<em>Einwohner:</em> {citizen}<br>
+<em>Städte:</em> {towns}<br>
+<em>Fabriken:</em> {factories}<br>
+<br>
