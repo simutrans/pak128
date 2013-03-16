@@ -3,7 +3,10 @@
  */
 
 /// version of script
-local version = 1
+local version = 2
+// version 0: initial
+// version 1: corrected forbidden tools on hudson river
+// version 2: new savegame, jfk airport moved
 
 /// specify the savegame to load
 map.file = "new_york.sve"
@@ -49,7 +52,7 @@ local city_midtown = null
 // just save positions
 // halt handles might get invalid, if player makes own halt public
 local airports = {
-	jfk = { pos = [961, 494] }
+	jfk = { /* will be set in resume_game to persistent.jfk */ }
 	lag = { pos = [601, 265] }
 	new = { pos = [207, 731] }
 	tet = { pos = [162, 283] }
@@ -61,6 +64,10 @@ persistent.version <- 0
 function start()
 {
 	forbid_tools_on_hudson()
+
+	persistent.version = version
+	persistent.jfk    <- { pos = [968, 494] }
+
 	resume_game()
 }
 
@@ -116,8 +123,17 @@ function resume_game()
 	}
 	// update forbidden tools if necessary
 	if ( persistent.version < version ) {
-		update()
+		if (persistent.version==0) {
+			update_v0_to_v1()
+		}
+		if (persistent.version==1) {
+			update_v1_to_v2()
+		}
 	}
+	persistent.version = version
+
+	// position of jfk airport
+	airports.jfk = persistent.jfk
 
 	city_midtown = city_x(398, 421)
 
@@ -150,8 +166,6 @@ local error_hudson = [
 
 function forbid_tools_on_hudson()
 {
-	persistent.version = version
-
 	for(local j=0; j<tools_not_allowed_on_hudson.len(); j++) {
 			for(local i=0; i<hudson_river.len()-1; i++) {
 				rules.forbid_way_tool_rect(player_all, tools_not_allowed_on_hudson[j], wt_all, hudson_river[i], hudson_river[i+1], ttext(error_hudson[j]))
@@ -171,8 +185,8 @@ function is_work_allowed_here(pl, tool_id, pos)
 	return null // null is equivalent to 'allowed'
 }
 
-// compatibility code follows
-// old versions of scenario had different forbidden rectangles
+// ----------- compatibility code follows --------------------------------------------------
+// version 0 of scenario had different forbidden rectangles
 local hudson_river_compatibility = [
 	[ // version 0
 		{x=393, y=617},
@@ -185,7 +199,7 @@ local hudson_river_compatibility = [
 ]
 
 // update forbidden tools
-function update()
+function update_v0_to_v1()
 {
 	local old_hudson_river = hudson_river_compatibility[ persistent.version ]
 	local pl_list = [0, player_all]
@@ -198,4 +212,12 @@ function update()
 		}
 	}
 	forbid_tools_on_hudson()
+	persistent.version = 1;
+}
+
+// set position of jfk airport (old start savegame)
+function update_v1_to_v2()
+{
+	persistent.jfk <- { pos = [961, 494] }
+	persistent.version = 2;
 }
