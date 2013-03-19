@@ -1,0 +1,95 @@
+HOW TO RELEASE
+--------------
+
+
+Before you start
+----------------
+
+You need the sources and makeobj as a bare minimum. Python for pakmak would be great, too, and something to zip the result is needed as well.
+
+Compiling all the paks requires a moderately strong computer. It may take anywhere from a few minutes to half an hour.
+
+As of March 2013, the compiled pakset is ~ 400 MB and zips down to less than 100 MB. You will have to upload these 100 MB... A high performance connection helps.
+
+
+
+Preparing the data
+------------------
+
+1) Pakset must compile completely!
+
+2) No uncomited changes allowed in release!
+	* Clear temporary/work files, revert changes, etc.
+	* Alternatively, check out the repo extra just for release.
+
+3) Update translations and commit.
+	* pak128.prototype/text/
+
+4) Update history!
+	* history-pak128-svn.txt
+	* pak128.prototype/doc/changelog.txt
+
+5) Change loading bar version!
+	* landscape/grounds/outside.dat
+
+6) Build the pakset - use pakmak.py if possible.
+
+7) Test the pakset with relevant release of program!
+
+8) Zip the simutrans folder at "maximal power" and name the archive:
+	* pak128-version--gameversion.zip
+	  (eg. pak128-2.2.0--112.0.zip)
+
+
+
+Releasing the files and announcing
+----------------------------------
+
+9) Commit your changes to version number (useful for finding release revision).
+
+10) Upload to sourceforge.net:
+	* create folder pak128 -> pak128 for XYZ (game version),
+	* upload the zip there,
+	* check if the file can be downloaded!
+
+11) Create announcement on forum:
+	* use previous topic as template,
+	* use new links, version numbers, file sizes, svn revision,
+	* the list of changes written there is mostly same as  pak128.prototype/doc/changelog.txt,
+	* post in main pak128, pin the new topic,
+	* unpin previous release topic.
+
+12) Update website:
+	* edit files in svn,
+	* upload to 128.simutrans.com,
+	* commit svn changes - after checking the web!
+
+13) Update Simutrans release announcement on forum:
+	* edit the post yourself, or
+	* if you can't, give someone the *correct* links & numbers.
+
+
+
+Clean-up after the event
+------------------------
+
+14) Check if there is still some forgotten uncommitted change!
+
+15) Check again the release topics on forum and website. Try downloading the file from all locations where it is linked.
+
+16) Step up the release number in landscape/grounds/outside.dat to "+nightly" & commit.
+
+17) Party like mad (probably sleep) :D
+
+18) Wake up and don't read about all the bugs.
+
+
+
+Warnings
+--------
+
+Don't EVER delete the file on sourceforge and upload again with same name. The mirroring system will just screw up. Upload a new one, with new version number.
+
+If file upload is interrupted, the file is broken. Same as above applies - you can't reuse the file name.
+
+Test, test, test...

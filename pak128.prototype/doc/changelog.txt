@@ -5,6 +5,7 @@ simutrans128 (2.3.0) stable; urgency=low
   * New modern/futuristic buses by Gwalch and Christian
   * Winter version of some train stations from mEGa
   * Fabio's rail track set is completed with 280, 320 & 400 Kph versions
+  * A cute roundabout from Raiser
   * Many other bugfixes and improvements - for more detailed list look at
         history-pak128-svn.txt
 
