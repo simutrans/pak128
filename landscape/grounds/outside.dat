@@ -1,5 +1,6 @@
 Obj=ground
 Name=Outside
-copyright=pak128 2.2.0 + nightly
-# copyright entry is shown when loading pakset above progress bar and should say what is pak/version
 Image[0][0]=outside.1.1
+
+copyright=pak128 2.3.0
+# copyright entry is shown when loading pakset above progress bar and should say what is pak/version

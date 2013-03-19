@@ -1,4 +1,14 @@
+simutrans128 (2.3.0) stable; urgency=low
 
+  * New scenario by ny911 - Swiss mountains
+  * Added English, Russian and Czech street lists, improved Hungarian city list
+  * New modern/futuristic buses by Gwalch and Christian
+  * Winter version of some train stations from mEGa
+  * Fabio's rail track set is completed with 280, 320 & 400 Kph versions
+  * Many other bugfixes and improvements - for more detailed list look at
+        history-pak128-svn.txt
+
+ -- Vladimir Slavik <slavik.vladimir@@seznam.cz> & the pak128 team  19 Mar 2013 12:30 +0100
 
 simutrans128 (2.2.0) stable; urgency=high
 

@@ -4,12 +4,39 @@ history of pak128 svn - important changes for gameplay
 For full history or technical details see svn logs.
 Names in brackets after message list the author/originator of change. It does not necessarily have to be member of pak128 team - external contributors are there as well.
 
+## pak128 version 2.3.0 ##
+
+11.03.2013
+	- add scenario "Swiss mountains" (ny911)
+14.02.2013
+	- add Russian street list (Train-catcher)
+04.02.2013
+	- add Czech and English street lists (VS)
+29.01.2013
+	- add new modern buses and trolleybuses (Gwalch)
+	- fix unconnectable solar plants (VS)
+28.01.2013
+	- fix broken constraints on multiple vehicles (VS)
+	- add two futuristic buses (Christian)
+15.01.2013
+	- fix S. Kroytor Traveler timeline (Zeno)
+	- fix alignment of railroad signs (DirrrtyDirk)
+05.01.2013
+	- add roundabout mini-monument (Raiser)
+04.01.2013
+	- add cities to Hungarian city list (HDomos)
+30.12.2012
+	- add winter version of stations (mEGa)
+28.12.2012
+	- fix Mack mail trailer constraints (Zeno)
+16.12.2012
+	- add new 280, 320, 400 kph tracks (Fabio)
 
 ## pak128 version 2.2.0 ##
 
-
 15.12.2012
 	- add new trees from Sarlock, disable some old ones (Sarlock)
+	- fixed Novabus data (Zeno)
 13.12.2012
 	- add old-time High school (mEGa)
 	- road graphics fixes (Fabio)
