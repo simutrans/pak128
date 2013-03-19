@@ -5,11 +5,13 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 26.01 2013                           #
+#                           Date Created: 19.03 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                            Alexander Brose - AlexB                           #
 #                                    note:                                     #
+#                                    - An_dz                                   #
+#                   note: Verified where all texts are shown                   #
 #                         Klaus Thenmayer - Bitfreezer                         #
 #                                    note:                                     #
 #                                  - Christian                                 #
@@ -76,8 +78,6 @@
 #                                    note:                                     #
 #                               Sven Osada - sojo                              #
 #                         note: maintainer pak96.comic                         #
-#                                     - test                                   #
-#                                    note:                                     #
 #                                 - transporter                                #
 #                                    note:                                     #
 #                           Werner Brandt - wernieman                          #
@@ -1455,7 +1455,7 @@ Der Gütige Diktator\n\nDer gütige Diktator (mit Hand in\nder Weste) - so viele\n
 rmax_fabio_bust
 Fagonellus Romanus\n\n
 rmax_icarus
-Raketenstartgelände Icarus\n\n
+Raketenstartgelände Icarus\n\nNur ein kleiner Schritt hitner den Zaun (und ein großer Schnitt in das Konto) und schon kann man mit Icarus-Space das All erkunden.\nDie meisten Touristen nehmen allerdings die billigere Variante war, und erleben das Startdonnern auf der Tribüne.
 rmax_mosque
 As-Salâm Moschee\n\nJedes mal wenn der Muezzin von\nden hohen Minaretten singt,\nversammeln  sich die\nmoslemischen Simuthaner um\nhier zu beten. As-Salâm ist\neiner der 99 Namen Allahs und\nbedeutet "Der Frieden".\n
 ROCK_0
@@ -1486,6 +1486,8 @@ ST_PETER
 St. Peter Kirche\n\nNachdem Sie - die erlesenen\nSchnitereien am Opferstock\ngebührend gewürdigt haben,\nwird Ihnen Bischof Herdinand\ngern seinen Segen spenden und\nSie voller demütigem Stolz zu\nden mächtigen Orgelpfeifen\nführen. Sie müssen an das\nWunder im 13. Jahrhundert\nnicht einmal glauben. Sie\nsehen ja, das Material der\nPfeifen ist auf Erden vollkommen\nunbekannt.\n
 Suspended_Monorail_Bahnhof_Modern
 Moderner Schwebebahn-Bahnhof
+tennis_court
+Tennusklub Blau-Weiß Haudrauf 04\n\nspaltet die Anwohner. Aller unter 60 und sportlich (und mehr all 200m entfernt wohnend) finden ihn Super, und alle anderen haben sich Schallsutzfenster erklagt.
 Terminal1930_AirportBlg
 Kleines Abfertigungsgebäude (1930)
 Terminal1950_AirportBlg_S

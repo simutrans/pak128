@@ -5,9 +5,11 @@
 #                            Language: id Indonesia                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 26.01 2013                           #
+#                           Date Created: 19.03 2013                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                    - An_dz                                   #
+#                   note: Verified where all texts are shown                   #
 #                                    - Dwachs                                  #
 #                                    note:                                     #
 #                             Edi Imanto - EImanto                             #
@@ -479,11 +481,11 @@ RVg 0-3-0 - Chippy
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 air_movement_area
-Taxiway Modern
+Jalan pesawat
 old_runway
-Runway Klasik
+Landasan pacu dari rumput
 old_taxiway
-Taxiway Klasik
+Jalan pesawat dari rumput
 Powerline
 Jalur Listrik (SUTET)
 runway_modern

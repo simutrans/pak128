@@ -5,7 +5,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 26.01 2013                           #
+#                           Date Created: 19.03 2013                           #
 #                                                                              #
 #                                   authors:                                   #
 #                            Alexander Brose - AlexB                           #
@@ -1966,6 +1966,8 @@ EndOfChooseSignals
 End of Choose Signal
 LongSignals
 Long Block Signal (standard type)
+Minimum100
+Minimum speed limit 100
 Minimum80
 Minimum speed limit 80
 Modern_ChooseSignals_right
@@ -3816,6 +3818,8 @@ road_030
 Dirt road
 road_040
 Cobblestone street
+road_040_elevated
+Elevated cobblestone street
 road_050
 Asphalted street
 road_050_elevated

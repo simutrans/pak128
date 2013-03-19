@@ -5,9 +5,11 @@
 #                             Language: fr Francais                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 26.01 2013                           #
+#                           Date Created: 19.03 2013                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                    - An_dz                                   #
+#                   note: Verified where all texts are shown                   #
 #                                  - Christophe                                #
 #                                    note:                                     #
 #                                    - Dwachs                                  #
@@ -19,8 +21,6 @@
 #                           Sava Bogdanets - Sava2004                          #
 #                                    note:                                     #
 #                          Jean Beaudet - cagliostro_2                         #
-#                                    note:                                     #
-#                                   - cantien                                  #
 #                                    note:                                     #
 #                                  - coincoin42                                #
 #                                    note:                                     #
@@ -46,6 +46,36 @@
 #____________________________________bridge_____________________________________
 PowerBridge
 Pont à haute tension
+Rail_Track_060_Bridge
+Pont en bois pour marchandises
+Rail_Track_060B_Bridge
+Vieux pont en fer pour marchandises
+Rail_Track_080_Bridge
+Vieux pont en fer
+Rail_Track_080B_Bridge
+Pont en fer moderne pour marchandises
+Rail_Track_100_Bridge
+Pont avec traverses en bois
+Rail_Track_120_Bridge
+Pont rapide avec traverses en bois
+Rail_Track_120B_Bridge
+Pont rapide pour marchandises
+Rail_Track_140_Bridge
+Pont express
+Rail_Track_160_Bridge
+Pont en béton pour voie express améliorée
+Rail_Track_180_Bridge
+Pont en béton pour service régional
+Rail_Track_200_Bridge
+Pont en fer pour voie express de haute qualitée
+Rail_Track_240_Bridge
+Pont en fer pour voie express
+Rail_Track_280_Bridge
+Pont en béton à haute vitesse
+Rail_Track_320_Bridge
+Pont en béton pour voie à haute vitesse moderne
+Rail_Track_400_Bridge
+Pont en béton à haute vitesse améliorée
 road_030_bridge
 Pont routier
 road_040_bridge
@@ -142,6 +172,8 @@ Car_StationBlg
 Parking
 CarDepot
 Dépôt routier
+CargoHighStop
+Quai de chargement
 CarStop
 Zone de chargement
 CASTLE_0
@@ -151,9 +183,9 @@ L'église rose.\n\nCette église a été construite\npar un illustre moine, un\npeu 
 CHURCH_03
 Église\n\nC'est une célèbre église qui\nattire les gens avec son\nenvironnement et ses\nmagnifiques peintures\nintérieures.\n\n
 CHURCH_04
-Même si ce temple\nressemble à une mosquée,\nc'est une synagogue.\n\n
+Synagoge\n\nMême si ce temple\nressemble à une mosquée,\nc'est une synagogue.\n
 CHURCH_05
-L'église St Michel\nconstruite à la fin du\nXIXème siècle est connue\npour son toit métallique\nconçu par\nAlexandre-Gustave Eiffel.\n\n
+Église St-Michel\n\nL'église St-Michel\nconstruite à la fin du\nXIXème siècle est connue\npour son toit métallique\nconçu par\nAlexandre-Gustave Eiffel.\n
 CHURCH_06
 Eglise\n\n. cette église typique\na les cloches qui sonnent\nchaque jour à midi.\n
 CIRCUS_0
@@ -239,7 +271,7 @@ Les escaliers sur le côté du\nbâtiment mènent à la porte\ndu "Système de\nsurvei
 COM_01_35
 Il s'aggit du bureau\nrégional de "L'Agence\nSecrète Nationale du\nSavoir". Si vous entrer\ndans le bâtiment (ce que\nvous ne ferez sans doute\njamais), vous pourriez\nobserver les agents en\ntrain d'intercepter des\ncommunications\ntéléphonique, ou\nd'investiger afin de déjouer\nles complots des génies du mal.\n
 COM_01_36
-Ce bâtiment abrite\nplusieurs bureaux\nd'avocats, et deux ou trois\ncompgnies d'assurances.\nMais il est surtout connu\npour son impressionant\ndrapeau national, qui flotte\nlors de la fête nationale.\n
+Ce bâtiment abrite\nplusieurs bureaux\nd'avocats et deux ou trois\ncompagnies d'assurances.\nMais il est surtout connu\npour son impressionnant\ndrapeau national, qui flotte\nlors de la fête nationale.\n
 COM_01_47
 Tour résidentielle\n\n
 COM_01_52
@@ -259,9 +291,9 @@ Ce petit magasin vend des\nvélos et des équipements\nde sports. Vous driviez\nve
 COM_05_05
 Ce magasin vend et répare\nles micro-ondes, les fours\net les grille-pains. C'est\ntout ce qu'ils font ici.\n\n
 COM_05_06
-Ceci est la boutique du\nBCBG. Le meilleur endroit\npour depenser votre salaire\npour paraitre bien. Mais\npeut-etre existe-t-il un\nmeilleur endroit pour\ndepenser son argent, c'est\npourquoi le vendeur parait\nsi seul et surveille une\nboutique vide.\n
+Ceci est la boutique du\nBCBG. Le meilleur endroit\npour dépenser votre salaire\npour paraître bien. Mais\npeut-être existe-t-il un\nmeilleur endroit pour\ndépenser son argent, c'est\npourquoi le vendeur paraît\nsi seul et surveille une\nboutique vide.\n
 COM_05_07
-Cette aprtie du trottoir est\nreservée au parking. Elle\nest bondée car il devient\ntrès difficile de trouver de\nla place dans cette cité\ncroissant de jour en jour.\nLe conseil municipal\nreflechit à l'installation de\nparcmètres. \n
+Cette partie du trottoir est\nreservée au parking. Elle\nest bondée car il devient\ntrès difficile de trouver de\nla place dans cette cité\ncroissant de jour en jour.\nLe conseil municipal\nréfléchit à l'installation de\nparcmètres. \n
 COM_05_08
 Ce centre de bowling\nsemble être un chouette\nendroit pour y emmener\nvotre famille mais en fait\nc'est le repère d'une\norganisation criminelle.\n\n
 COM_05_09
@@ -329,17 +361,17 @@ Ce lieu est dédié à Seth C.\nTriggs le célèbre\narchitecte qui dessina tant\nde 
 DenkTomas
 Ce monument est dédié à\nTomasKubes qui aida\nà perfectionner Simutrans\ndans tant et tant de\ndomaines grâce à son\ntravail acharné.\n\n
 DenkTrikky
-Ce monument estdédié à\n'Trikky' RickMcGreal le\ncélèbrearchitecte\nquidessina tant\ndebâtimentsimposants.\n\n
+Ce monument est dédié à\n'Trikky' Rick McGreal le\ncélèbre architecte\nqui dessina tant\nde bâtiments imposants.\n\n
 DenkVM
 Ce monument est dédié à\nManfred 'VTVienna'\nTomaschitzle célèbre\ningénieur qui réalisa le\ndesign de\nnombreux véhicules\nferroviaires.\n
 DenkVolker
-cette sculpturefut\ncontruite parVolker Meyer\nqui aperfectionnéSimutrans\ndans tantet tant\ndedomaines.\n\n
+Cette sculpture fut\nconstruite par Volker Meyer\nqui a perfectionné Simutrans\ndans tant et tant\nde domaines.\n\n
 Depot_train_1936
 Dépôt de trains 1936
 ELEMENTARY_SCHOOL_1
-école élémentaire\n\nC'est l'endroit où les enfants obtiennent leur première education. Math, langues, histoire et sciences y sontenseigné, mais les éléves n'aiment pas ça. Ils préférent plutôt la peinture ou la musique. Depuis que les enfants ne peuvent pas conduire desvoitures, cette école va générer beaucoup de traffic voyageur. Mais attention! Des bus luxurieux ne seront pas nécessaires!
+École élémentaire\n\nC'est l'endroit où les enfants\nobtiennent leur première education.\nMath, langues, histoire et sciences\ny sont enseigné, mais\nles éléves n'aiment pas ça.\nIls préférent plutôt la\npeinture ou la musique.\nPuisque les enfants ne\n peuvent pas conduire,\ncette école va générer beaucoup\nde traffic voyageur.\nMais attention! Des autobus\nluxurieux ne seront pas\nnécessaires!
 ELEMENTARY_SCHOOL_2
-"Tout ce que j?ai appris\nsur la façon dont on doit\nvivre, agir et être, je l?ai\nappris quand j?étais petit.\nLa sagesse ne se trouvait\npas sur les bancs de\nl?université, mais dans le\nbac à sable de la maternelle.\nVoici les choses que j?y ai\napprises : Savoir partager.\nÊtre beau joueur. Ne pas\ntaper sur les autres.\nRemettre les choses où je les ai\ntrouvées. Ranger mes affaires.\nNe pas prendre celles des\nautres. M?excuser quand j?ai fait\ndu mal à quelqu?un. Me laver les\nmains avant les repas. Tirer la\nchasse d?eau." - Robert Fulghum\n\n
+École élémentaire\n\n"Tout ce que j'ai appris\nsur la façon dont on doit\nvivre, agir et être, je l'ai\nappris quand j'étais petit.\nLa sagesse ne se trouvait\npas sur les bancs de\nl'université, mais dans le\nbac à sable de la maternelle.\nVoici les choses que j?y ai\napprises : Savoir partager.\nÊtre beau joueur. Ne pas\ntaper sur les autres.\nRemettre les choses où je les ai\ntrouvées. Ranger mes affaires.\nNe pas prendre celles des\nautres. M'excuser quand j'ai fait\ndu mal à quelqu'un. Me laver les\nmains avant les repas. Tirer la\nchasse d'eau." - Robert Fulghum\n\n
 Firestation
 C'est la caserne\nde pompiers de la ville. Elle\nabrite des camions de\npompiers, des sapeurs\npompiers et une ambulance.\nMais c'est provisoire.\nL'ambulance va déménager,\nune fois que son propre\nbâtiment sera construit.\n
 Fluid_StationBlg
@@ -351,7 +383,7 @@ Gare de marchandises
 french_garden_4
 Grands jardins à la française
 french_park_1
-Petit jardin à la française.
+Petit jardin à la française
 FUTURISTIC_TOWER_0
 Tour moderne\n\nCette tour offre une vue\nmagnifique sur les\npaysages aux alentours. Au\n1er étage, il y a un petit\nbar, alors vous pouvez\nboire un verre en appréciant\nla vue. Même si le prix n'est\npas vraiment\nbon marché, cette tour\nattire beaucoup de\nvisiteurs.\n
 Gas_StationBlg
@@ -361,7 +393,7 @@ Dépôt
 GRASS_STADIUM
 Stade\n\n
 GREEN_HOUSE
-Cette serre a eu été un\nmagasin tout à fait normal.\nMais après un certain\ntemps, le proprio a compris\nque les gens venaient\nsouvent que pour\nzyeuter sans l'intention\nd'acheter. Alors il a\nconverti son magasin en\njardin d'hiver tropical.\nMaintenant la serre abrite\nquelques plantes rares et\nest connu dans tout le pays.\n
+Cette serre a eu été un\nmagasin tout à fait normal.\nMais après un certain\ntemps, le proprio a compris\nque les gens venaient\nsouvent que pour\nzyeuter sans l'intention\nd'acheter. Alors il a\nconverti son magasin en\njardin d'hiver tropical.\nMaintenant la serre abrite\nquelques plantes rares et\nest connue dans tout le pays.\n
 hall_extended_station
 Hall de gare avec dépendances
 HIGH_SCHOOL_1
@@ -369,7 +401,7 @@ Lycée Moderne - C'est l'endroit où\nles jeunes peuvent\ncontinuer leur éducation
 HIGH_SCHOOL_2
 Lycée ancien - Les élèves sont assurés d'avoir\nune éducation à la hauteur.\nLes mathématiques, l'histoire\net la morale sont les matières nobles\nenseignées
 HOUSE_RUINS_0
-Les épaves ?'une ville. Il\nn'y a resté que la mairie.\nLes historiques arrivent\npour rechercher le temps\nperdu et les touristes\nadorent les  jeux de scène\nlocale.\n
+Maison en ruines.\n\nCette maison fut le bureau du maire d'une ville qui n'existe plus. Les historiens viennent y chercher des traces du passé et les touristes viennent assister à des spectacles en plein air.
 HQ1
 Centrale - d'ici vous dirigez votre société. Oui, c'est seulement une halle de montage hors de service mais un jour...
 HQ2
@@ -381,7 +413,7 @@ Ce vieux bâtiment est\nune scierie alimentée au charbon.\nElle n'a pas produit d
 IND_00_03
 Champ de maïs\n\nMaïs rôti! Maïs rôti! Venez voir\net écoutez, comme il fait\nPop! \n\n
 IND_00_05
-C'est une petite\nboulangerie. Elle etaient\navant courantes, mais la\nconsommation de masse à\neu raison d'elles.\n\n
+C'est une petite\nboulangerie. Elles étaient\navant courantes, mais la\nconsommation de masse a\neu raison d'elles.\n\n
 IND_00_06
 Vous seriez surpris de\nsavoir ce qui est produit\nici... des pots de fleurs! Si!\nSi!\n\n
 IND_00_10
@@ -393,7 +425,7 @@ Ceci est une petite brasserie.\nElle ne peut pas rivaliser avec\nles géants du s
 IND_00_15
 C'est ici que sont construits\nles petits véhicules ferroviaires\navant d'être envoyés vers votre dépôt.\n
 IND_00_16
-En raison du refus du propriétaire\nde cette compagnie de parler à notre représentant,\nSimutrans ne peut vous donner aucune\ninformation au sujet de ce batiment.\nAvec toutes nos excuses !\nMais rassurez-vous,\nnous savons que ce lieu\nest utilisé par les garages Jerry !\n
+En raison du refus du propriétaire\nde cette compagnie de parler à notre représentant,\nSimutrans ne peut vous donner aucune\ninformation au sujet de ce bâtiment.\nAvec toutes nos excuses !\nMais rassurez-vous,\nnous savons que ce lieu\nest utilisé par les garages Jerry !\n
 IND_00_17
 Bien qu'il paraisse abandonné,\nce lieu est une industrie très rentable.\nSeulement, personne ne sait\nà quoi peut bien servir\nl'immense citerne !\n
 IND_01_01
@@ -409,9 +441,9 @@ Ce bâtiment a été\nrécemment mis en vente.\nVoyons combien de temps il\nfaudra a
 IND_01_20
 Cette usine-là produit des\nmatières dites plastiques,\npar exemple de la peinture\nou du plexiglas.\n\n
 IND_01_30
-La fabrique Savondoux...\nune reference en la matière.\n\n
+La fabrique Savondoux...\nune référence en la matière.\n\n
 IND_01_35
-Ce bâtiment est rempli par\nde petits bureaux occupés\npar des douzaines de\npetites entreprises. Les\nprix au mètre carré étant\ntrès bas, ces bureaux font\nle bonheur des\nentrepreneurs avec petit\nbudget.\n
+Ce bâtiment est rempli\nde petits bureaux occupés\npar des dizaines de\npetites entreprises. Le\nprix au mètre carré étant\ntrès bas, ces bureaux font\nle bonheur des\nentrepreneurs avec un petit\nbudget.\n
 IND_01_36
 Cette usine est la\nprincipale source de\npollution de la ville, à\ncause de la mauvaise\nqualité du charbon brûlé.\nElle est simplement\nsynonyme de pluies acides.\nLes habitants du voisinage\nla haïssent vraiment\nbeaucoup.\n
 IND_02_01
@@ -427,13 +459,13 @@ Ceci n'est pas un champ.\n\n
 JUSTICE
 Palais de justice. Celui qui\na le meilleur avocat,\ngagnera. C'est juste.\n\n
 library_holy_genevieve
-Bibliothèque Sainte Geneviève\nLes rats de bibliothèque s'occupent\n de faire disparaître\les livres périmés ou idiots.
+Bibliothèque Sainte Geneviève\n\nLes rats de bibliothèque s'occupent\n de faire disparaître\les livres périmés ou idiots.
 Lighthouse_0
 Phare\n\nDepuis la construction de ce phare,\nles mers du Simunivers sont plus sûres.\Les touristes aiment monter les 352 marches\npour admirer les rouleaux sur les rochers.\n
 Lighthouse_1
-Phare\n\nDepuis la construction de ce phare,\nles mers du Simunivers sont plus sûres.\Ce phare possède une lanterne étrange,\nmais aucun marin ne s'en est plaint.\n
+Phare\n\nDepuis la construction de ce phare,\nles mers du Simunivers sont plus sûres. Ce phare possède une lanterne étrange,\nmais aucun marin ne s'en est plaint.\n
 Little_Central_Park
-Parc de centre-ville.\n Ne cherchez pas une ressemblance\navec son grand frère\naméricain. L'hiver, les habitants sortent leur patins 
+Parc de centre-ville\n\nNe cherchez pas une ressemblance\navec son grand frère\naméricain. L'hiver, les habitants sortent leur patins. 
 Long_Goods_Dock
 Port aux marchandise large
 LuftPost1950_AirportBlg
@@ -469,11 +501,11 @@ Hôtel "Simunuit"\n\nC'est un hôtel très connu.\nLes nuitées sont très\nchères, m
 MUSEUM_0
 Musée technologique\n\nCe bâtiment fut l'hôtel\nde ville, puis il a été\nreconstruit en résidence de\nluxe et récemment\ntransformé en musée public\nde science et de\ntechnologie. Vous pouvez\nvoir de vieux véhicules,\napprendre sur l'avancée de\nla physique ou participer à\nun des nombreux\nséminaires.\n
 OBSERVATORY
-Toute personne\npassionnée de\nl'astronomie doit\nconnaître cet observatoire,\ncar beaucoup des grandes\ndécouvertes du simunivers\nont été faites ici. La nuit,\nles astronomes travaillent\net observent le ciel étoilé ;\ntandis que la journée les\ntouristes peuvent le visiter\ntout en visionnant des\nvidéos explicatives.\n
+Observatoire\n\nToute personne\npassionnée d'astronomie doit\nconnaître cet observatoire,\ncar beaucoup des grandes\ndécouvertes du simunivers\nont été faites ici. La nuit,\nles astronomes travaillent\net observent le ciel étoilé ;\ntandis que la journée les\ntouristes peuvent le visiter\ntout en visionnant des\nvidéos explicatives.\n
 OfficeTrainStop
 Petite gare rurale
 Old_gate
-Ancienne Porte\n\nCette vieille porte de cité\nest le seul vestige\ndu mur d'enceinte moyennageux\nde la ville.\nQuand elle n'est pas fermée\npour travaux,la salle supérieure\naccueille des expositions sur\nles anciens drapeaux et blasons.
+Ancienne Porte\n\nCette vieille porte de cité\nest le seul vestige\ndu mur d'enceinte moyenâgeux\nde la ville.\nQuand elle n'est pas fermée\npour travaux, la salle supérieure\naccueille des expositions sur\nles anciens drapeaux et blasons.
 OLD_HOUSE_0
 Ce couple de maisons\ngothiques et de la\nRenaissance a été\ntransformé en musée\nd'architecture ancienne\nrécemment. On peut y voir\ntoutes sortes d'images et\nde maquettes de\nbâtiments du passé.\nL'exposition est\nintéressante et facile à\ncomprendre, alors c'est\nplein de visiteurs quasiment\nchaque jour.\n
 OpenTrainStop
@@ -505,7 +537,9 @@ Radar
 radiant_house
 Maison Radieuse\nBâtiment de Le Corbusier\nC'est la coopérative de propriétaires qui gère la résidence.
 RADIO_TOWER_0
-C'est le studio de la radio\nlocale "Chit-Chat FM". Un\ncertain nombre de\npersonnes s'y rendent, car\nla radio a promi de laisser\nles spectateurs à y venir,\nchaque jour, de 13h00 à\n14h00.\n
+Radio Chit-Chat FM\n\nC'est le studio de la radio\nlocale "Chit-Chat FM". Un\ncertain nombre de\npersonnes s'y rendent, car\nla radio a promis de laisser\ndes auditeurs passer à l'antenne,\nchaque jour, de 13h00 à\n14h00.\n
+ramp_tile_high
+Rampe d'accès
 RES_00_01
 Le camp des campeurs\njoyeux, c'est le lieu de \nrencontre pour avoir du\nplaisir à l'extérieur.\nSitué en ville, les feux\nde camps sont permis.\nPlusieurs campeurs vont pêcher\nleurs repas dans l'étang de\nla ville.
 RES_00_02
@@ -525,7 +559,7 @@ Le dictateur Bienveillant.\n\nLe Dictateur Bienveillant (qui de la main agit)\n-
 rmax_fabio_bust
 Fagonellus Romanus\n\nLe buste de Fabio, aussi appelé "Fagonellus".\nLes gens viennent en masse admirer ce monument,\nà la gloire de ses simcréations.
 rmax_icarus
-Rampe de lancement "Icarus"\n\nCet endroit est le lieu\nd'où Icarus inc., première compagnie à maitriser\n la technique de lancement des satellites,\ntire ses fusées.\nA coté de l'importance économique de ce lieu\nc'est aussi un lieu hautement touristique,\noù les gens affluent pour voir la fusée Ariane décoller.
+Rampe de lancement "Icarus"\n\nCet endroit est le lieu\nd'où Icarus inc., première compagnie à maîtriser\n la technique de lancement des satellites,\ntire ses fusées.\nA côté de l'importance économique de ce lieu\nc'est aussi un lieu hautement touristique,\noù les gens affluent pour voir la fusée Ariane décoller.
 rmax_mosque
 Mosquée As-Salem\n\nA chaque fois que le muezzin\nchante du haut du plus haut minaret,\nles musulmans du Simunivers s'arrêtent pour prier.\nAs Salem est l'un des noms d'Allah\net signifie "La Paix".
 ROCK_0
@@ -533,7 +567,7 @@ Mont-St-Patrick\n\nLe "Mont-Saint-Patrick" attire beaucoup de\ngéologues qui son
 RUIN_0
 Cela a eut été un château\ngothique. Mais le\npropriétaire a réalisé que le\nchâteau n'est pas un bon\nendroit pour vivre au 20ème\nsiècle. Alors il a été\ntransformé en luna park\nmédéival.  Des volées de\ntouristes viennent pour voir\nde l'art moyen-âgeux, des\ncombats d'épées, des\nsièges de château, pour\nparticiper au cortège, faire du\ncheval, boire une bierre du\nmoyen-âge ou voir les expos.\n
 RUIN_1
-C'est la ruine d'un château\ntrès connu. Beaucoup de\nchapitres de l'histoire ont\nété écrit ici. C'est un vrai\nattraction pour les tourites\ndu monde entier. Tout le\nmonde est enthousiaste\nquand il s'agit d'aller le\nvoir. Et puis,... ne\nsont-elles pas romantiques\nces ruines, après tout ?\n
+Ruine d'un château très connu\n\nBeaucoup de\nchapitres de l'histoire ont\nété écrit ici. C'est une vraie\nattraction pour les touristes\ndu monde entier. Tout le\nmonde est enthousiaste\nquand il s'agit d'aller le\nvoir. Et puis,... ne\nsont-elles pas romantiques\nces ruines, après tout ?\n
 Russian_Cathedral
 Cathédrale Russe\n\nLa Cathédrale de Basile le Bienheureux\na été commandée par Ivan le Terrible.\nCe qui est terrible,\nc'est que l'on raconte que l'architecte y aurait perdu les yeux.\nMais vous pouvez la visiter,\nsans que celà ne vous coûte les yeux de la tête !\n
 Sacred_heart_church
@@ -559,7 +593,7 @@ Terrain de Rugby\n Stade d'entrainement\npour le top 14\nUn accès pour les ambul
 Suspended_Monorail_Bahnhof_Modern
 Arrêt pour monorail
 tennis_court
-Club de tennis\n Ce club de la ville participent\naux tournois les plus prestigieux de la région\nmais il sert aussi d'apprentissage aux plus jeunes\n à la promotion de la pratique du sport\n et d'un certain style vie.
+Club de tennis\n\nCe club de la ville participe\naux tournois les plus prestigieux de la région\nmais il sert aussi d'apprentissage aux plus jeunes\n à la promotion de la pratique du sport\n et d'un certain style de vie.
 Terminal1930_AirportBlg
 Aérogare pionnier
 Terminal1950_AirportBlg_S
@@ -894,6 +928,8 @@ NoEntry
 Rue unisens
 OneWaySignals
 Panneau de sens unique (modèle standard)
+Railgate
+Clôture ferroviaire
 RoadClosed
 Barrage
 Signal_Monorail
@@ -910,6 +946,34 @@ tree110
 Sapin de montagne\n\n
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
+PowerTunnel
+Tunnel pour conduits électriques
+Rail_Track_080_Tunnel
+Tunnel pour voie avec traverses en bois
+Rail_Track_080B_Tunnel
+Tunnel pour voie de marchandises
+Rail_Track_100_Tunnel
+Tunnel avec traverses en bois
+Rail_Track_120_Tunnel
+Tunnel rapide avec traverses en bois
+Rail_Track_120B_Tunnel
+Tunnel rapide pour marchandises
+Rail_Track_140_Tunnel
+Tunnel express
+Rail_Track_160_Tunnel
+Tunnel express améliorée
+Rail_Track_180_Tunnel
+Tunnel pour service régional
+Rail_Track_200_Tunnel
+Tunnel express de haute qualitée
+Rail_Track_240_Tunnel
+Tunnel express
+Rail_Track_280_Tunnel
+Tunnel à haute vitesse
+Rail_Track_320_Tunnel
+Tunnel à haute vitesse moderne
+Rail_Track_400_Tunnel
+Tunnel à haute vitesse améliorée
 road_050_tunnel
 tunnel et rue à 50 km/h
 #____________________________________vehicle____________________________________
@@ -1668,8 +1732,56 @@ Ford V8 coe (bois)
 #______________________________________way______________________________________
 air_movement_area
 Taxiway moderne
+PowerConduits
+Conduits électriques
 Powerline
 Ligne a haute tension
+Rail_Track_060
+Vieille voie de marchandise
+Rail_Track_080
+Vieille voie avec traverses en bois
+Rail_Track_080B
+Voie pour marchandises
+Rail_Track_100
+Voie avec traverses en bois
+Rail_Track_120
+Voie rapide avec traverses en bois
+Rail_Track_120_Elevated
+Voie élevée rapide avec traverses en bois
+Rail_Track_120B
+Voie rapide pour marchandises
+Rail_Track_140
+Voie express
+Rail_Track_140_Elevated
+Voie élevée express
+Rail_Track_160
+Voie express améliorée
+Rail_Track_160_Elevated
+Voie élevée express améliorée
+Rail_Track_180
+Voie pour service régional
+Rail_Track_180_Elevated
+Voie élevée pour service régional
+Rail_Track_200
+Voie express de haute qualitée
+Rail_Track_200_Elevated
+Voie élevée express de haute qualitée
+Rail_Track_240
+Voie express
+Rail_Track_240_Elevated
+Voie élevée express
+Rail_Track_280
+Voie à haute vitesse
+Rail_Track_280_Elevated
+Voie élevée à haute vitesse
+Rail_Track_320
+Voie à haute vitesse moderne
+Rail_Track_320_Elevated
+Voie élevée à haute vitesse moderne
+Rail_Track_400
+Voie à haute vitesse améliorée
+Rail_Track_400_Elevated
+Voie élevée à haute vitesse améliorée
 runway_modern
 Aérodrome 
 Schwebebahn_p_ground
