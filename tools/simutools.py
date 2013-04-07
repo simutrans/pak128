@@ -550,4 +550,23 @@ def getPNGsize(filename) :
 
 #-----
 
+def loadTranslation(filename, table, test_prolog=True) :
+	"""Load a translation file and insert its contents into given dictionary
+	
+	Open file "filename" and insert its content into dictionary "table".
+	If "test"prolog" is true, the translation format is automagically detected.
+	No checks are done to convert encoding!
+	"""
+	f = open(filename)
+	lines = f.readlines()
+	f.close()
+	if test_prolog and (lines[1].strip() == "PROP_FONT_FILE") :
+		# assuming translator output format!
+		del lines[:3]
+		# first line language name, second PROP_FONT_FILE, third font file path
+	for i in range(int(len(lines)/2)) :
+		table[lines[i*2][:-1]] = lines[i*2+1][:-1]
+
+#-----
+
 # EOF
