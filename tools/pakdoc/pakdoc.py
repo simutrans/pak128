@@ -39,6 +39,7 @@ png_cache_size = 8
 #-----
 
 SIMUBK = (231,255,255)
+MONTHS = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
 #-----
 
@@ -204,14 +205,14 @@ def get_paksize(obj) :
 translations = {}
 def load_translations() :
 	for filename in translation_paths :
-		f = open(filename)
-		lines = f.readlines()
-		f.close()
-		if lines[1].strip() == "PROP_FONT_FILE" :
-			# assuming translator output format!
-			del lines[:3]
-		for i in range(int(len(lines)/2)) :
-			translations[lines[i*2][:-1]] = lines[i*2+1][:-1]
+		simutools.loadTranslation(filename, translations, True)
+	translations.update({
+		"waytype":"way type",
+		"topspeed":" max. speed",
+		"runningcost":"running cost",
+		"intro":"introduction",
+		"retire":"retirement",
+	})
 
 #-----
 
@@ -278,12 +279,12 @@ def generate_ways() :
 	way_nav = """<p class="nav">Waytypes: [ %s ]</p>\n""" % (" | ".join(links))
 	
 	# generate total overview
-	main_params = ["icon", "name", "waytype", "topspeed", "cost", "maintenance", "intro_year", "retire_year"] #!!!!
+	main_params = ["icon", "name", "waytype", "topspeed", "cost", "maintenance", "intro", "retire"] #!!!!
 	mainf = open(local_filename("ways_all.html"), 'w')
 	mainf.write(html_start("Way overview, all types"))
 	mainf.write(way_nav)
 	mainf.write(html_h1("Way overview, all types"))
-	heads = ["<th>%s</th>" % p for p in main_params]
+	heads = ["<th>%s</th>" % _(p) for p in main_params]
 	heads[0] = """<th class="sorttable_nosort">icon</th>"""
 	mainf.write("""<table class="sortable">\n<thead>%s</thead>\n""" % "".join(heads))
 	
@@ -307,10 +308,6 @@ def generate_ways() :
 	# generate individual objects
 	for obj in all_ways :
 		name = obj.ask("name")
-		f = open(local_filename(obj.fname, "ways"), 'w')
-		f.write(html_start(_(name), 1))
-		f.write(way_nav)
-		f.write(html_h1(_(name)))
 		# icon
 		icon = compose_way_icon(obj)
 		pygame.image.save(icon, local_filename(obj.iconname, "ways"))
@@ -318,19 +315,22 @@ def generate_ways() :
 		mainimage = compose_way_image(obj)
 		imagename = "%s_image.%s" % (obj.cname, imgformat)
 		pygame.image.save(mainimage, local_filename(imagename, "ways"))
-		# output to own file
+		# prepare values
 		params = {}
-		detail_params = ["icon", "name", "waytype", "topspeed", "cost", "maintenance", "intro_year", "intro_month", "retire_year", "retire_month"] #!!!!
-		for param in detail_params :
-			params[param] = obj.ask(param, "-")
-		type = obj.ask("obj")
-		if type=="way" and obj.ask("system_type")=="1" :
-			params["type"] = "elevated"
-		else :
-			params["type"] = type
 		params["icon"] = html_img(obj.iconname)
-		f.write(html_img(imagename))
-		f.write(html_deflist(params))
+		params["name"] = name
+		params["waytype"] = obj.ask("waytype", "-")
+		params["topspeed"] = obj.ask("topspeed", "-")
+		params["cost"] = obj.ask("cost", "-")
+		params["maintenance"] = obj.ask("maintenance", "-")
+		intro_month = int(obj.ask("intro_month", "1"))
+		intro_year = int(obj.ask("intro_year", "-1"))
+		params["intro"] = "%s %d" % (MONTHS[intro_month], intro_year) if intro_year>-1 else "-"
+		intro_sort = "%d+%s" % (intro_year, intro_month)
+		retire_month = int(obj.ask("retire_month", "1"))
+		retire_year = int(obj.ask("retire_year", "-1"))
+		params["retire"] = "%s %d" % (MONTHS[retire_month], retire_year) if retire_year>-1 else "-"
+		retire_sort = "%d+%s" % (retire_year, retire_month)
 		# output to overviews
 		params["icon"] = """<a href="ways/%s"><img src="ways/%s" /></a>""" % (obj.fname, obj.iconname)
 		params["name"] = """<a href="ways/%s">%s</a>""" % (obj.fname, _(name))
@@ -338,7 +338,39 @@ def generate_ways() :
 		table_line = """<tr>%s</tr>\n""" % "".join(table_cells)
 		mainf.write(table_line)
 		loc_f[params["waytype"]].write(table_line)
-		# finalize own file
+		# prepare values for writing own file
+		type = obj.ask("obj")
+		if type=="way" and obj.ask("system_type")=="1" :
+			type = "elevated"
+		if intro_year > -1 :
+			if retire_year > -1 :
+				# both dates set
+				timeline = params["intro"] + " - " + params["retire"]
+			else :
+				# only intro
+				timeline = "since " + params["intro"]
+		else :
+			if retire_year > -1 :
+				# only retire
+				timeline = "until " + params["retire"]
+			else :
+				# no timeline
+				timeline = "always available"
+		# output to own file
+		f = open(local_filename(obj.fname, "ways"), 'w')
+		f.write(html_start(_(name), 1))
+		f.write(way_nav)
+		f.write(html_h1(_(name)))
+		f.write(html_img(imagename))
+		f.write("""<table class="parameters"><tbody>\n""")
+		f.write("<tr><td>internal name</td><td>%s</td></tr>" % name)
+		f.write("<tr><td>%s</td><td>%s</td></tr>" % (_("waytype"), _(params["waytype"])))
+		f.write("<tr><td>type</td><td>%s</td></tr>" % _(type))
+		f.write("<tr><td>%s</td><td>%s</td></tr>" % (_("topspeed"), _(params["topspeed"])))
+		f.write("<tr><td>%s</td><td>%s</td></tr>" % (_("cost"), params["cost"]))
+		f.write("<tr><td>%s</td><td>%s</td></tr>" % (_("maintenance"), params["maintenance"]))
+		f.write("<tr><td>timeline</td><td>%s</td></tr>" % timeline)
+		f.write("</tbody></table>\n")
 		f.write(html_end())
 		f.close()
 		
@@ -599,7 +631,7 @@ def generate_vehicles() :
 	goods = ["all"] + list(goods_types)
 	wtg_table = list(product(waytypes, goods)) # list of tuples (wt,gt)
 	
-	main_params = ["icon", "name", "waytype", "speed", "power", "freight", "payload", "cost", "runingcost", "intro_year", "retire_year"] #!!!!
+	main_params = ["icon", "name", "waytype", "speed", "power", "freight", "payload", "cost", "runningcost", "intro_year", "retire_year"] #!!!!
 	heads = ["<th>%s</th>" % _(p) for p in main_params]
 	heads[0] = """<th class="sorttable_nosort">image</th>"""
 	table_header = """<thead>%s</thead>""" % ("".join(heads))

@@ -91,9 +91,27 @@ table img, dl img {
 table.constraints td {
 	background: none;
 	vertical-align: middle;
+	text-align: center;
+}
+
+table.constraints img {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 table.constraints td.this {
 	border-left: 1px solid navy;
 	border-right: 1px solid navy;
+	position: relative;
 }
+
+table.parameters {
+	margin: 1em 0 1em 268px;
+}
+
+table.parameters td:first-child {
+	background: navy;
+	font-weight: bold;
+	color: white;
+}
+
