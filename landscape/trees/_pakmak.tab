@@ -1,3 +1,4 @@
 OPTIONS
 compile yes
 merge trees.all.pak
+# There's relatively little sense in allowing users to manipulate single trees, usually they are only all deleted for network games.
