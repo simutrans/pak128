@@ -1,10 +1,6 @@
-#
-#                                Cars Tier 9
-#
-#-------------------------------------------------------------------------------
 Obj=citycar
 Name=ms_megane_green
-copyright=Propermike
+copyright=Propermike & Tazze
 DistributionWeight=3
 intro_year=2001
 intro_month=1
