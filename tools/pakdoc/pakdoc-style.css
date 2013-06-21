@@ -63,11 +63,11 @@ h1 {
 }
 
 dl {
-	margin: 1em 0 1em 140px;
+	margin: 1em 0 1em 268px;
 }
 
-.vehicle dl {
-	margin-left: 268px;
+.way dl {
+	margin-left: 140px;
 }
 
 dt{

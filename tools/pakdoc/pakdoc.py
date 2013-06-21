@@ -281,7 +281,7 @@ def generate_ways() :
 	# generate total overview
 	main_params = ["icon", "name", "waytype", "topspeed", "cost", "maintenance", "intro", "retire"] #!!!!
 	mainf = open(local_filename("ways_all.html"), 'w')
-	mainf.write(html_start("Way overview, all types"))
+	mainf.write(html_start("Way overview, all types", 0, "way"))
 	mainf.write(way_nav)
 	mainf.write(html_h1("Way overview, all types"))
 	heads = ["<th>%s</th>" % _(p) for p in main_params]
@@ -396,8 +396,6 @@ def compose_building_icon(obj) :
 def compose_building_image(obj) :
 	# handle "any" size, height and shape of building - but assume max. 4x4x3 (x,y,z) dictated by buffer size
 	# TODO: offsets!
-	buffer.fill((0,0,0))
-	buffer.set_colorkey((0,0,0))
 	buffer.fill(SIMUBK)
 	for z in range(3) : # outermost iteration must be over height!
 		for x in range(4) :
@@ -422,12 +420,17 @@ def compose_building_image(obj) :
 	buffer.set_colorkey(SIMUBK)
 	img = autocrop_image(buffer)
 	# img is now the whole item without borders
-	if img.get_width() <= 128 :
-		return img # this is good enough
+	if img.get_width() <= 256 :
+		img2 = img # this is good enough
 	else :
 		# need downsampling
-		ratio = 128 / img.get_width()
-		return pygame.transform.scale(img, (128, int(img.get_height()*ratio)))
+		ratio = 256 / img.get_width()
+		img2 = pygame.transform.scale(img, (256, int(img.get_height()*ratio)))
+	# now put icon 1:1 and the maybe-squashed image right under it
+	buffer.fill(SIMUBK)
+	buffer.blit(compose_building_icon(obj), [0,0])
+	buffer.blit(img2, [0,32])
+	return autocrop_image(buffer)
 
 #-----
 
@@ -468,7 +471,7 @@ def generate_stations() :
 	stat_nav = """<p class="nav">waytypes: [ %s ]</p>\n""" % (" | ".join(links))
 	
 	# generate total overview
-	main_params = ["icon", "name", "waytype", "enables", "level", "intro_year", "retire_year"] #!!!!
+	main_params = ["icon", "name", "waytype", "enables", "level", "intro", "retire"] #!!!!
 	mainf = open(local_filename("stations_all.html"), 'w')
 	mainf.write(html_start("Station overview - all types"))
 	mainf.write(stat_nav)
@@ -493,36 +496,65 @@ def generate_stations() :
 	links.insert(0, """<a href="../stations_all.html">all (%d)</a>""" % len(Items["station"]))
 	stat_nav = """<p class="nav">waytypes: [ %s ]</p>\n""" % (" | ".join(links))
 	
+	# generate individual objects
 	for obj in Items["station"] :
 		name = obj.ask("name")
-		f = open(local_filename(obj.fname, "stations"), 'w')
-		f.write(html_start(_(name), 1))
-		f.write(stat_nav)
-		f.write(html_h1(_(name)))
 		# icon
 		icon = compose_building_icon(obj)
 		pygame.image.save(icon, local_filename(obj.iconname, "stations"))
-		# image composed from overlaid backimages and frontimages
+		# image composed from overlaid backimages and frontimages and icon
 		mainimage = compose_building_image(obj)
 		imagename = "%s_image.%s" % (obj.cname, imgformat)
 		pygame.image.save(mainimage, local_filename(imagename, "stations"))
-		f.write(html_img(imagename))
-		# output to own file
+		# prepare values
 		params = {}
-		detail_params = ["icon", "name", "type", "waytype", "enables", "level", "intro_year", "intro_month", "retire_year", "retire_month"] #!!!!
-		for param in detail_params :
-			params[param] = obj.ask(param, "-")
-		params["icon"] = """<img src="%s" />""" % obj.iconname
-		params["waytype"] = obj.ask("waytype", "none")
-		f.write(html_deflist(params))
-		# output to overviews
 		params["icon"] = """<a href="stations/%s"><img src="stations/%s" /></a>""" % (obj.fname, obj.iconname)
 		params["name"] = """<a href="stations/%s">%s</a>""" % (obj.fname, _(name))
+		params["waytype"] = obj.ask("waytype", "none")
+		params["enables"] = obj.ask("enables", "-")
+		params["level"] = obj.ask("level", "-")
+		intro_month = int(obj.ask("intro_month", "1"))
+		intro_year = int(obj.ask("intro_year", "-1"))
+		params["intro"] = "%s %d" % (MONTHS[intro_month], intro_year) if intro_year>-1 else "-"
+		intro_sort = "%d+%s" % (intro_year, intro_month)
+		retire_month = int(obj.ask("retire_month", "1"))
+		retire_year = int(obj.ask("retire_year", "-1"))
+		params["retire"] = "%s %d" % (MONTHS[retire_month], retire_year) if retire_year>-1 else "-"
+		retire_sort = "%d+%s" % (retire_year, retire_month)
+		# output to overviews
 		table_cells = ["<td>%s</td>" % _(params[p]) for p in main_params]
 		table_line = """<tr>%s</tr>\n""" % "".join(table_cells)
 		mainf.write(table_line)
 		loc_f[params["waytype"]].write(table_line)
-		# finalize own file
+		# prepare values for writing own file
+		if intro_year > -1 :
+			if retire_year > -1 :
+				# both dates set
+				timeline = params["intro"] + " - " + params["retire"]
+			else :
+				# only intro
+				timeline = "since " + params["intro"]
+		else :
+			if retire_year > -1 :
+				# only retire
+				timeline = "until " + params["retire"]
+			else :
+				# no timeline
+				timeline = "always available"
+		# output to own file
+		f = open(local_filename(obj.fname, "stations"), 'w')
+		f.write(html_start(_(name), 1))
+		f.write(stat_nav)
+		f.write(html_h1(_(name)))
+		f.write(html_img(imagename))
+		f.write("""<table class="parameters"><tbody>\n""")
+		f.write("<tr><td>internal name</td><td>%s</td></tr>" % name)
+		f.write("<tr><td>%s</td><td>%s</td></tr>" % (_("waytype"), _(params["waytype"])))
+		f.write("<tr><td>type</td><td>%s</td></tr>" % _(type))
+		f.write("<tr><td>%s</td><td>%s</td></tr>" % (_("enables"), _(params["enables"])))
+		f.write("<tr><td>%s</td><td>%s</td></tr>" % (_("level"), params["level"]))
+		f.write("<tr><td>timeline</td><td>%s</td></tr>" % timeline)
+		f.write("</tbody></table>\n")
 		f.write(html_end())
 		f.close()
 		
@@ -687,7 +719,7 @@ def generate_vehicles() :
 	for obj in Items["vehicle"] :
 		name = obj.ask("name")
 		f = open(local_filename(obj.fname, "vehicles"), 'w')
-		f.write(html_start(_(name), 1, "vehicle"))
+		f.write(html_start(_(name), 1))
 		# navigations - need way and goods type
 		wt = obj.ask("waytype")
 		gt = obj.ask("goods", "None")
