@@ -87,7 +87,7 @@ function get_served_airports()
 {
 	local served = 0
 	foreach(airp in airports) {
-		local halt = square_x( airp.pos[0], airp.pos[1] ).halt
+		local halt = square_x( airp.pos[0], airp.pos[1] ).get_ground_tile().get_halt()
 		local flying_pax = halt.happy.reduce( sum )
 		if (flying_pax > 0) {
 			served ++
