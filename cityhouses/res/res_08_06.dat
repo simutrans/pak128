@@ -6,6 +6,7 @@ level=6
 intro_year=1950
 retire_year=2010
 climates=temperate,tundra,rocky
+needs_ground=1
 Dims=1,1,4
 backimage[0][0][0][0][0][0]=res_08_06.1.0
 backimage[1][0][0][0][0][0]=res_08_06.1.1
