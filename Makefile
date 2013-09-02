@@ -45,10 +45,13 @@ DIRS128 += factories/powerplants
 DIRS128 += cityhouses/com 
 DIRS128 += cityhouses/ind
 DIRS128 += cityhouses/res 
+DIRS128 += special_buildings/city
+DIRS128 += special_buildings/landscape
 DIRS128 += special_buildings/monuments
 DIRS128 += special_buildings/townhalls
 DIRS128 += citycars
-DIRS128 += trees
+DIRS128 += landscape/trees
+DIRS128 += landscape/groundobj_static
 DIRS128 += base
 
 BASE128 :=
@@ -62,24 +65,27 @@ BASE128 += headquarters
 BASE128 += pedestrians
 BASE128 += powerlines
 BASE128 += rail_bridges
+BASE128 += rail_elevated
 BASE128 += rail_signals
 BASE128 += rail_stations
 BASE128 += rail_tracks
+BASE128 += rail_tunnels
 BASE128 += road_bridges
+BASE128 += road_elevated
 BASE128 += road_signs
 BASE128 += road_stops
+BASE128 += road_tunnels
 BASE128 += roads
 BASE128 += schwebebahn_all
 BASE128 += smokes
 BASE128 += station_buildings
 BASE128 += tram_tracks
-BASE128 += tunnels_all
 BASE128 += water_all
 
 DIRS128 += $(addprefix base/,$(BASE128))
 
 #those two will get special treatment below
-DIRGROUNDS:= base/grounds
+DIRGROUNDS:= landscape/grounds
 DIRLOGO := base/misc_GUI
 
 
