@@ -263,25 +263,26 @@ function resume_game()
 
 // no bridge across any of these tiles
 coventry_sound <- [
-	{x=1536, y=127},
-	{x=1536, y=97},
-	{x=1548, y=97},
-	{x=1548, y=47},
-	{x=1585, y=47},
-	{x=1585, y=20},
+	{x=1537, y=127},
+	{x=1536, y=98},
+	{x=1547, y=97},
+	{x=1548, y=46},
+	{x=1584, y=47},
+	{x=1585, y=19},
 	{x=1598, y=20},
-	{x=1598, y=0}
+	{x=1599, y=0}
 ]
+coventry_sound_tools <- [tool_build_bridge, tool_raise_land, tool_lower_land, tool_setslope, tool_restoreslope ]
+
 const err_no_bridge = "The fish industry does not allow to interfere with its enterprises in Coventry sound."
 
 function set_rule_bridge_coventry_sound(forbid)
 {
+	local func = forbid == 1 ? rules.forbid_way_tool_rect : rules.allow_way_tool_rect;
+
 	for(local i=0; i<coventry_sound.len()-1; i++) {
-		if (forbid == 1) {
-			rules.forbid_way_tool_rect(player_all, tool_build_bridge, wt_all, coventry_sound[i], coventry_sound[i+1], err_no_bridge)
-		}
-		else {
-			rules.allow_way_tool_rect(player_all, tool_build_bridge, wt_all, coventry_sound[i], coventry_sound[i+1])
+		foreach(tool in coventry_sound_tools) {
+			func(player_all, tool, wt_all, coventry_sound[i], coventry_sound[i+1], err_no_bridge)
 		}
 	}
 }
