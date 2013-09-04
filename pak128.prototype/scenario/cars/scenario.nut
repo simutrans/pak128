@@ -12,13 +12,13 @@ function get_rule_text(pl)
 
 function get_goal_text(pl)
 {
-	return @"Supply the car seller at (86,35). <br><br>
+	return @"Supply the car seller at <a href = '(86,35)'>(86,35)</a>. <br><br>
 	The scenario is won if car shop starts selling."
 }
 
 function get_info_text(pl)
 {
-	return @"Your transport company is engaged to help the people of Steinenbruck to be able to leave the wilderness."
+	return @"Your transport company is engaged to help the people of <a href = '(88,29)'>Steinenbruck</a> to be able to leave the wilderness."
 }
 
 function get_result_text(pl)
@@ -35,7 +35,7 @@ function get_result_text(pl)
 }
 
 // accessor to the car statistics
-local car_slot = null
+car_slot <- null
 
 function start()
 {
