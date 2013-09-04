@@ -3,7 +3,7 @@
  */
 
 /// version of script
-local version = 2
+version <- 2
 // version 0: initial
 // version 1: corrected forbidden tools on hudson river
 // version 2: new savegame, jfk airport moved
@@ -47,11 +47,11 @@ function get_result_text(pl)
 	return text1.tostring() + "<br><br>" + text2.tostring() + "<br><br>" + text3.tostring()
 }
 
-local city_midtown = null
+city_midtown <- null
 
 // just save positions
 // halt handles might get invalid, if player makes own halt public
-local airports = {
+airports <- {
 	jfk = { /* will be set in resume_game to persistent.jfk */ }
 	lag = { pos = [601, 265] }
 	new = { pos = [207, 731] }
@@ -142,10 +142,10 @@ function resume_game()
 }
 
 
-local governors_island = { x1=418, x2=437, y1=617, y2=650 }
+governors_island <- { x1=418, x2=437, y1=617, y2=650 }
 
 // no bridge across any of these tiles
-local hudson_river = [
+hudson_river <- [
 	{x=390, y=617},
 	{x=373, y=532},
 	{x=350, y=512},
@@ -156,8 +156,8 @@ local hudson_river = [
 	{x=308, y=0}
 ]
 
-local tools_not_allowed_on_hudson = [tool_build_bridge, tool_build_tunnel, tool_raise_land, tool_setslope]
-local error_hudson = [
+tools_not_allowed_on_hudson <- [tool_build_bridge, tool_build_tunnel, tool_raise_land, tool_setslope]
+error_hudson <- [
 	"No new bridge allowed across Hudson River.",
 	"No new tunnel allowed under Hudson River.",
 	"No terraforming allowed on Hudson River. It would destroy the legendary view.",
@@ -187,7 +187,7 @@ function is_work_allowed_here(pl, tool_id, pos)
 
 // ----------- compatibility code follows --------------------------------------------------
 // version 0 of scenario had different forbidden rectangles
-local hudson_river_compatibility = [
+hudson_river_compatibility <- [
 	[ // version 0
 		{x=393, y=617},
 		{x=382, y=532},

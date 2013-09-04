@@ -59,7 +59,7 @@ function is_work_allowed_here(pl, tool_id, pos)
 	return null // null is equivalent to 'allowed'
 }
 
-local halt = null
+halt <- null
 
 function start()
 {

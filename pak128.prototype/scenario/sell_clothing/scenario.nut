@@ -262,7 +262,7 @@ function resume_game()
 }
 
 // no bridge across any of these tiles
-local coventry_sound = [
+coventry_sound <- [
 	{x=1536, y=127},
 	{x=1536, y=97},
 	{x=1548, y=97},
@@ -272,7 +272,7 @@ local coventry_sound = [
 	{x=1598, y=20},
 	{x=1598, y=0}
 ]
-local err_no_bridge = "The fish industry does not allow to interfere with its enterprises in Coventry sound."
+const err_no_bridge = "The fish industry does not allow to interfere with its enterprises in Coventry sound."
 
 function set_rule_bridge_coventry_sound(forbid)
 {
