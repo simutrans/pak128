@@ -1,0 +1,88 @@
+
+Obj=factory
+name=Corn_Farm
+copyright=Sarlock
+
+Location=Land
+DistributionWeight=1
+
+Productivity=100
+Range=200
+
+Electricity_boost=0
+Electricity_amount=0
+Mail_demand=0
+Mail_boost=0
+Passenger_demand=5
+Passenger_boost=500
+
+OutputGood[0]=corn
+OutputCapacity[0]=400
+
+intro_year=1880
+
+MapColor=215
+Dims=2,2,4
+climates=mediterran,temperate
+needs_ground=1
+
+max_fields=80
+min_fields=10
+production_per_field=5
+fields=corn_field
+
+# North Summer
+BackImage[0][0][0][0][0][0]=corn_farm.2.0
+BackImage[0][0][1][0][0][0]=corn_farm.2.1
+BackImage[0][1][0][0][0][0]=corn_farm.3.0
+BackImage[0][1][1][0][0][0]=corn_farm.3.1
+# West Summer
+BackImage[1][0][0][0][0][0]=corn_farm.0.0
+BackImage[1][0][1][0][0][0]=corn_farm.0.1
+BackImage[1][1][0][0][0][0]=corn_farm.1.0
+BackImage[1][1][1][0][0][0]=corn_farm.1.1
+# South Summer
+BackImage[2][0][0][0][0][0]=corn_farm.0.2
+BackImage[2][0][1][0][0][0]=corn_farm.0.3
+BackImage[2][1][0][0][0][0]=corn_farm.1.2
+BackImage[2][1][1][0][0][0]=corn_farm.1.3
+# East Summer
+BackImage[3][0][0][0][0][0]=corn_farm.2.2
+BackImage[3][0][1][0][0][0]=corn_farm.2.3
+BackImage[3][1][0][0][0][0]=corn_farm.3.2
+BackImage[3][1][1][0][0][0]=corn_farm.3.3
+
+# North Winter
+BackImage[0][0][0][0][0][1]=corn_farm.0.6
+BackImage[0][0][1][0][0][1]=corn_farm.0.7
+BackImage[0][1][0][0][0][1]=corn_farm.1.6
+BackImage[0][1][1][0][0][1]=corn_farm.1.7
+# West Winter
+BackImage[1][0][0][0][0][1]=corn_farm.2.6
+BackImage[1][0][1][0][0][1]=corn_farm.2.7
+BackImage[1][1][0][0][0][1]=corn_farm.3.6
+BackImage[1][1][1][0][0][1]=corn_farm.3.7
+# South Winter
+BackImage[2][0][0][0][0][1]=corn_farm.2.4
+BackImage[2][0][1][0][0][1]=corn_farm.2.5
+BackImage[2][1][0][0][0][1]=corn_farm.3.4
+BackImage[2][1][1][0][0][1]=corn_farm.3.5
+# East Winter
+BackImage[3][0][0][0][0][1]=corn_farm.0.4
+BackImage[3][0][1][0][0][1]=corn_farm.0.5
+BackImage[3][1][0][0][0][1]=corn_farm.1.4
+BackImage[3][1][1][0][0][1]=corn_farm.1.5
+
+----------------------------------
+
+obj=field
+name=corn_field
+copyright=Sarlock
+
+Image[0]=corn_farm.4.3
+Image[1]=corn_farm.4.0
+Image[2]=corn_farm.4.1
+Image[3]=corn_farm.4.2
+Image[4]=corn_farm.4.4
+
+# EOF
