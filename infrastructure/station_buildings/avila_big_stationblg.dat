@@ -1,0 +1,17 @@
+
+Obj=building
+Name=Avila_Big_StationBlg
+type=extension
+waytype=track
+enables_pax=1
+enables_post=1
+Level=18
+copyright=Raven
+intro_year = 1824
+intro_month = 1
+NoInfo=1
+BackImage[0][0][0][0][0]=avila_big_stationblg.2.0
+BackImage[0][0][0][1][0]=avila_big_stationblg.1.0
+icon=> avila_big_stationblg.1.1
+cursor=avila_big_stationblg.1.2
+

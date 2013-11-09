@@ -1,0 +1,14 @@
+
+Obj=building
+Name=Gas_StationBlg
+type=extension
+enables_ware=1
+Level=6
+intro_year = 1951
+intro_month = 1
+copyright=Raven
+NoInfo=1
+BackImage[0][0][0][0][0]=gas_stationblg.1.0
+icon=> gas_stationblg.1.1
+cursor=gas_stationblg.1.2
+

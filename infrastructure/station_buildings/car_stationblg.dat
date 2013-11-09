@@ -1,0 +1,14 @@
+
+Obj=building
+Name=Car_StationBlg
+type=extension
+enables_ware=1
+Level=3
+copyright=Vladimir Slavik
+intro_year = 1957
+intro_month = 1
+NoInfo=1
+BackImage[0][0][0][0][0]=car_stationblg.1.0
+icon=> car_stationblg.1.1
+cursor=car_stationblg.1.2
+

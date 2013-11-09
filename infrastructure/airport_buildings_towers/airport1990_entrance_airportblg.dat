@@ -1,0 +1,22 @@
+
+Obj=building
+Name=Airport1990_Entrance_AirportBlg
+copyright=MHz
+type=extension
+waytype=air
+NoInfo=1
+Dims=1,1,4
+#enables_pax=1
+#enables nothing
+Level=4
+intro_year = 1989
+intro_month = 10
+#retire_year = 2040
+#retire_month = 1
+cursor=airport1990_entrance_airportblg.1.5
+icon=> airport1990_entrance_airportblg.1.4
+BackImage[0][0][0][0][0]=airport1990_entrance_airportblg.1.0
+BackImage[1][0][0][0][0]=airport1990_entrance_airportblg.1.1
+BackImage[2][0][0][0][0]=airport1990_entrance_airportblg.1.2
+BackImage[3][0][0][0][0]=airport1990_entrance_airportblg.1.3
+

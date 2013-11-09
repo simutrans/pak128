@@ -1,0 +1,50 @@
+
+Obj=building
+Name=CargoHighStop
+type=stop
+waytype=road
+copyright=Vladimir Slavik & Fabio Gonella
+enables_ware=1
+NoInfo=1
+Dims=1,1,8
+Level=2
+allow_underground=2
+intro_year=1960
+intro_month=1
+
+icon=> cargohighstop.3.0
+cursor=cargohighstop.3.2
+
+# / middle
+BackImage[0][0][0][0][0]=cargohighstop.1.3
+FrontImage[0][0][0][0][0]=cargohighstop.2.3
+
+# \ middle
+BackImage[1][0][0][0][0]=cargohighstop.1.4
+FrontImage[1][0][0][0][0]=cargohighstop.2.4
+
+# / near end
+BackImage[2][0][0][0][0]=cargohighstop.1.2
+FrontImage[2][0][0][0][0]=cargohighstop.2.2
+
+# \ near end
+BackImage[3][0][0][0][0]=cargohighstop.1.5
+FrontImage[3][0][0][0][0]=cargohighstop.2.5
+
+# / far end
+BackImage[4][0][0][0][0]=cargohighstop.1.1
+FrontImage[4][0][0][0][0]=cargohighstop.2.1
+
+# \ far end
+BackImage[5][0][0][0][0]=cargohighstop.1.6
+FrontImage[5][0][0][0][0]=cargohighstop.2.6
+
+# / single
+BackImage[6][0][0][0][0]=cargohighstop.1.0
+FrontImage[6][0][0][0][0]=cargohighstop.2.0
+
+# \ single
+BackImage[7][0][0][0][0]=cargohighstop.1.7
+FrontImage[7][0][0][0][0]=cargohighstop.2.7
+
+# EOF

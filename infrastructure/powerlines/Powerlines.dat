@@ -1,0 +1,171 @@
+#------------------------------------------------------------------------------#
+#                                                                              #
+#                                 Power Lines                                  #
+#                                                                              #
+--------------------------------------------------------------------------------
+Obj=misc
+Name=PowerSource
+copyright=MHz
+Image[0]=Trafo_128.3.0
+Image[1]=Trafo_128.3.1
+# winter
+Image[2]=Trafo_128.3.0
+Image[3]=Trafo_128.3.1
+# icon
+Image[4]=> Trafo_128.2.3
+# cursor
+Image[5]=Trafo_128.3.3
+--------------------------------------------------------------------------------
+Obj=misc
+Name=PowerDest
+copyright=MHz
+Image[0]=Trafo_128.0.3
+Image[1]=Trafo_128.1.3
+# winter
+Image[2]=Trafo_128.0.3
+Image[3]=Trafo_128.1.3
+# icon
+Image[4]=> Trafo_128.2.3
+# cursor
+Image[5]=Trafo_128.3.3
+--------------------------------------------------------------------------------
+Obj=way
+Name=Powerline
+copyright=MHz
+waytype=power
+cost=35000
+maintenance=25
+icon=> way-power_lines-128.0.0
+cursor=way-power_lines-128.0.1
+# rbis * animation
+Image[-]=way-power_lines-128.1.0
+# lines
+Image[N]=way-power_lines-128.2.6
+Image[S]=way-power_lines-128.2.4
+Image[E]=way-power_lines-128.2.7
+Image[W]=way-power_lines-128.2.5
+Image[NS]=way-power_lines-128.1.1
+Image[EW]=way-power_lines-128.1.2
+Image[NSE]=way-power_lines-128.1.7
+Image[NSW]=way-power_lines-128.1.5
+Image[NEW]=way-power_lines-128.1.6
+Image[SEW]=way-power_lines-128.1.4
+Image[NSEW]=way-power_lines-128.1.3
+# curves
+Image[SE]=way-power_lines-128.2.0
+Image[SW]=way-power_lines-128.2.1
+Image[NW]=way-power_lines-128.2.2
+Image[NE]=way-power_lines-128.2.3
+# crossing images: these actually contains the crossing images
+Diagonal[NE]=way-power_lines-128.3.0
+Diagonal[SE]=way-power_lines-128.3.1
+Diagonal[NW]=way-power_lines-128.3.2
+Diagonal[SW]=way-power_lines-128.3.3
+# slopes
+ImageUp[3]=way-power_lines-128.4.0
+ImageUp[6]=way-power_lines-128.4.1
+ImageUp[9]=way-power_lines-128.4.2,0,-12
+ImageUp[12]=way-power_lines-128.4.3,0,-12
+--------------------------------------------------------------------------------
+Obj=tunnel
+name=PowerTunnel
+way=PowerConduits
+waytype=power
+copyright=Fabio Gonella
+cost=100000
+maintenance=5000
+intro_year=1920
+menupos=-10
+icon=> way-power_lines-128.0.5
+cursor=way-power_lines-128.0.1
+BackImage[N][0]=-
+FrontImage[N][0]=way-power_lines-128.9.0
+BackImage[S][0]=-
+FrontImage[S][0]=way-power_lines-128.9.2
+BackImage[E][0]=-
+FrontImage[E][0]=way-power_lines-128.9.1
+BackImage[W][0]=-
+FrontImage[W][0]=way-power_lines-128.9.3
+BackImage[N][1]=-
+FrontImage[N][1]=way-power_lines-128.9.4
+BackImage[S][1]=-
+FrontImage[S][1]=way-power_lines-128.9.6
+BackImage[E][1]=-
+FrontImage[E][1]=way-power_lines-128.9.5
+BackImage[W][1]=-
+FrontImage[W][1]=way-power_lines-128.9.7
+--------------------------------------------------------------------------------
+Obj=way
+Name=PowerConduits
+copyright=Fabio Gonella
+waytype=power
+cost=100000
+maintenance=5000
+intro_year=1920
+icon=> -
+cursor=way-power_lines-128.0.1
+# rbis * animation
+Image[-]=way-power_lines-128.6.0
+# conduits
+Image[N]=way-power_lines-128.7.6
+Image[S]=way-power_lines-128.7.4
+Image[E]=way-power_lines-128.7.7
+Image[W]=way-power_lines-128.7.5
+Image[NS]=way-power_lines-128.6.1
+Image[EW]=way-power_lines-128.6.2
+Image[NSE]=way-power_lines-128.6.7
+Image[NSW]=way-power_lines-128.6.5
+Image[NEW]=way-power_lines-128.6.6
+Image[SEW]=way-power_lines-128.6.4
+Image[NSEW]=way-power_lines-128.6.3
+# curves
+Image[SE]=way-power_lines-128.7.0
+Image[SW]=way-power_lines-128.7.1
+Image[NW]=way-power_lines-128.7.2
+Image[NE]=way-power_lines-128.7.3
+# crossing images: these actually contains the crossing images
+Diagonal[NE]=way-power_lines-128.6.1
+Diagonal[SE]=way-power_lines-128.6.2
+Diagonal[NW]=way-power_lines-128.6.1
+Diagonal[SW]=way-power_lines-128.6.2
+# slopes
+ImageUp[3]=way-power_lines-128.8.0
+ImageUp[6]=way-power_lines-128.8.1
+ImageUp[9]=way-power_lines-128.8.2
+ImageUp[12]=way-power_lines-128.8.3
+--------------------------------------------------------------------------------
+Obj=bridge
+name=PowerBridge
+copyright=MHz & Vladimir Slavik
+# icon base by Erik, glyph by Fabio
+waytype=power
+cost=70000
+maintenance=700
+max_lenght=5
+intro_year=1900
+menupos=-10
+icon=> way-power_lines-128.0.4
+cursor=way-power_lines-128.0.1
+BackImage[NS]=-
+FrontImage[NS]=way-power_lines-128.3.0
+BackImage[EW]=-
+FrontImage[EW]=way-power_lines-128.3.1
+BackRamp[N]=-
+FrontRamp[N]=way-power_lines-128.5.4,0,-12
+BackRamp[W]=-
+FrontRamp[W]=way-power_lines-128.5.7,0,-12
+BackRamp[S]=-
+FrontRamp[S]=way-power_lines-128.5.6
+BackRamp[E]=-
+FrontRamp[E]=way-power_lines-128.5.5
+BackStart[N]=-
+FrontStart[N]=way-power_lines-128.5.0
+BackStart[S]=-
+FrontStart[S]=way-power_lines-128.5.3
+BackStart[E]=-
+FrontStart[E]=way-power_lines-128.5.2
+BackStart[W]=-
+FrontStart[W]=way-power_lines-128.5.1
+--------------------------------------------------------------------------------
+
+#    EOF

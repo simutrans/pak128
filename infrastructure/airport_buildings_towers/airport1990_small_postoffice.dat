@@ -1,0 +1,17 @@
+# DISABLE !!!
+
+Obj=building
+Name=Airport1990_Small_PostOffice
+# 1 view
+NoInfo=1
+copyright=MHz
+type=extension
+waytype=air
+enables_post=1
+level=2
+intro_year = 1989
+intro_month = 10
+cursor=airport1990_small_postoffice.1.2
+icon=> airport1990_small_postoffice.1.1
+BackImage[0][0][0][0][0]=airport1990_small_postoffice.1.0
+

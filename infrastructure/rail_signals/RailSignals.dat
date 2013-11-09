@@ -1,0 +1,576 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS 2.2
+#--------------------------------------
+#
+# author: Fabio Gonella (fagonella)
+# date:   01-Aug-06
+# update: 11-Sep-06
+# update: 12-Jan-07
+# update: 11-Jun-07
+#
+# A special thank to Timothy, VS, Claire and an unknown japanese friend!
+#
+#  SIGNAL STYLES:
+#  --------------
+#  early     1810 - 1860
+#  classic   1860 - 1920
+#  standard  1920 - 1970
+#  modern    1970 +
+#
+# Some signals belong to more classes!
+#
+# Warning: commented out lines usually mean that there is no graphic, too.
+#
+---------------------------------------
+#
+# MODERN STYLE 1970+
+#--------------------------------------
+# normal signal right side
+obj=roadsign
+copyright=Fabio Gonella
+name=Modern_Signals_right
+waytype=track
+cost=500
+is_signal=1
+intro_year = 1970
+intro_month = 1
+# RED
+Image[0]=signals_1.1.0
+Image[1]=signals_1.1.2
+Image[2]=signals_1.1.1
+Image[3]=signals_1.1.3
+# GREEN
+Image[4]=signals_1.2.0
+Image[5]=signals_1.2.2
+Image[6]=signals_1.2.1
+Image[7]=signals_1.2.3
+Icon=> signals_0.1.0
+Cursor=signals_0.1.1
+---------------------------------------
+# presignal right side
+obj=roadsign
+copyright=Fabio Gonella
+Name=Modern_preSignals_right
+waytype=track
+cost=1000
+is_presignal=1
+intro_year = 1970
+intro_month = 1
+# RED
+Image[0]=signals_1.3.0
+Image[1]=signals_1.3.2
+Image[2]=signals_1.3.1
+Image[3]=signals_1.3.3
+# GREEN
+Image[4]=signals_1.4.0
+Image[5]=signals_1.4.2
+Image[6]=signals_1.4.1
+Image[7]=signals_1.4.3
+# YELLOW
+Image[8]=signals_1.3.0
+Image[9]=signals_1.3.2
+Image[10]=signals_1.3.1
+Image[11]=signals_1.3.3
+Icon=> signals_0.1.2
+Cursor=signals_0.1.3
+---------------------------------------
+# long block signal right side
+obj=roadsign
+copyright=Fabio Gonella
+Name=Modern_LongSignals_right
+waytype=track
+cost=2000
+is_signal=1
+is_longblocksignal=1
+intro_year = 1970
+intro_month = 1
+# RED
+Image[0]=signals_1.6.0
+Image[1]=signals_1.6.2
+Image[2]=signals_1.6.1
+Image[3]=signals_1.6.3
+# GREEN
+Image[4]=signals_1.7.0
+Image[5]=signals_1.7.2
+Image[6]=signals_1.7.1
+Image[7]=signals_1.7.3
+Icon=> signals_0.1.4
+Cursor=signals_0.1.5
+---------------------------------------
+# choose signal right side
+obj=roadsign
+copyright=Fabio Gonella
+Name=Modern_ChooseSignals_right
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+intro_year = 1970
+intro_month = 1
+# RED
+Image[0]=signals_1.8.0
+Image[1]=signals_1.8.2
+Image[2]=signals_1.8.1
+Image[3]=signals_1.8.3
+# GREEN
+Image[4]=signals_1.9.0
+Image[5]=signals_1.9.2
+Image[6]=signals_1.9.1
+Image[7]=signals_1.9.3
+Icon=> signals_0.1.6
+Cursor=signals_0.1.7
+---------------------------------------
+# end choose sign right side (NO SIGNAL)
+obj=roadsign
+copyright=Fabio Gonella
+Name=Modern_EndOfChooseSignals_right
+waytype=track
+cost=4000
+#is_signal=1
+end_of_choose=1
+intro_year = 1970
+intro_month = 1
+# RED
+Image[0]=signals_1.10.0
+Image[1]=signals_1.10.2
+Image[2]=signals_1.10.1
+Image[3]=signals_1.10.3
+# GREEN
+#Image[4]=signals_1.11.0
+#Image[5]=signals_1.11.2
+#Image[6]=signals_1.11.1
+#Image[7]=signals_1.11.3
+Icon=> signals_0.1.8
+Cursor=signals_0.1.9
+---------------------------------------
+# one way sign, right side (NO SIGNAL)
+obj=roadsign
+copyright=Fabio Gonella
+name=Modern_OneWaySignals_right
+waytype=track
+cost=250
+single_way=1
+intro_year = 1970
+intro_month = 1
+Image[0]=signals_1.12.2
+Image[1]=signals_1.12.0
+Image[2]=signals_1.12.3
+Image[3]=signals_1.12.1
+Icon=> signals_0.1.10
+Cursor=signals_0.1.11
+---------------------------------------
+# STANDARD STYLE 1920-1970
+#--------------------------------------
+# normal signal right side
+obj=roadsign
+copyright=Fabio Gonella
+name=Signals
+waytype=track
+cost=500
+is_signal=1
+intro_year = 1920
+intro_month = 1
+retire_year = 1970
+retire_month = 1
+# RED
+Image[0]=signals_2.1.0
+Image[1]=signals_2.1.2
+Image[2]=signals_2.1.1
+Image[3]=signals_2.1.3
+# GREEN
+Image[4]=signals_2.2.0
+Image[5]=signals_2.2.2
+Image[6]=signals_2.2.1
+Image[7]=signals_2.2.3
+# RED
+Image[8]=signals_1.1.0
+Image[9]=signals_1.1.2
+Image[10]=signals_1.1.1
+Image[11]=signals_1.1.3
+# GREEN
+Image[12]=signals_1.2.0
+Image[13]=signals_1.2.2
+Image[14]=signals_1.2.1
+Image[15]=signals_1.2.3
+Icon=> signals_0.2.0
+Cursor=signals_0.2.1
+---------------------------------------
+# presignal right side
+obj=roadsign
+copyright=Fabio Gonella
+Name=preSignals
+waytype=track
+cost=1000
+is_presignal=1
+intro_year = 1920
+intro_month = 1
+retire_year = 1970
+retire_month = 1
+# RED
+Image[0]=signals_2.3.0
+Image[1]=signals_2.3.2
+Image[2]=signals_2.3.1
+Image[3]=signals_2.3.3
+# GREEN
+Image[4]=signals_2.4.0
+Image[5]=signals_2.4.2
+Image[6]=signals_2.4.1
+Image[8]=signals_2.3.0
+Image[7]=signals_2.4.3
+# YELLOW
+Image[9]=signals_2.3.2
+Image[10]=signals_2.3.1
+Image[11]=signals_2.3.3
+# RED
+Image[12]=signals_1.3.0
+Image[13]=signals_1.3.2
+Image[14]=signals_1.3.1
+Image[15]=signals_1.3.3
+# GREEN
+Image[16]=signals_1.4.0
+Image[17]=signals_1.4.2
+Image[18]=signals_1.4.1
+Image[19]=signals_1.4.3
+# YELLOW
+Image[20]=signals_1.3.0
+Image[21]=signals_1.3.2
+Image[22]=signals_1.3.1
+Image[23]=signals_1.3.3
+Icon=> signals_0.2.2
+Cursor=signals_0.2.3
+---------------------------------------
+# long block signal right side
+obj=roadsign
+copyright=Fabio Gonella
+Name=LongSignals
+waytype=track
+cost=2000
+is_signal=1
+is_longblocksignal=1
+intro_year = 1920
+intro_month = 1
+retire_year = 1970
+retire_month = 1
+# RED
+Image[0]=signals_2.6.0
+Image[1]=signals_2.6.2
+Image[2]=signals_2.6.1
+Image[3]=signals_2.6.3
+# GREEN
+Image[4]=signals_2.7.0
+Image[5]=signals_2.7.2
+Image[6]=signals_2.7.1
+Image[7]=signals_2.7.3
+# RED
+Image[8]=signals_1.6.0
+Image[9]=signals_1.6.2
+Image[10]=signals_1.6.1
+Image[11]=signals_1.6.3
+# GREEN
+Image[12]=signals_1.7.0
+Image[13]=signals_1.7.2
+Image[14]=signals_1.7.1
+Image[15]=signals_1.7.3
+Icon=> signals_0.2.4
+Cursor=signals_0.2.5
+---------------------------------------
+# choose signal right side
+obj=roadsign
+copyright=Fabio Gonella
+Name=ChooseSignals
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+intro_year = 1920
+intro_month = 1
+retire_year = 1970
+retire_month = 1
+# RED
+Image[0]=signals_2.8.0
+Image[1]=signals_2.8.2
+Image[2]=signals_2.8.1
+Image[3]=signals_2.8.3
+# GREEN
+Image[4]=signals_2.9.0
+Image[5]=signals_2.9.2
+Image[6]=signals_2.9.1
+Image[7]=signals_2.9.3
+# RED
+Image[8]=signals_1.8.0
+Image[9]=signals_1.8.2
+Image[10]=signals_1.8.1
+Image[11]=signals_1.8.3
+# GREEN
+Image[12]=signals_1.9.0
+Image[13]=signals_1.9.2
+Image[14]=signals_1.9.1
+Image[15]=signals_1.9.3
+Icon=> signals_0.2.6
+Cursor=signals_0.2.7
+---------------------------------------
+# end choose sign right side (NO SIGNAL)
+obj=roadsign
+copyright=Fabio Gonella
+Name=EndOfChooseSignals
+waytype=track
+cost=4000
+#is_signal=1
+end_of_choose=1
+intro_year = 1920
+intro_month = 1
+retire_year = 1970
+retire_month = 1
+# RED
+Image[0]=signals_2.10.0
+Image[1]=signals_2.10.2
+Image[2]=signals_2.10.1
+Image[3]=signals_2.10.3
+# GREEN
+#Image[4]=signals_2.11.0
+#Image[5]=signals_2.11.2
+#Image[6]=signals_2.11.1
+#Image[7]=signals_2.11.3
+# RED
+#Image[8]=signals_1.10.0
+#Image[9]=signals_1.10.2
+#Image[10]=signals_1.10.1
+Image[11]=signals_1.10.3
+# GREEN
+#Image[12]=signals_1.11.0
+#Image[13]=signals_1.11.2
+#Image[14]=signals_1.11.1
+#Image[15]=signals_1.11.3
+Icon=> signals_0.2.8
+Cursor=signals_0.2.9
+---------------------------------------
+# one way sign, right side (NO SIGNAL)
+obj=roadsign
+copyright=Fabio Gonella
+name=OneWaySignals
+waytype=track
+cost=250
+single_way=1
+intro_year = 1810
+intro_month = 1
+retire_year = 1970
+retire_month = 1
+Image[0]=signals_2.12.2
+Image[1]=signals_2.12.0
+Image[2]=signals_2.12.3
+Image[3]=signals_2.12.1
+Icon=> signals_0.2.10
+Cursor=signals_0.2.11
+---------------------------------------
+# CLASSIC STYLE 1860-1920
+#--------------------------------------
+# normal signal right side
+obj=roadsign
+copyright=Fabio Gonella
+name=Classic_Signals_right
+waytype=track
+cost=500
+is_signal=1
+intro_year = 1860
+intro_month = 1
+retire_year = 1920
+retire_month = 1
+# RED
+Image[0]=signals_2.1.0
+Image[1]=signals_2.1.2
+Image[2]=signals_2.1.1
+Image[3]=signals_2.1.3
+# GREEN
+Image[4]=signals_2.2.0
+Image[5]=signals_2.2.2
+Image[6]=signals_2.2.1
+Image[7]=signals_2.2.3
+Icon=> signals_0.3.0
+Cursor=signals_0.3.1
+---------------------------------------
+# presignal right side
+obj=roadsign
+copyright=Fabio Gonella
+Name=Classic_preSignals_right
+waytype=track
+cost=1000
+is_presignal=1
+intro_year = 1860
+intro_month = 1
+retire_year = 1920
+retire_month = 1
+# RED
+Image[0]=signals_2.3.0
+Image[1]=signals_2.3.2
+Image[2]=signals_2.3.1
+Image[3]=signals_2.3.3
+# GREEN
+Image[4]=signals_2.4.0
+Image[5]=signals_2.4.2
+Image[6]=signals_2.4.1
+Image[8]=signals_2.3.0
+# YELLOW
+Image[7]=signals_2.4.3
+Image[9]=signals_2.3.2
+Image[10]=signals_2.3.1
+Image[11]=signals_2.3.3
+Icon=> signals_0.3.2
+Cursor=signals_0.3.3
+---------------------------------------
+# long block signal right side
+obj=roadsign
+copyright=Fabio Gonella
+Name=Classic_LongSignals_right
+waytype=track
+cost=2000
+is_signal=1
+is_longblocksignal=1
+intro_year = 1860
+intro_month = 1
+retire_year = 1920
+retire_month = 1
+# RED
+Image[0]=signals_2.6.0
+Image[1]=signals_2.6.2
+Image[2]=signals_2.6.1
+Image[3]=signals_2.6.3
+# GREEN
+Image[4]=signals_2.7.0
+Image[5]=signals_2.7.2
+Image[6]=signals_2.7.1
+Image[7]=signals_2.7.3
+Icon=> signals_0.3.4
+Cursor=signals_0.3.5
+---------------------------------------
+# choose signal right side
+obj=roadsign
+copyright=Fabio Gonella
+Name=Classic_ChooseSignals_right
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+intro_year = 1860
+intro_month = 1
+retire_year = 1920
+retire_month = 1
+# RED
+Image[0]=signals_2.8.0
+Image[1]=signals_2.8.2
+Image[2]=signals_2.8.1
+Image[3]=signals_2.8.3
+# GREEN
+Image[4]=signals_2.9.0
+Image[5]=signals_2.9.2
+Image[6]=signals_2.9.1
+Image[7]=signals_2.9.3
+Icon=> signals_0.3.6
+Cursor=signals_0.3.7
+---------------------------------------
+# EARLY STYLE 1810-1860
+#--------------------------------------
+# normal signal right side
+obj=roadsign
+copyright=Fabio Gonella
+name=Early_Signals_right
+waytype=track
+cost=500
+is_signal=1
+intro_year = 1810
+intro_month = 1
+retire_year = 1860
+retire_month = 1
+# RED
+Image[0]=signals_3.1.0
+Image[1]=signals_3.1.2
+Image[2]=signals_3.1.1
+Image[3]=signals_3.1.3
+# GREEN
+Image[4]=signals_3.2.0
+Image[5]=signals_3.2.2
+Image[6]=signals_3.2.1
+Image[7]=signals_3.2.3
+Icon=> signals_0.4.0
+Cursor=signals_0.4.1
+---------------------------------------
+# presignal right side
+obj=roadsign
+copyright=Fabio Gonella
+Name=Early_preSignals_right
+waytype=track
+cost=1000
+is_presignal=1
+intro_year = 1810
+intro_month = 1
+retire_year = 1860
+retire_month = 1
+# RED
+Image[0]=signals_3.3.0
+Image[1]=signals_3.3.2
+Image[2]=signals_3.3.1
+Image[3]=signals_3.3.3
+# GREEN
+Image[4]=signals_3.4.0
+Image[5]=signals_3.4.2
+Image[6]=signals_3.4.1
+Image[7]=signals_3.4.3
+# YELLOW
+Image[8]=signals_3.3.0
+Image[9]=signals_3.3.2
+Image[10]=signals_3.3.1
+Image[11]=signals_3.3.3
+Icon=> signals_0.4.2
+Cursor=signals_0.4.3
+---------------------------------------
+# long block signal right side
+obj=roadsign
+copyright=Fabio Gonella
+Name=Early_LongSignals_right
+waytype=track
+cost=2000
+is_signal=1
+is_longblocksignal=1
+intro_year = 1810
+intro_month = 1
+retire_year = 1860
+retire_month = 1
+# RED
+Image[0]=signals_3.6.0
+Image[1]=signals_3.6.2
+Image[2]=signals_3.6.1
+Image[3]=signals_3.6.3
+# GREEN
+Image[4]=signals_3.7.0
+Image[5]=signals_3.7.2
+Image[6]=signals_3.7.1
+Image[7]=signals_3.7.3
+Icon=> signals_0.4.4
+Cursor=signals_0.4.5
+---------------------------------------
+# choose signal right side
+obj=roadsign
+copyright=Fabio Gonella
+Name=Early_ChooseSignals_right
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+intro_year = 1810
+intro_month = 1
+retire_year = 1860
+retire_month = 1
+# RED
+Image[0]=signals_3.8.0
+Image[1]=signals_3.8.2
+Image[2]=signals_3.8.1
+Image[3]=signals_3.8.3
+# GREEN
+Image[4]=signals_3.9.0
+Image[5]=signals_3.9.2
+Image[6]=signals_3.9.1
+Image[7]=signals_3.9.3
+Icon=> signals_0.4.6
+Cursor=signals_0.4.7
+
+---------------------------------------
+# END OF FILE

@@ -1,0 +1,88 @@
+#   04.07.2008 changes type, add waytype ; Simutrans 0.100.0 / makeobj 49 (FrankP)
+#
+#
+#
+#--------------------------------------------------------------------------------
+#
+#                        Parking lot (catchement area)
+#
+#                  by Fabio Gonella (Fagonella), March 2006
+#
+# Thanks to Propermike, Mhz and all the citycars painters
+# Thanks to Tomas and Isaac, as usual!
+---------------------------------------------------------------------------------
+
+Obj=building
+Name=parking_(catchemnt_area_ext)1
+type=stop
+waytype=road
+copyright=Fabio Gonella
+enables_pax=0
+enables_post=0
+enables_ware=0
+allow_underground=2
+NoInfo=1
+Dims=1,1,2
+Level = 2
+intro_year=1930
+intro_month=1
+retire_year=1960
+retire_month=1
+icon=> parking.1.5
+cursor=parking.1.4
+BackImage[0][0][0][0][0]=parking.1.0
+FrontImage[0][0][0][0][0]=parking.1.1
+BackImage[1][0][0][0][0]=parking.1.2
+FrontImage[1][0][0][0][0]=parking.1.3
+
+--------------------------------------------------------------------------------
+
+Obj=building
+Name=parking_(catchemnt_area_ext)2
+type=stop
+waytype=road
+Level=2
+copyright=Fabio Gonella
+enables_pax=0
+enables_post=0
+enables_ware=0
+allow_underground=2
+NoInfo=1
+Dims=1,1,2
+intro_year=1960
+intro_month=1
+retire_year=1985
+retire_month=1
+icon=> parking.2.5
+cursor=parking.2.4
+BackImage[0][0][0][0][0]=parking.2.0
+FrontImage[0][0][0][0][0]=parking.2.1
+BackImage[1][0][0][0][0]=parking.2.2
+FrontImage[1][0][0][0][0]=parking.2.3
+
+--------------------------------------------------------------------------------
+
+Obj=building
+Name=parking_(catchemnt_area_ext)3
+type=stop
+waytype=road
+copyright=Fabio Gonella
+enables_pax=0
+enables_post=0
+enables_ware=0
+allow_underground=2
+NoInfo=1
+Dims=1,1,2
+Level=2
+intro_year=1985
+intro_month=1
+icon=> parking.3.5
+cursor=parking.3.4
+BackImage[0][0][0][0][0]=parking.3.0
+FrontImage[0][0][0][0][0]=parking.3.1
+BackImage[1][0][0][0][0]=parking.3.2
+FrontImage[1][0][0][0][0]=parking.3.3
+
+--------------------------------------------------------------------------------
+
+# EOF

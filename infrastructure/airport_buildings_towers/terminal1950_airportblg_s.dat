@@ -1,0 +1,23 @@
+
+Obj=building
+Name=Terminal1950_AirportBlg_S
+copyright=MHz
+type=extension
+waytype=air
+# must be 1*1
+#(must be either defined with dim=x,y,layout (layout=1,2 or 4), x>=y and following order N E S W)
+Dims=1,1,4
+NoInfo=1
+intro_year=1950
+intro_month=1
+retire_year = 1989
+retire_month = 10
+enables_pax=1
+Level=6
+cursor=terminal1950_airportblg_s.1.5
+icon=> terminal1950_airportblg_s.1.4
+BackImage[0][0][0][0][0]=terminal1950_airportblg_s.1.0
+BackImage[1][0][0][0][0]=terminal1950_airportblg_s.1.1
+BackImage[2][0][0][0][0]=terminal1950_airportblg_s.1.2
+BackImage[3][0][0][0][0]=terminal1950_airportblg_s.1.3
+

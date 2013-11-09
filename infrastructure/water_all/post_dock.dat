@@ -1,0 +1,29 @@
+Obj=building
+Name=Post_Dock
+copyright=MHz
+type=habour
+
+enables_post=1
+Level=5
+
+intro_year = 1821
+intro_month = 1
+
+Dims=1,2,4
+
+NoInfo=1
+
+icon=> post_dock.4.0
+cursor=post_dock.4.1
+
+BackImage[0][1][0][0][0]=post_dock.2.0
+BackImage[3][0][0][0][0]=post_dock.2.1
+BackImage[2][0][0][0][0]=post_dock.2.2
+BackImage[1][0][1][0][0]=post_dock.2.3
+
+BackImage[0][0][0][0][0]=post_dock.3.0
+BackImage[3][0][1][0][0]=post_dock.3.1
+BackImage[2][1][0][0][0]=post_dock.3.2
+BackImage[1][0][0][0][0]=post_dock.3.3
+
+# EOF

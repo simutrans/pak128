@@ -1,0 +1,85 @@
+#-------------------------------------------------------------------------------
+# history of changes:
+# -------------------
+#  04.07.2008 changes type, add waytype, del extension_building ; Simutrans 0.100.0 / makeobj 49 (FrankP)
+#  09.07.2008 del intro_year=1985 and intro_month=2 by MonorailStation - double def (FrankP)
+#  31.08.2008 (whoami:) Wrong intro dates are used now, depots are missing before 1985 - 
+#     intermediate fix: I set all buildings to intro date 3/1901 (previous: commented out)
+#     note: IMO both stations are needed from the beginning, because they are for two different heights.
+#
+#-------------------------------------------------------------------------------
+#BackImage[Layout][x Position][y Position][Height][Phase]
+#FrontImage[Layout][x Position][y Position][Height][Phase]
+--------------------------------------------------------------------------------
+
+Obj=building
+Name=MonorailDepot
+type=depot
+waytype=monorail_track
+copyright=vilvoh
+# must be 1*1
+Dims=1,1,4
+NoInfo=1
+intro_year=1901
+intro_month=3
+FrontImage[0][0][0][0][0]=ls-depot-monorail.0.0
+BackImage[0][0][0][0][0]=ls-depot-monorail.1.0
+FrontImage[1][0][0][0][0]=ls-depot-monorail.0.1
+BackImage[1][0][0][0][0]=ls-depot-monorail.1.1
+FrontImage[2][0][0][0][0]=ls-depot-monorail.0.3
+FrontImage[3][0][0][0][0]=ls-depot-monorail.0.2
+icon=> ls-depot-monorail.0.4
+cursor=ls-depot-monorail.0.5
+
+--------------------------------------------------------------------------------
+
+Obj=building
+Name=MonorailGround
+copyright=none
+# intro_year=1985
+# intro_month=2
+intro_year=1901
+intro_month=3
+# must be 1*1
+Dims=1,1
+NoInfo=1
+BackImage[0][0][0][0][0]=ls-depot-monorail.0.6
+
+--------------------
+
+Obj=building
+Name=MonorailFoundation
+copyright=none
+type=extension
+waytype=monorail_track
+# must be 1*1
+Dims=1,1
+NoInfo=1
+BackImage[0][0][0][0][0]=ls-depot-monorail.0.6
+icon=> ls-depot-monorail.1.4
+cursor=ls-depot-monorail.1.5
+
+--------------------
+
+Obj=building
+Name=Suspended_Monorail_Bahnhof_Modern
+copyright=yoshi
+type=stop
+waytype=monorail_track
+Dims=1,1,2
+#automatic alignment of station extension buildings (must be either defined with dim=x,y,layout (layout=1,2 or 4), x>=y and following order N E S W)
+NoInfo=1
+menupos=1
+enables_pax=1
+cursor=schwebebahn_bahnhof.1.3
+intro_year=1901
+intro_month=3
+icon=> schwebebahn_bahnhof.1.2
+BackImage[0][0][0][0][0]=schwebebahn_bahnhof.0.1
+FrontImage[0][0][0][0][0]=schwebebahn_bahnhof.0.0
+BackImage[1][0][0][0][0]=schwebebahn_bahnhof.0.3
+FrontImage[1][0][0][0][0]=schwebebahn_bahnhof.0.2
+
+--------------------
+
+# EOF

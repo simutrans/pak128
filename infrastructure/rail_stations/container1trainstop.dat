@@ -1,0 +1,20 @@
+
+Obj=building
+Name=Container1TrainStop
+copyright=Raven
+type=stop
+waytype=track
+enables_ware=1
+Level=3
+allow_underground=2
+Dims=1,1,2
+NoInfo=1
+intro_year =1948
+retire_year=1968
+icon=> container1trainstop.1.4
+cursor=container1trainstop.1.5
+BackImage[0][0][0][0][0]=container1trainstop.1.0
+BackImage[1][0][0][0][0]=container1trainstop.1.1
+FrontImage[0][0][0][0][0]=container1trainstop.1.2
+FrontImage[1][0][0][0][0]=container1trainstop.1.3
+

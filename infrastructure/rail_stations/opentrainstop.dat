@@ -1,0 +1,21 @@
+
+Obj=building
+Name=OpenTrainStop
+copyright=Raven
+type=stop
+waytype=track
+#level 2 = capacity 32
+#Ok, level=0 is internally -1 and thus illegal, level=1 is the old compatibility mode and level 2=32.
+Level = 2
+allow_underground=2
+Dims=1,1,2
+NoInfo=1
+enables_ware=1
+intro_year = 1810
+icon=> opentrainstop.1.4
+cursor=opentrainstop.1.5
+BackImage[0][0][0][0][0]=opentrainstop.1.0
+BackImage[1][0][0][0][0]=opentrainstop.1.1
+FrontImage[0][0][0][0][0]=opentrainstop.1.2
+FrontImage[1][0][0][0][0]=opentrainstop.1.3
+

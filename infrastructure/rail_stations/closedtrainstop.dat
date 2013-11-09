@@ -1,0 +1,20 @@
+
+Obj=building
+Name=ClosedTrainStop
+copyright=Raven
+type=stop
+waytype=track
+enables_pax=1
+Dims=1,1,2
+NoInfo=1
+Level=7
+allow_underground=0
+intro_year = 1936
+intro_month = 1
+icon=> closedtrainstop.1.4
+cursor=closedtrainstop.1.5
+BackImage[0][0][0][0][0]=closedtrainstop.1.0
+FrontImage[0][0][0][0][0]=closedtrainstop.1.2
+BackImage[1][0][0][0][0]=closedtrainstop.1.1
+FrontImage[1][0][0][0][0]=closedtrainstop.1.3
+

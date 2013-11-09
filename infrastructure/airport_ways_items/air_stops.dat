@@ -1,0 +1,32 @@
+# 07.07.2008 new file for air stops (FrankP)
+#
+#
+#
+---------------------------------------------------------
+
+Obj=building
+Name=AirStop_AirportBlg
+copyright=MHz
+
+type=stop
+waytype=air
+
+# must be 1*1
+NoInfo=1
+Dims=1,1,4
+Level=2
+
+intro_year = 1918
+intro_month = 1
+
+cursor=airstop_airportblg.1.4
+icon=> airstop_airportblg.1.5
+
+BackImage[0][0][0][0][0]=airstop_airportblg.1.0
+BackImage[1][0][0][0][0]=airstop_airportblg.1.3
+BackImage[2][0][0][0][0]=airstop_airportblg.1.2
+BackImage[3][0][0][0][0]=airstop_airportblg.1.1
+
+---------------------------------------------------------
+
+# EOF

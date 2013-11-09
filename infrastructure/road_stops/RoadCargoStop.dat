@@ -1,0 +1,35 @@
+#    04.07.2008 changes type, add waytype ; Simutrans 0.100.0 / makeobj 49 (FrankP)
+#
+#
+#
+#-------------------------------------------------------------------------------
+#
+#                                  Road Stops
+#
+---------------------------------------------------------------------------------
+
+Obj=building
+Name=CarStop
+copyright=Napik
+type=stop
+waytype=road
+enables_ware=1
+Level=3
+allow_underground=2
+NoInfo=1
+Dims=1,1,4
+intro_year = 1887
+icon=> player-loadbay-128.1.1
+cursor=player-loadbay-128.1.0
+BackImage[0][0][0][0][0]=player-loadbay-128.0.0
+FrontImage[0][0][0][0][0]=player-loadbay-128.0.4
+BackImage[1][0][0][0][0]=player-loadbay-128.0.3
+FrontImage[1][0][0][0][0]=player-loadbay-128.0.7
+BackImage[2][0][0][0][0]=player-loadbay-128.0.1
+FrontImage[2][0][0][0][0]=player-loadbay-128.0.5
+BackImage[3][0][0][0][0]=player-loadbay-128.0.2
+FrontImage[3][0][0][0][0]=player-loadbay-128.0.6
+
+--------------------------------------------------------------------------------
+
+#     EOF

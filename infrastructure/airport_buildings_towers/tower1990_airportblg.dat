@@ -1,0 +1,24 @@
+
+Obj=building
+Name=Tower1990_AirportBlg
+copyright=MHz
+type=extension
+waytype=air
+#one view animated
+Dims=1,1,1
+NoInfo=1
+intro_year = 1989
+intro_month = 9
+Level=12
+cursor=tower1990_airportblg.2.2
+icon=> tower1990_airportblg.2.1
+BackImage[0][0][0][0][0]=tower1990_airportblg.2.0
+BackImage[0][0][0][1][0]=tower1990_airportblg.1.0
+BackImage[0][0][0][1][1]=tower1990_airportblg.1.1
+BackImage[0][0][0][1][2]=tower1990_airportblg.1.2
+BackImage[0][0][0][1][3]=tower1990_airportblg.1.3
+BackImage[0][0][0][1][4]=tower1990_airportblg.1.4
+BackImage[0][0][0][1][5]=tower1990_airportblg.1.5
+BackImage[0][0][0][1][6]=tower1990_airportblg.1.6
+BackImage[0][0][0][1][7]=tower1990_airportblg.1.7
+

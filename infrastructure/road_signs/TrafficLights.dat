@@ -1,0 +1,33 @@
+
+#--------------------------------------------------------------------------------
+#
+#                               Traffic Lights
+#
+#-------------------------------------------------------------------------------
+
+obj=roadsign
+copyright=Napik
+name=traffic_light
+min_speed=0
+single_way=0
+waytype=road
+image[0]=privat-traffic_lights-128.0.0
+Image[1]=privat-traffic_lights-128.0.1
+Image[2]=privat-traffic_lights-128.0.2
+Image[3]=privat-traffic_lights-128.0.3
+Image[4]=privat-traffic_lights-128.0.4
+Image[5]=privat-traffic_lights-128.0.5
+Image[6]=privat-traffic_lights-128.0.6
+Image[7]=privat-traffic_lights-128.0.7
+image[8]=privat-traffic_lights-128.1.0
+Image[9]=privat-traffic_lights-128.1.1
+Image[10]=privat-traffic_lights-128.1.2
+Image[11]=privat-traffic_lights-128.1.3
+Image[12]=privat-traffic_lights-128.1.4
+Image[13]=privat-traffic_lights-128.1.5
+Image[14]=privat-traffic_lights-128.1.6
+Image[15]=privat-traffic_lights-128.1.7
+Icon=> privat-traffic_lights-128.0.8
+Cursor=privat-traffic_lights-128.0.9
+
+# EOF

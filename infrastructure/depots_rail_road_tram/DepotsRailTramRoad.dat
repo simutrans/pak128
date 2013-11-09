@@ -1,0 +1,77 @@
+# 04.07.2008 change FrankP
+#      - add type and waytype ; Simutrans 0.100.0 / makeobj 49
+#
+#
+
+
+#-------------------------------------------------------------------------------
+#
+#                                   Depots
+#
+--------------------------------------------------------------------------------
+
+Obj=building
+Name=TrainDepot
+copyright=MHz
+type=depot
+waytype=track
+# must be 1*1
+Dims=1,1,4
+NoInfo=1
+intro_year = 1810
+retire_year = 1936
+icon=> player-depot-rail_2-128.1.2
+cursor=player-depot-rail_2-128.1.3
+FrontImage[0][0][0][0][0][0]=player-depot-rail_2-128.0.0
+FrontImage[1][0][0][0][0][0]=player-depot-rail_2-128.0.1
+FrontImage[2][0][0][0][0][0]=player-depot-rail_2-128.0.2
+FrontImage[3][0][0][0][0][0]=player-depot-rail_2-128.0.3
+BackImage[0][0][0][0][0][0]=player-depot-rail_2-128.1.0
+BackImage[1][0][0][0][0][0]=player-depot-rail_2-128.1.1
+#BackImage[2][0][0][0][0][0]=player-depot-rail_2-128.1.2
+#BackImage[3][0][0][0][0][0]=player-depot-rail_2-128.1.3
+
+--------------------------------------------------------------------------------
+
+Obj=building
+Name=TramDepot
+copyright=MHz
+type=depot
+waytype=tram_track
+# must be 1*1
+Dims=1,1,4
+NoInfo=1
+intro_year = 1852
+intro_month = 1
+icon=> player-depot-tram_0-128.1.1
+cursor=player-depot-tram_0-128.1.2
+FrontImage[0][0][0][0][0][0]=player-depot-tram_0-128.0.0
+BackImage[0][0][0][0][0][0]=player-depot-tram_0-128.1.0
+FrontImage[1][0][0][0][0][0]=player-depot-tram_0-128.0.3
+BackImage[1][0][0][0][0][0]=player-depot-tram_0-128.1.3
+FrontImage[2][0][0][0][0][0]=player-depot-tram_0-128.0.2
+FrontImage[3][0][0][0][0][0]=player-depot-tram_0-128.0.1
+
+--------------------------------------------------------------------------------
+
+Obj=building
+Name=CarDepot
+copyright=MHz
+type=depot
+waytype=road
+intro_year=1810
+# must be 1*1
+Dims=1,1,4
+NoInfo=1
+icon=> player-depot-road-128.1.2
+cursor=player-depot-road-128.1.3
+FrontImage[0][0][0][0][0][0]=player-depot-road-128.0.0
+BackImage[0][0][0][0][0][0]=player-depot-road-128.1.0
+FrontImage[1][0][0][0][0][0]=player-depot-road-128.0.1
+BackImage[1][0][0][0][0][0]=player-depot-road-128.1.1
+FrontImage[2][0][0][0][0][0]=player-depot-road-128.0.2
+FrontImage[3][0][0][0][0][0]=player-depot-road-128.0.3
+
+--------------------------------------------------------------------------------
+
+#       EOF
