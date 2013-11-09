@@ -3,5 +3,5 @@ compile yes
 merge ground.all.pak
 
 COMMANDS-MIDDLE
-lift ground.Outside.pak
+#lift ground.Outside.pak
 # this is used for determining pak size by program
