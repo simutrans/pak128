@@ -21,13 +21,13 @@ RunningCost=176
 
 sound=-1
 
-EmptyImage[W]=emd-ft_(a).1.0
-EmptyImage[NW]=emd-ft_(a).1.1
-EmptyImage[N]=emd-ft_(a).1.2
-EmptyImage[NE]=emd-ft_(a).1.3
-EmptyImage[E]=emd-ft_(a).1.4
-EmptyImage[SE]=emd-ft_(a).1.5
-EmptyImage[S]=emd-ft_(a).1.6
-EmptyImage[SW]=emd-ft_(a).1.7
+EmptyImage[W]=emd-ft_(a).1.0,0,4
+EmptyImage[NW]=emd-ft_(a).1.1,0,4
+EmptyImage[N]=emd-ft_(a).1.2,0,4
+EmptyImage[NE]=emd-ft_(a).1.3,0,4
+EmptyImage[E]=emd-ft_(a).1.4,0,4
+EmptyImage[SE]=emd-ft_(a).1.5,0,4
+EmptyImage[S]=emd-ft_(a).1.6,0,4
+EmptyImage[SW]=emd-ft_(a).1.7,0,4
 
 constraint[prev][0]=none
