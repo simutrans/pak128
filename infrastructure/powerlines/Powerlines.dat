@@ -2,7 +2,8 @@
 #                                                                              #
 #                                 Power Lines                                  #
 #                                                                              #
---------------------------------------------------------------------------------
+#------------------------------------------------------------------------------#
+
 Obj=misc
 Name=PowerSource
 copyright=MHz
@@ -15,7 +16,7 @@ Image[3]=Trafo_128.3.1
 Image[4]=> Trafo_128.2.3
 # cursor
 Image[5]=Trafo_128.3.3
---------------------------------------------------------------------------------
+----------------------------------------
 Obj=misc
 Name=PowerDest
 copyright=MHz
@@ -28,45 +29,49 @@ Image[3]=Trafo_128.1.3
 Image[4]=> Trafo_128.2.3
 # cursor
 Image[5]=Trafo_128.3.3
---------------------------------------------------------------------------------
+----------------------------------------
 Obj=way
 Name=Powerline
-copyright=MHz
+copyright=MHz & Fabio Gonella
 waytype=power
 cost=35000
 maintenance=25
 icon=> way-power_lines-128.0.0
-cursor=way-power_lines-128.0.1
+cursor=way-power_lines-128.0.1,-24,-76
 # rbis * animation
-Image[-]=way-power_lines-128.1.0
+Image[-]=way-power_lines-128.1.0,-24,-60
 # lines
-Image[N]=way-power_lines-128.2.6
-Image[S]=way-power_lines-128.2.4
-Image[E]=way-power_lines-128.2.7
-Image[W]=way-power_lines-128.2.5
-Image[NS]=way-power_lines-128.1.1
-Image[EW]=way-power_lines-128.1.2
-Image[NSE]=way-power_lines-128.1.7
-Image[NSW]=way-power_lines-128.1.5
-Image[NEW]=way-power_lines-128.1.6
-Image[SEW]=way-power_lines-128.1.4
-Image[NSEW]=way-power_lines-128.1.3
+Image[N]=way-power_lines-128.2.6,-24,-60
+Image[S]=way-power_lines-128.2.4,-24,-60
+Image[E]=way-power_lines-128.2.7,-24,-60
+Image[W]=way-power_lines-128.2.5,-24,-60
+Image[NS]=way-power_lines-128.1.1,-24,-60
+Image[EW]=way-power_lines-128.1.2,-24,-60
+Image[NSE]=way-power_lines-128.1.7,-24,-60
+Image[NSW]=way-power_lines-128.1.5,-24,-60
+Image[NEW]=way-power_lines-128.1.6,-24,-60
+Image[SEW]=way-power_lines-128.1.4,-24,-60
+Image[NSEW]=way-power_lines-128.1.3,-24,-60
 # curves
-Image[SE]=way-power_lines-128.2.0
-Image[SW]=way-power_lines-128.2.1
-Image[NW]=way-power_lines-128.2.2
-Image[NE]=way-power_lines-128.2.3
+Image[SE]=way-power_lines-128.2.0,-24,-60
+Image[SW]=way-power_lines-128.2.1,-24,-60
+Image[NW]=way-power_lines-128.2.2,-24,-60
+Image[NE]=way-power_lines-128.2.3,-24,-60
 # crossing images: these actually contains the crossing images
-Diagonal[NE]=way-power_lines-128.3.0
-Diagonal[SE]=way-power_lines-128.3.1
-Diagonal[NW]=way-power_lines-128.3.2
-Diagonal[SW]=way-power_lines-128.3.3
+Diagonal[NE]=way-power_lines-128.3.0,-24,-60
+Diagonal[SE]=way-power_lines-128.3.1,-24,-60
+Diagonal[NW]=way-power_lines-128.3.2,-24,-60
+Diagonal[SW]=way-power_lines-128.3.3,-24,-60
 # slopes
-ImageUp[3]=way-power_lines-128.4.0
-ImageUp[6]=way-power_lines-128.4.1
-ImageUp[9]=way-power_lines-128.4.2,0,-12
-ImageUp[12]=way-power_lines-128.4.3,0,-12
---------------------------------------------------------------------------------
+ImageUp[3]=way-power_lines-128.4.0,-54,-61
+ImageUp[6]=way-power_lines-128.4.1,6,-61
+ImageUp[9]=way-power_lines-128.4.3,6,-45
+ImageUp[12]=way-power_lines-128.4.2,-54,-45
+ImageUp2[3]=way-power_lines-128.4.4,-54,-77
+ImageUp2[6]=way-power_lines-128.4.5,6,-77
+ImageUp2[9]=way-power_lines-128.4.7,6,-45
+ImageUp2[12]=way-power_lines-128.4.6,-54,-45
+----------------------------------------
 Obj=tunnel
 name=PowerTunnel
 way=PowerConduits
@@ -77,24 +82,24 @@ maintenance=5000
 intro_year=1920
 menupos=-10
 icon=> way-power_lines-128.0.5
-cursor=way-power_lines-128.0.1
+cursor=way-power_lines-128.0.1,-24,-76
 BackImage[N][0]=-
-FrontImage[N][0]=way-power_lines-128.9.0
+FrontImage[N][0]=way-power_lines-128.9.0,0,-42
 BackImage[S][0]=-
-FrontImage[S][0]=way-power_lines-128.9.2
+FrontImage[S][0]=way-power_lines-128.9.2,0,-42
 BackImage[E][0]=-
-FrontImage[E][0]=way-power_lines-128.9.1
+FrontImage[E][0]=way-power_lines-128.9.1,0,-42
 BackImage[W][0]=-
-FrontImage[W][0]=way-power_lines-128.9.3
+FrontImage[W][0]=way-power_lines-128.9.3,0,-42
 BackImage[N][1]=-
-FrontImage[N][1]=way-power_lines-128.9.4
+FrontImage[N][1]=way-power_lines-128.9.4,0,-42
 BackImage[S][1]=-
-FrontImage[S][1]=way-power_lines-128.9.6
+FrontImage[S][1]=way-power_lines-128.9.6,0,-42
 BackImage[E][1]=-
-FrontImage[E][1]=way-power_lines-128.9.5
+FrontImage[E][1]=way-power_lines-128.9.5,0,-42
 BackImage[W][1]=-
-FrontImage[W][1]=way-power_lines-128.9.7
---------------------------------------------------------------------------------
+FrontImage[W][1]=way-power_lines-128.9.7,0,-42
+----------------------------------------
 Obj=way
 Name=PowerConduits
 copyright=Fabio Gonella
@@ -103,7 +108,7 @@ cost=100000
 maintenance=5000
 intro_year=1920
 icon=> -
-cursor=way-power_lines-128.0.1
+cursor=way-power_lines-128.0.1,-24,-76
 # rbis * animation
 Image[-]=way-power_lines-128.6.0
 # conduits
@@ -133,39 +138,51 @@ ImageUp[3]=way-power_lines-128.8.0
 ImageUp[6]=way-power_lines-128.8.1
 ImageUp[9]=way-power_lines-128.8.2
 ImageUp[12]=way-power_lines-128.8.3
---------------------------------------------------------------------------------
+ImageUp2[3]=way-power_lines-128.8.4
+ImageUp2[6]=way-power_lines-128.8.5
+ImageUp2[9]=way-power_lines-128.8.6
+ImageUp2[12]=way-power_lines-128.8.7
+----------------------------------------
 Obj=bridge
 name=PowerBridge
-copyright=MHz & Vladimir Slavik
+copyright=MHz & Vladimir Slavik & Fabio Gonella
 # icon base by Erik, glyph by Fabio
 waytype=power
 cost=70000
 maintenance=700
-max_lenght=5
+max_lenght=6
 intro_year=1900
 menupos=-10
 icon=> way-power_lines-128.0.4
-cursor=way-power_lines-128.0.1
+cursor=way-power_lines-128.0.1,-24,-76
 BackImage[NS]=-
-FrontImage[NS]=way-power_lines-128.3.0
+FrontImage[NS]=way-power_lines-128.3.0,-24,-60
 BackImage[EW]=-
-FrontImage[EW]=way-power_lines-128.3.1
+FrontImage[EW]=way-power_lines-128.3.1,-24,-60
 BackRamp[N]=-
-FrontRamp[N]=way-power_lines-128.5.4,0,-12
+FrontRamp[N]=way-power_lines-128.3.4,-52,-47
+BackRamp2[N]=-
+FrontRamp2[N]=way-power_lines-128.5.4,-52,-47
 BackRamp[W]=-
-FrontRamp[W]=way-power_lines-128.5.7,0,-12
+FrontRamp[W]=way-power_lines-128.3.7,6,-47
+BackRamp2[W]=-
+FrontRamp2[W]=way-power_lines-128.5.7,6,-47
 BackRamp[S]=-
-FrontRamp[S]=way-power_lines-128.5.6
+FrontRamp[S]=way-power_lines-128.3.5,12,-55
+BackRamp2[S]=-
+FrontRamp2[S]=way-power_lines-128.5.5,12,-55
 BackRamp[E]=-
-FrontRamp[E]=way-power_lines-128.5.5
+FrontRamp[E]=way-power_lines-128.3.6,-58,-55
+BackRamp2[E]=-
+FrontRamp2[E]=way-power_lines-128.5.6,-58,-55
 BackStart[N]=-
-FrontStart[N]=way-power_lines-128.5.0
+FrontStart[N]=way-power_lines-128.5.0,-54,-45
 BackStart[S]=-
-FrontStart[S]=way-power_lines-128.5.3
+FrontStart[S]=way-power_lines-128.5.2,6,-75
 BackStart[E]=-
-FrontStart[E]=way-power_lines-128.5.2
+FrontStart[E]=way-power_lines-128.5.3,-54,-75
 BackStart[W]=-
-FrontStart[W]=way-power_lines-128.5.1
---------------------------------------------------------------------------------
+FrontStart[W]=way-power_lines-128.5.1,6,-45
+----------------------------------------
 
 #    EOF

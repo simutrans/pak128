@@ -1,21 +1,18 @@
 Obj=way
 Name=Tram_Track_110_A
+waytype=track
 copyright=Fabio Gonella
-
-waytype=tram_track
-
-cost=75000
-maintenance=750
-
+system_type=7
+cost=80000
+maintenance=800
 topspeed=110
 max_weight=30
-
-intro_year = 2003
-intro_month = 7
-
-cursor=tram_track_110_a.4.1,0,-16
-icon=> tram_track_110_a.4.0
-
+intro_year = 1980
+intro_month = 9
+# skin
+cursor=tram_track_110_a.0.6,0,-16
+icon=> tram_track_110_a.0.7
+# Summer
 Image[-][0]=tram_track_110_a.1.0
 Image[N][0]=tram_track_110_a.1.1
 Image[S][0]=tram_track_110_a.1.2
@@ -32,12 +29,36 @@ Image[NE][0]=tram_track_110_a.2.4
 Image[SE][0]=tram_track_110_a.2.5
 Image[NW][0]=tram_track_110_a.2.6
 Image[SW][0]=tram_track_110_a.2.7
-Diagonal[NE][0]=tram_track_110_a.3.4
-Diagonal[SE][0]=tram_track_110_a.3.5
-Diagonal[NW][0]=tram_track_110_a.3.6
-Diagonal[SW][0]=tram_track_110_a.3.7
-ImageUp[3][0]=tram_track_110_a.3.0
-ImageUp[6][0]=tram_track_110_a.3.1
-ImageUp[9][0]=tram_track_110_a.3.2
-ImageUp[12][0]=tram_track_110_a.3.3
-
+Diagonal[NE][0]=tram_track_110_a.3.0
+Diagonal[SE][0]=tram_track_110_a.3.1
+Diagonal[NW][0]=tram_track_110_a.3.2
+Diagonal[SW][0]=tram_track_110_a.3.3
+ImageUp[3][0]=tram_track_110_a.3.4
+ImageUp[6][0]=tram_track_110_a.3.5
+ImageUp[9][0]=tram_track_110_a.3.6
+ImageUp[12][0]=tram_track_110_a.3.7
+# Winter
+Image[-][1]=tram_track_110_a.4.0
+Image[N][1]=tram_track_110_a.4.1
+Image[S][1]=tram_track_110_a.4.2
+Image[E][1]=tram_track_110_a.4.3
+Image[W][1]=tram_track_110_a.4.4
+Image[NS][1]=tram_track_110_a.4.5
+Image[EW][1]=tram_track_110_a.4.6
+Image[NSE][1]=tram_track_110_a.4.7
+Image[NSW][1]=tram_track_110_a.5.0
+Image[NEW][1]=tram_track_110_a.5.1
+Image[SEW][1]=tram_track_110_a.5.2
+Image[NSEW][1]=tram_track_110_a.5.3
+Image[NE][1]=tram_track_110_a.5.4
+Image[SE][1]=tram_track_110_a.5.5
+Image[NW][1]=tram_track_110_a.5.6
+Image[SW][1]=tram_track_110_a.5.7
+Diagonal[NE][1]=tram_track_110_a.6.0
+Diagonal[SE][1]=tram_track_110_a.6.1
+Diagonal[NW][1]=tram_track_110_a.6.2
+Diagonal[SW][1]=tram_track_110_a.6.3
+ImageUp[3][1]=tram_track_110_a.6.4
+ImageUp[6][1]=tram_track_110_a.6.5
+ImageUp[9][1]=tram_track_110_a.6.6
+ImageUp[12][1]=tram_track_110_a.6.7

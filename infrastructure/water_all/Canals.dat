@@ -2,41 +2,41 @@
 #                                                                              #
 #                                 Canals                                       #
 #                                                                              #
---------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------
 
-Obj=way
-Name=water_road
-copyright=Fabio Gonella
-waytype=water
-cost=300000
-maintenance=600
-topspeed=35
-max_weight=5000
-intro_year = 1810
-intro_month = 7
-icon=> Canals.1.4
-cursor=Canals.2.4
-Image[-]=Canals.1.2
-Image[N]=Canals.3.0
-Image[S]=Canals.3.1
-Image[E]=Canals.3.2
-Image[W]=Canals.3.3
-Image[NS]=Canals.1.0
-Image[EW]=Canals.1.1
-Image[NSE]=Canals.4.0
-Image[NSW]=Canals.4.1
-Image[NEW]=Canals.4.2
-Image[SEW]=Canals.4.3
-Image[NSEW]=Canals.4.4
-Image[NE]=Canals.2.0
-Image[SE]=Canals.2.1
-Image[NW]=Canals.2.2
-Image[SW]=Canals.2.3
-# hangtyp * animation
-ImageUp[3]=Canals.5.2
-ImageUp[6]=Canals.5.3
-ImageUp[9]=Canals.5.1
-ImageUp[12]=Canals.5.0
+# Obj=way
+# Name=water_road
+# copyright=Fabio Gonella
+# waytype=water
+# cost=300000
+# maintenance=600
+# topspeed=35
+# max_weight=5000
+# intro_year = 1810
+# intro_month = 7
+# icon=> Canals.1.4
+# cursor=Canals.2.4
+# Image[-]=Canals.1.2
+# Image[N]=Canals.3.0
+# Image[S]=Canals.3.1
+# Image[E]=Canals.3.2
+# Image[W]=Canals.3.3
+# Image[NS]=Canals.1.0
+# Image[EW]=Canals.1.1
+# Image[NSE]=Canals.4.0
+# Image[NSW]=Canals.4.1
+# Image[NEW]=Canals.4.2
+# Image[SEW]=Canals.4.3
+# Image[NSEW]=Canals.4.4
+# Image[NE]=Canals.2.0
+# Image[SE]=Canals.2.1
+# Image[NW]=Canals.2.2
+# Image[SW]=Canals.2.3
+# # hangtyp * animation
+# ImageUp[3]=Canals.5.2
+# ImageUp[6]=Canals.5.3
+# ImageUp[9]=Canals.5.1
+# ImageUp[12]=Canals.5.0
 
 --------------------------------------------------------------------------------
 
