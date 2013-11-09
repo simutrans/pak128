@@ -1,6 +1,7 @@
 @echo off
 
-rem Last update 04/12/2012 by HDomos and Fabio Gonella
+rem Updated 04/12/2012 by HDomos and Fabio Gonella
+rem Last update 09/11/2013 by Fabio Gonella
 
 echo Compile Pak128
 echo ==============
@@ -10,7 +11,6 @@ echo It requires the file makeobj.exe to be in the same
 echo folder as this file pak128.bat.
 echo.
 if not exist .\makeobj.exe goto abort
-pause
 
 rem delete old
 rem  ------------------------
@@ -40,7 +40,10 @@ rem for newer Windows versions can be added /EXCLUDE:svn
 
 rem new writing
 rem  ------------------------
-cd base\misc_GUI
+cd base
+..\makeobj.exe pak128 ../simutrans/pak128/ ./ >..\err.txt
+
+cd .\misc_GUI
 ..\..\makeobj.exe pak128 >..\..\err.txt
 rem symbol.biglogo.pak must stay a single file - so it is copied into the pak folder before the others are moved and merged
 copy symbol.biglogo.pak ..\..\simutrans\pak128
@@ -58,9 +61,19 @@ del symbol.*.pak
 copy *.pak ..\..\simutrans\pak128\*.*
 del *.pak
 
+echo Compiling Pedestrians
+
+cd ..\pedestrians
+..\..\makeobj.exe pak128 ../../simutrans/pak128/pedestrian.all.pak ./ >>..\..\err.txt
+
+echo Compiling Smokes
+
+cd ..\smokes
+..\..\makeobj.exe pak128 ../../simutrans/pak128/smokes.all.pak ./ >>..\..\err.txt
+
 echo Compiling Airport Tools
 
-cd ..\airport_buildings_towers
+cd ..\..\infrastructure\airport_buildings_towers
 ..\..\makeobj.exe pak128 ../../simutrans/pak128/airports.buildings.pak ./ >>..\..\err.txt
 
 cd ..\airport_depots
@@ -76,8 +89,14 @@ cd ..\catenary_all
 
 echo Compiling Crossings
 
-cd ..\crossings_all
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.crossing.all.pak ./ >>..\..\err.txt
+cd ..\road_rail_crossings
+..\..\makeobj.exe pak128 ../../simutrans/pak128/way.crossing.road_rail.pak ./ >>..\..\err.txt
+
+cd ..\road_water_crossings
+..\..\makeobj.exe pak128 ../../simutrans/pak128/way.crossing.road_water.pak ./ >>..\..\err.txt
+
+cd ..\rail_water_crossings
+..\..\makeobj.exe pak128 ../../simutrans/pak128/way.crossing.rail_water.pak ./ >>..\..\err.txt
 
 echo Compiling Depots
 
@@ -89,15 +108,10 @@ echo Compiling Headquarters
 cd ..\headquarters
 ..\..\makeobj.exe pak128 ../../simutrans/pak128/building.hq.all.pak ./ >>..\..\err.txt
 
-echo Compiling Pedestrians
-
-cd ..\pedestrians
-..\..\makeobj.exe pak128 ../../simutrans/pak128/pedestrian.all.pak ./ >>..\..\err.txt
-
 echo Compiling Powerlines
 
 cd ..\powerlines
-..\..\makeobj.exe pak128 ../../simutrans/pak128/powerlines.all.pak ./ >>..\..\err.txt
+..\..\makeobj.exe pak176 ../../simutrans/pak128/powerlines.all.pak ./ >>..\..\err.txt
 
 echo Compiling Rail tools
 
@@ -143,11 +157,6 @@ echo Compiling Monorail tools
 
 cd ..\schwebebahn_all
 ..\..\makeobj.exe pak128 ../../simutrans/pak128/schwebebahn.all.pak ./ >>..\..\err.txt
-
-echo Compiling Smokes
-
-cd ..\smokes
-..\..\makeobj.exe pak128 ../../simutrans/pak128/smokes.all.pak ./ >>..\..\err.txt
 
 echo Compiling Station Buildings
 
@@ -197,12 +206,10 @@ cd ..\..\landscape\groundobj_static
 ..\..\makeobj.exe pak128 ../../simutrans/pak128/groundobj.all.pak ./ >>..\err.txt
 
 cd ..\grounds
-..\..\makeobj.exe pak128 >..\..\err.txt
-rem ground.Outside.pak must stay a single file - so it is copied into the pak folder before the others are merged
-copy ground.Outside.pak ..\..\simutrans\pak128
-del ground.Outside.pak
-..\..\makeobj.exe merge ../../simutrans/pak128/ground.all.pak *.pak >..\..\err.txt
-del *.pak
+..\..\makeobj.exe pak128 ../../simutrans/pak128/ground.all.pak ./ >..\..\err.txt
+
+cd ..\rivers
+..\..\makeobj.exe pak160 ../../simutrans/pak128/rivers.all.pak ./ >>..\err.txt
 
 cd ..\trees
 ..\..\makeobj.exe pak128 ../../simutrans/pak128/trees.all.pak ./ >>..\err.txt
@@ -253,10 +260,10 @@ cd ..\road-psg+mail
 echo Compiling Ships
 
 cd ..\ships-cargo
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak250 ../../simutrans/pak128/ ./ >>..\..\err.txt
 
 cd ..\ships-ferries
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak250 ../../simutrans/pak128/ ./ >>..\..\err.txt
 
 echo Compiling Trams
 

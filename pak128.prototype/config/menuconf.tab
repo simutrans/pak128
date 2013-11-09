@@ -67,7 +67,9 @@ icon_height = 32
 # WKZ_UNDERGROUND_PICK =  34
 # WKZ_BUY_HOUSE =         35
 # WKZ_CITYROAD =          36
-
+# WKZ_CHANGE_WATER_HEIGHT=38
+# WKZ_SET_CLIMATE =		  39
+#
 #
 general_tool[0]=0,0,9,a
 general_tool[1]=1,1,14,r
@@ -261,7 +263,7 @@ dialog_tool[28]=26,n
 #
 # Entry without an icon will not be shown. Use - for seperator.
 #
-# following waytypes are defined (for nearly everything)
+# following way types are defined (for nearly everything)
 # road_wt          =   1
 # track_wt         =   2
 # water_wt         =   3
@@ -278,7 +280,7 @@ dialog_tool[28]=26,n
 # tram = 7 (only for track)
 # special (eg. fence) = 255
 #
-# following buildingstype are defined (for buildings(#))
+# following building types are defined (for buildings(#))
 # unbekannt         =  0
 # attraction_city   =  1
 # attraction_land   =  2
@@ -347,14 +349,27 @@ toolbar[0][39]=dialog_tool[28]
 # slope tools
 toolbar[1][0]=general_tool[2]
 toolbar[1][1]=general_tool[3]
-toolbar[1][2]=general_tool[4],10,,12 #southslope
-toolbar[1][3]=general_tool[4],11,,3 #northslope
-toolbar[1][4]=general_tool[4],12,,6 #westslope
-toolbar[1][5]=general_tool[4],13,,9 #eastslope
-toolbar[1][6]=general_tool[4],14,,16 #all up slope
-toolbar[1][7]=general_tool[4],15,,17 #all down slope
-toolbar[1][8]=general_tool[5]
-
+toolbar[1][2]=general_tool[4],10,,36 #southslope
+toolbar[1][3]=general_tool[4],11,,4 #northslope
+toolbar[1][4]=general_tool[4],12,,12 #westslope
+toolbar[1][5]=general_tool[4],13,,28 #eastslope
+toolbar[1][6]=general_tool[4],43,,72 #southslope x2
+toolbar[1][7]=general_tool[4],44,,8 #northslope x2
+toolbar[1][8]=general_tool[4],45,,24 #westslope x2
+toolbar[1][9]=general_tool[4],46,,56 #eastslope x2
+toolbar[1][10]=general_tool[4],14,,82 #all up slope
+toolbar[1][11]=general_tool[4],15,,83 #all down slope
+toolbar[1][12]=general_tool[5]
+toolbar[1][13]=general_tool[38],34,,-1
+toolbar[1][14]=general_tool[38],33,,+1
+toolbar[1][15]=general_tool[39],42,,0
+toolbar[1][16]=general_tool[39],35,,1
+toolbar[1][17]=general_tool[39],37,,2
+toolbar[1][18]=general_tool[39],40,,3
+toolbar[1][19]=general_tool[39],36,,4
+toolbar[1][20]=general_tool[39],38,,5
+toolbar[1][21]=general_tool[39],39,,6
+toolbar[1][22]=general_tool[39],41,,7
 # railtools (waytype 2)
 toolbar[2][0]=ways(2,0)
 toolbar[2][1]=ways(2,1)

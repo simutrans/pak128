@@ -9,7 +9,10 @@
 # simutrans/pakfilefolder/config/simuconf.tab
 # ~/simutrans/simuconf.tab (read a second time, s.a.)
 #
+#############################  pakset settings  ############################
 
+tile_height = 8
+height_conversion_factor = 2
 
 #############################  passenger stuff  ############################
 
@@ -106,11 +109,16 @@ way_leave_road = 25
 
 # The highest number is the smallest. A river with max_speed==0 is not navigavable by ships.
 
-river_type[0] = river_00
-river_type[1] = river_01
-river_type[2] = river_02
-river_type[3] = river_03
-river_type[4] = river_04
+river_type[0] = river_30
+river_type[1] = river_20
+river_type[2] = river_10
+river_type[3] = river_0b
+river_type[4] = river_0a
+#river_type[0] = river_00
+#river_type[1] = river_01
+#river_type[2] = river_02
+#river_type[3] = river_03
+#river_type[4] = river_04
 
 river_min_length = 8
 #river_max_length = 256

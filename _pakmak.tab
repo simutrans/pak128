@@ -1,11 +1,12 @@
 FOLDERS
-factories
+base
+citycars
 cityhouses
+factories
+infrastructure
+landscape
 special_buildings
 vehicles
-citycars
-landscape
-base
 
 
 OPTIONS

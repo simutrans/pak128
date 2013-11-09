@@ -3,6 +3,7 @@
 # 2010-06 sdog 
 # 2010-06 neroden
 # 2011-01 sdog (adopting for pak128)
+# 2013-09 kierongreen
 #
 # Just run
 #   make clean all archives
@@ -53,36 +54,40 @@ DIRS128 += citycars
 DIRS128 += landscape/trees
 DIRS128 += landscape/groundobj_static
 DIRS128 += base
+DIRS128 += base/pedestrians
+DIRS128 += base/smokes
 
-BASE128 :=
-BASE128 += airport_buildings_towers
-BASE128 += airport_depots
-BASE128 += airport_ways_items
-BASE128 += catenary_all
-BASE128 += crossings_all
-BASE128 += depots_rail_road_tram
-BASE128 += headquarters
-BASE128 += pedestrians
-BASE128 += powerlines
-BASE128 += rail_bridges
-BASE128 += rail_elevated
-BASE128 += rail_signals
-BASE128 += rail_stations
-BASE128 += rail_tracks
-BASE128 += rail_tunnels
-BASE128 += road_bridges
-BASE128 += road_elevated
-BASE128 += road_signs
-BASE128 += road_stops
-BASE128 += road_tunnels
-BASE128 += roads
-BASE128 += schwebebahn_all
-BASE128 += smokes
-BASE128 += station_buildings
-BASE128 += tram_tracks
-BASE128 += water_all
+INFRASTRUCTURE128 :=
+INFRASTRUCTURE128 += airport_buildings_towers
+INFRASTRUCTURE128 += airport_depots
+INFRASTRUCTURE128 += airport_ways_items
+INFRASTRUCTURE128 += catenary_all
+#INFRASTRUCTURE128 += crossings_all
+INFRASTRUCTURE128 += road_rail_crossings_all
+INFRASTRUCTURE128 += road_water_crossings_all
+INFRASTRUCTURE128 += rail_water_crossings_all
+INFRASTRUCTURE128 += depots_rail_road_tram
+INFRASTRUCTURE128 += headquarters
+#INFRASTRUCTURE128 += powerlines
+INFRASTRUCTURE128 += rail_bridges
+INFRASTRUCTURE128 += rail_elevated
+INFRASTRUCTURE128 += rail_signals
+INFRASTRUCTURE128 += rail_stations
+INFRASTRUCTURE128 += rail_tracks
+INFRASTRUCTURE128 += rail_tunnels
+INFRASTRUCTURE128 += road_bridges
+INFRASTRUCTURE128 += road_elevated
+INFRASTRUCTURE128 += road_signs
+INFRASTRUCTURE128 += road_stops
+INFRASTRUCTURE128 += road_tunnels
+INFRASTRUCTURE128 += roads
+INFRASTRUCTURE128 += schwebebahn_all
+INFRASTRUCTURE128 += station_buildings
+INFRASTRUCTURE128 += tram_tracks
+INFRASTRUCTURE128 += water_all
+INFRASTRUCTURE128 += compatibility
 
-DIRS128 += $(addprefix base/,$(BASE128))
+DIRS128 += $(addprefix infrastructure/,$(INFRASTRUCTURE128))
 
 #those two will get special treatment below
 DIRGROUNDS:= landscape/grounds
@@ -90,6 +95,9 @@ DIRLOGO := base/misc_GUI
 
 
 #other sizes for boats etc
+DIRS160 := infrastructure/powerlines
+DIRS160 := landscape/rivers
+
 DIRS176 := vehicles/airplanes
 
 DIRS250 := vehicles/ships-cargo
@@ -137,6 +145,11 @@ $(DIRS128):
 	@mkdir -p $(PAKDIR)
 	@$(MAKEOBJ) PAK128 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
+$(DIRS160):
+	@echo "===> PAK160 $@"
+	@mkdir -p $(PAKDIR)
+	@$(MAKEOBJ) quiet PAK160 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null	
+	
 $(DIRS176):
 	@echo "===> PAK176 $@"
 	@mkdir -p $(PAKDIR)
