@@ -1,0 +1,29 @@
+---------------------------------------------------------------------------------
+#																				#
+#								CANAL CROSSING									#
+#																				#
+#	Version 1.0																	#
+#	(C) 2007 Fabio Gonella (Fagonella)											#
+#	Last update: 26 June 2007													#
+#																				#
+---------------------------------------------------------------------------------
+
+Obj=crossing
+Name=CrossingTrackWater
+copyright=Fabio Gonella
+waytype[0]=track
+waytype[1]=water
+speed[0]=160
+speed[1]=25
+openimage[ew][0]=Canal_crossing.3.2
+openimage[ns][0]=Canal_crossing.3.0
+front_openimage[ew][0]=Canal_crossing.3.3
+front_openimage[ns][0]=Canal_crossing.3.1
+closedimage[ew][0]=Canal_crossing.4.2
+closedimage[ns][0]=Canal_crossing.4.0
+front_closedimage[ew][0]=Canal_crossing.4.3
+front_closedimage[ns][0]=Canal_crossing.4.1
+
+--------------------------------------------------------------------------------
+
+# EOF

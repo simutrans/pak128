@@ -1,0 +1,34 @@
+#TUNNEL
+obj=tunnel
+name=Rail_120B_Tunnel
+copyright=Fabio Gonella
+waytype=track
+way=Rail_120B_Tracks
+cost=100000
+maintenance=1600
+topspeed=120
+max_weight=180
+intro_year=1980
+intro_month=1
+retire_year=2999
+retire_month=1
+icon=> rail_120b_tunnel.0.6
+cursor=rail_120b_tunnel.0.7,0,-16
+#SUMMER
+FrontImage[N][0]=rail_120b_tunnel.1.0
+BackImage[N][0]=rail_120b_tunnel.1.1
+FrontImage[S][0]=rail_120b_tunnel.1.2
+BackImage[S][0]=rail_120b_tunnel.1.3
+FrontImage[E][0]=rail_120b_tunnel.1.4
+BackImage[E][0]=rail_120b_tunnel.1.5
+FrontImage[W][0]=rail_120b_tunnel.1.6
+BackImage[W][0]=rail_120b_tunnel.1.7
+#WINTER
+FrontImage[N][1]=rail_120b_tunnel.2.0
+BackImage[N][1]=rail_120b_tunnel.2.1
+FrontImage[S][1]=rail_120b_tunnel.2.2
+BackImage[S][1]=rail_120b_tunnel.2.3
+FrontImage[E][1]=rail_120b_tunnel.2.4
+BackImage[E][1]=rail_120b_tunnel.2.5
+FrontImage[W][1]=rail_120b_tunnel.2.6
+BackImage[W][1]=rail_120b_tunnel.2.7

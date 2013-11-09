@@ -1,0 +1,34 @@
+#TUNNEL
+obj=tunnel
+name=Rail_400_Tunnel
+copyright=Fabio Gonella
+waytype=track
+way=Rail_400_Tracks
+cost=230000
+maintenance=3300
+topspeed=400
+max_weight=80
+intro_year=2010
+intro_month=1
+retire_year=2999
+retire_month=1
+icon=> rail_400_tunnel.0.6
+cursor=rail_400_tunnel.0.7,0,-16
+#SUMMER
+FrontImage[N][0]=rail_400_tunnel.1.0
+BackImage[N][0]=rail_400_tunnel.1.1
+FrontImage[S][0]=rail_400_tunnel.1.2
+BackImage[S][0]=-
+FrontImage[E][0]=rail_400_tunnel.1.3
+BackImage[E][0]=-
+FrontImage[W][0]=rail_400_tunnel.1.4
+BackImage[W][0]=rail_400_tunnel.1.5
+#WINTER
+FrontImage[N][1]=rail_400_tunnel.2.0
+BackImage[N][1]=rail_400_tunnel.2.1
+FrontImage[S][1]=rail_400_tunnel.2.2
+BackImage[S][1]=rail_400_tunnel.2.3
+FrontImage[E][1]=rail_400_tunnel.2.4
+BackImage[E][1]=-
+FrontImage[W][1]=rail_400_tunnel.2.5
+BackImage[W][1]=rail_400_tunnel.2.6
