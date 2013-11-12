@@ -4,6 +4,7 @@
 # 2010-06 neroden
 # 2011-01 sdog (adopting for pak128)
 # 2013-09 kierongreen
+# 2013-11 Fabio Gonella
 #
 # Just run
 #   make clean all archives
@@ -51,6 +52,7 @@ DIRS128 += special_buildings/landscape
 DIRS128 += special_buildings/monuments
 DIRS128 += special_buildings/townhalls
 DIRS128 += citycars
+DIRS128 += landscape/grounds
 DIRS128 += landscape/trees
 DIRS128 += landscape/groundobj_static
 DIRS128 += base
@@ -89,8 +91,8 @@ INFRASTRUCTURE128 += compatibility
 
 DIRS128 += $(addprefix infrastructure/,$(INFRASTRUCTURE128))
 
-#those two will get special treatment below
-DIRGROUNDS:= landscape/grounds
+#these will get special treatment below
+#DIRGROUNDS:= landscape/grounds
 DIRLOGO := base/misc_GUI
 
 
@@ -161,15 +163,16 @@ $(DIRS250):
 	@$(MAKEOBJ) quiet PAK250 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 
-$(DIRGROUNDS):
-	@echo "===> ground.Outside.pak"
-	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK128 temp.pak $@/ > /dev/null
-	@$(MAKEOBJ) quiet EXTRACT temp.pak > /dev/null
-	@rm temp.pak
-	@mv ground.Outside.pak $(PAKDIR)/
-	@$(MAKEOBJ) quiet MERGE $(PAKDIR)/$(call make_name,$@) *.pak > /dev/null
-	@rm *.pak
+#$(DIRGROUNDS):
+#	@echo "===> ground.Outside.pak"
+#	@mkdir -p $(PAKDIR)
+#	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
+#	@$(MAKEOBJ) quiet PAK128 temp.pak $@/ > /dev/null
+#	@$(MAKEOBJ) quiet EXTRACT temp.pak > /dev/null
+#	@rm temp.pak
+#	@mv ground.Outside.pak $(PAKDIR)/
+#	@$(MAKEOBJ) quiet MERGE $(PAKDIR)/$(call make_name,$@) *.pak > /dev/null
+#	@rm *.pak
 
 $(DIRLOGO):
 	@echo "===> logo & misc gui"
