@@ -1,7 +1,7 @@
 #TUNNEL
 obj=tunnel
-name=road_040_tunnel
-way=road_040
+name=Road_040_Tunnel
+way=Road_040
 waytype=road
 copyright=Fabio Gonella
 cost=100000

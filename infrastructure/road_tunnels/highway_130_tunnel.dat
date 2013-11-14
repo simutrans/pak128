@@ -1,0 +1,32 @@
+#TUNNEL
+obj=tunnel
+name=Highway_130_Tunnel
+way=Highway_130
+waytype=road
+copyright=Fabio Gonella
+cost=240000
+maintenance=3100
+topspeed=130
+max_weight=80
+intro_year=1965
+intro_month=1
+icon=> highway_130_tunnel.0.6
+cursor=highway_130_tunnel.0.7,0,-16
+#SUMMER
+FrontImage[N][0]=highway_130_tunnel.1.0
+BackImage[N][0]=highway_130_tunnel.1.1
+FrontImage[S][0]=highway_130_tunnel.1.2
+BackImage[S][0]=highway_130_tunnel.1.3
+FrontImage[E][0]=highway_130_tunnel.1.4
+BackImage[E][0]=highway_130_tunnel.1.5
+FrontImage[W][0]=highway_130_tunnel.1.6
+BackImage[W][0]=highway_130_tunnel.1.7
+#WINTER
+FrontImage[N][1]=highway_130_tunnel.2.0
+BackImage[N][1]=highway_130_tunnel.2.1
+FrontImage[S][1]=highway_130_tunnel.2.2
+BackImage[S][1]=highway_130_tunnel.2.3
+FrontImage[E][1]=highway_130_tunnel.2.4
+BackImage[E][1]=highway_130_tunnel.2.5
+FrontImage[W][1]=highway_130_tunnel.2.6
+BackImage[W][1]=highway_130_tunnel.2.7

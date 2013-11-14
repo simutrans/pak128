@@ -1,0 +1,34 @@
+#TUNNEL
+obj=tunnel
+name=Highway_110_Tunnel
+way=Highway_110
+waytype=road
+copyright=Fabio Gonella
+cost=210000
+maintenance=2900
+topspeed=110
+max_weight=80
+intro_year=1930
+intro_month=1
+retire_year=1980
+retire_month=1
+icon=> highway_110_tunnel.0.6
+cursor=highway_110_tunnel.0.7,0,-16
+#SUMMER
+FrontImage[N][0]=highway_110_tunnel.1.0
+BackImage[N][0]=highway_110_tunnel.1.1
+FrontImage[S][0]=highway_110_tunnel.1.2
+BackImage[S][0]=-
+FrontImage[E][0]=highway_110_tunnel.1.3
+BackImage[E][0]=-
+FrontImage[W][0]=highway_110_tunnel.1.4
+BackImage[W][0]=highway_110_tunnel.1.5
+#WINTER
+FrontImage[N][1]=highway_110_tunnel.2.0
+BackImage[N][1]=highway_110_tunnel.2.1
+FrontImage[S][1]=highway_110_tunnel.2.2
+BackImage[S][1]=-
+FrontImage[E][1]=highway_110_tunnel.2.3
+BackImage[E][1]=-
+FrontImage[W][1]=highway_110_tunnel.2.4
+BackImage[W][1]=highway_110_tunnel.2.5

@@ -1,6 +1,6 @@
 #BRIDGE
 obj=bridge
-name=road_055_bridge
+name=Road_055_Bridge
 waytype=road
 copyright=Fabio Gonella
 cost=51000

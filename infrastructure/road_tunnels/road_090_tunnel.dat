@@ -1,8 +1,8 @@
 #TUNNEL
 obj=tunnel
-name=road_090_tunnel
+name=Road_090_Tunnel
 waytype=road
-way=road_090
+way=Road_090
 copyright=Fabio Gonella
 cost=160000
 maintenance=2400

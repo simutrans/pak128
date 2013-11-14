@@ -1,6 +1,6 @@
 #ELEVATED
 obj=way
-name=road_050_elevated
+name=Road_050_Elevated
 waytype=road
 copyright=Fabio Gonella
 system_type=1

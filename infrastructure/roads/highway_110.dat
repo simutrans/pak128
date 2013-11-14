@@ -1,0 +1,71 @@
+## 110 KM/H HIGHWAY
+## Speed : 110
+## Intro : 1930
+## Retire: 1980
+## Road + Bridge + Elevated + Tunnel
+#ROAD
+obj=way
+name=Highway_110
+waytype=road
+copyright=Fabio Gonella
+draw_as_ding=0
+cost=44000
+maintenance=1200
+topspeed=110
+max_weight=80
+intro_year=1930
+intro_month=1
+retire_year=1980
+retire_month=1
+icon=> highway_110.0.6
+cursor=highway_110.0.7,0,-16
+#SUMMER
+Image[-][0]=highway_110.1.0
+Image[N][0]=highway_110.1.1
+Image[S][0]=highway_110.1.2
+Image[E][0]=highway_110.1.3
+Image[W][0]=highway_110.1.4
+Image[NS][0]=highway_110.1.5
+Image[EW][0]=highway_110.1.6
+Image[NSE][0]=highway_110.1.7
+Image[NSW][0]=highway_110.2.0
+Image[NEW][0]=highway_110.2.1
+Image[SEW][0]=highway_110.2.2
+Image[NSEW][0]=highway_110.2.3
+Image[NE][0]=highway_110.2.4
+Image[SE][0]=highway_110.2.5
+Image[NW][0]=highway_110.2.6
+Image[SW][0]=highway_110.2.7
+Diagonal[NE][0]=highway_110.3.0
+Diagonal[SE][0]=highway_110.3.1
+Diagonal[NW][0]=highway_110.3.2
+Diagonal[SW][0]=highway_110.3.3
+ImageUp[3][0]=highway_110.3.4
+ImageUp[6][0]=highway_110.3.5
+ImageUp[9][0]=highway_110.3.6
+ImageUp[12][0]=highway_110.3.7
+#WINTER
+Image[-][1]=highway_110.4.0
+Image[N][1]=highway_110.4.1
+Image[S][1]=highway_110.4.2
+Image[E][1]=highway_110.4.3
+Image[W][1]=highway_110.4.4
+Image[NS][1]=highway_110.4.5
+Image[EW][1]=highway_110.4.6
+Image[NSE][1]=highway_110.4.7
+Image[NSW][1]=highway_110.5.0
+Image[NEW][1]=highway_110.5.1
+Image[SEW][1]=highway_110.5.2
+Image[NSEW][1]=highway_110.5.3
+Image[NE][1]=highway_110.5.4
+Image[SE][1]=highway_110.5.5
+Image[NW][1]=highway_110.5.6
+Image[SW][1]=highway_110.5.7
+Diagonal[NE][1]=highway_110.6.0
+Diagonal[SE][1]=highway_110.6.1
+Diagonal[NW][1]=highway_110.6.2
+Diagonal[SW][1]=highway_110.6.3
+ImageUp[3][1]=highway_110.6.4
+ImageUp[6][1]=highway_110.6.5
+ImageUp[9][1]=highway_110.6.6
+ImageUp[12][1]=highway_110.6.7

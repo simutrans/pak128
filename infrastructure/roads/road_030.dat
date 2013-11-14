@@ -5,7 +5,7 @@
 ## Road + Bridge
 #ROAD
 obj=way
-name=road_030
+name=Road_030
 waytype=road
 copyright=Fabio Gonella
 draw_as_ding=0

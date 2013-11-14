@@ -5,7 +5,7 @@
 ## Road + Bridge + Elevated + Tunnel
 #ROAD
 obj=way
-name=road_090
+name=Road_090
 waytype=road
 copyright=Fabio Gonella
 draw_as_ding=0
