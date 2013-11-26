@@ -1,8 +1,7 @@
-
 Obj=building
 Name=Long_Goods_Dock
-copyright=MHz
-type=habour
+copyright=MHz & mEGa
+type=harbour
 
 enables_ware=1
 Level=5
@@ -14,17 +13,22 @@ Dims=1,2,4
 
 NoInfo=1
 
-icon=> long_goods_dock.4.0
-cursor=long_goods_dock.4.1
+icon=> long_goods_dock.0.2
+cursor=long_goods_dock.0.3
 
-BackImage[0][1][0][0][0]=long_goods_dock.2.0
-BackImage[3][0][0][0][0]=long_goods_dock.2.1
-BackImage[2][0][0][0][0]=long_goods_dock.2.2
-BackImage[1][0][1][0][0]=long_goods_dock.2.3
+BackImage[0][1][0][0][0][0]=long_goods_dock.1.0
+BackImage[3][0][0][0][0][0]=long_goods_dock.1.1
+BackImage[2][0][0][0][0][0]=long_goods_dock.1.2
+BackImage[1][0][1][0][0][0]=long_goods_dock.1.3
 
-BackImage[0][0][0][0][0]=long_goods_dock.3.0
-BackImage[3][0][1][0][0]=long_goods_dock.3.1
-BackImage[2][1][0][0][0]=long_goods_dock.3.2
-BackImage[1][0][0][0][0]=long_goods_dock.3.3
+BackImage[0][0][0][0][0][0]=long_goods_dock.2.0
+BackImage[3][0][1][0][0][0]=long_goods_dock.2.1
+BackImage[2][1][0][0][0][0]=long_goods_dock.2.2
+BackImage[1][0][0][0][0][0]=long_goods_dock.2.3
+
+BackImage[0][0][0][0][0][1]=long_goods_dock.3.0
+BackImage[3][0][1][0][0][1]=long_goods_dock.3.1
+BackImage[2][1][0][0][0][1]=long_goods_dock.3.2
+BackImage[1][0][0][0][0][1]=long_goods_dock.3.3
 
 # EOF
