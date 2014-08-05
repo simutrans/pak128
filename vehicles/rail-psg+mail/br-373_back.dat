@@ -22,5 +22,5 @@ EmptyImage[SE]=br-373_back.1.5,0,4
 EmptyImage[S]=br-373_back.1.6,0,4
 EmptyImage[SW]=br-373_back.1.7,0,4
 constraint[prev][0]=BR-373_BackCar
-constraint[next][0]=BR-373_FrontCar
+constraint[next][0]=BR-373_Eurostar
 constraint[next][1]=none

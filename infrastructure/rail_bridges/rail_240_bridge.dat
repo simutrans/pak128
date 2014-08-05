@@ -16,7 +16,7 @@ retire_month=1
 pillar_distance=1
 pillar_asymmetric=1
 icon=> rail_240_bridge.0.6
-cursor=-
+cursor=rail_240_bridge.0.7
 #SUMMER
 BackImage[NS][0]=rail_240_bridge.1.0,0,8
 FrontImage[NS][0]=rail_240_bridge.1.1,0,8

@@ -12,7 +12,7 @@ waytype=monorail_track
 system_type=1
 
 cost=210000
-maintenance=3000
+maintenance=1500
 
 topspeed=70
 #top speed original = 60
@@ -60,14 +60,23 @@ FrontImage[SEW]=schwebebahn_p_front.3.2
 Image[NSW]=schwebebahn_p_back.3.3
 FrontImage[NSW]=schwebebahn_p_front.3.3
 
-ImageUP[12]=schwebebahn_p_back.4.0
-FrontImageUP[12]=schwebebahn_p_front.4.0
-ImageUP[9]=schwebebahn_p_back.4.1
-FrontImageUP[9]=schwebebahn_p_front.4.1
-ImageUP[3]=schwebebahn_p_back.4.2
-FrontImageUP[3]=schwebebahn_p_front.4.2
-ImageUP[6]=schwebebahn_p_back.4.3
-FrontImageUP[6]=schwebebahn_p_front.4.3
+ImageUp2[12]=schwebebahn_p_back.4.0
+FrontImageUp2[12]=schwebebahn_p_front.4.0
+ImageUp2[9]=schwebebahn_p_back.4.1
+FrontImageUp2[9]=schwebebahn_p_front.4.1
+ImageUp2[3]=schwebebahn_p_back.4.2
+FrontImageUp2[3]=schwebebahn_p_front.4.2
+ImageUp2[6]=schwebebahn_p_back.4.3
+FrontImageUp2[6]=schwebebahn_p_front.4.3
+
+ImageUP[12]=schwebebahn_p_back.7.0
+FrontImageUP[12]=schwebebahn_p_front.7.0
+ImageUP[9]=schwebebahn_p_back.7.1
+FrontImageUP[9]=schwebebahn_p_front.7.1
+ImageUP[3]=schwebebahn_p_back.7.2
+FrontImageUP[3]=schwebebahn_p_front.7.2
+ImageUP[6]=schwebebahn_p_back.7.3
+FrontImageUP[6]=schwebebahn_p_front.7.3
 
 Diagonal[SW]=schwebebahn_p_back.5.0
 FrontDiagonal[SW]=schwebebahn_p_front.5.0
@@ -89,7 +98,7 @@ draw_as_ding=1
 system_type=0
 
 cost=150000
-maintenance=3500
+maintenance=1750
 
 topspeed=120
 
@@ -136,14 +145,23 @@ FrontImage[SEW]=schwebebahn_p_ground_front.3.2
 Image[NSW]=schwebebahn_p_ground_back.3.3
 FrontImage[NSW]=schwebebahn_p_ground_front.3.3
 
-ImageUP[12]=schwebebahn_p_ground_back.4.0
-FrontImageUP[12]=schwebebahn_p_ground_front.4.0
-ImageUP[9]=schwebebahn_p_ground_back.4.1
-FrontImageUP[9]=schwebebahn_p_ground_front.4.1
-ImageUP[3]=schwebebahn_p_ground_back.4.2
-FrontImageUP[3]=schwebebahn_p_ground_front.4.2
-ImageUP[6]=schwebebahn_p_ground_back.4.3
-FrontImageUP[6]=schwebebahn_p_ground_front.4.3
+ImageUP2[12]=schwebebahn_p_ground_back.4.0
+FrontImageUP2[12]=schwebebahn_p_ground_front.4.0
+ImageUP2[9]=schwebebahn_p_ground_back.4.1
+FrontImageUP2[9]=schwebebahn_p_ground_front.4.1
+ImageUP2[3]=schwebebahn_p_ground_back.4.2
+FrontImageUP2[3]=schwebebahn_p_ground_front.4.2
+ImageUP2[6]=schwebebahn_p_ground_back.4.3
+FrontImageUP2[6]=schwebebahn_p_ground_front.4.3
+
+ImageUP[12]=schwebebahn_p_ground_back.7.0
+FrontImageUP[12]=schwebebahn_p_ground_front.7.0
+ImageUP[9]=schwebebahn_p_ground_back.7.1
+FrontImageUP[9]=schwebebahn_p_ground_front.7.1
+ImageUP[3]=schwebebahn_p_ground_back.7.2
+FrontImageUP[3]=schwebebahn_p_ground_front.7.2
+ImageUP[6]=schwebebahn_p_ground_back.7.3
+FrontImageUP[6]=schwebebahn_p_ground_front.7.3
 
 Diagonal[SW]=schwebebahn_p_ground_back.5.0
 FrontDiagonal[SW]=schwebebahn_p_ground_front.5.0
@@ -160,7 +178,7 @@ Obj=bridge
 Name=Schwebebahn_p_bridge
 copyright=yoshi & Fabio Gonella
 cost=300000
-maintenance=4000
+maintenance=2000
 topspeed=70
 intro_year=1901
 intro_month=3
@@ -169,25 +187,38 @@ waytype=monorail_track
 length=6
 #system_type=1
 # skin
-icon=> schwebebahn_p_bridge.3.0
-cursor=schwebebahn_p_ground_back.6.3
-# rbis * animation
-#Image[-]=monotrack.1.0
-pillar_distance=1
-BackImage[NS]=schwebebahn_p_bridge.0.0
-BackImage[EW]=schwebebahn_p_bridge.0.1
-# hangtyp * animation
-BackRamp[N]=schwebebahn_p_bridge.2.0
-BackRamp[S]=schwebebahn_p_bridge.2.2
-BackRamp[E]=schwebebahn_p_bridge.2.3
-BackRamp[W]=schwebebahn_p_bridge.2.1
-#Image[-]=monotrack.1.0
-BackStart[N]=schwebebahn_p_bridge.1.2
-BackStart[S]=schwebebahn_p_bridge.1.0
-BackStart[E]=schwebebahn_p_bridge.1.1
-BackStart[W]=schwebebahn_p_bridge.1.3
-backPillar[S]=-
-backPillar[W]=-
+icon=> schwebebahn_p_bridge.0.2
+cursor=schwebebahn_p_bridge.0.0
+
+FrontImage[NS]=schwebebahn_p_bridge.0.0
+FrontImage[EW]=schwebebahn_p_bridge.0.1
+
+FrontRamp[N]=schwebebahn_p_bridge.1.0
+BackRamp[N]=schwebebahn_p_bridge.1.1
+FrontRamp[W]=schwebebahn_p_bridge.1.2
+BackRamp[W]=schwebebahn_p_bridge.1.3
+FrontRamp[S]=schwebebahn_p_bridge.1.4
+BackRamp[S]=schwebebahn_p_bridge.1.5
+FrontRamp[E]=schwebebahn_p_bridge.1.6
+BackRamp[E]=schwebebahn_p_bridge.1.7
+
+FrontStart[N]=schwebebahn_p_bridge.2.0
+BackStart[N]=schwebebahn_p_bridge.2.1
+FrontStart[W]=schwebebahn_p_bridge.2.2
+BackStart[W]=schwebebahn_p_bridge.2.3
+FrontStart[S]=schwebebahn_p_bridge.2.4,0,16
+BackStart[S]=schwebebahn_p_bridge.2.5,0,16
+FrontStart[E]=schwebebahn_p_bridge.2.6,0,16
+BackStart[E]=schwebebahn_p_bridge.2.7,0,16
+
+FrontStart2[N]=schwebebahn_p_bridge.3.0
+BackStart2[N]=schwebebahn_p_bridge.3.1
+FrontStart2[W]=schwebebahn_p_bridge.3.2
+BackStart2[W]=schwebebahn_p_bridge.3.3
+FrontStart2[S]=schwebebahn_p_bridge.3.4,0,32
+BackStart2[S]=schwebebahn_p_bridge.3.5,0,32
+FrontStart2[E]=schwebebahn_p_bridge.3.6,0,32
+BackStart2[E]=schwebebahn_p_bridge.3.7,0,32
 
 ------------------------------
 
