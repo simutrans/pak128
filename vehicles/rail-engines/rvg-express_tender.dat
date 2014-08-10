@@ -11,6 +11,7 @@ power=0
 weight=53
 cost=3117000
 runningcost=31
+length=7
 
 intro_year=1929
 intro_month=11
