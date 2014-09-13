@@ -11,6 +11,7 @@ name=traffic_light
 min_speed=0
 single_way=0
 waytype=road
+retire_year=2000
 image[0]=privat-traffic_lights-128.0.0
 Image[1]=privat-traffic_lights-128.0.1
 Image[2]=privat-traffic_lights-128.0.2
