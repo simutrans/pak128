@@ -94,6 +94,22 @@ Image[12]=> menu_buttons.0.11
 Image[13]=> menu_buttons.0.12
 Image[14]=> menu_buttons.1.11
 Image[15]=> menu_buttons.1.10
+# double slope tool icons
+Image[43]=> menu_buttons.2.9
+Image[44]=> menu_buttons.2.10
+Image[45]=> menu_buttons.2.11
+Image[46]=> menu_buttons.2.12
+# climate tools icons
+Image[33]=> menu_buttons.3.13
+Image[34]=> menu_buttons.4.13
+Image[42]=> menu_buttons.3.9
+Image[35]=> menu_buttons.3.10
+Image[37]=> menu_buttons.3.11
+Image[40]=> menu_buttons.3.12
+Image[36]=> menu_buttons.4.9
+Image[38]=> menu_buttons.4.10
+Image[39]=> menu_buttons.4.11
+Image[41]=> menu_buttons.4.12
 # wayremover tool icons
 Image[16]=> menu_buttons.8.8
 Image[17]=> menu_buttons.8.9
