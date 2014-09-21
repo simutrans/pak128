@@ -1,3 +1,15 @@
+simutrans128 (2.5.0) stable; urgency=low
+
+  * Complete upgrade to half heights
+  * Rails and trains lowered of four pixels (ground level)
+  * Rail stations by Gauthier
+  * Complete update of catenaries/third rails by Gwalch and Gauthier
+  * Many bugfixes
+  
+ -- Gauthier Nottret <gauthier.nottret@edu.esiee.fr> & the pak128 team 19 Sep 2014
+
+simutrans128 (2.4.0) ???????????
+
 simutrans128 (2.3.0) stable; urgency=low
 
   * New scenario by ny911 - Swiss mountains

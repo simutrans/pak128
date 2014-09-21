@@ -5,7 +5,7 @@
 #                             Language: fr Francais                            #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 19.03 2013                           #
+#                           Date Created: 19.09 2014                           #
 #                                                                              #
 #                                   authors:                                   #
 #                                    - An_dz                                   #
@@ -14,9 +14,13 @@
 #                                    note:                                     #
 #                                    - Dwachs                                  #
 #                                    note:                                     #
-#                              Frank Penz - FrankP                             #
+#                                  - Flemmbrav                                 #
+#                                    note:                                     #
+#                                    - FrankP                                  #
 #                                    note:                                     #
 #                         Roman Schwörer - Gotthardlok                         #
+#                                    note:                                     #
+#                                     - PTM                                    #
 #                                    note:                                     #
 #                           Sava Bogdanets - Sava2004                          #
 #                                    note:                                     #
@@ -38,7 +42,7 @@
 #                                    note:                                     #
 #                           Maxime Cheminel - maxime                           #
 #                                    note:                                     #
-#                          Markus Pristovsek - prissi                          #
+#                                    - prissi                                  #
 #                                    note:                                     #
 #                                                                              #
 ################################################################################
@@ -77,11 +81,23 @@ Pont en béton pour voie à haute vitesse moderne
 Rail_Track_400_Bridge
 Pont en béton à haute vitesse améliorée
 road_030_bridge
-Pont routier
+Pont routier en bois
 road_040_bridge
-Pont rue 40 km/h
+Pont urbain pavé
 road_050_bridge
-rie surélevée à 50 km/h
+Pont urbain
+road_055_bridge
+Pont routier de pierre
+road_070_bridge
+Pont routier en briques
+road_090_bridge
+Pont routier moderne
+road_110_bridge
+Pont pour route nationale
+road_130_bridge
+Pont pour autoroute
+road_200_bridge
+Pont pour autoroute moderne
 Schwebebahn_p_bridge
 Monorail Suspendu (pont)
 water_bridge
@@ -119,7 +135,7 @@ Hangar en béton
 1990AirDepot
 Hangar Moderne
 ABBYS_0
-Abbaye\n\n
+Abbaye\n\nCette abbaye est connue pour\nles puits profonds présents dans\nles deux tours. La légende raconte\nque ces puits n'ont pas de fond. C'est impressionnant\nde voir la queue des visiteurs venus voir\nces fameux puits et laisser tomber quelques pièces...\nqui tombent dans l'eau et sont récupérés par les moines !
 Airport1920_AirportBlg
 Hall d'Attente
 Airport1930PostOffice
@@ -177,7 +193,7 @@ Quai de chargement
 CarStop
 Zone de chargement
 CASTLE_0
-Ce fut le château du roi\nNapik l'Edificateur. Une\ngrande partie a été détruite\npendant diverses guerres.\nMais il a été reconstruit au\n19ème siècle. On peut y voir\nune collection très connue\nde vieilles armures et\nd'épées.\n
+Chateau Napik\n\nCe fut le château du roi\nNapik l'Edificateur. Une\ngrande partie a été détruite\npendant diverses guerres.\nMais il a été reconstruit au\n19ème siècle. On peut y voir\nune collection très connue\nde vieilles armures et\nd'épées.\n
 CHURCH_02
 L'église rose.\n\nCette église a été construite\npar un illustre moine, un\npeu fou, qui la peignit en\nrose en l'an 1654. Bien que\nla couleur se soit un peu\nternie, elle est toujours\nsurnommée l'église rose.\n
 CHURCH_03
@@ -191,7 +207,7 @@ Eglise\n\n. cette église typique\na les cloches qui sonnent\nchaque jour à midi.
 CIRCUS_0
 Cirque Humberto\n\nLe célèbre cirque a fait de\ncette ville sa dernière\ndestination. La tente\nclassique a été gardée pour\npréserver l'atmosphère\noriginale, mais tous les\ngens du cirque ont acheté\nleur maison ici donc vous\npouvez compter sur eux\npour rester ici et devenir\ntrès populaires auprès des\ntouristes. Le cirque propose le\ncélèbre éléphant Jumbo qui\ns'assied dès qu'il entend la\ncloche sonner. Soyez donc\nprudent et évitez de sonner la\ncloche si vous vous trouvez\nderrière Jumbo, à moins de\nsouhaiter d'être très plat.\n
 CIVILIAN_RADAR
-C'est un simple\nobservatoire radio\n\n
+Observatoire\n\nC'est un simple observatoire radio\nqui sert juste à chercher\ndes traces de vie extraterrestre.
 classic_mailbox
 Boîte aux lettres
 ClosedTrainStop
@@ -278,6 +294,12 @@ COM_01_52
 Si seulement les\narchitectes de cet\nimmeuble n'avaient pas été\nsi soucieux de notre santé.\nAfin que nous fassions de\nl'activité physique, ils\nn'ont pas installé\nd'ascenseur. Ils ont\ninstallé des ressorts avec\ndes pistons à ait comprimé\nsur les portes. Et le pire de\ntout, c'est que la cafétéria\nne propose que des légumes et\non ne peut y boire que de l'eau\nnon-sucrée !\n
 COM_01_60
 Gratte-ciel du Haut\n\n
+COM_02_13
+L'auberge du chasseur.\n\nrestauration réussie pour cette\nchaumière à colombages\noù il est de bon ton de ripailler\nau coin de la cheminée
+COM_02_15
+Atelier de salaison\n\nDerrière les maisons, on\nprépare les harengs.\nBonjour les odeurs, ce sont\nsont les voisins qui sont contents !
+COM_03_21
+Maison du tailleur\n\nPour payer moins d'impots,\nil a fait construire une\navancée au premier étage. Attention\nà ne pas être dessous quand\nil vide son pot de chambre !
 COM_03_28
 Les bureaux de cet édifice\nétaient tellement grand que\nles clients se perdaient\ndans les espaces vides.\nLe propriétaire a décidé de réduire\nl'espace d'un mur vers l'intérieur.\nLa demande a augmenté fortement,\nassez pour en construire un deuxième.\n
 COM_05_01
@@ -343,29 +365,29 @@ Station de ski de fond
 CunnersdorfStopBlg
 Bâtiment d'une gare de village
 CUR_01_128_JH
-Cet "Atomium" a été\nconstruit pour une sorte\nd'exposition. Mais personne\nne se souvient vraiment de\nce qu'était cette\nexposition. Alors on l'a\ntransformé en un\nrestaurant de grande\nclasse. Les tables dans "la\nboule" d'en haut offre\nvraiment une belle vue and\non doit y resrver une table\nau moins deux semaines à\nl'avance!\n
+Atomium\n\nCet "Atomium" a été\nconstruit pour une sorte\nd'exposition. Mais personne\nne se souvient vraiment de\nce qu'était cette\nexposition. Alors on l'a\ntransformé en un\nrestaurant de grande\nclasse. Les tables dans "la\nboule" d'en haut offre\nvraiment une belle vue and\non doit y resrver une table\nau moins deux semaines à\nl'avance!\n
 DenkFlor
-Ce monument est dédié à\nFlor 'WFUltd.' Wauters le\ncélèbre ingénieur qui créa\ntant de véhicules\nferroviaires et routiers. Il\nest aussi connu pour avoir\nréalisé de belles usines.\n
+Monument Flor\n\nCe monument est dédié à\nFlor 'WFUltd.' Wauters le\ncélèbre ingénieur qui créa\ntant de véhicules\nferroviaires et routiers. Il\nest aussi connu pour avoir\nréalisé de belles usines.\n
 DenkGeorg
-Merci MHz !\n\Ce monument est dédié\nau célèbre architecte\nGeorg, alias MHz,\nqui a conçu tant de\nbâtiments à travers\nle monde. Il a également conçu\nquelques véhicules exceptionnels.\n
+Monument MHz\n\nMerci MHz !\n\Ce monument est dédié\nau célèbre architecte\nGeorg, alias MHz,\nqui a conçu tant de\nbâtiments à travers\nle monde. Il a également conçu\nquelques véhicules exceptionnels.\n
 DenkHajo
-Célébrez et retenez dans\nvotre mémoire le créateur\nHansjorg Mathaner (Hajo),\nqui a consacré sept ans\npour construire Simutrans.\nSi vous souhaitez le\nremercier, envoyez une\ncarte postale à l'adresse suivante :\nHansjorg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart\n\n
+Monument Hajo\n\nCélébrez et retenez dans\nvotre mémoire le créateur\nHansjorg Mathaner (Hajo),\nqui a consacré sept ans\npour construire Simutrans.\nSi vous souhaitez le\nremercier, envoyez une\ncarte postale à l'adresse suivante :\nHansjorg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart\n\n
 DenkOwen
-Ce lieu est dédié à Owen\nRudge le célèbre expert des\nfinances et technicien du\nson.\n\n
+Monument Owen Rurge\n\nCe lieu est dédié à Owen\nRudge le célèbre expert des\nfinances et technicien du\nson.\n\n
 DenkPatrick
-Ce monument est dédié à\nPatrick Nesbitt, qui a aidé\nà réaliser beaucoup\nde bâtiments et de véhicules\npour Simutrans.\n\n
+Monument Patrick Nesbitt\n\nCe monument est dédié à\nPatrick Nesbitt, qui a aidé\nà réaliser beaucoup\nde bâtiments et de véhicules\npour Simutrans.\n\n
 DenkRaven
-Ce monument est dédié à Raven,\n fameux ingénieur, créateur de la\nRVG-Raven Vehicles and Gears Corp.,\n pourvoyeuse d'une grande variété de véhicules.\nPlus récemment, Raven a travaillé\nsur les constructions urbaines,\nafin de produire de magnifiques bâtiments.\n
+Monument Raven\n\nCe monument est dédié à Raven,\n fameux ingénieur, créateur de la\nRVG-Raven Vehicles and Gears Corp.,\n pourvoyeuse d'une grande variété de véhicules.\nPlus récemment, Raven a travaillé\nsur les constructions urbaines,\nafin de produire de magnifiques bâtiments.\n
 DenkSeth
-Ce lieu est dédié à Seth C.\nTriggs le célèbre\narchitecte qui dessina tant\nde magnifiques bâtiments\nurbains.\n\n
+Monument Triggs\n\nCe lieu est dédié à Seth C.\nTriggs le célèbre\narchitecte qui dessina tant\nde magnifiques bâtiments\nurbains.\n\n
 DenkTomas
-Ce monument est dédié à\nTomasKubes qui aida\nà perfectionner Simutrans\ndans tant et tant de\ndomaines grâce à son\ntravail acharné.\n\n
+Monument Tomas Kubes\n\nCe monument est dédié à\nTomasKubes qui aida\nà perfectionner Simutrans\ndans tant et tant de\ndomaines grâce à son\ntravail acharné.\n\n
 DenkTrikky
-Ce monument est dédié à\n'Trikky' Rick McGreal le\ncélèbre architecte\nqui dessina tant\nde bâtiments imposants.\n\n
+Monument Trikky\n\nCe monument est dédié à\n'Trikky' Rick McGreal le\ncélèbre architecte\nqui dessina tant\nde bâtiments imposants.\n\n
 DenkVM
-Ce monument est dédié à\nManfred 'VTVienna'\nTomaschitzle célèbre\ningénieur qui réalisa le\ndesign de\nnombreux véhicules\nferroviaires.\n
+Monument VTVienna\n\nCe monument est dédié à\nManfred 'VTVienna'\nTomaschitzle célèbre\ningénieur qui réalisa le\ndesign de\nnombreux véhicules\nferroviaires.\n
 DenkVolker
-Cette sculpture fut\nconstruite par Volker Meyer\nqui a perfectionné Simutrans\ndans tant et tant\nde domaines.\n\n
+Monument Volker Meyer\n\nCette sculpture fut\nconstruite par Volker Meyer\nqui a perfectionné Simutrans\ndans tant et tant\nde domaines.\n\n
 Depot_train_1936
 Dépôt de trains 1936
 ELEMENTARY_SCHOOL_1
@@ -373,35 +395,35 @@ ELEMENTARY_SCHOOL_1
 ELEMENTARY_SCHOOL_2
 École élémentaire\n\n"Tout ce que j'ai appris\nsur la façon dont on doit\nvivre, agir et être, je l'ai\nappris quand j'étais petit.\nLa sagesse ne se trouvait\npas sur les bancs de\nl'université, mais dans le\nbac à sable de la maternelle.\nVoici les choses que j?y ai\napprises : Savoir partager.\nÊtre beau joueur. Ne pas\ntaper sur les autres.\nRemettre les choses où je les ai\ntrouvées. Ranger mes affaires.\nNe pas prendre celles des\nautres. M'excuser quand j'ai fait\ndu mal à quelqu'un. Me laver les\nmains avant les repas. Tirer la\nchasse d'eau." - Robert Fulghum\n\n
 Firestation
-C'est la caserne\nde pompiers de la ville. Elle\nabrite des camions de\npompiers, des sapeurs\npompiers et une ambulance.\nMais c'est provisoire.\nL'ambulance va déménager,\nune fois que son propre\nbâtiment sera construit.\n
+Caserne des pompiers\n\nC'est la caserne\nde pompiers de la ville. Elle\nabrite des camions de\npompiers, des sapeurs\npompiers et une ambulance.\nMais c'est provisoire.\nL'ambulance va déménager,\nune fois que son propre\nbâtiment sera construit.\n
 Fluid_StationBlg
 Bac à pétrole
 FORT_FUN
-Bourgade western\n\n
+Bourgade western\n\nUn ancien décor de cinéma\ntransformé en parc à thèmes.\nLes enfants rêvent de rencontrer\ncelui qui n'a pas peur de personne\npas surtout des Daltons...
 FreightTrainStop
 Gare de marchandises
 french_garden_4
-Grands jardins à la française
+Grands jardins à la française\n\nLes enfants ne peuvent s'empêcher de\nfaire des dérapages dans les allées\navec leurs vélos, le gardien a donc\nbeaucoup de travail.
 french_park_1
-Petit jardin à la française
+Petit jardin à la française\n\nOn y croise souvent un vieux\njardinier, son sécateur à la main.
 FUTURISTIC_TOWER_0
-Tour moderne\n\nCette tour offre une vue\nmagnifique sur les\npaysages aux alentours. Au\n1er étage, il y a un petit\nbar, alors vous pouvez\nboire un verre en appréciant\nla vue. Même si le prix n'est\npas vraiment\nbon marché, cette tour\nattire beaucoup de\nvisiteurs.\n
+Tour moderne\n\nCette tour offre une vue\nmagnifique sur les\npaysages aux alentours. Au\ndernier étage, il y a un petit\nbar, alors vous pouvez\nboire un verre en appréciant\nla vue. Même si le prix n'est\npas vraiment\nbon marché, cette tour\nattire beaucoup de\nvisiteurs.\n
 Gas_StationBlg
 Gazomètre
 Goods_StationBlg
 Dépôt
 GRASS_STADIUM
-Stade\n\n
+Stade\n\nLieu idéal pour la pratique du\njogging ou du football, mais\non peut se contenter de regarder les joueurs\nen restant à l'ombre des arbres.
 GREEN_HOUSE
-Cette serre a eu été un\nmagasin tout à fait normal.\nMais après un certain\ntemps, le proprio a compris\nque les gens venaient\nsouvent que pour\nzyeuter sans l'intention\nd'acheter. Alors il a\nconverti son magasin en\njardin d'hiver tropical.\nMaintenant la serre abrite\nquelques plantes rares et\nest connue dans tout le pays.\n
+Jardin d'acclimatation\n\nCette serre a longtemps été un\nmagasin tout à fait normal.\nMais après un certain\ntemps, le proprio a compris\nque les gens venaient\nsouvent que pour\nzyeuter sans l'intention\nd'acheter. Alors il a\nconverti son magasin en\njardin d'hiver tropical.\nMaintenant la serre abrite\nquelques plantes rares et\nest connue dans tout le pays.\n
 hall_extended_station
 Hall de gare avec dépendances
 HIGH_SCHOOL_1
-Lycée Moderne - C'est l'endroit où\nles jeunes peuvent\ncontinuer leur éducation.\nMême si officiellement seul\nles sujets scientifics sont\nenseignés, la plupart des\nélèves prennent des cours\nà option - par exemple:\n'Les contactes humains' ou\n'1000 et une manières de\ncommuniquer ses\némotions'.\n
+Lycée Moderne\n\nC'est l'endroit où\nles jeunes peuvent\ncontinuer leur éducation.\nMême si officiellement seul\nles sujets scientifics sont\nenseignés, la plupart des\nélèves prennent des cours\nà option - par exemple:\n'Les contacts humains' ou\n'1000 et une manières de\ncommuniquer ses\némotions'.\n
 HIGH_SCHOOL_2
-Lycée ancien - Les élèves sont assurés d'avoir\nune éducation à la hauteur.\nLes mathématiques, l'histoire\net la morale sont les matières nobles\nenseignées
+Lycée ancien\n\nLes élèves sont assurés d'avoir\nune éducation à la hauteur.\nLes mathématiques, l'histoire\net la morale sont les matières nobles\nenseignées
 HOUSE_RUINS_0
-Maison en ruines.\n\nCette maison fut le bureau du maire d'une ville qui n'existe plus. Les historiens viennent y chercher des traces du passé et les touristes viennent assister à des spectacles en plein air.
+Maison en ruines\n\nCette maison fut le bureau du maire\nd'une ville qui n'existe plus.\nLes historiens viennent y chercher\ndes traces du passé et les touristes\nviennent assister à des spectacles\nen plein air.
 HQ1
 Centrale - d'ici vous dirigez votre société. Oui, c'est seulement une halle de montage hors de service mais un jour...
 HQ2
@@ -428,6 +450,8 @@ IND_00_16
 En raison du refus du propriétaire\nde cette compagnie de parler à notre représentant,\nSimutrans ne peut vous donner aucune\ninformation au sujet de ce bâtiment.\nAvec toutes nos excuses !\nMais rassurez-vous,\nnous savons que ce lieu\nest utilisé par les garages Jerry !\n
 IND_00_17
 Bien qu'il paraisse abandonné,\nce lieu est une industrie très rentable.\nSeulement, personne ne sait\nà quoi peut bien servir\nl'immense citerne !\n
+IND_00_18
+Bien que ce batiment paraisse\nabandonné, en réalité il y siège\nune compagnie très prospère. Mais personne\nne sait à quoi sert cet immense\nréservoir vert sur le toit ?
 IND_01_01
 Il ne se passe pas grand\nchose ici, sauf les\nconducteurs qui passent\nsur l'herbe en klaxonnant\npour éviter les bouchons.\n\n
 IND_01_03
@@ -457,7 +481,7 @@ Champ de chanvre. \nChanvre. Pas marihuana.\nVraiment.\n\n
 IND_04_02
 Ceci n'est pas un champ.\n\n
 JUSTICE
-Palais de justice. Celui qui\na le meilleur avocat,\ngagnera. C'est juste.\n\n
+Palais de justice\n\nCelui qui a le meilleur avocat,\ngagnera. C'est juste.\n\n
 library_holy_genevieve
 Bibliothèque Sainte Geneviève\n\nLes rats de bibliothèque s'occupent\n de faire disparaître\les livres périmés ou idiots.
 Lighthouse_0
@@ -476,6 +500,8 @@ MARKET_PLACE_0
 Place du marché\n\nLa place du marché est un\nbon endroit pour passer\nson après-midi en famille.\nLes gamins peuvent\nacheter toutes sortes de\nsucreries et regarder les\nvieux artisans qui\ntravaillent. Les femmes\npeuvent faire du shopping,\nregarder des choses\nvariées, et les hommes\npeuvent s'asseoir dans\nun bistro et boire une bonne bière.\n
 medium_classic_bus_stop
 Arrêt de bus
+medium_early_bus_stop
+Abribus ancien
 medium_modern_bus_stop
 Arrêt modern d'autobus
 MILITARY_RADAR
@@ -507,13 +533,13 @@ Petite gare rurale
 Old_gate
 Ancienne Porte\n\nCette vieille porte de cité\nest le seul vestige\ndu mur d'enceinte moyenâgeux\nde la ville.\nQuand elle n'est pas fermée\npour travaux, la salle supérieure\naccueille des expositions sur\nles anciens drapeaux et blasons.
 OLD_HOUSE_0
-Ce couple de maisons\ngothiques et de la\nRenaissance a été\ntransformé en musée\nd'architecture ancienne\nrécemment. On peut y voir\ntoutes sortes d'images et\nde maquettes de\nbâtiments du passé.\nL'exposition est\nintéressante et facile à\ncomprendre, alors c'est\nplein de visiteurs quasiment\nchaque jour.\n
+Maisons gothiques\n\nCe couple de maisons\ngothiques et de la\nRenaissance a été\ntransformé en musée\nd'architecture ancienne\nrécemment. On peut y voir\ntoutes sortes d'images et\nde maquettes de\nbâtiments du passé.\nL'exposition est\nintéressante et facile à\ncomprendre, alors c'est\nplein de visiteurs quasiment\nchaque jour.\n
 OpenTrainStop
 Quai
 Pagoda01
-Pagode\n\n
+Pagode\n\nElle a été construite par l'architecte\njaponais Furukawa Kenichi. Il habite\ntoujours au dernier étage avec sa femme\nSakura, pendant que le rez-de-chaussée\nsert de salle d'exposition pour ses oeuvres.
 PARK_0
-Ce sympathique et joli parc\nest l'endroit où les gens\nfatigués peuvent s'asseoir\nsur des bancs ou s'allonger\nsur la pelouse et se relaxer.\nLes habitants de la ville y\nsont très attachés.\n
+Parc avec étang\n\nCe sympathique et joli parc\nest l'endroit où les gens\nfatigués peuvent s'asseoir\nsur des bancs ou s'allonger\nsur la pelouse et se relaxer.\nLes habitants de la ville y\nsont très attachés.\n
 parking_(catchemnt_area_ext)1
 Parking
 parking_(catchemnt_area_ext)2
@@ -521,7 +547,7 @@ Parking
 parking_(catchemnt_area_ext)3
 Parking
 Percival_Maya_Temple
-Temple Maya Percival.\nsortez\nLes fouilles ont permis de découvrir\n une civilisation simutransienne \ntrès ancienne.
+Temple Maya Percival.\n\n\nLes fouilles ont permis de découvrir\n une civilisation simutransienne \ntrès ancienne.
 plain_tile_high
 Plate-forme de stockage
 Post_Dock
@@ -535,7 +561,7 @@ Poste centrale
 Radar3
 Radar
 radiant_house
-Maison Radieuse\nBâtiment de Le Corbusier\nC'est la coopérative de propriétaires qui gère la résidence.
+Maison Radieuse\n\nBâtiment de Le Corbusier\nC'est la coopérative de propriétaires qui gère la résidence.
 RADIO_TOWER_0
 Radio Chit-Chat FM\n\nC'est le studio de la radio\nlocale "Chit-Chat FM". Un\ncertain nombre de\npersonnes s'y rendent, car\nla radio a promis de laisser\ndes auditeurs passer à l'antenne,\nchaque jour, de 13h00 à\n14h00.\n
 ramp_tile_high
@@ -548,10 +574,16 @@ RES_00_03
 Si vous ne pouvez pas\nvous payer un chalet\nen forêt vous pouvez\nquand même en avoir\nun... en pleine ville.\n\n
 RES_00_04
 Petite maison. Les\ngens de la ville aiment\ns'acheter une résidence secondaire\npour vivre calmement en\nnature et fuir le stress de leurs\nvies. Pour leurs enfants, c'est un excellent endroit pour organiser des fêtes...\n
+RES_00_06
+La propriétaire de cette maison a été contactée\net questionnée sur sa maison. Elle a catégoriquement\nrefusé de s'exprimer tant que toutes les industries\nde la ville n'expliquaient pas ce qu'elles faisaient.
+RES_00_07
+Cette ancienne taverne a été reconstruite,\nc'est maintenant la maison de l'ancien tenancier.\nLe bar a été réinstallé en bas afin de garder\nles soirées avec les vieux potes.\nMalheureusement, le babyfoot est cassé !
+RES_00_16
+Une grande piscine. Tout le voisinage\nen voulait pour y envoyer jouerles enfants.\nQuand on pense que certains\nvivent dans une maison plus petite\nque cette piscine !
 rmax_clock_tower
-Tour de l'horloge\n\n
+Tour de l'horloge\n\nCette tour a un design\ntrès particulier. Certains pensent qu'elle est\ntrès ancienne, mais c'est en réalité\nune contruction moderne, dont l'horloge est\nla plus précise du Simunivers.
 rmax_courthouse
-Palais de justice\n\n
+Palais de justice\n\nTout le barreau se réunit\nici, pour envoyer les criminels\nderrière les barreaux.
 rmax_DenkManualTeam
 Monument de la Torche Lumineuse.\n\nCe monument est dédié à ceux\nqui aident à créer et maintenir le Wiki,\nles textes d'aide du jeu et d'autres manuels,\nà tous ceux qui éclairent\nles mystères de simutrans.\n\nMerci!\n
 rmax_dictator_statue
@@ -564,14 +596,16 @@ rmax_mosque
 Mosquée As-Salem\n\nA chaque fois que le muezzin\nchante du haut du plus haut minaret,\nles musulmans du Simunivers s'arrêtent pour prier.\nAs Salem est l'un des noms d'Allah\net signifie "La Paix".
 ROCK_0
 Mont-St-Patrick\n\nLe "Mont-Saint-Patrick" attire beaucoup de\ngéologues qui sont\nfascinés par cette forme de\nvolcan.\n\n
+roundabout
+Rond-point arboré
 RUIN_0
-Cela a eut été un château\ngothique. Mais le\npropriétaire a réalisé que le\nchâteau n'est pas un bon\nendroit pour vivre au 20ème\nsiècle. Alors il a été\ntransformé en luna park\nmédéival.  Des volées de\ntouristes viennent pour voir\nde l'art moyen-âgeux, des\ncombats d'épées, des\nsièges de château, pour\nparticiper au cortège, faire du\ncheval, boire une bierre du\nmoyen-âge ou voir les expos.\n
+Chateau gothique\n\nCela a eut été un château\ngothique. Mais le\npropriétaire a réalisé que le\nchâteau n'est pas un bon\nendroit pour vivre au 20ème\nsiècle. Alors il a été\ntransformé en luna park\nmédéival.  Des volées de\ntouristes viennent pour voir\nde l'art moyen-âgeux, des\ncombats d'épées, des\nsièges de château, pour\nparticiper au cortège, faire du\ncheval, boire une bière du\nmoyen-âge ou voir les expos.\n
 RUIN_1
-Ruine d'un château très connu\n\nBeaucoup de\nchapitres de l'histoire ont\nété écrit ici. C'est une vraie\nattraction pour les touristes\ndu monde entier. Tout le\nmonde est enthousiaste\nquand il s'agit d'aller le\nvoir. Et puis,... ne\nsont-elles pas romantiques\nces ruines, après tout ?\n
+Ruines médiévales\n\nRuine d'un château très connu\n\nBeaucoup de\nchapitres de l'histoire ont\nété écrit ici. C'est une vraie\nattraction pour les touristes\ndu monde entier. Tout le\nmonde est enthousiaste\nquand il s'agit d'aller le\nvoir. Et puis,... ne\nsont-elles pas romantiques\nces ruines, après tout ?\n
 Russian_Cathedral
 Cathédrale Russe\n\nLa Cathédrale de Basile le Bienheureux\na été commandée par Ivan le Terrible.\nCe qui est terrible,\nc'est que l'on raconte que l'architecte y aurait perdu les yeux.\nMais vous pouvez la visiter,\nsans que celà ne vous coûte les yeux de la tête !\n
 Sacred_heart_church
-Eglise du Sacré Coeur
+Eglise du Sacré Coeur\n\nEn cas d'affluence, toute la\nfaçade en verre peut s'ouvrir.\n
 Secession_Chapel
 Chapelle de la Sécession\n\nQuel curieux nom pour ce petit oratoire isolé !\n
 sh_oasis_seasons
@@ -582,14 +616,22 @@ ShipStop
 Port de voyageurs 
 small_classic_bus_stop
 Point d'arret
+small_early_bus_stop
+Arrêt de bus ancien
 SMALL_MANOR
 Petit Manoir\n\nCe manoir était la propriété d'un seigneur célèbre.\nMalheureusement, ce lieu est tombé dans l'oubli\naprès la mort de ce brave homme.\nGrâce à une poignée d'illuminés,\nil a été réaménagé en galerie d'art.\nC'est maintenant une propriété de l'Etat\naccessible moyennant paiement d'un billet d'entrée.\nLes tarifs groupes attractifs\n font que de nombreuses classes\ny organisent des sorties la semaine,\nalors que le week-end\nles parents profitent du tarif familles nombreuses.\n
+special_ALSF-2_DT_stop
+système d'approche lumineux par flash (extension)
+special_PAPI_stop
+indicateur de pente d'approche (extension)
+special_wingbar-r_stop
+lumières de bord de piste (extension)
 st_benedict_church
 Eglise Saint Benoit\n\nCette église a été construite\npar St Benoit lui-même.\nBenoit est le saint patron\ndu bonus vitesse,c'est pourquoi\nune colombe a été installée\nau sommet du dome.\nC'est le symbole du plus rapide\nmoyen de transport !\n
 ST_PETER
 Eglise Saint Pierre\n\nCette église, dite de\nSt-Pierre, construite vers\n1220, a un ch?ur\nfinement structuré, des\nfresques datant du milieu\ndu 13ème siècle, et\nrenferme la momie (bien\nconservée) du "Sait-bailli".\nIl est mort il y a plus de\n300 ans, et on prétend qu'il\ns'appelait "Wilhelmde\nHolbach", le bailli royal. La\nmomie est située dans une\nalcove dans le mur à l'ouest.\n
 STADIUM_RUGBY
-Terrain de Rugby\n Stade d'entrainement\npour le top 14\nUn accès pour les ambulances\nest obligatoire.
+Terrain de Rugby\n\nStade d'entrainement\npour le top 14\nUn accès pour les ambulances\nest obligatoire.
 Suspended_Monorail_Bahnhof_Modern
 Arrêt pour monorail
 tennis_court
@@ -613,9 +655,9 @@ Gare
 TramDepot
 Dépôt de tram
 TRIUMPH
-Arc de triomphe\n\n
+Arc de triomphe\n\nIl fut érigée par l'empereur Napik afin\nde célébrer ses victoires passées. De nos\njours, il n'y a plus de guerre, donc plus d'armées\nà défiler dessous. Il ne reste que des\ncyclistes, qui admirent l'architecture dessinée par\nGeorg, connu sous le nom de MHz.
 TV_TOWER_0
-Emetteur de télévision\n\n
+Emetteur de télévision\n\nCet émetteur appartient à une station\nlocale. En plus d'émettre, elle sert\nà la surveillance de tout le\ntrafic alentour.\n
 TV_TOWER_1
 Emetteur de télévision\n\nCet émetteur de télévision est l'une des constructions\n les plus hautes du Simunivers.\nPour attirer du monde,\nla chaine de télévision a ouvert un restaurant panoramique\nau sommet de cette tour.\nPersonnes sujettes au vertige s'abstenir,\nla tour semble lentement tourner sur elle-même !\n
 Very_Big_Terminal
@@ -629,9 +671,13 @@ Serveur de Werner.\n\nMonument à la gloire\ndu premier serveur de jeu de Simutra
 WHEEL
 Grande Roue\n\nCette grande roue,\nseule attraction restante d'un ancien parc à thèmes,\nest appelée "la roulette russe".\nElle offre une vue incroyable sur la ville,\nsi vous n'avez pas le vertige !\n
 Windmill
-Moulin à vent\n\n
+Moulin à vent\n\nCertaines personnes veulent juste se\npromener, d'autres sortir de \nla ville... Et de petits plaisantins\njettent des caillous pour tenter\nde toucher les ailes !\n
 WOODEN_CHURCH
 Chapelle en bois\n\nCette chapelle ancienne attire une foule nombreuse,\nmalgré sa petite taille.\n Certains pélerins racontent\nqu'elle fut construite par les Hamishs.\n
+#____________________________________citycar____________________________________
+#____________________________________citycar____________________________________
+MHz-Taxi
+taxi jaune
 #__________________________________dummy_info___________________________________
 #__________________________________dummy_info___________________________________
 factory_brewery_details
@@ -663,7 +709,7 @@ Fabrique de biens manufacturés
 Concretefactory
 Fabrique de béton
 cornfield
-Champ de Blé
+Champ de maïs
 cotton_farm_w_fields
 Plantation de coton
 cow_farm
@@ -735,7 +781,7 @@ Ferme de mouton
 shopping_mall
 Grand magasin
 Simutrans_Fried_Chicken
-Fast food du poulet. Les ailes et la cuisse sont frites dans
+Fast food du poulet\nLes ailes et la cuisse sont frites dans
 Solar Pond_kraftwerk
 Centrale à bassin solaire
 SolarPowerTowerPS10_kraftwerk
@@ -853,7 +899,7 @@ Outils monorails
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 Build monorail depot
-Construire un dépôt de monorail
+Construire un dépôt de monorail suspendu
 CATEGORY_01
 biens à la pièce
 CATEGORY_02
@@ -887,7 +933,7 @@ Détruire des voies de monorail
 #__________________________________record_text__________________________________
 #__________________________________record_text__________________________________
 New world record for monorails: %.1f km/h by %s.
-Nouveau record du monde pour les\nmonorails: %.1f km/h\nby %s.
+Nouveau record du monde pour les\nmonorails suspendus: %.1f km/h\nby %s.
 #___________________________________roadsign____________________________________
 #___________________________________roadsign____________________________________
 air_one-way
@@ -916,8 +962,28 @@ Classic_preSignals_right
 Présignal (type classique)
 Classic_Signals_right
 Signal ferroviaire (type classique)
+Early_ChooseSignals_right
+Signal de choix de quai ancien
+Early_LongSignals_right
+Signal de long canton (vieux type)
+Early_preSignals_right
+Présignal (vieux type)
+Early_Signals_right
+Signal (vieux type)
+EndOfChooseSignals
+Fin de signal de choix
+LongSignals
+Signal de long canton (type standard)
+Minimum100
+Vitesse minimale 100 km/h
 Minimum80
 Vitesse minimale 80
+Modern_ChooseSignals_right
+Signal de choix (type moderne)
+Modern_EndOfChooseSignals_right
+Fin de signal de choix (type moderne)
+Modern_LongSignals_right
+Signal de long canton (type moderne)
 Modern_OneWaySignals_right
 Sens unique
 Modern_preSignals_right
@@ -925,11 +991,17 @@ Pré-signal
 Modern_Signals_right
 Signaux modernes
 NoEntry
-Rue unisens
+Sens interdit
 OneWaySignals
 Panneau de sens unique (modèle standard)
+preSignal_Monorail
+Présignal pour monorail
+preSignals
+Présignal (type standard)
 Railgate
 Clôture ferroviaire
+RisingBollards
+Bollards
 RoadClosed
 Barrage
 Signal_Monorail
@@ -974,8 +1046,18 @@ Rail_Track_320_Tunnel
 Tunnel à haute vitesse moderne
 Rail_Track_400_Tunnel
 Tunnel à haute vitesse améliorée
+road_040_tunnel
+Tunnel routier avec pavés
 road_050_tunnel
-tunnel et rue à 50 km/h
+tunnel urbain
+road_070_tunnel
+Tunnel routier avec enrobé
+road_090_tunnel
+Tunnel routier moderne
+road_110_tunnel
+Tunnel pour route nationale
+road_130_tunnel
+Tunnel pour autoroute
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -990,12 +1072,28 @@ Bennhardt BT-162 "Jet" (diesel)
 Bennhardt BR-238 "Frog" (diesel)
 1Dampflokomotive
 H-Trans 0-4-0T (vapeur)
+2000_Class
+Class 2000 (Australie)
+2000_Class_Car
+wagon Class 2000
+2000_Class_Tail
+wagon de queue Class 2000
+20ft_Container_Trailer-128set
+Remorque pour container de 20 pieds
 2Diesellokomotive
 H-Trans BR218 (diesel)
 3Bens186t
 Bennhardt BT-186 "Citron" (él.)
 3Dampflokomotive
 RVg 0-3-0 "Guillerette" (vapeur)
+40ft_Container_Trailer
+Remorque pour container de 40 pieds
+620_Railcar_Addon
+Motrice Class 620 (Australie)
+720_Railcar_Addon
+Remorque Class 620
+AEC_Aclo_Regent_III
+AEC Aclo Regent III
 Airport_express_shuttle
 Navette AirExpress
 Autotransportwagen
@@ -1006,10 +1104,30 @@ Big_Bretterwagen
 Wagon pour long chargement RVg
 Big_Erztruck
 Camion à minerai Mhz
+Black_Osprey
+Black Osprey (acier)
+Black_Osprey_(goods)
+Black Osprey (biens)
+Black_Osprey_(grain)
+Black Osprey (céréales)
+BR-373_Back
+BR373 Eurostar motrice de queue
+BR-373_BackCar
+BR373 Eurostar voiture de queue
+BR-373_Car
+BR373 Eurostar voiture
+BR-373_Eurostar
+BR 373 "Eurostar"
+BR-373_FrontCar
+BR373 Eurostar voiture de tête
 Bretterwagen
 Wagon à planches VT Vienna
+British_Premier
+British Premier (pétrole)
 Budd_Coach
 Budd RPO (wagon)
+Budd_Lounge
+Budd RPO wagon restaurant
 Budd_Observation
 Budd RPO (panoramique)
 Budd_RPO
@@ -1082,6 +1200,22 @@ Cooling_wagon_1
 Wagon frigorifique
 Cooling_wagon_2
 Wagon réfrigérant
+CPH_Motorcar
+CPH Motorcar (Australie)
+CST_Interliner_E55
+CST Interliner E55 articulé
+CST_Interliner_E55_Rear
+CST Interliner E55 arrière
+CST_Interliner_S45
+CST Interliner S45
+CST_Interliner_S55
+CST Interliner S55 articulé
+CST_Interliner_S55_Rear
+CST Interliner S55 arrière
+CST_Stateliner
+Autocar de tourisme stateliner
+CST_Urban_City_DD
+Autobus urbain double étage CST
 DB_ADm101
 Haru ADm101
 DB_Apmz121
@@ -1096,12 +1230,26 @@ DueWAG_GT6_tailwaggon
 Due WAG GT6 arrière-train
 E_423
 Sindor E 423
+Eaglescliffe_Hall
+Eaglescliffe Hall (vraquier)
+Eaglescliffe_Hall_(lumber)
+Eaglescliffe Hall (planches)
+Edmund_Fitzgerald
+Edmund Fitzgerald (acier)
+Edmund_Fitzgerald_(wood)
+Edmund Fitzgerald (bois)
 EM400_1
 Sindor-Krizik EM400
 EMD_E5A_Silver_Meteor
 EMD E5A Météor argent
 EMD_E5B_Silver_Comet
 EMD E5B Comète d'argent
+EMD-FT_(A)
+EMT FT (USA)
+EMD-FT_(B)
+EMD FT wagon intermédiaire
+EMD-FT_(C)
+EMT FT motrice arrière
 Evil_DF-11
 Evil DF-11 (diesel)
 Evil_P-100_(carriage)
@@ -1152,6 +1300,10 @@ Fluid_Truck_2
 S.Kroytor ZUK-20 Citerne
 Fluid_Truck_3
 Magirus 1923 Camion citerne
+Flxible_Twin_FT2-40
+Flxible Twin FT2 40
+Freya
+Ferry "Freya"
 Goods_trailer_0
 Mitsubishi Fuso ST Rem.
 Goods_trailer_1
@@ -1202,6 +1354,8 @@ Haru_E3_KOMACHI_(mid)
 Haru E3 "Komachi" (milieu)
 Haru_E3_KOMACHI_(rear)
 Haru E3 "Komachi" (Arrière)
+Haru_E3_KOMACHI_(Trailer)
+Haru E3 "Komachi" remorque
 Haru_F7A
 Haru F7 A
 Haru_F7B
@@ -1286,10 +1440,28 @@ JNR_DD51
 Haru DD51
 JNR_tender_S
 C62/D51 Tender
+JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
+Shinkansen série JR 700 "Hikari Rail Star"
+JR_700_Shinkansen_HRS_(Middle_Section)_PC
+Shinkansen série JR 700 HRS (milieu)
+JR_700_Shinkansen_HRS_(Pantograph_I)_PC
+Shinkansen série JR 700 HRS (pantographe avant)
+JR_700_Shinkansen_HRS_(Pantograph_II)_PC
+Shinkansen série JR 700 HRS (pantographe arrière)
+JR_700_Shinkansen_HRS_(Tailcar)_PC
+Shinkansen série JR 700 HRS (cabine arrière)
 Kord_TT_bulk
 Kord TT (vrac)
 Kord_TT_grain
 Kord TT (graine)
+Liner_Mail_Extension_(large)
+extension postale pour ferry (large)
+LKAB_IORE_Back
+Bombardier IORE tandem
+LKAB_IORE_Front
+Bombardier IORE
+MA461_waggon
+wagon DB MA 461 (postal)
 Mack_Truck_Cooling_Trailer
 Semiremorque frigorifique
 Mack_Truck_Goods_Trailer
@@ -1318,28 +1490,108 @@ MHz_TRAM_1980
 MHz T-235
 MHz-C11C_Bulk_Barge
 MHz C11C Houiller
+MHz-C11C_Wood_Barge
+péniche pour bois MHz C11C
 MHz-C273U_Cement_Barge
-MHz C273U Remorqueur cimentier
+péniche pour ciment MHz C273U
 MHz-C35_Goods_Barge
-MHz C35 Marchandise
+péniche pour transport de biens MHz C35
 MHz-C3P_Post_Barge
-MHz C3P Postal
+péniche postale MHz C3P
 MHz-CC47_Container_Barge
-MHz CC47 Porte-conteneurs
+péniche à conteneurs MHz CC47
 MHz-MT7_Milk_Barge
-MHz MT7 (laitier)
+péniche avec citerne alimentaire MHz MT7
 MHz-OT5_Oil_Barge
-MHz OT5 (pétrolier)
+péniche avec citerne pétrolière MHz OT5
 MHz-P11C_Bulk_Boat
-MHz P11C Acon (mat. friables)
+péniche pour matériaux en vrac MHz P11C
+MHz-P11C_Wood_Boat
+péniche pour bois MHz P11C
 MHz-R2A_Push-Tug
-MHz R2A Automoteur
+Element automoteur MHz R2A
+milk_00_bottled_milk_wagon
+Wagon pour bouteilles de lait
+milk_01_twin_barrel_wagon
+Wagon à tonneaux jumelés
+milk_02_old_tank_wagon
+Wagon-citerne alimentaire ancien
+milk_03_6_wheeled_milk_wagon
+Wagon-citerne à 6 essieux
+milk_04_rvg_early_milk_waggon
+Wagon-citerne à lait
+milk_05_milk_waggon_1
+Wagon-citerne pour liquides alimentaires
+milk_06_4_axle_milk_wagon
+Wagon-citerne alimentaire à 4 essieux
+milk_07_milk_waggon_0
+Wagon-citerne réfrigéré
+milk_08_bloomsburg_fair_milk_wagon
+Wagon-citerne Bloomsburg
+milk_09_bordens_milk_wagon
+Wagon-citerne Bordens
 Milk_Truck_0
 PMNV Camion à lait
 Milk_Truck_1
 S.Kroytor-ZIL Camion laitier
 Milk_Truck_2
 Fourgon laitier Magirus
+mja-20s_concretemixer
+bétonnière MJA 20S
+mja-bulk_trailer_l
+grande benne 30t MJA
+mja-bulk_trailer_m
+Benne 22t MJA
+mja-MAN19332-128set
+MAN 19332 MJA
+mja-ScaniaP380_tanker
+Camion-citerne Scania P380
+mja-ScaniaP420_concretemixer
+Scania P420 toupie
+mja-ScaniaP420_longgoods
+Scania P380 fardier
+mja-ScaniaR500Topline
+Scania R500 Topline MJA
+mja-ScaniaR500Topline_cooledgoods
+Scania R500 frigorifique
+mja-ScaniaR500Topline_goods
+Scania R500 porteur
+mja-ScaniaR620Topline
+Scania R620 Topline MJA
+mja-volvof88-128set
+Volvo F88 MJA
+mja-volvoVN660
+Volvo VN660 MJA
+mja-Zil130-128set
+Zil 130 MJA
+MS_sprinter_mail
+Mercedes sprinter postal
+MTAB_Dm_Back
+MTAB Dm arrière
+MTAB_Dm_Front
+MTAB Dm
+MTAB_Dm3
+MTAB Dm3 intermédiaire
+MV_Balmoral
+MV Balmoral
+MV_Fedra
+MV Fedra (vraquier)
+MV_Lake_Illawarra
+MV Lake Illawara (vraquier)
+MV_Lake_Illawarra_(grain)
+MV Lake Illawara (céréales)
+New_Zealand_Star
+New Zealand Star (cuves réfrigérées)
+Nordic_Heron
+pétrolier Nordic Heron
+Nordic_Heron_(liquid_food)
+Nordic Heron (citerne alimentaire)
+Nororn
+Chalutier Nororn
+NovaBus_RTS-06_WFD
+NovaBus RTS 06 WFD
+Owari_Maru
+vraquier Owari Maru
 Passagierwagen
 Canonball BTx Wagon passagers 
 Passanger_waggon_0
@@ -1352,12 +1604,36 @@ Passanger_waggon_3
 RA BTx 050 Voiture de 2ème classe
 Passanger_waggon_MAITE39
 Nabe-JNR MAITE 39 Voiture de 1ère classe
+Patagonia
+Patagonia (porte conteneur)
+Patagonia_(farm_products)
+Patagonia (céréalier)
+Pegaso_6038_InterCity
+Pegaso 6038 Intercity
+Pegaso_6038_Urban
+Pegaso 6038 urbain
+Pegaso-Seida_5020_InterCity
+Pegaso-Seida 5020 Intercity
+Pegaso-Seida_5020_Urban
+Pegaso-Seida 5020 urbain
+Pioneer_Zephyr
+Pioneer Zephyr (USA)
+Pioneer_Zephyr_Car
+wagon Pioneer Zephyr
+Pioneer_Zephyr_Tail
+wagon panoramique Pioneer Zephyr
 Planck_Truck_0
 PMNV-Canonball Camion à planches
 Plank_Truck_2
 VSYS-Tatra 815 Bed (planches)
+Plank_waggon_0
+petit wagon à planches RVg
 Plank_waggon_1
 VWagon ouvert (planches)
+PMNV_50_Mack
+Mack 1950 PMNV
+PMNV_Canonball_Car_Trailer
+Remorque à voitures PMNV-Canonball
 PMNV_Cement_Trailer_Slow
 PMNV remorque au ciment
 PMNV_Cement_Truck_P
@@ -1374,8 +1650,84 @@ PMNV_Grain_Truck_0
 Camion à céréales PMNV
 PMNV_Hydrogen_Cruiser
 Bus hydrogène PMNV
+PMNV_Mack_Bulk_Trailer_0
+Benne PMNV 22t
+PMNV_Mack_Cement_Trailer_L
+Citerne à pulvérulent PMNV 22t
+PMNV_Mack_Cement_Trailer_S
+Citerne à pulvérulent PMNV 19t
+PMNV_Mack_Concrete_Trailer_O
+Remorque à béton Mack 26t
+PMNV_Mack_cooled_Trailer_O
+Remorque réfrigérée PMNV-Mack
+PMNV_Mack_Goods_Trailer_O
+Remorque PMNV-Mack 22 palettes
+PMNV_Mack_Grain_Trailer_0
+Benne à céréales PMNV-Mack
+PMNV_Mack_Grain_Trailer_O
+Benne à céréales PMNV-Mack double essieu
+PMNV_Mack_Log_Trailer_L
+Remorque à bois PMNV-Mack taille L
+PMNV_Mack_Log_Trailer_M
+Remorque à bois PMNV-Mack taille M
+PMNV_Mack_Log_Trailer_S
+Remorque à bois PMNV-Mack taille S
+PMNV_Mack_Milk_Trailer_O
+Citerne alimentaire PMNV-Mack
+PMNV_Mack_Oil_Trailer_L
+Citerne PMNV-Mack
+PMNV_Mack_Oil_Trailer_S
+Citerne PMNV-Mack courte
+PMNV_Mack_Planck_Trailer_0
+Remorque à bois PMNV-Mack
+PMNV_Mack_Post_Trailer_O
+Remorque postale PMNV
+PMNV_Mack_Steel_Trailer_L
+Remorque acier PMNV-Mack taille L
+PMNV_Mack_Steel_Trailer_S
+Remorque acier PMNV-Mack taille S
+PMNV_Mail_Truck_1
+Camion postal PMNV 60
+PMNV_Mail_Truck_2
+Camion postal PMNV 77
+PMNV_MHz_Truck_0
+Cabover 145
+PMNV_Milk_Trailer_0
+Remorque citerne alimentaire
+PMNV_Open_Goods_Trailer_L
+Remorque Mack OL300
+PMNV_Open_Goods_Trailer_S
+Remorque Mack OS200
+PMNV_Plank_Trailer_0
+Remorque à bois 16t
+PMNV_Post_Trailer_0
+Remorque postale
 PMNV_Steel_Trailer_0
-PMNV Bed Trailer (steel)
+Remorque à acier
+PMNV_TC-119-Snake
+TC 119 "serpent"
+PMNV_TC-119-Snake_b
+TC 119 "serpent" arrière
+PMNV_TC-44-Hydrogen_Car
+TC 44 hydrogène
+PMNV_TC-44-Hydrogen_Car_b
+TC 44 hydrogène arrière
+PMNV_TC-7_Astro_Trolley
+TC 7 "astro-trolley"
+PMNV-PB1970
+Peterbilt 1970
+PMNV-TC-1_Turbo_Car
+TC-1 turbo
+PMNV-TC-112-Hyper_Car
+TC 112 "Hypercar"
+PMNV-TC-2_Turbo_Set
+TC-2 "Turboset"
+PMNV-TC-2_Turbo_Set_b
+TC-2 "Turboset" voiture intermédaire
+PMNV-TC-2_Turbo_Set_c
+TC-2 "Turboset" arrière
+PMNV-TC-5P_Mail_Man
+TC-5P "facteur"
 Post_Barge
 MHz Barque postale
 Post_waggon_0
@@ -1383,11 +1735,99 @@ PV 80 Fourgon postal
 Postwagen
 Wagon de courrier H-Train
 Praga_Bus
-Praga Bus 1919
+Bus Praga 1919
+Praga_N_bulk
+Camion benne Praga N
+Praga_N_cement
+Praga N (ciment)
+Praga_N_Cistern
+Camion-citerne Praga N
+Praga_N_milk
+Camion-citerne alimentaire Praga N
+Praga_TOT_128
+Praga TOT
+Queen_Elisabeth_2
+Queen Elisabeth II
 R_01
 RVg R1 Baladeuse
 R_02
 RVg R2 Remorque
+Renfe_250_(German)
+RENFE série 250 "allemande"
+Renfe_252_Altaria
+RENFE série 252 livrée Altaria
+Renfe_269_Altaria
+RENFE série 269 "japonaise"
+Renfe_270
+RENFE série 270
+Renfe_274_(Bathtube)
+RENFE série 274 "baignoire"
+Renfe_276_(French)
+RENFE série 276 "française"
+Renfe_279_(Benemerita)
+RENFE série 279 "Benemerita"
+Renfe_310_(Coastguard)
+RENFE série 310 "garde-côte"
+Renfe_319_(Yankie)
+RENFE série 319 "Yankie"
+Renfe_333_(Rambo)
+RENFE série 333 "Rambo"
+Renfe_340_(Egg)
+RENFE série 340 "torpille"
+Renfe_438_Back
+RENFE série 438 arrière
+Renfe_438_Front
+RENFE série 438
+Renfe_440
+RENFE série 440
+Renfe_440_Back
+RENFE série 440 arrière
+Renfe_440_Car
+RENFE 440 voiture intermédiaire
+Renfe_447
+RENFE série 447
+Renfe_447_Back
+RENFE série 447 arrière
+Renfe_447_Car
+RENFE série 447 voiture intermédiaire
+Renfe_Series_10200_(Player_Colors)
+RENFE série 10200
+Renfe_Series_301_(Player_Colors)
+RENFE série 301 "Memé"
+Renfe_Series_311_(Player_Colors)
+RENFE série 311 "Mabi"
+Renfe_Series_314_(Player_Colors)
+RENFE série 314
+Renfe_Series_316_(Player_Colors)
+RENFE série 316 "Marylin"
+Renfe_Series_318_(Player_Colors)
+RENFE série 318 "Alco"
+Renfe_Series_319.300_(Player_Colors)
+RENFE série 319.3 "chaudron"
+Renfe_Series_334_(Player_Colors)
+RENFE série 334 livrée "Pantone"
+Renfe_Series_350_Talgo_(Player_Colors)
+RENFE série 350 Talgo II
+Renfe_Series_350_Talgo_Car_(Player_Colors)
+voiture Talgo II
+Renfe_Series_350_Talgo_Mail_Car_(Player_Colors)
+wagon postal Talgo II
+Renfe_Series_350_Talgo_Restaurant_Car_(Player_Colors)
+wagon-restaurant Talgo II
+Renfe_Tgpps_Grain_Hopper
+wagon à trémies RENFE Tgpps
+Renfe_Uagp_Grain_Hopper
+wagon à trémies RENFE Uagps
+Renfe_Z-2000_Car
+voiture RENFE Z2000
+Renfe_Z-2000_Mail_Car
+wagon postal RENFE Z2000
+Renfe6000_Post
+wagon postal RENFE série 6000
+Renfe6000_Psg
+voiture RENFE série 6000
+RMS_Baltic
+Transatlantique RMS Baltic
 RVg_0-1-4-0
 RVg 0-1-4-0
 RVg_1064_White_Bulk
@@ -1400,6 +1840,48 @@ RVg_1064_White_Fluid
 RVg-White 1064 (citerne)
 RVg_1064_White_Goods
 RVg-White 1064 (denrées)
+RVg_1945_box_car
+wagon container 1945-23
+RVg_1951_box_car
+wagon container 1951-24
+RVg_1955_box_car
+wagon container 1955-24
+RVg_1962_box_car
+wagon container 1962-24
+RVg_1969_box_car
+wagon container 1969-25
+RVg_1976_box_car
+wagon container 1976-26
+RVg_1983_box_car
+wagon container 1983-26
+RVg_1989_container_car
+wagon porte-container 1989-27
+RVg_1994_container_car
+wagon porte-container 1994-27
+RVg_2000_container_car
+wagon porte-container 2000-27
+RVg_2006_container_car
+wagon porte-container 2006-27
+RVg_2011_container_car
+wagon porte-container 2011-27
+RVg_Bulk_Waggon_00
+wagon à vrac CU 20t
+RVg_Bulk_Waggon_01
+wagon à vrac CU 23t
+RVg_Bulk_Waggon_02
+wagon à vrac CU 25t
+RVg_Bulk_Waggon_03
+wagon à vrac CU 28t
+RVg_Bulk_Waggon_04
+wagon à vrac CU 30t
+RVg_Bulk_Waggon_05
+wagon à vrac CU 32t
+RVg_Bulk_Waggon_06
+wagon à vrac CU 35t
+RVg_Cementwagen
+Wagon pour sacs de ciment
+RVg_Cooling_car
+wagon réfrigéré RVG
 RVg_Daylight
 RVg Aube
 RVg_Daylight_dome
@@ -1508,6 +1990,10 @@ RVg-D23-Camel
 RVg D23 Chameau
 RVg-D41-Tubus
 RVg D41 Tubus
+RVg-DB_MA461
+Motrice DB MA 461 postal
+RVg-DB_MA461_Tail
+motrice arrière DB MA 461 (postal)
 RVg-E17-Spring
 RVg E17 "Bandoir"
 RVg-Express_Tender
@@ -1532,6 +2018,8 @@ RVg-LK_Cement_Truck
 RVg LK (ciment)
 RVg-LK_Cooling_Truck
 RVg-LK V44 réfrigérant
+RVg-LK_Goods_Truck
+Camion pour transport de biens RVg
 RVg-LK_Grain_Truck
 RVg-LK V41 (céreales)
 RVg-LK_Plank_Truck
@@ -1594,6 +2082,238 @@ S_Kroytor_PAZ-772
 S.Kroytor PAZ-772
 S_Kroytor_Traveler
 Autocar Kroytor
+SAC-Aerospatiale_Concorde_128_set
+Aérospatiale Concorde
+SAC-Airbus_A300-600C_128_set
+Airbus A300-600 réfrigéré
+SAC-Airbus_A300-600F_128_set
+Airbus A300-600 cargo
+SAC-Airbus_A300-600P_128_set
+Airbus A300-600 postal
+SAC-Airbus_A300-600ST_128_set
+Airbus A300-600ST "Beluga"
+SAC-Airbus_A300-B4_128_set
+Airbus A300-B4
+SAC-Airbus_A310-200_128_set
+Airbus A310-200
+SAC-Airbus_A310-200C_128_set
+Airbus A310-200 réfrigéré
+SAC-Airbus_A310-200F_128_set
+Airbus A310-200 cargo
+SAC-Airbus_A310-200P_128_set
+Airbus A310-200 postal
+SAC-Airbus_A318-100_128_set
+Airbus A318-100
+SAC-Airbus_A319-100_128_set
+Airbus A319-100
+SAC-Airbus_A320-200_128_set
+Airbus A320-200
+SAC-Airbus_A321-200_128_set
+Airbus A321-200
+SAC-Airbus_A330-200_128_set
+Airbus A330-200
+SAC-Airbus_A330-200f_cooled_128_set
+Airbus A330-200 réfrigéré
+SAC-Airbus_A330-200f_goods_128_set
+Airbus A330-200 cargo
+SAC-Airbus_A330-200f_mail_128_set
+Airbus A330-200 postal
+SAC-Airbus_A330-300_128_set
+Airbus A330-300
+SAC-Airbus_A340-200_128_set
+Airbus A340-200
+SAC-Airbus_A340-300_128_set
+Airbus A340-300
+SAC-Airbus_A340-500_128_set
+Airbus A340-500
+SAC-Airbus_A340-600_128_set
+Airbus A340-600
+SAC-Airbus_A350-1000_128_set
+Airbus A350-1000
+SAC-Airbus_A350-800_128_set
+Airbus A350-800
+SAC-Airbus_A350-900_128_set
+Airbus A350-900
+SAC-Airbus_A350-900f_cooled_128_set
+Airbus A350-900 réfrigéré
+SAC-Airbus_A350-900f_goods_128_set
+Airbus A350-900 cargo
+SAC-Airbus_A350-900f_mail_128_set
+Airbus A350-900 postal
+SAC-Airbus_A380-800_128_set
+Airbus A380-800
+SAC-Airbus_A380-800C_128_set
+Airbus A380-800 réfrigéré
+SAC-Airbus_A380-800F_128_set
+Airbus A380-800 cargo
+SAC-Airbus_A380-800P_128_set
+Airbus A380-800 postal
+SAC-Airbus_A380-900_128_set
+Airbus A380-900
+SAC-BAC_1-11
+BAC 1-11
+SAC-Boeing_707-020_128_set
+Boeing 707-020
+SAC-Boeing_707-120_128_set
+Boeing 707-120
+SAC-Boeing_707-320_128_set
+Boeing 707-320
+SAC-Boeing_727-100_128_set
+Boeing 727-100
+SAC-Boeing_727-200_128_set
+Boeing 727-200
+SAC-Boeing_737-100_128_set
+Boeing 737-100
+SAC-Boeing_737-200_128_set
+Boeing 737-200
+SAC-Boeing_737-300_128_set
+Boeing 737-300
+SAC-Boeing_737-400_128_set
+Boeing 737-400
+SAC-Boeing_737-500_128_set
+Boeing 737-500
+SAC-Boeing_737-600_128_set
+Boeing 737-600
+SAC-Boeing_737-700_128_set
+Boeing 737-700
+SAC-Boeing_737-800_128_set
+Boeing 737-800
+SAC-Boeing_737-900_128_set
+Boeing 737-900
+SAC-Boeing_747-200_128_set
+Boeing 747-200
+SAC-Boeing_747-200C_128_set
+Boeing 747-200 réfrigéré
+SAC-Boeing_747-200F_128_set
+Boeing 747-200F cargo
+SAC-Boeing_747-200P_128_set
+Boeing 747-200 postal
+SAC-Boeing_747-300_128_set
+Boeing 747-300
+SAC-Boeing_747-400_128_set
+Boeing 747-400
+SAC-Boeing_747-400F_Cooled_128_set
+Boeing 747-400 réfrigéré
+SAC-Boeing_747-400F_Goods_128_set
+Boeing 747-400F cargo
+SAC-Boeing_747-400F_Mail_128_set
+Boeing 747-400F postal
+SAC-Boeing_747-8F_Cooled_128_set
+Boeing 747-8F réfrigéré
+SAC-Boeing_747-8F_Goods_128_set
+Boeing 747-8F cargo
+SAC-Boeing_747-8F_Mail_128_set
+Boeing 747-8F postal
+SAC-Boeing_747-8I_128_set
+Boeing 747-8I
+SAC-Boeing_757-200_128_set
+Boeing 757-200
+SAC-Boeing_757-200f_cooled_128_set
+Boeing 757-200F réfrigéré
+SAC-Boeing_757-200f_goods_128_set
+Boeing 757-200F cargo
+SAC-Boeing_757-200f_mail_128_set
+Boeing 757-200F postal
+SAC-Boeing_757-300_128_set
+Boeing 757-300
+SAC-Boeing_767-200_128_set
+Boeing 767-200
+SAC-Boeing_767-300_128_set
+Boeing 767-300
+SAC-Boeing_767-300F_cooled_128_set
+Boeing 767-300F réfrigéré
+SAC-Boeing_767-300F_goods_128_set
+Boeing 767-300F cargo
+SAC-Boeing_767-300F_mail_128_set
+Boeing 767-300F postal
+SAC-Boeing_767-400_128_set
+Boeing 767-400
+SAC-Boeing_777-200_128_set
+Boeing 777-200
+SAC-Boeing_777-200F_cooled_128_set
+Boeing 777-200F réfrigéré
+SAC-Boeing_777-200F_goods_128_set
+Boeing 777-200F cargo
+SAC-Boeing_777-200F_mail_128_set
+Boeing 777-200F postal
+SAC-Boeing_777-300_128_set
+Boeing 777-300
+SAC-Boeing_B-377_Stratoliner
+Boeing 377 Stratocruiser
+SAC-Bombardier_CRJ-200
+Bombardier CRJ-200
+SAC-Bombardier_CRJ-900
+Bombardier CRJ-900
+SAC-De_Havilland_Comet_128_set
+De Havilland Comet
+SAC-Douglas_DC-3_128_set
+Douglas DC-3
+SAC-Douglas_DC-5_128_set
+Douglas DC-5
+SAC-Douglas_DC-6_128_set
+Douglas DC-6
+SAC-Douglas_DC-8-30_128_set
+Douglas DC-8 30
+SAC-Douglas_DC-8-50_Mail_128_set
+Douglas DC-8 50 postal
+SAC-Douglas_DC-8-60_128_set
+Douglas DC-8 60
+SAC-Douglas_DC-9-10_128_set
+Douglas DC-9 10
+SAC-Douglas_DC-9-30_128_set
+Douglas DC-9 30
+SAC-Douglas_DC-9-30LWF_Mail_128_set
+Douglas DC-9 30 LWF postal
+SAC-Douglas_DC-9-50_128_set
+Douglas DC-9 50
+SAC-Embraer_E-170
+Embraer E-170
+SAC-Embraer_E-190
+Embraer E-190
+SAC-Fokker_F-27_128_set
+Fokker F-27
+SAC-Fokker_F-27_Mail_128_set
+Fokker F-27 postal
+SAC-Handley_Page_W8B_128_set
+Handley Page W8.b
+SAC-Ilyushin_IL-76_Candid_128_set
+Iliouchine IL-76 "Candid"
+SAC-Junkers_Ju-52_128_set
+Junkers Ju-52
+SAC-Junkers_Ju-52_Mail_128_set
+Junkers Ju-52 postal
+SAC-Lockheed_C-130C_Hercules_128_set
+Lockheed C-130 Hercules réfrigéré
+SAC-Lockheed_C-130F_Hercules_128_set
+Lockheed C-130 Hercules cargo
+SAC-Lockheed_C-130J_Super_Hercules_(cooled)_128_set
+Lockheed C-130J Super Hercules réfrigéré
+SAC-Lockheed_C-130J_Super_Hercules_(goods)_128_set
+Lockheed C-130J Super Hercules cargo
+SAC-Lockheed_Constellation_128_set
+Lockheed Constellation
+SAC-McDonnell_Douglas_DC-10_128_set
+McDonnell Douglas DC-10
+SAC-McDonnell_Douglas_DC-10F_(cooled_goods)_128_set
+McDonnell Douglas DC-10 réfrigéré
+SAC-McDonnell_Douglas_DC-10F_(goods)_128_set
+McDonnell Douglas DC-10 cargo
+SAC-McDonnell_Douglas_DC-10F_(mail)_128_set
+McDonnell Douglas DC-10 postal
+SAC-McDonnell_Douglas_MD-11_128_set
+McDonnell Douglas MD-11
+SAC-McDonnell_Douglas_MD-11F_(cooled_goods)_128_set
+McDonnell Douglas MD-11 réfrigéré
+SAC-McDonnell_Douglas_MD-11F_(goods)_128_set
+McDonnell Douglas MD-11 cargo
+SAC-McDonnell_Douglas_MD-11F_(mail)_128_set
+McDonnell Douglas MD-11 postal
+SAC-McDonnell_Douglas_MD-80_128_set
+McDonnell Douglas MD-80
+SAC-McDonnell_Douglas_MD-90_128_set
+McDonnell Douglas MD-90
+SAC-Rohrbach_Rocco_128_set
+Rohrbach Rocco
 Sail_Post_Ship_0
 Voilier postal
 SBB_Re4_4_II
@@ -1612,28 +2332,182 @@ Sentinel_Wood_Lorry
 Sindor-Sentinel (bois)
 Sentinel_Wood_Trailer
 Remorque pour Sentinel (bois)
+Silver_City_Comet
+Silver City Comet
+Silver_City_Comet_Car
+voiture Silver City Comet
+Silver_City_Comet_Post_Car
+wagon postal Silver City Comet
 SK_Mail_Truck_1
 S.Kroytor Postal
+skoda_1_tr_128
+Trolley Skoda 1
+skoda_10_tr_128
+Trolley Skoda 10
+skoda_10_tr_rear_128
+Trolley Skoda 10 arrière
 Skoda_109E
-Sindor-Skoda 109E
+Skoda 109E
+skoda_11_tr_128
+Trolley Skoda 11
+skoda_12_tr_128
+Trolley Skoda 12
+skoda_14_tr_128
+Trolley Skoda 14
+skoda_18_tr_128
+Trolley Skoda 18
+skoda_18_tr_rear_128
+Trolley Skoda 14 arrière
+skoda_19_tr_128
+Trolley Skoda 19 triple
+skoda_19_tr_mid_128
+Trolley Skoda 19 milieu
+skoda_19_tr_rear_128
+Trolley Skoda 19 arrière
+skoda_21_tr_128
+Trolley Skoda 21
+skoda_22_tr_128
+Trolley Skoda 22
+skoda_22_tr_rear_128
+Trolley Skoda 22 arrière
+skoda_23_tr_128
+Trolley Skoda 23 triple
+skoda_23_tr_mid_128
+Trolley Skoda 23 milieu
+skoda_23_tr_rear_128
+Trolley Skoda 23 arrière
+skoda_24_tr_128
+Trolley Skoda 24
+skoda_25_tr_128
+Trolley Skoda 25
+skoda_25_tr_rear_128
+Trolley Skoda 25 arrière
+skoda_6_tr_128
+Trolley Skoda 6
 Skoda_706_grain
-Sindor-Skoda 706 Céreales
+Skoda 706 Céreales
 Skoda_706_trailer_grain
-Sindor-S706 remorque cér.
+Skoda 706 remorque cér.
+skoda_8_tr_128
+Trolley Skoda 8
+skoda_sanos_115_tr_128
+Trolley Skoda Sanos 115
+skoda_sanos_200_tr_128
+Trolley Skoda Sanos 200
+skoda_sanos_200_tr_rear_128
+Trolley Skoda Sanos 200 arrière
 skoda151
-Skoda 151
+Skoda 151 "mulot"
 skoda163
 Skoda 163
 skoda180
 Skoda 180 Six cors
+SMC_Early_Grain_Hopper
+wagon céréalier ancien
+SMC_H-38_City_Bus
+Minibus SMC H-38
+SMC_H-98_City_Bus
+Autobus SMC H-98
+SMC_HDL-1400
+HDL-1400-75
+SMC_HDL-1600
+HDL-1600-80
+SMC_HDL-1800
+HDL-1800-85
+SMC_HDL-2000
+HDL-2000-95
+SMC_HDL-2500
+HDL-2500-110
+SMC_HDL-3000
+HDL-3000-140
+SMC_HDL-4000
+HDL-4000-130
+SMC_Long_Grain_Hopper
+grand wagon céréalier
+SMC_Medium_Grain_Car
+wagon pour sacs de céréales
+SMC_RT-100_Ugly_Duck
+RT 100 "vilain petit canard"
+SMC_RT-101_(car)
+voiture RT 101 "vilain petit canard"
+SMC_RT-102_(mail_car)
+wagon postal RT 102 "vilain petit canard"
+SMC_RT-120_Mighty_Duck
+RT 120 "Canard musclé"
+SMC_RT-121_(car)
+voiture RT 121 "Canard musclé"
+SMC_RT-122_(mail_car)
+wagon postal RT 122 "Canard musclé"
+SMC_RT-350_Donald_Duck
+RT 350 "Donald Duck"
+SMC_RT-351_(car)
+voiture RT 351 "Donald Duck"
+SMC_RT-352_(mail_car)
+wagon postal RT 352 "Donald Duck"
+SMC_RT-600_Super_Duck
+RT 600 "Super Canard"
+SMC_RT-601_(single_deck_car)
+voiture RT 601 "Super Canard"
+SMC_RT-602_(mail_car)
+wagon postal RT 602 "Super Canard"
+SMC_RT-605_(double_deck_car)
+voiture Duplex RT 605 "Super Canard"
+SMC_RT-900_Dry_Duck
+RT 900 "Canard assoiffé"
+SMC_RT-901_(car)
+voiture RT 901 "Canard assoiffé"
+SMC_RT-902_(mail_car)
+wagon postal RT 902 "Canard assoiffé"
+SMC_RT-909_(back_engine)
+motrice arrière RT 909 "Canard assoiffé"
+SMC_Short_Grain_Car
+Wagon pour sacs de céréales SMC
+SMC_XT-1000_Proto_Duck
+XT 1000 "Canard laqué"
+SMC_XT-1001_(passenger_car)
+voiture XT 1001 "Canard laqué"
+SMC_XT-1002_(mail_car)
+wagon postal XT 1002 "Canard laqué"
+SMC_XT-1009_(back_engine)
+motrice arrière XT 1009 "Canard laqué"
+SMC_XT-300_Toasted_Duck
+XT 300 "Canard boiteux"
+SMC_XT-301_(car)
+wagon XT 301 "Canard boiteux"
+SMC_XT-302_(mail_car)
+wagon postal XT 302 "Canard boiteux"
+SMC_XT-309_(back_engine)
+motrice arrière XT 309 "Canard boiteux"
+SMC_XT-500_Hot_Duck
+XT 500 "Canard WC"
+SMC_XT-501_(car)
+wagon XT 501 "Canard WC"
+SMC_XT-502_(mail_car)
+wagon postal XT 502 "Canard WC"
+SMC_XT-509_(back_engine)
+motrice arrière XT 509 "Canard WC"
+SMC_XT-700_Fast_Duck
+XT 700 "Canard à trois pattes"
+SMC_XT-701_(passenger_car)
+voiture XT 701 "Canard à trois pattes"
+SMC_XT-702_(mail_car)
+wagon postal XT 702 "Canard à trois pattes"
+SMC_XT-709_(back_engine)
+motrice arrière XT 709 "Canard à trois pattes"
 Stahlwagen
 Wagon à acier VT vienna
 Stahlwagen_0
 Canonball Acier
 Stahlwagen_1
 RVg wagon plat à l'acier
+Stahlwagen_2
+wagon à barres d'acier
+Stahlwagen_3
+wagon à plaques d'acier
 Steel_Truck_0
 Camion à acier
+Stoyko_Peev
+Porte conteneur Stokyo Peev
 T_101
 RVg T101
 T_102
@@ -1662,6 +2536,84 @@ T_110A
 RVg T110a ST
 T_110B
 RVg T110b ST
+T_202_Cityway_A
+Alstom Cityway T202
+T_202_Cityway_B0
+Cityway T202 (B0)
+T_202_Cityway_B1
+Cityway T202 (B1)
+T_202_Cityway_C0
+Cityway T202 (C)
+T_202_Cityway_C1
+Cityway T202 (C1)
+T_202_Cityway_D
+Cityway T202 (D)
+T_202_Cityway_E0
+Cityway T202 (E)
+T_202_Cityway_E1
+Cityway T202 (E1)
+T_211_Eurotram_A
+ABB Eurotram T211
+T_211_Eurotram_B
+Eurotram T211 (B)
+T_211_Eurotram_C
+Eurotram T211 (C)
+T_211_Eurotram_D
+Eurotram T211 (D)
+T_211_Eurotram_E
+Eurotram T211 (E)
+T_212_Sirio_A
+AnsaldoBreda Sirio T212
+T_212_Sirio_B
+Sirio T212 (B)
+T_212_Sirio_C
+Sirio T212 (C)
+T_212_Sirio_D
+Sirio T212 (D)
+T_212_Sirio_E
+Sirio T212 (E)
+T_221_Combino_A
+Siemens Combino T221
+T_221_Combino_B
+Combino T221 (B)
+T_221_Combino_C
+Combino T221 (C)
+T_221_Combino_D
+Combino T221 (D)
+T_221_Combino_E
+Combino T221 (E)
+T_222_Combino_Supra_A
+Siemens Combino Supra T222
+T_222_Combino_Supra_B
+Combino Supra T222 (B)
+T_222_Combino_Supra_C
+Combino Supra T222 (C)
+T_222_Combino_Supra_D
+Combino Supra T222 (D)
+T_222_Combino_Supra_E
+Combino Supra T222 (E)
+TalgoExpressCar
+voiture Talgo express
+TalgoExpressMail
+wagon postal Talgo express
+TalgoExpressRestaurant
+wagon-restaurant Talgo express
+TalgoRegionalCar
+voiture régionale Talgo
+TalgoRegionalMail
+wagon postal régional Talgo
+TATRA_400_T_128
+Tatra 400
+TATRA_401_T_128
+Tatra 401
+TATRA_86_T_128
+Tatra 86
+TGV_4400
+TGV POS 4400
+TGV_4400_Back
+TGV POS 4400 arrière
+TGV_4400_Car
+TGV POS 4400 voiture
 TGV_Atlantique
 TGV Atlantique (tête)
 TGV_Atlantique_(Back)
@@ -1684,8 +2636,52 @@ Thunder_(rear_engine)
 Tornado (Wagon arrière)
 Thunder_(waggon)
 Wagon Tornado
+TMB_Class_100
+Métro TMB série 100
+TMB_Class_1000
+Métro TMB série 1000
+TMB_Class_2000
+Métro TMB série 2000
+TMB_Class_2000_Car
+Métro TMB série 2000 voiture
+TMB_Class_200A
+Métro TMB série 200A
+TMB_Class_200B
+Métro TMB série 200B
+TMB_Class_200B_Car
+Métro TMB série 200B voiture
+TMB_Class_300
+Métro TMB série 300
+TMB_Class_300_Car
+Métro TMB série 300 voiture
+TMB_Class_3000
+Métro TMB série 3000
+TMB_Class_3000_Back
+Métro TMB série 3000 arrière
+TMB_Class_3000_Car
+Métro TMB série 3000 voiture
+TMB_Class_400
+Métro TMB série 400
+TMB_Class_400_Car
+Métro TMB série 400 voiture
+TMB_Class_500
+Métro TMB série 500
+TMB_Class_500_Car
+Métro TMB série 500 voiture
+TMB_Class_6000
+Métro TMB série 6000
+TMB_Class_6000_Back
+Métro TMB série 6000 arrière
+TMB_Class_6000_Car
+Métro TMB série 6000 voiture
+TMB_Class_6000_Powered_Car
+Métro TMB série 6000 voiture motorisée
 TS_Mack_Bulk_Trailer_0
 TS Semi-remorqe allégé MF
+Twin_Coach_40
+Twin Coach "model 40"
+Veveri_ship_128set
+Ferry Veveri
 Vitus-AVECO_Eurocargo_Bretter
 Vitus-Aveco Eurocargo (planches)
 Vitus-AVECO_Eurocargo_bulk_transporter
@@ -1720,18 +2716,54 @@ VSYS_Tatra_138_Grain
 VSYS Tatra 138 (céreales)
 VSYS_Tatra_813_Clossus
 VSYS Tatra 813 Colossus
+VT105_Addon
+VT-105 "Senator"
+VT105_Car_Addon
+voiture VT-105 "Senator"
+VT105_Tail_Addon
+voiture de queue VT-105 "Senator"
 Willamette_Chief
 Willamette
+Willamette_Chief_(farm_goods)
+Willamette Chief (céréalier)
+Willamette_Chief_(goods)
+Willamette Chief (transport de biens)
 Wood_Trailer_0
 VSYS Remorque pour le bois
 Wood_Truck_0
 Camion à bois
 Wood_Truck_1
 Ford V8 coe (bois)
+yoshi_wup01
+GTW 72 (Wuppertal)
+yoshi_wup02
+GTW 72 milieu (Wuppertal)
+yoshi_wup03
+GTW 72 arrière (Wuppertal)
+yoshi_wup1900
+Kaiserwagen GTW-01
+yoshi_wup1950
+GTW 62
+yoshi_wup196201
+GTW 69
+yoshi_wup196202
+GTW 69 milieu
+yoshi_wup196203
+GTW 69 arrière
+yoshi_wup196501
+GTW 85
+yoshi_wup196502
+GTW 85 milieu
+yoshi_wup196503
+GTW 85 arrière
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 air_movement_area
 Taxiway moderne
+old_runway
+piste de décollage gazonnée
+old_taxiway
+taxiway gazonné
 PowerConduits
 Conduits électriques
 Powerline
@@ -1782,23 +2814,79 @@ Rail_Track_400
 Voie à haute vitesse améliorée
 Rail_Track_400_Elevated
 Voie élevée à haute vitesse améliorée
+river_00
+rivière navigable (19 noeuds)
+river_01
+rivière navigable (15 noeuds)
+river_02
+Rivière navigable (11 noeuds)
+river_03
+rivière
+river_04
+ruisseau
+road_030
+Chemin de terre
+road_040
+route pavée
+road_040_elevated
+route pavée surélevée
+road_050
+Rue de ville
+road_050_elevated
+rue surélevée
+road_055
+route gravillonée
+road_070
+route avec enrobé
+road_090
+route moderne
+road_090_elevated
+Route surélevée moderne
+road_110
+Route nationale
+road_110_elevated
+Route nationale surélevée
+road_130
+Autoroute
+road_130_elevated
+Autoroute surélevée
+road_200
+Autoroute moderne
+road_200_elevated
+Autoroute surélevée moderne
 runway_modern
-Aérodrome 
+Piste de décollage moderne
 Schwebebahn_p_ground
 Voie pour monorail (au sol)
 Suspended_Monorail_Track
 Voie suspendue pour monorail
+Tram_Track_050_A
+rails pour tramway
+Tram_Track_070_A
+rails pour tramway renforcés
+Tram_Track_070_B
+rails pour tramway avec ballast béton
+Tram_Track_090_A
+rail moderne pour tramway
+Tram_Track_090_B
+voies de tramway sur pelouse
+Tram_Track_110_A
+rail de tramway rapide
 water_road
 Canal
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary
 Caténaire pour LGV
+modern_runway-extMrkLgt
+éclairage additionnel pour piste d'atterrissage
 old_catenary
 Caténaire classique
 standard_catenary
 Catenaire moderne
 Third_Rail_Electrification
 Electrification par 3e rail
+Tram_Electrification
+Caténaire pour tramway
 TrolleyBus_Electrification
 Caténaires pour trolley bus
