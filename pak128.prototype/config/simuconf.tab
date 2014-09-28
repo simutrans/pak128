@@ -80,17 +80,17 @@ intercity_road_length = 6000
 # Intercityroad with timeline: intercity_road[number]=name,intro-year,retire-year
 # .. number = 0..9 - up to ten different intercity_roads possible
 # .. name = name of an existing pak file
-intercity_road[0] = road_070,1910,1965
-intercity_road[1] = road_090,1965,2999
-intercity_road[2] = road_055,1700,1910
-intercity_road[3] = road_030,0,1700
+intercity_road[0] = Road_070,1910,1965
+intercity_road[1] = Road_090,1965,2999
+intercity_road[2] = Road_055,1700,1910
+intercity_road[3] = Road_030,0,1700
 
 # Type of city roads - must be available as PAK file.
 # Cityroad with timeline: city_road[number]=name,intro-year,retire-year
 # .. number = 0..9 - up to ten different city_roads possible
 # .. name = name of an existing pak file
-city_road[0] = road_040,0,1950
-city_road[1] = road_050,1940,2999
+city_road[0] = Road_040,0,1950
+city_road[1] = Road_050,1940,2999
 
 # way builder internal weights (straight track is 4)
 # a higher weight make it more unlikely
