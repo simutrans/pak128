@@ -4,6 +4,7 @@ Copyright=mEGa
 Type=cur
 Passengers=25
 intro_year=1930
+Build_Time=8200
 chance=60
 dims=2,2,4
 BackImage[0][0][0][0][0][0]=tennis_court.0.0

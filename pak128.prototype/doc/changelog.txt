@@ -1,6 +1,12 @@
+simutrans128 (2.5.1) stable; urgency=low
+
+  * Complete upgrade to half heights (there was still some missing graphics)
+  * Fixed some glitches in road/rail bridge/tunnel graphics
+  * Fixed tennis court appearing outside of towns (missed build_time parameter)
+
 simutrans128 (2.5.0) stable; urgency=low
 
-  * Complete upgrade to half heights
+  * (un)Complete upgrade to half heights
   * Rails and trains lowered of four pixels (ground level)
   * Rail stations by Gauthier
   * Complete update of catenaries/third rails by Gwalch and Gauthier
