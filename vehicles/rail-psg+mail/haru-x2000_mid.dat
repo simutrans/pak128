@@ -2,6 +2,7 @@ obj=vehicle
 name=Haru-X2000_mid
 copyright=Haru
 waytype=track
+engine_type=electric
 freight=Passagiere
 payload=72
 speed=210
