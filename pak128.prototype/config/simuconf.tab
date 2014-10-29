@@ -224,7 +224,7 @@ cost_multiply_roadstop = 400
 cost_multiply_airterminal = 1000
 # used for all extra buildings
 cost_multiply_post = 500
-#cost_multiply_headquarter=100000
+cost_multiply_headquarter=10000
 
 # cost for depots
 cost_depot_air = 12500
