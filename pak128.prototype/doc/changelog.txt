@@ -1,15 +1,27 @@
+simutrans128 (2.5.2) stable; urgency=low
+
+  * Added missing graphics on 70 and 90 kmph road bridges
+  * Added missing graphics on canal bridge
+  * Added new headquarters from ny911
+  * Updated scenarios "produce cars" (was "cars") and "trammadness"
+
+  -- Gauthier Nottret <gauthier.nottret@edu.esiee.fr> & the pak128 team 11 Nov 2014
+  
 simutrans128 (2.5.1) stable; urgency=low
 
-  * Complete upgrade to half heights (there was still some missing graphics)
+  * (un)Complete upgrade to half heights (there was still some missing graphics)
   * Fixed some glitches in road/rail bridge/tunnel graphics
   * Fixed tennis court appearing outside of towns (missed build_time parameter)
 
+  -- Gauthier Nottret <gauthier.nottret@edu.esiee.fr> & the pak128 team 06 Oct 2014
+  
 simutrans128 (2.5.0) stable; urgency=low
 
   * (un)Complete upgrade to half heights
   * Rails and trains lowered of four pixels (ground level)
-  * Rail stations by Gauthier
+  * Added rail stations by Gauthier
   * Complete update of catenaries/third rails by Gwalch and Gauthier
+  * Added some of Areus'traffic lights
   * Many bugfixes
   
  -- Gauthier Nottret <gauthier.nottret@edu.esiee.fr> & the pak128 team 19 Sep 2014

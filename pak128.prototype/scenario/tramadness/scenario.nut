@@ -2,8 +2,17 @@
 map.file = "tramadness.sve"
 
 scenario.short_description = "TraMMadness"
-scenario.author = "Optimix (scripting by Dwachs)"
-scenario.version = "0.2"
+scenario.author = "Optimix (scripting by Dwachs, ny911)"
+scenario.version = "0.3"
+
+/* script and savegame change log
+ * version 0.3
+ * - change map to new landscape, map borders and halfheight hill parts
+ * - change coord3d of halt
+ * - editing rivers, roads, bridges of puplic player
+ * - build new overhead wires and tracks of pakset
+ * - set startmoney to 125.000
+ */
 
 
 // error messages
@@ -94,13 +103,17 @@ function start()
 	rules.forbid_way_tool_rect(0, tool_remove_way, wt_all, { x=34, y=39, z=0 }, { x=34, y=39, z=0 }, ttext(err_station_protected))
 	rules.forbid_way_tool_rect(0, tool_remove_way, wt_all, { x=18, y=55, z=0 }, { x=18, y=55, z=0 }, ttext(err_station_protected))
 
+	// set startmoney of player=0
+	player_x(0).book_cash( 125000 * 100 - player_x(0).get_cash()[0] )
 	resume_game()
 }
 
 function resume_game()
 {
 	// initialize variable to access the stations statistics
-	halt = tile_x(25, 45, 5).halt
+	if ( scenario.version == "0.3" )
+		halt = tile_x(25, 45, 10).halt
+	else	halt = tile_x(25, 45, 5).halt
 }
 
 
@@ -108,7 +121,6 @@ function is_scenario_completed(pl)
 {
 	local happy = halt.happy.reduce( function(a,b){return a+b;} )
 	if (happy > 0)
-		return 100 // complete
+		return 100		// complete
 	return 0
 }
-
