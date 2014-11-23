@@ -2,11 +2,10 @@
 -------------------
 obj=way-object
 name=third_rail
-cost=1000
-maintenance=40
+cost=800
+maintenance=35
 topspeed=80
 intro_year=1840
-retire_year=1950
 waytype=track
 own_waytype=electrified_track
 copyright=Gauthier

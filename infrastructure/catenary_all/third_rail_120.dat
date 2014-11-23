@@ -1,0 +1,34 @@
+# Copyright Gauthier NOTTRET
+-------------------
+obj=way-object
+name=plastic_covered_third_rail
+cost=1500
+maintenance=50
+topspeed=120
+intro_year=1980
+waytype=track
+own_waytype=electrified_track
+copyright=Gauthier
+cursor=third_rail_120.3.5
+icon=> third_rail_120.3.4
+
+BackImage[-]=third_rail_120.3.3
+BackImage[N]=third_rail_120.0.0
+BackImage[S]=third_rail_120.0.1
+BackImage[E]=third_rail_120.0.2
+BackImage[W]=third_rail_120.0.3
+BackImage[NS]=third_rail_120.0.4
+BackImage[EW]=third_rail_120.0.5
+BackImage[NE]=third_rail_120.1.4
+BackImage[SW]=third_rail_120.1.5
+BackImage[NW]=third_rail_120.2.4
+BackImage[SE]=third_rail_120.2.5
+BackImage[NEW]=third_rail_120.1.0
+BackImage[NSE]=third_rail_120.1.1
+BackImage[SEW]=third_rail_120.1.2
+BackImage[NSW]=third_rail_120.1.3
+BackImage[NSEW]=third_rail_120.3.2
+BackImageUp[3]=third_rail_120.2.0
+BackImageUp[6]=third_rail_120.2.1
+BackImageUp[9]=third_rail_120.2.2
+BackImageUp[12]=third_rail_120.2.3
