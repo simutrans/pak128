@@ -416,8 +416,8 @@ RailTunnel
 Rail_280_Tunnel
 RoadTunnel
 road_090_tunnel
-Rail_280_Tunnel
-Rail_280_Tunnel
+#
+###########################  Soft slopes conversion ############################
 road_110_tunnel
 Highway_110_Tunnel
 road_040_tunnel
@@ -560,6 +560,8 @@ road_200
 Highway_200
 water_road
 canal_030
+Tram_Electrification
+tramway_modern
 #
 ###########################  New Landscape ####################################
 river_00
