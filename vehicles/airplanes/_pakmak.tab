@@ -1,3 +1,4 @@
 OPTIONS
 size 176
 compile yes
+merge airplanes.all.pak

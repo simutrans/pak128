@@ -1,3 +1,4 @@
 OPTIONS
 size 250
 compile yes
+merge ships.all.pak

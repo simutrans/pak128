@@ -181,13 +181,13 @@ cd ..\..\citycars
 echo Compiling Cityhouses
 
 cd ..\cityhouses\com
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/city_com.all.pak ./ >>..\..\err.txt
 
 cd ..\ind
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/city_ind.all.pak ./ >>..\..\err.txt
 
 cd ..\res
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/city_res.all.pak ./ >>..\..\err.txt
 
 cd ..\res\blocks
 ..\..\..\makeobj.exe pak128 ../../../simutrans/pak128/building.RES_blocks.pak ./ >>..\..\err.txt
@@ -195,10 +195,10 @@ cd ..\res\blocks
 echo Compiling factories
 
 cd ..\..\..\factories
-..\makeobj.exe pak128 ../simutrans/pak128/ ./ >>..\err.txt
+..\makeobj.exe pak128 ../simutrans/pak128/factories.all.pak ./ >>..\err.txt
 
 cd ..\factories\powerplants
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/powerplants.all.pak ./ >>..\..\err.txt
 
 echo Compiling landscape
 
@@ -231,44 +231,44 @@ cd ..\townhalls
 echo Compiling Airplanes
 
 cd ..\..\vehicles\airplanes
-..\..\makeobj.exe pak176 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak176 ../../simutrans/pak128/airplanes.all.pak ./ >>..\..\err.txt
 
 echo Compiling Monorail velicles
 
 cd ..\monorail
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/monorail_vehicles.all.pak ./ >>..\..\err.txt
 
 echo Compiling Rail vehicles
 
 cd ..\rail-cargo
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/rail_cargo.all.pak ./ >>..\..\err.txt
 
 cd ..\rail-engines
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/locomotives.all.pak ./ >>..\..\err.txt
 
 cd ..\rail-psg+mail
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/passenger_trains.all.pak ./ >>..\..\err.txt
 
 echo Compiling Road Vehicles
 
 cd ..\road-cargo
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/trucks.all.pak ./ >>..\..\err.txt
 
 cd ..\road-psg+mail
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/buses.all.pak ./ >>..\..\err.txt
 
 echo Compiling Ships
 
 cd ..\ships-cargo
-..\..\makeobj.exe pak250 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak250 ../../simutrans/pak128/ships.all.pak ./ >>..\..\err.txt
 
 cd ..\ships-ferries
-..\..\makeobj.exe pak250 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak250 ../../simutrans/pak128/ferries.all.pak ./ >>..\..\err.txt
 
 echo Compiling Trams
 
 cd ..\trams
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ ./ >>..\..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/trams.all.pak ./ >>..\..\err.txt
 
 cd..
 cd..
