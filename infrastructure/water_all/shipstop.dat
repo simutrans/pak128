@@ -26,9 +26,9 @@ BackImage[3][0][1][0][0][0]=shipstop.2.1
 BackImage[2][1][0][0][0][0]=shipstop.2.2
 BackImage[1][0][0][0][0][0]=shipstop.2.3
 
-BackImage[0][1][0][0][0][1]=shipstop.3.0
-BackImage[3][0][0][0][0][1]=shipstop.3.1
-BackImage[2][0][0][0][0][1]=shipstop.3.2
-BackImage[1][0][1][0][0][1]=shipstop.3.3
+BackImage[0][0][0][0][0][1]=shipstop.3.0
+BackImage[3][0][1][0][0][1]=shipstop.3.1
+BackImage[2][1][0][0][0][1]=shipstop.3.2
+BackImage[1][0][0][0][0][1]=shipstop.3.3
 
 # EOF

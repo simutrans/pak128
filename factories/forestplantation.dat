@@ -11,8 +11,8 @@ needs_ground=1
 has_snow=1
 dims=3,3,1
 
-Productivity=10
-Range=10
+Productivity=20
+Range=30
 
 Electricity_amount=0
 Electricity_boost=0
@@ -27,7 +27,7 @@ OutputCapacity[0]=300
 fields=forestplantation_field
 max_fields=80
 min_fields=10
-production_per_field=1
+production_per_field=2
 probability to spawn=75
 
 BackImage[0][0][0][0][0][0]=forestplantation.0.0
