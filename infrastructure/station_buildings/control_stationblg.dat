@@ -3,7 +3,7 @@ Obj=building
 Name=Control_StationBlg
 #part of station, no specific purpose
 type=extension
-waytype=track
+# waytype=track
 Level=5
 copyright=MHz
 intro_year = 1887

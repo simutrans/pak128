@@ -2,7 +2,7 @@
 Obj=building
 Name=Avila_Big_StationBlg
 type=extension
-waytype=track
+# waytype=track
 enables_pax=1
 enables_post=1
 Level=18
