@@ -1,9 +1,9 @@
 Obj=building
 Name=french_garden_4
 Type=cur
-Passengers=60
+Passengers=25
 intro_year=1900
-chance=100
+chance=40
 build_time=4000
 Copyright=mEGa
 dims=2,2,1

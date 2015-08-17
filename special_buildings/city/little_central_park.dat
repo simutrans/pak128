@@ -6,7 +6,7 @@ Build_time=6000
 Passengers=8
 intro_year=1900
 Location=city
-chance=100
+chance=30
 dims=2,6,2
 
 BackImage[0][0][0][0][0][0]=little_central_park.1.0

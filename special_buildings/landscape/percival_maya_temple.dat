@@ -7,7 +7,7 @@ Copyright=Shinjin (CC-BY) & Zeno
 # http://creativecommons.org/licenses/by/3.0/
 
 Type=cur
-Passengers=32
+Passengers=24
 Chance=55
 dims=3,3,4
 needs_ground=1
