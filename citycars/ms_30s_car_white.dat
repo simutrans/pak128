@@ -12,4 +12,4 @@ Image[NE]=ms_30s_car_white.1.3
 Image[SW]=ms_30s_car_white.1.7
 intro_year = 1930
 retire_year = 1950
-speed = 40
+speed = 50

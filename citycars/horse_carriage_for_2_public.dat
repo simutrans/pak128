@@ -1,7 +1,7 @@
 Obj=citycar
 name=Horse_Carriage_For_2_public
 copyright=Zeno
-speed=15
+speed=30
 DistributionWeight=5
 intro_year=1750
 intro_month=1

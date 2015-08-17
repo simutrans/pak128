@@ -12,4 +12,4 @@ Image[NE]=ms_28_mercedes_red.1.3
 Image[SW]=ms_28_mercedes_red.1.7
 intro_year = 1928
 retire_year = 1950
-speed = 35
+speed = 50
