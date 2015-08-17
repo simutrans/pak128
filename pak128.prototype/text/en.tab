@@ -154,11 +154,11 @@ Rail_Track_320_Bridge
 Concrete framed bridge for modern high speed track
 Rail_Track_400_Bridge
 Concrete framed bridge for enhanced high speed track
-road_030_bridge
+road_030_bridge_old
 Wooden road bridge
-road_040_bridge
+road_040_bridge_old
 City stone bridge
-road_050_bridge
+road_050_bridge_old
 City bridge
 road_055_bridge
 Stone road bridge
@@ -173,9 +173,63 @@ Freeway bridge
 road_200_bridge
 Modern freeway bridge
 Schwebebahn_p_bridge
-Suspended Monorail (bridge)
+Bridge for Suspension Railway
 water_bridge
-Canal Bridge
+Canal Bridge (stone)
+Rail_060_Bridge
+Bridge (wood) for Freight Track
+Rail_060B_Bridge
+Bridge (steel, basic) for Freight Track
+Rail_080_Bridge
+Bridge (iron) for Wooden Sleeper Track
+Rail_080B_Bridge
+Bridge (steel, advanced) for Freight Track
+Rail_100_Bridge
+Bridge for Wooden Sleeper Track
+Rail_120_Bridge
+Bridge for Wooden Sleeper Track
+Rail_120B_Bridge
+Bridge for Freight Track
+Rail_140_Bridge
+Bridge (stone block arch) for Express Track
+Rail_160_Bridge
+Bridge (concrete) for Express Track
+Rail_180_Bridge
+Bridge (concrete) for Regional Track
+Rail_200_Bridge
+Bridge (steel) for Express Track
+Rail_240_Bridge
+Bridge (steel) for Express Track
+Rail_280_Bridge
+Bridge (concrete) for High-Speed Track
+Rail_320_Bridge
+Bridge (concrete frame) for High-Speed Track
+Rail_400_Bridge
+Bridge (tubular concrete frame) for High-Speed Track
+road_030_bridge
+Bridge (wood) for Dirt Road
+road_040_bridge
+Bridge (stone block) for Street
+road_050_bridge
+Bridge (concrete) for Street
+Road_030_Bridge
+Bridge (wood) for Dirt Road
+Road_040_Bridge
+Bridge (stone block) for Street
+Road_050_Bridge
+Bridge (concrete) for Street
+Road_055_Bridge
+Bridge (stone) for Dirt Road
+Road_070_Bridge
+Bridge for Road
+Road_090_Bridge
+Bridge (central column, advanced) for Road
+Highway_110_Bridge
+Bridge (tripple concrete pillar) for Freeway
+Highway_130_Bridge
+Bridge (double square column) for Freeway
+Highway_200_Bridge
+Bridge (wide column, advanced) for Freeway
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 01_CITY
@@ -199,17 +253,17 @@ City Hall
 05_CITY_1
 City Hall
 1920_AirDepot
-Simple Hangar
+Hangar (simple)
 1930AirDepot
-Wooden Hangar
+Hangar (wood)
 1940AirDepot
-Sheet Metal Hangar
+Hangar (sheet metal)
 1950AirDepot
-Concrete Hangar
+Hangar (concrete)
 1990AirDepot
-Modern Hangar
+Hangar (advanced)
 ABBYS_0
-Abbey\n\nThis abbey is famous for its\ndeep wells in both towers.\nAccording to the legend,\nthese wells are bottomless.\nIt's incredible how many\npeople want to come here\nand see the magic wells.\nCoins, silently falling into\nwater 50 meters below,\nsupplimented the abbey's\nincome enough that the\nmonks have been able to have\nthe ruins restored to their\npresent state.\n
+Abbey\n\nAn abbey famous for its two towers containing deep wells. Because of an old legend saying the wells are bottomless people flock here to see for themselves by dropping coins down into them. In reality the wells are only 50 meters deep but still it manages to trick people. The coins in the wells suplimented the abbey's income enough that the monks could restore the place to its present state.
 Airport1920_AirportBlg
 Airport Passenger Terminal
 Airport1930PostOffice
@@ -249,7 +303,7 @@ Big terminal for passengers
 BigTerminal1950_AirportBlg_S
 Large Passenger Terminal (1950)
 Bulk_Dock
-Bulk Cargo Dock
+Cargo Dock (bulk)
 Bulk_StationBlg
 Bulk Goods Station Building
 bus_terminus
@@ -267,9 +321,9 @@ Drive-through loading bay
 CarStop
 Loading Bay
 CASTLE_0
-Old Castle\n\nThis castle once belonged to\nKing Napik. Most of it was\ndestroyed during a great\nwar, but it was rebuilt in\nthe nineteenth century,\nand now houses a very\nfamous collection of old\narmor and swords.\n
+Old Castle\n\nA castle which once belonged to King Napik. Although almost completly destroyed during a great warit was rebuilt in the nineteenth century. Currently houses a very famous collection of old armour and swords which were found in the ruins during reconstruction and appear to have been never used.
 CHURCH_02
-Pink Church\n\nThis quaint church was built\nby a celebrated crazy\nmonk, who in the year 1654,\npainted the whole building\npink. The color faded away\nages ago, but the name\nstill remains to this time.\n
+Pink Church\n\nA quaint church built by a celebrated crazy monk. In the year 1654 he painted the whole building pink. Although the colour faded away with time the name remains to this day.
 CHURCH_03
 Church\n\nThis is a famous church,\nwhich attracts people by\nits pleasant surroundings\nand the interesting\npaintings inside.\n\n
 CHURCH_04
@@ -283,11 +337,11 @@ Circus Humberto\n\nThe famous circus made this\ntown it's final destination.\nTh
 CIVILIAN_RADAR
 Observatory\n\nMaybe you don't believe it, but\nthis is a normal\nobservatory. Radio\nobservatory of course...\n\n
 classic_mailbox
-Mailbox
+Post Box
 ClosedTrainStop
 Completely covered platform
 CoalTrainStop
-Coal station
+Goods Platform (coal)
 COM_00_01
 This is a pre-school, where\nsmall children can play and\nsleep while their parents\nare at work. Although one\ncan sometimes hear kids\nyelling, this is really a nice\nand peaceful place full of\nlaughter and sweet dreams\nmost of the time. This day\ncare center also teaches\nyoung children early\nreading and math skills.\n
 COM_00_02
@@ -601,9 +655,9 @@ This barber shop is a great\nplace to get your hair cut\nand catch up on all the
 container_crane_span
 Large container crane
 Container1TrainStop
-Container station
+Goods Platform (few containers)
 Container2TrainStop
-Advanced container station
+Goods Platform (many containers)
 containercrane
 Small container crane
 Control_StationBlg
@@ -641,7 +695,7 @@ This Stupa was built for the\nprogramming "arch-mage"\nVolker Meyer who improved
 Depot_train_1936
 Modern train depot
 ELEMENTARY_SCHOOL_1
-Elementary School\n\nThis is a place where children\nought to get their first\neducation. Math,\nlanguages, history and\nsciences are among the\nless favorable subjects.\nYoung students usually like\npainting and singing a lot\nbetter. Since young people\ncannot drive a car, this\nplace will generate lot of\npassengers. But beware,\nluxurious buses are not\nrecommended to serve lines\naround here.\n
+Elementary School\n\nThis is a place where children ought to get their first education. Math,languages, history and sciences are among the less favorable subjects. Young students usually like painting and singing a lot better. Since young people cannot drive a car, this place will generate lot of passengers. But beware, luxurious buses are not recommended to serve lines around here.
 ELEMENTARY_SCHOOL_2
 Elementary School\n\nOne of the interesting things\nabout this Elementary\nSchool is that classes\nstart at 9:00 AM and end\nalready at noon. The\nsecond unusual thing is\nthat the children are\nlearning all week, including\nSaturday and Sunday.\n
 Firestation
@@ -649,13 +703,13 @@ Fire Station\n\nThis is the city fire station. It\nhouses the fire truck,\nfirem
 Fluid_StationBlg
 Fluid Station Building
 FORT_FUN
-Historic Fort\n\n
+Historic Fort\n\nThis fort might have been invovled in an important battle. Maybe it was just built recently as a tourist trap. In anycase the only soldiers using it now are actors who re-enact fantasy battles.
 FreightTrainStop
-Freight Train Stop
+Goods Platform (loading area)
 french_garden_4
-Public gardens in French style
+Public Garden\n\nThis public garden was made in a French style. Maintaining it requires an army of gardeners which operate out of sight during the night so the place is always busy.
 french_park_1
-Park and gardens in French style
+Small Garden\n\nThis small public garden was made in a French style. Despite its small size it houses many exotic plant species so requires constant attention by gardeners.
 FUTURISTIC_TOWER_0
 Tower\n\nThis tower offers great views\nof the surrounding\nlandscape. The top floor\nalso has a small bar, so\nyou can have a drink to\nenhance your viewing\npleasure. Although the\nprices are not that low,\nthis tower attracts many\nvisitors.\n
 Gas_StationBlg
@@ -665,7 +719,7 @@ Goods Station Building
 GRASS_STADIUM
 Grass Stadium\n\nThis grass stadium is an\nexcellent place to go\njogging and play football,\nor soccer, as others call it.\nOne can often find less\nfitness-minded partners\nwatching their sporting\nmates from the benches\nunder the trees.\n
 GREEN_HOUSE
-Green-This greenhouse used to be a\nregular shop. But after\nsome time, its owner found\nout, that people are often\ncoming just to take a look\nwithout any intention of\nbuying anything. So he\nconverted his shop into a\ntropical winter garden. Now\nthis greenhouse contains\nsome really rare plants and\nis well known all over the\ncountry.\n
+Winter Garden\n\nThis tropical winter garden contains very rare plants and is well known all over the country. Originally it used to be a regular shop but after some time its owner found out that people were coming just to take a look with no intention of buying anything. As a result he converted his shop into a tropical winter garden and charged a nominal fee for entry.
 hall_extended_station
 Big hall station building
 HIGH_SCHOOL_1
@@ -743,7 +797,7 @@ This factory is one of the\nbiggest producers of\npollution, because of the\nlow
 IND_01_37
 This factory is one of the\nbiggest producers of\npollution, because of the\nlow quality coal burnt here.\nThis factory is simply\nsynonymous with acid rain.\nPeople in the neighborhood\nreally hate it.\n
 IND_02_03
-Corn Field\n\n
+Corn Field\n\nA corn field started by a farmer with a dream. Although small it still produces enough to both feed his family and sell extra at the local marketplace. Whether or not it survives the test of time is to be seen as chances are some factory will eventually take over the plot.
 IND_02_04
 Tree nursery\n\n
 IND_05_01
@@ -941,7 +995,7 @@ This huge, high laboratory\ncomplex is being run by Dr.\nMolbydenus. Some people
 IND_12_16
 Hong Kong textile\nproducers strike back! They\ntook over one of our\nfactories and use it as a\nwarehouse for their own\nproducts. This building is\nvery likely to be the target\nof a police raid.\n
 JUSTICE
-Justice Building\n\nThis is the city's Justice\nBuilding, where trials are\noften held. Lawyers come\nand go constantly.\n\n
+National Courthouse\n\nThis is a courthouse where only the biggest of cases get tried. Lawyers in expensive taylor made suits can be seen constantly entering and exiting the building.
 library_holy_genevieve
 Saint Geneviève\n\nThis is the biggest\nlibrary in the region.\nLots of students and\nerudites visit this\nbuilding every day.\n
 Lighthouse_0
@@ -949,9 +1003,9 @@ LightSince lighthouses have been\nbuilt, navigation in the\nSimuworld seas has\n
 Lighthouse_1
 LightSince lighthouses have been\nbuilt, navigation in the\nSimuworld seas has\nbecome easier and safer.\nThis one has quite an odd\nshape, but no sailor has\never complained\n
 Little_Central_Park
-The central park of the city.\n Don't look for any resemblance\nwith its bigger american brother.
+Central Park\n\nThe central park of the city. Any resemblance to a similar named park in the United States of America is purely coincidental.
 Long_Goods_Dock
-Long cargo dock
+Cargo Dock (long)
 LuftPost1950_AirportBlg
 Airport post office
 MANOR_0
@@ -959,11 +1013,11 @@ Manor\n\nThis beautiful renaissance\nmanor has a very\ninteresting past. Today i
 MARKET_PLACE_0
 Marketplace\n\nThe city marketplace is a\ngood place for spending an\nafternoon with the family.\nKids can buy special kinds\nof yesterday's candy and\nwatch old craftsmen at\nwork, women can browse\nthe shops and look for\nvarious things and men can\nsit in the stylish local beer\ngarden and drink beer.\n
 medium_classic_bus_stop
-Sheltered Bus Stop
+Bus Stop (shelter)
 medium_early_bus_stop
-Bus stop with shelter
+Bus Stop (shelter)
 medium_modern_bus_stop
-Modern busstop
+Bus Stop (shelter)
 MILITARY_RADAR
 Military Radar\n\nThis is a secret military\nstructure! Keep out! I said\nkeep out! If I mean keep\nout, I mean that you ought\nto close the window and\nscroll away!\n\nWhat? You are still reading?\nImmediately close the\nwindow and scroll away!\nYou are not supposed to be\nhere! Keep out!!!\n
 Modern_Warehouse
@@ -991,13 +1045,13 @@ Observatory\n\nThis is very widely known\nGeorg's observatory where\nmany import
 OfficeTrainStop
 Platform with building
 Old_gate
-City Gate\n\n
+City Gate\n\nThe gate through the city wall into the old city. People come here to see how much smaller the city used to be and how much better modern times are. Few know the truth that due to changing political times and lack of funding only the gate was finished and no wall ever existed.
 OLD_HOUSE_0
-Old This combination of gothic\nand renaissance house has\nbeen converted to a\nmuseum of old architecture\nrecently. It holds many\npictures and models\nshowing buildings of the\npast. The exhibition is\nrather interesting and easy\nto understand so it is full\nof visitors almost every\nday.\n
+Old House\n\nA house built in a combination of gothic and renaissance styles which has recently been converted to a museum of old architecture. It holds many pictures and models showing buildings of the past that have long since been demolished by soulless city councils and their building upgrade programs. Fortunately attractions cannot be upgraded so this building does not have to worry.
 OpenTrainStop
-Simple platform
+Goods Platform (empty)
 Pagoda01
-Pagoda\n\n
+Pagoda\n\nNo one knows for sure how this building ended up here. It is common belief that some rich transport company owner paid to have it transported from a distant land piece by piece.
 PARK_0
 Larger park with pond\n\n
 parking_(catchemnt_area_ext)1
@@ -1011,7 +1065,7 @@ Percival Maya Temple\n Recent excavations have uncovered\nan ancient simutransia
 plain_tile_high
 Empty high tile
 Post_Dock
-Post dock
+Mail Dock
 PostOffice
 Post office
 PostOffice1920_AirportBlg
@@ -1023,7 +1077,7 @@ Radar
 radiant_house
 Radiant house\n\nLe Corbusier building\nThe residents\nare who manage the building\nthemselves.
 RADIO_TOWER_0
-Chit-Chat FM radio station\n\nThis is the home of the local\nChit-Chat FM radio station.\nQuite a few people are\nwilling to come here,\nbecause they promise to\nput guests on the air every\nday between 13:00 and\n14:30.\n
+Radio Station\n\nThis is the home of the local Chit-Chat FM radio broadcaster. Quite a few people come here to try and get a peek at the star guests they have on air every day between 13:00 and 14:30.
 ramp_tile_high
 Access ramp
 RES_00_01
@@ -1583,27 +1637,27 @@ Fagonellus Romanus\n\n
 rmax_icarus
 Rocket Launch Facility\n\nThis place is where Icarus\ninc., the first company to\nmaster the technique of\nassembling reliable rockets\nthat can carry satellites to\norbit, launch their carriers\nfrom. Fortunately they do\nnot follow the fate of their\nlegendary namesake.\nBesides its economical\nimportance this place also\nattracts crowds of tourists who\nwant to see the launches.\n
 rmax_mosque
-As-Salem Mosque\n\nEvery time the Muezzin sings\nfrom the tall minarets the\nMuslim community of\nSimuthaners gathers here\nto prey. As-Salem is one of\nthe ninety-nine names of\nAllah and means "The\nPeace".\n
+As-Salem Mosque\n\nA mosque for Muslims to prey in. One can regularly hear the Muezzin singing from the tall minarets signalling that it is time for Muslims to come and prey. As-Salem is one of the ninety-nine names of Allah and means "The Peace".
 ROCK_0
-Patrick's Rock\n\nThis piece of stone attracts\nmany geologists from far\naway who are truly\nfascinated by this former\nvolcano.\n\n
+Patrick's Rock\n\nA long inactive volcano with odd geographic location. Many geologists from throughout the region come to sample rocks and discuss theories as to its formation. The name Patrick's Rock is a type of geographic formation where an inactive volcano causes so much discussion that transport companies are forbidden from terraforming it flat for more efficient transport networks.
 RUIN_0
 Castle\n\nThis used to be a gothic\ncastle, but its owner\nrealized that a castle is not\na good place for living in\nthis 21st century. So he\nconverted it to a medieval\namusement park. Since\nthen the gate is never\nclosed. Crowds of tourists\ncome to watch old time\narts, sword fights, castle\nsieges, join parades, ride\nhorses, drink medieval beer or\nvisit exhibitions.\n
 RUIN_1
 Ruins\n\nThese are the ruins of very\nfamous castle. Many\nchapters of history were\nwritten here, so it is a real\nmagnet for tourists from all\nover the world. Everyone is\nkeen to see it. And after\nall, ruins are quite romantic\ntoo, aren't they?\n
 Russian_Cathedral
-Russian church\n\n
+Russian Orthodox Church\n\nA church frequented by followers of the Orthodox Catholic Church from the surrounding area. In addition to regular worshipers tourists also come to stare at the unusual and out of place architecture of the building.
 Sacred_heart_church
 Sacred Heart Church\n
 Secession_Chapel
 Secession Chapel
 sh_oasis_seasons
-Oasis\n\nAn oasis is one of the few\nlive spots in the desert.\nEvery animal or human\nroaming the desert would\nlike to stop here for some\ntime, to refresh and rest\nunder the palms.\n
+Oasis\n\nOne of the few sources of fresh water in the desert. Every living being roaming the desert would like to refresh and rest under the lush palms found here. Still most walk right past it thinking it is just another mirage.
 ShipDepot
 Ship Depot
 ShipStop
-Passenger dock
+Passenger Dock
 small_classic_bus_stop
-Simple Bus Stop
+Bus Stop
 small_early_bus_stop
 Bus stop
 SMALL_MANOR
@@ -1615,15 +1669,15 @@ Approach lights
 special_wingbar-r_stop
 Side way lights
 st_benedict_church
-St. Benedict Church\n\nThis church is one of the\nmost beautiful churches in\nSimuworld. A lot of tourists\ncome and visit it, less\ncome to prey. Many\nunvaluable paintings are\nkept inside and nobody\nwould miss them\n
+St. Benedict Church\n\nA church known throughout the region for its exquisite beauty. Tourists will flock here from just to look at the outside. Only the really devoted come here to prey as the inside is plain and houses worthless painting.
 ST_PETER
-St. Peter's Church\n\nThe late-Roman church of\nSt.Peter's, built around\n1220, has a fine structured\nchorus gallery, frescos\nfrom the middle of the 13th\ncentury and the\nwell-preserved mummy of\n"The Holy Reeve". This is\nan old mummified body that\nis more than 300 years old,\nwhich was probably Wilhelm\nof Holbach, the royal reeve. The\nmummy is located in an alcove in\nthe western wall.\n
+St. Peter's Church\n\nAn almost identical copy of the late-Roman church of St.Peter's. The original was built around 1220 with a fine structured chorus gallery containing frescos from the middle of the 13th century. Its star attraction is the well-preserved mummy of "The Holy Reeve", a mummified body believed to be that of Wilhelm of Holbach the royal reeve who died more than 300 years ago. Apparently the mummy is located in an alcove in the western wall just like in the original.
 STADIUM_RUGBY
-Rugby stadium\nHere is where the rugby team\nplay their matches in the\n city. Hundreds\nof people come every weekend in the year to see\nthem play.
+Rugby Stadium\n\nA small humble stadium where the city rugby team play their matches. As the team plays around the clock the flow of visitors and injured to transport never stops.
 Suspended_Monorail_Bahnhof_Modern
 Monorail Stop
 tennis_court
-Tennis club\n The tennis club of the city\nis where takes place the most prestigious\ntournament in the region, but\nthere are also classes for the youngsters,\npromoting the practice of sports and\na wealthy lifestyle.
+Tennis Club\n\nA highly prestigious tennis club known throughout the region. If it is not hosting a major tournament it is running classes for youngsters. Members must arrive very early if they want to play as there are only a few courts available.
 Terminal1930_AirportBlg
 Small terminal hall
 Terminal1950_AirportBlg_S
@@ -1655,13 +1709,45 @@ Station in Victorian Style
 VillageTrainStop
 Village station
 WernerServer
-Werner's nightly server\n\nThis right-angled statue towering above everyday traffic was built to express thanks to Wernieman. His machinery serves the players nightly builds, freshly complied, every day since ancient times.
+Werner's Nightly Server\n\nThis right-angled statue towering above everyday traffic was built to express thanks to Wernieman. His machinery once served the players nightly builds every day.
 WHEEL
 Russian Wheel\n\nThis is the so called Russian\nwheel. It is a very famous\ntourist attraction from older\ntheme parks, but it is still\nattractive now. It provides\na wonderful view.\n
 Windmill
 Windmill\n\nSome people enjoy visiting this\nwindmill to watch it going\naround. Some people like to\nget out of town. And some\npeople just like to throw\nrocks at the rotors and see\nif they can hit them.\n
 WOODEN_CHURCH
 Wooden Church\n\nThis Wooden Church was built\nby the Hamish people.\n\n
+big_early_bus_stop
+Bus Stop and Post Box (big shelter)
+train_platform_early
+Passenger Platform (gravel)
+train_platform_med
+Passenger Platform (tared)
+train_platform_modern
+Passenger Platform (tiled)
+station_03_02
+Protected Platform (blue)
+train_small_station_early
+Sheltered Platform (gravel)
+train_small_station_med
+Sheltered Platform (tared)
+train_small_station_modern
+Sheltered Platform (tiled)
+station_03_03
+Covered Platform (blue, arcing roof)
+train_flat_station_early
+Protected Platform (tared, flat)
+train_flat_station_modern
+Protected Platform (tiled, flat)
+train_station_early
+Protected Platform (tared, sloped)
+train_station_modern
+Protected Platform (tiled, sloped)
+train_big_station_early_ext
+Covered Platform (tared, sloped roof)
+train_big_station_modern_ext
+Covered Platform (tiled, external)
+train_big_station_modern_int
+Covered Platform (tiled, internal)
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
 Horse_Carriage_For_2_public
@@ -1693,69 +1779,69 @@ Car Assembly Plant
 car_dealer
 Car Dealership
 Cementmill
-Cement mill
+Cement Mill
 chicken_farm
-Chicken farm
+Chicken Farm
 classical_goods_factory
-Goods factory
+Goods Factory
 Concretefactory
-Concrete mixer
+Concrete Mixer
 cornfield
 Corn Field
 cotton_farm_w_fields
-Cotton plantation
+Cotton Plantation
 cow_farm
-Cattle yard
+Cattle Yard
 dairy
 Dairy
 Druckerei
-Printing works
+Printing Works
 electronics_factory_new
-Electronics factory
+Electronic Fabrication Plant
 Erzbergwerk
-Iron ore mine
+Iron Ore Mine
 ethanol_plant
 Ethanol Plant
 fish_pond
-Fish pond
+Fish Pond
 fish_swarm
 Fishery
 food_processing_plant
-Food factory
+Food Processing Plant
 ForestPlantation
-Tree plantation
+Tree Plantation
 Geothermal powerplant_kraftwerk
-Geothermal power plant
+Geothermal Power Station
 Glass_factory
-Glass mill
+Glassworks
 grain_farm_w_fields
-Grain farm
+Grain Farm
 grain_mill
-Grain mill
+Flour Mill
 MaterialsWholesales
-Material wholesale
+Material Wholesaler
 meat_packing_plant
 Meat Packing Plant
 modern_fuel_station
-Gas station
+Gas Station
 Moebelfabrik
-Furniture factory
+Furniture Factory
 Moebelhaus
-Shopping center
+Shopping Center
 Oelbohrinsel
-Oil rig
+Oil Rig
 Oelfeld
-Oil field
+Oil Field
 oilkraftwerk
 Oil-fired Power Station
 old_fish_cannery
-Fish cannery
+Fish Cannery
 old_powerplant_kraftwerk
-Coal power station
+Coal Power Station
 open_coal_mine
 Open Coal Mine
 Papierfabrik
-Paper mill
+Paper Mill
 publisher
 Publishing Company
 Raffinerie
@@ -1763,39 +1849,39 @@ Refinery
 Saegewerk
 Sawmill
 sand_quarry_dd
-Sand quarry
+Sand Quarry
 shaft_coal_mine
-Coal mine
+Coal Mine
 shaft_coal_mine_small
-Small coal mine shaft
+Small Coal Mine Shaft
 sheep_farm
-Sheep farm
+Sheep Farm
 shopping_mall
 Shopping Mall
 Simutrans_Fried_Chicken
-Simutrans Fried Chicken
+Fried Chicken Outlet
 Solar Pond_kraftwerk
-Solar pond
+Solar Pond Power Station
 SolarPowerTowerPS10_kraftwerk
-Solar tower
+Solar Tower Power Station
 SolarThermalOne_kraftwerk
-Solar panels
+Solar Panel Power Station
 steel_mill
-Steel mill
+Steel Mill
 StirlingParabolicCollectorsFarm_kraftwerk
-Solar collector station
+Solar Collector Station
 StirlingSolarThermalTrackerFarm_kraftwerk
-Solar collector station
+Solar Collector Station
 StirlingSolarTrackersFarm_kraftwerk
-Solar colector station
+Solar Collector Station
 StirlingThermalCollectorsFarm_kraftwerk
-Solar collector station
+Solar Collector Station
 Stonequarry
-Stone quarry
+Stone Quarry
 supermarket
 Supermarket
 TANKE1
-Gas station
+Gas Station
 TANKE2
 Gas Station
 textile_factory
@@ -1805,81 +1891,81 @@ Garbage Dump
 waste_incinerator_kraftwerk
 Waste Incinerator
 wind_kraftwerk
-Wind power plant
+Wind Power Station
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
-automobiles
+Cars
 beer
 Beer
 Bretter
-planks
+Planks
 Bucher
-books
+Books
 canned_food
-canned food
+Canned Food
 Cement
-cement
+Cement
 Chemicals
-chemicals
+Chemicals
 Concrete
-concrete
+Concrete
 corn
 Corn
 cotton
 Cotton
 Eisenerz
-iron ore
+Iron Ore
 electronics
 Electronics
 Ethanol
-ethanol
+Ethanol
 fertilizer
 Fertilizer
 fish
-Fish
+Fresh Fish
 flour
 Flour
 food
-Food
+Processed Food
 Gasoline
-gasoline
+Petrol
 glass
 Glass
 goods_
-goods
+Consumer Goods
 grain
 Grain
 Holz
-lumber
+Lumber
 Kohle
-coal
+Coal
 meat
-Meat
+Fresh Meat
 milk
 Milk
 Moebel
-furniture
+Furniture
 None
-none
+None
 Oel
-crude oil
+Crude Oil
 Papier
-paper
+Paper
 Passagiere
-passengers
+Passengers
 Plastik
-plastic
+Plastic
 Post
-mail
+Mail
 Sand
-sand
+Sand
 Stahl
-steel
+Steel
 Stone
-stone
+Stone
 textile
-Textile
+Fabrics
 waste
 Waste
 wool
@@ -1893,39 +1979,39 @@ Monorail tools
 Build monorail depot
 Build Suspension Railway
 CATEGORY_01
-piece goods
+deliverables
 CATEGORY_02
-bulk goods
+bulk
 CATEGORY_03
-oil/petrol
+fuels
 CATEGORY_04
-cooled goods
+perishables
 CATEGORY_05
-fluid foods
+liquids
 CATEGORY_06
-Lumber
+wood
 CATEGORY_07
-farm products
+grains
 Monorail
 Suspension Railway
 monorail vehicle
-Suspended Railway Vehicle
+Suspension Railway Vehicle
 Monorailboden
-Suspended Railway Substructure
+Suspension Railway Substructure
 Monoraildepot
-Elevated track depot
+Suspension Railway Depot
 Monorailhalt
-Suspended Railway Station
+Suspension Railway Station
 Monorailhalt muss auf\nMonorail liegen!\n
-Suspended railway station\nmust be built on\nsuspended railway track!\n
+Suspension Railway Station\nmust be built on\nsuspension railway track!\n
 Monorails are not available yet!
-Suspended Railway is not available yet!
+Suspension Railway is not available yet!
 remove monorails
-Remove Suspended Railway
+Remove Suspension Railway
 #__________________________________record_text__________________________________
 #__________________________________record_text__________________________________
 New world record for monorails: %.1f km/h by %s.
-New Suspended Railway speed record! %.1f km/h achieved by %s.
+New Suspension Railway speed record! %.1f km/h achieved by %s.
 #___________________________________roadsign____________________________________
 #___________________________________roadsign____________________________________
 air_one-way
@@ -1941,67 +2027,73 @@ Modern Highway Entrance
 autobahn_modern_exit
 Modern Highway Exit
 choose_point
-Choose destination sign
+Bay Choose Sign
 choose_signal_monorail
 Monorail Platform Choose Signal
 ChooseSignals
-Platform Choose Signal (standard type)
+Platform Choose Signal (standard)
 Classic_ChooseSignals_right
-Platform Choose Signal (classic type)
+Platform Choose Signal (classic)
 Classic_LongSignals_right
-Long Block Signal (classic type)
+Long Block Signal (classic)
 Classic_preSignals_right
-Presignal (classic type)
+Presignal (classic)
 Classic_Signals_right
-Rail Signal (classic type)
+Block Signal (semaphore)
 Early_ChooseSignals_right
-Platform Choose Signal (early type)
+Platform Choose Signal (basic)
 Early_LongSignals_right
-Long Block Signal (early type)
+Long Block Signal (basic)
 Early_preSignals_right
-Presignal (early type)
+Presignal (basic)
 Early_Signals_right
-Rail Signal (early type)
+Block Signal (manned)
 EndOfChooseSignals
 End of Choose Signal
 LongSignals
-Long Block Signal (standard type)
+Long Block Signal (standard)
 Minimum100
-Minimum speed limit 100
+Minimum Speed Limit (100km/h)
 Minimum80
-Minimum speed limit 80
+Minimum Speed Limit (80km/h)
 Modern_ChooseSignals_right
-Platform Choose Signal (modern type)
+Platform Choose Signal (advanced)
 Modern_EndOfChooseSignals_right
-End of Choose Signal (modern type)
+End of Choose Signal (advanced)
 Modern_LongSignals_right
-Long Block Signal (modern type)
+Long Block Signal (advanced)
 Modern_OneWaySignals_right
-One Way Signal (modern type)
+One Way Signal (advanced)
 Modern_preSignals_right
-Presignal (modern type)
+Presignal (advanced)
 Modern_Signals_right
-Rail Signal (modern type)
+Block Signal (electric)
 NoEntry
-One-way sign
+One-Way Sign
 OneWaySignals
-One Way Signal (standard type)
+One-Way Signal (standard)
 preSignal_Monorail
-Monorail Presignal
+Presignal
 preSignals
-Presignal (standard type)
+Presignal (standard)
 Railgate
-Rail gate
+Private Barrier
 RisingBollards
-Raising bollards
+Private Gate (raising bollards)
 RoadClosed
-Road block
+Roadblock
 Signal_Monorail
-Monorail signal
+Block Signal
 Signals
-Signal (standard type)
+Block Signal (intermittent)
 traffic_light
-Traffic light
+Traffic Light (classic)
+road_signalSTREET
+Traffic Light (single)
+road_signalROAD
+Traffic Light (double)
+road_signalAVENUE
+Traffic Light (triple)
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 palm010
@@ -2056,6 +2148,44 @@ road_110_tunnel
 Highway tunnel
 road_130_tunnel
 Freeway tunnel
+Rail_080_Tunnel
+Tunnel (rustic stone) for Wooden Sleeper Track
+Rail_080B_Tunnel
+Tunnel (concrete) for Freight Track
+Rail_100_Tunnel
+Tunnel (stone block) for Wooden Sleeper Track
+Rail_120_Tunnel
+Tunnel (stone) for Wooden Sleeper Track
+Rail_120B_Tunnel
+Tunnel (concrete) for Freight Track
+Rail_140_Tunnel
+Tunnel (stone block) for Express Track
+Rail_160_Tunnel
+Tunnel (concrete) for Express Track
+Rail_180_Tunnel
+Tunnel (concrete) for Regional Track
+Rail_200_Tunnel
+Tunnel (concrete) for Express Track
+Rail_240_Tunnel
+Tunnel (concrete) for Express Track
+Rail_280_Tunnel
+Tunnel (concrete, vented) for High-Speed Track
+Rail_320_Tunnel
+Tunnel (concrete, vented) for High-Speed Track
+Rail_400_Tunnel
+Tunnel (concrete, vented) for High-Speed Track
+Road_040_Tunnel
+Tunnel (stone block) for Street
+Road_050_Tunnel
+Tunnel (concrete) for Street
+Road_070_Tunnel
+Tunnel (rectangular) for Road
+Road_090_Tunnel
+Tunnel (tublar) for Road
+Highway_110_Tunnel
+Tunnel (rectangular) for Freeway
+Highway_130_Tunnel
+Tunnel (tublar) for Freeway
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1Benst134
@@ -2265,23 +2395,23 @@ Oggia Ferry
 Fishing_Boat_1
 MHz Fish Trawler
 fluid_00_Wood_Barrels_Wagon
-Wagon with wood barrels
+Flat Wagon (carrying wooden barrels)
 fluid_01_Iron_Tanks_Wagon
-Wagon with iron tanks
+Flat Wagon (carrying iron tanks)
 fluid_02_CSD-502_Tank_Wagon
-?SD-502 tank wagon
+CSD-502 Tank Wagon
 fluid_03_CSD-556_Tank_Wagon
-?SD-556 tank wagon
+CSD-556 Tank Wagon
 fluid_04_Esso_Tank_Wagon
-Esso tank wagon
+Esso Tank Wagon
 fluid_05_CEPSA_Tank_Wagon
-CEPSA tank wagon
+CEPSA Tank Wagon
 fluid_06_VTG_Tank_Wagon
-VTG tank wagon
+VTG Tank Wagon
 fluid_07_Esso_XL_Tank_Wagon
-Esso XL tank wagon
+Esso XL Tank Wagon
 fluid_08_VTG_CeSa_Tank_Wagon
-VTG CeSa tank wagon
+VTG CeSa Tank Wagon
 Fluid_trailer_0
 AJ Oil Trailer
 Fluid_trailer_1
@@ -2317,17 +2447,17 @@ PMNV Turbo Truck
 Goods_Truck_5
 S.Kroytor Gaz-4
 Goods_waggon_0
-Canonball Closed Car
+Cannonball Covered Wagon (rustic)
 Goods_waggon_1
-Cannonball Goods Car
+Cannonball Covered Wagon
 Goods_waggon_2
-PMNV Goods Car
+PMNV Covered Wagon
 Goods_waggon_3
-Goods Container Car
+Container Wagon
 Goods_waggon_4
-HS Goods Container Car
+HS Container Wagon
 Goods_waggon_5
-RVg closed car
+RVg Covered Wagon
 Grain_trailer_0
 PMNV Classic Grain Trailer
 Grain_Truck_1
@@ -2831,19 +2961,19 @@ RVg-White 1064 (cistern)
 RVg_1064_White_Goods
 RVg-White 1064 (goods)
 RVg_1945_box_car
-RVg box car (1945/23)
+RVg Covered Wagon (1945/23)
 RVg_1951_box_car
-RVg box car (1951/24)
+RVg Covered Wagon (1951/24)
 RVg_1955_box_car
-RVg box car (1955/24)
+RVg Covered Wagon (1955/24)
 RVg_1962_box_car
-RVg box car (1962/24)
+RVg Covered Wagon (1962/24)
 RVg_1969_box_car
-RVg box car (1969/25)
+RVg Covered Wagon (1969/25)
 RVg_1976_box_car
-RVg box car (1976/26)
+RVg Covered Wagon (1976/26)
 RVg_1983_box_car
-RVg box car (1983/26)
+RVg Covered Wagon (1983/26)
 RVg_1989_container_car
 RVg container car (1989/27)
 RVg_1994_container_car
@@ -2855,23 +2985,23 @@ RVg container car (2006/27)
 RVg_2011_container_car
 RVg container car (2011/27)
 RVg_Bulk_Waggon_00
-RVg bulk wagon (1850/20)
+RVg Mineral Wagon (1850/20)
 RVg_Bulk_Waggon_01
-RVg bulk wagon (1932/23)
+RVg Mineral Wagon (1932/23)
 RVg_Bulk_Waggon_02
-RVg bulk wagon (1945/25)
+RVg Mineral Wagon (1945/25)
 RVg_Bulk_Waggon_03
-RVg bulk wagon (1962/28)
+RVg Mineral Wagon (1962/28)
 RVg_Bulk_Waggon_04
-RVg bulk wagon (1978/30)
+RVg Mineral Wagon (1978/30)
 RVg_Bulk_Waggon_05
-RVg bulk wagon (1995/32)
+RVg Mineral Hopper (1995/32)
 RVg_Bulk_Waggon_06
-RVg bulk wagon (2019/35)
+RVg Mineral Hopper (2019/35)
 RVg_Cementwagen
 RVg cement car
 RVg_Cooling_car
-RVg Cooling car
+RVg Refrigerated Van
 RVg_Daylight
 RVg Daylight (Engine)
 RVg_Daylight_dome
@@ -3485,17 +3615,17 @@ SMC XT-702 Mail Car
 SMC_XT-709_(back_engine)
 SMC XT-709 Rear Cab
 Stahlwagen
-Canonball Bed Car (steel)
+Canonball Bed Car
 Stahlwagen_0
 Canonball Steel Car
 Stahlwagen_1
-RVg steel carrier
+RVg Steel Carrier
 Stahlwagen_2
-RVg steel reel wagon
+RVg Steel Reel Wagon
 Stahlwagen_3
-RVg steel plate wagon (steel)
+RVg Steel Plate Wagon
 Steel_Truck_0
-PMNV Bed Truck (steel)
+PMNV Bed Truck 
 Stoyko_Peev
 Stoyko Peev
 T_101
@@ -3758,7 +3888,7 @@ PowerConduits
 Power conduits
 Powerline
 High voltage transmission line
-Rail_Track_060
+Rail_Track_060 
 Old freight track
 Rail_Track_080
 Old wooden sleeper track
@@ -3851,19 +3981,99 @@ Monorail (ground level)
 Suspended_Monorail_Track
 Suspended Monorail Track
 Tram_Track_050_A
-Regular tram track (50 Km/h)
+Tram Track
 Tram_Track_070_A
-Reinforced tram track (70 Km/h, painted)
+Tram Track (painted)
 Tram_Track_070_B
-Reinforced tram track (70 Km/h)
+Tram Track
 Tram_Track_090_A
-Modern tram track (90 Km/h, painted)
+Tram Track (painted)
 Tram_Track_090_B
-Modern tram track (90 Km/h)
+Tram Track
 Tram_Track_110_A
-Fast tram track (110 Km/h)
+Tram Track (high-speed)
 water_road
 Canal
+Rail_060_Tracks
+Freight Track (rustic)
+Rail_080_Tracks
+Wooden Sleeper Track (rustic)
+Rail_080B_Tracks
+Freight Track
+Rail_100_Tracks
+Wooden Sleeper Track
+Rail_120_Tracks
+Wooden Sleeper Track (high specification)
+Rail_120_Elevated
+Elevation (stone arch) for Wooden Sleeper Track
+Rail_120B_Tracks
+Freight Track (high specification)
+Rail_140_Tracks
+Express Track (grey ballast, wooden sleeper)
+Rail_140_Elevated
+Elevation (stone block arch) for Express Track
+Rail_160_Tracks
+Express Track (grey ballast)
+Rail_160_Elevated
+Elevation (thick concrete) for Express Track
+Rail_180_Tracks
+Regional Service Track
+Rail_180_Elevated
+Elevation (thin concrete) for Regional Service Track
+Rail_200_Tracks
+Express Track (white ballast)
+Rail_200_Elevated
+Elevation (steel) for Express Track
+Rail_240_Tracks
+Express Track (white ballast, high specification)
+Rail_240_Elevated
+Elevation (steel frame) for Express Track
+Rail_280_Tracks
+High-Speed Track (gravel ballast)
+Rail_280_Elevated
+Elevation (concrete trough) for High-Speed Track
+Rail_320_Tracks
+High-Speed Track (concrete slab ballast)
+Rail_320_Elevated
+Elevation (concrete frame) for High-Speed Track
+Rail_400_Tracks
+High-Speed Track (concrete slab ballast, high specification)
+Rail_400_Elevated
+Elevation (tubular concrete frame) for High-Speed Track
+Road_030
+Dirt Road (dirt)
+Road_040
+Street (cobblestone)
+Road_040_Elevated
+Elevation (stone block arch) for Street
+Road_050
+Street (asphalted)
+Road_050_Elevated
+Elevation (concrete arch) for Street
+Road_055
+Dirt Road (gravel)
+Road_070
+Road (asphalted)
+Road_090
+Road (asphalted with white line)
+Road_090_Elevated
+Elevation (single concrete pillar) for Road
+Highway_110
+Freeway
+Highway_110_Elevated
+Elevation (triple concrete pillar) for Freeway
+Highway_130
+Freeway (railings)
+Highway_130_Elevated
+Elevation (double concrete pillar) for Freeway
+Highway_200
+Freeway (barriers) 
+Highway_200_Elevated
+Elevation (double sloped concrete pillar) for Freeway
+canal_020
+Canal (narrow)
+canal_030
+Canal (wide)
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 High_Speed_Catenary
@@ -3880,3 +4090,37 @@ Tram_Electrification
 Tram Electrification
 TrolleyBus_Electrification
 Trolleybus Electrification
+wood_covered_third_rail
+Freight Electrification (third rail, wooden cover)
+third_rail
+Freight Electrification (third rail, no covered)
+plastic_covered_third_rail
+Freight Electrification (third rail, plastic cover)
+classic_catenary
+Freight Electrification (catenary, pylon)
+wood_gantry_catenary
+Electrification (wooden gantry)
+grey_type_catenary
+Express Electrification (grey type)
+classic_metal_mesh_catenary
+Express Electrification (pylon gantry)
+steel_gantry_catenary
+Regional Service Electrification (steel gantry)
+ogive_midi_catenary
+Express Electrification (rib gantry)
+overhead_feeding_rail
+Express Electrification (wide pole)
+highspeed_catenary
+High-Speed Electrification (pole)
+curved_pylon_lgv
+High-Speed Electrification (curved pylon)
+trolleybus_catenary
+Road Electrification
+tramway_classic
+Tram Electrification (catenary, cable suspended)
+tramway_classic_2
+Tram Electrification (catenary, pole suspended)
+tramway_aps
+Tram Electrification (APS)
+tramway_modern
+Tram Electrification (hanging)

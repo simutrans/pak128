@@ -8,12 +8,12 @@ engine_type=None
 freight=Passagiere
 payload=100
 
-speed=160
+speed=140
 power=0
-weight=31
+weight=34
 
-cost=10209000
-runningcost=86
+cost=7462000
+runningcost=72
 
 intro_year=1951
 intro_month=8

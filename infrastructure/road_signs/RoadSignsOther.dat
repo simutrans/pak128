@@ -96,6 +96,25 @@ Image[3]=player-roadsigns-128.4.3
 Icon=> player-roadsigns-128.4.4
 Cursor=player-roadsigns-128.4.5
 
+--------------------------------------------------------------------------------
+
+# choose loading bay
+obj=roadsign
+copyright=Isaac & Gauthier
+name=end_of_choose_point
+waytype=road
+min_speed=0
+single_way=0
+end_of_choose=1
+cost=1500
+intro_year = 1887
+image[0]=player-roadsigns-128.5.0
+Image[1]=player-roadsigns-128.5.1
+Image[2]=player-roadsigns-128.5.2
+Image[3]=player-roadsigns-128.5.3
+Icon=> player-roadsigns-128.5.4
+Cursor=player-roadsigns-128.5.5
+
 --------------------
 
 #     EOF

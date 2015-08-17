@@ -15,7 +15,7 @@ min_speed=80
 single_way=1
 waytype=road
 #price in credits, not in cents
-cost=150
+cost=1500
 cursor=autobahn.1.4
 icon=> autobahn.1.5
 #Direction 4 - South only
