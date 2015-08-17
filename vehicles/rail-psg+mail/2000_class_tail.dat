@@ -13,6 +13,7 @@ runningcost=210
 intro_year=1980
 intro_month=1
 sound=-1
+smoke=Diesel
 Constraint[Prev][0]=2000_Class_Car
 Constraint[Next][0]=2000_Class
 Constraint[Next][1]=none

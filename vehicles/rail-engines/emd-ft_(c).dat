@@ -20,6 +20,7 @@ cost=26248000
 RunningCost=176
 
 sound=-1
+smoke=Diesel_black
 
 EmptyImage[W]=emd-ft_(c).1.0,0,4
 EmptyImage[NW]=emd-ft_(c).1.1,0,4

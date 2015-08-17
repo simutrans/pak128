@@ -15,6 +15,7 @@ intro_month=3
 retire_year=2999
 retire_month=1
 sound=-1
+smoke=Diesel
 Constraint[Prev][0]=SMC_RT-909_(back_engine)
 Constraint[Prev][1]=none
 Constraint[Next][0]=SMC_RT-901_(car)

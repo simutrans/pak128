@@ -15,6 +15,7 @@ intro_month=1
 retire_year=1962
 retire_month=1
 sound=-1
+smoke=Diesel
 Constraint[Prev][0]=none
 Constraint[Next][0]=Silver_City_Comet_Car
 EmptyImage[W]=silver_city_comet.1.0,0,4

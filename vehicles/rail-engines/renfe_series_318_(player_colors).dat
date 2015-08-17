@@ -12,6 +12,7 @@ retire_year=1978
 cost=30635000
 length=7
 sound=-1
+smoke=Diesel_black
 RunningCost=177
 weight=101
 EmptyImage[W]=renfe_series_318_(player_colors).1.0,0,4

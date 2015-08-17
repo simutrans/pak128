@@ -10,6 +10,7 @@ speed=200
 intro_year=2006
 cost=21100000
 sound=-1
+smoke=Diesel_black
 RunningCost=78
 weight=90
 EmptyImage[W]=renfe_series_334_(player_colors).1.0,0,4

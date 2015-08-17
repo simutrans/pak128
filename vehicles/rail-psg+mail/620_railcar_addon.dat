@@ -15,6 +15,7 @@ intro_month=1
 retire_year=2007
 retire_month=1
 sound=-1
+smoke=Diesel
 Constraint[Prev][0]=720_Railcar_Addon
 Constraint[Prev][1]=none
 Constraint[Next][0]=720_Railcar_Addon

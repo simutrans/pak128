@@ -12,6 +12,7 @@ intro_year=1966
 retire_year=1984
 cost=68152000
 sound=-1
+smoke=Diesel_black
 RunningCost=314
 weight=88
 EmptyImage[W]=renfe_340_(egg).1.0,0,4

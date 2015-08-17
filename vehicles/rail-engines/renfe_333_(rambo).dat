@@ -11,6 +11,7 @@ intro_year=1974
 retire_year=1994
 cost=35734000
 sound=-1
+smoke=Diesel_black
 RunningCost=162
 weight=120
 EmptyImage[W]=renfe_333_(rambo).1.0,0,4

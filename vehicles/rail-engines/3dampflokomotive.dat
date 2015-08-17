@@ -3,6 +3,7 @@ name=3Dampflokomotive
 copyright=Raven
 waytype=track
 engine_type=steam
+length=6
 freight=None
 payload=0
 speed=55

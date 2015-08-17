@@ -4,6 +4,7 @@ copyright=Raven
 waytype=track
 engine_type=steam
 freight=None
+length=7
 payload=0
 speed=90
 power=0

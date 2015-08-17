@@ -11,6 +11,7 @@ intro_year=1955
 retire_year=1975
 cost=23802000
 sound=-1
+smoke=Diesel_black
 length=7
 RunningCost=129
 weight=101

@@ -11,6 +11,7 @@ intro_year=1989
 cost=4881000
 length=6
 sound=-1
+smoke=Diesel
 RunningCost=29
 weight=78
 EmptyImage[W]=renfe_310_(coastguard).1.0,0,4

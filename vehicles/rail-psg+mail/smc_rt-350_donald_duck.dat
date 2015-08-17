@@ -15,6 +15,7 @@ intro_month=2
 retire_year=1982
 retire_month=1
 sound=-1
+smoke=Diesel
 Constraint[Prev][0]=none
 Constraint[Next][0]=SMC_RT-351_(car)
 Constraint[Next][1]=SMC_RT-352_(mail_car)

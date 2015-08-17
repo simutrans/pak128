@@ -14,6 +14,7 @@ retire_month=1
 cost=16300000
 length=7
 sound=-1
+smoke=Diesel_black
 RunningCost=85
 weight=117
 EmptyImage[W]=renfe_series_319_300_(player_colors).1.0,0,4
