@@ -1,3 +1,43 @@
+simutrans128 (2.5.3) stable; urgency=low
+
+	_ Changes on trains:
+		_ Rvg tender (blue one): length 8 -> 7 (to match graphics)
+		_ BR-135: graphics were left in a pityful condition (grey thing with inconsistent patches of player color) for a long time, I tried to restore them in player color as well as I could.
+		_ BR-238: added missing smoke
+		_ EMD FT: added missing smoke
+		_ Renfe 310, 319, 333, 340, 301, 311, 314, 316, 318, 319, 334, 10200: added missing smoke
+		_ Silver city comet: added missing smoke
+		_ VT 105: added missing smoke, capacity increased (+10 passengers on car and rear)
+		_ RT 100, 350, 600, 900: adedd missing smoke
+		_ RT 120: added missing smoke, capacity increased (+10 passengers per vehicle)
+		_ CPH Motorcar: added missing smoke
+		_ Class 620, 2000: added missing smoke
+		_ Pioneer zephyr: added missing smoke, max speed 180 (unreachable) -> 110
+		_ Rvg Tigress: multiple units enabled
+		_ Rvg Tigress and Thunder: images moved up of two pixels
+	_ Suspended monorail topspeeds increased to 150, to match the fastest monorail. This is a temporary fix, new monorail ways will appear in later releases.
+	_ 60 metal rail bridge: error in player color fixed
+	_ Changes on some curiosities (wrong levels, far too high in some cases)
+		_ ski resort: 600 -> 140
+		_ maya temple: 288 -> 216
+		_ big French garden: 240 -> 100
+		_ radiant house: 243 -> 180
+		_ round about: 2 -> 30
+	_ Changes on some curiosities (too high chances, used to spawn everywhere)
+		_ small and big French gardens: 100 -> 40
+		_ saint Geneviève library: 60 -> 30
+		_ central park: 100 -> 30
+	_ Increased speed of some early citycars which used to ruin up bus networks
+	_ Removed [url="http://forum.simutrans.com/index.php?topic=14700"]wrong pillar graphics under north-south and east-west views of 80b track bridge[/url]
+	_ All station extensions moved to special construction toolbar, less confusing for beginners, lighter toolbar for tracks
+	_ Change in third rails: 80b third rail became 120 third rail, 80 third rail retire date removed
+	_ Fixed graphical error between green and red positions of early train choose signal
+	_ Added an end-of-choose-sign for road (quick work-around of existing sign), changed the road block's icon to avoid confusion
+	_ Fixed wrong cost of early highway entry sign
+	_ Canonball Btx car: overpowered compared to other cars of the pak of the same era: increased weight (31 -> 34) and decreased topspeed (160 -> 140)
+
+  -- Gauthier Nottret <gauthier.nottret@edu.esiee.fr> & the pak128 team 17 Aug 2015
+  
 simutrans128 (2.5.2) stable; urgency=low
 
   * Added missing graphics on 70 and 90 kmph road bridges
