@@ -14,7 +14,7 @@ system_type=1
 cost=210000
 maintenance=1500
 
-topspeed=70
+topspeed=150
 #top speed original = 60
 
 intro_year=1901
@@ -91,7 +91,7 @@ FrontDiagonal[NW]=schwebebahn_p_front.5.3
 
 obj=way
 name=Schwebebahn_p_ground
-copyright=yoshi & Fabio Gonella
+copyright=yoshi
 
 waytype=monorail_track
 draw_as_ding=1
@@ -100,7 +100,7 @@ system_type=0
 cost=150000
 maintenance=1750
 
-topspeed=120
+topspeed=150
 
 intro_year=1901
 intro_month=3
@@ -176,10 +176,10 @@ FrontDiagonal[NW]=schwebebahn_p_ground_front.5.3
 
 Obj=bridge
 Name=Schwebebahn_p_bridge
-copyright=yoshi & Fabio Gonella
+copyright=yoshi
 cost=300000
 maintenance=2000
-topspeed=70
+topspeed=150
 intro_year=1901
 intro_month=3
 waytype=monorail_track
