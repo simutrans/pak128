@@ -209,7 +209,7 @@ Concrete Hangar
 1990AirDepot
 Modern Hangar
 ABBYS_0
-Abbey\n\nThis abbey is famous for its\ndeep wells in both towers.\nAccording to the legend,\nthese wells are bottomless.\nIt's incredible how many\npeople want to come here\nand see the magic wells.\nCoins, silently falling into\nwater 50 meters below,\nsupplimented the abbey's\nincome enough that the\nmonks have been able to have\nthe ruins restored to their\npresent state.\n
+Abbey\n\nThis abbey is famous for its\ndeep wells in both towers.\nAccording to the legend,\nthese wells are bottomless.\nIt's incredible how many\npeople want to come here\nand see the magic wells.\nCoins, silently falling into\nwater 50 meters below,\nsupplemented the abbey's\nincome enough that the\nmonks have been able to have\nthe ruins restored to their\npresent state.\n
 Airport1920_AirportBlg
 Airport Passenger Terminal
 Airport1930PostOffice
@@ -279,7 +279,7 @@ St. Michael's\n\nThis architectural gem was\nbuilt at the end of the 19th\ncentu
 CHURCH_06
 Church\n\nA typical village or small\ntown church.\n\n
 CIRCUS_0
-Circus Humberto\n\nThe famous circus made this\ntown it's final destination.\nThe classical tent was\npreserved to keep the\noriginal atmosphere, but all\nthe circus people bought\ntheir own houses here, so\nyou can count on it staying\nhere, and becoming very\npopular tourist target. The\ncircus features the famous\nelephant Jumbo, who sits down\nevery time it hears the bell. So\nbe careful to not to ring the bell\nWhile standing behind Jumbo,\nunless you like to be very flat.\n
+Circus Humberto\n\nThe famous circus made this\ntown its final destination.\nThe classical tent was\npreserved to keep the\noriginal atmosphere, but all\nthe circus people bought\ntheir own houses here, so\nyou can count on it staying\nhere, and becoming a very\npopular tourist target. The\ncircus features the famous\nelephant Jumbo, who sits down\nevery time it hears the bell. So\nbe careful to not to ring the bell\nwhile standing behind Jumbo,\nunless you like to be very flat.\n
 CIVILIAN_RADAR
 Observatory\n\nMaybe you don't believe it, but\nthis is a normal\nobservatory. Radio\nobservatory of course...\n\n
 classic_mailbox
@@ -291,7 +291,7 @@ Coal station
 COM_00_01
 This is a pre-school, where\nsmall children can play and\nsleep while their parents\nare at work. Although one\ncan sometimes hear kids\nyelling, this is really a nice\nand peaceful place full of\nlaughter and sweet dreams\nmost of the time. This day\ncare center also teaches\nyoung children early\nreading and math skills.\n
 COM_00_02
-This friendly café is well\nknown for its foot-long\nsandwiches. The owner\nrefuses to give out his\nsecret recipe, but rumour\nhas it that he grow his own\nherbs in his garden at\nhome.\n
+This friendly café is well\nknown for its foot-long\nsandwiches. The owner\nrefuses to give out his\nsecret recipe, but rumour\nhas it that he grows his own\nherbs in his garden at\nhome.\n
 COM_00_03
 Brown Powder - this is a\nsmall café. You can go\nthere to sit outside and\nchit-chat with your friends,\nand enjoy the rich taste of\nthe local coffee. The only\nproblem is that traffic\nfumes make people lose\ntheir appetite.\n
 COM_00_04
@@ -427,7 +427,7 @@ These jails are smaller than\nother jails. When famous\npeople commit crimes, th
 COM_06_10
 Since privatization of law\nenforcement was\ncompleted, these jails\nhave popped up\neverywhere.\n\n
 COM_06_12
-This auto shop is owned by\nthe local crime boss. Many\ncars go in but only a few\ncome out. The rest are\nchopped up and\ntransported accross the\nborder as used parts.\n
+This auto shop is owned by\nthe local crime boss. Many\ncars go in but only a few\ncome out. The rest are\nchopped up and\ntransported across the\nborder as used parts.\n
 COM_06_13
 A large barber shop is\nalways busy, but the\natmosphere is completely\ndifferent from the smaller\nshops.\n\n
 COM_06_14
@@ -945,11 +945,11 @@ Justice Building\n\nThis is the city's Justice\nBuilding, where trials are\nofte
 library_holy_genevieve
 Saint Geneviève\n\nThis is the biggest\nlibrary in the region.\nLots of students and\nerudites visit this\nbuilding every day.\n
 Lighthouse_0
-LightSince lighthouses have been\nbuilt, navigation in the\nSimuworld seas has\nbecome easier and safer.\nThere's a lot of people who\nwant to visit this one and\nwatch the waves leaning\non the handrail\n
+Lighthouse\n\nSince lighthouses have been\nbuilt, navigation in the\nSimuworld seas has\nbecome easier and safer.\nThere's a lot of people who\nwant to visit this one and\nwatch the waves leaning\non the handrail.\n
 Lighthouse_1
-LightSince lighthouses have been\nbuilt, navigation in the\nSimuworld seas has\nbecome easier and safer.\nThis one has quite an odd\nshape, but no sailor has\never complained\n
+Lighthouse\n\nSince lighthouses have been\nbuilt, navigation in the\nSimuworld seas has\nbecome easier and safer.\nThis one has quite an odd\nshape, but no sailor has\never complained.\n
 Little_Central_Park
-The central park of the city.\n Don't look for any resemblance\nwith its bigger american brother.
+Little Central Park\n\nThe central park of the city.\n Don't look for any resemblance\nwith its bigger american brother.
 Long_Goods_Dock
 Long cargo dock
 LuftPost1950_AirportBlg
