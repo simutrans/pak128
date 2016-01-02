@@ -370,6 +370,7 @@ toolbar[1][19]=general_tool[39],36,,4 #set climate temperate
 toolbar[1][20]=general_tool[39],38,,5 #set climate tundra
 toolbar[1][21]=general_tool[39],39,,6 #set climate rocky
 toolbar[1][22]=general_tool[39],41,,7 #set climate arctic
+
 # railtools (waytype 2)
 toolbar[2][0]=ways(2,0)
 toolbar[2][1]=ways(2,1)
@@ -418,6 +419,7 @@ toolbar[5][4]=general_tool[17],16,,2
 toolbar[5][5]=general_tool[33],,,2
 toolbar[5][6]=buildings(33,7)
 toolbar[5][7]=buildings(34,7)
+
 # road stops
 #toolbar[4][7]=buildings(34,1)
 

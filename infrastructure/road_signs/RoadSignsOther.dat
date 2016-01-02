@@ -98,7 +98,7 @@ Cursor=player-roadsigns-128.4.5
 
 --------------------------------------------------------------------------------
 
-# choose loading bay
+# end of choose
 obj=roadsign
 copyright=Isaac & Gauthier
 name=end_of_choose_point
