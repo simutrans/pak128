@@ -13,7 +13,7 @@ retire_year=1970
 retire_month=1
 
 icon=> rail_60_elevated.0.2
-cursor=rail_60_elevated.0.3
+cursor=rail_60_elevated.0.3,0,-48
 
 image[-][0]=rail_60_elevated.6.3,0,32
 image[N][0]=rail_60_elevated.1.0,0,32
