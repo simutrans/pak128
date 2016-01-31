@@ -1,3 +1,16 @@
+simutrans128 (2.6) (yes it is still stable, otherwise I wouldn't have uploaded it, I'm not Mojang)
+
+	_ Added 60 kmph rail tunnel.
+	_ Added 60 kmph elevated track.
+	_ Added 80 kmph elevated tracks.
+	_ Added 100 kmph elevated track.
+	_ Added 120 kmph (modern) elevated track.
+	_ Fixed unwanted night color pixels on 400 tracks.
+	_ Fixed innumerable small glitches in 100 kmph and 120 kmph metal rail bridges.
+	_ Fixed glitches on COM 21 (car park building)
+	
+  -- Gauthier Nottret <gauthier.nottret@gmail.com> & the pak128 team 30 Jan 2016
+
 simutrans128 (2.5.3) stable; urgency=low
 
 	_ Changes on trains:
@@ -36,7 +49,7 @@ simutrans128 (2.5.3) stable; urgency=low
 	_ Fixed wrong cost of early highway entry sign
 	_ Canonball Btx car: overpowered compared to other cars of the pak of the same era: increased weight (31 -> 34) and decreased topspeed (160 -> 140)
 
-  -- Gauthier Nottret <gauthier.nottret@edu.esiee.fr> & the pak128 team 17 Aug 2015
+  -- Gauthier Nottret <gauthier.nottret@gmail.com> & the pak128 team 17 Aug 2015
   
 simutrans128 (2.5.2) stable; urgency=low
 
@@ -45,7 +58,7 @@ simutrans128 (2.5.2) stable; urgency=low
   * Added new headquarters from ny911
   * Updated scenarios "produce cars" (was "cars") and "trammadness"
 
-  -- Gauthier Nottret <gauthier.nottret@edu.esiee.fr> & the pak128 team 11 Nov 2014
+  -- Gauthier Nottret <gauthier.nottret@gmail.com> & the pak128 team 11 Nov 2014
   
 simutrans128 (2.5.1) stable; urgency=low
 
@@ -53,7 +66,7 @@ simutrans128 (2.5.1) stable; urgency=low
   * Fixed some glitches in road/rail bridge/tunnel graphics
   * Fixed tennis court appearing outside of towns (missed build_time parameter)
 
-  -- Gauthier Nottret <gauthier.nottret@edu.esiee.fr> & the pak128 team 06 Oct 2014
+  -- Gauthier Nottret <gauthier.nottret@gmail.com> & the pak128 team 06 Oct 2014
   
 simutrans128 (2.5.0) stable; urgency=low
 
@@ -64,7 +77,7 @@ simutrans128 (2.5.0) stable; urgency=low
   * Added some of Areus'traffic lights
   * Many bugfixes
   
- -- Gauthier Nottret <gauthier.nottret@edu.esiee.fr> & the pak128 team 19 Sep 2014
+ -- Gauthier Nottret <gauthier.nottret@gmail.com> & the pak128 team 19 Sep 2014
 
 simutrans128 (2.4.0) ???????????
 
