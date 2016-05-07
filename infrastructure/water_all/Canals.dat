@@ -46,7 +46,6 @@ copyright=Fabio Gonella
 waytype=water
 cost=900000
 topspeed=30
-max_weight=5000
 intro_year = 1876
 intro_month = 1
 max_lenght=10

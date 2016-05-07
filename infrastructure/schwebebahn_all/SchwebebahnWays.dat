@@ -183,10 +183,7 @@ topspeed=150
 intro_year=1901
 intro_month=3
 waytype=monorail_track
-#span=6
-length=6
-#system_type=1
-# skin
+max_lenght=6
 icon=> schwebebahn_p_bridge.0.2
 cursor=schwebebahn_p_bridge.0.0
 
