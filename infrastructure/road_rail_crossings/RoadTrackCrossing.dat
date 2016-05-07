@@ -7,7 +7,7 @@ copyright=Kierongreen
 waytype[1]=track
 waytype[0]=road
 speed[1]=160
-speed[0]=50
+speed[0]=90
 
 openimage[ew][0]=crossing.0.3
 openimage[ns][0]=crossing.0.2
