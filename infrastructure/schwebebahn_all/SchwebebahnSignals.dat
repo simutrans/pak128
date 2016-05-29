@@ -30,7 +30,7 @@ Cursor=s_shingou.1.4
 ------------------------------------------------------
 
 obj=roadsign
-copyright=yoshi
+copyright=yoshi&gauthier
 Name=preSignal_Monorail
 waytype=monorail_track
 cost=1500
@@ -65,7 +65,7 @@ Cursor=s_shingou.3.4
 ------------------------------------------------------
 
 obj=roadsign
-copyright=yoshi
+copyright=yoshi&gauthier
 Name=choose_signal_monorail
 waytype=monorail_track
 cost=4000
@@ -89,6 +89,88 @@ Image[14]=s_shingou.5.2
 Image[15]=s_shingou.5.3
 Icon=> s_shingou.4.4
 Cursor=s_shingou.5.4
+
+------------------------------------------------------
+
+obj=roadsign
+copyright=yoshi&gauthier
+Name=long_signal_monorail
+waytype=monorail_track
+cost=4000
+is_signal=1
+is_longblocksignal=1
+Image[0]=s_shingou.6.0
+Image[1]=s_shingou.6.1
+Image[2]=s_shingou.6.2
+Image[3]=s_shingou.6.3
+Image[4]=s_shingou.7.0
+Image[5]=s_shingou.7.1
+Image[6]=s_shingou.7.2
+Image[7]=s_shingou.7.3
+Image[8]=s_shingou.6.0
+Image[9]=s_shingou.6.1
+Image[10]=s_shingou.6.2
+Image[11]=s_shingou.6.3
+Image[12]=s_shingou.7.0
+Image[13]=s_shingou.7.1
+Image[14]=s_shingou.7.2
+Image[15]=s_shingou.7.3
+Icon=> s_shingou.6.4
+Cursor=s_shingou.7.4
+
+------------------------------------------------------
+
+obj=roadsign
+copyright=yoshi&gauthier
+Name=end_of_choose_monorail
+waytype=monorail_track
+cost=4000
+end_of_choose=1
+Image[0]=s_shingou.8.0
+Image[1]=s_shingou.8.1
+Image[2]=s_shingou.8.2
+Image[3]=s_shingou.8.3
+Image[4]=s_shingou.9.0
+Image[5]=s_shingou.9.1
+Image[6]=s_shingou.9.2
+Image[7]=s_shingou.9.3
+Image[8]=s_shingou.8.0
+Image[9]=s_shingou.8.1
+Image[10]=s_shingou.8.2
+Image[11]=s_shingou.8.3
+Image[12]=s_shingou.9.0
+Image[13]=s_shingou.9.1
+Image[14]=s_shingou.9.2
+Image[15]=s_shingou.9.3
+Icon=> s_shingou.8.4
+Cursor=s_shingou.9.4
+
+------------------------------------------------------
+
+obj=roadsign
+copyright=yoshi&gauthier
+Name=one_way_signal_monorail
+waytype=monorail_track
+cost=4000
+single_way=1
+Image[0]=s_shingou.10.0
+Image[1]=s_shingou.10.1
+Image[2]=s_shingou.10.2
+Image[3]=s_shingou.10.3
+Image[4]=s_shingou.11.0
+Image[5]=s_shingou.11.1
+Image[6]=s_shingou.11.2
+Image[7]=s_shingou.11.3
+Image[8]=s_shingou.10.0
+Image[9]=s_shingou.10.1
+Image[10]=s_shingou.10.2
+Image[11]=s_shingou.10.3
+Image[12]=s_shingou.11.0
+Image[13]=s_shingou.11.1
+Image[14]=s_shingou.11.2
+Image[15]=s_shingou.11.3
+Icon=> s_shingou.10.4
+Cursor=s_shingou.11.4
 
 ------------------------------------------------------
 
