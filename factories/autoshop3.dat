@@ -5,8 +5,8 @@ copyright=Joker
 Location=City
 DistributionWeight=1
 
-Productivity=100
-Range=50
+Productivity=30
+Range=20
 
 Electricity_amount=0
 Electricity_boost=0
