@@ -29,7 +29,7 @@ intro_year = 1
 waytype=water
 system_type=255
 icon=> rivers.0.3
-cursor=rivers.1.2,-16,-32
+cursor=rivers.1.2
 # Summer
 Image[-][0]=rivers.1.2
 Image[N][0]=rivers.6.2
@@ -93,7 +93,7 @@ intro_year = 1
 waytype=water
 system_type=255
 icon=> rivers.0.4
-cursor=rivers.7.2,-16,-32
+cursor=rivers.7.2
 # Summer
 Image[-][0]=rivers.7.2
 Image[N][0]=rivers.12.2
@@ -157,7 +157,7 @@ intro_year = 1
 waytype=water
 system_type=255
 icon=> rivers.0.5
-cursor=rivers.13.2,-16,-32
+cursor=rivers.13.2
 # Summer
 Image[-][0]=rivers.13.2
 Image[N][0]=rivers.18.2
@@ -221,7 +221,7 @@ intro_year = 1
 waytype=water
 system_type=255
 icon=> rivers.0.6
-cursor=rivers.19.2,-16,-32
+cursor=rivers.19.2
 # Summer
 Image[-][0]=rivers.19.2
 Image[N][0]=rivers.24.2
@@ -285,7 +285,7 @@ intro_year = 1
 waytype=water
 system_type=255
 icon=> rivers.0.7
-cursor=rivers.25.2,-16,-32
+cursor=rivers.25.2
 # Summer
 Image[-][0]=rivers.25.2
 Image[N][0]=rivers.30.2
