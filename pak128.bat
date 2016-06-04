@@ -209,7 +209,7 @@ cd ..\grounds
 ..\..\makeobj.exe pak128 ../../simutrans/pak128/ground.all.pak ./ >..\..\err.txt
 
 cd ..\rivers
-..\..\makeobj.exe pak160 ../../simutrans/pak128/rivers.all.pak ./ >>..\err.txt
+..\..\makeobj.exe pak128 ../../simutrans/pak128/rivers.all.pak ./ >>..\err.txt
 
 cd ..\trees
 ..\..\makeobj.exe pak128 ../../simutrans/pak128/trees.all.pak ./ >>..\err.txt

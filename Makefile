@@ -58,6 +58,7 @@ DIRS128 += landscape/groundobj_static
 DIRS128 += base
 DIRS128 += base/pedestrians
 DIRS128 += base/smokes
+DIRS128 += landscape/rivers
 
 INFRASTRUCTURE128 :=
 INFRASTRUCTURE128 += airport_buildings_towers
@@ -98,7 +99,6 @@ DIRLOGO := base/misc_GUI
 
 #other sizes for boats etc
 DIRS160 := infrastructure/powerlines
-DIRS160 := landscape/rivers
 
 DIRS176 := vehicles/airplanes
 
