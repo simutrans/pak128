@@ -15,263 +15,134 @@ if not exist .\makeobj.exe goto abort
 rem delete old
 rem  ------------------------
 del pak128.zip
-cd simutrans\pak128
 if errorlevel 1 goto skip_delete
 rem if folder does not exist, skip deleting old data
 echo removing old data
-del *.pak
-del config\*.tab
-del text\*.tab
-del text\*.txt
-del text\*.zip
-del doc\*.txt
-del sound\*.wav
-del sound\*.tab
-rmdir /Q /S scenario
-cd..
-cd..
+rmdir /s /q simutrans\pak128
 :skip_delete
 
-rem copy config & translation
+mkdir simutrans\pak128
 
+rem copy config & translation
 rem  ------------------------
 xcopy /E pak128.prototype\*.* simutrans\pak128\
 rem for newer Windows versions can be added /EXCLUDE:svn
 
 rem new writing
 rem  ------------------------
-cd base
-..\makeobj.exe pak128 ../simutrans/pak128/ ./ >..\err.txt
+makeobj.exe pak128 simutrans\pak128\ground.Outside.pak base\version-pak128.dat
 
-cd .\misc_GUI
-..\..\makeobj.exe pak128 >..\..\err.txt
 rem symbol.biglogo.pak must stay a single file - so it is copied into the pak folder before the others are moved and merged
-copy symbol.biglogo.pak ..\..\simutrans\pak128
-del symbol.biglogo.pak
-copy symbol.*.pak ..\misc_GUI_64
-del symbol.*.pak
-copy *.pak ..\..\simutrans\pak128\*.*
-del *.pak
+makeobj.exe pak128 simutrans\pak128\symbol.BigLogo.pak base\misc_GUI\BigLogo.dat
 
-cd ..\misc_GUI_64
-..\..\makeobj.exe pak >>..\..\err.txt
-..\..\makeobj.exe merge symbol.all.pak symbol.*.pak >>..\..\err.txt
-copy symbol.all.pak ..\..\simutrans\pak128\*.*
-del symbol.*.pak
-copy *.pak ..\..\simutrans\pak128\*.*
-del *.pak
+makeobj.exe pak128 base\misc_GUI\ base\misc_GUI\
+del base\misc_GUI\symbol.BigLogo.pak
+makeobj.exe pak base\misc_GUI_64\ base\misc_GUI_64\
+makeobj.exe merge simutrans\pak128\base.pak base\misc_GUI\*.pak base\misc_GUI_64\*.pak
+del simutrans\pak128\base.pak base\misc_GUI\*.pak base\misc_GUI_64\*.pak
 
 echo Compiling Pedestrians
-
-cd ..\pedestrians
-..\..\makeobj.exe pak128 ../../simutrans/pak128/pedestrian.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\pedestrian.all.pak base\pedestrians\
 
 echo Compiling Smokes
-
-cd ..\smokes
-..\..\makeobj.exe pak128 ../../simutrans/pak128/smokes.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\smokes.all.pak base\smokes\
 
 echo Compiling Airport Tools
-
-cd ..\..\infrastructure\airport_buildings_towers
-..\..\makeobj.exe pak128 ../../simutrans/pak128/airports.buildings.pak ./ >>..\..\err.txt
-
-cd ..\airport_depots
-..\..\makeobj.exe pak128 ../../simutrans/pak128/airports.depots.pak ./ >>..\..\err.txt
-
-cd ..\airport_ways_items
-..\..\makeobj.exe pak128 ../../simutrans/pak128/airports.misc.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\airports.buildings.pak infrastructure\airport_buildings_towers\
+makeobj.exe pak128 simutrans\pak128\airports.depots.pak infrastructure\airport_depots\
+makeobj.exe pak128 simutrans\pak128\airports.misc.pak infrastructure\airport_ways_items\
 
 echo Compiling Catenaries
-
-cd ..\catenary_all
-..\..\makeobj.exe pak128 ../../simutrans/pak128/catenary.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\catenary.all.pak infrastructure\catenary_all\
 
 echo Compiling Crossings
-
-cd ..\road_rail_crossings
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.crossing.road_rail.pak ./ >>..\..\err.txt
-
-cd ..\road_water_crossings
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.crossing.road_water.pak ./ >>..\..\err.txt
-
-cd ..\rail_water_crossings
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.crossing.rail_water.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\way.crossing.road_rail.pak infrastructure\road_rail_crossings\
+makeobj.exe pak128 simutrans\pak128\way.crossing.road_water.pak infrastructure\road_water_crossings\
+makeobj.exe pak128 simutrans\pak128\way.crossing.rail_water.pak infrastructure\rail_water_crossings\
 
 echo Compiling Depots
-
-cd ..\depots_rail_road_tram
-..\..\makeobj.exe pak128 ../../simutrans/pak128/depots.some.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\depots.some.pak infrastructure\depots_rail_road_tram\
 
 echo Compiling Headquarters
-
-cd ..\headquarters
-..\..\makeobj.exe pak128 ../../simutrans/pak128/building.hq.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\building.hq.all.pak infrastructure\headquarters\
 
 echo Compiling Powerlines
-
-cd ..\powerlines
-..\..\makeobj.exe pak176 ../../simutrans/pak128/powerlines.all.pak ./ >>..\..\err.txt
+makeobj.exe pak176 simutrans\pak128\powerlines.all.pak infrastructure\powerlines\
 
 echo Compiling Rail tools
-
-cd ..\rail_bridges
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.rail_bridges.all.pak ./ >>..\..\err.txt
-
-cd ..\rail_elevated
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.rail_elevated.all.pak ./ >>..\..\err.txt
-
-cd ..\rail_signals
-..\..\makeobj.exe pak128 ../../simutrans/pak128/rail_signals.all.pak ./ >>..\..\err.txt
-
-cd ..\rail_stations
-..\..\makeobj.exe pak128 ../../simutrans/pak128/rail_station.all.pak ./ >>..\..\err.txt
-
-cd ..\rail_tracks
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.rail_track.all.pak ./ >>..\..\err.txt
-
-cd ..\rail_tunnels
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.rail_tunnels.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\way.rail_bridges.all.pak infrastructure\rail_bridges\
+makeobj.exe pak128 simutrans\pak128\way.rail_elevated.all.pak infrastructure\rail_elevated\
+makeobj.exe pak128 simutrans\pak128\rail_signals.all.pak infrastructure\rail_signals\
+makeobj.exe pak128 simutrans\pak128\rail_station.all.pak infrastructure\rail_stations\
+makeobj.exe pak128 simutrans\pak128\way.rail_track.all.pak infrastructure\rail_tracks\
+makeobj.exe pak128 simutrans\pak128\way.rail_tunnels.all.pak infrastructure\rail_tunnels\
 
 echo Compiling Road Tools
-
-cd ..\road_bridges
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.road_bridges.all.pak ./ >>..\..\err.txt
-
-cd ..\road_elevated
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.road_elevated.all.pak ./ >>..\..\err.txt
-
-cd ..\road_signs
-..\..\makeobj.exe pak128 ../../simutrans/pak128/road_signs.all.pak ./ >>..\..\err.txt
-
-cd ..\road_stops
-..\..\makeobj.exe pak128 ../../simutrans/pak128/building.road_stop.all.pak ./ >>..\..\err.txt
-
-cd ..\road_tunnels
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.road_tunnels.all.pak ./ >>..\..\err.txt
-
-cd ..\roads
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.road.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\way.road_bridges.all.pak infrastructure\road_bridges\
+makeobj.exe pak128 simutrans\pak128\way.road_elevated.all.pak infrastructure\road_elevated\
+makeobj.exe pak128 simutrans\pak128\road_signs.all.pak infrastructure\road_signs\
+makeobj.exe pak128 simutrans\pak128\building.road_stop.all.pak infrastructure\road_stops\
+makeobj.exe pak128 simutrans\pak128\way.road_tunnels.all.pak infrastructure\road_tunnels\
+makeobj.exe pak128 simutrans\pak128\way.road.all.pak infrastructure\roads\
 
 echo Compiling Monorail tools
-
-cd ..\schwebebahn_all
-..\..\makeobj.exe pak128 ../../simutrans/pak128/schwebebahn.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\schwebebahn.all.pak infrastructure\schwebebahn_all\
 
 echo Compiling Station Buildings
-
-cd ..\station_buildings
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ext_buildings.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\ext_buildings.pak infrastructure\station_buildings\
 
 echo Compiling Tram tools
-
-cd ..\tram_tracks
-..\..\makeobj.exe pak128 ../../simutrans/pak128/way.tram_track.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\way.tram_track.all.pak infrastructure\tram_tracks\
 
 echo Compiling Water Tools
-
-cd ..\water_all
-..\..\makeobj.exe pak128 ../../simutrans/pak128/water_buildings.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\water_buildings.all.pak infrastructure\water_all\
 
 echo Compiling Citycars
-
-cd ..\..\citycars
-..\makeobj.exe pak128 ../simutrans/pak128/citycar.all.pak ./ >>..\err.txt
+makeobj.exe pak128 simutrans\pak128\citycar.all.pak citycars\
 
 echo Compiling Cityhouses
-
-cd ..\cityhouses\com
-..\..\makeobj.exe pak128 ../../simutrans/pak128/city_com.all.pak ./ >>..\..\err.txt
-
-cd ..\ind
-..\..\makeobj.exe pak128 ../../simutrans/pak128/city_ind.all.pak ./ >>..\..\err.txt
-
-cd ..\res
-..\..\makeobj.exe pak128 ../../simutrans/pak128/city_res.all.pak ./ >>..\..\err.txt
-
-cd ..\res\blocks
-..\..\..\makeobj.exe pak128 ../../../simutrans/pak128/building.RES_blocks.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\city_com.all.pak cityhouses\com\
+makeobj.exe pak128 simutrans\pak128\city_ind.all.pak cityhouses\ind\
+makeobj.exe pak128 simutrans\pak128\city_res.all.pak cityhouses\res\
+makeobj.exe pak128 simutrans\pak128\building.RES_blocks.pak cityhouses\res\blocks\
 
 echo Compiling factories
-
-cd ..\..\..\factories
-..\makeobj.exe pak128 ../simutrans/pak128/factories.all.pak ./ >>..\err.txt
-
-cd ..\factories\powerplants
-..\..\makeobj.exe pak128 ../../simutrans/pak128/powerplants.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\factories.all.pak factories\
+makeobj.exe pak128 simutrans\pak128\powerplants.all.pak factories\powerplants\
 
 echo Compiling landscape
-
-cd ..\..\landscape\groundobj_static
-..\..\makeobj.exe pak128 ../../simutrans/pak128/groundobj.all.pak ./ >>..\err.txt
-
-cd ..\grounds
-..\..\makeobj.exe pak128 ../../simutrans/pak128/ground.all.pak ./ >..\..\err.txt
-
-cd ..\rivers
-..\..\makeobj.exe pak128 ../../simutrans/pak128/rivers.all.pak ./ >>..\err.txt
-
-cd ..\trees
-..\..\makeobj.exe pak128 ../../simutrans/pak128/trees.all.pak ./ >>..\err.txt
+makeobj.exe pak128 simutrans\pak128\groundobj.all.pak landscape\groundobj_static\
+makeobj.exe pak128 simutrans\pak128\ground.all.pak landscape\grounds\
+makeobj.exe pak128 simutrans\pak128\rivers.all.pak landscape\rivers\
+makeobj.exe pak128 simutrans\pak128\trees.all.pak landscape\trees\
 
 echo Compiling special buildings
-
-cd ..\..\special_buildings\city
-..\..\makeobj.exe pak128 ../../simutrans/pak128/building.special.city.pak ./ >>..\err.txt
-
-cd ..\landscape
-..\..\makeobj.exe pak128 ../../simutrans/pak128/building.special.landscape.pak ./ >>..\err.txt
-
-cd ..\monuments
-..\..\makeobj.exe pak128 ../../simutrans/pak128/building.special.monuments.pak ./ >>..\err.txt
-
-cd ..\townhalls
-..\..\makeobj.exe pak128 ../../simutrans/pak128/building.special.townhalls.pak ./ >>..\err.txt
+makeobj.exe pak128 simutrans\pak128\building.special.city.pak special_buildings\city\
+makeobj.exe pak128 simutrans\pak128\building.special.landscape.pak special_buildings\landscape\
+makeobj.exe pak128 simutrans\pak128\building.special.monuments.pak special_buildings\monuments\
+makeobj.exe pak128 simutrans\pak128\building.special.townhalls.pak special_buildings\townhalls\
 
 echo Compiling Airplanes
-
-cd ..\..\vehicles\airplanes
-..\..\makeobj.exe pak176 ../../simutrans/pak128/airplanes.all.pak ./ >>..\..\err.txt
+makeobj.exe pak176 simutrans\pak128\airplanes.all.pak vehicles\airplanes\
 
 echo Compiling Monorail velicles
-
-cd ..\monorail
-..\..\makeobj.exe pak128 ../../simutrans/pak128/monorail_vehicles.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\monorail_vehicles.all.pak vehicles\monorail\
 
 echo Compiling Rail vehicles
-
-cd ..\rail-cargo
-..\..\makeobj.exe pak128 ../../simutrans/pak128/rail_cargo.all.pak ./ >>..\..\err.txt
-
-cd ..\rail-engines
-..\..\makeobj.exe pak128 ../../simutrans/pak128/locomotives.all.pak ./ >>..\..\err.txt
-
-cd ..\rail-psg+mail
-..\..\makeobj.exe pak128 ../../simutrans/pak128/passenger_trains.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\rail_cargo.all.pak vehicles\rail-cargo\
+makeobj.exe pak128 simutrans\pak128\locomotives.all.pak vehicles\rail-engines\
+makeobj.exe pak128 simutrans\pak128\passenger_trains.all.pak vehicles\rail-psg+mail\
 
 echo Compiling Road Vehicles
-
-cd ..\road-cargo
-..\..\makeobj.exe pak128 ../../simutrans/pak128/trucks.all.pak ./ >>..\..\err.txt
-
-cd ..\road-psg+mail
-..\..\makeobj.exe pak128 ../../simutrans/pak128/buses.all.pak ./ >>..\..\err.txt
+makeobj.exe pak128 simutrans\pak128\trucks.all.pak vehicles\road-cargo\
+makeobj.exe pak128 simutrans\pak128\buses.all.pak vehicles\road-psg+mail\
 
 echo Compiling Ships
-
-cd ..\ships-cargo
-..\..\makeobj.exe pak250 ../../simutrans/pak128/ships.all.pak ./ >>..\..\err.txt
-
-cd ..\ships-ferries
-..\..\makeobj.exe pak250 ../../simutrans/pak128/ferries.all.pak ./ >>..\..\err.txt
+makeobj.exe pak250 simutrans\pak128\ships.all.pak vehicles\ships-cargo\
+makeobj.exe pak250 simutrans\pak128\ferries.all.pak vehicles\ships-ferries\
 
 echo Compiling Trams
-
-cd ..\trams
-..\..\makeobj.exe pak128 ../../simutrans/pak128/trams.all.pak ./ >>..\..\err.txt
-
-cd..
-cd..
+makeobj.exe pak128 simutrans\pak128\trams.all.pak vehicles\trams\
 
 echo DONE
 goto end

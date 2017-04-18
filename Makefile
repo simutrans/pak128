@@ -1,191 +1,257 @@
-# Makefile based on the pak64 Makefile. Thank you prissi et al!
-# Makefile for pak128-britain standard and experimental
-# 2010-06 sdog 
-# 2010-06 neroden
-# 2011-01 sdog (adopting for pak128)
-# 2013-09 kierongreen
-# 2013-11 Fabio Gonella
-#
-# Just run
-#   make clean all archives
-# to get fresh and ready to deploy .tbz2 and .zip archives
-#
-# version in pak128 svn by sdog, downloaded from:
-# https://github.com/sdog/simutrans-pak128/raw/master/Makefile
-#
-CONFIG ?= config.default
--include $(CONFIG)
+# Makefile for pak128
+# run "make all" to compile the pak
+# run "make zip" to make a zip out of an already compiled pak
+# run "make clean" to remove both compiled pak and zip file
 
-MAKEOBJ ?= ./makeobj
+MAKEOBJ = ./makeobj
+DEST = ./simutrans/pak128/
+ZIPFILE = ./pak128.zip
 
-PAKNAME ?= pak128
-DESTDIR  ?= .
-PAKDIR   ?= $(DESTDIR)/$(PAKNAME)
-DESTFILE ?= $(PAKNAME)
+all:
+	make clean
+	mkdir -p $(DEST)
+	make pakFiles
+	cp -r pak128.prototype/* $(DEST)/
+	make zip
 
-NAMEPREFIX ?=
-NAMESUFFIX ?=
+.PHONY: $(DIRS) zip clean pakFiles
 
-CPFILES ?= pak128.prototype/*
+pakFiles: \
+$(DEST)/symbol.BigLogo.pak\
+$(DEST)/base.pak\
+$(DEST)/ground.Outside.pak\
+$(DEST)/pedestrian.all.pak\
+$(DEST)/smokes.all.pak\
+$(DEST)/airports.buildings.pak\
+$(DEST)/airports_depots.pak\
+$(DEST)/airports.misc.pak\
+$(DEST)/catenary.all.pak\
+$(DEST)/way.crossing.road_rail.pak\
+$(DEST)/way.crossing.road_water.pak\
+$(DEST)/way.crossing.rail_water.pak\
+$(DEST)/depots.some.pak\
+$(DEST)/building.hq.all.pak\
+$(DEST)/powerlines.all.pak\
+$(DEST)/way.rail_bridges.all.pak\
+$(DEST)/way.rail_elevated.all.pak\
+$(DEST)/rail_signals.all.pak\
+$(DEST)/rail_stations.all.pak\
+$(DEST)/way.rail_tracks.all.pak\
+$(DEST)/way.rail_tunnels.all.pak\
+$(DEST)/way.road_bridges.all.pak\
+$(DEST)/way.road_elevated.all.pak\
+$(DEST)/road_signs.all.pak\
+$(DEST)/building.road_stop.all.pak\
+$(DEST)/way.road_tunnels.all.pak\
+$(DEST)/way.road.all.pak\
+$(DEST)/schwebebahn.all.pak\
+$(DEST)/ext_buildings.pak\
+$(DEST)/way.tram_track.all.pak\
+$(DEST)/water_buildings.all.pak\
+$(DEST)/citycar.all.pak\
+$(DEST)/city_com.all.pak\
+$(DEST)/city_ind.all.pak\
+$(DEST)/city_res.all.pak\
+$(DEST)/building.RES_blocks.pak\
+$(DEST)/factories.all.pak\
+$(DEST)/powerplants.all.pak\
+$(DEST)/groundobj.all.pak\
+$(DEST)/ground.all.pak\
+$(DEST)/rivers.all.pak\
+$(DEST)/trees.all.pak\
+$(DEST)/building.special.city.pak\
+$(DEST)/building.special.landscape.pak\
+$(DEST)/building.special.monuments.pak\
+$(DEST)/building.special.townhalls.pak\
+$(DEST)/airplanes.all.pak\
+$(DEST)/monorail_vehicles.all.pak\
+$(DEST)/rail_cargo.all.pak\
+$(DEST)/locomotives.all.pak\
+$(DEST)/passenger_trains.all.pak\
+$(DEST)/trucks.all.pak\
+$(DEST)/buses.all.pak\
+$(DEST)/ships.all.pak\
+$(DEST)/ferries.all.pak\
+$(DEST)/trams.all.pak
 
-DIRS64 :=
-DIRS64 += base/misc_GUI_64
-
-#DIRS128VEHICLES := airplanes
-DIRS128VEHICLES += monorail
-DIRS128VEHICLES += rail-cargo
-DIRS128VEHICLES += rail-engines
-DIRS128VEHICLES += rail-psg+mail
-DIRS128VEHICLES += road-cargo
-DIRS128VEHICLES += road-psg+mail
-DIRS128VEHICLES += trams
-
-DIRS128 := $(addprefix vehicles/,$(DIRS128VEHICLES))
-
-DIRS128 += factories 
-DIRS128 += factories/powerplants
-DIRS128 += cityhouses/com 
-DIRS128 += cityhouses/ind
-DIRS128 += cityhouses/res 
-DIRS128 += special_buildings/city
-DIRS128 += special_buildings/landscape
-DIRS128 += special_buildings/monuments
-DIRS128 += special_buildings/townhalls
-DIRS128 += citycars
-DIRS128 += landscape/grounds
-DIRS128 += landscape/trees
-DIRS128 += landscape/groundobj_static
-DIRS128 += base
-DIRS128 += base/pedestrians
-DIRS128 += base/smokes
-DIRS128 += landscape/rivers
-
-INFRASTRUCTURE128 :=
-INFRASTRUCTURE128 += airport_buildings_towers
-INFRASTRUCTURE128 += airport_depots
-INFRASTRUCTURE128 += airport_ways_items
-INFRASTRUCTURE128 += catenary_all
-#INFRASTRUCTURE128 += crossings_all
-INFRASTRUCTURE128 += road_rail_crossings_all
-INFRASTRUCTURE128 += road_water_crossings_all
-INFRASTRUCTURE128 += rail_water_crossings_all
-INFRASTRUCTURE128 += depots_rail_road_tram
-INFRASTRUCTURE128 += headquarters
-#INFRASTRUCTURE128 += powerlines
-INFRASTRUCTURE128 += rail_bridges
-INFRASTRUCTURE128 += rail_elevated
-INFRASTRUCTURE128 += rail_signals
-INFRASTRUCTURE128 += rail_stations
-INFRASTRUCTURE128 += rail_tracks
-INFRASTRUCTURE128 += rail_tunnels
-INFRASTRUCTURE128 += road_bridges
-INFRASTRUCTURE128 += road_elevated
-INFRASTRUCTURE128 += road_signs
-INFRASTRUCTURE128 += road_stops
-INFRASTRUCTURE128 += road_tunnels
-INFRASTRUCTURE128 += roads
-INFRASTRUCTURE128 += schwebebahn_all
-INFRASTRUCTURE128 += station_buildings
-INFRASTRUCTURE128 += tram_tracks
-INFRASTRUCTURE128 += water_all
-INFRASTRUCTURE128 += compatibility
-
-DIRS128 += $(addprefix infrastructure/,$(INFRASTRUCTURE128))
-
-#these will get special treatment below
-#DIRGROUNDS:= landscape/grounds
-DIRLOGO := base/misc_GUI
-
-
-#other sizes for boats etc
-DIRS160 := infrastructure/powerlines
-
-DIRS176 := vehicles/airplanes
-
-DIRS250 := vehicles/ships-cargo
-DIRS250 += vehicles/ships-ferries
-
-DIRS := $(DIRS64) $(DIRS128) $(DIRS176) $(DIRS250) $(DIRLOGO) $(DIRGROUNDS)
-
-#generating filenames
-#with this function the filenames are assembled, by removing the dir, adding prefix
-#and suffix
-make_name = $(NAMEPREFIX)$(subst /,.,$(subst psg+mail,pax,$1))$(NAMESUFFIX).pak
-#make_name = $(NAMEPREFIX)$(notdir $1)$(NAMESUFFIX)
-
-
-.PHONY: $(DIRS) copy tar zip clean
-
-all: copy $(DIRS)
-
-archives: tar zip
-
-tar: $(DESTFILE).tbz2
-zip: $(DESTFILE).zip
-
-$(DESTFILE).tbz2: $(PAKDIR)
-	@echo "===> TAR $@"
-	@tar cjf $@ $(DESTDIR)
-
-$(DESTFILE).zip: $(PAKDIR)
-	@echo "===> ZIP $@"
-	@zip -rq $@ $(DESTDIR)
-
-copy:
-	@echo "===> COPY"
-	@mkdir -p $(PAKDIR)
-	@cp -prt $(PAKDIR) $(CPFILES)
-
-$(DIRS64):
-	@echo "===> PAK64 $@"
-	@mkdir -p $(PAKDIR)
-	$(MAKEOBJ) quiet PAK $(PAKDIR)/base.gui64.pak $@/ > /dev/null
-	#$(MAKEOBJ) quiet PAK $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
-
-$(DIRS128):
-	@echo "===> PAK128 $@"
-	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) PAK128 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
-
-$(DIRS160):
-	@echo "===> PAK160 $@"
-	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK160 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null	
-	
-$(DIRS176):
-	@echo "===> PAK176 $@"
-	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK176 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
-
-$(DIRS250):
-	@echo "===> PAK250 $@"
-	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK250 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
-
-
-#$(DIRGROUNDS):
-#	@echo "===> ground.Outside.pak"
-#	@mkdir -p $(PAKDIR)
-#	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
-#	@$(MAKEOBJ) quiet PAK128 temp.pak $@/ > /dev/null
-#	@$(MAKEOBJ) quiet EXTRACT temp.pak > /dev/null
-#	@rm temp.pak
-#	@mv ground.Outside.pak $(PAKDIR)/
-#	@$(MAKEOBJ) quiet MERGE $(PAKDIR)/$(call make_name,$@) *.pak > /dev/null
-#	@rm *.pak
-
-$(DIRLOGO):
-	@echo "===> logo & misc gui"
-	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK128 tmp.pak $@/ > /dev/null
-	@$(MAKEOBJ) quiet EXTRACT tmp.pak > /dev/null
-	@rm tmp.pak
-	@mv symbol.BigLogo.pak $(PAKDIR)/
-	@$(MAKEOBJ) quiet MERGE $(PAKDIR)/base.gui128.pak *.pak > /dev/null
-	@rm *.pak
-
-
+zip:
+	zip -rq $(ZIPFILE) $(DEST)
 
 clean:
-	@echo "===> CLEAN"
-	@rm -fr $(PAKDIR) $(DESTFILE).tbz2 $(DESTFILE).zip
+	rm -f $(ZIPFILE)
+	rm -rf $(DEST)
+
+
+# symbol.biglogo.pak cannot be merged in multiple pak files, must stay as a single file.
+$(DEST)/symbol.BigLogo.pak: ./base/misc_GUI/BigLogo.dat ./base/misc_GUI/biglogo.png
+	$(MAKEOBJ) pak128 $@ $<
+
+$(DEST)/base.pak:
+	$(MAKEOBJ) pak128 ./base/misc_GUI/ ./base/misc_GUI/
+	rm -f ./base/misc_GUI/symbol.BigLogo.pak
+	$(MAKEOBJ) pak ./base/misc_GUI_64/ ./base/misc_GUI_64/
+	$(MAKEOBJ) merge $@ ./base/misc_GUI/*.pak ./base/misc_GUI_64/*.pak
+	rm ./base/misc_GUI/*.pak ./base/misc_GUI_64/*.pak
+
+$(DEST)/ground.Outside.pak: ./base/version-pak128.dat ./base/tile.png
+	$(MAKEOBJ) pak128 $@ $<
+
+$(DEST)/pedestrian.all.pak:
+	$(MAKEOBJ) pak128 $@ ./base/pedestrian/
+
+$(DEST)/smokes.all.pak:
+	$(MAKEOBJ) pak128 $@ ./base/smokes/
+
+$(DEST)/airports.buildings.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/airport_buildings_towers/
+
+$(DEST)/airports_depots.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/airport_depots/
+
+$(DEST)/airports.misc.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/aiport_ways_items/
+
+$(DEST)/catenary.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/catenary_all/
+
+$(DEST)/way.crossing.road_rail.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/road_rail_crossings/
+
+$(DEST)/way.crossing.road_water.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/road_water_crossings/
+
+$(DEST)/way.crossing.rail_water.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/rail_water_crossings/
+
+$(DEST)/depots.some.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/depots_rail_road_tram/
+
+$(DEST)/building.hq.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/headquarters/
+
+$(DEST)/powerlines.all.pak:
+	$(MAKEOBJ) pak176 $@ ./infrastructure/powerlines/
+
+$(DEST)/way.rail_bridges.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/rail_bridges/
+
+$(DEST)/way.rail_elevated.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/rail_elevated/
+
+$(DEST)/rail_stations.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/rail_stations/
+
+$(DEST)/rail_signals.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/rail_signals/
+
+$(DEST)/way.rail_tracks.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/rail_tracks/
+
+$(DEST)/way.rail_tunnels.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/rail_tunnels/
+
+$(DEST)/way.road_bridges.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/road_bridges/
+
+$(DEST)/way.road_elevated.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/road_elevated/
+
+$(DEST)/road_signs.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/road_signs/
+
+$(DEST)/building.road_stop.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/road_stops/
+
+$(DEST)/way.road_tunnels.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/road_tunnels/
+
+$(DEST)/way.road.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/roads/
+
+$(DEST)/schwebebahn.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/schwebebahn_all/
+
+$(DEST)/ext_buildings.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/station_buildings/
+
+$(DEST)/way.tram_track.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/tram_tracks/
+
+$(DEST)/water_buildings.all.pak:
+	$(MAKEOBJ) pak128 $@ ./infrastructure/water_all/
+
+$(DEST)/citycar.all.pak:
+	$(MAKEOBJ) pak128 $@ ./citycars/
+
+$(DEST)/city_com.all.pak:
+	$(MAKEOBJ) pak128 $@ ./cityhouses/com/
+
+$(DEST)/city_ind.all.pak:
+	$(MAKEOBJ) pak128 $@ ./cityhouses/ind/
+
+$(DEST)/city_res.all.pak:
+	$(MAKEOBJ) pak128 $@ ./cityhouses/res/
+
+$(DEST)/building.RES_blocks.pak:
+	$(MAKEOBJ) pak128 $@ ./cityhouses/res/blocks/
+
+$(DEST)/factories.all.pak:
+	$(MAKEOBJ) pak128 $@ ./factories/
+
+$(DEST)/powerplants.all.pak:
+	$(MAKEOBJ) pak128 $@ ./factories/powerplants/
+
+$(DEST)/groundobj.all.pak:
+	$(MAKEOBJ) pak128 $@ ./landscape/groundobj_static/
+
+$(DEST)/ground.all.pak:
+	$(MAKEOBJ) pak128 $@ ./landscape/grounds/
+
+$(DEST)/rivers.all.pak:
+	$(MAKEOBJ) pak128 $@ ./landscape/rivers/
+
+$(DEST)/trees.all.pak:
+	$(MAKEOBJ) pak128 $@ ./landscape/trees/
+
+$(DEST)/building.special.city.pak:
+	$(MAKEOBJ) pak128 $@ ./special_buildings/city/
+
+$(DEST)/building.special.landscape.pak:
+	$(MAKEOBJ) pak128 $@ ./special_buildings/landscape/
+
+$(DEST)/building.special.monuments.pak:
+	$(MAKEOBJ) pak128 $@ ./special_buildings/monuments/
+
+$(DEST)/building.special.townhalls.pak:
+	$(MAKEOBJ) pak128 $@ ./pecial_buildings/townhalls/
+
+$(DEST)/airplanes.all.pak:
+	$(MAKEOBJ) pak176 $@ ./vehicles/airplanes/
+
+$(DEST)/monorail_vehicles.all.pak:
+	$(MAKEOBJ) pak128 $@ ./vehicles/monorail/
+
+$(DEST)/rail_cargo.all.pak:
+	$(MAKEOBJ) pak128 $@ ./vehicles/rail-cargo/
+
+$(DEST)/locomotives.all.pak:
+	$(MAKEOBJ) pak128 $@ ./vehicles/rail-engines/
+
+$(DEST)/passenger_trains.all.pak:
+	$(MAKEOBJ) pak128 $@ ./vehicles/rail-psg+mail/
+
+$(DEST)/trucks.all.pak:
+	$(MAKEOBJ) pak128 $@ ./vehicles/road-cargo/
+
+$(DEST)/buses.all.pak:
+	$(MAKEOBJ) pak128 $@ ./vehicles/road-psg+mail/
+
+$(DEST)/ships.all.pak:
+	$(MAKEOBJ) pak250 $@ ./vehicles/ships-cargo/
+
+$(DEST)/ferries.all.pak:
+	$(MAKEOBJ) pak250 $@ ./vehicles/ships-ferries/
+
+$(DEST)/trams.all.pak:
+	$(MAKEOBJ) pak128 $@ ./vehicles/trams/
+
