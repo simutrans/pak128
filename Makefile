@@ -97,7 +97,7 @@ $(DEST)/ground.Outside.pak: ./base/version-pak128.dat ./base/tile.png
 	$(MAKEOBJ) pak128 $@ $<
 
 $(DEST)/pedestrian.all.pak:
-	$(MAKEOBJ) pak128 $@ ./base/pedestrian/
+	$(MAKEOBJ) pak128 $@ ./base/pedestrians/
 
 $(DEST)/smokes.all.pak:
 	$(MAKEOBJ) pak128 $@ ./base/smokes/
@@ -109,7 +109,7 @@ $(DEST)/airports_depots.pak:
 	$(MAKEOBJ) pak128 $@ ./infrastructure/airport_depots/
 
 $(DEST)/airports.misc.pak:
-	$(MAKEOBJ) pak128 $@ ./infrastructure/aiport_ways_items/
+	$(MAKEOBJ) pak128 $@ ./infrastructure/airport_ways_items/
 
 $(DEST)/catenary.all.pak:
 	$(MAKEOBJ) pak128 $@ ./infrastructure/catenary_all/
@@ -223,7 +223,7 @@ $(DEST)/building.special.monuments.pak:
 	$(MAKEOBJ) pak128 $@ ./special_buildings/monuments/
 
 $(DEST)/building.special.townhalls.pak:
-	$(MAKEOBJ) pak128 $@ ./pecial_buildings/townhalls/
+	$(MAKEOBJ) pak128 $@ ./special_buildings/townhalls/
 
 $(DEST)/airplanes.all.pak:
 	$(MAKEOBJ) pak176 $@ ./vehicles/airplanes/
