@@ -199,6 +199,15 @@ BackRamp[S]=schwebebahn_p_bridge.1.5
 FrontRamp[E]=schwebebahn_p_bridge.1.6
 BackRamp[E]=schwebebahn_p_bridge.1.7
 
+FrontRamp2[N]=schwebebahn_p_bridge.4.0
+BackRamp2[N]=schwebebahn_p_bridge.4.1
+FrontRamp2[W]=schwebebahn_p_bridge.4.2
+BackRamp2[W]=schwebebahn_p_bridge.4.3
+FrontRamp2[S]=schwebebahn_p_bridge.4.4
+BackRamp2[S]=schwebebahn_p_bridge.4.5
+FrontRamp2[E]=schwebebahn_p_bridge.4.6
+BackRamp2[E]=schwebebahn_p_bridge.4.7
+
 FrontStart[N]=schwebebahn_p_bridge.2.0
 BackStart[N]=schwebebahn_p_bridge.2.1
 FrontStart[W]=schwebebahn_p_bridge.2.2

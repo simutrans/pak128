@@ -3,6 +3,7 @@ name=R_02
 copyright=Raven
 waytype=tram_track
 engine_type=electric
+length=7
 freight=Passagiere
 payload=50
 speed=55
