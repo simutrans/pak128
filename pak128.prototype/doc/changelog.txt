@@ -1,4 +1,44 @@
-simutrans128 (2.6) (yes it is still stable, otherwise I wouldn't have uploaded it, I'm not Mojang)
+simutrans128 (2.7)
+
+    _ Made some trams (EM400, T101, T102, T103, T104, T105, Mhz T-113, T107, T108, T109, T110) capable of coupling in multiple units. Had to remove the third section of T110 for the whole unit to fit in one tile.
+    _ Made some monorail vehicles (GTW69, TGW85, TC-7, TC-44, TC-119, TC-1, TC-5p, TC-112) capable of coupling in multiple units. Adapted length and graphics when necessary.
+    _ Removed max heights of bridges (annoying and confusing).
+    _ Increased road max speed of level crossings.
+    _ Reduced power tunnel's maintenance cost to the same as power bridge.
+    _ Added missing types of signals to monorails (end of choose, one way, long block), reworked presignal and choose signal to match track's signals'style.
+    _ Removed fake signals from track-river crossings as they might be confusing.
+    _ Small car dealers now demands three times less cars than big ones on average.
+    _ Fixed glitches with river-track/road crossings due to river graphics going out of their tile's area and being compiled as pak160.
+    _ Fixed northern and western end of 120b elevated tracks'diagonal views missing an upper beam.
+    _ Fixed SE diagonal view of the grass covered 90 kmph tram track not being covered with grass.
+    _ Fixed southern and eastern end of metal bridges glitch in some cases.
+    _ Fixed some road semis misaligned on SE view (mja-man19332, mja-volvof88, mja-zil130, pmnv-pb1970, pmnv_50_mack, pmnv_mhz_truck_0).
+    _ Fixed length of NW and SE views of some road bulk trailers (mja-bulk_trailer_l, mja-bulk_trailer_m, ts_mack_bulk_trailer_0).
+    _ Fixed length of diagonal views of Tatra T3 (tram) (only partly fixed, could not shorten more without messing up the graphics)
+    _ Fixed length of diagonal views of Mhz T-113 (tram)
+    _ Fixed length of diagonal views of Mhz T-235 (tram)
+    _ Fixed length of vertical diagonal views of EM400 (tram)
+    _ Fixed monorail ways icons with wrong speed limit.
+    _ Fixed inconsistent player color on some icons (map, monorail toolbar, list of markers).
+    _ Fixed glitch on COM_01_17 (car park building).
+    _ Fixed glitch on COM_07_02 (advertising sign).
+    _ Fixed night color glitch on townhalls.
+    _ Removed the stairs under monorail station, caused glitch when building on non elevated monorail.
+    _ Fixed inconsistent icon and cursor of 120(b) kmph elevated track.
+    _ Fixed RU citylist's cities'names not displaying correctly.
+    _ Changed introduction year of rising bollards so they are always available (not very realistic in early era but a private road sign was necessary).
+    _ Fixed monorail bridge not able to start with steep ramp.
+    _ Added smoke to boats.
+    _ Fixed grid not visible on double slopes (thanks to Vladki).
+    _ Fixed airport one way signs looking bad on curves.
+    _ Fixed 280, 320 and 400 kmph tracks curve (not diagonal) views having unnecessary ground preparation that look bad in some cases.
+    _ Fixed ABB Eurotram T211 inconsistent diagonal views.
+    _ Fixed grey lone pixels on "vertical" diagonal views of many monorail vehicles.
+    _ Fixed lone pixels under "horizontal" diagonal views of elevated monorail way.
+	
+  -- Gauthier Nottret <gauthier.nottret@gmail.com> & the pak128 team 28 Oct 2017
+
+simutrans128 (2.6)
 
 	_ Added 60 kmph rail tunnel.
 	_ Added 60 kmph elevated track.
