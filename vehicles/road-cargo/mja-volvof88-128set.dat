@@ -11,7 +11,7 @@ Waytype=road
 Engine_type=diesel
 Smoke=Diesel
 
-Sound=truck.wav
+Sound=engine-start-diesel_d.wav
 
 Cost=2015000
 RunningCost=70

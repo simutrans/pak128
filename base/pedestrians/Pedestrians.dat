@@ -171,7 +171,7 @@ Image[W]=privat-pedestrians_2-128.0.3
 Image[SE]=privat-pedestrians_2-128.0.4
 Image[NW]=privat-pedestrians_2-128.0.5
 Image[NE]=privat-pedestrians_2-128.0.6
-Image[NS]=privat-pedestrians_2-128.0.7
+Image[SW]=privat-pedestrians_2-128.0.7
 --------------------------------------------------------------------------------
 Obj=pedestrian
 Name=BICYCLE_RIDER_1
@@ -189,7 +189,7 @@ Image[W]=privat-pedestrians_2-128.1.3
 Image[SE]=privat-pedestrians_2-128.1.4
 Image[NW]=privat-pedestrians_2-128.1.5
 Image[NE]=privat-pedestrians_2-128.1.6
-Image[NS]=privat-pedestrians_2-128.1.7
+Image[SW]=privat-pedestrians_2-128.1.7
 --------------------------------------------------------------------------------
 Obj=pedestrian
 Name=DOG_WALKER_0
@@ -207,7 +207,7 @@ Image[W]=privat-pedestrians_2-128.2.3
 Image[SE]=privat-pedestrians_2-128.2.4
 Image[NW]=privat-pedestrians_2-128.2.5
 Image[NE]=privat-pedestrians_2-128.2.6
-Image[NS]=privat-pedestrians_2-128.2.7
+Image[SW]=privat-pedestrians_2-128.2.7
 --------------------------------------------------------------------------------
 Obj=pedestrian
 Name=DOG_WALKER_1
@@ -225,7 +225,7 @@ Image[W]=privat-pedestrians_2-128.3.3
 Image[SE]=privat-pedestrians_2-128.3.4
 Image[NW]=privat-pedestrians_2-128.3.5
 Image[NE]=privat-pedestrians_2-128.3.6
-Image[NS]=privat-pedestrians_2-128.3.7
+Image[SW]=privat-pedestrians_2-128.3.7
 --------------------------------------------------------------------------------
 #
 #                                Pedestrians Tier 3
@@ -247,7 +247,7 @@ Image[W]=privat-pedestrians_3-128.0.3
 Image[SE]=privat-pedestrians_3-128.0.4
 Image[NW]=privat-pedestrians_3-128.0.5
 Image[NE]=privat-pedestrians_3-128.0.6
-Image[NS]=privat-pedestrians_3-128.0.7
+Image[SW]=privat-pedestrians_3-128.0.7
 --------------------------------------------------------------------------------
 Obj=pedestrian
 Name=MOTOBIKER_1
@@ -265,7 +265,7 @@ Image[W]=privat-pedestrians_3-128.1.3
 Image[SE]=privat-pedestrians_3-128.1.4
 Image[NW]=privat-pedestrians_3-128.1.5
 Image[NE]=privat-pedestrians_3-128.1.6
-Image[NS]=privat-pedestrians_3-128.1.7
+Image[SW]=privat-pedestrians_3-128.1.7
 --------------------------------------------------------------------------------
 Obj=pedestrian
 Name=MOTOBIKER_2
@@ -283,7 +283,7 @@ Image[W]=privat-pedestrians_3-128.2.3
 Image[SE]=privat-pedestrians_3-128.2.4
 Image[NW]=privat-pedestrians_3-128.2.5
 Image[NE]=privat-pedestrians_3-128.2.6
-Image[NS]=privat-pedestrians_3-128.2.7
+Image[SW]=privat-pedestrians_3-128.2.7
 --------------------------------------------------------------------------------
 Obj=pedestrian
 Name=GROUP_0
@@ -301,7 +301,7 @@ Image[W]=privat-pedestrians_3-128.3.3
 Image[SE]=privat-pedestrians_3-128.3.4
 Image[NW]=privat-pedestrians_3-128.3.5
 Image[NE]=privat-pedestrians_3-128.3.6
-Image[NS]=privat-pedestrians_3-128.3.7
+Image[SW]=privat-pedestrians_3-128.3.7
 --------------------------------------------------------------------------------
 Obj=pedestrian
 Name=GROUP_1
@@ -319,7 +319,7 @@ Image[W]=privat-pedestrians_3-128.4.3
 Image[SE]=privat-pedestrians_3-128.4.4
 Image[NW]=privat-pedestrians_3-128.4.5
 Image[NE]=privat-pedestrians_3-128.4.6
-Image[NS]=privat-pedestrians_3-128.4.7
+Image[SW]=privat-pedestrians_3-128.4.7
 --------------------------------------------------------------------------------
 Obj=pedestrian
 Name=GROUP_2
@@ -337,7 +337,7 @@ Image[W]=privat-pedestrians_3-128.5.3
 Image[SE]=privat-pedestrians_3-128.5.4
 Image[NW]=privat-pedestrians_3-128.5.5
 Image[NE]=privat-pedestrians_3-128.5.6
-Image[NS]=privat-pedestrians_3-128.5.7
+Image[SW]=privat-pedestrians_3-128.5.7
 --------------------------------------------------------------------------------
 
 #         EOF
