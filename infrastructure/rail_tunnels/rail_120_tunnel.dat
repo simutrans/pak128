@@ -7,7 +7,6 @@ way=Rail_120_Tracks
 cost=110000
 maintenance=1700
 topspeed=120
-max_weight=120
 intro_year=1840
 intro_month=1
 retire_year=1940

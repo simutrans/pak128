@@ -7,7 +7,6 @@ copyright=Fabio Gonella
 cost=110000
 maintenance=1900
 topspeed=50
-max_weight=60
 intro_year=1930
 intro_month=1
 icon=> road_050_tunnel.0.6

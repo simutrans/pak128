@@ -11,7 +11,7 @@ chance=80
 climates=rocky,tundra,temperate,mediterran,arctic,tropic
 dims=1,1,2
 needs_ground=15
-seasons=2
+
 backimage[1][0][0][0][0][1]=res_13_15.2.1
 backimage[1][0][0][0][0][0]=res_13_15.1.1
 backimage[0][0][0][0][0][1]=res_13_15.2.0

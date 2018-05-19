@@ -7,8 +7,6 @@ intro_year = 1980
 intro_month = 9
 waytype=tram_track
 own_waytype=electrified_track
-system_type=7
-# restrict to trams
 copyright=Gwalch
 
 cursor=elec_tramway_modern.2.5

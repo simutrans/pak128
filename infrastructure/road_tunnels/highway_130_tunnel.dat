@@ -7,7 +7,6 @@ copyright=Fabio Gonella
 cost=240000
 maintenance=3100
 topspeed=130
-max_weight=80
 intro_year=1965
 intro_month=1
 icon=> highway_130_tunnel.0.6

@@ -7,7 +7,6 @@ way=Rail_280_Tracks
 cost=190000
 maintenance=2700
 topspeed=280
-max_weight=100
 intro_year=1970
 intro_month=1
 retire_year=2010

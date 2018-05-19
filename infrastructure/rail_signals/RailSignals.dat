@@ -126,20 +126,13 @@ copyright=Fabio Gonella
 Name=Modern_EndOfChooseSignals_right
 waytype=track
 cost=4000
-#is_signal=1
 end_of_choose=1
 intro_year = 1970
 intro_month = 1
-# RED
 Image[0]=signals_1.10.0
 Image[1]=signals_1.10.2
 Image[2]=signals_1.10.1
 Image[3]=signals_1.10.3
-# GREEN
-#Image[4]=signals_1.11.0
-#Image[5]=signals_1.11.2
-#Image[6]=signals_1.11.1
-#Image[7]=signals_1.11.3
 Icon=> signals_0.1.8
 Cursor=signals_0.1.9
 ---------------------------------------
@@ -315,32 +308,15 @@ copyright=Fabio Gonella
 Name=EndOfChooseSignals
 waytype=track
 cost=4000
-#is_signal=1
 end_of_choose=1
 intro_year = 1920
 intro_month = 1
 retire_year = 1970
 retire_month = 1
-# RED
 Image[0]=signals_2.10.0
 Image[1]=signals_2.10.2
 Image[2]=signals_2.10.1
 Image[3]=signals_2.10.3
-# GREEN
-#Image[4]=signals_2.11.0
-#Image[5]=signals_2.11.2
-#Image[6]=signals_2.11.1
-#Image[7]=signals_2.11.3
-# RED
-#Image[8]=signals_1.10.0
-#Image[9]=signals_1.10.2
-#Image[10]=signals_1.10.1
-Image[11]=signals_1.10.3
-# GREEN
-#Image[12]=signals_1.11.0
-#Image[13]=signals_1.11.2
-#Image[14]=signals_1.11.1
-#Image[15]=signals_1.11.3
 Icon=> signals_0.2.8
 Cursor=signals_0.2.9
 ---------------------------------------

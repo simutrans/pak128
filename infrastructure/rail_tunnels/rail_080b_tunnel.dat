@@ -7,7 +7,6 @@ way=Rail_080B_Tracks
 cost=85000
 maintenance=1300
 topspeed=80
-max_weight=240
 intro_year=1950
 intro_month=1
 retire_year=2999

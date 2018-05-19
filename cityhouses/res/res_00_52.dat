@@ -6,7 +6,7 @@ level=52
 intro_year=1889
 retire_year=1979
 dims=1,1,1
-seasons=2
+
 needs_ground=0
 #Summer
 backimage[0][0][0][0][0][0]=res_00_52.1.0

@@ -6,8 +6,6 @@ topspeed=70
 intro_year=1890
 waytype=tram_track
 own_waytype=electrified_track
-system_type=7
-# restrict to trams
 copyright=Timothy Baldock&Gwalch
 
 cursor=elec_tramway_classical.2.5

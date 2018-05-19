@@ -6,8 +6,6 @@ topspeed=90
 intro_year=2006
 waytype=tram_track
 own_waytype=electrified_track
-system_type=7
-# restrict to trams
 copyright=Gwalch
 
 cursor=elec_tramway_aps.2.5

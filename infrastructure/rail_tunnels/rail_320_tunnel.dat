@@ -7,7 +7,6 @@ way=Rail_320_Tracks
 cost=200000
 maintenance=2900
 topspeed=320
-max_weight=100
 intro_year=1980
 intro_month=1
 retire_year=2999

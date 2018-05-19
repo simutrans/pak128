@@ -7,7 +7,6 @@ way=Rail_180_Tracks
 cost=130000
 maintenance=1900
 topspeed=180
-max_weight=120
 intro_year=2000
 intro_month=1
 retire_year=2999

@@ -1,7 +1,6 @@
 obj=roadsign
 name=airport_oneway
 copyright=Shunter
-type=airport
 waytype=air
 min_speed=0
 single_way=1
