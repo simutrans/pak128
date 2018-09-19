@@ -74,6 +74,33 @@ Image[11]=signals_1.3.3
 Icon=> signals_0.1.2
 Cursor=signals_0.1.3
 ---------------------------------------
+# priority signal right side
+obj=roadsign
+copyright=Fabio Gonella and Gauthier
+Name=Modern_prioritySignals_right
+waytype=track
+cost=1000
+is_prioritysignal=1
+intro_year = 1970
+intro_month = 1
+# RED
+Image[0]=signals_1.13.0
+Image[1]=signals_1.13.2
+Image[2]=signals_1.13.1
+Image[3]=signals_1.13.3
+# GREEN
+Image[4]=signals_1.15.0
+Image[5]=signals_1.15.2
+Image[6]=signals_1.15.1
+Image[7]=signals_1.15.3
+# YELLOW
+Image[8]=signals_1.14.0
+Image[9]=signals_1.14.2
+Image[10]=signals_1.14.1
+Image[11]=signals_1.14.3
+Icon=> signals_0.1.12
+Cursor=signals_0.1.13
+---------------------------------------
 # long block signal right side
 obj=roadsign
 copyright=Fabio Gonella
@@ -208,9 +235,9 @@ Image[3]=signals_2.3.3
 Image[4]=signals_2.4.0
 Image[5]=signals_2.4.2
 Image[6]=signals_2.4.1
-Image[8]=signals_2.3.0
 Image[7]=signals_2.4.3
 # YELLOW
+Image[8]=signals_2.3.0
 Image[9]=signals_2.3.2
 Image[10]=signals_2.3.1
 Image[11]=signals_2.3.3
@@ -231,6 +258,50 @@ Image[22]=signals_1.3.1
 Image[23]=signals_1.3.3
 Icon=> signals_0.2.2
 Cursor=signals_0.2.3
+---------------------------------------
+# priority signal right side
+obj=roadsign
+copyright=Fabio Gonella and Gauthier
+Name=prioritySignals
+waytype=track
+cost=1000
+is_prioritysignal=1
+intro_year = 1920
+intro_month = 1
+retire_year = 1970
+retire_month = 1
+# RED
+Image[0]=signals_2.13.0
+Image[1]=signals_2.13.2
+Image[2]=signals_2.13.1
+Image[3]=signals_2.13.3
+# GREEN
+Image[4]=signals_2.15.0
+Image[5]=signals_2.15.2
+Image[6]=signals_2.15.1
+Image[7]=signals_2.15.3
+# YELLOW
+Image[8]=signals_2.14.0
+Image[9]=signals_2.14.2
+Image[10]=signals_2.14.1
+Image[11]=signals_2.14.3
+# RED
+Image[12]=signals_1.13.0
+Image[13]=signals_1.13.2
+Image[14]=signals_1.13.1
+Image[15]=signals_1.13.3
+# GREEN
+Image[16]=signals_1.15.0
+Image[17]=signals_1.15.2
+Image[18]=signals_1.15.1
+Image[19]=signals_1.15.3
+# YELLOW
+Image[20]=signals_1.14.0
+Image[21]=signals_1.14.2
+Image[22]=signals_1.14.1
+Image[23]=signals_1.14.3
+Icon=> signals_0.2.12
+Cursor=signals_0.2.13
 ---------------------------------------
 # long block signal right side
 obj=roadsign
@@ -393,6 +464,35 @@ Image[11]=signals_2.3.3
 Icon=> signals_0.3.2
 Cursor=signals_0.3.3
 ---------------------------------------
+# priority signal right side
+obj=roadsign
+copyright=Fabio Gonella and Gauthier
+Name=Classic_prioritySignals_right
+waytype=track
+cost=1000
+is_prioritysignal=1
+intro_year = 1860
+intro_month = 1
+retire_year = 1920
+retire_month = 1
+# RED
+Image[0]=signals_2.13.0
+Image[1]=signals_2.13.2
+Image[2]=signals_2.13.1
+Image[3]=signals_2.13.3
+# GREEN
+Image[4]=signals_2.15.0
+Image[5]=signals_2.15.2
+Image[6]=signals_2.15.1
+Image[7]=signals_2.15.3
+# YELLOW
+Image[8]=signals_2.14.0
+Image[9]=signals_2.14.2
+Image[10]=signals_2.14.1
+Image[11]=signals_2.14.3
+Icon=> signals_0.3.12
+Cursor=signals_0.3.13
+---------------------------------------
 # long block signal right side
 obj=roadsign
 copyright=Fabio Gonella
@@ -497,6 +597,35 @@ Image[10]=signals_3.3.1
 Image[11]=signals_3.3.3
 Icon=> signals_0.4.2
 Cursor=signals_0.4.3
+---------------------------------------
+# priority signal right side
+obj=roadsign
+copyright=Fabio Gonella and Gauthier
+Name=Early_prioritySignals
+waytype=track
+cost=1000
+is_prioritysignal=1
+intro_year = 1810
+intro_month = 1
+retire_year = 1860
+retire_month = 1
+# RED
+Image[0]=signals_3.10.0
+Image[1]=signals_3.10.2
+Image[2]=signals_3.10.1
+Image[3]=signals_3.10.3
+# GREEN
+Image[4]=signals_3.12.0
+Image[5]=signals_3.12.2
+Image[6]=signals_3.12.1
+Image[7]=signals_3.12.3
+# YELLOW
+Image[8]=signals_3.11.0
+Image[9]=signals_3.11.2
+Image[10]=signals_3.11.1
+Image[11]=signals_3.11.3
+Icon=> signals_0.4.12
+Cursor=signals_0.4.13
 ---------------------------------------
 # long block signal right side
 obj=roadsign

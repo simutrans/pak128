@@ -1,3 +1,11 @@
+simutrans128 (2.8)
+
+    _ Mapped "$" key to dialog tool 27 (open settings during a game)
+    _ Changed color of terrain grid to be visible underground (thanks to Uci)
+    _ Added priority signals for trains and monorails
+	
+  -- Gauthier Nottret <gauthier.nottret@gmail.com> & the pak128 team 19 Sep 2018
+
 simutrans128 (2.7)
 
     _ Made some trams (EM400, T101, T102, T103, T104, T105, Mhz T-113, T107, T108, T109, T110) capable of coupling in multiple units. Had to remove the third section of T110 for the whole unit to fit in one tile.

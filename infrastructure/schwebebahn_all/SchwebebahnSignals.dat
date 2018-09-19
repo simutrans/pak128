@@ -46,6 +46,29 @@ Cursor=s_shingou.3.4
 
 obj=roadsign
 copyright=yoshi&gauthier
+Name=prioritySignal_Monorail
+waytype=monorail_track
+cost=1500
+is_prioritysignal=1
+Image[0]=s_shingou.12.0
+Image[1]=s_shingou.12.1
+Image[2]=s_shingou.12.2
+Image[3]=s_shingou.12.3
+Image[4]=s_shingou.14.0
+Image[5]=s_shingou.14.1
+Image[6]=s_shingou.14.2
+Image[7]=s_shingou.14.3
+Image[8]=s_shingou.13.0
+Image[9]=s_shingou.13.1
+Image[10]=s_shingou.13.2
+Image[11]=s_shingou.13.3
+Icon=> s_shingou.12.4
+Cursor=s_shingou.13.4
+
+------------------------------------------------------
+
+obj=roadsign
+copyright=yoshi&gauthier
 Name=choose_signal_monorail
 waytype=monorail_track
 cost=4000
