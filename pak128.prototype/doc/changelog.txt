@@ -1,3 +1,9 @@
+simutrans128 (2.8.1)
+
+    _ Fixed missing Citadis 302 Reims back
+
+  -- Gauthier Nottret <gauthier.nottret@gmail.com> & the pak128 team 3 Oct 2018
+
 simutrans128 (2.8)
 
     _ Mapped "$" key to dialog tool 27 (open settings during a game)

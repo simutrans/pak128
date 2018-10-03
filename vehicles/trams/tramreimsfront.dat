@@ -1,12 +1,3 @@
-EmptyImage[S]=tramwayreims.0.2
-EmptyImage[E]=tramwayreims.0.0
-EmptyImage[SE]=tramwayreims.0.1
-EmptyImage[NE]=tramwayreims.0.3
-EmptyImage[N]=tramwayreims.0.4
-EmptyImage[W]=tramwayreims.0.6
-EmptyImage[NW]=tramwayreims.0.5
-EmptyImage[SW]=tramwayreims.0.7
-
 obj=vehicle
 name=Citadis302_Reims_front
 waytype=tram_track
@@ -25,3 +16,12 @@ engine_type=electric
 freight=Passagiere
 Constraint[Prev][0]=none
 Constraint[Next][0]=Citadis302_Reims_suspended
+EmptyImage[S]=tramwayreims.0.2
+EmptyImage[E]=tramwayreims.0.0
+EmptyImage[SE]=tramwayreims.0.1
+EmptyImage[NE]=tramwayreims.0.3
+EmptyImage[N]=tramwayreims.0.4
+EmptyImage[W]=tramwayreims.0.6
+EmptyImage[NW]=tramwayreims.0.5
+EmptyImage[SW]=tramwayreims.0.7
+
