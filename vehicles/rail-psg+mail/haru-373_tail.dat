@@ -2,6 +2,7 @@ obj=vehicle
 name=Haru-373_tail
 copyright=Haru
 waytype=track
+engine_type=electric
 freight=Passagiere
 payload=52
 speed=120
