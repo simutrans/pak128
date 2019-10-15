@@ -9,17 +9,107 @@
 #                            Language: id Indonesia                            #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
 Schwebebahn_p_bridge
 Jembatan Monorail
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
 water_bridge
 Jembatan Kanal
 #___________________________________building____________________________________
 #___________________________________building____________________________________
+CarStop
+Loading Area
+MonorailGround
+Pondasi Monorel
+ShipStop
+Pelabuhan Penumpang
+TrainStop
+Stasiun Modern
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+Biara\n\nBiara ini terkenal karena kedua\nsumur yang ada dikedua menara\nbiara ini. Menurut legenda\nkedua sumur tersebut tidak\nmemiliki dasar, sehingga\norang berbondong-bondong\ndatanga ke sini untuk membuktikan legenda itu\ndengan cara melemparkan koin kesumur itu.\n
+WOODEN_CHURCH
+Gereja Kayu\n\nGereja kayu ini dibuat oleh bangsa Hamish sebagai bentuk rasa terima kasihnya kepada tuhan yang maha esa atas segala bala yang telah meninggalkan kota terdekat.\nBeberapa puluh tahun yang lalu, disekitar gereja itu terdapat perkampungan dengan nama Hamishville, namun penyakit Cikungunya melanda perkampungan itu dengan, masyarakat pun berdoa dengan khusyuk, kemudian sekian beberapa bulan kemudian penyakit itu pun menghilang. untuk itu mereka membangun gereja. Namun, perkampungan itu telah banyak ditinggalkan bangsa Hamish, mereka pindah ke kota terdekat. mereka hanya ingin mengenang kejadian tersebut untuk beberapa waktu, mereka tidak ingin kenangan buruk tersebut selalu menyelubungi kehidupan mereka.\n\n\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
+1920_AirDepot
+Hanggar Klasik
+1930AirDepot
+Hanggar Kayu
+1940AirDepot
+Hanggar Besi
+1950AirDepot
+Hanggar
+1990AirDepot
+Hanggar Modern
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
+Airport1920_AirportBlg
+Ruang Tunggu 1918
+Almuthof_StationBlg
+Ruang Tunggu Kecil
+Avila_Big_StationBlg
+Ruang Tunggu Modern (Besar)
+Avila_Small_StationBlg
+Ruang Tunggu Modern (Kecil)
+Avila_Warehouse_StationBlg
+Gudang Barang
+Control_StationBlg
+Ruang Kontrol
+CunnersdorfStopBlg
+Stasiun Desa
+MonorailFoundation
+Pondasi Monorel
+PostOffice
+Kantor Pos
+PostOffice1920_AirportBlg
+Kantor Pos (Bandara)
+PostOfficeOldLarge
+Kantor Pos (Besar)
+VictorianStation
+Ruang Tunggu Klasik
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+Pelabuhan Barang
+Post_Dock
+Pelabuhan Pos
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
+HQ1
+Markas Besar
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+canal_ChannelStop
+Pelabuhan Darat
+canal_ware_stop
+Pelabuhan Darat (Barang)
+classic_mailbox
+Kotak Surat
+CoalTrainStop
+Stasiun Batubara
+Container1TrainStop
+Stasiun Kontainer
+Container2TrainStop
+Stasiun kontainer baru
+medium_early_bus_stop
+Halte Klasik
+OpenTrainStop
+Stasiun Barang (terbuka)
+small_classic_bus_stop
+Halte Bis
+Suspended_Monorail_Bahnhof_Modern
+Stasiun Monorail
+VillageTrainStop
+Stasiun Kota Kecil
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
 01_CITY
 Balai Kota
 01_CITY_1
@@ -40,80 +130,6 @@ Balai Kota
 Balai Kota
 05_CITY_1
 Balai Kota
-1920_AirDepot
-Hanggar Klasik
-1930AirDepot
-Hanggar Kayu
-1940AirDepot
-Hanggar Besi
-1950AirDepot
-Hanggar
-1990AirDepot
-Hanggar Modern
-ABBYS_0
-Biara\n\nBiara ini terkenal karena kedua\nsumur yang ada dikedua menara\nbiara ini. Menurut legenda\nkedua sumur tersebut tidak\nmemiliki dasar, sehingga\norang berbondong-bondong\ndatanga ke sini untuk membuktikan legenda itu\ndengan cara melemparkan koin kesumur itu.\n
-Airport1920_AirportBlg
-Ruang Tunggu 1918
-Almuthof_StationBlg
-Ruang Tunggu Kecil
-Avila_Big_StationBlg
-Ruang Tunggu Modern (Besar)
-Avila_Small_StationBlg
-Ruang Tunggu Modern (Kecil)
-Avila_Warehouse_StationBlg
-Gudang Barang
-Bulk_Dock
-Pelabuhan Barang
-canal_ChannelStop
-Pelabuhan Darat
-canal_ware_stop
-Pelabuhan Darat (Barang)
-CarStop
-Loading Area
-classic_mailbox
-Kotak Surat
-CoalTrainStop
-Stasiun Batubara
-Container1TrainStop
-Stasiun Kontainer
-Container2TrainStop
-Stasiun kontainer baru
-Control_StationBlg
-Ruang Kontrol
-CunnersdorfStopBlg
-Stasiun Desa
-HQ1
-Markas Besar
-medium_early_bus_stop
-Halte Klasik
-MonorailFoundation
-Pondasi Monorel
-MonorailGround
-Pondasi Monorel
-OpenTrainStop
-Stasiun Barang (terbuka)
-Post_Dock
-Pelabuhan Pos
-PostOffice
-Kantor Pos
-PostOffice1920_AirportBlg
-Kantor Pos (Bandara)
-PostOfficeOldLarge
-Kantor Pos (Besar)
-ShipStop
-Pelabuhan Penumpang
-small_classic_bus_stop
-Halte Bis
-Suspended_Monorail_Bahnhof_Modern
-Stasiun Monorail
-TrainStop
-Stasiun Modern
-VictorianStation
-Ruang Tunggu Klasik
-VillageTrainStop
-Stasiun Kota Kecil
-WOODEN_CHURCH
-Gereja Kayu\n\nGereja kayu ini dibuat oleh bangsa Hamish sebagai bentuk rasa terima kasihnya kepada tuhan yang maha esa atas segala bala yang telah meninggalkan kota terdekat.\nBeberapa puluh tahun yang lalu, disekitar gereja itu terdapat perkampungan dengan nama Hamishville, namun penyakit Cikungunya melanda perkampungan itu dengan, masyarakat pun berdoa dengan khusyuk, kemudian sekian beberapa bulan kemudian penyakit itu pun menghilang. untuk itu mereka membangun gereja. Namun, perkampungan itu telah banyak ditinggalkan bangsa Hamish, mereka pindah ke kota terdekat. mereka hanya ingin mengenang kejadian tersebut untuk beberapa waktu, mereka tidak ingin kenangan buruk tersebut selalu menyelubungi kehidupan mereka.\n\n\n
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
 police_bike_0
@@ -398,12 +414,22 @@ Hilangkan Jalur Monorel
 #__________________________________record_text__________________________________
 New world record for monorails: %.1f km/h by %s.
 MHX NEWS: Rekor kecepatan di dunia Monorel terpecahkan dengan kecepatan: %.1f km/h oleh %s. Selamat kepada Human, silahkan hubungi forums.simutrans.com untuk berbagi kisah anda dalam bermain game ini.
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
 air_one-way
 Satu Arah
 airport_oneway
 Satu Jalur
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+choose_signal_monorail
+Penunjuk Arah
+preSignal_Monorail
+Pre-Sinyal Monorel
+Signal_Monorail
+Sinyal Monorel
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 Masuk Tol (Klasik)
 autobahn_classic_exit
@@ -414,8 +440,16 @@ autobahn_modern_exit
 Keluar Tol (Modern)
 choose_point
 Penunjuk Arah
-choose_signal_monorail
-Penunjuk Arah
+Minimum80
+Kecepatan Minimal 80
+NoEntry
+Dilarang Masuk
+RoadClosed
+Jalan Ditutup
+traffic_light
+Lampu Merah
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
 ChooseSignals
 Penunjuk Arah
 Classic_ChooseSignals_right
@@ -438,8 +472,6 @@ EndOfChooseSignals
 End of Choose Signal
 LongSignals
 Long Block Signal (standard type)
-Minimum80
-Kecepatan Minimal 80
 Modern_ChooseSignals_right
 Platform Choose Signal (modern type)
 Modern_EndOfChooseSignals_right
@@ -452,24 +484,14 @@ Modern_preSignals_right
 Presignal (modern type)
 Modern_Signals_right
 Sinyal Kereta Modern
-NoEntry
-Dilarang Masuk
 OneWaySignals
 Satu Jalur (Klasik)
-preSignal_Monorail
-Pre-Sinyal Monorel
 preSignals
 Pre-Sinyal
-RoadClosed
-Jalan Ditutup
-Signal_Monorail
-Sinyal Monorel
 Signals
 Sinyal
-traffic_light
-Lampu Merah
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
 1Benst134
 Bennhardt B-134 "Pixie"
 1Benst135t
@@ -488,35 +510,47 @@ H-Trans BR218
 Bennhardt B-186 "Lemon"
 3Dampflokomotive
 RVg 0-3-0 - Chippy
+#________________________________vehicle - water________________________________
+#________________________________vehicle - water________________________________
 Post_Barge
 Kapal Pos MHz 1928
-#______________________________________way______________________________________
-#______________________________________way______________________________________
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 air_movement_area
 Jalan pesawat
-canal_030
-Kanal
 old_runway
 Landasan pacu dari rumput
 old_taxiway
 Jalan pesawat dari rumput
-Powerline
-Jalur Listrik (SUTET)
 runway_modern
 Runway Modern
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
 Schwebebahn_p_ground
 Jalan Monorail (Tanah)
 Suspended_Monorail_Track
 Jalan Monorail (Gantung)
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+Powerline
+Jalur Listrik (SUTET)
+#__________________________________way - water__________________________________
+#__________________________________way - water__________________________________
+canal_030
+Kanal
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+trolleybus_catenary
+Infrastruktur Busway
+#______________________________way-object - track_______________________________
+#______________________________way-object - track_______________________________
 classic_metal_mesh_catenary
 Pelistrikan Bawah Rel
 highspeed_catenary
 Pelistrikan Modern
-tramway_modern
-Pelistrikan Tram
-trolleybus_catenary
-Infrastruktur Busway
 wood_gantry_catenary
 Pelistrikan Tua
+#____________________________way-object - tram_track____________________________
+#____________________________way-object - tram_track____________________________
+tramway_modern
+Pelistrikan Tram

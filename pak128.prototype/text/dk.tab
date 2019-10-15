@@ -9,13 +9,29 @@
 #                              Language: dk Dansk                              #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#___________________________________building____________________________________
-#___________________________________building____________________________________
-01_CITY
-Rådhus
+#________________________________building - com_________________________________
+#________________________________building - com_________________________________
+COM_00_01
+Indeværende er en børnehave,\nder hvor små børn kan lege\nsamtidigt med at deres\nforældre er henne ved\narbejde. Selv om man engang\nimellem høre børn hyle op, så\ner det skam en hyggelig og\nfredelig børnehave, fyldt med\nlatter og yndige drømme det\nmeste af dagen. Her lærer små\nbørn tidligt at læse og gøre\nmatematik.\n
+COM_00_02
+Denne hyggelige cafe er\nvelkendt for sin store\nsandwicher. Ejeren nægter at\nudgive sin hemmelige opskrift,\nmen rygterne siger at han gror\nfrugterne hjemme i hans egen\nhave.\n
+COM_06_13
+En stor barber butik der altid\nhar travlt. Men stadig\natmosfæren er stadig\nfuldkommen forskellig fra\nandre mindre butikker.\n\n
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+RUIN_0
+En prægtig, gammel borgruin.\nKom forbi og mærk historiens\nvingesus!\n\n
+Windmill
+Mølle\n\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
+CarDepot
+Bil Garage
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
 Avila_Big_StationBlg
 Stor passager stations bygning
 Avila_Small_StationBlg
@@ -24,22 +40,10 @@ Avila_Warehouse_StationBlg
 Lagerhals Stations Bygning
 Bulk_StationBlg
 Massegods Stations Bygning
-canal_ChannelStop
-Kanal Stop
 Car_StationBlg
 Bil Stations Bygning
-CarDepot
-Bil Garage
-ClosedTrainStop
-Station Med Tag
-CoalTrainStop
-Kulstation
-COM_00_01
-Indeværende er en børnehave,\nder hvor små børn kan lege\nsamtidigt med at deres\nforældre er henne ved\narbejde. Selv om man engang\nimellem høre børn hyle op, så\ner det skam en hyggelig og\nfredelig børnehave, fyldt med\nlatter og yndige drømme det\nmeste af dagen. Her lærer små\nbørn tidligt at læse og gøre\nmatematik.\n
-COM_00_02
-Denne hyggelige cafe er\nvelkendt for sin store\nsandwicher. Ejeren nægter at\nudgive sin hemmelige opskrift,\nmen rygterne siger at han gror\nfrugterne hjemme i hans egen\nhave.\n
-COM_06_13
-En stor barber butik der altid\nhar travlt. Men stadig\natmosfæren er stadig\nfuldkommen forskellig fra\nandre mindre butikker.\n\n
+#________________________________building - mon_________________________________
+#________________________________building - mon_________________________________
 DenkFlor
 Dette monument tilegnes Flor\n'WF Ultd.' Wauters, den\nberømte ingeniør som skabte så\nmange glimrende køretøjer. Han\ner ligeledes kendt for at have\ndesignet mange velfungerende\nfabrikker.\n
 DenkOwen
@@ -54,10 +58,18 @@ DenkVM
 Dette monument tilegnes\nManfred 'VT Wien' Tomaschitz,\nden berømte ingeniør som\ndesignede mange utrolig gode\ntoge.\n\n
 DenkVolker
 Dette monument tilegnes\nVolker Meyer, som\nforbedrede Simutrans på\nmange, mange måder.\n\n
-RUIN_0
-En prægtig, gammel borgruin.\nKom forbi og mærk historiens\nvingesus!\n\n
-Windmill
-Mølle\n\n
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+canal_ChannelStop
+Kanal Stop
+ClosedTrainStop
+Station Med Tag
+CoalTrainStop
+Kulstation
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+Rådhus
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 bakery
@@ -106,18 +118,10 @@ Stahl
 stål
 Stone
 sten
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-1Dampflokomotive
-H-Trans 0-4-0T (damp)
-2Diesellokomotive
-H-Trans BR218 (diesel)
-Autotransportwagen
-TPI Lopomo Biltransportvogn
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
 BB-TS_Milk_Mack_Trailer
 Balcebox-TS Mælke Trailer
-Bretterwagen
-VT Wien Bræddevogn
 Bulk_trailer_0
 Massegods Trailer
 Bulk_Truck_0
@@ -134,6 +138,16 @@ Car_Transporter_0
 Teddy's Bil Transporter
 Car_Transporter_1
 Teddy's Bil Carrier
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+1Dampflokomotive
+H-Trans 0-4-0T (damp)
+2Diesellokomotive
+H-Trans BR218 (diesel)
+Autotransportwagen
+TPI Lopomo Biltransportvogn
+Bretterwagen
+VT Wien Bræddevogn
 Car_Waggon_1
 RVg Bil Transport Vogn
 Cementwagen

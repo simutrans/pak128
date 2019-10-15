@@ -9,19 +9,25 @@
 #                             Language: cz Cestina                             #
 #                             Encoding: ISO-8859-2                             #
 #                             Font: prop-latin2.fnt                            #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
-Highway_110_Bridge
-silnièní most
-Highway_200_Bridge
-Dálnièní most
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
+Schwebebahn_p_bridge
+Jednokolejka (most)
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
 PowerBridge
 Most vedení VN
-Rail_060_Bridge
-Døevìný most
+#_________________________________bridge - road_________________________________
+#_________________________________bridge - road_________________________________
+Highway_110_Bridge
+silnièní most
+Highway_130_Bridge
+Dálnièní most 130km/h
+Highway_200_Bridge
+Dálnièní most
 road_030_bridge
 Døevìný silnièní most
 road_040_bridge
@@ -34,122 +40,28 @@ Road_070_Bridge
 silnièní most
 Road_090_Bridge
 silnièní most
-Schwebebahn_p_bridge
-Jednokolejka (most)
+#________________________________bridge - track_________________________________
+#________________________________bridge - track_________________________________
+Rail_060_Bridge
+Døevìný most
+Rail_060B_Bridge
+Starý ocelový most
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
 water_bridge
 Prùplavový most
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-Radnice
-01_CITY_1
-Radnice
-02_CITY
-Radnice
-02_CITY_1
-Radnice
-03_CITY
-Radnice
-03_CITY_1
-Radnice
-04_CITY
-Radnice
-04_CITY_1
-Radnice
-05_CITY
-Radnice
-05_CITY_1
-Radnice
-1920_AirDepot
-Základní hangár
-1930AirDepot
-Døevìný hangár
-1940AirDepot
-Plechový Hangár
-1950AirDepot
-Zdìný hangár
-1990AirDepot
-Moderní Hangár
-ABBYS_0
-Opatství\n\nToto opatství je zajímavé\nstudnami ve vì¾ích o nich¾\nse tvrdí, ¾e jsou bezedné.\nJe neuvìøitelné, jaké\nmno¾ství lidí chce vidìt\ntyto magické studny. Mince\nti¹e padající na molitan v\nhloubce padesáti metrù\npomohly ekonomice\nopatství natolik, ¾e mohlo\nbýt zrekonstruováno z ruin\ndo stavu, který vidíte.\n
-Airport1920_AirportBlg
-Odbavovací hala
-Airport1930PostOffice
-Letecká po¹ta
-Airport1990_Big_AirportBlg
-Leti¹tní Terminál
-Airport1990_Big_PostOffice
-Velký po¹tovní terminál
-Airport1990_Entrance_AirportBlg
-Vstupní brána
-Airport1990_Gates_AirportBlg
-Prùchod
-Airport1990_PostOffice
-Letecká po¹ta
-Airport1990_Small_AirportBlg
-Moderní Èekárna
-Airport1990_Small_PostOffice
-Malý po¹tovní terminál
-Airport1990_Warehouse
-Budova nákladní dopravy (CARGO)
-AirStop_AirportBlg
-Stojánka
-Almuthof_StationBlg
-Vesnická stanice
-Avila_Big_StationBlg
-Velká nádra¾ní hala
-Avila_Small_StationBlg
-Malá nádra¾ní hala
-Avila_Warehouse_StationBlg
-Sklad
-big_classic_bus_stop
-Velká zastávka
-big_modern_bus_stop
-Velká moderní zastávka
-BigTerminal1930_AirportBlg
-Velká odbavovací hala
-BigTerminal1950_AirportBlg_S
-Velká odbavovací hala
-Bulk_Dock
-Pøístav na sypké materiály
-Bulk_StationBlg
-Sklad sypkých hmot
-bus_terminus
-Autobusový terminál
-canal_ChannelStop
-Pøístavi¹tì na prùplavu
-canal_ware_stop
-Pøístavi¹tì na prùplavu (nákladní)
-Car_StationBlg
-Parkovi¹tì
-CarDepot
-Gará¾e
-CargoHighStop
-Prùjezdní nakládací rampa
 CarStop
 Nakládací rampa
-CASTLE_0
-Starý hrad\n\nStavba byla u¾ívaná jako hrad\nkrále Napíka. Vìt¹ina byla\nznièena bìhem velké války,\nav¹ak byla v 19.století\nopravena a pøebudována.\nNyní poskytuje k vidìní\nslavnou kolekci starých\nbrnìní a meèù.\n
-CHURCH_02
-Rù¾ový kostel\n\nTento malebný kostel proslavil\n¹ílený mnich, který v roce\n1654 natøel celý objekt na\nrù¾ovo. Rù¾ová barva\nèasem vybledla a smyla se,\nale jméno zùstalo. Jistý\nèlovìk dostal nápad barvu\nobnovit, ale narazil na\npamátkový úøad, který to\nzamítl.\n
-CHURCH_03
-Kostel\n\nZnámý kostel, který pøitahuje lidi\ndíky pøíjemnému okolí a\nzajímavým obrazùm.\nZajímavostí je, ¾e je\npostaven na základech,\nkteré jsou více ne¾ 1000 let\nstaré.\n
-CHURCH_04
-Synagoga\n\nAèkoliv tento chrám vypadá\nponìkud arabsky, je to ve\nskuteènosti synagoga.\n
-CHURCH_05
-Sv. Michael\n\nTento architektonický skvost\npochází z konce\ndevatenáctého století. Je\npozoruhodný kovovými\nkrovy, které projektoval\nAlexandr Gustav Eiffel.\n
-CHURCH_06
-Kostel\n\nTypický kostel, jaký najdete v\nmen¹ích mìstech a na\nvenkovì. Z vì¾e se zároveò\nvyhla¹uje po¾ární poplach;\nv døívìj¹ích dobách v¹ak\nzvony hlásily tøeba i blí¾ící\nse vojska.\n
-CIRCUS_0
-Cirkus\n\nTento cirkus dosáhl takové\npopularity, ¾e u¾ nemusí\njezdit po svìtì za diváky,\nale diváci jezdí za ním.\nPrávì v tomto mìstì se\ncirkusáci rozhodli\nnaposledy rozvinout své\n¹apitó. Sami si pak koupili\npohodlné domy v okolí a\njejich maringotky teï slou¾í\njako penzion pro pøespolní\ndiváky. Hlavní atrakcí cirkusu je\nslon Jumbo, který kecne na\nzadek poka¾dé, kdy¾ zazvoní\nzvon. Tak si dejte pozor kde\nstojíte, kdy¾ na kostelní vì¾i\nbudou odbíjet celou.\n
-CIVILIAN_RADAR
-Observatoø\n\nMo¾ná se vám to zdá\nneuvìøitelné, ale tohle je\nnormální hvìzdárna. Tedy radiohvìzdárna...\n
-classic_mailbox
-Po¹tovní schránka
-ClosedTrainStop
-Zastøe¹ené nástupi¹tì
-CoalTrainStop
-Pøekladi¹tì uhlí
+MonorailGround
+Podlo¾í jednokolejky
+ShipStop
+Osobní pøístav
+TrainStop
+Nádra¾í
+#________________________________building - com_________________________________
+#________________________________building - com_________________________________
 COM_00_01
 Soukromá mateøská ¹kola\nZde si mohou malé dìti hrát a\nodpoèívat v dobì, kdy jsou\njejich rodièe v práci.\nProto¾e ¹kolka nemá velkou kapacitu, mohou se zde dìtem vìnovat více a tak, aèkoliv obèas lze\nzaslechnout i dìtský náøek,\nje to skuteènì nádherné\nmísto protkané dìtskými\nsny a smíchem.\n
 COM_00_02
@@ -498,84 +410,262 @@ COM_11_59
 Tato celosklenìná budova\nje skleník a hydroponická\nfarma. Uvnitø roste pøehr¹le\nbylin a rozmanitých druhù\nzeleniny. Jejich nejlep¹í\nskliznì kouøí zákazníci po\ncelém svìtì. Zará¾ející je,\n¾e v¹ichni tito zákazníci\ntrpí podobnou oèní vadou\nprojevující se nepøítomným\npohledem a ponìkud\nsklovitou zarudlostí oèí.\n
 COM_12_01
 Toto holièství je skvìlým\nmístem, kde si mù¾e¹\nnechat na hlavì vytvoøit\núèesy tìch nej¹ílenìj¹ích\nbarev a tvarù.\n\n
-container_crane_span
-Velký kontejnerový jeøáb
-Container1TrainStop
-Pøekladi¹tì kontejnerù
-Container2TrainStop
-Moderní pøekladi¹tì kontejnerù
-containercrane
-Malý kontejnerový jeøáb
-Control_StationBlg
-Nádra¾ní velín
-Crate_Goods_Dock
-Kontejnerový pøístav
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+Opatství\n\nToto opatství je zajímavé\nstudnami ve vì¾ích o nich¾\nse tvrdí, ¾e jsou bezedné.\nJe neuvìøitelné, jaké\nmno¾ství lidí chce vidìt\ntyto magické studny. Mince\nti¹e padající na molitan v\nhloubce padesáti metrù\npomohly ekonomice\nopatství natolik, ¾e mohlo\nbýt zrekonstruováno z ruin\ndo stavu, který vidíte.\n
+CASTLE_0
+Starý hrad\n\nStavba byla u¾ívaná jako hrad\nkrále Napíka. Vìt¹ina byla\nznièena bìhem velké války,\nav¹ak byla v 19.století\nopravena a pøebudována.\nNyní poskytuje k vidìní\nslavnou kolekci starých\nbrnìní a meèù.\n
+CHURCH_02
+Rù¾ový kostel\n\nTento malebný kostel proslavil\n¹ílený mnich, který v roce\n1654 natøel celý objekt na\nrù¾ovo. Rù¾ová barva\nèasem vybledla a smyla se,\nale jméno zùstalo. Jistý\nèlovìk dostal nápad barvu\nobnovit, ale narazil na\npamátkový úøad, který to\nzamítl.\n
+CHURCH_03
+Kostel\n\nZnámý kostel, který pøitahuje lidi\ndíky pøíjemnému okolí a\nzajímavým obrazùm.\nZajímavostí je, ¾e je\npostaven na základech,\nkteré jsou více ne¾ 1000 let\nstaré.\n
+CHURCH_04
+Synagoga\n\nAèkoliv tento chrám vypadá\nponìkud arabsky, je to ve\nskuteènosti synagoga.\n
+CHURCH_05
+Sv. Michael\n\nTento architektonický skvost\npochází z konce\ndevatenáctého století. Je\npozoruhodný kovovými\nkrovy, které projektoval\nAlexandr Gustav Eiffel.\n
+CHURCH_06
+Kostel\n\nTypický kostel, jaký najdete v\nmen¹ích mìstech a na\nvenkovì. Z vì¾e se zároveò\nvyhla¹uje po¾ární poplach;\nv døívìj¹ích dobách v¹ak\nzvony hlásily tøeba i blí¾ící\nse vojska.\n
+CIRCUS_0
+Cirkus\n\nTento cirkus dosáhl takové\npopularity, ¾e u¾ nemusí\njezdit po svìtì za diváky,\nale diváci jezdí za ním.\nPrávì v tomto mìstì se\ncirkusáci rozhodli\nnaposledy rozvinout své\n¹apitó. Sami si pak koupili\npohodlné domy v okolí a\njejich maringotky teï slou¾í\njako penzion pro pøespolní\ndiváky. Hlavní atrakcí cirkusu je\nslon Jumbo, který kecne na\nzadek poka¾dé, kdy¾ zazvoní\nzvon. Tak si dejte pozor kde\nstojíte, kdy¾ na kostelní vì¾i\nbudou odbíjet celou.\n
+CIVILIAN_RADAR
+Observatoø\n\nMo¾ná se vám to zdá\nneuvìøitelné, ale tohle je\nnormální hvìzdárna. Tedy radiohvìzdárna...\n
 Cross_Country_skiing_resort
 Bì¾kaøská dráha\n\nBì¾kaøská dráha, postavená v obzvlá¹tì malebném koutì zdej¹í krajiny s kouzelnými smrèky. Mimo sezónu slou¾í i dal¹ím sportùm jako napøíklad cyklistika. Kam schovávají rolbu se ale neptejte, to je stále záhadou.
-CunnersdorfStopBlg
-Vesnická nádra¾ní budova
 CUR_01_128_JH
 Atomium\n\nAtomium bylo vystavìno\njako památka, ale\nnesetkalo se s valným\núspìchem. Proto bylo\npøestavìno na luxusní\nrestauraci. Stoly nahoøe\nnabízí opravdu krásný\nvýhled, a tudí¾ je nutno\nprovádìt rezervaci dva\ntýdny pøedem.\n
-DenkFlor
-Pomník Flora 'WF Ultd.' Wauterse.\n\nTento pomník je vìnován\nFlorovi 'WF Ultd.'\nWautersovi, slavnému\nin¾enýrovi, který vytvoøil\nmno¾ství skvìlých\nsilnièních a ¾eleznièních\nvozidel. Je také dobøe\nznámý za návrhy mnoha\nskvìle fungujících \ntováren.\n
-DenkGeorg
-Georgùv památník.\n\nGeorg (MHz) byl zku¹ený\narchitekt, který navrhl\nnepøeberné mno¾ství budov\ni ve Tvém mìstì. I Tvá\nspoleènost staví nìkterá\nnádra¾í a pøístavy podle\njeho plánù. Se svým citem\npro krásu a detail navrhl\ntaké nìkolik speciálních\nvozidel.\n
-DenkHajo
-Památník Hanse Jörga Malthanera.\n\nTento monument je\nvìnován Hansi\nMalthanerovi, èlovìku který\nsvým nezmìrným úsilým\nrozjel a dlouho øídil vývoj\nSimutransu. Bez jeho\nneutuchajícího zápalu, díky\nkterému projekt pøe¾il i\ndoby, kdy od nìj dávali lidé\nruce pryè, by Simutrans\nnikdy neexistoval.\nNyní se ji¾ na vývoji aktivnì\nnepodílí, ¹tafetu pøevzali jiní.\nPøesto zùstává nejdùle¾itìj¹ím\nèlovìkem v historii Simutransu.\nPokud se Vám hra líbí, po¹lete mu\nprosím podìkování ve formì\nnìjakého hezkého pohledu:\nHansjorg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart.\n
-DenkOwen
-Památník Owena Rudgea\n\nToto místo je vìnováno\nOwenovi Rudgeovi,\nslavnému finanènímu\nexpertovi a zvukovému\ntechnikovi.\n\n
-DenkPatrick
-Patrickùv památník.\n\nTento jableèný pomník patøí\n"PMNV" Patricku Nesbittovi,\nv¹estrannému konstruktérovi, který navrhl\nmnoho budov, lodí a\nsilnièních i ¾eleznièních\nvozidel.\n
-DenkRaven
-Ravenùv pomník\n\nRaven byl slavný in¾enýr,\narchitekt a zakladatel\nspoleènosti RVg - Raven\nVehicles and Gears\nCorporation (Ravenova\nVozdidla a Stroje a.s.),\nkterá vyrábí neuvìøitelnì\n¹irokou øadu vozidel v¹eho\ndruhu. Jejich výrobky jistì\nnajde¹ i ve svém depu. V\nposlední dobì Raven také\nrozvinul svùj architektonický\ntalent a postavil øadu ú¾asných\nbudov.\n
-DenkSeth
-Sethùv památník\n\nTento pomník je vìnován\nSethovi C. Triggsovi,\nslavnému architektovi,\nkterý navrhl mnoho\npøekrásných domù. Je také\ndobøe známý za vytvoøení\nmnoha studií, jak zlep¹it\ndopravní systémy.\n
-DenkTomas
-Kube¹ùv monument\n\nTento pomník je vìnován\nTomá¹i Kube¹ovi, který\npomohl zdokonalit\nSimutrans v mnoha, mnoha\naspektech, a to radami a\ntvrdou prací.\n\n
-DenkTrikky
-Trikkyho monument\n\nTento pomník je vìnován\n'Trikkymu' Rickovi McGrealovi,\nslavnému architektovi který\nnavrhl spoustu pùsobivých\nbudov.\n
-DenkVM
-Tomaschitzùv pomník\n\nTento pomník je vìnován\nManfredu Tomaschitzovi,\nslavnému in¾enýrovi, který\nnavrhl spoustu kvalitních\n¾eleznièních vozidel.\n
-DenkVolker
-Pomník Volkera Meyera\n\nTento pomník je vìnován\nVolkerovi Meyerovi, velkému\nprogramátorskému mágovi,\nkterý zdokonalil Simutrans v\nmnoha oblastech, zvlá¹tì\ntam kde to není na první\npohled vidìt.\n
 ELEMENTARY_SCHOOL_1
 Mateøská ¹kola\n\nZde jsou dìti pøipravovány na dobu, kdy budou opravdu ¹kolou povinné. Zde se pøedev¹ím uèí poslouchat uèitele, ale obèas i kreslit a zpívat.
 ELEMENTARY_SCHOOL_2
 Základní ¹kola\n\nVyuèování zaèíná a¾ v devìt hodin,\nale konèí ji¾ v\npoledne. Navíc se zde uèí i o víkendu. Díky tomu\nje oblíbená u øady rodièù,\nmohou se tak dìtí zbavit i o víkendu a díky tomu si u¾ít\nèas neru¹eného klidu a pohody.
 Firestation
 Mìstská po¾ární stanice\n\nV této po¾ární stanici slou¾í vìt¹inou dobrovolní hasièi.\nKromì po¾árních aut zde parkuje i sanitka,\nale ta je zde jen doèasnì ne¾ bude postaveno nové sídlo RZZS.\n
-Fluid_StationBlg
-Zásobník na kapaliny
 FORT_FUN
 Rodeo\n\nZábavné rodeo mìsteèko. Bylo\npùvodnì postaveno pro\nnatáèení filmu "Sedm\nzpáteèních", o\ndvojnásobném pøepadení\nvlaku na Divokém Západì.\n
-FreightTrainStop
-Nákladové nádra¾í
 french_garden_4
 Veøejnì pøístupný francouzský park
 french_park_1
 Parèík upravený ve francouzském stylu
 FUTURISTIC_TOWER_0
 Vyhlídková vì¾\n\nTato vì¾ nabízí krásný výhled\ndo krajiny, kterou je\nobklopena. Vy¹¹í patro také\nukrývá malý bar, tak¾e si\nmù¾ete dát nìco k pití ke zvý¹ení po¾itku z výhledu.\nAèkoliv ceny zde nejsou\nnízké, atrakce nikdy\nnepostrádá náv¹tìvníky.\n
-Gas_StationBlg
-Zásobník plynu
-Goods_StationBlg
-Sklad
 GRASS_STADIUM
 Malý fotbalový stadion\n\nStadion sice patøí místnímu juniorskému fotbalovému klubu,\nale velmi èasto se zde konají sportovní soutì¾e místních ¹kol.\nA kdy¾ je volno, mù¾e sem pøijít kdokoli a potichu dbát o své tìlo.
 GREEN_HOUSE
 Skleník\n\nTento skleník byl vyu¾íván jako\nobchod. Ale pøed èasem\njeho vlastník pøi¹el na to,\n¾e lidé sem pøicházejí bez\nzjevného zájmu nìco si\nkoupit. A tak zmìnil dùm na\nzimní tropickou zahradu.\nNyní je v nìm spousta\nvzácných kvìtin a dùm je\ndobøe znám po celém svìtì.\n
-hall_extended_station
-Nádra¾ní nákupní centrum
 HIGH_SCHOOL_1
 Støední ¹kola\n\nMísto, kde se mladým lidem\ndostane dal¹í vzdìlání.\nUèeny jsou pøedev¹ím exaktní pøedmìty jako matematika, fyzika a s.pol,\nale studenti se nevyhnou ani výuce jazykù, dìjepisu, zemìpisu, pøírodopisu a dal¹ím.\n
 HIGH_SCHOOL_2
 Historická støední ¹kola\n\nVysoké stropy, ¹iroké chodby, tvrdé ¾idle, pøísní profesoøi, mrzutý ¹kolník, latina, historie, francouz¹tina, etika, matematika... a ¹erm!
 HOUSE_RUINS_0
 Ruina domu\n\nToto kdysi bývala radnice\nmìsta, které u¾ neexistuje.\nHistorikové sem rádi chodí\nvzpomínat na minulost a\nturisté se chodí koukat na\npøedstavení pod stromem.\n
+JUSTICE
+Mìstský soud\n\nMísto øe¹ení vìt¹iny sporù,\nkteré se ve mìstì objeví.\nNení právníka,\nkterý by v této budovì nikdy nebyl.\n
+library_holy_genevieve
+Knihovna sv. Vor¹ily\n\nLeè církevní knihovna, je mo¾né zde potkat nemalé mno¾ství agnostikù i ateistù, kterak dr¾í ¾ivotopisy svatých.
+Lighthouse_0
+Maják\n\nJi¾ od dávných dob ukazuje\ntento maják bezpeènou\ncestu lodím míøícím do\npøístavu. Pøístav sice ji¾\ndávno zanikl, ale maják\nstojí stále. Dnes ji¾\nnenaviguje lodì, stala se z nìj vyhledávaná turistická\natrakce.\n
+Lighthouse_1
+Maják\n\nTento maják byl postaven,\naby navigoval lodì a upozoròoval na nebezpeèné\nútesy ukryté\ntìsnì pod hladinou moøe.\n\n
+MANOR_0
+Zámeèek\n\nTento oblíbený renesanèní\nzámeèek byl døíve velice zajímavý.\nDnes je to domov úspì¹ných obchodníkù (a Napíka),\nale velká èást sídla je zde otevøena jako expozice pro veøejnost.\nK vidìní jsou obrazy z historie a jiné vìci. Aèkoliv\nse to zdá nudné, výstava\nje velice zajímavá.\nZámeèek je ka¾dý den plný\nturistù.\n
+MARKET_PLACE_0
+Tr¾i¹tì\n\nNa mìstském tr¾i¹ti si\nmù¾ete koupit mnoho\nzbyteèností a výjimeènì i\nu¾iteèných vìcí, obdivovat\nse starým øemeslùm,\nposedìt s pøáteli u\nsvaøeného vína, no zkrátka\nstrávit docela pøíjemné\nodpoledne. Pravidelnì se\nzde také poøádají koncerty\na rùzné dal¹í masové akce.\nPøí¹tí týden tu bude dokonce\npøedvolební meeting UDS, ji¾ teï\njsou v¹echny plochy polepené\nplakáty se zelenou koèkou.\n
+MILITARY_RADAR
+Vojenský radar\n\nVojenský objekt, VSTUP ZAKÁZÁN.\nJdìte pryè! Øekl jsem jdìte\npryè! Já to myslel\nVÁ®NÌ!!!!!!!!! OKAM®ITÌ\nZAVØETE TOTO OKNO A\nODSCROLUJTE JINAM\n!!!!!!!!!!!!!!!!!\n
+MT_HOTEL_0
+Hotel\n\nToto je velmi slavný hotel.\nPokoje jsou velmi drahé,\nale ka¾dý pøímo umírá po tom, zùstat zde na víkend\nnebo si alespoò dát jídlo v hotelové restauraci.\n
+MUSEUM_0
+Mìstské technické muzeum\n\nPùvodnì hrádek, poté zámeèek a nakonec mìstské technické muzeum, kterým je dodnes.\nNáv¹tìvníci zde mohou\nobdivovat modely prvních\nletadel, lodí, parních\nlokomotiv a dozvìdìt se\nspoustu dal¹ích\nzajímavostí ze svìta vìdy\na techniky. Pravidelnì se\nzde také poøádají\npøedná¹ky a besedy.\n
+OBSERVATORY
+Hvìzdárna Ondrákov\n\nZatímco jedni astronomové v noci sledují oblohu, ve dne sem pøicházejí turisté,\naby se z malé místní výstavy a také od dal¹ích astronomù dovìdìli, co v¹echno u¾ bylo na hvìzdné obloze objeveno.
+Old_gate
+Stará hradní brána\n\nPùvodnì byla souèástí obrany jednoho hradu,\nale kdy¾ hrad spadl,\nstala se souèástí hradeb mìsta,\nkteré vyrostlo pod ním.\nA kdy¾ se mìsto rozrostlo tak,\n¾e mu bylo území chránìné hradbami malé,\nbyly hradby zbourány a zbyla jen tato brána.
+OLD_HOUSE_0
+Starý dùm\n\nTato skupina starých\nrenesanèních domù byla\nnedávno zmìnìna na\nmuzeum architektury.\nProhlídka nabízí mnoho\nobrazù z minulosti budov.\nVýstava je zajímavá a\nsnadná k porozumìní a je\nka¾dý den hojnì\nnav¹tìvovaná.\n
+Pagoda01
+Chrám Ètyø vìtrù\n\nNìkolikapatrová pagoda slou¾í pøedev¹ím jako poutní místo místní budhistické komunity,\nale je otevøená i pro nevìøící.
+PARK_0
+Park\n\nToto je krásný a oblíbený park,\nkde si mohou unavení lidé\nsednout na lavièky, nebo\nle¾et na trávì a relaxovat.\nMístní lidé jej nedají za\n¾ádnou cenu.\n
+Percival_Maya_Temple
+Simajský chrám\n\nNedávné sondy a následné vykopávky odhalily, ¾e kopeèek známý v¾dy jako "hranatý" ve skuteènosti ukrývá trosky dávné vyspìlé civilizace. Jaké ¹tìstí, ¾e si na své výpravì Sir Percival v¹iml nápadné podoby kamenných tabulek, které okolní rolníci pravidelnì vyorávají a opìt zahazují. Na rozdíl od místních domorodcù nelenil a poèal kopat v pøedtu¹e objevitelské slávy. Po dlouhém a neúspì¹ném pátrání v okolí vsadil na triangulaci, kterou jeho rival, Lord Pecivál, pova¾oval za módní výstøelek. Úspìch na sebe nenechal dlouho èekat. Na poèest právì probíhajícího mìsíce pak nazval novì objevenou civilizaci Simájskou.
+radiant_house
+Záøící dùm\n\nUkázka modernistické architektury padesátých a¾ ¹edesátých let dvacátého století. Leè zapsán na seznam chránìných budov, stále obýván. A to lidmi, kteøí nemají pøíli¹né po¾adavky na komfort.
+RADIO_TOWER_0
+FM rádio stanice\n\nVìt¹inu èasu odtud vysílá rádio Skøivan FM.\nMezi 13:00 a 14:30 je zde fronta lidí,\nkteøí chtìjí být hostem vysílání.\n
+rmax_clock_tower
+Hodinová vì¾\n\nNavzdory její podobì s mýtickou\nfabulónskou vì¾í není tato\nbudova pøíli¹ letitá. I tak\nmá ale vìk na to, aby ji\nmísto dnes módních rádiem\nøízených èasových\nzákladen pohánìlo solidní\nmosazné soustrojí.\n
+rmax_courthouse
+Palác\n\nJeden z mnoha palácù rodu Ermaxù.\nPøed nìkolika lety byl Ermaxùm v\nsouladu s Hansovými\ndekrety zabaven a od té\ndoby v nìm sídlí muzeum\nhistorie Simutrans. Rod\nErmaxù se ale nechce\nsvého majetku vzdát a o palác se neustále soudí.\n
+rmax_icarus
+Raketodrom\n\nTento raketodrom patøí firmì\nIcarus, svìtoznámé díky\ntomu, ¾e jako jedna z prvních v komerèním\nsektoru zvládla techniku\nvypou¹tìní satelitù.\nStarty raket jsou pro turisty\nvelkým lákadlem.\n
+rmax_mosque
+Omarova me¹ita\n\nDøíve\npravoslavný kostel Ilji\nMuromce. Pøesto¾e budova\nzmìnila svého majitele i\nvyznání, zahradník v èerném rouchu s dlouhým\nvousem zùstal. Je to jediná\nosoba na svìtì zapsaná v historických památkách\nUNESCO. Rozhodnì tak\nvypadá.\n
+ROCK_0
+Patrickova skála\n\nSkála láká hodnì geologù, kteøí jsou\nfascinováni tímto\nvyhaslým vulkánem.\n
+RUIN_0
+Hrad\n\nPùvodnì zde stál gotický hrad.\nNicménì jeho majitel si na\nzaèátku 20. století\nuvìdomil, ¾e takový hrad\nmu ji¾ mnoho penìz\nnepøinese, a tak jej\npøestavìl na støedovìký\nzábavný a nauèný park. Od\nté doby se dveøe nezavøou,\nproudy lidí chodí obdivovat\n¹ermíøské souboje a\nvýstavy rùzných zajímavých\nvìcièek. Nejvyhlá¹enìj¹í atrakcí\nje ale pravá støedovìká muèírna\n- za tuèný poplatek a podepsání\nzávazku o tom, ¾e se vzdáváte\nmo¾nosti majitele ¾alovat za\njakoukoliv újmu se mù¾ete\nnechat natáhnout na skøipec,\nzavøít do ocelové panny, hodit\ndo hladomorny nebo si nechat\ndrtit ruce. Muèírna ale vlastnì\nnebyla tak populární v¾dy. Její\npopularita vzrostla tehdy, kdy¾\nmajitel nabídl za pøíplatek tajnì\nobjednat muèení pro svého\npartnera a to vèetnì stylového\nodvleèení v rukou biøicù. Rodinný\nvýlet, tak mù¾e nabrat neèekaný\nspád. Hned vedle muèírny je pro\njistotu man¾elská poradna\nslavného doktora Radima\nTkanièky.\n
+RUIN_1
+Ruina hradu\n\nToto je zøícenina slavného hradu.\nHodnì kapitol\nhistorie bylo napsáno právì zde.\nZ tohoto dùvodu je\ntoto místo skuteèným\nmagnetem pro turisty z celého svìta.\n
+Russian_Cathedral
+Katedrála svatého Vasila\n\nTahle katedrála byla postavena hlavnì pro lázeòské hosty z Ruska. Na m¹e jich moc nechodí, ale vzhledem k jejich bohatství a ¹tìdrosti chrám rozhodnì nechátrá. Uvnitø je nádherný ikonostas, na jeho¾ výstavu prý padl celý les.
+Sacred_heart_church
+Kostel Nejsvìtìj¹ího srdce Pánì\n\nJiné kostely jsou vìt¹inou zavøené, ale tento je otevøen po celý den - i v noci. Zatímco vìøící se chodí modlit, nevìøící obdivují výzdobu a architekturu.
+Secession_Chapel
+Men¹í secesní kaple\n\nStøechu má u¾ na¹tìstí opravenou. Obèas nìkdo zapálí svíèku pod køí¾kem.
+sh_oasis_seasons
+Oáza\n\nJedno z mála míst v pou¹ti, kde se dá najít voda a tudí¾ i bujnìj¹í vegetace. Kdysi se zde zastavovaly\nkaravany na nebezpeèné\ncestì pustinou, dnes je\nnavzdory jisté om¹elosti\nodpoèinek pod palmami a fotografie s velbloudem\nstále vyhledávaným\nturistickým zá¾itkem.\n
+SMALL_MANOR
+Sídlo Lorda Aquaka\n\n©lechtic se stal slavným nejen\ndíky svému jménu, které se\nstalo základem pro\npobavení mnoha generací\n(mluvil tu nìkdo o\nkachnách?), ale také pro\nsvé sídlo: lord Aquak se\nnavzdory svému jménu\npanicky bál vody, proto\nnechal postavit první dvì\npatra vodotìsná. \nZdej¹í kopec je také slavný tím,\n¾e se na nìm v dvanáctém\nstoletí zachránily tisíce obyvatel\nmìsta v údolí pøed povodní.\nMístní ten podivný dùm proto\nberou jako talisman pro ¹tìstí.\n
+st_benedict_church
+Chrám Svatého Benedikta\n\nByl postaven za císaøe\nDiokleciána v byzantském\nslohu a je jednou z nejstar¹ích dochovaných\npamátek Simusvìta. Andìl\nna nejvy¹¹í vì¾i má\npohnutou historii. Je ze skla a mnohokrát v historii\nèelil nepøízni poèasí i válkám, pøesto dodnes na\nSlunci záøí vnitøním svìtlem\nneporu¹en. Legenda praví, ¾e je\nv nìm uchováno èisté srdce\nSpasitele.\n
+ST_PETER
+Svatý Petr\n\nPozdnì románský kostel\npostavený okolo r. 1220, s\nkøí¾ovou lodí zdobenou\nfreskami z poloviny 13.\nstoletí. V prosklené rakvi je\nulo¾eno mumifikované tìlo\nkrálovského správce Petra\nBoka, které pøetrvalo po\nsedm staletí a¾ do dne¹ní\ndoby beze zmìny. Podle\nlegendy byl Petr Bok tak\n¹tìdrým mecená¹em kostela,\nproto¾e byl hnán strachem o své\nzdraví. Za to byl po smrti\n"odmìnìn" skuteènì\nneznièitelným tìlem. \n
+TRIUMPH
+Vítìzný oblouk\n\nOblouk vítìzství byl vystavìn\nslavným králem Napikem na pøipomínku velikosti jeho\narmád. Dnes u¾ v bránì\nnezní okované boty, ale\n¹tìbetání turistù, kteøí se\npozastavují nad ohromující\narchitekturou dávných dob,\nkdy v tomto mìstì pùsobil\nslavný architekt M.H.Z.\nGeorg.\n
+TV_TOWER_0
+Vysílaè\n\nTelevizní vysílaè spoleènosti BBQ.\nNahoøe je nainstalována\nwebkamera, která právì\npøená¹í vá¹ udivený oblièej\ndo studia - usmívejte se!\nTøeba vás vyberou do reality show Malá sestra,\nkde se z úèastníkù stávají\no¹etøovatelé v domovì\ndùchodcù.\n
+TV_TOWER_1
+Televizní vysílaè\n\nTato vì¾ si ve své dobì\ntroufla pokoøit svou vý¹kou\ni ty nejvìt¹í budovy na\nsvìtì. O prvenství ji\npøipravil po pìti letech\nnìjaký jiný vysílaè kdesi v\nTramtárii. Co ov¹em zùstalo\nzachováno je výraznì lep¹í\ntelevizní signál pro obyvatele nìkolika stovek\nètvereèních kilometrù okolo.\n
+WHEEL
+Ruské kolo\n\nV¹em je dobøe známá - hlavnì\nstar¹í generaci,\nkterá chodila do zábavných\nparkù. Dnes je to spí¹\nvyhlídkové místo pro dìti,\naby se podívaly kde v parku co stojí.\n
+Windmill
+Vìtrný mlýn\n\nNìkdo se chodí dívat na vìtrný\nmlýn, proto¾e se mu líbí\nelegance, se kterou se otáèí jeho lopatky;\nnìkdo zase proto¾e se mu\nchce na procházku a nemá\nv okolí lep¹í cíl. No a nìkteøí\nvýtr¾níci chodí k vìtrnému\nmlýnu, aby si po nìm\nvyzkou¹eli hodit kamenem.\n
+WOODEN_CHURCH
+Døevìný kostel\n\nTento kostel byl postavený\nlidmi, kteøí mají rádi výzvy,\nstojí bez pou¾ití jediného\nhøebíèku.\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
+1920_AirDepot
+Základní hangár
+1930AirDepot
+Døevìný hangár
+1940AirDepot
+Plechový Hangár
+1950AirDepot
+Zdìný hangár
+1990AirDepot
+Moderní Hangár
+CarDepot
+Gará¾e
+MonorailDepot
+Depo visuté dráhy
+ShipDepot
+Dok
+TrainDepot
+Vlakové depo
+TramDepot
+Tramvajové depo
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
+Airport1920_AirportBlg
+Odbavovací hala
+Airport1930PostOffice
+Letecká po¹ta
+Airport1990_Big_AirportBlg
+Leti¹tní Terminál
+Airport1990_Big_PostOffice
+Velký po¹tovní terminál
+Airport1990_Entrance_AirportBlg
+Vstupní brána
+Airport1990_Gates_AirportBlg
+Prùchod
+Airport1990_PostOffice
+Letecká po¹ta
+Airport1990_Small_AirportBlg
+Moderní Èekárna
+Airport1990_Small_PostOffice
+Malý po¹tovní terminál
+Airport1990_Warehouse
+Budova nákladní dopravy (CARGO)
+Almuthof_StationBlg
+Vesnická stanice
+Avila_Big_StationBlg
+Velká nádra¾ní hala
+Avila_Small_StationBlg
+Malá nádra¾ní hala
+Avila_Warehouse_StationBlg
+Sklad
+BigTerminal1930_AirportBlg
+Velká odbavovací hala
+BigTerminal1950_AirportBlg_S
+Velká odbavovací hala
+Bulk_StationBlg
+Sklad sypkých hmot
+Car_StationBlg
+Parkovi¹tì
+container_crane_span
+Velký kontejnerový jeøáb
+containercrane
+Malý kontejnerový jeøáb
+Control_StationBlg
+Nádra¾ní velín
+CunnersdorfStopBlg
+Vesnická nádra¾ní budova
+Fluid_StationBlg
+Zásobník na kapaliny
+Gas_StationBlg
+Zásobník plynu
+Goods_StationBlg
+Sklad
+hall_extended_station
+Nádra¾ní nákupní centrum
+LuftPost1950_AirportBlg
+Budova letecké po¹tovní spoleènosti
+Modern_Warehouse
+Moderní skladi¹tì
+modern_warehouse_big
+Velké skladi¹tì
+ModernPostOffice
+Moderní po¹ta
+ModernPostOfficeLarge
+Velký po¹tovní úøad
+MonorailFoundation
+Základy jednokolejky
+plain_tile_high
+Manipulaèní plocha
+PostOffice
+Po¹ta
+PostOffice1920_AirportBlg
+Letecká Po¹ta
+PostOfficeOldLarge
+Velký po¹tovní úøad
+Radar3
+Radar
+ramp_tile_high
+Manipulaèní rampa
+Terminal1930_AirportBlg
+Malá leti¹tní hala
+Terminal1950_AirportBlg_S
+Malá leti¹tní hala
+Tower1920_AirportBlg
+Základní leti¹tní vì¾
+Tower1930_AirportBlg
+Malá øídící vì¾
+Tower1950_AirportBlg
+Øídící vì¾
+Tower1990_AirportBlg
+Moderní leti¹tní vì¾
+Very_Big_Terminal
+Gigantická odbavovací hala (3x3)
+VictorianStation
+Stanice ve viktoriánském stylu
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+Pøístav na sypké materiály
+Crate_Goods_Dock
+Kontejnerový pøístav
+Long_Goods_Dock
+Nákladní pøístav
+Post_Dock
+Pøístav s po¹tou
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
 HQ1
 Tady odsuï øídí¹ svoji firmu, projektuje¹ tady tratì a zadává¹ nákupy vozidel. A¾ si vydìlá¹ víc bude¹ si moci dovolit lep¹í sídlo.
 HQ2
 Øídící støedisko Simutrans\nTato budova ukrývá ve svých zdech obrovské øídící centrum, ze kterého se øídí v¹e od východu a západu slunce a¾ po zpìv ptákù.\nNe, ve skuteènosti je toto obyèejná budova plná obyèejných kanceláøí a je¹tì obyèejnìj¹ích úøedníkù... a nebo ne?
+#________________________________building - ind_________________________________
+#________________________________building - ind_________________________________
 IND_00_01
 Tento malý domeèek hezky\nna kopeèku je úplnì\nú¾asným místem pro výrobu\nhluku. Toto je tedy místní\ntovárna na hluk! Lidé sem\npøijdou, vyrábí hluk, vyrábí\ndokonce tolik hluku na kolik\njim jejich síli staèí. Jediný\nháèek je v tom, ¾e pøi\nodchodu se musí platit.\nKolik je tøeba platit není\nnikdy známo pøedem, tak¾e\nto mù¾e eventualnì vést a¾ k\ntomu, ¾e nìkteøí lidé pokraèují ve\nvýrobì hluku dále.\n
 IND_00_02
@@ -876,90 +966,40 @@ IND_11_58
 Tento rozsáhlý komplex\nlaboratoøí je provozován Dr.\nMolybdenusem. Nìkteøí lidé\ntvrdí, ¾e je to ¹ílenec,\nkterý vy¾aduje, aby jeho\nvìdci v práci chodili v\nropuchovì zelených\nplá¹tích a místo pozdravu\nøíká "kvak". Nìkteøí\nzamìstnanci se domnívají,\n¾e je to výsledek nìjakého\nnezdaøeného experimentu s\n¾ábami a rentgenovým záøením,\nale to je pouze teorie. Faktem\nzùstává, ¾e to skuteènì není\n¾ádný krasavec a za své slu¾by\nsi úètuje dvakrát tolik, ne¾\nkdokoliv jiný.\n
 IND_12_16
 Hongkong¹tí textilní výrobci\nvrací úder! Pøevzali jednu z\ntováren a vyu¾ívají jí jako\ndílny pro jejich vlastní\nvýrobky. Na¹tìstí jim zatím\núøady nepovolily prodej,\nproto¾e dali na trièka\nchybné oznaèení Made in\nHongkong. \n
-JUSTICE
-Mìstský soud\n\nMísto øe¹ení vìt¹iny sporù,\nkteré se ve mìstì objeví.\nNení právníka,\nkterý by v této budovì nikdy nebyl.\n
-library_holy_genevieve
-Knihovna sv. Vor¹ily\n\nLeè církevní knihovna, je mo¾né zde potkat nemalé mno¾ství agnostikù i ateistù, kterak dr¾í ¾ivotopisy svatých.
-Lighthouse_0
-Maják\n\nJi¾ od dávných dob ukazuje\ntento maják bezpeènou\ncestu lodím míøícím do\npøístavu. Pøístav sice ji¾\ndávno zanikl, ale maják\nstojí stále. Dnes ji¾\nnenaviguje lodì, stala se z nìj vyhledávaná turistická\natrakce.\n
-Lighthouse_1
-Maják\n\nTento maják byl postaven,\naby navigoval lodì a upozoròoval na nebezpeèné\nútesy ukryté\ntìsnì pod hladinou moøe.\n\n
-Long_Goods_Dock
-Nákladní pøístav
-LuftPost1950_AirportBlg
-Budova letecké po¹tovní spoleènosti
-MANOR_0
-Zámeèek\n\nTento oblíbený renesanèní\nzámeèek byl døíve velice zajímavý.\nDnes je to domov úspì¹ných obchodníkù (a Napíka),\nale velká èást sídla je zde otevøena jako expozice pro veøejnost.\nK vidìní jsou obrazy z historie a jiné vìci. Aèkoliv\nse to zdá nudné, výstava\nje velice zajímavá.\nZámeèek je ka¾dý den plný\nturistù.\n
-MARKET_PLACE_0
-Tr¾i¹tì\n\nNa mìstském tr¾i¹ti si\nmù¾ete koupit mnoho\nzbyteèností a výjimeènì i\nu¾iteèných vìcí, obdivovat\nse starým øemeslùm,\nposedìt s pøáteli u\nsvaøeného vína, no zkrátka\nstrávit docela pøíjemné\nodpoledne. Pravidelnì se\nzde také poøádají koncerty\na rùzné dal¹í masové akce.\nPøí¹tí týden tu bude dokonce\npøedvolební meeting UDS, ji¾ teï\njsou v¹echny plochy polepené\nplakáty se zelenou koèkou.\n
-medium_classic_bus_stop
-Autobusová zastávka
-medium_early_bus_stop
-Stará autobusová zastávka
-medium_modern_bus_stop
-Moderní zastávka
-MILITARY_RADAR
-Vojenský radar\n\nVojenský objekt, VSTUP ZAKÁZÁN.\nJdìte pryè! Øekl jsem jdìte\npryè! Já to myslel\nVÁ®NÌ!!!!!!!!! OKAM®ITÌ\nZAVØETE TOTO OKNO A\nODSCROLUJTE JINAM\n!!!!!!!!!!!!!!!!!\n
-Modern_Warehouse
-Moderní skladi¹tì
-modern_warehouse_big
-Velké skladi¹tì
-ModernPostOffice
-Moderní po¹ta
-ModernPostOfficeLarge
-Velký po¹tovní úøad
-ModernTrainStop
-Moderní vlakové nádra¾í
-MonorailDepot
-Depo visuté dráhy
-MonorailFoundation
-Základy jednokolejky
-MonorailGround
-Podlo¾í jednokolejky
-MT_HOTEL_0
-Hotel\n\nToto je velmi slavný hotel.\nPokoje jsou velmi drahé,\nale ka¾dý pøímo umírá po tom, zùstat zde na víkend\nnebo si alespoò dát jídlo v hotelové restauraci.\n
-MUSEUM_0
-Mìstské technické muzeum\n\nPùvodnì hrádek, poté zámeèek a nakonec mìstské technické muzeum, kterým je dodnes.\nNáv¹tìvníci zde mohou\nobdivovat modely prvních\nletadel, lodí, parních\nlokomotiv a dozvìdìt se\nspoustu dal¹ích\nzajímavostí ze svìta vìdy\na techniky. Pravidelnì se\nzde také poøádají\npøedná¹ky a besedy.\n
-OBSERVATORY
-Hvìzdárna Ondrákov\n\nZatímco jedni astronomové v noci sledují oblohu, ve dne sem pøicházejí turisté,\naby se z malé místní výstavy a také od dal¹ích astronomù dovìdìli, co v¹echno u¾ bylo na hvìzdné obloze objeveno.
-OfficeTrainStop
-Krytá ¾eleznièní zastávka
-Old_gate
-Stará hradní brána\n\nPùvodnì byla souèástí obrany jednoho hradu,\nale kdy¾ hrad spadl,\nstala se souèástí hradeb mìsta,\nkteré vyrostlo pod ním.\nA kdy¾ se mìsto rozrostlo tak,\n¾e mu bylo území chránìné hradbami malé,\nbyly hradby zbourány a zbyla jen tato brána.
-OLD_HOUSE_0
-Starý dùm\n\nTato skupina starých\nrenesanèních domù byla\nnedávno zmìnìna na\nmuzeum architektury.\nProhlídka nabízí mnoho\nobrazù z minulosti budov.\nVýstava je zajímavá a\nsnadná k porozumìní a je\nka¾dý den hojnì\nnav¹tìvovaná.\n
-OpenTrainStop
-Peron
-Pagoda01
-Chrám Ètyø vìtrù\n\nNìkolikapatrová pagoda slou¾í pøedev¹ím jako poutní místo místní budhistické komunity,\nale je otevøená i pro nevìøící.
-PARK_0
-Park\n\nToto je krásný a oblíbený park,\nkde si mohou unavení lidé\nsednout na lavièky, nebo\nle¾et na trávì a relaxovat.\nMístní lidé jej nedají za\n¾ádnou cenu.\n
-parking_(catchemnt_area_ext)1
-Parkovi¹tì
-parking_(catchemnt_area_ext)2
-Parkovi¹tì
-parking_(catchemnt_area_ext)3
-Parkovi¹tì
-Percival_Maya_Temple
-Simajský chrám\n\nNedávné sondy a následné vykopávky odhalily, ¾e kopeèek známý v¾dy jako "hranatý" ve skuteènosti ukrývá trosky dávné vyspìlé civilizace. Jaké ¹tìstí, ¾e si na své výpravì Sir Percival v¹iml nápadné podoby kamenných tabulek, které okolní rolníci pravidelnì vyorávají a opìt zahazují. Na rozdíl od místních domorodcù nelenil a poèal kopat v pøedtu¹e objevitelské slávy. Po dlouhém a neúspì¹ném pátrání v okolí vsadil na triangulaci, kterou jeho rival, Lord Pecivál, pova¾oval za módní výstøelek. Úspìch na sebe nenechal dlouho èekat. Na poèest právì probíhajícího mìsíce pak nazval novì objevenou civilizaci Simájskou.
-plain_tile_high
-Manipulaèní plocha
-Post_Dock
-Pøístav s po¹tou
-PostOffice
-Po¹ta
-PostOffice1920_AirportBlg
-Letecká Po¹ta
-PostOfficeOldLarge
-Velký po¹tovní úøad
-Radar3
-Radar
-radiant_house
-Záøící dùm\n\nUkázka modernistické architektury padesátých a¾ ¹edesátých let dvacátého století. Leè zapsán na seznam chránìných budov, stále obýván. A to lidmi, kteøí nemají pøíli¹né po¾adavky na komfort.
-RADIO_TOWER_0
-FM rádio stanice\n\nVìt¹inu èasu odtud vysílá rádio Skøivan FM.\nMezi 13:00 a 14:30 je zde fronta lidí,\nkteøí chtìjí být hostem vysílání.\n
-ramp_tile_high
-Manipulaèní rampa
+#________________________________building - mon_________________________________
+#________________________________building - mon_________________________________
+DenkFlor
+Pomník Flora 'WF Ultd.' Wauterse.\n\nTento pomník je vìnován\nFlorovi 'WF Ultd.'\nWautersovi, slavnému\nin¾enýrovi, který vytvoøil\nmno¾ství skvìlých\nsilnièních a ¾eleznièních\nvozidel. Je také dobøe\nznámý za návrhy mnoha\nskvìle fungujících \ntováren.\n
+DenkGeorg
+Georgùv památník.\n\nGeorg (MHz) byl zku¹ený\narchitekt, který navrhl\nnepøeberné mno¾ství budov\ni ve Tvém mìstì. I Tvá\nspoleènost staví nìkterá\nnádra¾í a pøístavy podle\njeho plánù. Se svým citem\npro krásu a detail navrhl\ntaké nìkolik speciálních\nvozidel.\n
+DenkHajo
+Památník Hanse Jörga Malthanera.\n\nTento monument je\nvìnován Hansi\nMalthanerovi, èlovìku který\nsvým nezmìrným úsilým\nrozjel a dlouho øídil vývoj\nSimutransu. Bez jeho\nneutuchajícího zápalu, díky\nkterému projekt pøe¾il i\ndoby, kdy od nìj dávali lidé\nruce pryè, by Simutrans\nnikdy neexistoval.\nNyní se ji¾ na vývoji aktivnì\nnepodílí, ¹tafetu pøevzali jiní.\nPøesto zùstává nejdùle¾itìj¹ím\nèlovìkem v historii Simutransu.\nPokud se Vám hra líbí, po¹lete mu\nprosím podìkování ve formì\nnìjakého hezkého pohledu:\nHansjorg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart.\n
+DenkOwen
+Památník Owena Rudgea\n\nToto místo je vìnováno\nOwenovi Rudgeovi,\nslavnému finanènímu\nexpertovi a zvukovému\ntechnikovi.\n\n
+DenkPatrick
+Patrickùv památník.\n\nTento jableèný pomník patøí\n"PMNV" Patricku Nesbittovi,\nv¹estrannému konstruktérovi, který navrhl\nmnoho budov, lodí a\nsilnièních i ¾eleznièních\nvozidel.\n
+DenkRaven
+Ravenùv pomník\n\nRaven byl slavný in¾enýr,\narchitekt a zakladatel\nspoleènosti RVg - Raven\nVehicles and Gears\nCorporation (Ravenova\nVozdidla a Stroje a.s.),\nkterá vyrábí neuvìøitelnì\n¹irokou øadu vozidel v¹eho\ndruhu. Jejich výrobky jistì\nnajde¹ i ve svém depu. V\nposlední dobì Raven také\nrozvinul svùj architektonický\ntalent a postavil øadu ú¾asných\nbudov.\n
+DenkSeth
+Sethùv památník\n\nTento pomník je vìnován\nSethovi C. Triggsovi,\nslavnému architektovi,\nkterý navrhl mnoho\npøekrásných domù. Je také\ndobøe známý za vytvoøení\nmnoha studií, jak zlep¹it\ndopravní systémy.\n
+DenkTomas
+Kube¹ùv monument\n\nTento pomník je vìnován\nTomá¹i Kube¹ovi, který\npomohl zdokonalit\nSimutrans v mnoha, mnoha\naspektech, a to radami a\ntvrdou prací.\n\n
+DenkTrikky
+Trikkyho monument\n\nTento pomník je vìnován\n'Trikkymu' Rickovi McGrealovi,\nslavnému architektovi který\nnavrhl spoustu pùsobivých\nbudov.\n
+DenkVM
+Tomaschitzùv pomník\n\nTento pomník je vìnován\nManfredu Tomaschitzovi,\nslavnému in¾enýrovi, který\nnavrhl spoustu kvalitních\n¾eleznièních vozidel.\n
+DenkVolker
+Pomník Volkera Meyera\n\nTento pomník je vìnován\nVolkerovi Meyerovi, velkému\nprogramátorskému mágovi,\nkterý zdokonalil Simutrans v\nmnoha oblastech, zvlá¹tì\ntam kde to není na první\npohled vidìt.\n
+rmax_DenkManualTeam
+Neuhasínající pochodeò\n\nTento pomník ve tvaru hoøící\npochodnì je vìnován v¹em,\nkteøí pomohli a pomáhají vytváøet\nnápovìdu, Wiki, a ostatní\nmanuály. Nech» tato\npochodeò hoøí po celou\ndobu existence Simutrans a\npøipomíná v¹echny ty, kteøí\nSimutrans vìnovali tolik èasu.\n
+rmax_dictator_statue
+Pøívìtivý diktátor\n\nPøívìtivý diktátor (s rukou pod vestou) - tak mnoho panen\nbylo nalezeno v mdlobách u\npodstavce této sochy, ¾e Ministerstvo chtíèe a nedoèkavosti naøídilo\nprostranství ohradit\n¾elezným lanem.\nOpatøení se v¹ak minulo úèinkem. Od té doby mnoho místních vìøí,\n¾e tato socha\nvyzaøuje nìjakou neznámou energii plodnosti.\n
+rmax_fabio_bust
+Fagonellus Romanus\n\nPomník Fabia Gonella,\njednoho z mnoha tvùrcù objektù ve høe.
+WernerServer
+Wernerùv pomník\n\nUvnitø stavby pøipomínající skøíò poèítaèe je umístìn poèítaè s ulo¾eným vìdomím lidí, bez nich¾ by Simutrans nebylo mo¾no hrát po síti.
+#________________________________building - res_________________________________
+#________________________________building - res_________________________________
 RES_00_01
 "U zálesáka" - alespoò to\ntvrdí cedule na okraji\npozemku. Tento kemp je\nsice ve mìstì, ale ohníèek\nje povolen. Mnoho\nrekreantu si svoji veèeøi\nuloví naèerno v nedalekém\nparkovém jezírku.\n
 RES_00_02
@@ -1564,88 +1604,82 @@ RES_16_14
 Rodinný domek s krbem.\nKdo by takový nechtìl?\n\n
 RES_16_20
 Tento bytový dvojdomek je\nvrcholným dílem architekta\nRavena. Bohu¾el ji¾ nemìl\nmo¾nost dal¹í budovy\nnavrhnout, proto¾e byl\nprohlá¹en za blázna poté,\nco se prohlásil, ¾e pøestaví\ncelý svìt Simutrans k\nobrazu svému.\n
-rmax_clock_tower
-Hodinová vì¾\n\nNavzdory její podobì s mýtickou\nfabulónskou vì¾í není tato\nbudova pøíli¹ letitá. I tak\nmá ale vìk na to, aby ji\nmísto dnes módních rádiem\nøízených èasových\nzákladen pohánìlo solidní\nmosazné soustrojí.\n
-rmax_courthouse
-Palác\n\nJeden z mnoha palácù rodu Ermaxù.\nPøed nìkolika lety byl Ermaxùm v\nsouladu s Hansovými\ndekrety zabaven a od té\ndoby v nìm sídlí muzeum\nhistorie Simutrans. Rod\nErmaxù se ale nechce\nsvého majetku vzdát a o palác se neustále soudí.\n
-rmax_DenkManualTeam
-Neuhasínající pochodeò\n\nTento pomník ve tvaru hoøící\npochodnì je vìnován v¹em,\nkteøí pomohli a pomáhají vytváøet\nnápovìdu, Wiki, a ostatní\nmanuály. Nech» tato\npochodeò hoøí po celou\ndobu existence Simutrans a\npøipomíná v¹echny ty, kteøí\nSimutrans vìnovali tolik èasu.\n
-rmax_dictator_statue
-Pøívìtivý diktátor\n\nPøívìtivý diktátor (s rukou pod vestou) - tak mnoho panen\nbylo nalezeno v mdlobách u\npodstavce této sochy, ¾e Ministerstvo chtíèe a nedoèkavosti naøídilo\nprostranství ohradit\n¾elezným lanem.\nOpatøení se v¹ak minulo úèinkem. Od té doby mnoho místních vìøí,\n¾e tato socha\nvyzaøuje nìjakou neznámou energii plodnosti.\n
-rmax_fabio_bust
-Fagonellus Romanus\n\nPomník Fabia Gonella,\njednoho z mnoha tvùrcù objektù ve høe.
-rmax_icarus
-Raketodrom\n\nTento raketodrom patøí firmì\nIcarus, svìtoznámé díky\ntomu, ¾e jako jedna z prvních v komerèním\nsektoru zvládla techniku\nvypou¹tìní satelitù.\nStarty raket jsou pro turisty\nvelkým lákadlem.\n
-rmax_mosque
-Omarova me¹ita\n\nDøíve\npravoslavný kostel Ilji\nMuromce. Pøesto¾e budova\nzmìnila svého majitele i\nvyznání, zahradník v èerném rouchu s dlouhým\nvousem zùstal. Je to jediná\nosoba na svìtì zapsaná v historických památkách\nUNESCO. Rozhodnì tak\nvypadá.\n
-ROCK_0
-Patrickova skála\n\nSkála láká hodnì geologù, kteøí jsou\nfascinováni tímto\nvyhaslým vulkánem.\n
-RUIN_0
-Hrad\n\nPùvodnì zde stál gotický hrad.\nNicménì jeho majitel si na\nzaèátku 20. století\nuvìdomil, ¾e takový hrad\nmu ji¾ mnoho penìz\nnepøinese, a tak jej\npøestavìl na støedovìký\nzábavný a nauèný park. Od\nté doby se dveøe nezavøou,\nproudy lidí chodí obdivovat\n¹ermíøské souboje a\nvýstavy rùzných zajímavých\nvìcièek. Nejvyhlá¹enìj¹í atrakcí\nje ale pravá støedovìká muèírna\n- za tuèný poplatek a podepsání\nzávazku o tom, ¾e se vzdáváte\nmo¾nosti majitele ¾alovat za\njakoukoliv újmu se mù¾ete\nnechat natáhnout na skøipec,\nzavøít do ocelové panny, hodit\ndo hladomorny nebo si nechat\ndrtit ruce. Muèírna ale vlastnì\nnebyla tak populární v¾dy. Její\npopularita vzrostla tehdy, kdy¾\nmajitel nabídl za pøíplatek tajnì\nobjednat muèení pro svého\npartnera a to vèetnì stylového\nodvleèení v rukou biøicù. Rodinný\nvýlet, tak mù¾e nabrat neèekaný\nspád. Hned vedle muèírny je pro\njistotu man¾elská poradna\nslavného doktora Radima\nTkanièky.\n
-RUIN_1
-Ruina hradu\n\nToto je zøícenina slavného hradu.\nHodnì kapitol\nhistorie bylo napsáno právì zde.\nZ tohoto dùvodu je\ntoto místo skuteèným\nmagnetem pro turisty z celého svìta.\n
-Russian_Cathedral
-Katedrála svatého Vasila\n\nTahle katedrála byla postavena hlavnì pro lázeòské hosty z Ruska. Na m¹e jich moc nechodí, ale vzhledem k jejich bohatství a ¹tìdrosti chrám rozhodnì nechátrá. Uvnitø je nádherný ikonostas, na jeho¾ výstavu prý padl celý les.
-Sacred_heart_church
-Kostel Nejsvìtìj¹ího srdce Pánì\n\nJiné kostely jsou vìt¹inou zavøené, ale tento je otevøen po celý den - i v noci. Zatímco vìøící se chodí modlit, nevìøící obdivují výzdobu a architekturu.
-Secession_Chapel
-Men¹í secesní kaple\n\nStøechu má u¾ na¹tìstí opravenou. Obèas nìkdo zapálí svíèku pod køí¾kem.
-sh_oasis_seasons
-Oáza\n\nJedno z mála míst v pou¹ti, kde se dá najít voda a tudí¾ i bujnìj¹í vegetace. Kdysi se zde zastavovaly\nkaravany na nebezpeèné\ncestì pustinou, dnes je\nnavzdory jisté om¹elosti\nodpoèinek pod palmami a fotografie s velbloudem\nstále vyhledávaným\nturistickým zá¾itkem.\n
-ShipDepot
-Dok
-ShipStop
-Osobní pøístav
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+Stojánka
+big_classic_bus_stop
+Velká zastávka
+big_modern_bus_stop
+Velká moderní zastávka
+bus_terminus
+Autobusový terminál
+canal_ChannelStop
+Pøístavi¹tì na prùplavu
+canal_ware_stop
+Pøístavi¹tì na prùplavu (nákladní)
+CargoHighStop
+Prùjezdní nakládací rampa
+classic_mailbox
+Po¹tovní schránka
+ClosedTrainStop
+Zastøe¹ené nástupi¹tì
+CoalTrainStop
+Pøekladi¹tì uhlí
+Container1TrainStop
+Pøekladi¹tì kontejnerù
+Container2TrainStop
+Moderní pøekladi¹tì kontejnerù
+FreightTrainStop
+Nákladové nádra¾í
+medium_classic_bus_stop
+Autobusová zastávka
+medium_early_bus_stop
+Stará autobusová zastávka
+medium_modern_bus_stop
+Moderní zastávka
+ModernTrainStop
+Moderní vlakové nádra¾í
+OfficeTrainStop
+Krytá ¾eleznièní zastávka
+OpenTrainStop
+Peron
+parking_(catchemnt_area_ext)1
+Parkovi¹tì
+parking_(catchemnt_area_ext)2
+Parkovi¹tì
+parking_(catchemnt_area_ext)3
+Parkovi¹tì
 small_classic_bus_stop
 Primitivní zastávka
 small_early_bus_stop
 Jednoduchá zastávka
-SMALL_MANOR
-Sídlo Lorda Aquaka\n\n©lechtic se stal slavným nejen\ndíky svému jménu, které se\nstalo základem pro\npobavení mnoha generací\n(mluvil tu nìkdo o\nkachnách?), ale také pro\nsvé sídlo: lord Aquak se\nnavzdory svému jménu\npanicky bál vody, proto\nnechal postavit první dvì\npatra vodotìsná. \nZdej¹í kopec je také slavný tím,\n¾e se na nìm v dvanáctém\nstoletí zachránily tisíce obyvatel\nmìsta v údolí pøed povodní.\nMístní ten podivný dùm proto\nberou jako talisman pro ¹tìstí.\n
-st_benedict_church
-Chrám Svatého Benedikta\n\nByl postaven za císaøe\nDiokleciána v byzantském\nslohu a je jednou z nejstar¹ích dochovaných\npamátek Simusvìta. Andìl\nna nejvy¹¹í vì¾i má\npohnutou historii. Je ze skla a mnohokrát v historii\nèelil nepøízni poèasí i válkám, pøesto dodnes na\nSlunci záøí vnitøním svìtlem\nneporu¹en. Legenda praví, ¾e je\nv nìm uchováno èisté srdce\nSpasitele.\n
-ST_PETER
-Svatý Petr\n\nPozdnì románský kostel\npostavený okolo r. 1220, s\nkøí¾ovou lodí zdobenou\nfreskami z poloviny 13.\nstoletí. V prosklené rakvi je\nulo¾eno mumifikované tìlo\nkrálovského správce Petra\nBoka, které pøetrvalo po\nsedm staletí a¾ do dne¹ní\ndoby beze zmìny. Podle\nlegendy byl Petr Bok tak\n¹tìdrým mecená¹em kostela,\nproto¾e byl hnán strachem o své\nzdraví. Za to byl po smrti\n"odmìnìn" skuteènì\nneznièitelným tìlem. \n
 Suspended_Monorail_Bahnhof_Modern
 Zastávka jednokolejky
-Terminal1930_AirportBlg
-Malá leti¹tní hala
-Terminal1950_AirportBlg_S
-Malá leti¹tní hala
-Tower1920_AirportBlg
-Základní leti¹tní vì¾
-Tower1930_AirportBlg
-Malá øídící vì¾
-Tower1950_AirportBlg
-Øídící vì¾
-Tower1990_AirportBlg
-Moderní leti¹tní vì¾
-TrainDepot
-Vlakové depo
-TrainStop
-Nádra¾í
-TramDepot
-Tramvajové depo
-TRIUMPH
-Vítìzný oblouk\n\nOblouk vítìzství byl vystavìn\nslavným králem Napikem na pøipomínku velikosti jeho\narmád. Dnes u¾ v bránì\nnezní okované boty, ale\n¹tìbetání turistù, kteøí se\npozastavují nad ohromující\narchitekturou dávných dob,\nkdy v tomto mìstì pùsobil\nslavný architekt M.H.Z.\nGeorg.\n
-TV_TOWER_0
-Vysílaè\n\nTelevizní vysílaè spoleènosti BBQ.\nNahoøe je nainstalována\nwebkamera, která právì\npøená¹í vá¹ udivený oblièej\ndo studia - usmívejte se!\nTøeba vás vyberou do reality show Malá sestra,\nkde se z úèastníkù stávají\no¹etøovatelé v domovì\ndùchodcù.\n
-TV_TOWER_1
-Televizní vysílaè\n\nTato vì¾ si ve své dobì\ntroufla pokoøit svou vý¹kou\ni ty nejvìt¹í budovy na\nsvìtì. O prvenství ji\npøipravil po pìti letech\nnìjaký jiný vysílaè kdesi v\nTramtárii. Co ov¹em zùstalo\nzachováno je výraznì lep¹í\ntelevizní signál pro obyvatele nìkolika stovek\nètvereèních kilometrù okolo.\n
-Very_Big_Terminal
-Gigantická odbavovací hala (3x3)
-VictorianStation
-Stanice ve viktoriánském stylu
 VillageTrainStop
 Vesnické nástupi¹tì
-WernerServer
-Wernerùv pomník\n\nUvnitø stavby pøipomínající skøíò poèítaèe je umístìn poèítaè s ulo¾eným vìdomím lidí, bez nich¾ by Simutrans nebylo mo¾no hrát po síti.
-WHEEL
-Ruské kolo\n\nV¹em je dobøe známá - hlavnì\nstar¹í generaci,\nkterá chodila do zábavných\nparkù. Dnes je to spí¹\nvyhlídkové místo pro dìti,\naby se podívaly kde v parku co stojí.\n
-Windmill
-Vìtrný mlýn\n\nNìkdo se chodí dívat na vìtrný\nmlýn, proto¾e se mu líbí\nelegance, se kterou se otáèí jeho lopatky;\nnìkdo zase proto¾e se mu\nchce na procházku a nemá\nv okolí lep¹í cíl. No a nìkteøí\nvýtr¾níci chodí k vìtrnému\nmlýnu, aby si po nìm\nvyzkou¹eli hodit kamenem.\n
-WOODEN_CHURCH
-Døevìný kostel\n\nTento kostel byl postavený\nlidmi, kteøí mají rádi výzvy,\nstojí bez pou¾ití jediného\nhøebíèku.\n
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+Radnice
+01_CITY_1
+Radnice
+02_CITY
+Radnice
+02_CITY_1
+Radnice
+03_CITY
+Radnice
+03_CITY_1
+Radnice
+04_CITY
+Radnice
+04_CITY_1
+Radnice
+05_CITY
+Radnice
+05_CITY_1
+Radnice
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
 ambulance_0
@@ -1709,7 +1743,7 @@ Cementárna
 factory_Cementmill_details
 <title>Cementárna - detaily</title>\n<h1>Cementárna</h1><p>V roce 1824 obdr¾el patent na výrobu cementu John Aspdin. Jeho syn postavil první cementárnu svìta v Americe. V Èechách se objevila první cementárna v roku 1860 v Bohosudovì u Teplic.</p>
 chicken_farm
-Líhnì kuøat
+Drùbe¾árna
 factory_chicken_farm_details
 <title>Drùbe¾árna - detaily</title>\n<h1>Drùbe¾árna</h1><p>V¹echny plemena kura domácího pochází pravdìpodobnì z kura bankivského, lesního kurovitého ptáka ¾ijícího v jihovýchodní Asii. Domestikace probìhla pøed nìkolika tisíci lety - kolem roku 3 200 pø.n.l. byl kur bankivský chován v Asii, pøedev¹ím v Indii. Kolem 1400 pø.n.l. chovali kury Èíòané a Egyp»ané a v 7. stol. pø.n.l. ji¾ byly domestikované slepice chovány mnichy v Evropì pro vejce a maso.</p><p>První domestikované slepice se v¹ak pravdìpodobnì chovaly hlavnì pro kohoutí zápasy. Ve støedovìku slepice volnì pobíhaly na dvorku statkù, ¹lechta je chovala v parcích jako okrasnou zvìø.</p><p>První výstavy, stejnì jako první intenzivní chovy, zaèínají od konce 19. stol. V roce 2003 bylo na svìtì chováno pøes 24 miliard domácích kurù, co¾ z nich èiní nejpoèetnìj¹í ptaèí druh vùbec.Kur domácí se chová hlavnì kvùli produkci kuøecího masa a pro vejce. Svazy odborných chovatelù zabezpeèují plemenitbu zvíøat, ochranu genofondu a zvy¹ování úrovnì plemen, zvlá¹tì hezká zvíøata splòující standard bývají chovateli pøedvádìna na výstavách. </p>
 classical_goods_factory
@@ -1959,7 +1993,7 @@ kámen
 textile
 textil
 waste
-odpad
+odpadky
 wool
 vlna
 #___________________________________menu_text___________________________________
@@ -2020,12 +2054,22 @@ Odstranit visutou dráhu
 #__________________________________record_text__________________________________
 New world record for monorails: %.1f km/h by %s.
 Nový rekord visuté dráhy - %.1f km/h dosa¾eno vozidlem %s.
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
 air_one-way
 Jednosmìrný provoz
 airport_oneway
 Jednosmìrná znaèka pro ranveje
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+choose_signal_monorail
+Návìstidlo volby stanièní koleje (jednokolejka)
+preSignal_Monorail
+Návìstidlo vlakové cesty (visutá dráha)
+Signal_Monorail
+Návìstidlo tra»ového úseku (jednokolejka)
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 Vjezd na dálnici
 autobahn_classic_exit
@@ -2036,8 +2080,16 @@ autobahn_modern_exit
 Konec dánice
 choose_point
 Znaèka vyber pøí¹tí zastávku
-choose_signal_monorail
-Návìstidlo volby stanièní koleje (jednokolejka)
+Minimum80
+Minimální rychlost 80
+NoEntry
+Jednosmìrka
+RoadClosed
+Uzávìra
+traffic_light
+Semafor
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
 ChooseSignals
 Návìstidlo volby stanièní koleje (standardní typ)
 Classic_ChooseSignals_right
@@ -2060,8 +2112,6 @@ EndOfChooseSignals
 Návìstidlo zákazu volby stanièní koleje
 LongSignals
 Návìstidlo úseku s více zastávkami (standardní typ)
-Minimum80
-Minimální rychlost 80
 Modern_ChooseSignals_right
 Návìstidlo výbìru stanièní koleje (moderní typ)
 Modern_EndOfChooseSignals_right
@@ -2074,22 +2124,12 @@ Modern_preSignals_right
 Návìstidlo vlakové cesty (moderní typ)
 Modern_Signals_right
 Návìstidlo tra»ového úseku (moderní typ)
-NoEntry
-Jednosmìrka
 OneWaySignals
 Návìstidlo jednosmìrného provozu
-preSignal_Monorail
-Návìstidlo vlakové cesty (visutá dráha)
 preSignals
 Návìstidlo vlakové cesty (standardní typ)
-RoadClosed
-Uzávìra
-Signal_Monorail
-Návìstidlo tra»ového úseku (jednokolejka)
 Signals
 Návìstidlo tra»ového úseku (standardní typ)
-traffic_light
-Semafor
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 palm010
@@ -2126,14 +2166,26 @@ tree133
 Horský smrk\n
 tree140
 Borovice\n
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
+#________________________________tunnel - power_________________________________
+#________________________________tunnel - power_________________________________
+PowerTunnel
+Tunel vedení VN
+#_________________________________tunnel - road_________________________________
+#_________________________________tunnel - road_________________________________
 Highway_110_Tunnel
 Rychlostní tunel
 Highway_130_Tunnel
 Dálnièní tunel
-PowerTunnel
-Tunel vedení VN
+Road_040_Tunnel
+Tunel se dlá¾dìnou ulicí
+Road_050_Tunnel
+Tunel s asfaltovou ulicí
+Road_070_Tunnel
+Tuenl s asfaltovou silnicí
+Road_090_Tunnel
+Tunel s moderní asfaltovou silnicí
+#________________________________tunnel - track_________________________________
+#________________________________tunnel - track_________________________________
 Rail_080_Tunnel
 Tunel pro ranou tra» s døevìnými pra¾ci
 Rail_080B_Tunnel
@@ -2160,946 +2212,8 @@ Rail_320_Tunnel
 Tunel pro moderní tra» pro vysoké rychlosti
 Rail_400_Tunnel
 Tunel pro moderní tra» pro velmi vysoké rychlosti
-Road_040_Tunnel
-Tunel se dlá¾dìnou ulicí
-Road_050_Tunnel
-Tunel s asfaltovou ulicí
-Road_070_Tunnel
-Tuenl s asfaltovou silnicí
-Road_090_Tunnel
-Tunel s moderní asfaltovou silnicí
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-1Benst134
-Bennhardt B-134 "Pixie"
-1Benst135t
-Bennhardt B-135 "Trpaslík"
-1Benst138
-Bennhardt B-138 "Koláè"
-1Benst162t
-Bennhardt B-162 "Jet"
-1Benst238
-Bennhardt B-238 "®abák"
-1Dampflokomotive
-RVg 0-4-0T
-20ft_Container_Trailer-128set
-Kontejnerový návìs na zbo¾í (20 stop)
-2Diesellokomotive
-H-Trans BR218
-3Bens186t
-Bennhardt B-186 "Citrón"
-3Dampflokomotive
-RVg 0-3-0 "Èiperka"
-40ft_Container_Trailer
-Kontejnerový návìs na zbo¾í (40 stop)
-AEC_Aclo_Regent_III
-AEC Aclo Regent III
-Airport_express_shuttle
-Leti¹tní expres
-Autotransportwagen
-Canonball pøepravní vagón (auta)
-BB-TS_Milk_Mack_Trailer
-BlacBox-TS návìs na pøepravu mléka
-Big_Bretterwagen
-RVg velký vagón na døevo a prkna
-Big_Erztruck
-MHz velký nákladní automobil
-Black_Osprey
-Black Osprey (ocel)
-Black_Osprey_(goods)
-Black Osprey (paletované zbo¾í)
-Black_Osprey_(grain)
-Black Osprey (na obilí)
-BR-373_Back
-BR 373 (Eurostar) Zadní øídící vùz
-BR-373_BackCar
-BR 373 (Eurostar) Zadní vlo¾ený vùz
-BR-373_Car
-BR 373 (Eurostar) Støední vlo¾ený vùz
-BR-373_Eurostar
-BR 373 (Eurostar) Pøední øídící vùz
-BR-373_FrontCar
-BR 373 (Eurostar) Pøední vlo¾ený vùz
-Bretterwagen
-Plo¹inový vagon (prkna)
-British_Premier
-British Premier (technické kapaliny)
-Budd_Coach
-Budd RPO (vagon)
-Budd_Lounge
-Budd RPO (Zadní osobní vùz)
-Budd_Observation
-Budd RPO (jídelní vùz)
-Budd_RPO
-Budd RPO (po¹tovní)
-Bulk_trailer_0
-Pøívìs na sypké materiály
-Bulk_Truck_0
-Shorty-Volvo 800
-Bulk_Truck_2
-VSYS-Tatra 801
-Bulk_Truck_3
-VSYS-Tatra 815 (sypké materiály)
-Bulk_Truck_4
-Volvo LV76-78 Sypké materiály
-caboose_1
-Slu¾ební vùz
-caboose_2
-Slu¾ební vùz vz.2
-caboose_3
-Slu¾ební vùz Deluxe
-Car_Tramsport_Trailer_0
-TS Pøívìs na automobily
-Car_Transporter_0
-Teddyho Pøepravník na auta
-Car_Transporter_1
-Teddyho Náklaïák na auta
-Car_Waggon_1
-RVg vagón na auta
-Car_Waggon_2
-RVg vagón na auta
-CB_ALBATROS
-RVg ©koda 498 "Albatros"
-CB_DB-130_8
-Canonball & H-Trans BR132 "Ludmila"
-Cement_Carrier_Fast
-Vagon na cement
-Cement_trailer_0
-PMNV Pøívìs na cement
-Cement_Truck_0
-PMNV Náklaïák na cement
-Cement_Waggon_0
-BB-PMNV vagón na cement II
-Cement_Waggon_1
-BB-PMNV vagón na cement
-Cementwagen
-SergeSova cisterna na cement
-CKD_749
-ÈKD 749 "Zamraèená"
-CKD_750
-ÈKD 750 "Brejlovec"
-Concrete_Truck_0
-S.Kroytor Míchaèka na beton
-Concrete_Truck_1
-VSYS-Tatra 815 (Mix)
-Concretewagen
-PMNV Míchaèka na beton 12
-Concretewagen_1
-PMNV Plo¹inový vùz na beton
-Cooling_trailer_0
-PMNV Mrazírenský pøívìs
-Cooling_Truck_0
-PMNV ®lutý chladící vùz
-Cooling_Truck_1
-PMNV ©edý chladící vùz
-Cooling_Truck_2
-S.Kroytor Gaz-4
-Cooling_wagon_0
-Canonball chladící vùz
-Cooling_wagon_1
-Chladící kontejnerový vùz
-Cooling_wagon_2
-Cannonball mrazírenský vagón
-CPH_Motorcar
-CPH Motorový vùz
-DB_ADm101
-Haru-DB ADm101
-DB_Apmz121
-Haru-DB Apmz121
-DB_Bm235
-Haru-DB Bm235
-DB_BR103_1
-Haru BR-103
-DueWAG_GT6_motorwaggon
-Due WAG GT6
-DueWAG_GT6_tailwaggon
-Due WAG GT6 pøívìs
-E_423
-Sindor E 423 
-Eaglescliffe_Hall
-Eaglescliffe Hall (sypké nerostné suroviny)
-Eaglescliffe_Hall_(lumber)
-Eaglescliffe Hall (døevo)
-Edmund_Fitzgerald
-Edmund Fitzgerald (ocel)
-Edmund_Fitzgerald_(wood)
-Edmund Fitzgerald (døevo)
-EM400_1
-Sindor-FK EM400
-EMD_E5A_Silver_Meteor
-EMD E5A Støíbrný meteor
-EMD_E5B_Silver_Comet
-EMD E5B Støíbrná kometa
-EMD-FT_(A)
-EMD FT A (pøední lokomotiva)
-EMD-FT_(B)
-EMD FT B (strojovna bez stanovi¹tì strojvùdce)
-EMD-FT_(C)
-EMD FT C (zadní lokomotiva)
-Evil_DF-11
-Evil DF-11
-Evil_P-100_(carriage)
-RVg P-100 (vagón)
-Evil_P-100_(front_engine)
-RVg P-100 (lokomotiva)
-Evil_P-100_(mail)
-RVg P-100 (po¹tovní)
-Evil_P-100_(rear_engine)
-RVg P-100 (koncový)
-Evil-Jitluen_67_Minibus
-Evil-Jitluen 67 Minibus
-Express_tender
-Tendr
-Ferry_Mail_Extension_(small)
-Doplòkový po¹tovní prostor (malý)
-Fishing_Boat_1
-MHz Rybáøská bárka
-fluid_00_Wood_Barrels_Wagon
-Cisternový vagon na technické kapaliny (s døevìnými sudy)
-fluid_01_Iron_Tanks_Wagon
-Cisternový vagon na technické kapaliny (s kovovými sudy)
-fluid_02_CSD-502_Tank_Wagon
-Cisternový vagon na technické kapaliny (typ ÈSD 502)
-fluid_03_CSD-556_Tank_Wagon
-Cisternový vagon na technické kapaliny (typ ÈSD 556)
-fluid_04_Esso_Tank_Wagon
-Cisternový vagon na technické kapaliny (ESSO)
-fluid_05_CEPSA_Tank_Wagon
-Cisternový vagon na technické kapaliny (CEPSA)
-fluid_06_VTG_Tank_Wagon
-Cisternový vagon na technické kapaliny (typ VTG)
-fluid_07_Esso_XL_Tank_Wagon
-Cisternový vagon na technické kapaliny (ESSOP ExtraLarge)
-fluid_08_VTG_CeSa_Tank_Wagon
-Cisternový vagon na technické kapaliny (typ VTG CeSa)
-Fluid_trailer_0
-AJ Cisterna na kapaliny
-Fluid_trailer_1
-AJ-PMNV Cisterna na kapaliny
-Fluid_Truck_0
-Karl-Nissan 1800 Cisterna 
-Fluid_Truck_1
-Karl-Nissan 1100 Cisterna
-Fluid_Truck_2
-S.Kroytor ZUK-20
-Fluid_Truck_3
-Magirus Cisterna 1923
-Goods_trailer_0
-Mitsubishi Fuso Super Truck - pøívìs
-Goods_trailer_1
-Mitsubishi Fuso Super Truck - pøívìs mk.2
-Goods_trailer_2
-PMNV Pøívìs na zbo¾í II
-Goods_trailer_3
-PMNV Obyèejný pøívìs na zbo¾í
-Goods_Truck_0
-Karl-Mitsubishi Fuso Super Truck
-Goods_Truck_1
-Karl-Mitsubishi Fuso Hyper Truck
-Goods_Truck_2
-PMNV Náklaïák na zbo¾í
-Goods_Truck_3
-PMNV Lehký náklaïák na zbo¾í
-Goods_Truck_4
-PMNV Turbo náklaïák
-Goods_Truck_5
-S.Kroytor Gaz-4
-Goods_waggon_0
-Canonball uzavøený vagón
-Goods_waggon_1
-Cannonball Vagón na zbo¾í
-Goods_waggon_2
-PMNV vagón na zbo¾í
-Goods_waggon_3
-Kontejnerový vùz na zbo¾í
-Goods_waggon_4
-HS Kontejnerový vùz na zbo¾í
-Goods_waggon_5
-RVg skøíòový vùz
-Grain_trailer_0
-PMNV Pøívìs na zrní
-Grain_Truck_1
-VSYS-Tatra 815 (zrní)
-Haru_2C1_Cheetah
-Haru 2C1 Gepard
-Haru_2D1_Buffalo
-Haru 2D1 Bizon
-Haru_C44-9W
-Haru C44-9W "Bì¾ec"
-Haru_DF4
-Haru DF4
-Haru_E3_KOMACHI
-Haru E3 "Komachi"
-Haru_E3_KOMACHI_(mid)
-Haru E3 "Komachi" (støední èást)
-Haru_E3_KOMACHI_(rear)
-Haru E3 "Komachi" (zadní èást)
-Haru_E3_KOMACHI_(Trailer)
-Haru E3 "Komachi" (vleèòák)
-Haru_F7A
-Haru F7 A
-Haru_F7B
-Haru F7 B
-Haru_HST
-Haru HST
-Haru_HST_mid
-Haru HST (vagón)
-Haru_HST_rear
-Haru HST (koncový)
-Haru_Spike-PSE_Head1
-Haru PSE ©ipka (Lokomotiva A)
-Haru_Spike-PSE_Head2
-Haru PSE ©ipka (lokomotiva B)
-Haru_Spike-PSE_Tail1
-Haru PSE ©ipka (koncový B)
-Haru_Spike-PSE_Tail2
-Haru PSE ©ipka (koncový A)
-Haru_Spike-PSE_Waggon
-Haru PSE ©ipka (vagón)
-Haru_Tatra-T3
-Haru Tatra T3
-Haru_Tender
-Haru Tendr
-Haru_VT98
-Haru VT98
-Haru_VT98_car
-Haru VT98 (vagón)
-Haru-373
-Haru 373 
-Haru-373_car
-Haru 373 (vagón)\n
-Haru-373_tail
-Haru 373 (koncový)
-Haru-ACE1_Head
-Haru ACE (lokomotiva)
-Haru-ACE1_Tail
-Haru ACE (koncový)
-Haru-ACE1_Waggon1
-Haru ACE (2.tøída)
-Haru-ACE1_Waggon2
-Haru ACE (1.tøída)
-Haru-ACE1_Waggon3
-Haru ACE (po¹tovní vagón)
-Haru-BR182_Taurus
-Haru BR-182 Býk 
-Haru-IC3
-Haru IC-3 (lokomotiva)\n
-Haru-IC3_car
-Haru IC-3 (vagón)
-Haru-IC3_tail
-Haru IC-3 (koncový)
-Haru-PlanV
-Haru Plan V.
-Haru-PlanV(rear)
-Haru Plan V. (koncový)\n
-Haru-PMNV_F7-Coach
-Haru-PMNV F7 (vagón)
-Haru-PMNV_F7-Mail_Car
-Haru-PMNV F7 (po¹tovní vagón)
-Haru-TEM2
-Haru TEM-2
-Haru-X2000
-Haru X2000 (lokomotiva)
-Haru-X2000_mid
-Haru X2000 (vagón)
-Haru-X2000_rear
-Haru X2000 (koncový)
-Holzwagen
-Klanicový vagón
-Holzwagen_0
-RVg Dvojvagón na klády
-Holzwagen_1
-RVg Klanicový vagón ètyøosý
-JNR_C11
-JNR SL C11
-JNR_C62
-JNR SL C62
-JNR_D51
-JNR SL D51
-JNR_DD51
-JNR DD51
-JNR_tender_S
-C62/D51 Tendr
-JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
-JR 700 Series Shinkansen "Hikari Rail Star"
-JR_700_Shinkansen_HRS_(Middle_Section)_PC
-JR 700 Series Shinkansen HRS (støed)
-JR_700_Shinkansen_HRS_(Pantograph_I)_PC
-JR 700 Series Shinkansen HRS (Pantograf I)
-JR_700_Shinkansen_HRS_(Pantograph_II)_PC
-JR 700 Series Shinkansen HRS (Pantograf II)
-JR_700_Shinkansen_HRS_(Tailcar)_PC
-JR 700 Series Shinkansen HRS (zadní èást)
-Kord_TT_bulk
-Kord TT (sypký materiál)
-Kord_TT_grain
-Kord TT (zrní - sypký materiál)
-Liner_Mail_Extension_(large)
-Doplòkový po¹tovní prostor (velký)
-LKAB_IORE_Back
-LKAB IORE zadní lokomotiva
-LKAB_IORE_Front
-LKAB IORE pøední lokomotiva
-MA461_waggon
-MA461 - vagón
-Mack_Truck_Cooling_Trailer
-Mack Truck - Chladící návìs
-Mack_Truck_Goods_Trailer
-Mack Truck - Návìs na zbo¾í
-Mack_Truck_Post_Trailer
-PMNV po¹tovní návìs
-Mail_Truck_2
-MHz Windstar (po¹tovní dodávka)
-Marks_Passagierwagen
-MJHN Expresní vùz
-Marks_Postwagen
-MJHN Expresní po¹tovní vùz
-Marks-Deltic
-MJHN Deltic
-MHz_Grain_Trailer_0
-MHz Traktorový pøívìs na zrní
-MHz_Long_Wood_Trailer
-MHz Pøívìs na kmeny
-MHz_Tractor
-MHz Traktor
-MHz_Tractor_2
-MHz-JD Traktor
-MHz_TRAM_1930
-MHz T-113
-MHz_TRAM_1980
-MHz T-235
-MHz-C11C_Bulk_Barge
-MHz C11C Remorkér na uhlí
-MHz-C11C_Wood_Barge
-MHz bárka C11C na døevo
-MHz-C273U_Cement_Barge
-MHz C273U remorkér na cement
-MHz-C35_Goods_Barge
-MHz C35 Zbo¾í
-MHz-C3P_Post_Barge
-MHz C3P Po¹ta
-MHz-CC47_Container_Barge
-MHz CC47 Kontejnerová loï (zbo¾í)
-MHz-MT7_Milk_Barge
-MHz MT7 (mléko)
-MHz-OT5_Oil_Barge
-MHz OT5 (ropa)
-MHz-P11C_Bulk_Boat
-MHz P11C Plochý èlun (sypké hmoty)
-MHz-P11C_Wood_Boat
-MHz P11C Lodice na døevo
-MHz-R2A_Push-Tug
-MHz R2A Tlaèný èlun
-milk_07_milk_waggon_0
-Chlazený vagon na mléko
-Milk_Truck_0
-PMNV Cisterna na mléko
-Milk_Truck_1
-S.Kroytor-ZIL Mléèná cisterna
-Milk_Truck_2
-Magirus Cisterna na mléko
-mja-bulk_trailer_l
-MJA Dlouhý návìs pro sypké nerostné suroviny
-mja-bulk_trailer_m
-MJA Krátký návìs pro sypké nerostné suroviny
-mja-MAN19332-128set
-mja-MAN 19332
-mja-ScaniaP380_tanker
-mja-Scania P380 - cisterna
-mja-ScaniaP420_concretemixer
-mja-Scania P420 - míchaèka
-mja-ScaniaP420_longgoods
-mja-Scania P380 (prkna)
-mja-ScaniaR500Topline
-mja-Scania R500 tahaè
-mja-ScaniaR500Topline_cooledgoods
-mja-Scania R500 Topline (mra¾ené zbo¾í)
-mja-ScaniaR500Topline_goods
-mja-Scania R500 Topline (zbo¾í)
-mja-ScaniaR620Topline
-Scania R620 tahaè
-mja-volvof88-128set
-mja-Volvo F88
-mja-volvoVN660
-Volvo VN660 tahaè
-mja-Zil130-128set
-mja-Zil 130
-MS_sprinter_mail
-Sprinter po¹tovní vùz
-MTAB_Dm_Back
-SJ Dm zadní lokomotiva
-MTAB_Dm_Front
-SJ Dm pøední lokomotiva
-MTAB_Dm3
-SJ Dm lokomotiva bez stanovi¹tì strojvùdce (Dm3)
-MV_Balmoral
-MV Balmoral
-MV_Fedra
-MV Fedra (sypké nerostné suroviny)
-MV_Lake_Illawarra
-MV Lake Illawarra (sypké nerostné suroviny)
-MV_Lake_Illawarra_(grain)
-MV Lake Illawarra (obilí)
-New_Zealand_Star
-New Zealand Star (chlazené potraviny)
-Nordic_Heron
-Nordic Heron (technické kapaliny)
-Nordic_Heron_(liquid_food)
-Nordic Heron (tekuté potraviny)
-Nororn
-Nororn (chlazené potraviny)
-Owari_Maru
-Owari Maru (sypké nerostné suroviny)
-Passagierwagen
-Canonball BTx 060 2. tøída
-Passanger_waggon_0
-Nabe-JNR OHA 31 osobní vagón
-Passanger_waggon_1
-Haru JNR OHAFU 50 2. tøída
-Passanger_waggon_2
-Nabe-JNR ORO 40 2. tøída
-Passanger_waggon_3
-RA BTx 050 2. tøída
-Passanger_waggon_MAITE39
-Nabe-JNR MAITE 39 1. tøída
-Patagonia
-Patagonia (paletované zbo¾í)
-Patagonia_(farm_products)
-Patagonia (obilí)
-Pegaso_6038_InterCity
-Pegaso 6038 Dálkový autobus
-Pegaso_6038_Urban
-Pegaso 6038 Mìstský autobus
-Pegaso-Seida_5020_InterCity
-Pegaso-Seida 5020 Dálkový autobus
-Pegaso-Seida_5020_Urban
-Pegaso-Seida 5020 Mìstský autobus
-Pioneer_Zephyr
-Pioneer Zephyr (lokomotiva)
-Pioneer_Zephyr_Car
-Pioneer Zephyr (vlo¾ený osobní vùz)
-Pioneer_Zephyr_Tail
-Pioneer Zephyr (koncový osobní vùz)
-Planck_Truck_0
-PMNV-Canonball Plochý vùz (prkna)
-Plank_Truck_2
-VSYS-Tatra 815 (prkna)
-Plank_waggon_0
-RVg malý vagón na døevo a prkna
-Plank_waggon_1
-Vagón na pøepravu prken
-PMNV_50_Mack
-PMNV 1950's Mack
-PMNV_Canonball_Car_Trailer
-PMNV-Canonball Mack pøívìs na auta
-PMNV_Cement_Trailer_Slow
-PMNV pøívìs na cement
-PMNV_Cement_Truck_P
-PMNV Výsypný vùz na cement
-PMNV_Concrete_Truck
-PMNV Mack míchaèka na beton
-PMNV_Cruiser
-PMNV Cruiser
-PMNV_Cruiser_Mini
-PMNV Cruiser Mini
-PMNV_Fabric_Trailer_0
-PMNV Uzavøený pøívìs na tkaniny
-PMNV_Grain_Truck_0
-PMNV Náklaïák na zrní
-PMNV_Hydrogen_Cruiser
-PMNV vodíkový autobus
-PMNV_Mack_Bulk_Trailer_0
-PMNV Mack Návìs 22 (sypké materiály)
-PMNV_Mack_Cement_Trailer_L
-PMNV Mack Návìs na cement
-PMNV_Mack_Cement_Trailer_S
-PMNV Mack Návìs "S" (cement)
-PMNV_Mack_Concrete_Trailer_O
-PMNV Mack Návìs "B" (beton)
-PMNV_Mack_cooled_Trailer_O
-PMNV Mack Chlazený návìs 
-PMNV_Mack_Goods_Trailer_O
-PMNV Mack Návìs na zbo¾í
-PMNV_Mack_Grain_Trailer_0
-PMNV Mack Návìs na zrní
-PMNV_Mack_Grain_Trailer_O
-PMNV Mack Krátký návìs na zrní
-PMNV_Mack_Log_Trailer_L
-PMNV Mack Návìs "L" (klády)
-PMNV_Mack_Log_Trailer_M
-PMNV Mack Návìs "M" (klády)
-PMNV_Mack_Log_Trailer_S
-PMNV Mack Návìs "S" (klády)
-PMNV_Mack_Milk_Trailer_O
-PMNV Mack cisterna na mlíko
-PMNV_Mack_Oil_Trailer_L
-PMNV Mack Dlouhá cisterna (ropa) 
-PMNV_Mack_Oil_Trailer_S
-PMNV Mack Krátká cisterna (ropa)
-PMNV_Mack_Planck_Trailer_0
-PMNV Mack Návìs na prkna
-PMNV_Mack_Post_Trailer_O
-PMNV Mack Po¹tovní pøívìs
-PMNV_Mack_Steel_Trailer_L
-PMNV Mack Dlouhý návìs na odlitky
-PMNV_Mack_Steel_Trailer_S
-PMNV Mack Krátký návìs na odlitky
-PMNV_Mail_Truck_1
-PMNV Po¹tovní dodávka model 60
-PMNV_Mail_Truck_2
-PMNV Po¹tovní dodávka model 77
-PMNV_MHz_Truck_0
-PMNV-MHz Tahaè model 145
-PMNV_Milk_Trailer_0
-PMNV pøívìs na mléko
-PMNV_Open_Goods_Trailer_L
-PMNV Mack Plochý návìs na zbo¾í
-PMNV_Open_Goods_Trailer_S
-PMNV Mack Krátký návìs na zbo¾í
-PMNV_Plank_Trailer_0
-PMNV Pøívìs na prkna
-PMNV_Post_Trailer_0
-PMNV Po¹tovní pøívìs
-PMNV_Steel_Trailer_0
-PMNV Lo¾ný pøívìs na ocel
-PMNV_TC-119-Snake
-PMNV TC119 Had (vùz A)
-PMNV_TC-119-Snake_b
-PMNV TC119 Had (vùz B)
-PMNV_TC-44-Hydrogen_Car
-PMNV TC-44 H2 (vùz A)
-PMNV_TC-44-Hydrogen_Car_b
-PMNV TC-44 H2 (vùz B)
-PMNV_TC-7_Astro_Trolley
-PMNV TC-7 Astro Trolley
-PMNV-PB1970
-PMNV PB-1970
-PMNV-TC-1_Turbo_Car
-PMNV TC-1 TurboCar
-PMNV-TC-112-Hyper_Car
-PMNV TC-112 HyperCar
-PMNV-TC-2_Turbo_Set
-PMNV TC-2 TurboSet A
-PMNV-TC-2_Turbo_Set_b
-PMNV TC-2 TurboSet B
-PMNV-TC-2_Turbo_Set_c
-PMNV TC-2 TurboSet (konec)
-PMNV-TC-5P_Mail_Man
-PMNV TC-5P Po¹»ák
-Post_Barge
-MHz Po¹tovní bárka
-Post_waggon_0
-PV 80 Po¹tovní vùz
-Postwagen
-Canonball po¹tovní vagón
-Praga_Bus
-Autobus Praga 1919
-Praga_N_bulk
-Sindor-Praga N - korba
-Praga_N_cement
-Sindor-Praga N - cement
-Praga_N_Cistern
-Sindor-Praga N - cisterna
-Praga_N_milk
-Sindor-Praga N na mléko
-Praga_TOT_128
-Praga TOT
-Queen_Elisabeth_2
-Queen Elisabeth II.
-R_01
-RVg R1 - vlecny vuz
-R_02
-RVg R2 - vlecny vuz
-Renfe_Series_10200_(Player_Colors)
-RENFE øada 10200
-Renfe_Series_301_(Player_Colors)
-RENFE øada 301
-Renfe_Series_311_(Player_Colors)
-RENFE øada 311
-Renfe_Series_314_(Player_Colors)
-RENFE øada 314
-Renfe_Series_316_(Player_Colors)
-RENFE øada 316
-Renfe_Series_318_(Player_Colors)
-RENFE øada 318
-Renfe_Series_319.300_(Player_Colors)
-RENFE øada 319.300
-Renfe_Series_334_(Player_Colors)
-RENFE øada 334
-Renfe_Series_350_Talgo_(Player_Colors)
-RENFE øada 350 TALGO (lokomotiva)
-Renfe_Series_350_Talgo_Car_(Player_Colors)
-RENFE øada 350 TALGO (osobní vùz)
-Renfe_Series_350_Talgo_Mail_Car_(Player_Colors)
-RENFE øada 350 TALGO (po¹tovní vùz)
-Renfe_Series_350_Talgo_Restaurant_Car_(Player_Colors)
-RENFE øada 350 TALGO (jídelní vùz)
-Renfe_Z-2000_Car
-RENFE Z2000 osobní vùz
-Renfe_Z-2000_Mail_Car
-RENFE Z2000 po¹tovní vùz
-Renfe6000_Post
-RENFE 6000 po¹tovní vùz
-Renfe6000_Psg
-RENFE 6000 osobní vùz
-Rigoletto
-Rigoletto (auta)
-RMS_Baltic
-RMS Baltic
-RVg_0-1-4-0
-RVg 0-1-4-0
-RVg_1064_White_Bulk
-RVg-White 1064 (sypké zbo¾í)
-RVg_1064_White_Cement
-RVg-White 1064 (cement)
-RVg_1064_White_Cooled
-RVg-White 1064 (chladící box)
-RVg_1064_White_Fluid
-RVg-White 1064 (cisterna)
-RVg_1064_White_Goods
-RVg-White 1064 (s plachtou)
-RVg_1945_box_car
-RVg krytý nákladní vùz (1945/23)
-RVg_1951_box_car
-RVg krytý nákladní vùz (1951/24)
-RVg_1955_box_car
-RVg krytý nákladní vùz (1955/24)
-RVg_1962_box_car
-RVg krytý nákladní vùz (1962/24)
-RVg_1969_box_car
-RVg krytý nákladní vùz (1969/25)
-RVg_1976_box_car
-RVg krytý nákladní vùz (1976/26)
-RVg_1983_box_car
-RVg krytý nákladní vùz (1983/26)
-RVg_1989_container_car
-RVg kontejnerový vagón (1989/27)
-RVg_1994_container_car
-RVg kontejnerový vagón (1994/27)
-RVg_2000_container_car
-RVg kontejnerový vagón (2000/27)
-RVg_2006_container_car
-RVg kontejnerový vagón (2006/27)
-RVg_2011_container_car
-RVg kontejnerový vagón (2011/27)
-RVg_Bulk_Waggon_00
-RVg vagón na sypké náklady (1850/20)
-RVg_Bulk_Waggon_01
-RVg vagón na sypké náklady (1932/23)
-RVg_Bulk_Waggon_02
-RVg vagón na sypké náklady (1945/25)
-RVg_Bulk_Waggon_03
-RVg vagón na sypké náklady (1962/28)
-RVg_Bulk_Waggon_04
-RVg vagón na sypké náklady (1978/30)
-RVg_Bulk_Waggon_05
-RVg vagón na sypké náklady (1995/32)
-RVg_Bulk_Waggon_06
-RVg vagón na sypké náklady (2019/35)
-RVg_Cementwagen
-RVg vagón na cement
-RVg_Cooling_car
-RVg chladírenský vagón
-RVg_Daylight
-RVg "Úsvit" (lokomotiva)
-RVg_Daylight_dome
-RVg "Úsvit" (jídelní vùz)
-RVg_Daylight_end
-RVg "Úsvit" (koncový)
-RVg_Daylight_post
-RVg "Úsvit" (po¹tovní vùz)
-RVg_Daylight_tender
-RVg "Úsvit" (tendr)
-RVg_Daylight_waggon
-RVg "Úsvit" (vagon)
-RVg_Flying_Berliner_(front)
-RVg Létající Berlíòan (lokomotiva)
-RVg_Flying_Berliner_(tail)
-RVg Létající Berlíòan (koncový)
-RVg_Hiawatha
-RVg expres Hiawatha (Lokomotiva)
-RVg_Hiawatha_dome
-RVg expres Hiawatha (jídelní vùz)
-RVg_Hiawatha_end
-RVg expres Hiawatha (koncový)
-RVg_Hiawatha_post
-RVg expres Hiawatha (po¹tovní vagon)
-RVg_Hiawatha_tender
-RVg expres Hiawatha (uhlák)
-RVg_Hiawatha_waggon
-RVg expres Hiawatha (vagon)
-RVg_M1
-RVg M1 (lokomotiva)
-RVg_M1_tail
-RVg M1 (koncový)
-RVg_M1_waggon
-RVg M1 (vagon)
-RVg_O-2-4-0
-RVg 2-4-0 "Expres"
-RVg_Passanger_Trailer
-RVg-KS osobní pøísvìs
-RVg_Post_Trailer
-RVg-KS po¹tovní pøísvìs
-RVg_Post_Truck_0
-RVg-KS 4051 Posel
-RVg_Post_Truck_1
-RVg-KS 9051 Po¹»ák
-RVg_R-100_(carriage)
-RVg R-100 (vagon)
-RVg_R-100_(front_engine)
-RVg R-100 (Lokomotiva)
-RVg_R-100_(mail)
-RVg R-100 (po¹tovní vùz)
-RVg_R-100_(rear_engine)
-RVg R-100 (koncový)
-RVg_Spike_Duplex
-RVg Spike Duplex (lokomotiva)
-RVg_Spike_Duplex_tail
-RVg Spike Duplex (koncový)
-RVg_Spike_Duplex_waggon
-RVg Spike Duplex (vagon)
-RVg_Thunder_2
-RVg Hrom II (lokomotiva)
-RVg_Thunder_2_Back
-RVg Hrom II (koncový)
-RVg_Thunder_2_post
-RVg Hrom II (po¹tovní vagon)
-RVg_Thunder_2_wagon
-RVg Hrom II (vagon)
-RVg_Tigress
-RVg Tygøice
-RVg_Tigress_Back
-RVg Tygøice (koncový)
-RVg_Tigress_post
-RVg Tygøice (po¹tovní vùz)
-RVg_Tigress_wagon
-RVg Tygøice (vagon)
-RVg_Type_S_Bulk
-RVg Typ-S korba
-RVg_Type_S_Cement
-RVg Typ-S - cement
-RVg_Type_S_Cistern
-RVg Typ-S cisterna
-RVg_Type_S_Post
-RVg Typ-S po¹tovní
-RVg_Type_S_Van
-RVg Typ-S krytý
-RVg-0-4-4-0
-RVg 0DD0 "Osmikolák"
-RVg-1-4-1
-RVg 1D1 "Býk"
-RVg-1-5-0-Goliath
-RVg 1E0 "Goliá¹"
-RVg-2-3-0
-RVg 2C0 "Kristýna"
-RVg-2-3-1
-RVg 2C1 "©tíhlá"
-RVg-2-4-0
-RVg 2D0 "Bì¾ec"
-RVg-2-5-1
-RVg 2E1 "Svalovec"
-RVg-B_101
-RVg B22 Autobus
-RVg-B_107
-RVg B149 Èervený skøítek
-RVg-D22-Rola
-RVg D22 Rola
-RVg-D23-Camel
-RVg D23 "Velbloud"
-RVg-D41-Tubus
-RVg D41 "Tubus"
-RVg-DB_MA461
-RVg-DB MA-461
-RVg-DB_MA461_Tail
-RVg-DB MA-461 (zadní)
-RVg-E17-Spring
-RVg E17 "Pru¾ina"
-RVg-Express_Tender
-RVg Expresní Tendr
-RVg-Goods_waggon
-RVg Uzavøený vagón (dobytèák)
-RVg-Heavy-Tender
-RVg Tì¾ký tendr
-RVg-KS_4510-33
-RVg-KS 33
-RVg-KS_4510-45
-RVg-KS 45
-RVg-KS_4510-69
-RVg-KS 69
-RVg-KS_9020-31
-RVg-KS 9020-31
-RVg-KS_9020-58
-RVg-KS 9020-58
-RVg-KS_9020-92
-RVg-KS 9020-92
-RVg-LK_Cement_Truck
-RVg LK (cement)
-RVg-LK_Cooling_Truck
-RVg-LK V44 chladící vùz
-RVg-LK_Goods_Truck
-RVg-LK náklaïák na zbo¾í
-RVg-LK_Grain_Truck
-RVg-LK V41 otevøený obilný vùz
-RVg-LK_Plank_Truck
-RVg-LK V37 klanicový vùz na prkna
-RVg-LK_Steel_Truck
-RVg-LK V38 plochý vùz na ocel
-RVg-Oil-Tender
-RVg Tendr na topný olej
-RVg-Pioneer_Alladin
-RVg Pioneer Alladin (lokomotiva)
-RVg-Pioneer_Alladin_rear
-RVg Pioneer Alladin (koncový)
-RVg-Pioneer_Alladin_supply
-RVg Pioneer Alladin (motorový vagon)
-RVg-Pioneer_Alladin_waggon
-RVg Pioneer Alladin (vagon)
-RVg-RHF401
-RVg-RHF 401 Krokodýl
-RVg-S004-Little_Boy
-RVg S004 "Malý døíè"
-RVg-S033-Red_Dwarf
-RVg S033 "Èervený trpaslík"
-RVg-S127-Blue_Cow
-RVg S127 "Modrá vrána"
-RVg-Sail_Goods_Ship_0
-RVg Obchodní bárka
-RVg-Sail_Passanger_Ship_0
-RVg Fregata
-RVg-Steam_Goods_Ship_0
-RVg Nákladní parník
-RVg-Steam_Passanger_Ship_0
-RVg Kolesový parník
-RVg-Tender
-RVg Tendr
-RX_1064
-RX 1064 Autobus
-S_Kroytor_Gaz-2
-Gaz-2
-S_Kroytor_Gaz-3
-Gaz-3
-S_Kroytor_Gaz-4
-Gaz-4
-S_Kroytor_Ikarus-260
-Ikarus-260
-S_Kroytor_Ikarus-260(l)
-Ikarus-260 (dálkový)
-S_Kroytor_Ikarus-280
-Ikarus 280
-S_Kroytor_Ikarus-280_ext
-Ikarus 280 druhá èást
-S_Kroytor_LiAZ-5256
-LIAZ 5256
-S_Kroytor_LiAZ-677
-LIAZ 677
-S_Kroytor_Mercedes_Citaro
-Mercedes Citaro
-S_Kroytor_PAZ-672
-PAZ 672
-S_Kroytor_PAZ-772
-PAZ 772
-S_Kroytor_Traveler
-Traveler
+#_________________________________vehicle - air_________________________________
+#_________________________________vehicle - air_________________________________
 SAC-Aerospatiale_Concorde_128_set
 SAC-Aérospatiale Concorde
 SAC-Airbus_A300-600C_128_set
@@ -3126,6 +2240,10 @@ SAC-Airbus_A330-200_128_set
 SAC-Airbus A330-200
 SAC-Airbus_A340-300_128_set
 SAC-Airbus A340-300
+SAC-Airbus_A350-900f_goods_128_set
+Airbus A350-900F (náklad)
+SAC-Airbus_A350-900f_mail_128_set
+Airbus A350-900F (po¹ta)
 SAC-Airbus_A380-800_128_set
 SAC-Airbus A380-800
 SAC-Airbus_A380-800C_128_set
@@ -3258,12 +2376,374 @@ SAC-McDonnell_Douglas_DC-10_128_set
 SAC-McDonnell Douglas DC-10
 SAC-Rohrbach_Rocco_128_set
 SAC-Rohrbach Rocco
-Sail_Post_Ship_0
-Po¹tovní kutr
-SBB_Re4_4_II
-Haru-SBB Re 4/4 II
-SBB_Re6_6
-Haru-SBB Re 6/6 "Gotthard"
+#___________________________vehicle - monorail_track____________________________
+#___________________________vehicle - monorail_track____________________________
+PMNV_TC-119-Snake
+PMNV TC119 Had (vùz A)
+PMNV_TC-119-Snake_b
+PMNV TC119 Had (vùz B)
+PMNV_TC-44-Hydrogen_Car
+PMNV TC-44 H2 (vùz A)
+PMNV_TC-44-Hydrogen_Car_b
+PMNV TC-44 H2 (vùz B)
+PMNV_TC-7_Astro_Trolley
+PMNV TC-7 Astro Trolley
+PMNV-TC-1_Turbo_Car
+PMNV TC-1 TurboCar
+PMNV-TC-112-Hyper_Car
+PMNV TC-112 HyperCar
+PMNV-TC-2_Turbo_Set
+PMNV TC-2 TurboSet A
+PMNV-TC-2_Turbo_Set_b
+PMNV TC-2 TurboSet B
+PMNV-TC-2_Turbo_Set_c
+PMNV TC-2 TurboSet (konec)
+PMNV-TC-5P_Mail_Man
+PMNV TC-5P Po¹»ák
+yoshi_wup01
+GTW 72
+yoshi_wup02
+GTW 72 spojka
+yoshi_wup03
+GTW 72 konec
+yoshi_wup1900
+GTW 01
+yoshi_wup1950
+GTW 62
+yoshi_wup196201
+GTW 69
+yoshi_wup196202
+GTW 69 spojka
+yoshi_wup196203
+GTW 69 konec
+yoshi_wup196501
+GTW 85
+yoshi_wup196502
+GTW 85 spojka
+yoshi_wup196503
+GTW 85 konec
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
+20ft_Container_Trailer-128set
+Kontejnerový návìs na zbo¾í (20 stop)
+40ft_Container_Trailer
+Kontejnerový návìs na zbo¾í (40 stop)
+AEC_Aclo_Regent_III
+AEC Aclo Regent III
+Airport_express_shuttle
+Leti¹tní expres
+BB-TS_Milk_Mack_Trailer
+BlacBox-TS návìs na pøepravu mléka
+Big_Erztruck
+MHz velký nákladní automobil
+Bulk_trailer_0
+Pøívìs na sypké materiály
+Bulk_Truck_0
+Shorty-Volvo 800
+Bulk_Truck_2
+VSYS-Tatra 801
+Bulk_Truck_3
+VSYS-Tatra 815 (sypké materiály)
+Bulk_Truck_4
+Volvo LV76-78 Sypké materiály
+Car_Tramsport_Trailer_0
+TS Pøívìs na automobily
+Car_Transporter_0
+Teddyho Pøepravník na auta
+Car_Transporter_1
+Teddyho Náklaïák na auta
+Cement_trailer_0
+PMNV Pøívìs na cement
+Cement_Truck_0
+PMNV Náklaïák na cement
+Concrete_Truck_0
+S.Kroytor Míchaèka na beton
+Concrete_Truck_1
+VSYS-Tatra 815 (Mix)
+Cooling_trailer_0
+PMNV Mrazírenský pøívìs
+Cooling_Truck_0
+PMNV ®lutý chladící vùz
+Cooling_Truck_1
+PMNV ©edý chladící vùz
+Cooling_Truck_2
+S.Kroytor Gaz-4
+Evil-Jitluen_67_Minibus
+Evil-Jitluen 67 Minibus
+Fluid_trailer_0
+AJ Cisterna na kapaliny
+Fluid_trailer_1
+AJ-PMNV Cisterna na kapaliny
+Fluid_Truck_0
+Karl-Nissan 1800 Cisterna 
+Fluid_Truck_1
+Karl-Nissan 1100 Cisterna
+Fluid_Truck_2
+S.Kroytor ZUK-20
+Fluid_Truck_3
+Magirus Cisterna 1923
+Goods_trailer_0
+Mitsubishi Fuso Super Truck - pøívìs
+Goods_trailer_1
+Mitsubishi Fuso Super Truck - pøívìs mk.2
+Goods_trailer_2
+PMNV Pøívìs na zbo¾í II
+Goods_trailer_3
+PMNV Obyèejný pøívìs na zbo¾í
+Goods_Truck_0
+Karl-Mitsubishi Fuso Super Truck
+Goods_Truck_1
+Karl-Mitsubishi Fuso Hyper Truck
+Goods_Truck_2
+PMNV Náklaïák na zbo¾í
+Goods_Truck_3
+PMNV Lehký náklaïák na zbo¾í
+Goods_Truck_4
+PMNV Turbo náklaïák
+Goods_Truck_5
+S.Kroytor Gaz-4
+Grain_trailer_0
+PMNV Pøívìs na zrní
+Grain_Truck_1
+VSYS-Tatra 815 (zrní)
+Kord_TT_bulk
+Kord TT (sypký materiál)
+Kord_TT_grain
+Kord TT (zrní - sypký materiál)
+Mack_Truck_Cooling_Trailer
+Mack Truck - Chladící návìs
+Mack_Truck_Goods_Trailer
+Mack Truck - Návìs na zbo¾í
+Mack_Truck_Post_Trailer
+PMNV po¹tovní návìs
+Mail_Truck_2
+MHz Windstar (po¹tovní dodávka)
+MHz_Grain_Trailer_0
+MHz Traktorový pøívìs na zrní
+MHz_Long_Wood_Trailer
+MHz Pøívìs na kmeny
+MHz_Tractor
+MHz Traktor
+MHz_Tractor_2
+MHz-JD Traktor
+Milk_Truck_0
+PMNV Cisterna na mléko
+Milk_Truck_1
+S.Kroytor-ZIL Mléèná cisterna
+Milk_Truck_2
+Magirus Cisterna na mléko
+mja-bulk_trailer_l
+MJA Dlouhý návìs pro sypké nerostné suroviny
+mja-bulk_trailer_m
+MJA Krátký návìs pro sypké nerostné suroviny
+mja-MAN19332-128set
+mja-MAN 19332
+mja-ScaniaP380_tanker
+mja-Scania P380 - cisterna
+mja-ScaniaP420_concretemixer
+mja-Scania P420 - míchaèka
+mja-ScaniaP420_longgoods
+mja-Scania P380 (prkna)
+mja-ScaniaR500Topline
+mja-Scania R500 tahaè
+mja-ScaniaR500Topline_cooledgoods
+mja-Scania R500 Topline (mra¾ené zbo¾í)
+mja-ScaniaR500Topline_goods
+mja-Scania R500 Topline (zbo¾í)
+mja-ScaniaR620Topline
+Scania R620 tahaè
+mja-volvof88-128set
+mja-Volvo F88
+mja-volvoVN660
+Volvo VN660 tahaè
+mja-Zil130-128set
+mja-Zil 130
+MS_sprinter_mail
+Sprinter po¹tovní vùz
+Pegaso_6038_InterCity
+Pegaso 6038 Dálkový autobus
+Pegaso_6038_Urban
+Pegaso 6038 Mìstský autobus
+Pegaso-Seida_5020_InterCity
+Pegaso-Seida 5020 Dálkový autobus
+Pegaso-Seida_5020_Urban
+Pegaso-Seida 5020 Mìstský autobus
+Planck_Truck_0
+PMNV-Canonball Plochý vùz (prkna)
+Plank_Truck_2
+VSYS-Tatra 815 (prkna)
+PMNV_50_Mack
+PMNV 1950's Mack
+PMNV_Canonball_Car_Trailer
+PMNV-Canonball Mack pøívìs na auta
+PMNV_Cement_Trailer_Slow
+PMNV pøívìs na cement
+PMNV_Cement_Truck_P
+PMNV Výsypný vùz na cement
+PMNV_Concrete_Truck
+PMNV Mack míchaèka na beton
+PMNV_Cruiser
+PMNV Cruiser
+PMNV_Cruiser_Mini
+PMNV Cruiser Mini
+PMNV_Fabric_Trailer_0
+PMNV Uzavøený pøívìs na tkaniny
+PMNV_Grain_Truck_0
+PMNV Náklaïák na zrní
+PMNV_Hydrogen_Cruiser
+PMNV vodíkový autobus
+PMNV_Mack_Bulk_Trailer_0
+PMNV Mack Návìs 22 (sypké materiály)
+PMNV_Mack_Cement_Trailer_L
+PMNV Mack Návìs na cement
+PMNV_Mack_Cement_Trailer_S
+PMNV Mack Návìs "S" (cement)
+PMNV_Mack_Concrete_Trailer_O
+PMNV Mack Návìs "B" (beton)
+PMNV_Mack_cooled_Trailer_O
+PMNV Mack Chlazený návìs 
+PMNV_Mack_Goods_Trailer_O
+PMNV Mack Návìs na zbo¾í
+PMNV_Mack_Grain_Trailer_0
+PMNV Mack Návìs na zrní
+PMNV_Mack_Grain_Trailer_O
+PMNV Mack Krátký návìs na zrní
+PMNV_Mack_Log_Trailer_L
+PMNV Mack Návìs "L" (klády)
+PMNV_Mack_Log_Trailer_M
+PMNV Mack Návìs "M" (klády)
+PMNV_Mack_Log_Trailer_S
+PMNV Mack Návìs "S" (klády)
+PMNV_Mack_Milk_Trailer_O
+PMNV Mack cisterna na mlíko
+PMNV_Mack_Oil_Trailer_L
+PMNV Mack Dlouhá cisterna (ropa) 
+PMNV_Mack_Oil_Trailer_S
+PMNV Mack Krátká cisterna (ropa)
+PMNV_Mack_Planck_Trailer_0
+PMNV Mack Návìs na prkna
+PMNV_Mack_Post_Trailer_O
+PMNV Mack Po¹tovní pøívìs
+PMNV_Mack_Steel_Trailer_L
+PMNV Mack Dlouhý návìs na odlitky
+PMNV_Mack_Steel_Trailer_S
+PMNV Mack Krátký návìs na odlitky
+PMNV_Mail_Truck_1
+PMNV Po¹tovní dodávka model 60
+PMNV_Mail_Truck_2
+PMNV Po¹tovní dodávka model 77
+PMNV_MHz_Truck_0
+PMNV-MHz Tahaè model 145
+PMNV_Milk_Trailer_0
+PMNV pøívìs na mléko
+PMNV_Open_Goods_Trailer_L
+PMNV Mack Plochý návìs na zbo¾í
+PMNV_Open_Goods_Trailer_S
+PMNV Mack Krátký návìs na zbo¾í
+PMNV_Plank_Trailer_0
+PMNV Pøívìs na prkna
+PMNV_Post_Trailer_0
+PMNV Po¹tovní pøívìs
+PMNV_Steel_Trailer_0
+PMNV Lo¾ný pøívìs na ocel
+PMNV-PB1970
+PMNV PB-1970
+Praga_Bus
+Autobus Praga 1919
+Praga_N_bulk
+Sindor-Praga N - korba
+Praga_N_cement
+Sindor-Praga N - cement
+Praga_N_Cistern
+Sindor-Praga N - cisterna
+Praga_N_milk
+Sindor-Praga N na mléko
+Praga_TOT_128
+Praga TOT
+RVg_1064_White_Bulk
+RVg-White 1064 (sypké zbo¾í)
+RVg_1064_White_Cement
+RVg-White 1064 (cement)
+RVg_1064_White_Cooled
+RVg-White 1064 (chladící box)
+RVg_1064_White_Fluid
+RVg-White 1064 (cisterna)
+RVg_1064_White_Goods
+RVg-White 1064 (s plachtou)
+RVg_Passanger_Trailer
+RVg-KS osobní pøísvìs
+RVg_Post_Trailer
+RVg-KS po¹tovní pøísvìs
+RVg_Post_Truck_0
+RVg-KS 4051 Posel
+RVg_Post_Truck_1
+RVg-KS 9051 Po¹»ák
+RVg_Type_S_Bulk
+RVg Typ-S korba
+RVg_Type_S_Cement
+RVg Typ-S - cement
+RVg_Type_S_Cistern
+RVg Typ-S cisterna
+RVg_Type_S_Post
+RVg Typ-S po¹tovní
+RVg_Type_S_Van
+RVg Typ-S krytý
+RVg-B_101
+RVg B22 Autobus
+RVg-B_107
+RVg B149 Èervený skøítek
+RVg-KS_4510-33
+RVg-KS 33
+RVg-KS_4510-45
+RVg-KS 45
+RVg-KS_4510-69
+RVg-KS 69
+RVg-KS_9020-31
+RVg-KS 9020-31
+RVg-KS_9020-58
+RVg-KS 9020-58
+RVg-KS_9020-92
+RVg-KS 9020-92
+RVg-LK_Cement_Truck
+RVg LK (cement)
+RVg-LK_Cooling_Truck
+RVg-LK V44 chladící vùz
+RVg-LK_Goods_Truck
+RVg-LK náklaïák na zbo¾í
+RVg-LK_Grain_Truck
+RVg-LK V41 otevøený obilný vùz
+RVg-LK_Plank_Truck
+RVg-LK V37 klanicový vùz na prkna
+RVg-LK_Steel_Truck
+RVg-LK V38 plochý vùz na ocel
+RX_1064
+RX 1064 Autobus
+S_Kroytor_Gaz-2
+Gaz-2
+S_Kroytor_Gaz-3
+Gaz-3
+S_Kroytor_Gaz-4
+Gaz-4
+S_Kroytor_Ikarus-260
+Ikarus-260
+S_Kroytor_Ikarus-260(l)
+Ikarus-260 (dálkový)
+S_Kroytor_Ikarus-280
+Ikarus 280
+S_Kroytor_Ikarus-280_ext
+Ikarus 280 druhá èást
+S_Kroytor_LiAZ-5256
+LIAZ 5256
+S_Kroytor_LiAZ-677
+LIAZ 677
+S_Kroytor_Mercedes_Citaro
+Mercedes Citaro
+S_Kroytor_PAZ-672
+PAZ 672
+S_Kroytor_PAZ-772
+PAZ 772
+S_Kroytor_Traveler
+Traveler
 Sentinel_Cement_Lorry
 Sindor-Sentinel - cement
 Sentinel_Cement_Trailer
@@ -3284,8 +2764,6 @@ skoda_10_tr_128
 ©koda 10 tr
 skoda_10_tr_rear_128
 ©koda 10 tr (zadní)
-Skoda_109E
-Sindor-©koda 109E
 skoda_11_tr_128
 ©koda 11 tr
 skoda_12_tr_128
@@ -3334,16 +2812,558 @@ skoda_sanos_200_tr_128
 ©koda Sanos 200 tr
 skoda_sanos_200_tr_rear_128
 ©koda Sanos 200 tr (zadní)
+SMC_H-38_City_Bus
+SMC H38 Mìstský autobus
+SMC_H-98_City_Bus
+SMC H98 Mìstský autobus
+Steel_Truck_0
+PMNV Plochý vùz (ocel)
+TATRA_400_T_128
+Tatra 400 T
+TATRA_401_T_128
+Tatra 401 T
+TATRA_86_T_128
+Tatra 86 T
+TS_Mack_Bulk_Trailer_0
+TS lehký návìs na sypké náklady
+Vitus-AVECO_Eurocargo_Bretter
+Vitus-Aveco Eurocargo (prkna)
+Vitus-AVECO_Eurocargo_bulk_transporter
+Vitus-Aveco Eurocargo sklápìèka
+Vitus-AVECO_Eurocargo_freezing
+Vitus-Aveco Eurocargo (mrazírenský)
+Vitus-AVECO_Eurocargo_tanker
+Vitus-Aveco Eurocargo Cisterna
+Vitus-AVECO_Eurocargo_transporter
+Vitus-Aveco Eurocargo s plachtou
+VSYS_Car_Trailer_0
+VSYS pøívìs na tì¾ké náklady (stroje a vozidla)
+VSYS_Concrete_Trailer_0
+VSYS pøívìs pro betonové výrobky
+VSYS_Post_Bus_Trailer_0
+VSYS po¹tovní pøívìs
+VSYS_Post_Bus_Trailer_1
+VSYS tì¾ký po¹tovní pøívìs
+VSYS_Post_Bus_Trailer_2
+VSYS lehký po¹tovní pøívìs
+VSYS_Steel_Trailer_0
+VSYS pøívìs na tì¾ké náklady - ocel
+VSYS_Tatra_138
+VSYS Tatra 138 - korba
+VSYS_Tatra_138_Grain
+VSYS Tatra 138 (zrní)
+VSYS_Tatra_813_Clossus
+VSYS Tatra 813 "Kolos"
+Wood_Trailer_0
+VSYS Pøívìs - døevo
+Wood_Truck_0
+Shorty-Volvo Transportér klád
+Wood_Truck_1
+Ford V8 coe na kmeny
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+1Benst134
+Bennhardt B-134 "Pixie"
+1Benst135t
+Bennhardt B-135 "Trpaslík"
+1Benst138
+Bennhardt B-138 "Koláè"
+1Benst162t
+Bennhardt B-162 "Jet"
+1Benst238
+Bennhardt B-238 "®abák"
+1Dampflokomotive
+RVg 0-4-0T
+2Diesellokomotive
+H-Trans BR218
+3Bens186t
+Bennhardt B-186 "Citrón"
+3Dampflokomotive
+RVg 0-3-0 "Èiperka"
+Autotransportwagen
+Canonball pøepravní vagón (auta)
+Big_Bretterwagen
+RVg velký vagón na døevo a prkna
+BR-373_Back
+BR 373 (Eurostar) Zadní øídící vùz
+BR-373_BackCar
+BR 373 (Eurostar) Zadní vlo¾ený vùz
+BR-373_Car
+BR 373 (Eurostar) Støední vlo¾ený vùz
+BR-373_Eurostar
+BR 373 (Eurostar) Pøední øídící vùz
+BR-373_FrontCar
+BR 373 (Eurostar) Pøední vlo¾ený vùz
+Bretterwagen
+Plo¹inový vagon (prkna)
+Budd_Coach
+Budd RPO (vagon)
+Budd_Lounge
+Budd RPO (Zadní osobní vùz)
+Budd_Observation
+Budd RPO (jídelní vùz)
+Budd_RPO
+Budd RPO (po¹tovní)
+caboose_1
+Slu¾ební vùz
+caboose_2
+Slu¾ební vùz vz.2
+caboose_3
+Slu¾ební vùz Deluxe
+Car_Waggon_1
+RVg vagón na auta
+Car_Waggon_2
+RVg vagón na auta
+CB_ALBATROS
+RVg ©koda 498 "Albatros"
+CB_DB-130_8
+Canonball & H-Trans BR132 "Ludmila"
+Cement_Carrier_Fast
+Vagon na cement
+Cement_Waggon_0
+BB-PMNV vagón na cement II
+Cement_Waggon_1
+BB-PMNV vagón na cement
+Cementwagen
+SergeSova cisterna na cement
+CKD_749
+ÈKD 749 "Zamraèená"
+CKD_750
+ÈKD 750 "Brejlovec"
+Concretewagen
+PMNV Míchaèka na beton 12
+Concretewagen_1
+PMNV Plo¹inový vùz na beton
+Cooling_wagon_0
+Canonball chladící vùz
+Cooling_wagon_1
+Chladící kontejnerový vùz
+Cooling_wagon_2
+Cannonball mrazírenský vagón
+CPH_Motorcar
+CPH Motorový vùz
+DB_ADm101
+Haru-DB ADm101
+DB_Apmz121
+Haru-DB Apmz121
+DB_Bm235
+Haru-DB Bm235
+DB_BR103_1
+Haru BR-103
+E_423
+Sindor E 423 
+EMD_E5A_Silver_Meteor
+EMD E5A Støíbrný meteor
+EMD_E5B_Silver_Comet
+EMD E5B Støíbrná kometa
+EMD-FT_(A)
+EMD FT A (pøední lokomotiva)
+EMD-FT_(B)
+EMD FT B (strojovna bez stanovi¹tì strojvùdce)
+EMD-FT_(C)
+EMD FT C (zadní lokomotiva)
+Evil_DF-11
+Evil DF-11
+Evil_P-100_(carriage)
+RVg P-100 (vagón)
+Evil_P-100_(front_engine)
+RVg P-100 (lokomotiva)
+Evil_P-100_(mail)
+RVg P-100 (po¹tovní)
+Evil_P-100_(rear_engine)
+RVg P-100 (koncový)
+Express_tender
+Tendr
+fluid_00_Wood_Barrels_Wagon
+Cisternový vagon na technické kapaliny (s døevìnými sudy)
+fluid_01_Iron_Tanks_Wagon
+Cisternový vagon na technické kapaliny (s kovovými sudy)
+fluid_02_CSD-502_Tank_Wagon
+Cisternový vagon na technické kapaliny (typ ÈSD 502)
+fluid_03_CSD-556_Tank_Wagon
+Cisternový vagon na technické kapaliny (typ ÈSD 556)
+fluid_04_Esso_Tank_Wagon
+Cisternový vagon na technické kapaliny (ESSO)
+fluid_05_CEPSA_Tank_Wagon
+Cisternový vagon na technické kapaliny (CEPSA)
+fluid_06_VTG_Tank_Wagon
+Cisternový vagon na technické kapaliny (typ VTG)
+fluid_07_Esso_XL_Tank_Wagon
+Cisternový vagon na technické kapaliny (ESSOP ExtraLarge)
+fluid_08_VTG_CeSa_Tank_Wagon
+Cisternový vagon na technické kapaliny (typ VTG CeSa)
+Goods_waggon_0
+Canonball uzavøený vagón
+Goods_waggon_1
+Cannonball Vagón na zbo¾í
+Goods_waggon_2
+PMNV vagón na zbo¾í
+Goods_waggon_3
+Kontejnerový vùz na zbo¾í
+Goods_waggon_4
+HS Kontejnerový vùz na zbo¾í
+Goods_waggon_5
+RVg skøíòový vùz
+Haru_2C1_Cheetah
+Haru 2C1 Gepard
+Haru_2D1_Buffalo
+Haru 2D1 Bizon
+Haru_C44-9W
+Haru C44-9W "Bì¾ec"
+Haru_DF4
+Haru DF4
+Haru_E3_KOMACHI
+Haru E3 "Komachi"
+Haru_E3_KOMACHI_(mid)
+Haru E3 "Komachi" (støední èást)
+Haru_E3_KOMACHI_(rear)
+Haru E3 "Komachi" (zadní èást)
+Haru_E3_KOMACHI_(Trailer)
+Haru E3 "Komachi" (vleèòák)
+Haru_F7A
+Haru F7 A
+Haru_F7B
+Haru F7 B
+Haru_HST
+Haru HST
+Haru_HST_mid
+Haru HST (vagón)
+Haru_HST_rear
+Haru HST (koncový)
+Haru_Spike-PSE_Head1
+Haru PSE ©ipka (Lokomotiva A)
+Haru_Spike-PSE_Head2
+Haru PSE ©ipka (lokomotiva B)
+Haru_Spike-PSE_Tail1
+Haru PSE ©ipka (koncový B)
+Haru_Spike-PSE_Tail2
+Haru PSE ©ipka (koncový A)
+Haru_Spike-PSE_Waggon
+Haru PSE ©ipka (vagón)
+Haru_Tender
+Haru Tendr
+Haru_VT98
+Haru VT98
+Haru_VT98_car
+Haru VT98 (vagón)
+Haru-373
+Haru 373 
+Haru-373_car
+Haru 373 (vagón)\n
+Haru-373_tail
+Haru 373 (koncový)
+Haru-ACE1_Head
+Haru ACE (lokomotiva)
+Haru-ACE1_Tail
+Haru ACE (koncový)
+Haru-ACE1_Waggon1
+Haru ACE (2.tøída)
+Haru-ACE1_Waggon2
+Haru ACE (1.tøída)
+Haru-ACE1_Waggon3
+Haru ACE (po¹tovní vagón)
+Haru-BR182_Taurus
+Haru BR-182 Býk 
+Haru-IC3
+Haru IC-3 (lokomotiva)\n
+Haru-IC3_car
+Haru IC-3 (vagón)
+Haru-IC3_tail
+Haru IC-3 (koncový)
+Haru-PlanV
+Haru Plan V.
+Haru-PlanV(rear)
+Haru Plan V. (koncový)\n
+Haru-PMNV_F7-Coach
+Haru-PMNV F7 (vagón)
+Haru-PMNV_F7-Mail_Car
+Haru-PMNV F7 (po¹tovní vagón)
+Haru-TEM2
+Haru TEM-2
+Haru-X2000
+Haru X2000 (lokomotiva)
+Haru-X2000_mid
+Haru X2000 (vagón)
+Haru-X2000_rear
+Haru X2000 (koncový)
+Holzwagen
+Klanicový vagón
+Holzwagen_0
+RVg Dvojvagón na klády
+Holzwagen_1
+RVg Klanicový vagón ètyøosý
+JNR_C11
+JNR SL C11
+JNR_C62
+JNR SL C62
+JNR_D51
+JNR SL D51
+JNR_DD51
+JNR DD51
+JNR_tender_S
+C62/D51 Tendr
+JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
+JR 700 Series Shinkansen "Hikari Rail Star"
+JR_700_Shinkansen_HRS_(Middle_Section)_PC
+JR 700 Series Shinkansen HRS (støed)
+JR_700_Shinkansen_HRS_(Pantograph_I)_PC
+JR 700 Series Shinkansen HRS (Pantograf I)
+JR_700_Shinkansen_HRS_(Pantograph_II)_PC
+JR 700 Series Shinkansen HRS (Pantograf II)
+JR_700_Shinkansen_HRS_(Tailcar)_PC
+JR 700 Series Shinkansen HRS (zadní èást)
+LKAB_IORE_Back
+LKAB IORE zadní lokomotiva
+LKAB_IORE_Front
+LKAB IORE pøední lokomotiva
+MA461_waggon
+MA461 - vagón
+Marks_Passagierwagen
+MJHN Expresní vùz
+Marks_Postwagen
+MJHN Expresní po¹tovní vùz
+Marks-Deltic
+MJHN Deltic
+milk_07_milk_waggon_0
+Chlazený vagon na mléko
+MTAB_Dm_Back
+SJ Dm zadní lokomotiva
+MTAB_Dm_Front
+SJ Dm pøední lokomotiva
+MTAB_Dm3
+SJ Dm lokomotiva bez stanovi¹tì strojvùdce (Dm3)
+Passagierwagen
+Canonball BTx 060 2. tøída
+Passanger_waggon_0
+Nabe-JNR OHA 31 osobní vagón
+Passanger_waggon_1
+Haru JNR OHAFU 50 2. tøída
+Passanger_waggon_2
+Nabe-JNR ORO 40 2. tøída
+Passanger_waggon_3
+RA BTx 050 2. tøída
+Passanger_waggon_MAITE39
+Nabe-JNR MAITE 39 1. tøída
+Pioneer_Zephyr
+Pioneer Zephyr (lokomotiva)
+Pioneer_Zephyr_Car
+Pioneer Zephyr (vlo¾ený osobní vùz)
+Pioneer_Zephyr_Tail
+Pioneer Zephyr (koncový osobní vùz)
+Plank_waggon_0
+RVg malý vagón na døevo a prkna
+Plank_waggon_1
+Vagón na pøepravu prken
+Post_waggon_0
+PV 80 Po¹tovní vùz
+Postwagen
+Canonball po¹tovní vagón
+Renfe_Series_10200_(Player_Colors)
+RENFE øada 10200
+Renfe_Series_301_(Player_Colors)
+RENFE øada 301
+Renfe_Series_311_(Player_Colors)
+RENFE øada 311
+Renfe_Series_314_(Player_Colors)
+RENFE øada 314
+Renfe_Series_316_(Player_Colors)
+RENFE øada 316
+Renfe_Series_318_(Player_Colors)
+RENFE øada 318
+Renfe_Series_319.300_(Player_Colors)
+RENFE øada 319.300
+Renfe_Series_334_(Player_Colors)
+RENFE øada 334
+Renfe_Series_350_Talgo_(Player_Colors)
+RENFE øada 350 TALGO (lokomotiva)
+Renfe_Series_350_Talgo_Car_(Player_Colors)
+RENFE øada 350 TALGO (osobní vùz)
+Renfe_Series_350_Talgo_Mail_Car_(Player_Colors)
+RENFE øada 350 TALGO (po¹tovní vùz)
+Renfe_Series_350_Talgo_Restaurant_Car_(Player_Colors)
+RENFE øada 350 TALGO (jídelní vùz)
+Renfe_Z-2000_Car
+RENFE Z2000 osobní vùz
+Renfe_Z-2000_Mail_Car
+RENFE Z2000 po¹tovní vùz
+Renfe6000_Post
+RENFE 6000 po¹tovní vùz
+Renfe6000_Psg
+RENFE 6000 osobní vùz
+RVg_0-1-4-0
+RVg 0-1-4-0
+RVg_1945_box_car
+RVg krytý nákladní vùz (1945/23)
+RVg_1951_box_car
+RVg krytý nákladní vùz (1951/24)
+RVg_1955_box_car
+RVg krytý nákladní vùz (1955/24)
+RVg_1962_box_car
+RVg krytý nákladní vùz (1962/24)
+RVg_1969_box_car
+RVg krytý nákladní vùz (1969/25)
+RVg_1976_box_car
+RVg krytý nákladní vùz (1976/26)
+RVg_1983_box_car
+RVg krytý nákladní vùz (1983/26)
+RVg_1989_container_car
+RVg kontejnerový vagón (1989/27)
+RVg_1994_container_car
+RVg kontejnerový vagón (1994/27)
+RVg_2000_container_car
+RVg kontejnerový vagón (2000/27)
+RVg_2006_container_car
+RVg kontejnerový vagón (2006/27)
+RVg_2011_container_car
+RVg kontejnerový vagón (2011/27)
+RVg_Bulk_Waggon_00
+RVg vagón na sypké náklady (1850/20)
+RVg_Bulk_Waggon_01
+RVg vagón na sypké náklady (1932/23)
+RVg_Bulk_Waggon_02
+RVg vagón na sypké náklady (1945/25)
+RVg_Bulk_Waggon_03
+RVg vagón na sypké náklady (1962/28)
+RVg_Bulk_Waggon_04
+RVg vagón na sypké náklady (1978/30)
+RVg_Bulk_Waggon_05
+RVg vagón na sypké náklady (1995/32)
+RVg_Bulk_Waggon_06
+RVg vagón na sypké náklady (2019/35)
+RVg_Cementwagen
+RVg vagón na cement
+RVg_Cooling_car
+RVg chladírenský vagón
+RVg_Daylight
+RVg "Úsvit" (lokomotiva)
+RVg_Daylight_dome
+RVg "Úsvit" (jídelní vùz)
+RVg_Daylight_end
+RVg "Úsvit" (koncový)
+RVg_Daylight_post
+RVg "Úsvit" (po¹tovní vùz)
+RVg_Daylight_tender
+RVg "Úsvit" (tendr)
+RVg_Daylight_waggon
+RVg "Úsvit" (vagon)
+RVg_Flying_Berliner_(front)
+RVg Létající Berlíòan (lokomotiva)
+RVg_Flying_Berliner_(tail)
+RVg Létající Berlíòan (koncový)
+RVg_Hiawatha
+RVg expres Hiawatha (Lokomotiva)
+RVg_Hiawatha_dome
+RVg expres Hiawatha (jídelní vùz)
+RVg_Hiawatha_end
+RVg expres Hiawatha (koncový)
+RVg_Hiawatha_post
+RVg expres Hiawatha (po¹tovní vagon)
+RVg_Hiawatha_tender
+RVg expres Hiawatha (uhlák)
+RVg_Hiawatha_waggon
+RVg expres Hiawatha (vagon)
+RVg_M1
+RVg M1 (lokomotiva)
+RVg_M1_tail
+RVg M1 (koncový)
+RVg_M1_waggon
+RVg M1 (vagon)
+RVg_O-2-4-0
+RVg 2-4-0 "Expres"
+RVg_R-100_(carriage)
+RVg R-100 (vagon)
+RVg_R-100_(front_engine)
+RVg R-100 (Lokomotiva)
+RVg_R-100_(mail)
+RVg R-100 (po¹tovní vùz)
+RVg_R-100_(rear_engine)
+RVg R-100 (koncový)
+RVg_Spike_Duplex
+RVg Spike Duplex (lokomotiva)
+RVg_Spike_Duplex_tail
+RVg Spike Duplex (koncový)
+RVg_Spike_Duplex_waggon
+RVg Spike Duplex (vagon)
+RVg_Thunder_2
+RVg Hrom II (lokomotiva)
+RVg_Thunder_2_Back
+RVg Hrom II (koncový)
+RVg_Thunder_2_post
+RVg Hrom II (po¹tovní vagon)
+RVg_Thunder_2_wagon
+RVg Hrom II (vagon)
+RVg_Tigress
+RVg Tygøice
+RVg_Tigress_Back
+RVg Tygøice (koncový)
+RVg_Tigress_post
+RVg Tygøice (po¹tovní vùz)
+RVg_Tigress_wagon
+RVg Tygøice (vagon)
+RVg-0-4-4-0
+RVg 0DD0 "Osmikolák"
+RVg-1-4-1
+RVg 1D1 "Býk"
+RVg-1-5-0-Goliath
+RVg 1E0 "Goliá¹"
+RVg-2-3-0
+RVg 2C0 "Kristýna"
+RVg-2-3-1
+RVg 2C1 "©tíhlá"
+RVg-2-4-0
+RVg 2D0 "Bì¾ec"
+RVg-2-5-1
+RVg 2E1 "Svalovec"
+RVg-D22-Rola
+RVg D22 Rola
+RVg-D23-Camel
+RVg D23 "Velbloud"
+RVg-D41-Tubus
+RVg D41 "Tubus"
+RVg-DB_MA461
+RVg-DB MA-461
+RVg-DB_MA461_Tail
+RVg-DB MA-461 (zadní)
+RVg-E17-Spring
+RVg E17 "Pru¾ina"
+RVg-Express_Tender
+RVg Expresní Tendr
+RVg-Goods_waggon
+RVg Uzavøený vagón (dobytèák)
+RVg-Heavy-Tender
+RVg Tì¾ký tendr
+RVg-Oil-Tender
+RVg Tendr na topný olej
+RVg-Pioneer_Alladin
+RVg Pioneer Alladin (lokomotiva)
+RVg-Pioneer_Alladin_rear
+RVg Pioneer Alladin (koncový)
+RVg-Pioneer_Alladin_supply
+RVg Pioneer Alladin (motorový vagon)
+RVg-Pioneer_Alladin_waggon
+RVg Pioneer Alladin (vagon)
+RVg-RHF401
+RVg-RHF 401 Krokodýl
+RVg-S004-Little_Boy
+RVg S004 "Malý døíè"
+RVg-S033-Red_Dwarf
+RVg S033 "Èervený trpaslík"
+RVg-S127-Blue_Cow
+RVg S127 "Modrá vrána"
+RVg-Tender
+RVg Tendr
+SBB_Re4_4_II
+Haru-SBB Re 4/4 II
+SBB_Re6_6
+Haru-SBB Re 6/6 "Gotthard"
+Skoda_109E
+Sindor-©koda 109E
 skoda151
 ©koda 151 "Princezna"
 skoda163
 ©koda 163 "Pershing"
 skoda180
 ©koda 180 "©estikolák"
-SMC_H-38_City_Bus
-SMC H38 Mìstský autobus
-SMC_H-98_City_Bus
-SMC H98 Mìstský autobus
 SMC_HDL-1400
 HDL-1400
 SMC_HDL-1600
@@ -3372,50 +3392,12 @@ Stahlwagen_2
 RVg vagón na role plechu (ocel)
 Stahlwagen_3
 RVg vagón na ocelové pláty (ocel)
-Steel_Truck_0
-PMNV Plochý vùz (ocel)
-Stoyko_Peev
-Stoyko Peev (paletované zbo¾í)
-T_101
-RVg T101
-T_102
-RVg T102
-T_103
-RVg T103
-T_104
-RVg T104
-T_105
-RVg T105
-T_106
-RVg T106
-T_107A
-RVg T107a
-T_107B
-RVg T107b
-T_108A
-RVg T108a
-T_108B
-RVg T108b
-T_109A
-RVg T109a
-T_109B
-RVg T109b
-T_110A
-RVg T110a Super Tram
-T_110B
-RVg T110b Super Tram
 TalgoExpressCar
 Talgo Expres (osobní vùz)
 TalgoExpressMail
 Talgo Expres (po¹tovní vùz)
 TalgoExpressRestaurant
 Talgo Expres (jídelní vùz)
-TATRA_400_T_128
-Tatra 400 T
-TATRA_401_T_128
-Tatra 401 T
-TATRA_86_T_128
-Tatra 86 T
 TGV_4400
 TGV PSE (Pøední lokomotiva)
 TGV_4400_Back
@@ -3452,90 +3434,184 @@ TMB_Class_2000
 TMB øada 2000 (øídící vùz)
 TMB_Class_2000_Car
 TMB øada 2000 (vlo¾ený vùz)
-TS_Mack_Bulk_Trailer_0
-TS lehký návìs na sypké náklady
-Veveri_ship_128set
-Veveøí
-Vitus-AVECO_Eurocargo_Bretter
-Vitus-Aveco Eurocargo (prkna)
-Vitus-AVECO_Eurocargo_bulk_transporter
-Vitus-Aveco Eurocargo sklápìèka
-Vitus-AVECO_Eurocargo_freezing
-Vitus-Aveco Eurocargo (mrazírenský)
-Vitus-AVECO_Eurocargo_tanker
-Vitus-Aveco Eurocargo Cisterna
-Vitus-AVECO_Eurocargo_transporter
-Vitus-Aveco Eurocargo s plachtou
-VSYS_Car_Trailer_0
-VSYS pøívìs na tì¾ké náklady (stroje a vozidla)
-VSYS_Concrete_Trailer_0
-VSYS pøívìs pro betonové výrobky
 vsys_garatt_0
 VSYS-Garatt 2DD2 (pøední)
 vsys_garatt_1
 VSYS-Garatt 2DD2 (støed)
 vsys_garatt_2
 VSYS-Garatt 2DD2 (zadní)
-VSYS_Post_Bus_Trailer_0
-VSYS po¹tovní pøívìs
-VSYS_Post_Bus_Trailer_1
-VSYS tì¾ký po¹tovní pøívìs
-VSYS_Post_Bus_Trailer_2
-VSYS lehký po¹tovní pøívìs
-VSYS_Steel_Trailer_0
-VSYS pøívìs na tì¾ké náklady - ocel
-VSYS_Tatra_138
-VSYS Tatra 138 - korba
-VSYS_Tatra_138_Grain
-VSYS Tatra 138 (zrní)
-VSYS_Tatra_813_Clossus
-VSYS Tatra 813 "Kolos"
 VT105_Addon
 VT 105 (Motorový vùz)
 VT105_Car_Addon
 VT 105 (Vlo¾ený vleèný vùz)
 VT105_Tail_Addon
 VT 105 (Koncový vleèný vùz)
+#_____________________________vehicle - tram_track______________________________
+#_____________________________vehicle - tram_track______________________________
+DueWAG_GT6_motorwaggon
+Due WAG GT6
+DueWAG_GT6_tailwaggon
+Due WAG GT6 pøívìs
+EM400_1
+Sindor-FK EM400
+Haru_Tatra-T3
+Haru Tatra T3
+MHz_TRAM_1930
+MHz T-113
+MHz_TRAM_1980
+MHz T-235
+R_01
+RVg R1 - vlecny vuz
+R_02
+RVg R2 - vlecny vuz
+T_101
+RVg T101
+T_102
+RVg T102
+T_103
+RVg T103
+T_104
+RVg T104
+T_105
+RVg T105
+T_106
+RVg T106
+T_107A
+RVg T107a
+T_107B
+RVg T107b
+T_108A
+RVg T108a
+T_108B
+RVg T108b
+T_109A
+RVg T109a
+T_109B
+RVg T109b
+T_110A
+RVg T110a Super Tram
+T_110B
+RVg T110b Super Tram
+#________________________________vehicle - water________________________________
+#________________________________vehicle - water________________________________
+Black_Osprey
+Black Osprey (ocel)
+Black_Osprey_(goods)
+Black Osprey (paletované zbo¾í)
+Black_Osprey_(grain)
+Black Osprey (na obilí)
+British_Premier
+British Premier (technické kapaliny)
+Eaglescliffe_Hall
+Eaglescliffe Hall (sypké nerostné suroviny)
+Eaglescliffe_Hall_(lumber)
+Eaglescliffe Hall (døevo)
+Edmund_Fitzgerald
+Edmund Fitzgerald (ocel)
+Edmund_Fitzgerald_(wood)
+Edmund Fitzgerald (døevo)
+Ferry_Mail_Extension_(small)
+Doplòkový po¹tovní prostor (malý)
+Fishing_Boat_1
+MHz Rybáøská bárka
+Liner_Mail_Extension_(large)
+Doplòkový po¹tovní prostor (velký)
+MHz-C11C_Bulk_Barge
+MHz C11C Remorkér na uhlí
+MHz-C11C_Wood_Barge
+MHz bárka C11C na døevo
+MHz-C273U_Cement_Barge
+MHz C273U remorkér na cement
+MHz-C35_Goods_Barge
+MHz C35 Zbo¾í
+MHz-C3P_Post_Barge
+MHz C3P Po¹ta
+MHz-CC47_Container_Barge
+MHz CC47 Kontejnerová loï (zbo¾í)
+MHz-MT7_Milk_Barge
+MHz MT7 (mléko)
+MHz-OT5_Oil_Barge
+MHz OT5 (ropa)
+MHz-P11C_Bulk_Boat
+MHz P11C Plochý èlun (sypké hmoty)
+MHz-P11C_Wood_Boat
+MHz P11C Lodice na døevo
+MHz-R2A_Push-Tug
+MHz R2A Tlaèný èlun
+MV_Balmoral
+MV Balmoral
+MV_Fedra
+MV Fedra (sypké nerostné suroviny)
+MV_Lake_Illawarra
+MV Lake Illawarra (sypké nerostné suroviny)
+MV_Lake_Illawarra_(grain)
+MV Lake Illawarra (obilí)
+New_Zealand_Star
+New Zealand Star (chlazené potraviny)
+Nordic_Heron
+Nordic Heron (technické kapaliny)
+Nordic_Heron_(liquid_food)
+Nordic Heron (tekuté potraviny)
+Nororn
+Nororn (chlazené potraviny)
+Owari_Maru
+Owari Maru (sypké nerostné suroviny)
+Patagonia
+Patagonia (paletované zbo¾í)
+Patagonia_(farm_products)
+Patagonia (obilí)
+Post_Barge
+MHz Po¹tovní bárka
+Queen_Elisabeth_2
+Queen Elisabeth II.
+Rigoletto
+Rigoletto (auta)
+RMS_Baltic
+RMS Baltic
+RVg-Sail_Goods_Ship_0
+RVg Obchodní bárka
+RVg-Sail_Passanger_Ship_0
+RVg Fregata
+RVg-Steam_Goods_Ship_0
+RVg Nákladní parník
+RVg-Steam_Passanger_Ship_0
+RVg Kolesový parník
+Sail_Post_Ship_0
+Po¹tovní kutr
+Stoyko_Peev
+Stoyko Peev (paletované zbo¾í)
+Veveri_ship_128set
+Veveøí
 Willamette_Chief
 Willamette Chief
 Willamette_Chief_(farm_goods)
 Willamette Chief (obilí)
 Willamette_Chief_(goods)
 Willamette Chief (paletované zbo¾í)
-Wood_Trailer_0
-VSYS Pøívìs - døevo
-Wood_Truck_0
-Shorty-Volvo Transportér klád
-Wood_Truck_1
-Ford V8 coe na kmeny
-yoshi_wup01
-GTW 72
-yoshi_wup02
-GTW 72 spojka
-yoshi_wup03
-GTW 72 konec
-yoshi_wup1900
-GTW 01
-yoshi_wup1950
-GTW 62
-yoshi_wup196201
-GTW 69
-yoshi_wup196202
-GTW 69 spojka
-yoshi_wup196203
-GTW 69 konec
-yoshi_wup196501
-GTW 85
-yoshi_wup196502
-GTW 85 spojka
-yoshi_wup196503
-GTW 85 konec
-#______________________________________way______________________________________
-#______________________________________way______________________________________
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 air_movement_area
 Pojí¾dìcí plocha
-canal_030
-Kanál øíèní dopravy
+old_runway
+Pøistávací dráha
+old_taxiway
+Pojí¾dìcí plocha
+runway_modern
+Pøistávací dráha
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
+Schwebebahn_p_ground
+Jednokolejka (pøízemní)
+Suspended_Monorail_Track
+Vysutá jednokolejka
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+PowerConduits
+Podzemní vedení VN
+Powerline
+Vedení vysokého napìtí
+#__________________________________way - road___________________________________
+#__________________________________way - road___________________________________
 Highway_110
 Rychlostní silnice
 Highway_110_Elevated
@@ -3548,14 +3624,24 @@ Highway_200
 Rychlostní dálnice
 Highway_200_Elevated
 Vyvý¹ená rychlostní dálnice
-old_runway
-Pøistávací dráha
-old_taxiway
-Pojí¾dìcí plocha
-PowerConduits
-Podzemní vedení VN
-Powerline
-Vedení vysokého napìtí
+Road_030
+Vyje¾dìná cesta
+Road_040
+Dlá¾dìná ulice
+Road_050
+Asfaltová ulice
+Road_050_Elevated
+Vyvý¹ená asfaltová ulice
+Road_055
+©tìrková cesta
+Road_070
+Asfaltová silnice
+Road_090
+Moderní asfaltová silnice
+Road_090_Elevated
+Vyvý¹ená asfaltová silnice
+#__________________________________way - track__________________________________
+#__________________________________way - track__________________________________
 Rail_060_Tracks
 Raná tra»
 Rail_080_Tracks
@@ -3602,32 +3688,6 @@ Rail_400_Elevated
 Vyvý¹ená moderní tra» pro velmi vysoké rychlosti
 Rail_400_Tracks
 Moderní tra» pro velmi vysoké rychlosti
-river_0a
-Øíèka
-river_0b
-Øeka
-Road_030
-Vyje¾dìná cesta
-Road_040
-Dlá¾dìná ulice
-Road_050
-Asfaltová ulice
-Road_050_Elevated
-Vyvý¹ená asfaltová ulice
-Road_055
-©tìrková cesta
-Road_070
-Asfaltová silnice
-Road_090
-Moderní asfaltová silnice
-Road_090_Elevated
-Vyvý¹ená asfaltová silnice
-runway_modern
-Pøistávací dráha
-Schwebebahn_p_ground
-Jednokolejka (pøízemní)
-Suspended_Monorail_Track
-Vysutá jednokolejka
 Tram_Track_050_A
 Standardní tramvajová tra»
 Tram_Track_070_A
@@ -3640,19 +3700,33 @@ Tram_Track_090_B
 Moderní tramvajová tra» s trávou
 Tram_Track_110_A
 Rychlostní tramvajová tra»
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
+#__________________________________way - water__________________________________
+#__________________________________way - water__________________________________
+canal_030
+Kanál øíèní dopravy
+river_0a
+Øíèka
+river_0b
+Øeka
+#_______________________________way-object - air________________________________
+#_______________________________way-object - air________________________________
+modern_runway-extMrkLgt
+Moderní osvìtlení runwaye
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+trolleybus_catenary
+Trolejbusová trolej
+#______________________________way-object - track_______________________________
+#______________________________way-object - track_______________________________
 classic_metal_mesh_catenary
 Elektrifikace tøetí kolejí
 curved_pylon_lgv
 Vysokorychlostní trolej
 highspeed_catenary
 Standardní trolej
-modern_runway-extMrkLgt
-Moderní osvìtlení runwaye
-tramway_modern
-Tramvajová trolej
-trolleybus_catenary
-Trolejbusová trolej
 wood_gantry_catenary
 Stará trolej
+#____________________________way-object - tram_track____________________________
+#____________________________way-object - tram_track____________________________
+tramway_modern
+Tramvajová trolej

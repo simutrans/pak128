@@ -9,19 +9,213 @@
 #                              Language: ko Korean                             #
 #                                Encoding: UTF-8                               #
 #                                 Font: cyr.bdf                                #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
-PowerBridge
-전력선 다리
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
 Schwebebahn_p_bridge
 현수식 모노레일(교량)
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
+PowerBridge
+전력선 다리
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
 water_bridge
 수로교
 #___________________________________building____________________________________
 #___________________________________building____________________________________
+CarStop
+적재 베이
+MonorailGround
+모노레일 기초기반
+ShipStop
+승객 부두
+TrainStop
+역
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+Firestation
+소방서\n\이곳은 도시의 소방서입니다. 이곳에는\n소방차, 소방관, 그리고\n구급차가 있습니다.\n이것은 예비용입니다.\n구급차는 소방서에서 나와서,\n활동할 것입니다.\n(빌어먹을 도시에서\n예산을 삭감하기 전에는)\n
+FORT_FUN
+역사적인 요새\n\n
+FUTURISTIC_TOWER_0
+타워\n\n이 타워는 주변의\n아름다운 경치를\n제공합니다. 또한 맨 꼭대기층에는\n작은 바가 있어서,\n당신은 즐겁게\n 음주를 하면서\n관광할수 있습니다. 비록\n요금은 비싸지만,\n이 타워는 많은\n관광객을 유치합니다.\n
+HOUSE_RUINS_0
+무너진 집터\n\n여기는 지금은\n 존재하지 않는 어떤 도시의\n시장의 사무실이었습니다. 역사가들은\n과거를 기억하기 위해\n이곳을 방문하는것을 좋아하고,\n관광객들은 집터 밖의 나무 아래에서\n공연되는 공연을 보기위해\n이곳을 찾습니다.\n
+Old_gate
+도시 게이트\n\n
+Pagoda01
+파고다\n\n
+PARK_0
+연못있는 대형공원\n\n
+Russian_Cathedral
+러시아 정교회\n\n
+WOODEN_CHURCH
+목재 교회\n\n이 목재 교회는 Hamish 사람들에\n의해 건설되었습니다.\n\n\n\n\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
+1920_AirDepot
+간이 격납고
+1930AirDepot
+목재 격납고
+1940AirDepot
+철판 격납고
+1950AirDepot
+콘크리트 격납고
+1990AirDepot
+현대식 격납고
+CarDepot
+차고
+MonorailDepot
+현수식 모노레일 차고
+ShipDepot
+조선소
+TrainDepot
+열차 차량기지
+TramDepot
+노면전차 차고
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
+Airport1920_AirportBlg
+공항여객터미널
+Airport1930PostOffice
+항공우편우체국
+Airport1990_Big_AirportBlg
+현대식 대형 공항여객터미널
+Airport1990_Entrance_AirportBlg
+현대식 공항 입구
+Airport1990_Gates_AirportBlg
+현대식 게이트
+Airport1990_PostOffice
+현대화 항공우편우체국
+Airport1990_Small_AirportBlg
+현대식 소형 공항여객터미널
+Airport1990_Warehouse
+현대식 화물 터미널
+Almuthof_StationBlg
+시골 역
+Avila_Big_StationBlg
+대형 승객 대합실
+Avila_Small_StationBlg
+소형 여객 대합실
+Avila_Warehouse_StationBlg
+화물 창고
+BigTerminal1950_AirportBlg_S
+대형 공항승객 터미널(1950년식)
+Bulk_StationBlg
+벌크 화물 역사
+Car_StationBlg
+철도역 주차장
+Control_StationBlg
+역 제어 건물
+CunnersdorfStopBlg
+마을 역 건물
+Fluid_StationBlg
+유류 저장 건물
+Gas_StationBlg
+가스 저장 건물
+Goods_StationBlg
+상품 창고
+LuftPost1950_AirportBlg
+항공우편 우체국
+Modern_Warehouse
+현대식 창고
+ModernPostOffice
+현대식 우체국
+MonorailFoundation
+모노레일 기초기반
+PostOffice
+우체국
+PostOffice1920_AirportBlg
+항공우편 우체국
+Radar3
+레이더
+Terminal1930_AirportBlg
+소형 터미널 홀
+Terminal1950_AirportBlg_S
+소형 터미널 홀
+Tower1920_AirportBlg
+기본 관제탑
+Tower1930_AirportBlg
+소형 관제탑
+Tower1950_AirportBlg
+관제탑
+Tower1990_AirportBlg
+현대식 관제탑
+Very_Big_Terminal
+매우 큰 터미널홀(3x3)
+VictorianStation
+빅토라이시대 스타일역
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+벌크 화물 항구
+Crate_Goods_Dock
+컨테이너 항구
+Long_Goods_Dock
+긴 화물 부두
+Post_Dock
+우편용 항구
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
+HQ1
+본사
+HQ2
+본사(2단계)
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+항공기 탑승 지역
+big_classic_bus_stop
+대형 버스정류장
+big_modern_bus_stop
+대형 현대식 버스정류장
+bus_terminus
+현대식 버스터미널
+canal_ChannelStop
+운하 정류장
+canal_ware_stop
+운하 정류장(상품용)
+classic_mailbox
+우체통
+ClosedTrainStop
+지붕으로 덮은 플랫폼
+CoalTrainStop
+석탄취급역
+Container1TrainStop
+컨테이너 역
+Container2TrainStop
+진보된 컨테이너 역
+FreightTrainStop
+화물열차 역
+medium_classic_bus_stop
+지붕있는 버스정류장
+medium_early_bus_stop
+초기형 지붕있는 버스정류장
+medium_modern_bus_stop
+현대식 버스정류장
+ModernTrainStop
+현대식 열차역
+OpenTrainStop
+간이 플랫폼
+parking_(catchemnt_area_ext)1
+주차장
+parking_(catchemnt_area_ext)2
+주차장
+parking_(catchemnt_area_ext)3
+주차장
+small_classic_bus_stop
+간이 버스정류장
+small_early_bus_stop
+버스정류장
+Suspended_Monorail_Bahnhof_Modern
+모노레일 정류장
+VillageTrainStop
+마을 간이역
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
 01_CITY
 시청
 01_CITY_1
@@ -42,182 +236,6 @@ water_bridge
 시청
 05_CITY_1
 시청
-1920_AirDepot
-간이 격납고
-1930AirDepot
-목재 격납고
-1940AirDepot
-철판 격납고
-1950AirDepot
-콘크리트 격납고
-1990AirDepot
-현대식 격납고
-Airport1920_AirportBlg
-공항여객터미널
-Airport1930PostOffice
-항공우편우체국
-Airport1990_Big_AirportBlg
-현대식 대형 공항여객터미널
-Airport1990_Entrance_AirportBlg
-현대식 공항 입구
-Airport1990_Gates_AirportBlg
-현대식 게이트
-Airport1990_PostOffice
-현대화 항공우편우체국
-Airport1990_Small_AirportBlg
-현대식 소형 공항여객터미널
-Airport1990_Warehouse
-현대식 화물 터미널
-AirStop_AirportBlg
-항공기 탑승 지역
-Almuthof_StationBlg
-시골 역
-Avila_Big_StationBlg
-대형 승객 대합실
-Avila_Small_StationBlg
-소형 여객 대합실
-Avila_Warehouse_StationBlg
-화물 창고
-big_classic_bus_stop
-대형 버스정류장
-big_modern_bus_stop
-대형 현대식 버스정류장
-BigTerminal1950_AirportBlg_S
-대형 공항승객 터미널(1950년식)
-Bulk_Dock
-벌크 화물 항구
-Bulk_StationBlg
-벌크 화물 역사
-bus_terminus
-현대식 버스터미널
-canal_ChannelStop
-운하 정류장
-canal_ware_stop
-운하 정류장(상품용)
-Car_StationBlg
-철도역 주차장
-CarDepot
-차고
-CarStop
-적재 베이
-classic_mailbox
-우체통
-ClosedTrainStop
-지붕으로 덮은 플랫폼
-CoalTrainStop
-석탄취급역
-Container1TrainStop
-컨테이너 역
-Container2TrainStop
-진보된 컨테이너 역
-Control_StationBlg
-역 제어 건물
-Crate_Goods_Dock
-컨테이너 항구
-CunnersdorfStopBlg
-마을 역 건물
-Firestation
-소방서\n\이곳은 도시의 소방서입니다. 이곳에는\n소방차, 소방관, 그리고\n구급차가 있습니다.\n이것은 예비용입니다.\n구급차는 소방서에서 나와서,\n활동할 것입니다.\n(빌어먹을 도시에서\n예산을 삭감하기 전에는)\n
-Fluid_StationBlg
-유류 저장 건물
-FORT_FUN
-역사적인 요새\n\n
-FreightTrainStop
-화물열차 역
-FUTURISTIC_TOWER_0
-타워\n\n이 타워는 주변의\n아름다운 경치를\n제공합니다. 또한 맨 꼭대기층에는\n작은 바가 있어서,\n당신은 즐겁게\n 음주를 하면서\n관광할수 있습니다. 비록\n요금은 비싸지만,\n이 타워는 많은\n관광객을 유치합니다.\n
-Gas_StationBlg
-가스 저장 건물
-Goods_StationBlg
-상품 창고
-HOUSE_RUINS_0
-무너진 집터\n\n여기는 지금은\n 존재하지 않는 어떤 도시의\n시장의 사무실이었습니다. 역사가들은\n과거를 기억하기 위해\n이곳을 방문하는것을 좋아하고,\n관광객들은 집터 밖의 나무 아래에서\n공연되는 공연을 보기위해\n이곳을 찾습니다.\n
-HQ1
-본사
-HQ2
-본사(2단계)
-Long_Goods_Dock
-긴 화물 부두
-LuftPost1950_AirportBlg
-항공우편 우체국
-medium_classic_bus_stop
-지붕있는 버스정류장
-medium_early_bus_stop
-초기형 지붕있는 버스정류장
-medium_modern_bus_stop
-현대식 버스정류장
-Modern_Warehouse
-현대식 창고
-ModernPostOffice
-현대식 우체국
-ModernTrainStop
-현대식 열차역
-MonorailDepot
-현수식 모노레일 차고
-MonorailFoundation
-모노레일 기초기반
-MonorailGround
-모노레일 기초기반
-Old_gate
-도시 게이트\n\n
-OpenTrainStop
-간이 플랫폼
-Pagoda01
-파고다\n\n
-PARK_0
-연못있는 대형공원\n\n
-parking_(catchemnt_area_ext)1
-주차장
-parking_(catchemnt_area_ext)2
-주차장
-parking_(catchemnt_area_ext)3
-주차장
-Post_Dock
-우편용 항구
-PostOffice
-우체국
-PostOffice1920_AirportBlg
-항공우편 우체국
-Radar3
-레이더
-Russian_Cathedral
-러시아 정교회\n\n
-ShipDepot
-조선소
-ShipStop
-승객 부두
-small_classic_bus_stop
-간이 버스정류장
-small_early_bus_stop
-버스정류장
-Suspended_Monorail_Bahnhof_Modern
-모노레일 정류장
-Terminal1930_AirportBlg
-소형 터미널 홀
-Terminal1950_AirportBlg_S
-소형 터미널 홀
-Tower1920_AirportBlg
-기본 관제탑
-Tower1930_AirportBlg
-소형 관제탑
-Tower1950_AirportBlg
-관제탑
-Tower1990_AirportBlg
-현대식 관제탑
-TrainDepot
-열차 차량기지
-TrainStop
-역
-TramDepot
-노면전차 차고
-Very_Big_Terminal
-매우 큰 터미널홀(3x3)
-VictorianStation
-빅토라이시대 스타일역
-VillageTrainStop
-마을 간이역
-WOODEN_CHURCH
-목재 교회\n\n이 목재 교회는 Hamish 사람들에\n의해 건설되었습니다.\n\n\n\n\n
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -476,12 +494,22 @@ remove monorails
 #__________________________________record_text__________________________________
 New world record for monorails: %.1f km/h by %s.
 서스펜션 철도가 최고속도 세계 신기록 수립!:%.1f km/h수립. %s에 의해.\n
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
 air_one-way
 일방통행 유도로표지
 airport_oneway
 일방통행 활주로 표시
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+choose_signal_monorail
+모노레일 플랫폼 선택 신호등
+preSignal_Monorail
+모노레일 프리시그널
+Signal_Monorail
+모노레일 신호등
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 고속도로 입구
 autobahn_classic_exit
@@ -492,8 +520,16 @@ autobahn_modern_exit
 현대식 고속도로 출구
 choose_point
 목적지 선택 표지
-choose_signal_monorail
-모노레일 플랫폼 선택 신호등
+Minimum80
+80km/h 속도 제한 표지
+NoEntry
+일방통행 표지
+RoadClosed
+도로 폐쇄 표지
+traffic_light
+도로 신호등
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
 ChooseSignals
 플랫폼 선택 신호등(표준)
 Classic_ChooseSignals_right
@@ -516,8 +552,6 @@ EndOfChooseSignals
 선택완료 신호등
 LongSignals
 장거리 블록 신호등(표준)
-Minimum80
-80km/h 속도 제한 표지
 Modern_ChooseSignals_right
 플랫폼 선택 신호등(현대식)
 Modern_EndOfChooseSignals_right
@@ -530,22 +564,12 @@ Modern_preSignals_right
 프리시그널(현대식)
 Modern_Signals_right
 철도 신호등(현대식)
-NoEntry
-일방통행 표지
 OneWaySignals
 일방통행 신호등(표준형)
-preSignal_Monorail
-모노레일 프리시그널
 preSignals
 프리시그널(표준)
-RoadClosed
-도로 폐쇄 표지
-Signal_Monorail
-모노레일 신호등
 Signals
 신호등(표준형)
-traffic_light
-도로 신호등
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 palm010
@@ -558,41 +582,53 @@ tree110
 산악 가문비
 tree133
 산악 가문비
-#______________________________________way______________________________________
-#______________________________________way______________________________________
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 air_movement_area
 타맥 유도로
-canal_030
-운하
 old_runway
 구형 활주로
 old_taxiway
 구형 유도로
-Powerline
-고압전선
-river_0a
-시냇물
-river_0b
-강
 runway_modern
 현대식 활주로
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
 Schwebebahn_p_ground
 모노레일(지표면 높이)
 Suspended_Monorail_Track
 현수식 모노레일 선로
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+Powerline
+고압전선
+#__________________________________way - water__________________________________
+#__________________________________way - water__________________________________
+canal_030
+운하
+river_0a
+시냇물
+river_0b
+강
+#_______________________________way-object - air________________________________
+#_______________________________way-object - air________________________________
+modern_runway-extMrkLgt
+현대식 활주로
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+trolleybus_catenary
+트롤리버스 전차선
+#______________________________way-object - track_______________________________
+#______________________________way-object - track_______________________________
 classic_metal_mesh_catenary
 제3궤조(전력공급용)
 curved_pylon_lgv
 고속 전차선
 highspeed_catenary
 표준 전차선
-modern_runway-extMrkLgt
-현대식 활주로
-tramway_modern
-노면전차 전차선
-trolleybus_catenary
-트롤리버스 전차선
 wood_gantry_catenary
 구형 전차선
+#____________________________way-object - tram_track____________________________
+#____________________________way-object - tram_track____________________________
+tramway_modern
+노면전차 전차선

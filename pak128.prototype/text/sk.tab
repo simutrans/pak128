@@ -9,35 +9,65 @@
 #                            Language: sk Slovencina                           #
 #                             Encoding: ISO-8859-2                             #
 #                             Font: prop-latin2.fnt                            #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
 Schwebebahn_p_bridge
 most Alwegu
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-Radnica
-01_CITY_1
-Radnica
-02_CITY
-Radnica
-02_CITY_1
-Radnica
-03_CITY
-Radnica
-03_CITY_1
-Radnica
-04_CITY
-Radnica
-04_CITY_1
-Radnica
-05_CITY
-Radnica
-05_CITY_1
-Radnica
+CarStop
+nákladná rampa
+MonorailGround
+Základy Alwegu
+ShipStop
+Osobný prístav
+TrainStop
+Stanica
+#________________________________building - com_________________________________
+#________________________________building - com_________________________________
+COM_00_10
+Dom oblo¾ený èervenými\ntehlami.\n\n
+COM_07_12
+Tento dom 21. storoèia bol domovom bohatého Korejskeho páru, ktorý chcel vytvori» príklad udr¾ateµného rozvoja. Aj v roku 2999??, nebude ïaleko pozadu.
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+Klá¹tor\n\nTento klá¹tor je zaújmavý\nstudòami vo ve¾iach o ktorých\nsa hovorí, ¾e sú bezodné.\nJe neuveriteµné, aké\nmno¾stvo µudí chce vidie»\ntieto magické studne. Mince\nticho padajúce na molitan v\nhåbke pä»desiat metrov\npomohli ekonomike\nklá¹tora natoµko, ¾e mohol\nby» zrekon¹truovaný z ruin\ndo stavu, ktorý vidíte.\n
+CHURCH_02
+Ru¾ový kostolík\n\nTento kuriózny kostol bol\npostavený v roku 1654\nbláznivým mníchom, ktorý\nho celý natrel na ru¾ovo.\nFarba èasom zhnedla, ale\nmeno mu zostalo. Tento\nbláznivý mních sa neskôr\npres»ahoval do Pre¹porku,\nkde postavil Modrý kostolík,\nktorý je skutoène modrý a¾\ndo dne¹ných dní.\n
+CHURCH_03
+Kostol\n\nTento známy kostol pri»ahuje\nmnoho µudí vïaka\npríjemnému okoliu a\nzaujímavým rastlinám\nvysadeným v jeho okolí.\n\n
+CHURCH_04
+Synagóga\n\nTie¾ ste si mysleli, ¾e ide o\nme¹itu? Túto zvlá¹tnu\nsynagógu postavila\n¾idovská komunita v\ndomnení, ¾e tak pomýlia\nvybuchujúcich muslimských\nextrémistov.\n
+CHURCH_05
+Katedrála Sv. Michala\n\nTento architektonický klenot\nbol postavený na konci\n19.storoèia. Za svoju\natraktivitu vïaèí kovovej\nstreche, ktorú skon¹truoval\nAlexander Gustavus Eiffel.\n
+CHURCH_06
+Kostol\n\nTypický kostol men¹ích\nmesteèiek.\n\n
+HOUSE_RUINS_0
+Ruiny domov\n\nTu kedysi stála radnica\nzaniknutého mesta, teraz\nsú tu v¹ak len jej ruiny.\nTuristi a amatérski\nbádatelia sem chodia\nsníva» o èasoch dávno\nminulých.\n
+MARKET_PLACE_0
+Tr¾nica\n\nNa mestskej tr¾nici si\nmô¾ete kúpi» mnoho\nzbytoèností a výnimoène aj\nu¾itoèných vecí, obdivova»\n staré remeslá,\nposedie» s priateµmi pri\npive, no skrátka\nstrávi» celkom príjemné\nodpoludnie. Pravidelne sa\ntu tie¾ konajú koncerty\na rôzne ïal¹ie masové akcie.\nBudúci tý¾deò tu bude dokonca\npredvolebný míting SNS.\nU¾ teraz\nsú v¹etky plochy polepené\nplagátmi "Maïari za Dunaj"\na v¹etci dúfajú,\n¾e vystúpi aj\no¾ratý Slota.\n
+MUSEUM_0
+Múzeum\n\n
+RUIN_0
+\nStará ruina, ktorá\nstále doká¾e pritiahnut'\nmnoho náv¹tevníkov.\n
+Russian_Cathedral
+Pravoslávna katedrála\n\nHoci túto katedrálu postavili\nv prvej polovici 20. storoèia\nrobotníci z Podkarpatskej Rusy,\nmnohí veria, ¾e vznikla\npri príle¾itosti náv¹tevy Petra Veµkého.\n
+Secession_Chapel
+Secesná kaplnka
+st_benedict_church
+Chrám Sv. Benedikta\n\nJeden z najkraj¹ích kostolov v\nsvete Simutrans. Veµké\nmno¾stvo turistov sem\nprichádza na náv¹tevu,\nmenej kvôli modlitbe. Vo\nvnútri kostola sa nachádza\nmno¾stvo záhadných\nmalieb, ktoré privádzajú\nèas» náv¹tevníkov do\nextázy.\n
+ST_PETER
+Chrám Sv. Petra\n\nNeskororománsky kostol Svätého Petra,\npostavený okolo roku 1220,\nmá nádherne ¹truktúrovanú\ngalériu, fresky z 13.\nstoroèia a dobre zachovanú\nmúmiu. Toto mumifikované\ntelo je viac ne¾ 300 rokov\nstaré a pravdepodobne\npatrí Aladárovi z Világosa,\nuhorskému kráµovskému\núradníkovi. Múmia le¾í v\nkaplnke pri západnej stene.\n
+tennis_court
+\nTenisové kurty\n
+Windmill
+Veterný mlyn\n\nNiekto sa chodí dpozera» na veterný\nmlyn, preto¾e sa mu páèi\nelegancia, s ktorou sa vo\nvetre otáèajú jeho lopatky;\nniekto zase proto, ¾e sa mu\nchce ís» na prechádzku a nemá\nv okolí lep¹í cieµ. No a niektorí\nvýtr¾níci chodia k veternému\nmlynu, aby si po òom\nvyskú¹ali hodi» kameòom.\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
 1920_AirDepot
 Jednoduchý hangár
 1930AirDepot
@@ -48,8 +78,18 @@ Plechový hangár
 Hangár
 1990AirDepot
 Moderný hangár
-ABBYS_0
-Klá¹tor\n\nTento klá¹tor je zaújmavý\nstudòami vo ve¾iach o ktorých\nsa hovorí, ¾e sú bezodné.\nJe neuveriteµné, aké\nmno¾stvo µudí chce vidie»\ntieto magické studne. Mince\nticho padajúce na molitan v\nhåbke pä»desiat metrov\npomohli ekonomike\nklá¹tora natoµko, ¾e mohol\nby» zrekon¹truovaný z ruin\ndo stavu, ktorý vidíte.\n
+CarDepot
+vozovòa
+MonorailDepot
+Vozovòa Alwegu
+ShipDepot
+Lodenica
+TrainDepot
+Ru¹òové depo
+TramDepot
+Vozovòa elektrièiek
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
 Airport1920_AirportBlg
 Odbavovacia budova
 Airport1930PostOffice
@@ -70,8 +110,6 @@ Airport1990_Small_PostOffice
 Malý letecká po¹ta
 Airport1990_Warehouse
 Moderný nákladný terminál
-AirStop_AirportBlg
-Stojánka
 Almuthof_StationBlg
 Vidiecka stanica
 Avila_Big_StationBlg
@@ -80,56 +118,74 @@ Avila_Small_StationBlg
 Malá stanièná budova
 Avila_Warehouse_StationBlg
 Stanièný sklad
-big_classic_bus_stop
-Zastávka s po¹tovou schránkou
-big_modern_bus_stop
-Moderné autobusové nástupi¹te
 BigTerminal1930_AirportBlg
 Veµká odbavovacia hala
 BigTerminal1950_AirportBlg_S
 Veµký leti¹tný terminál
-Bulk_Dock
-nákladný dok
-bus_terminus
-Moderné autobusové nástupi¹te
-canal_ChannelStop
-prístav na kanáli
 Car_StationBlg
 parkovisko
-CarDepot
-vozovòa
-CarStop
-nákladná rampa
-CHURCH_02
-Ru¾ový kostolík\n\nTento kuriózny kostol bol\npostavený v roku 1654\nbláznivým mníchom, ktorý\nho celý natrel na ru¾ovo.\nFarba èasom zhnedla, ale\nmeno mu zostalo. Tento\nbláznivý mních sa neskôr\npres»ahoval do Pre¹porku,\nkde postavil Modrý kostolík,\nktorý je skutoène modrý a¾\ndo dne¹ných dní.\n
-CHURCH_03
-Kostol\n\nTento známy kostol pri»ahuje\nmnoho µudí vïaka\npríjemnému okoliu a\nzaujímavým rastlinám\nvysadeným v jeho okolí.\n\n
-CHURCH_04
-Synagóga\n\nTie¾ ste si mysleli, ¾e ide o\nme¹itu? Túto zvlá¹tnu\nsynagógu postavila\n¾idovská komunita v\ndomnení, ¾e tak pomýlia\nvybuchujúcich muslimských\nextrémistov.\n
-CHURCH_05
-Katedrála Sv. Michala\n\nTento architektonický klenot\nbol postavený na konci\n19.storoèia. Za svoju\natraktivitu vïaèí kovovej\nstreche, ktorú skon¹truoval\nAlexander Gustavus Eiffel.\n
-CHURCH_06
-Kostol\n\nTypický kostol men¹ích\nmesteèiek.\n\n
-classic_mailbox
-Po¹tová schránka
-ClosedTrainStop
-Zastre¹ené nástupi¹te
-CoalTrainStop
-Nákladisko sypkých materiálov
-COM_00_10
-Dom oblo¾ený èervenými\ntehlami.\n\n
-COM_07_12
-Tento dom 21. storoèia bol domovom bohatého Korejskeho páru, ktorý chcel vytvori» príklad udr¾ateµného rozvoja. Aj v roku 2999??, nebude ïaleko pozadu.
-Container1TrainStop
-Prekladisko kontajnerov
-Container2TrainStop
-nákladná stanica
 Control_StationBlg
 stavadlo
-Crate_Goods_Dock
-Kontajnerové prekladisko
 CunnersdorfStopBlg
 Dedinská stanica
+Fluid_StationBlg
+Nádr¾ na kvapaliny
+Gas_StationBlg
+Èerpacia stanica
+Goods_StationBlg
+Sklad tovarov
+LuftPost1950_AirportBlg
+Leti¹tná po¹ta
+Modern_Warehouse
+Moderný sklad
+ModernPostOffice
+Moderná po¹ta
+MonorailFoundation
+Základy Alwegu
+PostOffice
+Po¹ta
+PostOffice1920_AirportBlg
+Aeropo¹ta
+Terminal1930_AirportBlg
+Malý terminál
+Terminal1950_AirportBlg_S
+Malá odletová hala
+Tower1920_AirportBlg
+Jednoduchá ve¾a
+Tower1930_AirportBlg
+Malá riadiaca ve¾a
+Tower1950_AirportBlg
+Riadiaca ve¾a
+Tower1990_AirportBlg
+Riadiaca ve¾a (moderná)
+Very_Big_Terminal
+Medzinárodný autobusový terminál
+VictorianStation
+Viktoriánska stanica
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+nákladný dok
+Crate_Goods_Dock
+Kontajnerové prekladisko
+Long_Goods_Dock
+Prekladisko rozmerného tovar
+Post_Dock
+Prístavná po¹ta
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
+HQ1
+Toto je riaditeµstvo Simutransu. Odtiaµto ovláda¹ v¹etko, èo súvisí s dopravou v regióne.
+HQ2
+Toto je riaditeµtvo tvojej spoloènosti. Tu sa rozhoduje, kadiaµ povedie¹ svoju dopravu a rátajú sa tu penia¾teky, ktoré zarobí¹.
+#________________________________building - ind_________________________________
+#________________________________building - ind_________________________________
+IND_00_01
+Toto je miestna továreò na\nhluk. Hocikto mô¾e prís» a\nvyrobi» toµko hluku, koµko\nlen chce. Problémy\nnastávajú a¾ pri odchode,\nlebo vtedy si musí ka¾dý\nsvoju èinnos» zaplati».\n
+IND_00_02
+Chcete rozreza» nejaké\ndrevo? Tak potom príd»e\nsem, na pílu.\n\n
+#________________________________building - mon_________________________________
+#________________________________building - mon_________________________________
 DenkFlor
 \nPamätník\nFlora ,,WF Ultd.''\nWautersa,\nstaviteµa tovární.\n
 DenkHajo
@@ -146,64 +202,8 @@ DenkVM
 \nPamätník\nManfreda ,,VT Vienna''\n Tomaschitza,\n¾eleznièného staviteµa.\n
 DenkVolker
 \nPamätník\nVolkera Meyera,\nktorý zdokonalil\nSimutrans v mnohých\noblastiach.\n
-Fluid_StationBlg
-Nádr¾ na kvapaliny
-FreightTrainStop
-Nákladná rampa
-Gas_StationBlg
-Èerpacia stanica
-Goods_StationBlg
-Sklad tovarov
-HOUSE_RUINS_0
-Ruiny domov\n\nTu kedysi stála radnica\nzaniknutého mesta, teraz\nsú tu v¹ak len jej ruiny.\nTuristi a amatérski\nbádatelia sem chodia\nsníva» o èasoch dávno\nminulých.\n
-HQ1
-Toto je riaditeµstvo Simutransu. Odtiaµto ovláda¹ v¹etko, èo súvisí s dopravou v regióne.
-HQ2
-Toto je riaditeµtvo tvojej spoloènosti. Tu sa rozhoduje, kadiaµ povedie¹ svoju dopravu a rátajú sa tu penia¾teky, ktoré zarobí¹.
-IND_00_01
-Toto je miestna továreò na\nhluk. Hocikto mô¾e prís» a\nvyrobi» toµko hluku, koµko\nlen chce. Problémy\nnastávajú a¾ pri odchode,\nlebo vtedy si musí ka¾dý\nsvoju èinnos» zaplati».\n
-IND_00_02
-Chcete rozreza» nejaké\ndrevo? Tak potom príd»e\nsem, na pílu.\n\n
-Long_Goods_Dock
-Prekladisko rozmerného tovar
-LuftPost1950_AirportBlg
-Leti¹tná po¹ta
-MARKET_PLACE_0
-Tr¾nica\n\nNa mestskej tr¾nici si\nmô¾ete kúpi» mnoho\nzbytoèností a výnimoène aj\nu¾itoèných vecí, obdivova»\n staré remeslá,\nposedie» s priateµmi pri\npive, no skrátka\nstrávi» celkom príjemné\nodpoludnie. Pravidelne sa\ntu tie¾ konajú koncerty\na rôzne ïal¹ie masové akcie.\nBudúci tý¾deò tu bude dokonca\npredvolebný míting SNS.\nU¾ teraz\nsú v¹etky plochy polepené\nplagátmi "Maïari za Dunaj"\na v¹etci dúfajú,\n¾e vystúpi aj\no¾ratý Slota.\n
-medium_classic_bus_stop
-Zastávka s prístre¹kom
-medium_early_bus_stop
-Zastávka s prístre¹kom
-medium_modern_bus_stop
-Moderná zastávka
-Modern_Warehouse
-Moderný sklad
-ModernPostOffice
-Moderná po¹ta
-ModernTrainStop
-Moderné nástupi¹te
-MonorailDepot
-Vozovòa Alwegu
-MonorailFoundation
-Základy Alwegu
-MonorailGround
-Základy Alwegu
-MUSEUM_0
-Múzeum\n\n
-OpenTrainStop
-Perón
-parking_(catchemnt_area_ext)1
-Parkovisko
-parking_(catchemnt_area_ext)2
-Parkovisko P+R
-parking_(catchemnt_area_ext)3
-Parkovisko P+R
-Post_Dock
-Prístavná po¹ta
-PostOffice
-Po¹ta
-PostOffice1920_AirportBlg
-Aeropo¹ta
+#________________________________building - res_________________________________
+#________________________________building - res_________________________________
 RES_12_32
 Jednoducho dom\n\n\n\n\n\n\n
 RES_13_14
@@ -240,52 +240,74 @@ RES_17_20
 Dru¾stevné byty\n\n\n\n\n\n\n
 RES_17_21
 Dru¾stevné byty\n\n\n\n\n\n\n
-RUIN_0
-\nStará ruina, ktorá\nstále doká¾e pritiahnut'\nmnoho náv¹tevníkov.\n
-Russian_Cathedral
-Pravoslávna katedrála\n\nHoci túto katedrálu postavili\nv prvej polovici 20. storoèia\nrobotníci z Podkarpatskej Rusy,\nmnohí veria, ¾e vznikla\npri príle¾itosti náv¹tevy Petra Veµkého.\n
-Secession_Chapel
-Secesná kaplnka
-ShipDepot
-Lodenica
-ShipStop
-Osobný prístav
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+Stojánka
+big_classic_bus_stop
+Zastávka s po¹tovou schránkou
+big_modern_bus_stop
+Moderné autobusové nástupi¹te
+bus_terminus
+Moderné autobusové nástupi¹te
+canal_ChannelStop
+prístav na kanáli
+classic_mailbox
+Po¹tová schránka
+ClosedTrainStop
+Zastre¹ené nástupi¹te
+CoalTrainStop
+Nákladisko sypkých materiálov
+Container1TrainStop
+Prekladisko kontajnerov
+Container2TrainStop
+nákladná stanica
+FreightTrainStop
+Nákladná rampa
+medium_classic_bus_stop
+Zastávka s prístre¹kom
+medium_early_bus_stop
+Zastávka s prístre¹kom
+medium_modern_bus_stop
+Moderná zastávka
+ModernTrainStop
+Moderné nástupi¹te
+OpenTrainStop
+Perón
+parking_(catchemnt_area_ext)1
+Parkovisko
+parking_(catchemnt_area_ext)2
+Parkovisko P+R
+parking_(catchemnt_area_ext)3
+Parkovisko P+R
 small_classic_bus_stop
 Jednoduchá autobusová zastávka
-st_benedict_church
-Chrám Sv. Benedikta\n\nJeden z najkraj¹ích kostolov v\nsvete Simutrans. Veµké\nmno¾stvo turistov sem\nprichádza na náv¹tevu,\nmenej kvôli modlitbe. Vo\nvnútri kostola sa nachádza\nmno¾stvo záhadných\nmalieb, ktoré privádzajú\nèas» náv¹tevníkov do\nextázy.\n
-ST_PETER
-Chrám Sv. Petra\n\nNeskororománsky kostol Svätého Petra,\npostavený okolo roku 1220,\nmá nádherne ¹truktúrovanú\ngalériu, fresky z 13.\nstoroèia a dobre zachovanú\nmúmiu. Toto mumifikované\ntelo je viac ne¾ 300 rokov\nstaré a pravdepodobne\npatrí Aladárovi z Világosa,\nuhorskému kráµovskému\núradníkovi. Múmia le¾í v\nkaplnke pri západnej stene.\n
 Suspended_Monorail_Bahnhof_Modern
 Moderné nástupi¹te Alwegu
-tennis_court
-\nTenisové kurty\n
-Terminal1930_AirportBlg
-Malý terminál
-Terminal1950_AirportBlg_S
-Malá odletová hala
-Tower1920_AirportBlg
-Jednoduchá ve¾a
-Tower1930_AirportBlg
-Malá riadiaca ve¾a
-Tower1950_AirportBlg
-Riadiaca ve¾a
-Tower1990_AirportBlg
-Riadiaca ve¾a (moderná)
-TrainDepot
-Ru¹òové depo
-TrainStop
-Stanica
-TramDepot
-Vozovòa elektrièiek
-Very_Big_Terminal
-Medzinárodný autobusový terminál
-VictorianStation
-Viktoriánska stanica
 VillageTrainStop
 Vidiecka zastávka
-Windmill
-Veterný mlyn\n\nNiekto sa chodí dpozera» na veterný\nmlyn, preto¾e sa mu páèi\nelegancia, s ktorou sa vo\nvetre otáèajú jeho lopatky;\nniekto zase proto, ¾e sa mu\nchce ís» na prechádzku a nemá\nv okolí lep¹í cieµ. No a niektorí\nvýtr¾níci chodia k veternému\nmlynu, aby si po òom\nvyskú¹ali hodi» kameòom.\n
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+Radnica
+01_CITY_1
+Radnica
+02_CITY
+Radnica
+02_CITY_1
+Radnica
+03_CITY
+Radnica
+03_CITY_1
+Radnica
+04_CITY
+Radnica
+04_CITY_1
+Radnica
+05_CITY
+Radnica
+05_CITY_1
+Radnica
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
 ambulance_0
@@ -522,12 +544,20 @@ Demontova» tra»
 #__________________________________record_text__________________________________
 New world record for monorails: %.1f km/h by %s.
 Nový rýchlostný rekord\nnvisutej ¾eleznice dosiahol\nrýchlos»ou %.1f km/h\nvlak %s.
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
 air_one-way
 Jednosmerná premávka
 airport_oneway
 jednosmerná dráha
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+choose_signal_monorail
+Hradlo
+preSignal_Monorail
+Prednáves»
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 Zaèiatok diaµnice
 autobahn_classic_exit
@@ -538,20 +568,18 @@ autobahn_modern_exit
 Koniec diaµnice
 choose_point
 Smerovník
-choose_signal_monorail
-Hradlo
-ChooseSignals
-Hradlo
 Minimum80
 Minimálna rýchlos»: 80 km/h
 NoEntry
 Zákaz vjazdu (jednosmerka)
-preSignal_Monorail
-Prednáves»
 RoadClosed
 Uzávierka cesty
 traffic_light
 semafóry
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
+ChooseSignals
+Hradlo
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 palm011
@@ -626,92 +654,24 @@ tree132
 Strom\n\n\n\n\n\n\n
 tree140
 Strom\n\n\n\n\n\n\n
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-1Benst134
-Bennhardt B-134 "Pixie"
-1Benst135t
-Bennhardt B-135 "Trpaslík"
-1Benst138
-Bennhardt B-138 "Koláè"
-1Benst162t
-Bennhardt B-162 "Jet"
-1Benst238
-Bennhardt B-238 "®abák"
-1Dampflokomotive
-RVg 0-4-0T
-2000_Class
-Class 2000 (Australia)
-2000_Class_Car
-Class 2000 vagón
-2000_Class_Tail
-Class 2000 riadiaci voz
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
 20ft_Container_Trailer-128set
 Kontejnerový náves na tovar (6m)
-2Diesellokomotive
-H-Trans BR218
-3Bens186t
-Bennhardt B-186 "Citrón"
-3Dampflokomotive
-RVg 0-3-0 "Èiperka"
 40ft_Container_Trailer
 Kontejnerový náves na tovar (12m)
-620_Railcar_Addon
-Class 620 (Australia)
 AEC_Aclo_Regent_III
 AEC Aclo Regent III
 Airport_express_shuttle
 Letiskový expres
-Autotransportwagen
-Prepravný vagón (autá)
 BB-TS_Milk_Mack_Trailer
 BlacBox-TS náves na prepravu mlieka
-Big_Bretterwagen
-RVg veµký vagón na dreva a reziva
 Big_Erztruck
 Velký nákladný automobil
-Black_Osprey
-Black Osprey (oceµ)
-Black_Osprey_(goods)
-Black Osprey (palety)
-Black_Osprey_(grain)
-Black Osprey (obilie)
-BR-373_Back
-BR 373 (Eurostar) Zadný riadiaci vagón
-BR-373_BackCar
-BR 373 (Eurostar) zadný vlo¾ený vagón
-BR-373_Car
-BR 373 (Eurostar) vlo¾ený vagón
-BR-373_Eurostar
-BR-373 "Eurostar"
-BR-373_FrontCar
-BR 373 (Eurostar) Predný vlo¾ený vagón
-Bretterwagen
-Plo¹inový vagon (rezivo)
-British_Premier
-British Premier (technické kvapaliny)
-CB_ALBATROS
-498 (Albatros)
-CKD_749
-751 "Zamraèená" [T478.1]
-CKD_750
-753 "Okuliarnik" [T478.3]
-Holzwagen
-Vagón na drevo
 MHz_Tractor
 Traktor
 MHz_Tractor_2
 Traktor Zetor
-MHz_TRAM_1930
-T-113
-MHz_TRAM_1980
-T-235 "SuperCity"
-Passagierwagen
-H-Trans Pasa¾iersky vozeò
-Post_Barge
-MHz po¹tová bárka
-Postwagen
-H-Trans Po¹tový/bato¾inový vozeò
 Praga_Bus
 Autobus Praga 1919
 Praga_N_bulk
@@ -724,14 +684,6 @@ Praga_N_milk
 Praga N - cisterna na mlieko
 Praga_TOT_128
 Praga TOT
-R_01
-R-1 (vleèný vagón)
-R_02
-R-2 (vleèný vagón)
-RVg_Flying_Berliner_(front)
-Lietajúci Berlíòan (predný)
-RVg_Flying_Berliner_(tail)
-Lietajúci Berlíòan (zadný)
 RVg_Passanger_Trailer
 KS osobná vleèka
 RVg_Post_Trailer
@@ -780,8 +732,6 @@ skoda_10_tr_128
 ©koda 10 Tr
 skoda_10_tr_rear_128
 ©koda 10 Tr (vlek)
-Skoda_109E
-680 "Porsche" [©koda 109E]
 skoda_11_tr_128
 ©koda 11 Tr
 skoda_12_tr_128
@@ -830,6 +780,68 @@ skoda_sanos_200_tr_128
 ©koda Sanos 200 Tr
 skoda_sanos_200_tr_rear_128
 Skoda Sanos 200Tr (vlek)
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+1Benst134
+Bennhardt B-134 "Pixie"
+1Benst135t
+Bennhardt B-135 "Trpaslík"
+1Benst138
+Bennhardt B-138 "Koláè"
+1Benst162t
+Bennhardt B-162 "Jet"
+1Benst238
+Bennhardt B-238 "®abák"
+1Dampflokomotive
+RVg 0-4-0T
+2000_Class
+Class 2000 (Australia)
+2000_Class_Car
+Class 2000 vagón
+2000_Class_Tail
+Class 2000 riadiaci voz
+2Diesellokomotive
+H-Trans BR218
+3Bens186t
+Bennhardt B-186 "Citrón"
+3Dampflokomotive
+RVg 0-3-0 "Èiperka"
+620_Railcar_Addon
+Class 620 (Australia)
+Autotransportwagen
+Prepravný vagón (autá)
+Big_Bretterwagen
+RVg veµký vagón na dreva a reziva
+BR-373_Back
+BR 373 (Eurostar) Zadný riadiaci vagón
+BR-373_BackCar
+BR 373 (Eurostar) zadný vlo¾ený vagón
+BR-373_Car
+BR 373 (Eurostar) vlo¾ený vagón
+BR-373_Eurostar
+BR-373 "Eurostar"
+BR-373_FrontCar
+BR 373 (Eurostar) Predný vlo¾ený vagón
+Bretterwagen
+Plo¹inový vagon (rezivo)
+CB_ALBATROS
+498 (Albatros)
+CKD_749
+751 "Zamraèená" [T478.1]
+CKD_750
+753 "Okuliarnik" [T478.3]
+Holzwagen
+Vagón na drevo
+Passagierwagen
+H-Trans Pasa¾iersky vozeò
+Postwagen
+H-Trans Po¹tový/bato¾inový vozeò
+RVg_Flying_Berliner_(front)
+Lietajúci Berlíòan (predný)
+RVg_Flying_Berliner_(tail)
+Lietajúci Berlíòan (zadný)
+Skoda_109E
+680 "Porsche" [©koda 109E]
 skoda151
 151 "Banán" 
 skoda163
@@ -838,37 +850,69 @@ skoda180
 180 "©estikolák" [E669.0]
 Stahlwagen
 VT Wien vagón na oceµ
-#______________________________________way______________________________________
-#______________________________________way______________________________________
+#_____________________________vehicle - tram_track______________________________
+#_____________________________vehicle - tram_track______________________________
+MHz_TRAM_1930
+T-113
+MHz_TRAM_1980
+T-235 "SuperCity"
+R_01
+R-1 (vleèný vagón)
+R_02
+R-2 (vleèný vagón)
+#________________________________vehicle - water________________________________
+#________________________________vehicle - water________________________________
+Black_Osprey
+Black Osprey (oceµ)
+Black_Osprey_(goods)
+Black Osprey (palety)
+Black_Osprey_(grain)
+Black Osprey (obilie)
+British_Premier
+British Premier (technické kvapaliny)
+Post_Barge
+MHz po¹tová bárka
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 air_movement_area
 asfaltová pojazdová plocha
-canal_030
-kanál
 old_runway
 Trávnatá pristávacia plocha
-Powerline
-Vedenie vysokého napätia
-river_0a
-Rieèka
-river_0b
-Rieka
 runway_modern
 Moderná runway
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
 Schwebebahn_p_ground
 Tra» Alwegu
 Suspended_Monorail_Track
 Vysutá tra» Alwegu
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+Powerline
+Vedenie vysokého napätia
+#__________________________________way - water__________________________________
+#__________________________________way - water__________________________________
+canal_030
+kanál
+river_0a
+Rieèka
+river_0b
+Rieka
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+trolleybus_catenary
+Trolejbusové troleje
+#______________________________way-object - track_______________________________
+#______________________________way-object - track_______________________________
 classic_metal_mesh_catenary
 Elektrifikácia tre»ou koµajou
 curved_pylon_lgv
 vysokorýchlostná trolej
 highspeed_catenary
 ¹tandartná trolej
-tramway_modern
-Elektrièkový trolej
-trolleybus_catenary
-Trolejbusové troleje
 wood_gantry_catenary
 stará trolej
+#____________________________way-object - tram_track____________________________
+#____________________________way-object - tram_track____________________________
+tramway_modern
+Elektrièkový trolej

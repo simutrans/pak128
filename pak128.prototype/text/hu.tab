@@ -9,19 +9,39 @@
 #                              Language: hu Magyar                             #
 #                                Encoding: UTF-8                               #
 #                                 Font: cyr.bdf                                #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
+Schwebebahn_p_bridge
+Függesztett egysínű vasút (híd)
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
+PowerBridge
+Elektromos vezeték híd
+#_________________________________bridge - road_________________________________
+#_________________________________bridge - road_________________________________
 Highway_110_Bridge
 Közúti híd (110 km/h)
 Highway_130_Bridge
 Gyorsforgalmi híd (130 km/h)
 Highway_200_Bridge
 Autópálya híd (200 km/h)
-PowerBridge
-Elektromos vezeték híd
+road_030_bridge
+Fahíd (30)
+road_040_bridge
+Kőhíd (40 km/h)
+road_050_bridge
+Közúti híd (50 km/h)
+Road_055_Bridge
+Kőhíd (55 km/h)
+Road_070_Bridge
+Közúti híd (70 km/h)
+Road_090_Bridge
+Közúti híd (90 km/h)
+#________________________________bridge - track_________________________________
+#________________________________bridge - track_________________________________
 Rail_060_Bridge
 Vasúti fahíd
 Rail_060B_Bridge
@@ -52,134 +72,22 @@ Rail_320_Bridge
 Nagysebességű betonkeretes híd
 Rail_400_Bridge
 Nagysebességű, megerősített betonkeretes híd
-road_030_bridge
-Fahíd (30)
-road_040_bridge
-Kőhíd (40 km/h)
-road_050_bridge
-Közúti híd (50 km/h)
-Road_055_Bridge
-Kőhíd (55 km/h)
-Road_070_Bridge
-Közúti híd (70 km/h)
-Road_090_Bridge
-Közúti híd (90 km/h)
-Schwebebahn_p_bridge
-Függesztett egysínű vasút (híd)
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
 water_bridge
 Csatorna híd
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-Városháza.
-01_CITY_1
-Városháza
-02_CITY
-Város statisztikák.
-02_CITY_1
-Városháza
-03_CITY
-Városháza.
-03_CITY_1
-Városháza
-04_CITY
-Város statisztikák.
-04_CITY_1
-Városháza
-05_CITY
-Városháza
-05_CITY_1
-Városháza
-1920_AirDepot
-Egyszerű hangár
-1930AirDepot
-Hangár (1930)
-1940AirDepot
-Hangár (1940)
-1950AirDepot
-Hangár (1950)
-1990AirDepot
-Modern hangár
-ABBYS_0
-Feneketlen Kolostor\n\n
-Airport1920_AirportBlg
-Váróterem
-Airport1930PostOffice
-Posta állomás (1930)
-Airport1990_Big_AirportBlg
-Modern terminál (váróterem)
-Airport1990_Big_PostOffice
-Posta hivatal
-Airport1990_Entrance_AirportBlg
-Bejárati kapu
-Airport1990_Gates_AirportBlg
-Kapu
-Airport1990_PostOffice
-Reptéri Postahivatal
-Airport1990_Small_AirportBlg
-Modern váróterem
-Airport1990_Small_PostOffice
-Posta
-Airport1990_Warehouse
-Áruraktár (CARGO)
-AirStop_AirportBlg
-Repülő dokkoló
-Almuthof_StationBlg
-Állomásépület
-Avila_Big_StationBlg
-Nagy váróterem építése.
-Avila_Small_StationBlg
-Kis váróterem építése.
-Avila_Warehouse_StationBlg
-Raktár építése.
-big_classic_bus_stop
-Megálló
-big_modern_bus_stop
-Tágas megálló
-BigTerminal1930_AirportBlg
-Légi terminál
-BigTerminal1950_AirportBlg_S
-Nagy légi reptér (1950) É-D
-Bulk_Dock
-Nyersanyagfogadó dokk
-Bulk_StationBlg
-Nyersanyagtároló.
-bus_terminus
-Modern busz végállomás
-canal_ChannelStop
-Csatorna megálló
-canal_ware_stop
-Csatorna megálló (áru)
-Car_StationBlg
-Parkoló építése.
-CarDepot
-Kocsiszín.
-CargoHighStop
-Rakodóhely
 CarStop
 Rakodóudvar.
-CASTLE_0
-Napik Király Kastélya\n\n
-CHURCH_02
-Apátság\n\n
-CHURCH_03
-Mária Templom\n\n
-CHURCH_04
-Zsinagóga\n\n
-CHURCH_05
-Szent Mihály Katedrális\n\n
-CHURCH_06
-Templom\n\nFalusi vagy kisvárosi \ntemplom.\n\n\n
-CIRCUS_0
-Cirkusz\n\n
-CIVILIAN_RADAR
-Civil radar\n\n
-classic_mailbox
-Utcai posta
-ClosedTrainStop
-Zártfedelű pályaudvar.
-CoalTrainStop
-Szénraktáros megálló.
+MonorailGround
+Mágnesvasúti alap
+ShipStop
+Dokk.
+TrainStop
+Pályaudvar.
+#________________________________building - com_________________________________
+#________________________________building - com_________________________________
 COM_00_01
 Elemi iskola. Ide járnak a\nzajos nebulók.\n\n
 COM_00_02
@@ -528,84 +436,268 @@ COM_11_59
 Zöld ház. Az egészséges\néletmód kedvelőinek.\n\n
 COM_12_01
 Fodrász. Haj és pletyka\nfazonírozása.\n\n
-container_crane_span
-Nagy konténer daru
-Container1TrainStop
-Konténeres megálló (A)
-Container2TrainStop
-Konténeres megálló (B)
-containercrane
-Kis konténer daru
-Control_StationBlg
-Vezérlőtorony építése.
-Crate_Goods_Dock
-Konténerfogadó dokk
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+Feneketlen Kolostor\n\n
+CASTLE_0
+Napik Király Kastélya\n\n
+CHURCH_02
+Apátság\n\n
+CHURCH_03
+Mária Templom\n\n
+CHURCH_04
+Zsinagóga\n\n
+CHURCH_05
+Szent Mihály Katedrális\n\n
+CHURCH_06
+Templom\n\nFalusi vagy kisvárosi \ntemplom.\n\n\n
+CIRCUS_0
+Cirkusz\n\n
+CIVILIAN_RADAR
+Civil radar\n\n
 Cross_Country_skiing_resort
 Sífutó pálya\n\nTélen a sífutók,\n nyáron a piknikezők\n kedvelt helye. 
-CunnersdorfStopBlg
-Falusi állomás épület
 CUR_01_128_JH
 Atomium\n\nKiállítások és\nkoncertek helyszíne.\n\n
-DenkFlor
-Flor WF Ultd.' Wautersnek a\nkedves mérnöknek ki oly sok\njárművet tervezett.\n\n
-DenkGeorg
-Georg emlékműve.\n\n
-DenkHajo
-Hansjörg Malthaner\nemlékműve. A játék alapítója.\nNeki köszönhető az, hogy ez\na játék még mindig létezik és\nvilágszerte mindenhol\njátsszák. Kérlek küld neki\negy képeslapot: Hansjörg\nMalthaner Fuggerstr. 1\nD-70563 Stuttgart.\n
-DenkOwen
-Ezt Owen Rudge-nak\ndedikáljuk a híres pénzügyi\nszakembernek.\n\n
-DenkPatrick
-Patrick Nesbitt emlékműve.\n\n
-DenkRaven
-Raven emlékműve.\n\n
-DenkSeth
-Ez itt Seth C. Triggs\nremekműve.\n\n
-DenkTomas
-Tomas Kubesnak a kedves\nsegítségért.\n\n
-DenkTrikky
-Ez Trikky' Rick McGreal\nemlékműve.\n\n
-DenkVM
-Ezt Manfred VT Vienna'\nTomaschitznak emeltük.\n\n
-DenkVolker
-Ez az épület Volker Meyer\nműve.\n\n
 ELEMENTARY_SCHOOL_1
 Elemi Iskola\n\n
 ELEMENTARY_SCHOOL_2
 Elemi Iskola\n\n
 Firestation
 Tűzoltóság\n\n
-Fluid_StationBlg
-Víztároló.
 FORT_FUN
 Western erőd\n\n
-FreightTrainStop
-Nyitott megálló.
 french_garden_4
 Francia kert
 french_park_1
 Francia park
 FUTURISTIC_TOWER_0
 Kilátótorony\n\n
-Gas_StationBlg
-Üzemanyag tároló.
-Goods_StationBlg
-Általános tároló.
 GRASS_STADIUM
 Füves Stadion\n\n
 GREEN_HOUSE
 Botanikuskert\n\n
-hall_extended_station
-Vasúti várócsarnok
 HIGH_SCHOOL_1
 Középiskola\n\n
 HIGH_SCHOOL_2
 Gimnázium
 HOUSE_RUINS_0
 Romok\n\n
+JUSTICE
+Igazságügyi palota\n\n
+library_holy_genevieve
+Szent Genovéva könyvtár\n\nAz egyik legnagyobb könyvtár Simuvilágban. 
+Lighthouse_0
+Világítótorony\n\nAmióta megépült a navigáció \n a tengereken sokkal\nkönnyebb. \nSok ember akarja meglátogatni\nés \nnézni ahogy a hullámok\nnyaldossák a partot.\n
+Lighthouse_1
+Világítótorony\n\nAmióta megépült a navigáció \n a tengereken sokkal\nkönnyebb. \nA különös alakja miatt a \ntengerészek állandóan \npanaszkodnak.\n
+Little_Central_Park
+Central Park\n\nA város központi parkja. Nem összekeverendő az amerikai párjával.
+MANOR_0
+Reneszánsz Kastély\n\n
+MARKET_PLACE_0
+Csütörtöki Piac\n\n
+MILITARY_RADAR
+Katonai radar\n\n Figyelem ezt\nmessze el kell kerülni. Még\nmindig olvasod? Na tünés\ninnen.\n\n
+MT_HOTEL_0
+Majestic Hotel\n\nEz egy nagyon híres hotel. \nA szobák nagyon drágák, de \nmindenki itt akar megszállni, \nvagy legalább az éttermben \nvacsorázni.\n\n
+MUSEUM_0
+Modern Múzeum\n\nRégebben\nvár volt, majd kastéllyá\nátépítették. Most\nmúzeumként funkcionál.\n\n
+OBSERVATORY
+Obszervatórium\n\nNappal turisták,\néjszaka tudósok\nlakják. Rengeteg multimédiás\nshow helyszíne.\n\n
+Old_gate
+Városkapu
+OLD_HOUSE_0
+Építészeti Múzeum\n\n Sok turista látogatja.\n
+Pagoda01
+Pagoda\n\n
+PARK_0
+Szabadidőpark\n\n
+Percival_Maya_Temple
+Maja templom\n\nKutatók egy ősi Sim-civilizáció nyomaira bukkantak a belsejében! 
+radiant_house
+Ragyogó ház
+RADIO_TOWER_0
+Chit-Chat FM Rádió\n\n Élő adások vannak naponta\n"14" és "16" óra között,\nmely sok látogatót vonz.\n\n
+rmax_clock_tower
+Toronyóra\n\nEnnek a toronynak sajátos \nformája van. Sokan úgy \ntartják hogy Fabels \ntornyának romjai alapján \nkészült, de ez valójában \nmodern épület és az órája \naz egyik legpontosabb egész \nSimuvilágban.\n
+rmax_courthouse
+Bíróság\n\n
+rmax_icarus
+Rakéta Indító Központ.\n\nEz az a hely ahonnan az \nIkarusz Zrt. -az első cég \naki tökéletesítette a \nhordozórakétákkal kilőtt \nműholdak földkörüli pályára \nállításának technológiáját- \nfellövi a rakétáit. \nSzerncsére Ők nem azonosak \na pusztító névrokon céggel. \nEmellett nagyon sok turista \nszereti megnézni a kilövéseket.\n\n
+rmax_mosque
+As-Salem mecset\n\nMinden egyes alkalommal \namikor a Müezzin az éneke \nmegszólal itt gyűlnek össze \na Muszlim közösség hívei \nimára. As-Salem az egy fajta \nneve Allahnak a 99 közül, \nami Békét jelent.\n\n
+ROCK_0
+Székelykő\n\n Vulkanikus eredetű.\n Kirándulók kedvenc\nhelye.\n\n
+RUIN_0
+Romok\n\n
+RUIN_1
+Bánffy kastély\n\n
+Russian_Cathedral
+Orosz katedrális
+Sacred_heart_church
+Szentelt Szív Templom 
+Secession_Chapel
+Szecessziós kápolna
+sh_oasis_seasons
+Oázis\n\nAz oázis azon kevés helyek \negyike a sivatban ahol élet \nvan. Minden ember és állat \naki a sivatban jár az betér \nide felfrissülni és pihenni \na pálmák alatt.\n\n
+SMALL_MANOR
+Uradalmi birtok\n\n
+st_benedict_church
+Szent Benedek Templom\n\nEz az egyik legszebb\n templom \nSimuvilágban. Sok turista \njön megnézni,de néhányan \nimádkozni jönnek. Sok \nfelbecsülhetetlen értékű \nfestmény van itt, mégsem \nlopják el őket.\n\n
+ST_PETER
+Szent Péter Katedrális\n\n
+STADIUM_RUGBY
+Rögbi stadion\n\nA város népszerű rögbi csapatának több százan szurkolnak hétvégente. 
+tennis_court
+Tenisz klub
+TRIUMPH
+Diadalív\n\n Még anno Napik\nkirály emeltette győzelmei\nemlékére. Az építész nem\nvolt más mint MHz.\n\n
+TV_TOWER_0
+TV torony\n\n
+TV_TOWER_1
+TV torony\n\nAz egyik legmagasabb\b torony \na világon. Az emberek \nszeretik a barátságos \néttermét és bárját a hatalmas \nablakokkal és a csodálatos \npanorámával. Az egész \ntorony lassan körbefordul.\n\n
+WHEEL
+Időkerék\n\n A turisták egyik\nkedvenc célpontja. Szép\nkilátás nyílik a tetejéről.\n\n
+Windmill
+Szélmalom\n\n
+WOODEN_CHURCH
+Fatemplom\n\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
+1920_AirDepot
+Egyszerű hangár
+1930AirDepot
+Hangár (1930)
+1940AirDepot
+Hangár (1940)
+1950AirDepot
+Hangár (1950)
+1990AirDepot
+Modern hangár
+CarDepot
+Kocsiszín.
+MonorailDepot
+Mágnesvasút depó
+ShipDepot
+Hajódokk.
+TrainDepot
+Vasúti kocsiszín.
+TramDepot
+Villamos kocsiszín.
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
+Airport1920_AirportBlg
+Váróterem
+Airport1930PostOffice
+Posta állomás (1930)
+Airport1990_Big_AirportBlg
+Modern terminál (váróterem)
+Airport1990_Big_PostOffice
+Posta hivatal
+Airport1990_Entrance_AirportBlg
+Bejárati kapu
+Airport1990_Gates_AirportBlg
+Kapu
+Airport1990_PostOffice
+Reptéri Postahivatal
+Airport1990_Small_AirportBlg
+Modern váróterem
+Airport1990_Small_PostOffice
+Posta
+Airport1990_Warehouse
+Áruraktár (CARGO)
+Almuthof_StationBlg
+Állomásépület
+Avila_Big_StationBlg
+Nagy váróterem építése.
+Avila_Small_StationBlg
+Kis váróterem építése.
+Avila_Warehouse_StationBlg
+Raktár építése.
+BigTerminal1930_AirportBlg
+Légi terminál
+BigTerminal1950_AirportBlg_S
+Nagy légi reptér (1950) É-D
+Bulk_StationBlg
+Nyersanyagtároló.
+Car_StationBlg
+Parkoló építése.
+container_crane_span
+Nagy konténer daru
+containercrane
+Kis konténer daru
+Control_StationBlg
+Vezérlőtorony építése.
+CunnersdorfStopBlg
+Falusi állomás épület
+Fluid_StationBlg
+Víztároló.
+Gas_StationBlg
+Üzemanyag tároló.
+Goods_StationBlg
+Általános tároló.
+hall_extended_station
+Vasúti várócsarnok
+LuftPost1950_AirportBlg
+Posta állomás (1950)
+Modern_Warehouse
+Raktárépület
+modern_warehouse_big
+Modern raktár
+ModernPostOffice
+Modern Postaközpont.
+ModernPostOfficeLarge
+Központi postahivatal
+MonorailFoundation
+Egysínű vasút alap.
+plain_tile_high
+Rakodótér
+PostOffice
+Posta.
+PostOffice1920_AirportBlg
+Reptéri postaépület
+PostOfficeOldLarge
+Régi postahivatal
+Radar3
+Radar
+ramp_tile_high
+Felhajtó rámpa
+Terminal1930_AirportBlg
+Kis légi reptér (1930)
+Terminal1950_AirportBlg_S
+Kis légi reptér (1950) É-D
+Tower1920_AirportBlg
+Alap reptéri irányítótorony
+Tower1930_AirportBlg
+Irányító torony (1930)
+Tower1950_AirportBlg
+Irányító torony (1950)
+Tower1990_AirportBlg
+Modern reptéri irányítótorony
+Very_Big_Terminal
+Nagy légi terminál
+VictorianStation
+Viktoriánus stílusban épült állomás.
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+Nyersanyagfogadó dokk
+Crate_Goods_Dock
+Konténerfogadó dokk
+Long_Goods_Dock
+Faárufogadó dokk
+Post_Dock
+Postafogadó dokk
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
 HQ1
 Székház.
 HQ2
 Székház.\n A cég főhadiszállása.
+#________________________________building - ind_________________________________
+#________________________________building - ind_________________________________
 IND_00_01
 Kis fűrészmalom. Itt lehet\nolcsón kis deszkákat\nvásárolni.\n\n
 IND_00_02
@@ -906,92 +998,40 @@ IND_11_58
 Orvosi Labor. Titkos\nkísérletek helye.\n\n
 IND_12_16
 Hong Kongi Textil Üzem. A\nHong Kongiak visszavágnak.\n\n
-JUSTICE
-Igazságügyi palota\n\n
-library_holy_genevieve
-Szent Genovéva könyvtár\n\nAz egyik legnagyobb könyvtár Simuvilágban. 
-Lighthouse_0
-Világítótorony\n\nAmióta megépült a navigáció \n a tengereken sokkal\nkönnyebb. \nSok ember akarja meglátogatni\nés \nnézni ahogy a hullámok\nnyaldossák a partot.\n
-Lighthouse_1
-Világítótorony\n\nAmióta megépült a navigáció \n a tengereken sokkal\nkönnyebb. \nA különös alakja miatt a \ntengerészek állandóan \npanaszkodnak.\n
-Little_Central_Park
-Central Park\n\nA város központi parkja. Nem összekeverendő az amerikai párjával.
-Long_Goods_Dock
-Faárufogadó dokk
-LuftPost1950_AirportBlg
-Posta állomás (1950)
-MANOR_0
-Reneszánsz Kastély\n\n
-MARKET_PLACE_0
-Csütörtöki Piac\n\n
-medium_classic_bus_stop
-Megálló
-medium_early_bus_stop
-Fedett megálló
-medium_modern_bus_stop
-Közepes megálló
-MILITARY_RADAR
-Katonai radar\n\n Figyelem ezt\nmessze el kell kerülni. Még\nmindig olvasod? Na tünés\ninnen.\n\n
-Modern_Warehouse
-Raktárépület
-modern_warehouse_big
-Modern raktár
-ModernPostOffice
-Modern Postaközpont.
-ModernPostOfficeLarge
-Központi postahivatal
-ModernTrainStop
-Modern pályaudvar.
-MonorailDepot
-Mágnesvasút depó
-MonorailFoundation
-Egysínű vasút alap.
-MonorailGround
-Mágnesvasúti alap
-MT_HOTEL_0
-Majestic Hotel\n\nEz egy nagyon híres hotel. \nA szobák nagyon drágák, de \nmindenki itt akar megszállni, \nvagy legalább az éttermben \nvacsorázni.\n\n
-MUSEUM_0
-Modern Múzeum\n\nRégebben\nvár volt, majd kastéllyá\nátépítették. Most\nmúzeumként funkcionál.\n\n
-OBSERVATORY
-Obszervatórium\n\nNappal turisták,\néjszaka tudósok\nlakják. Rengeteg multimédiás\nshow helyszíne.\n\n
-OfficeTrainStop
-Vasúti megálló
-Old_gate
-Városkapu
-OLD_HOUSE_0
-Építészeti Múzeum\n\n Sok turista látogatja.\n
-OpenTrainStop
-Nyitott pályaudvar.
-Pagoda01
-Pagoda\n\n
-PARK_0
-Szabadidőpark\n\n
-parking_(catchemnt_area_ext)1
-Parkoló
-parking_(catchemnt_area_ext)2
-Parkoló
-parking_(catchemnt_area_ext)3
-Parkoló
-Percival_Maya_Temple
-Maja templom\n\nKutatók egy ősi Sim-civilizáció nyomaira bukkantak a belsejében! 
-plain_tile_high
-Rakodótér
-Post_Dock
-Postafogadó dokk
-PostOffice
-Posta.
-PostOffice1920_AirportBlg
-Reptéri postaépület
-PostOfficeOldLarge
-Régi postahivatal
-Radar3
-Radar
-radiant_house
-Ragyogó ház
-RADIO_TOWER_0
-Chit-Chat FM Rádió\n\n Élő adások vannak naponta\n"14" és "16" óra között,\nmely sok látogatót vonz.\n\n
-ramp_tile_high
-Felhajtó rámpa
+#________________________________building - mon_________________________________
+#________________________________building - mon_________________________________
+DenkFlor
+Flor WF Ultd.' Wautersnek a\nkedves mérnöknek ki oly sok\njárművet tervezett.\n\n
+DenkGeorg
+Georg emlékműve.\n\n
+DenkHajo
+Hansjörg Malthaner\nemlékműve. A játék alapítója.\nNeki köszönhető az, hogy ez\na játék még mindig létezik és\nvilágszerte mindenhol\njátsszák. Kérlek küld neki\negy képeslapot: Hansjörg\nMalthaner Fuggerstr. 1\nD-70563 Stuttgart.\n
+DenkOwen
+Ezt Owen Rudge-nak\ndedikáljuk a híres pénzügyi\nszakembernek.\n\n
+DenkPatrick
+Patrick Nesbitt emlékműve.\n\n
+DenkRaven
+Raven emlékműve.\n\n
+DenkSeth
+Ez itt Seth C. Triggs\nremekműve.\n\n
+DenkTomas
+Tomas Kubesnak a kedves\nsegítségért.\n\n
+DenkTrikky
+Ez Trikky' Rick McGreal\nemlékműve.\n\n
+DenkVM
+Ezt Manfred VT Vienna'\nTomaschitznak emeltük.\n\n
+DenkVolker
+Ez az épület Volker Meyer\nműve.\n\n
+rmax_DenkManualTeam
+Ragyogó fáklya emlékmű. \nEzt az emlékművet mindazon \nemberek tiszteletére \nemelték akik segítettek a \nSimutrans valamely részének \nelkészítésében (pl.: Wiki, \nsúgó, leírások, fordítások \nstb.) \nKöszönjük Nektek!\n
+rmax_dictator_statue
+Jószívű diktátor. \nJószívű diktátor szobránál \nsok hajadon lány alélt a \nszobor talpazatára, ezért a \nműemlékvédelmi miniszter \nlánckordont építetett köré, \nde ez sem segített. Néhány \neltökélt helyi lakos azt \nhiszi hogy a szobor valamilyen \nrejtélyes termékenységet \nsegítő erőt sugároz.\n\n
+rmax_fabio_bust
+Fagonellus Romanus szobra\n\n
+WernerServer
+Werner szerver\n\n Werner emlékműve.
+#________________________________building - res_________________________________
+#________________________________building - res_________________________________
 RES_00_01
 Hepi Hippi Tábor. A cím\nminden elmond :).\n\n
 RES_00_02
@@ -1640,92 +1680,82 @@ RES_17_21
 Négyszintes téglasorház.\n\n
 RES_65_12
 Kis szürke ház.\Nyugdíjas házaspár lakhelye.\n\n
-rmax_clock_tower
-Toronyóra\n\nEnnek a toronynak sajátos \nformája van. Sokan úgy \ntartják hogy Fabels \ntornyának romjai alapján \nkészült, de ez valójában \nmodern épület és az órája \naz egyik legpontosabb egész \nSimuvilágban.\n
-rmax_courthouse
-Bíróság\n\n
-rmax_DenkManualTeam
-Ragyogó fáklya emlékmű. \nEzt az emlékművet mindazon \nemberek tiszteletére \nemelték akik segítettek a \nSimutrans valamely részének \nelkészítésében (pl.: Wiki, \nsúgó, leírások, fordítások \nstb.) \nKöszönjük Nektek!\n
-rmax_dictator_statue
-Jószívű diktátor. \nJószívű diktátor szobránál \nsok hajadon lány alélt a \nszobor talpazatára, ezért a \nműemlékvédelmi miniszter \nlánckordont építetett köré, \nde ez sem segített. Néhány \neltökélt helyi lakos azt \nhiszi hogy a szobor valamilyen \nrejtélyes termékenységet \nsegítő erőt sugároz.\n\n
-rmax_fabio_bust
-Fagonellus Romanus szobra\n\n
-rmax_icarus
-Rakéta Indító Központ.\n\nEz az a hely ahonnan az \nIkarusz Zrt. -az első cég \naki tökéletesítette a \nhordozórakétákkal kilőtt \nműholdak földkörüli pályára \nállításának technológiáját- \nfellövi a rakétáit. \nSzerncsére Ők nem azonosak \na pusztító névrokon céggel. \nEmellett nagyon sok turista \nszereti megnézni a kilövéseket.\n\n
-rmax_mosque
-As-Salem mecset\n\nMinden egyes alkalommal \namikor a Müezzin az éneke \nmegszólal itt gyűlnek össze \na Muszlim közösség hívei \nimára. As-Salem az egy fajta \nneve Allahnak a 99 közül, \nami Békét jelent.\n\n
-ROCK_0
-Székelykő\n\n Vulkanikus eredetű.\n Kirándulók kedvenc\nhelye.\n\n
-RUIN_0
-Romok\n\n
-RUIN_1
-Bánffy kastély\n\n
-Russian_Cathedral
-Orosz katedrális
-Sacred_heart_church
-Szentelt Szív Templom 
-Secession_Chapel
-Szecessziós kápolna
-sh_oasis_seasons
-Oázis\n\nAz oázis azon kevés helyek \negyike a sivatban ahol élet \nvan. Minden ember és állat \naki a sivatban jár az betér \nide felfrissülni és pihenni \na pálmák alatt.\n\n
-ShipDepot
-Hajódokk.
-ShipStop
-Dokk.
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+Repülő dokkoló
+big_classic_bus_stop
+Megálló
+big_modern_bus_stop
+Tágas megálló
+bus_terminus
+Modern busz végállomás
+canal_ChannelStop
+Csatorna megálló
+canal_ware_stop
+Csatorna megálló (áru)
+CargoHighStop
+Rakodóhely
+classic_mailbox
+Utcai posta
+ClosedTrainStop
+Zártfedelű pályaudvar.
+CoalTrainStop
+Szénraktáros megálló.
+Container1TrainStop
+Konténeres megálló (A)
+Container2TrainStop
+Konténeres megálló (B)
+FreightTrainStop
+Nyitott megálló.
+medium_classic_bus_stop
+Megálló
+medium_early_bus_stop
+Fedett megálló
+medium_modern_bus_stop
+Közepes megálló
+ModernTrainStop
+Modern pályaudvar.
+OfficeTrainStop
+Vasúti megálló
+OpenTrainStop
+Nyitott pályaudvar.
+parking_(catchemnt_area_ext)1
+Parkoló
+parking_(catchemnt_area_ext)2
+Parkoló
+parking_(catchemnt_area_ext)3
+Parkoló
 small_classic_bus_stop
 Mezei megálló
 small_early_bus_stop
 Megálló
-SMALL_MANOR
-Uradalmi birtok\n\n
-st_benedict_church
-Szent Benedek Templom\n\nEz az egyik legszebb\n templom \nSimuvilágban. Sok turista \njön megnézni,de néhányan \nimádkozni jönnek. Sok \nfelbecsülhetetlen értékű \nfestmény van itt, mégsem \nlopják el őket.\n\n
-ST_PETER
-Szent Péter Katedrális\n\n
-STADIUM_RUGBY
-Rögbi stadion\n\nA város népszerű rögbi csapatának több százan szurkolnak hétvégente. 
 Suspended_Monorail_Bahnhof_Modern
 Függesztett Monorail megálló(modern)
-tennis_court
-Tenisz klub
-Terminal1930_AirportBlg
-Kis légi reptér (1930)
-Terminal1950_AirportBlg_S
-Kis légi reptér (1950) É-D
-Tower1920_AirportBlg
-Alap reptéri irányítótorony
-Tower1930_AirportBlg
-Irányító torony (1930)
-Tower1950_AirportBlg
-Irányító torony (1950)
-Tower1990_AirportBlg
-Modern reptéri irányítótorony
-TrainDepot
-Vasúti kocsiszín.
-TrainStop
-Pályaudvar.
-TramDepot
-Villamos kocsiszín.
-TRIUMPH
-Diadalív\n\n Még anno Napik\nkirály emeltette győzelmei\nemlékére. Az építész nem\nvolt más mint MHz.\n\n
-TV_TOWER_0
-TV torony\n\n
-TV_TOWER_1
-TV torony\n\nAz egyik legmagasabb\b torony \na világon. Az emberek \nszeretik a barátságos \néttermét és bárját a hatalmas \nablakokkal és a csodálatos \npanorámával. Az egész \ntorony lassan körbefordul.\n\n
-Very_Big_Terminal
-Nagy légi terminál
-VictorianStation
-Viktoriánus stílusban épült állomás.
 VillageTrainStop
 Falusi megálló
-WernerServer
-Werner szerver\n\n Werner emlékműve.
-WHEEL
-Időkerék\n\n A turisták egyik\nkedvenc célpontja. Szép\nkilátás nyílik a tetejéről.\n\n
-Windmill
-Szélmalom\n\n
-WOODEN_CHURCH
-Fatemplom\n\n
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+Városháza.
+01_CITY_1
+Városháza
+02_CITY
+Város statisztikák.
+02_CITY_1
+Városháza
+03_CITY
+Városháza.
+03_CITY_1
+Városháza
+04_CITY
+Város statisztikák.
+04_CITY_1
+Városháza
+05_CITY
+Városháza
+05_CITY_1
+Városháza
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
 ambulance_0
@@ -1968,12 +1998,22 @@ CATEGORY_07
 farm termék
 Monoraildepot
 Mágnesvasút depó
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
 air_one-way
 Egyirányú jelzés
 airport_oneway
 Egyirányú jelzés az úton
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+choose_signal_monorail
+Monorail peronválasztó jelzőlámpa
+preSignal_Monorail
+Monorail előjelző lámpa
+Signal_Monorail
+Monorail jelzőlámpa
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 Autópálya felhajtó
 autobahn_classic_exit
@@ -1984,8 +2024,18 @@ autobahn_modern_exit
 Autópálya kijárat (modern)
 choose_point
 Útválasztó tábla
-choose_signal_monorail
-Monorail peronválasztó jelzőlámpa
+Minimum100
+Minimum 100 km/ó tábla
+Minimum80
+Minimum 80 km/ó tábla
+NoEntry
+Tilos a behajtás
+RoadClosed
+Útlezáró
+traffic_light
+Forgalmi fényjelző
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
 ChooseSignals
 Peron választó jelzőlámpa
 Classic_ChooseSignals_right
@@ -2008,10 +2058,6 @@ EndOfChooseSignals
 Peron választó jelzés vége
 LongSignals
 Hosszú előjelző
-Minimum100
-Minimum 100 km/ó tábla
-Minimum80
-Minimum 80 km/ó tábla
 Modern_ChooseSignals_right
 Peron választó jelzőlámpa (modern)
 Modern_EndOfChooseSignals_right
@@ -2024,22 +2070,12 @@ Modern_preSignals_right
 Előjelző (modern)
 Modern_Signals_right
 vasúti jelzés (modern)
-NoEntry
-Tilos a behajtás
 OneWaySignals
 Egyirányú vágány jelző
-preSignal_Monorail
-Monorail előjelző lámpa
 preSignals
 Előjelző
-RoadClosed
-Útlezáró
-Signal_Monorail
-Monorail jelzőlámpa
 Signals
 vasúti jelzés
-traffic_light
-Forgalmi fényjelző
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 palm010
@@ -2122,14 +2158,26 @@ tree133
 Hegyi lucfenyő\n\n
 tree140
 Ezüstfenyő\n\n
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
+#________________________________tunnel - power_________________________________
+#________________________________tunnel - power_________________________________
+PowerTunnel
+Alagút elektromos vezetéknek
+#_________________________________tunnel - road_________________________________
+#_________________________________tunnel - road_________________________________
 Highway_110_Tunnel
 Közúti alagút (110 km/h)
 Highway_130_Tunnel
 Gyorsforgalmi alagút (130 km/h)
-PowerTunnel
-Alagút elektromos vezetéknek
+Road_040_Tunnel
+Macskaköves alagút (40 km/h)
+Road_050_Tunnel
+Közúti alagút (50 km/h)
+Road_070_Tunnel
+Közúti alagút (70 km/h)
+Road_090_Tunnel
+Közúti alagút (90 km/h)
+#________________________________tunnel - track_________________________________
+#________________________________tunnel - track_________________________________
 Rail_080_Tunnel
 Faaljas alagút
 Rail_080B_Tunnel
@@ -2156,62 +2204,74 @@ Rail_320_Tunnel
 Modern nagysebességű alagút
 Rail_400_Tunnel
 Megerősített nagysebességű alagút
-Road_040_Tunnel
-Macskaköves alagút (40 km/h)
-Road_050_Tunnel
-Közúti alagút (50 km/h)
-Road_070_Tunnel
-Közúti alagút (70 km/h)
-Road_090_Tunnel
-Közúti alagút (90 km/h)
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-1Benst134
-Pixie mozdony
-1Benst135t
-Gremlin mozdony
-1Benst138
-Apple Pie mozdony
-1Benst162t
-Jet mozdony
-1Benst238
-Frog mozdony
-1Dampflokomotive
-Hello mozdony
-2000_Class
-2000-es típus(Ausztrália)
-2000_Class_Car
-2000-es típus (vagon)
-2000_Class_Tail
-2000-es típus (hátsó kocsi)
+#_________________________________vehicle - air_________________________________
+#_________________________________vehicle - air_________________________________
+SAC-Aerospatiale_Concorde_128_set
+Concorde
+SAC-Douglas_DC-6_128_set
+Douglas DC-6
+SAC-Handley_Page_W8B_128_set
+Handley Page W8B
+SAC-Lockheed_C-130C_Hercules_128_set
+Lockheed C-130C Hercules
+#___________________________vehicle - monorail_track____________________________
+#___________________________vehicle - monorail_track____________________________
+PMNV_TC-119-Snake
+PMNV TC-119 "Kígyó" motorvonat (első)
+PMNV_TC-119-Snake_b
+PMNV TC-119 "Kígyó" motorvonat (hátsó)
+PMNV_TC-44-Hydrogen_Car
+TC-44 üzemanyagcellás kocsi
+PMNV_TC-44-Hydrogen_Car_b
+TC-44 üzemanyagcellás kocsi (B)
+PMNV_TC-7_Astro_Trolley
+PMNV TC-7 Astro Troli
+PMNV-TC-1_Turbo_Car
+PMNV TC-1 TurboCar
+PMNV-TC-112-Hyper_Car
+PMNV TC-112 HyperCar
+PMNV-TC-2_Turbo_Set
+PMNV TC-2 Turbo motorvonat (első)
+PMNV-TC-2_Turbo_Set_b
+PMNV TC-2 Turbo motorvonat (középső)
+PMNV-TC-2_Turbo_Set_c
+PMNV TC-2 Turbo motorvonat (hátsó)
+PMNV-TC-5P_Mail_Man
+PMNV TC-5P Postaszállító
+yoshi_wup01
+GTW-72 gyorsvasút (első) 
+yoshi_wup02
+GTW-72 gyorsvasút (középső)
+yoshi_wup03
+GTW-72 gyorsvasút (hátsó)
+yoshi_wup1900
+GTW-01 gyorsvasút
+yoshi_wup1950
+GTW-50 gyorsvasút
+yoshi_wup196201
+GTW-62 gyorsvasút (első) 
+yoshi_wup196202
+GTW-62 gyorsvasút (középső)
+yoshi_wup196203
+GTW-62 gyorsvasút (hátsó) 
+yoshi_wup196501
+GTW-65 gyorsvasút (első) 
+yoshi_wup196502
+GTW-65 gyorsvasút (középső) 
+yoshi_wup196503
+GTW-65 gyorsvasút (hátsó)
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
 20ft_Container_Trailer-128set
 Darabáru szállító utánfutó
-2Diesellokomotive
-BR218 mozdony
-3Bens186t
-Lemon mozdony
-3Dampflokomotive
-Chippy mozdony
 40ft_Container_Trailer
 Darabáru szállító utánfutó
 Airport_express_shuttle
 Reptéribusz gyors ingajárat
-Autotransportwagen
-Canonball-B autószállító vagon
 BB-TS_Milk_Mack_Trailer
 BlackBox TS tejes utánfutó
-Big_Bretterwagen
-RVg nagy deszkaszállító utánfutó.
 Big_Erztruck
 RVg szénszállító
-Bretterwagen
-Deszkaszállító-B vagon
-Budd_Coach
-EMD E5A Silver Meteor motorvonat (személykocsi középső)
-Budd_Observation
-EMD E5A Silver Meteor motorvonat (hátsó)
-Budd_RPO
-EMD E5A Silver Meteor motorvonat (postakocsi)
 Bulk_trailer_0
 Nyersanyagszállító-A utánfutó
 Bulk_Truck_0
@@ -2222,50 +2282,20 @@ Bulk_Truck_3
 VSYS-Tatra 815 nyersanyagszállító kocsi
 Bulk_Truck_4
 Volvo nyersanyagszállító kocsi
-caboose_1
-Fékezőkocsi
-caboose_2
-Fékezőkocsi
-caboose_3
-Fékezőkocsi
 Car_Tramsport_Trailer_0
 TS autószállító utánfutó
 Car_Transporter_0
 Teddy-A autószállító kocsi
 Car_Transporter_1
 Teddy-B autószállító kocsi
-Car_Waggon_1
-Canonball-A autószállító vagon
-Car_Waggon_2
-RVg autószállító
-CB_ALBATROS
-Canonball-Skoda 498 "Albatros" mozdony
-CB_DB-130_8
-Canonball & H-Trans 130/8 "Ludmila" mozdony
-Cement_Carrier_Fast
-Gyors cementszállító vagon
 Cement_trailer_0
 PMNV cementszállító utánfutó
 Cement_Truck_0
 PMNV cementszállító kocsi
-Cement_Waggon_0
-BB-PMNV-B cementszállító vagon
-Cement_Waggon_1
-BB-PMNV-A cementszállító vagon
-Cementwagen
-SergeS cementszállító vagon
-CKD_749
-CKD 749 mozdony
-CKD_750
-CKD 750 mozdony
 Concrete_Truck_0
 S.Kroytor betonkeverő kocsi
 Concrete_Truck_1
 Betonkeverő kocsi
-Concretewagen
-PMNV Mixer 12 betonkeverő vagon
-Concretewagen_1
-PMNV Mixer 16 betonkeverő vagon
 Cooling_trailer_0
 PMNV hűtő utánfutó
 Cooling_Truck_0
@@ -2274,48 +2304,8 @@ Cooling_Truck_1
 PMNV Grey hűtőkocsi
 Cooling_Truck_2
 Hűtőkocsi
-Cooling_wagon_0
-Canonball hűtő vagon
-Cooling_wagon_1
-Container hűtő vagon
-Cooling_wagon_2
-Cannonball hűtővagon
-DB_ADm101
-Haru-DB ADm101 személyszállító vagon
-DB_Apmz121
-Haru-DB Apmz121 személyszállító vagon
-DB_Bm235
-Haru-DB Bm235 személyszállító vagon
-DB_BR103_1
-Haru BR-103 mozdony
-DueWAG_GT6_motorwaggon
-GT6 villamos
-DueWAG_GT6_tailwaggon
-GT6 villamos pótkocsi
-E_423
-Sindor E-432 mozdony
-EM400_1
-EM400 villamos
-EMD_E5A_Silver_Meteor
-EMD E5A Silver Meteor motorvonat (első)
-EMD_E5B_Silver_Comet
-EMD E5A Silver Silver motorvonat (első)
-Evil_DF-11
-Evil DF-11 mozdony
-Evil_P-100_(carriage)
-Evil P-100 motorvonat (középső)
-Evil_P-100_(front_engine)
-Evil P-100 motorvonat (első)
-Evil_P-100_(mail)
-Evil P-100 posta motorvonat
-Evil_P-100_(rear_engine)
-Evil P-100 motorvonat (hátsó)
 Evil-Jitluen_67_Minibus
 Evil-Jitluen 67 minibusz
-Express_tender
-Canonball szerkocsi
-Fishing_Boat_1
-PH halászhajó
 Fluid_trailer_0
 AJ olajszármazék szállító utánfutó
 Fluid_trailer_1
@@ -2348,138 +2338,14 @@ Goods_Truck_4
 PMNV Turbo darabáru-szállító kocsi
 Goods_Truck_5
 Darabáru-szállító kocsi
-Goods_waggon_0
-Canonball darabáru-szállító vagon
-Goods_waggon_1
-Arvisura darabáru-szállító vagon
-Goods_waggon_2
-PMNV-ARV darabáru-szállító vagon
-Goods_waggon_3
-Container darabáru-szállító vagon
-Goods_waggon_4
-HS darabáru-szállító vagon
-Goods_waggon_5
-RVg darabáru-szállító vagon
 Grain_trailer_0
 PMNV gabonaszállító utánfutó
 Grain_Truck_1
 VSYS-Tatra gabonaszállító kocsi
-Haru_2C1_Cheetah
-Cheetah gőzmozdony
-Haru_2D1_Buffalo
-2D1 Buffalo gőzmozdony
-Haru_C44-9W
-Haru C449W mozdony
-Haru_DF4
-Haru DF4 mozdony
-Haru_E3_KOMACHI
-Haru E3 Komachi motorvonat (első)
-Haru_E3_KOMACHI_(mid)
-Haru E3 Komachi motorvonat (középső)
-Haru_E3_KOMACHI_(rear)
-Haru E3 Komachi motorvonat (hátsó)
-Haru_E3_KOMACHI_(Trailer)
-Haru E3 Komachi motorvonat (hálókocsi)
-Haru_F7A
-Haru F7 A mozdony
-Haru_F7B
-Haru F7 B mozdony
-Haru_HST
-Haru HST motorvonat (első)
-Haru_HST_mid
-Haru HST motorvonat (középső)
-Haru_HST_rear
-Haru HST motorvonat (hátsó)
-Haru_Spike-PSE_Head1
-Haru Spike PSE motorvonat (első)
-Haru_Spike-PSE_Head2
-Haru Spike PSE motorvonat (első kocsi)
-Haru_Spike-PSE_Tail1
-Haru Spike PSE motorvonat (hátsó)
-Haru_Spike-PSE_Tail2
-Haru Spike PSE motorvonat (hátsó kocsi)
-Haru_Spike-PSE_Waggon
-Haru Spike PSE motorvonat (kocsi)
-Haru_Tatra-T3
-Haru Tátra-T3 villamos
-Haru_Tender
-Cheetah szerkocsi
-Haru_VT98
-Haru VT98 motorvonat
-Haru_VT98_car
-Haru VT98 személyszállító vagon
-Haru-373
-Haru-373 motorvonat (első)
-Haru-373_car
-Haru-373 motorvonat (középső)
-Haru-373_tail
-Haru-373 motorvonat (hátsó)
-Haru-ACE1_Head
-Haru ACE motorvonat (első)
-Haru-ACE1_Tail
-Haru ACE motorvonat (hátsó)
-Haru-ACE1_Waggon1
-Haru ACE motorvonat (kocsi)
-Haru-ACE1_Waggon2
-Haru ACE motorvonat (bár kocsi)
-Haru-ACE1_Waggon3
-Haru ACE motorvonat (postakocsi)
-Haru-BR182_Taurus
-Haru-BR182 Taurus villanymozdony
-Haru-IC3
-Haru-IC3 motorvonat (első)
-Haru-IC3_car
-Haru-IC3 motorvonat (középső)
-Haru-IC3_tail
-Haru-IC3 motorvonat (hátsó)
-Haru-PlanV
-Haru-Plan V. motorvonat (első)
-Haru-PlanV(rear)
-Haru-Plan V. motorvonat (hátsó)
-Haru-PMNV_F7-Coach
-Haru PMNV F7 személyszállító vagon
-Haru-PMNV_F7-Mail_Car
-Haru PMNV F7 posta vagon
-Haru-TEM2
-Haru-TEM2 dízelmozdony
-Haru-X2000
-Haru-X2000 motorvonat (első)
-Haru-X2000_mid
-Haru-X2000 motorvonat (középső)
-Haru-X2000_rear
-Haru-X2000 motorvonat (hátsó)
-Holzwagen
-Rönkszállító-C vagon
-Holzwagen_0
-Rönkszállító-A vagon
-Holzwagen_1
-Rönkszállító-B vagon
-JNR_C11
-JNR SL C11 mozdony
-JNR_C62
-JNR SL C62 mozdony
-JNR_D51
-JNR SL D51 mozdony
-JNR_DD51
-JNR DD51 mozdony
-JNR_tender_S
-Szerkocsi
-JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
-Shinkansen HRS 700 motorvonat (első)
-JR_700_Shinkansen_HRS_(Middle_Section)_PC
-Shinkansen HRS 700 motorvonat (köztes kocsi)
-JR_700_Shinkansen_HRS_(Pantograph_I)_PC
-Shinkansen HRS 700 motorvonat (áramszedős I)
-JR_700_Shinkansen_HRS_(Pantograph_II)_PC
-Shinkansen HRS 700 motorvonat (áramszedős II)
-JR_700_Shinkansen_HRS_(Tailcar)_PC
-Shinkansen HRS 700 motorvonat (hátsó)
 Kord_TT_bulk
 Kord TT nyersanyagszállító kocsi
 Kord_TT_grain
 Kord TT gabonaszállító kocsi
-MA461_waggon
-RVg-DB MA-461 motorvonat (középső)
 Mack_Truck_Cooling_Trailer
 Mack Truck hűtő utánfutó
 Mack_Truck_Goods_Trailer
@@ -2488,12 +2354,6 @@ Mack_Truck_Post_Trailer
 Mack posta utánfutó (B)
 Mail_Truck_2
 Postakocsi
-Marks_Passagierwagen
-MJHN Express személyszállító vagon
-Marks_Postwagen
-MJHN Express posta vagon
-Marks-Deltic
-MJHN Deltic mozdony
 MHz_Grain_Trailer_0
 MHz gabonaszállító utánfutó
 MHz_Long_Wood_Trailer
@@ -2502,32 +2362,6 @@ MHz_Tractor
 MHz traktor
 MHz_Tractor_2
 MHz-JD traktor
-MHz_TRAM_1930
-MHz-1930 villamos
-MHz_TRAM_1980
-MHz-1980 villamos
-MHz-C11C_Bulk_Barge
-MHz-C11C szénszállító uszály
-MHz-C11C_Wood_Barge
-MHz C11C deszkaszállító uszály
-MHz-C273U_Cement_Barge
-MHz C-273U Cementszállító uszály
-MHz-C35_Goods_Barge
-MHz C-35 Áruszállító uszály
-MHz-C3P_Post_Barge
-MHz C-3P Postaszállító uszály
-MHz-CC47_Container_Barge
-MHz C-C47 Konténerszállító uszály
-MHz-MT7_Milk_Barge
-MHz MT-7 Tejszállító uszály
-MHz-OT5_Oil_Barge
-MHz OT-5 Olajszállító uszály
-MHz-P11C_Bulk_Boat
-MHz-P11C Szénszállító hajó
-MHz-P11C_Wood_Boat
-MHz P11C Deszkaszállító hajó
-MHz-R2A_Push-Tug
-MHz-R2A Vonatóhajó
 Milk_Truck_0
 PMNV tejszállító kocsi
 Milk_Truck_1
@@ -2558,26 +2392,10 @@ mja-Zil130-128set
 Zil 130
 MS_sprinter_mail
 MS Sprinter postakocsi
-Passagierwagen
-Canonball BTx 60 személyszállító vagon
-Passanger_waggon_0
-JNR OHA 31 személyszállító vagon
-Passanger_waggon_1
-JNR OHAFU 50 személyszállító vagon
-Passanger_waggon_2
-JNR ORO 40 személyszállító vagon
-Passanger_waggon_3
-RA BTx 50 személyszállító vagon
-Passanger_waggon_MAITE39
-JNR MAITE 39 személyszállító vagon
 Planck_Truck_0
 PMNV-Canonball Bed deszkaszállító kocsi
 Plank_Truck_2
 Deszkaszállító kocsi
-Plank_waggon_0
-RVg deszkaszállító vagon (1870/12)
-Plank_waggon_1
-RVg deszkaszállító vagon (1915/17)
 PMNV_50_Mack
 PMNV 50 kamionfülke
 PMNV_Canonball_Car_Trailer
@@ -2652,36 +2470,8 @@ PMNV_Post_Trailer_0
 PMNV posta utánfutó
 PMNV_Steel_Trailer_0
 PMNV acélszállító utánfutó
-PMNV_TC-119-Snake
-PMNV TC-119 "Kígyó" motorvonat (első)
-PMNV_TC-119-Snake_b
-PMNV TC-119 "Kígyó" motorvonat (hátsó)
-PMNV_TC-44-Hydrogen_Car
-TC-44 üzemanyagcellás kocsi
-PMNV_TC-44-Hydrogen_Car_b
-TC-44 üzemanyagcellás kocsi (B)
-PMNV_TC-7_Astro_Trolley
-PMNV TC-7 Astro Troli
 PMNV-PB1970
 PMNV PB1970 kamionfülke
-PMNV-TC-1_Turbo_Car
-PMNV TC-1 TurboCar
-PMNV-TC-112-Hyper_Car
-PMNV TC-112 HyperCar
-PMNV-TC-2_Turbo_Set
-PMNV TC-2 Turbo motorvonat (első)
-PMNV-TC-2_Turbo_Set_b
-PMNV TC-2 Turbo motorvonat (középső)
-PMNV-TC-2_Turbo_Set_c
-PMNV TC-2 Turbo motorvonat (hátsó)
-PMNV-TC-5P_Mail_Man
-PMNV TC-5P Postaszállító
-Post_Barge
-MHz postahajó
-Post_waggon_0
-PV-80 posta vagon
-Postwagen
-Canonball posta vagon
 Praga_Bus
 Praga 1919 autóbusz
 Praga_N_bulk
@@ -2694,16 +2484,6 @@ Praga_N_milk
 Sindor-Praga N tejszállító kocsi
 Praga_TOT_128
 Praga TOT 128
-R_01
-R-1 villamos pótkocsi
-R_02
-R-2 villamos pótkocsi
-Renfe_Series_301_(Player_Colors)
-Renfe 301
-Renfe6000_Post
-RENFE 6000 postakocsi
-RVg_0-1-4-0
-RVg 0-1-4-0 mozdony
 RVg_1064_White_Bulk
 RVg 1064 White nyersanyagszállító kocsi
 RVg_1064_White_Cement
@@ -2714,6 +2494,446 @@ RVg_1064_White_Fluid
 RVg 1064 White olajszármazék szállítókocsi
 RVg_1064_White_Goods
 RVg 1064 White darabáru-szállító kocsi
+RVg_Passanger_Trailer
+RVg-KS személyszállító utánfutó
+RVg_Post_Trailer
+RVg-KS posta uánfutó
+RVg_Post_Truck_0
+RVg-KS 4051 postakocsi
+RVg_Post_Truck_1
+RVg-KS 9051 postakocsi
+RVg_Type_S_Bulk
+RVg Type S nyersanyagszállító kocsi
+RVg_Type_S_Cement
+RVg Type S cementszállító kocsi
+RVg_Type_S_Cistern
+RVg Type S olajszármazék szállítókocsi
+RVg_Type_S_Post
+RVg Type S postakocsi
+RVg_Type_S_Van
+RVg Type S darabáru-szállító kocsi
+RVg-B_101
+RVg B-101 autóbusz
+RVg-B_107
+RVg B-107 autóbusz
+RVg-KS_4510-33
+RVg-KS 4510-33 autóbusz
+RVg-KS_4510-45
+RVg-KS 4510-45 autóbusz
+RVg-KS_4510-69
+RVg-KS 4510-69 autóbusz
+RVg-KS_9020-31
+RVg-KS 9020-31 autóbusz
+RVg-KS_9020-58
+RVg-KS 9020-58 autóbusz
+RVg-KS_9020-92
+RVg-KS 9020-92 autóbusz
+RVg-LK_Cement_Truck
+RVg "LK" cementszállító  kocsi
+RVg-LK_Cooling_Truck
+RVg LK hűtőkocsi
+RVg-LK_Goods_Truck
+RVg-LK áruszállító
+RVg-LK_Grain_Truck
+RVg LK gabonaszállító kocsi
+RVg-LK_Plank_Truck
+RVg LK deszkaszállító kocsi
+RVg-LK_Steel_Truck
+RVg LK acélszállító kocsi
+RX_1064
+RX-1064 autóbusz
+S_Kroytor_Gaz-2
+S.Kroytor Gaz-2 autóbusz
+S_Kroytor_Gaz-3
+S.Kroytor Gaz-3 autóbusz
+S_Kroytor_Gaz-4
+S.Kroytor Gaz-4 autóbusz
+S_Kroytor_Ikarus-260
+S.Kroytor Ikarus-260 autóbusz
+S_Kroytor_Ikarus-260(l)
+S.Kroytor Ikarus-260 távolságibusz
+S_Kroytor_Ikarus-280
+S.Kroytor Ikarus-280 autóbusz
+S_Kroytor_Ikarus-280_ext
+S.Kroytor Ikarus-280 pótkocsi
+S_Kroytor_LiAZ-5256
+S.Kroytor LiAZ-5256 autóbusz
+S_Kroytor_LiAZ-677
+S.Kroytor LiAZ-677 autóbusz
+S_Kroytor_Mercedes_Citaro
+S.Kroytor Mercedes Citaro autóbusz
+S_Kroytor_PAZ-672
+S.Kroytor PAZ-672 autóbusz
+S_Kroytor_PAZ-772
+S.Kroytor PAZ-772 autóbusz
+S_Kroytor_Traveler
+S.Kroytor Traveler távolságibusz
+Sentinel_Cement_Lorry
+Sentinel cementszállító kocsi
+Sentinel_Cement_Trailer
+Sentinel cementszállító utánfutó
+Sentinel_Goods_Lorry
+Sentinel darabáru-szállító kocsi
+Sentinel_Goods_Trailer
+Sentinel darabáru-szállító utánfutó
+Sentinel_Wood_Lorry
+Sentinel rönkszállító kocsi
+Sentinel_Wood_Trailer
+Sentinel rönkszállító utánfutó
+SK_Mail_Truck_1
+S.Kroytor postakocsi
+skoda_1_tr_128
+Skoda 1 tr 
+skoda_10_tr_128
+Skoda 10 tr
+skoda_10_tr_rear_128
+Skoda 10 tr (hátsó)
+skoda_11_tr_128
+Skoda 11 tr
+skoda_12_tr_128
+Skoda 12 tr
+skoda_14_tr_128
+Skoda 14 tr
+skoda_18_tr_128
+Skoda 18 tr (első)
+skoda_18_tr_rear_128
+Skoda 18 tr (hátsó)
+skoda_19_tr_128
+Skoda 19 tr (első)
+skoda_19_tr_mid_128
+Skoda 19 tr (középső)
+skoda_19_tr_rear_128
+Skoda 19 tr (hátsó)
+skoda_21_tr_128
+Skoda 21 tr
+skoda_22_tr_128
+Skoda 22 tr (első)
+skoda_22_tr_rear_128
+Skoda 22 tr (hátsó)
+skoda_23_tr_128
+Skoda 23 tr (első)
+skoda_23_tr_mid_128
+Skoda 23 tr (középső)
+skoda_23_tr_rear_128
+Skoda 23 tr (hátsó)
+skoda_24_tr_128
+Skoda 24 tr
+skoda_25_tr_128
+Skoda 25 tr (első)
+skoda_25_tr_rear_128
+Skoda 25 tr (hátsó)
+skoda_6_tr_128
+Skoda 6 tr
+Skoda_706_grain
+Skoda 706 gabonaszállító kocsi
+Skoda_706_trailer_grain
+Skoda 706 gabonaszállító utánfutó
+skoda_8_tr_128
+Skoda 8 tr
+skoda_sanos_115_tr_128
+Skoda Sanos 115 tr
+skoda_sanos_200_tr_128
+Skoda Sanos 200 tr (első)
+skoda_sanos_200_tr_rear_128
+Skoda Sanos 200 tr (hátsó)
+Steel_Truck_0
+PMNV Bed acélszállító kocsi
+TATRA_400_T_128
+Tatra 400 T
+TATRA_401_T_128
+Tatra 401 T
+TATRA_86_T_128
+Tatra 86 T
+TS_Mack_Bulk_Trailer_0
+TS "L" nyersanyagszállító utánfutó
+Vitus-AVECO_Eurocargo_Bretter
+Vitus-Aveco Eurocargo deszkaszállító
+Vitus-AVECO_Eurocargo_bulk_transporter
+Vitus-Aveco Eurocargo nyersanyagszállító
+Vitus-AVECO_Eurocargo_freezing
+Vitus-Aveco Eurocargo hűtőkocsi
+Vitus-AVECO_Eurocargo_tanker
+Vitus-Aveco Eurocargo tartálykocsi (olaj)
+Vitus-AVECO_Eurocargo_transporter
+Vitus-Aveco Eurocargo darabáruszállító
+VSYS_Car_Trailer_0
+VSYS autószállító utánfutó
+VSYS_Concrete_Trailer_0
+VSYS betonszállító utánfutó
+VSYS_Post_Bus_Trailer_0
+VSYS posta utánfutó
+VSYS_Post_Bus_Trailer_1
+VSYS "H" posta utánfutó
+VSYS_Post_Bus_Trailer_2
+VSYS "L" posta utánfutó
+VSYS_Steel_Trailer_0
+VSYS acélszállító utánfutó
+VSYS_Tatra_138
+VSYS Tatra 138 nyersanyagszállító kocsi
+VSYS_Tatra_138_Grain
+Tatra 138 gabonaszállító kocsi
+VSYS_Tatra_813_Clossus
+VSYS Tatra 813 "Colossus" kamion
+Wood_Trailer_0
+Rönkszállító utánfutó
+Wood_Truck_0
+Shorty-Volvo rönkszállító kocsi
+Wood_Truck_1
+Ford V8 rönkszállító kocsi
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+1Benst134
+Pixie mozdony
+1Benst135t
+Gremlin mozdony
+1Benst138
+Apple Pie mozdony
+1Benst162t
+Jet mozdony
+1Benst238
+Frog mozdony
+1Dampflokomotive
+Hello mozdony
+2000_Class
+2000-es típus(Ausztrália)
+2000_Class_Car
+2000-es típus (vagon)
+2000_Class_Tail
+2000-es típus (hátsó kocsi)
+2Diesellokomotive
+BR218 mozdony
+3Bens186t
+Lemon mozdony
+3Dampflokomotive
+Chippy mozdony
+Autotransportwagen
+Canonball-B autószállító vagon
+Big_Bretterwagen
+RVg nagy deszkaszállító utánfutó.
+Bretterwagen
+Deszkaszállító-B vagon
+Budd_Coach
+EMD E5A Silver Meteor motorvonat (személykocsi középső)
+Budd_Observation
+EMD E5A Silver Meteor motorvonat (hátsó)
+Budd_RPO
+EMD E5A Silver Meteor motorvonat (postakocsi)
+caboose_1
+Fékezőkocsi
+caboose_2
+Fékezőkocsi
+caboose_3
+Fékezőkocsi
+Car_Waggon_1
+Canonball-A autószállító vagon
+Car_Waggon_2
+RVg autószállító
+CB_ALBATROS
+Canonball-Skoda 498 "Albatros" mozdony
+CB_DB-130_8
+Canonball & H-Trans 130/8 "Ludmila" mozdony
+Cement_Carrier_Fast
+Gyors cementszállító vagon
+Cement_Waggon_0
+BB-PMNV-B cementszállító vagon
+Cement_Waggon_1
+BB-PMNV-A cementszállító vagon
+Cementwagen
+SergeS cementszállító vagon
+CKD_749
+CKD 749 mozdony
+CKD_750
+CKD 750 mozdony
+Concretewagen
+PMNV Mixer 12 betonkeverő vagon
+Concretewagen_1
+PMNV Mixer 16 betonkeverő vagon
+Cooling_wagon_0
+Canonball hűtő vagon
+Cooling_wagon_1
+Container hűtő vagon
+Cooling_wagon_2
+Cannonball hűtővagon
+DB_ADm101
+Haru-DB ADm101 személyszállító vagon
+DB_Apmz121
+Haru-DB Apmz121 személyszállító vagon
+DB_Bm235
+Haru-DB Bm235 személyszállító vagon
+DB_BR103_1
+Haru BR-103 mozdony
+E_423
+Sindor E-432 mozdony
+EMD_E5A_Silver_Meteor
+EMD E5A Silver Meteor motorvonat (első)
+EMD_E5B_Silver_Comet
+EMD E5A Silver Silver motorvonat (első)
+Evil_DF-11
+Evil DF-11 mozdony
+Evil_P-100_(carriage)
+Evil P-100 motorvonat (középső)
+Evil_P-100_(front_engine)
+Evil P-100 motorvonat (első)
+Evil_P-100_(mail)
+Evil P-100 posta motorvonat
+Evil_P-100_(rear_engine)
+Evil P-100 motorvonat (hátsó)
+Express_tender
+Canonball szerkocsi
+Goods_waggon_0
+Canonball darabáru-szállító vagon
+Goods_waggon_1
+Arvisura darabáru-szállító vagon
+Goods_waggon_2
+PMNV-ARV darabáru-szállító vagon
+Goods_waggon_3
+Container darabáru-szállító vagon
+Goods_waggon_4
+HS darabáru-szállító vagon
+Goods_waggon_5
+RVg darabáru-szállító vagon
+Haru_2C1_Cheetah
+Cheetah gőzmozdony
+Haru_2D1_Buffalo
+2D1 Buffalo gőzmozdony
+Haru_C44-9W
+Haru C449W mozdony
+Haru_DF4
+Haru DF4 mozdony
+Haru_E3_KOMACHI
+Haru E3 Komachi motorvonat (első)
+Haru_E3_KOMACHI_(mid)
+Haru E3 Komachi motorvonat (középső)
+Haru_E3_KOMACHI_(rear)
+Haru E3 Komachi motorvonat (hátsó)
+Haru_E3_KOMACHI_(Trailer)
+Haru E3 Komachi motorvonat (hálókocsi)
+Haru_F7A
+Haru F7 A mozdony
+Haru_F7B
+Haru F7 B mozdony
+Haru_HST
+Haru HST motorvonat (első)
+Haru_HST_mid
+Haru HST motorvonat (középső)
+Haru_HST_rear
+Haru HST motorvonat (hátsó)
+Haru_Spike-PSE_Head1
+Haru Spike PSE motorvonat (első)
+Haru_Spike-PSE_Head2
+Haru Spike PSE motorvonat (első kocsi)
+Haru_Spike-PSE_Tail1
+Haru Spike PSE motorvonat (hátsó)
+Haru_Spike-PSE_Tail2
+Haru Spike PSE motorvonat (hátsó kocsi)
+Haru_Spike-PSE_Waggon
+Haru Spike PSE motorvonat (kocsi)
+Haru_Tender
+Cheetah szerkocsi
+Haru_VT98
+Haru VT98 motorvonat
+Haru_VT98_car
+Haru VT98 személyszállító vagon
+Haru-373
+Haru-373 motorvonat (első)
+Haru-373_car
+Haru-373 motorvonat (középső)
+Haru-373_tail
+Haru-373 motorvonat (hátsó)
+Haru-ACE1_Head
+Haru ACE motorvonat (első)
+Haru-ACE1_Tail
+Haru ACE motorvonat (hátsó)
+Haru-ACE1_Waggon1
+Haru ACE motorvonat (kocsi)
+Haru-ACE1_Waggon2
+Haru ACE motorvonat (bár kocsi)
+Haru-ACE1_Waggon3
+Haru ACE motorvonat (postakocsi)
+Haru-BR182_Taurus
+Haru-BR182 Taurus villanymozdony
+Haru-IC3
+Haru-IC3 motorvonat (első)
+Haru-IC3_car
+Haru-IC3 motorvonat (középső)
+Haru-IC3_tail
+Haru-IC3 motorvonat (hátsó)
+Haru-PlanV
+Haru-Plan V. motorvonat (első)
+Haru-PlanV(rear)
+Haru-Plan V. motorvonat (hátsó)
+Haru-PMNV_F7-Coach
+Haru PMNV F7 személyszállító vagon
+Haru-PMNV_F7-Mail_Car
+Haru PMNV F7 posta vagon
+Haru-TEM2
+Haru-TEM2 dízelmozdony
+Haru-X2000
+Haru-X2000 motorvonat (első)
+Haru-X2000_mid
+Haru-X2000 motorvonat (középső)
+Haru-X2000_rear
+Haru-X2000 motorvonat (hátsó)
+Holzwagen
+Rönkszállító-C vagon
+Holzwagen_0
+Rönkszállító-A vagon
+Holzwagen_1
+Rönkszállító-B vagon
+JNR_C11
+JNR SL C11 mozdony
+JNR_C62
+JNR SL C62 mozdony
+JNR_D51
+JNR SL D51 mozdony
+JNR_DD51
+JNR DD51 mozdony
+JNR_tender_S
+Szerkocsi
+JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
+Shinkansen HRS 700 motorvonat (első)
+JR_700_Shinkansen_HRS_(Middle_Section)_PC
+Shinkansen HRS 700 motorvonat (köztes kocsi)
+JR_700_Shinkansen_HRS_(Pantograph_I)_PC
+Shinkansen HRS 700 motorvonat (áramszedős I)
+JR_700_Shinkansen_HRS_(Pantograph_II)_PC
+Shinkansen HRS 700 motorvonat (áramszedős II)
+JR_700_Shinkansen_HRS_(Tailcar)_PC
+Shinkansen HRS 700 motorvonat (hátsó)
+MA461_waggon
+RVg-DB MA-461 motorvonat (középső)
+Marks_Passagierwagen
+MJHN Express személyszállító vagon
+Marks_Postwagen
+MJHN Express posta vagon
+Marks-Deltic
+MJHN Deltic mozdony
+Passagierwagen
+Canonball BTx 60 személyszállító vagon
+Passanger_waggon_0
+JNR OHA 31 személyszállító vagon
+Passanger_waggon_1
+JNR OHAFU 50 személyszállító vagon
+Passanger_waggon_2
+JNR ORO 40 személyszállító vagon
+Passanger_waggon_3
+RA BTx 50 személyszállító vagon
+Passanger_waggon_MAITE39
+JNR MAITE 39 személyszállító vagon
+Plank_waggon_0
+RVg deszkaszállító vagon (1870/12)
+Plank_waggon_1
+RVg deszkaszállító vagon (1915/17)
+Post_waggon_0
+PV-80 posta vagon
+Postwagen
+Canonball posta vagon
+Renfe_Series_301_(Player_Colors)
+Renfe 301
+Renfe6000_Post
+RENFE 6000 postakocsi
+RVg_0-1-4-0
+RVg 0-1-4-0 mozdony
 RVg_1945_box_car
 RVg áruszállító vagon (1945/23)
 RVg_1951_box_car
@@ -2792,14 +3012,6 @@ RVg_M1_waggon
 M1 motorvonat (középső)
 RVg_O-2-4-0
 RVg 0-2-4-0 mozdony
-RVg_Passanger_Trailer
-RVg-KS személyszállító utánfutó
-RVg_Post_Trailer
-RVg-KS posta uánfutó
-RVg_Post_Truck_0
-RVg-KS 4051 postakocsi
-RVg_Post_Truck_1
-RVg-KS 9051 postakocsi
 RVg_R-100_(carriage)
 Rvg R-100 motorvonat (középső)
 RVg_R-100_(front_engine)
@@ -2830,16 +3042,6 @@ RVg_Tigress_post
 Tigress posta vagon
 RVg_Tigress_wagon
 Tigress motorvonat (középső)
-RVg_Type_S_Bulk
-RVg Type S nyersanyagszállító kocsi
-RVg_Type_S_Cement
-RVg Type S cementszállító kocsi
-RVg_Type_S_Cistern
-RVg Type S olajszármazék szállítókocsi
-RVg_Type_S_Post
-RVg Type S postakocsi
-RVg_Type_S_Van
-RVg Type S darabáru-szállító kocsi
 RVg-0-4-4-0
 RVg 0-4-4-0 mozdony
 RVg-1-4-1
@@ -2854,10 +3056,6 @@ RVg-2-4-0
 RVg 2-4-0 "Runner" mozdony
 RVg-2-5-1
 RVg 2-5-1 "Muscle Arm" mozdony
-RVg-B_101
-RVg B-101 autóbusz
-RVg-B_107
-RVg B-107 autóbusz
 RVg-D22-Rola
 RVg-D22-Kamionszállító
 RVg-D23-Camel
@@ -2876,30 +3074,6 @@ RVg-Goods_waggon
 RVg darabáru-szállító vagon
 RVg-Heavy-Tender
 RVg Heavy szerkocsi
-RVg-KS_4510-33
-RVg-KS 4510-33 autóbusz
-RVg-KS_4510-45
-RVg-KS 4510-45 autóbusz
-RVg-KS_4510-69
-RVg-KS 4510-69 autóbusz
-RVg-KS_9020-31
-RVg-KS 9020-31 autóbusz
-RVg-KS_9020-58
-RVg-KS 9020-58 autóbusz
-RVg-KS_9020-92
-RVg-KS 9020-92 autóbusz
-RVg-LK_Cement_Truck
-RVg "LK" cementszállító  kocsi
-RVg-LK_Cooling_Truck
-RVg LK hűtőkocsi
-RVg-LK_Goods_Truck
-RVg-LK áruszállító
-RVg-LK_Grain_Truck
-RVg LK gabonaszállító kocsi
-RVg-LK_Plank_Truck
-RVg LK deszkaszállító kocsi
-RVg-LK_Steel_Truck
-RVg LK acélszállító kocsi
 RVg-Oil-Tender
 RVg szerkocsi
 RVg-Pioneer_Alladin
@@ -2918,128 +3092,14 @@ RVg-S033-Red_Dwarf
 RVg-S033 "Piros törpe" mozdony
 RVg-S127-Blue_Cow
 RVg-S127 "Kék tehén" mozdony
-RVg-Sail_Goods_Ship_0
-RVg darabáru-szállító vitorlás
-RVg-Sail_Passanger_Ship_0
-RVg személyszállító vitorlás
-RVg-Steam_Goods_Ship_0
-RVg darabáru-szállító gőzhajó
-RVg-Steam_Passanger_Ship_0
-RVg személyszállító gőzhajó
 RVg-Tender
 RVg szerkocsi
-RX_1064
-RX-1064 autóbusz
-S_Kroytor_Gaz-2
-S.Kroytor Gaz-2 autóbusz
-S_Kroytor_Gaz-3
-S.Kroytor Gaz-3 autóbusz
-S_Kroytor_Gaz-4
-S.Kroytor Gaz-4 autóbusz
-S_Kroytor_Ikarus-260
-S.Kroytor Ikarus-260 autóbusz
-S_Kroytor_Ikarus-260(l)
-S.Kroytor Ikarus-260 távolságibusz
-S_Kroytor_Ikarus-280
-S.Kroytor Ikarus-280 autóbusz
-S_Kroytor_Ikarus-280_ext
-S.Kroytor Ikarus-280 pótkocsi
-S_Kroytor_LiAZ-5256
-S.Kroytor LiAZ-5256 autóbusz
-S_Kroytor_LiAZ-677
-S.Kroytor LiAZ-677 autóbusz
-S_Kroytor_Mercedes_Citaro
-S.Kroytor Mercedes Citaro autóbusz
-S_Kroytor_PAZ-672
-S.Kroytor PAZ-672 autóbusz
-S_Kroytor_PAZ-772
-S.Kroytor PAZ-772 autóbusz
-S_Kroytor_Traveler
-S.Kroytor Traveler távolságibusz
-SAC-Aerospatiale_Concorde_128_set
-Concorde
-SAC-Douglas_DC-6_128_set
-Douglas DC-6
-SAC-Handley_Page_W8B_128_set
-Handley Page W8B
-SAC-Lockheed_C-130C_Hercules_128_set
-Lockheed C-130C Hercules
-Sail_Post_Ship_0
-Postaszállító vitorlás
 SBB_Re4_4_II
 SBB Re4 4 II mozdony
 SBB_Re6_6
 SBB Re6 6 mozdony
-Sentinel_Cement_Lorry
-Sentinel cementszállító kocsi
-Sentinel_Cement_Trailer
-Sentinel cementszállító utánfutó
-Sentinel_Goods_Lorry
-Sentinel darabáru-szállító kocsi
-Sentinel_Goods_Trailer
-Sentinel darabáru-szállító utánfutó
-Sentinel_Wood_Lorry
-Sentinel rönkszállító kocsi
-Sentinel_Wood_Trailer
-Sentinel rönkszállító utánfutó
-SK_Mail_Truck_1
-S.Kroytor postakocsi
-skoda_1_tr_128
-Skoda 1 tr 
-skoda_10_tr_128
-Skoda 10 tr
-skoda_10_tr_rear_128
-Skoda 10 tr (hátsó)
 Skoda_109E
 Skoda 109E mozdony
-skoda_11_tr_128
-Skoda 11 tr
-skoda_12_tr_128
-Skoda 12 tr
-skoda_14_tr_128
-Skoda 14 tr
-skoda_18_tr_128
-Skoda 18 tr (első)
-skoda_18_tr_rear_128
-Skoda 18 tr (hátsó)
-skoda_19_tr_128
-Skoda 19 tr (első)
-skoda_19_tr_mid_128
-Skoda 19 tr (középső)
-skoda_19_tr_rear_128
-Skoda 19 tr (hátsó)
-skoda_21_tr_128
-Skoda 21 tr
-skoda_22_tr_128
-Skoda 22 tr (első)
-skoda_22_tr_rear_128
-Skoda 22 tr (hátsó)
-skoda_23_tr_128
-Skoda 23 tr (első)
-skoda_23_tr_mid_128
-Skoda 23 tr (középső)
-skoda_23_tr_rear_128
-Skoda 23 tr (hátsó)
-skoda_24_tr_128
-Skoda 24 tr
-skoda_25_tr_128
-Skoda 25 tr (első)
-skoda_25_tr_rear_128
-Skoda 25 tr (hátsó)
-skoda_6_tr_128
-Skoda 6 tr
-Skoda_706_grain
-Skoda 706 gabonaszállító kocsi
-Skoda_706_trailer_grain
-Skoda 706 gabonaszállító utánfutó
-skoda_8_tr_128
-Skoda 8 tr
-skoda_sanos_115_tr_128
-Skoda Sanos 115 tr
-skoda_sanos_200_tr_128
-Skoda Sanos 200 tr (első)
-skoda_sanos_200_tr_rear_128
-Skoda Sanos 200 tr (hátsó)
 skoda151
 Skoda 151 mozdony
 skoda163
@@ -3060,8 +3120,38 @@ Stahlwagen_2
 RVg acélszállító vagon (1880/25)
 Stahlwagen_3
 RVg acélszállító vagon (1912/30)
-Steel_Truck_0
-PMNV Bed acélszállító kocsi
+Thunder_(front_engine)
+Thunder motorvonat (első)
+Thunder_(mail)
+Thunder posta vagon
+Thunder_(rear_engine)
+Thunder motorvonat (hátsó)
+Thunder_(waggon)
+Thunder motorvonat (középső)
+vsys_garatt_0
+2DD2 segédmozdony (első)
+vsys_garatt_1
+2DD2 mozdony (középső)
+vsys_garatt_2
+2DD2 szerkocsi (hátsó)
+#_____________________________vehicle - tram_track______________________________
+#_____________________________vehicle - tram_track______________________________
+DueWAG_GT6_motorwaggon
+GT6 villamos
+DueWAG_GT6_tailwaggon
+GT6 villamos pótkocsi
+EM400_1
+EM400 villamos
+Haru_Tatra-T3
+Haru Tátra-T3 villamos
+MHz_TRAM_1930
+MHz-1930 villamos
+MHz_TRAM_1980
+MHz-1980 villamos
+R_01
+R-1 villamos pótkocsi
+R_02
+R-2 villamos pótkocsi
 T_101
 T-101 villamos
 T_102
@@ -3090,90 +3180,62 @@ T_110A
 T-110 villamos
 T_110B
 T-110 villamos segédkocsi
-TATRA_400_T_128
-Tatra 400 T
-TATRA_401_T_128
-Tatra 401 T
-TATRA_86_T_128
-Tatra 86 T
-Thunder_(front_engine)
-Thunder motorvonat (első)
-Thunder_(mail)
-Thunder posta vagon
-Thunder_(rear_engine)
-Thunder motorvonat (hátsó)
-Thunder_(waggon)
-Thunder motorvonat (középső)
-TS_Mack_Bulk_Trailer_0
-TS "L" nyersanyagszállító utánfutó
-Vitus-AVECO_Eurocargo_Bretter
-Vitus-Aveco Eurocargo deszkaszállító
-Vitus-AVECO_Eurocargo_bulk_transporter
-Vitus-Aveco Eurocargo nyersanyagszállító
-Vitus-AVECO_Eurocargo_freezing
-Vitus-Aveco Eurocargo hűtőkocsi
-Vitus-AVECO_Eurocargo_tanker
-Vitus-Aveco Eurocargo tartálykocsi (olaj)
-Vitus-AVECO_Eurocargo_transporter
-Vitus-Aveco Eurocargo darabáruszállító
-VSYS_Car_Trailer_0
-VSYS autószállító utánfutó
-VSYS_Concrete_Trailer_0
-VSYS betonszállító utánfutó
-vsys_garatt_0
-2DD2 segédmozdony (első)
-vsys_garatt_1
-2DD2 mozdony (középső)
-vsys_garatt_2
-2DD2 szerkocsi (hátsó)
-VSYS_Post_Bus_Trailer_0
-VSYS posta utánfutó
-VSYS_Post_Bus_Trailer_1
-VSYS "H" posta utánfutó
-VSYS_Post_Bus_Trailer_2
-VSYS "L" posta utánfutó
-VSYS_Steel_Trailer_0
-VSYS acélszállító utánfutó
-VSYS_Tatra_138
-VSYS Tatra 138 nyersanyagszállító kocsi
-VSYS_Tatra_138_Grain
-Tatra 138 gabonaszállító kocsi
-VSYS_Tatra_813_Clossus
-VSYS Tatra 813 "Colossus" kamion
-Wood_Trailer_0
-Rönkszállító utánfutó
-Wood_Truck_0
-Shorty-Volvo rönkszállító kocsi
-Wood_Truck_1
-Ford V8 rönkszállító kocsi
-yoshi_wup01
-GTW-72 gyorsvasút (első) 
-yoshi_wup02
-GTW-72 gyorsvasút (középső)
-yoshi_wup03
-GTW-72 gyorsvasút (hátsó)
-yoshi_wup1900
-GTW-01 gyorsvasút
-yoshi_wup1950
-GTW-50 gyorsvasút
-yoshi_wup196201
-GTW-62 gyorsvasút (első) 
-yoshi_wup196202
-GTW-62 gyorsvasút (középső)
-yoshi_wup196203
-GTW-62 gyorsvasút (hátsó) 
-yoshi_wup196501
-GTW-65 gyorsvasút (első) 
-yoshi_wup196502
-GTW-65 gyorsvasút (középső) 
-yoshi_wup196503
-GTW-65 gyorsvasút (hátsó)
-#______________________________________way______________________________________
-#______________________________________way______________________________________
+#________________________________vehicle - water________________________________
+#________________________________vehicle - water________________________________
+Fishing_Boat_1
+PH halászhajó
+MHz-C11C_Bulk_Barge
+MHz-C11C szénszállító uszály
+MHz-C11C_Wood_Barge
+MHz C11C deszkaszállító uszály
+MHz-C273U_Cement_Barge
+MHz C-273U Cementszállító uszály
+MHz-C35_Goods_Barge
+MHz C-35 Áruszállító uszály
+MHz-C3P_Post_Barge
+MHz C-3P Postaszállító uszály
+MHz-CC47_Container_Barge
+MHz C-C47 Konténerszállító uszály
+MHz-MT7_Milk_Barge
+MHz MT-7 Tejszállító uszály
+MHz-OT5_Oil_Barge
+MHz OT-5 Olajszállító uszály
+MHz-P11C_Bulk_Boat
+MHz-P11C Szénszállító hajó
+MHz-P11C_Wood_Boat
+MHz P11C Deszkaszállító hajó
+MHz-R2A_Push-Tug
+MHz-R2A Vonatóhajó
+Post_Barge
+MHz postahajó
+RVg-Sail_Goods_Ship_0
+RVg darabáru-szállító vitorlás
+RVg-Sail_Passanger_Ship_0
+RVg személyszállító vitorlás
+RVg-Steam_Goods_Ship_0
+RVg darabáru-szállító gőzhajó
+RVg-Steam_Passanger_Ship_0
+RVg személyszállító gőzhajó
+Sail_Post_Ship_0
+Postaszállító vitorlás
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 air_movement_area
 Salakos kifutópálya
-canal_030
-Csatorna
+runway_modern
+Modern kifutópálya
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
+Schwebebahn_p_ground
+Függesztett egysínű vasút (földi kapcsolat)
+Suspended_Monorail_Track
+Függesztett egysínű vasúti sín
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+Powerline
+elektromos hálózat
+#__________________________________way - road___________________________________
+#__________________________________way - road___________________________________
 Highway_110
 Aszfaltút(110)
 Highway_110_Elevated
@@ -3186,8 +3248,26 @@ Highway_200
 Autópálya
 Highway_200_Elevated
 Megemelt autópálya
-Powerline
-elektromos hálózat
+Road_030
+Földút 
+Road_040
+Macskaköves út 
+Road_040_Elevated
+Megemelt macskaköves út 
+Road_050
+Városi út
+Road_050_Elevated
+Megemelt városi út
+Road_055
+Kövesút
+Road_070
+Aszfaltút
+Road_090
+Aszfaltút(90)
+Road_090_Elevated
+Megemelt aszfaltút(90)
+#__________________________________way - track__________________________________
+#__________________________________way - track__________________________________
 Rail_060_Tracks
 Régi vasúti vágány
 Rail_080_Tracks
@@ -3234,34 +3314,6 @@ Rail_400_Elevated
 Megemelt, megerősített nagysebességű vágány
 Rail_400_Tracks
 Megerősített nagysebességű vágány
-river_0a
-Patak
-river_0b
-Folyó
-Road_030
-Földút 
-Road_040
-Macskaköves út 
-Road_040_Elevated
-Megemelt macskaköves út 
-Road_050
-Városi út
-Road_050_Elevated
-Megemelt városi út
-Road_055
-Kövesút
-Road_070
-Aszfaltút
-Road_090
-Aszfaltút(90)
-Road_090_Elevated
-Megemelt aszfaltút(90)
-runway_modern
-Modern kifutópálya
-Schwebebahn_p_ground
-Függesztett egysínű vasút (földi kapcsolat)
-Suspended_Monorail_Track
-Függesztett egysínű vasúti sín
 Tram_Track_050_A
 Villamos pálya
 Tram_Track_070_A
@@ -3274,17 +3326,29 @@ Tram_Track_090_B
 Villamos pálya
 Tram_Track_110_A
 Nagysebbességű villamos pálya
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
+#__________________________________way - water__________________________________
+#__________________________________way - water__________________________________
+canal_030
+Csatorna
+river_0a
+Patak
+river_0b
+Folyó
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+trolleybus_catenary
+Trolibusz felsővezeték
+#______________________________way-object - track_______________________________
+#______________________________way-object - track_______________________________
 classic_metal_mesh_catenary
 3 típusú villamosítás
 curved_pylon_lgv
 Gyorsvasúti elektromos csatlakozás
 highspeed_catenary
 Normál elektromos csatlakozás
-tramway_modern
-Villamos felsővezeték
-trolleybus_catenary
-Trolibusz felsővezeték
 wood_gantry_catenary
 Régi elektromos csatlakozás
+#____________________________way-object - tram_track____________________________
+#____________________________way-object - tram_track____________________________
+tramway_modern
+Villamos felsővezeték

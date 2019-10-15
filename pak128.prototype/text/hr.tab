@@ -9,121 +9,33 @@
 #                             Language: hr Hrvatski                            #
 #                             Encoding: ISO-8859-2                             #
 #                             Font: prop-latin2.fnt                            #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
-PowerBridge
-Most Za Dalekovod
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
 Schwebebahn_p_bridge
 Viseci Monorail (most)
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
+PowerBridge
+Most Za Dalekovod
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
 water_bridge
 Kanalski Most
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-Vijecnica
-01_CITY_1
-Vijenica
-02_CITY
-Vijecnica
-02_CITY_1
-Vijecnica
-03_CITY
-Vijecnica
-03_CITY_1
-Vijecnica
-04_CITY
-Vijecnica
-04_CITY_1
-Vijecnica
-05_CITY
-Vijecnica
-05_CITY_1
-Vijecnica
-1920_AirDepot
-Jednostavni Hangar
-1930AirDepot
-Drveni Hangar
-1940AirDepot
-Metalni Limeni Hangar
-1950AirDepot
-Betonski Hangar
-1990AirDepot
-Moderni Hangar
-ABBYS_0
-Opatija\n\nOva opatija je poznata za svoje\nduboke bunare u oba tornja.\nPrema legendi,\nti bunari nemaju dna.\nNevjerojatni je koliko puno\nljudi zeli doci ovamo\ni vidjeti magiju bunara.\nKovanice, tiho padajuci u\nvodu 50 metara prema dolje,\nsubvencionirali su prihode\nopatije dovoljno za\nredovnike, koji su uspjeli vratiti\nruinama njihov\nsadasnji izgled.\n
-Airport1920_AirportBlg
-Aerodromski Putnicki Terminal
-Airport1930PostOffice
-Ured Zracne Poste
-Airport1990_Big_AirportBlg
-Veliki Moderni Putnicki Terminal
-Airport1990_Entrance_AirportBlg
-Moderni Aerodromski Ulaz
-Airport1990_Gates_AirportBlg
-Moderna Vrata
-Airport1990_PostOffice
-Moderni Ured Zrakoplovne Poste
-Airport1990_Small_AirportBlg
-Mali Moderni Putnicki Terminal
-Airport1990_Warehouse
-Moderni Teretni Terminal
-AirStop_AirportBlg
-Aerodromski Prostor Ukrcaja
-Almuthof_StationBlg
-Ruralna Stanica
-Avila_Big_StationBlg
-Velika Zgrada Putnika
-Avila_Small_StationBlg
-Mali Zgrada Putnika
-Avila_Warehouse_StationBlg
-Tereno Skladiste
-big_classic_bus_stop
-Veliko atubusno stajaliste
-big_modern_bus_stop
-Veliko moderno autobusno stajaliste
-BigTerminal1950_AirportBlg_S
-Veliki Putnicki Terminal (1950)
-Bulk_Dock
-Dok Za Rasuti Teret
-Bulk_StationBlg
-Zgrada Stanice Rasutog Tereta
-bus_terminus
-Moderni Autobusni Terminal
-canal_ChannelStop
-Kanalni Kai
-canal_ware_stop
-Kanalni Kai (Tereti)
-Car_StationBlg
-Stanicno Parkiraliste
-CarDepot
-Garaza
 CarStop
 Zaljev Punjenja
-CASTLE_0
-Stari dvorac\n\nOvaj je dvorac nekada pripadao\nKralju Napiku. Vecina ga je\nunistena tijekom velikog\nrata, ali je ponovno sagradjen u\ndevetnaestom stoljecu,\ni sada sadrzava vrlo\npoztnatu kolekciju starih\noklopa i maceva.\n
-CHURCH_02
-Lila Crkva\n\bOva cudna crkva je sagradjena\nod slavnog ludog\nsvecenika, koji je 1654 godine\nobojao cijelu zgradu\nlila. Boja je izblijedila\nodavno,ali ime\njos uvijek ostalo do danas.\n
-CHURCH_03
-Crkva\n\nOvo je poznata crkva,\nkoja privlaci ljude sa\nsvojim ugodnim okolisem\ni zanimljivim\nslikama unutra.\n\n
-CHURCH_04
-Sinagoga\n\nIako ovaj manastir izgleda malo\nArabski, ipak je\nsinagoga.\n\n
-CHURCH_05
-St.Michael\n\nOvaj arhitektonski dragulj je\nsagradjen krajem 19-tog\nstoljeca, i zanimljiv je\njer ima metalni krov,\nprojektiran od Alexandera\nGustavusa Eiffela.\n
-CHURCH_06
-Crkva\n\nTipicna seoska ili crkva\nod malog grada.\n\n
-CIRCUS_0
-Cirkus Humberto\n\nPoznati cirkus je napravio ovaj\ngrad konacnim odredistem.\Starinski sator je\nsacuvan kako bi se sacuvala\noriginalna atmosfera, ali svi\ncirkuski ljudi su kupili\nsvoje vlastite kuce ovdje, tako\nmozete racunati na ostajanje\novdje, i postati\npoznati turisticki cilj.\nCirkus ima poznatog\nslona Jumba,koji sjedne\nsvaki puta kada cuje zvono.Dakle\nbudite oprezni i ne koristite zvono\nDok stojite iza Jumba,\nosim ako ne volite biti vrlo plosnati.\n
-CIVILIAN_RADAR
-Promatracnica\n\nMozda ne vjerujete, ali\nono je normalna\npromatracnica. Radioteleskop, naravno...\n\n
-classic_mailbox
-Postanski Sanducic
-ClosedTrainStop
-Sasvim pokrivena platforma
-CoalTrainStop
-Stanica sa ugljenom
+MonorailGround
+Monorail temelj
+ShipStop
+Putnicki dok
+TrainStop
+Stanica
+#________________________________building - com_________________________________
+#________________________________building - com_________________________________
 COM_00_10
 Kuca je poplocena crvenim\nciglicama.\n\n
 COM_00_22
@@ -182,36 +94,38 @@ COM_11_14
 Kuca\n\n
 COM_11_15
 Salon sladoleda\n\n
-Container1TrainStop
-Kontejnerska stanica
-Container2TrainStop
-Napredna kontejnerska stanica
-Control_StationBlg
-Zgrada Kontrole Stanice
-Crate_Goods_Dock
-Kontejnerski dok
-CunnersdorfStopBlg
-Seoska Stanicna Zgrada
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+Opatija\n\nOva opatija je poznata za svoje\nduboke bunare u oba tornja.\nPrema legendi,\nti bunari nemaju dna.\nNevjerojatni je koliko puno\nljudi zeli doci ovamo\ni vidjeti magiju bunara.\nKovanice, tiho padajuci u\nvodu 50 metara prema dolje,\nsubvencionirali su prihode\nopatije dovoljno za\nredovnike, koji su uspjeli vratiti\nruinama njihov\nsadasnji izgled.\n
+CASTLE_0
+Stari dvorac\n\nOvaj je dvorac nekada pripadao\nKralju Napiku. Vecina ga je\nunistena tijekom velikog\nrata, ali je ponovno sagradjen u\ndevetnaestom stoljecu,\ni sada sadrzava vrlo\npoztnatu kolekciju starih\noklopa i maceva.\n
+CHURCH_02
+Lila Crkva\n\bOva cudna crkva je sagradjena\nod slavnog ludog\nsvecenika, koji je 1654 godine\nobojao cijelu zgradu\nlila. Boja je izblijedila\nodavno,ali ime\njos uvijek ostalo do danas.\n
+CHURCH_03
+Crkva\n\nOvo je poznata crkva,\nkoja privlaci ljude sa\nsvojim ugodnim okolisem\ni zanimljivim\nslikama unutra.\n\n
+CHURCH_04
+Sinagoga\n\nIako ovaj manastir izgleda malo\nArabski, ipak je\nsinagoga.\n\n
+CHURCH_05
+St.Michael\n\nOvaj arhitektonski dragulj je\nsagradjen krajem 19-tog\nstoljeca, i zanimljiv je\njer ima metalni krov,\nprojektiran od Alexandera\nGustavusa Eiffela.\n
+CHURCH_06
+Crkva\n\nTipicna seoska ili crkva\nod malog grada.\n\n
+CIRCUS_0
+Cirkus Humberto\n\nPoznati cirkus je napravio ovaj\ngrad konacnim odredistem.\Starinski sator je\nsacuvan kako bi se sacuvala\noriginalna atmosfera, ali svi\ncirkuski ljudi su kupili\nsvoje vlastite kuce ovdje, tako\nmozete racunati na ostajanje\novdje, i postati\npoznati turisticki cilj.\nCirkus ima poznatog\nslona Jumba,koji sjedne\nsvaki puta kada cuje zvono.Dakle\nbudite oprezni i ne koristite zvono\nDok stojite iza Jumba,\nosim ako ne volite biti vrlo plosnati.\n
+CIVILIAN_RADAR
+Promatracnica\n\nMozda ne vjerujete, ali\nono je normalna\npromatracnica. Radioteleskop, naravno...\n\n
 ELEMENTARY_SCHOOL_1
 Osnovna skola
 ELEMENTARY_SCHOOL_2
 Osnovna skola
 Firestation
 Vatrogasna Stanica\n\nOvo je gradska vatrogasna stanica.Ona\nposjeduje vatrogasno vozilo,\nvatrogasce i ambulantu.\nTo je privremeno.\nAmbulanta ce se preseliti,jednom\nkada dobije svoju zgradu.\n(Prokleti grad je srezao\ntroskove)\n
-Fluid_StationBlg
-Postaja Vodotornja
 FORT_FUN
 Povijesni Dvorac\n\n
-FreightTrainStop
-Teretno Stajaliste Vlaka
 french_garden_4
 Francuski vrt
 french_park_1
 Francuski park
-Gas_StationBlg
-Zgrada Plinare
-Goods_StationBlg
-Zgrada Stanice Robe
 GRASS_STADIUM
 Travnati stadion\n\nTravnati stadion je izvrsno\n mjesto za ici\ntrcati i igrati americki nogomet,\ili europski nogomet, kako ga drugi zovu.\nUvijek se moze pronaci\nmanje mobilne partnere koji\ngledaju svoje sportske\nkolege sa klupa\nispod stabala.\n
 HIGH_SCHOOL_1
@@ -220,76 +134,110 @@ HIGH_SCHOOL_2
 Srednja skola
 HOUSE_RUINS_0
 Ru¹evina
-HQ1
-Sredisnjice
-HQ2
-Sredisnjice (II)
-IND_00_03
-Plantaza\n\n
-IND_01_03
-Pasnjak sa Kravama\n\n
-IND_01_04
-Park\n\n
-IND_01_11
-Stambena zgrada\n\n
 JUSTICE
 Sudnica\n\nOvo je gradska sudnica\n,gdje se odrzavaju sudjenja\ncesto. Odvjetnici dolaze\ni odlaze neprestano.\n\n
 Little_Central_Park
 Maleni gradski park
-Long_Goods_Dock
-Dugacki robni dok
 MARKET_PLACE_0
 Trznica
-medium_classic_bus_stop
-Prekriveno Autobusno Stajaliste
-medium_early_bus_stop
-Autobusno stajaliste sa natkrovom
-medium_modern_bus_stop
-Moderno autobusno stajaliste
-Modern_Warehouse
-Moderno skladiste
-modern_warehouse_big
-Moderno veliko skladiste
-ModernPostOffice
-Moderni Postanski Ured
-ModernTrainStop
-Moderno Stajaliste Vlaka
-MonorailDepot
-Uzdignuti tracnicki depo
-MonorailFoundation
-Monorail Temelj
-MonorailGround
-Monorail temelj
 MUSEUM_0
 Muzej
 Old_gate
 Vrata Grada\n\n
 OLD_HOUSE_0
 Stara kuca
-OpenTrainStop
-Jednostavna platforma
 Pagoda01
 Pagoda\n\n
 PARK_0
 Park
+RADIO_TOWER_0
+Radio toranj
+Russian_Cathedral
+Ruska crkva\n\n
+TRIUMPH
+Triumphal Arch\n\nOvaj luk trijumfa je sagradjen\nod cara Napika za\nslavlje njegovih silnih\npobjeda koje je dobio u\npoznatim bitkama u proslosti.\nSada vise nema ratova\n,nazalost - nema vise\npobjednickih vojski koje\nispod marsiraju. Oni su\nzamijenjeni sa turistima koji\nkruze okolo sa strahopostovanjem\nprema ljepoti za ovo arhitektonsko\ncudo koje je projektirano od poznatog\narhitekta imenom George, poznatoga kao MHz u\nnjegovim poznim danima.\n
+TV_TOWER_0
+Televizijski toranj
+TV_TOWER_1
+TV Odasiljac
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
+1920_AirDepot
+Jednostavni Hangar
+1930AirDepot
+Drveni Hangar
+1940AirDepot
+Metalni Limeni Hangar
+1950AirDepot
+Betonski Hangar
+1990AirDepot
+Moderni Hangar
+CarDepot
+Garaza
+MonorailDepot
+Uzdignuti tracnicki depo
+ShipDepot
+Brodski depo
+TrainDepot
+Depo za vlakove
+TramDepot
+Tramvajski depoo
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
+Airport1920_AirportBlg
+Aerodromski Putnicki Terminal
+Airport1930PostOffice
+Ured Zracne Poste
+Airport1990_Big_AirportBlg
+Veliki Moderni Putnicki Terminal
+Airport1990_Entrance_AirportBlg
+Moderni Aerodromski Ulaz
+Airport1990_Gates_AirportBlg
+Moderna Vrata
+Airport1990_PostOffice
+Moderni Ured Zrakoplovne Poste
+Airport1990_Small_AirportBlg
+Mali Moderni Putnicki Terminal
+Airport1990_Warehouse
+Moderni Teretni Terminal
+Almuthof_StationBlg
+Ruralna Stanica
+Avila_Big_StationBlg
+Velika Zgrada Putnika
+Avila_Small_StationBlg
+Mali Zgrada Putnika
+Avila_Warehouse_StationBlg
+Tereno Skladiste
+BigTerminal1950_AirportBlg_S
+Veliki Putnicki Terminal (1950)
+Bulk_StationBlg
+Zgrada Stanice Rasutog Tereta
+Car_StationBlg
+Stanicno Parkiraliste
+Control_StationBlg
+Zgrada Kontrole Stanice
+CunnersdorfStopBlg
+Seoska Stanicna Zgrada
+Fluid_StationBlg
+Postaja Vodotornja
+Gas_StationBlg
+Zgrada Plinare
+Goods_StationBlg
+Zgrada Stanice Robe
+Modern_Warehouse
+Moderno skladiste
+modern_warehouse_big
+Moderno veliko skladiste
+ModernPostOffice
+Moderni Postanski Ured
+MonorailFoundation
+Monorail Temelj
 PostOffice
 Posta
 PostOffice1920_AirportBlg
 Zgrada Zracne Poste
 Radar3
 Radar
-RADIO_TOWER_0
-Radio toranj
-Russian_Cathedral
-Ruska crkva\n\n
-ShipDepot
-Brodski depo
-ShipStop
-Putnicki dok
-small_classic_bus_stop
-Jednostavno Autobusno Stajaliste
-small_early_bus_stop
-Autobusno Stajaliste
 Tower1920_AirportBlg
 Osnovni Zrakoplovni Toranj
 Tower1930_AirportBlg
@@ -298,24 +246,98 @@ Tower1950_AirportBlg
 Kontrolni toranj
 Tower1990_AirportBlg
 Moderni Zrakoplovni Toranj
-TrainDepot
-Depo za vlakove
-TrainStop
-Stanica
-TramDepot
-Tramvajski depoo
-TRIUMPH
-Triumphal Arch\n\nOvaj luk trijumfa je sagradjen\nod cara Napika za\nslavlje njegovih silnih\npobjeda koje je dobio u\npoznatim bitkama u proslosti.\nSada vise nema ratova\n,nazalost - nema vise\npobjednickih vojski koje\nispod marsiraju. Oni su\nzamijenjeni sa turistima koji\nkruze okolo sa strahopostovanjem\nprema ljepoti za ovo arhitektonsko\ncudo koje je projektirano od poznatog\narhitekta imenom George, poznatoga kao MHz u\nnjegovim poznim danima.\n
-TV_TOWER_0
-Televizijski toranj
-TV_TOWER_1
-TV Odasiljac
 Very_Big_Terminal
 Ogromna hala terminala (3x3)
 VictorianStation
 Stanica u viktorijanskom stilu
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+Dok Za Rasuti Teret
+Crate_Goods_Dock
+Kontejnerski dok
+Long_Goods_Dock
+Dugacki robni dok
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
+HQ1
+Sredisnjice
+HQ2
+Sredisnjice (II)
+#________________________________building - ind_________________________________
+#________________________________building - ind_________________________________
+IND_00_03
+Plantaza\n\n
+IND_01_03
+Pasnjak sa Kravama\n\n
+IND_01_04
+Park\n\n
+IND_01_11
+Stambena zgrada\n\n
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+Aerodromski Prostor Ukrcaja
+big_classic_bus_stop
+Veliko atubusno stajaliste
+big_modern_bus_stop
+Veliko moderno autobusno stajaliste
+bus_terminus
+Moderni Autobusni Terminal
+canal_ChannelStop
+Kanalni Kai
+canal_ware_stop
+Kanalni Kai (Tereti)
+classic_mailbox
+Postanski Sanducic
+ClosedTrainStop
+Sasvim pokrivena platforma
+CoalTrainStop
+Stanica sa ugljenom
+Container1TrainStop
+Kontejnerska stanica
+Container2TrainStop
+Napredna kontejnerska stanica
+FreightTrainStop
+Teretno Stajaliste Vlaka
+medium_classic_bus_stop
+Prekriveno Autobusno Stajaliste
+medium_early_bus_stop
+Autobusno stajaliste sa natkrovom
+medium_modern_bus_stop
+Moderno autobusno stajaliste
+ModernTrainStop
+Moderno Stajaliste Vlaka
+OpenTrainStop
+Jednostavna platforma
+small_classic_bus_stop
+Jednostavno Autobusno Stajaliste
+small_early_bus_stop
+Autobusno Stajaliste
 VillageTrainStop
 Seoska stanica
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+Vijecnica
+01_CITY_1
+Vijenica
+02_CITY
+Vijecnica
+02_CITY_1
+Vijecnica
+03_CITY
+Vijecnica
+03_CITY_1
+Vijecnica
+04_CITY
+Vijecnica
+04_CITY_1
+Vijecnica
+05_CITY
+Vijecnica
+05_CITY_1
+Vijecnica
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -536,10 +558,26 @@ ukloniti monorailove
 #__________________________________record_text__________________________________
 New world record for monorails: %.1f km/h by %s.
 Novi brzinski rekord za visecu zeljeznicu! %.1f km/h dostignut od %s.
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+preSignal_Monorail
+Monorail predsignal
+Signal_Monorail
+Monorail signal
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 choose_point
 Znak odabira cilja
+Minimum80
+Minimalni brzinski limit 80
+NoEntry
+Jednosmjerni znak
+RoadClosed
+Cestovna blokada
+traffic_light
+Prometno svjetlo
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
 ChooseSignals
 Signal Odabira Platforme (standardni tip)
 Classic_ChooseSignals_right
@@ -562,8 +600,6 @@ EndOfChooseSignals
 Signal kraja odabira
 LongSignals
 Signal dugog bloka (standardni tip)
-Minimum80
-Minimalni brzinski limit 80
 Modern_ChooseSignals_right
 Signal Odabira Platforme (moderni tip)
 Modern_EndOfChooseSignals_right
@@ -576,50 +612,18 @@ Modern_preSignals_right
 Predsignal (moderni tip)
 Modern_Signals_right
 Zeljeznicki signal (moderni tip)
-NoEntry
-Jednosmjerni znak
 OneWaySignals
 Jednosmjerni signal (standardni tip)
-preSignal_Monorail
-Monorail predsignal
 preSignals
 Predsignal (standardni tip)
-RoadClosed
-Cestovna blokada
-Signal_Monorail
-Monorail signal
 Signals
 Signal (standardni tip)
-traffic_light
-Prometno svjetlo
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-Postwagen
-Cannonball Postanski Vagon
-RVg-2-5-1
-RVg 2-5-1
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
 RVg-B_101
 RVg B22
 RVg-B_107
 RVG B149-Crveni patuljak
-RVg-D22-Rola
-RVg D22 "Rola"
-RVg-D23-Camel
-RVg D23 "Deva"
-RVg-D41-Tubus
-RVg D41 "Tubus"
-RVg-DB_MA461
-RVg-DB MA-461 (glava)
-RVg-DB_MA461_Tail
-RVg-DB MA-461 (rep)
-RVg-E17-Spring
-RVg E17
-RVg-Express_Tender
-RVg Ekspres Tender
-RVg-Goods_waggon
-RVg Zatvoreni vagon
-RVg-Heavy-Tender
-RVg Te?ki Tender
 RVg-KS_4510-33
 RVg-KS 33
 RVg-KS_4510-45
@@ -644,6 +648,30 @@ RVg-LK_Plank_Truck
 RVh-LK V37 - trupci
 RVg-LK_Steel_Truck
 RVg-LK V32 - celik
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+Postwagen
+Cannonball Postanski Vagon
+RVg-2-5-1
+RVg 2-5-1
+RVg-D22-Rola
+RVg D22 "Rola"
+RVg-D23-Camel
+RVg D23 "Deva"
+RVg-D41-Tubus
+RVg D41 "Tubus"
+RVg-DB_MA461
+RVg-DB MA-461 (glava)
+RVg-DB_MA461_Tail
+RVg-DB MA-461 (rep)
+RVg-E17-Spring
+RVg E17
+RVg-Express_Tender
+RVg Ekspres Tender
+RVg-Goods_waggon
+RVg Zatvoreni vagon
+RVg-Heavy-Tender
+RVg Te?ki Tender
 RVg-Oil-Tender
 RVg Naftni Tender
 RVg-Pioneer_Alladin
@@ -662,43 +690,57 @@ RVg-S033-Red_Dwarf
 RVg S033 "Crveni patuljak"
 RVg-S127-Blue_Cow
 RVg S127 "Luda Krava"
+#________________________________vehicle - water________________________________
+#________________________________vehicle - water________________________________
 RVg-Sail_Goods_Ship_0
 RVg Trgovacki Brod
 RVg-Sail_Passanger_Ship_0
 RVg Putnicki Jedrenjak
-#______________________________________way______________________________________
-#______________________________________way______________________________________
-canal_030
-Kanal
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 old_runway
 Travnata poletno/sletna staza
 old_taxiway
 Travnata vozna staza
-Powerline
-Visokonaponski dalekovod
-river_0a
-Tok
-river_0b
-Rijeka
 runway_modern
 Moderna poletno/sletna staza
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
 Schwebebahn_p_ground
 Monorail (nivo zemlje)
 Suspended_Monorail_Track
 Uzdignuta Monorail Tracnica
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+Powerline
+Visokonaponski dalekovod
+#__________________________________way - water__________________________________
+#__________________________________way - water__________________________________
+canal_030
+Kanal
+river_0a
+Tok
+river_0b
+Rijeka
+#_______________________________way-object - air________________________________
+#_______________________________way-object - air________________________________
+modern_runway-extMrkLgt
+Pista
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+trolleybus_catenary
+Elektrifikacija trolejbusa
+#______________________________way-object - track_______________________________
+#______________________________way-object - track_______________________________
 classic_metal_mesh_catenary
 Elektrifikacija trece tracnice
 curved_pylon_lgv
 Elektrovod velike brzine
 highspeed_catenary
 Standardni elektrovod
-modern_runway-extMrkLgt
-Pista
-tramway_modern
-Elektrifikacija tramvaja
-trolleybus_catenary
-Elektrifikacija trolejbusa
 wood_gantry_catenary
 Stari elektrovod
+#____________________________way-object - tram_track____________________________
+#____________________________way-object - tram_track____________________________
+tramway_modern
+Elektrifikacija tramvaja

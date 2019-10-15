@@ -9,55 +9,25 @@
 #                              Language: no Norsk                              #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-Rådhus
-01_CITY_1
-Rådhus
-02_CITY
-By statistikker
-03_CITY
-By Statistikker
-04_CITY
-By Statistikker
-1930AirDepot
-Enkel hangar
-1940AirDepot
-Grunnleggende hangar
-1950AirDepot
-Hangar
-ABBYS_0
-Slott\n\nDette slottet er vellkjent pågrun av\nde dype brønnene i begge\ntårnene. I følge legenden er\ndisse brønnene bunnløse. Det er\nutrolig hvor mange mennesker\nsom vil komme her å se de\nmagiske brønnene. Penger,\nstille faller opp på skum 50\nmeter under, økte slotet's\nbudsjet så mye at monkene\nhar vært mulig til å ha ruinene\nrestaurert til deres aktuelle stat.\n
-Airport1930PostOffice
-Flyplass post kontor
-AirStop_AirportBlg
-Fly pålastings område
-Avila_Big_StationBlg
-Stor Passasjer Stasjon Byggning
-Avila_Small_StationBlg
-Små Passasjer Stasjon Byggning
-Avila_Warehouse_StationBlg
-Varehus Stasjon Byggning
-big_classic_bus_stop
-Stor buss stop
-BigTerminal1950_AirportBlg_S
-Stor temrinal hall
-Bulk_Dock
-Bulk vare havn
-Bulk_StationBlg
-Bulk Vare Stasjon Byggning
-canal_ChannelStop
-Kanal stop
-Car_StationBlg
-Bil Stasjon Byggning
-CarDepot
-Bil Depo
 CarStop
 Innlastings bukt
+#________________________________building - com_________________________________
+#________________________________building - com_________________________________
+COM_00_01
+Detter er en før-skole , hvor\nsmå barn kan leke å sove mens\nderes foreldre er på jobb.\nSkjønt man kan høre barn rope,\ndette er et fint og stille sted\nfull med latter og søte drømer\nmeste parten av tiden. Dette\ndag pleie senteret lærer også\nunge barn tidlig lesing og matte\nkunnskaper.\n
+COM_00_02
+Denne vennlige cafÃ© er vell\nkjent for dens fot-lange\nsmørbrød. Eieren nekter å gi ut\nhans hemmlige oppskrift, men\nrykter har seg at han dyrker\nhans egne urter i hagen hans\nhjemme.\n
+COM_00_03
+Brun Pulver - er en liten cafÃ©.\nDu kan dra dit for å sitte\nutendørs og små prate med\ndine venner, og nyte den rike\nsmaken av den lokale kaffen.\nDen eneste problem er at\ntrafikk røyk får folk til å miste\nderes appetitt. \n
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+Slott\n\nDette slottet er vellkjent pågrun av\nde dype brønnene i begge\ntårnene. I følge legenden er\ndisse brønnene bunnløse. Det er\nutrolig hvor mange mennesker\nsom vil komme her å se de\nmagiske brønnene. Penger,\nstille faller opp på skum 50\nmeter under, økte slotet's\nbudsjet så mye at monkene\nhar vært mulig til å ha ruinene\nrestaurert til deres aktuelle stat.\n
 CASTLE_0
 Dette slottet tilhørte en gang\ntil kong Napik. Meste parten av\ndet ble ødelagt under en stor\nkrig, men ble ombygd på 1900\ntallet, og nå huser en veldig\nkjent samling av gammle\nrustninger og sverd.\n
 CHURCH_02
@@ -72,34 +42,78 @@ CIRCUS_0
 Sirkus Humberto\n\nDet kjente sirkuset gjorde\ndenne byen dens endelige\ndestinasjon. Det klassiske\nteltet ble oppbevart for å\nbeholde den originale\natmosfæren, men alle sirkus\nmenneskene kjøpte deres\negne hus her, så du kan regne\nmed at det står her, å bli\nmeget populær turist mål.\nSirkuset kjennetegner den\nkjente elefanten Jumbo, som sitter\nned hver gang den hører bjellen. Så\nvær forsiktig og ikke ringe i bjellen\nmens man står bak Jumbom, med\nmindre do vil bli meget flat.\n
 CIVILIAN_RADAR
 Observatorium\n\nKanskje du ikke tror det, men\ndetter er et vanelig\nobservatorium. Radio\nobservatorium selvfølgelig...\n\n
+JUSTICE
+Rettferdighets Hus\n\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
+1930AirDepot
+Enkel hangar
+1940AirDepot
+Grunnleggende hangar
+1950AirDepot
+Hangar
+CarDepot
+Bil Depo
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
+Airport1930PostOffice
+Flyplass post kontor
+Avila_Big_StationBlg
+Stor Passasjer Stasjon Byggning
+Avila_Small_StationBlg
+Små Passasjer Stasjon Byggning
+Avila_Warehouse_StationBlg
+Varehus Stasjon Byggning
+BigTerminal1950_AirportBlg_S
+Stor temrinal hall
+Bulk_StationBlg
+Bulk Vare Stasjon Byggning
+Car_StationBlg
+Bil Stasjon Byggning
+Control_StationBlg
+Stasjon Kontroll Bygning
+Fluid_StationBlg
+Væske Stasjon Byggning
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+Bulk vare havn
+Crate_Goods_Dock
+Kontainer havn
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+Fly pålastings område
+big_classic_bus_stop
+Stor buss stop
+canal_ChannelStop
+Kanal stop
 classic_mailbox
 Gate Postboks
 ClosedTrainStop
 Komplett dekket plattform
 CoalTrainStop
 Kull stasjon
-COM_00_01
-Detter er en før-skole , hvor\nsmå barn kan leke å sove mens\nderes foreldre er på jobb.\nSkjønt man kan høre barn rope,\ndette er et fint og stille sted\nfull med latter og søte drømer\nmeste parten av tiden. Dette\ndag pleie senteret lærer også\nunge barn tidlig lesing og matte\nkunnskaper.\n
-COM_00_02
-Denne vennlige cafÃ© er vell\nkjent for dens fot-lange\nsmørbrød. Eieren nekter å gi ut\nhans hemmlige oppskrift, men\nrykter har seg at han dyrker\nhans egne urter i hagen hans\nhjemme.\n
-COM_00_03
-Brun Pulver - er en liten cafÃ©.\nDu kan dra dit for å sitte\nutendørs og små prate med\ndine venner, og nyte den rike\nsmaken av den lokale kaffen.\nDen eneste problem er at\ntrafikk røyk får folk til å miste\nderes appetitt. \n
 Container1TrainStop
 Kontainer stjason
 Container2TrainStop
 Avansert kontainer stasjon
-Control_StationBlg
-Stasjon Kontroll Bygning
-Crate_Goods_Dock
-Kontainer havn
-Fluid_StationBlg
-Væske Stasjon Byggning
-JUSTICE
-Rettferdighets Hus\n\n
 medium_classic_bus_stop
 Buss stop
 small_classic_bus_stop
 Primitiv buss stop
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+Rådhus
+01_CITY_1
+Rådhus
+02_CITY
+By statistikker
+03_CITY
+By Statistikker
+04_CITY
+By Statistikker
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -154,8 +168,8 @@ flour
 mel
 food
 mat
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 Riksvei inngang
 autobahn_classic_exit
@@ -166,8 +180,56 @@ autobahn_modern_exit
 Riksvei utgang
 choose_point
 Velg destinasjons skilt
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
+BB-TS_Milk_Mack_Trailer
+BlacBox-TS Melk Trailer
+Bulk_trailer_0
+Bulk Trailer
+Bulk_Truck_0
+Shorty-Volvo 800
+Bulk_Truck_2
+VSYS-Tatra 801
+Bulk_Truck_3
+VSYS-Tatra 815 (Bulk)
+Bulk_Truck_4
+Volvo Bulk Lastebil
+Car_Tramsport_Trailer_0
+TS Bil Trailer
+Car_Transporter_0
+Teddy's Bil Transporter
+Car_Transporter_1
+Teddy's Bil Frakter
+Cement_trailer_0
+PMNV Sement Trailer
+Cement_Truck_0
+PMNV Sement Lastebil
+Concrete_Truck_0
+S.Kroytor Sement Mixer
+Concrete_Truck_1
+VSYS-Tatra 815 (sement)
+Cooling_trailer_0
+PMNV Kjølings Trailer
+Cooling_Truck_0
+PMNV Gul Kjøling Lastebil
+Cooling_Truck_1
+PMNV Grå Kjøling Lastebil
+Cooling_Truck_2
+S.Kroytor Gaz-4
+Fluid_trailer_0
+AJ Olje Tanker
+Fluid_trailer_1
+AJ-PMNV Olje Tanker
+Fluid_Truck_0
+Karl-Nissan Diesel Tank Lorry 1800
+Fluid_Truck_1
+Karl-Nissan Diesel Tank Lorry 1100
+Fluid_Truck_2
+S.Kroytor ZUK-20
+Fluid_Truck_3
+Magirus Oil Truck 1923
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
 1Benst134
 Bennhardt B-134 "Pixie"
 1Benst135t
@@ -188,8 +250,6 @@ Bennhardt B-186 "Lemon"
 RVg 0-3-0 - Chippy
 Autotransportwagen
 Kanonball Bil Transporter
-BB-TS_Milk_Mack_Trailer
-BlacBox-TS Melk Trailer
 Bretterwagen
 Planke Transporter
 Budd_Coach
@@ -198,22 +258,6 @@ Budd_Observation
 Knoppet Kuppel Tog
 Budd_RPO
 Knoppet RPO
-Bulk_trailer_0
-Bulk Trailer
-Bulk_Truck_0
-Shorty-Volvo 800
-Bulk_Truck_2
-VSYS-Tatra 801
-Bulk_Truck_3
-VSYS-Tatra 815 (Bulk)
-Bulk_Truck_4
-Volvo Bulk Lastebil
-Car_Tramsport_Trailer_0
-TS Bil Trailer
-Car_Transporter_0
-Teddy's Bil Transporter
-Car_Transporter_1
-Teddy's Bil Frakter
 Car_Waggon_1
 RVg Bil Frakter
 CB_ALBATROS
@@ -222,10 +266,6 @@ CB_DB-130_8
 Canonball & H-Trans BRAW61000 "Taiga Drum"
 Cement_Carrier_Fast
 Sement bil
-Cement_trailer_0
-PMNV Sement Trailer
-Cement_Truck_0
-PMNV Sement Lastebil
 Cement_Waggon_0
 BB-PMNV Sement Frakter
 Cement_Waggon_1
@@ -236,39 +276,15 @@ CKD_749
 CKD 749
 CKD_750
 CKD 750
-Concrete_Truck_0
-S.Kroytor Sement Mixer
-Concrete_Truck_1
-VSYS-Tatra 815 (sement)
 Concretewagen
 PMNV Sement Mixer 12
 Concretewagen_1
 PMNV Sement Mixer 16
-Cooling_trailer_0
-PMNV Kjølings Trailer
-Cooling_Truck_0
-PMNV Gul Kjøling Lastebil
-Cooling_Truck_1
-PMNV Grå Kjøling Lastebil
-Cooling_Truck_2
-S.Kroytor Gaz-4
 Cooling_wagon_0
 Kanonball Kjøling Vogn
 Cooling_wagon_1
 Kjøling Kontainer Vogn
-Fluid_trailer_0
-AJ Olje Tanker
-Fluid_trailer_1
-AJ-PMNV Olje Tanker
-Fluid_Truck_0
-Karl-Nissan Diesel Tank Lorry 1800
-Fluid_Truck_1
-Karl-Nissan Diesel Tank Lorry 1100
-Fluid_Truck_2
-S.Kroytor ZUK-20
-Fluid_Truck_3
-Magirus Oil Truck 1923
-#______________________________________way______________________________________
-#______________________________________way______________________________________
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 air_movement_area
 Rullebane

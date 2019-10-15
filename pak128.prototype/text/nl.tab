@@ -9,19 +9,39 @@
 #                            Language: nl Nederlands                           #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
+Schwebebahn_p_bridge
+hangbrug monorail
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
+PowerBridge
+HSP mast
+#_________________________________bridge - road_________________________________
+#_________________________________bridge - road_________________________________
 Highway_110_Bridge
 Betonnen snelwegbrug
 Highway_130_Bridge
 Betonnen snelwegbrug
 Highway_200_Bridge
 Betonnen snelwegbrug
-PowerBridge
-HSP mast
+road_030_bridge
+Houten brug
+road_040_bridge
+Stenen stadsbrug
+road_050_bridge
+Betonnen stadsbrug
+Road_055_Bridge
+Stenen brug
+Road_070_Bridge
+Stenen brug
+Road_090_Bridge
+Moderne brug
+#________________________________bridge - track_________________________________
+#________________________________bridge - track_________________________________
 Rail_060_Bridge
 Houten spoorbrug
 Rail_060B_Bridge
@@ -52,136 +72,22 @@ Rail_320_Bridge
 Betonnen spoorbrug
 Rail_400_Bridge
 Betonnen spoorbrug
-road_030_bridge
-Houten brug
-road_040_bridge
-Stenen stadsbrug
-road_050_bridge
-Betonnen stadsbrug
-Road_055_Bridge
-Stenen brug
-Road_070_Bridge
-Stenen brug
-Road_090_Bridge
-Moderne brug
-Schwebebahn_p_bridge
-hangbrug monorail
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
 water_bridge
 Aquaduct
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-Stadhuis
-01_CITY_1
-Stadhuis
-02_CITY
-Stadhuis
-02_CITY_1
-Stadhuis
-03_CITY
-Stadhuis
-03_CITY_1
-Stadhuis
-04_CITY
-Stadhuis
-04_CITY_1
-Stadhuis
-05_CITY
-Stadhuis
-05_CITY_1
-Stadhuis
-1920_AirDepot
-Eenvoudige Hangar
-1930AirDepot
-Standaard hangar (hout)
-1940AirDepot
-Standaard Hangar (1940 golfplaat)
-1950AirDepot
-Hangar (beton)
-1990AirDepot
-hangar(modern)
-ABBYS_0
-Abdij
-Airport1920_AirportBlg
-Passagiershal (van 1918)
-Airport1930PostOffice
-Luchtpostgebouw
-Airport1990_Big_AirportBlg
-Moderne passagiers terminal
-Airport1990_Big_PostOffice
-Groot modern luchtpostkantoor
-Airport1990_Entrance_AirportBlg
-Entree moderne luchthaven
-Airport1990_Gates_AirportBlg
-Moderne vertrekhal
-Airport1990_PostOffice
-Modern luchtpostkantoor
-Airport1990_Small_AirportBlg
-Kleine moderne passagiers terminal
-Airport1990_Small_PostOffice
-Klein modern luchtpostkantoor
-Airport1990_Warehouse
-Vrachtterminal (van 1989)
-AirStop_AirportBlg
-Parkeerplatform vliegtuigen
-Almuthof_StationBlg
-Landelijk stationsgebouw
-Avila_Big_StationBlg
-Grote passagiershal
-Avila_Small_StationBlg
-Kleine passagiershal
-Avila_Warehouse_StationBlg
-Pakhuis (station)
-big_classic_bus_stop
-Grote Bushalte
-big_early_bus_stop
-Grote bushalte
-big_modern_bus_stop
-Moderne bushalte
-BigTerminal1930_AirportBlg
-Luchthaven Terminal (1930)
-BigTerminal1950_AirportBlg_S
-Grote passagiersterminal (1950)
-Bulk_Dock
-Bulkgoederenhaven
-Bulk_StationBlg
-Bulkgoederenopslag
-bus_terminus
-Moderne busterminal
-canal_ChannelStop
-Aanlegkade
-canal_ware_stop
-Aanlegkade
-Car_StationBlg
-Parkeerterrein
-CarDepot
-Garage
-CargoHighStop
-Laadstation
 CarStop
 Laadstation
-CASTLE_0
-Oud kasteel\n\n
-CHURCH_02
-Roze Kerk\n\nDeze apparte kerk werd in 1654\ngebouwd en roze geschilderd\ndoor een monnik met aanzien,\nmaar met afwijkende ideeën. De kleur\nvan de kerk is door de tijd\nvervaagd maar de naam is\nbehouden gebleven.\n
-CHURCH_03
-Kerk\n\nDeze beroemde kerk trekt\nmensen aan door zijn mooie\nomgeving en interesante\nkunstwerken.\n\n
-CHURCH_04
-Synagoge.\n\nAl lijkt deze synagoge van de\nbuitenkant op een moskee,\nhet is een joodse synagoge\n\n
-CHURCH_05
-St. Michael.\nDit monumentale gebouw \ndateert uit het eind van de\nnegentiende eeuw.\nHet is niet alleen interessant\ndoor zijn metalen dak maar\nomdat het ontworpen is\ndoor Alexander Gustavus Eiffel.\n\n
-CHURCH_06
-Kerk\n\nEen typische dorpkerk.\n\n
-CIRCUS_0
-Circus Humberto\n\nDit beroemd circus heeft in\ndeze stad zijn defenitieve\nstandplaats gevonden. De\nklasieke tent is behouden\ngebleven om de unieke\natmosfeer te bewaren. Het\ncircusvolk heeft echter\nallemaal hun eigen woningen\ngekocht in de stad. De\ngrootste atractie is de olifant\nJumbo, die telkens als de bel\ngaat, gaat zitten. Maak niet de fout\nachter Jumbo te staan als je de bel\nlaat gaan, tenzij je het leuk vind om\nhet achterste van jumbo van zeer\ndichtbij te zien.\n
-CIVILIAN_RADAR
-Radiotelescoop\n\n
-classic_mailbox
-Brievenbus aan de straat
-ClosedTrainStop
-Overdekt station
-CoalTrainStop
-Laadstation voor steenkool
+MonorailGround
+Monorailfundering
+ShipStop
+Haven
+TrainStop
+Overdekt perron
+#________________________________building - com_________________________________
+#________________________________building - com_________________________________
 COM_00_01
 Kinderdagverblijf\n\n
 COM_00_02
@@ -193,7 +99,7 @@ Werkplaats\n\n
 COM_00_05
 Café\n\n
 COM_00_06
-Audio-bedrijf\n\n
+Hifi-bedrijf\n\n
 COM_00_07
 Bloemist\n\n
 COM_00_08
@@ -201,7 +107,7 @@ Chinees restaurant\n\n
 COM_00_09
 Herberg\n\n
 COM_00_10
-Rood stenen woonhuis\n\n
+Revalidatiecentrum\n\n
 COM_00_11
 Dierenwinkel\n\n
 COM_00_12
@@ -231,7 +137,7 @@ Torenflat\n\n
 COM_01_01
 Vijverartikelen\n\n
 COM_01_05
-Appartementgebouw\n\n
+Kangoeroewoning\n\n
 COM_01_13
 Visrestaurant\n\n
 COM_01_15
@@ -239,7 +145,7 @@ Appartementjes met winkels\n\n
 COM_01_17
 Winkelcentrum met parkeerdak\n\n
 COM_01_18
-Marktgebouw\n\n
+Markthal\n\n
 COM_01_19
 Speelgoedwinkel\n\n
 COM_01_21
@@ -249,13 +155,13 @@ Kantoorgebouw\n\n
 COM_01_26
 Vakwerkhuis\n\n
 COM_01_28
-Fabrieksgebouw\n\n
+Hotel\n\n
 COM_01_29
 Kantoorgebouw\n\n
 COM_01_35
 Kantoor van de Inlichtingendienst\n\n
 COM_01_36
-Gebouw van de Inlichtingendienst\n\n
+Kantoor van de Inlichtingendienst\n\n
 COM_01_47
 Torenflat\n\n
 COM_01_52
@@ -265,9 +171,9 @@ Futuristisch overheidsgebouw\n\n
 COM_02_13
 Vakwerkhuis\n\n
 COM_02_15
-Vakwerkhuis met overdekt terras\n\n
+Vakwerkhuis met markt\n\n
 COM_03_21
-Vakwerkhuis met loggia\n\n
+Vakwerkhuis met balkon\n\n
 COM_03_28
 Prestigieus kantoorgebouw\n\n
 COM_05_01
@@ -297,7 +203,7 @@ Kantoor met onderliggende parking\n\n
 COM_05_13
 Bed and Breakfast\n\n
 COM_05_15
-Hobbywinkel\n\n
+Magazijn\n\n
 COM_05_16
 Watertoren\n\n
 COM_05_17
@@ -309,7 +215,7 @@ Computerzaak\n\n
 COM_05_20
 Kantoorgebouw\n\n
 COM_05_21
-EHBO-post\n\n
+Ziekenhuis\n\n
 COM_05_22
 Parkeergarage\n\n
 COM_05_23
@@ -323,7 +229,7 @@ Parkeerterrein\n\n
 COM_06_03
 Openlucht podium met\ndansgelegenheid\n\n
 COM_06_04
-APK-station\n\n
+Autokeuring\n\n
 COM_06_05
 Tandartspraktijk\n\n
 COM_06_06
@@ -333,9 +239,9 @@ Moeilijk te benaderen parkeerplaats\n\n
 COM_06_09
 Penitentiair centrum\n\n
 COM_06_10
-Penitentiair centrum\n\n
+Politiekantoor\n\n
 COM_06_12
-Occasion bedrijf\n\n
+Occasie handelaar\n\n
 COM_06_13
 Kapperszaak\n\n
 COM_06_14
@@ -351,17 +257,17 @@ Klein hospitaal\n\n
 COM_06_20
 Snoepfabriek\n\n
 COM_06_21
-Kabel en satelliet bedrijf\n\n
+Nationale TV dienst\n\n
 COM_06_22
 Kantoren complex\n\n
 COM_06_26
-Kantoren complex\n\n
+Kantoorgebouw\n\n
 COM_06_27
-Kantorencomplex\n\n
+Kantoorgebouw\n\n
 COM_06_30
-Fabriek van diepvriesmaaltijden\n\n
+Kantoorgebouw\n\n
 COM_06_31
-Kantorencomplex\n\n
+Kantoorgebouw\n\n
 COM_06_32
 Congrescentrum\n\n
 COM_06_33
@@ -371,7 +277,7 @@ Hotel en conferentieoord\n\n
 COM_06_35
 Kantorencomplex\n\n
 COM_06_36
-ooit afgebouwde vekeerstoren\n\n
+Nooit afgebouwde verkeerstoren\n\n
 COM_06_37
 Medisch centrum\n\n
 COM_06_38
@@ -379,7 +285,7 @@ Groot kantoorgebouw met balcons\n\n
 COM_06_39
 Kantoorgebouw uit de jaren '60\n\n
 COM_06_40
-Studentenflat\n\n
+Studentenhome\n\n
 COM_06_41
 Driehoekig kantoorgebouw\n\n
 COM_06_42
@@ -429,13 +335,13 @@ Internetcafé met buitenterras\n\n
 COM_07_06
 Bungalow met architectenbureau\n\n
 COM_07_09
-Honden en katten opvangcentrum\n\n
+Dierenasiel\n\n
 COM_07_12
-Eenvoudig huis\n\n
+Modern huis\n\n
 COM_07_13
-Tractordealer\n\n
+Tractorhandelaar\n\n
 COM_07_14
-Marktgebouw\n\n
+Slager\n\n
 COM_07_16
 Bungalow met acccountantpraktijk\n\n
 COM_07_17
@@ -483,23 +389,23 @@ Experimenteel pyramidevormig huis\n\n
 COM_10_12
 Radio zendstation\n\n
 COM_10_14
-Woonhuis\n\n
+Magazijn\n\n
 COM_10_15
-Software ontwikkelings gebouw\n\n
+Meubelzaak\n\n
 COM_10_16
 Autodealer met dubbeldeks showroom\n\n
 COM_10_19
 Flatgebouw met muurversiering\n\n
 COM_10_21
-Verkoop en reparatiecentrum voor\nmobiele telefoons\n\n
+Meubelzaak\n\n
 COM_10_25
 Hoofdzakelijk uit glas opgetrokken gebouw\n\n
 COM_11_01
 Winkel in aquariumbenodigdheden\n\n
 COM_11_14
-Woonhuis\n\n
+Magazijn\n\n
 COM_11_15
-IJssalon\n\n
+Groentewinkel\n\n
 COM_11_29
 Web Hosting bedrijf\n\n
 COM_11_33
@@ -513,9 +419,9 @@ Luxe residentie voor vermogende\npensionado's\n\n
 COM_11_46
 Luxe residentie voor vermogende\npensionado's\n\n
 COM_11_48
-atuurkundig museum met planetarium\n\n
+Natuurkundig museum met planetarium\n\n
 COM_11_49
-atuurkundig museum met planetarium\n\n
+Natuurkundig museum met planetarium\n\n
 COM_11_50
 Centrum voor interplanetaire communicatie\n\n
 COM_11_53
@@ -530,82 +436,270 @@ COM_11_59
 Modern kantoorgebouw\n\n
 COM_12_01
 Kapperszaak\n\n
-container_crane_span
-Containeroverslagkraan
-Container1TrainStop
-Container station
-Container2TrainStop
-Container station
-containercrane
-Containeroverslagkraan
-Control_StationBlg
-Seinhuis
-Crate_Goods_Dock
-Containerhaven
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+Abdij
+CASTLE_0
+Kasteel\n\n
+CHURCH_02
+Roze Kerk\n\nDeze apparte kerk werd in 1654\ngebouwd en roze geschilderd\ndoor een monnik met aanzien,\nmaar met afwijkende ideeën. De kleur\nvan de kerk is door de tijd\nvervaagd maar de naam is\nbehouden gebleven.\n
+CHURCH_03
+Kerk\n\nDeze beroemde kerk trekt\nmensen aan door zijn mooie\nomgeving en interesante\nkunstwerken.\n\n
+CHURCH_04
+Synagoge.\n\nAl lijkt deze synagoge van de\nbuitenkant op een moskee,\nhet is een joodse synagoge\n\n
+CHURCH_05
+St. Michael.\nDit monumentale gebouw \ndateert uit het eind van de\nnegentiende eeuw.\nHet is niet alleen interessant\ndoor zijn metalen dak maar\nomdat het ontworpen is\ndoor Alexander Gustavus Eiffel.\n\n
+CHURCH_06
+Kerk\n\nEen typische dorpskerk.\n\n
+CIRCUS_0
+Circus Humberto\n\nDit beroemd circus heeft in\ndeze stad zijn defenitieve\nstandplaats gevonden. De\nklasieke tent is behouden\ngebleven om de unieke\natmosfeer te bewaren. Het\ncircusvolk heeft echter\nallemaal hun eigen woningen\ngekocht in de stad. De\ngrootste atractie is de olifant\nJumbo, die telkens als de bel\ngaat, gaat zitten. Maak niet de fout\nachter Jumbo te staan als je de bel\nlaat gaan, tenzij je het leuk vind om\nhet achterste van jumbo van zeer\ndichtbij te zien.\n
+CIVILIAN_RADAR
+Radiotelescoop\n\n
 Cross_Country_skiing_resort
 Skilift
-CunnersdorfStopBlg
-Stationsgebouw (Cunnersdorf)
 CUR_01_128_JH
 Atomium
-DenkFlor
-Monument "Flor"
-DenkGeorg
-Monument "MHz"
-DenkHajo
-Monument "Hajo"
-DenkOwen
-Monument "Owen"
-DenkPatrick
-Monument "Patrick"
-DenkRaven
-Monument "Raven"
-DenkSeth
-Monument "Seth"
-DenkTomas
-Monument "Tomas"
-DenkTrikky
-Monument "Trikky"
-DenkVM
-Monument "VM"
-DenkVolker
-Monument "Volker"
-Depot_train_1936
-Depot
 ELEMENTARY_SCHOOL_1
 Basisschool\n\n
 ELEMENTARY_SCHOOL_2
 Basisschool\n\n
 Firestation
 Brandweerkazerne\n\n
-Fluid_StationBlg
-Vloeistoftank
 FORT_FUN
-Historisch Fort\n\n
-FreightTrainStop
-Vrachtperron
+Oude westerse filmset\n\n
 french_garden_4
 Park met Franse tuinen
 french_park_1
 Park met Franse tuinen
 FUTURISTIC_TOWER_0
 Toren met panoramarestaurant\n\n
-Gas_StationBlg
-Gastanks
-Goods_StationBlg
-Pakhuis
 GRASS_STADIUM
-Sportveld\n\n
+Voetbalveld\n\n
 GREEN_HOUSE
-Plantenkas\n\n
-hall_extended_station
-Groot station (2x2)
+Serre\n\n
 HIGH_SCHOOL_1
-School voor voortgezet\nonderwijs\n\n
+Middelbare school\n\n
 HIGH_SCHOOL_2
 Middelbare school\n\n
 HOUSE_RUINS_0
 Ruine\n\n
+JUSTICE
+Rechtbank\n\n
+library_holy_genevieve
+Sainte-Geneviève Bibliotheek\n\n
+Lighthouse_0
+Vuurtoren\n\n
+Lighthouse_1
+Vuurtoren\n\n
+Little_Central_Park
+Park
+MANOR_0
+Landhuis
+MARKET_PLACE_0
+Marktplaats
+MILITARY_RADAR
+Radar\n\n
+MT_HOTEL_0
+Luxe Hotel
+MUSEUM_0
+Tot Museum omgebouwd kasteel
+OBSERVATORY
+Sterrenwacht
+Old_gate
+Oude stadspoort
+OLD_HOUSE_0
+Historisch pand
+Pagoda01
+Pagode
+PARK_0
+Park met vijver
+Percival_Maya_Temple
+Maya tempel\n\n
+radiant_house
+La Cité Radieuse\n\nAppartement ontworpen\n\ndoor Le Corbusier.\n\nDe de bewoners zorgen\n\nzelf voor het gebouw.
+RADIO_TOWER_0
+Radiostation
+rmax_clock_tower
+Klokkentoren\n\n
+rmax_courthouse
+Gerechtsgebouw
+rmax_icarus
+Raketlanceerbasis\n\n
+rmax_mosque
+Moskee\n\n
+ROCK_0
+Uitgedoofde\nvulkaan\n\n
+RUIN_0
+Amusementspark in oud\nkasteel\n\n
+RUIN_1
+Middeleeuwse kasteelruïnes\n\n
+Russian_Cathedral
+Basiliuskathedraal\n\n
+Sacred_heart_church
+Moderne Heilig Hart kerk
+Secession_Chapel
+Retraite-kapel
+sh_oasis_seasons
+Oase
+SMALL_MANOR
+Landhuis
+st_benedict_church
+St. Benedictus Kathedraal\n\nEen van de mooiste kathedralen in\nsimuworld trekt enorm veel\ntouristen die niet komen voor\neen gebed, maar eerder voor\nde  schilderijen van\nonschatbare waarde.
+ST_PETER
+St. Peter's Kerk\n\nLaat romaanse kerk, gebouwd\nrond 1220. Heeft een\nprachtige koorgalerij,\nfresco's uit de dertiende\neeuw en een goed bewaard\ngebleven mummie van een 300\njaar oude heilige.\nwaarschijnlijk Wilhelm van\nHolbach. Deze mummie ligt in\neen nis in het westelijke schip.\n
+STADIUM_RUGBY
+Rugbyveld
+tennis_court
+Tennisveld
+TRIUMPH
+Triomfboog\n\nDeze Arc de Triomphe is opgericht\ndoor Napoleon als blijvende\nherinnering aan zijn gewonnen\nveldslagen. Deze boog is\nspeciaal ontworpen voor\nsimuworld door één van de\nberoemdste architekten in\ndeze wereld genaamd George,\nlater beter bekend geworden\nals Mhz.\n
+TV_TOWER_0
+TV-Toren\n\nDeze toren is eigendom van een\nlokaal TV-station. Behalve dat\ndeze toren als TV-zender\nfunctioneert is het een\ngeliefde plek voor fotografen.\n\n
+TV_TOWER_1
+TV-Zendmast\n\nEén van de hoogste gebouwen\nin Simuworld. Deze toren\nherbergt een gezellig\nrestaurant met gigantische\nramen. Het restaurant\ndraait in\néén uur volledig rond, en biedt\n op deze manier\neen prachtig uitzicht\ngecombineerd met fantastisch\neten. Voor mensen met\nhoogtevrees is deze toren\nechter geen aanrader.\n
+WHEEL
+Reuzenrad
+Windmill
+Windmolen
+WOODEN_CHURCH
+Houten kerkje\n\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
+1920_AirDepot
+Eenvoudige Hangar
+1930AirDepot
+Standaard hangar (hout)
+1940AirDepot
+Standaard Hangar (1940 golfplaat)
+1950AirDepot
+Hangar (beton)
+1990AirDepot
+hangar(modern)
+CarDepot
+Garage
+Depot_train_1936
+Depot
+MonorailDepot
+Monorail remise
+ShipDepot
+Scheepswerf
+TrainDepot
+Depot
+TramDepot
+Depot
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
+Airport1920_AirportBlg
+Passagiershal (van 1918)
+Airport1930PostOffice
+Luchtpostgebouw
+Airport1990_Big_AirportBlg
+Moderne passagiers terminal
+Airport1990_Big_PostOffice
+Groot modern luchtpostkantoor
+Airport1990_Entrance_AirportBlg
+Entree moderne luchthaven
+Airport1990_Gates_AirportBlg
+Moderne vertrekhal
+Airport1990_PostOffice
+Modern luchtpostkantoor
+Airport1990_Small_AirportBlg
+Kleine moderne passagiers terminal
+Airport1990_Small_PostOffice
+Klein modern luchtpostkantoor
+Airport1990_Warehouse
+Vrachtterminal (van 1989)
+Almuthof_StationBlg
+Landelijk stationsgebouw
+Avila_Big_StationBlg
+Grote passagiershal
+Avila_Small_StationBlg
+Kleine passagiershal
+Avila_Warehouse_StationBlg
+Pakhuis (station)
+BigTerminal1930_AirportBlg
+Grote vertrekhal
+BigTerminal1950_AirportBlg_S
+Grote vertrekhal
+Bulk_StationBlg
+Bulkgoederenopslag
+Car_StationBlg
+Parkeerterrein
+container_crane_span
+Containeroverslagkraan
+containercrane
+Containeroverslagkraan
+Control_StationBlg
+Seinhuis
+CunnersdorfStopBlg
+Stationsgebouw (Cunnersdorf)
+Fluid_StationBlg
+Vloeistoftank
+Gas_StationBlg
+Gastanks
+Goods_StationBlg
+Pakhuis
+hall_extended_station
+Groot station (2x2)
+LuftPost1950_AirportBlg
+Luchtpostkantoor
+Modern_Warehouse
+Koelpakhuis
+modern_warehouse_big
+Pakhuis (2x2)
+ModernPostOffice
+Postkantoor
+ModernPostOfficeLarge
+Postkantoor (2x1)
+MonorailFoundation
+Monorailfundering
+plain_tile_high
+Leeg platform
+PostOffice
+Postkantoor
+PostOffice1920_AirportBlg
+Luchtpostkantoor
+PostOfficeOldLarge
+Postkantoor (2x1)
+Radar3
+Vliegveld-Radar
+ramp_tile_high
+Toegangshelling
+special_ALSF-2_DT_stop
+Begin van landingsbaan
+special_PAPI_stop
+Aproach Lighting System (ALS)
+special_wingbar-r_stop
+zijlichten
+Terminal1930_AirportBlg
+Kleine vertrekhal
+Terminal1950_AirportBlg_S
+Kleine vertrekhal
+Tower1920_AirportBlg
+Verkeerstoren
+Tower1930_AirportBlg
+Verkeerstoren
+Tower1950_AirportBlg
+Verkeerstoren
+Tower1990_AirportBlg
+Verkeerstoren
+Very_Big_Terminal
+Grote moderne vertrekhal (3x3)
+VictorianStation
+Station in Victoriaanse stijl (2x1)
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+Bulkgoederenhaven
+Crate_Goods_Dock
+Goederenhaven
+Long_Goods_Dock
+Containeroverslagkraan
+Post_Dock
+Posthaven
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
 HQ1
 Hoofdkwartier
 HQ2
@@ -618,6 +712,8 @@ HQ5
 Hoofdkwartier (V)
 HQ6
 Hoofdkwartier (VI)
+#________________________________building - ind_________________________________
+#________________________________building - ind_________________________________
 IND_00_01
 Schuurtje\n\n
 IND_00_02
@@ -661,11 +757,11 @@ Pompgebouwtje\n\n
 IND_01_03
 Weiland met koeien\n\n
 IND_01_04
-Bosperceel\n\n
+Boomkwekerij\n\n
 IND_01_05
 Varkensstal\n\n
 IND_01_06
-Kippenfarm\n\n
+Kippenboerderij\n\n
 IND_01_11
 Metaalbewerkingsbedrijf\n\n
 IND_01_13
@@ -681,7 +777,7 @@ Verlaten industriegebouw\n\n
 IND_01_30
 Zeepfabriek\n\n
 IND_01_35
-Laadstation voor vrachtwagens\n\n
+Kolenlaadstation voor vrachtwagens\n\n
 IND_01_36
 Glasfabriek\n\n
 IND_01_37
@@ -689,7 +785,7 @@ Afvalverbrandingsinstallatie\n\n
 IND_02_01
 Veldje\n\n
 IND_02_03
-Veldje\n\n
+Graanveld\n\n
 IND_02_04
 Veldje\n\n
 IND_02_05
@@ -697,27 +793,27 @@ Watermolen\n\n
 IND_02_15
 Pluimveebedrijf\n\n
 IND_03_01
-Veldje\n\n
+Veld\n\n
 IND_03_02
-Veldje\n\n
+Veld\n\n
 IND_03_05
 Watermolen\n\n
 IND_03_15
 Boerderij\n\n
 IND_04_01
-Veldje\n\n
+Veld\n\n
 IND_04_02
-Veldje\n\n
+Graanveld\n\n
 IND_05_01
 Oude smederij\n\n
 IND_05_04
-Gastank\n\n
+Olietank\n\n
 IND_05_05
 Pompstation\n\n
 IND_05_06
 IJzergieterij\n\n
 IND_05_07
-Asfaltfabriek\n\n
+Betonfabriek\n\n
 IND_05_08
 Waterzuivering\n\n
 IND_05_09
@@ -755,7 +851,7 @@ Reparatiebedrijf voor oldtimers\n\n
 IND_05_25
 Opslagtanks voor vloeistoffen\n\n
 IND_05_26
-Gastank\n\n
+Olietank\n\n
 IND_05_27
 Aardgas compressorstation\n\n
 IND_05_28
@@ -771,7 +867,7 @@ Opslag voor bouwmaterialen\n\n
 IND_06_03
 Loods\n\n
 IND_06_04
-APK station\n\n
+Autokeuring\n\n
 IND_06_05
 Pompstation voor stadsverwarming\n\n
 IND_06_06
@@ -789,13 +885,13 @@ Installatie voor waterbehandeling\n\n
 IND_06_12
 Kunstmestfabriek\n\n
 IND_06_13
-Agrarisch researchbedrijf\n\n
+Agrarisch onderzoekscentrum\n\n
 IND_06_14
 Fabriek van papieren luiers\n\n
 IND_06_15
 Leegstaande loods\n\n
 IND_06_17
-Auto-was station\n\n
+Carwash\n\n
 IND_06_18
 Opslagloods voor goederen\n\n
 IND_06_22
@@ -833,7 +929,7 @@ Gereedschapsfabriek\n\n
 IND_06_54
 Gereedschapsfabriek\n\n
 IND_06_55
-Waterleidingsbedrijf\n\n
+Waterleidingbedrijf\n\n
 IND_06_56
 Universteitslab.\n\n
 IND_06_57
@@ -855,13 +951,13 @@ Reparatiewerkplaats voor auto's\n\n
 IND_07_10
 Dubbele loods van\nchampignonkweker\n\n
 IND_07_15
-Dierenasiel \n\n
+Dierenasiel\n\n
 IND_07_17
 Dierenasiel\n\n
 IND_08_03
 Verwerkingsbedrijf voor afgewerkte olie\n\n
 IND_08_31
-Gereedschapsmakerij\n\n
+Gereedschapfabriek\n\n
 IND_08_36
 Vrachtautoshowroom\n\n
 IND_10_01
@@ -897,11 +993,11 @@ Fabriek van inktcartridges\n\n
 IND_10_26
 Fabriek van diepvriesmaaltijden\n\n
 IND_11_01
-Hout en zand opslag\n\n
+Opslag van bouwmaterialen\n\n
 IND_11_16
-TND_11_16\nConfectieatelier\n\n
+Kleermakersatelier\n\n
 IND_11_46
-Hoofdkwartier petrochemisch concern\n\n
+Hoofdkantoor petrochemisch concern\n\n
 IND_11_47
 Grafisch ontwerpstudio\n\n
 IND_11_48
@@ -913,99 +1009,49 @@ Wetenschappelijke onderzoeksinstelling\n\n
 IND_11_52
 Hoofdkantoor van patato-chipfabriek\n\n
 IND_11_57
-Chocoladefabriek\n\n
+Hoofdkantoor van chocoladefabriek\n\n
 IND_11_58
 Laboratorium voor diergeneeskunde\n\n
 IND_12_16
-Textielfabriekje\n\n
-JUSTICE
-Kantongerech\n\n
-library_holy_genevieve
-Sainte-Geneviève Bibliotheek\n\n
-Lighthouse_0
-Vuurtoren\n\n
-Lighthouse_1
-Vuurtoren\n\n
-Little_Central_Park
-Park
-Long_Goods_Dock
-Goederenhaven
-LuftPost1950_AirportBlg
-Luchtpostkantoor 1950
-MANOR_0
-Landhuis
-MARKET_PLACE_0
-Markt
-medium_classic_bus_stop
-bushalte
-medium_early_bus_stop
-Bushalte met huisje
-medium_modern_bus_stop
-Overdekte bushalte
-MILITARY_RADAR
-Radar-observatiepost
-Modern_Warehouse
-Koelpakhuis
-modern_warehouse_big
-Pakhuis (2x2)
-ModernPostOffice
-Postkantoor
-ModernPostOfficeLarge
-Postkantoor (2x1)
-ModernTrainStop
-Overdekt perron
-MonorailDepot
-Monorail remise
-MonorailFoundation
-Monorailgebouw
-MonorailGround
-Monorailgebouw
-MT_HOTEL_0
-Luxe Hotel
-MUSEUM_0
-Tot Museum omgebouwd kasteel
-OBSERVATORY
-Sterrenwacht
-OfficeTrainStop
-Klein station
-Old_gate
-Oude stadspoort
-OLD_HOUSE_0
-Historisch pand
-OpenTrainStop
-Niet overdekt perron
-Pagoda01
-Pagode
-PARK_0
-Park met vijver
-parking_(catchemnt_area_ext)1
-Parkeerplaats
-parking_(catchemnt_area_ext)2
-Parkeerplaats
-parking_(catchemnt_area_ext)3
-Parkeerplaats
-Percival_Maya_Temple
-Maya tempel\n\n
-plain_tile_high
-Leeg platform
-Post_Dock
-Posthaven
-PostOffice
-Postkantoor
-PostOffice1920_AirportBlg
-Luchthavengebouw
-PostOfficeOldLarge
-Postkantoor (2x1)
-Radar3
-Vliegveld-Radar
-radiant_house
-La Cité Radieuse\n\nAppartement ontworpen\n\ndoor Le Corbusier.\n\nDe de bewoners zorgen\n\nzelf voor het gebouw.
-RADIO_TOWER_0
-Zendmast
-ramp_tile_high
-Toegangshelling
+Textielfabriek\n\n
+#________________________________building - mon_________________________________
+#________________________________building - mon_________________________________
+DenkFlor
+Monument "Flor"
+DenkGeorg
+Monument "MHz"
+DenkHajo
+Monument "Hajo"
+DenkOwen
+Monument "Owen"
+DenkPatrick
+Monument "Patrick"
+DenkRaven
+Monument "Raven"
+DenkSeth
+Monument "Seth"
+DenkTomas
+Monument "Tomas"
+DenkTrikky
+Monument "Trikky"
+DenkVM
+Monument "VM"
+DenkVolker
+Monument "Volker"
+rmax_DenkManualTeam
+Brandende Fakkel\n\nDit monument is voor iedereen\ndie helpt met het\nonderhouden van de wiki, de\nhelp teksten en andere\nhandleidingen, voor iedereen\ndie de geheimen van Simutrans onthult.\n\nDank jullie wel!\n
+rmax_dictator_statue
+Standbeeld voor de Welgezinde\nDictator\n\n
+rmax_fabio_bust
+Buste van Fagonellus Romanus\n\n
+roundabout
+Rotonde\n\n
+WernerServer
+Serverstandbeeld als dank aan Werner.\n\nZijn server dient de spelers aan nightly builds.
+#________________________________building - res_________________________________
+#________________________________building - res_________________________________
 RES_00_01
-Kleine camping\n\n
+Kampeerterrein\n\n
 RES_00_02
 Huis met groententuintje\n\n
 RES_00_03
@@ -1027,21 +1073,21 @@ Bed and Breakfast\n\n
 RES_00_14
 Kleine bungalow\n\n
 RES_00_15
-Villa in oude stijl\n\n
+Victoriaans huis\n\n
 RES_00_16
 Openlucht zwembad\n\n
 RES_00_17
 Twee geschakelde woonhuizen\n\n
 RES_00_18
-Appartementgebouw\n\n
+Appartementsgebouw\n\n
 RES_00_19
 Vakwerkhuis\n\n
 RES_00_20
-Een jeugdhostel\n\n
+Jeugdhostel\n\n
 RES_00_21
 Tot appartementcomplex\nomgebouwd fabrieksgebouw\n\n
 RES_00_22
-Oude villa van locale\nfabrieksdirecteur\n\n
+Oude villa van locale\nfabrieksdirecteur\n\nEen Victoriaans huis.
 RES_00_25
 Woonblok met drie verdiepingen\n\n
 RES_00_29
@@ -1053,7 +1099,7 @@ Standbeeld in parkje\n\n
 RES_00_60
 Standbeeld in parkje\n\n
 RES_01_01
-Klein kampeerterrein\n\n
+Kampeerterrein\n\n
 RES_01_02
 Plattelandswoning\n\n
 RES_01_03
@@ -1143,7 +1189,7 @@ Kleine bungalow met garage\n\n
 RES_02_13
 Voormalige boerderij, nu luxueus\nvakantiehuis\n\n
 RES_02_14
-Riante woning\n\n
+Ruim woonhuis\n\n
 RES_02_15
 Huis met aanleunwoning\n\n
 RES_02_16
@@ -1159,7 +1205,7 @@ Woonhuis\n\n
 RES_02_21
 Woonhuis van een psychiater\n\n
 RES_02_22
-Spookachtig huis\n\n
+Spookachtig huis\n\nEen Victoriaans huis.
 RES_02_24
 Complex woonhuis\n\n
 RES_02_27
@@ -1193,7 +1239,7 @@ Geschakelde woning\n\n
 RES_03_20
 Dijkwoning\n\n
 RES_03_22
-Riante woning met torentje\n\n
+Riante victoriaans woning met torentje\n\n
 RES_03_27
 Appartementengebouw\n\n
 RES_03_31
@@ -1257,7 +1303,7 @@ Appartementengebouw\n\n
 RES_05_28
 Appartementengebouw\n\n
 RES_05_30
-Winkel\n\n
+Appartement met winkels\n\n
 RES_05_56
 Appartement\n\n
 RES_05_60
@@ -1271,7 +1317,7 @@ Huis met werkplaats\n\n
 RES_06_04
 Klein huis met kleine garage voor\neen kleine auto\n\n
 RES_06_05
-Twee houten woningen\n\n
+Twee houten sociale woningen\n\n
 RES_06_06
 Dubbel woonhuis\n\n
 RES_06_07
@@ -1287,9 +1333,9 @@ Vijver met fontein\n\n
 RES_06_12
 Eenvoudige woning\n\n
 RES_06_13
-Zomerhuis\n\n
+Vakantiehuis\n\n
 RES_06_14
-Appartementgebouw\n\n
+Huis met carpoort
 RES_06_15
 Seniorenwoning in aanbouw\n\n
 RES_06_16
@@ -1369,7 +1415,7 @@ Kleine plattelandswoning\n\n
 RES_07_03
 Plattelandswoning\nmet vijver\n\n
 RES_07_04
-Plattelandswoning met kleine garage\n\n
+Plattelandswoning met zeer kleine garage\n\n
 RES_07_05
 Dubbele plattelandswoning\n\n
 RES_07_06
@@ -1399,7 +1445,7 @@ Stenen huis met metalen dak\n\n
 RES_07_18
 Familiehuis\n\n
 RES_07_19
-Bungalow met grote tuin\n\n
+Vakwerkhuis\n\n
 RES_07_20
 Appartement\n\n
 RES_07_21
@@ -1477,7 +1523,7 @@ Dubbel appartement\n\n
 RES_09_56
 Dubbel appartement\n\n
 RES_10_01
-Plantsoentje\n\n
+Parkje\n\n
 RES_10_02
 Buitenhuisje met grote garage\n\n
 RES_10_03
@@ -1489,7 +1535,7 @@ Bungalow met terras\n\n
 RES_10_09
 Buitenhuis\n\n
 RES_10_10
-Bungalow met carport\n\n
+Bungalow met garage\n\n
 RES_10_12
 Bungalow\n\n
 RES_10_13
@@ -1507,7 +1553,7 @@ Stadsvilla met dakterras\n\n
 RES_10_21
 Vroegere boswachterswoning met\nschuur\n\n
 RES_10_22
-Woning met huisartsenpraktijk\n\n
+Victoriaans huis\n\n
 RES_10_24
 Appartementgebouw\n\n
 RES_10_25
@@ -1549,7 +1595,7 @@ Dubbele woning met serre\n\n
 RES_11_21
 Vakwerkhuis\n\n
 RES_11_22
-Villa\n\n
+Victoriaans huis\n\n
 RES_11_24
 Appartementengebouw\n\n
 RES_11_25
@@ -1559,7 +1605,7 @@ Futuristische kubusflat\n\n
 RES_11_30
 Appartementengebouw\n\n
 RES_11_31
-Dubbele flat\n\n
+Dubbel flatgebouw\n\n
 RES_11_32
 Appartementengebouw\n\n
 RES_11_33
@@ -1619,7 +1665,7 @@ Appartementengebouw\n\n
 RES_12_30
 Appartementengebouw\n\n
 RES_12_32
-Appartementengebouw\n\n
+Post-modern appartement\n\n
 RES_13_12
 Dijkwoning\n\n
 RES_13_13
@@ -1629,7 +1675,7 @@ Bungalow\n\n
 RES_13_15
 Appartementengebouw\n\n
 RES_13_16
-Zwembad\n\n
+Openluchtzwembad met duikplang\n\n
 RES_13_17
 Twee onder één kapwoning\n\n
 RES_13_18
@@ -1647,7 +1693,7 @@ Appartementengebouw\n\n
 RES_13_31
 Flatgebouw\n\n
 RES_13_32
-Appartementengebouw\n\n
+Post-modern appartement\n\n
 RES_13_46
 Kubusflat\n\n
 RES_13_60
@@ -1661,7 +1707,7 @@ Lokaal politiekantoor\n\n
 RES_14_16
 Appartementengebouw\n\n
 RES_14_17
-Boswachterswoning\n\n
+Vakwerkhuis
 RES_14_18
 Appartementengebouw\n\n
 RES_14_19
@@ -1675,11 +1721,11 @@ Appartementengebouw\n\n
 RES_14_24
 Appartementengebouw\n\n
 RES_14_31
-Appartementengebouw\n\n
+Post-modern appartement\n\n
 RES_15_13
 Dubbele bungalow\n\n
 RES_15_14
-Huis met torentje en groen dak\n\n
+Vakwerkhuis met torentje en groen dak\n\n
 RES_15_15
 Lokaal politiekantoor
 RES_15_16
@@ -2698,78 +2744,64 @@ RES_31_60
 Modern appartement\n\n
 RES_65_12
 Landelijke villa\n\n
-rmax_clock_tower
-Klokkentoren\n\n
-rmax_courthouse
-Gerechtsgebouw
-rmax_DenkManualTeam
-Brandende Fakkel\n\nDit monument is voor iedereen\ndie helpt met het\nonderhouden van de wiki, de\nhelp teksten en andere\nhandleidingen, voor iedereen\ndie de geheimen van Simutrans onthult.\n\nDank jullie wel!\n
-rmax_dictator_statue
-Standbeeld voor de Welgezinde\nDictator\n\n
-rmax_fabio_bust
-Buste van Fagonellus Romanus\n\n
-rmax_icarus
-Raketlanceer installatie\n\n
-rmax_mosque
-Moskee\n\n
-ROCK_0
-Restant van uitgedoofde\nvulkaan\n\n
-roundabout
-Rotonde\n\n
-RUIN_0
-Amusementspark in oud\nkasteel\n\n
-RUIN_1
-Kasteelruine\n\n
-Russian_Cathedral
-Russische kerk\n\n
-Sacred_heart_church
-Moderne Heilig Hart kerk
-Secession_Chapel
-Retraite-kapel
-sh_oasis_seasons
-Oase
-ShipDepot
-Scheepswerf
-ShipStop
-Haven
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+Parkeerplatform vliegtuigen
+big_classic_bus_stop
+Grote Bushalte
+big_early_bus_stop
+Grote bushalte
+big_modern_bus_stop
+Moderne bushalte
+bus_terminus
+Busterminal
+canal_ChannelStop
+Aanlegkade
+canal_ware_stop
+Aanlegkade
+CargoHighStop
+Laadstation
+classic_mailbox
+Postbus
+ClosedTrainStop
+Overdekt perron
+CoalTrainStop
+Laadstation voor steenkool
+Container1TrainStop
+Container platform
+Container2TrainStop
+Container platform
+FreightTrainStop
+Vrachtperron
+medium_classic_bus_stop
+Bushalte
+medium_early_bus_stop
+Bushalte
+medium_modern_bus_stop
+Bushalte
+ModernTrainStop
+Overdekt perron
+OfficeTrainStop
+Klein station
+OpenTrainStop
+Vrachtperron
+parking_(catchemnt_area_ext)1
+Parkeerplaats
+parking_(catchemnt_area_ext)2
+Parkeerplaats
+parking_(catchemnt_area_ext)3
+Parkeerplaats
 small_classic_bus_stop
-Eenvoudige bushalte >1950
+Kleine bushalte
 small_early_bus_stop
-Eenvoudige bushalte <1950
-SMALL_MANOR
-Landhuis
-special_ALSF-2_DT_stop
-Begin van landingsbaan
-special_PAPI_stop
-Aproach Lighting System (ALS)
-special_wingbar-r_stop
-zijlichten
-st_benedict_church
-St. Benedict Church\n\nEen van de mooiste kerken in\nsimuworld trekt enorm veel\ntouristen die niet komen voor\neen gebed, maar eerder voor\nde  schilderijen van\nonschatbare waarde.
-ST_PETER
-St. Peter's Kerk\n\nLaat romaanse kerk, gebouwd\nrond 1220. Heeft een\nprachtige koorgalerij,\nfresco's uit de dertiende\neeuw en een goed bewaard\ngebleven mummie van een 300\njaar oude heilige.\nwaarschijnlijk Wilhelm van\nHolbach. Deze mummie ligt in\neen nis in het westelijke schip.\n
-STADIUM_RUGBY
-Rugbyveld
+Kleine bushalte
 station_03_02
 Overdekt perron
 station_03_03
 Overdekt perron
 Suspended_Monorail_Bahnhof_Modern
 Monorail Halte
-tennis_court
-Tennisveld
-Terminal1930_AirportBlg
-kleine terminal hal 1930
-Terminal1950_AirportBlg_S
-Kleine terminal 1950
-Tower1920_AirportBlg
-Verkeerstoren 1918
-Tower1930_AirportBlg
-Verkeerstoren 1930
-Tower1950_AirportBlg
-Verkeerstoren 1950
-Tower1990_AirportBlg
-Verkeerstoren 1990
 train_big_station_early_ext
 Overdekt perron
 train_big_station_modern_ext
@@ -2796,32 +2828,30 @@ train_station_early
 Overdekt perron
 train_station_modern
 Overdekt perron
-TrainDepot
-Treindepot
-TrainStop
-Overdekt station
-TramDepot
-Tramremise
-TRIUMPH
-Triomfboog\n\nDeze Arc de Triomphe is opgericht\ndoor Napoleon als blijvende\nherinnering aan zijn gewonnen\nveldslagen. Deze boog is\nspeciaal ontworpen voor\nsimuworld door één van de\nberoemdste architekten in\ndeze wereld genaamd George,\nlater beter bekend geworden\nals Mhz.\n
-TV_TOWER_0
-TV-Toren\n\nDeze toren is eigendom van een\nlokaal TV-station. Behalve dat\ndeze toren als TV-zender\nfunctioneert is het een\ngeliefde plek voor fotografen.\n\n
-TV_TOWER_1
-TV-Zendmast\n\nEén van de hoogste gebouwen\nin Simuworld. Deze toren\nherbergt een gezellig\nrestaurant met gigantische\nramen. Het restaurant\ndraait in\néén uur volledig rond, en biedt\n op deze manier\neen prachtig uitzicht\ngecombineerd met fantastisch\neten. Voor mensen met\nhoogtevrees is deze toren\nechter geen aanrader.\n
-Very_Big_Terminal
-Grote passagiers terminal (3x3)
-VictorianStation
-Stationsgebouw in Victoriaans stijl
 VillageTrainStop
-Kleinsteeds stationsgebouw
-WernerServer
-Serverstandbeeld als dank aan Werner.\n\nZijn server dient de spelers aan nightly builds.
-WHEEL
-Reuzenrad
-Windmill
-Windmolen
-WOODEN_CHURCH
-Houten kerkje\n\n
+Klein station
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+Stadhuis
+01_CITY_1
+Stadhuis
+02_CITY
+Stadhuis
+02_CITY_1
+Stadhuis
+03_CITY
+Stadhuis
+03_CITY_1
+Stadhuis
+04_CITY
+Stadhuis
+04_CITY_1
+Stadhuis
+05_CITY
+Stadhuis
+05_CITY_1
+Stadhuis
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
 ambulance_0
@@ -3107,7 +3137,7 @@ Tatra 813\n\nmilitaire truck
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
-Auto dealer
+Autohandelaar
 factory_autoshop3_details
 Auto Dealer
 bakery
@@ -3127,7 +3157,7 @@ Autofabriek
 factory_car_assembly_plant_details
 <title>Autofabriek</title>\n\nHier worden alle auto-onderdelen samengesteld tot een auto.
 car_dealer
-Auto dealer
+Autohandelaar
 factory_car_dealer_details
 <title>Auto dealer</title>\n\nHier worden dagelijks tientallen auto's verkocht.
 Cementmill
@@ -3135,7 +3165,7 @@ Cementfabriek
 factory_Cementmill_details
 <title>Cementfabriek</title>\n\nHier wordt het steengruis verwerkt tot cement.
 chicken_farm
-Kippenfarm
+Kippenboerderij
 factory_chicken_farm_details
 <title>Kippenboerderij</title>\n\nHier wordt niet enkel vlees verkocht, maar ook mest.
 classical_goods_factory
@@ -3154,10 +3184,8 @@ cotton_farm_w_fields
 Katoenplantage
 factory_cotton_farm_w_fields_details
 <title>Katoenplantage</title>\n\nOp deze velden wordt katoen verbouwd.
-cotton_field
-Katoenveld
 cow_farm
-Koeienfarm
+Koeienboerderij
 factory_cow_farm_details
 <title>Koeienboerderij</title>\n\nDeze stal staat vol met koeien.
 dairy
@@ -3219,7 +3247,7 @@ Boorplatform
 Oelfeld
 Olieveld
 oilkraftwerk
-Electr. centrale/olie
+Oliecentrale
 old_fish_cannery
 Visconservenfabriek
 old_powerplant_kraftwerk
@@ -3237,13 +3265,13 @@ Houtzagerij
 factory_Saegewerk_details
 Zagerij\n
 sand_quarry_dd
-zandgroeve
+Zandgroeve
 shaft_coal_mine
 Kolenmijn
 shaft_coal_mine_small
 Kolenmijn
 sheep_farm
-Schapenfarm
+Schapenboerderij
 shopping_mall
 Winkelcentrum
 Simutrans_Fried_Chicken
@@ -3269,7 +3297,7 @@ Steengroeve
 supermarket
 Supermarkt
 TANKE1
-Benzinestation
+Tankstation
 TANKE2
 Tankstation
 textile_factory
@@ -3277,9 +3305,13 @@ Textielfabriek
 waste_disposal
 Afvaldepot
 waste_incinerator_kraftwerk
-Vuilverbrander/centrale
+Vuilverbrandercentrale
 wind_kraftwerk
 Windturbine
+#_____________________________________field_____________________________________
+#_____________________________________field_____________________________________
+cotton_field
+Katoenveld
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -3391,7 +3423,7 @@ Cactus
 #___________________________________menu_text___________________________________
 #___________________________________menu_text___________________________________
 MONORAILTOOLS
-Monorail-objecten
+Monorail
 #__________________________________pedestrian___________________________________
 #__________________________________pedestrian___________________________________
 BICYCLE_RIDER_0
@@ -3433,7 +3465,7 @@ Voetganger
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 Build monorail depot
-Bouw monorail remise
+Bouw monorail depot
 CATEGORY_01
 stukgoederen
 CATEGORY_02
@@ -3451,7 +3483,7 @@ boerderijprod.
 monorail vehicle
 Monorailcabine
 Monorailboden
-Monorailgebouw
+Monorailfundering
 Monoraildepot
 Monorail remise
 Monorailhalt
@@ -3465,13 +3497,29 @@ Verwijder Monorails
 #__________________________________record_text__________________________________
 #__________________________________record_text__________________________________
 New world record for monorails: %.1f km/h by %s.
-Nieuw Monorail snelheidsrecord! %.1f km/h door %s.
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+Nieuw snelheidsrecord voor monorails! %.1f km/h door %s.
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
 air_one-way
 Eenrichtingsweg
 airport_oneway
 Eenrichtingssignaal voor taxibaan
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+choose_signal_monorail
+Perronkeuze seinen
+end_of_choose_monorail
+Eindsignaal perronkeuze
+long_signal_monorail
+Long Block signaal
+one_way_signal_monorail
+Eenrichtingssein
+preSignal_Monorail
+Voorsein
+Signal_Monorail
+Signaal
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 Begin Snelweg
 autobahn_classic_exit
@@ -3482,16 +3530,36 @@ autobahn_modern_exit
 Einde Snelweg
 choose_point
 richtingskeuze borden
-choose_signal_monorail
-Keuze seinen
+end_of_choose_point
+Einde keuze
+Minimum100
+Minimale snelheid 100km/u
+Minimum80
+Minimale snelheid 80km/u
+NoEntry
+Eenrichtingsbord
+RisingBollards
+Verzinkbare palen
+road_signalAVENUE
+Stoplicht
+road_signalROAD
+Stoplicht
+road_signalSTREET
+Stoplicht
+RoadClosed
+Wegversperring
+traffic_light
+Stoplicht
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
 ChooseSignals
-Keuze seinen
+Perronkeuze seinen
 Classic_ChooseSignals_right
-Perronkeuze Signaal (klassiek)
+Perronkeuze signaal (klassiek)
 Classic_LongSignals_right
-Long Block Signaal (klassiek type)
+Long Block signaal (klassiek)
 Classic_preSignals_right
-Voorsein (klassiek type)
+Voorsein (klassiek)
 Classic_Signals_right
 Spoorwegsein (klassiek)
 Early_ChooseSignals_right
@@ -3502,20 +3570,10 @@ Early_preSignals_right
 Voorsein (oud type)
 Early_Signals_right
 Sein (oud type)
-end_of_choose_monorail
-Eindsignaal perronkeuze
-end_of_choose_point
-Einde keuze
 EndOfChooseSignals
 Eindsignaal Perronkeuze
-long_signal_monorail
-Long Block signaal
 LongSignals
 Long Block Signaal (Standaard)
-Minimum100
-Minimale snelheid 100km/u
-Minimum80
-Snelheidsbord >80
 Modern_ChooseSignals_right
 Perronkeuze Signaal (modern)
 Modern_EndOfChooseSignals_right
@@ -3528,34 +3586,14 @@ Modern_preSignals_right
 Voorsein (Modern)
 Modern_Signals_right
 Seinpaal (modern type)
-NoEntry
-Eenrichtingsbord
-one_way_signal_monorail
-Eenrichtingssein
 OneWaySignals
-Eenrichtingssignaal
-preSignal_Monorail
-Monorail Voorsein
+Eenrichtingssein
 preSignals
 Voorsein
 Railgate
 Spoorweg afsluiting
-RisingBollards
-Verzinkbare palen
-road_signalAVENUE
-Stoplicht
-road_signalROAD
-Stoplicht
-road_signalSTREET
-Stoplicht
-RoadClosed
-Wegversperring
-Signal_Monorail
-Monorail signaal
 Signals
-Seinen
-traffic_light
-Stoplicht
+Signaal
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 palm010
@@ -3638,14 +3676,18 @@ tree133
 Denneboom
 tree140
 Spar
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
+#________________________________tunnel - power_________________________________
+#________________________________tunnel - power_________________________________
+PowerTunnel
+Tunnel voor Hoogspanningsleidingen
+#_________________________________tunnel - road_________________________________
+#_________________________________tunnel - road_________________________________
 Highway_110_Tunnel
 Tunnel voor snelweg
 Highway_130_Tunnel
 Tunnel voor snelweg
-PowerTunnel
-Tunnel voor Hoogspanningsleidingen
+#________________________________tunnel - track_________________________________
+#________________________________tunnel - track_________________________________
 Rail_060_Tunnel
 Oude tunnel voor spoorwegen
 Rail_080_Tunnel
@@ -3674,1096 +3716,8 @@ Rail_320_Tunnel
 Moderne tunnel voor hogesnelheidsspoorwegen
 Rail_400_Tunnel
 Moderne tunnel voor hogesnelheidsspoorwegen
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-1Benst134
-Bennhardt B-134 "Pixie"
-1Benst135t
-Bennhardt B-135 "Gremlin"
-1Benst138
-Bennhardt B-138 "Apple pie"
-1Benst162t
-Bennhardt B-162 "Jet"
-1Benst238
-Bennhardt B-238 "Kikvors"
-1Dampflokomotive
-H-Trans 0-4-0T
-2000_Class
-Transadelaide Klasse 2000
-2000_Class_Car
-Transadelaide Klasse 2000 rijtuig
-2000_Class_Tail
-Transadelaide Klasse 2000 staartrijtuig
-20ft_Container_Trailer-128set
-20-voets Goederen Container Aanhanger
-2Diesellokomotive
-H-Trans BR218
-3Bens186t
-Bennhardt B-186 "Citroen"
-3Dampflokomotive
-RVg 0-3-0 - Chippy
-40ft_Container_Trailer
-40-voets Goederen Container Aanhanger
-620_Railcar_Addon
-Klasse 620
-720_Railcar_Addon
-Klasse 720
-AEC_Aclo_Regent_III
-AEC Aclo Regent III
-Airport_express_shuttle
-Luchthaven Express Shuttle Bus
-Autotransportwagen
-Canonball Autotransporter
-BB-TS_Milk_Mack_Trailer
-BlackBox melk oplegger
-Big_Bretterwagen
-Oplegger voor planken
-Big_Erztruck
-Vrachtwagen voor Bulkgoed
-Black_Osprey
-Black Osprey staal
-Black_Osprey_(goods)
-Black Osprey goederen
-Black_Osprey_(grain)
-Black Osprey graan
-BR-373_Back
-Eurostar BR-373 staartrijtuig
-BR-373_BackCar
-Eurostar BR-373 laatste rijtuig
-BR-373_Car
-BR-373 Eurostar
-BR-373_Eurostar
-BR-373 Eurostar
-BR-373_FrontCar
-BR-373 Eurostar
-Bretterwagen
-Oplegger voor planken
-brick_goelette
-Zeilschip
-brigantin
-Vissersboot
-British_Premier
-British Permier olie
-Budd_Coach
-Budd RPO (passagierswagen)
-Budd_Lounge
-Budd RPO (passagierswagen met uitkijk)
-Budd_Observation
-Budd Wagon
-Budd_RPO
-Budd RPO (Post)
-Bulk_trailer_0
-Bulk aanhanger
-Bulk_Truck_0
-Volvo 800 Bulkwagen
-Bulk_Truck_2
-Vrachttruck
-Bulk_Truck_3
-Tatra 815 Bulkwagen
-Bulk_Truck_4
-Volvo Bulk Truck
-caboose_1
-RvG Wagen
-caboose_2
-RvG Wagen
-caboose_3
-RvG Wagen
-Car_Tramsport_Trailer_0
-Autotrailer
-Car_Transporter_0
-Autotrailer
-Car_Transporter_1
-Autotrailer
-Car_Waggon_1
-Autowagon
-Car_Waggon_2
-Autowagon
-CB_ALBATROS
-RVg Skoda 498 "Albatros"
-CB_DB-130_8
-Canonball & H-Trans BRAW61000 "Taiga Drum"
-Cement_Carrier_Fast
-cement wagon
-Cement_trailer_0
-Cement Trailer
-Cement_Truck_0
-Vrachtwagen (cement)
-Cement_Waggon_0
-BB-PMNV Cementwagen
-Cement_Waggon_1
-BB-PMNV Cementwagen
-Cementwagen
-SergeS cement wagon
-Citadis302_Le_Mans_1
-Citadis 302 A2
-Citadis302_Le_Mans_2
-Citadis 302 B2
-Citadis302_Le_Mans_3
-Citadis 302 C2
-Citadis302_Le_Mans_4
-Citadis 302 D2
-Citadis302_Le_Mans_5
-Citadis 302 E2
-Citadis302_Le_Mans_long_version_402
-Citadis 302 lange versie
-Citadis302_Reims_front
-Citadis 302 A1
-Citadis302_Reims_pantograph
-Citadis 302 C1
-Citadis302_Reims_suspended
-Citadis 302 B1
-Citadis402_Bordeaux_1
-Citadis 402 A2
-Citadis402_Bordeaux_2
-Citadis 402 B2
-Citadis402_Bordeaux_3
-Citadis 402 C2
-Citadis402_Bordeaux_4
-Citadis 402 D2
-Citadis402_Bordeaux_5
-Citadis 402 E2 
-Citadis402_Bordeaux_6
-Citadis 402 F2 
-Citadis402_Bordeaux_7
-Citadis 402 G2 
-Citadis402_Tours_back
-Citadis 402 D1
-Citadis402_Tours_front
-Citadis 402 A1
-Citadis402_Tours_motor
-Citadis 402 C1
-Citadis402_Tours_suspended
-Citadis 402 B1
-CKD_749
-CKD 749
-CKD_750
-CKD 750
-Concrete_Truck_0
-S.Kroytor beton mixer
-Concrete_Truck_1
-Beton Truck
-Concretewagen
-PMNV betonwagen 12
-Concretewagen_1
-Betonwagen
-Cooling_trailer_0
-Koeltrailer
-Cooling_Truck_0
-Koelvrachtwagen
-Cooling_Truck_1
-Koelvrachtwagen
-Cooling_Truck_2
-Koelvrachtwagen
-Cooling_wagon_0
-Koelwagon
-Cooling_wagon_1
-Koeltrailer
-Cooling_wagon_2
-Koelwagon
-CPH_Motorcar
-CPH
-CST_Interliner_E55
-CST Interliner E55
-CST_Interliner_E55_Rear
-CST Interliner E55 achterstel
-CST_Interliner_S45
-CST Interliner S45
-CST_Interliner_S55
-CST Interliner S55
-CST_Interliner_S55_Rear
-CST Interliner S55 achterstel
-CST_Stateliner
-CST touringbus "Stateliner"
-CST_Urban_City_DD
-CST dubbeldekker touringbus "Stateliner"
-DB_ADm101
-Haru-DB ADm101
-DB_Apmz121
-Haru-DB Apmz121
-DB_Bm235
-DB Bm235
-DB_BR103_1
-DB BR-103
-DueWAG_GT6_motorwaggon
-Due WAG GT6
-DueWAG_GT6_tailwaggon
-Due WAG GT6 wagon
-E_423
-Sindor E-432 - "Topklas"
-Eaglescliffe_Hall
-Eaglescliffe Hall
-Eaglescliffe_Hall_(lumber)
-Eaglescliffe Hall
-Edmund_Fitzgerald
-Edmund Fitzgerald
-Edmund_Fitzgerald_(wood)
-Edmund Fitzgerald
-EM400_1
-Sindor-FK EM400
-EMD_E5A_Silver_Meteor
-EMD E5A "Silver Meteor"
-EMD_E5B_Silver_Comet
-EMD E5B "Silver Comet"
-EMD-FT_(A)
-EMD-FT A
-EMD-FT_(B)
-EMD-FT B
-EMD-FT_(C)
-EMD-FT C
-Evil_DF-11
-DF-11
-Evil_P-100_(carriage)
-P-100 rijtuig
-Evil_P-100_(front_engine)
-P-100
-Evil_P-100_(mail)
-P-100 postrijtuig
-Evil_P-100_(rear_engine)
-P-100 staartrijtuig
-Evil-Jitluen_67_Minibus
-Jitluen 67 Minibus
-Express_tender
-Tender
-Ferry_Mail_Extension_(small)
-Ferry postuitbreiding
-Ferry_yeu_128set
-Ferry Oggia
-Fishing_Boat_1
-MHz vistrawler
-fluid_00_Wood_Barrels_Wagon
-Rijtuig met houten tonnen
-fluid_01_Iron_Tanks_Wagon
-Rijtuig met ijzeren tonnen
-fluid_02_CSD-502_Tank_Wagon
-CSD 502 tankrijtuig
-fluid_03_CSD-556_Tank_Wagon
-CSD 556 tankrijtuig
-fluid_04_Esso_Tank_Wagon
-Esso tankrijtuig
-fluid_05_CEPSA_Tank_Wagon
-CEPSA rijtuig
-fluid_06_VTG_Tank_Wagon
-VTG tankrijtuig
-fluid_07_Esso_XL_Tank_Wagon
-Esso XL tankrijtuig
-fluid_08_VTG_CeSa_Tank_Wagon
-VTG Cesa tankrijtuig
-Fluid_trailer_0
-Olietrailer
-Fluid_trailer_1
-Olietrailer
-Fluid_Truck_0
-Nissan 1800 olie
-Fluid_Truck_1
-Nissan 1100 olie
-Fluid_Truck_2
-ZUK-20 olie
-Fluid_Truck_3
-Magirus olie
-Flxible_Twin_FT2-40
-Flxible Twin FT2-40
-Fretadis_frigo_long
-Fretadis koelrijtuig lang 
-Fretadis_frigo_short
-Fretadis koelrijtuig kort
-Fretadis_goods_long
-Fretadis goederenrijtuig lang
-Fretadis_goods_short
-Fretadis goederenrijtuig kort
-Fretadis_postal_long
-Fretadis postrijtuig lang
-Fretadis_postal_short
-Fretadis postrijtuig kort
-Goods_trailer_0
-Mitsubishi Fuso ST aanhangwagen
-Goods_trailer_1
-Mitsubishi Fuso HT aanhangwagen
-Goods_trailer_2
-Aanhangwagen stukgoederen
-Goods_trailer_3
-Aanhangwagen stukgoederen
-Goods_Truck_0
-Mitsubishi Fuso ST
-Goods_Truck_1
-Mitsubishi Fuso HT
-Goods_Truck_2
-Vrachtwagen voor stukgoederen
-Goods_Truck_3
-Vrachtwagen voor stukgoederen
-Goods_Truck_4
-Turbo
-Goods_Truck_5
-Gaz-4
-Goods_waggon_0
-Goederenrijtuig
-Goods_waggon_1
-Goederenrijtuig
-Goods_waggon_2
-Goederenrijtuig
-Goods_waggon_3
-Goederenwagon
-Goods_waggon_4
-HS goederenwagon
-Goods_waggon_5
-Gesloten goederenwagon
-Grain_trailer_0
-Aanhangwagen voor graan
-Grain_Truck_1
-Tatra 815 graan
-Haru_2C1_Cheetah
-2C1 "Cheetah"
-Haru_2D1_Buffalo
-2D1 "Buffalo"
-Haru_C44-9W
-C44-9W "Dash"
-Haru_DF4
-DF4
-Haru_E3_KOMACHI
-Haru E3 "Komachi"
-Haru_E3_KOMACHI_(mid)
-E3 "Komachi" pantograaf
-Haru_E3_KOMACHI_(rear)
-E3 "Komachi" staartrijtuig
-Haru_E3_KOMACHI_(Trailer)
-E3 "Komachi" rijtuig
-Haru_F7A
-F7 A
-Haru_F7B
-F7 B
-Haru_HST
-Class 43 HST
-Haru_HST_mid
-Class 43 HST rijtuig
-Haru_HST_rear
-Class 43 HST staartrijtuig
-Haru_Spike-PSE_Head1
-TGV PSE "Aiguille"
-Haru_Spike-PSE_Head2
-TGV PSE "Aiguille" eerste rijtuig
-Haru_Spike-PSE_Tail1
-TGV PSE "Aiguille" staartrijtuig
-Haru_Spike-PSE_Tail2
-TGV PSE "Aiguille" laatste rijtuig
-Haru_Spike-PSE_Waggon
-TGV PSE "Aiguille" rijtuig
-Haru_Tatra-T3
-Tatra T3
-Haru_Tender
-Tender
-Haru_VT98
-VT98
-Haru_VT98_car
-VT98 rijtuig
-Haru-373
-JR Central 373
-Haru-373_car
-JR Central 373 rijtuig
-Haru-373_tail
-JR Central 373 staartrijtuig
-Haru-ACE1_Head
-ACE 1
-Haru-ACE1_Tail
-ACE 1 staartrijtuig
-Haru-ACE1_Waggon1
-ACE 1 rijtuig 1ste klasse
-Haru-ACE1_Waggon2
-ACE 1 restauratierijtuig
-Haru-ACE1_Waggon3
-ACE 1 rijtuig 2de klasse
-Haru-BR182_Taurus
-BR-182 "Taurus"
-Haru-IC3
-IC-3
-Haru-IC3_car
-IC-3 rijtuig
-Haru-IC3_tail
-IC-3 staartrijtuig
-Haru-PlanV
-Plan V
-Haru-PlanV(rear)
-Plan V staartijtuig
-Haru-PMNV_F7-Coach
-F7 rijtuig
-Haru-PMNV_F7-Mail_Car
-F7 postrijtuig
-Haru-TEM2
-TEM-2
-Haru-X2000
-X2000
-Haru-X2000_mid
-X2000 rijtuig
-Haru-X2000_rear
-X2000 staartrijtuig
-Holzwagen
-Houtwagon
-Holzwagen_0
-Rijtuig voor lange goederen
-Holzwagen_1
-Rijtuig voor lange goederen
-Irisbus_Cristalis_ETB12
-Irisbus ETB12 "Cristalis"
-Irisbus_Cristalis_ETB18_front
-Irisbus ETB18 "Cristalis"
-Irisbus_Cristalis_ETB18_rear
-Irisbus ETB18 "Cristalis" II
-Irisbus_Magelys_HD
-Irisbus "Magelys"
-Irisbus_Magelys_HDH
-Irisbus "Magelys" XL 
-JNR_C11
-JNR SL C11
-JNR_C62
-JNR SL C62
-JNR_D51
-JNR SL D51
-JNR_DD51
-JNR DD51
-JNR_tender_S
-JNR Tender
-JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
-JR 700 Shinkansen "Hikari Rail Star"
-JR_700_Shinkansen_HRS_(Middle_Section)_PC
-JR 700 Shinkansen "Hikari Rail Star" rijtuig
-JR_700_Shinkansen_HRS_(Pantograph_I)_PC
-JR 700 Shinkansen "Hikari Rail Star" rijtuig met pantograaf
-JR_700_Shinkansen_HRS_(Pantograph_II)_PC
-JR 700 Shinkansen "Hikari Rail Star" rijtuig met pantograaf
-JR_700_Shinkansen_HRS_(Tailcar)_PC
-JR 700 Shinkansen "Hikari Rail Star" staartrijtuig
-Kord_TT_bulk
-Kord TT (bulk)
-Kord_TT_grain
-Kord TT (graan)
-Liner_Mail_Extension_(large)
-Ferry postuitbreiding
-LKAB_IORE_Back
-LKAB IORE II
-LKAB_IORE_Front
-LKAB IORE
-MA461_waggon
-DB MA-461 rijtuig
-Mack_Truck_Cooling_Trailer
-Oplegger voor gekoelde waren
-Mack_Truck_Goods_Trailer
-Mack Truck oplegger
-Mack_Truck_Post_Trailer
-Mack Truck postoplegger
-Mail_Truck_2
-Postwagen
-Man_Lions_City
-Man Lions stadsbus
-Man_Lions_City_G_back
-Man Lions stadsbus B 
-Man_Lions_City_G_front
-Man Lions stadsbus A
-Marks_Passagierwagen
-Express rijtuig
-Marks_Postwagen
-Express postrijtuig
-Marks-Deltic
-"Deltic"
-MHz_Grain_Trailer_0
-Aanhangwagen voor graan
-MHz_Long_Wood_Trailer
-Oplegger voor hout
-MHz_Tractor
-Tractor 74 ch
-MHz_Tractor_2
-Tractor 262 ch
-MHz_TRAM_1930
-T-113
-MHz_TRAM_1980
-T-235
-MHz-C11C_Bulk_Barge
-Duwboot Bulkgoederen
-MHz-C11C_Wood_Barge
-Duwboot Hout
-MHz-C273U_Cement_Barge
-Cementschip
-MHz-C35_Goods_Barge
-C35
-MHz-C3P_Post_Barge
-Postboot
-MHz-CC47_Container_Barge
-Containerschip
-MHz-MT7_Milk_Barge
-Melktransportschip
-MHz-OT5_Oil_Barge
-Olietanker
-MHz-P11C_Bulk_Boat
-Duwboot Bulkgoederen
-MHz-P11C_Wood_Boat
-Duwboot Hout
-MHz-R2A_Push-Tug
-Motorcompartiment Duwboot
-milk_00_bottled_milk_wagon
-Rijtuig met melkkannen
-milk_01_twin_barrel_wagon
-Rijtuig met tonnen voor vloeibaar voedsel
-milk_02_old_tank_wagon
-Rijtuig voor vloeibaar voedsel
-milk_03_6_wheeled_milk_wagon
-Rijtuig voor vloeibaar voedsel
-milk_04_rvg_early_milk_waggon
-Rijtuig voor vloeibaar voedsel
-milk_05_milk_waggon_1
-Rijtuig voor vloeibaar voedsel
-milk_06_4_axle_milk_wagon
-Rijtuig voor vloeibaar voedsel
-milk_07_milk_waggon_0
-Rijtuig voor vloeibaar voedsel
-milk_08_bloomsburg_fair_milk_wagon
-Rijtuig voor vloeibaar voedsel
-milk_09_bordens_milk_wagon
-Rijtuig voor vloeibaar voedsel
-Milk_Truck_0
-Melktruck
-Milk_Truck_1
-Melktruck
-Milk_Truck_2
-Melktruck
-mja-20s_concretemixer
-20S Betonmixer
-mja-bulk_trailer_l
-Oplegger voor bulk
-mja-bulk_trailer_m
-Oplegger voor bulk
-mja-MAN19332-128set
-MAN 19332
-mja-ScaniaP380_tanker
-Scania P380 (olie)
-mja-ScaniaP420_concretemixer
-Scania P420 (beton)
-mja-ScaniaP420_longgoods
-Scania P380 (lange goederen)
-mja-ScaniaR500Topline
-Scania R500 Topline
-mja-ScaniaR500Topline_cooledgoods
-Scania R500 Topline (koelwagen)
-mja-ScaniaR500Topline_goods
-Scania R500 Topline (goederen)
-mja-ScaniaR620Topline
-R620 Topline
-mja-volvof88-128set
-Volvo F88
-mja-volvoVN660
-Volvo VN660
-mja-Zil130-128set
-Zil 130
-MS_sprinter_mail
-Mercedes Post Sprinter
-MTAB_Dm_Back
-MTAB Dm III
-MTAB_Dm_Front
-MTAB Dm I
-MTAB_Dm3
-MTAB Dm3 II
-MV_Balmoral
-Balmoral
-MV_Fedra
-Fedra
-MV_Lake_Illawarra
-Lake Illawara (bulk)
-MV_Lake_Illawarra_(grain)
-Lake Illawara (graan)
-New_Zealand_Star
-New Zealand Star
-Nordic_Heron
-Nordic Heron (olie)
-Nordic_Heron_(liquid_food)
-Nordic Heron (vloeibaar voedsel)
-NovaBus_RTS-06_WFD
-NovaBus RTS-06 WFD
-Owari_Maru
-Owari Maru
-Passagierwagen
-Canonball BTx 060 2e klas passagierswagon
-Passanger_waggon_0
-JNR OHA 31
-Passanger_waggon_1
-OHAFU 50 rijtuig 2de klasse
-Passanger_waggon_2
-JNR ORO 40 rijtuig 2de klasse
-Passanger_waggon_3
-BTx 050 rijtuig 2de klasse
-Passanger_waggon_MAITE39
-JNR MAITE 39 1ste klasse
-Patagonia_(farm_products)
-Patagonia (graan)
-Pegaso_6038_InterCity
-Pegaso 6038 Intercity
-Pegaso_6038_Urban
-Pegaso 6038 Urban
-Pegaso-Seida_5020_InterCity
-Pegaso-Seida 5020 Intercity
-Pegaso-Seida_5020_Urban
-Pegaso-Seida 5020 Urban
-Pioneer_Zephyr
-Pioneer Zephyr
-Pioneer_Zephyr_Car
-Pioneer Zephyr rijtuig
-Pioneer_Zephyr_Tail
-Pioneer Zephyr staartrijtuig
-Planck_Truck_0
-Truck (lange goederen)
-Plank_Truck_2
-Tatra 815 Bed (lange goederen)
-Plank_waggon_0
-Plankenwagon
-Plank_waggon_1
-Plankenwagon
-PMNV_50_Mack
-Mack LJT
-PMNV_Canonball_Car_Trailer
-Oplegger voor auto's
-PMNV_Cement_Trailer_Slow
-Aanhangwagen voor cement
-PMNV_Cement_Truck_P
-CTr-2 (cement)
-PMNV_Concrete_Truck
-Mack betonmixer
-PMNV_Cruiser
-Cruiser
-PMNV_Cruiser_Mini
-Cruiser Mini
-PMNV_Fabric_Trailer_0
-aanhangwagen voor textiel
-PMNV_Grain_Truck_0
-Vrachtwagen met graanbak
-PMNV_Hydrogen_Cruiser
-Waterstof-bus
-PMNV_Mack_Bulk_Trailer_0
-Oplegger voor bulk
-PMNV_Mack_Cement_Trailer_L
-Oplegger voor cement
-PMNV_Mack_Cement_Trailer_S
-Oplegger voor cement
-PMNV_Mack_Concrete_Trailer_O
-Oplegger voor beton
-PMNV_Mack_cooled_Trailer_O
-Oplegger voor gekoelde waren
-PMNV_Mack_Goods_Trailer_O
-Oplegger
-PMNV_Mack_Grain_Trailer_0
-Oplegger voor graan
-PMNV_Mack_Grain_Trailer_O
-Oplegger voor graan
-PMNV_Mack_Log_Trailer_L
-Oplegger voor lange goederen
-PMNV_Mack_Log_Trailer_M
-Oplegger voor lange goederen
-PMNV_Mack_Log_Trailer_S
-Oplegger voor lange goederen
-PMNV_Mack_Milk_Trailer_O
-Oplegger voor vloeibaar voedsel
-PMNV_Mack_Oil_Trailer_L
-Oplegger voor olie
-PMNV_Mack_Oil_Trailer_S
-Oplegger voor olie
-PMNV_Mack_Planck_Trailer_0
-Oplegger voor lange goederen
-PMNV_Mack_Post_Trailer_O
-Oplegger voor post
-PMNV_Mack_Steel_Trailer_L
-Oplegger voor staal
-PMNV_Mack_Steel_Trailer_S
-Oplegger voor staal
-PMNV_Mail_Truck_1
-Posttruck
-PMNV_Mail_Truck_2
-Posttruck
-PMNV_MHz_Truck_0
-Cabover 145
-PMNV_Milk_Trailer_0
-PMNV aanhangwagen voor melk
-PMNV_Open_Goods_Trailer_L
-Oplegger
-PMNV_Open_Goods_Trailer_S
-Oplegger
-PMNV_Plank_Trailer_0
-Aanhangwagen voor planken
-PMNV_Post_Trailer_0
-Aanhangwagen voor post
-PMNV_Steel_Trailer_0
-aanhangwagen voor staal
-PMNV_TC-119-Snake
-TC-119 A "Snake"
-PMNV_TC-119-Snake_b
-TC-119 B "Snake"
-PMNV_TC-44-Hydrogen_Car
-TC-44 H2 A
-PMNV_TC-44-Hydrogen_Car_b
-TC-44 H2 B
-PMNV_TC-7_Astro_Trolley
-TC-7 Astro Trolley
-PMNV-PB1970
-PB-1970
-PMNV-TC-1_Turbo_Car
-TC-1 Turbo
-PMNV-TC-112-Hyper_Car
-TC-112 Hyper
-PMNV-TC-2_Turbo_Set
-TC-2 Turbo A
-PMNV-TC-2_Turbo_Set_b
-TC-2 Turbo B
-PMNV-TC-2_Turbo_Set_c
-TC-2 Turbo C
-PMNV-TC-5P_Mail_Man
-TC-5P "Mailman"
-Post_Barge
-Postboot
-Post_waggon_0
-Postwagon
-Postwagen
-Postrijtuig
-Praga_Bus
-Praga Bus
-Praga_N_bulk
-Praga N (bulk)
-Praga_N_cement
-Praga N (cement)
-Praga_N_Cistern
-Praga N (olie)
-Praga_N_milk
-Praga N (melk)
-Praga_TOT_128
-Praga TOT
-Queen_Elisabeth_2
-Queen Elisabeth II
-R_01
-R01
-R_02
-R02
-Renfe_250_(German)
-RENFE Klasse 250 "Duitser"
-Renfe_252_Altaria
-RENFE Klasse 252 "Altaria"
-Renfe_269_Altaria
-RENFE Klasse 269 "Altaria"
-Renfe_270
-RENFE Klasse 270
-Renfe_274_(Bathtube)
-RENFE Klasse 274 "Badkuip"
-Renfe_276_(French)
-RENFE Klasse 276 "Frans"
-Renfe_279_(Benemerita)
-RENFE Klasse 279 "Benemérita"
-Renfe_310_(Coastguard)
-RENFE Klasse 310 "Kustwacht"
-Renfe_319_(Yankie)
-RENFE Klasse 319 "Yankie"
-Renfe_333_(Rambo)
-RENFE Klasse 333 "Rambo"
-Renfe_340_(Egg)
-RENFE Klasse 340 "Ei"
-Renfe_438_Back
-RENFE Klasse 438 staartrijtuig
-Renfe_438_Front
-RENFE Klasse 438
-Renfe_440
-RENFE Klasse 440
-Renfe_440_Back
-RENFE Klasse 440 staartrijtuig
-Renfe_440_Car
-RENFE Klasse 440 rijtuig
-Renfe_447
-RENFE Klasse 447
-Renfe_447_Back
-RENFE Klasse 447 staartrijtuig
-Renfe_447_Car
-RENFE Klasse 447 rijtuig
-Renfe_Series_10200_(Player_Colors)
-RENFE Klasse 10200
-Renfe_Series_301_(Player_Colors)
-RENFE Klasse 301
-Renfe_Series_311_(Player_Colors)
-RENFE Klasse 311
-Renfe_Series_314_(Player_Colors)
-RENFE Klasse 314
-Renfe_Series_316_(Player_Colors)
-RENFE Klasse 316 "Marilyn"
-Renfe_Series_318_(Player_Colors)
-RENFE Klasse 318
-Renfe_Series_319.300_(Player_Colors)
-RENFE Klasse 319.300
-Renfe_Series_334_(Player_Colors)
-RENFE Klasse 334
-Renfe_Series_350_Talgo_(Player_Colors)
-RENFE Klasse 350 "Talgo"
-Renfe_Series_350_Talgo_Car_(Player_Colors)
-RENFE Klasse 350 "Talgo" rijtuig
-Renfe_Series_350_Talgo_Mail_Car_(Player_Colors)
-RENFE Klasse 350 "Talgo" postrijtuig
-Renfe_Series_350_Talgo_Restaurant_Car_(Player_Colors)
-RENFE Klasse 350 "Talgo" restauratierijtuig
-Renfe_Tgpps_Grain_Hopper
-RENFE TGPPS (graan)
-Renfe_Uagp_Grain_Hopper
-RENFE UAGP (graan)
-Renfe_Z-2000_Car
-RENFE Z-2000 rijtuig
-Renfe_Z-2000_Mail_Car
-RENFE Z-2000 postrijtuig
-Renfe6000_Post
-RENFE Klasse 6000 postrijtuig
-Renfe6000_Psg
-RENFE Klasse 6000 rijtuig
-RMS_Baltic
-RMS "Baltic"
-RVg_0-1-4-0
-0-1-4-0
-RVg_1064_White_Bulk
-White 1064 (bulk)
-RVg_1064_White_Cement
-White 1064 (cement)
-RVg_1064_White_Cooled
-White 1064 (gekoelde waren)
-RVg_1064_White_Fluid
-White 1064 (olie)
-RVg_1064_White_Goods
-White 1064 (goederen)
-RVg_1945_box_car
-Goederenrijtuig
-RVg_1951_box_car
-Goederenrijtuig
-RVg_1955_box_car
-Goederenrijtuig
-RVg_1962_box_car
-Goederenrijtuig
-RVg_1969_box_car
-Goederenrijtuig
-RVg_1976_box_car
-Goederenrijtuig
-RVg_1983_box_car
-Goederenrijtuig
-RVg_1989_container_car
-Goederenrijtuig
-RVg_1994_container_car
-Goederenrijtuig
-RVg_2000_container_car
-Goederenrijtuig
-RVg_2006_container_car
-Goederenrijtuig
-RVg_2011_container_car
-Goederenrijtuig
-RVg_Bulk_Waggon_00
-Rijtuig voor bulkgoederen
-RVg_Bulk_Waggon_01
-Rijtuig voor bulkgoederen
-RVg_Bulk_Waggon_02
-Rijtuig voor bulkgoederen
-RVg_Bulk_Waggon_03
-Rijtuig voor bulkgoederen
-RVg_Bulk_Waggon_04
-Rijtuig voor bulkgoederen
-RVg_Bulk_Waggon_05
-Rijtuig voor bulkgoederen
-RVg_Bulk_Waggon_06
-Rijtuig voor bulkgoederen
-RVg_Cementwagen
-Rijtuig voor cement
-RVg_Cooling_car
-Koelrijtuig
-RVg_Daylight
-Southern Pacific GS-4 "Daylight"
-RVg_Daylight_dome
-Southern Pacific GS-4 "Daylight" panoramarijtuig
-RVg_Daylight_end
-Southern Pacific GS-4 "Daylight" staartrijtuig
-RVg_Daylight_post
-Southern Pacific GS-4 "Daylight" postrijtuig
-RVg_Daylight_tender
-Southern Pacific GS-4 "Daylight" tender
-RVg_Daylight_waggon
-Southern Pacific GS-4 "Daylight" rijtuig
-RVg_Flying_Berliner_(front)
-Flying Berliner
-RVg_Flying_Berliner_(tail)
-Flying Berliner staartrijtuig
-RVg_Hiawatha
-Milwaukee "Hiawatha Express"
-RVg_Hiawatha_dome
-Milwaukee "Hiawatha Express" panoramarijtuig
-RVg_Hiawatha_end
-Milwaukee "Hiawatha Express" staartrijtuig
-RVg_Hiawatha_post
-Milwaukee "Hiawatha Express" postrijtuig
-RVg_Hiawatha_tender
-Milwaukee "Hiawatha Express" tender
-RVg_Hiawatha_waggon
-Milwaukee "Hiawatha Express" rijtuig
-RVg_M1
-M1
-RVg_M1_tail
-M1 staartrijtuig
-RVg_M1_waggon
-M1 rijtuig
-RVg_O-2-4-0
-0-2-4-0 "Express"
-RVg_Passanger_Trailer
-KS passagiersaanhangwagen
-RVg_Post_Trailer
-KS aanhangwagen voor post
-RVg_Post_Truck_0
-KS 4051 Post
-RVg_Post_Truck_1
-KS 9051 post
-RVg_R-100_(carriage)
-R-100 rijtuig
-RVg_R-100_(front_engine)
-R-100
-RVg_R-100_(mail)
-R-100 postrijtuig
-RVg_R-100_(rear_engine)
-R-100 staartrijtuig
-RVg_Spike_Duplex
-TGV Duplex
-RVg_Spike_Duplex_tail
-TGV Duplex staartrijtuig
-RVg_Spike_Duplex_waggon
-TGV Duplex rijtuig
-RVg_Thunder_2
-Thunder II
-RVg_Thunder_2_Back
-Thunder II staartrijtuig
-RVg_Thunder_2_post
-Thunder II postrijtuig
-RVg_Thunder_2_wagon
-Thunder II rijtuig
-RVg_Tigress
-RVg Tigress
-RVg_Tigress_Back
-Tigress staartrijtuig
-RVg_Tigress_post
-Tigress postrijtuig
-RVg_Tigress_wagon
-Tigress rijtuig
-RVg_Type_S_Bulk
-Type-S (bulk)
-RVg_Type_S_Cement
-Type-S (cement)
-RVg_Type_S_Cistern
-Type-S (olie)
-RVg_Type_S_Post
-Type-S (post)
-RVg_Type_S_Van
-Type-S (goederen)
-RVg-0-4-4-0
-0-4-4-0 "Eight wheeler"
-RVg-1-4-1
-1-4-1 "Mikado"
-RVg-1-5-0-Goliath
-1-5-0 "Goliath"
-RVg-2-3-0
-2-3-0 "Christine"
-RVg-2-3-1
-2-3-1 "Slim Line"
-RVg-2-4-0
-2-4-0 "Runner"
-RVg-2-5-1
-2-5-1 "Hercules"
-RVg-B_101
-B22 "Regal"
-RVg-B_107
-B149 "Rode Dwerg"
-RVg-D22-Rola
-D22 "Rola"
-RVg-D23-Camel
-D23 "Camel"
-RVg-D41-Tubus
-D41 "Tubus"
-RVg-DB_MA461
-DB MA-461
-RVg-DB_MA461_Tail
-DB MA-461 staartrijtuig
-RVg-E17-Spring
-E17 "Spring"
-RVg-Express_Tender
-Express Tender
-RVg-Goods_waggon
-Goederenrijtuig
-RVg-Heavy-Tender
-Zware tender
-RVg-KS_4510-33
-KS 33
-RVg-KS_4510-45
-KS 45
-RVg-KS_4510-69
-KS 69
-RVg-KS_9020-31
-KS 9020-31
-RVg-KS_9020-58
-KS 9020-58
-RVg-KS_9020-92
-KS 9020-92
-RVg-LK_Cement_Truck
-LK V44 (cement)
-RVg-LK_Cooling_Truck
-LK V44 (koelwagen)
-RVg-LK_Goods_Truck
-LK V34 (goederen)
-RVg-LK_Grain_Truck
-LK V41 (graan)
-RVg-LK_Plank_Truck
-LK V37 (planken)
-RVg-LK_Steel_Truck
-LK V38 (staal)
-RVg-Oil-Tender
-Olietender
-RVg-Pioneer_Alladin
-Pioneer Alladin
-RVg-Pioneer_Alladin_rear
-Pioneer Alladin staartrijtuig
-RVg-Pioneer_Alladin_supply
-Pioneer Alladin motorrijtuig
-RVg-Pioneer_Alladin_waggon
-Pioneer Alladin rijtuig
-RVg-RHF401
-RHF 401 "Crocodile"
-RVg-S004-Little_Boy
-S004 "Little Boy"
-RVg-S033-Red_Dwarf
-S033 "Red Dwarf"
-RVg-S127-Blue_Cow
-S127 "Blue Cow"
-RVg-Sail_Goods_Ship_0
-Goederenschip
-RVg-Sail_Passanger_Ship_0
-Passagiersschip
-RVg-Steam_Goods_Ship_0
-Goederenschip
-RVg-Steam_Passanger_Ship_0
-Passagierschip
-RVg-Tender
-Tender
-RX_1064
-RX 1064
-S_Kroytor_Gaz-2
-Gaz-2
-S_Kroytor_Gaz-3
-Gaz-3
-S_Kroytor_Gaz-4
-Gaz-4
-S_Kroytor_Ikarus-260
-Ikarus-260
-S_Kroytor_Ikarus-260(l)
-Ikarus-260 Intercity
-S_Kroytor_Ikarus-280
-Ikarus 280
-S_Kroytor_Ikarus-280_ext
-Ikarus 280 verlenging
-S_Kroytor_LiAZ-5256
-LIAZ 5256
-S_Kroytor_LiAZ-677
-LIAZ 677
-S_Kroytor_Mercedes_Citaro
-Mercedes Citaro
-S_Kroytor_PAZ-672
-PAZ 672
-S_Kroytor_PAZ-772
-PAZ 772
-S_Kroytor_Traveler
-Touringcar
+#_________________________________vehicle - air_________________________________
+#_________________________________vehicle - air_________________________________
 SAC-Aerospatiale_Concorde_128_set
 Concorde
 SAC-Airbus_A300-600C_128_set
@@ -4996,12 +3950,410 @@ SAC-McDonnell_Douglas_MD-90_128_set
 McDonnell Douglas MD-90
 SAC-Rohrbach_Rocco_128_set
 Rohrbach Rocco
-Sail_Post_Ship_0
-Post zeilschip
-SBB_Re4_4_II
-SBB Re 4/4 II
-SBB_Re6_6
-SBB Re 6/6 "Gotthardlok"
+#___________________________vehicle - monorail_track____________________________
+#___________________________vehicle - monorail_track____________________________
+PMNV_TC-119-Snake
+TC-119 A "Snake"
+PMNV_TC-119-Snake_b
+TC-119 B "Snake"
+PMNV_TC-44-Hydrogen_Car
+TC-44 H2 A
+PMNV_TC-44-Hydrogen_Car_b
+TC-44 H2 B
+PMNV_TC-7_Astro_Trolley
+TC-7 Astro Trolley
+PMNV-TC-1_Turbo_Car
+TC-1 Turbo
+PMNV-TC-112-Hyper_Car
+TC-112 Hyper
+PMNV-TC-2_Turbo_Set
+TC-2 Turbo A
+PMNV-TC-2_Turbo_Set_b
+TC-2 Turbo B
+PMNV-TC-2_Turbo_Set_c
+TC-2 Turbo C
+PMNV-TC-5P_Mail_Man
+TC-5P "Mailman"
+yoshi_wup01
+GTW 72 A
+yoshi_wup02
+GTW 72 B
+yoshi_wup03
+GTW 72 C
+yoshi_wup1900
+GTW 01
+yoshi_wup1950
+GTW 62
+yoshi_wup196201
+GTW 69 A
+yoshi_wup196202
+GTW 69 B
+yoshi_wup196203
+GTW 69 C
+yoshi_wup196501
+GTW 85 A
+yoshi_wup196502
+GTW 85 B
+yoshi_wup196503
+GTW 85 C
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
+20ft_Container_Trailer-128set
+20-voets Goederen Container Aanhanger
+40ft_Container_Trailer
+40-voets Goederen Container Aanhanger
+AEC_Aclo_Regent_III
+AEC Aclo Regent III
+Airport_express_shuttle
+Luchthaven Express Shuttle Bus
+BB-TS_Milk_Mack_Trailer
+Oplegger voor melk
+Big_Erztruck
+Vrachtwagen voor Bulkgoed
+Bulk_trailer_0
+Bulk aanhanger
+Bulk_Truck_0
+Volvo 800 Bulkwagen
+Bulk_Truck_2
+Tatra 801
+Bulk_Truck_3
+Tatra 815
+Bulk_Truck_4
+Volvo LV76-78
+Car_Tramsport_Trailer_0
+Autotrailer
+Car_Transporter_0
+Autotrailer
+Car_Transporter_1
+Autotrailer
+Cement_trailer_0
+Cement aanhangwagen
+Cement_Truck_0
+Vrachtwagen (cement)
+Concrete_Truck_0
+Betonmixer
+Concrete_Truck_1
+Betonmixer
+Cooling_trailer_0
+Koel aanhangwagen
+Cooling_Truck_0
+Koelvrachtwagen
+Cooling_Truck_1
+Koelvrachtwagen
+Cooling_Truck_2
+Koelvrachtwagen
+CST_Interliner_E55
+CST Interliner E55
+CST_Interliner_E55_Rear
+CST Interliner E55 achterstel
+CST_Interliner_S45
+CST Interliner S45
+CST_Interliner_S55
+CST Interliner S55
+CST_Interliner_S55_Rear
+CST Interliner S55 achterstel
+CST_Stateliner
+CST touringbus "Stateliner"
+CST_Urban_City_DD
+CST dubbeldekker touringbus "Stateliner"
+Evil-Jitluen_67_Minibus
+Jitluen 67 Minibus
+Fluid_trailer_0
+Olie aanhangwagen
+Fluid_trailer_1
+Olie aanhangwagen
+Fluid_Truck_0
+Nissan 1800 olie
+Fluid_Truck_1
+Nissan 1100 olie
+Fluid_Truck_2
+ZUK-20 olie
+Fluid_Truck_3
+Magirus olie
+Flxible_Twin_FT2-40
+Flxible Twin FT2-40
+Goods_trailer_0
+Mitsubishi Fuso ST aanhangwagen
+Goods_trailer_1
+Mitsubishi Fuso HT aanhangwagen
+Goods_trailer_2
+Aanhangwagen stukgoederen
+Goods_trailer_3
+Aanhangwagen stukgoederen
+Goods_Truck_0
+Mitsubishi Fuso ST
+Goods_Truck_1
+Mitsubishi Fuso HT
+Goods_Truck_2
+Vrachtwagen voor stukgoederen
+Goods_Truck_3
+Vrachtwagen voor stukgoederen
+Goods_Truck_4
+Turbo
+Goods_Truck_5
+Gaz-4
+Grain_trailer_0
+Aanhangwagen voor graan
+Grain_Truck_1
+Tatra 815 graan
+Irisbus_Cristalis_ETB12
+Irisbus ETB12 "Cristalis"
+Irisbus_Cristalis_ETB18_front
+Irisbus ETB18 "Cristalis"
+Irisbus_Cristalis_ETB18_rear
+Irisbus ETB18 "Cristalis" II
+Irisbus_Magelys_HD
+Irisbus "Magelys"
+Irisbus_Magelys_HDH
+Irisbus "Magelys" XL 
+Kord_TT_bulk
+Kord TT (bulk)
+Kord_TT_grain
+Kord TT (graan)
+Mack_Truck_Cooling_Trailer
+Oplegger voor gekoelde waren
+Mack_Truck_Goods_Trailer
+Mack Truck oplegger
+Mack_Truck_Post_Trailer
+Mack Truck postoplegger
+Mail_Truck_2
+Postwagen
+Man_Lions_City
+Man Lions stadsbus
+Man_Lions_City_G_back
+Man Lions stadsbus B 
+Man_Lions_City_G_front
+Man Lions stadsbus A
+MHz_Grain_Trailer_0
+Aanhangwagen voor graan
+MHz_Long_Wood_Trailer
+Oplegger voor hout
+MHz_Tractor
+Tractor 74 ch
+MHz_Tractor_2
+Tractor 262 ch
+Milk_Truck_0
+Melktruck
+Milk_Truck_1
+Melktruck
+Milk_Truck_2
+Melktruck
+mja-20s_concretemixer
+20S Betonmixer
+mja-bulk_trailer_l
+Oplegger voor bulk
+mja-bulk_trailer_m
+Oplegger voor bulk
+mja-MAN19332-128set
+MAN 19332
+mja-ScaniaP380_tanker
+Scania P380 (olie)
+mja-ScaniaP420_concretemixer
+Scania P420 (beton)
+mja-ScaniaP420_longgoods
+Scania P380 (lange goederen)
+mja-ScaniaR500Topline
+Scania R500 Topline
+mja-ScaniaR500Topline_cooledgoods
+Scania R500 Topline (koelwagen)
+mja-ScaniaR500Topline_goods
+Scania R500 Topline (goederen)
+mja-ScaniaR620Topline
+R620 Topline
+mja-volvof88-128set
+Volvo F88
+mja-volvoVN660
+Volvo VN660
+mja-Zil130-128set
+Zil 130
+MS_sprinter_mail
+Mercedes Post Sprinter
+NovaBus_RTS-06_WFD
+NovaBus RTS-06 WFD
+Pegaso_6038_InterCity
+Pegaso 6038 Intercity
+Pegaso_6038_Urban
+Pegaso 6038 Urban
+Pegaso-Seida_5020_InterCity
+Pegaso-Seida 5020 Intercity
+Pegaso-Seida_5020_Urban
+Pegaso-Seida 5020 Urban
+Planck_Truck_0
+Truck (lange goederen)
+Plank_Truck_2
+Tatra 815 Bed (lange goederen)
+PMNV_50_Mack
+Mack LJT
+PMNV_Canonball_Car_Trailer
+Oplegger voor auto's
+PMNV_Cement_Trailer_Slow
+Aanhangwagen voor cement
+PMNV_Cement_Truck_P
+CTr-2 (cement)
+PMNV_Concrete_Truck
+Mack betonmixer
+PMNV_Cruiser
+Cruiser
+PMNV_Cruiser_Mini
+Cruiser Mini
+PMNV_Fabric_Trailer_0
+aanhangwagen voor textiel
+PMNV_Grain_Truck_0
+Vrachtwagen met graanbak
+PMNV_Hydrogen_Cruiser
+Waterstof-bus
+PMNV_Mack_Bulk_Trailer_0
+Oplegger voor bulk
+PMNV_Mack_Cement_Trailer_L
+Oplegger voor cement
+PMNV_Mack_Cement_Trailer_S
+Oplegger voor cement
+PMNV_Mack_Concrete_Trailer_O
+Oplegger voor beton
+PMNV_Mack_cooled_Trailer_O
+Oplegger voor gekoelde waren
+PMNV_Mack_Goods_Trailer_O
+Oplegger
+PMNV_Mack_Grain_Trailer_0
+Oplegger voor graan
+PMNV_Mack_Grain_Trailer_O
+Oplegger voor graan
+PMNV_Mack_Log_Trailer_L
+Oplegger voor lange goederen
+PMNV_Mack_Log_Trailer_M
+Oplegger voor lange goederen
+PMNV_Mack_Log_Trailer_S
+Oplegger voor lange goederen
+PMNV_Mack_Milk_Trailer_O
+Oplegger voor vloeibaar voedsel
+PMNV_Mack_Oil_Trailer_L
+Oplegger voor olie
+PMNV_Mack_Oil_Trailer_S
+Oplegger voor olie
+PMNV_Mack_Planck_Trailer_0
+Oplegger voor lange goederen
+PMNV_Mack_Post_Trailer_O
+Oplegger voor post
+PMNV_Mack_Steel_Trailer_L
+Oplegger voor staal
+PMNV_Mack_Steel_Trailer_S
+Oplegger voor staal
+PMNV_Mail_Truck_1
+Posttruck
+PMNV_Mail_Truck_2
+Posttruck
+PMNV_MHz_Truck_0
+Cabover 145
+PMNV_Milk_Trailer_0
+Aanhangwagen voor melk
+PMNV_Open_Goods_Trailer_L
+Oplegger
+PMNV_Open_Goods_Trailer_S
+Oplegger
+PMNV_Plank_Trailer_0
+Aanhangwagen voor planken
+PMNV_Post_Trailer_0
+Aanhangwagen voor post
+PMNV_Steel_Trailer_0
+aanhangwagen voor staal
+PMNV-PB1970
+PB-1970
+Praga_Bus
+Praga Bus
+Praga_N_bulk
+Praga N (bulk)
+Praga_N_cement
+Praga N (cement)
+Praga_N_Cistern
+Praga N (olie)
+Praga_N_milk
+Praga N (melk)
+Praga_TOT_128
+Praga TOT
+RVg_1064_White_Bulk
+White 1064 (bulk)
+RVg_1064_White_Cement
+White 1064 (cement)
+RVg_1064_White_Cooled
+White 1064 (gekoelde waren)
+RVg_1064_White_Fluid
+White 1064 (olie)
+RVg_1064_White_Goods
+White 1064 (goederen)
+RVg_Passanger_Trailer
+KS passagiersaanhangwagen
+RVg_Post_Trailer
+KS aanhangwagen voor post
+RVg_Post_Truck_0
+KS 4051 Post
+RVg_Post_Truck_1
+KS 9051 post
+RVg_Type_S_Bulk
+Type-S (bulk)
+RVg_Type_S_Cement
+Type-S (cement)
+RVg_Type_S_Cistern
+Type-S (olie)
+RVg_Type_S_Post
+Type-S (post)
+RVg_Type_S_Van
+Type-S (goederen)
+RVg-B_101
+B22 "Regal"
+RVg-B_107
+B149 "Rode Dwerg"
+RVg-KS_4510-33
+KS 33
+RVg-KS_4510-45
+KS 45
+RVg-KS_4510-69
+KS 69
+RVg-KS_9020-31
+KS 9020-31
+RVg-KS_9020-58
+KS 9020-58
+RVg-KS_9020-92
+KS 9020-92
+RVg-LK_Cement_Truck
+LK V44 (cement)
+RVg-LK_Cooling_Truck
+LK V44 (koelwagen)
+RVg-LK_Goods_Truck
+LK V34 (goederen)
+RVg-LK_Grain_Truck
+LK V41 (graan)
+RVg-LK_Plank_Truck
+LK V37 (planken)
+RVg-LK_Steel_Truck
+LK V38 (staal)
+RX_1064
+RX 1064
+S_Kroytor_Gaz-2
+Gaz-2
+S_Kroytor_Gaz-3
+Gaz-3
+S_Kroytor_Gaz-4
+Gaz-4
+S_Kroytor_Ikarus-260
+Ikarus-260
+S_Kroytor_Ikarus-260(l)
+Ikarus-260 Intercity
+S_Kroytor_Ikarus-280
+Ikarus 280
+S_Kroytor_Ikarus-280_ext
+Ikarus 280 verlenging
+S_Kroytor_LiAZ-5256
+LIAZ 5256
+S_Kroytor_LiAZ-677
+LIAZ 677
+S_Kroytor_Mercedes_Citaro
+Mercedes Citaro
+S_Kroytor_PAZ-672
+PAZ 672
+S_Kroytor_PAZ-772
+PAZ 772
+S_Kroytor_Traveler
+Touringcar
 Sentinel_Cement_Lorry
 Sentinel (cement)
 Sentinel_Cement_Trailer
@@ -5014,12 +4366,6 @@ Sentinel_Wood_Lorry
 Sentinel (lange goederen)
 Sentinel_Wood_Trailer
 Sentinel aanhangwagen voor lange goederen
-Silver_City_Comet
-Silver City Comet
-Silver_City_Comet_Car
-Silver City Comet rijtuig
-Silver_City_Comet_Post_Car
-Silver City Comet postrijtuig
 SK_Mail_Truck_1
 Posttruck
 skoda_1_tr_128
@@ -5028,8 +4374,6 @@ skoda_10_tr_128
 Skoda 10 Trolley
 skoda_10_tr_rear_128
 Skoda 10 Trolley II
-Skoda_109E
-Skoda 109E
 skoda_11_tr_128
 Skoda 11 Trolley
 skoda_12_tr_128
@@ -5078,6 +4422,630 @@ skoda_sanos_200_tr_128
 Skoda Sanos 200 Trolley
 skoda_sanos_200_tr_rear_128
 Skoda Sanos 200 Trolley II
+SMC_H-38_City_Bus
+H-38 MiniBus
+SMC_H-98_City_Bus
+H-98 Stadsbus
+Steel_Truck_0
+PMNV Bed Truck (staal)
+TATRA_400_T_128
+Tatra 400 T
+TATRA_401_T_128
+Tatra 401 T
+TATRA_86_T_128
+Tatra 86 T
+TS_Mack_Bulk_Trailer_0
+Oplegger voor bulk
+Twin_Coach_40
+Twin Coach 40
+Vitus-AVECO_Eurocargo_Bretter
+Vitus-Aveco Eurocargo (vrachtwagen planken))
+Vitus-AVECO_Eurocargo_bulk_transporter
+Vitus-Aveco Eurocargo (vrachtwagen zwaar bulk vervoer)
+Vitus-AVECO_Eurocargo_freezing
+Vitus-Aveco Eurocargo (koel vrachtwagen)
+Vitus-AVECO_Eurocargo_tanker
+Aveco Eurocargo olie
+Vitus-AVECO_Eurocargo_transporter
+Aveco Eurocargo (goederen)
+VSYS_Car_Trailer_0
+Aanhangwagen voor auto's
+VSYS_Concrete_Trailer_0
+aanhangwagen voor beton
+VSYS_Post_Bus_Trailer_0
+Aanhangwagen voor post
+VSYS_Post_Bus_Trailer_1
+Aanhangwagen voor post
+VSYS_Post_Bus_Trailer_2
+Aanhangwagen voor post
+VSYS_Steel_Trailer_0
+Aanhangwagen voor staal
+VSYS_Tatra_138
+Tatra 138 (bulk)
+VSYS_Tatra_138_Grain
+Tatra 138 (graan)
+VSYS_Tatra_813_Clossus
+Tatra 813 "Colossus"
+Wood_Trailer_0
+Aanhangwagen voor lange goederen
+Wood_Truck_0
+Volvo Transporter (lange goederen)
+Wood_Truck_1
+Ford V8 coe (lange goederen)
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+1Benst134
+B-134 "Pixie"
+1Benst135t
+B-135 "Gremlin"
+1Benst138
+B-138 "Apple pie"
+1Benst162t
+B-162 "Jet"
+1Benst238
+B-238 "Kikvors"
+1Dampflokomotive
+H-Trans 0-4-0T
+2000_Class
+Transadelaide Klasse 2000
+2000_Class_Car
+Transadelaide Klasse 2000 rijtuig
+2000_Class_Tail
+Transadelaide Klasse 2000 staartrijtuig
+2Diesellokomotive
+BR218
+3Bens186t
+B-186 "Citroen"
+3Dampflokomotive
+0-3-0 "Chippy"
+620_Railcar_Addon
+Klasse 620
+720_Railcar_Addon
+Klasse 720
+Autotransportwagen
+Autotransporter
+Big_Bretterwagen
+Oplegger voor planken
+BR-373_Back
+Eurostar BR-373 staartrijtuig
+BR-373_BackCar
+Eurostar BR-373 laatste rijtuig
+BR-373_Car
+Eurostar BR-373 rijtuig
+BR-373_Eurostar
+Eurostar BR-373
+BR-373_FrontCar
+Eurostar BR-373 eerste rijtuig
+Bretterwagen
+Oplegger voor planken
+Budd_Coach
+Budd RPO rijtuig
+Budd_Lounge
+Budd RPO panoramarijtuig
+Budd_Observation
+Budd RPO staartrijtuig
+Budd_RPO
+Budd RPO postrijtuig
+caboose_1
+Personeelsrijtuig
+caboose_2
+Personeelsrijtuig
+caboose_3
+Personeelsrijtuig
+Car_Waggon_1
+Autowagon
+Car_Waggon_2
+Autowagon
+CB_ALBATROS
+Skoda 498 "Albatros"
+CB_DB-130_8
+BRAW61000 "Taiga Drum"
+Cement_Carrier_Fast
+Rijtuig voor cement
+Cement_Waggon_0
+Rijtuig voor cement
+Cement_Waggon_1
+Rijtuig voor cement
+Cementwagen
+Rijtuig voor cement
+CKD_749
+CKD 749
+CKD_750
+CKD 750
+Concretewagen
+Rijtuig voor beton
+Concretewagen_1
+Rijtuig voor beton
+Cooling_wagon_0
+Koelrijtuig
+Cooling_wagon_1
+Koelrijtuig
+Cooling_wagon_2
+Koelrijtuig
+CPH_Motorcar
+CPH
+DB_ADm101
+DB ADm101
+DB_Apmz121
+DB Apmz121
+DB_Bm235
+DB Bm235
+DB_BR103_1
+DB BR-103
+E_423
+E-432 "Topklas"
+EMD_E5A_Silver_Meteor
+EMD E5A "Silver Meteor"
+EMD_E5B_Silver_Comet
+EMD E5B "Silver Comet"
+EMD-FT_(A)
+EMD-FT A
+EMD-FT_(B)
+EMD-FT B
+EMD-FT_(C)
+EMD-FT C
+Evil_DF-11
+DF-11
+Evil_P-100_(carriage)
+P-100 rijtuig
+Evil_P-100_(front_engine)
+P-100
+Evil_P-100_(mail)
+P-100 postrijtuig
+Evil_P-100_(rear_engine)
+P-100 staartrijtuig
+Express_tender
+Tender
+fluid_00_Wood_Barrels_Wagon
+Rijtuig met houten tonnen
+fluid_01_Iron_Tanks_Wagon
+Rijtuig met ijzeren tonnen
+fluid_02_CSD-502_Tank_Wagon
+CSD 502 tankrijtuig
+fluid_03_CSD-556_Tank_Wagon
+CSD 556 tankrijtuig
+fluid_04_Esso_Tank_Wagon
+Esso tankrijtuig
+fluid_05_CEPSA_Tank_Wagon
+CEPSA rijtuig
+fluid_06_VTG_Tank_Wagon
+VTG tankrijtuig
+fluid_07_Esso_XL_Tank_Wagon
+Esso XL tankrijtuig
+fluid_08_VTG_CeSa_Tank_Wagon
+VTG Cesa tankrijtuig
+Goods_waggon_0
+Goederenrijtuig
+Goods_waggon_1
+Goederenrijtuig
+Goods_waggon_2
+Goederenrijtuig
+Goods_waggon_3
+Goederenrijtuig
+Goods_waggon_4
+Goederenrijtuig
+Goods_waggon_5
+Goederenrijtuig
+Haru_2C1_Cheetah
+2C1 "Cheetah"
+Haru_2D1_Buffalo
+2D1 "Buffalo"
+Haru_C44-9W
+C44-9W "Dash"
+Haru_DF4
+DF4
+Haru_E3_KOMACHI
+E3 "Komachi"
+Haru_E3_KOMACHI_(mid)
+E3 "Komachi" pantograaf
+Haru_E3_KOMACHI_(rear)
+E3 "Komachi" staartrijtuig
+Haru_E3_KOMACHI_(Trailer)
+E3 "Komachi" rijtuig
+Haru_F7A
+F7 A
+Haru_F7B
+F7 B
+Haru_HST
+Class 43 HST
+Haru_HST_mid
+Class 43 HST rijtuig
+Haru_HST_rear
+Class 43 HST staartrijtuig
+Haru_Spike-PSE_Head1
+TGV PSE "Aiguille"
+Haru_Spike-PSE_Head2
+TGV PSE "Aiguille" eerste rijtuig
+Haru_Spike-PSE_Tail1
+TGV PSE "Aiguille" staartrijtuig
+Haru_Spike-PSE_Tail2
+TGV PSE "Aiguille" laatste rijtuig
+Haru_Spike-PSE_Waggon
+TGV PSE "Aiguille" rijtuig
+Haru_Tender
+Tender
+Haru_VT98
+VT98
+Haru_VT98_car
+VT98 rijtuig
+Haru-373
+JR Central 373
+Haru-373_car
+JR Central 373 rijtuig
+Haru-373_tail
+JR Central 373 staartrijtuig
+Haru-ACE1_Head
+ACE 1
+Haru-ACE1_Tail
+ACE 1 staartrijtuig
+Haru-ACE1_Waggon1
+ACE 1 rijtuig 1ste klasse
+Haru-ACE1_Waggon2
+ACE 1 restauratierijtuig
+Haru-ACE1_Waggon3
+ACE 1 rijtuig 2de klasse
+Haru-BR182_Taurus
+BR-182 "Taurus"
+Haru-IC3
+IC-3
+Haru-IC3_car
+IC-3 rijtuig
+Haru-IC3_tail
+IC-3 staartrijtuig
+Haru-PlanV
+Plan V
+Haru-PlanV(rear)
+Plan V staartijtuig
+Haru-PMNV_F7-Coach
+F7 rijtuig
+Haru-PMNV_F7-Mail_Car
+F7 postrijtuig
+Haru-TEM2
+TEM-2
+Haru-X2000
+X2000
+Haru-X2000_mid
+X2000 rijtuig
+Haru-X2000_rear
+X2000 staartrijtuig
+Holzwagen
+Rijtuig voor lange goederen
+Holzwagen_0
+Rijtuig voor lange goederen
+Holzwagen_1
+Rijtuig voor lange goederen
+JNR_C11
+JNR SL C11
+JNR_C62
+JNR SL C62
+JNR_D51
+JNR SL D51
+JNR_DD51
+JNR DD51
+JNR_tender_S
+JNR Tender
+JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
+JR 700 Shinkansen "Hikari Rail Star"
+JR_700_Shinkansen_HRS_(Middle_Section)_PC
+JR 700 Shinkansen "Hikari Rail Star" rijtuig
+JR_700_Shinkansen_HRS_(Pantograph_I)_PC
+JR 700 Shinkansen "Hikari Rail Star" rijtuig met pantograaf
+JR_700_Shinkansen_HRS_(Pantograph_II)_PC
+JR 700 Shinkansen "Hikari Rail Star" rijtuig met pantograaf
+JR_700_Shinkansen_HRS_(Tailcar)_PC
+JR 700 Shinkansen "Hikari Rail Star" staartrijtuig
+LKAB_IORE_Back
+LKAB IORE II
+LKAB_IORE_Front
+LKAB IORE
+MA461_waggon
+DB MA-461 rijtuig
+Marks_Passagierwagen
+Express rijtuig
+Marks_Postwagen
+Express postrijtuig
+Marks-Deltic
+"Deltic"
+milk_00_bottled_milk_wagon
+Rijtuig met melkkannen
+milk_01_twin_barrel_wagon
+Rijtuig met tonnen voor vloeibaar voedsel
+milk_02_old_tank_wagon
+Rijtuig voor vloeibaar voedsel
+milk_03_6_wheeled_milk_wagon
+Rijtuig voor vloeibaar voedsel
+milk_04_rvg_early_milk_waggon
+Rijtuig voor vloeibaar voedsel
+milk_05_milk_waggon_1
+Rijtuig voor vloeibaar voedsel
+milk_06_4_axle_milk_wagon
+Rijtuig voor vloeibaar voedsel
+milk_07_milk_waggon_0
+Rijtuig voor vloeibaar voedsel
+milk_08_bloomsburg_fair_milk_wagon
+Rijtuig voor vloeibaar voedsel
+milk_09_bordens_milk_wagon
+Rijtuig voor vloeibaar voedsel
+MTAB_Dm_Back
+MTAB Dm III
+MTAB_Dm_Front
+MTAB Dm I
+MTAB_Dm3
+MTAB Dm3 II
+Passagierwagen
+BTx 060 rijtuig 2de klasse
+Passanger_waggon_0
+JNR OHA 31
+Passanger_waggon_1
+OHAFU 50 rijtuig 2de klasse
+Passanger_waggon_2
+JNR ORO 40 rijtuig 2de klasse
+Passanger_waggon_3
+BTx 050 rijtuig 2de klasse
+Passanger_waggon_MAITE39
+JNR MAITE 39 1ste klasse
+Pioneer_Zephyr
+Pioneer Zephyr
+Pioneer_Zephyr_Car
+Pioneer Zephyr rijtuig
+Pioneer_Zephyr_Tail
+Pioneer Zephyr staartrijtuig
+Plank_waggon_0
+Rijtuig voor lange goederen
+Plank_waggon_1
+Plankwagen, rijtuig voor lange goederen
+Post_waggon_0
+Postrijtuig
+Postwagen
+Postrijtuig
+Renfe_250_(German)
+RENFE Klasse 250 "Duitser"
+Renfe_252_Altaria
+RENFE Klasse 252 "Altaria"
+Renfe_269_Altaria
+RENFE Klasse 269 "Altaria"
+Renfe_270
+RENFE Klasse 270
+Renfe_274_(Bathtube)
+RENFE Klasse 274 "Badkuip"
+Renfe_276_(French)
+RENFE Klasse 276 "Frans"
+Renfe_279_(Benemerita)
+RENFE Klasse 279 "Benemérita"
+Renfe_310_(Coastguard)
+RENFE Klasse 310 "Kustwacht"
+Renfe_319_(Yankie)
+RENFE Klasse 319 "Yankie"
+Renfe_333_(Rambo)
+RENFE Klasse 333 "Rambo"
+Renfe_340_(Egg)
+RENFE Klasse 340 "Ei"
+Renfe_438_Back
+RENFE Klasse 438 staartrijtuig
+Renfe_438_Front
+RENFE Klasse 438
+Renfe_440
+RENFE Klasse 440
+Renfe_440_Back
+RENFE Klasse 440 staartrijtuig
+Renfe_440_Car
+RENFE Klasse 440 rijtuig
+Renfe_447
+RENFE Klasse 447
+Renfe_447_Back
+RENFE Klasse 447 staartrijtuig
+Renfe_447_Car
+RENFE Klasse 447 rijtuig
+Renfe_Series_10200_(Player_Colors)
+RENFE Klasse 10200
+Renfe_Series_301_(Player_Colors)
+RENFE Klasse 301
+Renfe_Series_311_(Player_Colors)
+RENFE Klasse 311
+Renfe_Series_314_(Player_Colors)
+RENFE Klasse 314
+Renfe_Series_316_(Player_Colors)
+RENFE Klasse 316 "Marilyn"
+Renfe_Series_318_(Player_Colors)
+RENFE Klasse 318
+Renfe_Series_319.300_(Player_Colors)
+RENFE Klasse 319.300
+Renfe_Series_334_(Player_Colors)
+RENFE Klasse 334
+Renfe_Series_350_Talgo_(Player_Colors)
+RENFE Klasse 350 "Talgo"
+Renfe_Series_350_Talgo_Car_(Player_Colors)
+RENFE Klasse 350 "Talgo" rijtuig
+Renfe_Series_350_Talgo_Mail_Car_(Player_Colors)
+RENFE Klasse 350 "Talgo" postrijtuig
+Renfe_Series_350_Talgo_Restaurant_Car_(Player_Colors)
+RENFE Klasse 350 "Talgo" restauratierijtuig
+Renfe_Tgpps_Grain_Hopper
+RENFE TGPPS (graan)
+Renfe_Uagp_Grain_Hopper
+RENFE UAGP (graan)
+Renfe_Z-2000_Car
+RENFE Z-2000 rijtuig
+Renfe_Z-2000_Mail_Car
+RENFE Z-2000 postrijtuig
+Renfe6000_Post
+RENFE Klasse 6000 postrijtuig
+Renfe6000_Psg
+RENFE Klasse 6000 rijtuig
+RVg_0-1-4-0
+0-1-4-0
+RVg_1945_box_car
+Goederenrijtuig
+RVg_1951_box_car
+Goederenrijtuig
+RVg_1955_box_car
+Goederenrijtuig
+RVg_1962_box_car
+Goederenrijtuig
+RVg_1969_box_car
+Goederenrijtuig
+RVg_1976_box_car
+Goederenrijtuig
+RVg_1983_box_car
+Goederenrijtuig
+RVg_1989_container_car
+Goederenrijtuig
+RVg_1994_container_car
+Goederenrijtuig
+RVg_2000_container_car
+Goederenrijtuig
+RVg_2006_container_car
+Goederenrijtuig
+RVg_2011_container_car
+Goederenrijtuig
+RVg_Bulk_Waggon_00
+Rijtuig voor bulkgoederen
+RVg_Bulk_Waggon_01
+Rijtuig voor bulkgoederen
+RVg_Bulk_Waggon_02
+Rijtuig voor bulkgoederen
+RVg_Bulk_Waggon_03
+Rijtuig voor bulkgoederen
+RVg_Bulk_Waggon_04
+Rijtuig voor bulkgoederen
+RVg_Bulk_Waggon_05
+Rijtuig voor bulkgoederen
+RVg_Bulk_Waggon_06
+Rijtuig voor bulkgoederen
+RVg_Cementwagen
+Rijtuig voor cement
+RVg_Cooling_car
+Koelrijtuig
+RVg_Daylight
+Southern Pacific GS-4 "Daylight"
+RVg_Daylight_dome
+Southern Pacific GS-4 "Daylight" panoramarijtuig
+RVg_Daylight_end
+Southern Pacific GS-4 "Daylight" staartrijtuig
+RVg_Daylight_post
+Southern Pacific GS-4 "Daylight" postrijtuig
+RVg_Daylight_tender
+Southern Pacific GS-4 "Daylight" tender
+RVg_Daylight_waggon
+Southern Pacific GS-4 "Daylight" rijtuig
+RVg_Flying_Berliner_(front)
+Flying Berliner
+RVg_Flying_Berliner_(tail)
+Flying Berliner staartrijtuig
+RVg_Hiawatha
+Milwaukee "Hiawatha Express"
+RVg_Hiawatha_dome
+Milwaukee "Hiawatha Express" panoramarijtuig
+RVg_Hiawatha_end
+Milwaukee "Hiawatha Express" staartrijtuig
+RVg_Hiawatha_post
+Milwaukee "Hiawatha Express" postrijtuig
+RVg_Hiawatha_tender
+Milwaukee "Hiawatha Express" tender
+RVg_Hiawatha_waggon
+Milwaukee "Hiawatha Express" rijtuig
+RVg_M1
+M1
+RVg_M1_tail
+M1 staartrijtuig
+RVg_M1_waggon
+M1 rijtuig
+RVg_O-2-4-0
+0-2-4-0 "Express"
+RVg_R-100_(carriage)
+R-100 rijtuig
+RVg_R-100_(front_engine)
+R-100
+RVg_R-100_(mail)
+R-100 postrijtuig
+RVg_R-100_(rear_engine)
+R-100 staartrijtuig
+RVg_Spike_Duplex
+TGV Duplex
+RVg_Spike_Duplex_tail
+TGV Duplex staartrijtuig
+RVg_Spike_Duplex_waggon
+TGV Duplex rijtuig
+RVg_Thunder_2
+Thunder II
+RVg_Thunder_2_Back
+Thunder II staartrijtuig
+RVg_Thunder_2_post
+Thunder II postrijtuig
+RVg_Thunder_2_wagon
+Thunder II rijtuig
+RVg_Tigress
+Tigress
+RVg_Tigress_Back
+Tigress staartrijtuig
+RVg_Tigress_post
+Tigress postrijtuig
+RVg_Tigress_wagon
+Tigress rijtuig
+RVg-0-4-4-0
+0-4-4-0 "Eight wheeler"
+RVg-1-4-1
+1-4-1 "Mikado"
+RVg-1-5-0-Goliath
+1-5-0 "Goliath"
+RVg-2-3-0
+2-3-0 "Christine"
+RVg-2-3-1
+2-3-1 "Slim Line"
+RVg-2-4-0
+2-4-0 "Runner"
+RVg-2-5-1
+2-5-1 "Hercules"
+RVg-D22-Rola
+D22 "Rola"
+RVg-D23-Camel
+D23 "Camel"
+RVg-D41-Tubus
+D41 "Tubus"
+RVg-DB_MA461
+DB MA-461
+RVg-DB_MA461_Tail
+DB MA-461 staartrijtuig
+RVg-E17-Spring
+E17 "Spring"
+RVg-Express_Tender
+Express Tender
+RVg-Goods_waggon
+Goederenrijtuig
+RVg-Heavy-Tender
+Zware tender
+RVg-Oil-Tender
+Olietender
+RVg-Pioneer_Alladin
+Pioneer Alladin
+RVg-Pioneer_Alladin_rear
+Pioneer Alladin staartrijtuig
+RVg-Pioneer_Alladin_supply
+Pioneer Alladin motorrijtuig
+RVg-Pioneer_Alladin_waggon
+Pioneer Alladin rijtuig
+RVg-RHF401
+RHF 401 "Crocodile"
+RVg-S004-Little_Boy
+S004 "Little Boy"
+RVg-S033-Red_Dwarf
+S033 "Red Dwarf"
+RVg-S127-Blue_Cow
+S127 "Blue Cow"
+RVg-Tender
+Tender
+SBB_Re4_4_II
+SBB Re 4/4 II
+SBB_Re6_6
+SBB Re 6/6 "Gotthardlok"
+Silver_City_Comet
+Silver City Comet
+Silver_City_Comet_Car
+Silver City Comet rijtuig
+Silver_City_Comet_Post_Car
+Silver City Comet postrijtuig
+Skoda_109E
+Skoda 109E
 skoda151
 Skoda 151
 skoda163
@@ -5086,10 +5054,6 @@ skoda180
 Skoda 180
 SMC_Early_Grain_Hopper
 Graanrijtuig
-SMC_H-38_City_Bus
-H-38 MiniBus
-SMC_H-98_City_Bus
-H-98 Stadsbus
 SMC_HDL-1400
 HDL-1400
 SMC_HDL-1600
@@ -5186,10 +5150,166 @@ Stahlwagen_2
 Staalwagon
 Stahlwagen_3
 Staalwagon
-Steel_Truck_0
-PMNV Bed Truck (staal)
-Stoyko_Peev
-Stoyko Peev
+TalgoExpressCar
+Talgo Express rijtuig
+TalgoExpressMail
+Talgo Express postrijtuig
+TalgoExpressRestaurant
+Talgo Express restauratierijtuig
+TalgoRegionalCar
+Talgo regionaal rijtuig
+TalgoRegionalMail
+Talgo regionaal postrijtuig
+TGV_4400
+TGV 4400
+TGV_4400_Back
+TGV 4400 staartrijtuig
+TGV_4400_Car
+TGV 4400 rijtuig
+TGV_Atlantique
+TGV Atlantique
+TGV_Atlantique_(Back)
+TGV Atlantique staartrijtuig
+TGV_Atlantique_(Car)
+TGV Atlantique rijtuig
+TGV_Post
+TGV La Poste
+TGV_Post_Back
+TGV La Poste staartrijtuig
+TGV_Post_Car_A
+TGV La Poste postrijtuig A
+TGV_Post_Car_B
+TGV La Poste postrijtuig B
+Thunder_(front_engine)
+BB Thunder
+Thunder_(mail)
+BB Thunder postrijtuig
+Thunder_(rear_engine)
+BB Thunder (eind)
+Thunder_(waggon)
+BB Thunder (tussenstel)
+TMB_Class_100
+TMB metrostel klasse 100
+TMB_Class_1000
+TMB metrostel klasse 1000
+TMB_Class_2000
+TMB metrostel klasse 2000
+TMB_Class_2000_Car
+TMB metrostel klasse 2000 rijtuig
+TMB_Class_200A
+TMB metrostel klasse 200A
+TMB_Class_200B
+TMB metrostel klasse 200B
+TMB_Class_200B_Car
+TMB metrostel klasse 200B rijtuig
+TMB_Class_300
+TMB metrostel klasse 300
+TMB_Class_300_Car
+TMB metrostel klasse 300 rijtuig
+TMB_Class_3000
+TMB metrostel klasse 3000
+TMB_Class_3000_Back
+TMB metrostel klasse 3000 staartrijtuig
+TMB_Class_3000_Car
+TMB metrostel klasse 3000 rijtuig
+TMB_Class_400
+TMB metrostel klasse 400
+TMB_Class_400_Car
+TMB metrostel klasse 400 rijtuig
+TMB_Class_500
+TMB metrostel klasse 500
+TMB_Class_500_Car
+TMB metrostel klasse 500 rijtuig
+TMB_Class_6000
+TMB metrostel klasse 6000
+TMB_Class_6000_Back
+TMB metrostel klasse 6000 staartrijtuig
+TMB_Class_6000_Car
+TMB metrostel klasse 6000 rijtuig
+TMB_Class_6000_Powered_Car
+TMB metrostel klasse 6000 motorrijtuig
+vsys_garatt_0
+Garatt 24-42 voorstel
+vsys_garatt_1
+Garatt 24-42 middenstel
+vsys_garatt_2
+Garatt 24-42 tender
+VT105_Addon
+VT-105 "Senator"
+VT105_Car_Addon
+VT-105 "Senator" rijtuig
+VT105_Tail_Addon
+VT-105 "Senator" staartrijtuig
+#_____________________________vehicle - tram_track______________________________
+#_____________________________vehicle - tram_track______________________________
+Citadis302_Le_Mans_1
+Citadis 302 A2
+Citadis302_Le_Mans_2
+Citadis 302 B2
+Citadis302_Le_Mans_3
+Citadis 302 C2
+Citadis302_Le_Mans_4
+Citadis 302 D2
+Citadis302_Le_Mans_5
+Citadis 302 E2
+Citadis302_Le_Mans_long_version_402
+Citadis 302 lange versie
+Citadis302_Reims_front
+Citadis 302 A1
+Citadis302_Reims_pantograph
+Citadis 302 C1
+Citadis302_Reims_suspended
+Citadis 302 B1
+Citadis402_Bordeaux_1
+Citadis 402 A2
+Citadis402_Bordeaux_2
+Citadis 402 B2
+Citadis402_Bordeaux_3
+Citadis 402 C2
+Citadis402_Bordeaux_4
+Citadis 402 D2
+Citadis402_Bordeaux_5
+Citadis 402 E2 
+Citadis402_Bordeaux_6
+Citadis 402 F2 
+Citadis402_Bordeaux_7
+Citadis 402 G2 
+Citadis402_Tours_back
+Citadis 402 D1
+Citadis402_Tours_front
+Citadis 402 A1
+Citadis402_Tours_motor
+Citadis 402 C1
+Citadis402_Tours_suspended
+Citadis 402 B1
+DueWAG_GT6_motorwaggon
+Due WAG GT6 A
+DueWAG_GT6_tailwaggon
+Due WAG GT6 B
+EM400_1
+EM400
+Fretadis_frigo_long
+Fretadis koelrijtuig lang 
+Fretadis_frigo_short
+Fretadis koelrijtuig kort
+Fretadis_goods_long
+Fretadis goederenrijtuig lang
+Fretadis_goods_short
+Fretadis goederenrijtuig kort
+Fretadis_postal_long
+Fretadis postrijtuig lang
+Fretadis_postal_short
+Fretadis postrijtuig kort
+Haru_Tatra-T3
+Tatra T3
+MHz_TRAM_1930
+T-113
+MHz_TRAM_1980
+T-235
+R_01
+R01
+R_02
+R02
 T_101
 T101
 T_102
@@ -5274,178 +5394,126 @@ T_222_Combino_Supra_D
 T222D "Combino Supra"
 T_222_Combino_Supra_E
 T222E "Combino Supra"
-TalgoExpressCar
-Talgo Express rijtuig
-TalgoExpressMail
-Talgo Express postrijtuig
-TalgoExpressRestaurant
-Talgo Express restauratierijtuig
-TalgoRegionalCar
-Talgo regionaal rijtuig
-TalgoRegionalMail
-Talgo regionaal postrijtuig
-TATRA_400_T_128
-Tatra 400 T
-TATRA_401_T_128
-Tatra 401 T
-TATRA_86_T_128
-Tatra 86 T
-TGV_4400
-TGV 4400
-TGV_4400_Back
-TGV 4400 staartrijtuig
-TGV_4400_Car
-TGV 4400 rijtuig
-TGV_Atlantique
-TGV Atlantique
-TGV_Atlantique_(Back)
-TGV Atlantique staartrijtuig
-TGV_Atlantique_(Car)
-TGV Atlantique rijtuig
-TGV_Post
-TGV La Poste
-TGV_Post_Back
-TGV La Poste staartrijtuig
-TGV_Post_Car_A
-TGV La Poste postrijtuig A
-TGV_Post_Car_B
-TGV La Poste postrijtuig B
-Thunder_(front_engine)
-BB Thunder
-Thunder_(mail)
-BB Thunder postrijtuig
-Thunder_(rear_engine)
-BB Thunder (eind)
-Thunder_(waggon)
-BB Thunder (tussenstel)
-TMB_Class_100
-TMB metrostel klasse 100
-TMB_Class_1000
-TMB metrostel klasse 1000
-TMB_Class_2000
-TMB metrostel klasse 2000
-TMB_Class_2000_Car
-TMB metrostel klasse 2000 rijtuig
-TMB_Class_200A
-TMB metrostel klasse 200A
-TMB_Class_200B
-TMB metrostel klasse 200B
-TMB_Class_200B_Car
-TMB metrostel klasse 200B rijtuig
-TMB_Class_300
-TMB metrostel klasse 300
-TMB_Class_300_Car
-TMB metrostel klasse 300 rijtuig
-TMB_Class_3000
-TMB metrostel klasse 3000
-TMB_Class_3000_Back
-TMB metrostel klasse 3000 staartrijtuig
-TMB_Class_3000_Car
-TMB metrostel klasse 3000 rijtuig
-TMB_Class_400
-TMB metrostel klasse 400
-TMB_Class_400_Car
-TMB metrostel klasse 400 rijtuig
-TMB_Class_500
-TMB metrostel klasse 500
-TMB_Class_500_Car
-TMB metrostel klasse 500 rijtuig
-TMB_Class_6000
-TMB metrostel klasse 6000
-TMB_Class_6000_Back
-TMB metrostel klasse 6000 staartrijtuig
-TMB_Class_6000_Car
-TMB metrostel klasse 6000 rijtuig
-TMB_Class_6000_Powered_Car
-TMB metrostel klasse 6000 motorrijtuig
-TS_Mack_Bulk_Trailer_0
-Oplegger voor bulk
-Twin_Coach_40
-Twin Coach 40
+#________________________________vehicle - water________________________________
+#________________________________vehicle - water________________________________
+Black_Osprey
+Black Osprey staal
+Black_Osprey_(goods)
+Black Osprey goederen
+Black_Osprey_(grain)
+Black Osprey graan
+brick_goelette
+Zeilschip
+brigantin
+Vissersboot
+British_Premier
+British Permier olie
+Eaglescliffe_Hall
+Eaglescliffe Hall
+Eaglescliffe_Hall_(lumber)
+Eaglescliffe Hall
+Edmund_Fitzgerald
+Edmund Fitzgerald
+Edmund_Fitzgerald_(wood)
+Edmund Fitzgerald
+Ferry_Mail_Extension_(small)
+Ferry postuitbreiding
+Ferry_yeu_128set
+Ferry Oggia
+Fishing_Boat_1
+Vissersboot
+Liner_Mail_Extension_(large)
+Ferry postuitbreiding
+MHz-C11C_Bulk_Barge
+C11C duwboot (bulk)
+MHz-C11C_Wood_Barge
+C11C duwboot (hout)
+MHz-C273U_Cement_Barge
+C273U cementschip
+MHz-C35_Goods_Barge
+C35
+MHz-C3P_Post_Barge
+Postboot C3P
+MHz-CC47_Container_Barge
+CC47 containerschip
+MHz-MT7_Milk_Barge
+MT7 melktransportschip
+MHz-OT5_Oil_Barge
+OT5 olietanker
+MHz-P11C_Bulk_Boat
+P11C duwboot (bulk)
+MHz-P11C_Wood_Boat
+P11C duwboot (hout)
+MHz-R2A_Push-Tug
+R2A motorcompartiment duwboot
+MV_Balmoral
+Balmoral
+MV_Fedra
+Fedra
+MV_Lake_Illawarra
+Lake Illawara (bulk)
+MV_Lake_Illawarra_(grain)
+Lake Illawara (graan)
+New_Zealand_Star
+New Zealand Star
+Nordic_Heron
+Nordic Heron (olie)
+Nordic_Heron_(liquid_food)
+Nordic Heron (vloeibaar voedsel)
+Owari_Maru
+Owari Maru
+Patagonia_(farm_products)
+Patagonia (graan)
+Post_Barge
+Postboot
+Queen_Elisabeth_2
+Queen Elisabeth II
+RMS_Baltic
+RMS "Baltic"
+RVg-Sail_Goods_Ship_0
+Goederenschip
+RVg-Sail_Passanger_Ship_0
+Passagiersschip
+RVg-Steam_Goods_Ship_0
+Goederenschip
+RVg-Steam_Passanger_Ship_0
+Passagierschip
+Sail_Post_Ship_0
+Post zeilschip
+Stoyko_Peev
+Stoyko Peev
 Veveri_ship_128set
 Veveri
-Vitus-AVECO_Eurocargo_Bretter
-Vitus-Aveco Eurocargo (vrachtwagen planken))
-Vitus-AVECO_Eurocargo_bulk_transporter
-Vitus-Aveco Eurocargo (vrachtwagen zwaar bulk vervoer)
-Vitus-AVECO_Eurocargo_freezing
-Vitus-Aveco Eurocargo (koel vrachtwagen)
-Vitus-AVECO_Eurocargo_tanker
-Aveco Eurocargo olie
-Vitus-AVECO_Eurocargo_transporter
-Vitus-Aveco Eurocargo (vrachtwagen goederen)
-VSYS_Car_Trailer_0
-VSYS heavy cargo trailer - Auto`s en machinerie
-VSYS_Concrete_Trailer_0
-aanhangwagen voor beton
-vsys_garatt_0
-Garatt 24-42 voorstel
-vsys_garatt_1
-Garatt 24-42 middenstel
-vsys_garatt_2
-Garatt 24-42 tender
-VSYS_Post_Bus_Trailer_0
-Aanhangwagen voor post
-VSYS_Post_Bus_Trailer_1
-Aanhangwagen voor post
-VSYS_Post_Bus_Trailer_2
-Aanhangwagen voor post
-VSYS_Steel_Trailer_0
-Aanhangwagen voor staal
-VSYS_Tatra_138
-Tatra 138 (bulk)
-VSYS_Tatra_138_Grain
-Tatra 138 (graan)
-VSYS_Tatra_813_Clossus
-Tatra 813 "Colossus"
-VT105_Addon
-VT-105 "Senator"
-VT105_Car_Addon
-VT-105 "Senator" rijtuig
-VT105_Tail_Addon
-VT-105 "Senator" staartrijtuig
 Willamette_Chief
 Willamette Chief
 Willamette_Chief_(farm_goods)
 Willamette Chief (graan)
 Willamette_Chief_(goods)
 Willamette Chief (goederen)
-Wood_Trailer_0
-Aanhangwagen voor lange goederen
-Wood_Truck_0
-Volvo Transporter (lange goederen)
-Wood_Truck_1
-Ford V8 coe (lange goederen)
-yoshi_wup01
-GTW 72 A
-yoshi_wup02
-GTW 72 B
-yoshi_wup03
-GTW 72 C
-yoshi_wup1900
-GTW 01
-yoshi_wup1950
-GTW 62
-yoshi_wup196201
-GTW 69 A
-yoshi_wup196202
-GTW 69 B
-yoshi_wup196203
-GTW 69 C
-yoshi_wup196501
-GTW 85 A
-yoshi_wup196502
-GTW 85 B
-yoshi_wup196503
-GTW 85 C
-#______________________________________way______________________________________
-#______________________________________way______________________________________
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 air_movement_area
 Asfalt Taxibaan
-canal_020
-Kanaal
-canal_030
-Kanaal
+old_runway
+Onverharde start/landingsbaan
+old_taxiway
+Onverharde taxibaan
+runway_modern
+Start/landingsbaan
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
+Schwebebahn_p_ground
+Monorail (Grond niveau)
+Suspended_Monorail_Track
+Hanggedeelte Monorail 
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+PowerConduits
+Hoogspanningsleiding
+Powerline
+Hoogspanningsleiding
+#__________________________________way - road___________________________________
+#__________________________________way - road___________________________________
 Highway_110
 Snelweg
 Highway_110_Elevated
@@ -5458,14 +5526,8 @@ Highway_200
 Moderne snelweg
 Highway_200_Elevated
 Viaduct voor moderne snelweg
-old_runway
-Onverharde start/landingsbaan
-old_taxiway
-Onverharde taxibaan
-PowerConduits
-Hoogspanningsleiding
-Powerline
-Hoogspanningsleiding
+#__________________________________way - track__________________________________
+#__________________________________way - track__________________________________
 Rail_060_Tracks
 Oude spoorweg met houten dwarsliggers
 Rail_080_Tracks
@@ -5522,22 +5584,6 @@ Rail_80_Elevated
 Ijzeren viaduct voor oude spoorwegen
 Rail_80B_Elevated
 Ijzeren viaduct voor oude spoorwegen
-river_0a
-Kleine stroom
-river_0b
-Rivier
-river_10
-Rivier (bevaarbaar)
-river_20
-Rivier (bevaarbaar)
-river_30
-Rivier (bevaarbaar)
-runway_modern
-Start/landingsbaan
-Schwebebahn_p_ground
-Monorail (Grond niveau)
-Suspended_Monorail_Track
-Hanggedeelte Monorail 
 Tram_Track_050_A
 Tramspoor
 Tram_Track_070_A
@@ -5550,8 +5596,32 @@ Tram_Track_090_B
 Modern tramspoor
 Tram_Track_110_A
 Modern tramspoor
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
+#__________________________________way - water__________________________________
+#__________________________________way - water__________________________________
+canal_020
+Kanaal
+canal_030
+Kanaal
+river_0a
+Kleine stroom
+river_0b
+Rivier
+river_10
+Rivier (bevaarbaar)
+river_20
+Rivier (bevaarbaar)
+river_30
+Rivier (bevaarbaar)
+#_______________________________way-object - air________________________________
+#_______________________________way-object - air________________________________
+modern_runway-extMrkLgt
+Landingsbaan
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+trolleybus_catenary
+Trolleybus Bovenleiding
+#______________________________way-object - track_______________________________
+#______________________________way-object - track_______________________________
 classic_catenary
 Klassieke bovenleiding
 classic_metal_mesh_catenary
@@ -5562,8 +5632,6 @@ grey_type_catenary
 Bovenleiding
 highspeed_catenary
 Bovenleiding 280 km/h
-modern_runway-extMrkLgt
-Landingsbaan
 ogive_midi_catenary
 Bovenleiding
 overhead_feeding_rail
@@ -5574,6 +5642,12 @@ steel_gantry_catenary
 Stalen bovenleiding
 third_rail
 Derde rail
+wood_covered_third_rail
+Derde rail met hout bedekt
+wood_gantry_catenary
+Bovenleiding Max 110 km/h
+#____________________________way-object - tram_track____________________________
+#____________________________way-object - tram_track____________________________
 tramway_aps
 Derde rail
 tramway_classic
@@ -5581,10 +5655,4 @@ Klassieke bovenleiding
 tramway_classic_2
 Bovenleiding
 tramway_modern
-tram bovenleiding
-trolleybus_catenary
-Trolleybus Bovenleiding
-wood_covered_third_rail
-Derde rail met hout bedekt
-wood_gantry_catenary
-Bovenleiding Max 110 km/h
+Moderne bovenleiding

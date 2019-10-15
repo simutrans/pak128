@@ -9,29 +9,69 @@
 #                            Language: zh T. Chinese                           #
 #                                Encoding: UTF-8                               #
 #                            Font: wenquanyi_9pt.bdf                           #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
-PowerBridge
-電線橋
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
 Schwebebahn_p_bridge
 單軌鐵路懸索橋
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
+PowerBridge
+電線橋
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
 water_bridge
 架空運河
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-市政大廳
-01_CITY_1
-城市會堂
-02_CITY
-市政大廳
-03_CITY
-市政大廳
-04_CITY
-市政大廳
+CarStop
+裝卸區
+MonorailGround
+單軌路軌基座
+ShipStop
+客輪碼頭
+TrainStop
+列車月台
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+修道院\n\n這修道院的兩個塔內深不見底\n的井最為著名。無數人前來參\n看這不可思議的井，並向50米\n深的井投入硬幣期望驗證這傳\n說。這增加了修道院的收入，\n並允許繼續修葺曾經變成廢墟\n的修道院。
+CHURCH_06
+教堂\n
+CIVILIAN_RADAR
+天文台\n\n可能在外觀上，難以相信它是\n一個正常天文台。特別是監測\n著外太空無線電的收集器…
+ELEMENTARY_SCHOOL_1
+小學\n
+Firestation
+城市消防局是暫時存放消防車\n（當然還有消防員）和救護車\n地方，一有緊急情況將派出人\n員前往現場處理。
+JUSTICE
+正義大樓\n\n正義大樓裏面經常審理不少官\n司，當然少不了來來往往的律\n師。
+MT_HOTEL_0
+旅館\n\n這是非常著名旅館。 雖然房間\n非常昂貴，但在旅館飯廳，遊\n客仍急切期待有一頓膳食。
+OBSERVATORY
+觀測所\n\n這是著名觀測所，有許多關於\n的虛擬宇宙的重要發現都在此\n觀測出來。天文學家夜間在這\n裡工作。這裡舉行的許多生動\n的演講和多媒體教育陳列展覽，\n吸引不少遊人日間到此瀏覽。\n所以觀測所全日都充滿人群。
+OLD_HOUSE_0
+新生哥特大樓最近改建成老建\n築學博物館。博物館擁有許多\n古代建築的圖片和模型。這些\n陳列品相當有趣和容易瞭解，\n因此它每天幾乎充滿著遊客。
+Pagoda01
+寶塔\n
+PARK_0
+公園\n
+RADIO_TOWER_0
+閒談FM電台\n\n這是閒談FM電台的總部。一些\n人們是願意來這裡，因每天\n13:00至14:30，讓聽眾的聲音在\n大氣電波上傳播。
+ST_PETER
+聖彼德大教堂
+TV_TOWER_0
+電視發射站
+TV_TOWER_1
+電視信號發射塔\n
+Windmill
+風力發電機\n
+WOODEN_CHURCH
+木製教堂\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
 1920_AirDepot
 早期機庫
 1930AirDepot
@@ -42,8 +82,18 @@ water_bridge
 機庫
 1990AirDepot
 現代機庫
-ABBYS_0
-修道院\n\n這修道院的兩個塔內深不見底\n的井最為著名。無數人前來參\n看這不可思議的井，並向50米\n深的井投入硬幣期望驗證這傳\n說。這增加了修道院的收入，\n並允許繼續修葺曾經變成廢墟\n的修道院。
+CarDepot
+道路車廠
+MonorailDepot
+高架單軌列車廠
+ShipDepot
+造船廠
+TrainDepot
+列車車廠
+TramDepot
+輕鐵車廠
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
 Airport1920_AirportBlg
 早期候機樓
 Airport1930PostOffice
@@ -60,134 +110,42 @@ Airport1990_Small_AirportBlg
 現代候機樓
 Airport1990_Warehouse
 現代機場貨物處理中心
-AirStop_AirportBlg
-機場載貨區
 Avila_Big_StationBlg
 大型客運樓
 Avila_Small_StationBlg
 小型客運樓
 Avila_Warehouse_StationBlg
 車站倉庫
-big_classic_bus_stop
-大型巴士站
-big_modern_bus_stop
-現代大型巴士站
 BigTerminal1950_AirportBlg_S
 大型客運樓
-Bulk_Dock
-散貨碼頭
 Bulk_StationBlg
 散貨轉運站
-bus_terminus
-現代巴士總站
-canal_ChannelStop
-運河碼頭
 Car_StationBlg
 停車場
-CarDepot
-道路車廠
-CarStop
-裝卸區
-CHURCH_06
-教堂\n
-CIVILIAN_RADAR
-天文台\n\n可能在外觀上，難以相信它是\n一個正常天文台。特別是監測\n著外太空無線電的收集器…
-classic_mailbox
-道路郵箱
-ClosedTrainStop
-封閉式月台
-CoalTrainStop
-運煤車站
-Container1TrainStop
-早期鐵路貨運站
-Container2TrainStop
-鐵路貨運站
 Control_StationBlg
 車站控制中心
-Crate_Goods_Dock
-貨運碼頭
 CunnersdorfStopBlg
 鄉村候車樓
-DenkGeorg
-Georg記念塔\n
-DenkVolker
-這紀念碑是紀念被稱為\narch-mage的Volker Meyer，\n他為Simutrans改進了不少\n地方。
-ELEMENTARY_SCHOOL_1
-小學\n
-Firestation
-城市消防局是暫時存放消防車\n（當然還有消防員）和救護車\n地方，一有緊急情況將派出人\n員前往現場處理。
 Fluid_StationBlg
 液體儲存缸
-FreightTrainStop
-貨運車站
 Gas_StationBlg
 氣體儲存缸
 Goods_StationBlg
 貨物處理中心
-HQ1
-總部
-HQ2
-總部
-JUSTICE
-正義大樓\n\n正義大樓裏面經常審理不少官\n司，當然少不了來來往往的律\n師。
-Long_Goods_Dock
-長貨碼頭
 LuftPost1950_AirportBlg
 近代機場郵局
-medium_classic_bus_stop
-巴士站
-medium_modern_bus_stop
-現代中型巴士站
 Modern_Warehouse
 現代貨倉
 ModernPostOffice
 現代郵局
-ModernTrainStop
-現代式月台
-MonorailDepot
-高架單軌列車廠
 MonorailFoundation
 單軌路軌基座
-MonorailGround
-單軌路軌基座
-MT_HOTEL_0
-旅館\n\n這是非常著名旅館。 雖然房間\n非常昂貴，但在旅館飯廳，遊\n客仍急切期待有一頓膳食。
-OBSERVATORY
-觀測所\n\n這是著名觀測所，有許多關於\n的虛擬宇宙的重要發現都在此\n觀測出來。天文學家夜間在這\n裡工作。這裡舉行的許多生動\n的演講和多媒體教育陳列展覽，\n吸引不少遊人日間到此瀏覽。\n所以觀測所全日都充滿人群。
-OLD_HOUSE_0
-新生哥特大樓最近改建成老建\n築學博物館。博物館擁有許多\n古代建築的圖片和模型。這些\n陳列品相當有趣和容易瞭解，\n因此它每天幾乎充滿著遊客。
-OpenTrainStop
-開放式月台
-Pagoda01
-寶塔\n
-PARK_0
-公園\n
-parking_(catchemnt_area_ext)1
-路邊停車場
-parking_(catchemnt_area_ext)2
-路邊停車場
-parking_(catchemnt_area_ext)3
-路邊停車場
-Post_Dock
-郵件碼頭
 PostOffice
 郵局
 PostOffice1920_AirportBlg
 早期機場郵局
 Radar3
 機場雷達
-RADIO_TOWER_0
-閒談FM電台\n\n這是閒談FM電台的總部。一些\n人們是願意來這裡，因每天\n13:00至14:30，讓聽眾的聲音在\n大氣電波上傳播。
-ShipDepot
-造船廠
-ShipStop
-客輪碼頭
-small_classic_bus_stop
-小型巴士站
-ST_PETER
-聖彼德大教堂
-Suspended_Monorail_Bahnhof_Modern
-單軌鐵路月台
 Terminal1930_AirportBlg
 早期候機樓
 Terminal1950_AirportBlg_S
@@ -200,26 +158,88 @@ Tower1950_AirportBlg
 機場控制塔
 Tower1990_AirportBlg
 現代機場控制塔
-TrainDepot
-列車車廠
-TrainStop
-列車月台
-TramDepot
-輕鐵車廠
-TV_TOWER_0
-電視發射站
-TV_TOWER_1
-電視信號發射塔\n
 Very_Big_Terminal
 巨型客運大樓 (3x3)
 VictorianStation
 維多利亞式車站
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+散貨碼頭
+Crate_Goods_Dock
+貨運碼頭
+Long_Goods_Dock
+長貨碼頭
+Post_Dock
+郵件碼頭
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
+HQ1
+總部
+HQ2
+總部
+#________________________________building - mon_________________________________
+#________________________________building - mon_________________________________
+DenkGeorg
+Georg記念塔\n
+DenkVolker
+這紀念碑是紀念被稱為\narch-mage的Volker Meyer，\n他為Simutrans改進了不少\n地方。
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+機場載貨區
+big_classic_bus_stop
+大型巴士站
+big_modern_bus_stop
+現代大型巴士站
+bus_terminus
+現代巴士總站
+canal_ChannelStop
+運河碼頭
+classic_mailbox
+道路郵箱
+ClosedTrainStop
+封閉式月台
+CoalTrainStop
+運煤車站
+Container1TrainStop
+早期鐵路貨運站
+Container2TrainStop
+鐵路貨運站
+FreightTrainStop
+貨運車站
+medium_classic_bus_stop
+巴士站
+medium_modern_bus_stop
+現代中型巴士站
+ModernTrainStop
+現代式月台
+OpenTrainStop
+開放式月台
+parking_(catchemnt_area_ext)1
+路邊停車場
+parking_(catchemnt_area_ext)2
+路邊停車場
+parking_(catchemnt_area_ext)3
+路邊停車場
+small_classic_bus_stop
+小型巴士站
+Suspended_Monorail_Bahnhof_Modern
+單軌鐵路月台
 VillageTrainStop
 鄉村式月台
-Windmill
-風力發電機\n
-WOODEN_CHURCH
-木製教堂\n
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+市政大廳
+01_CITY_1
+城市會堂
+02_CITY
+市政大廳
+03_CITY
+市政大廳
+04_CITY
+市政大廳
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -398,29 +418,33 @@ remove monorails
 #__________________________________record_text__________________________________
 New world record for monorails: %.1f km/h by %s.
 單軌鐵路新世界紀錄：%.1f km/h由%s創造。
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 choose_point
 方向選擇標誌
-ChooseSignals
-月台選擇信號
 Minimum80
 車速限制(>80kph)
 NoEntry
 單向禁止進入
+traffic_light
+交通燈
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
+ChooseSignals
+月台選擇信號
 preSignals
 前置訊號
 Signals
 訊號
-traffic_light
-交通燈
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
 Cement_Carrier_Fast
 水泥拖卡
-#______________________________________way______________________________________
-#______________________________________way______________________________________
-Powerline
-電纜
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 runway_modern
 現代跑道
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+Powerline
+電纜

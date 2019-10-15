@@ -9,13 +9,19 @@
 #                             Language: sv Svenska                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
+Schwebebahn_p_bridge
+Bro för upphängd monorail
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
 PowerBridge
 Kraftledningsbrygga
+#________________________________bridge - track_________________________________
+#________________________________bridge - track_________________________________
 Rail_060_Bridge
 Järnvägsbro i trä för godståg (60km/t)
 Rail_060B_Bridge
@@ -38,122 +44,22 @@ Rail_180_Bridge
 Cementbro för regionaltåg (180km/t)
 Rail_200_Bridge
 Stålbro för moderna expresståg (200km/t)
-Schwebebahn_p_bridge
-Bro för upphängd monorail
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
 water_bridge
 Kanalbro
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-Stadshus
-01_CITY_1
-Stadshus
-02_CITY
-Stadshus
-02_CITY_1
-Stadshus
-03_CITY
-Stadshus
-03_CITY_1
-Stadshus
-04_CITY
-Stadshus
-04_CITY_1
-Stadshus
-05_CITY
-Stadshus
-05_CITY_1
-Stadshus
-1920_AirDepot
-Enkel hangar
-1930AirDepot
-Hangar av trä (1930t)
-1940AirDepot
-Hangar av korrugerad plåt (1940t)
-1950AirDepot
-Betonghangar (1950t)
-1990AirDepot
-Modern hangar
-ABBYS_0
-Klosterkyrka\n\nDenna kyrka är känd för sina\ndjupa brunnar i båda tornen.\nEnligt legenden saknar dessa\nbrunnar botten.\nDet är märkligt hur många\nmänniskor som vill komma hit\noch se dessa magiska brunnar.\nDe mynt som tyst faller\ni vattnet 50 meter ner är\nen så god extra inkomst\nför klostret att munkarna\nkunnat renovera den gamla kyrkan\ntill sitt nuvarande skick.\n
-Airport1920_AirportBlg
-Passagerarterminal (1918)
-Airport1930PostOffice
-Flygplatspostkontor
-Airport1990_Big_AirportBlg
-Stor passagerarterminal (1990)
-Airport1990_Big_PostOffice
-Internationell postterminal (expansion)
-Airport1990_Entrance_AirportBlg
-Modern flygplatsentre (1990)
-Airport1990_Gates_AirportBlg
-Liten flygplatsbyggnad (1990)
-Airport1990_PostOffice
-Modernt flygplatspostkontor
-Airport1990_Small_AirportBlg
-Liten terminalbyggnad
-Airport1990_Small_PostOffice
-Regional postterminal (expansion)
-Airport1990_Warehouse
-Modern fraktterminal
-AirStop_AirportBlg
-Uppställningsplats för flygplan
-Almuthof_StationBlg
-Gammaldags stationsbyggnad
-Avila_Big_StationBlg
-Stor stationsbyggnad
-Avila_Small_StationBlg
-Liten stationsbyggnad
-Avila_Warehouse_StationBlg
-Godsmagasin
-big_classic_bus_stop
-Stor busshållplas
-big_modern_bus_stop
-Stor modern busshållplats
-BigTerminal1930_AirportBlg
-Stor passagerarterminal (expansion)
-BigTerminal1950_AirportBlg_S
-Stor flygplatsterminal
-Bulk_Dock
-Bulkgodslastkaj
-Bulk_StationBlg
-Bulkgodsupplag
-bus_terminus
-Bussterminal
-canal_ChannelStop
-Kanalkaj
-canal_ware_stop
-Kanallastkaj
-Car_StationBlg
-Stationsparkering
-CarDepot
-Garage
-CargoHighStop
-Drive-through lastplats
 CarStop
 Lastplats
-CASTLE_0
-Gammalt slott\n\nDetta slott tillhörde\n tidigare Kung Napik.\nDet mesta av slottet\nförstördes under det stora\nkriget, men återuppbyggdes på 90-talet,\noch nu hittar man\n en väldigt berömd samling av gamla vapen här.\n
-CHURCH_02
-Rosa kyrkan\n\nDenna kyrka byggdes av\nen välkänd tokig munk\nsom 1654 målade\nhela byggnaden rosa.\nFärgen har dock nötts bort\nmed åren,\nmen namnet finns kvar än idag.\n
-CHURCH_03
-Kyrka\n\nDenna berömda kyrka\nlockar folk med sin\nvackra omgivning\noch de vackra målningar som\nhänger i kyrkan.\n\n
-CHURCH_04
-Synagoga\n\nÄven om denna byggnad ser ut\natt vara arabisk, så\när det faktiskt en synagoga.\n\n
-CHURCH_05
-St Mikaels kyrka\n\nDenna arkitektoniska pärla\nbyggdes i slutet av 1800-\ntalet, och dess iögonfallande\nmetalltak ritades av Alexander\nGustavus Eiffel.\n
-CHURCH_06
-Stadskyrka\n\nEn liten kyrka med gotiska drag.\n
-CIRCUS_0
-Cirkus Humberto\n\nDen berömda cirkusen har gjort denna stad till sin sista hållplats.\nDet klassiska tältet har bevarats för att bibehålla den ursprungliga atmosfären, men alla som jobbar på cirkusen har bosatt sig i staden. Så du kan räkna med att de stannar här och att cirkusen blir en stor turistmagnet.\nCirkus Humberto är känd för elefanten Jumbo, som sätter sig ner så fort han hör en klocka. Så var försiktig med att ringa i klockan om du står bakom Jumbo, såvida du inte önskar se ut som en pannkaka.\n
-CIVILIAN_RADAR
-Radarstation\n\nKanske du inte tror på det,men\ndetta är en normal\nradarstation.Radio\nstation så klart...\n\n
-classic_mailbox
-Brevlåda
-ClosedTrainStop
-Täckt passagerarplattform
-CoalTrainStop
-Kolstation
+MonorailGround
+Monorail marknivå
+ShipStop
+Passagerarkaj
+TrainStop
+Järnvägsstation
+#________________________________building - com_________________________________
+#________________________________building - com_________________________________
 COM_00_01
 Detta är ett dagis, där\nsmå barn kan leka och\nsova när deras föräldrar\när och jobbar.Även om man\nibland kan höra barnen\nskrika, så är det en riktigt\ntrevlig och fridfull plats\nfull av skratt och ljuva drömmar\nstörre delen av tiden.\nDetta dagis lär också små barn att läsa samt att räkna.\n
 COM_00_02
@@ -184,20 +90,196 @@ COM_00_18
 Kontorsfördelningen hos firma LNX Mjukvaru-AB avspeglar karriärstegen hos de anställda. Det tråkiga arbetet utförs på de nedersta våningarna. På de översta våningarna är arbetet lika spännande som utsikten är skön.\n
 COM_12_01
 Byggarbetsplats\n\nDe första små företagen visar sig i staden.
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+Klosterkyrka\n\nDenna kyrka är känd för sina\ndjupa brunnar i båda tornen.\nEnligt legenden saknar dessa\nbrunnar botten.\nDet är märkligt hur många\nmänniskor som vill komma hit\noch se dessa magiska brunnar.\nDe mynt som tyst faller\ni vattnet 50 meter ner är\nen så god extra inkomst\nför klostret att munkarna\nkunnat renovera den gamla kyrkan\ntill sitt nuvarande skick.\n
+CASTLE_0
+Gammalt slott\n\nDetta slott tillhörde\n tidigare Kung Napik.\nDet mesta av slottet\nförstördes under det stora\nkriget, men återuppbyggdes på 90-talet,\noch nu hittar man\n en väldigt berömd samling av gamla vapen här.\n
+CHURCH_02
+Rosa kyrkan\n\nDenna kyrka byggdes av\nen välkänd tokig munk\nsom 1654 målade\nhela byggnaden rosa.\nFärgen har dock nötts bort\nmed åren,\nmen namnet finns kvar än idag.\n
+CHURCH_03
+Kyrka\n\nDenna berömda kyrka\nlockar folk med sin\nvackra omgivning\noch de vackra målningar som\nhänger i kyrkan.\n\n
+CHURCH_04
+Synagoga\n\nÄven om denna byggnad ser ut\natt vara arabisk, så\när det faktiskt en synagoga.\n\n
+CHURCH_05
+St Mikaels kyrka\n\nDenna arkitektoniska pärla\nbyggdes i slutet av 1800-\ntalet, och dess iögonfallande\nmetalltak ritades av Alexander\nGustavus Eiffel.\n
+CHURCH_06
+Stadskyrka\n\nEn liten kyrka med gotiska drag.\n
+CIRCUS_0
+Cirkus Humberto\n\nDen berömda cirkusen har gjort denna stad till sin sista hållplats.\nDet klassiska tältet har bevarats för att bibehålla den ursprungliga atmosfären, men alla som jobbar på cirkusen har bosatt sig i staden. Så du kan räkna med att de stannar här och att cirkusen blir en stor turistmagnet.\nCirkus Humberto är känd för elefanten Jumbo, som sätter sig ner så fort han hör en klocka. Så var försiktig med att ringa i klockan om du står bakom Jumbo, såvida du inte önskar se ut som en pannkaka.\n
+CIVILIAN_RADAR
+Radarstation\n\nKanske du inte tror på det,men\ndetta är en normal\nradarstation.Radio\nstation så klart...\n\n
+ELEMENTARY_SCHOOL_1
+Grundskola\n\nDetta är en plats där barn borde ta sina första steg på utbildningens väg. Matte, språk, historia och NO tillhör de minst populära ämnena. Unga elever föredrar vanligen att måla och sjunga. Eftersom barn och ungdomar inte kan köra bil, finns det många som vill åka med allmänna färdmedel hit och härifrån. Men det är nog inte lämpligt med alltför lyxiga bussar i den här trakten.
+ELEMENTARY_SCHOOL_2
+Högstadieskola\n\nEn av de intressanta sakerna om den här skolan är att lektionerna börjar vid 9 på morgonen och slutar redan vid middag. En annan intressant sak är att barnen går i skolan sju dagar i veckan.
+Firestation
+Brandstation\n\nDetta är stadens brandstation
+FORT_FUN
+Fort Festlig\n\nFort Festlig är en vilda västern \nstad till synes bebodd av hårdkokta \ncowboys och saloondansöser...men \nallt från väggar till kläder kommer \nur ett filmförråd. Stig in här och \ndu blir ytterligare en statist i \nfortets ständigt pågående filminspelning.
+FUTURISTIC_TOWER_0
+Framtidstorn\n\nDetta torn ger inte enbart\nen fantastisk utsikt över\nomgivningarna, men hyser\nockså en liten men exklusiv\nbar. Även om priserna inte\nkan kallas för rimliga, så\nlockar tornet ändock många\nbesökare.\n
+GRASS_STADIUM
+Idrottsplats\nDenna grästäckta idrottsplats är\nen utmärkt plats för joggning\neller fotbollspel. De som hellre åser än utövar\nsport samlas i stället på bänkarna\nunder träden.\n
+GREEN_HOUSE
+Växthus\n\nDetta växthus var från början en\nvanlig handelsträdgård. Men\ndå ägaren upptäckte att många besökare\nkom för att njuta en stund snarare\nän för att handla, omvandlade han\nväxthuset till en tropisk\nvinterträdgård. Nu innehåller växthuset\nnågra verkligt rara plantor och är välkänt i hela landet.\n
+MARKET_PLACE_0
+Marknadsplats\n\nStadens marknadstorg är ett\nutmärkt ställe att tillbringa\nen eftermiddag med familjen.\nBarn kan köpa alla sorters\ngårdagens godis och se på när\ngamla hantverkare utför sitt \nyrke. Både den som önskar att\nshoppa och den som enbart vill\nsitta i skuggan med ett kallt\nglas öl kan få sitt lystmäte här.\n
+MT_HOTEL_0
+Hotell\n\nDetta är ett mycket\nberömt hotell.\nRummen är mycket dyra,\nmen ändå vill alla bo\nhär, eller åtminstone\näta en måltid i dess\nrestaurang.\n
+Old_gate
+Stadsport
+OLD_HOUSE_0
+Medeltida hus\n\nDenna patricierbyggnad från 1500-talet byggdes av en köpman som blev rik genom import av exotiska varor, och som i folkmun kallades "pepparsäcken".
+PARK_0
+Större park med damm\n\n
+Russian_Cathedral
+Rysk kyrka
+Secession_Chapel
+Kapell
+sh_oasis_seasons
+Oas\n\nEn oas är en av de få\nlevande platser som\nfinns i en öken.\nVarje människa eller\ndjur som strövar runt\ni öknen vill stanna här\nför att återhämta sig\noch vila under palmerna.\n
+st_benedict_church
+St Benedikts kyrka\n\nDetta är en av Simuvärldens vackraste kyrkor. Många turister kommer för att titta på den, betydligt färre för att be.
+Windmill
+Väderkvarn\n
+WOODEN_CHURCH
+Träkyrka\n\nDen här träkyrkan byggdes\nav Hamishfolket.\n\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
+1920_AirDepot
+Enkel hangar
+1930AirDepot
+Hangar av trä (1930t)
+1940AirDepot
+Hangar av korrugerad plåt (1940t)
+1950AirDepot
+Betonghangar (1950t)
+1990AirDepot
+Modern hangar
+CarDepot
+Garage
+Depot_train_1936
+Modernt lokstall
+MonorailDepot
+Monorailvagnhall
+ShipDepot
+Båtvarv
+TrainDepot
+Järnvägsdepå
+TramDepot
+Spårvagnsdepå
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
+Airport1920_AirportBlg
+Passagerarterminal (1918)
+Airport1930PostOffice
+Flygplatspostkontor
+Airport1990_Big_AirportBlg
+Stor passagerarterminal (1990)
+Airport1990_Big_PostOffice
+Internationell postterminal (expansion)
+Airport1990_Entrance_AirportBlg
+Modern flygplatsentre (1990)
+Airport1990_Gates_AirportBlg
+Liten flygplatsbyggnad (1990)
+Airport1990_PostOffice
+Modernt flygplatspostkontor
+Airport1990_Small_AirportBlg
+Liten terminalbyggnad
+Airport1990_Small_PostOffice
+Regional postterminal (expansion)
+Airport1990_Warehouse
+Modern fraktterminal
+Almuthof_StationBlg
+Gammaldags stationsbyggnad
+Avila_Big_StationBlg
+Stor stationsbyggnad
+Avila_Small_StationBlg
+Liten stationsbyggnad
+Avila_Warehouse_StationBlg
+Godsmagasin
+BigTerminal1930_AirportBlg
+Stor passagerarterminal (expansion)
+BigTerminal1950_AirportBlg_S
+Stor flygplatsterminal
+Bulk_StationBlg
+Bulkgodsupplag
+Car_StationBlg
+Stationsparkering
 container_crane_span
 Stor containerkran (expansion)
-Container1TrainStop
-Kontainerlastkaj
-Container2TrainStop
-Avancerad kontainerlastkaj
 containercrane
 Containerkran (expansion)
 Control_StationBlg
 Ställverk
-Crate_Goods_Dock
-Godshamn
 CunnersdorfStopBlg
 Stationsbyggnad (Cunnersdorf)
+Fluid_StationBlg
+Oljecistern
+Gas_StationBlg
+Gasbehållare
+Goods_StationBlg
+Godsmagasin
+hall_extended_station
+Stor stationshall (expansion)
+LuftPost1950_AirportBlg
+Postkontor (expansion)
+Modern_Warehouse
+Modern lagerlokal
+modern_warehouse_big
+Modern lagerlokal (expansion)
+ModernPostOffice
+Postsorteringsterminal
+ModernPostOfficeLarge
+Modernt postkontor (expansion)
+MonorailFoundation
+Monorail fundament
+plain_tile_high
+Lagerplats (expansion)
+PostOffice
+Postkontor
+PostOffice1920_AirportBlg
+Luftpostbyggnad (1920t)
+PostOfficeOldLarge
+Stort gammalt postkontor
+ramp_tile_high
+Accessramp
+Terminal1930_AirportBlg
+Liten terminalbyggnad
+Terminal1950_AirportBlg_S
+Liten terminalbyggnad
+Tower1920_AirportBlg
+Enkelt kontrolltorn
+Tower1930_AirportBlg
+Litet kontrolltorn
+Tower1950_AirportBlg
+Kontrolltorn
+Tower1990_AirportBlg
+Kontrolltorn
+Very_Big_Terminal
+Gigantisk terminalhall (3x3 expansion)
+VictorianStation
+Viktoriansk station
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+Bulkgodslastkaj
+Crate_Goods_Dock
+Godshamn
+Long_Goods_Dock
+Timmerlastkaj
+Post_Dock
+Posthamn
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
+HQ1
+Huvudkontor
+HQ2
+Huvudkontor
+#________________________________building - mon_________________________________
+#________________________________building - mon_________________________________
 DenkFlor
 Monument Flor\n\nDetta monument tillägnas\nden berömde ingenjören\nFlor 'WF Ultd.' Wauters\ni åminnelse av de många\nfantastiska landsvägs-\noch järnvägsfordon som\nhan skapat. Hans väl\nfungerande fabriker har\nockså bidragit till hans\nryktbarhet.\n\n
 DenkGeorg
@@ -218,140 +300,82 @@ DenkVM
 Minnesmärke\n\nDet här monumentet tillägnas\nManfred 'VT Wien' Tomaschitz,\nden berömde ingenjören som\ndesignat så många otroligt bra tågfordon.\n\n
 DenkVolker
 Minnesmärke\n\nEn skulptur i Volker Meyers\nära, som tack för att han har\nförbättrat Simutrans på många,\nmånga sätt.\n\n
-Depot_train_1936
-Modernt lokstall
-ELEMENTARY_SCHOOL_1
-Grundskola\n\nDetta är en plats där barn borde ta sina första steg på utbildningens väg. Matte, språk, historia och NO tillhör de minst populära ämnena. Unga elever föredrar vanligen att måla och sjunga. Eftersom barn och ungdomar inte kan köra bil, finns det många som vill åka med allmänna färdmedel hit och härifrån. Men det är nog inte lämpligt med alltför lyxiga bussar i den här trakten.
-ELEMENTARY_SCHOOL_2
-Högstadieskola\n\nEn av de intressanta sakerna om den här skolan är att lektionerna börjar vid 9 på morgonen och slutar redan vid middag. En annan intressant sak är att barnen går i skolan sju dagar i veckan.
-Firestation
-Brandstation\n\nDetta är stadens brandstation
-Fluid_StationBlg
-Oljecistern
-FORT_FUN
-Fort Festlig\n\nFort Festlig är en vilda västern \nstad till synes bebodd av hårdkokta \ncowboys och saloondansöser...men \nallt från väggar till kläder kommer \nur ett filmförråd. Stig in här och \ndu blir ytterligare en statist i \nfortets ständigt pågående filminspelning.
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+Uppställningsplats för flygplan
+big_classic_bus_stop
+Stor busshållplas
+big_modern_bus_stop
+Stor modern busshållplats
+bus_terminus
+Bussterminal
+canal_ChannelStop
+Kanalkaj
+canal_ware_stop
+Kanallastkaj
+CargoHighStop
+Drive-through lastplats
+classic_mailbox
+Brevlåda
+ClosedTrainStop
+Täckt passagerarplattform
+CoalTrainStop
+Kolstation
+Container1TrainStop
+Kontainerlastkaj
+Container2TrainStop
+Avancerad kontainerlastkaj
 FreightTrainStop
 Godsbangård
-FUTURISTIC_TOWER_0
-Framtidstorn\n\nDetta torn ger inte enbart\nen fantastisk utsikt över\nomgivningarna, men hyser\nockså en liten men exklusiv\nbar. Även om priserna inte\nkan kallas för rimliga, så\nlockar tornet ändock många\nbesökare.\n
-Gas_StationBlg
-Gasbehållare
-Goods_StationBlg
-Godsmagasin
-GRASS_STADIUM
-Idrottsplats\nDenna grästäckta idrottsplats är\nen utmärkt plats för joggning\neller fotbollspel. De som hellre åser än utövar\nsport samlas i stället på bänkarna\nunder träden.\n
-GREEN_HOUSE
-Växthus\n\nDetta växthus var från början en\nvanlig handelsträdgård. Men\ndå ägaren upptäckte att många besökare\nkom för att njuta en stund snarare\nän för att handla, omvandlade han\nväxthuset till en tropisk\nvinterträdgård. Nu innehåller växthuset\nnågra verkligt rara plantor och är välkänt i hela landet.\n
-hall_extended_station
-Stor stationshall (expansion)
-HQ1
-Huvudkontor
-HQ2
-Huvudkontor
-Long_Goods_Dock
-Timmerlastkaj
-LuftPost1950_AirportBlg
-Postkontor (expansion)
-MARKET_PLACE_0
-Marknadsplats\n\nStadens marknadstorg är ett\nutmärkt ställe att tillbringa\nen eftermiddag med familjen.\nBarn kan köpa alla sorters\ngårdagens godis och se på när\ngamla hantverkare utför sitt \nyrke. Både den som önskar att\nshoppa och den som enbart vill\nsitta i skuggan med ett kallt\nglas öl kan få sitt lystmäte här.\n
 medium_classic_bus_stop
 Busshållplats med gråa busskurer
 medium_early_bus_stop
 Busshållplats med busskurer
 medium_modern_bus_stop
 Modern busshållplats
-Modern_Warehouse
-Modern lagerlokal
-modern_warehouse_big
-Modern lagerlokal (expansion)
-ModernPostOffice
-Postsorteringsterminal
-ModernPostOfficeLarge
-Modernt postkontor (expansion)
 ModernTrainStop
 Modern passagerarstation
-MonorailDepot
-Monorailvagnhall
-MonorailFoundation
-Monorail fundament
-MonorailGround
-Monorail marknivå
-MT_HOTEL_0
-Hotell\n\nDetta är ett mycket\nberömt hotell.\nRummen är mycket dyra,\nmen ändå vill alla bo\nhär, eller åtminstone\näta en måltid i dess\nrestaurang.\n
 OfficeTrainStop
 Plattform med byggnad
-Old_gate
-Stadsport
-OLD_HOUSE_0
-Medeltida hus\n\nDenna patricierbyggnad från 1500-talet byggdes av en köpman som blev rik genom import av exotiska varor, och som i folkmun kallades "pepparsäcken".
 OpenTrainStop
 Enkel perrong
-PARK_0
-Större park med damm\n\n
 parking_(catchemnt_area_ext)1
 Pendelparkering
 parking_(catchemnt_area_ext)2
 Pendelparkering
 parking_(catchemnt_area_ext)3
 Pendelparkering
-plain_tile_high
-Lagerplats (expansion)
-Post_Dock
-Posthamn
-PostOffice
-Postkontor
-PostOffice1920_AirportBlg
-Luftpostbyggnad (1920t)
-PostOfficeOldLarge
-Stort gammalt postkontor
-ramp_tile_high
-Accessramp
-Russian_Cathedral
-Rysk kyrka
-Secession_Chapel
-Kapell
-sh_oasis_seasons
-Oas\n\nEn oas är en av de få\nlevande platser som\nfinns i en öken.\nVarje människa eller\ndjur som strövar runt\ni öknen vill stanna här\nför att återhämta sig\noch vila under palmerna.\n
-ShipDepot
-Båtvarv
-ShipStop
-Passagerarkaj
 small_classic_bus_stop
 Enkel busshållplats
 small_early_bus_stop
 Busshållplats
-st_benedict_church
-St Benedikts kyrka\n\nDetta är en av Simuvärldens vackraste kyrkor. Många turister kommer för att titta på den, betydligt färre för att be.
 Suspended_Monorail_Bahnhof_Modern
 Hängande monorail hållplats
-Terminal1930_AirportBlg
-Liten terminalbyggnad
-Terminal1950_AirportBlg_S
-Liten terminalbyggnad
-Tower1920_AirportBlg
-Enkelt kontrolltorn
-Tower1930_AirportBlg
-Litet kontrolltorn
-Tower1950_AirportBlg
-Kontrolltorn
-Tower1990_AirportBlg
-Kontrolltorn
-TrainDepot
-Järnvägsdepå
-TrainStop
-Järnvägsstation
-TramDepot
-Spårvagnsdepå
-Very_Big_Terminal
-Gigantisk terminalhall (3x3 expansion)
-VictorianStation
-Viktoriansk station
 VillageTrainStop
 Liten passagerarstation
-Windmill
-Väderkvarn\n
-WOODEN_CHURCH
-Träkyrka\n\nDen här träkyrkan byggdes\nav Hamishfolket.\n\n
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+Stadshus
+01_CITY_1
+Stadshus
+02_CITY
+Stadshus
+02_CITY_1
+Stadshus
+03_CITY
+Stadshus
+03_CITY_1
+Stadshus
+04_CITY
+Stadshus
+04_CITY_1
+Stadshus
+05_CITY
+Stadshus
+05_CITY_1
+Stadshus
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -384,6 +408,8 @@ Concretefactory
 Betongfabrik
 factory_Concretefactory_details
 <title>Betongfabrik</title>\n\nHär tillverkas alla sorters betongelement som sedan försäljs i bygghandeln.
+Corn_Farm
+Majsodling
 cornfield
 Kornåker
 factory_cornfield_details
@@ -488,6 +514,10 @@ waste_incinerator_kraftwerk
 Sopförbränningsverk
 wind_kraftwerk
 Vindkraftverk
+#_____________________________________field_____________________________________
+#_____________________________________field_____________________________________
+cotton_field
+Bomullsfält
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -598,10 +628,18 @@ Ta bort monorailsträcka
 #__________________________________record_text__________________________________
 New world record for monorails: %.1f km/h by %s.
 Ett nytt världsrekord\nför monorail: %.1f km/t\nav %s.
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
 airport_oneway
 Körriktningsbegränsning på flygplats
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+choose_signal_monorail
+Vägvalssignal
+preSignal_Monorail
+Tvåblockssignal (monorail)
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 Motorvägspåfart
 autobahn_classic_exit
@@ -612,8 +650,16 @@ autobahn_modern_exit
 Modern motorvägsavfart
 choose_point
 Vägvalspunkt
-choose_signal_monorail
-Vägvalssignal
+Minimum80
+Lägsta tillåtna hastighet 80 km/h
+NoEntry
+Förbjuden infart
+RoadClosed
+Vägblockering
+traffic_light
+Trafikljus
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
 ChooseSignals
 Vägvalssignal
 Classic_ChooseSignals_right
@@ -636,8 +682,6 @@ EndOfChooseSignals
 Uteslut från plattformsval
 LongSignals
 Långblockssignal
-Minimum80
-Lägsta tillåtna hastighet 80 km/h
 Modern_ChooseSignals_right
 Vägvalssignal
 Modern_EndOfChooseSignals_right
@@ -650,20 +694,12 @@ Modern_preSignals_right
 Modern tvåblockssignal
 Modern_Signals_right
 Modern enkel signal
-NoEntry
-Förbjuden infart
 OneWaySignals
 Enkelriktningssignal
-preSignal_Monorail
-Tvåblockssignal (monorail)
 preSignals
 Tvåblockssignal
-RoadClosed
-Vägblockering
 Signals
 Signaler
-traffic_light
-Trafikljus
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 tree100
@@ -678,44 +714,14 @@ tree131
 Gran\n\n
 tree133
 Gran\n\n
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-1Benst134
-RVg-Bennhardt B-134 "Pixie"
-1Benst135t
-Bennhardt B-135 "Gremlin"
-1Benst138
-Bennhardt B-138 "Äppelpaj"
-1Benst162t
-Bennhardt B-162 "Jet"
-1Benst238
-RVg-Bennhardt B-238 "Groddan"
-1Dampflokomotive
-RVg 0-4-0T
-2Diesellokomotive
-H-Trans BR 218
-3Bens186t
-Bennhardt B-186 "Citron"
-3Dampflokomotive
-RVg 0-3-0 "Chippy"
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
 Airport_express_shuttle
 Flygbuss
-Autotransportwagen
-Napik-Canonball Biltransportvagn
 BB-TS_Milk_Mack_Trailer
 BB-TS Mjölksläp\n\n
-Big_Bretterwagen
-RVg Big Släpvagn (plankor)
 Big_Erztruck
 MHz Big Järnmalms lastbil
-Bretterwagen
-Brädvagn
-Budd_Coach
-Budd RPO personvagn
-Budd_Observation
-Budd utsiktsvagn
-Budd_RPO
-Budd RPO postvagn
 Bulk_trailer_0
 Shorty Släpvagn
 Bulk_Truck_0
@@ -726,50 +732,20 @@ Bulk_Truck_3
 Tatra 815 bulkgodslastbil
 Bulk_Truck_4
 Volvo LV76-78 bulkgodslastbil
-caboose_1
-RvG personalvagn
-caboose_2
-RvG multi-personalvagn
-caboose_3
-RvG personalvagn
 Car_Tramsport_Trailer_0
 Biltrailer
 Car_Transporter_0
 Biltransport
 Car_Transporter_1
 RVg Biltransport
-Car_Waggon_1
-RVg Biltransportvagn
-Car_Waggon_2
-RVg Biltransportvagn
-CB_ALBATROS
-RVg Skoda 498 "Albatross"
-CB_DB-130_8
-Canonball & H-Trans BRAW61000 "Taiga Drum"
-Cement_Carrier_Fast
-Cement vagn
 Cement_trailer_0
 PMNV Cementsläpvagn
 Cement_Truck_0
 PMNV Cementlastbil
-Cement_Waggon_0
-BB-PMNV Cement vagn
-Cement_Waggon_1
-BB-PMNV Cement vagn
-Cementwagen
-SergeS Cement vagn
-CKD_749
-CKD 749 
-CKD_750
-CKD 750
 Concrete_Truck_0
 Betongblandare S. Kroytor
 Concrete_Truck_1
 Betongblandare VSYS-Tatra 815
-Concretewagen
-PMNV Betongblandare
-Concretewagen_1
-PMNV Betongmixer 16
 Cooling_trailer_0
 PMNV Kylvarutrailer
 Cooling_Truck_0
@@ -778,48 +754,8 @@ Cooling_Truck_1
 PMNV Kylvarulastbil (grå)
 Cooling_Truck_2
 Lastbil S.Kroytor Gaz-4 (Kylvaror)
-Cooling_wagon_0
-Canonball kylvagn
-Cooling_wagon_1
-Canonball kylvagn
-Cooling_wagon_2
-Cannonball kylvagn
-DB_ADm101
-DB ADm101
-DB_Apmz121
-DB Apmz121
-DB_Bm235
-DB Bm235
-DB_BR103_1
-DB BR-103
-DueWAG_GT6_motorwaggon
-Due WAG GT6
-DueWAG_GT6_tailwaggon
-Due WAG GT6 personvagn
-E_423
-Sindor E-432 "Spitzenklasse"
-EM400_1
-FK EM400
-EMD_E5A_Silver_Meteor
-EMD E5A 'Silvermeteoren'
-EMD_E5B_Silver_Comet
-EMD E5B 'Silverkometen'
-Evil_DF-11
-DF-11
-Evil_P-100_(carriage)
-RVg P-100 (personvagn)
-Evil_P-100_(front_engine)
-RVg P-100
-Evil_P-100_(mail)
-RVg P-100 (postvagn)
-Evil_P-100_(rear_engine)
-RVg P-100 (b-ände)
 Evil-Jitluen_67_Minibus
 Jitluen 67 Minibuss
-Express_tender
-Skodatender
-Fishing_Boat_1
-MHz Trålare
 Fluid_trailer_0
 AJ Oljetankvagn
 Fluid_trailer_1
@@ -852,6 +788,242 @@ Goods_Truck_4
 PMNV turbostyckegodslastbil
 Goods_Truck_5
 S.Kroytor Gaz-4 styckegodslastbil
+MHz_Grain_Trailer_0
+Traktorsläp för spannmål
+MHz_Long_Wood_Trailer
+Traktorsläp för timmer
+MHz_Tractor
+Traktor
+MHz_Tractor_2
+JD-traktor
+Milk_Truck_0
+PMNV Mjölktankbil
+Milk_Truck_1
+S.Kroytor-ZIL mjölkbil
+Milk_Truck_2
+Magirus mjölkbil
+mja-ScaniaP380_tanker
+mja-Scania P380 tankbil
+mja-ScaniaP420_concretemixer
+mja-Scania P420 betongblandare
+mja-ScaniaP420_longgoods
+Scania P420 timmerbil
+mja-volvoVN660
+Volvo VN660 dragbil
+RVg-B_107
+RVg B149 - Red Dwarf
+RVg-KS_4510-33
+RVg-KS 33
+RVg-KS_4510-45
+RVg-KS 45
+RVg-KS_4510-69
+RVg-KS 69
+RVg-KS_9020-31
+Rvg KS 9020-31
+RVg-KS_9020-58
+RVg-KS 9020-58
+RVg-KS_9020-92
+RVg-KS 9020-92
+RVg-LK_Cement_Truck
+RVg-LK V44 cementblandare
+RVg-LK_Cooling_Truck
+RVg-LK V44 kyllastbil
+RVg-LK_Goods_Truck
+RVg-LK styckegodslastbil
+RVg-LK_Grain_Truck
+RVg-LK V41 spannmålslastbil
+RVg-LK_Plank_Truck
+RVg-LK V37 brädbil
+RVg-LK_Steel_Truck
+RVg-LK V38 stållastbil
+RX_1064
+Buss RX 1064
+S_Kroytor_Gaz-2
+Gaz-2
+S_Kroytor_Gaz-3
+Gaz-3
+S_Kroytor_Gaz-4
+Gaz-4
+S_Kroytor_Ikarus-260
+Ikarus-260
+S_Kroytor_Ikarus-260(l)
+Ikarus-260 linjebuss
+S_Kroytor_Ikarus-280
+Ikarus 280
+S_Kroytor_Ikarus-280_ext
+Ikarus-280 utbyggnad
+S_Kroytor_LiAZ-5256
+LiAZ-5256
+S_Kroytor_LiAZ-677
+LiAZ-677
+S_Kroytor_Mercedes_Citaro
+Mercedes Citaro
+S_Kroytor_PAZ-672
+PAZ 672
+S_Kroytor_PAZ-772
+PAZ 772
+S_Kroytor_Traveler
+Traveler
+Sentinel_Cement_Lorry
+Cementlastbil Sentinel
+Sentinel_Cement_Trailer
+Cementsläp Sentinel
+Sentinel_Goods_Lorry
+Styckegodslastbil Sentinel
+Sentinel_Goods_Trailer
+Styckegodssläp Sentinel
+Sentinel_Wood_Lorry
+Timmerbil Sentinel
+Sentinel_Wood_Trailer
+Timmersläp Sentinel
+skoda_1_tr_128
+Skoda 1
+skoda_10_tr_128
+Skoda 10
+skoda_10_tr_rear_128
+Skoda 10 (bakände)
+skoda_11_tr_128
+Skoda 11
+skoda_12_tr_128
+Skoda 12
+skoda_14_tr_128
+Skoda 14
+skoda_18_tr_128
+Skoda 18
+skoda_18_tr_rear_128
+Skoda 18 passagerarsläp
+skoda_19_tr_128
+Skoda 19
+skoda_19_tr_mid_128
+Skoda 19 mittsektion
+skoda_19_tr_rear_128
+Skoda 19 baksektion
+skoda_21_tr_128
+Skoda 21
+skoda_22_tr_128
+Skoda 22
+skoda_22_tr_rear_128
+Skoda 22 baksektion
+skoda_23_tr_128
+Skoda 23
+skoda_23_tr_mid_128
+Skoda 23 mittsektion
+skoda_23_tr_rear_128
+Skoda 23 baksektion
+skoda_24_tr_128
+Skoda 24
+skoda_25_tr_128
+Skoda 25
+skoda_25_tr_rear_128
+Skoda 25 baksektion
+Skoda_706_grain
+Skoda 706 spannmålslastbil
+Skoda_706_trailer_grain
+Skoda 706 spannmålssläp
+VSYS_Car_Trailer_0
+Släp för tung last
+VSYS_Concrete_Trailer_0
+Betongsläp
+Wood_Trailer_0
+Timmersläp
+Wood_Truck_0
+Volvo timmerlastbil
+Wood_Truck_1
+Ford V8 Timmerlastbil
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+1Benst134
+RVg-Bennhardt B-134 "Pixie"
+1Benst135t
+Bennhardt B-135 "Gremlin"
+1Benst138
+Bennhardt B-138 "Äppelpaj"
+1Benst162t
+Bennhardt B-162 "Jet"
+1Benst238
+RVg-Bennhardt B-238 "Groddan"
+1Dampflokomotive
+RVg 0-4-0T
+2Diesellokomotive
+H-Trans BR 218
+3Bens186t
+Bennhardt B-186 "Citron"
+3Dampflokomotive
+RVg 0-3-0 "Chippy"
+Autotransportwagen
+Napik-Canonball Biltransportvagn
+Big_Bretterwagen
+RVg Big Släpvagn (plankor)
+Bretterwagen
+Brädvagn
+Budd_Coach
+Budd RPO personvagn
+Budd_Observation
+Budd utsiktsvagn
+Budd_RPO
+Budd RPO postvagn
+caboose_1
+RvG personalvagn
+caboose_2
+RvG multi-personalvagn
+caboose_3
+RvG personalvagn
+Car_Waggon_1
+RVg Biltransportvagn
+Car_Waggon_2
+RVg Biltransportvagn
+CB_ALBATROS
+RVg Skoda 498 "Albatross"
+CB_DB-130_8
+Canonball & H-Trans BRAW61000 "Taiga Drum"
+Cement_Carrier_Fast
+Cement vagn
+Cement_Waggon_0
+BB-PMNV Cement vagn
+Cement_Waggon_1
+BB-PMNV Cement vagn
+Cementwagen
+SergeS Cement vagn
+CKD_749
+CKD 749 
+CKD_750
+CKD 750
+Concretewagen
+PMNV Betongblandare
+Concretewagen_1
+PMNV Betongmixer 16
+Cooling_wagon_0
+Canonball kylvagn
+Cooling_wagon_1
+Canonball kylvagn
+Cooling_wagon_2
+Cannonball kylvagn
+DB_ADm101
+DB ADm101
+DB_Apmz121
+DB Apmz121
+DB_Bm235
+DB Bm235
+DB_BR103_1
+DB BR-103
+E_423
+Sindor E-432 "Spitzenklasse"
+EMD_E5A_Silver_Meteor
+EMD E5A 'Silvermeteoren'
+EMD_E5B_Silver_Comet
+EMD E5B 'Silverkometen'
+Evil_DF-11
+DF-11
+Evil_P-100_(carriage)
+RVg P-100 (personvagn)
+Evil_P-100_(front_engine)
+RVg P-100
+Evil_P-100_(mail)
+RVg P-100 (postvagn)
+Evil_P-100_(rear_engine)
+RVg P-100 (b-ände)
+Express_tender
+Skodatender
 Goods_waggon_0
 Cannonball godsfinka
 Goods_waggon_1
@@ -908,38 +1080,6 @@ JR_700_Shinkansen_HRS_(Pantograph_II)_PC
 JR 700 Shinkansen HRS strömupptagarvagn II
 JR_700_Shinkansen_HRS_(Tailcar)_PC
 JR 700 Shinkansen HRS (B-ände)
-MHz_Grain_Trailer_0
-Traktorsläp för spannmål
-MHz_Long_Wood_Trailer
-Traktorsläp för timmer
-MHz_Tractor
-Traktor
-MHz_Tractor_2
-JD-traktor
-MHz_TRAM_1930
-Spårvagn T-113
-MHz_TRAM_1980
-Spårvagn T-235
-MHz-C11C_Bulk_Barge
-C11C bulkgodspråm
-MHz-C11C_Wood_Barge
-C11C timmerpråm
-MHz-C273U_Cement_Barge
-C273U cementfartyg
-Milk_Truck_0
-PMNV Mjölktankbil
-Milk_Truck_1
-S.Kroytor-ZIL mjölkbil
-Milk_Truck_2
-Magirus mjölkbil
-mja-ScaniaP380_tanker
-mja-Scania P380 tankbil
-mja-ScaniaP420_concretemixer
-mja-Scania P420 betongblandare
-mja-ScaniaP420_longgoods
-Scania P420 timmerbil
-mja-volvoVN660
-Volvo VN660 dragbil
 Passagierwagen
 Canonball BTx 060 andraklassvagn
 Passanger_waggon_0
@@ -964,8 +1104,6 @@ RVg_M1_tail
 RVg M1 (B-ände)
 RVg_M1_waggon
 RVg M1 personvagn
-RVg-B_107
-RVg B149 - Red Dwarf
 RVg-D22-Rola
 RVg D22 "Rola"
 RVg-D23-Camel
@@ -984,30 +1122,6 @@ RVg-Goods_waggon
 RVg godsfinka
 RVg-Heavy-Tender
 RVg "Goliath" Tender
-RVg-KS_4510-33
-RVg-KS 33
-RVg-KS_4510-45
-RVg-KS 45
-RVg-KS_4510-69
-RVg-KS 69
-RVg-KS_9020-31
-Rvg KS 9020-31
-RVg-KS_9020-58
-RVg-KS 9020-58
-RVg-KS_9020-92
-RVg-KS 9020-92
-RVg-LK_Cement_Truck
-RVg-LK V44 cementblandare
-RVg-LK_Cooling_Truck
-RVg-LK V44 kyllastbil
-RVg-LK_Goods_Truck
-RVg-LK styckegodslastbil
-RVg-LK_Grain_Truck
-RVg-LK V41 spannmålslastbil
-RVg-LK_Plank_Truck
-RVg-LK V37 brädbil
-RVg-LK_Steel_Truck
-RVg-LK V38 stållastbil
 RVg-Oil-Tender
 RVg oljetender
 RVg-Pioneer_Alladin
@@ -1026,104 +1140,12 @@ RVg-S033-Red_Dwarf
 RVg S033
 RVg-S127-Blue_Cow
 RVg S127
-RVg-Sail_Goods_Ship_0
-RVg Styckegodssegelfartyg
-RVg-Sail_Passanger_Ship_0
-RVg Segelpassagerarfartyg
-RVg-Steam_Goods_Ship_0
-Rvg styckegodsångbåt
-RVg-Steam_Passanger_Ship_0
-Rvg passagerarångbåt
 RVg-Tender
 RVg tender
-RX_1064
-Buss RX 1064
-S_Kroytor_Gaz-2
-Gaz-2
-S_Kroytor_Gaz-3
-Gaz-3
-S_Kroytor_Gaz-4
-Gaz-4
-S_Kroytor_Ikarus-260
-Ikarus-260
-S_Kroytor_Ikarus-260(l)
-Ikarus-260 linjebuss
-S_Kroytor_Ikarus-280
-Ikarus 280
-S_Kroytor_Ikarus-280_ext
-Ikarus-280 utbyggnad
-S_Kroytor_LiAZ-5256
-LiAZ-5256
-S_Kroytor_LiAZ-677
-LiAZ-677
-S_Kroytor_Mercedes_Citaro
-Mercedes Citaro
-S_Kroytor_PAZ-672
-PAZ 672
-S_Kroytor_PAZ-772
-PAZ 772
-S_Kroytor_Traveler
-Traveler
 SBB_Re6_6
 SBB Re 6/6 - "Gotthardlok"
-Sentinel_Cement_Lorry
-Cementlastbil Sentinel
-Sentinel_Cement_Trailer
-Cementsläp Sentinel
-Sentinel_Goods_Lorry
-Styckegodslastbil Sentinel
-Sentinel_Goods_Trailer
-Styckegodssläp Sentinel
-Sentinel_Wood_Lorry
-Timmerbil Sentinel
-Sentinel_Wood_Trailer
-Timmersläp Sentinel
-skoda_1_tr_128
-Skoda 1
-skoda_10_tr_128
-Skoda 10
-skoda_10_tr_rear_128
-Skoda 10 (bakände)
 Skoda_109E
 Skoda 109E
-skoda_11_tr_128
-Skoda 11
-skoda_12_tr_128
-Skoda 12
-skoda_14_tr_128
-Skoda 14
-skoda_18_tr_128
-Skoda 18
-skoda_18_tr_rear_128
-Skoda 18 passagerarsläp
-skoda_19_tr_128
-Skoda 19
-skoda_19_tr_mid_128
-Skoda 19 mittsektion
-skoda_19_tr_rear_128
-Skoda 19 baksektion
-skoda_21_tr_128
-Skoda 21
-skoda_22_tr_128
-Skoda 22
-skoda_22_tr_rear_128
-Skoda 22 baksektion
-skoda_23_tr_128
-Skoda 23
-skoda_23_tr_mid_128
-Skoda 23 mittsektion
-skoda_23_tr_rear_128
-Skoda 23 baksektion
-skoda_24_tr_128
-Skoda 24
-skoda_25_tr_128
-Skoda 25
-skoda_25_tr_rear_128
-Skoda 25 baksektion
-Skoda_706_grain
-Skoda 706 spannmålslastbil
-Skoda_706_trailer_grain
-Skoda 706 spannmålssläp
 skoda151
 Skoda 151
 skoda163
@@ -1140,6 +1162,18 @@ Stahlwagen_2
 Stålrullevagn
 Stahlwagen_3
 Stålplattevagn
+#_____________________________vehicle - tram_track______________________________
+#_____________________________vehicle - tram_track______________________________
+DueWAG_GT6_motorwaggon
+Due WAG GT6
+DueWAG_GT6_tailwaggon
+Due WAG GT6 personvagn
+EM400_1
+FK EM400
+MHz_TRAM_1930
+Spårvagn T-113
+MHz_TRAM_1980
+Spårvagn T-235
 T_101
 RVg T101
 T_102
@@ -1154,51 +1188,71 @@ T_106
 RVg T106
 T_107A
 RVg T107a
-VSYS_Car_Trailer_0
-Släp för tung last
-VSYS_Concrete_Trailer_0
-Betongsläp
-Wood_Trailer_0
-Timmersläp
-Wood_Truck_0
-Volvo timmerlastbil
-Wood_Truck_1
-Ford V8 Timmerlastbil
-#______________________________________way______________________________________
-#______________________________________way______________________________________
+#________________________________vehicle - water________________________________
+#________________________________vehicle - water________________________________
+Fishing_Boat_1
+MHz Trålare
+MHz-C11C_Bulk_Barge
+C11C bulkgodspråm
+MHz-C11C_Wood_Barge
+C11C timmerpråm
+MHz-C273U_Cement_Barge
+C273U cementfartyg
+RVg-Sail_Goods_Ship_0
+RVg Styckegodssegelfartyg
+RVg-Sail_Passanger_Ship_0
+RVg Segelpassagerarfartyg
+RVg-Steam_Goods_Ship_0
+Rvg styckegodsångbåt
+RVg-Steam_Passanger_Ship_0
+Rvg passagerarångbåt
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 air_movement_area
 Asfalterad taxibana
-canal_030
-Kanal
 old_runway
 Gräsrullbana
 old_taxiway
 Grästaxibana
-Powerline
-Högspänningsledning
-river_0a
-Bäck
-river_0b
-Flod
 runway_modern
 Modern rullbana
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
 Schwebebahn_p_ground
 Markliggande monorailspår
 Suspended_Monorail_Track
 Upphöjt monorailspår
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+Powerline
+Högspänningsledning
+#__________________________________way - water__________________________________
+#__________________________________way - water__________________________________
+canal_030
+Kanal
+river_0a
+Bäck
+river_0b
+Flod
+#_______________________________way-object - air________________________________
+#_______________________________way-object - air________________________________
+modern_runway-extMrkLgt
+Rullbana
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+trolleybus_catenary
+Kontaktledning för trådbuss
+#______________________________way-object - track_______________________________
+#______________________________way-object - track_______________________________
 classic_metal_mesh_catenary
 Strömskena
 curved_pylon_lgv
 Höghastighetskontaktledning
 highspeed_catenary
 Standardkontaktledning
-modern_runway-extMrkLgt
-Rullbana
-tramway_modern
-Kontaktledning för spårväg
-trolleybus_catenary
-Kontaktledning för trådbuss
 wood_gantry_catenary
 Kontaktledning
+#____________________________way-object - tram_track____________________________
+#____________________________way-object - tram_track____________________________
+tramway_modern
+Kontaktledning för spårväg

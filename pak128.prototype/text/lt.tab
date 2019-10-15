@@ -9,27 +9,31 @@
 #                            Language: lt Lithuanian                           #
 #                                Encoding: UTF-8                               #
 #                                 Font: cyr.bdf                                #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
-PowerBridge
-Energijos tiltas
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
 Schwebebahn_p_bridge
 Vienbėgio sąspara
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
+PowerBridge
+Energijos tiltas
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
 water_bridge
 Vandens tiltas
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-Rotušė
-02_CITY
-Rotušė
-03_CITY
-Rotušė
-04_CITY
-Rotušė
+CarStop
+Krovos aikštelė
+ShipStop
+Uostas
+TrainStop
+Dengta platforma\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
 1920_AirDepot
 Angaras
 1930AirDepot
@@ -40,6 +44,18 @@ Aliumininis angaras
 Betoninis angaras
 1990AirDepot
 Šiuolaikinis Angaras
+CarDepot
+Garažas
+MonorailDepot
+Vienb?gio depas
+ShipDepot
+Laivų statykla
+TrainDepot
+Traukinių depas
+TramDepot
+Tramvajus depas
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
 Airport1920_AirportBlg
 Keleivių terminalas
 Airport1930PostOffice
@@ -56,8 +72,6 @@ Airport1990_Small_AirportBlg
 Mažas terminalas
 Airport1990_Warehouse
 Orouosto krovinių terminalas
-AirStop_AirportBlg
-Orouosto krovimo aikštelė
 Almuthof_StationBlg
 Kaimo stotis
 Avila_Big_StationBlg
@@ -66,58 +80,58 @@ Avila_Small_StationBlg
 Mažas keleivių pastatas
 Avila_Warehouse_StationBlg
 Krovinių sandėlis
+BigTerminal1950_AirportBlg_S
+Didelis terminalas (1950)
+Bulk_StationBlg
+Krovinių stotis
+Car_StationBlg
+Stoties stovėjimo aikštelė
+Control_StationBlg
+Iešmininkų bokštas
+Fluid_StationBlg
+naftos cisterna
+Gas_StationBlg
+Dujų cisterna
+Goods_StationBlg
+Sandėlis
+VictorianStation
+Senovinė stotis
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+Krovinių dokas
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+Orouosto krovimo aikštelė
 big_classic_bus_stop
 Didelė autobusų stotelė
 big_modern_bus_stop
 Didelė stotelė
-BigTerminal1950_AirportBlg_S
-Didelis terminalas (1950)
-Bulk_Dock
-Krovinių dokas
-Bulk_StationBlg
-Krovinių stotis
 bus_terminus
 Modernus terminalas
 canal_ChannelStop
 Kanalo stotelė
 canal_ware_stop
 Kanalo krantas (kroviniai)
-Car_StationBlg
-Stoties stovėjimo aikštelė
-CarDepot
-Garažas
-CarStop
-Krovos aikštelė
 classic_mailbox
 Pasto dėžutė
 ClosedTrainStop
 Visiškai užverta platforma
 CoalTrainStop
 Anglių stotis
-Control_StationBlg
-Iešmininkų bokštas
-Fluid_StationBlg
-naftos cisterna
 FreightTrainStop
 Krovinių platforma
-Gas_StationBlg
-Dujų cisterna
-Goods_StationBlg
-Sandėlis
-MonorailDepot
-Vienb?gio depas
-ShipDepot
-Laivų statykla
-ShipStop
-Uostas
-TrainDepot
-Traukinių depas
-TrainStop
-Dengta platforma\n
-TramDepot
-Tramvajus depas
-VictorianStation
-Senovinė stotis
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+Rotušė
+02_CITY
+Rotušė
+03_CITY
+Rotušė
+04_CITY
+Rotušė
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -338,12 +352,22 @@ Monorails are not available yet!
 Vienbėgiai dar neatsirado.
 remove monorails
 Šalinti vienbėgį
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
 air_one-way
 Pakilimo tako kryptis
 airport_oneway
 Vienpusis pakilimo takas
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+choose_signal_monorail
+Platformos pasirinkimo signalas
+preSignal_Monorail
+Presignalas
+Signal_Monorail
+Signalas
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 Įvažiavimas į greitkelį
 autobahn_classic_exit
@@ -354,8 +378,16 @@ autobahn_modern_exit
 Autostrados pabaiga
 choose_point
 Rinkis kelią ženklas
-choose_signal_monorail
-Platformos pasirinkimo signalas
+Minimum80
+Mažiausiai 80 km/h !
+NoEntry
+Vienpusis eismas ženklas
+RoadClosed
+Kelio užtvaras
+traffic_light
+Šviesoforas
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
 ChooseSignals
 Rinktis platformą
 Classic_ChooseSignals_right
@@ -378,8 +410,6 @@ EndOfChooseSignals
 Platformos signalo pabaiga
 LongSignals
 Ilgo bloko signalas
-Minimum80
-Mažiausiai 80 km/h !
 Modern_ChooseSignals_right
 Platformos pasirinkimo signalas
 Modern_EndOfChooseSignals_right
@@ -392,280 +422,16 @@ Modern_preSignals_right
 Presignalas
 Modern_Signals_right
 Signalas
-NoEntry
-Vienpusis eismas ženklas
 OneWaySignals
 Vienpusis kelias
-preSignal_Monorail
-Presignalas
 preSignals
 Presignalas
 Railgate
 Barjeras kitų žaidėjų eismui valdyti (naudinga multiplayer rėžime).
-RoadClosed
-Kelio užtvaras
-Signal_Monorail
-Signalas
 Signals
 Signalas
-traffic_light
-Šviesoforas
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-1Benst134
-RVg-Bennhardt B-134 "Pixie"
-1Benst135t
-Bennhardt B-135 "Gremlin"
-1Benst138
-Bennhardt B-138 "Apple Pie"
-1Benst162t
-Bennhardt B-162 "Jet"
-1Benst238
-RVg-Bennhardt B-238 "Frog"
-1Dampflokomotive
-RVg 0-4-0T
-20ft_Container_Trailer-128set
-20 pėdų konteinerių puspriekabė
-2Diesellokomotive
-H-Trans BR 218
-3Bens186t
-Bennhardt B-186 "Lemon"
-3Dampflokomotive
-RVg 0-3-0 "Chippy"
-40ft_Container_Trailer
-40pedų konteinerių puspriekabė
-Airport_express_shuttle
-Aeroousto ekspreso autobusas
-Autotransportwagen
-Napik-Canonball Autotransporteris
-BB-TS_Milk_Mack_Trailer
-BB-TS pieno puspriekabė
-Big_Bretterwagen
-RVg lentų vagonas
-Big_Erztruck
-MHz kasyklos savivartis
-Bretterwagen
-BB lentų vagonas
-Budd_Coach
-Budd RPO Keleivinis vagonas
-Budd_Observation
-Budd apžvalgos vagonas
-Budd_RPO
-Budd RPO (paštas)
-Bulk_trailer_0
-Shorty savivartė priekaba
-Bulk_Truck_0
-Shorty-Volvo 800
-Bulk_Truck_2
-VSYS-Tatra 801
-Bulk_Truck_3
-VSYS-Tatra 815 (savivartis)
-Bulk_Truck_4
-AvG-Volvo savivartis
-caboose_1
-RvG vagonetė
-caboose_2
-RvG spec. vagonetė
-caboose_3
-RvG priežiūros vagonetė
-Car_Tramsport_Trailer_0
-TS autotralas
-Car_Transporter_0
-TS Autotralas
-Car_Transporter_1
-RVg auto sunkvežimis
-Car_Waggon_1
-RVg autovagonas
-Car_Waggon_2
-RVg didelis autovagonas
-CB_ALBATROS
-RVg Skoda 498 "Albatros"
-CB_DB-130_8
-Canonball & H-Trans BRAW61000 "Būgnas"
-Cement_Carrier_Fast
-Cemento vagonas
-Cement_trailer_0
-PMNV cemento priekaba
-Cement_Truck_0
-PMNV Cemento sunkvežimis
-Cement_Waggon_0
-BB-PMNV cemento vagonas II
-Cement_Waggon_1
-BB-PMNV cemento vagonas
-Cementwagen
-SergeS cemento talpykla
-CKD_749
-CKD 749
-CKD_750
-CKD 750
-Concrete_Truck_0
-S.Kroytor savaeigė betono maišyklė
-Concrete_Truck_1
-VSYS-Tatra 815 (betonas)
-Concretewagen
-PMNV betono maišyklė 12
-Concretewagen_1
-PMNV Betono maišyklė 16
-Cooling_trailer_0
-PMNV šaldytuvas-priekaba
-Cooling_Truck_0
-PMNV Geltonasis sunkvežimis-šaldytuvas
-Cooling_Truck_1
-PMNV Rudasis sunkvežimis-šaldytuvas
-Cooling_Truck_2
-S.Kroytor Gaz-4
-Cooling_wagon_0
-Canonball šaldytuvas-vagonas
-Cooling_wagon_1
-Šaldytuvų-konteinerių vagonas
-Cooling_wagon_2
-Cannonball šaldytuvas-vagonas
-DB_ADm101
-Haru ADm101
-DB_Apmz121
-Haru Apmz121
-DB_Bm235
-Haru Bm235
-DB_BR103_1
-Haru BR-103
-E_423
-Sindor E-432 - "Top class"
-EMD_E5A_Silver_Meteor
-EMD E5A - Silver Meteor
-EMD_E5B_Silver_Comet
-EMD E5B - Silver Comet
-Evil_DF-11
-Evil DF-11
-Evil_P-100_(carriage)
-RVg P-100 (vagonas)
-Evil_P-100_(front_engine)
-RVg P-100
-Evil_P-100_(mail)
-Evil P-100 paįto vagonas
-Evil_P-100_(rear_engine)
-RVg P-100 (galas)
-Evil-Jitluen_67_Minibus
-Evil-Jitluen 67 mikroautobusas
-Express_tender
-Tenderis
-Fluid_trailer_0
-AJ naftos cisterna
-Fluid_trailer_1
-AJ-PMNV naftos priekaba
-Fluid_Truck_0
-Karl-Nissan diezelio transporteris 1800
-Fluid_Truck_1
-Karl-Nissan dyzelio transporteris 1100
-Fluid_Truck_2
-S.Kroytor ZUK-20
-Fluid_Truck_3
-Magirus Naftos cisterna 1923
-Goods_trailer_0
-Mitsubishi Fuso ST (priekaba)
-Goods_trailer_1
-Mitsubishi Fuso ST mk2  (priekaba)
-Goods_trailer_2
-PMNV prekių puspriekabė
-Goods_trailer_3
-PMNV atsparių prekių puspriekabė
-Goods_Truck_0
-Karl-Mitsubishi Fuso Super Truck sunkvežimis
-Goods_Truck_1
-Karl-Mitsubishi Fuso Hyper Truck sunkvežimis
-Goods_Truck_2
-PMNV prekių sunkvežimis
-Goods_Truck_3
-PMNV Lengvų krovinių sunkvežimis
-Goods_Truck_4
-PMNV Turbo sunkvežimis
-Goods_Truck_5
-S.Kroytor Gaz-4
-Grain_trailer_0
-PMNV standartinė grūdų priekaba
-Grain_Truck_1
-VSYS-Tatra 815 (grūdai)
-Haru_E3_KOMACHI
-Haru E3 "Komachi"
-Haru_E3_KOMACHI_(mid)
-Haru E3 "Komachi" (vid)
-Haru_E3_KOMACHI_(rear)
-Haru E3 "Komachi" (galas)
-Holzwagen
-Miškovežio vagonas
-JNR_C11
-RavenCo JNR-C11 2-8-4
-Kord_TT_bulk
-Kord TT savivartis
-Kord_TT_grain
-Kord TT grūdų savivartis
-Mack_Truck_Cooling_Trailer
-Mack šaldytuvo puspriekabė
-Mack_Truck_Goods_Trailer
-Mack prekių puspriekabė
-Mack_Truck_Post_Trailer
-PMNV pašto puspriekabė
-Mail_Truck_2
-MHz Windstar (paštas)
-MHz_Grain_Trailer_0
-MHz traktorinė grudų priekaba
-MHz_Long_Wood_Trailer
-MHz rastų priekaba
-MHz_Tractor
-Mhz traktorius
-MHz_Tractor_2
-MHz-JD Traktorius
-Milk_Truck_0
-PMNV pienovežis
-Milk_Truck_1
-S.Kroytor-ZIL pienovežis
-Milk_Truck_2
-Magirus pienovežis
-Planck_Truck_0
-PMNV-Canonball platforma (mediena)
-Plank_Truck_2
-VSYS-Tatra 815 platforma (mediena)
-PMNV_50_Mack
-PMNV 1950-ųjų Mack
-PMNV_Canonball_Car_Trailer
-PMNV-Canonball autotralas
-PMNV_Cement_Trailer_Slow
-PMNV CT-2 Cement priekaba
-PMNV_Cement_Truck_P
-PMNV CTr-2 cementovežis
-PMNV_Concrete_Truck
-PMNV Mack betono maišytuvas
-PMNV_Cruiser
-Kreiseris
-PMNV_Cruiser_Mini
-Kreiseris mini
-PMNV_Fabric_Trailer_0
-PMNV uždara pluošto priekaba
-PMNV_Grain_Truck_0
-PMNV standartinis grūdų savivartis
-PMNV_Hydrogen_Cruiser
-PMNV Vandenilio kreiseris
-PMNV_TC-119-Snake
-PMNV TC-119 Snake (vagonas A)
-PMNV_TC-119-Snake_b
-PMNV TC-119 Snake (vagonas B)
-PMNV_TC-44-Hydrogen_Car
-PMNV TC-44 H2 (vagonas A)
-PMNV_TC-44-Hydrogen_Car_b
-PMNV TC-44 H2 (vagonas B)
-PMNV_TC-7_Astro_Trolley
-PMNV TC-7 Astro funikulierius
-PMNV-TC-1_Turbo_Car
-PMNV TC-1 TurboCar
-PMNV-TC-112-Hyper_Car
-PMNV TC-112 HyperCar
-PMNV-TC-2_Turbo_Set
-PMNV TC-2 TurboSet
-PMNV-TC-2_Turbo_Set_b
-PMNV TC-2 TurboSet (vagonas)
-PMNV-TC-2_Turbo_Set_c
-PMNV TC-2 TurboSet (galas)
-PMNV-TC-5P_Mail_Man
-PMNV TC-5P "Paštininkas"
+#_________________________________vehicle - air_________________________________
+#_________________________________vehicle - air_________________________________
 SAC-Aerospatiale_Concorde_128_set
 SAC-Aerospatiale Concorde
 SAC-Airbus_A300-600C_128_set
@@ -732,6 +498,184 @@ SAC-McDonnell_Douglas_DC-10_128_set
 SAC-McDonnell Douglas DC-10
 SAC-Rohrbach_Rocco_128_set
 SAC-Rohrbach Rocco
+#___________________________vehicle - monorail_track____________________________
+#___________________________vehicle - monorail_track____________________________
+PMNV_TC-119-Snake
+PMNV TC-119 Snake (vagonas A)
+PMNV_TC-119-Snake_b
+PMNV TC-119 Snake (vagonas B)
+PMNV_TC-44-Hydrogen_Car
+PMNV TC-44 H2 (vagonas A)
+PMNV_TC-44-Hydrogen_Car_b
+PMNV TC-44 H2 (vagonas B)
+PMNV_TC-7_Astro_Trolley
+PMNV TC-7 Astro funikulierius
+PMNV-TC-1_Turbo_Car
+PMNV TC-1 TurboCar
+PMNV-TC-112-Hyper_Car
+PMNV TC-112 HyperCar
+PMNV-TC-2_Turbo_Set
+PMNV TC-2 TurboSet
+PMNV-TC-2_Turbo_Set_b
+PMNV TC-2 TurboSet (vagonas)
+PMNV-TC-2_Turbo_Set_c
+PMNV TC-2 TurboSet (galas)
+PMNV-TC-5P_Mail_Man
+PMNV TC-5P "Paštininkas"
+yoshi_wup01
+GTW 72
+yoshi_wup02
+GTW 72 vidurys
+yoshi_wup03
+GTW 72 galas
+yoshi_wup1900
+GTW 01
+yoshi_wup1950
+GTW 62
+yoshi_wup196201
+GTW 69
+yoshi_wup196202
+GTW 69 vidurys
+yoshi_wup196203
+GTW 69 galas
+yoshi_wup196501
+GTW 85
+yoshi_wup196502
+GTW 85 vidurys
+yoshi_wup196503
+GTW 85 galas
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
+20ft_Container_Trailer-128set
+20 pėdų konteinerių puspriekabė
+40ft_Container_Trailer
+40pedų konteinerių puspriekabė
+Airport_express_shuttle
+Aeroousto ekspreso autobusas
+BB-TS_Milk_Mack_Trailer
+BB-TS pieno puspriekabė
+Big_Erztruck
+MHz kasyklos savivartis
+Bulk_trailer_0
+Shorty savivartė priekaba
+Bulk_Truck_0
+Shorty-Volvo 800
+Bulk_Truck_2
+VSYS-Tatra 801
+Bulk_Truck_3
+VSYS-Tatra 815 (savivartis)
+Bulk_Truck_4
+AvG-Volvo savivartis
+Car_Tramsport_Trailer_0
+TS autotralas
+Car_Transporter_0
+TS Autotralas
+Car_Transporter_1
+RVg auto sunkvežimis
+Cement_trailer_0
+PMNV cemento priekaba
+Cement_Truck_0
+PMNV Cemento sunkvežimis
+Concrete_Truck_0
+S.Kroytor savaeigė betono maišyklė
+Concrete_Truck_1
+VSYS-Tatra 815 (betonas)
+Cooling_trailer_0
+PMNV šaldytuvas-priekaba
+Cooling_Truck_0
+PMNV Geltonasis sunkvežimis-šaldytuvas
+Cooling_Truck_1
+PMNV Rudasis sunkvežimis-šaldytuvas
+Cooling_Truck_2
+S.Kroytor Gaz-4
+Evil-Jitluen_67_Minibus
+Evil-Jitluen 67 mikroautobusas
+Fluid_trailer_0
+AJ naftos cisterna
+Fluid_trailer_1
+AJ-PMNV naftos priekaba
+Fluid_Truck_0
+Karl-Nissan diezelio transporteris 1800
+Fluid_Truck_1
+Karl-Nissan dyzelio transporteris 1100
+Fluid_Truck_2
+S.Kroytor ZUK-20
+Fluid_Truck_3
+Magirus Naftos cisterna 1923
+Goods_trailer_0
+Mitsubishi Fuso ST (priekaba)
+Goods_trailer_1
+Mitsubishi Fuso ST mk2  (priekaba)
+Goods_trailer_2
+PMNV prekių puspriekabė
+Goods_trailer_3
+PMNV atsparių prekių puspriekabė
+Goods_Truck_0
+Karl-Mitsubishi Fuso Super Truck sunkvežimis
+Goods_Truck_1
+Karl-Mitsubishi Fuso Hyper Truck sunkvežimis
+Goods_Truck_2
+PMNV prekių sunkvežimis
+Goods_Truck_3
+PMNV Lengvų krovinių sunkvežimis
+Goods_Truck_4
+PMNV Turbo sunkvežimis
+Goods_Truck_5
+S.Kroytor Gaz-4
+Grain_trailer_0
+PMNV standartinė grūdų priekaba
+Grain_Truck_1
+VSYS-Tatra 815 (grūdai)
+Kord_TT_bulk
+Kord TT savivartis
+Kord_TT_grain
+Kord TT grūdų savivartis
+Mack_Truck_Cooling_Trailer
+Mack šaldytuvo puspriekabė
+Mack_Truck_Goods_Trailer
+Mack prekių puspriekabė
+Mack_Truck_Post_Trailer
+PMNV pašto puspriekabė
+Mail_Truck_2
+MHz Windstar (paštas)
+MHz_Grain_Trailer_0
+MHz traktorinė grudų priekaba
+MHz_Long_Wood_Trailer
+MHz rastų priekaba
+MHz_Tractor
+Mhz traktorius
+MHz_Tractor_2
+MHz-JD Traktorius
+Milk_Truck_0
+PMNV pienovežis
+Milk_Truck_1
+S.Kroytor-ZIL pienovežis
+Milk_Truck_2
+Magirus pienovežis
+Planck_Truck_0
+PMNV-Canonball platforma (mediena)
+Plank_Truck_2
+VSYS-Tatra 815 platforma (mediena)
+PMNV_50_Mack
+PMNV 1950-ųjų Mack
+PMNV_Canonball_Car_Trailer
+PMNV-Canonball autotralas
+PMNV_Cement_Trailer_Slow
+PMNV CT-2 Cement priekaba
+PMNV_Cement_Truck_P
+PMNV CTr-2 cementovežis
+PMNV_Concrete_Truck
+PMNV Mack betono maišytuvas
+PMNV_Cruiser
+Kreiseris
+PMNV_Cruiser_Mini
+Kreiseris mini
+PMNV_Fabric_Trailer_0
+PMNV uždara pluošto priekaba
+PMNV_Grain_Truck_0
+PMNV standartinis grūdų savivartis
+PMNV_Hydrogen_Cruiser
+PMNV Vandenilio kreiseris
 TATRA_400_T_128
 Tatra 400 T
 TATRA_401_T_128
@@ -774,31 +718,115 @@ Wood_Truck_0
 Shorty-Volvo miškovežis
 Wood_Truck_1
 Ford V8 coe miškovežis
-yoshi_wup01
-GTW 72
-yoshi_wup02
-GTW 72 vidurys
-yoshi_wup03
-GTW 72 galas
-yoshi_wup1900
-GTW 01
-yoshi_wup1950
-GTW 62
-yoshi_wup196201
-GTW 69
-yoshi_wup196202
-GTW 69 vidurys
-yoshi_wup196203
-GTW 69 galas
-yoshi_wup196501
-GTW 85
-yoshi_wup196502
-GTW 85 vidurys
-yoshi_wup196503
-GTW 85 galas
-#______________________________________way______________________________________
-#______________________________________way______________________________________
-Powerline
-Elektros linija
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+1Benst134
+RVg-Bennhardt B-134 "Pixie"
+1Benst135t
+Bennhardt B-135 "Gremlin"
+1Benst138
+Bennhardt B-138 "Apple Pie"
+1Benst162t
+Bennhardt B-162 "Jet"
+1Benst238
+RVg-Bennhardt B-238 "Frog"
+1Dampflokomotive
+RVg 0-4-0T
+2Diesellokomotive
+H-Trans BR 218
+3Bens186t
+Bennhardt B-186 "Lemon"
+3Dampflokomotive
+RVg 0-3-0 "Chippy"
+Autotransportwagen
+Napik-Canonball Autotransporteris
+Big_Bretterwagen
+RVg lentų vagonas
+Bretterwagen
+BB lentų vagonas
+Budd_Coach
+Budd RPO Keleivinis vagonas
+Budd_Observation
+Budd apžvalgos vagonas
+Budd_RPO
+Budd RPO (paštas)
+caboose_1
+RvG vagonetė
+caboose_2
+RvG spec. vagonetė
+caboose_3
+RvG priežiūros vagonetė
+Car_Waggon_1
+RVg autovagonas
+Car_Waggon_2
+RVg didelis autovagonas
+CB_ALBATROS
+RVg Skoda 498 "Albatros"
+CB_DB-130_8
+Canonball & H-Trans BRAW61000 "Būgnas"
+Cement_Carrier_Fast
+Cemento vagonas
+Cement_Waggon_0
+BB-PMNV cemento vagonas II
+Cement_Waggon_1
+BB-PMNV cemento vagonas
+Cementwagen
+SergeS cemento talpykla
+CKD_749
+CKD 749
+CKD_750
+CKD 750
+Concretewagen
+PMNV betono maišyklė 12
+Concretewagen_1
+PMNV Betono maišyklė 16
+Cooling_wagon_0
+Canonball šaldytuvas-vagonas
+Cooling_wagon_1
+Šaldytuvų-konteinerių vagonas
+Cooling_wagon_2
+Cannonball šaldytuvas-vagonas
+DB_ADm101
+Haru ADm101
+DB_Apmz121
+Haru Apmz121
+DB_Bm235
+Haru Bm235
+DB_BR103_1
+Haru BR-103
+E_423
+Sindor E-432 - "Top class"
+EMD_E5A_Silver_Meteor
+EMD E5A - Silver Meteor
+EMD_E5B_Silver_Comet
+EMD E5B - Silver Comet
+Evil_DF-11
+Evil DF-11
+Evil_P-100_(carriage)
+RVg P-100 (vagonas)
+Evil_P-100_(front_engine)
+RVg P-100
+Evil_P-100_(mail)
+Evil P-100 paįto vagonas
+Evil_P-100_(rear_engine)
+RVg P-100 (galas)
+Express_tender
+Tenderis
+Haru_E3_KOMACHI
+Haru E3 "Komachi"
+Haru_E3_KOMACHI_(mid)
+Haru E3 "Komachi" (vid)
+Haru_E3_KOMACHI_(rear)
+Haru E3 "Komachi" (galas)
+Holzwagen
+Miškovežio vagonas
+JNR_C11
+RavenCo JNR-C11 2-8-4
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 runway_modern
 Pakilimo takas
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+Powerline
+Elektros linija

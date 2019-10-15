@@ -9,19 +9,39 @@
 #                              Language: ca Catala                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
+Schwebebahn_p_bridge
+Monocarril suspès (pont)
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
+PowerBridge
+Pont per a línia d'alta tensió
+#_________________________________bridge - road_________________________________
+#_________________________________bridge - road_________________________________
 Highway_110_Bridge
 Pont de via ràpida
 Highway_130_Bridge
 Pont d'autopista
 Highway_200_Bridge
 Pont modern d'autopista
-PowerBridge
-Pont per a línia d'alta tensió
+road_030_bridge
+Pont de fusta
+road_040_bridge
+Pont empedrat
+road_050_bridge
+Pont asfaltat
+Road_055_Bridge
+Pont de pedra
+Road_070_Bridge
+Pont de carretera
+Road_090_Bridge
+Pont modern de carretera
+#________________________________bridge - track_________________________________
+#________________________________bridge - track_________________________________
 Rail_060_Bridge
 Pont de fusta per via de mercaderies
 Rail_060B_Bridge
@@ -52,44 +72,140 @@ Rail_320_Bridge
 Pont amb carcassa de formigó per a via moderna d'alta velocitat
 Rail_400_Bridge
 Pont amb carcassa de formigó per a via millorada d'alta velocitat
-road_030_bridge
-Pont de fusta
-road_040_bridge
-Pont empedrat
-road_050_bridge
-Pont asfaltat
-Road_055_Bridge
-Pont de pedra
-Road_070_Bridge
-Pont de carretera
-Road_090_Bridge
-Pont modern de carretera
-Schwebebahn_p_bridge
-Monocarril suspès (pont)
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
 water_bridge
 aqüeducte
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-Ajuntament
-01_CITY_1
-Casa consistorial de l'Orient Mitjà
-02_CITY
-Ajuntament
-02_CITY_1
-Edifici Municipal de l'Orient Mitjà
-03_CITY
-Ajuntament
-03_CITY_1
-Gran casa consistorial de l'Orient Mitjà
-04_CITY
-Ajuntament
-04_CITY_1
-Ple Municipal de l'Orient Mitjà
-05_CITY
-Ajuntament i casa consistorial
-05_CITY_1
-Ajuntament de l'Orient Mitjà
+CarStop
+Zona de càrrega per a camions
+MonorailGround
+Cimentació per a monocarril
+ShipStop
+Moll de passatgers
+TrainStop
+Estació amb coberta metàl·lica
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+Abadia\n\nAquesta abadia és interessant pels\npous profunds a\nles seves dues\ntorres. Segons la tradició,\nno ténen fons. Es\nincreïble quanta gente\nvol venir-hi per veure aquests\npous màgics. Les\nmonedes, que cauen\nsilencionsament sobre\nescuma 50 metros més\nabaix, aumenten tant la\nrecaudació de l'abadia que els\nmonjos han pogut rehabilitar les\nrunes fins el seu estat actual.\n
+CASTLE_0
+Aquest castell pertanyia al\nRey Napik. Va ser destruït\nquasi totalment durant la\ngran guerra, però després\nreconstruït al Segle XIX,\ni ara allotja una\nfamosa col·lecció\nd'antigues armadures i\nespases.\n
+CHURCH_02
+Església rosa\n\nAquesta església pintoresca va\nser construïda pel cèlebre\nmonjo boig, qui l'any\n1654, va pintar tot l'edifici\nde color rosa. El color\nva desaparèixer fa anys,\nperò segueix conservant el\nnom que la va fer famosa.\n
+CHURCH_03
+Església\n\nAquesta es una església famosa,\nque atrau molta gent pel\nseu agradable entorn i\nels interessants cuadres\nque s'exposen al seu interior.\n\n
+CHURCH_04
+Sinagoga\n\nMalgrat que aquesta catedral\nsembla una mica Aràbiga, és\nen realitat una sinagoga.\n\n
+CHURCH_05
+Capella de Sant Miquel.\n\nLa seva gema arquitectònica va\nser construïda al Segle XIX,\ni és molt interessant pel\nseu sostre fet de metall,\ndissenyat per Alexander\nGustavus Eiffel.\n
+CHURCH_06
+Església\n\nUna església típica d'un\npoble o petita vila.\n\n
+CIRCUS_0
+Aquest famós circ va decidir\nquedar-se en aquest poble\ncom a destí final. La\ncarpa clàssica va ser\npreservada per a mantenir\nl'atmosfera original, però\ntota la gent del circ ja\ns'ha comprat les seves\npròpies cases per la zona,\npel que pots comptar amb\nque es quedaran, i que es\nconvertirà en un punt\nturístic molt important. El circ\nté com a principal atracció a\nJumbo, l'elefant que seu\ncada cop que sona la\ncampana... així que vigila si\nsents sonar una campana quan\nestiguis darrera seu, a menys que\nvulguis quedar bien prim.\n
+CIVILIAN_RADAR
+Ràdio Observatori.\nÉs posible que no ho\ncreguis, però aquest és un\nobservatori normal i\ncorrent. Un ràdio\nobservatori, és clar...\n
+Cross_Country_skiing_resort
+Estació d'esquí nòrdic
+CUR_01_128_JH
+Atomium\n\nAquesta molècula va ser dissenyada\nper a una exhibició, però\nningú recorda de què\ntractava aquesta. Per això,\ns'ha convertit en un\nrestaurant d'alta\ncategoria. Les taules del\nsaló superior, ofereixen una\nexcel·lent vista, pel que\ns'han de reservar amb\ndues setmanes d'antelació.\n
+ELEMENTARY_SCHOOL_1
+Escola Bressol\n\nMolts pares i mares passen\nper aquí pels matins a\ndeixar les seves criatures,\nper recollir-les més tard\nen sortir de la feina.\nÉs un lloc normalment tranquil,\nperò en aquests dos moments\ndel dia s'hi veu gent\nper tot arreu!\n
+ELEMENTARY_SCHOOL_2
+Escola de primària\n\nAquest és un lloc on els\nnens haurien d'obtenir la\seva educació primària.\nMatemàtiques, llengües,\nhistòria i ciències estan\nentre les assignatures\nmenys desitjades. Als\njoves estudiants els\nagrada molt més cantar\ni pintar. Donat que\nels jovenets no saben\nconduir, aquest lloc generarà\nmoltíssims passatgers.\n
+Firestation
+Parc de Bombers\n\nAquest és el parc de bombers\nde la ciutat. Aquí\ntrobem el camió de bombers,\nels bombers i una ambulància.\nAixò és de moment, perquè\nl'ambulància se l'enduran, un\ncop s'acabin les obres que\nfan a l'hospital.\n
+FORT_FUN
+Fort del vell oest\n\nGrans i petits s'ho passen\nd'allò més bé en aquest\nparc temàtic del vell oest.\nAmb el gran èxit que té\nentre la població,\nés un negoci segur per\nl'atrevit empresari de transport\nque primer hi faci arribar\nuna línia d'autobusos.\n\n
+french_garden_4
+Jardins públics
+french_park_1
+Parc i jardins
+FUTURISTIC_TOWER_0
+Torre\n\nAquesta torre ofereix grans vistes\ndel paisatge dels\nvoltants. El pis superior\ntambé té un petit bar, així\npots prendre alguna cosa mentre\ngaudeixes del plaer de les\nvistes. En cara que\nels preus son bastant elevats,\nla torre segueix atraient a molts\nvisitants.\n
+GRASS_STADIUM
+Estadi d'herba\n\nAquest estadi d'herba és un\nlloc excel·lent per a\npracticar el footing i jugar\nal futbol. Sovint,\nun pot trobar-se\namb gent menys activa\nque observa als\nesportistes des dels\nbancs de sota els arbres.\n
+GREEN_HOUSE
+Hivernacle\n\nAquest hivernacle abans era\nuna botiga normal. Però després\nd'un temps, el propietari va\nadonar-se que la gent venia\nnomés a fer un cop d'ull,\nsense cap intenció de\ncomprar res. Així que\nva convertir la botiga en un\njardí tropical d'hivern. Ara\naquest hivernacle conté\nalgunes plantes realment singulars\ni és molt conegut a tot\nel país.\n
+HIGH_SCHOOL_1
+Institut de batxillerat\n\nUna de les coses interessants\nd'aquest institut de\nbatxillerat és que les classes\ncomencen a les 9 del matí, i acaben\npassat el migdia. La\nsegona cosa curiosa és\nque els alumnes hi assisteixen\ntota la setmana, inclosos\ndissabtes i diumenges!\n
+HIGH_SCHOOL_2
+La vella escola - Els estudiants tenen la seguretat\nd'una bona educació.\nLes matemàtiques, la història\ni l'ètica són les matèries\nobligatòries que se'ls ensenyen.
+HOUSE_RUINS_0
+Casa en runes\n\nFa molt temps això era\nl'ajuntament d'un poble\nque ja no existeix. Als\nhistoriadors els agrada\nvenir per a recordar el\npassat, i als turistes els\nagrada venir a veure les\nobres de teatre que s'hi\nrepresenten, a l'aire lliure,\njust a sota de l'arbre.\n
+JUSTICE
+Tribunal de Justícia\n\nAquest és el Tribunal de Justícia\nde la ciutat, on s'hi\nrealitzen els judicis.\nEls advocats hi van i en vénen\nconstantment.\n\n
+library_holy_genevieve
+Biblioteca de Santa Geneviève\n\nAquesta és la biblioteca\nmés gran de la regió.\nMultitud d'estudiants i\nerudits passen per aquestes\ninstal·lacions cada dia.\n
+Lighthouse_0
+Far\n\nDes que es van construir, la\nnavegació a Simutrans\ns'ha fet més fàcil i\nsegura. Molta gent ara\nvol visitar-ne un d'aquests\ni contemplar les onades\ntrencant contra la costa.\n
+Lighthouse_1
+Far\n\nDes que es van construir, la\nnavegació a Simutrans\ns'ha fet més fàcil i\nsegura. Aquest n'és un\ndels més extranys, però cap\nmariner se n'ha queixat\npas mai.\n
+Little_Central_Park
+El parc central de la ciutat.\n No busqueu pas cap semblança\namb el seu germà gran americà.
+MANOR_0
+Mansió\n\nAquesta preciosa mansió\nrenaixentista té un\npassat molt interessant.\nAvui és la casa d'un\nexitós home de\nnegocis (et. Napik). Però ell\nen va obrir una gran part\nper a exposicions públiques\nsobre la Història. Tot i que\naixò pot semblar\naburrit, les exposicions\nsón realment molt\ninteressants. Així que la casa\nestà plena de turistes cada dia.\n
+MARKET_PLACE_0
+Mercat\n\nEl mercat de la ciutat és un bon\nlloc per passar la tarda amb\nla família. Els nens poden\ncomprar caramels i veure com\ntreballen els vells artesans.\nLes dones poden fer un cop\nd'ull per les parades\nbuscant tot tipus de coses,\ni els homes poden seure a\npendre una cervesa mentre\ns'esperen.\n
+MILITARY_RADAR
+Radar Militar\n\n¡Aquesta és una estructura militar\nsecreta! ¡Surt d'aquí! ¡Et\nvaig dir que marxessis! ¡Si\ndic que te'n vagis, vull\ndir que has de tancar la\nfinestra i marxar d'aquí!\nQuè? Encara m'estas\nllegint? Tanca\nimmediatament la finestra i\nmarxa! No hauries d'estar\naquí! Fora!!!\n
+MT_HOTEL_0
+Hotel\n\nUn famós hotel, amb\nhabitacions caríssimes,\nperò tots moririen per\nquedar-se un dia aquí, o com\na mínim poder disfrutar del\nmenjar del restaurant de\nl'Hotel.\n
+MUSEUM_0
+Museu\n\nAnteriorment era un\ncastell, després el van\nreconstruir, i fa poc\nn'han fet un museo públic\nde ciència y tecnologia.\nPots venir a veure\nmodels d'antics automòbils,\naprendre dels avenços\nde la física o\nparticipar als\nseminaris.\n
+OBSERVATORY
+Observatori\n\nAquest és un dels\nobservatoris més coneguts,\non s'hi han fet\nmolts dels\ndescobriments del\nSimunivers. Mentre els\nastrònoms treballen de\nnit i miren el cel, els\nturistes poden visitar-lo\ndurant el dia, veient-hi\nles exhibiciones\nmultimedia o legint-hi llibres. El que\ns'hi exhibeix és molt interessant,\nentenible i també atractiu, pel\nque sempre està ple de gent.\n
+Old_gate
+Torre antiga
+OLD_HOUSE_0
+Casa antiga\n\nAquesta combinació de gòtic i\nrenaixentista ha fet que\nes convertís en un museu\nd'arquitectura antiga.\nTé il·lustracions i\nmaquetes d'edificis\nantics. L'exposició és\nforça interessant i fàcil\nd'entendre, així que està\nple de gent casi\ncada dia.\n
+Pagoda01
+Pagoda\n\n
+PARK_0
+Parc\n\n
+Percival_Maya_Temple
+Temple Maia Percival\n Les excavacions han posat al descobert\nuna civilització simutransiana\nmolt antiga!
+radiant_house
+Casa radiant\n\nEdifici Le Corbusier\nLa propia comunitat\nde veïns gestiona completament\nl'edifici.
+RADIO_TOWER_0
+Estació de ràdio FM Chit-Chat\n\nAquesta és l'estació de ràdio\nFM de Chit-Chat, on\nels agrada venir a molta\ngent, ja que els\norganitzadors prometen\nque els visitants sortiran\nen directe tots els dies entre\n13:00 h. y 14:30 h.\n
+rmax_clock_tower
+Torre del rellotge\n\nTé un disseny peculiar.\nAlguns creuen que està\ninspirada en les runes de\nla Torre de Fabel però de\nfet, és un edifici de\nrecent construcció i el seu\nrellotge és un dels més\nprecisos de Simutrans.\n
+rmax_courthouse
+Palau judicial\n\n
+rmax_icarus
+Rampa de llançament de cohets\n\nAquest és el lloc on\nl'empresa Icarus, la primera\ncompanyia en tècniques de\nconstrucció de cohets,\nposa els satèl·lits en òrbita\ngràcies als seus cohets.\nAfortunadament, no fa\nhonor al seu llegendari\nnom. Més enllà de la seva\nimportància econòmica,\naquest lloc atrau a milers de\ncuriosos i turistes que volen\nveure els lançaments\n
+rmax_mosque
+Mesquita As-Salam\n\nCada cop que el Muezin crida a\nl'oració des de dalt del\nminaret, la comunitat\nmusulmana de simupolites\nes reuneix per a resar.\nAs-Salam es un dels 99\nnoms d'Alà i significa\n"La pau"\n
+ROCK_0
+Roca d'en Patrick\n\nLa Roca d'en Patrick atrau\nnombrosos geòlegs, qui\nestan fascinats per aquest\nvolcà en formació.\n\n
+RUIN_0
+Castell\n\nAquest era un castell gòtic,\nperò el seu amo es va\nadonar de que un castell\nno és una bona vivenda\nen ple segle XXI. Així que\nel va convertir en un parc\ntemàtic medieval. Des de\nllavors, la porta no ha\ntornat a tancar-se.\nMultitud de turistes\nvénen per a contemplar\narts tradicionals, lluites\nd'espadatxins, i setges, i per a\nunir-se a les desfilades, muntar a\ncavall, beure cervesa medieval\no visitar exposicions.\n
+RUIN_1
+Runes\n\nAquestes son les runes\nd'un castell molt famós.\nMolts capítols de la\nhistòria es van escriure\naquí, així que és un\nautèntic imant per als\nturistes de tot el món.\nTothom vol veure'l. I al cap\ni a la fi, les runes\nsón molt romàntiques,\n¿oi que sí?\n
+Russian_Cathedral
+Catedral Ortodoxa\n\n
+Sacred_heart_church
+Església del Sagrat Cor\n
+Secession_Chapel
+Capella de la Secessió
+sh_oasis_seasons
+Oasi\n\nUn oasi és un dels\npocs llocs amb vida al\ndesert. Cada animal o\npersona que viatgi pel\ndesert haurà d'aturar-se\naquí, per a refrescar-se i\ndescansar una estona sota les\npalmeres.\n
+SMALL_MANOR
+Mansió\n\nAquesta petita mansió va ser\nantigament la gran casa\nd'un famós terratinent.\nEn canvi, donat que el\nsenyor va morir, la fama\nlentamente es va perdre i la\ncasa va ser oblidada per la\nmajoria, i només es va\nredescobrir a principis\ndel Segle XX, quan les\ngrans col·leccions\nd'art van començar a atraure a\nmolts visitants. Per a\nconservar la seva bellesa, la mansió\nés ara de propietat pública,\naccesible a qualsevol persona\nper una modesta tarifa. S'ha\nfet molt popular i coneguda, i\nés un destí freqüent de\nmoltes excursions escolars i\nviatges de cap de setmana.\n
+st_benedict_church
+Església de St. Benet\n\nAquesta església és una de les\nmés boniques de Simutrans.\nMolts turistes vénen de\nvisita, mentre uns pocs vénen a\nresar. Acull al seu interior\npintures d'incalculable\nvalor, i ningú les trobaria\na faltar.\n
+ST_PETER
+Església de Sant Pere\n\nL'església de Sant Pere, del\nromànic tardà, va ser\nconstruïda cap l'any\n1200. Té un gran coral,\nfrescos de meitat del Segle\nXIII i la mòmia "The Holy\nReeve" molt ben\nconservada. Aquest antic\npersonatge momificat té\nmés de 300 anys,\ni probablement es tracta de\nWilhem de Holbach, el conseller\nreial. La mòmia està exposada en\nuna alcova a l'ala oest de\nl'església.\n
+STADIUM_RUGBY
+Estadi de rugby\nAquí es on juga els partits\nl'equip de rugby de\nla ciutat. Centenars\nde persones hi venen els caps de setmana\na veure'ls jugar.
+tennis_court
+Club de tenis\n El club de tenis de la ciutat\nés on es juga el torneig més\nprestigiós de la regió, però també\ns'hi fan classes per als nois,\npromovent la pràctica de l'esport i una\nvida sana.
+TRIUMPH
+Arc del Trionf\n\nL'Arc del Trionf va ser\nconstruït per l'emperador\nNapik per a celebrar una de\nles tantes victories que\nva guanyar en el passat. En el\npresent, ja no hi ha més\nguerres, pel que no hi ha\nmés exèrcits que passin\nper sota seu. Els\nmateixos, han estat\nsubstituïts per turistes\nque passen constantment\nmeravellats per la seva bellesa\narquitectònica, creada pel\nfamós arquitecte Georg, més\nconegut com MHz\nposteriorment.\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
 1920_AirDepot
 Hangar senzill
 1930AirDepot
@@ -100,8 +216,20 @@ Hangar metàl·lic
 Hangar de formigó
 1990AirDepot
 Hangar modern
-ABBYS_0
-Abadia\n\nAquesta abadia és interessant pels\npous profunds a\nles seves dues\ntorres. Segons la tradició,\nno ténen fons. Es\nincreïble quanta gente\nvol venir-hi per veure aquests\npous màgics. Les\nmonedes, que cauen\nsilencionsament sobre\nescuma 50 metros més\nabaix, aumenten tant la\nrecaudació de l'abadia que els\nmonjos han pogut rehabilitar les\nrunes fins el seu estat actual.\n
+CarDepot
+Cotxera camió/autobús
+Depot_train_1936
+Cotxera de tren moderna
+MonorailDepot
+Cotxeres de monocarril
+ShipDepot
+Dàrsena
+TrainDepot
+Cotxera de ferrocarril
+TramDepot
+Cotxera de tramvia
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
 Airport1920_AirportBlg
 Petita terminal de passatgers
 Airport1930PostOffice
@@ -122,8 +250,6 @@ Airport1990_Small_PostOffice
 Terminal regional de correu
 Airport1990_Warehouse
 Terminal de mercaderies
-AirStop_AirportBlg
-Parada aèria
 Almuthof_StationBlg
 Estació Almuthof
 Avila_Big_StationBlg
@@ -132,72 +258,94 @@ Avila_Small_StationBlg
 Terminal de passatgers petita
 Avila_Warehouse_StationBlg
 Magatzem de mercaderies
-big_classic_bus_stop
-Parada combinada amb sostre metàl·lic
-big_modern_bus_stop
-Parada combinada amb sostre de vidre
 BigTerminal1930_AirportBlg
 Terminal gran per a passatgers
 BigTerminal1950_AirportBlg_S
 Terminal de passatgers gran
-Bulk_Dock
-Moll de càrrega de mercaderies
 Bulk_StationBlg
 Magatzem de mercaderies (zona de càrrega)
-bus_terminus
-Terminal d'autobusos moderna
-canal_ChannelStop
-Moll fluvial
-canal_ware_stop
-Moll de càrrega fluvial
 Car_StationBlg
 Aparcaments
-CarDepot
-Cotxera camió/autobús
-CargoHighStop
-Parada de càrrega i descàrrega
-CarStop
-Zona de càrrega per a camions
-CASTLE_0
-Aquest castell pertanyia al\nRey Napik. Va ser destruït\nquasi totalment durant la\ngran guerra, però després\nreconstruït al Segle XIX,\ni ara allotja una\nfamosa col·lecció\nd'antigues armadures i\nespases.\n
-CHURCH_02
-Església rosa\n\nAquesta església pintoresca va\nser construïda pel cèlebre\nmonjo boig, qui l'any\n1654, va pintar tot l'edifici\nde color rosa. El color\nva desaparèixer fa anys,\nperò segueix conservant el\nnom que la va fer famosa.\n
-CHURCH_03
-Església\n\nAquesta es una església famosa,\nque atrau molta gent pel\nseu agradable entorn i\nels interessants cuadres\nque s'exposen al seu interior.\n\n
-CHURCH_04
-Sinagoga\n\nMalgrat que aquesta catedral\nsembla una mica Aràbiga, és\nen realitat una sinagoga.\n\n
-CHURCH_05
-Capella de Sant Miquel.\n\nLa seva gema arquitectònica va\nser construïda al Segle XIX,\ni és molt interessant pel\nseu sostre fet de metall,\ndissenyat per Alexander\nGustavus Eiffel.\n
-CHURCH_06
-Església\n\nUna església típica d'un\npoble o petita vila.\n\n
-CIRCUS_0
-Aquest famós circ va decidir\nquedar-se en aquest poble\ncom a destí final. La\ncarpa clàssica va ser\npreservada per a mantenir\nl'atmosfera original, però\ntota la gent del circ ja\ns'ha comprat les seves\npròpies cases per la zona,\npel que pots comptar amb\nque es quedaran, i que es\nconvertirà en un punt\nturístic molt important. El circ\nté com a principal atracció a\nJumbo, l'elefant que seu\ncada cop que sona la\ncampana... així que vigila si\nsents sonar una campana quan\nestiguis darrera seu, a menys que\nvulguis quedar bien prim.\n
-CIVILIAN_RADAR
-Ràdio Observatori.\nÉs posible que no ho\ncreguis, però aquest és un\nobservatori normal i\ncorrent. Un ràdio\nobservatori, és clar...\n
-classic_mailbox
-Zona de càrrega i descàrrega (correu)
-ClosedTrainStop
-Estació de passatgers amb coberta metàl·lica
-CoalTrainStop
-Estació de mercaderies (carbó)
 container_crane_span
 Gran grua per a contenidors
-Container1TrainStop
-Estació de mercaderies mitjana (contenidors)
-Container2TrainStop
-Estació de mercaderies gran (contenidors)
 containercrane
 Grua per a contenidors
 Control_StationBlg
 Caseta de control
-Crate_Goods_Dock
-Moll de contenidors
-Cross_Country_skiing_resort
-Estació d'esquí nòrdic
 CunnersdorfStopBlg
 Estació rural
-CUR_01_128_JH
-Atomium\n\nAquesta molècula va ser dissenyada\nper a una exhibició, però\nningú recorda de què\ntractava aquesta. Per això,\ns'ha convertit en un\nrestaurant d'alta\ncategoria. Les taules del\nsaló superior, ofereixen una\nexcel·lent vista, pel que\ns'han de reservar amb\ndues setmanes d'antelació.\n
+Fluid_StationBlg
+Magatzem d'hidrocarburs
+Gas_StationBlg
+Dipòsits d'hidrocarburs
+Goods_StationBlg
+Magatzems de mercaderies
+hall_extended_station
+Gran edifici sobre l'estació
+LuftPost1950_AirportBlg
+Magatzem de correu aeri
+Modern_Warehouse
+Magatzem modern (petit)
+modern_warehouse_big
+Magatzem modern (gran)
+ModernPostOffice
+Oficina de correus moderna (petita)
+ModernPostOfficeLarge
+Oficina de correus moderna (gran)
+MonorailFoundation
+Cimentació per monocarril
+plain_tile_high
+Plataforma buida
+PostOffice
+Oficina de correus
+PostOffice1920_AirportBlg
+Terminal petita per correu aèri
+PostOfficeOldLarge
+Oficina de correus (gran)
+Radar3
+Estació de radar
+ramp_tile_high
+Rampa d'accés
+special_ALSF-2_DT_stop
+Llums de pista
+special_PAPI_stop
+Llums d'aproximació
+special_wingbar-r_stop
+Llums de pista lateral
+Terminal1930_AirportBlg
+Terminal de passatgers senzilla
+Terminal1950_AirportBlg_S
+Terminal de passatgers petita
+Tower1920_AirportBlg
+Torre bàsica d'aeroport
+Tower1930_AirportBlg
+Torre de control de fusta
+Tower1950_AirportBlg
+Torre de control de formigó
+Tower1990_AirportBlg
+Torre de control moderna
+Very_Big_Terminal
+Terminal de passatgers gegant (3x3)
+VictorianStation
+Estació de passatgers victoriana
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+Moll de càrrega de mercaderies
+Crate_Goods_Dock
+Moll de contenidors
+Long_Goods_Dock
+Moll de mercaderies
+Post_Dock
+Moll de correus
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
+HQ1
+Edifici de la companyia
+HQ2
+Seu internacional de la companyia
+#________________________________building - mon_________________________________
+#________________________________building - mon_________________________________
 DenkFlor
 Dedicat a Flor 'WF Ultd.'\nWauters, el famós\nenginyer que va crear tants\nvehicles de carretera y\nferroviaris. També\nfamós per dissenyar tantes\nindústries productives.\n
 DenkGeorg
@@ -220,132 +368,18 @@ DenkVM
 Dedicat a Manfred 'VT\nVienna' Tomaschitz, el\nfamós enginyer que\nva dissenyar moltíssim material\nferroviari.\n\n
 DenkVolker
 Aquest lloc es va\nconstruir en honor al mag de\nla programació Volker\nMeyer, qui va millorar\nSimutrans en moltes, moltes coses.\n\n
-Depot_train_1936
-Cotxera de tren moderna
-ELEMENTARY_SCHOOL_1
-Escola Bressol\n\nMolts pares i mares passen\nper aquí pels matins a\ndeixar les seves criatures,\nper recollir-les més tard\nen sortir de la feina.\nÉs un lloc normalment tranquil,\nperò en aquests dos moments\ndel dia s'hi veu gent\nper tot arreu!\n
-ELEMENTARY_SCHOOL_2
-Escola de primària\n\nAquest és un lloc on els\nnens haurien d'obtenir la\seva educació primària.\nMatemàtiques, llengües,\nhistòria i ciències estan\nentre les assignatures\nmenys desitjades. Als\njoves estudiants els\nagrada molt més cantar\ni pintar. Donat que\nels jovenets no saben\nconduir, aquest lloc generarà\nmoltíssims passatgers.\n
-Firestation
-Parc de Bombers\n\nAquest és el parc de bombers\nde la ciutat. Aquí\ntrobem el camió de bombers,\nels bombers i una ambulància.\nAixò és de moment, perquè\nl'ambulància se l'enduran, un\ncop s'acabin les obres que\nfan a l'hospital.\n
-Fluid_StationBlg
-Magatzem d'hidrocarburs
-FORT_FUN
-Fort del vell oest\n\nGrans i petits s'ho passen\nd'allò més bé en aquest\nparc temàtic del vell oest.\nAmb el gran èxit que té\nentre la població,\nés un negoci segur per\nl'atrevit empresari de transport\nque primer hi faci arribar\nuna línia d'autobusos.\n\n
-FreightTrainStop
-Estació de mercaderies
-french_garden_4
-Jardins públics
-french_park_1
-Parc i jardins
-FUTURISTIC_TOWER_0
-Torre\n\nAquesta torre ofereix grans vistes\ndel paisatge dels\nvoltants. El pis superior\ntambé té un petit bar, així\npots prendre alguna cosa mentre\ngaudeixes del plaer de les\nvistes. En cara que\nels preus son bastant elevats,\nla torre segueix atraient a molts\nvisitants.\n
-Gas_StationBlg
-Dipòsits d'hidrocarburs
-Goods_StationBlg
-Magatzems de mercaderies
-GRASS_STADIUM
-Estadi d'herba\n\nAquest estadi d'herba és un\nlloc excel·lent per a\npracticar el footing i jugar\nal futbol. Sovint,\nun pot trobar-se\namb gent menys activa\nque observa als\nesportistes des dels\nbancs de sota els arbres.\n
-GREEN_HOUSE
-Hivernacle\n\nAquest hivernacle abans era\nuna botiga normal. Però després\nd'un temps, el propietari va\nadonar-se que la gent venia\nnomés a fer un cop d'ull,\nsense cap intenció de\ncomprar res. Així que\nva convertir la botiga en un\njardí tropical d'hivern. Ara\naquest hivernacle conté\nalgunes plantes realment singulars\ni és molt conegut a tot\nel país.\n
-hall_extended_station
-Gran edifici sobre l'estació
-HIGH_SCHOOL_1
-Institut de batxillerat\n\nUna de les coses interessants\nd'aquest institut de\nbatxillerat és que les classes\ncomencen a les 9 del matí, i acaben\npassat el migdia. La\nsegona cosa curiosa és\nque els alumnes hi assisteixen\ntota la setmana, inclosos\ndissabtes i diumenges!\n
-HIGH_SCHOOL_2
-La vella escola - Els estudiants tenen la seguretat\nd'una bona educació.\nLes matemàtiques, la història\ni l'ètica són les matèries\nobligatòries que se'ls ensenyen.
-HOUSE_RUINS_0
-Casa en runes\n\nFa molt temps això era\nl'ajuntament d'un poble\nque ja no existeix. Als\nhistoriadors els agrada\nvenir per a recordar el\npassat, i als turistes els\nagrada venir a veure les\nobres de teatre que s'hi\nrepresenten, a l'aire lliure,\njust a sota de l'arbre.\n
-HQ1
-Edifici de la companyia
-HQ2
-Seu internacional de la companyia
-JUSTICE
-Tribunal de Justícia\n\nAquest és el Tribunal de Justícia\nde la ciutat, on s'hi\nrealitzen els judicis.\nEls advocats hi van i en vénen\nconstantment.\n\n
-library_holy_genevieve
-Biblioteca de Santa Geneviève\n\nAquesta és la biblioteca\nmés gran de la regió.\nMultitud d'estudiants i\nerudits passen per aquestes\ninstal·lacions cada dia.\n
-Lighthouse_0
-Far\n\nDes que es van construir, la\nnavegació a Simutrans\ns'ha fet més fàcil i\nsegura. Molta gent ara\nvol visitar-ne un d'aquests\ni contemplar les onades\ntrencant contra la costa.\n
-Lighthouse_1
-Far\n\nDes que es van construir, la\nnavegació a Simutrans\ns'ha fet més fàcil i\nsegura. Aquest n'és un\ndels més extranys, però cap\nmariner se n'ha queixat\npas mai.\n
-Little_Central_Park
-El parc central de la ciutat.\n No busqueu pas cap semblança\namb el seu germà gran americà.
-Long_Goods_Dock
-Moll de mercaderies
-LuftPost1950_AirportBlg
-Magatzem de correu aeri
-MANOR_0
-Mansió\n\nAquesta preciosa mansió\nrenaixentista té un\npassat molt interessant.\nAvui és la casa d'un\nexitós home de\nnegocis (et. Napik). Però ell\nen va obrir una gran part\nper a exposicions públiques\nsobre la Història. Tot i que\naixò pot semblar\naburrit, les exposicions\nsón realment molt\ninteressants. Així que la casa\nestà plena de turistes cada dia.\n
-MARKET_PLACE_0
-Mercat\n\nEl mercat de la ciutat és un bon\nlloc per passar la tarda amb\nla família. Els nens poden\ncomprar caramels i veure com\ntreballen els vells artesans.\nLes dones poden fer un cop\nd'ull per les parades\nbuscant tot tipus de coses,\ni els homes poden seure a\npendre una cervesa mentre\ns'esperen.\n
-medium_classic_bus_stop
-Parada d'autobús amb sostre metàl·lic
-medium_early_bus_stop
-Parada d'autobús amb sostre de fusta
-medium_modern_bus_stop
-Parada d'autobús amb panells de vidre
-MILITARY_RADAR
-Radar Militar\n\n¡Aquesta és una estructura militar\nsecreta! ¡Surt d'aquí! ¡Et\nvaig dir que marxessis! ¡Si\ndic que te'n vagis, vull\ndir que has de tancar la\nfinestra i marxar d'aquí!\nQuè? Encara m'estas\nllegint? Tanca\nimmediatament la finestra i\nmarxa! No hauries d'estar\naquí! Fora!!!\n
-Modern_Warehouse
-Magatzem modern (petit)
-modern_warehouse_big
-Magatzem modern (gran)
-ModernPostOffice
-Oficina de correus moderna (petita)
-ModernPostOfficeLarge
-Oficina de correus moderna (gran)
-ModernTrainStop
-Estació de passatgers amb sostre de vidre
-MonorailDepot
-Cotxeres de monocarril
-MonorailFoundation
-Cimentació per monocarril
-MonorailGround
-Cimentació per a monocarril
-MT_HOTEL_0
-Hotel\n\nUn famós hotel, amb\nhabitacions caríssimes,\nperò tots moririen per\nquedar-se un dia aquí, o com\na mínim poder disfrutar del\nmenjar del restaurant de\nl'Hotel.\n
-MUSEUM_0
-Museu\n\nAnteriorment era un\ncastell, després el van\nreconstruir, i fa poc\nn'han fet un museo públic\nde ciència y tecnologia.\nPots venir a veure\nmodels d'antics automòbils,\naprendre dels avenços\nde la física o\nparticipar als\nseminaris.\n
-OBSERVATORY
-Observatori\n\nAquest és un dels\nobservatoris més coneguts,\non s'hi han fet\nmolts dels\ndescobriments del\nSimunivers. Mentre els\nastrònoms treballen de\nnit i miren el cel, els\nturistes poden visitar-lo\ndurant el dia, veient-hi\nles exhibiciones\nmultimedia o legint-hi llibres. El que\ns'hi exhibeix és molt interessant,\nentenible i també atractiu, pel\nque sempre està ple de gent.\n
-OfficeTrainStop
-Andana amb edificació
-Old_gate
-Torre antiga
-OLD_HOUSE_0
-Casa antiga\n\nAquesta combinació de gòtic i\nrenaixentista ha fet que\nes convertís en un museu\nd'arquitectura antiga.\nTé il·lustracions i\nmaquetes d'edificis\nantics. L'exposició és\nforça interessant i fàcil\nd'entendre, així que està\nple de gent casi\ncada dia.\n
-OpenTrainStop
-Andana de mercaderies (buida)
-Pagoda01
-Pagoda\n\n
-PARK_0
-Parc\n\n
-parking_(catchemnt_area_ext)1
-Zona d'aparcaments
-parking_(catchemnt_area_ext)2
-Zona d'aparcaments
-parking_(catchemnt_area_ext)3
-Zona d'aparcaments
-Percival_Maya_Temple
-Temple Maia Percival\n Les excavacions han posat al descobert\nuna civilització simutransiana\nmolt antiga!
-plain_tile_high
-Plataforma buida
-Post_Dock
-Moll de correus
-PostOffice
-Oficina de correus
-PostOffice1920_AirportBlg
-Terminal petita per correu aèri
-PostOfficeOldLarge
-Oficina de correus (gran)
-Radar3
-Estació de radar
-radiant_house
-Casa radiant\n\nEdifici Le Corbusier\nLa propia comunitat\nde veïns gestiona completament\nl'edifici.
-RADIO_TOWER_0
-Estació de ràdio FM Chit-Chat\n\nAquesta és l'estació de ràdio\nFM de Chit-Chat, on\nels agrada venir a molta\ngent, ja que els\norganitzadors prometen\nque els visitants sortiran\nen directe tots els dies entre\n13:00 h. y 14:30 h.\n
-ramp_tile_high
-Rampa d'accés
+rmax_DenkManualTeam
+Torxa de l'escriptor desconegut\n\nAquest monument està\ndedicat a tots aquells\nque han ajudat a crear y\nmantenir els llibres,\nmanuals i textos del\nmeravellós món de\nSimutrans, per a tots\naquells que iluminen\nels misteris del\njoc.\nGràcies!!\n
+rmax_dictator_statue
+Dictador Benevolent\n\nEl Dictador Benevolent\n(amb la mà a l'estil\nNapoleó) - Han sigut\ntants els que han\nconquerit donzelles a\nla base d'aquesta estàtua,\nque el Ministeri\nd'Ansietat va posar-hi una\ncadena de de corda al\nvoltant del seu perímetre.\nNo va ajudar gaire.\nMolts dels residents creuen\nque ara el monument irradia\nuna espècie de poder de la\nfertilitat.\n
+rmax_fabio_bust
+Fagonellus Romanus\n\nUn monument en memòria\ndel gran sabi de\nl'antiga Roma, que va ajudar a\nmoderar el pensament i\nles opinions de tantos.\n\n
+roundabout
+Rotonda amb arbres
+WernerServer
+Monument a "Wernieman"\n Aquest monument l'ha construit l'autoritat\nde Simutrans en honor a Werner Brandt\ni al seu servidor. Han proveït la comunitat\namb serveis molt útils com svn, compilacions\nnocturnes i compartició d'arxius.\nEl més divertit però és que quan ell se'n va\nde vacances el seu router es nega a treballar\ni també se'n va de vacances!
+#________________________________building - res_________________________________
+#________________________________building - res_________________________________
 RES_07_19
 Bungalow amb un gran jardí\n\n
 RES_07_22
@@ -364,90 +398,82 @@ RES_13_17
 Cases adossades\n\n
 RES_65_12
 Gran casa unifamiliar amb pati davanter\n\n
-rmax_clock_tower
-Torre del rellotge\n\nTé un disseny peculiar.\nAlguns creuen que està\ninspirada en les runes de\nla Torre de Fabel però de\nfet, és un edifici de\nrecent construcció i el seu\nrellotge és un dels més\nprecisos de Simutrans.\n
-rmax_courthouse
-Palau judicial\n\n
-rmax_DenkManualTeam
-Torxa de l'escriptor desconegut\n\nAquest monument està\ndedicat a tots aquells\nque han ajudat a crear y\nmantenir els llibres,\nmanuals i textos del\nmeravellós món de\nSimutrans, per a tots\naquells que iluminen\nels misteris del\njoc.\nGràcies!!\n
-rmax_dictator_statue
-Dictador Benevolent\n\nEl Dictador Benevolent\n(amb la mà a l'estil\nNapoleó) - Han sigut\ntants els que han\nconquerit donzelles a\nla base d'aquesta estàtua,\nque el Ministeri\nd'Ansietat va posar-hi una\ncadena de de corda al\nvoltant del seu perímetre.\nNo va ajudar gaire.\nMolts dels residents creuen\nque ara el monument irradia\nuna espècie de poder de la\nfertilitat.\n
-rmax_fabio_bust
-Fagonellus Romanus\n\nUn monument en memòria\ndel gran sabi de\nl'antiga Roma, que va ajudar a\nmoderar el pensament i\nles opinions de tantos.\n\n
-rmax_icarus
-Rampa de llançament de cohets\n\nAquest és el lloc on\nl'empresa Icarus, la primera\ncompanyia en tècniques de\nconstrucció de cohets,\nposa els satèl·lits en òrbita\ngràcies als seus cohets.\nAfortunadament, no fa\nhonor al seu llegendari\nnom. Més enllà de la seva\nimportància econòmica,\naquest lloc atrau a milers de\ncuriosos i turistes que volen\nveure els lançaments\n
-rmax_mosque
-Mesquita As-Salam\n\nCada cop que el Muezin crida a\nl'oració des de dalt del\nminaret, la comunitat\nmusulmana de simupolites\nes reuneix per a resar.\nAs-Salam es un dels 99\nnoms d'Alà i significa\n"La pau"\n
-ROCK_0
-Roca d'en Patrick\n\nLa Roca d'en Patrick atrau\nnombrosos geòlegs, qui\nestan fascinats per aquest\nvolcà en formació.\n\n
-roundabout
-Rotonda amb arbres
-RUIN_0
-Castell\n\nAquest era un castell gòtic,\nperò el seu amo es va\nadonar de que un castell\nno és una bona vivenda\nen ple segle XXI. Així que\nel va convertir en un parc\ntemàtic medieval. Des de\nllavors, la porta no ha\ntornat a tancar-se.\nMultitud de turistes\nvénen per a contemplar\narts tradicionals, lluites\nd'espadatxins, i setges, i per a\nunir-se a les desfilades, muntar a\ncavall, beure cervesa medieval\no visitar exposicions.\n
-RUIN_1
-Runes\n\nAquestes son les runes\nd'un castell molt famós.\nMolts capítols de la\nhistòria es van escriure\naquí, així que és un\nautèntic imant per als\nturistes de tot el món.\nTothom vol veure'l. I al cap\ni a la fi, les runes\nsón molt romàntiques,\n¿oi que sí?\n
-Russian_Cathedral
-Catedral Ortodoxa\n\n
-Sacred_heart_church
-Església del Sagrat Cor\n
-Secession_Chapel
-Capella de la Secessió
-sh_oasis_seasons
-Oasi\n\nUn oasi és un dels\npocs llocs amb vida al\ndesert. Cada animal o\npersona que viatgi pel\ndesert haurà d'aturar-se\naquí, per a refrescar-se i\ndescansar una estona sota les\npalmeres.\n
-ShipDepot
-Dàrsena
-ShipStop
-Moll de passatgers
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+Parada aèria
+big_classic_bus_stop
+Parada combinada amb sostre metàl·lic
+big_modern_bus_stop
+Parada combinada amb sostre de vidre
+bus_terminus
+Terminal d'autobusos moderna
+canal_ChannelStop
+Moll fluvial
+canal_ware_stop
+Moll de càrrega fluvial
+CargoHighStop
+Parada de càrrega i descàrrega
+classic_mailbox
+Zona de càrrega i descàrrega (correu)
+ClosedTrainStop
+Estació de passatgers amb coberta metàl·lica
+CoalTrainStop
+Estació de mercaderies (carbó)
+Container1TrainStop
+Estació de mercaderies mitjana (contenidors)
+Container2TrainStop
+Estació de mercaderies gran (contenidors)
+FreightTrainStop
+Estació de mercaderies
+medium_classic_bus_stop
+Parada d'autobús amb sostre metàl·lic
+medium_early_bus_stop
+Parada d'autobús amb sostre de fusta
+medium_modern_bus_stop
+Parada d'autobús amb panells de vidre
+ModernTrainStop
+Estació de passatgers amb sostre de vidre
+OfficeTrainStop
+Andana amb edificació
+OpenTrainStop
+Andana de mercaderies (buida)
+parking_(catchemnt_area_ext)1
+Zona d'aparcaments
+parking_(catchemnt_area_ext)2
+Zona d'aparcaments
+parking_(catchemnt_area_ext)3
+Zona d'aparcaments
 small_classic_bus_stop
 Parada d'autobús pintada al carrer
 small_early_bus_stop
 Cartell de parada d'autobús
-SMALL_MANOR
-Mansió\n\nAquesta petita mansió va ser\nantigament la gran casa\nd'un famós terratinent.\nEn canvi, donat que el\nsenyor va morir, la fama\nlentamente es va perdre i la\ncasa va ser oblidada per la\nmajoria, i només es va\nredescobrir a principis\ndel Segle XX, quan les\ngrans col·leccions\nd'art van començar a atraure a\nmolts visitants. Per a\nconservar la seva bellesa, la mansió\nés ara de propietat pública,\naccesible a qualsevol persona\nper una modesta tarifa. S'ha\nfet molt popular i coneguda, i\nés un destí freqüent de\nmoltes excursions escolars i\nviatges de cap de setmana.\n
-special_ALSF-2_DT_stop
-Llums de pista
-special_PAPI_stop
-Llums d'aproximació
-special_wingbar-r_stop
-Llums de pista lateral
-st_benedict_church
-Església de St. Benet\n\nAquesta església és una de les\nmés boniques de Simutrans.\nMolts turistes vénen de\nvisita, mentre uns pocs vénen a\nresar. Acull al seu interior\npintures d'incalculable\nvalor, i ningú les trobaria\na faltar.\n
-ST_PETER
-Església de Sant Pere\n\nL'església de Sant Pere, del\nromànic tardà, va ser\nconstruïda cap l'any\n1200. Té un gran coral,\nfrescos de meitat del Segle\nXIII i la mòmia "The Holy\nReeve" molt ben\nconservada. Aquest antic\npersonatge momificat té\nmés de 300 anys,\ni probablement es tracta de\nWilhem de Holbach, el conseller\nreial. La mòmia està exposada en\nuna alcova a l'ala oest de\nl'església.\n
-STADIUM_RUGBY
-Estadi de rugby\nAquí es on juga els partits\nl'equip de rugby de\nla ciutat. Centenars\nde persones hi venen els caps de setmana\na veure'ls jugar.
 Suspended_Monorail_Bahnhof_Modern
 Estació de monocarril
-tennis_court
-Club de tenis\n El club de tenis de la ciutat\nés on es juga el torneig més\nprestigiós de la regió, però també\ns'hi fan classes per als nois,\npromovent la pràctica de l'esport i una\nvida sana.
-Terminal1930_AirportBlg
-Terminal de passatgers senzilla
-Terminal1950_AirportBlg_S
-Terminal de passatgers petita
-Tower1920_AirportBlg
-Torre bàsica d'aeroport
-Tower1930_AirportBlg
-Torre de control de fusta
-Tower1950_AirportBlg
-Torre de control de formigó
-Tower1990_AirportBlg
-Torre de control moderna
-TrainDepot
-Cotxera de ferrocarril
-TrainStop
-Estació amb coberta metàl·lica
-TramDepot
-Cotxera de tramvia
-TRIUMPH
-Arc del Trionf\n\nL'Arc del Trionf va ser\nconstruït per l'emperador\nNapik per a celebrar una de\nles tantes victories que\nva guanyar en el passat. En el\npresent, ja no hi ha més\nguerres, pel que no hi ha\nmés exèrcits que passin\nper sota seu. Els\nmateixos, han estat\nsubstituïts per turistes\nque passen constantment\nmeravellats per la seva bellesa\narquitectònica, creada pel\nfamós arquitecte Georg, més\nconegut com MHz\nposteriorment.\n
-Very_Big_Terminal
-Terminal de passatgers gegant (3x3)
-VictorianStation
-Estació de passatgers victoriana
 VillageTrainStop
 Estació senzilla per passatgers
-WernerServer
-Monument a "Wernieman"\n Aquest monument l'ha construit l'autoritat\nde Simutrans en honor a Werner Brandt\ni al seu servidor. Han proveït la comunitat\namb serveis molt útils com svn, compilacions\nnocturnes i compartició d'arxius.\nEl més divertit però és que quan ell se'n va\nde vacances el seu router es nega a treballar\ni també se'n va de vacances!
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+Ajuntament
+01_CITY_1
+Casa consistorial de l'Orient Mitjà
+02_CITY
+Ajuntament
+02_CITY_1
+Edifici Municipal de l'Orient Mitjà
+03_CITY
+Ajuntament
+03_CITY_1
+Gran casa consistorial de l'Orient Mitjà
+04_CITY
+Ajuntament
+04_CITY_1
+Ple Municipal de l'Orient Mitjà
+05_CITY
+Ajuntament i casa consistorial
+05_CITY_1
+Ajuntament de l'Orient Mitjà
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
 Horse_Carriage_For_2_public
@@ -700,12 +726,22 @@ eliminar monocarril
 #__________________________________record_text__________________________________
 New world record for monorails: %.1f km/h by %s.
 Nou rècord mundial de monocarril:%.1f km/h per %s.
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
 air_one-way
 Pista de sentit únic
 airport_oneway
 Pista d'aterratge - sentit únic
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+choose_signal_monorail
+Senyal d'elecció de plataforma de monocarril
+preSignal_Monorail
+Pre-senyal de monocarril
+Signal_Monorail
+Senyal de monocarril
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 Entrada d'autopista
 autobahn_classic_exit
@@ -716,8 +752,20 @@ autobahn_modern_exit
 Sortida moderna d'autopista
 choose_point
 Senyal d'elecció de destí
-choose_signal_monorail
-Senyal d'elecció de plataforma de monocarril
+Minimum100
+Velocitat mínima 100 Km/h
+Minimum80
+Velocitat mínima 80
+NoEntry
+Direcció contrària
+RisingBollards
+Pilons elevables
+RoadClosed
+Carretera tallada
+traffic_light
+Semàfors
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
 ChooseSignals
 Senyal d'elecció d'andana
 Classic_ChooseSignals_right
@@ -740,10 +788,6 @@ EndOfChooseSignals
 Fi d'elecció de via lliure
 LongSignals
 Senyal de bloqueig de tram llarg
-Minimum100
-Velocitat mínima 100 Km/h
-Minimum80
-Velocitat mínima 80
 Modern_ChooseSignals_right
 Semàfor d'elecció de via lliure
 Modern_EndOfChooseSignals_right
@@ -756,34 +800,34 @@ Modern_preSignals_right
 Semàfor de pre-senyalització
 Modern_Signals_right
 Semàfor de ferrocarril
-NoEntry
-Direcció contrària
 OneWaySignals
 Senyal de sentit únic
-preSignal_Monorail
-Pre-senyal de monocarril
 preSignals
 Pre-senyal
 Railgate
 Porta de ferrocarril
-RisingBollards
-Pilons elevables
-RoadClosed
-Carretera tallada
-Signal_Monorail
-Senyal de monocarril
 Signals
 Senyal de pas
-traffic_light
-Semàfors
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
+#________________________________tunnel - power_________________________________
+#________________________________tunnel - power_________________________________
+PowerTunnel
+Túnel per a línia elèctrica
+#_________________________________tunnel - road_________________________________
+#_________________________________tunnel - road_________________________________
 Highway_110_Tunnel
 Túnel d'autovía
 Highway_130_Tunnel
 Túnel d'autopista
-PowerTunnel
-Túnel per a línia elèctrica
+Road_040_Tunnel
+Túnel de carrer empedrat
+Road_050_Tunnel
+Túnel de carrer asfaltat
+Road_070_Tunnel
+Túnel de carretera asfaltada
+Road_090_Tunnel
+Túnel de carretera moderna
+#________________________________tunnel - track_________________________________
+#________________________________tunnel - track_________________________________
 Rail_080_Tunnel
 Túnel per via amb travesses de fusta
 Rail_080B_Tunnel
@@ -810,1042 +854,8 @@ Rail_320_Tunnel
 Túnel per a via moderna d'alta velocitat
 Rail_400_Tunnel
 Túnel per a via millorada d'alta velocitat
-Road_040_Tunnel
-Túnel de carrer empedrat
-Road_050_Tunnel
-Túnel de carrer asfaltat
-Road_070_Tunnel
-Túnel de carretera asfaltada
-Road_090_Tunnel
-Túnel de carretera moderna
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-1Benst134
-Bennhardt B-138 "Follet"
-1Benst135t
-Bennhadtd 135 "Bubota"
-1Benst138
-Bennhardt 138 "Pastís de poma"
-1Benst162t
-Bennhardt B-162 "Jet"
-1Benst238
-Bennhardt B-238 "Gripau"
-1Dampflokomotive
-H-Trans 0-4-0T
-2000_Class
-Classe 2000 Australià
-2000_Class_Car
-Classe 2000 (cotxe)
-2000_Class_Tail
-Classe 2000 (cabina)
-20ft_Container_Trailer-128set
-Tràiler Contenidor 20ft
-2Diesellokomotive
-H-Trans BR218
-3Bens186t
-Bennhardt B-186 "Llimona"
-3Dampflokomotive
-RVg 0-3-0
-40ft_Container_Trailer
-Tràiler Contenidor 40ft
-620_Railcar_Addon
-Classe 620 Australià (cabina)
-720_Railcar_Addon
-Classe 720 Australià
-AEC_Aclo_Regent_III
-AEC Aclo Regent III
-Airport_express_shuttle
-Autobús llançadora
-Autotransportwagen
-Vagó per a cotxes Napik-Canonball
-BB-TS_Milk_Mack_Trailer
-Tràiler per làctics BB-TS
-Big_Bretterwagen
-Vagó RVg per a taulons
-Big_Erztruck
-Camió bolquet MHz per a mineria
-Black_Osprey
-Black Osprey (acer)
-Black_Osprey_(goods)
-Black Osprey (mercaderies)
-Black_Osprey_(grain)
-Black Osprey (gra/cereals)
-BR-373_Back
-BR-373 (cabina)
-BR-373_BackCar
-BR-373 (últim cotxe)
-BR-373_Car
-BR-373 (cotxe)
-BR-373_Eurostar
-BR-373 "Eurostar"
-BR-373_FrontCar
-BR-373 (primer cotxe)
-Bretterwagen
-Vagó "BB" per a taulons
-British_Premier
-British Premier
-Budd_Coach
-Budd RPO (vagó)
-Budd_Lounge
-Budd RPO (vagó menjador)
-Budd_Observation
-Budd RPO (panoràmic)
-Budd_RPO
-Budd RPO (correu)
-Bulk_trailer_0
-Remolc bolquet "Shorty"
-Bulk_Truck_0
-Shorty-Volvo 800
-Bulk_Truck_2
-VSYS-Tatra 801
-Bulk_Truck_3
-VSYS-Tatra 815 
-Bulk_Truck_4
-Volvo LV76-78
-caboose_1
-RvG Furgó de cua
-caboose_2
-RvG Furgó de cua "Multi"
-caboose_3
-RvG Furgó de cua "Extra"
-Car_Tramsport_Trailer_0
-Remolc "TS" per a cotxes
-Car_Transporter_0
-Camió "TS" per a cotxes
-Car_Transporter_1
-Camioneta RVg per a cotxes
-Car_Waggon_1
-Vagó RVg per a cotxes
-Car_Waggon_2
-Vagó llarg RVg per a cotxes
-CB_ALBATROS
-RVg Skoda 498 "Albatros"
-CB_DB-130_8
-Canonball & H-Trans BR132
-Cement_Carrier_Fast
-Vagó cubeta per a ciment
-Cement_trailer_0
-Remolc PMNV per a ciment
-Cement_Truck_0
-Camió PMNV per a ciment
-Cement_Waggon_0
-Vagó BB-PMNV per a ciment
-Cement_Waggon_1
-Cubeta BB-PMNV per ciment
-Cementwagen
-Cisterna SergeS per ciment
-CKD_749
-CKD 749
-CKD_750
-CKD 750
-Concrete_Truck_0
-Camió formigonera Kroytor
-Concrete_Truck_1
-Camió formigonera VSYS-Tatra 815
-Concretewagen
-Vagó per formigó PMNV 12
-Concretewagen_1
-Vagó per formigó PMNV 16
-Cooling_trailer_0
-Remolc refrigerat PMNV
-Cooling_Truck_0
-Camió refrigerat PMNV 14
-Cooling_Truck_1
-Camió refrigerat PMNV 12
-Cooling_Truck_2
-S.Kroytor Gaz-4
-Cooling_wagon_0
-Vagó refrigerat Canonball
-Cooling_wagon_1
-Vagó-contenidor refrigerat
-Cooling_wagon_2
-Vagó refrigerat hermètic Canonball
-CPH_Motorcar
-Ferrobús CPH Australià
-CST_Interliner_E55
-CST Interliner E55
-CST_Interliner_E55_Rear
-CST Interliner E55 (remolc)
-CST_Interliner_S45
-CST Interliner S45
-CST_Interliner_S55
-CST Interliner S55
-CST_Interliner_S55_Rear
-CST Interliner S55 (remolc)
-CST_Stateliner
-CST Stateliner
-CST_Urban_City_DD
-CST Urban City DD
-DB_ADm101
-Haru ADm101
-DB_Apmz121
-Haru-DB Apmz121
-DB_Bm235
-Haru-DB Bm235
-DB_BR103_1
-Haru BR-103
-DueWAG_GT6_motorwaggon
-Due WAG GT6
-DueWAG_GT6_tailwaggon
-Due WAG GT6 (vagó)
-E_423
-Sindor E-423
-Eaglescliffe_Hall
-Eaglescliffe Hall (granel)
-Eaglescliffe_Hall_(lumber)
-Eaglescliffe Hall (fusta)
-Edmund_Fitzgerald
-Edmund Fitzgerald (acer)
-Edmund_Fitzgerald_(wood)
-Edmund Fitzgerald (fusta)
-EM400_1
-Sindor-FK EM400
-EMD_E5A_Silver_Meteor
-EMD E5A "Meteorit Platejat"
-EMD_E5B_Silver_Comet
-EMD E5A "Cometa Platejat" (motor)
-EMD-FT_(A)
-EMD-FT
-EMD-FT_(B)
-EMD-FT (motor)
-EMD-FT_(C)
-EMD-FT (cabina)
-Evil_DF-11
-Evil DF-11
-Evil_P-100_(carriage)
-RVg P-100 (cotxe)
-Evil_P-100_(front_engine)
-RVg P-100
-Evil_P-100_(mail)
-RVg P-100 (correu)
-Evil_P-100_(rear_engine)
-RVg P-100 (cabina)
-Evil-Jitluen_67_Minibus
-Minibús Evil-Jitluen 67
-Express_tender
-Tender
-Ferry_Mail_Extension_(small)
-Extensió de correu per a transbordador (small)
-Ferry_yeu_128set
-Ferry Oggia
-Fishing_Boat_1
-Barca de Pesca MHz
-fluid_00_Wood_Barrels_Wagon
-Vagoneta amb barrils de fusta
-fluid_01_Iron_Tanks_Wagon
-Vagoneta amb barrils metàl·lics
-fluid_02_CSD-502_Tank_Wagon
-Vagó cisterna ?SD-502
-fluid_03_CSD-556_Tank_Wagon
-Vagó cisterna ?SD-556
-fluid_04_Esso_Tank_Wagon
-Vagó cisterna Esso
-fluid_05_CEPSA_Tank_Wagon
-Vagó cisterna CEPSA
-fluid_06_VTG_Tank_Wagon
-Vagó cisterna VTG
-fluid_07_Esso_XL_Tank_Wagon
-Vagó cisterna Esso XL
-fluid_08_VTG_CeSa_Tank_Wagon
-Vagó cisterna VTG CeSa
-Fluid_trailer_0
-Remolc cisterna AJ
-Fluid_trailer_1
-Remolc cisterna AJ-PMNV
-Fluid_Truck_0
-Nissan 1800 Cisterna
-Fluid_Truck_1
-Nissan 1100 Cisterna
-Fluid_Truck_2
-ZUK-20 Cisterna
-Fluid_Truck_3
-Magirus 1923 Cisterna
-Flxible_Twin_FT2-40
-Flxible Twin FT2-40
-Freya
-Ferry "MV Freya"
-Goods_trailer_0
-Remolc Mitsubishi Fuso ST
-Goods_trailer_1
-Remolc Mitsubishi Fuso ST-2
-Goods_trailer_2
-Remolc PMNV per a mercaderies
-Goods_trailer_3
-Remolc PMNV per a mercaderies
-Goods_Truck_0
-Mitsubishi Fuso ST
-Goods_Truck_1
-Mitsubishi Fuso HT
-Goods_Truck_2
-Camió PMNV
-Goods_Truck_3
-Camió lleuger PMNV
-Goods_Truck_4
-Camió PMNV Turbo
-Goods_Truck_5
-S.Kroytor Gaz-4
-Goods_waggon_0
-Furgó Cannonball
-Goods_waggon_1
-Vagó de mercaderies Cannonball
-Goods_waggon_2
-Vagó amb portes corredores PMNV
-Goods_waggon_3
-Vagó contenidor CT-270
-Goods_waggon_4
-Vagó contenidor HS-270
-Goods_waggon_5
-Vagó tancat RVg
-Grain_trailer_0
-Remolc per cereals PMNV
-Grain_Truck_1
-Tatra 815 (cereales)
-Gripsholm
-Transatlàntic Gripsholm
-Haru_2C1_Cheetah
-Haru 2C1 «Guepard»
-Haru_2D1_Buffalo
-Haru 2D1 «Búfal»
-Haru_C44-9W
-Haru C44-9W «Dash»
-Haru_DF4
-Haru DF4
-Haru_E3_KOMACHI
-Haru E3 Komachi
-Haru_E3_KOMACHI_(mid)
-Haru E3 Komachi (motor)
-Haru_E3_KOMACHI_(rear)
-Haru E3 Komachi (cabina)
-Haru_E3_KOMACHI_(Trailer)
-Haru E3 Komachi (cotxe)
-Haru_F7A
-Haru F7 A
-Haru_F7B
-Haru F7 B
-Haru_HST
-Haru HST
-Haru_HST_mid
-Haru HST (cotxe)
-Haru_HST_rear
-Haru HST (cabina)
-Haru_Spike-PSE_Head1
-Haru PSE "Agulla"
-Haru_Spike-PSE_Head2
-Haru PSE "Agulla" (primer cotxe)
-Haru_Spike-PSE_Tail1
-Haru PSE "Agulla" (cabina)
-Haru_Spike-PSE_Tail2
-Haru PSE "Agulla" (últim cotxe)
-Haru_Spike-PSE_Waggon
-Haru PSE "Agulla" (cotxe)
-Haru_Tatra-T3
-Haru Tatra T3
-Haru_Tender
-Haru Tender
-Haru_VT98
-Haru VT-98
-Haru_VT98_car
-Haru VT-98 (cotxe)
-Haru-373
-Haru 373
-Haru-373_car
-Haru 373 (cotxe)
-Haru-373_tail
-Haru 373 (cabina)
-Haru-ACE1_Head
-Haru ACE
-Haru-ACE1_Tail
-Haru ACE (cabina)
-Haru-ACE1_Waggon1
-Haru ACE - Cotxe
-Haru-ACE1_Waggon2
-Haru ACE - Cotxe Restaurant
-Haru-ACE1_Waggon3
-Haru ACE - Furgó de Correu
-Haru-BR182_Taurus
-Haru BR-182 "Taurus"
-Haru-IC3
-Haru IC-3
-Haru-IC3_car
-Haru IC-3 - Cotxe
-Haru-IC3_tail
-Haru IC-3 - Cabina
-Haru-PlanV
-Haru Plan V.
-Haru-PlanV(rear)
-Haru Plan V. - Cabina
-Haru-PMNV_F7-Coach
-Haru-PMNV F7 - Cotxe
-Haru-PMNV_F7-Mail_Car
-Haru-PMNV F7 - Furgó de Correu
-Haru-TEM2
-Haru TEM-2
-Haru-X2000
-Haru X2000
-Haru-X2000_mid
-Haru X2000 - Cotxe
-Haru-X2000_rear
-Haru X2000 - Cabina
-Holzwagen
-Vagó per a troncs
-Holzwagen_0
-Vagó doble per troncs RVg
-Holzwagen_1
-Vagó per troncs RVg de 4 eixos
-JNR_C11
-JNR SL C11
-JNR_C62
-JNR SL C62
-JNR_D51
-JNR SL D51
-JNR_DD51
-JNR DD51
-JNR_tender_S
-C62/D51 Tender
-JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
-JR Shinkansen Serie 700 HRS
-JR_700_Shinkansen_HRS_(Middle_Section)_PC
-JR Shinkansen Serie 700 HRS - Coche
-JR_700_Shinkansen_HRS_(Pantograph_I)_PC
-JR Shinkansen Serie 700 HRS - Motor Delantero
-JR_700_Shinkansen_HRS_(Pantograph_II)_PC
-JR Shinkansen Serie 700 HRS - Motor Trasero
-JR_700_Shinkansen_HRS_(Tailcar)_PC
-JR Shinkansen Serie 700 HRS - Cabina
-Kord_TT_bulk
-Kord TT (granel)
-Kord_TT_grain
-Kord TT (cereals)
-Liner_Mail_Extension_(large)
-Extensió de correu per a transatlàntics
-LKAB_IORE_Back
-LKAB IORE
-LKAB_IORE_Front
-LKAB IORE
-MA461_waggon
-RVg-DB MA-461 - Cotxe
-Mack_Truck_Cooling_Trailer
-Remolc refrigerat Mack
-Mack_Truck_Goods_Trailer
-Remolc de mercaderies Mack
-Mack_Truck_Post_Trailer
-Remolc postal PMNV
-Mail_Truck_2
-MHz Windstar (correu)
-Marks_Passagierwagen
-Cotxe exprés MJHN
-Marks_Postwagen
-Furgó exprés MJHN (correu)
-Marks-Deltic
-MJHN Deltic
-MHz_Grain_Trailer_0
-Remolc per cereals MHz
-MHz_Long_Wood_Trailer
-Remolc llarg per troncs MHz
-MHz_Tractor
-Tractor MHz
-MHz_Tractor_2
-Tractor MHz-JD
-MHz_TRAM_1930
-MHz T-113
-MHz_TRAM_1980
-MHz T-235
-MHz-C11C_Bulk_Barge
-Barcassa per carbó MHz C11C
-MHz-C11C_Wood_Barge
-Barcassa per fusta MHz C11C
-MHz-C273U_Cement_Barge
-Barcassa per ciment MHz C273U
-MHz-C35_Goods_Barge
-Barcassa per mercaderies MHz C35
-MHz-C3P_Post_Barge
-Barcassa postal MHz C3P
-MHz-CC47_Container_Barge
-Barcassa per contenidors MHz CC47
-MHz-MT7_Milk_Barge
-Barcassa per líquids MHz MT7
-MHz-OT5_Oil_Barge
-Barcassa petrolera MHz OT5
-MHz-P11C_Bulk_Boat
-Remolc de barcassa per carbó MHz P11C
-MHz-P11C_Wood_Boat
-Remolc de barcassa per fusta MHz P11C
-MHz-R2A_Push-Tug
-Remolcador MHz R2A
-milk_00_bottled_milk_wagon
-Vagoneta per a pots de llet
-milk_01_twin_barrel_wagon
-Vagoneta amb barrils per líquids
-milk_02_old_tank_wagon
-Vagó tanc per a líquids
-milk_03_6_wheeled_milk_wagon
-Vagó per llet de tres eixos
-milk_04_rvg_early_milk_waggon
-Vagó tanc per llet
-milk_05_milk_waggon_1
-Vagó cisterna per líquids
-milk_06_4_axle_milk_wagon
-Vagó cisterna 4-AX per líquids
-milk_07_milk_waggon_0
-Vagó cisterna refrigerat
-milk_08_bloomsburg_fair_milk_wagon
-Vagó per llet Bloomsburg
-milk_09_bordens_milk_wagon
-Vagó per llet Borden
-Milk_Truck_0
-Camió cisterna per llet PMNV
-Milk_Truck_1
-Camió cisterna per llet Kroytor-ZIL
-Milk_Truck_2
-Camió tanc per llet Magirus
-mja-20s_concretemixer
-Camió Ciment MJA-20S
-mja-bulk_trailer_l
-Remolc per àrids MJA-L300
-mja-bulk_trailer_m
-Remolc per àrids MJA-M220
-mja-MAN19332-128set
-MAN 19332
-mja-ScaniaP380_tanker
-Scania P380 Cisterna
-mja-ScaniaP420_concretemixer
-Scania P380 - Tanc per ciment
-mja-ScaniaP420_longgoods
-Scania P380 - Plataforma per fusta
-mja-ScaniaR500Topline
-Scania R500 Topline
-mja-ScaniaR500Topline_cooledgoods
-Scania R500 Topline Refrigerat
-mja-ScaniaR500Topline_goods
-Scania R500 Topline per mercaderies
-mja-ScaniaR620Topline
-Scania R620 Topline
-mja-volvof88-128set
-Volvo F88
-mja-volvoVN660
-Volvo VN660
-mja-Zil130-128set
-Zil 130
-MS_sprinter_mail
-Furgoneta per correu Sprinter
-MTAB_Dm_Back
-MTAB Dm (cabina)
-MTAB_Dm_Front
-MTAB Dm
-MTAB_Dm3
-MTAB Dm3 (motor intermedi)
-MV_Balmoral
-Ferry Balmoral
-MV_Fedra
-Mercant Fedra (carbó)
-MV_Lake_Illawarra
-Mercant Lake Illawarra (carbó)
-MV_Lake_Illawarra_(grain)
-Mercant Lake Illawarra (cereals)
-New_Zealand_Star
-Vaixell refrigerat New Zealand Star
-Nordic_Heron
-Petrolier Nordic Heron
-Nordic_Heron_(liquid_food)
-Vaixell tanc Nordic Heron
-Nororn
-Pesquer modern Nororn
-NovaBus_RTS-06_WFD
-NovaBus RTS-06 WFD
-Owari_Maru
-Owari Maru (engròs)
-Passagierwagen
-Canonball BTx Cotxe 2a classe
-Passanger_waggon_0
-JNR OHA 31 Cotxe
-Passanger_waggon_1
-JNR OHAFU 50 2a Classe
-Passanger_waggon_2
-JNR ORO 40 2a Classe
-Passanger_waggon_3
-RA BTx 050 2a Classe
-Passanger_waggon_MAITE39
-JNR MAITE 1a Classe
-Patagonia
-Mercant Patagonia
-Patagonia_(farm_products)
-Mercant per cereals Patagonia
-Pegaso_6038_InterCity
-Pegaso 6038 (interurbà)
-Pegaso_6038_Urban
-Pegaso 6038 (urbà)
-Pegaso-Seida_5020_InterCity
-Pegaso-Seida 5020 (interurbà)
-Pegaso-Seida_5020_Urban
-Pegaso-Seida 5020 (urbà)
-Pioneer_Zephyr
-Pioneer Zephyr
-Pioneer_Zephyr_Car
-Pioneer Zephyr - Cotxe
-Pioneer_Zephyr_Tail
-Pioneer Zephyr - Cotxe de cua
-Planck_Truck_0
-Camió per fusta PMNV-Cannonball
-Plank_Truck_2
-Tatra 815 Plataforma per fusta
-Plank_waggon_0
-Vagó plataforma per fusta RVg
-Plank_waggon_1
-Vagó plataforma per fusta
-PMNV_50_Mack
-PMNV Mack 1950
-PMNV_Canonball_Car_Trailer
-Remolc Mack per cotxes
-PMNV_Cement_Trailer_Slow
-Remolc PMNV CT-2 per ciment
-PMNV_Cement_Truck_P
-Camió PMNV CTr-2 per ciment
-PMNV_Concrete_Truck
-Formigonera Mack PMNV
-PMNV_Cruiser
-Cruiser
-PMNV_Cruiser_Mini
-Cruiser Mini
-PMNV_Fabric_Trailer_0
-Remolc per teixits PMNV
-PMNV_Grain_Truck_0
-Camió clàssic PMNV per cereals
-PMNV_Hydrogen_Cruiser
-Hydrogen Cruiser
-PMNV_Mack_Bulk_Trailer_0
-Remolc Mack-220 per àrids
-PMNV_Mack_Cement_Trailer_L
-Remolc Mack-L220 per ciment
-PMNV_Mack_Cement_Trailer_S
-Remolc Mack-S190 per ciment
-PMNV_Mack_Concrete_Trailer_O
-Remolc Mack CT260 per formigó
-PMNV_Mack_cooled_Trailer_O
-Remolc refrigerat Mack RT-180
-PMNV_Mack_Goods_Trailer_O
-Remolc per mercaderies Mack GT220
-PMNV_Mack_Grain_Trailer_0
-Remolc Mack GR350 per cereals
-PMNV_Mack_Grain_Trailer_O
-Remolc Mack GR290 per cereals
-PMNV_Mack_Log_Trailer_L
-Remolc plataforma Mack L300 per taulons
-PMNV_Mack_Log_Trailer_M
-Remolc plataforma Mack M260 per troncs
-PMNV_Mack_Log_Trailer_S
-Remolc plataforma Mack S210 per troncs
-PMNV_Mack_Milk_Trailer_O
-Remolc cisterna Mack LT220 per líquids
-PMNV_Mack_Oil_Trailer_L
-Remolc cisterna Mack L260
-PMNV_Mack_Oil_Trailer_S
-Remolc cisterna Mack S220
-PMNV_Mack_Planck_Trailer_0
-Remolc plataforma Mack L280 per fusta
-PMNV_Mack_Post_Trailer_O
-Remolc postal Mack P900
-PMNV_Mack_Steel_Trailer_L
-Remolc plataforma Mack L350 per acer
-PMNV_Mack_Steel_Trailer_S
-Remolc plataforma Mack S280 per acer
-PMNV_Mail_Truck_1
-Camió postal PMNV P60
-PMNV_Mail_Truck_2
-Camió postal PMNV P77
-PMNV_MHz_Truck_0
-PMNV-MHz Cabover 145
-PMNV_Milk_Trailer_0
-Remolc cisterna per líquids PMNV
-PMNV_Open_Goods_Trailer_L
-Remolc obert Mack OL300 per mercaderia 
-PMNV_Open_Goods_Trailer_S
-Remolc obert Mack OS200 per mercaderia 
-PMNV_Plank_Trailer_0
-Remolc curt PMNV per fusta
-PMNV_Post_Trailer_0
-Remolc postal PMNV
-PMNV_Steel_Trailer_0
-Remolc curt PMNV per acer
-PMNV_TC-119-Snake
-PMNV TC-119 Serp (vagó A)
-PMNV_TC-119-Snake_b
-PMNV TC-119 Serp (vagó B)
-PMNV_TC-44-Hydrogen_Car
-PMNV TC-44 H2 (vagó A)
-PMNV_TC-44-Hydrogen_Car_b
-PMNV TC-44 H2 (vagó B)
-PMNV_TC-7_Astro_Trolley
-PMNV TC-7 Astro
-PMNV-PB1970
-PMNV PB-1970
-PMNV-TC-1_Turbo_Car
-PMNV TC-1 TurboCar
-PMNV-TC-112-Hyper_Car
-PMNV TC-112 HyperCar
-PMNV-TC-2_Turbo_Set
-PMNV TC-2 TurboSet
-PMNV-TC-2_Turbo_Set_b
-PMNV TC-2 TurboSet (vagó)
-PMNV-TC-2_Turbo_Set_c
-PMNV TC-2 TurboSet (cabina)
-PMNV-TC-5P_Mail_Man
-PMNV TC-5P "El Carter"
-Post_Barge
-Barcassa postal MHz
-Post_waggon_0
-Vagó per correu PV 80
-Postwagen
-Furgó correu/equipatges Cannonball
-Praga_Bus
-Autobús Praga 1919
-Praga_N_bulk
-Camió bolquet Praga N
-Praga_N_cement
-Camió Praga N per ciment
-Praga_N_Cistern
-Camió cisterna Praga N
-Praga_N_milk
-Camió cisterna Praga N per làctics
-Praga_TOT_128
-Praga TOT
-Queen_Elisabeth_2
-Transatlàntic Queen Elisabeth II
-R_01
-Tramvia RVg R1 - Cotxe
-R_02
-Tramvia RVg R2 - Cotxe
-Renfe_250_(German)
-RENFE Sèrie 250 "Alemanya"
-Renfe_252_Altaria
-RENFE Sèrie 252 Altaria
-Renfe_269_Altaria
-RENFE Sèrie 269 "Japonesa"
-Renfe_270
-RENFE Sèrie 270
-Renfe_274_(Bathtube)
-RENFE Sèrie 274 "Banyera"
-Renfe_276_(French)
-RENFE Sèrie 276 "Francesa"
-Renfe_279_(Benemerita)
-RENFE Sèrie 279 "Benemèrita"
-Renfe_310_(Coastguard)
-RENFE Sèrie 310 "Guardacostes"
-Renfe_319_(Yankie)
-RENFE Sèrie 319 "Yanki"
-Renfe_333_(Rambo)
-RENFE Sèrie 333 "Rambo"
-Renfe_340_(Egg)
-RENFE Sèrie 340 "Ou"
-Renfe_438_Back
-RENFE Sèrie 438 (cabina)
-Renfe_438_Front
-RENFE Sèrie 438
-Renfe_440
-RENFE Sèrie 440
-Renfe_440_Back
-RENFE Sèrie 440 (cabina)
-Renfe_440_Car
-RENFE Sèrie 440 (cotxe)
-Renfe_447
-RENFE Sèrie 447
-Renfe_447_Back
-RENFE Sèrie 447 (cabina)
-Renfe_447_Car
-RENFE Sèrie 447 (cotxe)
-Renfe_Series_10200_(Player_Colors)
-RENFE Sèrie 10200
-Renfe_Series_301_(Player_Colors)
-RENFE Sèrie 301
-Renfe_Series_311_(Player_Colors)
-RENFE Sèrie 311
-Renfe_Series_314_(Player_Colors)
-RENFE Sèrie 314
-Renfe_Series_316_(Player_Colors)
-RENFE Sèrie 316 "Marilyn"
-Renfe_Series_318_(Player_Colors)
-RENFE Sèrie 318
-Renfe_Series_319.300_(Player_Colors)
-RENFE Sèrie 319.300
-Renfe_Series_334_(Player_Colors)
-RENFE Sèrie 334
-Renfe_Series_350_Talgo_(Player_Colors)
-RENFE Sèrie 350 Talgo
-Renfe_Series_350_Talgo_Car_(Player_Colors)
-RENFE Cotxe Talgo II
-Renfe_Series_350_Talgo_Mail_Car_(Player_Colors)
-RENFE Furgó Talgo II
-Renfe_Series_350_Talgo_Restaurant_Car_(Player_Colors)
-RENFE Restaurant Talgo II
-Renfe_Tgpps_Grain_Hopper
-RENFE Vagó Tremuja per Gra TGPPS
-Renfe_Uagp_Grain_Hopper
-RENFE Vagó Tremuja per Gra UAGP
-Renfe_Z-2000_Car
-RENFE Cotxe Z-2000
-Renfe_Z-2000_Mail_Car
-RENFE Furgó Z-2000
-Renfe6000_Post
-RENFE Furgó Sèrie 6000
-Renfe6000_Psg
-RENFE Cotxe Sèrie 6000
-Rigoletto
-Vaixell porta-cotxes Rigoletto
-RMS_Baltic
-Transatlàntic RMS Baltic
-RVg_0-1-4-0
-RVg 0-1-4-0
-RVg_1064_White_Bulk
-RVg-White 1064 Bolquet
-RVg_1064_White_Cement
-RVg-White 1064 cisterna per ciment
-RVg_1064_White_Cooled
-RVg-White 1064 refrigerat
-RVg_1064_White_Fluid
-RVg-White 1064 cisterna
-RVg_1064_White_Goods
-RVg-White 1064 tancat
-RVg_1945_box_car
-Vagó per mercaderies RVg 1945/23
-RVg_1951_box_car
-Vagó per mercaderies RVg 1951/24
-RVg_1955_box_car
-Vagó per mercaderies RVg 1955/24
-RVg_1962_box_car
-Vagó per mercaderies RVg 1962/24
-RVg_1969_box_car
-Vagó per mercaderies RVg 1969/25
-RVg_1976_box_car
-Vagó per mercaderies RVg 1976/26
-RVg_1983_box_car
-Vagó per mercaderies RVg 1983/26
-RVg_1989_container_car
-Vagó contenidor RVg 1989/27
-RVg_1994_container_car
-Vagó contenidor RVg 1994/27
-RVg_2000_container_car
-Vagó contenidor RVg 2000/27
-RVg_2006_container_car
-Vagó contenidor RVg 2006/27
-RVg_2011_container_car
-Vagó contenidor RVg 2011/27
-RVg_Bulk_Waggon_00
-Vagó tremuja RVg 1850/20
-RVg_Bulk_Waggon_01
-Vagó tremuja RVg 1932/23
-RVg_Bulk_Waggon_02
-Vagó tremuja RVg 1945/25
-RVg_Bulk_Waggon_03
-Vagó tremuja RVg 1962/28
-RVg_Bulk_Waggon_04
-Vagó tremuja RVg 1978/30
-RVg_Bulk_Waggon_05
-Vagó tremuja RVg 1995/32
-RVg_Bulk_Waggon_06
-Vagó tremuja RVg 2019/35
-RVg_Cementwagen
-Vagó per ciment RVg
-RVg_Cooling_car
-Vagó refrigerat RVg
-RVg_Daylight
-RVg Alba
-RVg_Daylight_dome
-RVg Alba - Cotxe Restaurant
-RVg_Daylight_end
-RVg Alba - Cotxe de cua
-RVg_Daylight_post
-RVg Alba - Furgó postal
-RVg_Daylight_tender
-RVg Alba - Tender
-RVg_Daylight_waggon
-RVg Alba - Cotxe
-RVg_Flying_Berliner_(front)
-RVg Berlinès Volador
-RVg_Flying_Berliner_(tail)
-RVg Berlinès Volador - Cabina
-RVg_Hiawatha
-RVg Hiawatha Exprés
-RVg_Hiawatha_dome
-RVg Hiawatha Exprés - Cotxe mirador
-RVg_Hiawatha_end
-RVg Hiawatha Exprés - Cotxe de cua
-RVg_Hiawatha_post
-RVg Hiawatha Exprés - Furgó postal
-RVg_Hiawatha_tender
-RVg Hiawatha Exprés - Tender
-RVg_Hiawatha_waggon
-RVg Hiawatha Exprés - Cotxe
-RVg_M1
-RVg M1
-RVg_M1_tail
-RVg M1 - Cabina
-RVg_M1_waggon
-RVg M1 - Cotxe
-RVg_O-2-4-0
-RVg 2-4-0 "Exprés"
-RVg_Passanger_Trailer
-RVg-KS Remolc de passatgers 
-RVg_Post_Trailer
-RVg-KS Remolc postal
-RVg_Post_Truck_0
-RVg-KS 4051 Missatger
-RVg_Post_Truck_1
-RVg-KS 9051 Bitlleter 
-RVg_R-100_(carriage)
-RVg R-100 - Cotxe
-RVg_R-100_(front_engine)
-RVg R-100
-RVg_R-100_(mail)
-RVg R-100 - Furgó postal
-RVg_R-100_(rear_engine)
-RVg R-100 - Cabina
-RVg_Spike_Duplex
-RVg Spike Duplex
-RVg_Spike_Duplex_tail
-RVg Spike Duplex - Cabina
-RVg_Spike_Duplex_waggon
-RVg Spike Duplex - Cotxe
-RVg_Thunder_2
-RVg Tro
-RVg_Thunder_2_Back
-RVg Tro - Cabina
-RVg_Thunder_2_post
-RVg Tro - Furgó postal
-RVg_Thunder_2_wagon
-RVg Tro - Cotxe
-RVg_Tigress
-RVg Tigressa
-RVg_Tigress_Back
-RVg Tigressa - Cabina
-RVg_Tigress_post
-RVg Tigressa - Furgó postal
-RVg_Tigress_wagon
-RVg Tigressa - Cotxe
-RVg_Type_S_Bulk
-Camió bolquet RVg Tipus-S
-RVg_Type_S_Cement
-Camió RVg Tipus-S per ciment
-RVg_Type_S_Cistern
-Camió cisterna RVg Tipus-S
-RVg_Type_S_Post
-Camió RVg Tipus-S per correu
-RVg_Type_S_Van
-Camió RVg Tipus-S per mercaderies
-RVg-0-4-4-0
-RVg 0DD0 "Vuit"
-RVg-1-4-1
-RVg 1D1 "Toro"
-RVg-1-5-0-Goliath
-RVg 1E0 "Goliath"
-RVg-2-3-0
-RVg 2-3-0
-RVg-2-3-1
-RVg 2-3-1 "Prim"
-RVg-2-4-0
-RVg 2-4-0 Ràpid
-RVg-2-5-1
-RVg 2-5-1 "Múscul"
-RVg-B_101
-Autobús Regal RVg B22
-RVg-B_107
-RVg B149 Nan Vermell
-RVg-D22-Rola
-RVg D22 "Rola"
-RVg-D23-Camel
-RVg D23 "Camell"
-RVg-D41-Tubus
-RVg D41 Tubus
-RVg-DB_MA461
-RVg-DB MA-461
-RVg-DB_MA461_Tail
-RVg-DB MA-461 - Cabina
-RVg-E17-Spring
-RVg E17 "Espiral"
-RVg-Express_Tender
-RVg Tender Express
-RVg-Goods_waggon
-Furgó tancat RVg
-RVg-Heavy-Tender
-Gran Tender RVg
-RVg-KS_4510-33
-RVg-KS 4510-33
-RVg-KS_4510-45
-RVg-KS 4510-45
-RVg-KS_4510-69
-RVg-KS 4510-69
-RVg-KS_9020-31
-RVRVg-KS 9020-31
-RVg-KS_9020-58
-RVg-KS 9020-58
-RVg-KS_9020-92
-RVg-KS 9020-92
-RVg-LK_Cement_Truck
-RVg LK (ciment)
-RVg-LK_Cooling_Truck
-RVg-LK V44 (refrigerat)
-RVg-LK_Goods_Truck
-Furgó RVg-LK (mercaderies)
-RVg-LK_Grain_Truck
-RVg-LK V41 (gra)
-RVg-LK_Plank_Truck
-RVg-LK V37 (taulons)
-RVg-LK_Steel_Truck
-RVg-LK V38 (acer)
-RVg-Oil-Tender
-RVg Tender de mazut
-RVg-Pioneer_Alladin
-RVg Pioneer Alladin
-RVg-Pioneer_Alladin_rear
-RVg Pioneer Alladin (cua)
-RVg-Pioneer_Alladin_supply
-RVg Pioneer Alladin (motor)
-RVg-Pioneer_Alladin_waggon
-RVg Pioneer Alladin (cotxe)
-RVg-RHF401
-RVg-RHF 401 «Cocodril»
-RVg-S004-Little_Boy
-RVg S004 «Little Boy»
-RVg-S033-Red_Dwarf
-RVg S033 "Nan roig"
-RVg-S127-Blue_Cow
-RVg S033 "Vaca blava"
-RVg-Sail_Goods_Ship_0
-RVg Gavarra
-RVg-Sail_Passanger_Ship_0
-RVg Fragata
-RVg-Steam_Goods_Ship_0
-RVg mercant a vapor
-RVg-Steam_Passanger_Ship_0
-RVg Fery de pales a vapor 
-RVg-Tender
-RVg Tender
-RX_1064
-Autobús RX 1064
-S_Kroytor_Gaz-2
-S.Kroytor Gaz-2
-S_Kroytor_Gaz-3
-S.Kroytor Gaz-3
-S_Kroytor_Gaz-4
-S.Kroytor Gaz-4
-S_Kroytor_Ikarus-260
-S.Kroytor Ikarus-260
-S_Kroytor_Ikarus-260(l)
-Autobús de línia S.Kroytor Ikarus-260
-S_Kroytor_Ikarus-280
-S.Kroytor Ikarus-280
-S_Kroytor_Ikarus-280_ext
-S.Kroytor Ikarus-280 (remolc)
-S_Kroytor_LiAZ-5256
-S.Kroytor LiAZ-5256
-S_Kroytor_LiAZ-677
-S.Kroytor LiAZ-677
-S_Kroytor_Mercedes_Citaro
-S.Kroytor Mercedes Citaro
-S_Kroytor_PAZ-672
-S.Kroytor PAZ-672
-S_Kroytor_PAZ-772
-S.Kroytor PAZ-772
-S_Kroytor_Traveler
-S.Kroytor Traveler
+#_________________________________vehicle - air_________________________________
+#_________________________________vehicle - air_________________________________
 SAC-Aerospatiale_Concorde_128_set
 Aerospatiale Concorde
 SAC-Airbus_A300-600C_128_set
@@ -2078,12 +1088,394 @@ SAC-McDonnell_Douglas_MD-90_128_set
 McDonnell Douglas MD-90
 SAC-Rohrbach_Rocco_128_set
 Rohrbach Rocco
-Sail_Post_Ship_0
-Veler postal
-SBB_Re4_4_II
-Haru-SBB Re 4/4 II
-SBB_Re6_6
-Haru-SBB Re 6/6 "Gotthard"
+#___________________________vehicle - monorail_track____________________________
+#___________________________vehicle - monorail_track____________________________
+PMNV_TC-119-Snake
+PMNV TC-119 Serp (vagó A)
+PMNV_TC-119-Snake_b
+PMNV TC-119 Serp (vagó B)
+PMNV_TC-44-Hydrogen_Car
+PMNV TC-44 H2 (vagó A)
+PMNV_TC-44-Hydrogen_Car_b
+PMNV TC-44 H2 (vagó B)
+PMNV_TC-7_Astro_Trolley
+PMNV TC-7 Astro
+PMNV-TC-1_Turbo_Car
+PMNV TC-1 TurboCar
+PMNV-TC-112-Hyper_Car
+PMNV TC-112 HyperCar
+PMNV-TC-2_Turbo_Set
+PMNV TC-2 TurboSet
+PMNV-TC-2_Turbo_Set_b
+PMNV TC-2 TurboSet (vagó)
+PMNV-TC-2_Turbo_Set_c
+PMNV TC-2 TurboSet (cabina)
+PMNV-TC-5P_Mail_Man
+PMNV TC-5P "El Carter"
+yoshi_wup01
+GTW 72
+yoshi_wup02
+GTW 72 (central)
+yoshi_wup03
+GTW 72 (cabina)
+yoshi_wup1900
+GTW 01
+yoshi_wup1950
+GTW 62
+yoshi_wup196201
+GTW 69
+yoshi_wup196202
+GTW 69 (central)
+yoshi_wup196203
+GTW 69 (cua)
+yoshi_wup196501
+GTW 85
+yoshi_wup196502
+GTW 85 (central)
+yoshi_wup196503
+GTW 85 (cua)
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
+20ft_Container_Trailer-128set
+Tràiler Contenidor 20ft
+40ft_Container_Trailer
+Tràiler Contenidor 40ft
+AEC_Aclo_Regent_III
+AEC Aclo Regent III
+Airport_express_shuttle
+Autobús llançadora
+BB-TS_Milk_Mack_Trailer
+Tràiler per làctics BB-TS
+Big_Erztruck
+Camió bolquet MHz per a mineria
+Bulk_trailer_0
+Remolc bolquet "Shorty"
+Bulk_Truck_0
+Shorty-Volvo 800
+Bulk_Truck_2
+VSYS-Tatra 801
+Bulk_Truck_3
+VSYS-Tatra 815 
+Bulk_Truck_4
+Volvo LV76-78
+Car_Tramsport_Trailer_0
+Remolc "TS" per a cotxes
+Car_Transporter_0
+Camió "TS" per a cotxes
+Car_Transporter_1
+Camioneta RVg per a cotxes
+Cement_trailer_0
+Remolc PMNV per a ciment
+Cement_Truck_0
+Camió PMNV per a ciment
+Concrete_Truck_0
+Camió formigonera Kroytor
+Concrete_Truck_1
+Camió formigonera VSYS-Tatra 815
+Cooling_trailer_0
+Remolc refrigerat PMNV
+Cooling_Truck_0
+Camió refrigerat PMNV 14
+Cooling_Truck_1
+Camió refrigerat PMNV 12
+Cooling_Truck_2
+S.Kroytor Gaz-4
+CST_Interliner_E55
+CST Interliner E55
+CST_Interliner_E55_Rear
+CST Interliner E55 (remolc)
+CST_Interliner_S45
+CST Interliner S45
+CST_Interliner_S55
+CST Interliner S55
+CST_Interliner_S55_Rear
+CST Interliner S55 (remolc)
+CST_Stateliner
+CST Stateliner
+CST_Urban_City_DD
+CST Urban City DD
+Evil-Jitluen_67_Minibus
+Minibús Evil-Jitluen 67
+Fluid_trailer_0
+Remolc cisterna AJ
+Fluid_trailer_1
+Remolc cisterna AJ-PMNV
+Fluid_Truck_0
+Nissan 1800 Cisterna
+Fluid_Truck_1
+Nissan 1100 Cisterna
+Fluid_Truck_2
+ZUK-20 Cisterna
+Fluid_Truck_3
+Magirus 1923 Cisterna
+Flxible_Twin_FT2-40
+Flxible Twin FT2-40
+Goods_trailer_0
+Remolc Mitsubishi Fuso ST
+Goods_trailer_1
+Remolc Mitsubishi Fuso ST-2
+Goods_trailer_2
+Remolc PMNV per a mercaderies
+Goods_trailer_3
+Remolc PMNV per a mercaderies
+Goods_Truck_0
+Mitsubishi Fuso ST
+Goods_Truck_1
+Mitsubishi Fuso HT
+Goods_Truck_2
+Camió PMNV
+Goods_Truck_3
+Camió lleuger PMNV
+Goods_Truck_4
+Camió PMNV Turbo
+Goods_Truck_5
+S.Kroytor Gaz-4
+Grain_trailer_0
+Remolc per cereals PMNV
+Grain_Truck_1
+Tatra 815 (cereales)
+Kord_TT_bulk
+Kord TT (granel)
+Kord_TT_grain
+Kord TT (cereals)
+Mack_Truck_Cooling_Trailer
+Remolc refrigerat Mack
+Mack_Truck_Goods_Trailer
+Remolc de mercaderies Mack
+Mack_Truck_Post_Trailer
+Remolc postal PMNV
+Mail_Truck_2
+MHz Windstar (correu)
+MHz_Grain_Trailer_0
+Remolc per cereals MHz
+MHz_Long_Wood_Trailer
+Remolc llarg per troncs MHz
+MHz_Tractor
+Tractor MHz
+MHz_Tractor_2
+Tractor MHz-JD
+Milk_Truck_0
+Camió cisterna per llet PMNV
+Milk_Truck_1
+Camió cisterna per llet Kroytor-ZIL
+Milk_Truck_2
+Camió tanc per llet Magirus
+mja-20s_concretemixer
+Camió Ciment MJA-20S
+mja-bulk_trailer_l
+Remolc per àrids MJA-L300
+mja-bulk_trailer_m
+Remolc per àrids MJA-M220
+mja-MAN19332-128set
+MAN 19332
+mja-ScaniaP380_tanker
+Scania P380 Cisterna
+mja-ScaniaP420_concretemixer
+Scania P380 - Tanc per ciment
+mja-ScaniaP420_longgoods
+Scania P380 - Plataforma per fusta
+mja-ScaniaR500Topline
+Scania R500 Topline
+mja-ScaniaR500Topline_cooledgoods
+Scania R500 Topline Refrigerat
+mja-ScaniaR500Topline_goods
+Scania R500 Topline per mercaderies
+mja-ScaniaR620Topline
+Scania R620 Topline
+mja-volvof88-128set
+Volvo F88
+mja-volvoVN660
+Volvo VN660
+mja-Zil130-128set
+Zil 130
+MS_sprinter_mail
+Furgoneta per correu Sprinter
+NovaBus_RTS-06_WFD
+NovaBus RTS-06 WFD
+Pegaso_6038_InterCity
+Pegaso 6038 (interurbà)
+Pegaso_6038_Urban
+Pegaso 6038 (urbà)
+Pegaso-Seida_5020_InterCity
+Pegaso-Seida 5020 (interurbà)
+Pegaso-Seida_5020_Urban
+Pegaso-Seida 5020 (urbà)
+Planck_Truck_0
+Camió per fusta PMNV-Cannonball
+Plank_Truck_2
+Tatra 815 Plataforma per fusta
+PMNV_50_Mack
+PMNV Mack 1950
+PMNV_Canonball_Car_Trailer
+Remolc Mack per cotxes
+PMNV_Cement_Trailer_Slow
+Remolc PMNV CT-2 per ciment
+PMNV_Cement_Truck_P
+Camió PMNV CTr-2 per ciment
+PMNV_Concrete_Truck
+Formigonera Mack PMNV
+PMNV_Cruiser
+Cruiser
+PMNV_Cruiser_Mini
+Cruiser Mini
+PMNV_Fabric_Trailer_0
+Remolc per teixits PMNV
+PMNV_Grain_Truck_0
+Camió clàssic PMNV per cereals
+PMNV_Hydrogen_Cruiser
+Hydrogen Cruiser
+PMNV_Mack_Bulk_Trailer_0
+Remolc Mack-220 per àrids
+PMNV_Mack_Cement_Trailer_L
+Remolc Mack-L220 per ciment
+PMNV_Mack_Cement_Trailer_S
+Remolc Mack-S190 per ciment
+PMNV_Mack_Concrete_Trailer_O
+Remolc Mack CT260 per formigó
+PMNV_Mack_cooled_Trailer_O
+Remolc refrigerat Mack RT-180
+PMNV_Mack_Goods_Trailer_O
+Remolc per mercaderies Mack GT220
+PMNV_Mack_Grain_Trailer_0
+Remolc Mack GR350 per cereals
+PMNV_Mack_Grain_Trailer_O
+Remolc Mack GR290 per cereals
+PMNV_Mack_Log_Trailer_L
+Remolc plataforma Mack L300 per taulons
+PMNV_Mack_Log_Trailer_M
+Remolc plataforma Mack M260 per troncs
+PMNV_Mack_Log_Trailer_S
+Remolc plataforma Mack S210 per troncs
+PMNV_Mack_Milk_Trailer_O
+Remolc cisterna Mack LT220 per líquids
+PMNV_Mack_Oil_Trailer_L
+Remolc cisterna Mack L260
+PMNV_Mack_Oil_Trailer_S
+Remolc cisterna Mack S220
+PMNV_Mack_Planck_Trailer_0
+Remolc plataforma Mack L280 per fusta
+PMNV_Mack_Post_Trailer_O
+Remolc postal Mack P900
+PMNV_Mack_Steel_Trailer_L
+Remolc plataforma Mack L350 per acer
+PMNV_Mack_Steel_Trailer_S
+Remolc plataforma Mack S280 per acer
+PMNV_Mail_Truck_1
+Camió postal PMNV P60
+PMNV_Mail_Truck_2
+Camió postal PMNV P77
+PMNV_MHz_Truck_0
+PMNV-MHz Cabover 145
+PMNV_Milk_Trailer_0
+Remolc cisterna per líquids PMNV
+PMNV_Open_Goods_Trailer_L
+Remolc obert Mack OL300 per mercaderia 
+PMNV_Open_Goods_Trailer_S
+Remolc obert Mack OS200 per mercaderia 
+PMNV_Plank_Trailer_0
+Remolc curt PMNV per fusta
+PMNV_Post_Trailer_0
+Remolc postal PMNV
+PMNV_Steel_Trailer_0
+Remolc curt PMNV per acer
+PMNV-PB1970
+PMNV PB-1970
+Praga_Bus
+Autobús Praga 1919
+Praga_N_bulk
+Camió bolquet Praga N
+Praga_N_cement
+Camió Praga N per ciment
+Praga_N_Cistern
+Camió cisterna Praga N
+Praga_N_milk
+Camió cisterna Praga N per làctics
+Praga_TOT_128
+Praga TOT
+RVg_1064_White_Bulk
+RVg-White 1064 Bolquet
+RVg_1064_White_Cement
+RVg-White 1064 cisterna per ciment
+RVg_1064_White_Cooled
+RVg-White 1064 refrigerat
+RVg_1064_White_Fluid
+RVg-White 1064 cisterna
+RVg_1064_White_Goods
+RVg-White 1064 tancat
+RVg_Passanger_Trailer
+RVg-KS Remolc de passatgers 
+RVg_Post_Trailer
+RVg-KS Remolc postal
+RVg_Post_Truck_0
+RVg-KS 4051 Missatger
+RVg_Post_Truck_1
+RVg-KS 9051 Bitlleter 
+RVg_Type_S_Bulk
+Camió bolquet RVg Tipus-S
+RVg_Type_S_Cement
+Camió RVg Tipus-S per ciment
+RVg_Type_S_Cistern
+Camió cisterna RVg Tipus-S
+RVg_Type_S_Post
+Camió RVg Tipus-S per correu
+RVg_Type_S_Van
+Camió RVg Tipus-S per mercaderies
+RVg-B_101
+Autobús Regal RVg B22
+RVg-B_107
+RVg B149 Nan Vermell
+RVg-KS_4510-33
+RVg-KS 4510-33
+RVg-KS_4510-45
+RVg-KS 4510-45
+RVg-KS_4510-69
+RVg-KS 4510-69
+RVg-KS_9020-31
+RVRVg-KS 9020-31
+RVg-KS_9020-58
+RVg-KS 9020-58
+RVg-KS_9020-92
+RVg-KS 9020-92
+RVg-LK_Cement_Truck
+RVg LK (ciment)
+RVg-LK_Cooling_Truck
+RVg-LK V44 (refrigerat)
+RVg-LK_Goods_Truck
+Furgó RVg-LK (mercaderies)
+RVg-LK_Grain_Truck
+RVg-LK V41 (gra)
+RVg-LK_Plank_Truck
+RVg-LK V37 (taulons)
+RVg-LK_Steel_Truck
+RVg-LK V38 (acer)
+RX_1064
+Autobús RX 1064
+S_Kroytor_Gaz-2
+S.Kroytor Gaz-2
+S_Kroytor_Gaz-3
+S.Kroytor Gaz-3
+S_Kroytor_Gaz-4
+S.Kroytor Gaz-4
+S_Kroytor_Ikarus-260
+S.Kroytor Ikarus-260
+S_Kroytor_Ikarus-260(l)
+Autobús de línia S.Kroytor Ikarus-260
+S_Kroytor_Ikarus-280
+S.Kroytor Ikarus-280
+S_Kroytor_Ikarus-280_ext
+S.Kroytor Ikarus-280 (remolc)
+S_Kroytor_LiAZ-5256
+S.Kroytor LiAZ-5256
+S_Kroytor_LiAZ-677
+S.Kroytor LiAZ-677
+S_Kroytor_Mercedes_Citaro
+S.Kroytor Mercedes Citaro
+S_Kroytor_PAZ-672
+S.Kroytor PAZ-672
+S_Kroytor_PAZ-772
+S.Kroytor PAZ-772
+S_Kroytor_Traveler
+S.Kroytor Traveler
 Sentinel_Cement_Lorry
 Camió Sindor-Sentinel per a ciment
 Sentinel_Cement_Trailer
@@ -2096,12 +1488,6 @@ Sentinel_Wood_Lorry
 Camió Sindor-Sentinel per a troncs
 Sentinel_Wood_Trailer
 Remolc Sindor-Sentinel per a troncs
-Silver_City_Comet
-Silver City Comet
-Silver_City_Comet_Car
-Silver City Comet (cotxe)
-Silver_City_Comet_Post_Car
-Silver City Comet (correus)
 SK_Mail_Truck_1
 Camió S.Kroytor per a correu
 skoda_1_tr_128
@@ -2110,8 +1496,6 @@ skoda_10_tr_128
 Skoda 10 tr
 skoda_10_tr_rear_128
 Skoda 10 tr (cua)
-Skoda_109E
-Sindor-Skoda 109E
 skoda_11_tr_128
 Skoda 11 tr
 skoda_12_tr_128
@@ -2160,6 +1544,630 @@ skoda_sanos_200_tr_128
 Skoda Sanos 200 tr
 skoda_sanos_200_tr_rear_128
 Skoda Sanos 200 tr (cua)
+SMC_H-38_City_Bus
+Microbús SMC H-38
+SMC_H-98_City_Bus
+Autobús SMC H-98
+Steel_Truck_0
+Camió plataforma PMNV per acer
+TATRA_400_T_128
+Tatra 400 T
+TATRA_401_T_128
+Tatra 401 T
+TATRA_86_T_128
+Tatra 86 T
+TS_Mack_Bulk_Trailer_0
+Remolc lleuger obert TS
+Twin_Coach_40
+Twin Coach 40
+Vitus-AVECO_Eurocargo_Bretter
+Vitus-Aveco Eurocargo (taulons)
+Vitus-AVECO_Eurocargo_bulk_transporter
+Vitus-Aveco Eurocargo (granel)
+Vitus-AVECO_Eurocargo_freezing
+Vitus-Aveco Eurocargo (frigorífic)
+Vitus-AVECO_Eurocargo_tanker
+Vitus-Aveco Eurocargo (cisterna)
+Vitus-AVECO_Eurocargo_transporter
+Vitus-Aveco Eurocargo (mercaderia)
+VSYS_Car_Trailer_0
+VSYS Remolc Colossus (maquinària)
+VSYS_Concrete_Trailer_0
+VSYS plataforma per formigó
+VSYS_Post_Bus_Trailer_0
+VSYS Remolc correu
+VSYS_Post_Bus_Trailer_1
+VSYS Remolc pesat per correu
+VSYS_Post_Bus_Trailer_2
+VSYS Remolc lleuger per correu
+VSYS_Steel_Trailer_0
+VSYS Remolc pesant per acer
+VSYS_Tatra_138
+VSYS Tatra 138 MF
+VSYS_Tatra_138_Grain
+VSYS Tatra 138 (gra)
+VSYS_Tatra_813_Clossus
+VSYS Tatra 813 "Colossus"
+Wood_Trailer_0
+Tràiler per fusta VSYS
+Wood_Truck_0
+Camió Volvo-Shorty per troncs
+Wood_Truck_1
+Camió Ford V8 para fusta
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+1Benst134
+Bennhardt B-138 "Follet"
+1Benst135t
+Bennhadtd 135 "Bubota"
+1Benst138
+Bennhardt 138 "Pastís de poma"
+1Benst162t
+Bennhardt B-162 "Jet"
+1Benst238
+Bennhardt B-238 "Gripau"
+1Dampflokomotive
+H-Trans 0-4-0T
+2000_Class
+Classe 2000 Australià
+2000_Class_Car
+Classe 2000 (cotxe)
+2000_Class_Tail
+Classe 2000 (cabina)
+2Diesellokomotive
+H-Trans BR218
+3Bens186t
+Bennhardt B-186 "Llimona"
+3Dampflokomotive
+RVg 0-3-0
+620_Railcar_Addon
+Classe 620 Australià (cabina)
+720_Railcar_Addon
+Classe 720 Australià
+Autotransportwagen
+Vagó per a cotxes Napik-Canonball
+Big_Bretterwagen
+Vagó RVg per a taulons
+BR-373_Back
+BR-373 (cabina)
+BR-373_BackCar
+BR-373 (últim cotxe)
+BR-373_Car
+BR-373 (cotxe)
+BR-373_Eurostar
+BR-373 "Eurostar"
+BR-373_FrontCar
+BR-373 (primer cotxe)
+Bretterwagen
+Vagó "BB" per a taulons
+Budd_Coach
+Budd RPO (vagó)
+Budd_Lounge
+Budd RPO (vagó menjador)
+Budd_Observation
+Budd RPO (panoràmic)
+Budd_RPO
+Budd RPO (correu)
+caboose_1
+RvG Furgó de cua
+caboose_2
+RvG Furgó de cua "Multi"
+caboose_3
+RvG Furgó de cua "Extra"
+Car_Waggon_1
+Vagó RVg per a cotxes
+Car_Waggon_2
+Vagó llarg RVg per a cotxes
+CB_ALBATROS
+RVg Skoda 498 "Albatros"
+CB_DB-130_8
+Canonball & H-Trans BR132
+Cement_Carrier_Fast
+Vagó cubeta per a ciment
+Cement_Waggon_0
+Vagó BB-PMNV per a ciment
+Cement_Waggon_1
+Cubeta BB-PMNV per ciment
+Cementwagen
+Cisterna SergeS per ciment
+CKD_749
+CKD 749
+CKD_750
+CKD 750
+Concretewagen
+Vagó per formigó PMNV 12
+Concretewagen_1
+Vagó per formigó PMNV 16
+Cooling_wagon_0
+Vagó refrigerat Canonball
+Cooling_wagon_1
+Vagó-contenidor refrigerat
+Cooling_wagon_2
+Vagó refrigerat hermètic Canonball
+CPH_Motorcar
+Ferrobús CPH Australià
+DB_ADm101
+Haru ADm101
+DB_Apmz121
+Haru-DB Apmz121
+DB_Bm235
+Haru-DB Bm235
+DB_BR103_1
+Haru BR-103
+E_423
+Sindor E-423
+EMD_E5A_Silver_Meteor
+EMD E5A "Meteorit Platejat"
+EMD_E5B_Silver_Comet
+EMD E5A "Cometa Platejat" (motor)
+EMD-FT_(A)
+EMD-FT
+EMD-FT_(B)
+EMD-FT (motor)
+EMD-FT_(C)
+EMD-FT (cabina)
+Evil_DF-11
+Evil DF-11
+Evil_P-100_(carriage)
+RVg P-100 (cotxe)
+Evil_P-100_(front_engine)
+RVg P-100
+Evil_P-100_(mail)
+RVg P-100 (correu)
+Evil_P-100_(rear_engine)
+RVg P-100 (cabina)
+Express_tender
+Tender
+fluid_00_Wood_Barrels_Wagon
+Vagoneta amb barrils de fusta
+fluid_01_Iron_Tanks_Wagon
+Vagoneta amb barrils metàl·lics
+fluid_02_CSD-502_Tank_Wagon
+Vagó cisterna ?SD-502
+fluid_03_CSD-556_Tank_Wagon
+Vagó cisterna ?SD-556
+fluid_04_Esso_Tank_Wagon
+Vagó cisterna Esso
+fluid_05_CEPSA_Tank_Wagon
+Vagó cisterna CEPSA
+fluid_06_VTG_Tank_Wagon
+Vagó cisterna VTG
+fluid_07_Esso_XL_Tank_Wagon
+Vagó cisterna Esso XL
+fluid_08_VTG_CeSa_Tank_Wagon
+Vagó cisterna VTG CeSa
+Goods_waggon_0
+Furgó Cannonball
+Goods_waggon_1
+Vagó de mercaderies Cannonball
+Goods_waggon_2
+Vagó amb portes corredores PMNV
+Goods_waggon_3
+Vagó contenidor CT-270
+Goods_waggon_4
+Vagó contenidor HS-270
+Goods_waggon_5
+Vagó tancat RVg
+Haru_2C1_Cheetah
+Haru 2C1 «Guepard»
+Haru_2D1_Buffalo
+Haru 2D1 «Búfal»
+Haru_C44-9W
+Haru C44-9W «Dash»
+Haru_DF4
+Haru DF4
+Haru_E3_KOMACHI
+Haru E3 Komachi
+Haru_E3_KOMACHI_(mid)
+Haru E3 Komachi (motor)
+Haru_E3_KOMACHI_(rear)
+Haru E3 Komachi (cabina)
+Haru_E3_KOMACHI_(Trailer)
+Haru E3 Komachi (cotxe)
+Haru_F7A
+Haru F7 A
+Haru_F7B
+Haru F7 B
+Haru_HST
+Haru HST
+Haru_HST_mid
+Haru HST (cotxe)
+Haru_HST_rear
+Haru HST (cabina)
+Haru_Spike-PSE_Head1
+Haru PSE "Agulla"
+Haru_Spike-PSE_Head2
+Haru PSE "Agulla" (primer cotxe)
+Haru_Spike-PSE_Tail1
+Haru PSE "Agulla" (cabina)
+Haru_Spike-PSE_Tail2
+Haru PSE "Agulla" (últim cotxe)
+Haru_Spike-PSE_Waggon
+Haru PSE "Agulla" (cotxe)
+Haru_Tender
+Haru Tender
+Haru_VT98
+Haru VT-98
+Haru_VT98_car
+Haru VT-98 (cotxe)
+Haru-373
+Haru 373
+Haru-373_car
+Haru 373 (cotxe)
+Haru-373_tail
+Haru 373 (cabina)
+Haru-ACE1_Head
+Haru ACE
+Haru-ACE1_Tail
+Haru ACE (cabina)
+Haru-ACE1_Waggon1
+Haru ACE - Cotxe
+Haru-ACE1_Waggon2
+Haru ACE - Cotxe Restaurant
+Haru-ACE1_Waggon3
+Haru ACE - Furgó de Correu
+Haru-BR182_Taurus
+Haru BR-182 "Taurus"
+Haru-IC3
+Haru IC-3
+Haru-IC3_car
+Haru IC-3 - Cotxe
+Haru-IC3_tail
+Haru IC-3 - Cabina
+Haru-PlanV
+Haru Plan V.
+Haru-PlanV(rear)
+Haru Plan V. - Cabina
+Haru-PMNV_F7-Coach
+Haru-PMNV F7 - Cotxe
+Haru-PMNV_F7-Mail_Car
+Haru-PMNV F7 - Furgó de Correu
+Haru-TEM2
+Haru TEM-2
+Haru-X2000
+Haru X2000
+Haru-X2000_mid
+Haru X2000 - Cotxe
+Haru-X2000_rear
+Haru X2000 - Cabina
+Holzwagen
+Vagó per a troncs
+Holzwagen_0
+Vagó doble per troncs RVg
+Holzwagen_1
+Vagó per troncs RVg de 4 eixos
+JNR_C11
+JNR SL C11
+JNR_C62
+JNR SL C62
+JNR_D51
+JNR SL D51
+JNR_DD51
+JNR DD51
+JNR_tender_S
+C62/D51 Tender
+JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
+JR Shinkansen Serie 700 HRS
+JR_700_Shinkansen_HRS_(Middle_Section)_PC
+JR Shinkansen Serie 700 HRS - Coche
+JR_700_Shinkansen_HRS_(Pantograph_I)_PC
+JR Shinkansen Serie 700 HRS - Motor Delantero
+JR_700_Shinkansen_HRS_(Pantograph_II)_PC
+JR Shinkansen Serie 700 HRS - Motor Trasero
+JR_700_Shinkansen_HRS_(Tailcar)_PC
+JR Shinkansen Serie 700 HRS - Cabina
+LKAB_IORE_Back
+LKAB IORE
+LKAB_IORE_Front
+LKAB IORE
+MA461_waggon
+RVg-DB MA-461 - Cotxe
+Marks_Passagierwagen
+Cotxe exprés MJHN
+Marks_Postwagen
+Furgó exprés MJHN (correu)
+Marks-Deltic
+MJHN Deltic
+milk_00_bottled_milk_wagon
+Vagoneta per a pots de llet
+milk_01_twin_barrel_wagon
+Vagoneta amb barrils per líquids
+milk_02_old_tank_wagon
+Vagó tanc per a líquids
+milk_03_6_wheeled_milk_wagon
+Vagó per llet de tres eixos
+milk_04_rvg_early_milk_waggon
+Vagó tanc per llet
+milk_05_milk_waggon_1
+Vagó cisterna per líquids
+milk_06_4_axle_milk_wagon
+Vagó cisterna 4-AX per líquids
+milk_07_milk_waggon_0
+Vagó cisterna refrigerat
+milk_08_bloomsburg_fair_milk_wagon
+Vagó per llet Bloomsburg
+milk_09_bordens_milk_wagon
+Vagó per llet Borden
+MTAB_Dm_Back
+MTAB Dm (cabina)
+MTAB_Dm_Front
+MTAB Dm
+MTAB_Dm3
+MTAB Dm3 (motor intermedi)
+Passagierwagen
+Canonball BTx Cotxe 2a classe
+Passanger_waggon_0
+JNR OHA 31 Cotxe
+Passanger_waggon_1
+JNR OHAFU 50 2a Classe
+Passanger_waggon_2
+JNR ORO 40 2a Classe
+Passanger_waggon_3
+RA BTx 050 2a Classe
+Passanger_waggon_MAITE39
+JNR MAITE 1a Classe
+Pioneer_Zephyr
+Pioneer Zephyr
+Pioneer_Zephyr_Car
+Pioneer Zephyr - Cotxe
+Pioneer_Zephyr_Tail
+Pioneer Zephyr - Cotxe de cua
+Plank_waggon_0
+Vagó plataforma per fusta RVg
+Plank_waggon_1
+Vagó plataforma per fusta
+Post_waggon_0
+Vagó per correu PV 80
+Postwagen
+Furgó correu/equipatges Cannonball
+Renfe_250_(German)
+RENFE Sèrie 250 "Alemanya"
+Renfe_252_Altaria
+RENFE Sèrie 252 Altaria
+Renfe_269_Altaria
+RENFE Sèrie 269 "Japonesa"
+Renfe_270
+RENFE Sèrie 270
+Renfe_274_(Bathtube)
+RENFE Sèrie 274 "Banyera"
+Renfe_276_(French)
+RENFE Sèrie 276 "Francesa"
+Renfe_279_(Benemerita)
+RENFE Sèrie 279 "Benemèrita"
+Renfe_310_(Coastguard)
+RENFE Sèrie 310 "Guardacostes"
+Renfe_319_(Yankie)
+RENFE Sèrie 319 "Yanki"
+Renfe_333_(Rambo)
+RENFE Sèrie 333 "Rambo"
+Renfe_340_(Egg)
+RENFE Sèrie 340 "Ou"
+Renfe_438_Back
+RENFE Sèrie 438 (cabina)
+Renfe_438_Front
+RENFE Sèrie 438
+Renfe_440
+RENFE Sèrie 440
+Renfe_440_Back
+RENFE Sèrie 440 (cabina)
+Renfe_440_Car
+RENFE Sèrie 440 (cotxe)
+Renfe_447
+RENFE Sèrie 447
+Renfe_447_Back
+RENFE Sèrie 447 (cabina)
+Renfe_447_Car
+RENFE Sèrie 447 (cotxe)
+Renfe_Series_10200_(Player_Colors)
+RENFE Sèrie 10200
+Renfe_Series_301_(Player_Colors)
+RENFE Sèrie 301
+Renfe_Series_311_(Player_Colors)
+RENFE Sèrie 311
+Renfe_Series_314_(Player_Colors)
+RENFE Sèrie 314
+Renfe_Series_316_(Player_Colors)
+RENFE Sèrie 316 "Marilyn"
+Renfe_Series_318_(Player_Colors)
+RENFE Sèrie 318
+Renfe_Series_319.300_(Player_Colors)
+RENFE Sèrie 319.300
+Renfe_Series_334_(Player_Colors)
+RENFE Sèrie 334
+Renfe_Series_350_Talgo_(Player_Colors)
+RENFE Sèrie 350 Talgo
+Renfe_Series_350_Talgo_Car_(Player_Colors)
+RENFE Cotxe Talgo II
+Renfe_Series_350_Talgo_Mail_Car_(Player_Colors)
+RENFE Furgó Talgo II
+Renfe_Series_350_Talgo_Restaurant_Car_(Player_Colors)
+RENFE Restaurant Talgo II
+Renfe_Tgpps_Grain_Hopper
+RENFE Vagó Tremuja per Gra TGPPS
+Renfe_Uagp_Grain_Hopper
+RENFE Vagó Tremuja per Gra UAGP
+Renfe_Z-2000_Car
+RENFE Cotxe Z-2000
+Renfe_Z-2000_Mail_Car
+RENFE Furgó Z-2000
+Renfe6000_Post
+RENFE Furgó Sèrie 6000
+Renfe6000_Psg
+RENFE Cotxe Sèrie 6000
+RVg_0-1-4-0
+RVg 0-1-4-0
+RVg_1945_box_car
+Vagó per mercaderies RVg 1945/23
+RVg_1951_box_car
+Vagó per mercaderies RVg 1951/24
+RVg_1955_box_car
+Vagó per mercaderies RVg 1955/24
+RVg_1962_box_car
+Vagó per mercaderies RVg 1962/24
+RVg_1969_box_car
+Vagó per mercaderies RVg 1969/25
+RVg_1976_box_car
+Vagó per mercaderies RVg 1976/26
+RVg_1983_box_car
+Vagó per mercaderies RVg 1983/26
+RVg_1989_container_car
+Vagó contenidor RVg 1989/27
+RVg_1994_container_car
+Vagó contenidor RVg 1994/27
+RVg_2000_container_car
+Vagó contenidor RVg 2000/27
+RVg_2006_container_car
+Vagó contenidor RVg 2006/27
+RVg_2011_container_car
+Vagó contenidor RVg 2011/27
+RVg_Bulk_Waggon_00
+Vagó tremuja RVg 1850/20
+RVg_Bulk_Waggon_01
+Vagó tremuja RVg 1932/23
+RVg_Bulk_Waggon_02
+Vagó tremuja RVg 1945/25
+RVg_Bulk_Waggon_03
+Vagó tremuja RVg 1962/28
+RVg_Bulk_Waggon_04
+Vagó tremuja RVg 1978/30
+RVg_Bulk_Waggon_05
+Vagó tremuja RVg 1995/32
+RVg_Bulk_Waggon_06
+Vagó tremuja RVg 2019/35
+RVg_Cementwagen
+Vagó per ciment RVg
+RVg_Cooling_car
+Vagó refrigerat RVg
+RVg_Daylight
+RVg Alba
+RVg_Daylight_dome
+RVg Alba - Cotxe Restaurant
+RVg_Daylight_end
+RVg Alba - Cotxe de cua
+RVg_Daylight_post
+RVg Alba - Furgó postal
+RVg_Daylight_tender
+RVg Alba - Tender
+RVg_Daylight_waggon
+RVg Alba - Cotxe
+RVg_Flying_Berliner_(front)
+RVg Berlinès Volador
+RVg_Flying_Berliner_(tail)
+RVg Berlinès Volador - Cabina
+RVg_Hiawatha
+RVg Hiawatha Exprés
+RVg_Hiawatha_dome
+RVg Hiawatha Exprés - Cotxe mirador
+RVg_Hiawatha_end
+RVg Hiawatha Exprés - Cotxe de cua
+RVg_Hiawatha_post
+RVg Hiawatha Exprés - Furgó postal
+RVg_Hiawatha_tender
+RVg Hiawatha Exprés - Tender
+RVg_Hiawatha_waggon
+RVg Hiawatha Exprés - Cotxe
+RVg_M1
+RVg M1
+RVg_M1_tail
+RVg M1 - Cabina
+RVg_M1_waggon
+RVg M1 - Cotxe
+RVg_O-2-4-0
+RVg 2-4-0 "Exprés"
+RVg_R-100_(carriage)
+RVg R-100 - Cotxe
+RVg_R-100_(front_engine)
+RVg R-100
+RVg_R-100_(mail)
+RVg R-100 - Furgó postal
+RVg_R-100_(rear_engine)
+RVg R-100 - Cabina
+RVg_Spike_Duplex
+RVg Spike Duplex
+RVg_Spike_Duplex_tail
+RVg Spike Duplex - Cabina
+RVg_Spike_Duplex_waggon
+RVg Spike Duplex - Cotxe
+RVg_Thunder_2
+RVg Tro
+RVg_Thunder_2_Back
+RVg Tro - Cabina
+RVg_Thunder_2_post
+RVg Tro - Furgó postal
+RVg_Thunder_2_wagon
+RVg Tro - Cotxe
+RVg_Tigress
+RVg Tigressa
+RVg_Tigress_Back
+RVg Tigressa - Cabina
+RVg_Tigress_post
+RVg Tigressa - Furgó postal
+RVg_Tigress_wagon
+RVg Tigressa - Cotxe
+RVg-0-4-4-0
+RVg 0DD0 "Vuit"
+RVg-1-4-1
+RVg 1D1 "Toro"
+RVg-1-5-0-Goliath
+RVg 1E0 "Goliath"
+RVg-2-3-0
+RVg 2-3-0
+RVg-2-3-1
+RVg 2-3-1 "Prim"
+RVg-2-4-0
+RVg 2-4-0 Ràpid
+RVg-2-5-1
+RVg 2-5-1 "Múscul"
+RVg-D22-Rola
+RVg D22 "Rola"
+RVg-D23-Camel
+RVg D23 "Camell"
+RVg-D41-Tubus
+RVg D41 Tubus
+RVg-DB_MA461
+RVg-DB MA-461
+RVg-DB_MA461_Tail
+RVg-DB MA-461 - Cabina
+RVg-E17-Spring
+RVg E17 "Espiral"
+RVg-Express_Tender
+RVg Tender Express
+RVg-Goods_waggon
+Furgó tancat RVg
+RVg-Heavy-Tender
+Gran Tender RVg
+RVg-Oil-Tender
+RVg Tender de mazut
+RVg-Pioneer_Alladin
+RVg Pioneer Alladin
+RVg-Pioneer_Alladin_rear
+RVg Pioneer Alladin (cua)
+RVg-Pioneer_Alladin_supply
+RVg Pioneer Alladin (motor)
+RVg-Pioneer_Alladin_waggon
+RVg Pioneer Alladin (cotxe)
+RVg-RHF401
+RVg-RHF 401 «Cocodril»
+RVg-S004-Little_Boy
+RVg S004 «Little Boy»
+RVg-S033-Red_Dwarf
+RVg S033 "Nan roig"
+RVg-S127-Blue_Cow
+RVg S033 "Vaca blava"
+RVg-Tender
+RVg Tender
+SBB_Re4_4_II
+Haru-SBB Re 4/4 II
+SBB_Re6_6
+Haru-SBB Re 6/6 "Gotthard"
+Silver_City_Comet
+Silver City Comet
+Silver_City_Comet_Car
+Silver City Comet (cotxe)
+Silver_City_Comet_Post_Car
+Silver City Comet (correus)
+Skoda_109E
+Sindor-Skoda 109E
 skoda151
 Skoda 151
 skoda163
@@ -2168,10 +2176,6 @@ skoda180
 Skoda 180
 SMC_Early_Grain_Hopper
 Vagó tremuja curt per a gra
-SMC_H-38_City_Bus
-Microbús SMC H-38
-SMC_H-98_City_Bus
-Autobús SMC H-98
 SMC_HDL-1400
 SMC HDL-1400
 SMC_HDL-1600
@@ -2268,10 +2272,114 @@ Stahlwagen_2
 Vagó RVg per bobines d'acer
 Stahlwagen_3
 Vagó RVg per planxes d'acer
-Steel_Truck_0
-Camió plataforma PMNV per acer
-Stoyko_Peev
-Portacontenidors Stoyko Peev
+TalgoExpressCar
+Cotxe Talgo Express
+TalgoExpressMail
+Furgó Talgo Express
+TalgoExpressRestaurant
+Cotxe Restaurant Talgo Express
+TalgoRegionalCar
+Cotxe Regional Talgo
+TalgoRegionalMail
+Furgó Regional Talgo
+TGV_4400
+TGV 4400
+TGV_4400_Back
+TGV 4400 (cabina)
+TGV_4400_Car
+TGV 4400 (cotxe)
+TGV_Atlantique
+TGV Atlantique
+TGV_Atlantique_(Back)
+TGV Atlantique (cabina)
+TGV_Atlantique_(Car)
+TGV Atlantique (cotxe)
+TGV_Post
+TGV Postal
+TGV_Post_Back
+TGV Postal (cabina)
+TGV_Post_Car_A
+TGV Postal (cotxe A)
+TGV_Post_Car_B
+TGV Postal (cotxe B)
+Thunder_(front_engine)
+BB Thunder
+Thunder_(mail)
+BB Thunder (correu)
+Thunder_(rear_engine)
+BB Thunder (cabina)
+Thunder_(waggon)
+BB Thunder (cotxe)
+TMB_Class_100
+Metro TMB Sèrie 100
+TMB_Class_1000
+Metro TMB Sèrie 1000
+TMB_Class_2000
+Metro TMB Sèrie 2000
+TMB_Class_2000_Car
+Metro TMB Sèrie 2000 (cotxe)
+TMB_Class_200A
+Metro TMB Sèrie 200A
+TMB_Class_200B
+Metro TMB Sèrie 200B
+TMB_Class_200B_Car
+Metro TMB Sèrie 200B (cotxe)
+TMB_Class_300
+Metro TMB Sèrie 300
+TMB_Class_300_Car
+Metro TMB Sèrie 300 (cotxe)
+TMB_Class_3000
+Metro TMB Sèrie 3000
+TMB_Class_3000_Back
+Metro TMB Sèrie 3000 (cabina)
+TMB_Class_3000_Car
+Metro TMB Sèrie 3000 (cotxe)
+TMB_Class_400
+Metro TMB Sèrie 400
+TMB_Class_400_Car
+Metro TMB Sèrie 400 (cotxe)
+TMB_Class_500
+Metro TMB Sèrie 500
+TMB_Class_500_Car
+Metro TMB Sèrie 500 (cotxe)
+TMB_Class_6000
+Metro TMB Sèrie 6000
+TMB_Class_6000_Back
+Metro TMB Sèrie 6000 (cabina)
+TMB_Class_6000_Car
+Metro TMB Sèrie 6000 (cotxe)
+TMB_Class_6000_Powered_Car
+Metro TMB Sèrie 6000 (cotxe motor)
+vsys_garatt_0
+VSYS-Garatt 2DD2
+vsys_garatt_1
+VSYS-Garatt 2DD2 (central)
+vsys_garatt_2
+VSYS-Garatt 2DD2 (cua)
+VT105_Addon
+VT-105
+VT105_Car_Addon
+VT-105 (cotxe)
+VT105_Tail_Addon
+VT-105 (cotxe cua)
+#_____________________________vehicle - tram_track______________________________
+#_____________________________vehicle - tram_track______________________________
+DueWAG_GT6_motorwaggon
+Due WAG GT6
+DueWAG_GT6_tailwaggon
+Due WAG GT6 (vagó)
+EM400_1
+Sindor-FK EM400
+Haru_Tatra-T3
+Haru Tatra T3
+MHz_TRAM_1930
+MHz T-113
+MHz_TRAM_1980
+MHz T-235
+R_01
+Tramvia RVg R1 - Cotxe
+R_02
+Tramvia RVg R2 - Cotxe
 T_101
 RVg T101
 T_102
@@ -2356,176 +2464,132 @@ T_222_Combino_Supra_D
 T-222 Combino Supra (D)
 T_222_Combino_Supra_E
 T-222 Combino Supra (E)
-TalgoExpressCar
-Cotxe Talgo Express
-TalgoExpressMail
-Furgó Talgo Express
-TalgoExpressRestaurant
-Cotxe Restaurant Talgo Express
-TalgoRegionalCar
-Cotxe Regional Talgo
-TalgoRegionalMail
-Furgó Regional Talgo
-TATRA_400_T_128
-Tatra 400 T
-TATRA_401_T_128
-Tatra 401 T
-TATRA_86_T_128
-Tatra 86 T
-TGV_4400
-TGV 4400
-TGV_4400_Back
-TGV 4400 (cabina)
-TGV_4400_Car
-TGV 4400 (cotxe)
-TGV_Atlantique
-TGV Atlantique
-TGV_Atlantique_(Back)
-TGV Atlantique (cabina)
-TGV_Atlantique_(Car)
-TGV Atlantique (cotxe)
-TGV_Post
-TGV Postal
-TGV_Post_Back
-TGV Postal (cabina)
-TGV_Post_Car_A
-TGV Postal (cotxe A)
-TGV_Post_Car_B
-TGV Postal (cotxe B)
-Thunder_(front_engine)
-BB Thunder
-Thunder_(mail)
-BB Thunder (correu)
-Thunder_(rear_engine)
-BB Thunder (cabina)
-Thunder_(waggon)
-BB Thunder (cotxe)
-TMB_Class_100
-Metro TMB Sèrie 100
-TMB_Class_1000
-Metro TMB Sèrie 1000
-TMB_Class_2000
-Metro TMB Sèrie 2000
-TMB_Class_2000_Car
-Metro TMB Sèrie 2000 (cotxe)
-TMB_Class_200A
-Metro TMB Sèrie 200A
-TMB_Class_200B
-Metro TMB Sèrie 200B
-TMB_Class_200B_Car
-Metro TMB Sèrie 200B (cotxe)
-TMB_Class_300
-Metro TMB Sèrie 300
-TMB_Class_300_Car
-Metro TMB Sèrie 300 (cotxe)
-TMB_Class_3000
-Metro TMB Sèrie 3000
-TMB_Class_3000_Back
-Metro TMB Sèrie 3000 (cabina)
-TMB_Class_3000_Car
-Metro TMB Sèrie 3000 (cotxe)
-TMB_Class_400
-Metro TMB Sèrie 400
-TMB_Class_400_Car
-Metro TMB Sèrie 400 (cotxe)
-TMB_Class_500
-Metro TMB Sèrie 500
-TMB_Class_500_Car
-Metro TMB Sèrie 500 (cotxe)
-TMB_Class_6000
-Metro TMB Sèrie 6000
-TMB_Class_6000_Back
-Metro TMB Sèrie 6000 (cabina)
-TMB_Class_6000_Car
-Metro TMB Sèrie 6000 (cotxe)
-TMB_Class_6000_Powered_Car
-Metro TMB Sèrie 6000 (cotxe motor)
-TS_Mack_Bulk_Trailer_0
-Remolc lleuger obert TS
-Twin_Coach_40
-Twin Coach 40
+#________________________________vehicle - water________________________________
+#________________________________vehicle - water________________________________
+Black_Osprey
+Black Osprey (acer)
+Black_Osprey_(goods)
+Black Osprey (mercaderies)
+Black_Osprey_(grain)
+Black Osprey (gra/cereals)
+British_Premier
+British Premier
+Eaglescliffe_Hall
+Eaglescliffe Hall (granel)
+Eaglescliffe_Hall_(lumber)
+Eaglescliffe Hall (fusta)
+Edmund_Fitzgerald
+Edmund Fitzgerald (acer)
+Edmund_Fitzgerald_(wood)
+Edmund Fitzgerald (fusta)
+Ferry_Mail_Extension_(small)
+Extensió de correu per a transbordador (small)
+Ferry_yeu_128set
+Ferry Oggia
+Fishing_Boat_1
+Barca de Pesca MHz
+Freya
+Ferry "MV Freya"
+Gripsholm
+Transatlàntic Gripsholm
+Liner_Mail_Extension_(large)
+Extensió de correu per a transatlàntics
+MHz-C11C_Bulk_Barge
+Barcassa per carbó MHz C11C
+MHz-C11C_Wood_Barge
+Barcassa per fusta MHz C11C
+MHz-C273U_Cement_Barge
+Barcassa per ciment MHz C273U
+MHz-C35_Goods_Barge
+Barcassa per mercaderies MHz C35
+MHz-C3P_Post_Barge
+Barcassa postal MHz C3P
+MHz-CC47_Container_Barge
+Barcassa per contenidors MHz CC47
+MHz-MT7_Milk_Barge
+Barcassa per líquids MHz MT7
+MHz-OT5_Oil_Barge
+Barcassa petrolera MHz OT5
+MHz-P11C_Bulk_Boat
+Remolc de barcassa per carbó MHz P11C
+MHz-P11C_Wood_Boat
+Remolc de barcassa per fusta MHz P11C
+MHz-R2A_Push-Tug
+Remolcador MHz R2A
+MV_Balmoral
+Ferry Balmoral
+MV_Fedra
+Mercant Fedra (carbó)
+MV_Lake_Illawarra
+Mercant Lake Illawarra (carbó)
+MV_Lake_Illawarra_(grain)
+Mercant Lake Illawarra (cereals)
+New_Zealand_Star
+Vaixell refrigerat New Zealand Star
+Nordic_Heron
+Petrolier Nordic Heron
+Nordic_Heron_(liquid_food)
+Vaixell tanc Nordic Heron
+Nororn
+Pesquer modern Nororn
+Owari_Maru
+Owari Maru (engròs)
+Patagonia
+Mercant Patagonia
+Patagonia_(farm_products)
+Mercant per cereals Patagonia
+Post_Barge
+Barcassa postal MHz
+Queen_Elisabeth_2
+Transatlàntic Queen Elisabeth II
+Rigoletto
+Vaixell porta-cotxes Rigoletto
+RMS_Baltic
+Transatlàntic RMS Baltic
+RVg-Sail_Goods_Ship_0
+RVg Gavarra
+RVg-Sail_Passanger_Ship_0
+RVg Fragata
+RVg-Steam_Goods_Ship_0
+RVg mercant a vapor
+RVg-Steam_Passanger_Ship_0
+RVg Fery de pales a vapor 
+Sail_Post_Ship_0
+Veler postal
+Stoyko_Peev
+Portacontenidors Stoyko Peev
 Veveri_ship_128set
 Ferry Veveri
-Vitus-AVECO_Eurocargo_Bretter
-Vitus-Aveco Eurocargo (taulons)
-Vitus-AVECO_Eurocargo_bulk_transporter
-Vitus-Aveco Eurocargo (granel)
-Vitus-AVECO_Eurocargo_freezing
-Vitus-Aveco Eurocargo (frigorífic)
-Vitus-AVECO_Eurocargo_tanker
-Vitus-Aveco Eurocargo (cisterna)
-Vitus-AVECO_Eurocargo_transporter
-Vitus-Aveco Eurocargo (mercaderia)
-VSYS_Car_Trailer_0
-VSYS Remolc Colossus (maquinària)
-VSYS_Concrete_Trailer_0
-VSYS plataforma per formigó
-vsys_garatt_0
-VSYS-Garatt 2DD2
-vsys_garatt_1
-VSYS-Garatt 2DD2 (central)
-vsys_garatt_2
-VSYS-Garatt 2DD2 (cua)
-VSYS_Post_Bus_Trailer_0
-VSYS Remolc correu
-VSYS_Post_Bus_Trailer_1
-VSYS Remolc pesat per correu
-VSYS_Post_Bus_Trailer_2
-VSYS Remolc lleuger per correu
-VSYS_Steel_Trailer_0
-VSYS Remolc pesant per acer
-VSYS_Tatra_138
-VSYS Tatra 138 MF
-VSYS_Tatra_138_Grain
-VSYS Tatra 138 (gra)
-VSYS_Tatra_813_Clossus
-VSYS Tatra 813 "Colossus"
-VT105_Addon
-VT-105
-VT105_Car_Addon
-VT-105 (cotxe)
-VT105_Tail_Addon
-VT-105 (cotxe cua)
 Willamette_Chief
 Ferry Willamette Chief
 Willamette_Chief_(farm_goods)
 Vaixell de càrrega Willamette Chief (prod. granja)
 Willamette_Chief_(goods)
 Vaixell de càrrega Willamette Chief (mercaderies)
-Wood_Trailer_0
-Tràiler per fusta VSYS
-Wood_Truck_0
-Camió Volvo-Shorty per troncs
-Wood_Truck_1
-Camió Ford V8 para fusta
-yoshi_wup01
-GTW 72
-yoshi_wup02
-GTW 72 (central)
-yoshi_wup03
-GTW 72 (cabina)
-yoshi_wup1900
-GTW 01
-yoshi_wup1950
-GTW 62
-yoshi_wup196201
-GTW 69
-yoshi_wup196202
-GTW 69 (central)
-yoshi_wup196203
-GTW 69 (cua)
-yoshi_wup196501
-GTW 85
-yoshi_wup196502
-GTW 85 (central)
-yoshi_wup196503
-GTW 85 (cua)
-#______________________________________way______________________________________
-#______________________________________way______________________________________
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 air_movement_area
 Pista de maniobres
-canal_030
-Canal
+old_runway
+Pista d'aterratge d'herba
+old_taxiway
+Pista de maniobres d'herba
+runway_modern
+Pista d'aterratge
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
+Schwebebahn_p_ground
+Monocarril
+Suspended_Monorail_Track
+Via de monocarril suspès
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+PowerConduits
+Conducció elèctrica
+Powerline
+Línia d'alt voltatge
+#__________________________________way - road___________________________________
+#__________________________________way - road___________________________________
 Highway_110
 Autovia
 Highway_110_Elevated
@@ -2538,14 +2602,26 @@ Highway_200
 Autopista moderna
 Highway_200_Elevated
 Autopista moderna elevada
-old_runway
-Pista d'aterratge d'herba
-old_taxiway
-Pista de maniobres d'herba
-PowerConduits
-Conducció elèctrica
-Powerline
-Línia d'alt voltatge
+Road_030
+Camí de sorra
+Road_040
+Carrer empedrat
+Road_040_Elevated
+Carrer empedrat elevat
+Road_050
+Carrer asfaltat
+Road_050_Elevated
+Carrer asfaltat elevat
+Road_055
+Carretera de pedres
+Road_070
+Carretera asfaltada
+Road_090
+Carretera moderna asfaltada
+Road_090_Elevated
+Carretera asfaltada elevada
+#__________________________________way - track__________________________________
+#__________________________________way - track__________________________________
 Rail_060_Tracks
 Via antiga per a mercaderies
 Rail_080_Tracks
@@ -2592,34 +2668,6 @@ Rail_400_Elevated
 Via elevada d'alta velocitat millorada
 Rail_400_Tracks
 Via d'alta velocitat millorada
-river_0a
-Afluent
-river_0b
-fluir
-Road_030
-Camí de sorra
-Road_040
-Carrer empedrat
-Road_040_Elevated
-Carrer empedrat elevat
-Road_050
-Carrer asfaltat
-Road_050_Elevated
-Carrer asfaltat elevat
-Road_055
-Carretera de pedres
-Road_070
-Carretera asfaltada
-Road_090
-Carretera moderna asfaltada
-Road_090_Elevated
-Carretera asfaltada elevada
-runway_modern
-Pista d'aterratge
-Schwebebahn_p_ground
-Monocarril
-Suspended_Monorail_Track
-Via de monocarril suspès
 Tram_Track_050_A
 Via de tramvia normal (50 Km/h)
 Tram_Track_070_A
@@ -2632,19 +2680,33 @@ Tram_Track_090_B
 Via de tramvia modern (90 Km/h)
 Tram_Track_110_A
 Via de tramvia ràpid (110 Km/h)
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
+#__________________________________way - water__________________________________
+#__________________________________way - water__________________________________
+canal_030
+Canal
+river_0a
+Afluent
+river_0b
+fluir
+#_______________________________way-object - air________________________________
+#_______________________________way-object - air________________________________
+modern_runway-extMrkLgt
+Il·luminació per a pista d'aterratge
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+trolleybus_catenary
+Catenària de troleibús
+#______________________________way-object - track_______________________________
+#______________________________way-object - track_______________________________
 classic_metal_mesh_catenary
 Tercer carril electrificat
 curved_pylon_lgv
 Catenària d'alta velocitat
 highspeed_catenary
 Catenària
-modern_runway-extMrkLgt
-Il·luminació per a pista d'aterratge
-tramway_modern
-Catenària de tramvia
-trolleybus_catenary
-Catenària de troleibús
 wood_gantry_catenary
 Catenària antiga
+#____________________________way-object - tram_track____________________________
+#____________________________way-object - tram_track____________________________
+tramway_modern
+Catenària de tramvia

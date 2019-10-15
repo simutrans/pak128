@@ -9,13 +9,19 @@
 #                            Language: pt Portugues                            #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
+Schwebebahn_p_bridge
+Monotrilho (ponte)
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
 PowerBridge
 Travessia para linha de transmissão
+#________________________________bridge - track_________________________________
+#________________________________bridge - track_________________________________
 Rail_060_Bridge
 Ponte antiga de madeira para cargas leves
 Rail_060B_Bridge
@@ -36,112 +42,22 @@ Rail_160_Bridge
 Ponte de concreto para maior pista expressa
 Rail_180_Bridge
 Ponte de concreto para a faixa regionais
-Schwebebahn_p_bridge
-Monotrilho (ponte)
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
 water_bridge
 Canal elevado
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-Prefeitura
-01_CITY_1
-Prefeitura
-02_CITY
-Prefeitura
-02_CITY_1
-Prefeitura
-03_CITY
-Prefeitura
-03_CITY_1
-Prefeitura
-04_CITY
-Prefeitura
-04_CITY_1
-Prefeitura
-05_CITY
-Prefeitura
-05_CITY_1
-Prefeitura
-1920_AirDepot
-Hangar simples
-1930AirDepot
-Hangar de madeira
-1940AirDepot
-Hangar de cobertura metálica
-1950AirDepot
-Hangar de concreto
-1990AirDepot
-Hangar moderno
-ABBYS_0
-Mosteiro\n\nEste mosteiro é conhecido\npelos profundos poços de\nsuas duas torres. De\nacordo com a lenda, esses\npoços não têm fundo. É\nincrível o número de\npessoas que vêm aqui ver\nos poços mágicos. Moedas,\nque caem sobre estofados\na 50 metros poço abaixo,\nlevantaram o orçamento do\nmosteiro, o que permitiu aos\nmonges restaurar as ruinas.\n
-Airport1920_AirportBlg
-Sala de espera
-Airport1930PostOffice
-Posto de correio aéreo
-Airport1990_Big_AirportBlg
-Terminal
-Airport1990_Entrance_AirportBlg
-Portão de entrada
-Airport1990_Gates_AirportBlg
-Portaria
-Airport1990_PostOffice
-Correios
-Airport1990_Small_AirportBlg
-Sala de espera moderna
-Airport1990_Warehouse
-Terminal de cargas
-AirStop_AirportBlg
-Área de carregamento de aeronaves
-Almuthof_StationBlg
-Estação Interiorana
-Avila_Big_StationBlg
-Grande prédio de estação ferroviária
-Avila_Small_StationBlg
-Pequena estação
-Avila_Warehouse_StationBlg
-Estação de depósito
-big_classic_bus_stop
-Grande ponto de ônibus
-big_modern_bus_stop
-Grande Abrigo Modeno de Ônibus
-BigTerminal1950_AirportBlg_S
-Terminal aéreo (1950)
-Bulk_Dock
-Doca de granéis
-Bulk_StationBlg
-Estoque de granéis
-bus_terminus
-Moderno terminal de ônibus
-canal_ChannelStop
-Cais de canal
-Car_StationBlg
-Estacionamento
-CarDepot
-Garagem
 CarStop
 Área de carga
-CASTLE_0
-Este era o castelo do rei\nNapik. A maior parte dele foi\ndestruída durante uma\ngrande guerra, mas foi\nreconstruído no século 19 e\nagora guarda uma famosa\ncoleção de armaduras e\nespadas.\n
-CHURCH_02
-Igreja Rosa\n\nEssa estranha igreja foi\nconstruída por um famoso\nmonge maluco que, em\n1654, pintou toda a\nconstrução de rosa. Até\nhoje a igreja ainda brilha\ncomo uma luz que guia o\ncampo.\n
-CHURCH_03
-Igreja\n\nEsta igreja é famosa pelas\npinturas que estão em seu\ninterior, além de seu\nagradável entorno.\n\n
-CHURCH_04
-Sinagoga\n\nApesar de ter uma aparência um\ntanto árabe, trata-se de\numa sinagoga dirigida por\njudeus fiéis.\n\n
-CHURCH_05
-Igreja de São Miguel\n\nEsta jóia da arquitetura foi\nconstruída no final do\nséculo XIX. Chama atenção\no sua cobertura metálica,\nassinada por Alexander\nGustavus Eiffel.\n
-CHURCH_06
-Igreja da Vila\n\nUma igreja típica de cidade\npequena.\n\n
-CIRCUS_0
-Circo Humberto\n\nO famoso circo fez desta\ncidade seu destino final.\nSua clássica tenda foi\npreservada para conservar\na atmosfera original, mas\ncomo todos os artistas\ntrouxeram suas casas para\ncá, você pode acabar\nficando aqui e se tornando\num turista popular. O circo\nconta com o famoso\nJumbo, o elefante que se senta\na cada vez que ouve um sino\ntocar. Tome cuidado para não\ntocar o sino enquanto estiver\natrás de Jumbo, para não acabar\namassado.\n
-CIVILIAN_RADAR
-Rádio-observatório\n\nAqui, de uma certa maneira,\nfazem como disse o poeta:\nouvem estrelas! Neste\nlugar se captam as\nemissões eletromagnéticas\ndo espaço, notadamente\nondas de rádio. Pode ser aí\nque descubram se há\nalguma forma de vida\nextraterrestre.\n
-classic_mailbox
-Caixa de correio
-ClosedTrainStop
-Plataforma coberta
-CoalTrainStop
-Estação de carvão
+MonorailGround
+Sustentação de via elevada
+ShipStop
+Dock
+TrainStop
+Estação ferroviária com cobertura
+#________________________________building - com_________________________________
+#________________________________building - com_________________________________
 COM_00_01
 Este é o jardim de infância,\nonde as crianças pequenas\npodem brincar e dormir\nenquanto seus pais estão\ntrabalhando. Embora às\nvezes se possa ouvir o\nberro de crianças, este é\num lugar realmente\nagradável e pleno de risos\ne sonhos. Também se\nensinam as primeiras letras\ne noções de matemática.\n
 COM_00_02
@@ -222,58 +138,38 @@ COM_05_04
 Esta pequena loja vende\nbicicletas e acessórios\ndesportivos. Este é o lugar\nque deverás visitar antes\nde entrar nalgum torneio.\n\n
 COM_06_14
 A JC Rações é na cidade o\nmelhor lugar para adquirir\nsuprimentos para seu\ncavalo. Na frente está o\nmesmo vagão que trouxe os\nantepassados de JC\nquando eles se\nestabeleceram aqui há mais\nde duzentos anos.\n
-Container1TrainStop
-Estação para contêineres
-Container2TrainStop
-Estação moderna para contêineres
-Control_StationBlg
-Torre de Controle de Tráfego
-Crate_Goods_Dock
-Termianal de contêineres
-CunnersdorfStopBlg
-Pequena Parada de Trens
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+Mosteiro\n\nEste mosteiro é conhecido\npelos profundos poços de\nsuas duas torres. De\nacordo com a lenda, esses\npoços não têm fundo. É\nincrível o número de\npessoas que vêm aqui ver\nos poços mágicos. Moedas,\nque caem sobre estofados\na 50 metros poço abaixo,\nlevantaram o orçamento do\nmosteiro, o que permitiu aos\nmonges restaurar as ruinas.\n
+CASTLE_0
+Este era o castelo do rei\nNapik. A maior parte dele foi\ndestruída durante uma\ngrande guerra, mas foi\nreconstruído no século 19 e\nagora guarda uma famosa\ncoleção de armaduras e\nespadas.\n
+CHURCH_02
+Igreja Rosa\n\nEssa estranha igreja foi\nconstruída por um famoso\nmonge maluco que, em\n1654, pintou toda a\nconstrução de rosa. Até\nhoje a igreja ainda brilha\ncomo uma luz que guia o\ncampo.\n
+CHURCH_03
+Igreja\n\nEsta igreja é famosa pelas\npinturas que estão em seu\ninterior, além de seu\nagradável entorno.\n\n
+CHURCH_04
+Sinagoga\n\nApesar de ter uma aparência um\ntanto árabe, trata-se de\numa sinagoga dirigida por\njudeus fiéis.\n\n
+CHURCH_05
+Igreja de São Miguel\n\nEsta jóia da arquitetura foi\nconstruída no final do\nséculo XIX. Chama atenção\no sua cobertura metálica,\nassinada por Alexander\nGustavus Eiffel.\n
+CHURCH_06
+Igreja da Vila\n\nUma igreja típica de cidade\npequena.\n\n
+CIRCUS_0
+Circo Humberto\n\nO famoso circo fez desta\ncidade seu destino final.\nSua clássica tenda foi\npreservada para conservar\na atmosfera original, mas\ncomo todos os artistas\ntrouxeram suas casas para\ncá, você pode acabar\nficando aqui e se tornando\num turista popular. O circo\nconta com o famoso\nJumbo, o elefante que se senta\na cada vez que ouve um sino\ntocar. Tome cuidado para não\ntocar o sino enquanto estiver\natrás de Jumbo, para não acabar\namassado.\n
+CIVILIAN_RADAR
+Rádio-observatório\n\nAqui, de uma certa maneira,\nfazem como disse o poeta:\nouvem estrelas! Neste\nlugar se captam as\nemissões eletromagnéticas\ndo espaço, notadamente\nondas de rádio. Pode ser aí\nque descubram se há\nalguma forma de vida\nextraterrestre.\n
 CUR_01_128_JH
 Este edifício,\nchamado "Atomium",\nfoi construído para\nalgum tipo de\nexposição. Mas minguém\nmais lembra que\nexposição era. Assim\nele foi convertido em um\nrestaurante de luxo. A vista da\nbola mais alta é magnífica, e uma\nmesa lá deve ser reservada com\nduas semanas de antecedência,\npelo menos.\n\n
-DenkFlor
-Monumento a Flor 'WF Ultd.' Wauters.\n\nEsse famoso engenheiro criou\nmuitos veículos ferroviários\ne rodoviários. Também é bem\nreputado por projetar\nfábricas de alto\ndesempenho. \n
-DenkGeorg
-Monumento 'Obrigado MHz!'\n\nEste monumento é dedicado\nao famoso arquiteto Georg,\ntambém conhecido como\ncomo MHz, que projetou\nmuitos edifícios ao redor\ndo mundo. Ele também\nprojetou alguns veículos\nexcepcionais.\n
-DenkHajo
-Este monumento é dedicado\na Hansjörg Malthaner. Ele\ndesenvolveu esse jogo\ndurante sete anos. Sem\nseu esforço e sacrifício,\neste jogo não seria\npssível. Por favor, não\nignore seus esforços, pare\num momento para que ele\ndsaiba que seu trabalho\nnão foi em vão, que seu\njogo continua sendo\njogado. Envie-lhe um cartão\npostal endereçado a:\nHansjörg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart\nGermany\n
-DenkOwen
-Monumento a Owen Rudge\n\nEste lugar é dedicado a Owen\nRudge, famoso financista e\ntécnico de som.\n\n
-DenkPatrick
-Monumento a Patrick Nesbitt\n\nEste monumento é dedicado a\nPatrick Nesbitt, que ajudou\na fazer muitos edifícios e\nveículos para o SimuTrans.\n\n
-DenkRaven
-Monumento a Raven\n\nRaven é um grande projetista de\nveículos, notadamente\nferroviários. Não obstante,\ntambém cria edifícios muito\nbelos, embelezando as\ncidades. \n
-DenkSeth
-Este lugar é dedicado\na Seth C. Triggs, o\nfamoso arquiteto que\nprojetou tantos belos\nedifícios. Também é bem\nreputado pela\nrealização de vários \nestudos para a melhoria dos\nsistemas de tráfego.\n\n
-DenkTomas
-Este monumento é\ndedicado a Tomas\nKubes, que ajudou a\nincrementar o\nSimutrans em\nmuitíssimos aspectos,\ncom sugestões e muito trabalho\n\n
-DenkTrikky
-Este monumento é\ndedicado a 'Trikky'\nRick McGreal o\nfamoso arquiteto que\nprojetou tantos\nedifícios\nimpressionantes.\n\n
-DenkVM
-Este monumento é\ndedicado a Manfred\n'VT Vienna'\nTomaschitz, o famoso\nengenheiro que\nprojetou tantos\nveículos ferroviários de\nalto nível.\n\n
-DenkVolker
-Este "Stupa" foi\nconstruído por Volker\nMeyer que\ndesenvolveu\nSimutrans em\ndiversas áreas.\n\n
 ELEMENTARY_SCHOOL_1
 Escola Fundamental\n\nNeste lugar as crianças obtêm\nsua primeira educação.\nMatemática, línguas,\nhistória e ciências são das\nmatérias menos atrativas\naos pequenos. Eles\npreferem pintar e cantar.\nComo eles não podem\ndirigir, a escola atrai muitos\npassageiros para ela. Mas\ntambém não é bom pôr\nônibus de luxo para servi-la.\n
 ELEMENTARY_SCHOOL_2
 Escola Fundamental\n\nAqui as aulas começam às 9\nda manhã e terminam ao\nmeio dia, mas há aulas aos\nsábados e domingos. Isto\nestá trazendo problemas\ncom as autoridades, porém\npelo tamanho da escola, os\npais devem estar gostando.\n
 Firestation
 Bombeiros\n\nAqui fica a sede do\ncorpo de bombeiros\nda cidade. Tem\ncaminhões, bombeiros\ne ambulância. Só que\nesta está aqui apenas\ntemporariamente, até\nque vá para o seu lugar correto.\n\n
-Fluid_StationBlg
-Armazenamento de Fluidos
 FORT_FUN
 Forte\n\nEste forte é um parque de\ndiversões que relembra os\nfilmes de faroeste.\n\n
-FreightTrainStop
-Estação de carga\n
 FUTURISTIC_TOWER_0
 Torre Futurista\n\nEsta torre oferece uma bela\nvista dos arredores. Na\ncobertura há um bar, onde\nvocê pode tomar um drinque\npara melhor apreciá-la.\nEmbora os preços não\nsejam tão baixos, esta\ntorre atrai muitos\nvisitantes.\n
-Gas_StationBlg
-Armazenamento de Combustíveis
-Goods_StationBlg
-Armazém Geral
 GRASS_STADIUM
 Estádio Municipal\n\nEste estádio é um\nexcelente lugar para\ncorrer e jogar futebol.\nFrequentemente se vêem\npessoas sentadas\nnos bancos tomando\num ar, enquanto vêem\nseus companheiros de esporte\npraticando.\n\n
 GREEN_HOUSE
@@ -282,10 +178,174 @@ HIGH_SCHOOL_1
 Escola de ensino\nmédio - neste lugar os\njovens continuam\nsua educação. Embora\napenas matérias\ncientíficas sejam\noficialmente\nensinadas, os estudantes vão\nlembrar de outras coisas que\naprendem aqui, como Comunicação e\nRelações Humanas, entre outras\ncoisas...\n\n
 HOUSE_RUINS_0
 Ruínas de uma Casa\n\nEsta foi a casa do prefeito de\numa cidade que já não\nexiste. Historiadores vêm\naqui para estudar o\npassado, e turistas vêm ver\nas peças encenadas sob a\nárvore, no exterior.\n
+JUSTICE
+Tribunal de Justiça\n\nAqui são realizados muitos\njulgamentos por dia. Há\nadvogados entrando e\nsaindo a todo momento.\n\n
+Lighthouse_0
+Farol\n\nDesde que os faróis foram\nimplantados, os mares se\ntornaram mais seguros e\nfáceis de navegar. Há\nmuitas pessoas que\ndesejam visitar esse aqui e\nver as ondas baterem no\nparapeito.\n
+Lighthouse_1
+Farol\n\nDesde que os faróis foram\nimplantados, os mares se\ntornaram mais seguros e\nfáceis de navegar. Esse\ntem uma forma um tanto\nestranha, mas nenhum\nmarinheiro reclamou.\n
+MANOR_0
+Este belo palácio\nrenascentista tem um\napassado muito\ninteressante. Hoje é a\ncasa de um executivo\nde sucesso. Ele,\nentretanto, abre boa\nparte de sua casa para exposições\npúblicas sobre arte e história. Embora\npareça chato, as exposições\nsão, na\nverdade, muito interessantes. Por\nisso, o palácio fica cheio de\nvisitantes todos os dias.\n\n
+MARKET_PLACE_0
+Feira\n\nA feira da cidade é um lugar\nagrádavel para passar a\ntarde com a família. As\ncrianças podem comprar\ndoces especiais e assistir\na velhos artesãos\ntrabalhar, as mulheres\npodem vasculhar as\nbarracas, e os homens\npodem se sentar na\ncervejaria para tomar uma\ncerveja geladinha.\n
+MILITARY_RADAR
+Radar Militar\n\nEste lugar é um equipamento\nmilitar sigilos. Por favor,\nfeche a janela, ou será\nsubmetido a um tribunal\nmilitar por espionagem.\n\n
+MT_HOTEL_0
+Este hotel é muito\nfamoso. Os quartos\nsão muito caros, mas\ntodos ainda estão\ntentando se\nhospedar nele ou,\npelo menos, fazer\numa refeição em seu restaurante.\n\n
+MUSEUM_0
+Museu de Ciência\n\nEssa construção era um\ncastelo, que depois se\ntransformou num palácio e\nrecentemente se converteu\nnum museu de ciência e\ntecnologia. Você pode ver\naí modelos de veículos\nantigos, aprender sobre\navanços da física ou\nassistir a muitos\nseminários.\n
+OBSERVATORY
+Observatório\n\nMuitas descobertas\nimportantes foram feitas\nnesse observatório. À noite,\nos astrônomos trabalham\nem suas pesquisas,\nenquanto de dia pessoas\ncomuns podem visitar o\nobservatório. Há muitos\nrecursos multimídia, que\nsão feitos de maneira muito\nagradável e didática, o que\nfaz com que os habitantes da\nregião freqüentem-no muito.\n
+OLD_HOUSE_0
+Museu\n\nEsta casa de estilos\ngótico e renascentista\nfoi transformada num\nmuseu de arquitetura\nantiga recentemente.\nAqui se guradam\nquadros e figuras\nmostrando construções do passado.\nA mostra permanente é bastante\ninteressante, e por isso o museu\nfica cheio quase todos os\ndias. \n\n
+Pagoda01
+Pagode\n\nEsse pagode foi construído por\nmonges budistas que\nvieram buscar novos\nlugares para meditar e\npassar sua mensagem de\npaz.\n
+PARK_0
+Parque com lago\n\nEste parque é um lugar onde\nas pessoas cansadas vão\npara relaxar, brincando ou\nsimplesmente sentando\nnos bancos. O povo das\nredondezas não o troca por\nnada.\n
+RADIO_TOWER_0
+Rádio Chit-Chat FM\n\nUm bom número de pessoas\ndesejam vir aqui, porque\nprometem que o visitante\npode entrar no ar entre\n1h30 e 2h30 da tarde,\ntodos os dias.\n
+rmax_clock_tower
+Torre do relógio  \n  \nEsta torre do relógio tem uma\narquitetura estranha.\nAlguns pensam que foi\ninspirado pela Torre das\nruínas de Fabel mas\nrealmente é um recente\nedifício e seu relógio é um\ndos mais precisos no\nSimuworld inteiro.\n
+rmax_courthouse
+Tribunal de Justiça\n\n
+rmax_icarus
+Base Espacial\n\nNesta base espacial são\nlançados os foguetes que\nlançam os satélites que\npermitem que as\ncomunicações no SiMundo\nsejam tão rápidas, aliás, em\ntempo real, de maneira que\nse saiba o tempo todo a\nreal situação de cada\nveículo e de cada estação\nou parada.\n
+rmax_mosque
+Mesquita de Al-Salaam\n\nSempre que os muezins cantam\nnos minaretes da mesquita,\nos Simuthaners muçulmanos\nparam o que estiverem\nfazendo para orar.\nAl-Salaam é um dos 99\nnomes de Allah, ou Deus em\nárabe, que quer dizer "Paz"\nou "A Paz".\n
+RUIN_1
+Esta é a ruína de um\ncastelo muito\nfamoso. Muitos\ncapítulos da história\nforam escritos aqui.\nPor isso ele é um ímã\npara turistas de todo\no mundo. Todo o mundo\nquer vê-lo.\nE tem lá o seu toque de romantismo,\nnão?\n\n
+Russian_Cathedral
+Catedral de São Basílio\n\n
+sh_oasis_seasons
+Oásis\n\nUm oásis é um local no meio\ndo deserto onde as\ncondições para a vida são\nmais favoráveis. Qualquer\nforma de vida vagando pelo\ndeserto deseja chegar o\nquanto antes a um desses\nlocais para matar a sede e\npoder descansar sob a\nsombra das palmeiras.\n
+SMALL_MANOR
+Palacete\n\nEste palacete foi um dia a\nmorada de um fidalgo.\nDepois que morreu, o\npalacete ficou abandonado.\nNo início do século, foi\ndescoberto que aí havia\numa grande coleção de arte,\nem bom estado. Hoje o\npalacete é um museu\naberto ao público, que pode\nadmirar belas obras a baixo\ncusto. Muitas escolas trazem\nseus alunos para conhecê-lo.\n
+st_benedict_church
+Igreja de São Bento\n\nEsta igreja é uma das mais\nbonitas do SiMundo. Muitos\nturistas vêm visitá-la,\nenqunto outros vêm para\norar. Em seu interior há\nmuitas pinturas sacras de\nvalor inestimável, que nem\nvisitantes nem fiéis deixam\nde apreciar.\n
+TRIUMPH
+Arco do Triunfo \n\n
+TV_TOWER_0
+Torre de TV\n\nA televisão local transmite\ndaqui. Além disso permite\numa visão ampla da cidade,\no que proporciona notícias\nimportantes sobre ela. \n\n
+TV_TOWER_1
+Torre de TV\n\n
+WHEEL
+Roda Gigante\n\nEsta roda gigante já rodou\nbastante, mas há tempos\nestá neste local. Do seu alto\ntem-se uma vista muito\nbonita.\n\n
+Windmill
+Moinho de vento\n\n
+WOODEN_CHURCH
+Igreja Protestante,\nconstruída por imigrantes\nalemães\n\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
+1920_AirDepot
+Hangar simples
+1930AirDepot
+Hangar de madeira
+1940AirDepot
+Hangar de cobertura metálica
+1950AirDepot
+Hangar de concreto
+1990AirDepot
+Hangar moderno
+CarDepot
+Garagem
+MonorailDepot
+Depósito ferroviário elevado
+ShipDepot
+Estaleiro\n
+TrainDepot
+Depósito ferroviário
+TramDepot
+Depósito de bondes
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
+Airport1920_AirportBlg
+Sala de espera
+Airport1930PostOffice
+Posto de correio aéreo
+Airport1990_Big_AirportBlg
+Terminal
+Airport1990_Entrance_AirportBlg
+Portão de entrada
+Airport1990_Gates_AirportBlg
+Portaria
+Airport1990_PostOffice
+Correios
+Airport1990_Small_AirportBlg
+Sala de espera moderna
+Airport1990_Warehouse
+Terminal de cargas
+Almuthof_StationBlg
+Estação Interiorana
+Avila_Big_StationBlg
+Grande prédio de estação ferroviária
+Avila_Small_StationBlg
+Pequena estação
+Avila_Warehouse_StationBlg
+Estação de depósito
+BigTerminal1950_AirportBlg_S
+Terminal aéreo (1950)
+Bulk_StationBlg
+Estoque de granéis
+Car_StationBlg
+Estacionamento
+Control_StationBlg
+Torre de Controle de Tráfego
+CunnersdorfStopBlg
+Pequena Parada de Trens
+Fluid_StationBlg
+Armazenamento de Fluidos
+Gas_StationBlg
+Armazenamento de Combustíveis
+Goods_StationBlg
+Armazém Geral
+LuftPost1950_AirportBlg
+Terminal aéreo de carga postal
+Modern_Warehouse
+Armazém moderno
+ModernPostOffice
+Agência Moderna de Correios
+MonorailFoundation
+Sustentação de via elevada
+PostOffice
+Agência postal
+PostOffice1920_AirportBlg
+Depósito de carga postal aérea
+Radar3
+Radar
+Terminal1930_AirportBlg
+Terminal de passageiros (1930)
+Terminal1950_AirportBlg_S
+Terminal de passageiros (1950)
+Tower1920_AirportBlg
+Torre de vigia de vôo
+Tower1930_AirportBlg
+Torre de controle
+Tower1950_AirportBlg
+Torre de controle (1950)
+Tower1990_AirportBlg
+Torre de controle moderna
+Very_Big_Terminal
+Terminal de passageiros gigante
+VictorianStation
+Estação vitoriana
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+Doca de granéis
+Crate_Goods_Dock
+Termianal de contêineres
+Long_Goods_Dock
+Grande doca para cargas
+Post_Dock
+Doca postal
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
 HQ1
 Escritório Central
 HQ2
 Quartel-General
+#________________________________building - ind_________________________________
+#________________________________building - ind_________________________________
 IND_00_01
 Só mesmo no alto de uma\ncolina para uma serralheria\nnão atrapalhar os vizinhos.\nSe você precisar de madeira\ncortada sem ter que ouvi-la\nser serrada, é só trazê-la\naqui que eles cortam tudo\npor um preço camarada.\n
 IND_00_05
@@ -308,70 +368,36 @@ IND_00_18
 Embora o prédio pareça\nabandonado, aqui na\nverdade funciona uma\noutra empresa lucrativa.\nMas ninguém sabe o que é\narmazenado no tanque\nverde ao alto, além do dono\nda outra empresa instalada\nnum edifício igualzinho a\nesse.\n
 IND_00_20
 Mais outra fábrica de napa\ncom textura de mármore\ncinza. Porém aqui produzem\noutros tipos de napa,\ninclusive lonas de\ncaminhão, que não passam\nde uma versão mais grossa\nda napa comum. É possível\nver vários caminhões por aí\ncom suas cargas cobertas\ncom a lona saída daqui.\n
-JUSTICE
-Tribunal de Justiça\n\nAqui são realizados muitos\njulgamentos por dia. Há\nadvogados entrando e\nsaindo a todo momento.\n\n
-Lighthouse_0
-Farol\n\nDesde que os faróis foram\nimplantados, os mares se\ntornaram mais seguros e\nfáceis de navegar. Há\nmuitas pessoas que\ndesejam visitar esse aqui e\nver as ondas baterem no\nparapeito.\n
-Lighthouse_1
-Farol\n\nDesde que os faróis foram\nimplantados, os mares se\ntornaram mais seguros e\nfáceis de navegar. Esse\ntem uma forma um tanto\nestranha, mas nenhum\nmarinheiro reclamou.\n
-Long_Goods_Dock
-Grande doca para cargas
-LuftPost1950_AirportBlg
-Terminal aéreo de carga postal
-MANOR_0
-Este belo palácio\nrenascentista tem um\napassado muito\ninteressante. Hoje é a\ncasa de um executivo\nde sucesso. Ele,\nentretanto, abre boa\nparte de sua casa para exposições\npúblicas sobre arte e história. Embora\npareça chato, as exposições\nsão, na\nverdade, muito interessantes. Por\nisso, o palácio fica cheio de\nvisitantes todos os dias.\n\n
-MARKET_PLACE_0
-Feira\n\nA feira da cidade é um lugar\nagrádavel para passar a\ntarde com a família. As\ncrianças podem comprar\ndoces especiais e assistir\na velhos artesãos\ntrabalhar, as mulheres\npodem vasculhar as\nbarracas, e os homens\npodem se sentar na\ncervejaria para tomar uma\ncerveja geladinha.\n
-medium_classic_bus_stop
-Parada de ônibus
-medium_early_bus_stop
-Parada de ônibus antigo
-medium_modern_bus_stop
-Moderno Abrigo de Ônibus
-MILITARY_RADAR
-Radar Militar\n\nEste lugar é um equipamento\nmilitar sigilos. Por favor,\nfeche a janela, ou será\nsubmetido a um tribunal\nmilitar por espionagem.\n\n
-Modern_Warehouse
-Armazém moderno
-ModernPostOffice
-Agência Moderna de Correios
-ModernTrainStop
-Moderna Estação de Trens
-MonorailDepot
-Depósito ferroviário elevado
-MonorailFoundation
-Sustentação de via elevada
-MonorailGround
-Sustentação de via elevada
-MT_HOTEL_0
-Este hotel é muito\nfamoso. Os quartos\nsão muito caros, mas\ntodos ainda estão\ntentando se\nhospedar nele ou,\npelo menos, fazer\numa refeição em seu restaurante.\n\n
-MUSEUM_0
-Museu de Ciência\n\nEssa construção era um\ncastelo, que depois se\ntransformou num palácio e\nrecentemente se converteu\nnum museu de ciência e\ntecnologia. Você pode ver\naí modelos de veículos\nantigos, aprender sobre\navanços da física ou\nassistir a muitos\nseminários.\n
-OBSERVATORY
-Observatório\n\nMuitas descobertas\nimportantes foram feitas\nnesse observatório. À noite,\nos astrônomos trabalham\nem suas pesquisas,\nenquanto de dia pessoas\ncomuns podem visitar o\nobservatório. Há muitos\nrecursos multimídia, que\nsão feitos de maneira muito\nagradável e didática, o que\nfaz com que os habitantes da\nregião freqüentem-no muito.\n
-OLD_HOUSE_0
-Museu\n\nEsta casa de estilos\ngótico e renascentista\nfoi transformada num\nmuseu de arquitetura\nantiga recentemente.\nAqui se guradam\nquadros e figuras\nmostrando construções do passado.\nA mostra permanente é bastante\ninteressante, e por isso o museu\nfica cheio quase todos os\ndias. \n\n
-OpenTrainStop
-Plataforma simples
-Pagoda01
-Pagode\n\nEsse pagode foi construído por\nmonges budistas que\nvieram buscar novos\nlugares para meditar e\npassar sua mensagem de\npaz.\n
-PARK_0
-Parque com lago\n\nEste parque é um lugar onde\nas pessoas cansadas vão\npara relaxar, brincando ou\nsimplesmente sentando\nnos bancos. O povo das\nredondezas não o troca por\nnada.\n
-parking_(catchemnt_area_ext)1
-Estacionamento 
-parking_(catchemnt_area_ext)2
-Estacionamento
-parking_(catchemnt_area_ext)3
-Estacionamento
-Post_Dock
-Doca postal
-PostOffice
-Agência postal
-PostOffice1920_AirportBlg
-Depósito de carga postal aérea
-Radar3
-Radar
-RADIO_TOWER_0
-Rádio Chit-Chat FM\n\nUm bom número de pessoas\ndesejam vir aqui, porque\nprometem que o visitante\npode entrar no ar entre\n1h30 e 2h30 da tarde,\ntodos os dias.\n
+#________________________________building - mon_________________________________
+#________________________________building - mon_________________________________
+DenkFlor
+Monumento a Flor 'WF Ultd.' Wauters.\n\nEsse famoso engenheiro criou\nmuitos veículos ferroviários\ne rodoviários. Também é bem\nreputado por projetar\nfábricas de alto\ndesempenho. \n
+DenkGeorg
+Monumento 'Obrigado MHz!'\n\nEste monumento é dedicado\nao famoso arquiteto Georg,\ntambém conhecido como\ncomo MHz, que projetou\nmuitos edifícios ao redor\ndo mundo. Ele também\nprojetou alguns veículos\nexcepcionais.\n
+DenkHajo
+Este monumento é dedicado\na Hansjörg Malthaner. Ele\ndesenvolveu esse jogo\ndurante sete anos. Sem\nseu esforço e sacrifício,\neste jogo não seria\npssível. Por favor, não\nignore seus esforços, pare\num momento para que ele\ndsaiba que seu trabalho\nnão foi em vão, que seu\njogo continua sendo\njogado. Envie-lhe um cartão\npostal endereçado a:\nHansjörg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart\nGermany\n
+DenkOwen
+Monumento a Owen Rudge\n\nEste lugar é dedicado a Owen\nRudge, famoso financista e\ntécnico de som.\n\n
+DenkPatrick
+Monumento a Patrick Nesbitt\n\nEste monumento é dedicado a\nPatrick Nesbitt, que ajudou\na fazer muitos edifícios e\nveículos para o SimuTrans.\n\n
+DenkRaven
+Monumento a Raven\n\nRaven é um grande projetista de\nveículos, notadamente\nferroviários. Não obstante,\ntambém cria edifícios muito\nbelos, embelezando as\ncidades. \n
+DenkSeth
+Este lugar é dedicado\na Seth C. Triggs, o\nfamoso arquiteto que\nprojetou tantos belos\nedifícios. Também é bem\nreputado pela\nrealização de vários \nestudos para a melhoria dos\nsistemas de tráfego.\n\n
+DenkTomas
+Este monumento é\ndedicado a Tomas\nKubes, que ajudou a\nincrementar o\nSimutrans em\nmuitíssimos aspectos,\ncom sugestões e muito trabalho\n\n
+DenkTrikky
+Este monumento é\ndedicado a 'Trikky'\nRick McGreal o\nfamoso arquiteto que\nprojetou tantos\nedifícios\nimpressionantes.\n\n
+DenkVM
+Este monumento é\ndedicado a Manfred\n'VT Vienna'\nTomaschitz, o famoso\nengenheiro que\nprojetou tantos\nveículos ferroviários de\nalto nível.\n\n
+DenkVolker
+Este "Stupa" foi\nconstruído por Volker\nMeyer que\ndesenvolveu\nSimutrans em\ndiversas áreas.\n\n
+rmax_DenkManualTeam
+Tocha Luminosa\n\nEste monumento, com sua\ntocha permanentemente\nacesa, é uma homenagem\nàqueles que escrevem e\nmantêm as ajudas internas,\nos manuais e o Wiki, e\nàqueles que de alguma\nmaneira iluminam os\nmistérios desse incrível\njogo que é o Simutrans.\n
+rmax_fabio_bust
+Busto de Fagonellus\nRomanus\n\n
+#________________________________building - res_________________________________
+#________________________________building - res_________________________________
 RES_00_02
 Pequena casa encontrável\nnas periferias da cidade.\nUm casal de idosos mora\naqui. A vizinhança é bem\nsossegada, bom lugar para\naproveitar os benefícios da\nterceira idade. No jardim,\nplantam algumas verduras\npara economizar um\ndinheirinho.\n
 RES_00_03
@@ -404,72 +430,74 @@ RES_11_46
 Esta maravilha da\narquitetura parece mais um\nmonumento do que um\nprédio de apartamentos. Os\ncondôminos adoram morar\naí por causa do prestígio\nque dá morar em um edifício\ntão famoso.\n
 RES_11_47
 As pessoas que moram\nnesse prédio são tão\nsistemáticas que não ha\nmuito o que dizer sobre\nelas. Todas trabalham das\n8 às 17h, vão trabalhar no\nmesmo ônibus, têm os\nmesmos passatempos: ler e\nver TV. Desnecessário dizer\nque depois de morar tantos\nanos no mesmo edifício,\nninguém identificaria um\noutro morador, mesmo se suas\nvidas dependessem disso.\n
-rmax_clock_tower
-Torre do relógio  \n  \nEsta torre do relógio tem uma\narquitetura estranha.\nAlguns pensam que foi\ninspirado pela Torre das\nruínas de Fabel mas\nrealmente é um recente\nedifício e seu relógio é um\ndos mais precisos no\nSimuworld inteiro.\n
-rmax_courthouse
-Tribunal de Justiça\n\n
-rmax_DenkManualTeam
-Tocha Luminosa\n\nEste monumento, com sua\ntocha permanentemente\nacesa, é uma homenagem\nàqueles que escrevem e\nmantêm as ajudas internas,\nos manuais e o Wiki, e\nàqueles que de alguma\nmaneira iluminam os\nmistérios desse incrível\njogo que é o Simutrans.\n
-rmax_fabio_bust
-Busto de Fagonellus\nRomanus\n\n
-rmax_icarus
-Base Espacial\n\nNesta base espacial são\nlançados os foguetes que\nlançam os satélites que\npermitem que as\ncomunicações no SiMundo\nsejam tão rápidas, aliás, em\ntempo real, de maneira que\nse saiba o tempo todo a\nreal situação de cada\nveículo e de cada estação\nou parada.\n
-rmax_mosque
-Mesquita de Al-Salaam\n\nSempre que os muezins cantam\nnos minaretes da mesquita,\nos Simuthaners muçulmanos\nparam o que estiverem\nfazendo para orar.\nAl-Salaam é um dos 99\nnomes de Allah, ou Deus em\nárabe, que quer dizer "Paz"\nou "A Paz".\n
-RUIN_1
-Esta é a ruína de um\ncastelo muito\nfamoso. Muitos\ncapítulos da história\nforam escritos aqui.\nPor isso ele é um ímã\npara turistas de todo\no mundo. Todo o mundo\nquer vê-lo.\nE tem lá o seu toque de romantismo,\nnão?\n\n
-Russian_Cathedral
-Catedral de São Basílio\n\n
-sh_oasis_seasons
-Oásis\n\nUm oásis é um local no meio\ndo deserto onde as\ncondições para a vida são\nmais favoráveis. Qualquer\nforma de vida vagando pelo\ndeserto deseja chegar o\nquanto antes a um desses\nlocais para matar a sede e\npoder descansar sob a\nsombra das palmeiras.\n
-ShipDepot
-Estaleiro\n
-ShipStop
-Dock
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+Área de carregamento de aeronaves
+big_classic_bus_stop
+Grande ponto de ônibus
+big_modern_bus_stop
+Grande Abrigo Modeno de Ônibus
+bus_terminus
+Moderno terminal de ônibus
+canal_ChannelStop
+Cais de canal
+classic_mailbox
+Caixa de correio
+ClosedTrainStop
+Plataforma coberta
+CoalTrainStop
+Estação de carvão
+Container1TrainStop
+Estação para contêineres
+Container2TrainStop
+Estação moderna para contêineres
+FreightTrainStop
+Estação de carga\n
+medium_classic_bus_stop
+Parada de ônibus
+medium_early_bus_stop
+Parada de ônibus antigo
+medium_modern_bus_stop
+Moderno Abrigo de Ônibus
+ModernTrainStop
+Moderna Estação de Trens
+OpenTrainStop
+Plataforma simples
+parking_(catchemnt_area_ext)1
+Estacionamento 
+parking_(catchemnt_area_ext)2
+Estacionamento
+parking_(catchemnt_area_ext)3
+Estacionamento
 small_classic_bus_stop
 Parada de ônibus
-SMALL_MANOR
-Palacete\n\nEste palacete foi um dia a\nmorada de um fidalgo.\nDepois que morreu, o\npalacete ficou abandonado.\nNo início do século, foi\ndescoberto que aí havia\numa grande coleção de arte,\nem bom estado. Hoje o\npalacete é um museu\naberto ao público, que pode\nadmirar belas obras a baixo\ncusto. Muitas escolas trazem\nseus alunos para conhecê-lo.\n
-st_benedict_church
-Igreja de São Bento\n\nEsta igreja é uma das mais\nbonitas do SiMundo. Muitos\nturistas vêm visitá-la,\nenqunto outros vêm para\norar. Em seu interior há\nmuitas pinturas sacras de\nvalor inestimável, que nem\nvisitantes nem fiéis deixam\nde apreciar.\n
 Suspended_Monorail_Bahnhof_Modern
 Estação suspensa
-Terminal1930_AirportBlg
-Terminal de passageiros (1930)
-Terminal1950_AirportBlg_S
-Terminal de passageiros (1950)
-Tower1920_AirportBlg
-Torre de vigia de vôo
-Tower1930_AirportBlg
-Torre de controle
-Tower1950_AirportBlg
-Torre de controle (1950)
-Tower1990_AirportBlg
-Torre de controle moderna
-TrainDepot
-Depósito ferroviário
-TrainStop
-Estação ferroviária com cobertura
-TramDepot
-Depósito de bondes
-TRIUMPH
-Arco do Triunfo \n\n
-TV_TOWER_0
-Torre de TV\n\nA televisão local transmite\ndaqui. Além disso permite\numa visão ampla da cidade,\no que proporciona notícias\nimportantes sobre ela. \n\n
-TV_TOWER_1
-Torre de TV\n\n
-Very_Big_Terminal
-Terminal de passageiros gigante
-VictorianStation
-Estação vitoriana
 VillageTrainStop
 Pequena Parada de Trens
-WHEEL
-Roda Gigante\n\nEsta roda gigante já rodou\nbastante, mas há tempos\nestá neste local. Do seu alto\ntem-se uma vista muito\nbonita.\n\n
-Windmill
-Moinho de vento\n\n
-WOODEN_CHURCH
-Igreja Protestante,\nconstruída por imigrantes\nalemães\n\n
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+Prefeitura
+01_CITY_1
+Prefeitura
+02_CITY
+Prefeitura
+02_CITY_1
+Prefeitura
+03_CITY
+Prefeitura
+03_CITY_1
+Prefeitura
+04_CITY
+Prefeitura
+04_CITY_1
+Prefeitura
+05_CITY
+Prefeitura
+05_CITY_1
+Prefeitura
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -698,12 +726,20 @@ CATEGORY_07
 tecidos
 Monoraildepot
 Depósito ferroviário elevado
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
 air_one-way
 Sentido único
 airport_oneway
 Sinal de Sentido Único (pista de pouso)
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+choose_signal_monorail
+Sinal de Escolha de Plataforma de Monotrilho
+Signal_Monorail
+Sinal (monotrilho)
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 Acesso à via expressa
 autobahn_classic_exit
@@ -714,38 +750,36 @@ autobahn_modern_exit
 Fim da via expressa
 choose_point
 Sinal de direção
-choose_signal_monorail
-Sinal de Escolha de Plataforma de Monotrilho
+Minimum80
+Vel. mínima de 80 km/h
+NoEntry
+Sentido Proibido
+RoadClosed
+Bloqueio
+traffic_light
+Semáforo
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
 ChooseSignals
 Sinal de Escolha de Plataforma
 Classic_ChooseSignals_right
 Sinal Clássico de Escolha de Plataforma (à direita)
 Classic_LongSignals_right
 Sinal Longo Clássico (à direita)
-Minimum80
-Vel. mínima de 80 km/h
-NoEntry
-Sentido Proibido
 OneWaySignals
 Sentido único (tipo padrão)
 preSignals
 Sinal intermediário
-RoadClosed
-Bloqueio
-Signal_Monorail
-Sinal (monotrilho)
 Signals
 Sinais
-traffic_light
-Semáforo
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 tree100
 Abeto da montanha\n\n
 tree110
 Abeto da montanha\n\n
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
+#________________________________tunnel - track_________________________________
+#________________________________tunnel - track_________________________________
 Rail_080_Tunnel
 Túnel para ferrovia de madeira
 Rail_080B_Tunnel
@@ -760,42 +794,12 @@ Rail_140_Tunnel
 Túnel pista expressa
 Rail_160_Tunnel
 Túnel pista expressa reforçada
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-1Benst134
-Bennhardt B-134 "Pixie"
-1Benst135t
-Bennhardt B-135 "Gremlin"
-1Benst138
-Bennhardt B-138 "Apple pie"
-1Benst162t
-Bennhardt B-162 "Jet"
-1Benst238
-Bennhardt B-238 "Frog"
-1Dampflokomotive
-RVg 0-4-0T
-2Diesellokomotive
-H-Trans BR218
-3Bens186t
-Bennhardt B-186 "Lemon"
-3Dampflokomotive
-RVg 0-3-0 "Chippy"
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
 Airport_express_shuttle
 Ônibus Expresso de Aeroporto
-Autotransportwagen
-Cannonball
 BB-TS_Milk_Mack_Trailer
 BlacBox-TS
-Big_Bretterwagen
-Big Bretterwagen
-Bretterwagen
-Vagão para tábuas
-Budd_Coach
-Budd (vagão)
-Budd_Observation
-Budd (traseira)
-Budd_RPO
-Budd RPO
 Bulk_trailer_0
 Reboque para granel
 Bulk_Truck_0
@@ -812,38 +816,14 @@ Car_Transporter_0
 Caminhão-cegonha do Teddy
 Car_Transporter_1
 Reboque do Teddy
-Car_Waggon_1
-RVg (carros)
-Car_Waggon_2
-reboque para carros
-CB_ALBATROS
-Canonball-Skoda 498 "Albatros"
-CB_DB-130_8
-Canonball & H-Trans 130/8 "Ludmila"
-Cement_Carrier_Fast
-Cimenteiro
 Cement_trailer_0
 Reboque cimenteiro PMNV
 Cement_Truck_0
 Caminhão cimenteiro PMNV
-Cement_Waggon_0
-Vagão cimenteiro BB-PMNV
-Cement_Waggon_1
-Reboque cimenteiro BB-PMNV
-Cementwagen
-Vagão cimenteiro SergeS
-CKD_749
-CKD 749
-CKD_750
-CKD 750
 Concrete_Truck_0
 Cimenteiro S.Kroytor
 Concrete_Truck_1
 VSYS-Tatra 815 (concreto)
-Concretewagen
-Mixer de cimento PMNV 12
-Concretewagen_1
-Mixer de cimento PMNV 16
 Cooling_trailer_0
 Reboque frigorífico PMNV
 Cooling_Truck_0
@@ -852,40 +832,8 @@ Cooling_Truck_1
 Caminhão frigorífico PMNV Grey
 Cooling_Truck_2
 S.Kroytor Gaz-4
-Cooling_wagon_0
-Vagão frigorífico Canonball
-Cooling_wagon_1
-Contêiner frigoríco
-Cooling_wagon_2
-Contêiner frigorífico
-DB_ADm101
-Haru ADm101
-DB_Apmz121
-Haru Apmz121
-DB_Bm235
-Haru Bm235
-DB_BR103_1
-Haru BR-103
-EM400_1
-Sindor-FK EM400
-EMD_E5A_Silver_Meteor
-EMD E5A - Silver Meteor
-EMD_E5B_Silver_Comet
-EMD E5B - Silver Comet
-Evil_DF-11
-Evil DF-11
-Evil_P-100_(carriage)
-Evil P-100 (reboque)
-Evil_P-100_(front_engine)
-RVg P-100
-Evil_P-100_(mail)
-Evil P-100 Mail Car
-Evil_P-100_(rear_engine)
-RVg P-100 (traseira)
 Evil-Jitluen_67_Minibus
 Evil-Jitluen 67 Minibus
-Express_tender
-Tender
 Fluid_trailer_0
 Reboque para fluido AJ
 Fluid_trailer_1
@@ -918,6 +866,100 @@ Goods_Truck_4
 PMNV Turbo Truck
 Goods_Truck_5
 S.Kroytor Gaz-4
+Grain_trailer_0
+Reboque para caixas PMNV Classic Grain Trailer
+Grain_Truck_1
+VSYS-Tatra 815 (grain)
+Kord_TT_bulk
+Kord TT (granel)
+Kord_TT_grain
+Kord TT (grão)
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+1Benst134
+Bennhardt B-134 "Pixie"
+1Benst135t
+Bennhardt B-135 "Gremlin"
+1Benst138
+Bennhardt B-138 "Apple pie"
+1Benst162t
+Bennhardt B-162 "Jet"
+1Benst238
+Bennhardt B-238 "Frog"
+1Dampflokomotive
+RVg 0-4-0T
+2Diesellokomotive
+H-Trans BR218
+3Bens186t
+Bennhardt B-186 "Lemon"
+3Dampflokomotive
+RVg 0-3-0 "Chippy"
+Autotransportwagen
+Cannonball
+Big_Bretterwagen
+Big Bretterwagen
+Bretterwagen
+Vagão para tábuas
+Budd_Coach
+Budd (vagão)
+Budd_Observation
+Budd (traseira)
+Budd_RPO
+Budd RPO
+Car_Waggon_1
+RVg (carros)
+Car_Waggon_2
+reboque para carros
+CB_ALBATROS
+Canonball-Skoda 498 "Albatros"
+CB_DB-130_8
+Canonball & H-Trans 130/8 "Ludmila"
+Cement_Carrier_Fast
+Cimenteiro
+Cement_Waggon_0
+Vagão cimenteiro BB-PMNV
+Cement_Waggon_1
+Reboque cimenteiro BB-PMNV
+Cementwagen
+Vagão cimenteiro SergeS
+CKD_749
+CKD 749
+CKD_750
+CKD 750
+Concretewagen
+Mixer de cimento PMNV 12
+Concretewagen_1
+Mixer de cimento PMNV 16
+Cooling_wagon_0
+Vagão frigorífico Canonball
+Cooling_wagon_1
+Contêiner frigoríco
+Cooling_wagon_2
+Contêiner frigorífico
+DB_ADm101
+Haru ADm101
+DB_Apmz121
+Haru Apmz121
+DB_Bm235
+Haru Bm235
+DB_BR103_1
+Haru BR-103
+EMD_E5A_Silver_Meteor
+EMD E5A - Silver Meteor
+EMD_E5B_Silver_Comet
+EMD E5B - Silver Comet
+Evil_DF-11
+Evil DF-11
+Evil_P-100_(carriage)
+Evil P-100 (reboque)
+Evil_P-100_(front_engine)
+RVg P-100
+Evil_P-100_(mail)
+Evil P-100 Mail Car
+Evil_P-100_(rear_engine)
+RVg P-100 (traseira)
+Express_tender
+Tender
 Goods_waggon_0
 Canonball Closed Car
 Goods_waggon_1
@@ -928,10 +970,6 @@ Goods_waggon_3
 Goods Container Car
 Goods_waggon_4
 HS Goods Container Car
-Grain_trailer_0
-Reboque para caixas PMNV Classic Grain Trailer
-Grain_Truck_1
-VSYS-Tatra 815 (grain)
 Haru_F7A
 Haru F7 A
 Haru_F7B
@@ -966,22 +1004,32 @@ JNR_DD51
 JNR DD51
 JNR_tender_S
 Tênder
-Kord_TT_bulk
-Kord TT (granel)
-Kord_TT_grain
-Kord TT (grão)
-#______________________________________way______________________________________
-#______________________________________way______________________________________
+#_____________________________vehicle - tram_track______________________________
+#_____________________________vehicle - tram_track______________________________
+EM400_1
+Sindor-FK EM400
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 air_movement_area
 Pista de taxiamento de asfalto
-canal_030
-Canal
 old_runway
 Pista de pouso de grama
 old_taxiway
 Pista de taxiamento de grama
+runway_modern
+Pista de pouso de asfalto
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
+Schwebebahn_p_ground
+Monotrilho suspenso (nível do solo)
+Suspended_Monorail_Track
+Monotrilho suspenso
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
 Powerline
 Linha de transmissão de alta voltagem
+#__________________________________way - track__________________________________
+#__________________________________way - track__________________________________
 Rail_060_Tracks
 Ferrovia antiga de madeira
 Rail_080_Tracks
@@ -1004,23 +1052,27 @@ Rail_160_Tracks
 Pista expressa reforçada
 Rail_180_Tracks
 Trilho de serviço Regional
+#__________________________________way - water__________________________________
+#__________________________________way - water__________________________________
+canal_030
+Canal
 river_0a
 Riacho
 river_0b
 Rio estreito
-runway_modern
-Pista de pouso de asfalto
-Schwebebahn_p_ground
-Monotrilho suspenso (nível do solo)
-Suspended_Monorail_Track
-Monotrilho suspenso
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
-classic_metal_mesh_catenary
-Eletrificação de "terceiro trilho"
+#_______________________________way-object - air________________________________
+#_______________________________way-object - air________________________________
 modern_runway-extMrkLgt
 Marcações adicionais na pista de pouso
-tramway_modern
-Rede aérea de força para bonde
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
 trolleybus_catenary
 Rede aérea de trólebus
+#______________________________way-object - track_______________________________
+#______________________________way-object - track_______________________________
+classic_metal_mesh_catenary
+Eletrificação de "terceiro trilho"
+#____________________________way-object - tram_track____________________________
+#____________________________way-object - tram_track____________________________
+tramway_modern
+Rede aérea de força para bonde

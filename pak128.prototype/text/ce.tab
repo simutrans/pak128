@@ -9,105 +9,29 @@
 #                            Language: ce C-English                            #
 #                                Encoding: ASCII                               #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
-road_030_bridge
-Wooden road bridge
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
 Schwebebahn_p_bridge
 Suspended Train Track Bridge
+#_________________________________bridge - road_________________________________
+#_________________________________bridge - road_________________________________
+road_030_bridge
+Wooden road bridge
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-City Hall
-02_CITY
-City Hall
-03_CITY
-City Hall
-04_CITY
-City Hall
-1920_AirDepot
-1918 Airplane Hangar
-1930AirDepot
-Hangar (1920)
-1940AirDepot
-Hangar (1940)
-1950AirDepot
-Hangar (1950)
-1990AirDepot
-1989 Airplane Hangar
-ABBYS_0
-Abbey\n\nThis abbey is well-known\nbecause of its deep wells\nin the towers.  Legend has\nit that the wells are\nbottomless.  Seemingly\nendless droves of people\nwill line up to see these\n"magic" wells, and to drop\ncoins into them.  Little do\nthe visitors know that all of\nthe coins are caught on a\npiece of foam, 50 metres below\nthe surface.  These coins have\nenabled the monks to afford a\ncomplete re-conditioning of the\nabbey.\n
-Airport1920_AirportBlg
-1918 Departure Hall
-Airport1930PostOffice
-Airmail Depot (1920)
-Airport1990_Big_AirportBlg
-Airport Administration Building
-Airport1990_Entrance_AirportBlg
-Airport Entrance
-Airport1990_Gates_AirportBlg
-Airport Gate Building
-Airport1990_PostOffice
-Airport Mail Facility
-Airport1990_Small_AirportBlg
-Airport Departure Hall
-Airport1990_Warehouse
-Airport Cargo Terminal
-AirStop_AirportBlg
-Apron
-Almuthof_StationBlg
-Provincial Station
-Avila_Big_StationBlg
-Large Office Building
-Avila_Small_StationBlg
-Small Office Building
-Avila_Warehouse_StationBlg
-Warehouse
-big_classic_bus_stop
-Large Bus Stop (1935)
-big_modern_bus_stop
-Large Glass Bus Stop
-BigTerminal1950_AirportBlg_S
-Larger Terminal Building (1950)
-Bulk_Dock
-Bulk Cargo Dock Facility
-Bulk_StationBlg
-Bulk Goods Station Building
-bus_terminus
-Modern Terminal Stop
-canal_ChannelStop
-Canal Dock
-Car_StationBlg
-Parking Lot
-CarDepot
-Road Garage
 CarStop
 Truck Loading Bay
-CASTLE_0
-This castle was built by\nKing Napik.  It was largely\ndestroyed in a war, but\nwas rebuilt in the\n19th-Century.  Now it is\nused as a museum, and\nhouses a large collection\nof swords and armour.\n
-CHURCH_02
-Pink Church\n\nThis little church was built by\na renowned, but eccentric,\nmonk.  In the year 1654, he\npainted the whole building\npink.  Even today one can\nsee remnants of the pink\npaint.\n
-CHURCH_03
-Black Church\n\nThis is a famous church,\nwhich held the Simutranian\nWitch Trials of 1426.  Today\nit attracts visitors mostly\nbecause of its pleasant\nsurroundings and\ninteresting paintings.\n
-CHURCH_04
-Synagogue\n\nThe minister looks a bit\nArabic, but this is in fact a\nsynagogue.  The beautiful\nbrass roof has now\ntarnished and turned green.\n The minister's family stays\nin the tower.\n
-CHURCH_05
-St. Michael's Church\n\nThis architectural gem was\nbuilt at the end of the\n19th-Century.  Its biggest\nattraction is the metal roof,\nwhich was designed by\nAlexander Gustav Eiffel.\n
-CHURCH_06
-Small Church\n\nThis typical church features\nbells in the tower, ringing\neach day at noon.\n\n\n\n
-CIRCUS_0
-Circus Humberto\n\nThe famous circus made this\ntown its permanent\nresidence.  Their classic\ntent was preserved to keep\nthe original circus\natmosphere, but the\nperformers have all bought\nhouses in the town.  The\nstar of the show nowadays\nis the elephant "Jumbo,"\nwho sits down when he\nhears the bell.  You don't want\nto be behind Jumbo when you\nhear the bell ring - you may end\nup quite flat!\n
-CIVILIAN_RADAR
-Observatory\n\nThis radio observatory is\nhome to many leading\nscientists in the search for\nextraterrestrial life.\n\n\n
-classic_mailbox
-Mailbox
-ClosedTrainStop
-Platform with Metal Roof
-CoalTrainStop
-Coal Platform
+MonorailGround
+Monorail Structure Foundation
+ShipStop
+Passenger Dock
+TrainStop
+Grand Glass-Roofed Station
+#________________________________building - com_________________________________
+#________________________________building - com_________________________________
 COM_00_01
 This is a preschool, where\nchildren can play and\ndream while their parents\nare at work.  Despite the\noccasional outburst, this\npreschool is really a\nfirst-rate place.  The\nteachers even help the\nchidren to develop early\nreading and math skills.\n
 COM_00_02
@@ -194,58 +118,38 @@ COM_10_01
 This small pet store's full\nname is "Le Fish Store,"\nwhich explains the LFS on\nthe side.  The only reason\nthey are still in business is\nbecause the owner banned\nall cats from coming in.\n
 COM_10_04
 This store sells absolutely\neverything - including cats!\n\n\n\n\n\n
-Container1TrainStop
-Advanced Container Platform
-Container2TrainStop
-Container Platform
-Control_StationBlg
-Railroad Control Tower
-Crate_Goods_Dock
-Container-Loading Harbour
-CunnersdorfStopBlg
-Cunnersdorf Pre-fabricated Mail Building
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+Abbey\n\nThis abbey is well-known\nbecause of its deep wells\nin the towers.  Legend has\nit that the wells are\nbottomless.  Seemingly\nendless droves of people\nwill line up to see these\n"magic" wells, and to drop\ncoins into them.  Little do\nthe visitors know that all of\nthe coins are caught on a\npiece of foam, 50 metres below\nthe surface.  These coins have\nenabled the monks to afford a\ncomplete re-conditioning of the\nabbey.\n
+CASTLE_0
+This castle was built by\nKing Napik.  It was largely\ndestroyed in a war, but\nwas rebuilt in the\n19th-Century.  Now it is\nused as a museum, and\nhouses a large collection\nof swords and armour.\n
+CHURCH_02
+Pink Church\n\nThis little church was built by\na renowned, but eccentric,\nmonk.  In the year 1654, he\npainted the whole building\npink.  Even today one can\nsee remnants of the pink\npaint.\n
+CHURCH_03
+Black Church\n\nThis is a famous church,\nwhich held the Simutranian\nWitch Trials of 1426.  Today\nit attracts visitors mostly\nbecause of its pleasant\nsurroundings and\ninteresting paintings.\n
+CHURCH_04
+Synagogue\n\nThe minister looks a bit\nArabic, but this is in fact a\nsynagogue.  The beautiful\nbrass roof has now\ntarnished and turned green.\n The minister's family stays\nin the tower.\n
+CHURCH_05
+St. Michael's Church\n\nThis architectural gem was\nbuilt at the end of the\n19th-Century.  Its biggest\nattraction is the metal roof,\nwhich was designed by\nAlexander Gustav Eiffel.\n
+CHURCH_06
+Small Church\n\nThis typical church features\nbells in the tower, ringing\neach day at noon.\n\n\n\n
+CIRCUS_0
+Circus Humberto\n\nThe famous circus made this\ntown its permanent\nresidence.  Their classic\ntent was preserved to keep\nthe original circus\natmosphere, but the\nperformers have all bought\nhouses in the town.  The\nstar of the show nowadays\nis the elephant "Jumbo,"\nwho sits down when he\nhears the bell.  You don't want\nto be behind Jumbo when you\nhear the bell ring - you may end\nup quite flat!\n
+CIVILIAN_RADAR
+Observatory\n\nThis radio observatory is\nhome to many leading\nscientists in the search for\nextraterrestrial life.\n\n\n
 CUR_01_128_JH
 The "Atomium" was built\nfor the 1912 Expo.  It was\nintended to prove that\nsilver is a better conductor\nthan gold, but nobody\ncared so it was converted\ninto a first-rate restaurant.\n The upper hall is very\nprestigious, and must be\nreserved two months in\nadvance.\n
-DenkFlor
-This monument is\ndedicated to Flor 'WF Ultd.'\nWauters the famous\nengineer who created so\nmany great road and rail\nvehicles. He is also well\nknown for designing many\nwell-working factories.\n
-DenkGeorg
-This monument is\ndedicated to the famous\narchitect Georg, also know\nas MHz, who designed so\nmany buildings all around\nthe world. He also designed\nsome exceptional vehicles.\n
-DenkHajo
-This monument is\ndedicated to Hansjorg\nMalthaner, the creator of\nthis game.  Without his\nefforts and sacrifices,\nSimutrans would not be\nprogressing today.  You\ncan send him a post card. \nThe address is:\nHansjorg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart\n
-DenkOwen
-This place is dedicated to\nOwen Rudge the famous\nfinance expert and sound\ntechnician.\n\n\n\n
-DenkPatrick
-This monument is\ndedicated to Patrick\nNesbitt, who has helped\nmake many buildings and\nvehicles for SimuTrans.\n\n\n
-DenkRaven
-This monument is\ndedicated to Raven, the\nfamous engineer and also\nfounder of RVg (Raven\nVehicles and Gears\nCorporation).  RVg prides\nitself on their many fine\nvehicles.  Recently, Raven\nhas been focussing his\ntalents on the construction\nof spectacular houses.\n
-DenkSeth
-This place is dedicated to\nSeth C. Triggs, the famous\narchitect who designed so\nmany beautiful city\nbuildings. He is also well\nknown for doing many\nstudies on how to improve\ntraffic systems.\n
-DenkTomas
-Tomas Kubes helped to\nimprove Simutrans in many\nways.  Nowadays he is\nbest-known for his work on\nthe pak128 (which you are\nplaying) and the\nSimuTranslator tool (which\nI am using right now to\ntype this).\n
-DenkTrikky
-This monument is\ndedicated to 'Trikky' Rick\nMcGreal the famous\narchitect who designed so\nmany impressive buildings.\n\n\n
-DenkVM
-This monument is\ndedicated to Manfred 'VT\nVienna' Tomaschitz the\nfamous engineer who\ndesigned many superior rail\nvehicles.\n\n
-DenkVolker
-This Stupa was built for the\nprogramming "arch-mage"\nVolker Meyer who improved\nSimutrans in many areas.\n\n\n\n
 ELEMENTARY_SCHOOL_1
 Elementary School\n\nSimutrans children spend their first\nschool years in this\nbuilding.  The young\nstudents like to paint and\nsing, so Math, French, and\nScience are not favourite\nsubjects.  The children\ncannot drive, so good\ntransportation must be\nprovided - but beware of\nsending luxurious busses\nto routes around here.\n
 ELEMENTARY_SCHOOL_2
 This is a large elementary\nschool, designed for large\ncities.  The school is\ncurrently conducting a test\non a new kind of teaching. \nThe most unusual things\nare that school goes from\n9:00 AM to 12:00 PM, and\nthat classes are held\nseven days a week.\n
 Firestation
 Fire Department\n\nThis building is home to the\ncity's fire department, as\nwell as the Ambulatory Care\nOffice.  The hospital is\ngetting crowded, and so\nthe fire people were nice\nenough to offer the\nambulance drivers some\nspace here.\n
-Fluid_StationBlg
-Oil Storage Tank
 FORT_FUN
 Happy-Good-Times Ranch\n\n\n\n\n\n\n
-FreightTrainStop
-Cargo Loading Platform
 FUTURISTIC_TOWER_0
 Although the entrance is\nsimple, this\nfuturistic-looking tower is\nhome of the city's greatest\nrestaurant.  The owners are\nvery pleased to have been\nrecently awarded their third\nMichelin star.\n
-Gas_StationBlg
-Gasoline Storage Tanks
-Goods_StationBlg
-Warehouse
 GRASS_STADIUM
 Grass Stadium\n\nThis grass stadium is a great\nplace for community\nevents, like track-and-field\ncompetitions or\nfootball/soccer matches. \nIf you're not very active,\nyou can always watch the\ngames from the bleachers.\n
 GREEN_HOUSE
@@ -254,10 +158,180 @@ HIGH_SCHOOL_1
 Science School\n\nThis relatively small\nuniversity is a branch of\nthe Simutrans Higher\nEducation Society And\nLarge Lyceum Teaching\nHydraulics And Technology\n(SHESALLTHAT).  The\ncurrent rumours say that\nprofessors Hildebrand and\nLinkofritz are engaged to\nbe married.\n
 HOUSE_RUINS_0
 These three buildings used\nto be inhabited by\nMr.McCormak and his two\nsons.  Unfortunately, all\nthree families died off\nwhen their cows rebelled in\n1846.  Nowadays, people\ndrop by mostly to see the\ntheatre troupe that has\ntaken up residence in the\ntall, brown building.\n
+JUSTICE
+Court House\n\nThis is the city's court house.\n Trials are often held here,\nbut only for municipal\noffences.  Nobody knows\nwhy the building is so\nbeautiful.\n
+Lighthouse_0
+Lighthouse\n\nSince their invention in 1875,\nlighthouses have been\nmaking Simuworld a safer\nplace to sail.  People like to\ncome here and watch the\nships go by.\n
+Lighthouse_1
+Lighthouse\n\nSince their invention in 1875,\nlighthouses have been\nmaking Simuworld a safer\nplace to sail.  People like to\ncome here and watch the\nships go by.\n
+MANOR_0
+This beautiful renaissance\nmanor has a very\ninteresting past. Today it is\nthe home of a successful\nbusiness man. But he\nopened up a large part of it\nfor public exhibitions about\nhistory. Although this might\nseem boring, exhibitions\nare actually very\ninteresting. So the manor is\nfull of tourists every day.\n
+MARKET_PLACE_0
+The city marketplace is a\ngood place for spending an\nafternoon with the family.\nKids can buy special kinds\nof yesterday's candy and\nwatch old craftsmen at\nwork, women can browse\nthe shops and look for\nvarious things and men can\nsit in the stylish local beer\ngarden and drink beer.\n
+MILITARY_RADAR
+Military Radar\n\nThis is a secret military\nstructure! Keep out! I said\nkeep out! If I mean keep\nout, I mean that you ought\nto close the window and\nscroll away!\n\nWhat? You are still reading?\nImmediately close the\nwindow and scroll away!\nYou are not supposed to be\nhere! Keep out!!!\n
+MT_HOTEL_0
+This is a ver famous hotel. \nAlthough rooms are\nexpensive, everbody in the\ncity still wants to stay\nhere.  Some of the more\naffluent residents visit the\ndining room at least once a\nweek.\n
+MUSEUM_0
+This was once a city\ncastle.  It has been rebuilt\nto a ch?teau and recently\nconverted to a public\nmuseum of science and\ntechnology. You can watch\nmodels of old vehicles,\nlearn about advances in\nphysics or attend one of\nmany seminars.\n
+OBSERVATORY
+Telescope Observatory\n\nThis is a well-renowned\nobservatory, opened by Sir\nBob McGee twenty years\nago.  Scientists hold\nlectures and interactive\nseminars during the day,\nbut at about 8:00PM\neverybody is kicked out so\nthat they can get to work. \nEverybody is happy to\nleave, however, since the\nseminars always cover the latest\nscience, and the $10 entrance\nfee is a bargain.\n
+OLD_HOUSE_0
+This old building is holds\nthe Simutrans Museum of\nArchitecture. \nUnfortunately, the curator\nis a little eccentric, and\nnot all of the displays are\neasy-to-understand.  Even\nso the building is busy on\nmost days.\n
+Pagoda01
+Pagoda\n\nThis building was constructed\nby the Japanese architect\nFurukawa Kenichi.  He lives\non the upper floors with his\nwife Sakura, while the lower\nfloor showcases his skilled\ndesigns.\n
+PARK_0
+Central Park\n\nThis park is a wondeful place\nto watch the ducks on a\nquiet summer afternoon.  If\nyou're feeling more\nadventurous, perhaps you\ncan join in the weekly\nswimming competition.  It is\nheld every Sunday morning\nat precisely 7:46.\n
+RADIO_TOWER_0
+This provincial-looking\nbuilding is where SIMU-FM\nRADIO broadcasts from. \nThe highlight of their\nmorning show happens at\n8:00 sharp, and features\nmusic from Beethoven.\n
+rmax_clock_tower
+Clock Tower\n\nIn spite of its peculiar\ndesign, this circular clock\ntower is accurate enough\nto serve as a reference for\nall citizens nearby.\n\n
+rmax_courthouse
+Courthouse\n\nThe fairest in the land.  Most\nof the travellers here are\nfor the traffic court. \nObviously they aren't\nallowed to drive in.\n\n
+rmax_icarus
+Icarus Interstellar Facility\n\nThis is the launch facility for\nIcarus, Inc.  They were the\nfirst company to master\nthe launching of rockets\ninto orbit, and crowds of\ntourists flock to these\nweekly events.\n
+rmax_mosque
+Large Mosque\n\nThis extravagently-decorated\nmosque is home to many\nevents, and the building's\nofficials welcome people\nfrom all religions.  The most\npopular event is held every\nFriday night, and involves\npolishing the brass domes\non the building's roof.\n
+ROCK_0
+Patrick's Rock attracts\nmany geologists who are\nfascinated by this former\nvolcano.\n\n\n\n
+RUIN_0
+Medieval Amusement Park\n\nAlthough this used to be a Gothic\ncastle, its owner recently\nrealised that it's not such\na good place to live in the\n21st-Century.  The gates\nnever close, and there is\nalways a special event, so\nguest flock to this castle\nto see sword fights, castle\nsieges, parades, horse\nriding, and exhibitions.\n
+RUIN_1
+Very Famous Castle\n\nEveryone is keen to see this\ncastle.  In addition to all of\nthe kings that have lived\nand fought here, the\nUniversity has a tradition\nthat every student must\nstay in the castle\novernight in order to\ngraduate.\n
+Russian_Cathedral
+Russian Orthodox Cathedral\n\nThis cathedral was built for\nthe Russian Easter Festival\nin 1700, and has stood\nguard over the city since\nthen.\n\n
+sh_oasis_seasons
+Desert Oasis\n\nOne of the few lively places\nin the desert, this oasis\ninspires animals to\ncontinue their journey. \nWater is $50 per sip.\n\n
+SMALL_MANOR
+Square Manor\n\nThis tall house was once\nhome to a famous lord. \nAfter his death, the\nbuilding became less and\nless popular, until it was\n"rediscovered" in the early\n20th-Century.  Today, the\nproperty belongs to the\ngovernment, which charges\na modest fee for access to\nthe three small art\ngalleries.  It is a popular\ndestination for school trips, and\nfamily outings.\n
+st_benedict_church
+St.Benedict's Church\n\nThis church was built by\nSt.Benedict himself. \nBenedict is the patron\nsaint of Speed Bonusses,\nwhich is why he has a dove\nfixed to the tallest dome. \nIt is a symbol of the\nfastest transportation\nform: flight.\n
+ST_PETER
+Saint Peter's Church\n\nThe late-Roman church of\nSt.Peter's, built around\n1220, has a fine structured\nchorus gallery, frescos\nfrom the middle of the 13th\ncentury and the\nwell-preserved mummy of\n"The Holy Reeve". This is\nan old mummified body that\nis more than 300 years old,\nwhich was probably Wilhelm\nof Holbach, the royal reeve. The\nmummy is located in an alcove in\nthe western wall.\n
+TRIUMPH
+Triumphal Arch\n\nEmperor Napik built this to\ncelebrate his most famous\nbattle victory, for control\nof all railways in Simuland. \nThough there are no more\nemperors, tourists still\nflock to see this arch,\ndesigned by the famous\narchitect George, who later\nchanged his name to MHz.\n
+TV_TOWER_0
+Television Broadcast Tower\n\nThis tower is owned by a local\nstation.  Not only does it\nhold broadcast equipment,\nbut it is a great place to\nget a view of the traffic\nsituation in the city.\n
+TV_TOWER_1
+Television Broadcast Tower\n\nOne of the highest towers in\nthe world, this tower was\nbuilt to deliver Channel Six\nto all of Simuland.  There is\nalso a highly-regarded\nrestaurant, for those\notherwise unaffected by\nthe astonishing height.\n
+WHEEL
+Russian Ferris Wheel\n\nSurviving from older theme parks,\nthis ferris wheel still\nattracts many tourists.\n\n\n\n
+Windmill
+Dutch Windmill\n\nSome people visit this windmill\nbecause they enjoy\nwatching it go 'round;\nothers like to get out of\nthe city; still others like\nthrowing rocks to see if\nthey can hit the blades.\n
+WOODEN_CHURCH
+Hamish Wooden Church\n\nA simple church, intended\nto focus attention on the\nLord.\n\n\n\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
+1920_AirDepot
+1918 Airplane Hangar
+1930AirDepot
+Hangar (1920)
+1940AirDepot
+Hangar (1940)
+1950AirDepot
+Hangar (1950)
+1990AirDepot
+1989 Airplane Hangar
+CarDepot
+Road Garage
+MonorailDepot
+Monorail/Schwebebahn Depot
+ShipDepot
+Shipyard
+TrainDepot
+Railroad Depot
+TramDepot
+Tram/Streetcar Depot
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
+Airport1920_AirportBlg
+1918 Departure Hall
+Airport1930PostOffice
+Airmail Depot (1920)
+Airport1990_Big_AirportBlg
+Airport Administration Building
+Airport1990_Entrance_AirportBlg
+Airport Entrance
+Airport1990_Gates_AirportBlg
+Airport Gate Building
+Airport1990_PostOffice
+Airport Mail Facility
+Airport1990_Small_AirportBlg
+Airport Departure Hall
+Airport1990_Warehouse
+Airport Cargo Terminal
+Almuthof_StationBlg
+Provincial Station
+Avila_Big_StationBlg
+Large Office Building
+Avila_Small_StationBlg
+Small Office Building
+Avila_Warehouse_StationBlg
+Warehouse
+BigTerminal1950_AirportBlg_S
+Larger Terminal Building (1950)
+Bulk_StationBlg
+Bulk Goods Station Building
+Car_StationBlg
+Parking Lot
+Control_StationBlg
+Railroad Control Tower
+CunnersdorfStopBlg
+Cunnersdorf Pre-fabricated Mail Building
+Fluid_StationBlg
+Oil Storage Tank
+Gas_StationBlg
+Gasoline Storage Tanks
+Goods_StationBlg
+Warehouse
+LuftPost1950_AirportBlg
+Airport Mail Office (1950)
+Modern_Warehouse
+Warehouse
+ModernPostOffice
+Post Office (1977)
+MonorailFoundation
+Monorail Structure Foundation
+PostOffice
+Post Office
+PostOffice1920_AirportBlg
+Airport Mail Building (1918)
+Radar3
+Radar Building
+Terminal1930_AirportBlg
+Passenger Terminal (1930)
+Terminal1950_AirportBlg_S
+Small Passenger Terminal (1950)
+Tower1920_AirportBlg
+Airport Control Tower
+Tower1930_AirportBlg
+Airport Control Tower
+Tower1950_AirportBlg
+Airport Control Tower
+Tower1990_AirportBlg
+Large Airport Control Tower
+Very_Big_Terminal
+Very Large Terminal Hall
+VictorianStation
+Victorian-style Station Building
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+Bulk Cargo Dock Facility
+Crate_Goods_Dock
+Container-Loading Harbour
+Long_Goods_Dock
+Long Cargo Dock
+Post_Dock
+Harbour Dock for Mail
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
 HQ1
 This office is the Administrative Headquarters of Simutrans.  That blue truck there is owned by Simutrans, and used to assist with the "Raise Land" and "Lower Land" tools.
 HQ2
 Corporate Headquarters
+#________________________________building - ind_________________________________
+#________________________________building - ind_________________________________
 IND_11_01
 Future Building\n\nConstruction is just starting.  Who\nknows what will be built?!\n\n\n\n\n
 IND_11_16
@@ -280,148 +354,98 @@ IND_11_58
 Custodial Training Facility\n\nThis building exists for the\nsole purpose of training\ncustodial staff how to deal\nwith any sort of mess that\nthey might encounter in the\nreal world.  Custodians who\ntrain here get paid twice as\nmuch as those who train\nelsewhere.  Think it's time\nfor a career change? \nConsider "custodiing"\ntoday!\n
 IND_12_16
 Factory of Illegal Goods\n\nThis facotry is dedicated to\nthe production of fake\ndesigner-label clothes and\naccessories.  Hopefully the\npolice will do something\nsoon!\n
-JUSTICE
-Court House\n\nThis is the city's court house.\n Trials are often held here,\nbut only for municipal\noffences.  Nobody knows\nwhy the building is so\nbeautiful.\n
-Lighthouse_0
-Lighthouse\n\nSince their invention in 1875,\nlighthouses have been\nmaking Simuworld a safer\nplace to sail.  People like to\ncome here and watch the\nships go by.\n
-Lighthouse_1
-Lighthouse\n\nSince their invention in 1875,\nlighthouses have been\nmaking Simuworld a safer\nplace to sail.  People like to\ncome here and watch the\nships go by.\n
-Long_Goods_Dock
-Long Cargo Dock
-LuftPost1950_AirportBlg
-Airport Mail Office (1950)
-MANOR_0
-This beautiful renaissance\nmanor has a very\ninteresting past. Today it is\nthe home of a successful\nbusiness man. But he\nopened up a large part of it\nfor public exhibitions about\nhistory. Although this might\nseem boring, exhibitions\nare actually very\ninteresting. So the manor is\nfull of tourists every day.\n
-MARKET_PLACE_0
-The city marketplace is a\ngood place for spending an\nafternoon with the family.\nKids can buy special kinds\nof yesterday's candy and\nwatch old craftsmen at\nwork, women can browse\nthe shops and look for\nvarious things and men can\nsit in the stylish local beer\ngarden and drink beer.\n
-medium_classic_bus_stop
-Simple Bus Stop
-medium_early_bus_stop
-Medium-size Early Bus Stop
-medium_modern_bus_stop
-Glass Bus Stop
-MILITARY_RADAR
-Military Radar\n\nThis is a secret military\nstructure! Keep out! I said\nkeep out! If I mean keep\nout, I mean that you ought\nto close the window and\nscroll away!\n\nWhat? You are still reading?\nImmediately close the\nwindow and scroll away!\nYou are not supposed to be\nhere! Keep out!!!\n
-Modern_Warehouse
-Warehouse
-ModernPostOffice
-Post Office (1977)
-ModernTrainStop
-Glass-Roof Passenger Platform
-MonorailDepot
-Monorail/Schwebebahn Depot
-MonorailFoundation
-Monorail Structure Foundation
-MonorailGround
-Monorail Structure Foundation
-MT_HOTEL_0
-This is a ver famous hotel. \nAlthough rooms are\nexpensive, everbody in the\ncity still wants to stay\nhere.  Some of the more\naffluent residents visit the\ndining room at least once a\nweek.\n
-MUSEUM_0
-This was once a city\ncastle.  It has been rebuilt\nto a ch?teau and recently\nconverted to a public\nmuseum of science and\ntechnology. You can watch\nmodels of old vehicles,\nlearn about advances in\nphysics or attend one of\nmany seminars.\n
-OBSERVATORY
-Telescope Observatory\n\nThis is a well-renowned\nobservatory, opened by Sir\nBob McGee twenty years\nago.  Scientists hold\nlectures and interactive\nseminars during the day,\nbut at about 8:00PM\neverybody is kicked out so\nthat they can get to work. \nEverybody is happy to\nleave, however, since the\nseminars always cover the latest\nscience, and the $10 entrance\nfee is a bargain.\n
-OLD_HOUSE_0
-This old building is holds\nthe Simutrans Museum of\nArchitecture. \nUnfortunately, the curator\nis a little eccentric, and\nnot all of the displays are\neasy-to-understand.  Even\nso the building is busy on\nmost days.\n
-OpenTrainStop
-Simple Platform
-Pagoda01
-Pagoda\n\nThis building was constructed\nby the Japanese architect\nFurukawa Kenichi.  He lives\non the upper floors with his\nwife Sakura, while the lower\nfloor showcases his skilled\ndesigns.\n
-PARK_0
-Central Park\n\nThis park is a wondeful place\nto watch the ducks on a\nquiet summer afternoon.  If\nyou're feeling more\nadventurous, perhaps you\ncan join in the weekly\nswimming competition.  It is\nheld every Sunday morning\nat precisely 7:46.\n
-parking_(catchemnt_area_ext)1
-Public Parking
-parking_(catchemnt_area_ext)2
-Public Parking
-parking_(catchemnt_area_ext)3
-Public Parking
-Post_Dock
-Harbour Dock for Mail
-PostOffice
-Post Office
-PostOffice1920_AirportBlg
-Airport Mail Building (1918)
-Radar3
-Radar Building
-RADIO_TOWER_0
-This provincial-looking\nbuilding is where SIMU-FM\nRADIO broadcasts from. \nThe highlight of their\nmorning show happens at\n8:00 sharp, and features\nmusic from Beethoven.\n
-RES_14_17
-Small House with Garden\nand Pile of Dirt\n\n\n\n\n\n
-rmax_clock_tower
-Clock Tower\n\nIn spite of its peculiar\ndesign, this circular clock\ntower is accurate enough\nto serve as a reference for\nall citizens nearby.\n\n
-rmax_courthouse
-Courthouse\n\nThe fairest in the land.  Most\nof the travellers here are\nfor the traffic court. \nObviously they aren't\nallowed to drive in.\n\n
+#________________________________building - mon_________________________________
+#________________________________building - mon_________________________________
+DenkFlor
+This monument is\ndedicated to Flor 'WF Ultd.'\nWauters the famous\nengineer who created so\nmany great road and rail\nvehicles. He is also well\nknown for designing many\nwell-working factories.\n
+DenkGeorg
+This monument is\ndedicated to the famous\narchitect Georg, also know\nas MHz, who designed so\nmany buildings all around\nthe world. He also designed\nsome exceptional vehicles.\n
+DenkHajo
+This monument is\ndedicated to Hansjorg\nMalthaner, the creator of\nthis game.  Without his\nefforts and sacrifices,\nSimutrans would not be\nprogressing today.  You\ncan send him a post card. \nThe address is:\nHansjorg Malthaner\nFuggerstr. 1\nD-70563 Stuttgart\n
+DenkOwen
+This place is dedicated to\nOwen Rudge the famous\nfinance expert and sound\ntechnician.\n\n\n\n
+DenkPatrick
+This monument is\ndedicated to Patrick\nNesbitt, who has helped\nmake many buildings and\nvehicles for SimuTrans.\n\n\n
+DenkRaven
+This monument is\ndedicated to Raven, the\nfamous engineer and also\nfounder of RVg (Raven\nVehicles and Gears\nCorporation).  RVg prides\nitself on their many fine\nvehicles.  Recently, Raven\nhas been focussing his\ntalents on the construction\nof spectacular houses.\n
+DenkSeth
+This place is dedicated to\nSeth C. Triggs, the famous\narchitect who designed so\nmany beautiful city\nbuildings. He is also well\nknown for doing many\nstudies on how to improve\ntraffic systems.\n
+DenkTomas
+Tomas Kubes helped to\nimprove Simutrans in many\nways.  Nowadays he is\nbest-known for his work on\nthe pak128 (which you are\nplaying) and the\nSimuTranslator tool (which\nI am using right now to\ntype this).\n
+DenkTrikky
+This monument is\ndedicated to 'Trikky' Rick\nMcGreal the famous\narchitect who designed so\nmany impressive buildings.\n\n\n
+DenkVM
+This monument is\ndedicated to Manfred 'VT\nVienna' Tomaschitz the\nfamous engineer who\ndesigned many superior rail\nvehicles.\n\n
+DenkVolker
+This Stupa was built for the\nprogramming "arch-mage"\nVolker Meyer who improved\nSimutrans in many areas.\n\n\n\n
 rmax_DenkManualTeam
 Cresset in Flames\n\nThis torch is a tribute to the\nmaintainers of the\nSimutrans Wiki.  They help\nto shed light on all sorts of\ngameplay mysteries.\n\nThank you!\n
 rmax_dictator_statue
 Benevolent Dictator\n\nThis statue stands as a\nmonument to the Dictator\nof the Simutrans forums.  It\nis currently believed that\nthe statue radiates powers\nof fertility, which required\nthe installation of the\nchain-rope around the\nstatue.\n
 rmax_fabio_bust
 Fagonellus Romanus\n\nThe bust of fabio, a.k.a.\nfagonella. People flock to\nsee this monument to his\nsimcreations.\n\n\n
-rmax_icarus
-Icarus Interstellar Facility\n\nThis is the launch facility for\nIcarus, Inc.  They were the\nfirst company to master\nthe launching of rockets\ninto orbit, and crowds of\ntourists flock to these\nweekly events.\n
-rmax_mosque
-Large Mosque\n\nThis extravagently-decorated\nmosque is home to many\nevents, and the building's\nofficials welcome people\nfrom all religions.  The most\npopular event is held every\nFriday night, and involves\npolishing the brass domes\non the building's roof.\n
-ROCK_0
-Patrick's Rock attracts\nmany geologists who are\nfascinated by this former\nvolcano.\n\n\n\n
-RUIN_0
-Medieval Amusement Park\n\nAlthough this used to be a Gothic\ncastle, its owner recently\nrealised that it's not such\na good place to live in the\n21st-Century.  The gates\nnever close, and there is\nalways a special event, so\nguest flock to this castle\nto see sword fights, castle\nsieges, parades, horse\nriding, and exhibitions.\n
-RUIN_1
-Very Famous Castle\n\nEveryone is keen to see this\ncastle.  In addition to all of\nthe kings that have lived\nand fought here, the\nUniversity has a tradition\nthat every student must\nstay in the castle\novernight in order to\ngraduate.\n
-Russian_Cathedral
-Russian Orthodox Cathedral\n\nThis cathedral was built for\nthe Russian Easter Festival\nin 1700, and has stood\nguard over the city since\nthen.\n\n
-sh_oasis_seasons
-Desert Oasis\n\nOne of the few lively places\nin the desert, this oasis\ninspires animals to\ncontinue their journey. \nWater is $50 per sip.\n\n
-ShipDepot
-Shipyard
-ShipStop
-Passenger Dock
+#________________________________building - res_________________________________
+#________________________________building - res_________________________________
+RES_14_17
+Small House with Garden\nand Pile of Dirt\n\n\n\n\n\n
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+Apron
+big_classic_bus_stop
+Large Bus Stop (1935)
+big_modern_bus_stop
+Large Glass Bus Stop
+bus_terminus
+Modern Terminal Stop
+canal_ChannelStop
+Canal Dock
+classic_mailbox
+Mailbox
+ClosedTrainStop
+Platform with Metal Roof
+CoalTrainStop
+Coal Platform
+Container1TrainStop
+Advanced Container Platform
+Container2TrainStop
+Container Platform
+FreightTrainStop
+Cargo Loading Platform
+medium_classic_bus_stop
+Simple Bus Stop
+medium_early_bus_stop
+Medium-size Early Bus Stop
+medium_modern_bus_stop
+Glass Bus Stop
+ModernTrainStop
+Glass-Roof Passenger Platform
+OpenTrainStop
+Simple Platform
+parking_(catchemnt_area_ext)1
+Public Parking
+parking_(catchemnt_area_ext)2
+Public Parking
+parking_(catchemnt_area_ext)3
+Public Parking
 small_classic_bus_stop
 Simple Bus Stop
 small_early_bus_stop
 Bus Stop Sign
-SMALL_MANOR
-Square Manor\n\nThis tall house was once\nhome to a famous lord. \nAfter his death, the\nbuilding became less and\nless popular, until it was\n"rediscovered" in the early\n20th-Century.  Today, the\nproperty belongs to the\ngovernment, which charges\na modest fee for access to\nthe three small art\ngalleries.  It is a popular\ndestination for school trips, and\nfamily outings.\n
-st_benedict_church
-St.Benedict's Church\n\nThis church was built by\nSt.Benedict himself. \nBenedict is the patron\nsaint of Speed Bonusses,\nwhich is why he has a dove\nfixed to the tallest dome. \nIt is a symbol of the\nfastest transportation\nform: flight.\n
-ST_PETER
-Saint Peter's Church\n\nThe late-Roman church of\nSt.Peter's, built around\n1220, has a fine structured\nchorus gallery, frescos\nfrom the middle of the 13th\ncentury and the\nwell-preserved mummy of\n"The Holy Reeve". This is\nan old mummified body that\nis more than 300 years old,\nwhich was probably Wilhelm\nof Holbach, the royal reeve. The\nmummy is located in an alcove in\nthe western wall.\n
 Suspended_Monorail_Bahnhof_Modern
 Covered Monorail/Schwebebahn Platform
-Terminal1930_AirportBlg
-Passenger Terminal (1930)
-Terminal1950_AirportBlg_S
-Small Passenger Terminal (1950)
-Tower1920_AirportBlg
-Airport Control Tower
-Tower1930_AirportBlg
-Airport Control Tower
-Tower1950_AirportBlg
-Airport Control Tower
-Tower1990_AirportBlg
-Large Airport Control Tower
-TrainDepot
-Railroad Depot
-TrainStop
-Grand Glass-Roofed Station
-TramDepot
-Tram/Streetcar Depot
-TRIUMPH
-Triumphal Arch\n\nEmperor Napik built this to\ncelebrate his most famous\nbattle victory, for control\nof all railways in Simuland. \nThough there are no more\nemperors, tourists still\nflock to see this arch,\ndesigned by the famous\narchitect George, who later\nchanged his name to MHz.\n
-TV_TOWER_0
-Television Broadcast Tower\n\nThis tower is owned by a local\nstation.  Not only does it\nhold broadcast equipment,\nbut it is a great place to\nget a view of the traffic\nsituation in the city.\n
-TV_TOWER_1
-Television Broadcast Tower\n\nOne of the highest towers in\nthe world, this tower was\nbuilt to deliver Channel Six\nto all of Simuland.  There is\nalso a highly-regarded\nrestaurant, for those\notherwise unaffected by\nthe astonishing height.\n
-Very_Big_Terminal
-Very Large Terminal Hall
-VictorianStation
-Victorian-style Station Building
 VillageTrainStop
 Provincial Train Platform
-WHEEL
-Russian Ferris Wheel\n\nSurviving from older theme parks,\nthis ferris wheel still\nattracts many tourists.\n\n\n\n
-Windmill
-Dutch Windmill\n\nSome people visit this windmill\nbecause they enjoy\nwatching it go 'round;\nothers like to get out of\nthe city; still others like\nthrowing rocks to see if\nthey can hit the blades.\n
-WOODEN_CHURCH
-Hamish Wooden Church\n\nA simple church, intended\nto focus attention on the\nLord.\n\n\n\n
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+City Hall
+02_CITY
+City Hall
+03_CITY
+City Hall
+04_CITY
+City Hall
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -528,10 +552,16 @@ CATEGORY_07
 Fabric
 Monoraildepot
 Monorail/Schwebebahn Depot
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
 airport_oneway
 One-way Pavement Marker
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+choose_signal_monorail
+'Choose Destination' Signals for Monorail
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 Highway Entrance (Unlighted)
 autobahn_classic_exit
@@ -542,8 +572,10 @@ autobahn_modern_exit
 Highway Exit (Lighted)
 choose_point
 Automatic Loading-Bay Selection Sign
-choose_signal_monorail
-'Choose Destination' Signals for Monorail
+Minimum80
+Road Sign: "Minimum Speed 80km/h"
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
 ChooseSignals
 'Choose Destination' Signals
 Classic_ChooseSignals_right
@@ -558,46 +590,38 @@ Early_ChooseSignals_right
 'Choose Destination' Signals
 Early_LongSignals_right
 Long Signals
-Minimum80
-Road Sign: "Minimum Speed 80km/h"
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-1Benst134
-Bennhardt B-134 "Pixie"
-1Benst135t
-Bennhardt B-135 "Gremlin"
-1Benst138
-Bennhardt B-138 "Apple pie"
-1Benst162t
-Bennhardt B-162 "Jet"
-1Benst238
-Bennhardt B-238 "Frog"
-1Dampflokomotive
-RVg 0-4-0T
-2Diesellokomotive
-H-Trans BR218
-3Bens186t
-Bennhardt B-186 "Lemon"
-3Dampflokomotive
-RVg 0-3-0 "Chippy"
+#___________________________vehicle - monorail_track____________________________
+#___________________________vehicle - monorail_track____________________________
+PMNV_TC-119-Snake
+TC-119 "Snake"
+PMNV_TC-119-Snake_b
+TC-119 "Snake" (End)
+PMNV_TC-44-Hydrogen_Car
+TC-44 Hydrogen Vehicle
+PMNV_TC-44-Hydrogen_Car_b
+TC-44 Hydrogen Vehicle (End)
+PMNV_TC-7_Astro_Trolley
+TC-7 "AstroTrolley"
+PMNV-TC-1_Turbo_Car
+TC-1 "TurboCar"
+PMNV-TC-112-Hyper_Car
+TC-112 "HyperCar"
+PMNV-TC-2_Turbo_Set
+TC-2 "TurboSet"
+PMNV-TC-2_Turbo_Set_b
+TC-2 "TurboSet" B
+PMNV-TC-2_Turbo_Set_c
+TC-2 "TurboSet" (End)
+PMNV-TC-5P_Mail_Man
+TC-5P
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
 Airport_express_shuttle
 Airport Shuttle Bus
-Autotransportwagen
-Automobile Rack
 BB-TS_Milk_Mack_Trailer
 TechServ Milk Trailer
-Big_Bretterwagen
-RVg Plank Car
 Big_Erztruck
 MHz T-183 Ore Truck
-Bretterwagen
-Lumber Car
-Budd_Coach
-"Bud" Passenger Coach
-Budd_Observation
-"Budd" End Car
-Budd_RPO
-"Budd" Mail Car
 Bulk_trailer_0
 Bulk Goods Trailer
 Bulk_Truck_0
@@ -614,38 +638,14 @@ Car_Transporter_0
 TechServ Auto Transporter
 Car_Transporter_1
 RVg Car Carrier
-Car_Waggon_1
-RVg Auto Rack
-Car_Waggon_2
-RVg Large Car Carrier
-CB_ALBATROS
-Skoda 498 "Albatross"
-CB_DB-130_8
-BRAW-61000 "Taiga Drum"
-Cement_Carrier_Fast
-Cement Globule Car
 Cement_trailer_0
 PMNV Cement Trailer
 Cement_Truck_0
 PMNV Cement Truck
-Cement_Waggon_0
-PMNV Cement Globule Car
-Cement_Waggon_1
-PMNV Cement Car
-Cementwagen
-Cement Hopper Car
-CKD_749
-CKD-749
-CKD_750
-CKD-750
 Concrete_Truck_0
 S.Kroytor Concrete Truck
 Concrete_Truck_1
 Tatra 815 Concrete Truck
-Concretewagen
-PMNV Concrete Mixer 12
-Concretewagen_1
-PMNV Concrete Mixer 16
 Cooling_trailer_0
 PMNV Cooled Trailer
 Cooling_Truck_0
@@ -654,48 +654,8 @@ Cooling_Truck_1
 PMNV Refrigerated Truck (1991)
 Cooling_Truck_2
 S.Kroytor Gaz-4 Refrigerated Truck
-Cooling_wagon_0
-Refrigerated Car (1929)
-Cooling_wagon_1
-Refrigerated Car (1952)
-Cooling_wagon_2
-Cannonball Refrigerated Boxcar
-DB_ADm101
-AD-101m
-DB_Apmz121
-APMZ 121 Passenger Car
-DB_Bm235
-BM-235 Passenger Car
-DB_BR103_1
-Haru "Bromine" 103
-DueWAG_GT6_motorwaggon
-W.A.G. GT-6
-DueWAG_GT6_tailwaggon
-W.A.G. GT-6 (End)
-E_423
-Sindor E-432 "Top Class"
-EM400_1
-Sindor EM-400
-EMD_E5A_Silver_Meteor
-EMD E5 "Silver Meteor"
-EMD_E5B_Silver_Comet
-EMD E5 "Silver Comet" (B Unit)
-Evil_DF-11
-DF-11
-Evil_P-100_(carriage)
-RVg P-100 (carriage)
-Evil_P-100_(front_engine)
-RVg P-100
-Evil_P-100_(mail)
-RVg P-100 (mail)
-Evil_P-100_(rear_engine)
-RVg P-100 (rear)
 Evil-Jitluen_67_Minibus
 Jitluen 67 Minibus
-Express_tender
-Albatross Tender
-Fishing_Boat_1
-MHz Fishing Trawler
 Fluid_trailer_0
 AJ Oil Trailer
 Fluid_trailer_1
@@ -718,20 +678,6 @@ Goods_trailer_3
 PMNV Rugged Goods Trailer
 Goods_Truck_0
 Mitsubishi FUSO Super Truck
-Haru-PlanV
-Plan V
-Haru-PlanV(rear)
-Plan V (rear)
-JNR_C11
-JNR C11
-JNR_C62
-JNR C62
-JNR_D51
-JNR D51
-JNR_DD51
-JNR DD51
-JNR_tender_S
-JNR Tender (D51;C62)
 Kord_TT_bulk
 Kord TT
 Kord_TT_grain
@@ -744,12 +690,6 @@ Mack_Truck_Post_Trailer
 Mail Trailer (International;Mack;Peterbilt)
 Mail_Truck_2
 Renault Esprit Mail Van
-Marks_Passagierwagen
-MJHN "Express" Passenger Car
-Marks_Postwagen
-MJHN "Express" Mail Car
-Marks-Deltic
-MJHN "Deltic"
 MHz_Grain_Trailer_0
 Grain Trailer (Tractor)
 MHz_Long_Wood_Trailer
@@ -758,28 +698,6 @@ MHz_Tractor
 1927 Tractor
 MHz_Tractor_2
 1964 Tractor
-MHz_TRAM_1930
-T-113
-MHz_TRAM_1980
-T-235 "SuperCity"
-MHz-C11C_Bulk_Barge
-C11C Bulk Barge
-MHz-C273U_Cement_Barge
-C273U Cement Barge
-MHz-C35_Goods_Barge
-C35 Goods Barge
-MHz-C3P_Post_Barge
-C3P Mail Barge
-MHz-CC47_Container_Barge
-CC47 Container Ship
-MHz-MT7_Milk_Barge
-MT7 Milk Barge
-MHz-OT5_Oil_Barge
-OT5 Oil Barge
-MHz-P11C_Bulk_Boat
-P11C Bulk Boat
-MHz-R2A_Push-Tug
-R2A Push Tug
 Milk_Truck_0
 Milk Truck (1995)
 Milk_Truck_1
@@ -860,40 +778,124 @@ PMNV_Post_Trailer_0
 Mail Trailer (1985)
 PMNV_Steel_Trailer_0
 Steel Trailer (1927)
-PMNV_TC-119-Snake
-TC-119 "Snake"
-PMNV_TC-119-Snake_b
-TC-119 "Snake" (End)
-PMNV_TC-44-Hydrogen_Car
-TC-44 Hydrogen Vehicle
-PMNV_TC-44-Hydrogen_Car_b
-TC-44 Hydrogen Vehicle (End)
-PMNV_TC-7_Astro_Trolley
-TC-7 "AstroTrolley"
 PMNV-PB1970
 Peterbilt Truck (1970)
-PMNV-TC-1_Turbo_Car
-TC-1 "TurboCar"
-PMNV-TC-112-Hyper_Car
-TC-112 "HyperCar"
-PMNV-TC-2_Turbo_Set
-TC-2 "TurboSet"
-PMNV-TC-2_Turbo_Set_b
-TC-2 "TurboSet" B
-PMNV-TC-2_Turbo_Set_c
-TC-2 "TurboSet" (End)
-PMNV-TC-5P_Mail_Man
-TC-5P
-Post_Barge
-Mail Boat (1928)
-Post_waggon_0
-PV-80 Mail Car
-Postwagen
-Mail Car (1944)
 Praga_Bus
 Praga Bus (1919)
 Praga_N_bulk
 Sindor Bulk Truck (1930)
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+1Benst134
+Bennhardt B-134 "Pixie"
+1Benst135t
+Bennhardt B-135 "Gremlin"
+1Benst138
+Bennhardt B-138 "Apple pie"
+1Benst162t
+Bennhardt B-162 "Jet"
+1Benst238
+Bennhardt B-238 "Frog"
+1Dampflokomotive
+RVg 0-4-0T
+2Diesellokomotive
+H-Trans BR218
+3Bens186t
+Bennhardt B-186 "Lemon"
+3Dampflokomotive
+RVg 0-3-0 "Chippy"
+Autotransportwagen
+Automobile Rack
+Big_Bretterwagen
+RVg Plank Car
+Bretterwagen
+Lumber Car
+Budd_Coach
+"Bud" Passenger Coach
+Budd_Observation
+"Budd" End Car
+Budd_RPO
+"Budd" Mail Car
+Car_Waggon_1
+RVg Auto Rack
+Car_Waggon_2
+RVg Large Car Carrier
+CB_ALBATROS
+Skoda 498 "Albatross"
+CB_DB-130_8
+BRAW-61000 "Taiga Drum"
+Cement_Carrier_Fast
+Cement Globule Car
+Cement_Waggon_0
+PMNV Cement Globule Car
+Cement_Waggon_1
+PMNV Cement Car
+Cementwagen
+Cement Hopper Car
+CKD_749
+CKD-749
+CKD_750
+CKD-750
+Concretewagen
+PMNV Concrete Mixer 12
+Concretewagen_1
+PMNV Concrete Mixer 16
+Cooling_wagon_0
+Refrigerated Car (1929)
+Cooling_wagon_1
+Refrigerated Car (1952)
+Cooling_wagon_2
+Cannonball Refrigerated Boxcar
+DB_ADm101
+AD-101m
+DB_Apmz121
+APMZ 121 Passenger Car
+DB_Bm235
+BM-235 Passenger Car
+DB_BR103_1
+Haru "Bromine" 103
+E_423
+Sindor E-432 "Top Class"
+EMD_E5A_Silver_Meteor
+EMD E5 "Silver Meteor"
+EMD_E5B_Silver_Comet
+EMD E5 "Silver Comet" (B Unit)
+Evil_DF-11
+DF-11
+Evil_P-100_(carriage)
+RVg P-100 (carriage)
+Evil_P-100_(front_engine)
+RVg P-100
+Evil_P-100_(mail)
+RVg P-100 (mail)
+Evil_P-100_(rear_engine)
+RVg P-100 (rear)
+Express_tender
+Albatross Tender
+Haru-PlanV
+Plan V
+Haru-PlanV(rear)
+Plan V (rear)
+JNR_C11
+JNR C11
+JNR_C62
+JNR C62
+JNR_D51
+JNR D51
+JNR_DD51
+JNR DD51
+JNR_tender_S
+JNR Tender (D51;C62)
+Marks_Passagierwagen
+MJHN "Express" Passenger Car
+Marks_Postwagen
+MJHN "Express" Mail Car
+Marks-Deltic
+MJHN "Deltic"
+Post_waggon_0
+PV-80 Mail Car
+Postwagen
+Mail Car (1944)
 RVg_Daylight
 RVg "Daylight" Steamer
 RVg_Daylight_dome
@@ -906,15 +908,55 @@ RVg_Daylight_tender
 RVg "Daylight" Tender
 RVg_Daylight_waggon
 RVg "Daylight" Passenger Car
-#______________________________________way______________________________________
-#______________________________________way______________________________________
+#_____________________________vehicle - tram_track______________________________
+#_____________________________vehicle - tram_track______________________________
+DueWAG_GT6_motorwaggon
+W.A.G. GT-6
+DueWAG_GT6_tailwaggon
+W.A.G. GT-6 (End)
+EM400_1
+Sindor EM-400
+MHz_TRAM_1930
+T-113
+MHz_TRAM_1980
+T-235 "SuperCity"
+#________________________________vehicle - water________________________________
+#________________________________vehicle - water________________________________
+Fishing_Boat_1
+MHz Fishing Trawler
+MHz-C11C_Bulk_Barge
+C11C Bulk Barge
+MHz-C273U_Cement_Barge
+C273U Cement Barge
+MHz-C35_Goods_Barge
+C35 Goods Barge
+MHz-C3P_Post_Barge
+C3P Mail Barge
+MHz-CC47_Container_Barge
+CC47 Container Ship
+MHz-MT7_Milk_Barge
+MT7 Milk Barge
+MHz-OT5_Oil_Barge
+OT5 Oil Barge
+MHz-P11C_Bulk_Boat
+P11C Bulk Boat
+MHz-R2A_Push-Tug
+R2A Push Tug
+Post_Barge
+Mail Boat (1928)
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 air_movement_area
 Taxiway
-Powerline
-High-Power Transmission Line
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
 Schwebebahn_p_ground
 Suspended Train Track Ground Bridge
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+Powerline
+High-Power Transmission Line
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
 trolleybus_catenary
 Trolleybus Catenary

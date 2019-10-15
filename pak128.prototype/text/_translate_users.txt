@@ -30,6 +30,7 @@ Ranran
 Tajia
 Tjoeker
 VaclavMacurek   - Václav Macůrek
+Ves             - Victor Sørensen
 Woratiklis      - Woratiklis
 albert.yuste    - Albert Ruiz                 note: Albert Ruiz - Zeno
 alekcxjo        - Alexandre Raymond
@@ -37,6 +38,7 @@ gebeine                                       note: maintainer PAK128.german
 gwalch
 jamespetts      - James E. Petts              note: Maintainer for Simutrans-Experimental. Also works on Pak128.Britain.
 jk271           - Honza Kobel
+margaret
 milko
 paintree
 pasichna

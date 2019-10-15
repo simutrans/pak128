@@ -9,121 +9,33 @@
 #                              Language: fi Suomi                              #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 31.05 2019                           #
+#                           Date Created: 15.10 2019                           #
 #                                                                              #
 ################################################################################
-#____________________________________bridge_____________________________________
-#____________________________________bridge_____________________________________
-PowerBridge
-Voimalinjasilta
+#____________________________bridge - monorail_track____________________________
+#____________________________bridge - monorail_track____________________________
 Schwebebahn_p_bridge
 Monorail (silta)
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
+PowerBridge
+Voimalinjasilta
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
 water_bridge
 Akvedukti
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-01_CITY
-Kaupungintalo
-01_CITY_1
-Kaupungintalo
-02_CITY
-Kaupungintalo
-02_CITY_1
-Kaupungintalo
-03_CITY
-Kaupungintalo
-03_CITY_1
-Kaupungintalo
-04_CITY
-Kaupungintalo
-04_CITY_1
-Kaupungintalo
-05_CITY
-Kaupungintalo
-05_CITY_1
-Kaupungintalo
-1920_AirDepot
-Hangaari (1920)
-1930AirDepot
-Puinen hangaari (1930)
-1940AirDepot
-Peltihangaari (1940)
-1950AirDepot
-Betonihangaari (1950)
-1990AirDepot
-Hangaari
-ABBYS_0
-Luostari\n\nTämä Luostari on hyvin tunnettu\nsen syvistä kaivoista sen\nmolemmissa torneissa.\nLegendan mukaan nämä kaivot\non pohjattomia. On ihmeellistä\nkuinka moni ihminen tulee\ntänne ja haluaan nähdä nämä\ntaika kaivot. 50 mertiä\nalempana äänettömästi\npatjalle putoavat kolikot\nlisäsivät luostarin budjettia\nniin, että he pystyivät kunnostamaan\nluostarin.\n
-Airport1920_AirportBlg
-Lentoterminaali (1920)
-Airport1930PostOffice
-Lentopostitoimisto
-Airport1990_Big_AirportBlg
-Lentoterminaali (1990)
-Airport1990_Entrance_AirportBlg
-Lentokentän sisäänkäynti
-Airport1990_Gates_AirportBlg
-Matkustajasilta
-Airport1990_PostOffice
-Lentopostitoimisto
-Airport1990_Small_AirportBlg
-Pieni moderni matkustaterminaali
-Airport1990_Warehouse
-Moderni rahtiterminaali
-AirStop_AirportBlg
-Lentokoneen lastausalue
-Almuthof_StationBlg
-Rautatieasema
-Avila_Big_StationBlg
-Suuri matkustaja-asemarakennus
-Avila_Small_StationBlg
-Pieni matkustaja-asemarakennus
-Avila_Warehouse_StationBlg
-Varastorakennus
-big_classic_bus_stop
-Suuri bussipysäkki
-big_modern_bus_stop
-Suuri moderni bussipysäkki
-BigTerminal1950_AirportBlg_S
-Suuri matkustajaterminaali (1950)
-Bulk_Dock
-Raaka-aine laituri
-Bulk_StationBlg
-Raaka-aine varasto
-bus_terminus
-Modermi bussiterminaali
-canal_ChannelStop
-Kanavalaituri (matkustaja&posti)
-canal_ware_stop
-Kanavalaituri (rahti)
-Car_StationBlg
-Autoparkki
-CarDepot
-Autovarikko
 CarStop
 Lastaus-alue
-CASTLE_0
-Linna\n\nTämä linna kuului Kuningas Napikille.\nSuuri osa siitä tuhoutui suuren\nsodan aikana, mutta se\nrakennettiin uudelleen\n1800-luvulla, ja nyt toimii\nmuseona.\n
-CHURCH_02
-Pinkki Kirkko
-CHURCH_03
-Kirkko\n\nTämä on kuuluisa kirkko, joka\nhoukuttelee turisteja\nkauempaakin. \n\n
-CHURCH_04
-Synagooga\n\n
-CHURCH_05
-Pyhän Mikaelin kirkko\n\nTämä arkitektuurinen aarre\nrakennettiin 1800-luvulla. Siinä\non peltikatto jonka on\nsuunnitellur Alexander Gustavus\nEiffel.\n\n
-CHURCH_06
-Kirkko\n\n Tyypillinen pienen taajaman kirkko.\n\n
-CIRCUS_0
-Sirkus Humberto\n\n
-CIVILIAN_RADAR
-Tutka\n\n
-classic_mailbox
-Postilaatikko
-ClosedTrainStop
-Katettu asemalaituri
-CoalTrainStop
-Hiiliasema
+MonorailGround
+Monorail-perustus
+ShipStop
+Satama
+TrainStop
+Junapysäkki
+#________________________________building - com_________________________________
+#________________________________building - com_________________________________
 COM_00_01
 Esikoulu\n\n
 COM_00_02
@@ -150,16 +62,166 @@ COM_05_23
 Moderni toimistotalo\n\n
 COM_06_60
 Tämän talon on omistanut\nitselleen Mika "Lahha"\nKatajamäki, joka auttoi\nsuomen kielisten käännöksien\nkanssa.\n\n
-Container1TrainStop
-Konttiasema
-Container2TrainStop
-Kontti asema
+#________________________________building - cur_________________________________
+#________________________________building - cur_________________________________
+ABBYS_0
+Luostari\n\nTämä Luostari on hyvin tunnettu\nsen syvistä kaivoista sen\nmolemmissa torneissa.\nLegendan mukaan nämä kaivot\non pohjattomia. On ihmeellistä\nkuinka moni ihminen tulee\ntänne ja haluaan nähdä nämä\ntaika kaivot. 50 mertiä\nalempana äänettömästi\npatjalle putoavat kolikot\nlisäsivät luostarin budjettia\nniin, että he pystyivät kunnostamaan\nluostarin.\n
+CASTLE_0
+Linna\n\nTämä linna kuului Kuningas Napikille.\nSuuri osa siitä tuhoutui suuren\nsodan aikana, mutta se\nrakennettiin uudelleen\n1800-luvulla, ja nyt toimii\nmuseona.\n
+CHURCH_02
+Pinkki Kirkko
+CHURCH_03
+Kirkko\n\nTämä on kuuluisa kirkko, joka\nhoukuttelee turisteja\nkauempaakin. \n\n
+CHURCH_04
+Synagooga\n\n
+CHURCH_05
+Pyhän Mikaelin kirkko\n\nTämä arkitektuurinen aarre\nrakennettiin 1800-luvulla. Siinä\non peltikatto jonka on\nsuunnitellur Alexander Gustavus\nEiffel.\n\n
+CHURCH_06
+Kirkko\n\n Tyypillinen pienen taajaman kirkko.\n\n
+CIRCUS_0
+Sirkus Humberto\n\n
+CIVILIAN_RADAR
+Tutka\n\n
+ELEMENTARY_SCHOOL_1
+Ala-aste\n\nTäällä lapset saavat ensimmäisen\nkosketuksensa koulutuksen\nmaailmaan.\n\n
+ELEMENTARY_SCHOOL_2
+Ylä-aste\n\n
+Firestation
+Paloasema\n\n
+FORT_FUN
+Lännenkylä\n\n
+FUTURISTIC_TOWER_0
+Näköalatorni\n\n
+GREEN_HOUSE
+Kasvihuone\n\n
+HIGH_SCHOOL_1
+Yliopisto\n\n
+JUSTICE
+Käräjäoikeus
+Lighthouse_0
+Majakka\n\nKun majakat rakennettiin\nSimumaailmaan, merenkäynnistä\ntuli helpompaa ja turvallisempaa.\n\nMoni ihminen haluaa\nkäydä täällä ja\nkatsella aaltojen lyömistä rantaan.
+MARKET_PLACE_0
+Markkinat\n\n
+Old_gate
+Vanha kaupunginportti
+RADIO_TOWER_0
+Pälä pälä FM radio asema\n\n
+RUIN_0
+Keskiaikainen linna\n\nTämä linna raunioitui 400 vuotta\nsitten, mutta osa siitä on\nuudelleen rakennettu, ja se\ntoimii nykyään museona.\nNäkymät ovat fantastisia,\nmutta ne nähdäkseen täytyy\nkiivetä aivan liian monta porrasta.\n
+st_benedict_church
+Pyhän Benediktuksen kirkko\n\n
+ST_PETER
+Myöhäisromaaninen Pyhän\nPietarin kirkko vuodelta 1220. \n\n
+TRIUMPH
+Riemukaari keisari Napikin\najalta.\n\n
+TV_TOWER_0
+TV-linkkitorni\n\n
+Windmill
+Tuulimylly\n\n
+WOODEN_CHURCH
+Puinen kirkko\n\n This Wooden Church was built\nby the Hamish people.\n\n
+#_______________________________building - depot________________________________
+#_______________________________building - depot________________________________
+1920_AirDepot
+Hangaari (1920)
+1930AirDepot
+Puinen hangaari (1930)
+1940AirDepot
+Peltihangaari (1940)
+1950AirDepot
+Betonihangaari (1950)
+1990AirDepot
+Hangaari
+CarDepot
+Autovarikko
+MonorailDepot
+Monorail-talli
+ShipDepot
+Telakka
+TrainDepot
+Junavarikko
+TramDepot
+Raitiovaunuvarikko
+#_____________________________building - extension______________________________
+#_____________________________building - extension______________________________
+Airport1920_AirportBlg
+Lentoterminaali (1920)
+Airport1930PostOffice
+Lentopostitoimisto
+Airport1990_Big_AirportBlg
+Lentoterminaali (1990)
+Airport1990_Entrance_AirportBlg
+Lentokentän sisäänkäynti
+Airport1990_Gates_AirportBlg
+Matkustajasilta
+Airport1990_PostOffice
+Lentopostitoimisto
+Airport1990_Small_AirportBlg
+Pieni moderni matkustaterminaali
+Airport1990_Warehouse
+Moderni rahtiterminaali
+Almuthof_StationBlg
+Rautatieasema
+Avila_Big_StationBlg
+Suuri matkustaja-asemarakennus
+Avila_Small_StationBlg
+Pieni matkustaja-asemarakennus
+Avila_Warehouse_StationBlg
+Varastorakennus
+BigTerminal1950_AirportBlg_S
+Suuri matkustajaterminaali (1950)
+Bulk_StationBlg
+Raaka-aine varasto
+Car_StationBlg
+Autoparkki
 Control_StationBlg
 Valvontatorni
-Crate_Goods_Dock
-Rahtilaituri
 CunnersdorfStopBlg
 Pieni rautatieasema
+Fluid_StationBlg
+Öljysäiliö
+Gas_StationBlg
+Kaasusäiliö
+Goods_StationBlg
+Kappaletavara-asema
+Modern_Warehouse
+Moderni varasto
+ModernPostOffice
+Moderni postitoimisto
+PostOffice
+Posti toimisto
+Terminal1930_AirportBlg
+Pieni terminaali
+Terminal1950_AirportBlg_S
+Pieni terminaali
+Tower1920_AirportBlg
+Lennonjohtotorni
+Tower1930_AirportBlg
+Lennonjohtotorni
+Tower1950_AirportBlg
+Lennonjohtotorni
+Tower1990_AirportBlg
+Lennonjohtotorni
+Very_Big_Terminal
+Valtava terminaali (3x3)
+VictorianStation
+Viktoriaaninen asema
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+Bulk_Dock
+Raaka-aine laituri
+Crate_Goods_Dock
+Rahtilaituri
+Long_Goods_Dock
+Puutavara laituri
+Post_Dock
+Laivaposti toimisto
+#_________________________________building - hq_________________________________
+#_________________________________building - hq_________________________________
+HQ1
+Päämaja
+#________________________________building - mon_________________________________
+#________________________________building - mon_________________________________
 DenkFlor
 DenkFlor  Tämä monumentti\non omistettu Flor 'WF Ultd.'\nWautersille, kuuluisalle\ninsinöörille, joka loi monia\nerinomaisia tie ja rautatie\nkulkuneuvoja. Hän on myös\ntunnettu monien hyvintoimivien\ntehtaiden suunnittelusta.\n
 DenkGeorg
@@ -182,60 +244,8 @@ DenkVM
 DenkVM  Tämä monumentti on\nomistettu Manfred 'VT Vienna'\nTomaschitzille, kuuluisallee\ninsinöörille, joka suunnitteli\nerittäin hyviä\nrautatiekulkuneuvoja.\n\n
 DenkVolker
 DenkVolker  Tämän Stupan \nrakensi Volker Meyer, joka\nparansi Simutransia monilta,\nmonilta alueilta.\n\n
-ELEMENTARY_SCHOOL_1
-Ala-aste\n\nTäällä lapset saavat ensimmäisen\nkosketuksensa koulutuksen\nmaailmaan.\n\n
-ELEMENTARY_SCHOOL_2
-Ylä-aste\n\n
-Firestation
-Paloasema\n\n
-Fluid_StationBlg
-Öljysäiliö
-FORT_FUN
-Lännenkylä\n\n
-FreightTrainStop
-Rahtijunapysäkki
-FUTURISTIC_TOWER_0
-Näköalatorni\n\n
-Gas_StationBlg
-Kaasusäiliö
-Goods_StationBlg
-Kappaletavara-asema
-GREEN_HOUSE
-Kasvihuone\n\n
-HIGH_SCHOOL_1
-Yliopisto\n\n
-HQ1
-Päämaja
-JUSTICE
-Käräjäoikeus
-Lighthouse_0
-Majakka\n\nKun majakat rakennettiin\nSimumaailmaan, merenkäynnistä\ntuli helpompaa ja turvallisempaa.\n\nMoni ihminen haluaa\nkäydä täällä ja\nkatsella aaltojen lyömistä rantaan.
-Long_Goods_Dock
-Puutavara laituri
-MARKET_PLACE_0
-Markkinat\n\n
-medium_classic_bus_stop
-Bussi pysäkki
-Modern_Warehouse
-Moderni varasto
-ModernPostOffice
-Moderni postitoimisto
-MonorailDepot
-Monorail-talli
-MonorailGround
-Monorail-perustus
-Old_gate
-Vanha kaupunginportti
-OpenTrainStop
-Juna laituri
-parking_(catchemnt_area_ext)3
-Parkkeerausalue
-Post_Dock
-Laivaposti toimisto
-PostOffice
-Posti toimisto
-RADIO_TOWER_0
-Pälä pälä FM radio asema\n\n
+#________________________________building - res_________________________________
+#________________________________building - res_________________________________
 RES_01_10
 Moderni talo\n
 RES_01_12
@@ -250,52 +260,66 @@ RES_01_23
 Tämän talon on omistanut\nitselleen Mika "Lahha"\nKatajamäki, joka auttoi\nsuomenkielisten käännöksien\nkanssa.\n
 RES_02_20
 Viiden tähden hotelli\n
-RUIN_0
-Keskiaikainen linna\n\nTämä linna raunioitui 400 vuotta\nsitten, mutta osa siitä on\nuudelleen rakennettu, ja se\ntoimii nykyään museona.\nNäkymät ovat fantastisia,\nmutta ne nähdäkseen täytyy\nkiivetä aivan liian monta porrasta.\n
-ShipDepot
-Telakka
-ShipStop
-Satama
+#________________________________building - stop________________________________
+#________________________________building - stop________________________________
+AirStop_AirportBlg
+Lentokoneen lastausalue
+big_classic_bus_stop
+Suuri bussipysäkki
+big_modern_bus_stop
+Suuri moderni bussipysäkki
+bus_terminus
+Modermi bussiterminaali
+canal_ChannelStop
+Kanavalaituri (matkustaja&posti)
+canal_ware_stop
+Kanavalaituri (rahti)
+classic_mailbox
+Postilaatikko
+ClosedTrainStop
+Katettu asemalaituri
+CoalTrainStop
+Hiiliasema
+Container1TrainStop
+Konttiasema
+Container2TrainStop
+Kontti asema
+FreightTrainStop
+Rahtijunapysäkki
+medium_classic_bus_stop
+Bussi pysäkki
+OpenTrainStop
+Juna laituri
+parking_(catchemnt_area_ext)3
+Parkkeerausalue
 small_classic_bus_stop
 Bussipysäkki
-st_benedict_church
-Pyhän Benediktuksen kirkko\n\n
-ST_PETER
-Myöhäisromaaninen Pyhän\nPietarin kirkko vuodelta 1220. \n\n
 Suspended_Monorail_Bahnhof_Modern
 Monorail-asema
-Terminal1930_AirportBlg
-Pieni terminaali
-Terminal1950_AirportBlg_S
-Pieni terminaali
-Tower1920_AirportBlg
-Lennonjohtotorni
-Tower1930_AirportBlg
-Lennonjohtotorni
-Tower1950_AirportBlg
-Lennonjohtotorni
-Tower1990_AirportBlg
-Lennonjohtotorni
-TrainDepot
-Junavarikko
-TrainStop
-Junapysäkki
-TramDepot
-Raitiovaunuvarikko
-TRIUMPH
-Riemukaari keisari Napikin\najalta.\n\n
-TV_TOWER_0
-TV-linkkitorni\n\n
-Very_Big_Terminal
-Valtava terminaali (3x3)
-VictorianStation
-Viktoriaaninen asema
 VillageTrainStop
 Kyläpysäkki
-Windmill
-Tuulimylly\n\n
-WOODEN_CHURCH
-Puinen kirkko\n\n This Wooden Church was built\nby the Hamish people.\n\n
+#________________________________building - tow_________________________________
+#________________________________building - tow_________________________________
+01_CITY
+Kaupungintalo
+01_CITY_1
+Kaupungintalo
+02_CITY
+Kaupungintalo
+02_CITY_1
+Kaupungintalo
+03_CITY
+Kaupungintalo
+03_CITY_1
+Kaupungintalo
+04_CITY
+Kaupungintalo
+04_CITY_1
+Kaupungintalo
+05_CITY
+Kaupungintalo
+05_CITY_1
+Kaupungintalo
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -522,10 +546,18 @@ Poista Monorail-raiteet
 #__________________________________record_text__________________________________
 New world record for monorails: %.1f km/h by %s.
 Uusi nopeusennätys\nmonorail-junille: %.1f km/h\n(%s).
-#___________________________________roadsign____________________________________
-#___________________________________roadsign____________________________________
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
 airport_oneway
 Yksisuuntainen kiitorata
+#___________________________roadsign - monorail_track___________________________
+#___________________________roadsign - monorail_track___________________________
+choose_signal_monorail
+Yksiraideaseman valinta -osoitin
+preSignal_Monorail
+Esiopastin (Monorail)
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
 autobahn_classic_entrance
 Moottoritieramppi (sisään)
 autobahn_classic_exit
@@ -536,8 +568,14 @@ autobahn_modern_exit
 Moottoritieramppi (ulos)
 choose_point
 Aseman valinta -osoitin
-choose_signal_monorail
-Yksiraideaseman valinta -osoitin
+Minimum80
+Miniminopeus 80
+NoEntry
+Kielletty ajosuunta
+traffic_light
+Liikennevalo
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
 ChooseSignals
 Aseman valinta -osoitin
 Classic_ChooseSignals_right
@@ -560,8 +598,6 @@ EndOfChooseSignals
 Aseman valinta loppuu -osoitin
 LongSignals
 Pitkälohko-osoitin (standardi)
-Minimum80
-Miniminopeus 80
 Modern_ChooseSignals_right
 Aseman valinta -osoitin (moderni)
 Modern_EndOfChooseSignals_right
@@ -574,16 +610,10 @@ Modern_preSignals_right
 Esiosoitin (moderni)
 Modern_Signals_right
 Osoitin (moderni)
-NoEntry
-Kielletty ajosuunta
-preSignal_Monorail
-Esiopastin (Monorail)
 preSignals
 Esiopastin
 Signals
 Osoitin (standardi)
-traffic_light
-Liikennevalo
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 palm011
@@ -594,40 +624,42 @@ tree100
 Lehtikuusi\n\n
 tree110
 Lehtikuusi\n\n
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-1Benst134
-Bennhardt B-134 "Pixie"
-1Benst135t
-Bennhardt B-135 "Riiviö"
-1Benst138
-Bennhardt B-138 "Omenapiiras"
-1Benst162t
-Bennhardt B-162 "Jetti"
-1Benst238
-Bennhardt B-238 "Sammakko"
-1Dampflokomotive
-RVg 0-4-0T
-2Diesellokomotive
-H-Trans BR218
-3Bens186t
-Bennhardt B-186 "Sitruuna"
-3Dampflokomotive
-RVg 0-3-0 "Chippy"
+#___________________________vehicle - monorail_track____________________________
+#___________________________vehicle - monorail_track____________________________
+PMNV-TC-1_Turbo_Car
+PMNV-TC-1 Matkustajavaunu
+PMNV-TC-112-Hyper_Car
+PMNV-TC-112 monorail juna
+yoshi_wup01
+Yoshi monorailveturi
+yoshi_wup02
+Yoshi monorailvaunu
+yoshi_wup03
+Yoshi monorail (viimeinen vaunu)
+yoshi_wup1900
+Yoshi monorailvaunu (1900)
+yoshi_wup1950
+Yoshi monorailvaunu (1950)
+yoshi_wup196201
+Yoshi monorailveturi (1962)
+yoshi_wup196202
+Yoshi monorailvaunu (1962)
+yoshi_wup196203
+Yoshi monorail (viimeinen vaunu, 1962)
+yoshi_wup196501
+Yoshi monorailveturi (1965)
+yoshi_wup196502
+Yoshi monorailvaunu (1965)
+yoshi_wup196503
+Yoshi monorail (viimeinen vaunu, 1965)
+#________________________________vehicle - road_________________________________
+#________________________________vehicle - road_________________________________
 Airport_express_shuttle
 Lentokenttäbussi
-Autotransportwagen
-Napik Cannonball Autonkuljetusvaunu
 BB-TS_Milk_Mack_Trailer
 BlacBox-TS Maitovaunu
-Big_Bretterwagen
-RVg tukkivaunu
 Big_Erztruck
 Suuri rautamalmirekka
-Bretterwagen
-VT Vienna lautavaunu
-Budd_Coach
-Budd matkustajavaunu
 Bulk_trailer_0
 Raaka-aine perävaunu
 Bulk_Truck_0
@@ -640,32 +672,14 @@ Car_Tramsport_Trailer_0
 TS Autojen kuljetus perävaunu
 Car_Transporter_0
 Teddy's Autojen kuljetus rekka
-CB_ALBATROS
-RVg Skoda 498 "Albatrossi"
-CB_DB-130_8
-Canonball & H-Trans BRAW61000 "Taiga Drum"
-Cement_Carrier_Fast
-Sementtivaunu
 Cement_trailer_0
 PMNV-Sementtikärry
 Cement_Truck_0
 PMNV-Sementtirekka
-Cement_Waggon_0
-BB-PMNV Sementtivaunu
-Cement_Waggon_1
-BB-PMNV Sementtivaunu
-Cementwagen
-Sementtivaunu
-CKD_749
-CKD 749
-CKD_750
-CKD 750
 Concrete_Truck_0
 S.Kroytor Betoni auto
 Concrete_Truck_1
 VSYS- Tatra 815 Betoni auto
-Concretewagen
-Betonivaunu
 Cooling_trailer_0
 PMNV kylmä perävaunu
 Cooling_Truck_0
@@ -674,40 +688,8 @@ Cooling_Truck_1
 PMVN kylmä auto
 Cooling_Truck_2
 S. Kroytor Gaz-4 
-Cooling_wagon_0
-Kylmä vaunu
-Cooling_wagon_1
-Kylmävaunu
-Cooling_wagon_2
-Cannonball-kylmävaunu
-DB_ADm101
-Haru ADm101 matkustajavaunu
-DB_Apmz121
-Haru Apmz121 matkustajavaunu
-E_423
-Sindor E-432 - "Top class"
-EM400_1
-Sindor-FK EM400
-EMD_E5A_Silver_Meteor
-EMD E5A - Hopea Nuoli
-EMD_E5B_Silver_Comet
-EMD E5B - Hopea Komeetta
-Evil_DF-11
-Evil DF-11
-Evil_P-100_(carriage)
-RVg P-100 (matkustajavaunu)
-Evil_P-100_(front_engine)
-RVg P-100
-Evil_P-100_(mail)
-Evil P-100 Postivaunu
-Evil_P-100_(rear_engine)
-RVg P-100 (taka)
 Evil-Jitluen_67_Minibus
 Evil-Jitluen 67
-Express_tender
-Hiilivaunu
-Fishing_Boat_1
-MHz Troolari
 Fluid_trailer_0
 AJ öljysäiliöperävaunu
 Fluid_trailer_1
@@ -734,54 +716,8 @@ Goods_Truck_1
 Karl-Mitsubishi Fuso Hyper kappaletavararekka
 Goods_Truck_2
 PMNV kappaletavararekka
-Holzwagen
-H-Trans puutavaravaunu
-JNR_C11
-Nabe-JNR SL c11
-JNR_C62
-Nabe-JNR SL 62
-JNR_D51
-Nabe-JNR SL D51
-JNR_DD51
-Haru-JNR DD51
-JNR_tender_S
-Tenderi
-JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
-Shinanksen JR 700
-JR_700_Shinkansen_HRS_(Middle_Section)_PC
-Shinanksen JR 700 (vaunu)
-JR_700_Shinkansen_HRS_(Pantograph_I)_PC
-JR 700 Series Shinkansen HRS (sähköistys I)
-JR_700_Shinkansen_HRS_(Pantograph_II)_PC
-JR 700 Series Shinkansen HRS (sähköistys II)
-JR_700_Shinkansen_HRS_(Tailcar)_PC
-JR 700 Series Shinkansen HRS (perä)
-Passagierwagen
-H-Trans matkustajavaunu
 PMNV-PB1970
 PMNV-PB1970 Vetoauto
-PMNV-TC-1_Turbo_Car
-PMNV-TC-1 Matkustajavaunu
-PMNV-TC-112-Hyper_Car
-PMNV-TC-112 monorail juna
-Postwagen
-H-Trans postivaunu
-RVg_Daylight
-RVg Päivänvalo (Veturi)
-RVg_Daylight_dome
-RVg Päivänvalo ruokailuvaunu
-RVg_Daylight_end
-RVg Päivänvalo (taka)
-RVg_Daylight_post
-RVg Päivänvalo postivaunu
-RVg_Daylight_tender
-RVg Päivänvalo hiilivaunu
-RVg_Daylight_waggon
-RVg Päivänvalo matkustajavaunu
-RVg_Flying_Berliner_(front)
-RVg "Lentävä Berliniläinen" (Etu)
-RVg_Flying_Berliner_(tail)
-RVg "Lentävä Berliniläinen" (taka)
 S_Kroytor_Gaz-2
 S.Kroytor Gaz-2 bussi
 S_Kroytor_Gaz-3
@@ -808,10 +744,160 @@ S_Kroytor_PAZ-772
 S.Kroytor PAZ-772 bussi
 S_Kroytor_Traveler
 S.Kroytor Traveler turistibussi
-Stahlwagen
-VT Vienna teräsvaunu
 Steel_Truck_0
 PMNV Bed teräsrekka
+TS_Mack_Bulk_Trailer_0
+TS-Mack kevyt bulkkitavaraperävaunu
+Vitus-AVECO_Eurocargo_Bretter
+Vitus-Aveco Eurocargo (lankkurekka)
+Vitus-AVECO_Eurocargo_bulk_transporter
+Vitus-Aveco Eurocargo (bulkkirekka)
+Vitus-AVECO_Eurocargo_freezing
+Vitus-Aveco Eurocargo kylmärekka
+Vitus-AVECO_Eurocargo_tanker
+Vitus-Aveco Eurocargo tankkiauto
+Vitus-AVECO_Eurocargo_transporter
+Vitus-Aveco Eurocargo (kappaletavara)
+VSYS_Car_Trailer_0
+VSYS raskas autoperävaunu
+VSYS_Concrete_Trailer_0
+VSYS betonielementtiperävaunu
+Wood_Trailer_0
+VSYS tukkivaunu
+Wood_Truck_0
+Shorty-Volvo tukkirekka
+Wood_Truck_1
+Ford V8 coe tukkirekka
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+1Benst134
+Bennhardt B-134 "Pixie"
+1Benst135t
+Bennhardt B-135 "Riiviö"
+1Benst138
+Bennhardt B-138 "Omenapiiras"
+1Benst162t
+Bennhardt B-162 "Jetti"
+1Benst238
+Bennhardt B-238 "Sammakko"
+1Dampflokomotive
+RVg 0-4-0T
+2Diesellokomotive
+H-Trans BR218
+3Bens186t
+Bennhardt B-186 "Sitruuna"
+3Dampflokomotive
+RVg 0-3-0 "Chippy"
+Autotransportwagen
+Napik Cannonball Autonkuljetusvaunu
+Big_Bretterwagen
+RVg tukkivaunu
+Bretterwagen
+VT Vienna lautavaunu
+Budd_Coach
+Budd matkustajavaunu
+CB_ALBATROS
+RVg Skoda 498 "Albatrossi"
+CB_DB-130_8
+Canonball & H-Trans BRAW61000 "Taiga Drum"
+Cement_Carrier_Fast
+Sementtivaunu
+Cement_Waggon_0
+BB-PMNV Sementtivaunu
+Cement_Waggon_1
+BB-PMNV Sementtivaunu
+Cementwagen
+Sementtivaunu
+CKD_749
+CKD 749
+CKD_750
+CKD 750
+Concretewagen
+Betonivaunu
+Cooling_wagon_0
+Kylmä vaunu
+Cooling_wagon_1
+Kylmävaunu
+Cooling_wagon_2
+Cannonball-kylmävaunu
+DB_ADm101
+Haru ADm101 matkustajavaunu
+DB_Apmz121
+Haru Apmz121 matkustajavaunu
+E_423
+Sindor E-432 - "Top class"
+EMD_E5A_Silver_Meteor
+EMD E5A - Hopea Nuoli
+EMD_E5B_Silver_Comet
+EMD E5B - Hopea Komeetta
+Evil_DF-11
+Evil DF-11
+Evil_P-100_(carriage)
+RVg P-100 (matkustajavaunu)
+Evil_P-100_(front_engine)
+RVg P-100
+Evil_P-100_(mail)
+Evil P-100 Postivaunu
+Evil_P-100_(rear_engine)
+RVg P-100 (taka)
+Express_tender
+Hiilivaunu
+Holzwagen
+H-Trans puutavaravaunu
+JNR_C11
+Nabe-JNR SL c11
+JNR_C62
+Nabe-JNR SL 62
+JNR_D51
+Nabe-JNR SL D51
+JNR_DD51
+Haru-JNR DD51
+JNR_tender_S
+Tenderi
+JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
+Shinanksen JR 700
+JR_700_Shinkansen_HRS_(Middle_Section)_PC
+Shinanksen JR 700 (vaunu)
+JR_700_Shinkansen_HRS_(Pantograph_I)_PC
+JR 700 Series Shinkansen HRS (sähköistys I)
+JR_700_Shinkansen_HRS_(Pantograph_II)_PC
+JR 700 Series Shinkansen HRS (sähköistys II)
+JR_700_Shinkansen_HRS_(Tailcar)_PC
+JR 700 Series Shinkansen HRS (perä)
+Passagierwagen
+H-Trans matkustajavaunu
+Postwagen
+H-Trans postivaunu
+RVg_Daylight
+RVg Päivänvalo (Veturi)
+RVg_Daylight_dome
+RVg Päivänvalo ruokailuvaunu
+RVg_Daylight_end
+RVg Päivänvalo (taka)
+RVg_Daylight_post
+RVg Päivänvalo postivaunu
+RVg_Daylight_tender
+RVg Päivänvalo hiilivaunu
+RVg_Daylight_waggon
+RVg Päivänvalo matkustajavaunu
+RVg_Flying_Berliner_(front)
+RVg "Lentävä Berliniläinen" (Etu)
+RVg_Flying_Berliner_(tail)
+RVg "Lentävä Berliniläinen" (taka)
+Stahlwagen
+VT Vienna teräsvaunu
+Thunder_(front_engine)
+BB Thunder veturi
+Thunder_(mail)
+BB Thunder postivaunu
+Thunder_(rear_engine)
+BB Thunder viimeinen vaunu
+Thunder_(waggon)
+BB Thunder matkustajavaunu
+#_____________________________vehicle - tram_track______________________________
+#_____________________________vehicle - tram_track______________________________
+EM400_1
+Sindor-FK EM400
 T_101
 RVg T101 raitiovaunu
 T_102
@@ -840,75 +926,33 @@ T_110A
 RVg T110 - superraitiovaunu
 T_110B
 RVg T110 II superraitiovaunu
-Thunder_(front_engine)
-BB Thunder veturi
-Thunder_(mail)
-BB Thunder postivaunu
-Thunder_(rear_engine)
-BB Thunder viimeinen vaunu
-Thunder_(waggon)
-BB Thunder matkustajavaunu
-TS_Mack_Bulk_Trailer_0
-TS-Mack kevyt bulkkitavaraperävaunu
-Vitus-AVECO_Eurocargo_Bretter
-Vitus-Aveco Eurocargo (lankkurekka)
-Vitus-AVECO_Eurocargo_bulk_transporter
-Vitus-Aveco Eurocargo (bulkkirekka)
-Vitus-AVECO_Eurocargo_freezing
-Vitus-Aveco Eurocargo kylmärekka
-Vitus-AVECO_Eurocargo_tanker
-Vitus-Aveco Eurocargo tankkiauto
-Vitus-AVECO_Eurocargo_transporter
-Vitus-Aveco Eurocargo (kappaletavara)
-VSYS_Car_Trailer_0
-VSYS raskas autoperävaunu
-VSYS_Concrete_Trailer_0
-VSYS betonielementtiperävaunu
-Wood_Trailer_0
-VSYS tukkivaunu
-Wood_Truck_0
-Shorty-Volvo tukkirekka
-Wood_Truck_1
-Ford V8 coe tukkirekka
-yoshi_wup01
-Yoshi monorailveturi
-yoshi_wup02
-Yoshi monorailvaunu
-yoshi_wup03
-Yoshi monorail (viimeinen vaunu)
-yoshi_wup1900
-Yoshi monorailvaunu (1900)
-yoshi_wup1950
-Yoshi monorailvaunu (1950)
-yoshi_wup196201
-Yoshi monorailveturi (1962)
-yoshi_wup196202
-Yoshi monorailvaunu (1962)
-yoshi_wup196203
-Yoshi monorail (viimeinen vaunu, 1962)
-yoshi_wup196501
-Yoshi monorailveturi (1965)
-yoshi_wup196502
-Yoshi monorailvaunu (1965)
-yoshi_wup196503
-Yoshi monorail (viimeinen vaunu, 1965)
-#______________________________________way______________________________________
-#______________________________________way______________________________________
+#________________________________vehicle - water________________________________
+#________________________________vehicle - water________________________________
+Fishing_Boat_1
+MHz Troolari
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
 air_movement_area
 Asfalttirullaustie
-canal_030
-Kanava
+runway_modern
+Moderni kiitorata
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
+Suspended_Monorail_Track
+Monorail-rata
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
 Powerline
 Voimalinja
+#__________________________________way - water__________________________________
+#__________________________________way - water__________________________________
+canal_030
+Kanava
 river_0a
 Puro
 river_0b
 Joki
-runway_modern
-Moderni kiitorata
-Suspended_Monorail_Track
-Monorail-rata
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
 trolleybus_catenary
 Johdinauton virtajohdin
