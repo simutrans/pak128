@@ -23,10 +23,9 @@ Passenger_demand=20
 Passenger_boost=800
 
 Smoke=industry_smoke
-SmokeTile=0,0
-SmokeOffset=-42,-98
-# Tweak!
-SmokeSpeed=4
+SmokeTile[0]=0,1
+SmokeOffset[0]=-9,-67
+#SmokeUplift=0
 
 InputGood[0]=Kohle
 InputCapacity[0]=8000

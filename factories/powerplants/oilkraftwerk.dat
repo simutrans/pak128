@@ -9,9 +9,9 @@ Productivity=600
 Range=400
 
 Smoke=industry_smoke
-SmokeTile=0,0
-SmokeOffset=-5,-58
-SmokeSpeed=256
+SmokeTile[0]=0,1
+SmokeOffset[0]=27,-84
+#SmokeUplift=0
 
 Electricity_amount=800
 Electricity_boost=0

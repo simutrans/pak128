@@ -19,11 +19,6 @@ Mail_boost=200
 Passenger_demand=20
 Passenger_boost=500
 
-Smoke=industry_smoke
-SmokeTile=0,0
-SmokeOffset=-16,-6
-SmokeSpeed=96
-
 #total input 240
 InputGood[0]=Holz
 InputCapacity[0]=4500

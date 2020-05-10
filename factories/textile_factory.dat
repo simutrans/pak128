@@ -19,6 +19,11 @@ Mail_boost=200
 Passenger_demand=40
 Passenger_boost=500
 
+Smoke=industry_smoke
+SmokeTile[0]=0,0
+SmokeOffset[0]=21,-72
+#SmokeUplift=0
+
 # total wool input 660
 InputGood[0]=wool
 InputCapacity[0]=6600

@@ -16,6 +16,11 @@ Mail_boost=200
 Passenger_demand=100
 Passenger_boost=500
 
+Smoke=industry_smoke
+SmokeTile[0]=1,0
+SmokeOffset[0]=-2,-53
+#SmokeUplift=0
+
 #Average input total 1600t
 InputGood[0]=Oel
 InputCapacity[0]=12000

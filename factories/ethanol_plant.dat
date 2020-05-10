@@ -15,6 +15,11 @@ Mail_boost=200
 Passenger_demand=20
 Passenger_boost=500
 
+Smoke=industry_smoke
+SmokeTile[0]=0,1
+SmokeOffset[0]=-9,-68
+#SmokeUplift=0
+
 # average input 540 * 1.5 = 810t
 # supplies 2 modern gas stations
 

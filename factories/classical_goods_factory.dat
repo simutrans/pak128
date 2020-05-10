@@ -19,6 +19,11 @@ Mail_boost=200
 Passenger_demand=20
 Passenger_boost=500
 
+Smoke=industry_smoke
+SmokeTile[0]=0,2
+SmokeOffset[0]=-13,-80
+#SmokeUplift=0
+
 # plastik consumable input 400
 InputGood[0]=Plastik
 InputCapacity[0]=1500

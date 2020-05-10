@@ -20,9 +20,9 @@ Passenger_demand=20
 Passenger_boost=500
 
 Smoke=industry_smoke
-SmokeTile=1,0
-SmokeOffset=11,-59
-SmokeSpeed=128
+SmokeTile[0]=1,0
+SmokeOffset[0]=10,-70
+#SmokeUplift=0
 
 InputGood[0]=waste
 InputCapacity[0]=8000

@@ -18,6 +18,13 @@ Mail_boost=200
 Passenger_demand=20
 Passenger_boost=500
 
+Smoke=industry_smoke
+SmokeTile[0]=0,0
+SmokeOffset[0]=-4,-62
+SmokeTile[1]=0,0
+SmokeOffset[1]=4,-62
+#SmokeUplift=0
+
 #total input 560t
 InputGood[0]=grain
 InputCapacity[0]=3500

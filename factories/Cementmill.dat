@@ -20,9 +20,9 @@ Passenger_demand=20
 Passenger_boost=500
 
 Smoke=industry_smoke
-SmokeTile=0,0
-SmokeOffset=3,-63
-SmokeSpeed=64
+SmokeTile[0]=0,0
+SmokeOffset[0]=3,-73
+#SmokeUplift=0
 
 # stone input 350 (assume some stone from quarry intended for concrete factory.)
 InputGood[0]=Stone

@@ -19,10 +19,9 @@ Mail_boost=500
 Passenger_demand=20
 Passenger_boost=800
 
-#Smoke=industry_smoke
-#SmokeTile=0,1
-#SmokeOffset=-13,-28
-#SmokeSpeed=96
+SmokeTile[0]=0,2
+SmokeOffset[0]=4,-57
+#SmokeUplift=0
 
 # total flour input 500
 InputGood[0]=flour

@@ -19,10 +19,12 @@ intro_month=1
 pax_level=3
 level=3
 
-Smoke=industry_smoke
-SmokeTile=1,1
-SmokeOffset=0,-36
-SmokeSpeed=10
+Smoke=Steam_ship
+SmokeTile[0]=1,1
+SmokeOffset[0]=7,-28
+SmokeTile[1]=1,1
+SmokeOffset[1]=-8,-28
+#SmokeUplift=0
 
 needs_ground=1
 climates=temperate,tundra,rocky,arctic
