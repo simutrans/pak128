@@ -9,7 +9,7 @@
 #                             Language: ja Japanese                            #
 #                                Encoding: UTF-8                               #
 #                                Font: m+10r.bdf                               #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -78,14 +78,8 @@ water_bridge
 運河橋
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-トラックヤード
 MonorailGround
 モノレールの土台
-ShipStop
-港
-TrainStop
-旅客駅
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -664,6 +658,8 @@ Long_Goods_Dock
 長物積み卸し港
 Post_Dock
 郵便取り扱い港
+ShipStop
+港
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -1238,6 +1234,8 @@ canal_ware_stop
 運河港（貨物）
 CargoHighStop
 貨物停留所
+CarStop
+トラックヤード
 classic_mailbox
 郵便ポスト
 ClosedTrainStop
@@ -1304,6 +1302,8 @@ train_station_early
 保護されたプラットフォーム（tared, フラット）
 train_station_modern
 保護されたプラットフォーム（タイル張り, 傾斜）
+TrainStop
+旅客駅
 VillageTrainStop
 田舎の駅
 #________________________________building - tow_________________________________
@@ -2834,6 +2834,8 @@ Passanger_waggon_3
 BTx 050 二等客車
 Passanger_waggon_MAITE39
 国鉄 マイテ39 一等展望車
+Pioneer_Zephyr
+Pioneer Zephyr
 Plank_waggon_0
 RVg 小型木材貨車
 Plank_waggon_1

@@ -9,7 +9,7 @@
 #                             Language: hr Hrvatski                            #
 #                             Encoding: ISO-8859-2                             #
 #                             Font: prop-latin2.fnt                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -26,14 +26,8 @@ water_bridge
 Kanalski Most
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Zaljev Punjenja
 MonorailGround
 Monorail temelj
-ShipStop
-Putnicki dok
-TrainStop
-Stanica
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_10
@@ -258,6 +252,8 @@ Crate_Goods_Dock
 Kontejnerski dok
 Long_Goods_Dock
 Dugacki robni dok
+ShipStop
+Putnicki dok
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -288,6 +284,8 @@ canal_ChannelStop
 Kanalni Kai
 canal_ware_stop
 Kanalni Kai (Tereti)
+CarStop
+Zaljev Punjenja
 classic_mailbox
 Postanski Sanducic
 ClosedTrainStop
@@ -314,6 +312,8 @@ small_classic_bus_stop
 Jednostavno Autobusno Stajaliste
 small_early_bus_stop
 Autobusno Stajaliste
+TrainStop
+Stanica
 VillageTrainStop
 Seoska stanica
 #________________________________building - tow_________________________________

@@ -9,13 +9,9 @@
 #                              Language: no Norsk                              #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
-#___________________________________building____________________________________
-#___________________________________building____________________________________
-CarStop
-Innlastings bukt
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -88,6 +84,8 @@ big_classic_bus_stop
 Stor buss stop
 canal_ChannelStop
 Kanal stop
+CarStop
+Innlastings bukt
 classic_mailbox
 Gate Postboks
 ClosedTrainStop

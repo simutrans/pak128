@@ -9,7 +9,7 @@
 #                             Language: es Espanol                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -78,14 +78,8 @@ water_bridge
 acueducto
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Plataforma de carga
 MonorailGround
 Montante de monocarril
-ShipStop
-Muelle
-TrainStop
-Estación cubierta
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -698,6 +692,8 @@ Long_Goods_Dock
 Puerto mercantil
 Post_Dock
 Puerto Postal
+ShipStop
+Muelle
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -1706,6 +1702,8 @@ canal_ware_stop
 muelle de carga
 CargoHighStop
 Parada de carga y descarga
+CarStop
+Plataforma de carga
 classic_mailbox
 Casilla postal 
 ClosedTrainStop
@@ -1742,6 +1740,8 @@ small_early_bus_stop
 Parada de autobús con poste
 Suspended_Monorail_Bahnhof_Modern
 Parada de MonoCarril
+TrainStop
+Estación cubierta
 VillageTrainStop
 Parada férreo 
 #________________________________building - tow_________________________________

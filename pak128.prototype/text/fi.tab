@@ -9,7 +9,7 @@
 #                              Language: fi Suomi                              #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -26,14 +26,8 @@ water_bridge
 Akvedukti
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Lastaus-alue
 MonorailGround
 Monorail-perustus
-ShipStop
-Satama
-TrainStop
-Junapysäkki
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -216,6 +210,8 @@ Long_Goods_Dock
 Puutavara laituri
 Post_Dock
 Laivaposti toimisto
+ShipStop
+Satama
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -274,6 +270,8 @@ canal_ChannelStop
 Kanavalaituri (matkustaja&posti)
 canal_ware_stop
 Kanavalaituri (rahti)
+CarStop
+Lastaus-alue
 classic_mailbox
 Postilaatikko
 ClosedTrainStop
@@ -296,6 +294,8 @@ small_classic_bus_stop
 Bussipysäkki
 Suspended_Monorail_Bahnhof_Modern
 Monorail-asema
+TrainStop
+Junapysäkki
 VillageTrainStop
 Kyläpysäkki
 #________________________________building - tow_________________________________

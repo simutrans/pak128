@@ -9,7 +9,7 @@
 #                              Language: hu Magyar                             #
 #                                Encoding: UTF-8                               #
 #                                 Font: cyr.bdf                                #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -78,14 +78,8 @@ water_bridge
 Csatorna híd
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Rakodóudvar.
 MonorailGround
 Mágnesvasúti alap
-ShipStop
-Dokk.
-TrainStop
-Pályaudvar.
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -690,6 +684,8 @@ Long_Goods_Dock
 Faárufogadó dokk
 Post_Dock
 Postafogadó dokk
+ShipStop
+Dokk.
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -1696,6 +1692,8 @@ canal_ware_stop
 Csatorna megálló (áru)
 CargoHighStop
 Rakodóhely
+CarStop
+Rakodóudvar.
 classic_mailbox
 Utcai posta
 ClosedTrainStop
@@ -1732,6 +1730,8 @@ small_early_bus_stop
 Megálló
 Suspended_Monorail_Bahnhof_Modern
 Függesztett Monorail megálló(modern)
+TrainStop
+Pályaudvar.
 VillageTrainStop
 Falusi megálló
 #________________________________building - tow_________________________________

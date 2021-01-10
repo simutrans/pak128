@@ -9,7 +9,7 @@
 #                              Language: ko Korean                             #
 #                                Encoding: UTF-8                               #
 #                                 Font: cyr.bdf                                #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -26,14 +26,8 @@ water_bridge
 수로교
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-적재 베이
 MonorailGround
 모노레일 기초기반
-ShipStop
-승객 부두
-TrainStop
-역
 #________________________________building - cur_________________________________
 #________________________________building - cur_________________________________
 Firestation
@@ -158,6 +152,8 @@ Long_Goods_Dock
 긴 화물 부두
 Post_Dock
 우편용 항구
+ShipStop
+승객 부두
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -178,6 +174,8 @@ canal_ChannelStop
 운하 정류장
 canal_ware_stop
 운하 정류장(상품용)
+CarStop
+적재 베이
 classic_mailbox
 우체통
 ClosedTrainStop
@@ -212,6 +210,8 @@ small_early_bus_stop
 버스정류장
 Suspended_Monorail_Bahnhof_Modern
 모노레일 정류장
+TrainStop
+역
 VillageTrainStop
 마을 간이역
 #________________________________building - tow_________________________________

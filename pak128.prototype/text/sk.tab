@@ -9,33 +9,113 @@
 #                            Language: sk Slovencina                           #
 #                             Encoding: ISO-8859-2                             #
 #                             Font: prop-latin2.fnt                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
 #____________________________bridge - monorail_track____________________________
 Schwebebahn_p_bridge
-most Alwegu
+Most visutej dráhy
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
+PowerBridge
+Most vedenia VN
+#_________________________________bridge - road_________________________________
+#_________________________________bridge - road_________________________________
+Highway_110_Bridge
+Dialnièný most 110km/h
+Highway_130_Bridge
+Dialnièný most 130km/h
+Highway_200_Bridge
+Dialnièný most 200km/h
+road_030_bridge
+Drevený most
+road_040_bridge
+Mestský murovaný most
+road_050_bridge
+Mestský betónový most
+Road_055_Bridge
+Kamenný most
+Road_070_Bridge
+Cestný most
+Road_090_Bridge
+Moderný cestný most
+#________________________________bridge - track_________________________________
+#________________________________bridge - track_________________________________
+Rail_060_Bridge
+Drevený ¾eleznièný most
+Rail_060B_Bridge
+Jednoduchý oceµový ¾elezièný most
+Rail_080_Bridge
+®elezný ¾eleznièný most
+Rail_080B_Bridge
+Oceµový ¾eleznièný most
+Rail_100_Bridge
+Príhradový ¾eleznièný most
+Rail_120_Bridge
+Murovaný oblúkový ¾eleznièný most
+Rail_120B_Bridge
+Moderný príhradový ¾eleznièný most
+Rail_140_Bridge
+Pokroèilý murovaný oblúkový ¾eleznièný most
+Rail_160_Bridge
+Betónový oblúkový ¾eleznièný most
+Rail_180_Bridge
+Pokroèilý betónový oblúkový ¾eleznièný most
+Rail_200_Bridge
+Pokroèilý príhradový ¾eleznièný most
+Rail_240_Bridge
+Vysokorýchlostný príhradový ¾eleznièný most
+Rail_280_Bridge
+Betónový ¾eleznièný most
+Rail_320_Bridge
+Pokroèilý betónový ¾eleznièný most
+Rail_400_Bridge
+Vysokorýchlostný betónový ¾eleznièný most
+#________________________________bridge - water_________________________________
+#________________________________bridge - water_________________________________
+water_bridge
+Prieplavový most
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-nákladná rampa
 MonorailGround
 Základy Alwegu
-ShipStop
-Osobný prístav
-TrainStop
-Stanica
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
+COM_00_01
+Vidiecka ¹kôlka.\nTu mô¾u zaneprázdnení rodièia necha» malé deti hra» sa a odpoèíva», zakiaµ sú v práci.\nArchitektúra tohoto miesta je in¹pirovaná prepojením s prírodou. Deti tu tak mô¾u objavova» svet a nadväzova» priateµstvá na èerstvom vzduchu.\nPôsobí tu vskutku mierumilovná atmosféra aj napriek obèasnému detskému plaèu, ktorému sa v¹ak nedá vyhnú».\nPred¹koláci sa tu taktie¾ zaèínajú uèi» èíta», písa», poèíta», tak aby prechod do ¹kolského prostredia bol èo najplynulej¹í.\nRodièia si toto zariadenie nevedia vynachváli».
+COM_00_02
+Táto priateµská kaviareò je\nveµmi známa pre jej\nvýnimoèné sendvièe.\nVlastník v¹ak odmieta prezradi»\ntajný recept verejnosti.\nPovráva sa v¹ak, ¾e ingrediencie\nrastú priamo na jeho\nvlastnej záhrade.\n
+COM_00_03
+Kaviareò s vlastnou pekáròou.\nPríïte sa pokocha» ú¾asnou arómou èerstvo uvarenej kávy a chutných koláèikov.
+COM_00_04
+Poboèka deratizaènej slu¾by.\nOdvá¾ni mu¾i nasadzjú svoje masky a vyrá¾ajú do regionálnych barov a re¹taurácii hubi» ¹kodcov.\nAlebo to je v¹etko len predstierka a sú to agenti tajnej slu¾by odpoèúvajúci podozrivých µudí?
+COM_00_05
+Tento írsky pub je povinnou súèas»ou ka¾dého väè¹ieho mesta. Takmer ka¾dý veèer je mo¾né si u¾i» kvalitnú zábavu pri pive Guiness a vypoèu» si rôznorodé príbehy.
+COM_00_06
+Zálo¾òa.\nTáto zálo¾òa je vyhµadávaným obchodom nielen pre µudí èo majú hlboko do kapsy, ale aj takzvanými lovcami pokladov. Reè sa má tak, ¾e majiteµ nevie dobre ohodnoti» niektoré kúsky. Èlovek tu tým pádom doká¾e nájs» doslova "poklad" za pár korún.
+COM_00_07
+Kvetinárstvo "Na Rohu"\nJe obµúbeným obchodom záhradkárov. Èlovek si tu mô¾e kúpi» napríklad aj orchideu pre mamu ktorá má sviatok, kyticu ru¾í pre milovanú osobu alebo aj sadenice do záhradky. Reè sa má tak, ¾e tu mláde¾ doká¾e zohna» aj "trávu", ale polícia zatiaµ niè neobjavila.
+COM_00_08
+Máte chu» na japonskú kuchyòu? Tak ste tu správne. Sushi, wasabi, tamagoyaki... V¹etko sa tu dá zohna». Av¹ak napriek kvalite jedla, ktoré je na vysokej úrovni, niektorí µudia vravia, ¾e kuchári nie sú Japonci, ale Vietnamci.
+COM_00_09
+Dom sedliaka Bla¾ka.\nMnohí ho pova¾ujú za správneho chlapa, ktorý pomô¾e ka¾dému kto ho poprosí. Vlastní dva kone a voz, preto e¹te pred masovým nástupom automobilovej dopravy nemal problémy so ¾ivobytím. Av¹ak v pä»desiatych rokoch sa situácia mení a sedliak Bla¾ko sa dostáva do tia¾ivej finanènej situácie.
 COM_00_10
-Dom oblo¾ený èervenými\ntehlami.\n\n
+Tento výrazný tehlovo èervený dom je prvým dielom architekta ktorý svojím dizajnom príli¹ nenadchol. Zomrel chudobný a nedocenený svojim okolím. Av¹ak jeho návrhy boli opä» nájdené v 80-tych rokoch a stali sa veµkým hitom. Doèkal sa slávy a¾ po jeho smrti.
+COM_00_11
+Horský hotel GAIF.\nNázov tohoto hotela vznikol spojením iniciálok jeho zakladateµov (Gustáv August, Ignác Fedor). Títo dvaja najlep¹í kamaráti ka¾dý veèer hrajú ¹ach pod smrekom na záhrade (zatiaµ je to 213-1 pre Gustáva). ¥udia sa sem radi vracajú najmä kvôli nádhernej okolitej prírode a priateµskej atmosfére.
+COM_00_12
+Masá¾ny salón "Daria".\nTento drevený domèek slú¾i nielen ako masá¾ny salón, ale aj ako rehabilitaèné stredisko pre vá¾ne zranených µudí. Majiteµka býva s rodinkou na druhom poschodí a pacienti/zákazníci sa zdr¾ujú na prízemí. Mnohí veriaci obèania protestovali proti vzniku tohoto centra najmä kvôli orientálnym masá¾nym technikám.
+COM_00_13
+Penzión "Slneèný svit".\nTento penzión èasto slú¾i ako ¹kola v prírode alebo tábor pre deti, preto je èasto poèu» radotné výkriky detí. Na druhom poschodí sídli aj veµmi dobrá tradièná re¹taurácia ponúkajúca mnohé dobroty ako napríklad bryndzové halu¹ky, èuèoriedkové buchty, peèené brav. koleno èi kapustnicu.
 COM_07_12
 Tento dom 21. storoèia bol domovom bohatého Korejskeho páru, ktorý chcel vytvori» príklad udr¾ateµného rozvoja. Aj v roku 2999??, nebude ïaleko pozadu.
 #________________________________building - cur_________________________________
 #________________________________building - cur_________________________________
 ABBYS_0
 Klá¹tor\n\nTento klá¹tor je zaújmavý\nstudòami vo ve¾iach o ktorých\nsa hovorí, ¾e sú bezodné.\nJe neuveriteµné, aké\nmno¾stvo µudí chce vidie»\ntieto magické studne. Mince\nticho padajúce na molitan v\nhåbke pä»desiat metrov\npomohli ekonomike\nklá¹tora natoµko, ¾e mohol\nby» zrekon¹truovaný z ruin\ndo stavu, ktorý vidíte.\n
+CASTLE_0
+Starý hrad\n\nHrad postavený presláveným králom Napíkom. Poèas Veµkej Vojny do¹lo k naru¹eniu statiky väè¹iny jeho budov. Av¹ak vïaka jeho bohatej histórii a istým nemenovaným patrónom do¹lo v 19. storoèí k obnoveniu jeho za¹lej slávy rozsiahlou rekon¹trukciou. Jeho interiér teraz zdobia ú¾asné relikvie nielen z Veµkej Vojny, ale aj z dôb dávno minulých.\nV dne¹nej dobe je nielen regionálne, ale aj medzinárodne uznávanou pamiatkou.
 CHURCH_02
 Ru¾ový kostolík\n\nTento kuriózny kostol bol\npostavený v roku 1654\nbláznivým mníchom, ktorý\nho celý natrel na ru¾ovo.\nFarba èasom zhnedla, ale\nmeno mu zostalo. Tento\nbláznivý mních sa neskôr\npres»ahoval do Pre¹porku,\nkde postavil Modrý kostolík,\nktorý je skutoène modrý a¾\ndo dne¹ných dní.\n
 CHURCH_03
@@ -46,6 +126,10 @@ CHURCH_05
 Katedrála Sv. Michala\n\nTento architektonický klenot\nbol postavený na konci\n19.storoèia. Za svoju\natraktivitu vïaèí kovovej\nstreche, ktorú skon¹truoval\nAlexander Gustavus Eiffel.\n
 CHURCH_06
 Kostol\n\nTypický kostol men¹ích\nmesteèiek.\n\n
+CIRCUS_0
+Cirkus Humberto\n\nTento populárny cirkus koneène dorazil aj do tohoto mesta! Nielen deti ale aj dospelí stoja v rade aby si kúpili lístok na ú¾asné ¾ivé predstavenie plné radosti, napätia a nad¹enia. Hlavnou atrakciou je slon Jumbo ktorý si sadne na zadok kedykoµvek zazvoní zvon. Tým pádom buïte rad¹ej na pozore, keï budete prechádza» okolo neho, aby náhodou nejaký zá¹kodník nezazvonil. Inak sa z vás jednoducho mô¾e sta» placka.
+CIVILIAN_RADAR
+Teleskop\n\nTechnológie na¹eho sveta idú rýchlo dopredu, ani sa nenazdáte a u¾ ste zase nieèo pre¹vihli. Táto budova je rádiový teleskop a vedci pomocou neho skúmajú ïaleké zákutia na¹ej galaxie.
 HOUSE_RUINS_0
 Ruiny domov\n\nTu kedysi stála radnica\nzaniknutého mesta, teraz\nsú tu v¹ak len jej ruiny.\nTuristi a amatérski\nbádatelia sem chodia\nsníva» o èasoch dávno\nminulých.\n
 MARKET_PLACE_0
@@ -79,7 +163,7 @@ Hangár
 1990AirDepot
 Moderný hangár
 CarDepot
-vozovòa
+Vozovòa
 MonorailDepot
 Vozovòa Alwegu
 ShipDepot
@@ -122,8 +206,10 @@ BigTerminal1930_AirportBlg
 Veµká odbavovacia hala
 BigTerminal1950_AirportBlg_S
 Veµký leti¹tný terminál
+Bulk_StationBlg
+Sklad sypkých hmôt
 Car_StationBlg
-parkovisko
+Parkovisko
 Control_StationBlg
 stavadlo
 CunnersdorfStopBlg
@@ -165,13 +251,15 @@ Viktoriánska stanica
 #______________________________building - harbour_______________________________
 #______________________________building - harbour_______________________________
 Bulk_Dock
-nákladný dok
+Nákladný dok
 Crate_Goods_Dock
 Kontajnerové prekladisko
 Long_Goods_Dock
 Prekladisko rozmerného tovar
 Post_Dock
 Prístavná po¹ta
+ShipStop
+Osobný prístav
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -245,13 +333,21 @@ Dru¾stevné byty\n\n\n\n\n\n\n
 AirStop_AirportBlg
 Stojánka
 big_classic_bus_stop
-Zastávka s po¹tovou schránkou
+Autobusové nástupi¹te s po¹tovou schránkou
+big_early_bus_stop
+Rané autobusové nástupi¹te s po¹tovou schránkou
 big_modern_bus_stop
-Moderné autobusové nástupi¹te
+Moderné autobusové nástupi¹te s po¹tovou schránkou
 bus_terminus
-Moderné autobusové nástupi¹te
+Moderný autobusový terminál
 canal_ChannelStop
-prístav na kanáli
+Prístav na kanáli
+canal_ware_stop
+Prístav na kanáli (náklad)
+CargoHighStop
+Prejazdná nákladná rampa
+CarStop
+Nákladná rampa
 classic_mailbox
 Po¹tová schránka
 ClosedTrainStop
@@ -284,6 +380,8 @@ small_classic_bus_stop
 Jednoduchá autobusová zastávka
 Suspended_Monorail_Bahnhof_Modern
 Moderné nástupi¹te Alwegu
+TrainStop
+Stanica
 VillageTrainStop
 Vidiecka zastávka
 #________________________________building - tow_________________________________
@@ -318,6 +416,16 @@ AVG_car_0
 Osobné auto
 AVG_car_1
 Osobné auto
+#___________________________________crossing____________________________________
+#___________________________________crossing____________________________________
+Crossing1
+Moderné ¾eleznièné priecestie
+Crossing2
+®eleznièné priecestie
+CrossingRoadWater
+Zdvíhací most
+CrossingTrackWater
+Zdvíhací most (¾eleznièný)
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -340,6 +448,8 @@ classical_goods_factory
 Továreò
 Concretefactory
 Betonárka
+Corn_Farm
+Kukurièná farma
 cornfield
 Kukurièné pole
 cotton_farm_w_fields
@@ -351,7 +461,7 @@ Mliekáreò
 Druckerei
 Tlaèiareò
 electronics_factory_new
-Továreò na elektroniku.
+Továreò na elektroniku
 Erzbergwerk
 ®eleznorudná baòa
 ethanol_plant
@@ -362,8 +472,10 @@ fish_swarm
 Ryby
 food_processing_plant
 Potravinársky závod
+ForestPlantation
+Priemyselný les
 Geothermal powerplant_kraftwerk
-Geotermálna elektráreò.
+Geotermálna elektráreò
 Glass_factory
 Skláreò
 grain_farm_w_fields
@@ -371,9 +483,9 @@ Obilná farma
 grain_mill
 Mlyn
 MaterialsWholesales
-Stavebniny.
+Stavebniny
 meat_packing_plant
-Baliareò mäsa.
+Baliareò mäsa
 modern_fuel_station
 Moderná èerpacia stanica
 Moebelfabrik
@@ -386,10 +498,12 @@ Oelfeld
 Ropné pole
 oilkraftwerk
 Mazutová elektráreò
+old_fish_cannery
+Konzerváreò
 old_powerplant_kraftwerk
 Uhoµná elektráreò
 open_coal_mine
-Povrchová baòa
+Povrchová uholná baòa
 Papierfabrik
 Papiereò
 publisher
@@ -399,27 +513,41 @@ Rafinéria
 Saegewerk
 Píla
 sand_quarry_dd
-Pieskovòa.
+Pieskovòa
 shaft_coal_mine
-Uhoµná baòa
+Håbková uhoµná baòa
 shaft_coal_mine_small
-Malá hµbková uhoµná baòa.
+Malá håbková uhoµná baòa
 sheep_farm
 Sala¹
 shopping_mall
 Nákupné centrum
+Simutrans_Fried_Chicken
+Simutrans Fried Chicken
 Solar Pond_kraftwerk
-Jazerná solárna elektráreò.
+Jazerná solárna elektráreò
+SolarPowerTowerPS10_kraftwerk
+Ve¾ová solárna elektráreò
+SolarThermalOne_kraftwerk
+Solárna parabolická termálna elektráreò
 steel_mill
 Oceliareò
+StirlingParabolicCollectorsFarm_kraftwerk
+Solárna parabolická elektráreò so Stirling motormi
+StirlingSolarThermalTrackerFarm_kraftwerk
+Solárna parabolická elektráreò so Stirling motormi
+StirlingSolarTrackersFarm_kraftwerk
+Solárna parabolická elektráreò so Stirling motormi
+StirlingThermalCollectorsFarm_kraftwerk
+Solárna parabolická elektráreò so Stirling motormi
 Stonequarry
 Kameòolom
 supermarket
 Supermarket
 TANKE1
-Pumpa
+Èerpacia stanica
 TANKE2
-Pumpa na biopalivo.
+Èerpacia stanica
 textile_factory
 Textilka
 waste_disposal
@@ -428,10 +556,32 @@ waste_incinerator_kraftwerk
 Spalovòa
 wind_kraftwerk
 Veterná elektráreò
+#_____________________________________field_____________________________________
+#_____________________________________field_____________________________________
+corn_field
+Kukurièné pole
+cotton_field
+Bavlníkové pole
+forestplantation_field
+Les
+grain_field
+Obilné pole
+ParabolicDishField
+Parabolické kolektory so Stirling motormi
+SolarDepot
+Zásobník termálnej energie
+SolarTrackerField
+Parabolické kolektory so Stirling motormi
+spondf
+Solárne jazero
+ThermalCollectorField
+Parabolické kolektory so Stirling motormi
+ThermalTrackerField
+Parabolické kolektory so Stirling motormi
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
-Automobily
+automobilov
 beer
 piva
 Bretter
@@ -447,17 +597,17 @@ chemikálií
 Concrete
 betónu
 corn
-kukurica
+kukurice
 cotton
-bavlna
+bavlny
 Eisenerz
-¾elezné rudy
+¾eleznej rudy
 electronics
 elektroniky
 Ethanol
-lieh
+liehu
 fertilizer
-hnojiv
+hnojiva
 fish
 rýb
 flour
@@ -471,11 +621,11 @@ skla
 goods_
 tovaru
 grain
-p¹enice
+obilnín
 Holz
 dreva
 Kohle
-uhlie
+uhlia
 meat
 mäsa
 milk
@@ -483,7 +633,7 @@ mlieka
 Moebel
 nábytku
 None
-nic
+niè
 Oel
 surovej ropy
 Papier
@@ -506,6 +656,38 @@ waste
 odpadu
 wool
 vlny
+#__________________________________ground_obj___________________________________
+#__________________________________ground_obj___________________________________
+cactus000_0
+Kaktus\n
+cactus000_1
+Kaktus\n
+cactus000_2
+Kaktus\n
+cactus000_3
+Kaktus\n
+cactus000_4
+Kaktus\n
+cactus001_0
+Kaktus\n
+cactus001_1
+Kaktus\n
+cactus001_2
+Kaktus\n
+cactus001_3
+Kaktus\n
+cactus001_4
+Kaktus\n
+cactus002_0
+Kaktus\n
+cactus002_1
+Kaktus\n
+cactus002_2
+Kaktus\n
+cactus002_3
+Kaktus\n
+cactus002_4
+Kaktus\n
 #___________________________________menu_text___________________________________
 #___________________________________menu_text___________________________________
 MONORAILTOOLS
@@ -529,13 +711,17 @@ drevo
 CATEGORY_07
 poµnoprodukty
 Monorail
-Visutá dráha
+Visutá ¾eleznica
 monorail vehicle
 vozidlo visutej ¾eleznice
 Monorailboden
 Nosník visutej ¾eleznice
 Monoraildepot
-Vozov?a Alwegu
+Vozovòa visutej ¾eleznice
+Monorailhalt
+Zastávka visutej ¾eleznice
+Monorailhalt muss auf\nMonorail liegen!\n
+Zastávka visutej ¾eleznice\nmusí by» na visutej\n¾eleznici!\n
 Monorails are not available yet!
 Visutá ¾eleznica e¹te neexistuje.
 remove monorails

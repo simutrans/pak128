@@ -9,7 +9,7 @@
 #                             Language: it Italiano                            #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -46,14 +46,8 @@ water_bridge
 Ponte sul canale
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Zona di carico
 MonorailGround
 Fondazione linea a levitazione
-ShipStop
-Porto passeggeri
-TrainStop
-Stazione
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -400,6 +394,8 @@ Long_Goods_Dock
 Porto merci lungo
 Post_Dock
 Porto postale
+ShipStop
+Porto passeggeri
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -472,6 +468,8 @@ canal_ChannelStop
 Banchina per canali
 canal_ware_stop
 Banchina per canale (merci)
+CarStop
+Zona di carico
 classic_mailbox
 Cassetta della posta classica
 ClosedTrainStop
@@ -506,6 +504,8 @@ small_early_bus_stop
 Fermata autobus
 Suspended_Monorail_Bahnhof_Modern
 Fermata monorotaia
+TrainStop
+Stazione
 VillageTrainStop
 Stazione del villaggio
 #________________________________building - tow_________________________________

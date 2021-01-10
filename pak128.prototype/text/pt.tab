@@ -9,7 +9,7 @@
 #                            Language: pt Portugues                            #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -48,14 +48,8 @@ water_bridge
 Canal elevado
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Área de carga
 MonorailGround
 Sustentação de via elevada
-ShipStop
-Dock
-TrainStop
-Estação ferroviária com cobertura
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -338,6 +332,8 @@ Long_Goods_Dock
 Grande doca para cargas
 Post_Dock
 Doca postal
+ShipStop
+Dock
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -442,6 +438,8 @@ bus_terminus
 Moderno terminal de ônibus
 canal_ChannelStop
 Cais de canal
+CarStop
+Área de carga
 classic_mailbox
 Caixa de correio
 ClosedTrainStop
@@ -474,6 +472,8 @@ small_classic_bus_stop
 Parada de ônibus
 Suspended_Monorail_Bahnhof_Modern
 Estação suspensa
+TrainStop
+Estação ferroviária com cobertura
 VillageTrainStop
 Pequena Parada de Trens
 #________________________________building - tow_________________________________
@@ -520,6 +520,8 @@ classical_goods_factory
 Fábrica de utilidades
 Concretefactory
 Concreteira
+Corn_Farm
+Fazenda de Milho
 cornfield
 Plantação de milho
 cotton_farm_w_fields

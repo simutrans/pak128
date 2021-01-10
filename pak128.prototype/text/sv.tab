@@ -9,7 +9,7 @@
 #                             Language: sv Svenska                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -50,14 +50,8 @@ water_bridge
 Kanalbro
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Lastplats
 MonorailGround
 Monorail marknivå
-ShipStop
-Passagerarkaj
-TrainStop
-Järnvägsstation
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -272,6 +266,8 @@ Long_Goods_Dock
 Timmerlastkaj
 Post_Dock
 Posthamn
+ShipStop
+Passagerarkaj
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -316,6 +312,8 @@ canal_ware_stop
 Kanallastkaj
 CargoHighStop
 Drive-through lastplats
+CarStop
+Lastplats
 classic_mailbox
 Brevlåda
 ClosedTrainStop
@@ -352,6 +350,8 @@ small_early_bus_stop
 Busshållplats
 Suspended_Monorail_Bahnhof_Modern
 Hängande monorail hållplats
+TrainStop
+Järnvägsstation
 VillageTrainStop
 Liten passagerarstation
 #________________________________building - tow_________________________________

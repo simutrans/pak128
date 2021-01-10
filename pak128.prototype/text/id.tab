@@ -9,7 +9,7 @@
 #                            Language: id Indonesia                            #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -22,14 +22,8 @@ water_bridge
 Jembatan Kanal
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Loading Area
 MonorailGround
 Pondasi Monorel
-ShipStop
-Pelabuhan Penumpang
-TrainStop
-Stasiun Modern
 #________________________________building - cur_________________________________
 #________________________________building - cur_________________________________
 ABBYS_0
@@ -80,6 +74,8 @@ Bulk_Dock
 Pelabuhan Barang
 Post_Dock
 Pelabuhan Pos
+ShipStop
+Pelabuhan Penumpang
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -90,6 +86,8 @@ canal_ChannelStop
 Pelabuhan Darat
 canal_ware_stop
 Pelabuhan Darat (Barang)
+CarStop
+Loading Area
 classic_mailbox
 Kotak Surat
 CoalTrainStop
@@ -106,6 +104,8 @@ small_classic_bus_stop
 Halte Bis
 Suspended_Monorail_Bahnhof_Modern
 Stasiun Monorail
+TrainStop
+Stasiun Modern
 VillageTrainStop
 Stasiun Kota Kecil
 #________________________________building - tow_________________________________

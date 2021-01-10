@@ -9,7 +9,7 @@
 #                              Language: ca Catala                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -78,14 +78,8 @@ water_bridge
 aqüeducte
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Zona de càrrega per a camions
 MonorailGround
 Cimentació per a monocarril
-ShipStop
-Moll de passatgers
-TrainStop
-Estació amb coberta metàl·lica
 #________________________________building - cur_________________________________
 #________________________________building - cur_________________________________
 ABBYS_0
@@ -338,6 +332,8 @@ Long_Goods_Dock
 Moll de mercaderies
 Post_Dock
 Moll de correus
+ShipStop
+Moll de passatgers
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -414,6 +410,8 @@ canal_ware_stop
 Moll de càrrega fluvial
 CargoHighStop
 Parada de càrrega i descàrrega
+CarStop
+Zona de càrrega per a camions
 classic_mailbox
 Zona de càrrega i descàrrega (correu)
 ClosedTrainStop
@@ -450,6 +448,8 @@ small_early_bus_stop
 Cartell de parada d'autobús
 Suspended_Monorail_Bahnhof_Modern
 Estació de monocarril
+TrainStop
+Estació amb coberta metàl·lica
 VillageTrainStop
 Estació senzilla per passatgers
 #________________________________building - tow_________________________________

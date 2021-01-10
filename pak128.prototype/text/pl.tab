@@ -9,7 +9,7 @@
 #                              Language: pl Polski                             #
 #                             Encoding: ISO-8859-2                             #
 #                             Font: prop-latin2.fnt                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -78,14 +78,8 @@ water_bridge
 Akwedukt
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Strefa za³adunku
 MonorailGround
 Podstawa pod kolej podwieszan±
-ShipStop
-Doki pasa¿erskie
-TrainStop
-Stacja kolejowa
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -506,6 +500,8 @@ Long_Goods_Dock
 D³ugi port prze³adunkowy
 Post_Dock
 Port pocztowy
+ShipStop
+Doki pasa¿erskie
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -562,6 +558,8 @@ canal_ware_stop
 Przystañ towarowa
 CargoHighStop
 Strefa za³adunku (drive-through)
+CarStop
+Strefa za³adunku
 classic_mailbox
 Skrzynka pocztowa
 ClosedTrainStop
@@ -598,6 +596,8 @@ small_early_bus_stop
 Ma³y dawny przystanek autobusowy
 Suspended_Monorail_Bahnhof_Modern
 Nowoczesny przystanek kolei jednoszynowej
+TrainStop
+Stacja kolejowa
 VillageTrainStop
 Wiejska stacja kolejowa
 #________________________________building - tow_________________________________

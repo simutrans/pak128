@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -78,14 +78,8 @@ water_bridge
 Kanalbrücke
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Frachthof
 MonorailGround
 Schuppen
-ShipStop
-Passagierhafen
-TrainStop
-Bahnhof mit Glasdach (Personen)
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -642,6 +636,8 @@ Long_Goods_Dock
 Holzladehafen
 Post_Dock
 Posthafen
+ShipStop
+Passagierhafen
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -1498,6 +1494,8 @@ canal_ware_stop
 Kanalhafen (Güter)
 CargoHighStop
 Laderampe
+CarStop
+Frachthof
 classic_mailbox
 Briefkasten
 ClosedTrainStop
@@ -1564,6 +1562,8 @@ train_station_early
 Bahnsteig mit Schrägdach
 train_station_modern
 Moderner Bahnsteig mit Schrägdach
+TrainStop
+Bahnhof mit Glasdach (Personen)
 VillageTrainStop
 kleiner Bahnhof (Passagiere)
 #________________________________building - tow_________________________________

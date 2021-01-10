@@ -9,7 +9,7 @@
 #                            Language: ce C-English                            #
 #                                Encoding: ASCII                               #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -22,14 +22,8 @@ road_030_bridge
 Wooden road bridge
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Truck Loading Bay
 MonorailGround
 Monorail Structure Foundation
-ShipStop
-Passenger Dock
-TrainStop
-Grand Glass-Roofed Station
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -324,6 +318,8 @@ Long_Goods_Dock
 Long Cargo Dock
 Post_Dock
 Harbour Dock for Mail
+ShipStop
+Passenger Dock
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -400,6 +396,8 @@ bus_terminus
 Modern Terminal Stop
 canal_ChannelStop
 Canal Dock
+CarStop
+Truck Loading Bay
 classic_mailbox
 Mailbox
 ClosedTrainStop
@@ -434,6 +432,8 @@ small_early_bus_stop
 Bus Stop Sign
 Suspended_Monorail_Bahnhof_Modern
 Covered Monorail/Schwebebahn Platform
+TrainStop
+Grand Glass-Roofed Station
 VillageTrainStop
 Provincial Train Platform
 #________________________________building - tow_________________________________

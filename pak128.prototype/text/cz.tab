@@ -9,7 +9,7 @@
 #                             Language: cz Cestina                             #
 #                             Encoding: ISO-8859-2                             #
 #                             Font: prop-latin2.fnt                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -23,43 +23,63 @@ Most vedení VN
 #_________________________________bridge - road_________________________________
 #_________________________________bridge - road_________________________________
 Highway_110_Bridge
-silnièní most
+Dálnièní most 110km/h
 Highway_130_Bridge
 Dálnièní most 130km/h
 Highway_200_Bridge
-Dálnièní most
+Dálnièní most 200km/h
 road_030_bridge
 Døevìný silnièní most
 road_040_bridge
-silnièní most s dla¾bou
+Mìstský murovaný most
 road_050_bridge
-silnièní most
+Mìststký betonový most
 Road_055_Bridge
 Kamenný most
 Road_070_Bridge
-silnièní most
+Silnièní most
 Road_090_Bridge
-silnièní most
+Moderní silnièní most
 #________________________________bridge - track_________________________________
 #________________________________bridge - track_________________________________
 Rail_060_Bridge
-Døevìný most
+Døevìný ¾eleznièní most
 Rail_060B_Bridge
-Starý ocelový most
+Jednoduchý ocelový ¾eleznièní most
+Rail_080_Bridge
+®elezný ¾eleznièní most
+Rail_080B_Bridge
+Ocelový ¾eleznièní most
+Rail_100_Bridge
+Pøíhradový ¾eleznièní most
+Rail_120_Bridge
+Murovaný obloukový ¾eleznièní most
+Rail_120B_Bridge
+Moderní pøíhradový ¾eleznièní most
+Rail_140_Bridge
+Pokroèilý murovaný obloukový ¾eleznièní most
+Rail_160_Bridge
+Betonový obloukový ¾eleznièní most
+Rail_180_Bridge
+Pokroèilý betonový obloukový ¾eleznièní most
+Rail_200_Bridge
+Pokroèilý pøíhradový ¾eleznièní most
+Rail_240_Bridge
+Vysokorychlostní pøíhradový ¾eleznièní most
+Rail_280_Bridge
+Betonový ¾eleznièní most
+Rail_320_Bridge
+Pokroèilý betonový ¾eleznièní most
+Rail_400_Bridge
+Vysokorychlostní betonový ¾eleznièní most
 #________________________________bridge - water_________________________________
 #________________________________bridge - water_________________________________
 water_bridge
 Prùplavový most
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Nakládací rampa
 MonorailGround
 Podlo¾í jednokolejky
-ShipStop
-Osobní pøístav
-TrainStop
-Nádra¾í
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -651,13 +671,15 @@ Stanice ve viktoriánském stylu
 #______________________________building - harbour_______________________________
 #______________________________building - harbour_______________________________
 Bulk_Dock
-Pøístav na sypké materiály
+Nákladní dok
 Crate_Goods_Dock
 Kontejnerový pøístav
 Long_Goods_Dock
 Nákladní pøístav
 Post_Dock
 Pøístav s po¹tou
+ShipStop
+Osobní pøístav
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -1609,17 +1631,21 @@ Tento bytový dvojdomek je\nvrcholným dílem architekta\nRavena. Bohu¾el ji¾ nemìl
 AirStop_AirportBlg
 Stojánka
 big_classic_bus_stop
-Velká zastávka
+Autobusové nástupi¹tì s po¹tovní schránkou
+big_early_bus_stop
+Rané autobusové nástupi¹tì s po¹tovní schránkou
 big_modern_bus_stop
-Velká moderní zastávka
+Moderní autobusové nástupi¹tì s po¹tovní schránkou
 bus_terminus
-Autobusový terminál
+Moderní autobusový terminál
 canal_ChannelStop
 Pøístavi¹tì na prùplavu
 canal_ware_stop
 Pøístavi¹tì na prùplavu (nákladní)
 CargoHighStop
 Prùjezdní nakládací rampa
+CarStop
+Nakládací rampa
 classic_mailbox
 Po¹tovní schránka
 ClosedTrainStop
@@ -1656,6 +1682,8 @@ small_early_bus_stop
 Jednoduchá zastávka
 Suspended_Monorail_Bahnhof_Modern
 Zastávka jednokolejky
+TrainStop
+Nádra¾í
 VillageTrainStop
 Vesnické nástupi¹tì
 #________________________________building - tow_________________________________
@@ -1712,6 +1740,16 @@ school_bus_0
 ©kolní autobus
 VS_T-813-cammo
 Tatra 813 v vojenském zbarvení
+#___________________________________crossing____________________________________
+#___________________________________crossing____________________________________
+Crossing1
+Moderní ¾eleznièní pøejezd
+Crossing2
+®eleznièní pøejezd
+CrossingRoadWater
+Zvedací most
+CrossingTrackWater
+Zvedací most (¾eleznièní)
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -1754,6 +1792,8 @@ Concretefactory
 Betonárka
 factory_Concretefactory_details
 <title>Betonárka - detaily</title>\n<h1>Betonárka</h1><p>Beton je umìlý slepenec a patøí mezi nejpou¾ívanìj¹í kompozitní materiály. Nejèastìj¹í forma je tzv. cementový beton, kde je pojivem cement a plnivem kamenivo; dal¹ím materiálem pro výrobu je voda. Kromì cementovýho betonu existuje je¹tì asfaltový beton, co¾ je materiál, ze kterého jsou vyrábìny asfaltové vozovky.</p>
+Corn_Farm
+Kukurièní farma
 cornfield
 Kukuøièné pole
 factory_cornfield_details
@@ -1884,10 +1924,24 @@ factory_shopping_mall_details
 <title>Obchodní centrum - detaily</title>\n<h1>Obchodní centrum</h1>\n<p>Obchodní centrum nebo nákupní centrum je budova nebo soustava budov, ve kterých jsou jednotlivé maloobchody, které jsou propojeny cestami pro chùzi z jednoho maloobchodu do druhého.</p><p>\nKa¾dý z tìchto obchodù funguje samostatnì a pod svojí znaèkou nezávisle na obchodním centru. Objekty tohoto typu lze nalézt v pøímìstských lokalitách. Obchodní centra jsou rùzných velikostí, od malé a¾ po velmi velké. V prùbìhu roku jsou zde poøádány rùzné akce a jsou èasto tematicky zdobeny, napøíklad kolem vánoc mají vánoèní osvìtlení a vánoèní stromky.</p>
 Simutrans_Fried_Chicken
 Simutrans Fried Chicken
+Solar Pond_kraftwerk
+Jezerní solární elektrárna
+SolarPowerTowerPS10_kraftwerk
+Ve¾ová solární elektrárna
+SolarThermalOne_kraftwerk
+Solární parabolická termální elektrárna
 steel_mill
 Slévárna
 factory_steel_mill_details
 <title>Slévárna - detaily</title>\n<h1>Slévárna</h1>\n<p>Surové ¾elezo se vyrábí ve vysoké peci redukcí svých oxidù koksem nebo oxidem uhelnatým. Upravené rudy se støídavì navá¾í se struskotvornými látkami (vápenec, oxidy køemíku) a koksem do vysoké pece.</p><p>\nVe vysoké peci probíhá nìkolik chemických dìjù.Celý proces probíhá prakticky nepøetr¾itì - na horní èást vysoké pece se stále zavá¾í ¾elezná ruda, ¾elezný ¹rot, koks a struskotvorné pøísady a naspodu se v urèitých intervalech odpou¹tí roztavené kovové ¾elezo - tzv. odpich vysoké pece.</p><p>Obsah uhlíku v surovém ¾eleze je pøíli¹ vysoký a proto je nutné jej oxidaèním procesem v oceláøských zaøízeních sní¾it. Toho se dociluje oxidací uhlíku buïto kyslíkem ze vzduchu (Thomasùv konvertor), profoukáváním kyslíkem (LD konvertor) nebo pøisazováním ¾elezné rudy a ocelového odpadu do taveniny v nístìjových pecích (Siemens-Martinùv proces, elektrická oblouková pec).</p><p>Existuje více ne¾ 2 000 rùzných druhù ocelí s pøesnì definovaným slo¾ením a mechanickými vlastnostmi, jako je pevnost, tvrdost, chemická odolnost a øada dal¹ích. Ocelové polotovary jsou dále zpracovány ve válcovnách na drát, plech, nosníky, kolejnice, profily,které jsou ¹iroce pou¾ívány v prùmyslu, stavebnictví atd. Èást tìchto polotovarù slou¾í jako výchozí materiál pro výrobu výkovkù v kovárnách.</p>
+StirlingParabolicCollectorsFarm_kraftwerk
+Solární parabolická elektrárna so Stirling motory
+StirlingSolarThermalTrackerFarm_kraftwerk
+Solární parabolická elektrárna so Stirling motory
+StirlingSolarTrackersFarm_kraftwerk
+Solární parabolická elektrárna so Stirling motory
+StirlingThermalCollectorsFarm_kraftwerk
+Solární parabolická elektrárna so Stirling motory
 Stonequarry
 Kamenolom
 factory_Stonequarry_details
@@ -1918,6 +1972,28 @@ wind_kraftwerk
 Vìtrná elektrárna
 factory_wind_kraftwerk_details
 <title>Vìtrná elektrárna - detaily</title>\n<h1>O vìtrných elektrárnách</h1>\n<p>Vìtrné elektrárny se v poslední dobì zaèínají èím dál více vyu¾ívat jako ekologický zdroj obnovitelné energie.</p>\n<p>V podstatì nejde o nic jiného, ne¾ o obrovský generátor pøipojený k je¹tì vìt¹í vrtuli. To celé je poté postaveno na vysokém sloupu, èím¾ je dosa¾eno toho, ¾e je vrtule vysoko nad terénem, kde je velká rychlost proudìní vzduchu. Bohu¾el jsou díky tomu vidìl i z hodnì velké vzdálenosti.</p>
+#_____________________________________field_____________________________________
+#_____________________________________field_____________________________________
+corn_field
+Kukuøièné pole
+cotton_field
+Bavlníkové pole
+forestplantation_field
+Les
+grain_field
+Obilné pole
+ParabolicDishField
+Parabolické kolektory se Stirling motory
+SolarDepot
+Zásobník termální energie
+SolarTrackerField
+Parabolické kolektory se Stirling motory
+spondf
+Solární jezero
+ThermalCollectorField
+Parabolické kolektory se Stirling motory
+ThermalTrackerField
+Parabolické kolektory se Stirling motory
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -1996,6 +2072,38 @@ waste
 odpadky
 wool
 vlna
+#__________________________________ground_obj___________________________________
+#__________________________________ground_obj___________________________________
+cactus000_0
+Kaktus\n
+cactus000_1
+Kaktus\n
+cactus000_2
+Kaktus\n
+cactus000_3
+Kaktus\n
+cactus000_4
+Kaktus\n
+cactus001_0
+Kaktus\n
+cactus001_1
+Kaktus\n
+cactus001_2
+Kaktus\n
+cactus001_3
+Kaktus\n
+cactus001_4
+Kaktus\n
+cactus002_0
+Kaktus\n
+cactus002_1
+Kaktus\n
+cactus002_2
+Kaktus\n
+cactus002_3
+Kaktus\n
+cactus002_4
+Kaktus\n
 #___________________________________menu_text___________________________________
 #___________________________________menu_text___________________________________
 MONORAILTOOLS

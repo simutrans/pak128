@@ -9,7 +9,7 @@
 #                            Language: lt Lithuanian                           #
 #                                Encoding: UTF-8                               #
 #                                 Font: cyr.bdf                                #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -24,14 +24,6 @@ Energijos tiltas
 #________________________________bridge - water_________________________________
 water_bridge
 Vandens tiltas
-#___________________________________building____________________________________
-#___________________________________building____________________________________
-CarStop
-Krovos aikštelė
-ShipStop
-Uostas
-TrainStop
-Dengta platforma\n
 #_______________________________building - depot________________________________
 #_______________________________building - depot________________________________
 1920_AirDepot
@@ -100,6 +92,8 @@ Senovinė stotis
 #______________________________building - harbour_______________________________
 Bulk_Dock
 Krovinių dokas
+ShipStop
+Uostas
 #________________________________building - stop________________________________
 #________________________________building - stop________________________________
 AirStop_AirportBlg
@@ -114,6 +108,8 @@ canal_ChannelStop
 Kanalo stotelė
 canal_ware_stop
 Kanalo krantas (kroviniai)
+CarStop
+Krovos aikštelė
 classic_mailbox
 Pasto dėžutė
 ClosedTrainStop
@@ -122,6 +118,8 @@ CoalTrainStop
 Anglių stotis
 FreightTrainStop
 Krovinių platforma
+TrainStop
+Dengta platforma\n
 #________________________________building - tow_________________________________
 #________________________________building - tow_________________________________
 01_CITY

@@ -9,7 +9,7 @@
 #                             Language: fr Francais                            #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -78,14 +78,8 @@ water_bridge
 Pont-canal
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Zone de chargement
 MonorailGround
 Support de la ligne magnétique 
-ShipStop
-Port de voyageurs 
-TrainStop
-Gare
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -220,6 +214,14 @@ COM_05_22
 Si tu ne peux pas te\nstationner dans la rue,\ntu dois aller dans ce\nstationnement. Tu vas payer\nun prix de fou et ta\nvoiture ne sera même\npas en sécurité.\nC'est dommage mais il\nn'y pas d'autre choix.\n
 COM_05_23
 À l'origine conçu comme bâtiment de niveau unique avec\nune cours intérieure ouverte\n, ce bâtiment a pris un nouveau visage hors du commun\n quand la demande\nde bureaux supplémentaires\n au centre-ville\n a forcé les propriétaires à augmenter de l'espace\n.\n
+COM_06_01
+Beaucoup de retraités aiment se\nrecontrer dans ce café. Le café\net la nourriture sont mauvais,\nmais les gens ne sont vraiment là\nque pour parler du temps\nqu'il fait et du « bon vieux temps ».
+COM_06_02
+Ce terrain est consacré\nà un parking gratuit. Normalement,\nc'est un bon endroit pour garer\nvotre voiture durant vos emplettes.\nMais attention : ne laissez\npas d'objet de valeur dans votre\nvéhicule !
+COM_06_03
+C'est un concert à ciel ouvert\ndu groupe MHz Mégarock. Arrêtez-vous\njuste ici, pour profiter des morceaux.\nVous allez a-do-rer. En revanche,\nles voisins ne partageront pas votre\npoint de vue?
+COM_06_04
+Ici, au Garage « Joyeux Jean-Pierre »,\non fera votre vidange et lubrifiera\nvotre chassis en 15 minutes\nou moins. De plus, 12 voitures par heure\nà 24,99 ? par voitures peuvent être\nrévisées. Cela rend Jean-Pierre,\nle propriétaire, très, très heureux, mais pas\nforcément « joyeux ».
 COM_07_01
 Ce petit magasin d'outillage\nest un des survivants dans\nla bataille avec les grandes\nsurfaces qui gagnent,\nchaque jour, plus de\nclients. Manifestement, il\noffre quelque chose de\nspécial. Peut-être qu'une\nbelle femme se trouve\nderrière le comptoir, qui\nsait?\n
 #________________________________building - cur_________________________________
@@ -303,7 +305,7 @@ Parc avec étang\n\nCe sympathique et joli parc\nest l'endroit où les gens\nfatig
 Percival_Maya_Temple
 Temple Maya Percival.\n\n\nLes fouilles ont permis de découvrir\n une civilisation simutransienne \ntrès ancienne.
 radiant_house
-Maison Radieuse\n\nBâtiment de Le Corbusier\nC'est la coopérative de propriétaires qui gère la résidence.
+Maison Radieuse\n\nBâtiment du Corbusier\nC'est la coopérative de propriétaires qui gère la résidence.
 RADIO_TOWER_0
 Radio Chit-Chat FM\n\nC'est le studio de la radio\nlocale "Chit-Chat FM". Un\ncertain nombre de\npersonnes s'y rendent, car\nla radio a promis de laisser\ndes auditeurs passer à l'antenne,\nchaque jour, de 13h00 à\n14h00.\n
 rmax_clock_tower
@@ -484,6 +486,8 @@ Long_Goods_Dock
 Port aux marchandise large
 Post_Dock
 Office de la poste maritime
+ShipStop
+Port de voyageurs 
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -556,6 +560,8 @@ IND_03_01
 Champ de chanvre. \nChanvre. Pas marihuana.\nVraiment.\n\n
 IND_04_02
 Ceci n'est pas un champ.\n\n
+IND_06_02
+Un vieux terrain fortifié\npar d'immondes murs bétonnés.\Si vous construisez une\nmaison, certains matériaux proviennent\ncertainement d'ici.
 IND_12_16
 Atelier de (contre)façon appartenant à la HKT (Hong-Kong Textile)\nJe vous laisse imaginer ce qu'on y fait...\nUne descente de police est prévue prochainement !\n
 #________________________________building - mon_________________________________
@@ -618,6 +624,20 @@ RES_00_14
 Beaucoup de fenêtres dans cette maison.\nAvantage il n'y a pas de coin sombre à l'intérieur.\nInconvénient la galère quand il faut faire les carreaux...
 RES_00_16
 Une grande piscine. Tout le voisinage\nen voulait pour y envoyer jouerles enfants.\nQuand on pense que certains\nvivent dans une maison plus petite\nque cette piscine !
+RES_01_14
+C'est une maison bon marché\npour une famille nombreuse.\nElle offre assez d'espace\npour cinq enfants. Curieusemrnt,\ncettemaison est souvent source\d'un grand bruit.
+RES_01_17
+Comme l'affaire de garages de\nJerry s'agrandissait son ancien\nemplacement a été transformé en\nbeau logement.
+RES_03_38
+Ce parc a été fréquenté assiduement\npar un exhibitionniste invétéré.\nIl y traînait vêtu d'un trench-coat\net s'exposait aux dames qui passaient par là.\nC'était avant que Marie-Pierre Chrysostome, résidente\ndu quartier et jardinière expérimentée, ne le voie.\nIls se sont mariés il y a neuf mois maintenant\net il ne s'est plus jamais exhibé en public.
+RES_05_09
+Une maison pour les familles les\nplus nombreuses, avec le style typique\nde plain-pied. Comme les terrains\nsont bon marché, ça coûte moins cher\nde construire de grandes maisons que\nde les construire sur plusieurs\nétages.
+RES_05_15
+C'est la maison de Michel le\ncharpentier. Il a bâti sa maison avec\nl'aide de ses s?urs Jacqueline la\ncouvreuse et Géraldine la\menuisière.
+RES_06_11
+Ce lac artificiel avec une fontaine\nest un endroit très paisible.\nL'été, on peut y voir beaucoup de gens assis\nsur l'herbe en lisant un livre,\nprofitant du soleil et écoutant le bruit\nde l'eau. C'est si bon que les autorités\nlocales ont enfin autorisé la\nmarche sur la pelouse !
+RES_11_12
+Ces maisons sont excellentes\npour les couples avec enfants,\ncar ces derniers peuvent utiliser\n leur grand espace pour jouer,\nmais les enfants ne peuvent pas aller\ndehors à cause des essaims\nd'abeilles tueuses qui habitent\nla haie du fond du jardin.
 #________________________________building - stop________________________________
 #________________________________building - stop________________________________
 AirStop_AirportBlg
@@ -634,6 +654,8 @@ canal_ware_stop
 Quai de canal (marchandise)
 CargoHighStop
 Quai de chargement
+CarStop
+Zone de chargement
 classic_mailbox
 Boîte aux lettres
 ClosedTrainStop
@@ -670,6 +692,8 @@ small_early_bus_stop
 Arrêt de bus ancien
 Suspended_Monorail_Bahnhof_Modern
 Arrêt pour monorail
+TrainStop
+Gare
 VillageTrainStop
 Gare régionale
 #________________________________building - tow_________________________________
@@ -698,6 +722,22 @@ Hôtel de ville
 #____________________________________citycar____________________________________
 MHz-Taxi
 taxi jaune
+ms_chevelle_red
+Chevrolet Chevelle Coupé
+ms_coupe_green
+Chevrolet Chevelle Coupé
+RVg_dumptruck_1
+Camion-poubelles
+#___________________________________crossing____________________________________
+#___________________________________crossing____________________________________
+Crossing1
+Passage à niveau moderne
+Crossing2
+Passage à niveau ancien
+CrossingRoadWater
+Croisement route/eau
+CrossingTrackWater
+Croisement rail/eau
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -722,6 +762,8 @@ classical_goods_factory
 Fabrique de biens manufacturés
 Concretefactory
 Fabrique de béton
+Corn_Farm
+Exploitation agricole
 cornfield
 Champ de maïs
 cotton_farm_w_fields
@@ -799,7 +841,9 @@ Ferme de mouton
 shopping_mall
 Grand magasin
 Simutrans_Fried_Chicken
-Fast food du poulet\nLes ailes et la cuisse sont frites dans
+Restaurant SFC
+factory_Simutrans_Fried_Chicken_details
+Au restaurant SFC (Simutrans Fried Chicken),\nen plus de vous faire servir des wings de poulet en\nun temps record, vous pourrez admirer\nles bornes de commande sur lesquelles\ndes stars de la téléréalité n'ont pas\nréussi à commander à manger.\nÊtre célèbre n'empêche pas d'être mal dégourdi !
 Solar Pond_kraftwerk
 Centrale à bassin solaire
 SolarPowerTowerPS10_kraftwerk
@@ -831,7 +875,21 @@ Centre de collecte
 waste_incinerator_kraftwerk
 Incinérateur
 wind_kraftwerk
-Eolienne
+Éolienne
+#_____________________________________field_____________________________________
+#_____________________________________field_____________________________________
+corn_field
+Champ de maïs
+cotton_field
+Champ de coton
+forestplantation_field
+Forêt
+grain_field
+Champ de céréales
+ParabolicDishField
+Antennes paraboliques
+SolarTrackerField
+Panneaux solaires
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -1036,10 +1094,78 @@ Signals
 Sémaphores ferroviaires
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
+palm010
+Palmier
+palm011
+Palmier
+tree020
+Bouleau
+tree021
+Bouleau
+tree022
+Pommier
+tree023
+Chêne
+tree024
+Noyer
+tree025
+Frêne
+tree030
+Magnolia
+tree031
+Eucalyptus
+tree032
+Noyer
+tree040
+Poirier
+tree041
+Prunier sauvage
+tree042
+Bouleau
+tree050
+Buisson
+tree051
+Peuplier
+tree052
+Peuplier
+tree060
+Aulne
+tree061
+Chêne
+tree062
+Orme
+tree063
+Aulne
+tree070
+Chêne cônique
+tree071
+Gros buisson
+tree072
+Peuplier
+tree080
+Tremble
+tree081
+Olivier
+tree082
+Bouleau blanc
+tree083
+Pin Douglas
+tree090
+Érable
+tree091
+Mélèze
 tree100
 Sapin de montagne\n\n
 tree110
 Sapin de montagne\n\n
+tree120
+Sapin
+tree121
+Épicéa
+tree131
+Sapin
+tree133
+Épicéa des montagnes
 #________________________________tunnel - power_________________________________
 #________________________________tunnel - power_________________________________
 PowerTunnel
@@ -1047,7 +1173,7 @@ Tunnel pour conduits électriques
 #_________________________________tunnel - road_________________________________
 #_________________________________tunnel - road_________________________________
 Highway_110_Tunnel
-Tunnel pour route nationale
+Tunnel pour voie rapide
 Highway_130_Tunnel
 Tunnel pour autoroute
 Road_040_Tunnel
@@ -1466,6 +1592,8 @@ Grain_trailer_0
 Remorque céréalière
 Grain_Truck_1
 Tatra 815 (céreales)
+Irisbus_Cristalis_ETB12
+Irisbus Cristalis ETB12
 Kord_TT_bulk
 Kord TT (vrac)
 Kord_TT_grain
@@ -1478,6 +1606,10 @@ Mack_Truck_Post_Trailer
 Semiremorque postal
 Mail_Truck_2
 Estafette Windstar
+Man_Lions_City
+Man Lion's City
+Man_Lions_City_G_front
+Man Lion's City G avant
 MHz_Grain_Trailer_0
 Remorque agricole
 MHz_Long_Wood_Trailer
@@ -2596,12 +2728,66 @@ VT105_Tail_Addon
 voiture de queue VT-105 "Senator"
 #_____________________________vehicle - tram_track______________________________
 #_____________________________vehicle - tram_track______________________________
+Citadis302_Le_Mans_1
+Alstom Citadis 302 (Le Mans, 1)
+Citadis302_Le_Mans_2
+Alstom Citadis 302 (Le Mans, 2)
+Citadis302_Le_Mans_3
+Alstom Citadis 302 (Le Mans, 3)
+Citadis302_Le_Mans_4
+Alstom Citadis 302 (Le Mans, 4)
+Citadis302_Le_Mans_5
+Alstom Citadis 302 (Le Mans, 5)
+Citadis302_Le_Mans_long_version_402
+Alstom Citadis 302 (Le Mans, long version 402)
+Citadis302_Reims_back
+Alstom Citadis 302 (Reims, arrière)
+Citadis302_Reims_front
+Alstom Citadis 302 (Reims, avant)
+Citadis302_Reims_pantograph
+Alstom Citadis 302 (Reims, pantographe)
+Citadis302_Reims_suspended
+Alstom Citadis 302 (Reims, suspendu)
+Citadis402_Bordeaux_1
+Alstom Citadis 402 (Bordeaux, 1)
+Citadis402_Bordeaux_2
+Alstom Citadis 402 (Bordeaux, 2)
+Citadis402_Bordeaux_3
+Alstom Citadis 402 (Bordeaux, 3)
+Citadis402_Bordeaux_4
+Alstom Citadis 402 (Bordeaux, 4)
+Citadis402_Bordeaux_5
+Alstom Citadis 402 (Bordeaux, 5)
+Citadis402_Bordeaux_6
+Alstom Citadis 402 (Bordeaux, 6)
+Citadis402_Bordeaux_7
+Alstom Citadis 402 (Bordeaux, 7)
+Citadis402_Tours_back
+Alstom Citadis 402 (Tours, arrière)
+Citadis402_Tours_front
+Alstom Citadis 402 (Tours, avant)
+Citadis402_Tours_motor
+Alstom Citadis 402 (Tours, moteur)
+Citadis402_Tours_suspended
+Alstom Citadis 402 (Tours, suspendu)
 DueWAG_GT6_motorwaggon
 Due WAG GT6
 DueWAG_GT6_tailwaggon
 Due WAG GT6 arrière-train
 EM400_1
 Krizik EM400
+Fretadis_frigo_long
+Fretadis frigorifique long
+Fretadis_frigo_short
+Fretadis frigorifique court
+Fretadis_goods_long
+Fretadis standard long
+Fretadis_goods_short
+Fretadis standard court
+Fretadis_postal_long
+Fretadis postal long
+Fretadis_postal_short
+Fretadis postal court
 Haru_Tatra-T3
 Tatra T3
 MHz_TRAM_1930
@@ -2821,9 +3007,9 @@ Ligne a haute tension
 #__________________________________way - road___________________________________
 #__________________________________way - road___________________________________
 Highway_110
-Route nationale
+Voie rapide
 Highway_110_Elevated
-Route nationale surélevée
+Voie rapide surélevée
 Highway_130
 Autoroute
 Highway_130_Elevated
@@ -2841,13 +3027,13 @@ route pavée surélevée
 Road_050
 Rue de ville
 Road_050_Elevated
-rue surélevée
+Rue surélevée
 Road_055
 route gravillonée
 Road_070
-route avec enrobé
+Route de campagne
 Road_090
-route moderne
+Route nationale
 Road_090_Elevated
 Route surélevée moderne
 #__________________________________way - track__________________________________
@@ -2912,12 +3098,18 @@ Tram_Track_110_A
 rail de tramway rapide
 #__________________________________way - water__________________________________
 #__________________________________way - water__________________________________
+canal_020
+Canal étroit
 canal_030
 Canal
 river_0a
 ruisseau
 river_0b
 rivière
+river_10
+Petite rivière navigable
+river_20
+Rivière navigable
 #_______________________________way-object - air________________________________
 #_______________________________way-object - air________________________________
 modern_runway-extMrkLgt
@@ -2929,11 +3121,17 @@ Caténaires pour trolley bus
 #______________________________way-object - track_______________________________
 #______________________________way-object - track_______________________________
 classic_metal_mesh_catenary
-Electrification par 3e rail
+Cténaire pour train express
 curved_pylon_lgv
 Caténaire pour LGV
 highspeed_catenary
 Catenaire moderne
+ogive_midi_catenary
+Caténaire pour train express (poteau latéral)
+steel_gantry_catenary
+Caténaires pour service régional
+wood_covered_third_rail
+Troisième rail couvert de bois
 wood_gantry_catenary
 Caténaire classique
 #____________________________way-object - tram_track____________________________

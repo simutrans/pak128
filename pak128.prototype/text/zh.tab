@@ -9,7 +9,7 @@
 #                            Language: zh T. Chinese                           #
 #                                Encoding: UTF-8                               #
 #                            Font: wenquanyi_9pt.bdf                           #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -26,14 +26,8 @@ water_bridge
 架空運河
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-裝卸區
 MonorailGround
 單軌路軌基座
-ShipStop
-客輪碼頭
-TrainStop
-列車月台
 #________________________________building - cur_________________________________
 #________________________________building - cur_________________________________
 ABBYS_0
@@ -172,6 +166,8 @@ Long_Goods_Dock
 長貨碼頭
 Post_Dock
 郵件碼頭
+ShipStop
+客輪碼頭
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -196,6 +192,8 @@ bus_terminus
 現代巴士總站
 canal_ChannelStop
 運河碼頭
+CarStop
+裝卸區
 classic_mailbox
 道路郵箱
 ClosedTrainStop
@@ -226,6 +224,8 @@ small_classic_bus_stop
 小型巴士站
 Suspended_Monorail_Bahnhof_Modern
 單軌鐵路月台
+TrainStop
+列車月台
 VillageTrainStop
 鄉村式月台
 #________________________________building - tow_________________________________

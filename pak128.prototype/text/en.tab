@@ -9,7 +9,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 15.10 2019                           #
+#                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -23,7 +23,7 @@ Power Line Bridge
 #_________________________________bridge - road_________________________________
 #_________________________________bridge - road_________________________________
 Highway_110_Bridge
-Bridge (tripple concrete pillar) for Freeway
+Bridge (triple concrete pillar) for Freeway
 Highway_130_Bridge
 Bridge (double square column) for Freeway
 Highway_200_Bridge
@@ -35,11 +35,11 @@ Bridge (stone block) for Street
 road_050_bridge
 Bridge (concrete) for Street
 Road_055_Bridge
-Bridge (stone) for Dirt Road
+Stone road bridge
 Road_070_Bridge
-Bridge for Road
+Road bridge
 Road_090_Bridge
-Bridge (central column, advanced) for Road
+Modern road bridge
 #________________________________bridge - track_________________________________
 #________________________________bridge - track_________________________________
 Rail_060_Bridge
@@ -71,21 +71,15 @@ Concrete bridge for high speed track
 Rail_320_Bridge
 Concrete framed bridge for modern high speed track
 Rail_400_Bridge
-Concrete framed bridge for enhanced high speed track
+Bridge (tubular concrete frame) for High-Speed Track
 #________________________________bridge - water_________________________________
 #________________________________bridge - water_________________________________
 water_bridge
 Canal Bridge
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-CarStop
-Loading Bay
 MonorailGround
 Monorail foundation
-ShipStop
-Passenger dock
-TrainStop
-Station
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -661,9 +655,11 @@ Bulk Cargo Dock
 Crate_Goods_Dock
 Container dock
 Long_Goods_Dock
-Cargo Dock (long)
+Long cargo dock
 Post_Dock
 Post dock
+ShipStop
+Passenger dock
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
@@ -1532,12 +1528,14 @@ canal_ware_stop
 Canal Quay (Goods)
 CargoHighStop
 Drive-through loading bay
+CarStop
+Loading Bay
 classic_mailbox
 Mailbox
 ClosedTrainStop
 Completely covered platform
 CoalTrainStop
-Goods Platform (coal)
+Coal station
 Container1TrainStop
 Goods Platform (few containers)
 Container2TrainStop
@@ -1545,11 +1543,11 @@ Advanced container station
 FreightTrainStop
 Freight Train Stop
 medium_classic_bus_stop
-Bus Stop (shelter)
+Sheltered Bus Stop
 medium_early_bus_stop
-Bus Stop (shelter)
+Bus stop with shelter
 medium_modern_bus_stop
-Bus Stop (shelter)
+Modern busstop
 ModernTrainStop
 Modern Train Stop
 OfficeTrainStop
@@ -1598,6 +1596,8 @@ train_station_early
 Protected Platform (tared, sloped)
 train_station_modern
 Protected Platform (tiled, sloped)
+TrainStop
+Station
 VillageTrainStop
 Village station
 #________________________________building - tow_________________________________
@@ -1628,6 +1628,16 @@ Horse_Carriage_For_2_public
 Private carriage
 ms_coupe_green
 Chevrolet Chevelle Coupe
+#___________________________________crossing____________________________________
+#___________________________________crossing____________________________________
+Crossing1
+Modern railroad crossing
+Crossing2
+Railroad crossing
+CrossingRoadWater
+Vertical-lift bridge
+CrossingTrackWater
+Vertical-lift railroad bridge
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -1650,6 +1660,8 @@ classical_goods_factory
 Goods factory
 Concretefactory
 Concrete mixer
+Corn_Farm
+Corn farm
 cornfield
 Corn Field
 cotton_farm_w_fields
@@ -1735,21 +1747,21 @@ Shopping Mall
 Simutrans_Fried_Chicken
 Simutrans Fried Chicken
 Solar Pond_kraftwerk
-Solar pond
+Solar pond power plant
 SolarPowerTowerPS10_kraftwerk
-Solar tower
+Solar tower power plant
 SolarThermalOne_kraftwerk
-Solar panels
+Solar parabolic thermal power plant
 steel_mill
 Steel mill
 StirlingParabolicCollectorsFarm_kraftwerk
-Solar collector station
+Solar collector station with Stirling engines
 StirlingSolarThermalTrackerFarm_kraftwerk
-Solar collector station
+Solar collector station with Stirling engines
 StirlingSolarTrackersFarm_kraftwerk
-Solar colector station
+Solar collector station with Stirling engines
 StirlingThermalCollectorsFarm_kraftwerk
-Solar collector station
+Solar collector station with Stirling engines
 Stonequarry
 Stone quarry
 supermarket
@@ -1769,7 +1781,25 @@ Wind power plant
 #_____________________________________field_____________________________________
 #_____________________________________field_____________________________________
 corn_field
-corn field
+Corn field
+cotton_field
+Cotton field
+forestplantation_field
+Forest
+grain_field
+Grain field
+ParabolicDishField
+Parabollic collectors with Stirling engines
+SolarDepot
+Thermal energy storage
+SolarTrackerField
+Parabollic collectors with Stirling engines
+spondf
+Solar pond
+ThermalCollectorField
+Parabollic collectors with Stirling engines
+ThermalTrackerField
+Parabollic collectors with Stirling engines
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos

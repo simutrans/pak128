@@ -6,6 +6,8 @@
 Ampersand
 An_dz                                         note: Verified where all texts are shown
 BarthVader      - Bartlomiej Weclewski
+Citarofahrer
+Duke
 Dwachs
 Eps-Omo
 Flemmbrav
@@ -14,23 +16,24 @@ HyperSim
 IgorEliezer
 JHLee           - J. H. Lee
 Jaroslaw        - Jaroslaw
-Jerome          - Jan Poláček               note: AKA Jerome Heretic
 JulioCesarBR    - Julio Cesar Miranda Rodrigues note: Member who helps translate in Portuguese language!
 Kozinsky        - Evgen
 Leartin
 LeitnerI
 MRBK                                          note: KHOMKRIT BUTSARAKHAM (พี)
-Makie           - Martin
+Makie           - Martin                      note: Maintainer PAK128.german & Translator
 NNW             - Daniel
 Pestr           - Mikhail Pestrechikhin
-Phystam                                       note: Simutrans Extended player
+Phystam         - Tomai Takato                note: Simutrans Extended player
 pak256-Ex developer
 Pumuckl999
 Ranran
+Roboron         - Roberto Michán Sánchez
 Tajia
 Tjoeker
 VaclavMacurek   - Václav Macůrek
 Ves             - Victor Sørensen
+Vladki
 Woratiklis      - Woratiklis
 albert.yuste    - Albert Ruiz                 note: Albert Ruiz - Zeno
 alekcxjo        - Alexandre Raymond
@@ -45,13 +48,14 @@ pasichna
 pika
 prissi
 sojo            - Sven Osada                  note: maintainer pak96.comic
+splithor1zon
 stepan          - Stepan
 stev0312        - steve0312
 steve0312
-testneu
 transporter
 uci
 vonjo
 vsys            - Vladimír Slávik
 vzrenggamani    - Rengga Prakoso Nugroho      note: Riyantama Wira - Vesa khrisna - Satria naail - Mikhael Theofilus - Thomas Septian
 whoami          - Michael Olbricht
+wlindley        - William Lindley
