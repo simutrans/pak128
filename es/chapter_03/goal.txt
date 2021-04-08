@@ -1,0 +1,25 @@
+<p>En este capitulo los <em>Trenes</em> son protagonistas y con ellos aprenderemos a transportar mercancías y pasajeros.<br><br>
+
+{scr}<br><br>
+{txtst_01}Paso A{txtst_01e}</em> - Un Vistazo a las Fábricas<br>
+{step_01}<br><br>
+{txtst_02}Paso B{txtst_02e}</em> - Construyendo un Túnel<br>
+{step_02}<br><br>
+{txtst_03}Paso C{txtst_03e}</em> - Construyendo Estaciones<br>
+{step_03}<br><br>
+{txtst_04}Paso D{txtst_04e}</em> - Construyendo un Depósito<br>
+{step_04}<br><br>
+{txtst_05}Paso E{txtst_05e}</em> - El Primer Tren<br>
+{step_05}<br><br>
+{txtst_06}Paso F{txtst_06e}</em> - Conectando al Consumidor<br>
+{step_06}<br><br>
+{txtst_07}Paso G{txtst_07e}</em> - El segundo Tren<br>
+{step_07}<br><br>
+{txtst_08}Paso H{txtst_08e}</em> - Construcción Subterránea<br>
+{step_08}<br><br>
+{txtst_09}Paso I{txtst_09e}</em> - Conectando las Estaciones<br>
+{step_09}<br><br>
+{txtst_10}Paso J{txtst_10e}</em> - Vías Electrificadas<br>
+{step_10}<br><br>
+{txtst_11}Paso K{txtst_11e}</em> - Trenes Eléctricos<br>
+{step_11}<br></p>

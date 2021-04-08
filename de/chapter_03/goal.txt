@@ -1,0 +1,50 @@
+<p>
+In diesem Kapitel sind die Züge die Protagonisten. Wir werden lernen, wie sie zum Transport von Passagieren und Gütern einsetzt werden.
+</p>
+<p>
+{scr}
+</p>
+<p>
+{txtst_01}Schritt A{txtst_01e} - Ein Blick auf die Fabriken<br/>
+{step_01}
+</p>
+<p>
+{txtst_02}Schritt B{txtst_02e} - Bauen eines Tunnels<br/>
+{step_02}
+</p>
+<p>
+{txtst_03}Schritt C{txtst_03e} - Bauen von Stationen<br/>
+{step_03}
+</p>
+<p>
+{txtst_04}Schritt D{txtst_04e} - Bauen eines Depots<br/>
+{step_04}
+</p>
+<p>
+{txtst_05}Schritt E{txtst_05e} - Der erste Zug<br/>
+{step_05}
+</p>
+<p>
+{txtst_06}Schritt F{txtst_06e} - Verbraucher anschließen<br/>
+{step_06}
+</p>
+<p>
+{txtst_07}Schritt G{txtst_07e} - Der zweite Zug<br/>
+{step_07}
+</p>
+<p>
+{txtst_08}Schritt H{txtst_08e} - Bauen im Untergrund<br/>
+{step_08}
+</p>
+<p>
+{txtst_09}Schritt I{txtst_09e} - Stationen verbinden und Signale bauen<br/>
+{step_09}
+</p>
+<p>
+{txtst_10}Schritt J{txtst_10e} - Schienen elektrifizieren<br/>
+{step_10}
+</p>
+<p>
+{txtst_11}Schritt K{txtst_11e} - einen elektrischen Zug erstellen<br/>
+{step_11}
+</p>

@@ -1,0 +1,12 @@
+<p>La ciudad {city2} necesita diseñar una red de autobuses que permita mover pasajeros hacia la estación de tren: {st2_nam}.<br><br>
+
+<em>[1]</em> Coloca una parada de autobús en la posición {stop}.<br>
+<em>[2]</em> Haz pública la parada en {stop}. <br>
+<em>[3]</em> Ahora eres libre de construir una red de autobuses en la ciudad {city2}.<br>
+<em>[4]</em> Asegúrate de que todos los autobuses estén conectados a la estación: {st2_nam}.<br><br>
+
+Nota: El número de vehículos debe ser <em>{vhe2}</em><br><br>
+
+Se avanza al siguiete paso, cuando se transporten más de <em>{goal_lod1}</em> pasajeros hacia {st1_nam} en un mes y el número de vehículos en circulación sea de <em>"{vhe1}"</em>.<br><br>
+
+<st>Se han trasportado este mes:</st> <em>{lod}/{goal_lod1}</em> <br></p>

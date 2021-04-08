@@ -1,0 +1,14 @@
+<p><br>Ahora que el puente ha sido reparado, la ciudad <em>{name}</em> necesita una linea de autobús que conecte con la Ciudad vecina de <em>{name2}</em>.<br><br>
+
+{tx} Pulsa sobre el <em>Depósito de Carretera</em>{dep}, y selecciona un autobús <em>{bus1}</em> y pulse sobre <em>'Itinerario'</em>.<br><br>
+
+<em>Ahora selecciona las paradas:</em><br>
+<em>[1]</em> Selecciona la parada {st1} y <st>deja todo como está</st>.<br>
+<em>[2]</em> Selecciona la parada {st2} y <st>deje todo como está</st>.<br>
+<em>[3]</em> Selecciona la parada {st3} y <st>deje todo como está</st>.<br>
+<em>[4]</em> Selecciona la parada {st4} y <st>deje todo como está</st>.<br>
+<em>[5]</em> Selecciona la parada {st5} y configura la parada de la siguiente forma:<br>
+<em>--> [a]</em> La Carga mínima al <em>{load}%</em>.<br>
+<em>--> [b]</em> El Tiempo de Espera (Meses) a <em>{wait}</em>.
+
+<br><br><st>Se avanza al siguiente paso</st> cuando el autobús salga del <em>depósito</em>.<br><br></p>

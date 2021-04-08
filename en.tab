@@ -1,0 +1,386 @@
+#__________________________________chapter 01___________________________________
+#__________________________________chapter 01___________________________________
+Getting Started
+Getting Started
+This is a town centre
+This is a town centre
+This is a factory
+This is a factory
+This is a station
+This is a station
+This is a link
+This is a link
+Town Centre
+Town Centre
+Creating Schedules is currently not allowed
+Creating Schedules is currently not allowed
+#__________________________________chapter 02___________________________________
+#__________________________________chapter 02___________________________________
+Ruling the Roads
+Ruling the Roads
+Stop
+Stop
+Build Stop here:
+Build Stop here:
+#__________________________chapter 02 - Pop-up window___________________________
+#__________________________chapter 02 - Pop-up window___________________________
+Connect the road here
+Connect the road here
+You must first build a stretch of road
+You must first build a stretch of road
+You must build the depot in
+You must build the depot in
+You must build the %d stops first.
+You must build the %d stops first.
+Stops should be built in [%s]
+Stops should be built in [%s]
+Only %d stops are necessary.
+Only %d stops are necessary.
+Press the [Copy Backward] button, then set the Minimum Load and Month Wait Time at the first stop!.
+Press the [Copy Backward] button, then set the Minimum Load and Month Wait Time at the first stop!.
+You must build a stop in [%s] first
+You must build a stop in [%s] first
+You can only delete the stops.
+You can only delete the stops.
+You must connect the two cities first.
+You must connect the two cities first.
+Only road schedules allowed
+Only road schedules allowed
+You must press the [Copy backward] button to complete the route.
+You must press the [Copy backward] button to complete the route.
+You must first buy a bus [%s].
+You must first buy a bus [%s].
+The number of bus must be [%d].
+The number of bus must be [%d].
+Select the Bus [%s].
+Select the Bus [%s].
+The bus must be [Passengers].
+The bus must be [Passengers].
+Must not use trailers [%d].
+Must not use trailers [%d].
+#___________________________chapter 02 - Text labels____________________________
+#___________________________chapter 02 - Text labels____________________________
+Place the Road here!.
+Place the Road here!.
+Build a Depot here!.
+Build a Depot here.
+Place Stop here!.
+Place Stop here!.
+#__________________________________chapter 03___________________________________
+#__________________________________chapter 03___________________________________
+Riding the Rails
+Riding the Rails
+Slope Height.
+Slope Height.
+It must be a slope.
+It must be a slope.
+It is not a slope.
+It is not a slope.
+The slope points to the [%s].
+The slope points to the [%s].
+It is not flat terrain.
+It is not flat terrain.
+The terrain must be flat.
+The terrain must be flat.
+Signal Nr.%d
+Signal Nr.%d
+Number of convoys in the depot:
+Number of convoys in the depot:
+Must choose a locomotive:
+Must choose a locomotive:
+All wagons must be for:
+All wagons must be for:
+The number of wagons must be:
+The number of wagons must be:
+The cabin:
+The cabin:
+#__________________________chapter 03 - Pop-up window___________________________
+#__________________________chapter 03 - Pop-up window___________________________
+Straight slope here
+Steep slope here
+The land is already prepared.
+The land is already prepared.
+You must lift the land with a flat slope first
+You must lift the land with a flat slope first
+There is already a station.
+There is already a station.
+Station No.%d must accept goods
+Station No.%d must accept goods
+Station No.%d here
+Station No.%d here
+You can only delete the stations.
+You can only delete the stations.
+You must build track in
+You must build track in
+You must build the train depot in
+You must build the train depot in
+Select the other station
+Select the other station
+Select the other station first
+Select the other station first
+Press [Ctrl] to build a tunnel entrance here
+Press [Ctrl] to build a tunnel entrance here
+The tunnel is already at the correct level
+The tunnel is already at the correct level
+The slope is ready.
+The slope is ready.
+Lower the land here
+Lower the land here
+First you must build a tunnel section.
+First you must build a tunnel section.
+You must lower the ground first
+You must lower the ground first
+First you must lower the layer level.
+First you must lower the layer level.
+Build a Tunnel here
+Build a tunnel here
+Modify the terrain here
+Modify the terrain here
+Only delete signals.
+Only delete signals.
+The signal does not point in the correct direction
+The signal does not point in the correct direction
+Place a block signal here
+Place a block signal here
+It must be a block signal!
+It must be a block signal!
+Incorrect vehicle configuration, check vehicle status.
+Incorrect vehicle configuration, check vehicle status.
+You must first buy a locomotive [%s].
+You must first buy a locomotive [%s].
+Only one train is allowed, press the [Sell] button.
+Only one train is allowed, press the [Sell] button.
+Must choose a locomotive [%s].
+Must choose a locomotive [%s].
+All wagons must be for [%s].
+All wagons must be for [%s].
+The number of wagons must be [%d].
+The number of wagons must be [%d].
+The number of convoys must be [%d].
+The number of convoys must be [%d].
+The train may not be longer than [%d] tiles.
+The train may not be longer than [%d] tiles.
+The train cannot be shorter than [%d] tiles.
+The train cannot be shorter than [%d] tiles.
+#___________________________chapter 03 - Text labels____________________________
+#___________________________chapter 03 - Text labels____________________________
+Build Rails form here
+Build Rails here.
+Straight slope here!.
+Straight slope here!.
+Flat slope here!.
+Flat slope here!.
+Place a Tunnel here!.
+Place a Tunnel here!.
+Build station No.%d here!.
+Build station No.%d here.
+Build Train Depot here!.
+Build Train Depot here.
+Place Singnal here!.
+Place Singnal here.
+#__________________________________chapter 04___________________________________
+#__________________________________chapter 04___________________________________
+Setting Sail
+Setting Sail
+#__________________________chapter 04 - Pop-up window___________________________
+#__________________________chapter 04 - Pop-up window___________________________
+Dock No.%d must accept [%s]
+Dock No.%d must accept %s
+Place the shipyard here
+Place the shipyard here
+Select the dock No.%d
+Select the dock No.%d
+You must first buy a ship [%s].
+You must first buy a ship [%s].
+The number of ships must be [%d].
+The number of ships must be [%d].
+The ship must be for [%s].
+The ship must be for [%s].
+No barges allowed.
+No barges allowed.
+#___________________________chapter 04 - Text labels____________________________
+#___________________________chapter 04 - Text labels____________________________
+Build a Dock here!.
+Build a Dock here.
+Build Shipyard here!.
+Build Shipyard here.
+Build Canal here!.
+Build Canal here!.
+#__________________________________chapter 05___________________________________
+#__________________________________chapter 05___________________________________
+Industrial Efficiency
+Industrial Efficiency
+#__________________________chapter 05 - Pop-up window___________________________
+#__________________________chapter 05 - Pop-up window___________________________
+There is already a transformer here!
+There is already a transformer here!
+Build the transformer here!
+Build the transformer here!
+You are outside the allowed limits!
+You are outside the allowed limits!
+The number of trucks must be [%d].
+The number of trucks must be [%d].
+The truck must be for [%s].
+The truck must be for [%s].
+The trailers numbers must be [%d].
+The trailers numbers must be [%d].
+#___________________________chapter 05 - text labels____________________________
+#___________________________chapter 05 - text labels____________________________
+Transformer Here!.
+Transformer Here!.
+Mail Extension Here!.
+Mail Extension Here!.
+#__________________________________chapter 06___________________________________
+#__________________________________chapter 06___________________________________
+The forgotten Air transport
+The forgotten Air transport
+#__________________________chapter 06 - Pop-up window___________________________
+#__________________________chapter 06 - Pop-up window___________________________
+Build the track from here
+Build the track from here
+The track is not correct it must be: %s, use the 'Remove' tool
+The track is not correct it must be: %s, use the 'Remove' tool
+The track is correct.
+The track is correct.
+Build here
+Build here
+The Hangar is correct.
+The Hangar is correct.
+The Depot is correct.
+The Depot is correct.
+First buy an Airplane [%s].
+First buy an Airplane [%s].
+The number of aircraft in the hangar must be [%d].
+The number of aircraft in the hangar must be [%d].
+The Plane must be for [%s].
+The Plane must be for [%s].
+Extensions are not allowed.
+Extensions are not allowed.
+The number of planes in the hangar must be [%d], use the [sell] button.
+The number of planes in the hangar must be [%d], use the [sell] button.
+#__________________________________chapter 07___________________________________
+#__________________________________chapter 07___________________________________
+Bus networks
+Bus Networks
+#__________________________chapter 07 - Pop-up window___________________________
+#__________________________chapter 07 - Pop-up window___________________________
+Click on the stop
+Click on the stop
+You can only use this tool on a road.
+You can only use this tool on a road.
+You can only use this tool in the city
+You can only use this tool in the city
+You can only use vehicles:
+You can only use vehicles:
+#_________________________________common texts_________________________________
+#_________________________________common texts_________________________________
+The route is complete, now you may dispatch the vehicle from the depot
+The route is complete, now you may dispatch the vehicle from the depot
+You must build the bridge here
+You must build the bridge here
+Indicates the limits for using construction tools
+Indicates the limits for using construction tools
+Text label
+Text label
+You must select the deposit located in
+You must select the deposit located in
+You must use the inspection tool
+You must use the inspection tool
+The schedule is not correct.
+The schedule is not correct.
+It is not allowed to start vehicles.
+It is not allowed to start vehicles.
+First create a line for the vehicle.
+First create a line for the vehicle.
+The schedule needs to have %d waystops, but there are %d.
+The schedule needs to have %d waystops, but there are %d.
+Build a Bridge here!.
+Build a Bridge here.
+Here
+Here.
+OK
+OK
+The number of convoys must be [%d], press the [Sell] button.
+The number of convoys must be [%d], press the [Sell] button.
+The convoy is not correct.
+The convoy is not correct.
+You must select a [%s].
+You must select a [%s].
+#_________________________________chapter basic_________________________________
+#_________________________________chapter basic_________________________________
+The signal is ready!
+The signal is ready!
+You can only build stops on roads
+You can only build stops on roads
+You can only build stops on flat ground
+You can only build stops on flat ground
+You can only build on a straight road
+You can only build on a straight road
+It is not possible to build stops at intersections
+It is not possible to build stops at intersections
+The %s stop must be for %s
+Stop [%s] must be for [%s], use the 'Remove' tool
+The extension building for station [%s] must be for [%s], use the 'Remove' tool
+The extension building for station [%s] must be for [%s], use the 'Remove' tool
+The extension building for station [%s] must be a [%s], use the 'Remove' tool
+The extension building for station [%s] must be a [%s], use the 'Remove' tool
+There is already a stop here
+There is already a stop here
+Place the stops at the marked points
+Place the stops at the marked points
+Action not allowed
+Action not allowed
+Advance not allowed
+Advance not allowed
+Connect the Track here
+Connect the Track here
+Go to next step
+Go to next step
+No intersections allowed
+No intersections allowed
+The line is not correct.
+The line is not correct.
+The load of waystop {nr} '{name}' isn't {load}% {pos}
+The load of waystop {name} isn't {load}% {pos}
+The station at {pos} doesn't accept freight
+The station at {pos} doesn't accept freight
+The station at {pos} isn't your station
+The station at {pos} isn't your station
+The track is stuck, use the [Remove] tool here!
+The track is stuck, use the [Remove] tool here!
+The waittime in waystop {nr} '{name}' isn't {wait} {pos}
+The waittime in waystop {name} isn't {wait} {pos}
+The waystop {nr} '{name}' isn't on place {pos}
+The waystop {nr} ({name}) isn't on place {pos}
+The schedule list must not be empty.
+The schedule list must not be empty.
+You didn't build a station at {pos}
+You didn't build a station at {pos}
+The vehicle must be [%s].
+The vehicle must be [%s].
+Select station No.%d [%s]
+Select station No.%d [%s]
+#________________________________general script_________________________________
+#________________________________general script_________________________________
+Chapter
+Chapter
+Updating text ... Waiting ...
+Updating text ... Waiting ...
+Chapter {number} - {cname} complete, next Chapter {nextcname} start here: ({coord}).
+Congratulations on completing Chapter {number} - {cname}, Next Chapter '{nextcname}' start here: ({coord}).
+Let's go on!
+Let's go on!
+Let's start!
+Let's start!
+Savegame has a different {more_info} script version! Maybe, it will work.
+Savegame has a different {more_info} script version! Maybe, it will work.
+Translator
+HWRead
+Tutorial Scenario complete.
+Tutorial Scenario complete.
+Are you lost ?, see the instructions shown below.
+Are you lost ?, see the instructions shown below.
+empty chapter
+empty chapter
+Advance is not allowed with the game paused.
+Advance is not allowed with the game paused.

@@ -1,0 +1,18 @@
+<p>
+{tx} In depot {dep}, select a truck <em>{veh}</em> for mail and press <em>[Schedule]</em>.
+</p>
+<p>
+<em>Now select the stops:</em><br/>
+{list}<br/>
+After adding the seven stops, select the stop <em>{stnam}</em> and configure it as follows:<br/>
+<em>--> [a]</em> The <em>Minimum load</em> at <em>{load}%</em>.<br/>
+<em>--> [b]</em> Set <em>Month wait time</em> at <em>{wait}</em>.<br/>
+Press the button <em>[Copy convoy]</em> until you reach <em>{all_cov}</em> convoys, Finally press the button <em>[Start]</em>.
+</p>
+<p>
+<p>
+<st>It advances to the next chapter</st> when the ship starts from the <em>Shipyard</em>.
+</p>
+<p>
+<em>Convoys in circulation:</em> <st>{cir}/{all_cov}</st>
+</p>

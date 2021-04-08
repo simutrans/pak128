@@ -1,0 +1,19 @@
+<p>
+{scr}
+</p>
+<p>
+{txtst_01}Step A{txtst_01e} - About the Tutorial Scenario<br/>
+{step_01}
+</p>
+<p>
+{txtst_02}Step B{txtst_02e} - Moving about<br/>
+{step_02}
+</p>
+<p>
+{txtst_03}Step C{txtst_03e} - Viewing details<br/>
+{step_03}
+</p>
+<p>
+{txtst_04}Step D{txtst_04e} - The mini-map and other windows<br/>
+{step_04}
+</p>

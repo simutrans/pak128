@@ -1,0 +1,12 @@
+<p><br>{tx} En el depósito {dep}, selecciona un camion <em>{veh}</em> para correo y pulsa <em>[Itinerario]</em>.<br><br>
+
+<em>Ahora selecciona las paradas:</em><br>
+{list}<br>
+Tras añadir todas las paradas, selecciona la parada <em>{stnam}</em> y ajústala así:<br>
+<em>--> [a]</em> La <em>Carga mínima</em> al <em>{load}%</em>.<br>
+<em>--> [b]</em> El <em>Tiempo de Espera (Meses)</em> a <em>{wait}</em>.<br>
+Pulsa el botón <em>[Copiar vehículo]</em> hasta que obtengas <em>{all_cov}</em>. Por último, pulsa el botón <em>[Arrancar]</em><br><br>
+
+<st>Se avanza al siguiente capítulo</st> cuando el barco abandone el <em>Astillero</em>.<br></p>
+
+<em>Convoyes en circulación:</em> {cir}/{all_cov}</p>

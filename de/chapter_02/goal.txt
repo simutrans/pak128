@@ -1,0 +1,38 @@
+<p>
+Wir werden in der Stadt {name} eine Busverbindung einrichten 
+</p>
+<p>
+{scr}
+</p>
+<p>
+{txtst_01}Schritt A{txtst_01e} - ein Stück Straße bauen<br/>
+{step_01}
+</p>
+<p>
+{txtst_02}Schritt B{txtst_02e} - ein Depot bauen<br/>
+{step_02}
+</p>
+<p>
+{txtst_03}Schritt C{txtst_03e} - Busstationen bauen<br/>
+{step_03}
+</p>
+<p>
+{txtst_04}Schritt D{txtst_04e} - den ersten Bus fahren lassen<br/>
+{step_04}
+</p>
+<p>
+{txtst_05}Schritt E{txtst_05e} - Bau einer Brücke<br/>
+{step_05}
+</p>
+<p>
+{txtst_06}Schritt F{txtst_06e} - Hafen bauen und anbinden<br/>
+{step_06}
+</p>
+<p>
+{txtst_07}Schritt G{txtst_07e} - zur nächsten Stadt erweitern<br/>
+{step_07}
+</p>
+<p>
+{txtst_08}Schritt H{txtst_07e} - einen Halt öffentlich machen<br/>
+{step_08}
+</p>

@@ -1,0 +1,6 @@
+<p><br>Para la producción de <em>{good2}</em>, necesitarás transportar <em>{good1}</em> desde {f1} hasta {f2}.<br><br>
+
+{tx} Selecciona la opcion <em>'{tool3}'</em> en la barra de herramientas, luego construye una pendiente artificial que apunte hacia el noreste en la posición: {slpe1}.<br><br></p>
+
+<em>Estado de el terreno:</em><br>
+{slope_t}<br>

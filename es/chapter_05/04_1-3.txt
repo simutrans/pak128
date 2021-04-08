@@ -1,0 +1,5 @@
+<p>{tx} En el menú <em>{toolbar}</em> selecciona <em>"Edificios de Extensión"</em> para correo y coloca uno en cada una de las siguientes ubicaciones:<br><br>
+
+{st}<br><br>
+
+<st>Se avanza al siguiente capítulo</st> cuando el barco abandone el <em>Astillero</em>.<br></p>

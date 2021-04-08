@@ -1,0 +1,9 @@
+<p>
+Nachdem das Dock angebunden ist, sollten wir eine Busverbindung von {name} zur benachbarten Stadt {name2} einrichten.
+</p>
+<p>
+{tx} Klicken sie auf das <em>Debpot</em> {dep} um einen weiteren Bus zu kaufen.
+</p>
+<p>
+<strong>Weiter zum nächsten Schritt</strong>, wenn der Bus aus dem <em>Depot</em> fährt.
+</p>

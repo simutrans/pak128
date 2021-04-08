@@ -1,0 +1,8 @@
+There are not displayed all the tools .
+There are often only possible actions that are necessary for the current step .<br>
+<br>
+
+<em>·</em> Describe rules .<br>
+<em>·</em> Give hints .<br>
+<em>·</em> Known issues instructions .<br>
+<br>

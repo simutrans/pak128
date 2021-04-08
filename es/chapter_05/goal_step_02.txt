@@ -1,0 +1,18 @@
+<p>Se necesita transportar {good} para operar la planta de generación de electricidad "{f5}".</p>
+
+<p><em>[1] Connect the road: </em> <br/>
+Selecciona el menú <em>{tool2}</em> y conecta los puntos entre {w1} "{f4}" y {w2} "{f5}".</p>
+
+<p><em>[2] Estaciones de camiones:</em><br/>
+Construye las estaciones de mercancías en {w1} y {w2}.</p>
+
+<p><em>[3] El depósito de carretera:</em><br/>
+Construye un tramo de carretera en {dep} y luego un <em>Depósito de Carretera</em>.</p>
+
+<p><em>[4] Preparando los camiones:</em> <br/>
+Usa la {tool1} en el depósito y en la pestaña <em>"Camiones"</em> elije un <em>{veh}</em>, y luego elije un tráiler para <em>{good}</em>.<br/>
+Ahora para crear una línea para la flota de camiones: <br/>
+<em>- [1]</em> Selecciona la estación en {f4} y ajusta la <em>Carga Mínima</em> en <em>{wait}%</em>.<br/>
+<em>- [2]</em> Selecciona la estación en {f5} y cierra la ventana <em>Itinerario</em>.<br/>Pulsa el botón <em>[Copiar vehículo]</em> hasta que alcances {all_cov} convoyes. Por último pulsa el botón <em>[Arrancar]</em>.</p>
+
+<p><st>Se avanza al siguiente paso</st> cuando todos los convoyes estén en circulación.</p><p><em>Convoyes en circulación:</em> <st>{cir}/{all_cov}</st></p>

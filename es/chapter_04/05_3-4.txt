@@ -1,0 +1,3 @@
+<p><br>Se necesita transportar <em>{good3}</em> desde {f3} hasta {f4} para el consumidor final<br><br>
+
+{tx} Coloca otro <em>Astillero</em> en {dep2}.<br><br></p>

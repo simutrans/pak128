@@ -1,0 +1,38 @@
+<p>
+We are going to set up a Bus Service for the towns.
+</p>
+<p>
+{scr}
+</p>
+<p>
+{txtst_01}Step A{txtst_01e} - Building a stretch of road<br/>
+{step_01}
+</p>
+<p>
+{txtst_02}Step B{txtst_02e} - Building a Depot<br/>
+{step_02}
+</p>
+<p>
+{txtst_03}Step C{txtst_03e} - Adding Bus Stations<br/>
+{step_03}
+</p>
+<p>
+{txtst_04}Step D{txtst_04e} - Creating your first Bus<br/>
+{step_04}
+</p>
+<p>
+{txtst_05}Step E{txtst_05e} - Building a Bridge<br/>
+{step_05}
+</p>
+<p>
+{txtst_06}Step F{txtst_06e} - Connecting the Dock under Construction<br/>
+{step_06}
+</p>
+<p>
+{txtst_07}Step G{txtst_07e} - Putting it all together<br/>
+{step_07}
+</p>
+<p>
+{txtst_08}Step H{txtst_08e} - Creating Public Stops<br/>
+{step_08}
+</p>

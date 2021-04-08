@@ -1,0 +1,3 @@
+<p><br>Para la producción de <em>{good2}</em>, necesitarás transportar <em>{good1}</em> desde {f1} hasta {f2}.<br><br>
+
+{tx} Selecciona <em>'{tool2}</em> en la barra de herramientas y elige la <em>'herramienta de túneles'</em> para construir uno en {tn}.<br><br></p>

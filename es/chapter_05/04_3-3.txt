@@ -1,0 +1,12 @@
+<p>{tx} Usa la <em>Herramienta de Inspección</em> en el <em>Astillero</em> {dep} y en la pestaña de <em>Ferris</em> compra un <em>{ship}</em>.<br><br>
+
+Ahora pulsa <em>Itinerario</em> y selecciona las paradas:<br>
+{list}<br><br>
+
+Tras añadir las paradas, selecciona la parada <em>{stnam}</em> de la lista y configúrala de la siguiente forma:<br>
+<em>-> [a]</em> La <em>Carga Mínima</em> al <em>{load}%</em>.<br>
+<em>-> [b]</em> El <em>Tiempo de Espera (Meses)</em> a <em>{wait}</em>.<br><br>
+
+Por última pulsa el botón <em>Arrancar</em>.<br><br>
+
+Se avanza al siguiente capítulo cuando el barco salga del <em>Astillero</em>.</p>
