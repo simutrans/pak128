@@ -54,7 +54,7 @@ class tutorial.chapter_02 extends basic_chapter
     vhe1_name = translate("S_Kroytor_LiAZ-677")
 	veh1_obj = "S_Kroytor_LiAZ-677"
 	veh1_load = 100
-	veh1_wait = 12
+	veh1_wait = 10571
 	dep_cnr1 = null //auto started
 
 	// Step 5 =====================================================================================

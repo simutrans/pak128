@@ -5,11 +5,11 @@
 {txtst_01}Paso A{txtst_01e}</em> - Producción del Electricidad y Consumo<br>
 {step_01}<br><br>
 
-{txtst_02}Paso A{txtst_02e}</em> - Camiones para el Carbón<br>
+{txtst_02}Paso B{txtst_02e}</em> - Camiones para el Carbón<br>
 {step_02}<br><br>
 
-{txtst_03}Paso B{txtst_03e}</em> - Conectando el Sistema Elétrico<br>
+{txtst_03}Paso C{txtst_03e}</em> - Conectando el Sistema Eléctrico<br>
 {step_03}<br><br>
 
-{txtst_04}Paso C{txtst_04e}</em> - Entregando el Correo<br>
+{txtst_04}Paso D{txtst_04e}</em> - Entregando el Correo<br>
 {step_04}<br><br></p>

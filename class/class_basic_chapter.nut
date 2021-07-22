@@ -671,6 +671,7 @@ class basic_chapter
 			return text.tostring()
 		}
 
+		gui.add_message("Wait: "+entrie.wait+"");
 		if (entrie.wait != wait) {
 			local text = ttext("The waittime in waystop {nr} '{name}' isn't {wait} {pos}")
 			local txwait = get_wait_time_text(wait)
@@ -685,7 +686,7 @@ class basic_chapter
 
 	function get_wait_time_text(wait)
 	{
-		return wait
+		return ""+difftick_to_string(wait*(8))+""
 		/*local txwait= ""
 		switch (wait) {
 			case 7:
@@ -2267,9 +2268,11 @@ class basic_chapter
 			            break
 		            }
                 }
-		    }        
-		    c_line.change_schedule(play, sched)          
-            cov_list[0].set_line(play, c_line)
+		    }
+			if(c_line){     
+				c_line.change_schedule(play, sched)          
+				cov_list[0].set_line(play, c_line)
+			}
 
   			return null
         }

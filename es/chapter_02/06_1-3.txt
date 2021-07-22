@@ -28,6 +28,6 @@ Las líneas se pueden gestionar desde la ventana <em>Administración de lineas</em
 
 <em>Autobuses en circulación:</em> <st>{cir}/3</st><br><br>
 
-<st>Se avanza al siguiente paso</st> cuando todos los vehículos estén en circulación.<br><br>
+<st>Se avanza al siguiente paso</st> cuando todos los vehículos estén en circulación.
 
 </p>

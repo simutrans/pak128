@@ -25,7 +25,6 @@ Es un tipo de enlace especial que permite ejecutar códigos en el Escenario con u
 <h1>Mensajes de Escenario</h1><br>
 Los mensajes de Escenario están desactivados por defecto, puedes activarlos de la siguiente forma:<br><br>
 
-<em>--></em> Puede usar este enlace {proximamente} para mostar la ventana de <em>'Opciones'</em>.<br>
 -- En la barra de herramientas selecciona el menú <em>Buzon</em>, y ahí presione el botón de <em>[Opciones]</em><br>
 -- A continuación se muestra un lista de los tipos de mensajes, cada uno con 4 casillas de verificación.<br> 
 - <em>[Control Maestro]</em> este control activa/desactiva por completo el mensaje seleccionado.<br>

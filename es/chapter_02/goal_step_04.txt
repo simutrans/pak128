@@ -5,7 +5,7 @@
 <em>[3]</em> Con la ventana <em>Itinerario</em> abierta, ahora debes seleccionar en orden todas la paradas de la ciudad para añadirlas a la lista:<br>{list}<br>
 <em>[4]</em> Después de añadir las {nr} paradas, selecciona la parada <em>{stnam}</em> de la lista y configura la parada de la siguiente forma:<br>
 <em>--> [a]</em> La <em>Carga mínima</em> al <em>{load}%</em>.<br>
-<em>--> [b]</em> El <em>Tiempo de Espera (Meses)</em> a <em>{wait}</em>.<br>
+<em>--> [b]</em> El <em>Tiempo de Espera</em> a <em>{wait}</em>.<br>
 <em>[5]</em> Ahora pulsa sobre el botón <em>Arrancar</em> para que el vehículo salga del depósito.<br><br>
 
 <em>Consejo:</em> Presiona las teclas <em>[Ctrl]+["]</em> para ocultar los edificios urbanos.<br><br>
