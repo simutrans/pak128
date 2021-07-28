@@ -106,7 +106,7 @@ select_option_halt <- null			// placeholder for halt_x
 tutorial		  <- {}				// placeholder for all chapter CLASS
 
 include(nut_path+"class_basic_chapter") 		// include class for basic chapter structure
-for (local i = 1; i <= chapter_max; i++)		// include amount of chapter classes
+for (local i = 0; i <= chapter_max; i++)		// include amount of chapter classes
 	include(nut_path+"class_chapter_"+(i < 10 ? "0"+i:i) )
 chapter            <- tutorial.chapter_02      	// must be placed here !!!
 
@@ -140,11 +140,20 @@ function my_chapter()
 
 function scenario_percentage(percentage)
 {
-	return min( ((persistent.chapter - 1) * 100 + percentage) / tutorial.len(), 100 )
+	return min( ((persistent.chapter == 0? 1-1 : persistent.chapter -1) * 100 + percentage) / tutorial.len(), 100 )
 }
 
 function load_chapter(number,pl)
 {
+	//Check version and pakset name
+	current_pak = ""//get_pakset_name()
+	current_st = 0 //get_revision()
+	if (pak_name != current_pak || current_st < simu_version){
+		number = 0
+		persistent.status.step = 1
+		persistent.chapter = 0
+		//chapter.step_nr(0)
+	}
     rules.clear()
 	if (number <= tutorial.len() )		// replace the class
 		chapter = tutorial["chapter_"+(number < 10 ? "0":"")+number](pl)
@@ -157,6 +166,13 @@ function load_chapter(number,pl)
 
 function load_chapter2(number,pl)
 {
+	//Check version and pakset name
+	current_pak = ""//get_pakset_name()
+	current_st = 0 //get_revision()
+	if (pak_name != current_pak ||  current_st < simu_version){
+		number = 0
+		//chapter.step_nr(0)
+	}
     rules.clear()
 
 	chapter = tutorial["chapter_"+(number < 10 ? "0":"")+number](pl)
@@ -248,6 +264,7 @@ function get_about_text(pl)
 
 function start()
 {
+
 	gui_delay = false
 	set_city_names()
     resume_game()
@@ -255,6 +272,7 @@ function start()
 
 function is_scenario_completed(pl)
 {
+
 	//gui.add_message(""+glsw[0]+"")
 	//gui.add_message("Persis Step:"+persistent.step+" Status Step:"+persistent.status.step+"  Step:"+chapter.step+"")				
 	if (pl != 0) return 0			// other player get only 0%
@@ -272,6 +290,7 @@ function is_scenario_completed(pl)
 		gui_delay = false
 	}
 
+
 	//gui.add_message(""+current_cov+"  "+gall_cov+"")
 	//Para los convoys ---------------------
 	if (gall_cov != current_cov) chapter.checks_convoy_removed(pl)
@@ -279,7 +298,7 @@ function is_scenario_completed(pl)
 	correct_cov = chapter.correct_cov_list()
 	persistent.gall_cov = gall_cov
 
-//gui.add_message("gall_cov-> "+gall_cov+":: gcov_nr-> "+gcov_nr+":: current_cov-> "+current_cov+":: correct_cov-> "+correct_cov+"::gcov_id-> "+gcov_id+"::"+cov_sw+"")
+	//gui.add_message("gall_cov-> "+gall_cov+":: gcov_nr-> "+gcov_nr+":: current_cov-> "+current_cov+":: correct_cov-> "+correct_cov+"::gcov_id-> "+gcov_id+"::"+cov_sw+"")
 	if (correct_cov) {
 		if (persistent.status.chapter > persistent.chapter){
 			load_chapter2(persistent.status.chapter,pl)
@@ -313,8 +332,9 @@ function is_scenario_completed(pl)
 		text.nextcname = translate(""+chapter.chapter_name+"")
 		text.coord = chapter.chapter_coord.tostring()
 		chapter.start_chapter()  //Para iniciar variables en los capitulos
-		gui.add_message(text.tostring()) //test
+		if (persistent.chapter >1) gui.add_message(text.tostring()) //test
 	}
+
 	percentage = scenario_percentage(percentage)
 	if ( percentage >= 100 ) {		// scenario complete
 		local text = translate("Tutorial Scenario complete.")
@@ -421,7 +441,8 @@ convoy_x._save <- function()
 //-----------------------------------------------------------
 
 function resume_game()
-{	
+{
+
 	// Datos guardados
 	//-----------------------------------------------------	
 	// copy it piece by piece otherwise the reference 

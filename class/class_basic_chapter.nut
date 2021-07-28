@@ -573,7 +573,7 @@ class basic_chapter
 	{
 		local text = ttextfile( path + "goal.txt" )
 		local text_step = ttextfile( path + "goal_" + this.my_step(this.step) + ".txt" )
-		for (local i = 1; i <= 15; i++){
+		for (local i = 0; i <= 15; i++){
 			text[this.my_step(i)] = ""
 			text[this.ttxst(i)] = "<em>"
 			text[this.ttxst(i)+"e"] = "</em>"
@@ -1271,6 +1271,66 @@ class basic_chapter
 		return null
 	}
 
+	
+	function count_tunnel(coora, max){
+			local way = tile_x(coora.x, coora.y, coora.z).find_object(mo_way)
+			local r_dir = way? way.get_dirs():0
+
+			local result = false
+			if(r_dir == 2){
+				for(local j = 0;true;j++){
+					local t = tile_x((coora.x + j), coora.y , coora.z)
+					if (!t.is_valid())return false
+					local w = t.find_object(mo_way)
+					local slope = t.get_slope()
+					local dir = w? w.get_dirs():0
+					gui.add_message(""+t.x+","+t.y+"::"+slope+"")
+					if(w && j==max && (dir==2 || dir==10))result = true
+					else if(w && j>max)result = false
+					if(slope != 0) return result	
+				}
+			}
+			else if(r_dir == 8){
+				for(local j = 0;true;j++){
+					local t = tile_x((coora.x - j), coora.y , coora.z)
+					if (!t.is_valid())return false
+					local w = t.find_object(mo_way)
+					local slope = t.get_slope()
+					local dir = w? w.get_dirs():0
+					gui.add_message(""+t.x+","+t.y+"::"+slope+"")
+					if(w && j==max && (dir==2 || dir==10))result = true
+					else if(w && j>max)result = false
+					if(slope != 0) return result	
+				}
+			}
+			else if(r_dir == 4){
+				for(local j = 0;true;j++){
+					local t = tile_x(coora.x, (coora.y + j), coora.z)
+					if (!t.is_valid())return false
+					local w = t.find_object(mo_way)
+					local slope = t.get_slope()
+					local dir = w? w.get_dirs():0
+					gui.add_message(""+t.x+","+t.y+"::"+slope+"")
+					if(w && j==max && (dir==4 || dir==5))result = true
+					else if(w && j>max)result = false
+					if(slope != 0) return result	
+				}
+			}
+			else if(r_dir == 1){
+				for(local j = 0;true;j++){
+					local t = tile_x(coora.x, (coora.y - j), coora.z)
+					if (!t.is_valid())return false
+					local w = t.find_object(mo_way)
+					local slope = t.get_slope()
+					local dir = w? w.get_dirs():0
+					gui.add_message(""+t.x+","+t.y+"::"+slope+"")
+					if(w && j==max && (dir==1 || dir==5))result = true
+					else if(w && j>max)result = false
+					if(slope != 0) return result	
+				}
+			}
+			return result
+	}
 	//Comprueba conexion entre vias
 	//dir 0 = auto
 	//dir 2 = coorda.y--

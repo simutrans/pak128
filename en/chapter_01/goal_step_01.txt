@@ -31,7 +31,6 @@ It is a special type of link that allows you to execute codes in the Scenario wi
 <p>
 <h1>Scenario Messages</h1>
 Scenario messages are disabled by default, you can enable as follows:<br>
-<em>--> </em> You can use this link {coming soon} to display the <em>'Options'</em> window.<br>
 - In the toolbar select the menu <em>Menssage Center</em>, in the press the button <em>[Options]</em><br>
 - Below is a list of message types, each with 4 checkboxes.<br>
 - <em>[Master Control]</em> this control completely enables/disables the selected message.<br>

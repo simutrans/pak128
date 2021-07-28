@@ -9,7 +9,7 @@
 class tutorial.chapter_01 extends basic_chapter
 {
 	chapter_name  = "Getting Started"
-	chapter_coord = coord(113,189)
+	chapter_coord = coord(95,33)
 	startcash     = 500000   				// pl=0 startcash; 0=no reset
 	
 	comm_script = false
