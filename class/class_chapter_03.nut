@@ -1247,37 +1247,7 @@ class tutorial.chapter_03 extends basic_chapter
 			case 8:
 				rules.clear()
 				set_all_rules(pl)
-				/*
-				//Para el tramo de via
-				if (pot0==0){
-					local coora = coord3d(c_way6.a.x, c_way6.a.y, c_way6.a.z)
-					local coorb = coord3d(c_way6.b.x, c_way6.b.y, c_way6.b.z)
-					local obj = false
-					local tunnel = false
-					local dir = get_dir_start(coora)
-					local fullway = get_fullway(coora, coorb, dir, obj, tunnel)
-					coorbord = fullway
-					if (fullway==0){
-						pot0=1
-						return 45
-					}
-				}
-				//Para el puente
-				else if (pot0==1 && pot1==0){
-					local tile = my_tile(c_brge3.a)
-					if ((!tile.find_object(mo_bridge))){
-						label_x.create(c_brge3.a, player_x(0), translate("Build a Bridge here!."))
-						coorbord = 	coord3d(tile.x, tile.y, tile.z)
-					}
-					else {
-						tile.remove_object(player_x(0), mo_label)
 
-						if (my_tile(c_brge3.b).find_object(mo_bridge)){
-							coorbord = 0
-							pot1=1
-						}				
-					}
-				}*/
 				//Para la entrada del tunel
 				if (pot0==0){
 					local t_tunn = my_tile(start_tunn)
@@ -1886,29 +1856,6 @@ class tutorial.chapter_03 extends basic_chapter
 				break
 
 			case 8:
-
-				/*
-				//Construye tramo de via para el tunel
-				if (pot0==0){
-					if (pos.x>=c_way6_lim.a.x && pos.y<=c_way6_lim.a.y && pos.x<=c_way6_lim.b.x && pos.y>=c_way6_lim.b.y){
-						if (tool_id==tool_build_way || tool_id == tool_build_bridge || tool_id == tool_build_tunnel){
-							return all_control(result, gl_wt, way, ribi, tool_id, pos, coorbord)
-						}
-					}
-				}
-				//Construye un puente
-				else if (pot0==1 && pot1==0){
-					if (pos.x>=c_bway_lim3.a.x && pos.y>=c_bway_lim3.a.y && pos.x<=c_bway_lim3.b.x && pos.y<=c_bway_lim3.b.y){
-						if(tool_id==tool_build_way)
-							return null
-						if(tool_id==tool_build_bridge){
-							if(pos.z==brge3_z)
-								return null
-							else
-								return translate("You must build the bridge here")+" ("+c_brge3.a.tostring()+")."
-						}	
-					}
-				}*/
 				//Construye Entrada del tunel
 				if (pot0==0){
 					if (tool_id==tool_build_tunnel || tool_id==tool_build_way){
@@ -1926,12 +1873,12 @@ class tutorial.chapter_03 extends basic_chapter
 						if (pos.x>=c_tunn2_lim.a.x && pos.y<=c_tunn2_lim.a.y && pos.x<=c_tunn2_lim.b.x && pos.y>=c_tunn2_lim.b.y){
 							if(!count_tunn && slope==0 && way && way.is_marked())
 								return null
-							if(count_tunn) return translate("Debe usar la herramienta para bajar el terreno aqui**")+" ("+coorbord.tostring()+".)" 
+							if(count_tunn && pos.z!=end_lvl_z) return translate("Debe usar la herramienta para bajar el terreno aqui**")+" ("+coorbord.tostring()+".)" 
 						}
 					}
 					if (tool_id==4100){
 						if (pos.x>=c_tunn2_lim.a.x && pos.y<=c_tunn2_lim.a.y && pos.x<=c_tunn2_lim.b.x && pos.y>=c_tunn2_lim.b.y){
-							if (count_tunn){
+							if (count_tunn || (slope != 28 && slope!= 0)){
 								if (pos.z == (end_lvl_z))
 									return translate("The tunnel is already at the correct level")+" (-"+end_lvl_z+")."
 								if (slope==0)
@@ -1950,19 +1897,22 @@ class tutorial.chapter_03 extends basic_chapter
 											return null
 								}
 							}
-							else if (slope==0)return translate("El tunel no es correcto, use la herramienta [Eliminar] aqui**")+" ("+coorbord.tostring()+".)" 
+							else if (slope==0){
+								if (pos.z == (end_lvl_z))
+									return translate("The tunnel is already at the correct level")+" (-"+end_lvl_z+")."
+								return translate("El tunel no es correcto, use la herramienta [Eliminar] aqui**")+" ("+coorbord.tostring()+".)" 
+							}
 						}
 						else return coorbord!=0 && slope==0? translate("Modify the terrain here")+" ("+coorbord.tostring()+")." : result
 					}
 
 					if (tool_id==tool_build_tunnel || tool_id==tool_build_way || tool_id== 4099){
 						if (pos.x>=c_tunn2_lim.a.x && pos.y<=c_tunn2_lim.a.y && pos.x<=c_tunn2_lim.b.x && pos.y>=c_tunn2_lim.b.y){
-							//gui.add_message(""+ribi+"::"+tool_build_tunnel+"::"+tool_build_way+"")
 							if(ribi == 0){
 								return null
-					
 							}
-							if (coorbord!=0 && pos.z<= coorbord.z){
+							if (slope != 4 && slope!= 0) return translate("You must lower the ground first")+" ("+coorbord.tostring()+".)"
+							if (coorbord!=0){
 								if (pos.z > end_lvl_z){
 									local slopebord = tile_x(coorbord.x, coorbord.y, coorbord.z).get_slope()
 
@@ -1974,18 +1924,18 @@ class tutorial.chapter_03 extends basic_chapter
 										if(is_mark || label || lock) return all_control(result, gl_wt, way, ribi, tool_id, pos, coorbord)
 										else if (!count_tunn)
 											return translate("El tunel no es correcto, use la herramienta [Eliminar] aqui**")+" ("+coorbord.tostring()+".)" 
-										else return translate("First you must Upper the layer level.")
+										else return translate("First you must lower the layer level.")
 									}
 									else if (slopebord==0){
 										if (!count_tunn)
 											return translate("El tunel no es correcto, use la herramienta [Eliminar] aqui**")+" ("+coorbord.tostring()+".)" 
-										return translate("You must upper the ground first")+" ("+coorbord.tostring()+".)"
+										return translate("You must lower the ground first")+" ("+coorbord.tostring()+".)"
 									}
 								}
 								else if (pos.z == end_lvl_z)
 									return all_control(result, gl_wt, way, ribi, tool_id, pos, coorbord)
 							}
-							return translate("First you must Upper the layer level.")
+							return translate("First you must lower the layer level.")
 						}
 						else if(pos.z == end_lvl_z) return coorbord!=0? translate("Connect the Track here")+" ("+coorbord.tostring()+").": result
 						else return coorbord!=0? translate("Build a tunnel here")+" ("+coorbord.tostring()+")." : result		

@@ -671,7 +671,6 @@ class basic_chapter
 			return text.tostring()
 		}
 
-		gui.add_message("Wait: "+entrie.wait+"");
 		if (entrie.wait != wait) {
 			local text = ttext("The waittime in waystop {nr} '{name}' isn't {wait} {pos}")
 			local txwait = get_wait_time_text(wait)
@@ -687,43 +686,6 @@ class basic_chapter
 	function get_wait_time_text(wait)
 	{
 		return ""+difftick_to_string(wait*(8))+""
-		/*local txwait= ""
-		switch (wait) {
-			case 7:
-				txwait = "1/512"
-				break
-			case 8:
-				txwait = "1/256"
-				break
-			case 9:
-				txwait = "1/128"
-				break
-			case 10:
-				txwait = "1/64"
-				break
-			case 11:
-				txwait = "1/32"
-				break
-			case 12:
-				txwait = "1/16"
-				break
-			case 13:
-				txwait = "1/8"
-				break
-			case 14:
-				txwait = "1/4"
-				break
-			case 15:
-				txwait = "1/2"
-				break
-			case 16:
-				txwait = "1/1"
-				break
-			default:
-				txwait = ""+wait+""
-				break
-		}
-		return txwait*/
 	}
 
 	function is_station_build(player,coord,good)
@@ -1273,63 +1235,84 @@ class basic_chapter
 
 	
 	function count_tunnel(coora, max){
-			local way = tile_x(coora.x, coora.y, coora.z).find_object(mo_way)
-			local r_dir = way? way.get_dirs():0
+		local way = tile_x(coora.x, coora.y, coora.z).find_object(mo_way)
+		local r_dir = way? way.get_dirs():0
 
-			local result = false
-			if(r_dir == 2){
-				for(local j = 0;true;j++){
-					local t = tile_x((coora.x + j), coora.y , coora.z)
-					if (!t.is_valid())return false
-					local w = t.find_object(mo_way)
-					local slope = t.get_slope()
-					local dir = w? w.get_dirs():0
-					gui.add_message(""+t.x+","+t.y+"::"+slope+"")
-					if(w && j==max && (dir==2 || dir==10))result = true
-					else if(w && j>max)result = false
-					if(slope != 0) return result	
+		local result = false
+		if(r_dir == 2){
+			for(local j = 0;true;j++){
+				local t = tile_x((coora.x + j), coora.y , coora.z)
+				if (!t.is_valid()){
+					return false
 				}
-			}
-			else if(r_dir == 8){
-				for(local j = 0;true;j++){
-					local t = tile_x((coora.x - j), coora.y , coora.z)
-					if (!t.is_valid())return false
-					local w = t.find_object(mo_way)
-					local slope = t.get_slope()
-					local dir = w? w.get_dirs():0
-					gui.add_message(""+t.x+","+t.y+"::"+slope+"")
-					if(w && j==max && (dir==2 || dir==10))result = true
-					else if(w && j>max)result = false
-					if(slope != 0) return result	
+				local w = t.find_object(mo_way)
+				if (!w){
+					t.z--
+					w = t.find_object(mo_way)
 				}
+				local slope = t.get_slope()
+				local dir = w? w.get_dirs():0
+				//gui.add_message(""+t.x+","+t.y+","+t.z+"::"+slope+"")
+				if(w && j==max && (dir==2 || dir==10))result = true
+				else if(w && j>max)result = false
+				if(slope != 0) return result	
 			}
-			else if(r_dir == 4){
-				for(local j = 0;true;j++){
-					local t = tile_x(coora.x, (coora.y + j), coora.z)
-					if (!t.is_valid())return false
-					local w = t.find_object(mo_way)
-					local slope = t.get_slope()
-					local dir = w? w.get_dirs():0
-					gui.add_message(""+t.x+","+t.y+"::"+slope+"")
-					if(w && j==max && (dir==4 || dir==5))result = true
-					else if(w && j>max)result = false
-					if(slope != 0) return result	
+		}
+		else if(r_dir == 8){
+			for(local j = 0;true;j++){
+				local t = tile_x((coora.x - j), coora.y , coora.z)
+				if (!t.is_valid()){
+					return false
 				}
-			}
-			else if(r_dir == 1){
-				for(local j = 0;true;j++){
-					local t = tile_x(coora.x, (coora.y - j), coora.z)
-					if (!t.is_valid())return false
-					local w = t.find_object(mo_way)
-					local slope = t.get_slope()
-					local dir = w? w.get_dirs():0
-					gui.add_message(""+t.x+","+t.y+"::"+slope+"")
-					if(w && j==max && (dir==1 || dir==5))result = true
-					else if(w && j>max)result = false
-					if(slope != 0) return result	
+				local w = t.find_object(mo_way)
+				if (!w){
+					t.z--
+					w = t.find_object(mo_way)
 				}
+				local slope = t.get_slope()
+				local dir = w? w.get_dirs():0
+				if(w && j==max && (dir==2 || dir==10))result = true
+				else if(w && j>max)result = false
+				if(slope != 0) return result	
 			}
-			return result
+		}
+		else if(r_dir == 4){
+			for(local j = 0;true;j++){
+				local t = tile_x(coora.x, (coora.y + j), coora.z)
+				if (!t.is_valid()){
+					return false
+				}
+				local w = t.find_object(mo_way)
+				if (!w){
+					t.z--
+					w = t.find_object(mo_way)
+				}
+				local slope = t.get_slope()
+				local dir = w? w.get_dirs():0
+				if(w && j==max && (dir==4 || dir==5))result = true
+				else if(w && j>max)result = false
+				if(slope != 0) return result	
+			}
+		}
+		else if(r_dir == 1){
+			for(local j = 0;true;j++){
+				local t = tile_x(coora.x, (coora.y - j), coora.z)
+				if (!t.is_valid()){
+					return false
+				}
+				local w = t.find_object(mo_way)
+				if (!w){
+					t.z--
+					w = t.find_object(mo_way)
+				}
+				local slope = t.get_slope()
+				local dir = w? w.get_dirs():0
+				if(w && j==max && (dir==1 || dir==5))result = true
+				else if(w && j>max)result = false
+				if(slope != 0) return result	
+			}
+		}
+		return result
 	}
 	//Comprueba conexion entre vias
 	//dir 0 = auto
