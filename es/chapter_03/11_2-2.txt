@@ -12,7 +12,7 @@ En el campo al lado de "Sirve en línea", selecciona <em>"Crear nueva línea"</em>
 
 Tras añadir todas las paradas, selecciona la parada <em>{stnam}</em> y configura la estación de la siguiente forma:<br>
 <em>--> [a]</em> La <em>Carga mínima</em> al <em>{load}%</em>.<br>
-<em>--> [b]</em> El Tiempo de Espera (Meses)</em> a <em>{wait}</em>.<br><br>
+<em>--> [b]</em> La <em>Hora de salida</em> a <em>{wait}</em>.<br><br>
 
 <h1>Copiar Vehículo:</h1>
 Este botón permite copiar el vehículo, incluyendo su itinerario o línea.<br>

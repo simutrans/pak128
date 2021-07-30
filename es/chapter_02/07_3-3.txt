@@ -9,6 +9,6 @@
 <em>[4]</em> Selecciona la parada {st4} y <st>deje todo como está</st>.<br>
 <em>[5]</em> Selecciona la parada {st5} y configura la parada de la siguiente forma:<br>
 <em>--> [a]</em> La Carga mínima al <em>{load}%</em>.<br>
-<em>--> [b]</em> El Tiempo de Espera (Meses) a <em>{wait}</em>.
+<em>--> [b]</em> La Hora de salida a <em>{wait}</em>.
 
 <br><br><st>Se avanza al siguiente paso</st> cuando el autobús salga del <em>depósito</em>.<br><br></p>

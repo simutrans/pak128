@@ -24,4 +24,3 @@ You need {all_cov} ships are needed to supply <em>({good1})</em> to the {f3}.
 <p>
 <em>Ships in circulation:</em> <st>{cir}/{all_cov}</st>
 </p>
-

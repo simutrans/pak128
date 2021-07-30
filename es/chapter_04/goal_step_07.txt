@@ -1,14 +1,14 @@
-<p><br>Se necesita transportar <em>pasajeros</em> hacia las zonas turísticas {tur}.<br><br>
+<p>Se necesita transportar <em>pasajeros</em> hacia las zonas turísticas {tur}.</p>
 
-Usa la <em>herramienta de inspección</em> en el <em>Astillero</em> {dep2} y en la pestaña <em>Ferris</em> compra un <em>{ship}</em> .<br><br>
+<p>Usa la <em>herramienta de inspección</em> en el <em>Astillero</em> {dep2} y en la pestaña <em>Ferris</em> compra un <em>{ship}</em>.</p>
 
-Ahora presiona <em>itinerario</em> y selecciona las paradas:<br>
-{list}<br><br>
+<p>Ahora presiona <em>itinerario</em> y selecciona las paradas:<br>
+{list}</p>
 
-Tras añadir las paradas, elecciona la parada <em>{stnam}</em> y ajusta:<br>
+<p>Tras añadir las paradas, elecciona la parada <em>{stnam}</em> y ajusta:<br>
 <em>--> [a]</em> La <em>Carga mínima</em> al <em>{load}%</em>.<br>
-<em>--> [b]</em> El <em>Tiempo de Espera (Meses)</em> a <em>{wait}</em>.<br>
+<em>--> [b]</em> La <em>Hora de salida</em> a <em>{wait}</em>.</p>
 
-<br><br>Por último, presiona el botón <em>Arrancar</em>.<br><br>
+<p>Por último, presiona el botón <em>Arrancar</em>.</p>
 
-Se avanza al siguiente capítulo cuando el barco arranque desde el <em>Astillero</em></p>
+<p>Se avanza al siguiente capítulo cuando el barco arranque desde el <em>Astillero</em></p>

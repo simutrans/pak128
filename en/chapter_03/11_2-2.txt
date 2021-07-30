@@ -15,8 +15,8 @@ In the field next to "Serves line", select <em>create new line</em> and select t
 </p>
 <p>
 After adding the stops, select the stop <em>{stnam}</em> from the list and configure as follows:<br>
-<em> -> [a]</em> The <em>Minimum load</em> at <em>{load}%</em>.<br>
-<em>--> [b]</em> Set the <em>Depart after</em> in <em>{wait}</em>.<br/>
+<em>--> [a]</em> Set <em>Minimum load</em> to <em>{load}%</em>.<br>
+<em>--> [b]</em> Set <em>Depart on</em> to <em>{wait}</em>.<br/>
 </p>
 <p>
 <h1>Copy convoy:</h1>

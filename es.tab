@@ -1,386 +1,368 @@
-#__________________________________chapter 01___________________________________
-#__________________________________chapter 01___________________________________
-Getting Started
-Empezando
-This is a town centre
-Esto es un ayuntamiento
-This is a factory
-Esto es una fabrica
-This is a station
-Esto es una estacion
-This is a link
-Esto es un enlace/link
-Town Centre
-Ayuntamiento
-Creating Schedules is currently not allowed
-CreaciÃ³n de rutas no esta permitido actualmente
-#__________________________________chapter 02___________________________________
-#__________________________________chapter 02___________________________________
-Ruling the Roads
-Montando las carreteras
-Stop
-Parada
-Build Stop here:
-Construya Parada de AutobÃºs aquÃ­:
-#__________________________chapter 02 - Pop-up window___________________________
-#__________________________chapter 02 - Pop-up window___________________________
-Connect the road here
-Conecte la Carretera por aquÃ­
-You must first build a stretch of road
-Primero debe construir un tramo de carretera
-You must build the depot in
-Debe construir el deposito en
-You must build the %d stops first.
-Debe construir las %d paradas primero.
-Stops should be built in [%s]
-Las paradas deben construirse en [%s]
-Only %d stops are necessary.
-Solo son necesarias %d paradas.
-Press the [Copy Backward] button, then set the Minimum Load and Month Wait Time at the first stop!.
-Â¡Presione el botÃ³n [Viaje de Vuelta], luego configure La carga mÃ­nima y el Tiempo de Espera de la primera parada en la lista!.
-You must build a stop in [%s] first
-Debe construir una parada en [%s] Primero
-You can only delete the stops.
-Solo se permite eliminar paradas.
-You must connect the two cities first.
-Debe conectar las dos ciudades primero.
-Only road schedules allowed
-Solo se permite enrutar por carreteras
-You must press the [Copy backward] button to complete the route.
-Debes presionar el botÃ³n [Viaje de vuelta] para completar la ruta.
-You must first buy a bus [%s].
-Primero debes comprar un AutobÃºs [%s].
-The number of bus must be [%d].
-El numero de Autobuses debe ser de [%d].
-Select the Bus [%s].
-Seleccione el AutobÃºs [%s].
-The bus must be [Passengers].
-El AutobÃºs debe ser para [Pasajeros].
-Must not use trailers [%d].
-No se permiten remolques/traillares [%d].
-#___________________________chapter 02 - Text labels____________________________
-#___________________________chapter 02 - Text labels____________________________
-Place the Road here!.
-Coloque la carretera aquÃ­.
-Build a Depot here!.
-Construya el deposito aquÃ­.
-Place Stop here!.
-Coloque parada aquÃ­.
-#__________________________________chapter 03___________________________________
-#__________________________________chapter 03___________________________________
-Riding the Rails
-Montando los rieles
-Slope Height.
-Altura de la pendiente
-It must be a slope.
-Debe ser una pendiente.
-It is not a slope.
-No es una pendiente.
-The slope points to the [%s].
-La pendiente apunta hacia el [%s].
-It is not flat terrain.
-No es un terreno plano.
-The terrain must be flat.
-El terreno debe ser plano.
-Signal Nr.%d
-SeÃ±al Numero: %d
-Number of convoys in the depot:
-Numero de convoyes en el deposito:
-Must choose a locomotive:
-Debes seleccionar una locomotora:
-All wagons must be for:
-Todos los vagones deben ser para:
-The number of wagons must be:
-El numero de vagones debe ser:
-The cabin:
-La cabina:
-#__________________________chapter 03 - Pop-up window___________________________
-#__________________________chapter 03 - Pop-up window___________________________
-Straight slope here
-Pendiente recta aquÃ­.
-The land is already prepared.
-El terreno esta preparado.
-You must lift the land with a flat slope first
-Primero debe levantar el terreno con una ladera artificial plana
-There is already a station.
-Ya existe una Estacion aquÃ­.
-Station No.%d must accept goods
-La estacion nr.%d debe ser para mercancÃ­a
-Station No.%d here
-EstaciÃ³n Nr.%d aquÃ­
-You can only delete the stations.
-Solo puedes eliminar estaciones.
-You must build track in
-Debes construir la vÃ­a aquÃ­
-You must build the train depot in
-Debes construir la cochera ferroviaria en
-Select the other station
-Seleccione la otra estaciÃ³n
-Select the other station first
-Seleccione la otra estaciÃ³n primero
-Press [Ctrl] to build a tunnel entrance here
-Presione (Ctrl) para construir la entrada del TÃºnel aquÃ­:
-The tunnel is already at the correct level
-El tÃºnel ya estÃ¡ a un nivel adecuado (-3).
-The slope is ready.
-La pendiente esta lista.
-Raise ground here
-Suba el terreno por aquÃ­
-First you must build a tunnel section.
-Primero debe construir un tramo de tÃºnel.
-You must upper the ground first
-Debe subir el terreno primero.
-First you must lower the layer level.
-Primero debe bajar el nivel de la capa.
-Build a Tunnel here
-Construya un tunel aquÃ­
-Modify the terrain here
-Modifique el terreno aquÃ­
-Only delete signals.
-Solo puede eliminar seÃ±ales.
-The signal does not point in the correct direction
-La seÃ±al no apunta hacia la direcciÃ³n correcta
-Place a block signal here
-Coloque seÃ±al de paso aquÃ­
-It must be a block signal!
-Debe ser una seÃ±al de paso
-Incorrect vehicle configuration, check vehicle status.
-ConfiguraciÃ³n incorrecta del vehÃ­culo, compruebe el estado del vehÃ­culo.
-You must first buy a locomotive [%s].
-Primero debes comprar una locomotora [%s].
-Only one train is allowed, press the [Sell] button.
-Solo se permite un tren. presione el boton [Vender].
-Must choose a locomotive [%s].
-Debes seleccionar una locomotora [%s].
+Action not allowed
+Acción no permitida
+Advance is not allowed with the game paused.
+Avanzar no está permitido con el juego en pausa.
+Advance not allowed
+Avanzar no está disponible
+Advanced Topics
+Conceptos Avanzados
 All wagons must be for [%s].
 Todos los vagones deben ser para [%s].
-The number of wagons must be [%d].
-El numero de vagones debe ser: [%d].
-The number of convoys must be [%d].
-The el numero de trenes debe ser: [%d].
-#___________________________chapter 03 - Text labels____________________________
-#___________________________chapter 03 - Text labels____________________________
-Build Rails form here
-Construya los Rieles por aquÃ­.
-Straight slope here!.
-Pendiente recta aquÃ­.
-Flat slope here!.
-Pendiente plana aquÃ­.
-Place a Tunnel here!.
-Coloque el TÃºnel AquÃ­.
-Build station No.%d here!.
-EstaciÃ³n Nr.%d aquÃ­.
-Build Train Depot here!.
-Construya Cochera Ferroviaria aquÃ­.
-Place Singnal here!.
-Coloque seÃ±al aquÃ­.
-#__________________________________chapter 04___________________________________
-#__________________________________chapter 04___________________________________
-Setting Sail
-Ajustando las velas
-#__________________________chapter 04 - Pop-up window___________________________
-#__________________________chapter 04 - Pop-up window___________________________
-Dock No.%d must accept [%s]
-El muelle nr %d debe aceptar [%s]
-Place the shipyard here
-Coloca el astillero aquÃ­
-Select the dock No.%d
-Seleccione el muelle nr %d
-You must first buy a ship [%s].
-Primero debes comprar un barco [%s].
-The number of ships must be [%d].
-El nÃºmero de barcos debe ser [%d].
-The ship must be for [%s].
-El barco debe ser por [%s].
-No barges allowed.
-No se permiten barcazas.
-#___________________________chapter 04 - Text labels____________________________
-#___________________________chapter 04 - Text labels____________________________
-Build a Dock here!.
-Construye un muelle aquÃ­.
-Build Shipyard here!.
-Construye el astillero aquÃ­.
-Build Canal here!.
-Â¡Construye Canal aquÃ­!
-#__________________________________chapter 05___________________________________
-#__________________________________chapter 05___________________________________
-Industrial Efficiency
-Eficiencia Industrial
-#__________________________chapter 05 - Pop-up window___________________________
-#__________________________chapter 05 - Pop-up window___________________________
-There is already a transformer here!
-Â¡Ya hay un transformador aquÃ­!
-Build the transformer here!
-Â¡Construye el transformador aquÃ­!
-You are outside the allowed limits!
-Â¡EstÃ¡s fuera de los lÃ­mites permitidos!
-The number of trucks must be [%d].
-El numero de camiones debe ser [%d].
-The truck must be for [%s].
-El camiÃ³n debe ser para [%s].
-The trailers numbers must be [%d].
-El numero de remolques debe ser de [%d].
-#___________________________chapter 05 - text labels____________________________
-#___________________________chapter 05 - text labels____________________________
-Transformer Here!.
-Transformador aquÃ­!
-Mail Extension Here!.
-ExtensiÃ³n de correo aquÃ­!.
-#__________________________________chapter 06___________________________________
-#__________________________________chapter 06___________________________________
-The forgotten Air transport
-El olvidado transporte AÃ©reo
-#__________________________chapter 06 - Pop-up window___________________________
-#__________________________chapter 06 - Pop-up window___________________________
-Build the track from here
-Construye la pista desde aquÃ­
-The track is not correct it must be: %s, use the 'Remove' tool
-La pista no es correcta, debe ser: %s, use la herramienta 'Eliminar'
-The track is correct.
-La pista es correcta.
-Build here
-Construya por aquÃ­
-The Hangar is correct.
-El Hangar es correcto.
-The Depot is correct.
-El DepÃ³sito es correcto.
-First buy an Airplane [%s].
-Primero compre un AviÃ³n [%s].
-The number of aircraft in the hangar must be [%d].
-El nÃºmero de aviones en el hangar debe ser de [%d].
-The Plane must be for [%s].
-El AviÃ³n debe ser para [%s].
-Extensions are not allowed.
-No se permite extensiones.
-The number of planes in the hangar must be [%d], use the [sell] button.
-El numero de aviones en el hangar debe ser de [%d], use el boton [vender].
-#__________________________________chapter 07___________________________________
-#__________________________________chapter 07___________________________________
-Bus networks
-Redes de autobuses
-#__________________________chapter 07 - Pop-up window___________________________
-#__________________________chapter 07 - Pop-up window___________________________
-Click on the stop
-Haga clic en la parada
-You can only use this tool on a road.
-Solo puedes usar esta herramienta en carreteras.
-You can only use this tool in the city
-Solo puedes usar esta herramienta en la ciudad
-You can only use vehicles:
-Solo puede usar vehÃ­culos:
-#_________________________________common texts_________________________________
-#_________________________________common texts_________________________________
-The route is complete, now you may dispatch the vehicle from the depot
-La ruta esta completa, ahora debe arrancar el vehÃ­culo desde la cochera
-You must build the bridge here
-Debes construir el puente aquÃ­
-Indicates the limits for using construction tools
-Indica los limites para el uso de herramientas
-Text label
-Marcador de texto
-You must select the deposit located in
-Seleccione el deposito localizado en:
-You must use the inspection tool
-Debes usar la herramienta de exploraciÃ³n
-The schedule is not correct.
-La ruta no es correcta.
-It is not allowed to start vehicles.
-No puedes arrancar vehÃ­culos.
-First create a line for the vehicle.
-Primero debe crear una linea para el vehiculo.
-The schedule needs to have %d waystops, but there are %d.
-La lista de enrutar necesita %d paradas, pero son %d.
+All wagons must be for:
+Todos los vagones deben ser para:
+Are you lost ?, see the instructions shown below.
+¿Estás perdido?, mira las instrucciones que se muestran a continuación.
 Build a Bridge here!.
-Construya Puente aquÃ­.
-Here
-AquÃ­
-OK
-Correcto
-The number of convoys must be [%d], press the [Sell] button.
-El numero de convoys/vehiculos debe ser de [%d], pulse el boton [Vender].
-The convoy is not correct.
-El convoy no es correcto.
-The train may not be longer than [%d] tiles.
-El tren no puede exceder las [%d] casillas.
-The train cannot be shorter than [%d] tiles.
-El tren no puede ser menor a las [%d] casillas.
-You must select a [%s].
-Debe seleccionar un [%s].
-#_________________________________chapter basic_________________________________
-#_________________________________chapter basic_________________________________
-The signal is ready!
-La seÃ±a esta lista!
-You can only build stops on roads
-Solo puedes construir paradas en carreteras
-You can only build stops on flat ground
-Solo puedes construir paradas terreno plano
-You can only build on a straight road
-Solo puedes construir paradas en carreteras rectas
-It is not possible to build stops at intersections
-No es posible construir paradas en intersecciones
-The %s stop must be for %s
-La parada (%s) debe ser para %s, use la herramienta [Eliminar] para quitarla
-The extension building for station [%s] must be for [%s], use the 'Remove' tool
-El edificio de extensiÃ³n para la estacion [%s] debe ser para [%s], use la heramienta de 'Eliminar'
-The extension building for station [%s] must be a [%s], use the 'Remove' tool
-El edificio de extensiÃ³n para la estacion [%s] debe ser [%s], use la heramienta de 'Eliminar'
-There is already a stop here
-Ya existe una parada aquÃ­
-Place the stops at the marked points
-Coloque las paradas en los puntos marcados
-Action not allowed
-Accion no permitida
-Advance not allowed
-Avanzar no esta disponible
+Construye un Puente aquí.
+Build a Depot here!.
+Construye el Depósito aquí.
+Build a Dock here!.
+Construye un Muelle aquí.
+Build a Tunnel here
+Construye un túnel aquí
+Build Canal here!.
+¡Construye el Canal aquí!
+Build here
+Construye aquí
+Build Rails form here
+Construye las Vías de Tren aquí.
+Build Shipyard here!.
+Construye el Astillero aquí.
+Build station No.%d here!.
+Construye estación Nr.%d aquí.
+Build Stop here:
+Construye Parada de Autobús aquí:
+Build the track from here
+Construye la vía desde aquí
+Build the transformer here!
+¡Construye el transformador aquí!
+Build Train Depot here!.
+Construye Depósito de Trenes aquí.
+Bus networks
+Redes de Autobuses
+Chapter
+Capítulo
+Chapter {number} - {cname} complete, next Chapter {nextcname} start here: ({coord}).
+Felicitaciones, has completado el Capítulo {number} - {cname}, el siguiente Capítulo '{nextcname}' empieza aqui: ({coord}).
+Chapter {number} - {cname} complete.
+Enhorabuena por completar el Capítulo {number} - {cname}.
+Choose a different stop.
+Elige una parada diferente.
+Click on the stop
+Pulse sobre la parada
+Connect the road here
+Conecte la carretera aquí
 Connect the Track here
-Conecte la vÃ­a aquÃ­
+Conecte la vía aquí
+Creating Schedules is currently not allowed
+La creación de Itineararios no está permitida actualmente
+Creating Schedules is not currently allowed
+La creación de Itinerarios no está permitida actualmente
+Dock No.%d must accept [%s]
+El muelle Nr. %d debe aceptar [%s]
+empty chapter
+capítulo vacío
+Extensions are not allowed.
+No se permiten extensiones.
+First buy an Airplane [%s].
+Primero compra un Avión [%s].
+First create a line for the vehicle.
+Primero debes crear una línea para el vehículo.
+First you must build a tunnel section.
+Primero debes construir un tramo de túnel.
+First you must lower the layer level.
+Primero debes baja el nivel de la capa.
+First you must Upper the layer level.
+Primero debes bajar el nivel de la capa.
+Flat slope here!.
+Pendiente plana aquí.
+Getting Started
+Empezando
 Go to next step
 Avanzar al siguiente paso
+Here
+Aquí
+Incorrect vehicle configuration, check vehicle status.
+Configuración incorrecta del vehículo, comprueba el estado del vehículo.
+Indicates the limits for using construction tools
+Indica los limites para usar herramientas de construcción
+Industrial Efficiency
+Eficiencia Industrial
+It is not a slope.
+No es una pendiente.
+It is not allowed to start vehicles.
+No está permitido arrancar vehículos.
+It is not flat terrain.
+No es terreno llano.
+It is not possible to build stops at intersections
+No es posible construir paradas en intersecciones
+It must be a block signal!
+Debe ser una señal de bloqueo
+It must be a slope.
+Debe ser una pendiente.
+Let's go on!
+¡Sigamos adelante!
+Let's start!
+¡Empecemos!
+Lower the land here
+Baje el terreno aquí
+Mail Extension Here!.
+¡Extensión de correo aquí!.
+Modify the terrain here
+Modifique el terreno aquí
+Must choose a locomotive [%s].
+Debes seleccionar una locomotora [%s].
+Must choose a locomotive:
+Debes seleccionar una locomotora:
+Must not use trailers [%d].
+No se permiten remolques [%d].
+No barges allowed.
+No se permiten barcazas.
 No intersections allowed
-No se permiten intercesiones
+No se permiten intersecciones
+Number of convoys in the depot:
+Número de convoyes en el depósito:
+OK
+Correcto
+Only %d stops are necessary.
+Sólo son necesarias %d paradas.
+Only delete signals.
+Solo puedes eliminar señales.
+Only one train is allowed, press the [Sell] button.
+Solo se permite un tren. presiona el botón [Vender].
+Only road schedules allowed
+Solo se permiten rutas por carretera
+Place a block signal here
+Coloca señal de bloqueo aquí
+Place a Tunnel here!.
+¡Coloca el Túnel aquí!
+Place Singnal here!.
+Coloca Señal aquí.
+Place Stop here!.
+Coloca Parada aquí.
+Place the Road here!.
+Coloca la Carretera aquí.
+Place the shipyard here
+Coloca el astillero aquí
+Place the stops at the marked points
+Coloca las paradas en los puntos marcados
+Press [Ctrl] to build a tunnel entrance here
+Presiona [Ctrl] para construir la entrada del Túnel aquí:
+Press the [Copy Backward] button, then set the Minimum Load and Month Wait Time at the first stop!.
+¡Presione el botón [Viaje de Vuelta], luego configure la Carga mínima y la Hora de salida de la primera parada en la lista!.
+Raise ground here
+Sube el terreno aquí
+Riding the Rails
+Transporte por Raíles
+Ruling the Roads
+Transporte por carretera
+Savegame has a different {more_info} script version! Maybe, it will work.
+¡La partida guardada tiene una versión {more_info} diferente del script! Tal vez no funcione...
+Select station No.%d
+Selecciona la Estación Nr. %d
+Select station No.%d [%s]
+Selecciona la Estación Nr. %d [%s]
+Select the Bus [%s].
+Selecciona el Autobús [%s].
+Select the dock No.%d
+Seleccione el muelle Nr. %d
+Select the other station
+Seleccione la otra estación
+Select the other station first
+Seleccione la otra estación primero
+Setting Sail
+Izando Velas
+Signal Nr.%d
+Señal Número: %d
+Slope Height.
+Altura de la Pendiente.
+Station No.%d here
+Estación Nr.%d aquí
+Station No.%d must accept goods
+La estación Nr.%d debe ser para mercancía
+Stop
+Parada
+Stops should be built in [%s]
+Las paradas deben construirse en [%s]
+Straight slope here
+Pendiente recta aquí.
+Straight slope here!.
+Pendiente recta aquí.
+Taking to the Air
+Ascendiendo a los Cielos
+Text label
+Marcador de texto
+The %s stop must be for %s
+La parada (%s) debe ser para %s, usa la herramienta [Eliminar] para quitarla
+The bus must be [Passengers].
+El Autobús debe ser para [Pasajeros].
+The cabin:
+La cabina:
+The convoy is not correct.
+El convoy no es correcto.
+The Depot is correct.
+El Depósito es correcto.
+The extension building for station [%s] must be a [%s], use the 'Remove' tool
+El edificio de extensión para la estacion [%s] debe ser [%s], usa la heramienta de 'Eliminar'
+The extension building for station [%s] must be for [%s], use the 'Remove' tool
+El edificio de extensión para la estacion [%s] debe ser para [%s], usa la heramienta de 'Eliminar'
+The forgotten Air transport
+El olvidado transporte Aéreo
+The Hangar is correct.
+El Hangar es correcto.
+The land is already prepared.
+El terreno está preparado.
 The line is not correct.
 La linea no es correcta.
 The load of waystop {nr} '{name}' isn't {load}% {pos}
-La carga mÃ­nima en la parada [{nr}] {name} debe ser de {load}% {pos}
-The station at {pos} doesn't accept freight
-La estaciÃ³n en {pos} no acepta la carga
-The station at {pos} isn't your station
-La estaciÃ³n en {pos} no es tu estaciÃ³n
-The track is stuck, use the [Remove] tool here!
-La vÃ­a estÃ¡ atascada, use la herramienta [Eliminar] aquÃ­!
-The waittime in waystop {nr} '{name}' isn't {wait} {pos}
-El tiempo de espera en la parada [{nr}] {name} debe ser de {wait} {pos}
-The waystop {nr} '{name}' isn't on place {pos}
-La parada nr [{nr}] '{name}' no fue colocada {pos}
+La carga mínima en la parada [{nr}] {name} debe ser de {load}% {pos}
+The number of aircraft in the hangar must be [%d].
+El número de aviones en el hangar debe ser de [%d].
+The number of bus must be [%d].
+El número de Autobuses debe ser de [%d].
+The number of convoys must be [%d], press the [Sell] button.
+El numero de convoys debe ser de [%d], pulsa el boton [Vender].
+The number of convoys must be [%d].
+The el número de convoys debe ser: [%d].
+The number of planes in the hangar must be [%d], use the [sell] button.
+El número de aviones en el hangar debe ser de [%d], usa el boton [vender].
+The number of ships must be [%d].
+El número de barcos debe ser [%d].
+The number of trucks must be [%d].
+El número de camiones debe ser de [%d].
+The number of wagons must be [%d].
+El número de vagones debe ser: [%d].
+The number of wagons must be:
+El número de vagones debe ser:
+The Plane must be for [%s].
+El Avión debe ser para [%s].
+The route is complete, now you may dispatch the vehicle from the depot
+La ruta está completa, ahora debe arrancar el vehículo desde el depósito
+The schedule is not correct.
+El itinerario no es correcto.
 The schedule list must not be empty.
-La lista de enrutar no debe estar vaciÃ¡.
-You didn't build a station at {pos}
-No construiste una estaciÃ³n en {pos}
+La lista de itinerario no debe estar vacía.
+The schedule needs to have %d waystops, but there are %d.
+La lista de itinerario necesita %d paradas, pero son %d.
+The ship must be for [%s].
+El barco debe ser para [%s].
+The signal does not point in the correct direction
+La señal no apunta hacia la dirección correcta
+The signal is ready!
+¡La señal esta lista!
+The slope is ready.
+La pendiente está lista.
+The slope points to the [%s].
+La pendiente apunta hacia el [%s].
+The slope points to the Northeast.
+La pendiente apunta hacia el Noroeste.
+The station at {pos} doesn't accept freight
+La estación en {pos} no acepta la mercancía
+The station at {pos} isn't your station
+La estación en {pos} no es tu estación
+The terrain must be flat.
+El terreno debe ser plano.
+The track is correct.
+La vía es correcta.
+The track is not correct it must be: %s, use the 'Remove' tool
+La vía no es correcta, debe ser: %s, usa la herramienta 'Eliminar'
+The track is stuck, use the [Remove] tool here!
+La vía está atascada, ¡usa la herramienta [Eliminar] aquí!
+The trailers numbers must be [%d].
+El número de remolques debe ser de [%d].
+The train cannot be shorter than [%d] tiles.
+El tren no puede ser menor a [%d] casillas.
+The train may not be longer than [%d] tiles.
+El tren no puede exceder las [%d] casillas.
+The truck must be for [%s].
+El camión debe ser para [%s].
+The tunnel is already at the correct level
+El túnel ya está a un nivel adecuado.
 The vehicle must be [%s].
-El vehÃ­culo debe ser [%s].
-Select station No.%d [%s]
-Seleccione la Estacion nr. %d [%s]
-#________________________________general script_________________________________
-#________________________________general script_________________________________
-Chapter
-Capitulo
+El vehículo debe ser [%s].
+The waittime in waystop {nr} '{name}' isn't {wait} {pos}
+El Tiempo de Espera (Meses) en la parada [{nr}] {name} debe ser de {wait} {pos}
+The waystop {nr} '{name}' isn't on place {pos}
+La parada [{nr}] '{name}' no está en {pos}
+There is already a station.
+Ya existe una Estacion aquí.
+There is already a stop here
+Ya existe una parada aquí
+There is already a transformer here!
+¡Ya hay un transformador aquí!
+This is a factory
+Esto es una fabrica
+This is a link
+Esto es un enlace
+This is a station
+Esto es una estación
+This is a town centre
+Esto es un ayuntamiento
+Town Centre
+Ayuntamiento
+Transformer Here!.
+¡Transformador aquí!
+Translator
+Yona-TYT, Roboron
+Tutorial Scenario complete.
+Escenario Tutorial completado.
 Updating text ... Waiting ...
 Actualizando texto ... Esperando ...
-Chapter {number} - {cname} complete, next Chapter {nextcname} start here: ({coord}).
-Felicitaciones has completado el Capitulo {number} - {cname}, el siguiente Caipitulo '{nextcname}' empieza aqui: ({coord}).
-Let's go on!
-Continuemos!
-Let's start!
-Â¡Haga clic aquÃ­ para empezar!
-Savegame has a different {more_info} script version! Maybe, it will work.
-Savegame has a different {more_info} script version! Maybe, it will work.
-Translator
-Yona-TYT
-Tutorial Scenario complete.
-Escenario del tutorial completo..
-Are you lost ?, see the instructions shown below.
-Â¿Estas perdido?, mira las instrucciones que se muestran a continuaciÃ³n.
-empty chapter
-Capitulo Vacio
-Advance is not allowed with the game paused.
-Avanzar no esta permitido con juego en pausa.
+You are outside the allowed limits!
+¡Estás fuera de los límites permitidos!
+You can only build on a straight road
+Solo puedes construir paradas en carreteras rectas
+You can only build stops on flat ground
+Solo puedes construir paradas en terreno llano
+You can only build stops on roads
+Solo puedes construir paradas en carreteras
+You can only delete the stations.
+Solo puedes eliminar estaciones.
+You can only delete the stops.
+Solo se permite eliminar paradas.
+You can only use this tool in the city
+Solo puedes usar esta herramienta en la ciudad
+You can only use this tool on a road.
+Solo puedes usar esta herramienta en carreteras.
+You can only use vehicles:
+Solo puede usar vehículos:
+You didn't build a station at {pos}
+No has construido una estación en {pos}
+You must build a stop in [%s] first
+Debes construir una parada en [%s] primero
+You must build the %d stops first.
+Debe construir las %d paradas primero.
+You must build the bridge here
+Debes construir el puente aquí
+You must build the depot in
+Debes construir el depósito en
+You must build the train depot in
+Debes construir el depósito de trenes en
+You must build track in
+Debes construir la vía aquí
+You must click on the stops
+Debes pulsar en las paradas
+You must connect the two cities first.
+Debe conectar las dos ciudades primero.
+You must first build a stretch of road
+Primero debes construir un tramo de carretera
+You must first buy a bus [%s].
+Primero debes comprar un Autobús [%s].
+You must first buy a locomotive [%s].
+Primero debes comprar una locomotora [%s].
+You must first buy a ship [%s].
+Primero debes comprar un barco [%s].
+You must lift the land with a flat slope first
+Primero debe levantar el terreno con una pendiente artificial plana
+You must lower the ground first
+Debe bajar el terreno primero.
+You must press the [Copy backward] button to complete the route.
+Debes presionar el botón [Viaje de vuelta] para completar la ruta.
+You must select a [%s].
+Debes seleccionar un [%s].
+You must select the deposit located in
+Selecciona el depósito ubicado en:
+You must upper the ground first
+Debes subir el terreno primero.
+You must use the inspection tool
+Debes usar la herramienta de inspección

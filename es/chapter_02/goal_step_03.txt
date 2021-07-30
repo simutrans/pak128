@@ -12,6 +12,6 @@ Para que el autobús pueda cargar pasajeros es necesario que las paradas estén ce
 
 <em>Consejo:</em> El área de cobertura se puede mostrar presionando la tecla <em>"v"</em>.<br><br>
 
-<em>Consejo:</em> Presiona las teclas <em>"</em> para ocultar los edificios urbanos.<br><br>
+<em>Consejo:</em> Presiona la tecla <em>"</em> para ocultar los edificios urbanos.<br><br>
 
 <st>Se avanza al siguiente paso</st> cuando todas las <em>Paradas</em> estén en su lugar.<br><br></p>
