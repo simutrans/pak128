@@ -1,5 +1,9 @@
-<p>{tx} En el menú <em>{toolbar}</em> selecciona <em>{trf_name}</em> para colocar transformadores en las fábricas:<br><br>
-
-{tran}<br><br>
-
-<st>Se avanza al siguiente paso</st> cuando todas las factorías estén electrificadas.<br></p>
+<p>
+{tx} En el menú <em>{toolbar}</em> selecciona <em>{trf_name}</em> para colocar transformadores en las fábricas:
+</p>
+<p>
+{tran}
+</p>
+<p>
+<st>Se avanza al siguiente paso</st> cuando todas las factorías estén electrificadas.
+</p>

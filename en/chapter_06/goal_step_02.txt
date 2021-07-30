@@ -5,7 +5,7 @@ Click Hangar {dep1} and purchase an aircraft named <em> '{plane}' </em> and conf
 
 <em>[1]</em> Select the Aero stop {sch1} and configure it this way:<br>
 <em>--> [a]</em> Set <em>Minimum load</em> to <em>{load}%</em><br>
-<em>--> [b]</em> Set <em>Depart on</em> to <em>{wait}</em>.<br/>
+<em>--> [b]</em> Set <em>Depart after</em> to <em>{wait}</em>.<br/>
 
 <em>[2]</em> Select the Aero stop {sch2} and press Start.<br><br>
 

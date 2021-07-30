@@ -1,4 +1,5 @@
-<p>Ahora que el puente fue reparado, la ciudad <em>{name}</em> necesita una línea con <em>[3]</em> autobuses en circulación para mover turistas desde el muelle en construcción {st1}.
+<p>
+Ahora que el puente fue reparado, la ciudad <em>{name}</em> necesita una línea con <em>[3]</em> autobuses en circulación para mover turistas desde el muelle en construcción {st1}.
 </p>
 <p>
 {tx} Arrancando los <em>Autobuses</em>.
@@ -16,8 +17,8 @@ Las líneas se pueden gestionar desde la ventana <em>Administración de lineas</em
 <p>
 <h1>Seleccionando todas las paradas:</h1>
 <em>[1]</em> Selecciona la parada {st1} y configura la parada de la siguiente forma:<br>
-<em>--> [a]</em> La <em>Carga mínima</em> al <em>{load}%</em>.<br>
-<em>--> [b]</em> La <em>Hora de salida</em> a <em>{wait}</em>.<br>
+<em>--> [a]</em> Configura <em>Carga mínima</em> al <em>{load}%</em>.<br>
+<em>--> [b]</em> Configura <em>Salir después de</em> a <em>{wait}</em>.<br>
 <em>[2]</em> Selecciona la parada {st2} y <st>deja todo como está</st>.<br>
 <em>[3]</em> Seleccione la parada {st3} y <st>deja todo como esta</st>.<br>
 <em>[4]</em> Seleccione la parada {st4} y <st>deja todo como esta</st>.<br>

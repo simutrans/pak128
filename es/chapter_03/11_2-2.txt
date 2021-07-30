@@ -1,25 +1,37 @@
-<p><br>El <em>Servicio Público</em> necesita que completes la red ferroviaria que recorre las siguientes ciudades de:<br>
+<p>
+El <em>Servicio Público</em> necesita que completes la red ferroviaria que recorre las siguientes ciudades de:<br>
 <em>{cy2}</em> {co2}<br>
 <em>{cy1}</em> {co1}<br>
 <em>{cy3}</em> {co3}<br>
-<em>{cy4}</em> {co4}<br><br>
-
-{tx} La ruta necesita {cnr} trenes de pasajeros.<br><br>
-
+<em>{cy4}</em> {co4}
+</p>
+<p>
+{tx} La ruta necesita {cnr} trenes de pasajeros.
+</p>
+<p>
 <h1>Lista de estaciones:</h1>
 En el campo al lado de "Sirve en línea", selecciona <em>"Crear nueva línea"</em> y selecciona la próxima estación en la lista:<br>
-{list}<br><br>
-
+{list}
+</p>
+<p>
 Tras añadir todas las paradas, selecciona la parada <em>{stnam}</em> y configura la estación de la siguiente forma:<br>
-<em>--> [a]</em> La <em>Carga mínima</em> al <em>{load}%</em>.<br>
-<em>--> [b]</em> La <em>Hora de salida</em> a <em>{wait}</em>.<br><br>
-
+<em>--> [a]</em> Configura <em>Carga mínima</em> al <em>{load}%</em>.<br>
+<em>--> [b]</em> Configura <em>Salir después de</em> a <em>{wait}</em>.
+</p>
+<p>
 <h1>Copiar Vehículo:</h1>
-Este botón permite copiar el vehículo, incluyendo su itinerario o línea.<br>
-- Usa el boton <em>Copiar Vehículo</em> para obtener un total de {cnr} <em>Trenes</em>.<br><br>
-
-<h1>Arrancar los trenes:</h1>Una vez que tengas los <em>[{cnr}]</em> trenes correctamente configurados, es momento de presionar el botón <em>Arrancar</em>.<br><br>
-
+Este botón permite copiar el vehículo, incluyendo su itinerario o línea.
+</p>
+<p>
+- Presiona el botón <em>Copiar Vehículo</em> para obtener un total de {cnr} <em>Trenes</em>.
+</p>
+<p>
+<h1>Arrancar los trenes:</h1>Una vez que tengas los <em>[{cnr}]</em> trenes correctamente configurados, es momento de presionar el botón <em>Arrancar</em>.
+</p>
+<p>
 <em>Estado del vehículo:</em><br>
-{cov}<br>
-<st>Se avanza al siguiente capitulo</st> cuando todos los vehículos estén en circulación.<br><br></p>
+{cov}
+</p>
+<p>
+<st>Se avanza al siguiente capitulo</st> cuando todos los vehículos estén en circulación.
+</p>

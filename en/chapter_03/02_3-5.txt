@@ -4,5 +4,4 @@ For the production of wheat <em>{good2}</em>, you need to transport <em>{good1}<
 <p>
 {tx} Use the up flat slope tool to lift the ground at {slpe2}.
 </p>
-<br>
 <em>State of the ground:</em><br> {slope_t}<br>

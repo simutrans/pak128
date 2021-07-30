@@ -1,6 +1,5 @@
-<br/>
-<h1>Simutrans Tutorial</h1>
 <p>
+<h1>Simutrans Tutorial</h1><br>
 In this tutorial, the first steps in setting up your transportation empire in Simutrans are explained. The focus is on the necessary actions around transportation chains in Simutrans.
 </p>
 <p>

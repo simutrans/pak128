@@ -1,3 +1,6 @@
-<p><br>Para la producción de <em>{good2}</em>, necesitarás transportar <em>{good1}</em> desde {f1} hasta {f2}.<br><br>
-
-{tx} Usa la <em>'{tool1}'</em> en {f2} para mostrar los detalles</p>
+<p>
+Para la producción de <em>{good2}</em>, necesitarás transportar <em>{good1}</em> desde {f1} hasta {f2}.
+</p>
+<p>
+{tx} Usa la <em>'{tool1}'</em> en {f2} para mostrar los detalles
+</p>

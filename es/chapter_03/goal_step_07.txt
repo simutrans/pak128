@@ -1,16 +1,24 @@
-<p><br>Necesitas transportar <em>{good2}</em> ({good3}) desde {f2} hasta {f3} en <em>{cy1}</em>.<br><br>
-
+<p>
+Necesitas transportar <em>{good2}</em> ({good3}) desde {f2} hasta {f3} en <em>{cy1}</em>.
+</p>
+<p>
 <em>[1]</em> Construye un tramo de vía de tren entre {w1} y {w2}.<br>
-<em>[2]</em> Coloca el <em>Depósito de Trenes</em> en: {way1}.<br><br>
-
-Ahora debes comprar una locomotora, presiona en la pestaña <em>Locomotoras</em> y selecciona una locomotora <em>{loc2}</em>. Añade <em>{wag}</em> vagones que puedan transportar <em>{good3}</em> en la pestaña de <em>Vagones</em>.<br><br>
-
+<em>[2]</em> Coloca el <em>Depósito de Trenes</em> en: {way1}.<br>
+</p>
+<p>
+Ahora debes comprar una locomotora, presiona en la pestaña <em>Locomotoras</em> y selecciona una locomotora <em>{loc2}</em>. Añade <em>{wag}</em> vagones que puedan transportar <em>{good3}</em> en la pestaña de <em>Vagones</em>.
+</p>
+<p>
 En la ventana <em>Itinerario</em> selecciona la estación en {f2}.<br>
-<em>--></em> Ajusta la <em>Carga mínima</em> al <em>{load}%</em>.<br>
-Ahora selecciona la estación en {f3} y presiona <em>Arrancar</em>.<br><br>
-
+<em>--></em> Configura <em>Carga mínima</em> al <em>{load}%</em>.<br>
+Ahora selecciona la estación en {f3} y presiona <em>Arrancar</em>.
+</p>
+<p>
 <em>Consejo:</em> Usa el filtro para mostrar solo los vagones para <em>{good2}</em>.
-
-<br><br>Se avanza al siguiente paso cuando el {f3} reciba <em>{t_reach}t</em> de <em>{good2}</em> ({good3}).
-
-<br><br><em>Cantidad recibida:</em> <st>{reached}t</st><br><br></p>
+</p>
+<p>
+Se avanza al siguiente paso cuando el {f3} reciba <em>{t_reach}t</em> de <em>{good2}</em> ({good3}).
+</p>
+<p>
+<em>Cantidad recibida:</em> <st>{reached}t</st>
+</p>

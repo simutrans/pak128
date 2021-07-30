@@ -1,27 +1,38 @@
-<p>Vamos a poner en marcha un Servicio de Autobús para las ciudades<br><br>
-
-{scr}<br><br>
-
+<p>
+Vamos a poner en marcha un Servicio de Autobús para las ciudades.
+</p>
+<p>
+{scr}
+</p>
+<p>
 {txtst_01}Paso A{txtst_01e}</em> - Construyendo un tramo de carretera<br>
-{step_01}<br><br>
-
+{step_01}
+</p>
+<p>
 {txtst_02}Paso B{txtst_02e}</em> - Construyendo una cochera<br>
-{step_02}<br><br>
-
+{step_02}
+</p>
+<p>
 {txtst_03}Paso C{txtst_03e}</em> - Añadiendo Paradas de Autobús<br>
-{step_03}<br><br>
-
+{step_03}
+</p>
+<p>
 {txtst_04}Paso D{txtst_04e}</em> - Creando tus primeros Autobuses<br>
-{step_04}<br><br>
-
+{step_04}
+</p>
+<p>
 {txtst_05}Paso E{txtst_05e}</em> - Construyendo un Puente<br>
-{step_05}<br><br>
-
+{step_05}
+</p>
+<p>
 {txtst_06}Paso F{txtst_06e}</em> - Conectando el Muelle en Construcción<br>
-{step_06}<br><br>
-
+{step_06}
+</p>
+<p>
 {txtst_07}Paso G{txtst_07e}</em> - Conectándolo todo<br>
-{step_07}<br><br>
-
+{step_07}
+</p>
+<p>
 {txtst_08}Paso I{txtst_08e}</em> - Creando Paradas Públicas<br>
-{step_08}<br><br></p>
+{step_08}
+</p>

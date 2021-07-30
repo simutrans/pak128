@@ -1,22 +1,28 @@
-<p><br>El <em>Servicio Público</em> necesita que completes la red ferroviaria que recorre las siguientes ciudades de:<br>
+<p>El <em>Servicio Público</em> necesita que completes la red ferroviaria que recorre las siguientes ciudades de:<br>
 <em>{cy2}</em> {co2}<br>
 <em>{cy1}</em> {co1}<br>
 <em>{cy3}</em> {co3}<br>
-<em>{cy4}</em> {co4}<br><br>
-
+<em>{cy4}</em> {co4}
+</p>
+<p>
 {tx} Construcción de túneles con pendientes:<br>
 [1] Activa la <em>Vista Subterránea por Capas</em> y ajusta el nivel de la capa a <em>{lev}</em><br>
 [2] Ahora construye un tramo de túnel en {tunn}.<br>
-[3] En la barra de herramientas <em>{tool3}</em>, selecciona la <em>herramienta de construir pendiente artificial</em> y elige bajar pendiente plana (último icono) para bajar el terreno al final del túnel {tunn}<br><br>
-
-Debes repetir el proceso para obtener la altura coorecta <em>[Z = {mx_lvl}]</em>:<br><br>
-
+[3] En la barra de herramientas <em>{tool3}</em>, selecciona la <em>herramienta de construir pendiente artificial</em> y elige bajar pendiente plana (último icono) para bajar el terreno al final del túnel {tunn}
+</p>
+<p>
+Debes repetir el proceso para obtener la altura coorecta <em>[Z = {mx_lvl}]</em>:
+</p>
+<p>
 Lista de túneles:<br>
-{list}<br><br>
-
+{list}
+</p>
+<p>
 Puedes activar la <em>Vista Subterránea por Capas</em> presionando las teclas <em>[Ctrl] + U</em>, desde la <em>Barra de Herramientas</em>, o entrando en los ajustes de <em>Pantalla</em>.<br>
 Con la <em>Vista Subterránea por Capas</em> activada puedes:<br>
 <em>[1]</em> Bajar un nivel pulsando [Inicio].<br>
-<em>[2]</em> Subir un nivel pulsando [Fin].<br><br>
-
-<st>Nota:</st> Cuando construyes estructuras complejas en varias capas, es recomendable usar la <em>Vista Subterránea por Capas</em>.<br><br></p>
+<em>[2]</em> Subir un nivel pulsando [Fin].
+</p>
+<p>
+<st>Nota:</st> Cuando construyes estructuras complejas en varias capas, es recomendable usar la <em>Vista Subterránea por Capas</em>.
+</p>

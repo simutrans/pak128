@@ -8,7 +8,7 @@ Now press <em>schedule</em> and select the stops:<br/>
 <p>
 After adding the stops, select the stop <em>{stnam}</em> from the list and configure as follows:<br>
 <em>--> [a]</em> Set <em>Minimum load</em> to <em>{load}%</em>.<br>
-<em>--> [b]</em> Set <em>Depart on</em> to <em>{wait}</em>.<br/>
+<em>--> [b]</em> Set <em>Depart after</em> to <em>{wait}</em>.<br/>
 </p>
 <p>
 Finally press the <em>Start</em> button.

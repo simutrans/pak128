@@ -1,4 +1,5 @@
-<p><h1>Fábricas Electrificadas</h1><br>
+<p>
+<h1>Fábricas Electrificadas</h1><br>
 Algunas de las fábricas necesitan energía eléctrica para mejorar su produción/eficiencia. Esto se logra colocando un transformador a cada fábrica/industria para luego conectarlo a una industria generadora de energía eléctrica.<br>
 No todas las industrias requieren energía eléctrica, esto se puede comprobar con el pequeño icono en forma de "rayo" que aparece en la ventana de las fábricas. Este icono indica que la fábrica requiere de energía eléctrica para mejorar su producción/eficiencia.
 </p>
