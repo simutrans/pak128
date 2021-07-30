@@ -84,7 +84,7 @@ class tutorial.chapter_04 extends basic_chapter
 	ship2_name_obj = "MV_Balmoral"
 
 	ship2_load = 100
-	ship2_wait = 16
+	ship2_wait = 42282
 	line1_name = "Test 5"
 
 	//Script

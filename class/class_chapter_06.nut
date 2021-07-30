@@ -61,7 +61,7 @@ class tutorial.chapter_06 extends basic_chapter
 	plane1_name = translate("SAC-Lockheed_Constellation_128_set")
 	plane1_obj = "SAC-Lockheed_Constellation_128_set"
 	plane1_load = 100
-	plane1_wait = 16
+	plane1_wait = 25369
 	sch_list1 = [coord(102,19), coord(70,396)]
 
 	// Step 3 =====================================================================================
@@ -72,7 +72,7 @@ class tutorial.chapter_06 extends basic_chapter
     vhe1_name = translate("S_Kroytor_LiAZ-677")
 	veh1_obj = "S_Kroytor_LiAZ-677"
 	veh1_load = 100
-	veh1_wait = 12
+	veh1_wait = 10571
 
 	// Step 4 =====================================================================================
 	line2_name = "Test 8"

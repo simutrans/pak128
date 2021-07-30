@@ -12,8 +12,8 @@ Click on the Road depot {dep3} and select a bus <em>{bus2}</em> and press <em>[S
 <em>[1]</em> Select all stops in order:<br>
 {stx}<br>
 <em>[2]</em> After adding the stops, select the stop <em>{stnam}</em> from the list and configure as follows:<br>
-<em> -> [a]</em>The <em>Minimum load</em> at <em>{load}%</em>.<br>
-<em> -> [b]</em> The <em>Month Wait Time</em> to <em>{wait}</em>.<br>
+<em>--> [a]</em>The <em>Minimum load</em> at <em>{load}%</em>.<br>
+<em>--> [b]</em> Set the <em>Depart after</em> in <em>{wait}</em>.<br/>
 
 <em>[3]</em> Use the <em>[Copy Convoy]</em> button to get the {cnr} buses needed.<br>
 <em>[4]</em> Now click the <em>[Start]</em> button to make all vehicles leave the depot/garage.<br><br>

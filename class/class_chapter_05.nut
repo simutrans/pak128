@@ -70,21 +70,22 @@ class tutorial.chapter_05 extends basic_chapter
     obj_list1 = [coord(99,45), coord(96,37), coord(98,27), coord(86,27), coord(81,32), coord(76,30), coord(88,31), coord(90,37)]
 
 	//Para el Camion
-    veh2_name = translate("RVg_Type_S_Post")
-    veh2_obj = "RVg_Type_S_Post"
+    veh2_name = translate("RVg_Post_Truck_1")
+    veh2_obj = "RVg_Post_Truck_1"
     c_dep2 = coord(98,33) // depot
 	line1_name = "Test 6"
     sch_list2 = [coord(99,44), coord(96,38), coord(98,28), coord(87,27), coord(81,31), coord(76,29), coord(88,32), coord(91,37)]
 	veh2_load = 100
-	veh2_wait = 12
+	veh2_wait = 10571
 	d2_cnr = 3
 
 	//Para el barco
 	sch_list3 = [coord(98,47), coord(113,57)]
 	veh3_name = translate("MV_Balmoral")
 	veh3_obj = "MV_Balmoral"
+	vhe3_ext = "Ferry_Mail_Extension_(small)"
 	veh3_load = 100
-	veh3_wait = 16
+	veh3_wait = 42282
     c_dep3 = coord(94,44) // depot
 
 	//Script
@@ -264,6 +265,7 @@ class tutorial.chapter_05 extends basic_chapter
 			text.list = list_tx
 			text.dep = c_dep3.href("("+c_dep3.tostring()+")")
 			text.ship = veh3_name
+			text.ext = translate(""+vhe3_ext+"")
 			text.load = veh3_load
 			text.wait = get_wait_time_text(veh3_wait)
 		}

@@ -12,15 +12,13 @@ Lines can be managed from the <em>Line Management</em> window and can be accesse
 <p>
 <h1>First steps:</h1>
 <em>[1]</em> First click on the <em>Garage</em> {pos} using the <em>'{tool1}'</em> and buy a bus <em>{bus1}</em>.<br/>
-<em>[2]</em> You need to configure a <em>Line</em> to manage multiple vehicles at once, this is done in two ways:<br/> 
-<em>--> [a]</em> Clicking on the <em>Serves line</em> filter and then on <em>Create new line</em>.<br/>
-<em>--> [b]</em> Using the <em>Create line</em> button from the <en>Schedule</em> window.
+<em>[2]</em> You need to configure a <em>Line</em> to manage multiple vehicles at once. Create a line Clicking on the <em>Serves line</em> filter and then on <em>Create new line</em>.
 </p>
 <p>
 <h1>Select all stops:</h1>
 <em>[1]</em> Select the stop {st1} and configure it as follows:<br/>
 <em>--> [a]</em> The <em>Minimum load</em> at <em>{load}%</em>.<br/>
-<em>--> [b]</em> Set <em>Month wait time</em> at <em>{wait}</em>.<br/>
+<em>--> [b]</em> Set the <em>Depart after</em> in <em>{wait}</em>.<br/>
 <em>[2]</em> Select the stop {st2} and <st>leave everything as this</st>.<br/>
 <em>[3]</em> Select the stop {st3} and <st>leave everything as this</st>.<br/>
 <em>[4]</em> Select the stop {st4} and <st>leave everything as this</st>.<br/>

@@ -672,6 +672,7 @@ class basic_chapter
 		}
 
 		if (entrie.wait != wait) {
+		gui.add_message(""+entrie.wait+"")
 			local text = ttext("The waittime in waystop {nr} '{name}' isn't {wait} {pos}")
 			local txwait = get_wait_time_text(wait)
 			text.name = halt.get_name()
@@ -718,7 +719,7 @@ class basic_chapter
 		local veh_nr = veh_list.len()
 		//To check the name of the locomotive
 		local veh_name = veh_list[0].get_name()
-		//gui.add_message(""+veh_name+"")
+		gui.add_message(""+veh_name+"")
 		if (veh_name!=name)
 			return 0
 
@@ -2243,6 +2244,12 @@ class basic_chapter
 				local sch_nr = sch.entries.len()
 				if(sch_nr>0){
 	       			for(local j=0;j<c_list.len();j++){
+						try {
+							 sch.entries[j]
+						}
+						catch(ev) {
+							continue
+						}
 						local halt1   = sch.entries[j].get_halt( player_x(pl) )
 						local tile_c = my_tile(c_list[j])
 						local halt2 = tile_c.get_halt()

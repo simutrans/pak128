@@ -238,7 +238,7 @@ class tutorial.chapter_03 extends basic_chapter
 	loc5_name = translate("SMC_XT-309_(back_engine)")
 	loc3_tile = 4
 	loc3_load = 100
-	loc3_wait = 16
+	loc3_wait = 25369
 
     line_name1 = "Test 4"
 	st_lim_a =	[	{a = coord(88,2), b = coord(91,2)}, {a = coord(91,23), b = coord(91,26)}, {a = coord(30,29), b = coord(30,32)},
@@ -1878,7 +1878,7 @@ class tutorial.chapter_03 extends basic_chapter
 					}
 					if (tool_id==4100){
 						if (pos.x>=c_tunn2_lim.a.x && pos.y<=c_tunn2_lim.a.y && pos.x<=c_tunn2_lim.b.x && pos.y>=c_tunn2_lim.b.y){
-							if (count_tunn || (slope != 28 && slope!= 0)){
+							if (count_tunn || slope!= 0){
 								if (pos.z == (end_lvl_z))
 									return translate("The tunnel is already at the correct level")+" (-"+end_lvl_z+")."
 								if (slope==0)
@@ -1887,7 +1887,7 @@ class tutorial.chapter_03 extends basic_chapter
 									return translate("The slope is ready.")
 								else if (coorbord!=0){
 									local slopebord = tile_x(coorbord.x, coorbord.y, coorbord.z).get_slope()
-										if (!label && slopebord == 28)
+										if (!label && slopebord == 4)
 											return translate("The slope is ready.")
 										if (slopebord==0)
 											return translate("Raise ground here")+" ("+coorbord.tostring()+".)"
@@ -1911,7 +1911,7 @@ class tutorial.chapter_03 extends basic_chapter
 							if(ribi == 0){
 								return null
 							}
-							if (slope != 4 && slope!= 0) return translate("You must lower the ground first")+" ("+coorbord.tostring()+".)"
+							if (way && slope != 4 && slope!= 0) return translate("You must lower the ground first")+" ("+coorbord.tostring()+".)"
 							if (coorbord!=0){
 								if (pos.z > end_lvl_z){
 									local slopebord = tile_x(coorbord.x, coorbord.y, coorbord.z).get_slope()
