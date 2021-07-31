@@ -70,10 +70,6 @@ First create a line for the vehicle.
 Primero debes crear una línea para el vehículo.
 First you must build a tunnel section.
 Primero debes construir un tramo de túnel.
-You must use the tool to lower the ground here
-Debes usar la herramienta para bajar el terreno aquí
-The tunnel is not correct, use the [Remove] tool here
-El túnel no es correcto, use la herramienta [Eliminar] aquí
 First you must lower the layer level.
 Primero debes baja el nivel de la capa.
 First you must Upper the layer level.
@@ -282,6 +278,8 @@ The truck must be for [%s].
 El camión debe ser para [%s].
 The tunnel is already at the correct level
 El túnel ya está a un nivel adecuado.
+The tunnel is not correct, use the [Remove] tool here
+El túnel no es correcto, use la herramienta [Eliminar] aquí
 The vehicle must be [%s].
 El vehículo debe ser [%s].
 The waittime in waystop {nr} '{name}' isn't {wait} {pos}
@@ -370,3 +368,5 @@ You must upper the ground first
 Debes subir el terreno primero.
 You must use the inspection tool
 Debes usar la herramienta de inspección
+You must use the tool to lower the ground here
+Debes usar la herramienta para bajar el terreno aquí

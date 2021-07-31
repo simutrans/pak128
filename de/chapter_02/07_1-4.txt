@@ -1,9 +1,0 @@
-<p>
-Nachdem der Hafen angebunden ist, sollten wir eine Busverbindung von {name} zur benachbarten Stadt {name2} einrichten.
-</p>
-<p>
-{tx} Zuerst müssen Sie alle Haltestellen in <em>{name2}</em> erstellen.
-</p>
-<p>
-<strong>Weiter zum nächsten Schritt</strong>, wenn der Bus aus dem <em>Depot</em> fährt.
-</p>

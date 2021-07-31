@@ -1,7 +1,6 @@
 <p>
 <st>The Scenario is not compatible with your pakset or version of simutrans:</st>
 </p>
-
 <p>
 Simutrans version: v{current_stv}, <em> v{stv} is required</em>.<br>
 Pakset name: {current_pak}, <em>{pak}</em> is required.
