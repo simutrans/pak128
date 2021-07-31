@@ -32,6 +32,9 @@ class tutorial.chapter_07 extends basic_chapter
 
 	function start_chapter()  //Inicia solo una vez por capitulo
 	{
+		rules.clear()
+		set_all_rules(0)
+
 		cty1.name = get_city_name(cty1.c)
 		local cty_buil1 = my_tile(cty1.c).find_object(mo_building).get_city()
 		c_cty_lim1 = cty_buil1 ? {a = cty_buil1.get_pos_nw(), b = cty_buil1.get_pos_se()} : {a = coord(0,0), b = coord(0,0)}

@@ -259,9 +259,6 @@ class tutorial.chapter_04 extends basic_chapter
 				return 5
 				break;
 			case 2:
-
-				set_all_rules(pl)
-
 				//Para los Muelles
 				local siz = dock_list1.len()
 				local c_list = dock_list1
@@ -985,12 +982,13 @@ class tutorial.chapter_04 extends basic_chapter
 				local forbid =	[	4129,tool_build_way,tool_build_bridge,tool_build_tunnel,tool_build_station,
 									tool_remove_way,tool_build_depot,tool_build_roadsign,tool_build_wayobj
 								]
-					foreach (tool_id in forbid)
-						rules.forbid_way_tool(pl, tool_id, wt_rail)
+				foreach (tool_id in forbid)
+					rules.forbid_way_tool(pl, tool_id, wt_rail)
 
-					local forbid =	[	4097,4134,4135,tool_lower_land,tool_raise_land,tool_restoreslope,
-										tool_make_stop_public,tool_build_transformer
-									]
+				local forbid =	[	4097,4134,4135,tool_lower_land,tool_raise_land,tool_restoreslope,
+									tool_make_stop_public,tool_build_transformer,tool_build_station,
+									tool_build_way,tool_build_bridge,tool_build_depot,tool_remove_way
+								]
 				foreach (tool_id in forbid)
 					rules.forbid_tool(pl, tool_id )
 				break
@@ -1042,7 +1040,7 @@ class tutorial.chapter_04 extends basic_chapter
 					foreach (tool_id in forbid)
 						rules.forbid_way_tool(pl, tool_id, wt_rail )
 
-				local forbid = [tool_build_way,tool_build_bridge,tool_build_tunnel,tool_remove_way,tool_remover]
+				local forbid = [tool_build_way,tool_build_bridge,tool_build_tunnel,tool_remove_way]
 				foreach (tool_id in forbid)
 					rules.forbid_tool(pl, tool_id )	
 				break

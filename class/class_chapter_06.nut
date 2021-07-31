@@ -89,6 +89,9 @@ class tutorial.chapter_06 extends basic_chapter
 
 	function start_chapter()  //Inicia solo una vez por capitulo
 	{
+		rules.clear()
+		set_all_rules(0)
+
 		cty1.name = get_city_name(cty1.c)
 		cty2.name = get_city_name(cty2.c)
 
