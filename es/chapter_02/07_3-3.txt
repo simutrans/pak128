@@ -5,15 +5,12 @@ Ahora que el puente ha sido reparado, la ciudad <em>{name}</em> necesita una lin
 {tx} Pulsa sobre el <em>Depósito de Carretera</em>{dep}, y selecciona un autobús <em>{bus1}</em> y pulse sobre <em>'Itinerario'</em>.
 </p>
 <p>
-<em>Ahora selecciona las paradas:</em><br>
-<em>[1]</em> Selecciona la parada {st1} y <st>deja todo como está</st>.<br>
-<em>[2]</em> Selecciona la parada {st2} y <st>deje todo como está</st>.<br>
-<em>[3]</em> Selecciona la parada {st3} y <st>deje todo como está</st>.<br>
-<em>[4]</em> Selecciona la parada {st4} y <st>deje todo como está</st>.<br>
-<em>[5]</em> Selecciona la parada {st5} y configura la parada de la siguiente forma:<br>
+<em>Ahora seleccione las paradas:</em><br>
+{list}<br>
+<em>-</em> Después de añadir las {nr} paradas, seleccione la parada <em>{stnam}</em> de la lista y configure de la siguiente forma:<br>
 <em>--> [a]</em> Configura <em>Carga mínima</em> al {load}%</em>.<br>
 <em>--> [b]</em> Configura <em>Salir después de</em> a <em>{wait}</em>.
 </p>
 <p>
-<st>Se avanza al siguiente paso</st> cuando el autobús salga del <em>depósito</em>.
+<st>Se avanza al siguiente capitulo</st> cuando el autobús salga del <em>depósito</em>.
 </p>

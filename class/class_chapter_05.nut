@@ -236,6 +236,7 @@ class tutorial.chapter_05 extends basic_chapter
 			text.cir = cov_cir
 			text.load = veh2_load
 			text.wait = get_wait_time_text(veh2_wait)
+			text.nr = siz
 		}
         if (pot2==1 && pot3==0 || !correct_cov){
 			text = ttextfile("chapter_05/04_3-3.txt")

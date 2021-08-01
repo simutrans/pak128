@@ -1047,7 +1047,6 @@ class tutorial.chapter_03 extends basic_chapter
 					}
 
 					if (coorbord != 0){
-						//gui.add_message(""+coorbord.tostring()+"")
 						if (tile2.find_object(mo_label) && coorbord.x>=limi.x){
 
 							tile2.remove_object(player_x(0), mo_label)
@@ -1447,8 +1446,6 @@ class tutorial.chapter_03 extends basic_chapter
                     local all_nr = cov_nr + cir_nr //get_convoy_number(st1, wt_rail)                   
 					tmp_d3_cnr = d3_cnr - cir_nr //get_convoy_number(st1, wt_rail)
                     cov = tmp_d3_cnr
-
-					//gui.add_message(""+tmp_d3_cnr+"::"+cov_nr+"::"+all_nr+"::")
 			    }
 
 				local result = is_convoy_correct_ext(depot,  good_nr, cov, veh, cab, loc_name, wag_name, cab_name)
@@ -1497,7 +1494,6 @@ class tutorial.chapter_03 extends basic_chapter
 				break
 
 			case 12:
-					//gui.add_message("12!!!!!"+step+"")
 				this.step=1
 				persistent.step=1
 				persistent.status.step = 1
@@ -1909,7 +1905,7 @@ class tutorial.chapter_03 extends basic_chapter
 							if(ribi == 0){
 								return null
 							}
-							if (way && slope!=72 && slope!= 4 && slope!= 0) return slope//translate("You must lower the ground first")+" ("+coorbord.tostring()+".)"
+							if (way && slope!=72 && slope!= 4 && slope!= 0) return translate("You must lower the ground first")+" ("+coorbord.tostring()+".)"
 							if (coorbord!=0){
 								if (pos.z > end_lvl_z){
 									local slopebord = tile_x(coorbord.x, coorbord.y, coorbord.z).get_slope()

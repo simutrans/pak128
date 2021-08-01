@@ -672,7 +672,7 @@ class basic_chapter
 		}
 
 		if (entrie.wait != wait) {
-		gui.add_message(""+entrie.wait+"")
+			//gui.add_message(""+entrie.wait+"")
 			local text = ttext("The waittime in waystop {nr} '{name}' isn't {wait} {pos}")
 			local txwait = get_wait_time_text(wait)
 			text.name = halt.get_name()
@@ -705,7 +705,7 @@ class basic_chapter
 		return result
 	}
 
-	function is_convoy_correct(depot,cov,veh,good_list/*good_nr*/,name, max_tile, is_st_tile = false)
+	function is_convoy_correct(depot,cov,veh,good_list,name, max_tile, is_st_tile = false)
 	{
 		local cov_list = depot.get_convoy_list()
 		local cov_nr = cov_list.len()
@@ -719,7 +719,7 @@ class basic_chapter
 		local veh_nr = veh_list.len()
 		//To check the name of the locomotive
 		local veh_name = veh_list[0].get_name()
-		gui.add_message(""+veh_name+"")
+		//gui.add_message(""+veh_name+"")
 		if (veh_name!=name)
 			return 0
 
@@ -2229,8 +2229,12 @@ class basic_chapter
 		return result
 	}
 
-    function get_dep_cov_nr(b,a){
-		return b-a-1
+    function get_dep_cov_nr(a,b){
+		local nr = -1
+		for(local j=a;j<b;j++){
+			nr++
+		}
+		return nr
 	}
 
     function start_sch_tmpsw(pl,coord, c_list){

@@ -113,9 +113,9 @@ class tutorial.chapter_02 extends basic_chapter
 		dep_lim1 = {b = c_dep, a = coorda}
 		dep_lim2 = {b = c_dep, a = coordb}
 
-		//dep_cnr1 = get_dep_cov_nr(ch2_cov_lim1.b,ch2_cov_lim1.a)
-		//dep_cnr2 = get_dep_cov_nr(ch2_cov_lim2.b,ch2_cov_lim2.a)
-		//dep_cnr3 = get_dep_cov_nr(ch2_cov_lim3.b,ch2_cov_lim3.a)
+		dep_cnr1 = get_dep_cov_nr(ch2_cov_lim1.a,ch2_cov_lim1.b)
+		dep_cnr2 = get_dep_cov_nr(ch2_cov_lim2.a,ch2_cov_lim2.b)
+		dep_cnr3 = get_dep_cov_nr(ch2_cov_lim3.a,ch2_cov_lim3.b)
 
 		local pl = 0
 		//Schedule list form current convoy
@@ -190,7 +190,7 @@ class tutorial.chapter_02 extends basic_chapter
 				}
 				local c = coord(c_list[0].x, c_list[0].y)
 				local tile = my_tile(c)
-				text.nr = c_list.len()
+				text.nr = siz
 				text.stnam = "1) "+tile.get_halt().get_name()+" ("+c.tostring()+")"
 				
 				text.list = list_tx
@@ -230,34 +230,39 @@ class tutorial.chapter_02 extends basic_chapter
 				text.st7 = stxt[6]
 				text.st8 = stxt[7]
 				text.cir = cov_nr
+				text.cov = dep_cnr2
 
 				break
 			case 7:
-                local st_halt = ""
-				if (pot0==1){
-					local tile = my_tile(sch_list3[sch_list3.len()-1])
-					st_halt = tile.get_halt()
-				}
-				
 				if (!cov_sw){
-					local st0_name = my_tile(c_st0).get_halt().get_name()
-					local stxt = array(10)
-					for (local j=0;j<sch_list3.len();j++){
-						local c = coord(sch_list3[j].x, sch_list3[j].y)
-						st_halt = my_tile(c).get_halt()
-						if (st_halt) {
-						  stxt[j] = c.href(st_halt.get_name()+" ("+c.tostring()+")")
-						}
-					}
 					local a = 3
 					local b = 3
 					text = ttextfile("chapter_02/07_"+set_step_ext(a,b)+".txt")
 					text.tx = ttext("<em>["+a+"/"+b+"]</em>")
-					text.st1 = stxt[0]
-					text.st2 = stxt[1]
-					text.st3 = stxt[2]
-					text.st4 = stxt[3]
-					text.st5 = stxt[4]	
+					local list_tx = ""
+					local c_list = sch_list3
+					local siz = c_list.len()
+					for (local j=0;j<siz;j++){
+						local c = coord(c_list[j].x, c_list[j].y)
+						local tile = my_tile(c)
+						local st_halt = tile.get_halt()
+						if(sch_cov_correct){
+							list_tx += format("<em>%s %d:</em> %s <em>%s</em><br>", translate("Stop"), j+1, st_halt.get_name(), translate("OK"))
+							continue
+						}
+						if(tmpsw[j]==0){
+							list_tx += format("<st>%s %d:</st> %s<br>", translate("Stop"), j+1, c.href(st_halt.get_name()+" ("+c.tostring()+")"))
+						}
+						else{						
+							list_tx += format("<em>%s %d:</em> %s <em>%s</em><br>", translate("Stop"), j+1, st_halt.get_name(), translate("OK"))
+						}
+					}
+					local c = coord(c_list[siz-1].x, c_list[siz-1].y)
+					local tile = my_tile(c)
+					text.stnam = ""+siz+") "+tile.get_halt().get_name()+" ("+c.tostring()+")"
+					
+					text.list = list_tx
+					text.nr = siz
 				}
 				else if (pot0==0){
 					local a = 1
@@ -297,22 +302,34 @@ class tutorial.chapter_02 extends basic_chapter
 						text.cbor = coord(coorbord.x, coorbord.y).href("("+coorbord.tostring()+")")
 				}
 				else if (pot3==0){
-					local st0_name = my_tile(c_st0).get_halt().get_name()
-					local stxt = array(10)
-					for (local j=0;j<sch_list3.len();j++){
-						local c = coord(sch_list3[j].x, sch_list3[j].y)
-						st_halt = my_tile(c).get_halt()
-						stxt[j] = c.href(st_halt.get_name()+" ("+c.tostring()+")")
-					}
 					local a = 3
 					local b = 3
 					text = ttextfile("chapter_02/07_"+set_step_ext(a,b)+".txt")
 					text.tx = ttext("<em>["+a+"/"+b+"]</em>")
-					text.st1 = stxt[0]
-					text.st2 = stxt[1]
-					text.st3 = stxt[2]
-					text.st4 = stxt[3]
-					text.st5 = stxt[4]
+					local list_tx = ""
+					local c_list = sch_list3
+					local siz = c_list.len()
+					for (local j=0;j<siz;j++){
+						local c = coord(c_list[j].x, c_list[j].y)
+						local tile = my_tile(c)
+						local st_halt = tile.get_halt()
+						if(sch_cov_correct){
+							list_tx += format("<em>%s %d:</em> %s <em>%s</em><br>", translate("Stop"), j+1, st_halt.get_name(), translate("OK"))
+							continue
+						}
+						if(tmpsw[j]==0){
+							list_tx += format("<st>%s %d:</st> %s<br>", translate("Stop"), j+1, c.href(st_halt.get_name()+" ("+c.tostring()+")"))
+						}
+						else{						
+							list_tx += format("<em>%s %d:</em> %s <em>%s</em><br>", translate("Stop"), j+1, st_halt.get_name(), translate("OK"))
+						}
+					}
+					local c = coord(c_list[siz-1].x, c_list[siz-1].y)
+					local tile = my_tile(c)
+					text.stnam = ""+siz+") "+tile.get_halt().get_name()+" ("+c.tostring()+")"
+					
+					text.list = list_tx
+					text.nr = siz
 				}
 
 				text.n1 = cty1.c.href(cty1.name.tostring())
@@ -646,10 +663,19 @@ class tutorial.chapter_02 extends basic_chapter
 					}
 
 					else if (pot2==1 && pot3 ==0){
+						local c_dep = this.my_tile(c_dep)
+				        local line_name = line3_name //"Test 3"
+						set_convoy_schedule(pl, c_dep, gl_wt, line_name)
 
-					    local c_dep = my_tile(c_dep)
-		                local line_name = line3_name //"Test 3"
-		                set_convoy_schedule(pl,c_dep, gl_wt, line_name)
+						local depot = depot_x(c_dep.x, c_dep.y, c_dep.z)
+						local cov_list = depot.get_convoy_list()		//Lista de vehiculos en el deposito
+						local convoy = convoy_x(gcov_id)
+						if (cov_list.len()>=1){
+							convoy = cov_list[0]
+						}
+						local all_result = checks_convoy_schedule(convoy, pl)
+						sch_cov_correct = all_result.res == null ? true : false
+
 						if (current_cov == ch2_cov_lim3.b){
 							//Desmarca la via en la parada
 							local way_mark = my_tile(c_st0).find_object(mo_way)

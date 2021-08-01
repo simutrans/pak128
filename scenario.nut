@@ -4,7 +4,7 @@
  * 
  *  Can NOT be used in network game !
  */
-const version = 1550
+const version = 1600
 map.file = "tutorial.sve"
 scenario_name             <- "Tutorial Scenario"
 scenario.short_description = scenario_name
@@ -116,7 +116,7 @@ function script_text()
 		gui.add_message(""+translate("Advance not allowed"))
 		return null
 	}
-	if(true/*scr_jump*/){
+	if(scr_jump){
 		local result = null
 		scr_jump = false
 		result = chapter.script_text()

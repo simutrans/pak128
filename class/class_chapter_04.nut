@@ -637,7 +637,6 @@ class tutorial.chapter_04 extends basic_chapter
 				}
 				if ((depot.x != c_dep1.x)||(depot.y != c_dep1.y))
 					return translate("You must select the deposit located in")+" ("+c_dep1.tostring()+")."	
-
 				local cov = d1_cnr
 				local in_dep = true
 				local veh = 1
@@ -979,12 +978,6 @@ class tutorial.chapter_04 extends basic_chapter
 
 		switch (this.step) {
 			case 1:
-				local forbid =	[	4129,tool_build_way,tool_build_bridge,tool_build_tunnel,tool_build_station,
-									tool_remove_way,tool_build_depot,tool_build_roadsign,tool_build_wayobj
-								]
-				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, wt_rail)
-
 				local forbid =	[	4097,4134,4135,tool_lower_land,tool_raise_land,tool_restoreslope,
 									tool_make_stop_public,tool_build_transformer,tool_build_station,
 									tool_build_way,tool_build_bridge,tool_build_depot,tool_remove_way

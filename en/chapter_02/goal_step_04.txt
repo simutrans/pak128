@@ -6,7 +6,7 @@ Now you need to purchase a <em>{bus1}</em> Bus to run the service.
 <em>[2]</em> To configure the route of the vehicle, you must first click on the <em>Schedule</em> button to open the Vehicle window.<br/>
 <em>[3]</em> With the <em>Schedule</em> tab, you should now select all stops in the city to add them to the list: <br/>
 {list}<br/>
-<em>[4]</em> After adding the {nr} stops, select the stop nr.1 <em>{stnam}</em> and configure it as follows:<br/>
+<em>[4]</em> After adding the {nr} stops, select the stop <em>{stnam}</em> and configure it as follows:<br/>
 <em>--> [a]</em> Set <em>Minimum load</em> to <em>{load}%</em>.<br/>
 <em>--> [b]</em> Set <em>Depart after</em> to <em>{wait}</em>.<br/>
 <em>[5]</em> Now you may eventually close the Vehicle window and click the <em>Start</em> button so that the vehicle leaves the depot.</p>

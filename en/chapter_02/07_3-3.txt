@@ -6,14 +6,11 @@ Now that the bridge is repaired, we should create a bus service from {name} to t
 </p>
 <p> 
 <em>Now select stops:</em><br/>
-<em>[1]</em> Select the stop {st1} and <st>leave everything as this</st>.<br/>
-<em>[2]</em> Select the stop {st2} and <st>leave everything as this</st>.<br/>
-<em>[3]</em> Select the stop {st3} and <st>leave everything as this</st>.<br/>
-<em>[4]</em> Select the stop {st4} and <st>leave everything as this</st>.<br/>
-<em>[5]</em> Select the stop {st5} and configure it as follows:<br/>
+{list}<br/>
+<em>-</em> After adding the {nr} stops, select the stop <em>{stnam}</em> and configure it as follows:<br/>
 <em>--> [a]</em> Set Minimum load</em> to <em>{load}%</em>.<br/>
-<em>--> [b]</em> Set <em>Depart after</em> to <em>{wait}</em>.<br/>
+<em>--> [b]</em> Set <em>Depart after</em> to <em>{wait}</em>.
 </p>
 <p>
-<st>It takes to the next step</st> when the bus starts from the <em>depot</em>.
+<st>It takes to the next chapter</st> when the bus starts from the <em>depot</em>.
 </p>

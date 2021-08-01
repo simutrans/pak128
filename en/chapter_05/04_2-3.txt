@@ -6,7 +6,7 @@
 {list}
 </p>
 <p>
-After adding the seven stops, select the stop <em>{stnam}</em> and configure it as follows:<br/>
+After adding the {nr} stops, select the stop <em>{stnam}</em> and configure it as follows:<br/>
 <em>--> [a]</em> Set <em>Minimum load</em> to <em>{load}%</em>.<br/>
 <em>--> [b]</em> Set <em>Depart after</em> to <em>{wait}</em>.<br/>
 Press the button <em>[Copy convoy]</em> until you reach <em>{all_cov}</em> convoys, Finally press the button <em>[Start]</em>.

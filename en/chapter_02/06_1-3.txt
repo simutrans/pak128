@@ -1,5 +1,5 @@
 <p>
-Now that the bridge has been repaired, the city <em>{name}</em> needs a line with <em>[3]</em> buses in circulation to move tourism in from the dock under construction {st1}.
+Now that the bridge has been repaired, the city <em>{name}</em> needs a line with <em>[{cov}]</em> buses in circulation to move tourism in from the dock under construction {st1}.
 </p>
 <p>
 {tx} Starting the <em>Buses</em>.
@@ -31,7 +31,7 @@ Lines can be managed from the <em>Line Management</em> window and can be accesse
 <em>[3]</em> Finally click the <em>Start</em> button to get the vehicle out of the depot.
 </p>
 <p>
-<em>Buses in circulation:</em> <st>{cir}/3</st>
+<em>Buses in circulation:</em> <st>{cir}/{cov}</st>
 </p>
 <p>
 <st>Advances to the next step</st> when all vehicles are in circulation.
