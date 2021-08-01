@@ -331,9 +331,9 @@ Solo puede usar vehículos:
 You didn't build a station at {pos}
 No has construido una estación en {pos}
 You must build a stop in [%s] first
-Debes construir una parada en [%s] primero
+Primero debes construir una parada en [%s]
 You must build the %d stops first.
-Debe construir las %d paradas primero.
+Primero debes construir las %d paradas.
 You must build the bridge here
 Debes construir el puente aquí
 You must build the depot in
@@ -345,7 +345,7 @@ Debes construir la vía aquí
 You must click on the stops
 Debes pulsar en las paradas
 You must connect the two cities first.
-Debe conectar las dos ciudades primero.
+Primero debes conectar las dos ciudades.
 You must first build a stretch of road
 Primero debes construir un tramo de carretera
 You must first buy a bus [%s].
@@ -355,9 +355,9 @@ Primero debes comprar una locomotora [%s].
 You must first buy a ship [%s].
 Primero debes comprar un barco [%s].
 You must lift the land with a flat slope first
-Primero debe levantar el terreno con una pendiente artificial plana
+Primero debes levantar el terreno con una pendiente artificial plana
 You must lower the ground first
-Debe bajar el terreno primero.
+Primero debes bajar el terreno.
 You must press the [Copy backward] button to complete the route.
 Debes presionar el botón [Viaje de vuelta] para completar la ruta.
 You must select a [%s].
@@ -365,7 +365,7 @@ Debes seleccionar un [%s].
 You must select the deposit located in
 Selecciona el depósito ubicado en:
 You must upper the ground first
-Debes subir el terreno primero.
+Primero debes subir el terreno.
 You must use the inspection tool
 Debes usar la herramienta de inspección
 You must use the tool to lower the ground here

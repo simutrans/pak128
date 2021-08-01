@@ -28,5 +28,5 @@ Muestra las ciudades de donde provienen los trabajadores, su nivel de pasajeros,
 <em>Nota:</em> Transportar pasajeros a la fábrica no es obligatorio para que la fábrica produzca, pero hacerlo incrementará la producción.
 </p>
 <p>
-Se avanza al siguiente paso pulsando sobre {f1}.
+Se avanza al siguiente paso pulsando sobre {f1} usando la Herramienta de Inspección.
 </p>
