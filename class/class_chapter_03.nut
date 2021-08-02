@@ -1902,8 +1902,8 @@ class tutorial.chapter_03 extends basic_chapter
 
 					if (tool_id==tool_build_tunnel || tool_id==tool_build_way || tool_id== 4099){
 						if (pos.x>=c_tunn2_lim.a.x && pos.y<=c_tunn2_lim.a.y && pos.x<=c_tunn2_lim.b.x && pos.y>=c_tunn2_lim.b.y){
-							if(ribi == 0){
-								return null
+							if(way){
+								return all_control(result, gl_wt, way, ribi, tool_id, pos, coorbord)
 							}
 							if (way && slope!=72 && slope!= 4 && slope!= 0) return translate("You must lower the ground first")+" ("+coorbord.tostring()+".)"
 							if (coorbord!=0){
