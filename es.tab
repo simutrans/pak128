@@ -147,7 +147,7 @@ Coloca las paradas en los puntos marcados
 Press [Ctrl] to build a tunnel entrance here
 Presiona [Ctrl] para construir la entrada del Túnel aquí:
 Press the [Copy Backward] button, then set the Minimum Load and Month Wait Time at the first stop!.
-¡Presione el botón [Viaje de Vuelta], luego configure la Carga mínima y la Hora de salida de la primera parada en la lista!.
+¡Presione el botón [Viaje de Vuelta], luego configure Carga mínima y Salir después de en la primera parada en la lista!
 Raise ground here
 Sube el terreno aquí
 Riding the Rails
@@ -281,7 +281,7 @@ El túnel no es correcto, use la herramienta [Eliminar] aquí
 The vehicle must be [%s].
 El vehículo debe ser [%s].
 The waittime in waystop {nr} '{name}' isn't {wait} {pos}
-El Tiempo de Espera (Meses) en la parada [{nr}] {name} debe ser de {wait} {pos}
+<b>Salir después de</b> en la parada [{nr}] {name} debe ser {wait} {pos}
 The waystop {nr} '{name}' isn't on place {pos}
 La parada [{nr}] '{name}' no está en {pos}
 There is already a station.
