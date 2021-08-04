@@ -1056,7 +1056,8 @@ class tutorial.chapter_04 extends basic_chapter
 		local result = 0
 		local st = {all_correct = true, c = null, nr = 0}
 		local err_tx = translate("Dock No.%d must accept [%s]")
-		for(local j=0;j<c_list.len();j++){
+		local siz = c_list.len()
+		for(local j=0;j<siz;j++){
 			local tile = my_tile(c_list[j])
 			local halt = tile.get_halt()
 			local buil = tile.find_object(mo_building)
@@ -1082,7 +1083,15 @@ class tutorial.chapter_04 extends basic_chapter
 					if(st.all_correct) result = null
 				}	
 			}
-			if (j == (c_list.len()-1)){
+			else if(tool_id==tool_build_station && result!=null){
+				local c = coord(c_list[siz-j-1].x,c_list[siz-j-1].y)
+				local tile = my_tile(c)
+				local buil = tile.find_object(mo_building)
+				//local current_halt = my_tile(st.c).get_halt()
+				if(!buil)
+					result = translate("Place the stops at the marked points")+" ("+c.tostring()+")."
+			}
+			if (j == (siz-1)){
 
 				if (tool_id==tool_remover && !st.all_correct){
 					local current_halt = my_tile(st.c).get_halt()
