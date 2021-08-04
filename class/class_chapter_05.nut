@@ -48,6 +48,7 @@ class tutorial.chapter_05 extends basic_chapter
 	c_dep1_lim = {b = coord(78,75), a = coord(77,75)}
 	c_dep1 = coord(78,75)
 	
+	//Para el Camion
 	sch_list1 = [coord(77,76), coord(75,50)]
 	veh1_name = translate("PMNV_50_Mack")
     veh1_obj = "PMNV_50_Mack"
