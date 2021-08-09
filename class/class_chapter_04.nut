@@ -154,31 +154,31 @@ class tutorial.chapter_04 extends basic_chapter
 			if(!correct_cov){
 				local a = 4
 				local b = 4
-				text = ttextfile("chapter_04/05_"+set_step_ext(a,b)+".txt")
+				text = ttextfile("chapter_04/05_"+a+"-"+b+".txt")
 				text.tx=ttext("<em>["+a+"/"+b+"]</em>")
 			}
 			else if (pot0==0){
 				local a = 1
 				local b = 4
-				text = ttextfile("chapter_04/05_"+set_step_ext(a,b)+".txt")
+				text = ttextfile("chapter_04/05_"+a+"-"+b+".txt")
 				text.tx=ttext("<em>["+a+"/"+b+"]</em>")
 			}
 			else if (pot1==0){
 				local a = 2
 				local b = 4
-				text = ttextfile("chapter_04/05_"+set_step_ext(a,b)+".txt")
+				text = ttextfile("chapter_04/05_"+a+"-"+b+".txt")
 				text.tx=ttext("<em>["+a+"/"+b+"]</em>")
 			}
 			else if (pot2==0){
 				local a = 3
 				local b = 4
-				text = ttextfile("chapter_04/05_"+set_step_ext(a,b)+".txt")
+				text = ttextfile("chapter_04/05_"+a+"-"+b+".txt")
 				text.tx=ttext("<em>["+a+"/"+b+"]</em>")
 			}
 			else if (pot3==0){
 				local a = 4
 				local b = 4
-				text = ttextfile("chapter_04/05_"+set_step_ext(a,b)+".txt")
+				text = ttextfile("chapter_04/05_"+a+"-"+b+".txt")
 				text.tx=ttext("<em>["+a+"/"+b+"]</em>")
 			}
 			text.w1 = c1.href(" ("+c1.tostring()+")")+""

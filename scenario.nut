@@ -334,9 +334,8 @@ function is_scenario_completed(pl)
 		text.nextcname = translate(""+chapter.chapter_name+"")
 		text.coord = chapter.chapter_coord.tostring()
 		chapter.start_chapter()  //Para iniciar variables en los capitulos
-		if (persistent.chapter >1) gui.add_message(text.tostring()) //test
+		if (persistent.chapter >1) gui.add_message(text.tostring())
 	}
-
 	percentage = scenario_percentage(percentage)
 	if ( percentage >= 100 ) {		// scenario complete
 		local text = translate("Tutorial Scenario complete.")
@@ -443,7 +442,6 @@ convoy_x._save <- function()
 
 function resume_game()
 {
-
 	//Check version and pakset name
 	resul_version = string_analyzer()
 

@@ -237,7 +237,7 @@ class tutorial.chapter_02 extends basic_chapter
 				if (!cov_sw){
 					local a = 3
 					local b = 3
-					text = ttextfile("chapter_02/07_"+set_step_ext(a,b)+".txt")
+					text = ttextfile("chapter_02/07_"+a+"-"+b+".txt")
 					text.tx = ttext("<em>["+a+"/"+b+"]</em>")
 					local list_tx = ""
 					local c_list = sch_list3
@@ -267,7 +267,7 @@ class tutorial.chapter_02 extends basic_chapter
 				else if (pot0==0){
 					local a = 1
 					local b = 3
-					text = ttextfile("chapter_02/07_"+set_step_ext(a,b)+".txt")
+					text = ttextfile("chapter_02/07_"+a+"-"+b+".txt")
 					text.tx = ttext("<em>["+a+"/"+b+"]</em>")
 
 					local list_tx = ""
@@ -293,7 +293,7 @@ class tutorial.chapter_02 extends basic_chapter
 				else if (pot2==0){
 					local a = 2
 					local b = 3
-					text = ttextfile("chapter_02/07_"+set_step_ext(a,b)+".txt")
+					text = ttextfile("chapter_02/07_"+a+"-"+b+".txt")
 					text.tx = ttext("<em>["+a+"/"+b+"]</em>")
 
 					if (coorbord==0)
@@ -304,7 +304,7 @@ class tutorial.chapter_02 extends basic_chapter
 				else if (pot3==0){
 					local a = 3
 					local b = 3
-					text = ttextfile("chapter_02/07_"+set_step_ext(a,b)+".txt")
+					text = ttextfile("chapter_02/07_"+a+"-"+b+".txt")
 					text.tx = ttext("<em>["+a+"/"+b+"]</em>")
 					local list_tx = ""
 					local c_list = sch_list3

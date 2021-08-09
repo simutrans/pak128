@@ -552,7 +552,6 @@ class basic_chapter
 
 	function get_goal_text(pl,path)
 	{
-		gui.add_message(""+this.step+"")
 		local text = ttextfile( path + "goal.txt" )
 		local text_step = ttextfile( path + "goal_" + this.my_step(this.step) + ".txt" )
 		for (local i = 0; i <= 15; i++){
@@ -569,12 +568,10 @@ class basic_chapter
 		return text.tostring()
 	}
 
-
 	function cube_to_text(cube)
 	{
 		return "("+cube.nw.x+","+cube.nw.y+","+cube.nw.z+" - "+cube.se.x+","+cube.se.y+","+cube.se.z+")"
     }
-
 
 	function pos_to_text(pos)
 	{
@@ -588,7 +585,6 @@ class basic_chapter
 		return square_x(coord.x,coord.y).get_ground_tile()
 		//return square_x(coord.x,coord.y).get_tile_at_height(coord.z)
 	}
-
 
 	function is_waystop_correct(player,schedule,nr,load,wait,coord, c_all = false)
 	{
