@@ -46,6 +46,8 @@ Chapter {number} - {cname} complete, next Chapter {nextcname} start here: ({coor
 Felicitaciones, has completado el Capítulo {number} - {cname}, el siguiente Capítulo '{nextcname}' empieza aqui: ({coord}).
 Chapter {number} - {cname} complete.
 Enhorabuena por completar el Capítulo {number} - {cname}.
+Checking Compatibility
+Comprobando Compatibilidad
 Choose a different stop.
 Elige una parada diferente.
 Click on the stop
