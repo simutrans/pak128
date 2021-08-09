@@ -5,46 +5,46 @@ En este capitulo los <em>Trenes</em> son protagonistas y con ellos aprenderemos 
 {scr}
 </p>
 <p>
-{txtst_01}Paso A{txtst_01e}</em> - Un Vistazo a las Fábricas<br>
+{txtst_01}Paso A</em> - Un Vistazo a las Fábricas<br>
 {step_01}
 </p>
 <p>
-{txtst_02}Paso B{txtst_02e}</em> - Construyendo un Túnel<br>
+{txtst_02}Paso B</em> - Construyendo un Túnel<br>
 {step_02}
 </p>
 <p>
-{txtst_03}Paso C{txtst_03e}</em> - Construyendo Estaciones<br>
+{txtst_03}Paso C</em> - Construyendo Estaciones<br>
 {step_03}
 </p>
 <p>
-{txtst_04}Paso D{txtst_04e}</em> - Construyendo un Depósito<br>
+{txtst_04}Paso D</em> - Construyendo un Depósito<br>
 {step_04}
 </p>
 <p>
-{txtst_05}Paso E{txtst_05e}</em> - El Primer Tren<br>
+{txtst_05}Paso E</em> - El Primer Tren<br>
 {step_05}
 </p>
 <p>
-{txtst_06}Paso F{txtst_06e}</em> - Conectando al Consumidor<br>
+{txtst_06}Paso F</em> - Conectando al Consumidor<br>
 {step_06}
 </p>
 <p>
-{txtst_07}Paso G{txtst_07e}</em> - El segundo Tren<br>
+{txtst_07}Paso G</em> - El segundo Tren<br>
 {step_07}
 </p>
 <p>
-{txtst_08}Paso H{txtst_08e}</em> - Construcción Subterránea<br>
+{txtst_08}Paso H</em> - Construcción Subterránea<br>
 {step_08}
 </p>
 <p>
-{txtst_09}Paso I{txtst_09e}</em> - Conectando las Estaciones<br>
+{txtst_09}Paso I</em> - Conectando las Estaciones<br>
 {step_09}
 </p>
 <p>
-{txtst_10}Paso J{txtst_10e}</em> - Vías Electrificadas<br>
+{txtst_10}Paso J</em> - Vías Electrificadas<br>
 {step_10}
 </p>
 <p>
-{txtst_11}Paso K{txtst_11e}</em> - Trenes Eléctricos<br>
+{txtst_11}Paso K</em> - Trenes Eléctricos<br>
 {step_11}
 </p>

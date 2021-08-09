@@ -2,6 +2,6 @@
 <st>El Escenario no es compatible con tu pakset o versión de Simutrans:</st>
 </p>
 <p>
-Versión de Simutrans: v{current_stv}, <em> v{stv} requerida</em>.<br>
-Nombre del Pakset: {current_pak}, <em>{pak}</em> requerido.
+Versión de Simutrans: v{current_stv} -> {stv}.<br>
+Nombre del Pakset: {current_pak} -> {pak}</em>.
 </p>

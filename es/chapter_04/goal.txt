@@ -5,30 +5,30 @@ En este capítulo los <em>Barcos</em> son protagonistas y con ellos vamos a trans
 {scr}
 </p>
 <p>
-{txtst_01}Paso A{txtst_01e}</em> - Un Vistazo a las Fábricas<br>
+{txtst_01}Paso A</em> - Un Vistazo a las Fábricas<br>
 {step_01}
 </p>
 <p>
-{txtst_02}Paso B{txtst_02e}</em> - Colocando Muelles<br>
+{txtst_02}Paso B</em> - Colocando Muelles<br>
 {step_02}
 </p>
 <p>
-{txtst_03}Paso C{txtst_03e}</em> - Colocando Astilleros<br>
+{txtst_03}Paso C</em> - Colocando Astilleros<br>
 {step_03}
 </p>
 <p>
-{txtst_04}Paso D{txtst_04e}</em> - Conectando a los Proveedores<br>
+{txtst_04}Paso D</em> - Conectando a los Proveedores<br>
 {step_04}
 </p>
 <p>
-{txtst_05}Paso E{txtst_05e}</em> - Conectando al Consumidor<br>
+{txtst_05}Paso E</em> - Conectando al Consumidor<br>
 {step_05}
 </p>
 <p>
-{txtst_06}Paso F{txtst_06e}</em> - Muelles de Pasajeros<br>
+{txtst_06}Paso F</em> - Muelles de Pasajeros<br>
 {step_06}
 </p>
 <p>
-{txtst_07}Paso G{txtst_07e}</em> - Conectando Atracciones Turísticas<br>
+{txtst_07}Paso G</em> - Conectando Atracciones Turísticas<br>
 {step_07}
 </p>

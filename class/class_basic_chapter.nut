@@ -9,9 +9,9 @@
 class basic_chapter
 {        // chapter description : this is a placeholder class
 
-	chapter_name	= ""		// placeholder for chapter name
+	chapter_name	= ""	// placeholder for chapter name
+	chapter			= 1		// count the chapter number
 	step			= 1		// count the step inside the chapter  1="step A"
-	step_ext		= {a=1, b=0}	// count the step inside the chapter  1="step A"
 	startcash		= 0		// pl=0 startcash; 0=no reset
 
 	glpos = coord3d(0,0,0)
@@ -52,8 +52,8 @@ class basic_chapter
      constructor(pl)
      {
      	scenario.short_description = scenario_name + " - " + translate(this.chapter_name)
-	this.set_all_rules(pl)
-	this.step = 1
+		this.set_all_rules(pl)
+		this.step = 1
      }
 
 	// FUNCTIONS TO REWRITE
@@ -500,25 +500,6 @@ class basic_chapter
 		return "step_" + ( i < 10 ? "0":"" ) + i
 	}
 
-	//Example
-	//local nr_ext = 2
-	//set_step_ext(nr_ext)
-	function set_step_ext(a,b)
-	{
-		this.step_ext.a = a
-		this.step_ext.b = b
-		//persistent.step_ext = this.step_ext
-		return this.my_step_ext(this.step_ext)
-	}
-
-	function my_step_ext(i)
-	{
-		if (i.b==0)
-			return ""
-		else
-			return ""+i.a+"-"+i.b+""
-	}
-
 	function ttxst(i)
 	{
 		return "txtst_" + ( i < 10 ? "0":"" ) + i
@@ -565,23 +546,22 @@ class basic_chapter
 
 	function give_title()
 	{
-		return "<br><em>"+translate("Chapter")+" "+persistent.chapter+"</em> - "+translate(this.chapter_name)+"<br><br>"
+		return "<br><em>"+translate("Chapter")+" "+chapter+"</em> - "+translate(this.chapter_name)+"<br><br>"
 	}
 
 
 	function get_goal_text(pl,path)
 	{
+		gui.add_message(""+this.step+"")
 		local text = ttextfile( path + "goal.txt" )
 		local text_step = ttextfile( path + "goal_" + this.my_step(this.step) + ".txt" )
 		for (local i = 0; i <= 15; i++){
 			text[this.my_step(i)] = ""
 			text[this.ttxst(i)] = "<em>"
-			text[this.ttxst(i)+"e"] = "</em>"
 		}
 		text_step = this.set_goal_text(text_step)
 		text[my_step(this.step)] = text_step.tostring()
 		text[ttxst(this.step)] = "<st>"
-		text[ttxst(this.step)+"e"] = "</st>"
 		if (correct_cov)
 			text["scr"] = "<em>--></em> <a href='script:script_text()'>"+ translate("Go to next step")+"  >></a>"
 		else
@@ -1226,14 +1206,6 @@ class basic_chapter
 		}
 		return null
 	}
-
-	function reset_step_ext()
-	{				
-		this.step_ext = {a=0, b=0}
-		persistent.step_ext = this.step_ext
-		return null
-	}
-
 	
 	function count_tunnel(coora, max){
 		local way = tile_x(coora.x, coora.y, coora.z).find_object(mo_way)

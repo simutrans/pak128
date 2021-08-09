@@ -4,17 +4,17 @@
  *
  *  Can NOT be used in network game !
  */
-	simu_version <- 0
-	pak_name <- ""
+	simu_version <- "122.0.1"
+	pak_name <- "Pak128"
 
-	current_st <- 0
-	current_pak <- ""
+	current_st <- "0"
+	current_pak <- "pak"
 
 	gl_correct <- false
 
 class tutorial.chapter_00 extends basic_chapter
 {
-	chapter_name  = "Checking Compatibility "
+	chapter_name  = "Checking Compatibility"
 	chapter_coord = coord(0,0)
 	startcash     = 10   				// pl=0 startcash; 0=no reset
 
@@ -26,14 +26,23 @@ class tutorial.chapter_00 extends basic_chapter
 	}
 
 	function set_goal_text(text){
-		text.stv = simu_version
-		text.pak = pak_name
+		local tx_a = format("<em>%s %s<em>",pak_name, translate("OK"))
+		if(!resul_version.pak) tx_a = "<st>"+pak_name+"</st>"
+
+		local tx_b = format("<em>v%s %s<em>",simu_version, translate("OK"))
+		if(!resul_version.st) tx_b = "<st>v"+simu_version+"</st>"
+
+		text.pak = tx_a
+		text.stv = tx_b
+
 		text.current_stv = current_st
 		text.current_pak = current_pak
 		return text
 	}
 	
 	function is_chapter_completed(pl) {
+
+		this.step = 1
 		if (pak_name == current_pak && current_st >= simu_version){
 			persistent.step=1
 			persistent.status.step = 1

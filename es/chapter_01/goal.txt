@@ -2,18 +2,18 @@
 {scr}
 </p>
 <p>
-{txtst_01}Paso A{txtst_01e}</em> - Sobre el Escenario Tutorial<br>
+{txtst_01}Paso A</em> - Sobre el Escenario Tutorial<br>
 {step_01}
 </p>
 <p>
-{txtst_02}Paso B{txtst_02e}</em> - Moviéndose alrededor<br>
+{txtst_02}Paso B</em> - Moviéndose alrededor<br>
 {step_02}
 </p>
 <p>
-{txtst_03}Paso C{txtst_03e}</em> - Viendo los detalles<br>
+{txtst_03}Paso C</em> - Viendo los detalles<br>
 {step_03}
 </p>
 <p>
-{txtst_04}Paso D{txtst_04e}</em> - El minimapa y otras ventanas<br>
+{txtst_04}Paso D</em> - El minimapa y otras ventanas<br>
 {step_04}
 </p>
