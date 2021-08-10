@@ -283,7 +283,7 @@ El túnel no es correcto, use la herramienta [Eliminar] aquí
 The vehicle must be [%s].
 El vehículo debe ser [%s].
 The waittime in waystop {nr} '{name}' isn't {wait} {pos}
-<b>Salir después de</b> en la parada [{nr}] {name} debe ser {wait} {pos}
+Salir después de en la parada [{nr}] {name} debe ser {wait} {pos}
 The waystop {nr} '{name}' isn't on place {pos}
 La parada [{nr}] '{name}' no está en {pos}
 There is already a station.

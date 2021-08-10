@@ -357,7 +357,7 @@ The station at {pos} isn't your station
 The track is stuck, use the [Remove] tool here!
 The track is stuck, use the [Remove] tool here!
 The waittime in waystop {nr} '{name}' isn't {wait} {pos}
-<b>Depart after</b> in waystop {name} isn't {wait} {pos}
+Depart after in waystop {name} isn't {wait} {pos}
 The waystop {nr} '{name}' isn't on place {pos}
 The waystop {nr} ({name}) isn't on place {pos}
 The schedule list must not be empty.
