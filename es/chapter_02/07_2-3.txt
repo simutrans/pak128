@@ -8,7 +8,7 @@ Ahora que el puente ha sido reparado, la ciudad <em>{name}</em> necesita una lín
 Conecta la carretera aquí: {cbor}
 </p>
 <p>
-<em>Consejo:</em> Mantén presionada la tecla<em>[Ctrl]</em> para construir tramos rectos de carreteras/raíles.
+<em>Consejo:</em> Mantén presionada la tecla<em>[Ctrl]</em> para construir tramos rectos de carreteras/vías de tren.
 </p>
 <p>
 <st>Se avanza al siguiente paso</st> cuando el autobús arranque desde el <em>depósito</em>.
