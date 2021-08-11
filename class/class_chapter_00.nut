@@ -43,12 +43,6 @@ class tutorial.chapter_00 extends basic_chapter
 	function is_chapter_completed(pl) {
 
 		this.step = 1
-		if (pak_name == current_pak && current_st >= simu_version){
-			persistent.step=1
-			persistent.status.step = 1
-			return 100
-		}
-
 		return 0
 		
 	}

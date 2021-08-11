@@ -10,7 +10,7 @@ class basic_chapter
 {        // chapter description : this is a placeholder class
 
 	chapter_name	= ""	// placeholder for chapter name
-	chapter			= 1		// count the chapter number
+	chap_nr			= 1		// count the chapter number
 	step			= 1		// count the step inside the chapter  1="step A"
 	startcash		= 0		// pl=0 startcash; 0=no reset
 
@@ -546,7 +546,7 @@ class basic_chapter
 
 	function give_title()
 	{
-		return "<br><em>"+translate("Chapter")+" "+chapter+"</em> - "+translate(this.chapter_name)+"<br><br>"
+		return "<br><em>"+translate("Chapter")+" "+this.chap_nr+"</em> - "+translate(this.chapter_name)+"<br><br>"
 	}
 
 

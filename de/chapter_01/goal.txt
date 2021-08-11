@@ -2,14 +2,14 @@
 {scr}
 </p>
 <p>
-{txtst_01}Schritt A{txtst_01e} - Grundlegende Kartenbedienung<br/>
+{txtst_01}Schritt A - Grundlegende Kartenbedienung<br/>
 {step_01}
 </p>
 <p>
-{txtst_02}Schritt B{txtst_02e} - Details zu Gebäuden<br/>
+{txtst_02}Schritt B - Details zu Gebäuden<br/>
 {step_02}
 </p>
 <p>
-{txtst_03}Schritt C{txtst_03e} - Die Reliefkarte und andere Fenster<br/>
+{txtst_03}Schritt C - Die Reliefkarte und andere Fenster<br/>
 {step_03}
 </p>

@@ -137,7 +137,7 @@ function sum(a,b)
 
 function my_chapter()
 {
-	return "chapter_"+(chapter.chapter < 10 ? "0":"")+chapter.chapter+"/"
+	return "chapter_"+(chapter.chap_nr < 10 ? "0":"")+chapter.chap_nr+"/"
 }
 
 function scenario_percentage(percentage)
@@ -152,7 +152,7 @@ function load_chapter(number,pl)
 		number = 0
 		chapter = tutorial["chapter_"+(number < 10 ? "0":"")+number](pl)
 
-		chapter.chapter = number
+		chapter.chap_nr = number
 	}
 	else{
 		if (number <= tutorial.len() )		// replace the class
@@ -161,7 +161,7 @@ function load_chapter(number,pl)
 		if ( (number == persistent.chapter) && (chapter.startcash > 0) )  // set cash money here
 			player_x(0).book_cash( (chapter.startcash - player_x(0).get_cash()[0]) * 100)
 
-		chapter.chapter = persistent.chapter
+		chapter.chap_nr = persistent.chapter
 		persistent.step = persistent.status.step
 	}
 }
@@ -172,7 +172,7 @@ function load_chapter2(number,pl)
 	if (!resul_version.pak || !resul_version.st){
 		number = 0
 		chapter = tutorial["chapter_"+(number < 10 ? "0":"")+number](pl)
-		chapter.chapter = number
+		chapter.chap_nr = number
 	}
 	else{
 		chapter = tutorial["chapter_"+(number < 10 ? "0":"")+number](pl)
@@ -180,7 +180,7 @@ function load_chapter2(number,pl)
 		if ( (number == persistent.chapter) && (chapter.startcash > 0) )  // set cash money here
 			player_x(0).book_cash( (chapter.startcash - player_x(0).get_cash()[0]) * 100)
 			persistent.chapter = number
-			chapter.chapter = number
+			chapter.chap_nr = number
 	}
 }
 
@@ -203,7 +203,7 @@ function get_info_text(pl)
 		help+= "<em>"+translate("Chapter")+" "+(i)+"</em> - "+translate(tutorial["chapter_"+(i<10?"0":"")+i].chapter_name)+"<br>"
 	info.list_of_chapters = help
 
-	info.first_link = "<a href=\"goal\">"+(chapter.chapter <= 1 ? translate("Let's start!"):translate("Let's go on!") )+"  >></a>"
+	info.first_link = "<a href=\"goal\">"+(chapter.chap_nr <= 1 ? translate("Let's start!"):translate("Let's go on!") )+"  >></a>"
     return info
 }
 
@@ -250,7 +250,7 @@ function get_result_text(pl)
 	//local percentage = chapter.is_chapter_completed(pl)
 	text.ratio_chapter = gl_percentage
 	text.ratio_scenario = scenario_percentage(gl_percentage)
-         return chapter.give_title() + text.tostring()
+	return chapter.give_title() + text.tostring()
 }
 
 function get_about_text(pl)
@@ -310,6 +310,11 @@ function is_scenario_completed(pl)
 		}
 	}
 	else{
+		if (!resul_version.pak || !resul_version.st)
+			chapter.step = 1
+
+		else chapter.step = persistent.step
+
 		chapter.start_chapter()
 		return 0
 	}
@@ -327,7 +332,7 @@ function is_scenario_completed(pl)
 
 		persistent.chapter++
 		load_chapter(persistent.chapter, pl)
-		chapter.chapter = persistent.chapter
+		chapter.chap_nr = persistent.chapter
 		percentage = chapter.is_chapter_completed(pl)
 		 // ############## need update of scenario window
 
