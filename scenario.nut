@@ -4,7 +4,7 @@
  * 
  *  Can NOT be used in network game !
  */
-const version = 1600
+const version = 1610
 map.file = "tutorial.sve"
 scenario_name             <- "Tutorial Scenario"
 scenario.short_description = scenario_name
@@ -72,11 +72,8 @@ persistent.current_cov <- 0
 current_cov <- 0
 cov_sw <- true
 correct_cov <- true
+
 //----------------------------------------------------------------
-
-sch_flag <- false 						//Bandera para schedule
-lin_flag <- false 						//Bandera para line
-
 tile_delay <- 2						//delay for mark tiles
 tile_delay_list <- 2
 gui_delay <- true					//delay for open win
@@ -515,72 +512,6 @@ function checks_all_convoys()
 			cov_nr++	
 	}	
 	return cov_nr
-}
-
-function checks_current_line(pl, schedule)
-{
-	local list = player_x(pl).get_line_list()
-	local l_nr = list.get_count()
-	local line = null
-	for(local j=0;j<l_nr;j++){
-		line = list[j]
-		if (line && line.is_valid()){
-			local sch = line.get_schedule()
-			local cov_list = line.get_convoy_list()
-
-			local cov_nr = 0
-			foreach(cov in cov_list) {
-				cov_nr++
-			}
-			if (sch && cov_nr==0){
-				local entrie = sch.entries
-				local sch1_nr = entrie.len()
-				local sch2_nr = schedule.entries.len()
-				local result = 0
-			
-				if (sch1_nr>0 && sch1_nr==sch2_nr){
-					for(local i=0;i<sch1_nr;i++){
-						result = is_waystop_correct(pl, schedule, i, entrie[i].load, entrie[i].wait, coord(entrie[i].x, entrie[i].y))
-						if (result != null){
-							break
-						}
-					}
-				}
-				if (result != null)
-					continue
-				else {
-					sch_flag = true
-					return null
-				}				
-			}	
-		}
-	}
-	return null
-}
-
-function checks_all_line(pl)
-{
-	local list = player_x(pl).get_line_list()
-	local l_nr = list.get_count()
-	local line = null
-	for(local j=0;j<l_nr;j++){
-		line = list[j]
-		if (line){
-			local cov_nr = 0
-			local cov_list = line.get_convoy_list()
-
-			if (cov_list.get_count()!=0)
-				continue
-
-			local sch = line.get_schedule()
-			local sch_nr = sch.entries.len()
-			if (sch && sch_nr==0){
-				line.destroy(player_x(pl))
-			}
-		
-		}	
-	}
-	return null
 }
 
 function get_line_name(halt)

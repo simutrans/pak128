@@ -938,10 +938,7 @@ class tutorial.chapter_02 extends basic_chapter
 	}
 	
 	function is_schedule_allowed(pl, schedule) {
-		checks_current_line(pl, schedule)
-
 		local result=null	// null is equivalent to 'allowed'
-
 		if ( (pl == 0) && (schedule.waytype != gl_wt) )
 			result = translate("Only road schedules allowed")
 		local nr = schedule.entries.len()

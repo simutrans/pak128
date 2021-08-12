@@ -593,7 +593,6 @@ class tutorial.chapter_06 extends basic_chapter
 	function is_schedule_allowed(pl, schedule) {
 		local result=null	// null is equivalent to 'allowed'
 		local nr = schedule.entries.len()
-		checks_current_line(pl, schedule)
 		switch (this.step) {
 			case 2:
 				reset_glsw()

@@ -2077,13 +2077,8 @@ class tutorial.chapter_03 extends basic_chapter
 	}
 	
 	function is_schedule_allowed(pl, schedule) {
-		checks_current_line(pl, schedule)
-		if (!sch_flag)
-			reset_stop_flag()
-		sch_flag = false
-		local nr =  schedule.entries.len()
 		local result=null	// null is equivalent to 'allowed'
-
+		local nr =  schedule.entries.len()
 		switch (this.step) {
 			case 5:
 				local selc = 0

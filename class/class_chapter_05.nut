@@ -719,9 +719,6 @@ class tutorial.chapter_05 extends basic_chapter
 	}
 	
 	function is_schedule_allowed(pl, schedule) {
-
-		checks_current_line(pl, schedule)
-
 		local result=null	// null is equivalent to 'allowed'
 		if ( (pl == 0) && (schedule.waytype != wt_road) )
 			result = translate("Only road schedules allowed")
