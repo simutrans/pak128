@@ -5,46 +5,46 @@ In this chapter the trains are the protagonists, as we are going to learn how to
 {scr}
 </p>
 <p>
-{txtst_01}Step A - A Look at the Factories<br/>
+{txtst_01}Step A</em> - A Look at the Factories<br/>
 {step_01}
 </p>
 <p>
-{txtst_02}Step B - Building a Tunnel<br/>
+{txtst_02}Step B</em> - Building a Tunnel<br/>
 {step_02}
 </p>
 <p>
-{txtst_03}Step C - Building Stations<br/>
+{txtst_03}Step C</em> - Building Stations<br/>
 {step_03}
 </p>
 <p>
-{txtst_04}Step D - Building a Depot<br/>
+{txtst_04}Step D</em> - Building a Depot<br/>
 {step_04}
 </p>
 <p>
-{txtst_05}Step E - The First Train<br/>
+{txtst_05}Step E</em> - The First Train<br/>
 {step_05}
 </p>
 <p>
-{txtst_06}Step F - Connecting the Consumer<br/>
+{txtst_06}Step F</em> - Connecting the Consumer<br/>
 {step_06}
 </p>
 <p>
-{txtst_07}Step G - The second Train<br/>
+{txtst_07}Step G</em> - The second Train<br/>
 {step_07}
 </p>
 <p>
-{txtst_08}Step H - Underground Construction<br/>
+{txtst_08}Step H</em> - Underground Construction<br/>
 {step_08}
 </p>
 <p>
-{txtst_09}Step I - Connecting the Stations<br/>
+{txtst_09}Step I</em> - Connecting the Stations<br/>
 {step_09}
 </p>
 <p>
-{txtst_10}Step J - Electrified Tracks<br/>
+{txtst_10}Step J</em> - Electrified Tracks<br/>
 {step_10}
 </p>
 <p>
-{txtst_11}Step K - The Electric Trains<br/>
+{txtst_11}Step K</em> - The Electric Trains<br/>
 {step_11}
 </p>

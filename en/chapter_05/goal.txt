@@ -5,18 +5,18 @@ In this chapter we will improve the efficiency of our industrial chains, transpo
 {scr}
 </p>
 <p>
-{txtst_01}Step A - Electrical Production and Consumption<br/>
+{txtst_01}Step A</em> - Electrical Production and Consumption<br/>
 {step_01}
 </p>
 <p>
-{txtst_02}Step B - Trucks to carry Coal<br/>
+{txtst_02}Step B</em> - Trucks to carry Coal<br/>
 {step_02}
 </p>
 <p>
-{txtst_03}Step C - Connecting the Electrical System<br/>
+{txtst_03}Step C</em> - Connecting the Electrical System<br/>
 {step_03}
 </p>
 <p>
-{txtst_04}Step D -  Delivering the Mail<br/>
+{txtst_04}Step D</em> -  Delivering the Mail<br/>
 {step_04}
 </p>

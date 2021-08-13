@@ -5,46 +5,46 @@ In diesem Kapitel sind die Züge die Protagonisten. Wir werden lernen, wie sie zu
 {scr}
 </p>
 <p>
-{txtst_01}Schritt A - Ein Blick auf die Fabriken<br/>
+{txtst_01}Schritt A</em> - Ein Blick auf die Fabriken<br/>
 {step_01}
 </p>
 <p>
-{txtst_02}Schritt B - Bauen eines Tunnels<br/>
+{txtst_02}Schritt B</em> - Bauen eines Tunnels<br/>
 {step_02}
 </p>
 <p>
-{txtst_03}Schritt C - Bauen von Stationen<br/>
+{txtst_03}Schritt C</em> - Bauen von Stationen<br/>
 {step_03}
 </p>
 <p>
-{txtst_04}Schritt D - Bauen eines Depots<br/>
+{txtst_04}Schritt D</em> - Bauen eines Depots<br/>
 {step_04}
 </p>
 <p>
-{txtst_05}Schritt E - Der erste Zug<br/>
+{txtst_05}Schritt E</em> - Der erste Zug<br/>
 {step_05}
 </p>
 <p>
-{txtst_06}Schritt F - Verbraucher anschließen<br/>
+{txtst_06}Schritt F</em> - Verbraucher anschließen<br/>
 {step_06}
 </p>
 <p>
-{txtst_07}Schritt G - Der zweite Zug<br/>
+{txtst_07}Schritt G</em> - Der zweite Zug<br/>
 {step_07}
 </p>
 <p>
-{txtst_08}Schritt H - Bauen im Untergrund<br/>
+{txtst_08}Schritt H</em> - Bauen im Untergrund<br/>
 {step_08}
 </p>
 <p>
-{txtst_09}Schritt I - Stationen verbinden und Signale bauen<br/>
+{txtst_09}Schritt I</em> - Stationen verbinden und Signale bauen<br/>
 {step_09}
 </p>
 <p>
-{txtst_10}Schritt J - Schienen elektrifizieren<br/>
+{txtst_10}Schritt J</em> - Schienen elektrifizieren<br/>
 {step_10}
 </p>
 <p>
-{txtst_11}Schritt K - einen elektrischen Zug erstellen<br/>
+{txtst_11}Schritt K</em> - einen elektrischen Zug erstellen<br/>
 {step_11}
 </p>
