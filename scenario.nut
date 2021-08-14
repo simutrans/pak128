@@ -1,7 +1,7 @@
 /*
  *  Tutorial Scenario
  *
- * 
+ 
  *  Can NOT be used in network game !
  */
 const version = 1610
