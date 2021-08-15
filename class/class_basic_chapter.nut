@@ -606,7 +606,10 @@ class basic_chapter
 			reset_tmpsw()   //reinicia las paradas seleccionadas
 			return translate("The schedule list must not be empty.")
 		}
-
+		if(schedule.entries.len()<=1) {
+			reset_tmpsw()   //reinicia las paradas seleccionadas
+			return translate("The schedule list must not be empty.")
+		}
 		local halt   = entrie.get_halt( player_x(player) )
 		local targ_t = this.my_tile(coord)
 
@@ -648,7 +651,7 @@ class basic_chapter
 			return text.tostring()
 		}
 
-		if (entrie.wait != wait) {
+		if (abs(entrie.wait-wait)>7) {
 			//gui.add_message(""+entrie.wait+"")
 			local text = ttext("The waittime in waystop {nr} '{name}' isn't {wait} {pos}")
 			local txwait = get_wait_time_text(wait)
@@ -716,8 +719,6 @@ class basic_chapter
 				return 5
 		}
 		//---------------------------------------------------
-
-
 
 		//Check the number of convoys ------------------------
 		if (cov_nr<cov){
