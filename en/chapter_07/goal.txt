@@ -1,9 +1,9 @@
 <p>
-{txtst_01}Step A</em> - The buse of the city I<br/>
+{txtst_01}Step A</em> - The buses of the city I<br/>
 {step_01}
 </p>
 <p>
-{txtst_02}Step B</em> - The buse of the city II<br/>
+{txtst_02}Step B</em> - The buses of the city II<br/>
 {step_02}
 </p>
 <p>
