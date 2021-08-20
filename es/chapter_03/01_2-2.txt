@@ -11,7 +11,7 @@ Muestra la capacidad de producción que tiene la industria. La producción puede s
 <p>
 <em>Producción:</em><br>
 Muestra qué tipos de bienes de producción produce la fábrica, la cantidad de producción almacenada, y el rendimiento de la producción por cada unidad de materia prima.<br>
-<em>Ejemplo:</em> {f2} consume un 116% de grano, produce un 100% de harina de trigo, y tiene una producción máxima de 1064 unidades por mes. Eso sinifica que consume hasta 1234 toneladas de grano por mes, y produce 1064 toneladas de harino de trigo a partir del grano.
+<em>Ejemplo:</em> {f2} consume un 116% de {good1}, produce un 100% de {good2}, y tiene una producción máxima de 1064 unidades por mes. Eso significa que consume hasta 1234 toneladas de grano por mes, y produce 1064 toneladas de {good2} a partir de {good1}.
 </p>
 <p>
 <em>Consumo:</em><br>

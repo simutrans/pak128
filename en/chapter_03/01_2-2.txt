@@ -11,7 +11,7 @@ Shows the production capacity this industry has. The capacity can be increased b
 Shows what the factory produces, how much is in stock and how much it produces out of one unit of raw materials.<br/>
 <br><em>Consumption:</em><br/>
 Shows what the factory processes, how many raw matetials are in stock/in transit and how many raw materials are needed to produce one product.<br/>
-<em>e.g:</em> {f2} consumes 116% of grains, produces 100% of flour and has a max production of 1064 units per month. That means that it consumes up to 1234 tons of grain per month and produces 1064 tons of flour out of it.<br/>
+<em>e.g:</em> {f2} consumes 116% of {good1}, produces 100% of {good2} and has a max production of 1064 units per month. That means that it consumes up to 1234 tons of {good1} per month and produces 1064 tons of {good2} out of it.<br/>
 <br><em>Consumers/Suppliers:</em><br/>
 Shows the connected factories <st>(You can only transport goods to connected factories)</st>.<br/>
 <br><em>Workers live in:</em><br/>
