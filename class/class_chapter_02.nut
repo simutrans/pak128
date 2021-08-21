@@ -209,16 +209,12 @@ class tutorial.chapter_02 extends basic_chapter
 					stxt[j] = c.href(st_halt.get_name()+" ("+c.tostring()+")")
 				}
 				if (current_cov==(ch2_cov_lim2.a+1)){
-					text = ttextfile("chapter_02/06_1-3.txt")
-					text.tx = ttext("<em>[1/3]</em>")
+					text = ttextfile("chapter_02/06_1-2.txt")
+					text.tx = ttext("<em>[1/2]</em>")
 				}
-				else if (current_cov==(ch2_cov_lim2.a+2)){
-					text = ttextfile("chapter_02/06_2-3.txt")
-					text.tx = ttext("<em>[2/3]</em>")
-				}
-				else if (current_cov==(ch2_cov_lim2.a+3)){
-					text = ttextfile("chapter_02/06_2-3.txt")
-					text.tx = ttext("<em>[3/3]</em>")
+				else if (current_cov<=(dep_cnr2)){
+					text = ttextfile("chapter_02/06_2-2.txt")
+					text.tx = ttext("<em>[2/2]</em>")
 				}
 				text.line = get_line_name(halt)
 				text.st1 = stxt[0]

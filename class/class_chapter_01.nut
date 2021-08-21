@@ -18,10 +18,10 @@ class tutorial.chapter_01 extends basic_chapter
 	c_cty = coord(92,33)
 	c_fac = coord(95,39)
 	c_st  = coord(91,26)
-	tx_cty = translate("This is a town centre")
-	tx_fac = translate("This is a factory")
-	tx_st = translate("This is a station")
-	tx_link = translate("This is a link")
+	tx_cty = "This is a town centre"
+	tx_fac = "This is a factory"
+	tx_st = "This is a station"
+	tx_link = "This is a link"
 
 	// Step 2 =====================================================================================
 	c_test = coord3d(0,0,1)
@@ -29,8 +29,8 @@ class tutorial.chapter_01 extends basic_chapter
 	// Step 3 =====================================================================================
 	c_buil1=coord3d(95,33,0)
 	c_buil2=coord3d(95,30,0)
-	buil1_name = ""
-	buil2_name = ""
+	buil1_name = ""	//auto started
+	buil2_name = ""	//auto started
 
 	// Step 4 =====================================================================================
 	postc={ a = coord(92,33), b = coord(93,34) }
@@ -42,11 +42,11 @@ class tutorial.chapter_01 extends basic_chapter
 		cty1.name = get_city_name(cty1.c)
 		local t1 = my_tile(c_buil1)
 		local buil1 = t1.find_object(mo_building)
-		buil1_name = buil1 ? translate(buil1.get_name()):"No exite"
+		buil1_name = buil1 ? translate(buil1.get_name()):"No existe"
 
 		local t2 = my_tile(c_buil2)
 		local buil2 = t2.find_object(mo_building)
-		buil2_name = buil1 ? translate(buil2.get_name()):"No exite"
+		buil2_name = buil1 ? translate(buil2.get_name()):"No existe"
 		return 0
 	}
 
@@ -79,7 +79,6 @@ class tutorial.chapter_01 extends basic_chapter
 		switch (this.step) {
 			case 1:
 				if (pot0 == 1) {
-					//reset_pot()
 					this.next_step()
 				}
 				return percentage
@@ -251,7 +250,6 @@ class tutorial.chapter_01 extends basic_chapter
 			label_bord(city_lim.a, city_lim.b, opt, del, text)
 			pot0=1
 			pot2=1
-			//this.next_step()
 		}
 		else if (this.step==4){
 			comm_script = true
