@@ -39,14 +39,12 @@ class tutorial.chapter_06 extends basic_chapter
 	c1_start = coord(107,17)
 	c1_is_way = null
 	obj1_way_name = "runway_modern"
-	way1_name = translate("runway_modern")
 
 	// Pista de maniobras --------------------------
 	c2_track = {a = coord(102,19), b = coord(107,19)}
 	c2_start = coord(102,19)
 	c2_is_way = null
 	obj2_way_name = "air_movement_area"
-	way2_name = translate("air_movement_area")
 
 	// Parada aerea ---------------------------------
 	st1_pos = coord(102,19)
@@ -58,7 +56,6 @@ class tutorial.chapter_06 extends basic_chapter
 
 	// Step 2 =====================================================================================
 	d1_cnr = null //auto started
-	plane1_name = translate("SAC-Lockheed_Constellation_128_set")
 	plane1_obj = "SAC-Lockheed_Constellation_128_set"
 	plane1_load = 100
 	plane1_wait = 25369
@@ -69,7 +66,6 @@ class tutorial.chapter_06 extends basic_chapter
 	c_dep2 = coord(98,33)
 	d2_cnr = null //auto started
 	sch_list2 = [coord(102,20), coord(98,28), coord(92,27), coord(93,32), coord(88,32), coord(91,37), coord(96,38)]
-    vhe1_name = translate("S_Kroytor_LiAZ-677")
 	veh1_obj = "S_Kroytor_LiAZ-677"
 	veh1_load = 100
 	veh1_wait = 10571
@@ -83,8 +79,6 @@ class tutorial.chapter_06 extends basic_chapter
 					coord(70,403), coord(72,411), coord(73,417), coord(75,401), 
 					coord(76,406), coord(77,411), coord(78,416), coord(81,402), coord(82,407)
 				]
-
-    vhe2_name = translate("S_Kroytor_LiAZ-677")
 	veh2_obj = "S_Kroytor_LiAZ-677"
 
 	function start_chapter()  //Inicia solo una vez por capitulo
@@ -124,7 +118,7 @@ class tutorial.chapter_06 extends basic_chapter
 				break
 
 			case 2:
-				text.plane = plane1_name
+				text.plane = translate(plane1_obj)
 				text.load = plane1_load
 				text.wait = get_wait_time_text(plane1_wait)
 				text.cnr = d1_cnr
@@ -194,10 +188,10 @@ class tutorial.chapter_06 extends basic_chapter
 				text.sch1 = "<a href=\"("+sch_list1[0].x+","+sch_list1[0].y+")\"> "+st1_halt.get_name()+" ("+sch_list1[0].tostring()+")</a>"
 				text.sch2 = "<a href=\"("+sch_list1[1].x+","+sch_list1[1].y+")\"> "+st2_halt.get_name()+" ("+sch_list1[1].tostring()+")</a>"
 			}
-			text.w1name = way1_name
-			text.w2name = way2_name
-			text.bus1 = vhe1_name
-			text.bus2 = vhe2_name 
+			text.w1name = translate(obj1_way_name)
+			text.w2name = translate(obj2_way_name)
+			text.bus1 = translate(veh1_obj)
+			text.bus2 = translate(veh2_obj) 
 			text.cit1 = cty1.c.href(cty1.name.tostring())
 			text.cit2 = cty2.c.href(cty2.name.tostring())
 			text.st1 = "<a href=\"("+st1_pos.x+","+st1_pos.y+")\"> ("+st1_pos.tostring()+")</a>"
@@ -399,7 +393,7 @@ class tutorial.chapter_06 extends basic_chapter
 						if (way && way.get_name() != obj1_way_name){
 							if(tool_id == tool_remover || tool_id == tool_remove_way) return null
 
-							result = format(translate("The track is not correct it must be: %s, use the 'Remove' tool"),way1_name) + " ("+c1_start.tostring()+")."
+							result = format(translate("The track is not correct it must be: %s, use the 'Remove' tool"),translate(obj1_way_name)) + " ("+c1_start.tostring()+")."
 
 							if(tool_id == tool_build_way) return result
 						}
@@ -419,7 +413,7 @@ class tutorial.chapter_06 extends basic_chapter
 						}
 						else {
 							if(way && way.get_name() != obj1_way_name)
-								return format(translate("The track is not correct it must be: %s, use the 'Remove' tool"),way1_name) + " ("+c1_start.tostring()+")."
+								return format(translate("The track is not correct it must be: %s, use the 'Remove' tool"),translate(obj1_way_name)) + " ("+c1_start.tostring()+")."
 							else if(tool_id == tool_build_way)									
 								return all_control(result, gl_wt, way, ribi, tool_id, pos, coorbord)
 						
@@ -440,7 +434,7 @@ class tutorial.chapter_06 extends basic_chapter
 						if (way && way.get_name() != obj2_way_name){
 							if(tool_id == tool_remover || tool_id == tool_remove_way) return null
 
-							result = format(translate("The track is not correct it must be: %s, use the 'Remove' tool"),way2_name) + " ("+c2_start.tostring()+")."
+							result = format(translate("The track is not correct it must be: %s, use the 'Remove' tool"),translate(obj2_way_name)) + " ("+c2_start.tostring()+")."
 
 							if(tool_id == tool_build_way){							
 								return result
@@ -464,7 +458,7 @@ class tutorial.chapter_06 extends basic_chapter
 								return null
 
 							else if (way && way.get_name() != obj2_way_name){
-								return format(translate("The track is not correct it must be: %s, use the 'Remove' tool"),way2_name) + " ("+c2_start.tostring()+")!."
+								return format(translate("The track is not correct it must be: %s, use the 'Remove' tool"),translate(obj2_way_name)) + " ("+c2_start.tostring()+")!."
 							}
 							else if(tool_id == tool_build_way)									
 								return all_control(result, gl_wt, way, ribi, tool_id, pos, coorbord)
@@ -660,7 +654,7 @@ class tutorial.chapter_06 extends basic_chapter
 
 				result = is_convoy_correct(depot, cov, veh,good_list, name, st_tile)
 				if (result!=null){
-					local name = plane1_name
+					local name = translate(plane1_obj)
 					local load = translate("Passengers")
 					if (result==0)
 						return format(translate("You must select a [%s]."),name)

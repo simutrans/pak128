@@ -33,8 +33,8 @@ class tutorial.chapter_05 extends basic_chapter
 					{a = coord(76,26), b = coord(78,28)}, {a = coord(76,77), b = coord(77,78)}
 					{a = coord(74,47), b = coord(76,49)}
 				]
-	f_name =	[	translate("grain_mill"), translate("Raffinerie"), translate("bakery"), 
-					translate("shaft_coal_mine"), translate("old_powerplant_kraftwerk")
+	f_name =	[	"grain_mill", "Raffinerie", "bakery", 
+					"shaft_coal_mine", "old_powerplant_kraftwerk"
 				]
 
 	//Step 2 =====================================================================================
@@ -50,7 +50,6 @@ class tutorial.chapter_05 extends basic_chapter
 	
 	//Para el Camion
 	sch_list1 = [coord(77,76), coord(75,50)]
-	veh1_name = translate("PMNV_50_Mack")
     veh1_obj = "PMNV_50_Mack"
 	veh1_load = 100
 	veh1_wait = 0
@@ -71,7 +70,6 @@ class tutorial.chapter_05 extends basic_chapter
     obj_list1 = [coord(99,45), coord(96,37), coord(98,27), coord(86,27), coord(81,32), coord(76,30), coord(88,31), coord(90,37)]
 
 	//Para el Camion
-    veh2_name = translate("RVg_Post_Truck_1")
     veh2_obj = "RVg_Post_Truck_1"
     c_dep2 = coord(98,33) // depot
 	line1_name = "Test 6"
@@ -82,7 +80,6 @@ class tutorial.chapter_05 extends basic_chapter
 
 	//Para el barco
 	sch_list3 = [coord(98,47), coord(113,57)]
-	veh3_name = translate("MV_Balmoral")
 	veh3_obj = "MV_Balmoral"
 	vhe3_ext = "Ferry_Mail_Extension_(small)"
 	veh3_load = 100
@@ -139,7 +136,7 @@ class tutorial.chapter_05 extends basic_chapter
 			text.w2 = c_w2.href("("+c_w2.tostring()+")")
 
 			text.dep = c_dep1.href("("+c_dep1.tostring()+")")
-			text.veh = veh1_name
+			text.veh = translate(veh1_obj)
 			text.good = translate(f1_good)
 			text.all_cov = d1_cnr
 			text.cir = cov_cir
@@ -175,10 +172,10 @@ class tutorial.chapter_05 extends basic_chapter
               local f_list = c_fab_list
               for(local j=0;j<f_list.len();j++){
 		         if (glsw[j]==0){
-						tran_tx +=format("<st>%s</st> ",f_name[j]) + f_list[j].href("("+f_list[j].tostring()+")") + "<br/>" 
+						tran_tx +=format("<st>%s</st> ",translate(f_name[j])) + f_list[j].href("("+f_list[j].tostring()+")") + "<br/>" 
                  }
                   else {
-                    tran_tx +=format("<em>%s</em> ",f_name[j]) + "("+f_list[j].tostring()+") <em>"+translate("OK")+"</em><br/>" 
+                    tran_tx +=format("<em>%s</em> ",translate(f_name[j])) + "("+f_list[j].tostring()+") <em>"+translate("OK")+"</em><br/>" 
                  }
               }
               f_power = f_power + f_pow_list[0] + f_pow_list[1] + f_pow_list[2] 
@@ -232,7 +229,7 @@ class tutorial.chapter_05 extends basic_chapter
 
 			text.list = list_tx
 			text.dep = c_dep2.href("("+c_dep2.tostring()+")")
-			text.veh = veh2_name
+			text.veh = translate(veh2_obj)
 			text.all_cov = d2_cnr
 			text.cir = cov_cir
 			text.load = veh2_load
@@ -266,8 +263,8 @@ class tutorial.chapter_05 extends basic_chapter
 
 			text.list = list_tx
 			text.dep = c_dep3.href("("+c_dep3.tostring()+")")
-			text.ship = veh3_name
-			text.ext = translate(""+vhe3_ext+"")
+			text.ship = translate(veh3_obj)
+			text.ext = translate(vhe3_ext)
 			text.load = veh3_load
 			text.wait = get_wait_time_text(veh3_wait)
 		}
@@ -288,11 +285,11 @@ class tutorial.chapter_05 extends basic_chapter
         break
 	    }
 
-        text.f1 = c_fab_list[0].href(""+f_name[0]+" ("+c_fab_list[0].tostring()+")")+""
-	    text.f2 = c_fab_list[1].href(""+f_name[1]+" ("+c_fab_list[1].tostring()+")")+""
-	    text.f3 = c_fab_list[2].href(""+f_name[2]+" ("+c_fab_list[2].tostring()+")")+""
-	    text.f4 = c_fab_list[3].href(""+f_name[3]+" ("+c_fab_list[3].tostring()+")")+""
-	    text.f5 = c_fab_list[4].href(""+f_name[4]+" ("+c_fab_list[4].tostring()+")")+""
+        text.f1 = c_fab_list[0].href(""+translate(f_name[0])+" ("+c_fab_list[0].tostring()+")")+""
+	    text.f2 = c_fab_list[1].href(""+translate(f_name[1])+" ("+c_fab_list[1].tostring()+")")+""
+	    text.f3 = c_fab_list[2].href(""+translate(f_name[2])+" ("+c_fab_list[2].tostring()+")")+""
+	    text.f4 = c_fab_list[3].href(""+translate(f_name[3])+" ("+c_fab_list[3].tostring()+")")+""
+	    text.f5 = c_fab_list[4].href(""+translate(f_name[4])+" ("+c_fab_list[4].tostring()+")")+""
 
 		text.tool1 = tool_alias.inspe
 		text.tool2 = tool_alias.road
@@ -793,7 +790,7 @@ class tutorial.chapter_05 extends basic_chapter
 				result = is_convoy_correct(depot, cov, veh, good_list, name, st_tile)
 
 				if (result!=null){
-					local name = veh1_name
+					local name = translate(veh1_obj)
 					local good = translate(f1_good)
 					return truck_result_message(result, name, good, veh, cov)
 				}
@@ -824,7 +821,7 @@ class tutorial.chapter_05 extends basic_chapter
 					result = is_convoy_correct(depot, cov, veh, good_list, name, st_tile)
 
 					if (result!=null){
-						local name = veh2_name
+						local name = translate(veh2_obj)
 						local good = translate(good_alias.mail)
 						return truck_result_message(result, name, good, veh, cov)
 					}
@@ -845,7 +842,7 @@ class tutorial.chapter_05 extends basic_chapter
 					result = is_convoy_correct(depot, cov, veh, good_list, name, st_tile)
 
 					if (result!=null){
-						local name = veh3_name
+						local name = translate(veh3_obj)
 						local good = ""+translate(good_alias.passa)+","+translate(good_alias.mail)+""
 						return ship_result_message(result, name, good, veh, cov)
 					}

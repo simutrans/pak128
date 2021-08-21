@@ -51,7 +51,6 @@ class tutorial.chapter_02 extends basic_chapter
 	// Step 4 =====================================================================================
 	// El primer Autobus
 	line1_name = "Test 1"
-    vhe1_name = translate("S_Kroytor_LiAZ-677")
 	veh1_obj = "S_Kroytor_LiAZ-677"
 	veh1_load = 100
 	veh1_wait = 10571
@@ -345,7 +344,7 @@ class tutorial.chapter_02 extends basic_chapter
 		text.load = veh1_load
 		text.wait = get_wait_time_text(veh1_wait)
 		text.pos = c_dep.href("("+c_dep.tostring()+")")
-		text.bus1 = vhe1_name
+		text.bus1 = translate(veh1_obj)
 		text.name = cty1.c.href(cty1.name.tostring())
 		text.name2 = cty2.c.href(cty2.name.tostring())
 		text.tool1 = tool_alias.inspe
@@ -1027,7 +1026,7 @@ class tutorial.chapter_02 extends basic_chapter
 
 					if (result!=null){
 						reset_tmpsw()
-						local name = vhe1_name
+						local name = translate(veh1_obj)
 						return bus_result_message(result, name, veh, cov)
 					}
 					local selc = 0
@@ -1058,7 +1057,7 @@ class tutorial.chapter_02 extends basic_chapter
 					result = is_convoy_correct(depot,cov,veh,good_list,name, st_tile)
 					if (result!=null){
 						reset_tmpsw()
-						local name = vhe1_name
+						local name = translate(veh1_obj)
 						return bus_result_message(result, name, veh, cov)
 					}
 
@@ -1091,7 +1090,7 @@ class tutorial.chapter_02 extends basic_chapter
 					result = is_convoy_correct(depot,cov,veh,good_list,name, st_tile)
 					if (result!=null){
 						reset_tmpsw()
-						local name = vhe1_name
+						local name = translate(veh1_obj)
 						return bus_result_message(result, name, veh, cov)
 					}
 

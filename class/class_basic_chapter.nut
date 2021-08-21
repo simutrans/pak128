@@ -1208,7 +1208,7 @@ class basic_chapter
 	function count_tunnel(coora, max){
 		local way = tile_x(coora.x, coora.y, coora.z).find_object(mo_way)
 		local r_dir = way? way.get_dirs():0
-
+		if(!way)return true
 		local result = false
 		if(r_dir == 2){
 			for(local j = 0;true;j++){

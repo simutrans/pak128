@@ -18,3 +18,6 @@ While in <em>Sliced underground</em> mode you can:<br/>
 <p>
 <st>Note:</st> When building complicated structures on several layers, it is recommended to use the <em>sliced underground</em> mode.
 </p>
+<p>
+<st>Warning: At this point, you must hold down the Ctrl key to extend the tunnel.</st>
+</p>

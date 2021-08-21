@@ -53,13 +53,13 @@ class tutorial.chapter_03 extends basic_chapter
 
 	//Step 1 =====================================================================================
 	//Productor
-	f1name = translate("grain_farm_w_fields")
+	f1name = "grain_farm_w_fields"
 	f1_coord = coord(64,40)
 	f1_lim = {a = coord(60,36), b = coord(69,45)}
 	f1_good = good_alias.grain
 	
 	//Fabrica
-	f2name = translate("grain_mill")
+	f2name = "grain_mill"
 	f2_coord = coord(36,4)
 	f2_lim = {a = coord(36,4), b = coord(36,6)}
 	f2_good = good_alias.flour
@@ -106,7 +106,6 @@ class tutorial.chapter_03 extends basic_chapter
 
 	//Step 5 =====================================================================================
 	loc1_name_obj = "EMD-FT_(A)"
-	loc1_name = translate("EMD-FT_(A)")
 	loc1_tile = 4
 	loc1_load = 100
 	loc1_wait = 0
@@ -152,13 +151,12 @@ class tutorial.chapter_03 extends basic_chapter
 	//--------------------------------------------------------------------------------------------
 
 	loc2_name_obj = "Haru_F7A"
-	loc2_name = translate("Haru_F7A")
 	loc2_tile = 4
 	loc2_load = 100
 	loc2_wait = 0
 
 	//Consumidor Final
-	f3name = translate("bakery")
+	f3name = "bakery"
 	f3_coord = coord(76,26)
 	f3_reached = 30
 	f3_good = good_alias.deliv
@@ -231,11 +229,8 @@ class tutorial.chapter_03 extends basic_chapter
 	//Step 11 =====================================================================================
     tem_pass = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 	loc3_name_obj = "SMC_XT-300_Toasted_Duck"
-	loc3_name = translate("SMC_XT-300_Toasted_Duck")
 	loc4_name_obj = "SMC_XT-301_(car)"
-	loc4_name = translate("SMC_XT-301_(car)")
 	loc5_name_obj = "SMC_XT-309_(back_engine)"
-	loc5_name = translate("SMC_XT-309_(back_engine)")
 	loc3_tile = 4
 	loc3_load = 100
 	loc3_wait = 25369
@@ -294,9 +289,6 @@ class tutorial.chapter_03 extends basic_chapter
 					text = ttextfile("chapter_03/01_2-2.txt")
 					text.tx = ttext("<em>[2/2]</em>")
 				}
-					
-				text.cfar=f1_coord.href(f1name+" ("+f1_coord.tostring()+")")
-				text.cmi=f2_coord.href(f2name+" ("+f2_coord.tostring()+")")
 				break
 			case 2:
 				local c1 = coord(c_way1.a.x, c_way1.a.y)
@@ -403,7 +395,7 @@ class tutorial.chapter_03 extends basic_chapter
 			case 5:
 				text.reached = reached
 				text.t_reach = f1_reached
-				text.loc1 = loc1_name
+				text.loc1 = translate(loc1_name_obj)
 				text.wag = sc_wag1_nr
 				text.tile = loc1_tile
 				text.load = loc1_load
@@ -444,7 +436,7 @@ class tutorial.chapter_03 extends basic_chapter
 			case 7:
 				text.reached = reached
 				text.t_reach = f3_reached
-				text.loc2 = loc2_name
+				text.loc2 = translate(loc2_name_obj)
 				text.wag = sc_wag2_nr
 				text.tile = loc2_tile
 				text.load = loc2_load
@@ -583,9 +575,9 @@ class tutorial.chapter_03 extends basic_chapter
 			case 11:
 
 				local covtext = ""
-				local name1 = loc3_name
-				local name2 = loc4_name
-				local name3 = loc5_name
+				local name1 = translate(loc3_name_obj)
+				local name2 = translate(loc4_name_obj)
+				local name3 = translate(loc5_name_obj)
 				local good = good_alias.passa
 
 				if (tem_pass[0]==0)
@@ -643,9 +635,9 @@ class tutorial.chapter_03 extends basic_chapter
 				text.stnam = "1) "+my_tile(c).get_halt().get_name()+" ("+c.tostring()+")"
 				text.list = tx_list
 				text.dep = c_dep3.href("("+c_dep3.tostring()+")")
-				text.loc3 = loc3_name
-				text.loc4 = loc4_name
-				text.loc5 = loc5_name
+				text.loc3 = name1
+				text.loc4 = name2
+				text.loc5 = name3
 				text.load = loc3_load
 				text.wait = get_wait_time_text(loc3_wait)
 				text.cnr = d3_cnr
@@ -654,12 +646,12 @@ class tutorial.chapter_03 extends basic_chapter
 
 				break
 		}
-		text.f1 = f1_coord.href(f1name+" ("+f1_coord.tostring()+")")
-		text.f2 = f2_coord.href(f2name+" ("+f2_coord.tostring()+")")
-		text.f3 = f3_coord.href(f3name+" ("+f3_coord.tostring()+")")
-		text.cfar=f1_coord.href(f1name+" ("+f1_coord.tostring()+")")
-		text.cmi=f2_coord.href(f2name+" ("+f2_coord.tostring()+")")
-		text.cba=f3_coord.href(f3name+" ("+f3_coord.tostring()+")")
+		text.f1 = f1_coord.href(translate(f1name)+" ("+f1_coord.tostring()+")")
+		text.f2 = f2_coord.href(translate(f2name)+" ("+f2_coord.tostring()+")")
+		text.f3 = f3_coord.href(translate(f3name)+" ("+f3_coord.tostring()+")")
+		text.cfar=f1_coord.href(translate(f1name)+" ("+f1_coord.tostring()+")")
+		text.cmi=f2_coord.href(translate(f2name)+" ("+f2_coord.tostring()+")")
+		text.cba=f3_coord.href(translate(f3name)+" ("+f3_coord.tostring()+")")
 		text.cdep=c_dep1.href("("+c_dep1.tostring()+")")
 		text.way1=c_dep2.href("("+c_dep2.tostring()+")")
 
@@ -1899,30 +1891,30 @@ class tutorial.chapter_03 extends basic_chapter
 						}
 						else return coorbord!=0 && slope==0? translate("Modify the terrain here")+" ("+coorbord.tostring()+")." : result
 					}
-
 					if (tool_id==tool_build_tunnel || tool_id==tool_build_way || tool_id== 4099){
 						if (pos.x>=c_tunn2_lim.a.x && pos.y<=c_tunn2_lim.a.y && pos.x<=c_tunn2_lim.b.x && pos.y>=c_tunn2_lim.b.y){
-							if(way){
-								return all_control(result, gl_wt, way, ribi, tool_id, pos, coorbord)
-							}
-							if (way && slope!=72 && slope!= 4 && slope!= 0) return translate("You must lower the ground first")+" ("+coorbord.tostring()+".)"
+							gui.add_message(""+ slope)
+							if (way && (slope != 72 && slope != 4) && slope != 0)
+								return translate("You must lower the ground first")+" ("+coorbord.tostring()+".)"
 							if (coorbord!=0){
+								local slopebord = tile_x(coorbord.x, coorbord.y, coorbord.z).get_slope()
+								if((count_tunn && (slopebord==72 || slopebord==4))||(pos.z== start_lvl_z && (slopebord==72 || slopebord==4)))
+									return all_control(result, gl_wt, way, ribi, tool_id, pos, coorbord)
 								if (pos.z > end_lvl_z){
-									local slopebord = tile_x(coorbord.x, coorbord.y, coorbord.z).get_slope()
-
 									if (slopebord!=0){
+										//gui.add_message(""+count_tunn+" "+pos.tostring())
 										local is_mark = way? way.is_marked():false 
 										local cursor = t.find_object(mo_pointer)
 										local max = 2
 										local lock = cursor_tile_count(cursor, is_mark, max)
 										if(is_mark || label || lock) return all_control(result, gl_wt, way, ribi, tool_id, pos, coorbord)
 										else if (!count_tunn)
-											return translate("The tunnel is not correct, use the [Remove] tool here")+" ("+coorbord.tostring()+".)" 
+											return translate("The tunnel is not correct, use the [Remove] tool here")+" ("+coorbord.tostring()+".)"
+
 										else return translate("First you must lower the layer level.")
 									}
 									else if (slopebord==0){
-										if (!count_tunn)
-											return translate("The tunnel is not correct, use the [Remove] tool here")+" ("+coorbord.tostring()+".)" 
+										if (!count_tunn) return translate("The tunnel is not correct, use the [Remove] tool here")+" ("+coorbord.tostring()+".)" 
 										return translate("You must lower the ground first")+" ("+coorbord.tostring()+".)"
 									}
 								}
@@ -2141,7 +2133,7 @@ class tutorial.chapter_03 extends basic_chapter
 
 				if (result!=null){
 					backward_pot(0)
-					local name = loc1_name
+					local name = translate(loc1_name_obj)
 					local good = translate(f1_good)
 					return train_result_message(result, name, good, veh, cov, st_tile)
 				}
@@ -2177,7 +2169,7 @@ class tutorial.chapter_03 extends basic_chapter
 				result = is_convoy_correct(depot,cov,veh,good_list,name, st_tile, is_st_tile)
 
 				if (result!=null){
-					local name = loc2_name
+					local name = translate(loc2_name_obj)
 					local good = translate(f3_good)
 					return train_result_message(result, name, good, veh, cov, st_tile)
 				}
@@ -2221,7 +2213,7 @@ class tutorial.chapter_03 extends basic_chapter
 				result = is_convoy_correct(depot, cov, veh, good_list, name, st_tile, is_st_tile)
 
 				if (result!=null){
-					local name = loc3_name
+					local name = translate(loc3_name_obj)
 					local good = translate("Passengers")
 					return train_result_message(result, name, good, veh, cov, st_tile)
 				}
@@ -2287,8 +2279,8 @@ class tutorial.chapter_03 extends basic_chapter
 				local t_slope2 = my_tile(c_slope2)
 				if (pot2==0){
 
-					if (t_slope2.find_object(mo_label))
-						t_slope2.remove_object(player_x(1), mo_label)
+					if (t_slope1.find_object(mo_label))
+						t_slope1.remove_object(player_x(1), mo_label)
 
 					if (t_slope2.find_object(mo_label))
 						t_slope2.remove_object(player_x(1), mo_label)
