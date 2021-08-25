@@ -1,10 +1,10 @@
 <p>
-The city {city2} needs to design a bus network that allows passengers to move to the train station: {st2_nam}.
+The city {city} needs to design a bus network that allows passengers to move to the train station: {st2_nam}.
 </p>
 <p>
 <em>[1]</em> Place a bus stop in the position {stop}.<br/>
 <em>[2]</em> Make the stop public in {stop}. <br/>
-<em>[3]</em> Now you are free to build a bus network in the city {city2}.<br/>
+<em>[3]</em> Now you are free to build a bus network in the city {city}.<br/>
 <em>[4]</em> Make sure all buses are connected to the station: {st2_nam}.
 </p>
 <p>

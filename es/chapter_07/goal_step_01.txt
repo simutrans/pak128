@@ -1,10 +1,10 @@
 <p>
-La ciudad {city1} necesita diseñar una red de autobuses que permita mover pasajeros hacia la estacion de tren: {st1_nam}.
+La ciudad {city} necesita diseñar una red de autobuses que permita mover pasajeros hacia la estacion de tren: {st1_nam}.
 </p>
 <p>
 <em>[1]</em> Coloca una parada de autobús en la posición {stop}.<br>
 <em>[2]</em> Haz pública la parada en {stop}. <br>
-<em>[3]</em> Ahora eres libre de construir una red de autobuses en la ciudad {city1}.<br>
+<em>[3]</em> Ahora eres libre de construir una red de autobuses en la ciudad {city}.<br>
 <em>[4]</em> Asegúrate de que todos los autobuses estén conectados a la estación: {st1_nam}.
 </p>
 <p>
