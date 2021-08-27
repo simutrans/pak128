@@ -54,10 +54,10 @@ class tutorial.chapter_01 extends basic_chapter
 		switch (this.step) {
 			case 1:
 				text.pos = c_cty.href("("+c_cty.tostring()+")")
-				text.pos1 = c_cty.href(""+tx_cty+" ("+c_cty.tostring()+")")
-				text.pos2 = c_fac.href(""+tx_fac+" ("+c_fac.tostring()+")")
-				text.pos3 = c_st.href(""+tx_st+" ("+c_st.tostring()+")")
-				text.link = "<a href='script:script_text()'>"+tx_link+"  >></a>"
+				text.pos1 = c_cty.href(""+translate(tx_cty)+" ("+c_cty.tostring()+")")
+				text.pos2 = c_fac.href(""+translate(tx_fac)+" ("+c_fac.tostring()+")")
+				text.pos3 = c_st.href(""+translate(tx_st)+" ("+c_st.tostring()+")")
+				text.link = "<a href='script:script_text()'>"+translate(tx_link)+"  >></a>"
 			break;
 			case 3: 
 				text.pos = "<a href=\"("+c_buil1.x+","+c_buil1.y+")\">"+buil1_name+" ("+c_buil1.tostring()+")</a>"

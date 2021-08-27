@@ -5,7 +5,7 @@
  *  Can NOT be used in network game !
  */
 const version = 1610
-map.file = "tutorial.sve"
+map.file = "tutorial128.sve"
 scenario_name             <- "Tutorial Scenario"
 scenario.short_description = scenario_name
 scenario.author            = "Yona-TYT"
@@ -275,6 +275,14 @@ function is_scenario_completed(pl)
 	//gui.add_message(""+glsw[0]+"")
 	//gui.add_message("Persis Step:"+persistent.step+" Status Step:"+persistent.status.step+"  Step:"+chapter.step+"")				
 	if (pl != 0) return 0			// other player get only 0%
+	if (currt_pos){
+		local t = tile_x(currt_pos.x,currt_pos.y,currt_pos.z)
+		local build = t.find_object(mo_building)
+		if (!t.is_marked() && build){
+			build.unmark()
+			currt_pos = null
+		}
+	}
 	if(fail_count==0){
 		if (fail_count2 == fail_num2){
 			gui.open_info_win_at("goal")
@@ -425,6 +433,13 @@ function is_tool_allowed(pl, tool_id, wt)
 
     return true
 }
+
+function jump_to_link_executed(pos)
+{
+	chapter.jump_to_link_executed(pos)
+	return null
+}
+
 //--------------------------------------------------------
 datasave <- {cov = cov_save}
 

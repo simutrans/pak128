@@ -5,6 +5,8 @@
  *  Can NOT be used in network game !
  */
 
+//Global coordinate for mark build tile
+currt_pos <- null
 
 class basic_chapter
 {        // chapter description : this is a placeholder class
@@ -437,7 +439,6 @@ class basic_chapter
 
 	function next_step()
 	{
-		//gui.add_message("test step count")
 		scr_jump = false
 		this.step++
 		persistent.step = this.step
@@ -956,24 +957,26 @@ class basic_chapter
 		return false
 	}
 
-/*	function is_convoy_number_correct(coord, nr, wt,)
+	function jump_to_link_executed(pos)
 	{
-		local cov_nr = get_convoy_number(coord, wt)
-		if (cov_nr>nr){
-			return format(translate("The number max of vehicles in circulation must be [%d]."),nr)
+		if (currt_pos){
+			local t = tile_x(currt_pos.x,currt_pos.y,currt_pos.z)
+			local build = t.find_object(mo_building)
+			if(build){
+				build.unmark()
+				currt_pos = null
+			}
+		}
+		local t = tile_x(pos.x,pos.y,pos.z)
+		local build = t.find_object(mo_building)
+
+		if(build){
+			currt_pos = pos
+			build.mark()
 		}
 		return null
 	}
 
-	function is_convoy_number_correct_exp(coord, nr, c_dep, id_a, id_b)
-	{
-		local cov_nr = get_convoy_number_exp(coord, c_dep, id_a, id_b)
-		if (cov_nr>nr){
-			return format(translate("The number max of vehicles in circulation must be [%d]."),nr)
-		}
-		return null
-	}
-*/
 	function get_convoy_number(coord, wt, in_dep = false)  //Permite contar los vehiculos en las estaciones /paradas
 	{
 		local halt = this.my_tile(coord).get_halt()
