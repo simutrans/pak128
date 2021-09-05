@@ -1049,7 +1049,8 @@ class tutorial.chapter_02 extends basic_chapter
 						return null
 					}*/
 
-					local cov = 1
+					local cov_list = depot.get_convoy_list()
+					local cov = cov_list.len()
 					local veh = 1
 					local good_list = [good_desc_x (good_alias.passa).get_catg_index()] 	 //Passengers
 					local name = veh1_obj
