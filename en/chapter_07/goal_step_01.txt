@@ -1,18 +1,15 @@
 <p>
-The city {city} needs to design a bus network that allows passengers to move to the train station: {st1_nam}.
+The city {city} needs to design a bus network that allows passengers to move to the train station: {name}.
 </p>
 <p>
 <em>[1]</em> Place a bus stop in the position {stop}.<br/>
 <em>[2]</em> Make the stop public in {stop}. <br/>
 <em>[3]</em> Now you are free to build a bus network in the city {city}.<br/>
-<em>[4]</em> Make sure all buses are connected to the station: {st1_nam}.
+<em>[4]</em> Make sure all buses are connected to the station: {name}.
 </p>
 <p>
-<st>Note:</st> The number of vehicles must be <em>{vhe1}</em>
+Progress is made to the next step, when more than <em>{load}</em> passengers are transported to {name} in a month.
 </p>
 <p>
-Progress is made to the next step, when more than <em>{goal_lod1}</em> passengers are transported to {st1_nam} in a month and the number of vehicles in circulation are <em>"{vhe1}"</em>.
-</p>
-<p>
-<st>Translated this month:</st> <em>{lod}/{goal_lod1}</em> 
+<st>Translated this month:</st> <em>{get_load}/{load}</em> 
 </p>
