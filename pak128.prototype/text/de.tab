@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 10.01 2021                           #
+#                           Date Created: 10.01 2022                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -2575,7 +2575,7 @@ Class 620 Triebwagen
 720_Railcar_Addon
 Class 720 Passagierwagen
 Autotransportwagen
-Canonball Autotransporter
+Autotransporter
 Big_Bretterwagen
 RVg Langholz- und Bretterwaggon
 BR-373_Back
@@ -2629,7 +2629,7 @@ PMNV Beton Mischer
 Concretewagen_1
 Betonteilewaggon
 Cooling_wagon_0
-Canonball Kühlwagen
+Kühlwagen
 Cooling_wagon_1
 Canonball Kühlwagen
 Cooling_wagon_2
@@ -2681,7 +2681,7 @@ Esso XL Tankwagen
 fluid_08_VTG_CeSa_Tank_Wagon
 VTG CeSa Tankwagen
 Goods_waggon_0
-Canonball geschlossener Güterwagen
+geschlossener Güterwagen
 Goods_waggon_1
 Cannonball Güterwagen
 Goods_waggon_2
@@ -2815,7 +2815,7 @@ D-Lok "MJHN Deltic"
 milk_00_bottled_milk_wagon
 Güterwagen mit Milchflaschen
 Passagierwagen
-Passagierwagen Canonball BTx 060 2.Klasse
+Passagierwagen BTx 060 2.Klasse
 Passanger_waggon_0
 Passagierwagen JNR OHA 31 Steel
 Passanger_waggon_1
@@ -3020,10 +3020,8 @@ skoda163
 E-Lok Skoda 163
 skoda180
 E-Lok "Skoda 180"
-Stahlwagen
-Canonball Stahlwagen
 Stahlwagen_0
-Canonball Stahlwagen
+Stahlwagen
 Stahlwagen_1
 RVg Stahlwagen
 Stahlwagen_2

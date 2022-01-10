@@ -9,7 +9,7 @@
 #                             Language: es Espanol                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 10.01 2021                           #
+#                           Date Created: 10.01 2022                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -19,63 +19,63 @@ Monorraíl suspendido (puente)
 #________________________________bridge - power_________________________________
 #________________________________bridge - power_________________________________
 PowerBridge
-Puente para linea de alta tensión
+Puente de Tendido Eléctrico
 #_________________________________bridge - road_________________________________
 #_________________________________bridge - road_________________________________
 Highway_110_Bridge
-Puente de vía rápida
+Puente de Autopista Básica
 Highway_130_Bridge
-Puente de autopista
+Puente de Autopista Básica Mejorada
 Highway_200_Bridge
-Puente moderno de autopista
+Puente de Autopista Moderna
 road_030_bridge
-Puente de madera
+Puente de madera para Camino de Tierra
 road_040_bridge
-Puente adoquinado
+Puente de piedra para Calle de Adoquines
 road_050_bridge
-Puente asfaltado
+Puente de hormigón para Calle Asfaltada
 Road_055_Bridge
 Puente de piedra
 Road_070_Bridge
-Puente de carretera
+Puente de Carretera Básica
 Road_090_Bridge
-Puente moderno de carretera
+Puente de Carretera Moderna
 #________________________________bridge - track_________________________________
 #________________________________bridge - track_________________________________
 Rail_060_Bridge
-Puente de madera para via de mercancías
+Puente de madera para Vía con Traviesas de Madera Básica
 Rail_060B_Bridge
-Puente antiguo de acero para vía de mercancías
+Puente de acero para Vía de Mercancías Básica
 Rail_080_Bridge
-Puente de hierro para vía antigua
+Puente de hierro para Vía con Traviesas de Madera Básica Mejorada
 Rail_080B_Bridge
-Puente moderno de acero para vía de mercancías
+Puente de acero para Vía de Mercancías Básica Mejorada
 Rail_100_Bridge
-Puente para vía con traviesas de madera
+Puente para Vía con Traviesas de Madera Moderna
 Rail_120_Bridge
-Puente para vía rápida con traviesas de madera
+Puente en arco de piedra para Vía con Traviesas de Madera Moderna Mejorada
 Rail_120B_Bridge
-Puente para vía rápida de mercancías
+Puente para Vía de Mercancías Moderna Mejorada
 Rail_140_Bridge
-Puente para vía exprés
+Puente en arco de piedra para Vía Rápida Básica
 Rail_160_Bridge
-Puente de hormigón para vía exprés mejorada
+Puente de hormigón para Vía Rápida Básica Mejorada
 Rail_180_Bridge
-Puente de hormigón para vía regional
+Puente de hormigón para Vía Rápida Moderna
 Rail_200_Bridge
-Puente de acero para via exprés moderna
+Puente de acero para Vía Rápida Moderna Mejorada
 Rail_240_Bridge
-Puente con estructura de acero para vía exprés
+Puente con estructura de acero para Vía de Alta Velocidad Básica
 Rail_280_Bridge
-Puente de hormigón para vía de alta velocidad
+Puente de hormigón para Vía de Alta Velocidad Básica Mejorada
 Rail_320_Bridge
-Puente con armazón de hormigón para vía moderna de alta velocidad
+Puente con armazón de hormigón para Vía de Alta Velocidad Moderna
 Rail_400_Bridge
-Puente con armazón de hormigón para vía mejorada de alta velocidad
+Puente con armazón de hormigón para Vía de Alta Velocidad Moderna Mejorada
 #________________________________bridge - water_________________________________
 #________________________________bridge - water_________________________________
 water_bridge
-acueducto
+Puente Canal
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 MonorailGround
@@ -1885,9 +1885,11 @@ Cantera de arena
 shaft_coal_mine
 Mina subterránea de carbón
 factory_shaft_coal_mine_details
-La minería subterránea del carbón desarrolla su actividad bajo la superficie mediante túneles y galerías subterráneas. La maquinaria que se usa en la minería subterránea es mucho más pequeña que la que se utiliza a cielo abierto, debido a las limitaciones  que impone el tamaño de las galerías y demás estructuras. \n\nLas estructuras características de este sistema de explotación minera son los túneles, cavernas, bocamina o emboquille, cuartel, galería, pozo, chimenea, etc.\n\nSe usan una gran cantidad de máquinas diferentes como el minador, la rozadora y el cepillo o scrapper. Básicamente, estás máquinas arrancan la roca utilizando elementos móviles cortantes tales como picas, rodetes, cuchillas o discos.\n\nLa minería subterránea tiene enormes costes de arranque, excavación y transporte, ya que no se puede emplear maquinaria de gran tamaño para operar con grandes cantidades de carbón. Las galerías y túneles necesitan de ventilación, alumbrado y soporte artificial. Además las condiciones de seguridad e higiene en el trabajo son muy malas.
+La minería subterránea del carbón desarrolla su actividad bajo la superficie mediante túneles y galerías subterráneas. La maquinaria que se usa en la minería subterránea es mucho más pequeña que la que se utiliza a cielo abierto, debido a las limitaciones  que impone el tamaño de las galerías y demás estructuras. \n\nLas estructuras características de este sistema de explotación minera son los túneles, cavernas, bocamina o emboquille, cuartel, galería, pozo, chimenea, etc.\n\nSe usan una gran cantidad de máquinas diferentes como el minador, la rozadora y el cepillo o scrapper. Básicamente, estás máquinas arrancan la roca utilizando elementos móviles cortantes tales como picas, rodetes, cuchillas o discos.\n\nLa minería subterránea tiene enormes costes de arranque, excavación y transporte, ya que no se puede emplear maquinaria de gran tamaño para operar con grandes cantidades de carbón. Las galerías y túneles necesitan de ventilación, alumbrado y soporte artificial. Además las condiciones de seguridad e higiene en el trabajo son muy malas.\n
 shaft_coal_mine_small
-Mina de carbón subterránea
+Mina de carbón pequeña
+factory_shaft_coal_mine_small_details
+La minería subterránea del carbón desarrolla su actividad bajo la superficie mediante túneles y galerías subterráneas. La maquinaria que se usa en la minería subterránea es mucho más pequeña que la que se utiliza a cielo abierto, debido a las limitaciones  que impone el tamaño de las galerías y demás estructuras. \n\nLas estructuras características de este sistema de explotación minera son los túneles, cavernas, bocamina o emboquille, cuartel, galería, pozo, chimenea, etc.\n\nSe usan una gran cantidad de máquinas diferentes como el minador, la rozadora y el cepillo o scrapper. Básicamente, estás máquinas arrancan la roca utilizando elementos móviles cortantes tales como picas, rodetes, cuchillas o discos.\n\nLa minería subterránea tiene enormes costes de arranque, excavación y transporte, ya que no se puede emplear maquinaria de gran tamaño para operar con grandes cantidades de carbón. Las galerías y túneles necesitan de ventilación, alumbrado y soporte artificial. Además las condiciones de seguridad e higiene en el trabajo son muy malas.\n
 sheep_farm
 Granja ovina
 factory_sheep_farm_details
@@ -2001,11 +2003,11 @@ Petróleo
 Papier
 Papel
 Passagiere
-pasajeros
+Pasajeros
 Plastik
 Plásticos
 Post
-correo
+Correo
 Sand
 Arena
 Stahl

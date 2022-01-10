@@ -1,0 +1,16 @@
+<p>
+El <em>Servicio Público</em> necesita que completes la red ferroviaria que recorre las siguientes ciudades de:<br>
+<em>{cy2}</em> {co2}<br>
+<em>{cy1}</em> {co1}<br>
+<em>{cy3}</em> {co3}<br>
+<em>{cy4}</em> {co4}
+</p>
+<p>
+{tx} Selecciona <em>'{tool2}'</em> en la barra de herramientas y elige la herramienta de <em>Catenaria</em> para electrificar el <em>túnel</em> y la <em>estación</em> {co2} en <em>{cy2}</em>.
+</p>
+<p>
+<em>Consejo:</em> Presiona <em>[Shift]</em> + <em>[u]</em> para activar la <em>Vista subterránea</em>.
+</p>
+<p>
+Vías de tren sin electrificar: {cbor}
+</p>

@@ -1,0 +1,33 @@
+<p>
+Para la producción de <em>{good2}</em>, necesitarás transportar <em>{good1}</em> desde {f1} hasta {f2}.
+</p>
+<p>
+{tx} Los detalles son:
+</p>
+<p>
+<em>Producción máxima por mes:</em><br>
+Muestra la capacidad de producción que tiene la industria. La producción puede ser aumentada transportando pasajeros, correo o electricidad a la fábrica, dependiendo de lo que necesite.
+</p>
+<p>
+<em>Producción:</em><br>
+Muestra qué tipos de bienes de producción produce la fábrica, la cantidad de producción almacenada, y el rendimiento de la producción por cada unidad de materia prima.<br>
+<em>Ejemplo:</em> {f2} consume un 116% de {good1}, produce un 100% de {good2}, y tiene una producción máxima de 1064 unidades por mes. Eso significa que consume hasta 1234 toneladas de grano por mes, y produce 1064 toneladas de {good2} a partir de {good1}.
+</p>
+<p>
+<em>Consumo:</em><br>
+Muestra la materia prima que la fábrica necesita, la cantidad almacenada o en camino y cuánta materia prima hace falta para producir una unidad de producto.
+</p>
+<p>
+<em>Consumidor/Proveedores:</em><br>
+Muestra las fabricas conectadas <st>(sólo puedes transportar mercancías a industrias conectadas)</st>.
+</p>
+<p>
+<em>Los trabajadores viven en:</em><br>
+Muestra las ciudades de donde provienen los trabajadores, su nivel de pasajeros, y su nivel de correo.
+</p>
+<p>
+<em>Nota:</em> Transportar pasajeros a la fábrica no es obligatorio para que la fábrica produzca, pero hacerlo incrementará la producción.
+</p>
+<p>
+Se avanza al siguiente paso pulsando sobre {f1}.
+</p>

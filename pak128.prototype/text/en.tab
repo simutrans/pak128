@@ -9,7 +9,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 10.01 2021                           #
+#                           Date Created: 10.01 2022                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -449,9 +449,9 @@ National Courthouse\n\nThis is a courthouse where only the biggest of cases get 
 library_holy_genevieve
 Saint Geneviève\n\nThis is the biggest\nlibrary in the region.\nLots of students and\nerudites visit this\nbuilding every day.\n
 Lighthouse_0
-LightSince lighthouses have been\nbuilt, navigation in the\nSimuworld seas has\nbecome easier and safer.\nThere's a lot of people who\nwant to visit this one and\nwatch the waves leaning\non the handrail\n
+Lighthouse\n\nSince lighthouses have been\nbuilt, navigation in the\nSimuworld seas has\nbecome easier and safer.\nThere's a lot of people who\nwant to visit this one and\nwatch the waves leaning\non the handrail\n
 Lighthouse_1
-LightSince lighthouses have been\nbuilt, navigation in the\nSimuworld seas has\nbecome easier and safer.\nThis one has quite an odd\nshape, but no sailor has\never complained\n
+Lighthouse\n\nSince lighthouses have been\nbuilt, navigation in the\nSimuworld seas has\nbecome easier and safer.\nThis one has quite an odd\nshape, but no sailor has\never complained\n
 Little_Central_Park
 Central Park\n\nThe central park of the city. Any resemblance to a similar named park in the United States of America is purely coincidental.
 MANOR_0
@@ -2925,7 +2925,7 @@ Class 620 (Australian)
 720_Railcar_Addon
 Class 720 (Australian)
 Autotransportwagen
-Napik-Canonball Car Transporter
+Napik-Cannonball Car Transporter
 Big_Bretterwagen
 RVg Big Planks Car
 BR-373_Back
@@ -2979,7 +2979,7 @@ PMNV Concrete Mixer 12
 Concretewagen_1
 PMNV Concrete Mixer 16
 Cooling_wagon_0
-Canonball Cooling Car
+Cannonball Cooling Car
 Cooling_wagon_1
 Cooling Container Car
 Cooling_wagon_2
@@ -3037,7 +3037,7 @@ Esso XL tank wagon
 fluid_08_VTG_CeSa_Tank_Wagon
 VTG CeSa tank wagon
 Goods_waggon_0
-Canonball Closed Car
+Cannonball Closed Car
 Goods_waggon_1
 Cannonball Goods Car
 Goods_waggon_2
@@ -3195,7 +3195,7 @@ MTAB Dm
 MTAB_Dm3
 MTAB Dm3 (middle engine)
 Passagierwagen
-Canonball BTx 060 2nd Grade Coach
+Cannonball BTx 060 2nd Grade Coach
 Passanger_waggon_0
 Nabe-JNR OHA 31 Steel Passenger Waggon
 Passanger_waggon_1
@@ -3563,9 +3563,9 @@ SMC XT-702 Mail Car
 SMC_XT-709_(back_engine)
 SMC XT-709 Rear Cab
 Stahlwagen
-Canonball Bed Car (steel)
+Cannonball Bed Car (steel)
 Stahlwagen_0
-Canonball Steel Car
+Cannonball Steel Car
 Stahlwagen_1
 RVg Steel Carrier
 Stahlwagen_2

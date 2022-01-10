@@ -1,0 +1,12 @@
+<p>
+{txtst_01}Paso A</em> - Los autobuses de la ciudad I<br>
+{step_01}
+</p>
+<p>
+{txtst_02}Paso B</em> - Los autobuses de la ciudad II<br>
+{step_02}
+</p>
+<p>
+{txtst_03}Paso C</em> - Fin del Escenario<br>
+{step_03}
+</p>
