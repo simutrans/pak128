@@ -32,6 +32,9 @@ InputFactor[0]=300
 MapColor=135
 Dims=2,2
 
+#First incincerators built in Nottingham 1874
+intro_year=1950
+
 BackImage[0][0][0][0][0]=waste_incinerator_kraftwerk.0.1
 BackImage[0][1][0][0][0]=waste_incinerator_kraftwerk.0.0
 BackImage[0][0][1][0][0]=waste_incinerator_kraftwerk.2.1

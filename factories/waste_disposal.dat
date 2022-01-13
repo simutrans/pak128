@@ -22,6 +22,9 @@ OutputCapacity[0]=300
 MapColor=127
 Dims=1,2
 
+#Systematic waste disposal 1940
+intro_year=1850
+
 BackImage[0][0][0][0][0]=waste_disposal.1.1
 BackImage[0][1][0][0][0]=waste_disposal.1.0
 BackImage[1][0][0][0][0]=waste_disposal.0.0

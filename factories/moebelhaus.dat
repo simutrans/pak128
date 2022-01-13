@@ -35,6 +35,10 @@ MapColor=137
 
 dims=3,4,4
 
+#Suburban Square opened in Pensylvania, USA 5/1930
+intro_year=1940
+
+
 BackImage[0][0][0][0][0][0]=moebelhaus.0.0
 BackImage[0][0][1][0][0][0]=moebelhaus.0.1
 BackImage[0][0][2][0][0][0]=moebelhaus.0.2

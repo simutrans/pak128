@@ -35,6 +35,10 @@ InputSupplier[0]=0
 MapColor=194
 Dims=3,3
 
+#Invention of sliced bread. Simutrans is best thing since.
+intro_year=1928
+intro_month=7
+
 BackImage[0][0][0][0][0]=bakery.0.2
 BackImage[0][1][0][0][0]=bakery.0.1
 BackImage[0][2][0][0][0]=bakery.0.0

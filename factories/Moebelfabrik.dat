@@ -29,6 +29,8 @@ OutputCapacity[0]=200
 MapColor=186
 Dims=2,2
 
+intro_year=1836
+
 BackImage[0][0][0][0][0]=moebelfabrik.0.1
 BackImage[0][1][0][0][0]=moebelfabrik.0.0
 BackImage[0][0][1][0][0]=moebelfabrik.1.1

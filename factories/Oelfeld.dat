@@ -25,6 +25,9 @@ OutputCapacity[0]=800
 MapColor=76
 Dims=2,2
 
+#Drilling technology introduced to Europe from China
+intro_year=1828
+
 BackImage[0][0][0][0][0]=oelfeld.0.3
 BackImage[0][1][0][0][0]=oelfeld.0.1
 BackImage[0][0][1][0][0]=oelfeld.0.2

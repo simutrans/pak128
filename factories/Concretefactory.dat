@@ -40,6 +40,9 @@ OutputCapacity[0]=500
 MapColor=10
 Dims=2,2
 
+#reinforced concrete invented
+intro_year=1849
+
 BackImage[0][0][0][0][0]=concretefactory.1.1
 BackImage[0][0][0][1][0]=concretefactory.0.1
 BackImage[0][1][0][0][0]=concretefactory.1.0

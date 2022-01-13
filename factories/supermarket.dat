@@ -37,6 +37,9 @@ InputFactor[2]=180
 MapColor=143
 Dims=4,4
 
+#Astor market (but I think we need open market for earlier dates)
+intro_year=1915
+
 BackImage[0][0][0][0][0]=supermarket.0.3
 BackImage[0][1][0][0][0]=supermarket.0.2
 BackImage[0][2][0][0][0]=supermarket.0.1

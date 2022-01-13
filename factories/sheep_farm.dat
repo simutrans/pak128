@@ -33,6 +33,8 @@ MapColor=93
 Dims=3,3
 climates=mediterran,temperate,tundra
 
+intro_year=1600
+
 BackImage[0][0][0][0][0]=sheep_farm.0.2
 BackImage[0][1][0][0][0]=sheep_farm.0.1
 BackImage[0][2][0][0][0]=sheep_farm.0.0

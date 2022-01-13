@@ -25,6 +25,8 @@ MapColor=71
 Dims=3,3
 climates=mediterran,temperate,tundra
 
+intro_year=1600
+
 BackImage[0][0][0][0][0]=cornfield.0.2
 BackImage[0][0][1][0][0]=cornfield.1.2
 BackImage[0][0][2][0][0]=cornfield.2.2

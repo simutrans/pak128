@@ -29,6 +29,8 @@ InputFactor[0]=50
 MapColor=132
 Dims=3,3
 
+intro_year=1900
+
 #This set of backimages is the one used to make the non-animated version.
 #Lights are lit on the stacks, but flame is at its smallest.
 BackImage[0][0][0][0][0]=oilkraftwerk.2.0

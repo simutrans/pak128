@@ -32,6 +32,10 @@ MapColor=55
 Dims=2,2
 climates=temperate,tundra
 
+#Fourdrinier machine patented in London
+intro_year=1801
+intro_month=10
+
 BackImage[0][0][0][0][0]=papierfabrik.0.3
 BackImage[0][1][0][0][0]=papierfabrik.0.1
 BackImage[0][0][1][0][0]=papierfabrik.0.2

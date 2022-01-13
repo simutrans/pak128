@@ -25,6 +25,8 @@ OutputCapacity[0]=800
 MapColor=147
 Dims=3,4
 
+intro_year=1600
+
 climates=mediterran,temperate,tundra
 
 BackImage[0][0][0][0][0]=fish_pond.0.7

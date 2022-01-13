@@ -34,6 +34,8 @@ InputFactor[0]=50
 
 MapColor=131
 
+intro_year=1890
+
 Dims=3,3
 needs_ground=1
 climates=mediterran,temperate,tundra,rocky

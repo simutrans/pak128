@@ -39,6 +39,9 @@ InputFactor[1]=200
 OutputGood[0]=textile
 OutputCapacity[0]=300
 
+#John Lombe's mill 1721
+intro_year=1870
+
 MapColor=39
 Dims=2,2
 

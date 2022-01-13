@@ -25,6 +25,8 @@ OutputCapacity[0]=900
 MapColor=178
 Dims=5,5
 
+intro_year=1600
+
 BackImage[0][0][0][0][0]=erzbergwerk.0.4
 BackImage[0][1][0][0][0]=erzbergwerk.0.3
 BackImage[0][2][0][0][0]=erzbergwerk.0.2

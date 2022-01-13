@@ -44,6 +44,9 @@ OutputCapacity[0]=800
 MapColor=220
 Dims=3,3
 
+#Appert method of sealing 1810, but building is newer
+intro_year=1870
+
 BackImage[0][0][0][0][0]=cannery.0.2
 BackImage[0][1][0][0][0]=cannery.0.1
 BackImage[0][2][0][0][0]=cannery.0.0

@@ -38,6 +38,10 @@ InputFactor[2]=110
 MapColor=140
 Dims=4,4
 
+#Suburban Square opened in Pensylvania, USA 5/1930
+intro_year=1950
+
+
 BackImage[0][0][0][0][0]=shopping_mall.0.3
 BackImage[0][1][0][0][0]=shopping_mall.0.2
 BackImage[0][2][0][0][0]=shopping_mall.0.1

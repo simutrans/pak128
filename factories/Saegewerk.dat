@@ -32,6 +32,9 @@ MapColor=190
 Dims=2,2
 climates=tropic,mediterran,temperate,tundra
 
+#circular saw invented around this point
+intro_year=1780
+
 BackImage[0][0][0][0][0]=saegewerk.0.1
 BackImage[0][1][0][0][0]=saegewerk.0.0
 BackImage[0][0][1][0][0]=saegewerk.1.1

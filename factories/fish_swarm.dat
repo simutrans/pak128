@@ -22,6 +22,8 @@ Passenger_boost=0
 # need entry for stations
 enables_ware=1
 
+intro_year=1600
+
 OutputGood[0]=fish
 OutputCapacity[0]=25
 

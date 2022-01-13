@@ -36,6 +36,9 @@ OutputCapacity[0]=300
 MapColor=50
 Dims=2,2
 
+#rotary printing press invented
+intro_year=1843
+
 BackImage[0][0][0][0][0]=druckerei.0.1
 BackImage[0][1][0][0][0]=druckerei.0.0
 BackImage[0][0][1][0][0]=druckerei.0.3

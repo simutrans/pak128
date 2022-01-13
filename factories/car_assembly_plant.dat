@@ -34,6 +34,10 @@ InputSupplier[1]=0
 OutputGood[0]=Autos
 OutputCapacity[0]=100
 
+#Ford assembly line 1913
+intro_year=1920
+intro_month=10
+
 MapColor=30
 Dims=5,5,1
 

@@ -36,6 +36,9 @@ OutputCapacity[0]=600
 MapColor=198
 Dims=4,4
 
+#Invention of refrigeration, allowing year-round production
+intro_year=1871
+
 BackImage[0][0][0][0][0]=brewery.1.3
 BackImage[0][0][0][1][0]=brewery.0.3
 BackImage[0][1][0][0][0]=brewery.1.2

@@ -46,6 +46,9 @@ OutputCapacity[0]=400
 MapColor=223
 Dims=2,2
 
+#Ravenscrof's glass
+intro_year=1674
+
 BackImage[0][0][0][0][0]=glass_factory.1.1
 BackImage[0][0][0][1][0]=glass_factory.0.1
 BackImage[0][1][0][0][0]=glass_factory.1.0

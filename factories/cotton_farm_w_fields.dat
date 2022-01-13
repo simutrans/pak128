@@ -33,6 +33,8 @@ min_fields=10
 production_per_field=1
 fields=cotton_field
 
+intro_year=1600
+
 # the building has three tiles and one empty
 # features: four rotations + winter graphics
 

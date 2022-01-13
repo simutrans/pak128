@@ -46,6 +46,9 @@ Dims=3,3
 
 intro_year=1920
 
+#first petroleum refinery in Ploiești, Romania
+intro_year=1856
+
 BackImage[0][0][0][0][0]=raffinerie.0.3
 BackImage[0][1][0][0][0]=raffinerie.0.1
 BackImage[0][2][0][0][0]=raffinerie.0.0

@@ -26,6 +26,8 @@ MapColor=9
 Dims=3,3
 #climates=mediterran,temperate,tundra
 
+intro_year=1600
+
 BackImage[0][0][0][0][0]=stonequarry.0.0
 BackImage[0][1][0][0][0]=stonequarry.1.0
 BackImage[0][2][0][0][0]=stonequarry.2.0
