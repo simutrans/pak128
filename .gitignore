@@ -3,3 +3,5 @@ makefile.exe
 makefile
 simupak128.zip
 *.pak
+*.orig
+*.rej

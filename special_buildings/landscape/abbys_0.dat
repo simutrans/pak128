@@ -4,6 +4,7 @@ Copyright=MHz & mEGa
 Type=cur
 Passengers=70
 dims=1,1,1
+climates=mediterran,temperate,tundra,rocky
 climates=mediterran,temperate,rocky
 BackImage[0][0][0][1][0][0]=abbys_0.1.0
 BackImage[0][0][0][0][0][0]=abbys_0.2.0

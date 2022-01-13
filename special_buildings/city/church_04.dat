@@ -8,5 +8,6 @@ Chance=20
 Passengers=70
 Dims=1,1
 climates=desert,tropic,mediterran,temperate
+climates=desert,tropic,mediterran,temperate
 BackImage[0][0][0][0][0][0]=church_04.1.0
 BackImage[0][0][0][0][0][1]=church_04.1.1

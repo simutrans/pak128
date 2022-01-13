@@ -7,6 +7,7 @@ intro_year=1930
 Build_Time=8200
 chance=60
 dims=2,2,4
+climates=desert,tropic,mediterran,temperate,tundra,rocky,tundra
 climates=desert,tropic,mediterran,temperate,rocky,tundra
 BackImage[0][0][0][0][0][0]=tennis_court.0.0
 BackImage[0][0][1][0][0][0]=tennis_court.0.1

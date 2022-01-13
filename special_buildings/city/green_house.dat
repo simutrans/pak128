@@ -6,6 +6,7 @@ Build_Time=14000
 Chance=40
 Passengers=25
 Dims=1,2,2
+climates=temperate,tundra,rocky
 climates=temperate
 BackImage[0][0][0][0][0]=green_house.0.1
 BackImage[0][1][0][0][0]=green_house.0.2

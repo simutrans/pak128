@@ -9,6 +9,7 @@ Chance=10
 #retire_year=2140
 Dims=1,1,1
 climates=desert,tropic,mediterran,temperate
+climates=desert,tropic,mediterran,temperate
 BackImage[0][0][0][1][0][0]=rmax_mosque.1.0
 BackImage[0][0][0][0][0][0]=rmax_mosque.2.0
 BackImage[0][0][0][1][0][1]=rmax_mosque.1.1

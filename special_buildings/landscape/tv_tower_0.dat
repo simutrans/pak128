@@ -7,6 +7,7 @@ intro_year=1945
 needs_ground=1
 Dims=1,1
 climates=temperate,tundra,rocky,arctic
+climates=temperate,tundra,rocky,arctic
 BackImage[0][0][0][1][0][0]=tv_tower_0.1.0
 BackImage[0][0][0][0][0][0]=tv_tower_0.2.0
 BackImage[0][0][0][1][0][1]=tv_tower_0.1.1

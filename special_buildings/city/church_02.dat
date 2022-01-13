@@ -7,5 +7,6 @@ Chance=20
 Passengers=80
 Dims=1,1
 climates=temperate,tundra,rocky
+climates=temperate,tundra,rocky
 BackImage[0][0][0][0][0][0]=church_02.1.0
 BackImage[0][0][0][0][0][1]=church_02.1.1

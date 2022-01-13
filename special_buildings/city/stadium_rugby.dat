@@ -7,6 +7,7 @@ Build_Time=8200
 Chance=60
 Passengers=30
 dims=3,2,4
+climates=mediterran,temperate,tundra,rocky
 climates=mediterran,temperate,rocky
 
 BackImage[0][0][0][0][0][0]=stadium_rugby.1.5

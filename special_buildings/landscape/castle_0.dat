@@ -5,6 +5,7 @@ Type=cur
 Passengers=11
 Dims=3,3
 intro_year=1600
+intro_year=1600
 climates=temperate
 BackImage[0][0][0][0][0]=castle_0.0.2
 BackImage[0][1][0][0][0]=castle_0.0.1
