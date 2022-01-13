@@ -28,6 +28,9 @@ OutputGood[1]=milk
 OutputCapacity[1]=300
 OutputFactor[1]=200
 
+intro_year=1870
+
+
 MapColor=95
 Dims=5,5
 climates=mediterran,temperate,tundra

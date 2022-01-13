@@ -32,6 +32,8 @@ min_fields=10
 production_per_field=1
 fields=grain_field
 
+intro_year=1820
+
 BackImage[0][0][0][0][0]=grain_farm_w_fields.0.1
 BackImage[0][1][0][0][0]=grain_farm_w_fields.0.0
 BackImage[0][0][1][0][0]=grain_farm_w_fields.0.3

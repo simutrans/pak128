@@ -8,6 +8,7 @@ DistributionWeight=4
 Productivity=100
 Range=50
 
+intro_year=1921
 retire_year=2000
 
 Electricity_amount=0

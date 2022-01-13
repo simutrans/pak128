@@ -34,6 +34,8 @@ InputSupplier[1]=0
 #OutputGood[0]=food
 #OutputCapacity[0]=400
 
+intro_year=1870
+
 MapColor=214
 Dims=2,2
 

@@ -27,6 +27,10 @@ OutputGood[1]=meat
 OutputCapacity[1]=200
 OutputFactor[1]=100
 
+# Use of Broiler for commercial chicken farming 1926
+# but fertilized needed before
+intro_year=1600
+
 MapColor=91
 Dims=3,3
 climates=mediterran,temperate,tundra

@@ -23,6 +23,9 @@ InputGood[0]=Autos
 InputCapacity[0]=150
 InputSupplier[0]=0
 
+intro_year=1920
+intro_month=10
+
 MapColor=175
 Dims=4,4,1
 

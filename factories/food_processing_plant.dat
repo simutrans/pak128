@@ -40,6 +40,9 @@ InputSupplier[2]=0
 OutputGood[0]=food
 OutputCapacity[0]=400
 
+#Appert's bottling 1809
+intro_year=1915
+
 MapColor=119
 Dims=2,2
 

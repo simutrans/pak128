@@ -47,6 +47,9 @@ OutputCapacity[0]=400
 MapColor=78
 Dims=3,3
 
+#Soho manufactory opened
+intro_year=1920
+
 BackImage[0][0][0][0][0]=classical_goods_factory.0.2
 BackImage[0][0][1][0][0]=classical_goods_factory.1.2
 BackImage[0][0][2][0][0]=classical_goods_factory.2.2
