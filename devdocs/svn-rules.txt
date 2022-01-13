@@ -32,8 +32,8 @@ Rationale: less annoyance, more productivity - find files by typing names & easy
 
 
 
-Working with svn:
------------------
+Working with svn/git:
+---------------------
 
 Summary: know what you are doing, keep up to date when working, don't make life hard for others
 
@@ -63,5 +63,5 @@ Summary: repair what is broken, increase information value
 Testing the pak:
 ----------------
 
-Whatever you do, remember that ultimately the nightly server is our most important all-time "user". If something works for you, good, but if Werner says it is broken, it IS broken.
+Whatever you do, remember that ultimately the nightly server is our most important all-time "user".
 

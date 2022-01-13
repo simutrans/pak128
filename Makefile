@@ -18,7 +18,7 @@ ADDONDIR ?= $(DESTDIR)/addons/pak128
 DESTFILE ?= simupak128
 
 OUTSIDE :=
-OUTSIDE += base
+OUTSIDE += base/special
 
 DIRS64 :=
 DIRS64 += base/misc_GUI_64
@@ -87,7 +87,6 @@ ADDON_DIRS64 :=
 
 
 DIRS := $(DIRS64) $(DIRS128) $(DIRS176) $(DIRS250)
-ADDON_DIRS := $(ADDON_DIRS64)
 
 
 .PHONY: $(DIRS) $(OUTSIDE) $(ADDON_DIRS64) copy tar zip
@@ -113,6 +112,8 @@ copy:
 	@rm -rf $(PAKDIR)
 	@mkdir -p $(PAKDIR)
 	@cp -rp pak128.prototype/*  $(PAKDIR)
+	@cp -p history-pak128-svn.txt $(PAKDIR)/doc
+	@cp -p LICENSE.txt $(PAKDIR)/doc
 
 $(DIRS64):
 	@echo "===> PAK64 $@"
@@ -122,31 +123,40 @@ $(DIRS64):
 $(DIRS128):
 	@echo "===> PAK128 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
+	@rm -f $@/*.pak
+	@$(MAKEOBJ) quiet PAK128 $@/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet merge $(PAKDIR)/`echo $@ | sed s_/_._g`.all.pak $@/*.pak > /dev/null
+	@rm -f $@/*.pak
 
 $(DIRS176):
 	@echo "===> PAK176 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK176 $(PAKDIR)/ $@/ > /dev/null
+	@rm -f $@/*.pak
+	@$(MAKEOBJ) quiet PAK176 $@/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet merge $(PAKDIR)/`echo $@ | sed s_/_._g`.all.pak $@/*.pak > /dev/null
+	@rm -f $@/*.pak
 
 $(DIRS250):
 	@echo "===> PAK250 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK250 $(PAKDIR)/ $@/ > /dev/null
+	@rm -f $@/*.pak
+	@$(MAKEOBJ) quiet PAK250 $@/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet merge $(PAKDIR)/`echo $@ | sed s_/_._g`.all.pak $@/*.pak > /dev/null
+	@rm -f $@/*.pak
 
 $(OUTSIDE):
 	@echo "===> Grounds calculations"
 	@echo "===> OUTSIDE with REVISION and grounds"
 	@mkdir -p $(PAKDIR)
-	printf "Obj=ground\nName=Outside\ncopyright=$(PAKID) git r%s\nImage[0][0]=tile.1.1\n-" `git rev-list --count --first-parent HEAD`>$@/outside.dat
-	$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/ > /dev/null
+	@printf "Obj=ground\nName=Outside\ncopyright=$(PAKID) git r%s\nImage[0][0]=tile.1.1\n-" `git rev-list --count --first-parent HEAD`>$@/outside.dat
+	$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
 	@rm $@/outside.dat
 
 calclight:
-	@echo "===> MAKE lightmaps and borders"
-	@$(LIGHTMAP) -pak64 -marker16 -c#0xFF8000 ground/marker.png
-	@$(LIGHTMAP) -pak64 -marker16 -c#0x800000 ground/borders.png
-	@$(LIGHTMAP) -pak64 -slope16 -bright128 ground/texture-lightmap.png
+	@echo "===> MAKE lightmaps and borders (not recommended)"
+	@$(LIGHTMAP) -pak128 -marker16 -c#0xFF8000 landscape/grounds/marker.png
+	@$(LIGHTMAP) -pak128 -marker16 -c#0x202020 landscape/grounds/borders.png
+	@$(LIGHTMAP) -pak128 -slope16 -bright128 landscape/grounds/texture-lightmap.png
 
 merge:
 

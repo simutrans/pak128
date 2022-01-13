@@ -6,9 +6,8 @@ Compilation
 -----------
 
 Currently these build systems are available:
-* pakmak.py
-* makefile            (presently outdated)
-* Windows batch file
+* makefile
+* Windows batch file (not tested)
 
 The first wants makeobj on path, the other two next to script file. Other requirements are, obviously, the backends: Python for pakmak, GNU make for makefile, and Windows for the batch file.
 
