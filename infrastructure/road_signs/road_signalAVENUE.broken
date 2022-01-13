@@ -1,0 +1,23 @@
+# road_signalAVENUE
+obj=roadsign
+copyright=mark
+name=road_signalAVENUE
+intro_year=2000
+cost=500
+waytype=road
+min_speed=0
+single_way=0
+image[0]=road_signalAVENUE.0.0
+Image[1]=road_signalAVENUE.0.1
+Image[2]=road_signalAVENUE.0.2
+Image[3]=road_signalAVENUE.0.3
+Image[4]=road_signalAVENUE.0.4
+Image[5]=road_signalAVENUE.0.5
+image[8]=road_signalAVENUE.1.0
+Image[9]=road_signalAVENUE.1.1
+Image[10]=road_signalAVENUE.1.2
+Image[11]=road_signalAVENUE.1.3
+Image[12]=road_signalAVENUE.1.4
+Image[13]=road_signalAVENUE.1.5
+Icon=> road_signalAVENUE.0.6
+Cursor=road_signalAVENUE.0.7
