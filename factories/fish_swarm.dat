@@ -5,7 +5,7 @@ copyright=Patrick
 Location=Water
 DistributionWeight=2
 
-# needed productivity in tones  : 170 (? ship / month)
+# needed productivity in tones  : 170 (ship / month)
 # size                          : 3x2 = 6
 # average productivity per tile : 14
 

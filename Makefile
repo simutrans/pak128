@@ -118,13 +118,13 @@ copy:
 $(DIRS64):
 	@echo "===> PAK64 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) verbose PAK $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) PAK $(PAKDIR)/ $@/ > /dev/null
 
 $(DIRS128):
 	@echo "===> PAK128 $@"
 	@mkdir -p $(PAKDIR)
 	@rm -f $@/*.pak
-	@$(MAKEOBJ) quiet PAK128 $@/ $@/ > /dev/null
+	@$(MAKEOBJ) verbose PAK128 $@/ $@/ > /dev/null
 	@$(MAKEOBJ) quiet merge $(PAKDIR)/`echo $@ | sed s_/_._g`.all.pak $@/*.pak > /dev/null
 	@rm -f $@/*.pak
 
@@ -132,7 +132,7 @@ $(DIRS176):
 	@echo "===> PAK176 $@"
 	@mkdir -p $(PAKDIR)
 	@rm -f $@/*.pak
-	@$(MAKEOBJ) quiet PAK176 $@/ $@/ > /dev/null
+	@$(MAKEOBJ) verbose PAK176 $@/ $@/ > /dev/null
 	@$(MAKEOBJ) quiet merge $(PAKDIR)/`echo $@ | sed s_/_._g`.all.pak $@/*.pak > /dev/null
 	@rm -f $@/*.pak
 
@@ -140,7 +140,7 @@ $(DIRS250):
 	@echo "===> PAK250 $@"
 	@mkdir -p $(PAKDIR)
 	@rm -f $@/*.pak
-	@$(MAKEOBJ) quiet PAK250 $@/ $@/ > /dev/null
+	@$(MAKEOBJ) verbose PAK250 $@/ $@/ > /dev/null
 	@$(MAKEOBJ) quiet merge $(PAKDIR)/`echo $@ | sed s_/_._g`.all.pak $@/*.pak > /dev/null
 	@rm -f $@/*.pak
 

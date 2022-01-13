@@ -28,7 +28,7 @@ fields=forestplantation_field
 max_fields=80
 min_fields=10
 production_per_field=2
-probability to spawn=75
+probability_to_spawn=75
 
 BackImage[0][0][0][0][0][0]=forestplantation.0.0
 BackImage[0][0][1][0][0][0]=forestplantation.0.1
