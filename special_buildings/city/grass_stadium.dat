@@ -9,6 +9,7 @@ Chance=40
 Passengers=20
 needs_ground=1
 dims=2,2,2
+climates=desert,tropic,mediterran,temperate,tundra,rocky
 BackImage[0][0][0][0][0][0]=grass_stadium.0.0
 BackImage[0][0][1][0][0][0]=grass_stadium.0.1
 BackImage[0][1][0][0][0][0]=grass_stadium.0.2

@@ -8,6 +8,7 @@ Build_time=4000
 copyright=mEGa
 Location=city
 dims=2,2,1
+climates=mediterran,temperate,rocky
 BackImage[0][0][0][0][0][0]=library_holy_genevieve.0.0
 BackImage[0][0][1][0][0][0]=library_holy_genevieve.0.1
 BackImage[0][1][0][0][0][0]=library_holy_genevieve.0.2

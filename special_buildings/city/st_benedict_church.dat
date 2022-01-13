@@ -8,6 +8,7 @@ Chance=20
 #intro_year=1935
 #retire_year=2100
 Dims=1,1,1
+climates=mediterran,temperate,tundra,rocky
 BackImage[0][0][0][1][0][0]=st_benedict_church.1.0
 BackImage[0][0][0][0][0][0]=st_benedict_church.2.0
 BackImage[0][0][0][1][0][1]=st_benedict_church.1.1

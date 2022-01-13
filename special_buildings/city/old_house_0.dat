@@ -6,4 +6,5 @@ Build_Time=5400
 Chance=27
 Passengers=40
 Dims=1,1
+climates=mediterran,temperate
 BackImage[0][0][0][0][0]=old_house_0.1.0

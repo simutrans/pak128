@@ -6,6 +6,7 @@ Build_Time=7100
 Passengers=22
 Chance=65
 dims=2,2,2
+climates=temperate,rocky
 BackImage[0][0][0][0][0][0]=elementary_school_2.0.0
 BackImage[0][0][1][0][0][0]=elementary_school_2.0.1
 BackImage[0][1][0][0][0][0]=elementary_school_2.0.2

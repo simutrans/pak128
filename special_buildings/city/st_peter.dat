@@ -6,6 +6,7 @@ Build_Time=4200
 Chance=20
 Passengers=90
 Dims=1,1,2
+climates=temperate,tundra,rocky,arctic
 BackImage[0][0][0][0][0][0]=st_peter.2.0
 BackImage[0][0][0][1][0][0]=st_peter.1.0
 BackImage[1][0][0][0][0][0]=st_peter.2.1

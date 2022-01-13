@@ -6,6 +6,7 @@ Build_Time=27000
 Passengers=35
 Chance=40
 Dims=2,2
+climates=desert,tropic,mediterran,temperate,rocky
 BackImage[0][0][0][0][0]=circus_0.0.1
 BackImage[0][1][0][0][0]=circus_0.0.0
 BackImage[0][0][1][0][0]=circus_0.1.1

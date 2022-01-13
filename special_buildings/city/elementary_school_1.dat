@@ -6,6 +6,7 @@ Build_Time=24000
 Passengers=22
 Chance=30
 dims=3,2,2
+climates=mediterran,temperate,rocky
 BackImage[0][0][0][0][0][0]=elementary_school_1.0.0
 BackImage[0][0][1][0][0][0]=elementary_school_1.0.1
 BackImage[0][0][2][0][0][0]=elementary_school_1.0.2

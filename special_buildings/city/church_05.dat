@@ -6,6 +6,7 @@ Build_Time=22000
 Chance=40
 Passengers=20
 dims=2,2,1
+climates=tropic,mediterran,temperate,rocky
 BackImage[0][0][0][0][0][0]=church_05.0.0
 BackImage[0][0][0][1][0][0]=church_05.0.1
 BackImage[0][0][1][0][0][0]=church_05.0.2

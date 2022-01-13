@@ -9,6 +9,7 @@ Chance=40
 intro_year=1925
 retire_year=2160
 Dims=3,3
+climates=desert,mediterran,temperate
 BackImage[0][0][0][0][0]=rmax_courthouse.1.0
 BackImage[0][0][1][0][0]=rmax_courthouse.1.1
 BackImage[0][0][2][0][0]=rmax_courthouse.1.2
