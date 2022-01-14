@@ -1,0 +1,8 @@
+<p>Para la producción de <em>{good2}</em>, necesitarás transportar <em>{good1}</em> desde {f1} hasta {f2}.
+</p>
+<p>
+{tx} Selecciona <em>'{tool2}'</em> en la barra de herramientas y elige la herramiento de vías de tren para construir una via de tren que conecte los dos puntos entre {w3} y {w4}.
+</p>
+<p>
+Conecta la vía aquí: {cbor}.
+</p>

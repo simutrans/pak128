@@ -1,0 +1,6 @@
+<p>
+For the production of wheat <em>{good2}</em>, you need to transport <em>{good1}</em> from {f1} to {f2}.
+</p>
+<p>
+{tx} Select <em>'{tool2}'</em> from the toolbar and choose <em>'tunnel tool'</em> to Build a tunnel at {tn} .
+</p>
