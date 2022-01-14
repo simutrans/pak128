@@ -1,0 +1,507 @@
+Valckenierstraat
+Nieuwe Tuinstraat
+Oude Brug­steeg
+Oudezijds Voorburgwal
+Muntplein
+Westerdoksplein
+Hoogte Kadijk
+Frederiksplein
+Slijkstraat
+Nieuwendijk
+Heintje Hoekssteeg
+Enge Kapel­steeg
+Westeinde
+Gietersstraat
+Mr. Visserplein
+Kreupelsteeg
+Weteringplantsoen
+Manegestraat
+Zeilmakerstraat
+Bickerswerf
+Passeerdersdwarsstraat
+Openhartsteeg
+Gouwenaars­steeg
+Koningsplein
+Lepelstraat
+Dam
+Sint Geertruide­steeg
+Schoorsteenveger­steeg
+Herenstraat
+Februariplein
+Gasthuismolensteeg
+Nieuwe Wagenstraat
+Goudsbloemdwarsstraat
+Nieuwe Looiersdwarsstraat
+Lindengracht
+Beulingstraat
+Oude Turfmarkt
+Korte Wagenstraat
+Korte Lijnbaans­steeg
+Amstel
+Egelantiersdwarsstraat
+Papenbroeks­steeg
+Vinkenstraat
+Snoekjesgracht
+Pancrasstraat
+Boomsteeg
+Turfsteeg
+Heiligeweg
+Lange Niezel
+Leidsegracht
+Mandenmakers­steeg
+Noordermarkt
+Eggerstraat
+Poolstraat
+Tussen Kadijken
+Oudezijds Achterburgwal
+Marnixplantsoen
+Ravenwerf
+Weesperstraat
+Handboog­straat
+Nicolaas Witsenkade
+Prinsengracht
+Kromme Elleboog­straat
+Korte 's-Gravesandestraat
+Berenstraat
+Nieuwe Batavierstraat
+Jan Marsplein
+Nieuwe Herengracht
+Korte Marnixkade
+Falckstraat
+Oude Waal
+Sloterdijkstraat
+Dollebegijnensteeg
+Nieuwe Vaart
+Nieuwe Passeerdersstraat
+Korte Stormsteeg
+Servetsteeg
+Verversstraat
+Keizersstraat
+Silodam
+Oosterdoks­kade
+Funenkade
+Wijde Kapel­steeg
+Vierwindendwarsstraat
+Oude Leliestraat
+Prins Hendrikkade
+Valken­steeg
+Karthuizerdwarsstraat
+Cellebroerssteeg
+Geldersekade
+Montelbaanstraat
+Rokin
+Mol­steeg
+Binnen Oranjestraat
+Beursplein
+Kleine-Gartmanplantsoen
+Noorderkerkstraat
+Korte Koningstraat
+Blokmakerstraat
+Entrepotdok
+Huddestraat
+Prinseneiland
+Zwartlakensteeg
+Nieuwe Hoogstraat
+Achter Oosteinde
+Spuistraat
+Moddermolenstraat
+Windroosplein
+Lastageweg
+Kleine Bickersstraat
+Monnikenstraat
+Akeleienstraat
+Elleboogsteeg
+Jeroenen­steeg
+Dijksgracht
+Kleine Wittenburgerstraat
+Anjeliersdwarsstraat
+Kleersloot
+Compagniestraat
+Brouwersgracht
+Nieuwe Amstelstraat
+Admiraliteitstraat
+Waalsteeg
+Raamdwarsstraat
+Peperstraat
+Rosmarijn­steeg
+Rozenstraat
+Jan Mensplein
+Leidsekade
+Bickersgracht
+Paternostersteeg
+Nieuwe Ridderstraat
+Marnixkade
+Oudezijds Armsteeg
+Korsjespoortsteeg
+Jonge Roelen­straat
+Gebed zonder end
+De Ruijterkade
+Haarlemmerdijk
+Rozendwarsstraat
+Achtergracht
+Boerensteeg
+Wagenstraat
+Palmdwarsstraat
+Ravenstraat
+Reguliersbreestraat
+Anjeliersstraat
+Pieter Pauwstraat
+Koningstraat
+Koestraat
+Hermieten­straat
+Zandhoek
+Sarphatikade
+Zakslootje
+Rumphiusstraat
+Lijndenstraat
+Passeerdersgracht
+Staalkade
+Bijltjespad
+Leliedwarsstraat
+Spinhuissteeg
+Mouthaansteeg
+Kuiperssteeg
+Korte Eilandsgracht
+Korte Kolk­steeg
+Turfdraagsterpad
+Nieuwe Teertuinen
+Nieuwe-Hoofdwerf
+Buiten Bantammerstraat
+Stormsteeg
+Hazenstraat
+Halvemaansteeg
+Rapenburgerplein
+Taanstraat
+Winthontstraat
+Kadijksplein
+Waterlooplein
+Pieter Jacobszstraat
+Stations­plein
+Gulden Handsteeg
+Binnengasthuisstraat
+Raadhuisstraat
+'t Hol
+Korte Niezel
+Kolk­steeg
+Utrechtsedwarsstraat
+Valkenburgerstraat
+Korte Keizersstraat
+Zeeburgerstraat
+Nieuwe Vijzelgracht
+Prinsenhofssteeg
+Tichelstraat
+Kalfsvel­steeg
+Professor Tulpplein
+Voetboog­straat
+Trompetterssteeg
+Damstraat
+Duivensteeg
+Thorbeckeplein
+Houtkopersburgwal
+Breeuwerstraat
+Gordijnensteeg
+Willem Parelstraat
+Prins Hendrik­kade
+Begijnen­steeg
+Nieuwe Spaarpot­straat
+Sint Olofspoort
+Westerdoksdijk
+Korte Leidsedwarsstraat
+Nieuwezijds Armsteeg
+Nieuwe Doelenstraat
+Cruquiusstraat
+Ossenspook­steeg
+'s-Gravenhekje
+Bloemenmarkt
+Paleis­straat
+Stro­markt
+Leidseplein
+Markenplein
+Max Euweplein
+Oostersekade
+Waaigat
+Nieuwe Houttuinen
+Driekoningenstraat
+Hollandse Tuin
+Blankenstraat
+Fortuinstraat
+Nieuwe Prinsengracht
+Zandstraat
+Leidekkerssteeg
+Wijngaardsstraatje
+Onkelboerensteeg
+Wijde Kerksteeg
+Oude Hoogstraat
+Prinsenstraat
+Rembrandtplein
+Baanbrugsteeg
+Tuinstraat
+Krom Boomssloot
+Ramskooi
+Lange Leidsedwarsstraat
+Nautisch Kwartier
+Bethaniënstraat
+Pentagon
+Roetersstraat
+Zeemagazijnkade
+Boomklokstraat
+Krayenhoffstraat
+Nieuwe Grachtje
+Regulierssteeg
+Nes
+Zieseniskade
+Jodenbreestraat
+Bloedstraat
+Zeedijk
+Vierwindenstraat
+Roomolenstraat
+Korte Korsjespoort­steeg
+Zout­steeg
+De Ruijterkadepad
+Oostenburgergracht
+Spinozastraat
+Nieuwe Keizersgracht
+Bloemdwarsstraat
+Waterpoortsteeg
+Nieuwe Westerdokstraat
+Kerkstraat
+Boomstraat
+Oudemanhuispoort
+Bergstraat
+Dwars Spinhuissteeg
+Spiegelgracht
+Muiderstraat
+Zoutkeetsplein
+Vijzelgracht
+Karthuizersplantsoen
+Walenpleintje
+Hekelveld
+Huidenstraat
+Schapensteeg
+Utrechtsestraat
+Kalverstraat
+Bootstraat
+Looiersdwarsstraat
+Lepelkruisstraat
+Goudsbloemstraat
+Droogbak
+Bloemgracht
+Nieuwe Egelantiersstraat
+Rapenburg
+Korte Dijkstraat
+Duifjes­steeg
+Keizerrijk
+Westermarkt
+Oude Doelenstraat
+Brandewijnsteeg
+Weteringdwarsstraat
+Rozenboom­straat
+Czaar Peterstraat
+Laurierdwarsstraat
+Singel
+Wijde Heisteeg
+Nieuwmarkt
+Sint Jorisstraat
+Nieuwe Willemstraat
+Voormalige Stadstimmertuin
+Violettenstraat
+Buiten Kadijken
+Olifantswerf
+Raamgracht
+Klooster
+Zwarte Hand­steeg
+Kalfsvelsteeg
+Herengracht
+Binnenkant
+Lijnbaans­steeg
+Damrak
+Egelantiersstraat
+Kalkmarkt
+Korte Zoutkeetsgracht
+Hoogkamersgang
+Conradstraat
+Oosterdokskade
+Sint Antoniesbreestraat
+Herenmarkt
+Karnemelk­straat
+Balk in 't Oogsteeg
+Onze Lieve Vrouwe­steeg
+Keerpunt
+VOC-kade
+Driehoekstraat
+Binnenkadijk
+Haringpakkers­steeg
+Oudeschans
+Sint Barberenstraat
+Keerwal
+Smidssteeg
+Zwanenburgwal
+Spooksteeg
+Korte Prinsengracht
+Langestraat
+Wittenburgerkade
+Minnemoerstraat
+Grote Wittenburgerstraat
+Leliegracht
+Korte Spinhuissteeg
+Nieuwe Leliestraat
+Lauriergracht
+Gaper­steeg
+Binnen Bantammerstraat
+Oudekennissteeg
+Sint Thomassteeg
+Paardenstraat
+Sint Jansstraat
+Schiemanstraat
+Bokkinghangen
+Vredenburgersteeg
+Touwbaan
+Spui
+Oude Spiegelstraat
+Spaarpot­steeg
+Nadorst­steeg
+Zuiderkerkhof
+Sint Agnietenstraat
+Lange Keizersdwarsstraat
+Engelse steeg
+Buiten Oranjestraat
+Konijnenstraat
+Keizersgracht
+Water­steeg
+Damraksteeg
+Heisteeg
+Koerierstersplein
+Mosterdpot­straat
+Leliëndaalstraat
+'s-Gravelandseveer
+Leeuwenwerf
+Stoofsteeg
+Blauwburgwal
+Foeliestraat
+Han Lammersbrug
+Sint Pietershalsteeg
+Schippersgracht
+Hirsch Passage
+Uilenburgerwerf
+Kleine Houtstraat
+Matrozenhof
+Kloveniersburgwal
+Den Texstraat
+Nieuwe Uilenburgerstraat
+Kromme Waal
+Grimburgwal
+Fokke Simonszstraat
+Steenhouwerssteeg
+Warmoesstraat
+Funenpark
+Nieuwe Achtergracht
+Buiten Dommersstraat
+Taksteeg
+Galgenstraat
+Nieuwebrugsteeg
+Wijde Lombardsteeg
+Sarphatistraat
+Haarlemmer Houttuinen
+Sint Annenstraat
+Amstelstraat
+Marnixstraat
+Geelvincksteeg
+Recht Boomssloot
+Anne Frankstraat
+Nieuwe Kerkstraat
+Begijnhof
+Teerketel­straat
+Westerkade
+Binnen Wieringerstraat
+Noorderdwarsstraat
+Reguliersdwarsstraat
+Groenburgwal
+Touwslagerstraat
+Nieuwe Spiegelstraat
+Lindendwarsstraat
+Marnixdwarsstraat
+Blindeman­steeg
+Molensteeg
+Oosteinde
+Gedempte Begijnen­sloot
+Groenmarktkade
+Binnen Vissersstraat
+Dirk van Hasselts­steeg
+Oude Looiersstraat
+Ketelmakerstraat
+Hartenstraat
+Schoutensteeg
+Blauwlakensteeg
+Molenpad
+Elandsstraat
+Wijdesteeg
+Pijlsteeg
+Slootstraat
+Kogge­straat
+Dijkstraat
+Oudezijds Kolk
+Raamsteeg
+Oude Braak
+Weteringlaan
+Vluchthavenbrug
+Bakkersstraat
+Isaac Titsinghkade
+Tuindwarsstraat
+Nieuwe Weteringstraat
+Reestraat
+Geschutswerf
+Boulevardpad
+Buiten Brouwersstraat
+Huidekoperstraat
+Smak­steeg
+Jacob Bontiusplaats
+Vliegendesteeg
+Roskam­steeg
+Sint Luciën­steeg
+Nieuwezijds Kolk
+Runstraat
+Mozes en Aäron­straat
+Korte Reguliersdwarsstraat
+Sint Jacobs­straat
+Van Reedstraat
+Nieuwe Jonkerstraat
+Graven­straat
+Enge Kerksteeg
+Jacob Oliepad
+Jodenhoutuinen
+Onbekendegracht
+Buiten Vissersstraat
+Sint Pieterspoort
+Willemsstraat 
+Papenbrugsteeg
+Coffijboomstraat
+Lijnbaansgracht
+Nieuwe Nieuwstraat
+Konings­plein
+Madelievenstraat
+Nieuwe Foeliestraat
+Sint Nicolaas­straat
+Binnen Dommersstraat
+Olieslager­steeg
+Gooijersteeg
+Hasselaers­steeg
+Leeghwaterstraat
+Nieuwe Gietersstraat
+Zoutkeetsgracht
+Barndesteeg
+Looiersgracht
+Boomdwarsstraat
+Lange Brug­steeg
+Beurs­passage
+Lange Eilandsgracht
+Oudekerksplein
+Vendelstraat
+Parelstraat
+Enge Lombardsteeg
+Wolvenstraat
+Damrak oneven zijde
+Buiten Wieringerstraat
+Kromme Palmstraat
+Laagte Kadijk
+Nieuwezijds Voorburgwal
+Martelaars­gracht
