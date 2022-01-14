@@ -5,4 +5,5 @@ type=ind
 level=13
 intro_year=1892
 retire_year=1948
+climates=mediterran,temperate,tundra,rocky
 backimage[0][0][0][0][0]=ind_00_13.1.0

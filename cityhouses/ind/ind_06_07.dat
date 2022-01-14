@@ -5,4 +5,5 @@ type=ind
 level=7
 intro_year=1949
 retire_year=1999
+climates=desert,tropic,mediterran,temperate,tundra,rocky
 backimage[0][0][0][0][0]=ind_06_07.1.0

@@ -5,4 +5,5 @@ type=ind
 level=1
 intro_year=1999
 retire_year=2999
+climates=tropic,mediterran,temperate,tundra
 backimage[0][0][0][0][0]=ind_11_01.1.0

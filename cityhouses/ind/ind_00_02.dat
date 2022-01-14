@@ -5,4 +5,5 @@ type=ind
 level=2
 intro_year=1890
 retire_year=1935
+climates=mediterran,temperate
 backimage[0][0][0][0][0]=ind_00_02.1.0

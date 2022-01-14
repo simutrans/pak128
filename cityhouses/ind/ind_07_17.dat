@@ -6,4 +6,5 @@ level=17
 intro_year=1990
 retire_year=2060
 chance=100
+climates=tropic,mediterran,temperate,tundra,rocky
 backimage[0][0][0][0][0]=ind_07_17.1.0
