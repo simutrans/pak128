@@ -7,4 +7,5 @@ intro_year=1492
 retire_year=2060
 chance=100
 climates=tropic,mediterran,temperate
+clusters=1
 backimage[0][0][0][0][0]=ind_00_03.1.0

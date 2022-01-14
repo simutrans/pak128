@@ -6,5 +6,6 @@ level=35
 intro_year=1949
 retire_year=2022
 climates=desert,tropic,mediterran,temperate,tundra,rocky
+clusters=3
 backimage[0][0][0][1][0]=ind_06_35.1.0
 backimage[0][0][0][0][0]=ind_06_35.2.0

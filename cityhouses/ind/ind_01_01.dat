@@ -6,4 +6,5 @@ level=1
 intro_year=1897
 retire_year=1939
 climates=mediterran,temperate,tundra,rocky
+clusters=1
 backimage[0][0][0][0][0]=ind_01_01.1.0

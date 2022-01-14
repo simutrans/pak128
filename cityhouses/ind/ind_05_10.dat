@@ -6,4 +6,5 @@ level=10
 intro_year=1940
 retire_year=1990
 climates=tropic,mediterran,temperate,rocky
+clusters=3
 backimage[0][0][0][0][0]=ind_05_10.1.0

@@ -6,4 +6,5 @@ level=18
 intro_year=1997
 retire_year=2999
 climates=tropic,mediterran,temperate,tundra,rocky
+clusters=3
 backimage[0][0][0][0][0]=ind_10_18.1.0

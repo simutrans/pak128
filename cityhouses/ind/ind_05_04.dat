@@ -6,4 +6,5 @@ level=4
 intro_year=1939
 retire_year=1989
 climates=desert,tropic,mediterran,temperate,tundra,rocky
+clusters=2
 backimage[0][0][0][0][0]=ind_05_04.1.0

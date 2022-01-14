@@ -6,5 +6,6 @@ level=53
 intro_year=1951
 retire_year=2047
 climates=desert,tropic,mediterran,temperate,tundra,rocky
+clusters=3
 backimage[0][0][0][1][0]=ind_06_53.1.0
 backimage[0][0][0][0][0]=ind_06_53.2.0

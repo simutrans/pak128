@@ -6,4 +6,5 @@ level=31
 intro_year=1951
 retire_year=2021
 climates=desert,tropic,mediterran,temperate,tundra,rocky
+clusters=4
 backimage[0][0][0][0][0]=ind_06_31.1.0

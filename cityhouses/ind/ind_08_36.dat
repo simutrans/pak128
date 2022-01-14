@@ -7,5 +7,6 @@ intro_year=1989
 retire_year=2999
 chance=100
 climates=desert,tropic,mediterran,temperate,tundra,rocky
+clusters=4
 backimage[0][0][0][1][0]=ind_08_36.1.0
 backimage[0][0][0][0][0]=ind_08_36.2.0

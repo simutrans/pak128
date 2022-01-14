@@ -7,4 +7,5 @@ intro_year=1900
 retire_year=1954
 chance=100
 climates=tropic,mediterran,temperate,tundra
+clusters=6
 backimage[0][0][0][0][0]=ind_01_29.1.0
