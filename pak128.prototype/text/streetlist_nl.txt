@@ -499,7 +499,6 @@
 %1$s Parelstraat %2$s
 %1$s Enge Lombardsteeg %2$s
 %1$s Wolvenstraat %2$s
-%1$s Damrak oneven zijde %2$s
 %1$s Buiten Wieringerstraat %2$s
 %1$s Kromme Palmstraat %2$s
 %1$s Laagte Kadijk %2$s
