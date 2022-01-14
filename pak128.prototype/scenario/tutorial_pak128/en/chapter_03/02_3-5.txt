@@ -1,7 +1,0 @@
-<p>
-For the production of wheat <em>{good2}</em>, you need to transport <em>{good1}</em> from {f1} to {f2}.
-</p>
-<p>
-{tx} Use the up flat slope tool to lift the ground at {slpe2}.
-</p>
-<em>State of the ground:</em><br> {slope_t}<br>
