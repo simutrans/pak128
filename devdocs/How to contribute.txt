@@ -1,0 +1,49 @@
+
+I want to cotnribute!
+
+That is great. There are many way on how you can help to evolve the set, either as an artist or as maintainer.
+
+The main limit is that pak128 is not really playable before 1900, lacking industires, buildings, and vehicles, and has not balanced for that time either.
+
+Below are some sugegstion of what is needed most:
+
+City buildings
+==============
+
+Artists:
+Snow images for very many buildings are needed! These will be accepted whenever ready.
+
+Maintainer:
+IMPORTANT: Please test your modifications by founding cities in various years and grow them using the map editor tools, available as public player. I recommend an empty map and the place a city and grow it in 1870, 1930, and 2000. This is a very exhausting process, because all the parameter below are important.
+
+chance
+Chance can finetune if certain buildings appear too often or are visually too dominant. Or is a graphic is really not fitting to the rest. The default value is 100, maximum is 255. Setting below 10 will make only very few appearances. Also one could consider for climates which are more likely next to snow line (tundra and rocky) to set buildings with this climate but without snow images to a low chance. (And comment it, so when a snow image is added, the chance can go back.)
+
+climates: ("water", "desert", "tropic", "mediterran", "temperate", "tundra", "rocky", "arctic")
+Many buildings lack climates. So adding climates to buildings is needed. But there are pitfalls. If there are not enough buildings of a certain type, cities in some climates (especially artic and desert) may have problems, like a huge street network with very few houses. So use your judgment to assign climates by looking at the style. Rather add too many than too few. If a building has a snow graphic and seems to fit for north of the polar circle, please consider using artic as well.
+Water is a special climate. It means tiles adjacent to a sea. water should be always combined with another climate.
+
+dates:
+Intro and retire dates are also missing. Especially intro dates are important, since the default date in 1900 and thus cities before this date will not work well. Retire dates are not so important. One may rather omit a retire data for a 1600 building and instead give it a low chance. Thus it will also gradually disappear when new buildings become available.
+
+cluster:
+If there are identical houses (like the european art nouveau row of 5 to 7 stories block along the streets), these are prime candidates for a cluster. Please note that there are 32 clusters, and the cluster parameter can only apply once, no matter if industry, commercial or residential building. Therefore, clusters should not be used much, and only for identical style. Industrial houses are automatically clustered next to industrial houses, and residential next to residential and commercial can be close to both. A good candidate for clustering would the the res block houses. So please only adding cluster to identical buildings and maybe add it to a file cluster.txt so one can keep track of what cluster had been used.
+
+Apart from cluster, the same considerations also apply to tourist attractions. The climate water is a prime candiate for light houses ...
+
+
+Factories
+=========
+
+A timeline with earlier factories is needed, to have the game is playable before 1900. Also some chains may not works properly in maps lacking certain climates.
+
+Artists:
+Many graphics are way too new for certain factories. Hence to extend the pak128 further too the past, we would need new factories graphics. Examples very much missed is an early open market (selling flour, meat, fish, beer, and milk). Or a pub, selling Fish, meat and beer, and an earlier brewery. Also an earlier bookstore as alternative to the publisher is needed for a paper and printing chain. Or brainstorm more.
+
+Mainatiner:
+One has to be careful when changing the intro dates to make sure there is a vehicle available. (Like milk starts 1870). One may consider some of the tools here to extract the data to Excel to have a better idea what options are there, and how the chains connect.
+
+Earlier factories also shoudl have smaller production and storages, or it will become impossible to satisfy demand.
+
+And then there are new location parameters, (old were "land" "water" "city")  namely "river" "shore" "forest". River is a prime candidate for thermal power stations or paper mill (which need much water), "forest" for the wood camp and probably a saw mill or an early kiln (not there though). "shore" is difficult to use if an industry is larger than 2x1, since all tiles must be shore tiles.
+

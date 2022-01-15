@@ -9,9 +9,9 @@ Currently these build systems are available:
 * makefile
 * Windows batch file (not tested)
 
-The first wants makeobj on path, the other two next to script file. Other requirements are, obviously, the backends: Python for pakmak, GNU make for makefile, and Windows for the batch file.
+A makeobj executable must be on path or next to script file. A make program is needed for the makefile, and Windows for the batch file. To create a revision, it is assumed that git is installed. (Not supported for windows.)
 
-Result of compilation should be a directory "simutrans/pak128", ready to be used.
+Result of compilation should be a directory "simutrans/pak128", and will be also zipped.
 
 
 Documentation
