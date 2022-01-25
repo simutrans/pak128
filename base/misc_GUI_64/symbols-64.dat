@@ -156,6 +156,38 @@ name=pausesym
 copyright=none
 Image[0]=> ls-symbols.3.7
 --------------------
+Obj=symbol
+name=station_type
+# used in line display only currently
+# the number is the stationtype (emtpy images must be defined as "-"
+# loadingbay=0, railstation = 1, dock = 2, busstop = 3, airstop = 4, monorailstop = 5, tramstop = 6, maglevstop=7, narrowgaugestop=8
+# maximum size please 11x11
+Image[0]=-
+Image[1]=-
+Image[2]=> ls-symbols.4.2
+Image[3]=-
+Image[4]=> ls-symbols.4.4
+Image[5]=> ls-symbols.4.5
+Image[6]=-
+Image[7]=-
+Image[8]=-
+--
+Obj=symbol
+name=Happy
+copyright=Ranran
+Image[0]=> ls-symbols.4.0
+--------------------
+Obj=symbol
+name=Unhappy
+copyright=Ranran
+Image[0]=> ls-symbols.4.1
+--------------------
+Obj=symbol
+name=NoRoute
+copyright=Ranran
+Image[0]=> ls-symbols.4.3
+--------------------
+
 #
 #
 #==============================================================================#
