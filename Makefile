@@ -148,7 +148,8 @@ $(OUTSIDE):
 	@echo "===> Grounds calculations"
 	@echo "===> OUTSIDE with REVISION and grounds"
 	@mkdir -p $(PAKDIR)
-	@printf "Obj=ground\nName=Outside\ncopyright=$(PAKID) git r%s\nImage[0][0]=tile.1.1\n-" `git rev-list --count --first-parent HEAD`>$@/outside.dat
+	@echo "Id string: \"$(PAKID) git r`git rev-list --count --first-parent HEAD` hash `git rev-parse --short HEAD`"
+	@printf "Obj=ground\nName=Outside\ncopyright=$(PAKID) git r%s hash %s\nImage[0][0]=tile.1.1\n-" `git rev-list --count --first-parent HEAD` `git rev-parse --short HEAD` > $@/outside.dat
 	$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
 	@rm $@/outside.dat
 
