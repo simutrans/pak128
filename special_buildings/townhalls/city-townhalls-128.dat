@@ -22,6 +22,7 @@ Passengers=25
 copyright=Peter J. Dobrovka
 NoConstruction=1
 Dims=2,2
+needs_ground=1
 climates=tropic, mediterran, temperate, tundra, rocky
 animation_time=150
 BackImage[0][0][0][0][0][0]=city-townhall-1-128.0.1
