@@ -5,6 +5,7 @@ Type=cur
 Passengers=20
 Dims=2,2
 climates=temperate
+chance=0
 BackImage[0][0][0][0][0]=ruin_0.1.1
 BackImage[0][0][0][1][0]=ruin_0.0.1
 BackImage[0][1][0][0][0]=ruin_0.1.0

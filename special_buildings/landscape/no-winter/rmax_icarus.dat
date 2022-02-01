@@ -5,6 +5,7 @@ Type=cur
 Passengers=7
 intro_year=1957
 Dims=3,3
+chance=0
 climates=mediterran,temperate
 BackImage[0][0][0][0][0]=rmax_icarus.1.0
 BackImage[0][0][1][0][0]=rmax_icarus.1.1

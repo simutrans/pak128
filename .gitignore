@@ -9,3 +9,5 @@ simupak128.zip
 *.diff
 *.patch
 makeobj.exe
+makeobj
+
