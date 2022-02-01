@@ -6,7 +6,7 @@ name=SAC-Boeing_747-8F_Cooled_128_set
 waytype=air
 engine_type=diesel 
 freight=fish
-freight_catg=4
+
 copyright=Zeno
 payload=235
 speed=908

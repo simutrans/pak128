@@ -141,6 +141,14 @@ backimage[5][0][0][0][0][0]=subway_station_0.0.3
 backimage[6][0][0][0][0][0]=subway_station_0.0.6
 backimage[7][0][0][0][0][0]=subway_station_0.0.7
 
+frontimage[0][0][0][0][0][0]=-
+frontimage[1][0][0][0][0][0]=-
+frontimage[2][0][0][0][0][0]=-
+frontimage[3][0][0][0][0][0]=-
+frontimage[4][0][0][0][0][0]=-
+frontimage[5][0][0][0][0][0]=-
+frontimage[6][0][0][0][0][0]=-
+frontimage[7][0][0][0][0][0]=-
 frontimage[8][0][0][0][0][0]=subway_station_0.1.0
 frontimage[9][0][0][0][0][0]=subway_station_0.1.1
 frontimage[10][0][0][0][0][0]=subway_station_0.1.4
@@ -180,6 +188,14 @@ backimage[5][0][0][0][0][0]=subway_station_1.0.3
 backimage[6][0][0][0][0][0]=subway_station_1.0.6
 backimage[7][0][0][0][0][0]=subway_station_1.0.7
 
+frontimage[0][0][0][0][0][0]=-
+frontimage[1][0][0][0][0][0]=-
+frontimage[2][0][0][0][0][0]=-
+frontimage[3][0][0][0][0][0]=-
+frontimage[4][0][0][0][0][0]=-
+frontimage[5][0][0][0][0][0]=-
+frontimage[6][0][0][0][0][0]=-
+frontimage[7][0][0][0][0][0]=-
 frontimage[8][0][0][0][0][0]=subway_station_1.1.0
 frontimage[9][0][0][0][0][0]=subway_station_1.1.1
 frontimage[10][0][0][0][0][0]=subway_station_1.1.4
@@ -201,7 +217,7 @@ copyright=mEGa, Garro
 NoInfo=1
 enables_pax=1
 level=4
-Dims=1,1,8
+Dims=1,1,16
 allow_underground=2
 
 
@@ -217,6 +233,14 @@ backimage[5][0][0][0][0][0]=subway_station_2.0.3
 backimage[6][0][0][0][0][0]=subway_station_2.0.6
 backimage[7][0][0][0][0][0]=subway_station_2.0.7
 
+frontimage[0][0][0][0][0][0]=-
+frontimage[1][0][0][0][0][0]=-
+frontimage[2][0][0][0][0][0]=-
+frontimage[3][0][0][0][0][0]=-
+frontimage[4][0][0][0][0][0]=-
+frontimage[5][0][0][0][0][0]=-
+frontimage[6][0][0][0][0][0]=-
+frontimage[7][0][0][0][0][0]=-
 frontimage[8][0][0][0][0][0]=subway_station_2.1.0
 frontimage[9][0][0][0][0][0]=subway_station_2.1.1
 frontimage[10][0][0][0][0][0]=subway_station_2.1.4

@@ -6,7 +6,7 @@ name=SAC-Airbus_A300-600C_128_set
 waytype=air
 engine_type=diesel 
 freight=fish
-freight_catg=4
+
 copyright=Zeno
 payload=110
 speed=913

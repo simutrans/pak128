@@ -24,9 +24,6 @@ intro_month=1
 constraint[next][0]=none
 constraint[prev][0]=none
 
-len=7
-# wtf ???
-
 smoke=Diesel
 
 emptyimage[w]=big_erztruck.1.0

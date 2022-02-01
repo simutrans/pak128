@@ -6,7 +6,7 @@ name=SAC-Ilyushin_IL-76_Candid_128_set
 waytype=air
 engine_type=diesel 
 freight=canned_food
-freight_catg=1
+
 copyright=Zeno
 payload=50
 speed=850

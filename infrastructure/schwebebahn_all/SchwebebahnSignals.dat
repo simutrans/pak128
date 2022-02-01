@@ -92,7 +92,6 @@ copyright=yoshi&gauthier
 Name=long_signal_monorail
 waytype=monorail_track
 cost=4000
-is_signal=1
 is_longblocksignal=1
 Image[0]=s_shingou.6.0
 Image[1]=s_shingou.6.1

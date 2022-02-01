@@ -5,7 +5,6 @@ cost=1040000
 payload=100
 speed=45
 weight=7
-good=Passagiere
 runningcost=55
 intro_year=1960
 intro_month=1

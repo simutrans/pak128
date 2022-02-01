@@ -6,7 +6,7 @@ Passengers=20
 Dims=1,1
 animation_time=100
 climates=water,temperate,arctic
-location=land
+
 needs_ground=1
 BackImage[0][0][0][0][0]=windmill.1.0
 BackImage[0][0][0][0][1]=windmill.1.1

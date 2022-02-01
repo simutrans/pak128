@@ -6,7 +6,7 @@ name=SAC-Lockheed_C-130J_Super_Hercules_(cooled)_128_set
 waytype=air
 engine_type=diesel 
 freight=fish
-freight_catg=4
+
 copyright=Zeno
 payload=100
 speed=750

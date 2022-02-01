@@ -5,7 +5,7 @@ cost=1038000
 payload=99
 speed=65
 weight=15
-good=Passagiere
+
 length=4
 runningcost=44
 intro_year=2010

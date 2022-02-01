@@ -6,7 +6,7 @@ name=SAC-McDonnell_Douglas_MD-11F_(goods)_128_set
 waytype=air
 engine_type=diesel
 freight=canned_food
-freight_catg=1
+
 copyright=Zeno
 payload=245
 speed=930

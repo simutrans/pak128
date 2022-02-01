@@ -6,7 +6,7 @@ name=SAC-Airbus_A300-600ST_128_set
 waytype=air
 engine_type=diesel 
 freight=canned_food
-freight_catg=1
+
 copyright=Zeno
 payload=350
 speed=780

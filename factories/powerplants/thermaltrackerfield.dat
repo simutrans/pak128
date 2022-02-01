@@ -2,4 +2,3 @@ Obj=field
 name=ThermalTrackerField
 copyright=vilvoh
 Image[0]=thermaltrackerfield.1.0
-needs_ground=1

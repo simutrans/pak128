@@ -6,7 +6,7 @@ name=SAC-Boeing_747-200C_128_set
 waytype=air
 engine_type=diesel 
 freight=fish
-freight_catg=4
+
 copyright=Zeno
 payload=200
 speed=893

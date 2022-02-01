@@ -6,7 +6,7 @@ name=SAC-Lockheed_C-130F_Hercules_128_set
 waytype=air
 engine_type=diesel 
 freight=canned_food
-freight_catg=1
+
 copyright=Zeno
 payload=30
 speed=450
