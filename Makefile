@@ -27,6 +27,7 @@ DIRS128 :=
 DIRS128 += base/misc_GUI
 DIRS128 += base/pedestrians
 DIRS128 += base/smokes
+DIRS128 += citycars
 DIRS128 += cityhouses/com
 DIRS128 += cityhouses/com/no-winter
 DIRS128 += cityhouses/ind
