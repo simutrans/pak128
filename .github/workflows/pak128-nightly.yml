@@ -30,10 +30,10 @@ jobs:
 
     - name: make makeobj
       run: |
-          cd simutrans/trunk/makeobj
+          cd simutrans/trunk/src/makeobj
           make
-          mv makeobj ../../..
-          cd ../../..
+          mv makeobj ../../../..
+          cd ../../../..
           rm -rf simutrans
 
     - name: compile pakset
