@@ -207,10 +207,10 @@ copyright=Rmax500
 NoConstruction=1
 Dims=2,2
 climates=tropic, desert, mediterran
-BackImage[0][0][0][0][0]=city-townhall-3-128.3.1
-BackImage[0][1][0][0][0]=city-townhall-3-128.3.0
-BackImage[0][0][1][0][0]=city-townhall-3-128.3.3
-BackImage[0][1][1][0][0]=city-townhall-3-128.3.2
+BackImage[0][0][0][0][0]=city-townhall-2-128.3.1
+BackImage[0][1][0][0][0]=city-townhall-2-128.3.0
+BackImage[0][0][1][0][0]=city-townhall-2-128.3.3
+BackImage[0][1][1][0][0]=city-townhall-2-128.3.2
 --
 Obj=building
 Name=04_CITY_1
