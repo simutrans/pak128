@@ -4,6 +4,7 @@ copyright=Fabio Gonella
 type=res
 level=55
 dims=1,1,8
+clusters=1
 intro_year=1950
 retire_year=2999
 climates=mediterran,desert,tropic
