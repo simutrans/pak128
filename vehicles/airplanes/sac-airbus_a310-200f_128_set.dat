@@ -6,7 +6,7 @@ name=SAC-Airbus_A310-200F_128_set
 waytype=air
 engine_type=diesel 
 freight=canned_food
-freight_catg=1
+
 copyright=Zeno
 payload=150
 speed=892

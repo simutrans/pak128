@@ -6,7 +6,7 @@ name=SAC-Boeing_757-200f_goods_128_set
 waytype=air
 engine_type=diesel
 freight=canned_food
-freight_catg=1
+
 copyright=Zeno
 payload=140
 speed=850

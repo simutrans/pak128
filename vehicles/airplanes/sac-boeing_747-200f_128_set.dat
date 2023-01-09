@@ -6,7 +6,7 @@ name=SAC-Boeing_747-200F_128_set
 waytype=air
 engine_type=diesel 
 freight=canned_food
-freight_catg=1
+
 copyright=Zeno
 payload=270
 speed=893

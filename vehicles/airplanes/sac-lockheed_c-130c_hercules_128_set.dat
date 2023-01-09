@@ -6,7 +6,7 @@ name=SAC-Lockheed_C-130C_Hercules_128_set
 waytype=air
 engine_type=diesel 
 freight=fish
-freight_catg=4
+
 copyright=Zeno
 payload=25
 speed=460

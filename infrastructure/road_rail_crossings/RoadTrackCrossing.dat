@@ -9,6 +9,8 @@ waytype[0]=road
 speed[1]=160
 speed[0]=90
 
+intro_year=1910
+
 openimage[ew][0]=crossing.0.3
 openimage[ns][0]=crossing.0.2
 
@@ -32,6 +34,8 @@ waytype[1]=track
 waytype[0]=road
 speed[1]=80
 speed[0]=40
+
+intro_year=1810
 
 openimage[ew][0]=simple-crossing.0.0
 openimage[ns][0]=simple-crossing.0.1

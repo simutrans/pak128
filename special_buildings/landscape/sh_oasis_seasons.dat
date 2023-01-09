@@ -4,7 +4,6 @@ copyright=Shunter & Napik
 needs_ground=1
 animation_time=80
 climates=desert
-seasons=2
 type=cur
 passengers=25
 chance=100

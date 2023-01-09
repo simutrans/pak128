@@ -287,7 +287,7 @@ random_wildlife_probability = 1000
 
 # Animate the water each interval (if images are available);
 # costs some time for the additional redraw (~1-3%).
-water_animation_ms = 250
+water_animation_ms = 100
 
 # How many citycars will be generated.
 citycar_level = 5

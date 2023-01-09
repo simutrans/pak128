@@ -11,7 +11,8 @@ gear=80
 weight=39
 cost=7789000
 runningcost=130
-intro_year=1901
+# was 1901
+intro_year=1870
 intro_month=1
 retire_year=1935
 retire_month=1

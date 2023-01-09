@@ -10,7 +10,7 @@
 MAKEOBJ ?= ./makeobj
 LIGHTMAP ?= ./lightmap
 
-PAKID ?= pak128 2.8.2 nightly for 123.0.1
+PAKID ?= pak128 2.8.2 for 123.0.1
 
 DESTDIR  ?= simutrans
 PAKDIR   ?= $(DESTDIR)/pak128
@@ -27,8 +27,11 @@ DIRS128 :=
 DIRS128 += base/misc_GUI
 DIRS128 += base/pedestrians
 DIRS128 += base/smokes
+DIRS128 += citycars
 DIRS128 += cityhouses/com
+DIRS128 += cityhouses/com/no-winter
 DIRS128 += cityhouses/ind
+DIRS128 += cityhouses/ind/no-winter
 DIRS128 += cityhouses/res
 DIRS128 += cityhouses/res/blocks
 DIRS128 += factories
@@ -63,7 +66,9 @@ DIRS128 += landscape/grounds
 DIRS128 += landscape/rivers
 DIRS128 += landscape/trees
 DIRS128 += special_buildings/city
+DIRS128 += special_buildings/city/no-winter
 DIRS128 += special_buildings/landscape
+DIRS128 += special_buildings/landscape/no-winter
 DIRS128 += special_buildings/monuments
 DIRS128 += special_buildings/townhalls
 DIRS128 += vehicles/monorail
@@ -148,7 +153,8 @@ $(OUTSIDE):
 	@echo "===> Grounds calculations"
 	@echo "===> OUTSIDE with REVISION and grounds"
 	@mkdir -p $(PAKDIR)
-	@printf "Obj=ground\nName=Outside\ncopyright=$(PAKID) git r%s\nImage[0][0]=tile.1.1\n-" `git rev-list --count --first-parent HEAD`>$@/outside.dat
+	@echo "Id string: \"$(PAKID) git r`git rev-list --count --first-parent HEAD` hash `git rev-parse --short HEAD`"
+	@printf "Obj=ground\nName=Outside\ncopyright=$(PAKID) git r%s hash %s\nImage[0][0]=tile.1.1\n-" `git rev-list --count --first-parent HEAD` `git rev-parse --short HEAD` > $@/outside.dat
 	$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
 	@rm $@/outside.dat
 

@@ -8,3 +8,7 @@ simupak128.zip
 *.rej
 *.diff
 *.patch
+makeobj.exe
+makeobj
+
+base/special/outside.dat

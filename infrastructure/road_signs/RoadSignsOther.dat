@@ -89,10 +89,10 @@ cost=1500
 intro_year = 1887
 #[NSWE]
 #players reported that it was inverted
-image[0]=player-roadsigns-128.4.0
-Image[1]=player-roadsigns-128.4.1
-Image[2]=player-roadsigns-128.4.2
-Image[3]=player-roadsigns-128.4.3
+image[N][0]=player-roadsigns-128.4.0
+Image[S][0]=player-roadsigns-128.4.1
+Image[E][0]=player-roadsigns-128.4.2
+Image[W][0]=player-roadsigns-128.4.3
 Icon=> player-roadsigns-128.4.4
 Cursor=player-roadsigns-128.4.5
 
