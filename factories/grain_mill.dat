@@ -34,7 +34,7 @@ InputFactor[0]=116
 OutputGood[0]=flour
 OutputCapacity[0]=600
 
-intro_yea=1910
+intro_year=1910
 
 MapColor=175
 Dims=1,3

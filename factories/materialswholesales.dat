@@ -31,7 +31,6 @@ InputSupplier[2]=0
 
 MapColor=7
 
-Passengers=100
 intro_year=1950
 chance=100
 dims=3,2,4

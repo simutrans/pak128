@@ -2,4 +2,4 @@ Obj=field
 name=SolarTrackerField
 copyright=vilvoh
 Image[0]=solartrackerfield.1.0
-needs_ground=1
+
