@@ -20,7 +20,6 @@ InputSupplier[0]=0
 
 MapColor=140
 
-Passengers=25
 intro_year=1978
 chance=100
 dims=1,2,4

@@ -21,7 +21,7 @@ Passenger_boost=500
 #need entry for stations
 enables_pax=1
 enables_post=1
-enables_ware=1
+#enables_ware=1
 
 OutputGood[0]=Oel
 OutputCapacity[0]=1500

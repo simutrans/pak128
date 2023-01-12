@@ -40,7 +40,6 @@ OutputCapacity[0]=100
 MapColor=151
 dims=5,5,4
 needs_ground=1
-has_snow=1
 
 BackImage[0][0][0][0][0][0]=electronics_factory_new.0.0
 BackImage[0][0][0][1][0][0]=electronics_factory_new.0.1
