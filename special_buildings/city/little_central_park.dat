@@ -1,11 +1,10 @@
 Obj=building
-Name=Little_Central_Park
-Copyright=mEGa
-Type=cur
-Build_time=6000
-Passengers=8
+name=Little_Central_Park
+copyright=mEGa
+type=cur
+build_time=6000
+passengers=8
 intro_year=1900
-Location=city
 chance=30
 dims=2,6,2
 climates=mediterran,temperate,tundra,rocky
