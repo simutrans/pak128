@@ -7,9 +7,8 @@ Passengers=20
 intro_year=1955
 retire_year=1965
 chance=3
-Build_time=18000
+build_time=18000
 
-Location=city
 climates=desert,mediterran,temperate,tundra
 dims=3,3,4
 
