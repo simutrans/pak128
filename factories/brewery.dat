@@ -19,6 +19,11 @@ Mail_boost=200
 Passenger_demand=60
 Passenger_boost=500
 
+expand_probability=100
+expand_times=9
+expand_minimum=500
+expand_range=120
+
 # total grain input 280
 InputGood[0]=grain
 InputFactor[0]=50

@@ -31,6 +31,7 @@ needs_ground=1
 max_fields=80
 min_fields=10
 production_per_field=1
+probability_to_spawn=75
 fields=cotton_field
 
 intro_year=1600

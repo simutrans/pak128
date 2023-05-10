@@ -10,6 +10,11 @@ Productivity=150
 Range=25
 electricity_amount=40
 
+expand_probability=100
+expand_times=9
+expand_minimum=150
+expand_range=25
+
 MapColor=134
 
 intro_year=1990

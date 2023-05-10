@@ -16,6 +16,11 @@ Mail_boost=200
 Passenger_demand=40
 Passenger_boost=500
 
+expand_probability=100
+expand_times=9
+expand_minimum=200
+expand_range=50
+
 # plastic consumable input 600
 InputGood[0]=Plastik
 InputCapacity[0]=2000
