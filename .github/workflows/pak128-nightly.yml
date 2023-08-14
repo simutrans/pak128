@@ -42,11 +42,9 @@ jobs:
         mv simupak128.zip simupak128-nightly.zip
 
     - name: Update Serverset of Nightly Release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./simupak128-nightly.zip
-        asset_name: simupak128-nightly.zip
-        tag: Nightly
-        overwrite: true
+      run: |
+        git push origin --delete Nightly || true
+        gh release create Nightly simupak128-nightly.zip --generate-notes --title "Nightly $(date -u +%Y-%m-%d)"
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
  
