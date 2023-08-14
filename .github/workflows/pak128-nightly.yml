@@ -44,7 +44,7 @@ jobs:
     - name: Update Serverset of Nightly Release
       run: |
         git push origin --delete Nightly || true
-        gh release create Nightly simupak128-nightly.zip --generate-notes --title "Nightly $(date -u +%Y-%m-%d)"
+        gh release create Nightly simupak128-nightly.zip --generate-notes --title "Nightly $(date -u +%Y-%m-%d)" --target "master"
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
  
