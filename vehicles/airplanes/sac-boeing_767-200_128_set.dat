@@ -1,9 +1,7 @@
-#Boeing 777-200
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Boeing_767-200_128_set
+obj=vehicle
 waytype=air
-engine_type=diesel 
+engine_type=diesel
 freight=Passagiere
 copyright=Zeno
 payload=255
@@ -12,9 +10,11 @@ power=15400
 weight=63
 gear=80
 cost=71266580
-runningcost=728
+runningcost=1100
 intro_year=1982
 intro_month=1
+retire_year=2015
+retire_month=2
 sound=5
 smoke=-1
 Constraint[Prev][0]=none

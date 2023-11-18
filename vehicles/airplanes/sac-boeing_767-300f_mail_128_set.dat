@@ -1,9 +1,7 @@
-#Boeing 777-200F
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Boeing_767-300F_mail_128_set
+obj=vehicle
 waytype=air
-engine_type=diesel 
+engine_type=diesel
 freight=Post
 copyright=Zeno
 payload=280
@@ -12,7 +10,7 @@ power=18400
 weight=86
 gear=80
 cost=56883820
-runningcost=382
+runningcost=915
 intro_year=1995
 intro_month=1
 sound=5

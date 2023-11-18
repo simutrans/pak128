@@ -1,8 +1,5 @@
-#Airbus A310-200    
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Airbus_A310-200_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=15000
 weight=80
 gear=80
 cost=88572660
-runningcost=706
+runningcost=1108
 intro_year=1982
 intro_month=4
 retire_year=1997

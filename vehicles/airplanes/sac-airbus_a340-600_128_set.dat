@@ -1,8 +1,5 @@
-#Airbus A340-600    
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Airbus_A340-600_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=35200
 weight=178
 gear=80
 cost=174430000
-runningcost=998
+runningcost=1729
 intro_year=2002
 intro_month=8
 sound=5

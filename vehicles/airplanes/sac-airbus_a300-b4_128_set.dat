@@ -1,8 +1,5 @@
-#Airbus A300-B4
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Airbus_A300-B4_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=13500
 weight=90
 gear=75
 cost=115664600
-runningcost=998
+runningcost=1518
 intro_year=1974
 intro_month=6
 retire_year=2007

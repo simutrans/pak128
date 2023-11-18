@@ -1,8 +1,5 @@
-#Airbus A330-200    
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Airbus_A330-200_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=22000
 weight=120
 gear=80
 cost=119569500
-runningcost=720
+runningcost=1228
 intro_year=1998
 intro_month=4
 sound=5

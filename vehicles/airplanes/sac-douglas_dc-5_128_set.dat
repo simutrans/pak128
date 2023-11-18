@@ -1,8 +1,5 @@
-#Douglas DC-5
-#Passenger intercontinental/continental transport KLM old style livery
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Douglas_DC-5_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=1270
 weight=6
 gear=55
 cost=2415653
-runningcost=74
+runningcost=108
 intro_year=1940
 intro_month=1
 retire_year=1949

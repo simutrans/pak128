@@ -1,8 +1,5 @@
-#Boeing 747-400
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Boeing_747-300_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=42000
 weight=178
 gear=80
 cost=193909700
-runningcost=1429
+runningcost=2285
 intro_year=1983
 intro_month=3
 retire_year=1990

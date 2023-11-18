@@ -1,7 +1,5 @@
-#Boeing 707-320   
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Boeing_707-120_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -12,7 +10,7 @@ power=10500
 weight=56
 gear=70
 cost=122154700
-runningcost=1386
+runningcost=1945
 intro_year=1958
 intro_month=10
 retire_year=1979

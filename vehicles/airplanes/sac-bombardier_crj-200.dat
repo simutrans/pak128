@@ -1,9 +1,7 @@
-# Bombardier CRJ-200
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Bombardier_CRJ-200
+obj=vehicle
 waytype=air
-engine_type=diesel 
+engine_type=diesel
 freight=Passagiere
 copyright=Zeno
 payload=50
@@ -12,7 +10,7 @@ power=2600
 weight=14
 gear=80
 cost=15107490
-runningcost=136
+runningcost=211
 intro_year=1992
 intro_month=1
 sound=5

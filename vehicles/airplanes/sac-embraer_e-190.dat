@@ -1,9 +1,7 @@
-# Embraer E-170
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Embraer_E-190
+obj=vehicle
 waytype=air
-engine_type=diesel 
+engine_type=diesel
 freight=Passagiere
 copyright=Zeno
 payload=110
@@ -12,7 +10,7 @@ power=5400
 weight=28
 gear=80
 cost=30305750
-runningcost=295
+runningcost=450
 intro_year=2004
 intro_month=3
 sound=5

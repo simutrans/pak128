@@ -1,8 +1,5 @@
-#Douglas DC-6
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Douglas_DC-6_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=6800
 weight=25
 gear=65
 cost=18562300
-runningcost=509
+runningcost=700
 intro_year=1947
 intro_month=3
 retire_year=1959

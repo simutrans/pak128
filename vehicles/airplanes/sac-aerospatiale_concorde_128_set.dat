@@ -1,8 +1,5 @@
-# Aérospatiale-BAC Concorde
-# Passenger intercontinental supersonic transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Aerospatiale_Concorde_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=42000
 weight=178
 gear=90
 cost=502392400
-runningcost=1075
+runningcost=1821
 intro_year=1971
 intro_month=9
 retire_year=2003

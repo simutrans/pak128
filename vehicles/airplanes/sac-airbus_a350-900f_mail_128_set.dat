@@ -1,8 +1,5 @@
-#Airbus A330-200    
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Airbus_A350-900f_mail_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Post
@@ -13,7 +10,7 @@ power=27300
 weight=103
 gear=80
 cost=67297260
-runningcost=406
+runningcost=984
 intro_year=2017
 intro_month=1
 sound=5

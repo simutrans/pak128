@@ -1,8 +1,5 @@
-#McDonnell Douglas MD-11F
-#Intercontinental/continental freight transport (postal version)
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Boeing_757-200f_mail_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Post
@@ -13,11 +10,9 @@ power=13400
 weight=49
 gear=80
 cost=33958540
-runningcost=281
+runningcost=638
 intro_year=1987
 intro_month=1
-#retire_year=2999
-#retire_month=12
 sound=5
 smoke=-1
 Constraint[Prev][0]=none

@@ -1,8 +1,5 @@
-#Douglas DC-8-50
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Douglas_DC-8-50_Mail_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Post
@@ -13,7 +10,7 @@ power=10380
 weight=51
 gear=70
 cost=57630000
-runningcost=300
+runningcost=738
 intro_year=1964
 intro_month=9
 retire_year=1989

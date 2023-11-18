@@ -1,9 +1,7 @@
-# Bombardier CRJ-900
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Bombardier_CRJ-900
+obj=vehicle
 waytype=air
-engine_type=diesel 
+engine_type=diesel
 freight=Passagiere
 copyright=Zeno
 payload=86
@@ -12,7 +10,7 @@ power=3850
 weight=22
 gear=80
 cost=24398840
-runningcost=241
+runningcost=365
 intro_year=1999
 intro_month=1
 sound=5

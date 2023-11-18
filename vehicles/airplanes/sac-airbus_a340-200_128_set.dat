@@ -1,8 +1,5 @@
-#Airbus A340-200    
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Airbus_A340-200_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=19900
 weight=129
 gear=80
 cost=129186700
-runningcost=743
+runningcost=1282
 intro_year=1993
 intro_month=3
 sound=5

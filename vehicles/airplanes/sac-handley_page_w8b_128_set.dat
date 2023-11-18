@@ -1,8 +1,5 @@
-#Handley Page W Type (W8B)
-#Passenger liner
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Handley_Page_W8B_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=536
 weight=4
 gear=25
 cost=916987
-runningcost=6
+runningcost=26
 intro_year=1918
 intro_month=12
 retire_year=1934

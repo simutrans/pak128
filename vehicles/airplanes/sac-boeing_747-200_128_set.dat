@@ -1,8 +1,5 @@
-#Boeing 747-200
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Boeing_747-200_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=34000
 weight=174
 gear=80
 cost=243888500
-runningcost=1930
+runningcost=2989
 intro_year=1970
 intro_month=1
 retire_year=1989

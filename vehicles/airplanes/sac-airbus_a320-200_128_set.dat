@@ -1,8 +1,5 @@
-#Airbus A320-200    
-#Passenger continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Airbus_A320-200_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=7900
 weight=43
 gear=80
 cost=45872090
-runningcost=427
+runningcost=663
 intro_year=1988
 intro_month=3
 sound=5

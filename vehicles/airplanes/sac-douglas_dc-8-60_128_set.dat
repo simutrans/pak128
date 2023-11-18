@@ -1,8 +1,5 @@
-#Douglas DC-8-60
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Douglas_DC-8-60_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=11135
 weight=66
 gear=70
 cost=121545200
-runningcost=1558
+runningcost=2165
 intro_year=1967
 intro_month=2
 retire_year=1980

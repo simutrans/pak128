@@ -1,8 +1,5 @@
-#Junkers Ju-52
-#Passenger liner
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Junkers_Ju-52_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=1599
 weight=7
 gear=50
 cost=2110146
-runningcost=31
+runningcost=65
 intro_year=1930
 intro_month=10
 retire_year=1952

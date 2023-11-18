@@ -1,8 +1,5 @@
-#Douglas DC-9-30
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Douglas_DC-9-30_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=4540
 weight=31
 gear=75
 cost=53842580
-runningcost=642
+runningcost=909
 intro_year=1967
 intro_month=2
 retire_year=1984

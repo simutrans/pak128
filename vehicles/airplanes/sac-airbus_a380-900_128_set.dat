@@ -1,8 +1,5 @@
-#Airbus A380-800    
-#Passenger intercontinental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Airbus_A380-900_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=52000
 weight=292
 gear=80
 cost=287045700
-runningcost=1752
+runningcost=2949
 intro_year=2018
 intro_month=1
 sound=5

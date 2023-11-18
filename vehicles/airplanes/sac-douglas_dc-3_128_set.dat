@@ -1,8 +1,5 @@
-#Douglas DC-3
-#Passenger liner
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Douglas_DC-3_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=1790
 weight=9
 gear=55
 cost=3359493
-runningcost=92
+runningcost=143
 intro_year=1935
 intro_month=12
 retire_year=1971

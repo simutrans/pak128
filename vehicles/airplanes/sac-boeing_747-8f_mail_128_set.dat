@@ -1,10 +1,7 @@
-#Boeing 747-200F
-#Postal version - intercontinental/continental post service
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Boeing_747-8F_Mail_128_set
+obj=vehicle
 waytype=air
-engine_type=diesel 
+engine_type=diesel
 freight=Post
 copyright=Zeno
 payload=420
@@ -13,11 +10,9 @@ power=41000
 weight=189
 gear=80
 cost=121957800
-runningcost=526
+runningcost=1411
 intro_year=2012
 intro_month=6
-retire_year=2999
-retire_month=1
 sound=5
 smoke=-1
 Constraint[Prev][0]=none

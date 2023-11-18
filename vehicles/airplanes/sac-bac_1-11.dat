@@ -1,9 +1,7 @@
-# BAC One Eleven 200
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-BAC_1-11
+obj=vehicle
 waytype=air
-engine_type=diesel 
+engine_type=diesel
 freight=Passagiere
 copyright=Zeno
 payload=89
@@ -12,7 +10,7 @@ power=3100
 weight=22
 gear=75
 cost=37357630
-runningcost=461
+runningcost=666
 intro_year=1963
 intro_month=1
 retire_year=1989

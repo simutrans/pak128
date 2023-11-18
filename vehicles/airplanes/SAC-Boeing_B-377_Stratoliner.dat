@@ -1,8 +1,5 @@
-#Boeing B-377 Stratoliner
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Boeing_B-377_Stratoliner
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=10440
 weight=38
 gear=60
 cost=29597820
-runningcost=502
+runningcost=718
 intro_year=1947
 intro_month=7
 retire_year=1958

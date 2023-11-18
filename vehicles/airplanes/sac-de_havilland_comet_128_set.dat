@@ -1,8 +1,5 @@
-#De Havilland Comet 
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-De_Havilland_Comet_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=7200
 weight=34
 gear=70
 cost=63855460
-runningcost=327
+runningcost=580
 intro_year=1952
 intro_month=5
 retire_year=1981

@@ -1,8 +1,5 @@
-#Airbus A340-500    
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Airbus_A340-500_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=32800
 weight=171
 gear=80
 cost=164122200
-runningcost=816
+runningcost=1475
 intro_year=2003
 intro_month=1
 sound=5

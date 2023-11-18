@@ -1,8 +1,5 @@
-#Douglas DC-9-30LWF
-#LWF (Light Weight Freight) intercontinental/continental mail/package freighter transport
-#----------------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Douglas_DC-9-30LWF_Mail_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Post
@@ -13,7 +10,7 @@ power=4750
 weight=23
 gear=75
 cost=23017170
-runningcost=211
+runningcost=457
 intro_year=1969
 intro_month=2
 retire_year=1995

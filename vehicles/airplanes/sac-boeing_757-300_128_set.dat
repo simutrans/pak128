@@ -1,8 +1,5 @@
-#McDonnell Douglas MD-11
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Boeing_757-300_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=13400
 weight=63
 gear=80
 cost=70512870
-runningcost=782
+runningcost=1168
 intro_year=1998
 intro_month=8
 retire_year=2012

@@ -1,8 +1,5 @@
-#Lockheed L-1049G Super Constellation 
-#Passenger intercontinental/continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Lockheed_Constellation_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=9700
 weight=36
 gear=60
 cost=27784230
-runningcost=355
+runningcost=547
 intro_year=1943
 intro_month=1
 retire_year=1967

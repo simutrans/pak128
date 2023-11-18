@@ -1,8 +1,5 @@
-#Fokker F-27 Friendship
-#Passenger liner
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Fokker_F-27_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=3356
 weight=11
 gear=60
 cost=6577991
-runningcost=182
+runningcost=253
 intro_year=1958
 intro_month=11
 retire_year=1987

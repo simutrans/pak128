@@ -1,9 +1,7 @@
-#Boeing 777-300
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Boeing_767-400_128_set
+obj=vehicle
 waytype=air
-engine_type=diesel 
+engine_type=diesel
 freight=Passagiere
 copyright=Zeno
 payload=375
@@ -12,7 +10,7 @@ power=19500
 weight=104
 gear=80
 cost=109832900
-runningcost=977
+runningcost=1524
 intro_year=1997
 intro_month=1
 sound=5

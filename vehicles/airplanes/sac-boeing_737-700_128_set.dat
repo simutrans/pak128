@@ -1,9 +1,7 @@
-#Boeing 737-100
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Boeing_737-700_128_set
+obj=vehicle
 waytype=air
-engine_type=diesel 
+engine_type=diesel
 freight=Passagiere
 copyright=Zeno
 payload=148
@@ -12,7 +10,7 @@ power=8000
 weight=38
 gear=80
 cost=39571880
-runningcost=367
+runningcost=573
 intro_year=1999
 intro_month=12
 sound=5

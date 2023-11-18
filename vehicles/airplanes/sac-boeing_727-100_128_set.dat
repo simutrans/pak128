@@ -1,9 +1,7 @@
-#Boeing 727-100
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Boeing_727-100_128_set
+obj=vehicle
 waytype=air
-engine_type=diesel 
+engine_type=diesel
 freight=Passagiere
 copyright=Zeno
 payload=149
@@ -12,7 +10,7 @@ power=8000
 weight=44
 gear=75
 cost=76034130
-runningcost=827
+runningcost=1202
 intro_year=1964
 intro_month=2
 retire_year=1984

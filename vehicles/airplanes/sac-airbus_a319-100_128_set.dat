@@ -1,8 +1,5 @@
-#Airbus A319-100    
-#Passenger continental transport
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Airbus_A319-100_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=7900
 weight=41
 gear=80
 cost=41313260
-runningcost=324
+runningcost=525
 intro_year=1996
 intro_month=4
 sound=5

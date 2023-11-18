@@ -1,8 +1,5 @@
-#SACRohrbach Rocco
-#Passenger liner (Seaplane)
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Rohrbach_Rocco_128_set
+obj=vehicle
 waytype=air
 engine_type=diesel
 freight=Passagiere
@@ -13,7 +10,7 @@ power=1000
 weight=7
 gear=40
 cost=1748482
-runningcost=6
+runningcost=35
 intro_year=1926
 intro_month=4
 retire_year=1935

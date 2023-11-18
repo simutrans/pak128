@@ -1,10 +1,7 @@
-#Airbus A380-800P
-#Postal version - intercontinental post service
-#-------------------------------------------------------------------------------
-obj=vehicle
 name=SAC-Airbus_A380-800P_128_set
+obj=vehicle
 waytype=air
-engine_type=diesel 
+engine_type=diesel
 freight=Post
 copyright=Zeno
 payload=520
@@ -13,7 +10,7 @@ power=48000
 weight=252
 gear=80
 cost=162206600
-runningcost=630
+runningcost=1758
 intro_year=2008
 intro_month=10
 sound=5
