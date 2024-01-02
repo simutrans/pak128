@@ -28,7 +28,7 @@ class tutorial.chapter_07 extends basic_chapter
 	// Step 2
 	goal_lod2 = 400
 	st2_c = coord(30,30)
-	stop2 = coord(32,31)
+	stop2 = coord(30,31)
 
 	function start_chapter()  //Inicia solo una vez por capitulo
 	{

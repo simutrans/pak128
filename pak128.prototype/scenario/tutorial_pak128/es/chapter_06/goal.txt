@@ -1,4 +1,10 @@
 <p>
+En este capítulo nos dedicamos al transporte aéreo, construiremos un pequeño aeropuerto para transportar pasajeros a una ciudad muy lejana.
+</p>
+<p>
+{scr}
+</p>
+<p>
 {txtst_01}Paso A</em> - El primer Aeropuerto<br>
 {step_01}
 </p>

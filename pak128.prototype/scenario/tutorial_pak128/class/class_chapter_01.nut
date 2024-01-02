@@ -15,7 +15,6 @@ class tutorial.chapter_01 extends basic_chapter
 	comm_script = false
 
 	// Step 1 =====================================================================================
-	c_cty = coord(92,33)
 	c_fac = coord(95,39)
 	c_st  = coord(91,26)
 	tx_cty = "This is a town centre"
@@ -27,34 +26,44 @@ class tutorial.chapter_01 extends basic_chapter
 	c_test = coord3d(0,0,1)
 
 	// Step 3 =====================================================================================
-	c_buil1=coord3d(95,33,0)
-	c_buil2=coord3d(95,30,0)
+	c_buil1 = coord(95,33)
+	c_buil2 = coord(95,30)
 	buil1_name = ""	//auto started
 	buil2_name = ""	//auto started
+	buil2_list = null //auto started
 
 	// Step 4 =====================================================================================
-	postc={ a = coord(92,33), b = coord(93,34) }
+	cit_list = null //auto started
 	city_lim = {a = coord(83,21), b = coord(103,42)}
 	cty1 = {c = coord(92,33), name = ""}
 	
 	function start_chapter()  //Inicia solo una vez por capitulo
 	{
 		cty1.name = get_city_name(cty1.c)
-		local t1 = my_tile(c_buil1)
-		local buil1 = t1.find_object(mo_building)
-		buil1_name = buil1 ? translate(buil1.get_name()):"No existe"
+		local t = my_tile(cty1.c)
+		local buil = t.find_object(mo_building)
+		cit_list = buil ? buil.get_tile_list() : null
 
-		local t2 = my_tile(c_buil2)
-		local buil2 = t2.find_object(mo_building)
-		buil2_name = buil1 ? translate(buil2.get_name()):"No existe"
+		t = my_tile(c_buil1)
+		buil = t.find_object(mo_building)
+		buil1_name = buil ? translate(buil.get_name()):"No existe"
+
+		t = my_tile(c_buil2)
+		buil = t.find_object(mo_building)
+		buil2_name = "No existe"
+		if(buil) {
+			buil2_list = buil.get_tile_list()
+			buil2_name = translate(buil.get_name())
+		}
+
 		return 0
 	}
 
 	function set_goal_text(text){
 		switch (this.step) {
 			case 1:
-				text.pos = c_cty.href("("+c_cty.tostring()+")")
-				text.pos1 = c_cty.href(""+translate(tx_cty)+" ("+c_cty.tostring()+")")
+				text.pos = cty1.c.href("("+cty1.c.tostring()+")")
+				text.pos1 = cty1.c.href(""+translate(tx_cty)+" ("+cty1.c.tostring()+")")
 				text.pos2 = c_fac.href(""+translate(tx_fac)+" ("+c_fac.tostring()+")")
 				text.pos3 = c_st.href(""+translate(tx_st)+" ("+c_st.tostring()+")")
 				text.link = "<a href='script:script_text()'>"+translate(tx_link)+"  >></a>"
@@ -64,7 +73,7 @@ class tutorial.chapter_01 extends basic_chapter
 				text.buld_name = "<a href=\"("+c_buil2.x+","+c_buil2.y+")\">"+buil2_name+" ("+c_buil2.tostring()+")</a>"
 			break;
 			case 4: 
-				text.pos2 = "<a href=\"("+postc.a.x+","+postc.a.y+")\">" + translate("Town Centre")+" ("+postc.a.tostring()+")</a>"
+				text.pos2 = "<a href=\"("+cty1.c.x+","+cty1.c.y+")\">" + translate("Town Centre")+" ("+cty1.c.tostring()+")</a>"
 			break;
 			
 		}
@@ -118,17 +127,21 @@ class tutorial.chapter_01 extends basic_chapter
 					pot1=1
 				}
 				else if(pot2==0){
+					local list = buil2_list
+					local m_buil = true
 					try {
-						 next_mark = delay_mark_tile(c_buil2, c_buil2, 0)
+						next_mark = delay_mark_tile_list(list, m_buil)
 					}
 					catch(ev) {
 						return 0
 					}
 				}
 				else if(pot2==1 && pot3==0){
+					local list = buil2_list
+					local m_buil = true
 					local stop_mark = true
 					try {
-						 next_mark = delay_mark_tile(c_buil2, c_buil2, stop_mark)
+						next_mark = delay_mark_tile_list(list, m_buil, stop_mark)
 					}
 					catch(ev) {
 						return 0
@@ -143,14 +156,14 @@ class tutorial.chapter_01 extends basic_chapter
 				break
 			case 4:
 				local next_mark = true
-
+				local list = cit_list
+				local m_buil = true
 				try {
-					 next_mark = delay_mark_tile(postc.a, postc.b, 0)
+					next_mark = delay_mark_tile_list(list, m_buil)
 				}
 				catch(ev) {
 					return 0
 				}
-
 				if ((pot0 == 1 && next_mark)){
 					comm_script = false
 					this.next_step()
@@ -179,25 +192,34 @@ class tutorial.chapter_01 extends basic_chapter
 			case 2:
 				break
 			case 3: 
-				if(pot0==0){
-					if ((tool_id == 4096)&&(pos.x == c_buil1.x)&&(pos.y == c_buil1.y)){
-						pot0 = 1
-						return null
+				if (tool_id == 4096){
+					if(pot0==0){
+						if ((pos.x == c_buil1.x)&&(pos.y == c_buil1.y)){
+							pot0 = 1
+							return null
+						}
 					}
-				}
-				else if (pot1==1 && pot2==0){
-					if ((tool_id == 4096)&&(pos.x == c_buil2.x)&&(pos.y == c_buil2.y)){
-						pot2 = 1
-						return null
+					else if (pot1==1 && pot2==0){
+						local list = buil2_list
+						foreach(t in list){
+							if(pos.x == t.x && pos.y == t.y) {
+								pot2 = 1
+								return null
+							}
+						}
 					}
 				}
 				break
 			case 4:
-				if ((tool_id == 4096 )&&(pos.x>=postc.a.x)&&(pos.x<=postc.b.x)&&(pos.y>=postc.a.y)&&(pos.y<=postc.b.y)){
-					pot0 = 1
-					return null
-				}
-					
+				if (tool_id == 4096){
+					local list = cit_list
+					foreach(t in list){
+						if(pos.x == t.x && pos.y == t.y) {
+							pot0 = 1
+							return null
+						}
+					}
+				}	
 				break
 		}
 		if (tool_id == 4096){	

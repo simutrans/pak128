@@ -138,8 +138,10 @@ The tunnel is not correct, use the [Remove] tool here
 The tunnel is not correct, use the [Remove] tool here
 You must lower the ground first
 You must lower the ground first
-First you must lower the layer level.
-First you must lower the layer level.
+First you need to activate the underground view / sliced map view.
+First you need to activate the underground view / sliced map view.
+Layer level in sliced map view should be: %d
+Layer level in sliced map view should be: %d
 Build a Tunnel here
 Build a tunnel here
 Modify the terrain here

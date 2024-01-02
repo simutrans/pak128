@@ -4,13 +4,6 @@
  *
  *  Can NOT be used in network game !
  */
-	simu_version <- "122.0.1"
-	pak_name <- "Pak128"
-
-	current_st <- "0"
-	current_pak <- "pak"
-
-	gl_correct <- false
 
 class tutorial.chapter_00 extends basic_chapter
 {
