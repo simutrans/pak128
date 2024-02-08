@@ -521,10 +521,12 @@ toolbar[10][6]=general_tool[17],30,,128
 toolbar[10][7]=general_tool[8]
 toolbar[10][8]=general_tool[6]
 toolbar[10][9]=general_tool[31]
-toolbar[10][10]=general_tool[32]
-toolbar[10][11]=general_tool[14],,l,128
-toolbar[10][12]=general_tool[35]
-toolbar[10][13]=simple_tool[5]
+toolbar[10][10]=general_tool[41]
+toolbar[10][11]=general_tool[32]
+toolbar[10][12]=general_tool[14],,l,128
+toolbar[10][13]=general_tool[35]
+toolbar[10][14]=general_tool[40]
+toolbar[10][15]=simple_tool[5]
 
 # editor tools
 toolbar[11][0]=general_tool[10],22,,+100
