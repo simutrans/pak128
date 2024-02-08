@@ -23,6 +23,9 @@ Image[15]=> menu_buttons.0.5
 Image[16]=> menu_buttons.0.7
 Image[17]=> menu_buttons.1.5
 Image[18]=> menu_buttons.7.14
+Image[19]=> menu_buttons.1.7
+Image[20]=> menu_buttons.0.8
+Image[21]=> menu_buttons.1.8
 --
 Obj=menu
 name=SimpleTools
@@ -37,6 +40,9 @@ Image[6]=> menu_buttons.2.7
 Image[7]=> menu_buttons.3.1
 Image[8]=> menu_buttons.3.2
 Image[9]=> menu_buttons.3.3
+Image[10]=> menu_buttons.3.4
+Image[11]=> menu_buttons.3.5
+Image[12]=> menu_buttons.3.6
 --
 Obj=menu
 name=DialogeTools
@@ -47,7 +53,7 @@ Image[2]=> menu_buttons.4.3
 Image[3]=> menu_buttons.4.4
 Image[4]=> menu_buttons.4.5
 Image[5]=> menu_buttons.4.6
-Image[6]=> menu_buttons.4.7
+Image[6]=> menu_buttons.5.3
 Image[7]=> -
 Image[8]=> -
 Image[9]=> -
@@ -73,6 +79,12 @@ Image[25]=> menu_buttons.5.1
 # network
 Image[26]=> menu_buttons.5.2
 #
+Image[27]=> menu_buttons.6.8
+Image[28]=> menu_buttons.6.9
+Image[29]=> menu_buttons.6.10
+Image[30]=> menu_buttons.6.11
+Image[31]=> menu_buttons.6.12
+Image[32]=> menu_buttons.6.13
 --
 Obj=menu
 name=BarTools
