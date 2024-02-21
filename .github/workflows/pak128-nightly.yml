@@ -45,6 +45,13 @@ jobs:
       run: |
         echo "date=$(date -u +%Y-%m-%d)" >> "$GITHUB_ENV"
 
+    - name: set current head to nightly
+      uses: richardsimko/update-tag@v1
+      with:
+          tag_name: Nightly
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Update Serverset of Nightly Release
       uses: meeDamian/github-release@2.0
       with:
