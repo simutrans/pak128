@@ -96,7 +96,7 @@ DIRS := $(DIRS64) $(DIRS128) $(DIRS176) $(DIRS250)
 
 .PHONY: $(DIRS) $(OUTSIDE) $(ADDON_DIRS64) copy tar zip
 
-all: copy $(DIRS) $(OUTSIDE) zip
+all: zip
 
 archives: tar zip
 
@@ -104,11 +104,11 @@ tar: $(DESTFILE).tbz2
 zip: $(DESTFILE).zip
 
 
-$(DESTFILE).tbz2: $(PAKDIR)
+$(DESTFILE).tbz2: copy $(DIRS) $(OUTSIDE)
 	@echo "===> TAR $@"
 	@tar cjf $@ $(DESTDIR)
 
-$(DESTFILE).zip: $(PAKDIR)
+$(DESTFILE).zip: copy $(DIRS) $(OUTSIDE)
 	@echo "===> ZIP $@"
 	@zip -rq $@ $(DESTDIR)
 
@@ -120,12 +120,12 @@ copy:
 	@cp -p history-pak128-svn.txt $(PAKDIR)/doc
 	@cp -p LICENSE.txt $(PAKDIR)/doc
 
-$(DIRS64):
+$(DIRS64): copy
 	@echo "===> PAK64 $@"
 	@mkdir -p $(PAKDIR)
 	@$(MAKEOBJ) PAK $(PAKDIR)/ $@/ > /dev/null
 
-$(DIRS128):
+$(DIRS128): copy
 	@echo "===> PAK128 $@"
 	@mkdir -p $(PAKDIR)
 	@rm -f $@/*.pak
@@ -133,7 +133,7 @@ $(DIRS128):
 	@$(MAKEOBJ) quiet merge $(PAKDIR)/`echo $@ | sed s_/_._g`.all.pak $@/*.pak > /dev/null
 	@rm -f $@/*.pak
 
-$(DIRS176):
+$(DIRS176): copy
 	@echo "===> PAK176 $@"
 	@mkdir -p $(PAKDIR)
 	@rm -f $@/*.pak
@@ -141,7 +141,7 @@ $(DIRS176):
 	@$(MAKEOBJ) quiet merge $(PAKDIR)/`echo $@ | sed s_/_._g`.all.pak $@/*.pak > /dev/null
 	@rm -f $@/*.pak
 
-$(DIRS250):
+$(DIRS250): copy
 	@echo "===> PAK250 $@"
 	@mkdir -p $(PAKDIR)
 	@rm -f $@/*.pak
@@ -149,7 +149,7 @@ $(DIRS250):
 	@$(MAKEOBJ) quiet merge $(PAKDIR)/`echo $@ | sed s_/_._g`.all.pak $@/*.pak > /dev/null
 	@rm -f $@/*.pak
 
-$(OUTSIDE):
+$(OUTSIDE): copy
 	@echo "===> Grounds calculations"
 	@echo "===> OUTSIDE with REVISION and grounds"
 	@mkdir -p $(PAKDIR)
