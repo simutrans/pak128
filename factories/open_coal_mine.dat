@@ -19,6 +19,11 @@ Mail_boost=0
 Passenger_demand=20
 Passenger_boost=500
 
+expand_probability=200
+expand_times=19
+expand_minimum=100
+expand_range=100
+
 OutputGood[0]=Kohle
 OutputCapacity[0]=300
 

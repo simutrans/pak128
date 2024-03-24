@@ -22,6 +22,11 @@ Mail_boost=500
 Passenger_demand=20
 Passenger_boost=800
 
+expand_probability=100
+expand_times=9
+expand_minimum=600
+expand_range=40
+
 Smoke=industry_smoke
 SmokeTile[0]=0,1
 SmokeOffset[0]=-9,-67

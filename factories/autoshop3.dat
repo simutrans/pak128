@@ -15,6 +15,11 @@ Mail_boost=500
 Passenger_demand=20
 Passenger_boost=1200
 
+expand_probability=100
+expand_times=9
+expand_minimum=30
+expand_range=20
+
 InputGood[0]=Autos
 InputCapacity[0]=100
 InputSupplier[0]=0

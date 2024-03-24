@@ -20,6 +20,11 @@ Mail_boost=200
 Passenger_demand=20
 Passenger_boost=500
 
+expand_probability=100
+expand_times=9
+expand_minimum=150
+expand_range=100
+
 # total fish input 140 (average 1 pond one swarm)
 InputGood[0]=fish
 InputCapacity[0]=1500

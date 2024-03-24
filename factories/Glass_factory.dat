@@ -20,6 +20,11 @@ Mail_boost=200
 Passenger_demand=20
 Passenger_boost=500
 
+expand_probability=100
+expand_times=9
+expand_minimum=100
+expand_range=50
+
 OutputGood[0]=glass
 OutputCapacity[0]=800
 

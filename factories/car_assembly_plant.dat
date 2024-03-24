@@ -19,6 +19,11 @@ Mail_boost=200
 Passenger_demand=100
 Passenger_boost=500
 
+expand_probability=100
+expand_times=9
+expand_minimum=200
+expand_range=50
+
 # steel input 400t
 InputGood[0]=Stahl
 InputCapacity[0]=2500

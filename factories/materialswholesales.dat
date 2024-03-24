@@ -17,6 +17,11 @@ Mail_boost=500
 Passenger_demand=50
 Passenger_boost=1200
 
+expand_probability=100
+expand_times=9
+expand_minimum=400
+expand_range=150
+
 InputGood[0]=Concrete
 InputCapacity[0]=800
 InputSupplier[0]=0

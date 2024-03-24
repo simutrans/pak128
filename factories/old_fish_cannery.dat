@@ -15,6 +15,11 @@ Mail_boost=200
 Passenger_demand=30
 Passenger_boost=500
 
+expand_probability=100
+expand_times=9
+expand_minimum=100
+expand_range=100
+
 InputGood[0]=fish
 InputCapacity[0]=900
 InputSupplier[0]=0
