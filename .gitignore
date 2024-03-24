@@ -13,3 +13,4 @@ makeobj
 
 base/special/outside.dat
 *.exe
+*.kdev4
