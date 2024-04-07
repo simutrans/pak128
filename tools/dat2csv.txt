@@ -1,0 +1,16 @@
+BEGIN { INGNORECASE=1; FS="="; print "name,intro_year,retire_year,freight,payload,speed,engine_type,gear,power,weight,cost,runningcost,fixed_cost"; name=""; intro_year=""; retire_year=""; freight=""; payload=0; speed=0; engine_type=""; gear=0; power=0; weight=0; cost=0; runningcost=0; fixed_cost=0; }
+/^name/ {name=$2}
+/^intro_year/ {intro_year=$2}
+/^retire_year/ {retire_year=$2}
+/^freight[ ]*=/ {freight=$2}
+/^payload/ {payload=$2}
+/^speed/ {speed=$2}
+/^engine_type/ {engine_type=$2}
+/^gear/ {gear=$2}
+/^power/ {power=$2}
+/^weight/ {weight=$2}
+/^cost/ {cost=$2}
+/^runningcost/ {runningcost=$2}
+/^fixed_cost/ {fixed_cost=$2}
+/^-/    {print name","intro_year","retire_year","freight","payload","speed","engine_type","gear","power","weight","cost","runningcost","fixed_cost; name=""; intro_year=""; retire_year=""; freight=""; payload=0; speed=0; engine_type=""; gear=0; power=0; weight=0; cost=0; runningcost=0; fixed_cost=0; }
+ENDFILE {print name","intro_year","retire_year","freight","payload","speed","engine_type","gear","power","weight","cost","runningcost","fixed_cost; name=""; intro_year=""; retire_year=""; freight=""; payload=0; speed=0; engine_type=""; gear=0; power=0; weight=0; cost=0; runningcost=0; fixed_cost=0; }
