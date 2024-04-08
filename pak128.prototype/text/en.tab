@@ -9,13 +9,13 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 10.01 2022                           #
+#                            Date Created: 8.04 2024                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
 #____________________________bridge - monorail_track____________________________
 Schwebebahn_p_bridge
-Suspended Monorail (bridge)
+Bridge for Suspended Monorail
 #________________________________bridge - power_________________________________
 #________________________________bridge - power_________________________________
 PowerBridge
@@ -1642,6 +1642,8 @@ Vertical-lift railroad bridge
 #____________________________________factory____________________________________
 autoshop3
 Car Dealership
+factory_autoshop3_details
+<title>Car dealership - details</title>\n<h1>Car Dealership</h1>\n<p>A car dealership, or vehicle local distribution, is a business that sells new or used cars at the retail level, based on a dealership contract with an automaker or its sales subsidiary. It can also carry a variety of Certified Pre-Owned vehicles. It employs automobile salespeople to sell their automotive vehicles.</p>
 bakery
 Bakery
 brewery
@@ -2036,6 +2038,8 @@ OneWaySignals
 One Way Signal (standard type)
 preSignals
 Presignal (standard type)
+prioritySignals
+Priority signal (standard type)
 Railgate
 Private Barrier
 Signals
@@ -3772,6 +3776,10 @@ Black_Osprey_(goods)
 Black Osprey (goods)
 Black_Osprey_(grain)
 Black Osprey (grain bulker)
+brick_goelette
+Hermaphrodite Brig
+brigantin
+Brigantine
 British_Premier
 British Premier
 Eaglescliffe_Hall

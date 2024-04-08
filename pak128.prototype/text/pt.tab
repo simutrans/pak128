@@ -9,7 +9,7 @@
 #                            Language: pt Portugues                            #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 10.01 2021                           #
+#                            Date Created: 8.04 2024                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -20,6 +20,16 @@ Monotrilho (ponte)
 #________________________________bridge - power_________________________________
 PowerBridge
 Travessia para linha de transmissão
+#_________________________________bridge - road_________________________________
+#_________________________________bridge - road_________________________________
+Highway_110_Bridge
+Ponte para rodovia 110 km/h
+Highway_130_Bridge
+Ponte para rodovia 130 km/h
+Highway_200_Bridge
+Ponte para rodovia 200 km/h
+road_030_bridge
+Ponte para estrada de chão 30 km/h
 #________________________________bridge - track_________________________________
 #________________________________bridge - track_________________________________
 Rail_060_Bridge
@@ -887,9 +897,15 @@ Bennhardt B-138 "Apple pie"
 1Benst162t
 Bennhardt B-162 "Jet"
 1Benst238
-Bennhardt B-238 "Frog"
+Bennhardt B-238 "sapo"
 1Dampflokomotive
 RVg 0-4-0T
+2000_Class
+Classe 2000 (Austrália)
+2000_Class_Car
+Classe 2000 Passageiro
+2000_Class_Tail
+Classe 2000 Caboose
 2Diesellokomotive
 H-Trans BR218
 3Bens186t

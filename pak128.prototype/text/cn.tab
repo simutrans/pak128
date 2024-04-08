@@ -9,13 +9,33 @@
 #                           Language: cn Sim. Chinese                          #
 #                                Encoding: UTF-8                               #
 #                            Font: wenquanyi_9pt.bdf                           #
-#                           Date Created: 10.01 2021                           #
+#                            Date Created: 8.04 2024                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
 #____________________________bridge - monorail_track____________________________
 Schwebebahn_p_bridge
 悬挂单轨铁路桥
+#_________________________________bridge - road_________________________________
+#_________________________________bridge - road_________________________________
+Highway_110_Bridge
+高速公路桥梁（三混凝土支柱）
+Highway_130_Bridge
+高速公路桥梁（双方形支柱）
+Highway_200_Bridge
+高速公路桥梁（先进宽支柱）
+road_030_bridge
+木制桥梁
+road_040_bridge
+石拱桥梁
+road_050_bridge
+混凝土拱桥
+Road_055_Bridge
+旧石拱桥梁
+Road_070_Bridge
+公路桥梁
+Road_090_Bridge
+现代公路桥梁
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 COM_00_01
@@ -363,9 +383,9 @@ Signal_Monorail
 #________________________________roadsign - road________________________________
 #________________________________roadsign - road________________________________
 autobahn_classic_entrance
-久高速公路入口标志
+旧高速公路入口标志
 autobahn_classic_exit
-久高速公路出口标志
+旧高速公路出口标志
 autobahn_modern_entrance
 现代高速公路入口标志
 autobahn_modern_exit
@@ -398,3 +418,65 @@ tree081
 #________________________________vehicle - track________________________________
 1Benst134
 Bennhardt B-134 "Pixie"
+#__________________________________way - road___________________________________
+#__________________________________way - road___________________________________
+Highway_110
+高速公路
+Highway_110_Elevated
+高架高速公路（三混凝土支柱）
+Highway_130
+高速公路（护栏）
+Highway_130_Elevated
+高架高速公路（双混凝土支柱）
+Highway_200
+高速公路（混凝土护栏）
+Highway_200_Elevated
+高架高速公路（双斜混凝土支柱）
+Road_030
+土路
+Road_040
+鹅卵石街道
+Road_040_Elevated
+高架鹅卵石街道
+Road_050
+沥青街道
+Road_050_Elevated
+高架沥青街道
+Road_055
+碎石道路
+Road_070
+沥青道路
+Road_090
+现代沥青道路
+Road_090_Elevated
+高架沥青道路
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+trolleybus_catenary
+无轨电车架空接触网
+#______________________________way-object - track_______________________________
+#______________________________way-object - track_______________________________
+classic_catenary
+货运型接触网（塔架）
+classic_metal_mesh_catenary
+快速型接触网（塔形龙门架）
+curved_pylon_lgv
+高速型接触网（弧形塔）
+grey_type_catenary
+快速型接触网（灰色）
+highspeed_catenary
+高速型接触网（杆形）
+ogive_midi_catenary
+快速型接触网（肋形龙门架）
+overhead_feeding_rail
+快速型接触网（宽杆）
+plastic_covered_third_rail
+第三供电轨（塑料防护罩）
+steel_gantry_catenary
+接触网（铁龙门架）
+third_rail
+第三供电轨（无防护罩）
+wood_covered_third_rail
+第三供电轨（木制防护罩）
+wood_gantry_catenary
+木制接触网（龙门架）

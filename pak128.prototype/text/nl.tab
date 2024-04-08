@@ -9,7 +9,7 @@
 #                            Language: nl Nederlands                           #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 10.01 2021                           #
+#                            Date Created: 8.04 2024                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -3139,7 +3139,7 @@ Tatra 813\n\nmilitaire truck
 autoshop3
 Autohandelaar
 factory_autoshop3_details
-Auto Dealer
+Auto Dealer<title>Autodealer - details</title><h1>Autodealer</h1><p>Een autodealer, of lokale autodistributie, is een bedrijf dat nieuwe of gebruikte auto's op detailhandelsniveau verkoopt, op basis van een dealercontract met een autofabrikant of zijn verkoopfiliaal. Het kan ook een verscheidenheid aan gecertificeerde tweedehands voertuigen aanbieden. Het heeft autoverkopers in dienst om hun auto's te verkopen.</p>
 bakery
 Bakkerij
 factory_bakery_details
@@ -3246,6 +3246,8 @@ Oelbohrinsel
 Boorplatform
 Oelfeld
 Olieveld
+factory_Oelfeld_details
+<title>Over Aardolievelden</title><h1>Olieveld</h1><p>Aardolie is een ruwe grondstof die klassiek gebruikt werd om verf en smeermiddelen te maken, en ook als brandstof voor verwarming in de 19de eeuw. Sindsdien is het belang enorm toegenomen door het toegenomen gebruik van de verbrandingsmotor en auto's.</p><p><br><br>Aardolie is een vloeistof bestaande uit talrijke koolwaterstoffen. Het is niet duidelijk hoe de olielagen in de aarde ontstaan zijn, maar waarschijnlijk was het een proces gelijkaardig aan het ontstaan van steenkool, maar onder hogere druk en zonder zuurstof. Aardolie wordt gevonden tot op een diepte van meerdere honderden meters.Deze olie wordt dan meestal gevonden samen met aardgas onder hoge druk, hetgeen het oppompen vergemakkelijkt.<p>
 oilkraftwerk
 Oliecentrale
 old_fish_cannery
@@ -3260,6 +3262,8 @@ publisher
 Uitgeverij
 Raffinerie
 Raffinaderij
+factory_Raffinerie_details
+<title>Raffinaderij</title>\nIn een Raffinaderij worden de ruwe olie in bestanddelen gesplitst. Lichte bestanddelen zijn benzine, zwaardere zijn Huisbrandolie, Dieselbrandstof, smeerstoffen en dergelijke. De vraag naar benzine is echter relatief groter dan dat aardolie lichte bestanddelen bevat; door het kraken (lange molecule ketens worden in korte opgebroken) kan deze verhouding gecorrigeerd worden.
 Saegewerk
 Houtzagerij
 factory_Saegewerk_details
