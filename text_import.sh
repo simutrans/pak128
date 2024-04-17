@@ -1,7 +1,7 @@
 #!/bin/bash
 
-wget -q --post-data "version=19&choice=all&submit=Export!"  --delete-after https://translator.simutrans.com/script/main.php?page=wrap
-wget -O texts.zip https://makie.de/translator/data/tab/language_pack-pak128.zip
+wget -q --post-data "version=19&choice=all&submit=Export!"  --delete-after http://translator.simutrans.com/script/main.php?page=wrap
+wget -O texts.zip http://makie.de/translator/data/tab/language_pack-pak128.zip
 
 rm -rf tmp
 mkdir tmp

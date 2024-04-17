@@ -1,0 +1,7 @@
+§<p>
+<st>このシナリオは、お使いのパックセットまたはsimutransのバージョンと互換性がありません。</st>
+</p>
+<p>
+Simutrans のバージョン: v{current_stv} -> {stv}.<br>
+パックセットの名前: {current_pak} -> {pak}.
+</p>

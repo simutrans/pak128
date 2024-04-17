@@ -11,5 +11,5 @@ The city {city} needs to design a bus network that allows passengers to move to 
 Progress is made to the next step, when more than <em>{load}</em> passengers are transported to {name} in a month.
 </p>
 <p>
-<st>Translated this month:</st> <em>{get_load}/{load}</em> 
+<st>Translated this month:</st> <em>{get_load}/{load}</em>
 </p>
