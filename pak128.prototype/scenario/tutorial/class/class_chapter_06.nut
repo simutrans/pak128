@@ -980,7 +980,7 @@ class tutorial.chapter_06 extends basic_chapter
 				    rules.forbid_way_tool(pl, tool_id, wt )
 			}
 
-		local forbid =	[	4134,4135, tool_lower_land, tool_raise_land, tool_setslope, tool_build_roadsign, tool_restoreslope,
+		local forbid =	[	4142 ,4134 ,4135, tool_lower_land, tool_raise_land, tool_setslope, tool_build_roadsign, tool_restoreslope,
 							tool_plant_tree, tool_set_marker, tool_add_city, 4137, tool_stop_mover, tool_buy_house, tool_build_wayobj,
       						tool_remove_wayobj, tool_build_tunnel, tool_build_transformer, tool_build_bridge, tool_remove_way
 						]
