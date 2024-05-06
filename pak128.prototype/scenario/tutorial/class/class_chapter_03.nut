@@ -2422,30 +2422,34 @@ class tutorial.chapter_03 extends basic_chapter
 					t = command_x(tool_build_way)			
 					err = t.work(player, t_start, t_end, sc_way_name)
 				}
-				if (pot3==0){
+				if (pot2==1){
 					glresult = null
 					local passa = good_alias.passa
 					local mail = good_alias.mail
 					//Estaciones de la Fabrica
-					for(local j=0;j<st4_list.len();j++){
-						local tile = my_tile(st4_list[j])
-						tile.find_object(mo_way).unmark()
-						if (tile.get_halt()==null){
-							if (tile.find_object(mo_label))
-								tile.remove_object(player_x(1), mo_label)
-							local tool = command_x(tool_build_station)			
-							local err = tool.work(player, my_tile(st4_list[j]), sc_station_name)
+					if (pot3==0){
+						for(local j=0;j<st4_list.len();j++){
+							local tile = my_tile(st4_list[j])
+							tile.find_object(mo_way).unmark()
+							if (tile.get_halt()==null){
+								if (tile.find_object(mo_label))
+									tile.remove_object(player_x(1), mo_label)
+								local tool = command_x(tool_build_station)			
+								local err = tool.work(player, my_tile(st4_list[j]), sc_station_name)
+							}
 						}
 					}
 					//Estaciones del Productor
-					for(local j=0;j<st3_list.len();j++){
-						local tile = my_tile(st3_list[j])
-						tile.find_object(mo_way).unmark()
-						if (tile.get_halt()==null){
-							if (tile.find_object(mo_label))
-								tile.remove_object(player_x(1), mo_label)
-							local tool = command_x(tool_build_station)			
-							local err = tool.work(player, my_tile(st3_list[j]), sc_station_name)
+					if (pot4==0){
+						for(local j=0;j<st3_list.len();j++){
+							local tile = my_tile(st3_list[j])
+							tile.find_object(mo_way).unmark()
+							if (tile.get_halt()==null){
+								if (tile.find_object(mo_label))
+									tile.remove_object(player_x(1), mo_label)
+								local tool = command_x(tool_build_station)			
+								local err = tool.work(player, my_tile(st3_list[j]), sc_station_name)
+							}
 						}
 					}
 				}
