@@ -156,8 +156,16 @@ function string_analyzer()
 	local nr_a = 0
 	local nr_b = 0
 
+	local try_count = 0
+	local try_max = 10
 	while(nr_a<s_siz.a || nr_b<s_siz.b){
 		local value_a = ""
+		//gui.add_message("Count: "+try_count)
+		if(try_count > try_max){
+			result.st = false	
+			break
+		}
+		try_count++
 		for(local j=nr_a;j<s_siz.a;j++){
 			local tx = format("%c",current_st[j])
 			try {
@@ -191,12 +199,16 @@ function string_analyzer()
 		catch(ev) {
 			continue
 		}
-		//gui.add_message("value_a "+value_a.tointeger()+"  value_b "+value_b.tointeger()+"")
-		if(value_a.tointeger()<value_b.tointeger()){
-			result.st = false
+		//gui.add_message("Count: "+try_count+" value_a "+value_a.tointeger()+"  value_b "+value_b.tointeger()+"")
+
+		if(value_a.tointeger() < value_b.tointeger() || value_a.tointeger() == 0){
+			result.st = false	
+		}
+		else {
+			result.st = true
 			break
 		}
-		result.st = true
+			
 	}
 	//gui.add_message("result st: "+result.st+"  result pak:" +result.pak)
 	return result
