@@ -2701,7 +2701,7 @@ class tutorial.chapter_03 extends basic_chapter
 			rules.forbid_tool(pl, tool_id )
 		}
 			
-		local forbid =	[	4134,4135,tool_lower_land,tool_raise_land,tool_restoreslope, tool_add_city,
+		local forbid =	[	4142,4134,4135,tool_lower_land,tool_raise_land,tool_restoreslope, tool_add_city,
 							tool_make_stop_public,4137,tool_build_transformer,4107,4102,4127,4131
 						]
 		foreach (tool_id in forbid)
