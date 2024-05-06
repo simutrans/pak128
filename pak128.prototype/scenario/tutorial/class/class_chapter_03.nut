@@ -430,11 +430,11 @@ class tutorial.chapter_03 extends basic_chapter
 					text = ttextfile("chapter_03/06_3-5.txt")
 					text.tx=ttext("<em>[3/5]</em>")
 				}
-				else if (glsw[0]==0){
+				else if (pot3==0){
 					text = ttextfile("chapter_03/06_4-5.txt")
 					text.tx=ttext("<em>[4/5]</em>")
 				}
-				else if (glsw[1]==0){
+				else if (pot4==0){
 					text = ttextfile("chapter_03/06_5-5.txt")
 					text.tx = ttext("<em>[5/5]</em>")
 				}
