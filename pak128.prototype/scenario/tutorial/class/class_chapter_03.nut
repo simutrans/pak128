@@ -484,7 +484,7 @@ class tutorial.chapter_03 extends basic_chapter
 							}
 							else {
 								local tx_ok = translate("OK")
-								local tx_coord =  c_tun_list[start_lvl_z+j].href("("+ c_tun_list[start_lvl_z+j].tostring()+")")
+								local tx_coord = c_tun_list[start_lvl_z+j].tostring()
 								local layer = translate("Layer level")+" = "+(c_z-j)+""
 								tx_list += ttext("<em>"+format("<em>[%d]</em> %s", j+1, tx_coord+" "+layer+" <em>"+tx_ok+"</em><br>"))
 							}
