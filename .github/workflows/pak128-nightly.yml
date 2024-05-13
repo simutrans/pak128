@@ -14,7 +14,7 @@ jobs:
 
     - name: install_dependencies
       run: |
-          sudo apt-get -y update
+#         sudo apt-get -y update
           sudo apt-get -ym install libpng-dev
           sudo apt-get -ym install libsdl2-dev
           sudo apt-get -ym install libbz2-dev
@@ -38,6 +38,7 @@ jobs:
 
     - name: compile pakset
       run: |
+        ./text_import.sh
         make
         mv simupak128.zip simupak128-nightly.zip
 
