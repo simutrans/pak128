@@ -13,8 +13,8 @@ jobs:
         fetch-depth: 0
 
     - name: install_dependencies
-      run: |
 #         sudo apt-get -y update
+      run: |
           sudo apt-get -ym install libpng-dev
           sudo apt-get -ym install libsdl2-dev
           sudo apt-get -ym install libbz2-dev
