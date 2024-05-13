@@ -473,9 +473,9 @@ class tutorial.chapter_03 extends basic_chapter
 						local c_bord = coord(r_way.c.x, r_way.c.y)
 						for(local j=0;(start_lvl_z-j)>end_lvl_z;j++){
 							local c = slope==0?c_bord:coord(c_tun_list[j].x, c_tun_list[j].y)
-							local c_z = c_tun_list[j].z
+							local c_z = start_lvl_z
 							if (glsw[j]==0){
-								local link = "<a href=\"("+c.x+","+c.y+","+c_z+")\">("+c.tostring()+","+c_z+")</a>"
+								local link = "<a href=\"("+c.x+","+c.y+","+(c_z-j)+")\">("+c.tostring()+","+(c_z-j)+")</a>"
 								local layer = translate("Layer level")+" = <st>"+(layer_lvl)+"</st>"
 								tx_list += ttext("--> <st>" + format("[%d]</st> %s %s<br>", j+1, link, layer))
 								text.lev = layer_lvl
@@ -484,8 +484,8 @@ class tutorial.chapter_03 extends basic_chapter
 							}
 							else {
 								local tx_ok = translate("OK")
-								local tx_coord = "("+coord(c_tun_list[j].x, c_tun_list[j].y).tostring()+","+c_z+")"
-								local layer = translate("Layer level")+" = "+(layer_lvl+j)+""
+								local tx_coord =  c_tun_list[start_lvl_z+j].href("("+ c_tun_list[start_lvl_z+j].tostring()+")")
+								local layer = translate("Layer level")+" = "+(c_z-j)+""
 								tx_list += ttext("<em>"+format("<em>[%d]</em> %s", j+1, tx_coord+" "+layer+" <em>"+tx_ok+"</em><br>"))
 							}
 						}
