@@ -134,8 +134,8 @@ class tutorial.chapter_03 extends basic_chapter
 	//Para la entrada del tunel
 	//------------------------------------------------------------------------------------------
 	c_tunn1_lim = {a = coord(92,19), b = coord(92,16)}
-	start_tunn = coord(92,18)
-	end_tunn = coord(92,17)
+	start_tunn = coord3d(92,18,0)
+	end_tunn = coord3d(92,3,-3)
 	//c_tun_lock = coord(92,16)
 	//------------------------------------------------------------------------------------------
 
@@ -496,8 +496,8 @@ class tutorial.chapter_03 extends basic_chapter
 						text = ttextfile("chapter_03/08_3-3.txt")
 						text.tx = ttext("<em>[3/3]</em>")
 						text.lev = layer_lvl+(end_lvl_z-start_lvl_z)
-						text.t1 = "<a href=\"("+ start_tunn.x+","+ start_tunn.y+")\">("+ start_tunn.tostring()+")</a>"
-						text.t2 = "<a href=\"("+ start_tunn.x+","+ start_tunn.y+")\">("+ start_tunn.tostring()+")</a>"
+						text.t1 = start_tunn.href("("+start_tunn.tostring()+")")
+						text.t2 = end_tunn.href("("+end_tunn.tostring()+")")
 					}
 				}
 				break
