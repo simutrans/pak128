@@ -60,6 +60,9 @@ class basic_chapter
 	unde_view = -128
 	norm_view = 127
 
+	//Complete map size
+	map_siz = world.get_size()
+
 	constructor(pl)
 	 {
 	 	scenario.short_description = scenario_name + " - " + translate(this.chapter_name)
