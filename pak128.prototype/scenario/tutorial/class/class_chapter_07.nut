@@ -209,8 +209,7 @@ class tutorial.chapter_07 extends basic_chapter
 		local result=null	// null is equivalent to 'allowed'
 		local t = tile_x(pos.x, pos.y, pos.z)
 		local way = t.find_object(mo_way)
-		my_compass()
-		local nr = compass_nr
+  		local nr = compass_nr
 		switch (this.step) {
 			case 1:
 				if (tool_id==4096)
