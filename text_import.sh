@@ -7,7 +7,7 @@ rm -rf tmp
 mkdir tmp
 cd tmp
 wget -q --post-data "version=19&choice=all&submit=Export!"  --delete-after http://translator.simutrans.com/script/main.php?page=wrap
-wget -O texts.zip http://makie.de/translator/data/tab/language_pack-$PAK.zip
+wget -O texts.zip http://translator.simutrans.com/data/tab/language_pack-$PAK.zip
 unzip texts.zip
 
 # only copy changed texts
@@ -31,7 +31,7 @@ mkdir tmp
 cd tmp
 
 wget -q --post-data "version=313&choice=all&submit=Export!"  --delete-after http://translator.simutrans.com/script/main.php?page=wrap
-wget -O texts.zip http://makie.de/translator/data/tab/language_pack-Scenario+Tutorial+$PAK.zip
+wget -O texts.zip http://translator.simutrans.com/data/tab/language_pack-Scenario+Tutorial+$PAK.zip
 unzip texts.zip
 rm texts.zip
 

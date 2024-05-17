@@ -134,8 +134,8 @@ class tutorial.chapter_03 extends basic_chapter
 	//Para la entrada del tunel
 	//------------------------------------------------------------------------------------------
 	c_tunn1_lim = {a = coord(92,19), b = coord(92,16)}
-	start_tunn = coord(92,18)
-	end_tunn = coord(92,17)
+	start_tunn = coord3d(92,18,0)
+	end_tunn = coord3d(92,3,-3)
 	//c_tun_lock = coord(92,16)
 	//------------------------------------------------------------------------------------------
 
@@ -473,9 +473,9 @@ class tutorial.chapter_03 extends basic_chapter
 						local c_bord = coord(r_way.c.x, r_way.c.y)
 						for(local j=0;(start_lvl_z-j)>end_lvl_z;j++){
 							local c = slope==0?c_bord:coord(c_tun_list[j].x, c_tun_list[j].y)
-							local c_z = c_tun_list[j].z
+							local c_z = start_lvl_z
 							if (glsw[j]==0){
-								local link = "<a href=\"("+c.x+","+c.y+","+c_z+")\">("+c.tostring()+","+c_z+")</a>"
+								local link = "<a href=\"("+c.x+","+c.y+","+(c_z-j)+")\">("+c.tostring()+","+(c_z-j)+")</a>"
 								local layer = translate("Layer level")+" = <st>"+(layer_lvl)+"</st>"
 								tx_list += ttext("--> <st>" + format("[%d]</st> %s %s<br>", j+1, link, layer))
 								text.lev = layer_lvl
@@ -484,8 +484,8 @@ class tutorial.chapter_03 extends basic_chapter
 							}
 							else {
 								local tx_ok = translate("OK")
-								local tx_coord = "("+coord(c_tun_list[j].x, c_tun_list[j].y).tostring()+","+c_z+")"
-								local layer = translate("Layer level")+" = "+(layer_lvl+j)+""
+								local tx_coord = c_tun_list[start_lvl_z+j].tostring()
+								local layer = translate("Layer level")+" = "+(c_z-j)+""
 								tx_list += ttext("<em>"+format("<em>[%d]</em> %s", j+1, tx_coord+" "+layer+" <em>"+tx_ok+"</em><br>"))
 							}
 						}
@@ -496,8 +496,8 @@ class tutorial.chapter_03 extends basic_chapter
 						text = ttextfile("chapter_03/08_3-3.txt")
 						text.tx = ttext("<em>[3/3]</em>")
 						text.lev = layer_lvl+(end_lvl_z-start_lvl_z)
-						text.t1 = "<a href=\"("+ start_tunn.x+","+ start_tunn.y+")\">("+ start_tunn.tostring()+")</a>"
-						text.t2 = "<a href=\"("+ start_tunn.x+","+ start_tunn.y+")\">("+ start_tunn.tostring()+")</a>"
+						text.t1 = start_tunn.href("("+start_tunn.tostring()+")")
+						text.t2 = end_tunn.href("("+end_tunn.tostring()+")")
 					}
 				}
 				break

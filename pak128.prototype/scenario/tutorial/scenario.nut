@@ -125,9 +125,9 @@ function string_analyzer()
 	current_pak = get_set_name(get_pakset_name())
 	current_st = get_version_number()
 
-	local p_siz = {a = current_pak.len(), b = pak_name.len()}
+	local p_siz = {a = pak_name.len(), b = current_pak.len()}
 
-	//Pak name analyzer
+	//Pak name analyzer  ----------------------------------------------------------------------------------------------------------
 	local siz_a = max(p_siz.a, p_siz.a)
 	local count_a = 0
 	local tx_a = ""
@@ -149,67 +149,85 @@ function string_analyzer()
 	}
 	if(pak_name == tx_a) result.pak = true
 	//gui.add_message("Current: "+current_pak+"  Tx: "+tx_a+"  Pak: "+pak_name+" result: "+result.pak)
+	//------------------------------------------------------------------------------------------------------------------------------
 
-	local s_siz = {a = current_st.len(), b = simu_version.len()}
-	local siz_b = max(s_siz.a, s_siz.a)
+	local s_siz = {a = simu_version.len(), b = current_st.len()}
 
 	local nr_a = 0
 	local nr_b = 0
 
-	local try_count = 0
-	local try_max = 10
-	while(nr_a<s_siz.a || nr_b<s_siz.b){
-		local value_a = ""
-		//gui.add_message("Count: "+try_count)
-		if(try_count > try_max){
-			result.st = false	
-			break
-		}
-		try_count++
-		for(local j=nr_a;j<s_siz.a;j++){
-			local tx = format("%c",current_st[j])
-			try {
-				tx.tointeger()
-			}
-			catch(ev) {
-				if(tx=="."){
-					nr_a = j+1
-					break
-				}
-				nr_a++
-				continue
-			}
-			value_a+=tx
-		}
+	local val_a = []
+	local val_b = []
 
-		local value_b = ""
-		for(local j=nr_b;j<s_siz.b;j++){
-			local tx = format("%c",simu_version[j])
-			if(tx=="."){
-				nr_b = j+1
-				break
-			}
-			value_b+=tx
-			if(j == s_siz.b-1)nr_b = s_siz.b
-		}
-		try {
-			value_a.tointeger()
-			value_b.tointeger()
-		}
-		catch(ev) {
+	// Analyzer scenario simutrans version -----------------------------------------------------------------------------------------
+	local value_a = ""
+	for(local j=nr_a;j<s_siz.a;j++){
+		local tx = format("%c",simu_version[j])
+		if(tx=="."){
+			nr_a = j+1
+			val_a.push(value_a)
+			value_a = ""
 			continue
 		}
-		//gui.add_message("Count: "+try_count+" value_a "+value_a.tointeger()+"  value_b "+value_b.tointeger()+"")
-
-		if(value_a.tointeger() < value_b.tointeger() || value_a.tointeger() == 0){
-			result.st = false	
+		value_a += tx
+		if(j == s_siz.a-1) {
+			val_a.push(value_a)
 		}
-		else {
-			result.st = true
-			break
-		}
-			
 	}
+	//------------------------------------------------------------------------------------------------------------------------------
+
+	// Analyzer current simutrans version -------------------------------------------------------------------------------------
+	local value_b = ""
+	for(local j=nr_b;j<s_siz.b;j++){
+		local tx = format("%c",current_st[j])
+		try {
+			tx.tointeger()
+		}
+		catch(ev) {
+			if(tx=="."){
+				nr_b = j+1
+				val_b.push(value_b)
+				value_b = ""
+				continue
+			}
+			nr_b++
+			continue
+		}
+		value_b += tx
+		if(j == s_siz.b-1) {
+			val_b.push(value_b)
+		}
+	}
+	//------------------------------------------------------------------------------------------------------------------------------
+
+	// Compare both simutrans versions -----------------------------------------------------------------------------------------
+	local siz_va = val_a.len()
+	local siz_vb = val_b.len()
+	local siz_min = min(siz_va, siz_vb)
+	for(local i = 0; i < siz_va && i < siz_vb; i++ ) {
+		local num_a = val_a[i]
+		local num_b = val_b[i]
+		//gui.add_message("Array test -- val_a "+num_a+"  value_b "+num_b+" -- siz_A "+siz_va+" siz_B "+siz_vb)
+		if(num_a < num_b) {
+			result.st = true
+			return result
+		}
+		else if(num_a > num_b) {
+			result.st = false
+			return result
+		}
+		if (i == (siz_min-1)) {
+			if(siz_va <= siz_vb) {
+				result.st = true
+				return result
+			}
+			else {
+				result.st = false
+				return result
+			}
+		}
+	}
+	//-------------------------------------------------------------------------------------------------------------------------------
 	//gui.add_message("result st: "+result.st+"  result pak:" +result.pak)
 	return result
 }

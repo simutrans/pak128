@@ -8,13 +8,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
     - name: install_dependencies
+#         sudo apt-get -y update
       run: |
-          sudo apt-get -y update
           sudo apt-get -ym install libpng-dev
           sudo apt-get -ym install libsdl2-dev
           sudo apt-get -ym install libbz2-dev
@@ -38,6 +38,7 @@ jobs:
 
     - name: compile pakset
       run: |
+        ./text_import.sh
         make
         mv simupak128.zip simupak128-nightly.zip
 
