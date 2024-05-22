@@ -113,7 +113,7 @@ function get_set_name(name)
 	return name
 }
 
-simu_version <- "122.0.1"
+simu_version <- "124.0.1"
 pak_name <- "pak128"
 current_st <- "0"
 current_pak <- "pak"
@@ -174,12 +174,24 @@ function string_analyzer()
 			val_a.push(value_a)
 		}
 	}
+	//-------Debug ====================================
+	/*
+	local txta = ""
+	for(local j=0; j<val_a.len() ;j++){
+		txta += (val_a[j] +" :: ")
+	}
+	gui.add_message("list A: "+txta +" -- val_a siz: "+val_a.len())
+	*/
+	//-------Debug ====================================
 	//------------------------------------------------------------------------------------------------------------------------------
 
 	// Analyzer current simutrans version -------------------------------------------------------------------------------------
 	local value_b = ""
 	for(local j=nr_b;j<s_siz.b;j++){
 		local tx = format("%c",current_st[j])
+		if(j == s_siz.b-1) {
+			val_b.push(value_b)
+		}
 		try {
 			tx.tointeger()
 		}
@@ -194,10 +206,16 @@ function string_analyzer()
 			continue
 		}
 		value_b += tx
-		if(j == s_siz.b-1) {
-			val_b.push(value_b)
-		}
 	}
+	//-------Debug ====================================
+	/*
+	local txtb = ""
+	for(local j=0; j<val_b.len() ;j++){
+		txtb += (val_b[j] +" :: ")
+	}
+	gui.add_message("list B: "+txtb +" -- val_b siz: "+val_b.len())
+	*/
+	//-------Debug ====================================
 	//------------------------------------------------------------------------------------------------------------------------------
 
 	// Compare both simutrans versions -----------------------------------------------------------------------------------------
