@@ -1895,21 +1895,21 @@ class basic_chapter
 			glsw[nr] = 0
 			sigcoord = null
 			persistent.sigcoord = sigcoord
-			return translate("It must be a block signal!")+" ("+t.tostring()+")."
+			return translate("It must be a block signal!")+" ("+coord3d_to_string(t)+")."
 		}
 		if (glsw[nr] == 0 && ribi != addr){
 			sigcoord = t
 			persistent.sigcoord = sigcoord
 			return null
 		}
-		else if (glsw[nr] == 1)return translate("The signal is ready!")+" ("+t.tostring()+")."
+		else if (glsw[nr] == 1)return translate("The signal is ready!")+" ("+coord3d_to_string(t)+")."
 
 		if (sigcoord && t.x == sigcoord.x && t.y == sigcoord.y){
 			if (ribi == addr){
 				glsw[nr] = 1
 				sigcoord = null
 				persistent.sigcoord = sigcoord
-				return translate("The signal is ready!")+" ("+t.tostring()+")."
+				return translate("The signal is ready!")+" ("+coord3d_to_string(t)+")."
 			} 
 
 		}
@@ -2209,7 +2209,7 @@ class basic_chapter
 					}
 					else{
 						local halt = t.get_halt()
-						return format(translate("Select station No.%d [%s]"),j+1 , halt.get_name())+" ("+t.tostring()+")."
+						return format(translate("Select station No.%d [%s]"),j+1 , halt.get_name())+" ("+coord3d_to_string(t)+")."
 					}
 				}
 				if (j == siz-(1))
