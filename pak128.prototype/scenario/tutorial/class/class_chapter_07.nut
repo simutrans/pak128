@@ -30,7 +30,7 @@ class tutorial.chapter_07 extends basic_chapter
 	// Step 2
 	goal_lod2 = 400
 	st2_c = tile_x(30,30,0)
-	stop2 = tile_x(30,31,0)
+	stop2 = tile_x(32,31,0)
 
 	function load_limits(city)  //Load all limits for citys
 	{
