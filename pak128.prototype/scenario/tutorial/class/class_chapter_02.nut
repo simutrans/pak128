@@ -518,19 +518,18 @@ class tutorial.chapter_02 extends basic_chapter
 					this.next_step()
 				}
 				if (current_cov == ch2_cov_lim1.b){
-					local conv = my_tile(sch_list1[0]).find_object(mo_car)
-					if (conv) {
+					local conv = convoy_x(ch2_cov_lim1.b)
+					if (conv && conv.is_followed()) {
 						//Crear cuadro label
 						local opt = 0
 						label_bord(brdg_lim.a, brdg_lim.b, opt, false, "X")
 						//Elimina cuadro label
 						label_bord(del_lim1.a, del_lim1.b, opt, true, "X")
 						//label_bord(c_lock.a, c_lock.b, opt, true, "X")
-                        lock_tile_list(c_lock, c_lock.len(), true, 1)
+                        lock_tile_list(c_lock, c_lock.len(), true, 1)					
 						pot2=1
 					}
 				}
-
 				return 50
 				break
 			case 5:
