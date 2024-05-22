@@ -2568,6 +2568,30 @@ class basic_chapter
 		return tx
 	}
 
+	function get_build_name(siz, desc, freight, wt) 
+	{
+		local list = building_desc_x.get_available_stations(desc, wt, good_desc_x(freight))
+		foreach(build in list) {
+			if (build.is_available(0) && (siz == null || build.get_size(0).x == siz.x &&  build.get_size(0).y == siz.y)) {
+				//gui.add_message(""+build.get_name())
+				return build.get_name()
+			}
+		}
+		return "No have build!"
+	}
+
+	function get_way_name(kh, wt, st) 
+	{
+		local list = way_desc_x.get_available_ways(wt, st)
+		foreach(way in list) {
+			if (way.is_available(0) && way.get_topspeed() >= kh) {
+				//gui.add_message(""+way.get_name())
+				return way.get_name()
+			}
+		}
+		return "No have way!"
+	}
+
 	function build_stop_ex(nr, list, tile)
 	{
 		local result = 0 
