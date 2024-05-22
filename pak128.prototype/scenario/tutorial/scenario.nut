@@ -4,12 +4,12 @@
  
  *  Can NOT be used in network game !
  */
-const version = 1651
+const version = 1660
 map.file = "tutorial128.sve"
 scenario_name             <- "Tutorial Scenario"
 scenario.short_description = scenario_name
 scenario.author            = "Yona-TYT"
-scenario.version           = (version / 1000) + "." + ((version % 1000) / 100) + "." + ((version % 100) / 10) + (version % 10) +" beta"
+scenario.version           = (version / 1000) + "." + ((version % 1000) / 100) + "." + ((version % 100) / 10) + (version % 10)
 scenario.translation      <- ttext("Translator")
 
 resul_version <- {pak= false , st = false}
