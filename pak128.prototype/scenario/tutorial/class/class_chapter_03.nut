@@ -99,7 +99,7 @@ class tutorial.chapter_03 extends basic_chapter
 	//Para el puente
 	//------------------------------------------------------------------------------------------
 	c_bway_lim2 = {a = coord(68,18), b = coord(68,23)}
-	c_brge2 = {a = coord(68,19), b = coord(68,22)}
+	c_brge2 = {a = coord3d(68,19,2), b = coord3d(68,22,2)}
 	brge2_z = 0
 	//-------------------------------------------------------------------------------------------
 
@@ -1697,8 +1697,10 @@ class tutorial.chapter_03 extends basic_chapter
 				//Construye un puente
 				else if (pot0==1 && pot1==0){
 					if (pos.x>=c_bway_lim2.a.x && pos.y>=c_bway_lim2.a.y && pos.x<=c_bway_lim2.b.x && pos.y<=c_bway_lim2.b.y){
-						if(tool_id==tool_build_way)
+						if(tool_id==tool_build_way){
+							if(pos.z < c_brge2.a.z && slope ==0) return all_control(result, gl_wt, way, ribi, tool_id, pos, r_way.c)													
 							return null
+						}
 						if(tool_id==tool_build_bridge){
 							if(pos.z==brge2_z)
 								return null
