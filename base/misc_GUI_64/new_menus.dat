@@ -85,6 +85,10 @@ Image[29]=> menu_buttons.6.10
 Image[30]=> menu_buttons.6.11
 Image[31]=> menu_buttons.6.12
 Image[32]=> menu_buttons.6.13
+# chat & rankking
+Image[33]=> menu_buttons.5.12
+Image[34]=> menu_buttons.5.13
+
 --
 Obj=menu
 name=BarTools
