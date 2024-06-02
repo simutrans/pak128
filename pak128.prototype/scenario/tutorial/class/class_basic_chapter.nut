@@ -229,12 +229,38 @@ class basic_chapter
 
 	function update_convoy_removed(convoy, pl)
 	{
-		cov_save[current_cov]=convoy
-		id_save[current_cov]=convoy.id
-		if(correct_cov){
-			gcov_nr++
-			persistent.gcov_nr = gcov_nr
+		//gui.add_message("update_convoy_removed: "+convoy + " Correct "+correct_cov)
+		if(cov_save.len() <= current_cov) {
+			cov_save.push(convoy)
+			if(correct_cov){
+				gcov_nr++
+				persistent.gcov_nr = gcov_nr
+				current_cov = gcov_nr
+				persistent.current_cov = gcov_nr	
+			}
 		}
+		else{
+			cov_save[current_cov]=convoy
+			if(correct_cov){
+				gcov_nr++
+				persistent.gcov_nr = gcov_nr
+				current_cov = gcov_nr
+				persistent.current_cov = gcov_nr	
+			}
+		}
+	}
+
+	function is_cov_valid(cnv){
+		local result = true
+		// cnv - convoy_x instance saved somewhat earlier
+		try {
+			 cnv.get_pos() // will fail if cnv is no longer existent
+			 // do your checks
+		}
+		catch(ev) {
+			result = false
+		}
+		return result
 	}
 
 	function cov_pax(c, wt, good){
@@ -943,8 +969,8 @@ class basic_chapter
 				if (cov_dep.x == c_dep.x && cov_dep.y == c_dep.y){
 					//gui.add_message("("+cov.is_in_depot()+" .. "+cov.id+") .. ??"+id_end+"")
 					if(!cov.is_in_depot()){
-						for (local j =id_start ;j<id_end;j++){
-							if(cov.id == id_save[j]){
+						for (local j =id_start ;j<cov_save.len();j++){
+							if(cov.id == cov_save[j].id){
 								cov_nr++
 								break
 							}
@@ -962,8 +988,8 @@ class basic_chapter
 				if (cov_dep.x == c_dep.x && cov_dep.y == c_dep.y){
 					//gui.add_message("("+cov.is_in_depot()+" .. "+cov.id+") .. ??"+id_end+"")
 					if(!cov.is_in_depot()){
-						for (local j =id_start ;j<id_end;j++){
-							if(cov.id == id_save[j]){
+						for (local j =id_start ;j<cov_save.len();j++){
+							if(cov.id == cov_save[j].id){
 								cov_nr++
 								break
 							}

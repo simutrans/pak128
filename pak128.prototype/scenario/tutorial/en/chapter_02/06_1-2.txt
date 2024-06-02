@@ -22,7 +22,8 @@ Lines can be managed from the <em>Line Management</em> window and can be accesse
 <em>[2]</em> Select the stop {st2} and <st>leave everything as this</st>.<br/>
 <em>[3]</em> Select the stop {st3} and <st>leave everything as this</st>.<br/>
 <em>[4]</em> Select the stop {st4} and <st>leave everything as this</st>.<br/>
-<em>[5]</em> Select the stop {st5} and <st>leave everything as this</st>.
+<em>[5]</em> Select the stop {st5} and <st>leave everything as this</st>.<br/>
+<em>[6]</em> Select the stop {st6} and <st>leave everything as this</st>.
 </p>
 <p>
 <h1>Final steps:</h1>
