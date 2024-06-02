@@ -522,8 +522,7 @@ class tutorial.chapter_02 extends basic_chapter
 					this.next_step()
 				}
 				if (cov_valid && current_cov == ch2_cov_lim1.b){
-					local conv = convoy_x(ch2_cov_lim1.b)
-					if (conv && conv.is_followed()) {
+					if (conv.is_followed()) {
 						//Crear cuadro label
 						local opt = 0
 						label_bord(brdg_lim.a, brdg_lim.b, opt, false, "X")
