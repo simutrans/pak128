@@ -1720,6 +1720,8 @@ class basic_chapter
 	}
 
 	function all_control(result, wt, way, ribi, tool_id, pos, coor, plus = 0){
+		local t = tile_x(coor.x, coor.y, coor.z)
+		local brig = t.find_object(mo_bridge)
 		if ((tool_id==tool_remove_way)||(tool_id==tool_remover)){
 			if (way && way.get_waytype() != wt)
 				return result
@@ -1742,14 +1744,14 @@ class basic_chapter
 			}
 		}
 		else if (r_way.l)
-			return translate("The track is stuck, use the [Remove] tool here!")+" ("+coor.tostring()+")."
+			return translate("The track is stuck, use the [Remove] tool here!")+" ("+coord3d_to_string(t)+")."
 
 		//Control para que los puentes funcionen bien
 		bridge_control(way, tool_id)
 		if (bridge_sw){
 			return null
 		}
-		else if ((pos.x == coor.x && pos.y == coor.y && pos.z == coor.z)||(cursor_sw)){
+		else if ((pos.x == t.x && pos.y == t.y && pos.z == t.z)||(cursor_sw)){
 			if (tool_id==tool_build_way || tool_id==tool_build_tunnel){
 				if ((ribi==0) || (ribi==1) || (ribi==2) || (ribi==4) || (ribi==8)){
 					return null
@@ -1760,20 +1762,26 @@ class basic_chapter
 					if (under_lv != norm_view){
 						local sq = square_x(pos.x,pos.y)
 						local sq_z = sq.get_ground_tile().z
-						local c_test = sq.get_tile_at_height(coor.z+plus)
-						if((!c_test || !way) && under_lv <= coor.z && pos.z < sq_z){
+						local c_test = sq.get_tile_at_height(t.z+plus)
+						if((!c_test || !way) && under_lv <= t.z && pos.z < sq_z){
 							return null
 						}
 					}
-
 					return translate("No intersections allowed")+" ("+pos.tostring()+")."
 				}
 			}
 			else
 				return translate("Action not allowed")+" ("+pos.tostring()+")."
 		}
+		else if(brig) {
+			if (tool_id==tool_build_way) {
+				if ((ribi==0) || (ribi==1) || (ribi==2) || (ribi==4) || (ribi==8)){
+					return null
+				}
+			}
+		}
 		else{
-			return translate("Connect the Track here")+" ("+coord3d(coor.x, coor.y, coor.z).tostring()+")."
+			return translate("Connect the Track here")+" ("+coord3d(t.x, t.y, t.z).tostring()+")."
 		}
 
 		return ""
