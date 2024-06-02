@@ -35,10 +35,12 @@ persistent.r_way_list <- {}				//Save way list in fullway
 
 //----------------------------------------------------------------
 
-cov_save <- [convoy_x(0)]					//Guarda los convoys en lista
-ignore_save <- [{id = -1, ig = true}]		//Marca convoys ingnorados
+cov_save <- array(100)						//Guarda los convoys en lista
+id_save <- array(100)						//Guarda id de los convoys en lista
+ignore_save <- array(600)					//Marca convoys ingnorados
 
-persistent.ignore_save <- []
+persistent.ignore_save <- array(600)
+persistent.id_save <- array(100)
 
 //-------------Guarda el estado del script------------------------
 persistent.pot <- [0,0,0,0,0,0,0,0,0,0,0]
@@ -263,8 +265,7 @@ chapter            <- tutorial.chapter_02      	// must be placed here !!!
 
 function script_text()
 {	
-	local pause = debug.is_paused()
-	if (pause) return gui.add_message(translate("Advance is not allowed with the game paused."))
+
 	if(!correct_cov){
 		gui.add_message(""+translate("Advance not allowed"))
 		return null
@@ -368,11 +369,11 @@ function get_info_text(pl)
 
 function get_rule_text(pl)
 {
-	//-------Debug ====================================
 	/*
+	local cov_nr_debug = "All convoys-> "+gall_cov+":: Convoys count-> "+gcov_nr+":: current covoy-> "+current_cov+":: Correct cov-> "+correct_cov+":: Convoy id-> "+gcov_id+"<br><br>"
 	local tx = ""
 	local j=0
-	for(j;j<cov_save.len();j++){
+	for(j;j<gcov_nr;j++){
 		local result = true
 		// cnv - convoy_x instance saved somewhat earlier
 		try {
@@ -389,15 +390,13 @@ function get_rule_text(pl)
 		}
 
 		if (result) {
-			tx += "<em>["+j+"]</em> "+cov_save[j].id+"::"+cov_save[j].id+" <a href=\"("+cov_save[j].get_pos().tostring()+")\"> ("+cov_save[j].get_pos().tostring()+")</a> "+cov_save[j].get_name()+" :: "+cov_save[j].id+"<br>"
+			tx += "<em>["+j+"]</em> id cov save: "+id_save[j]+" :: id conv: "+cov_save[j].id+" <a href=\"("+cov_save[j].get_pos().tostring()+")\"> ("+cov_save[j].get_pos().tostring()+")</a> "+cov_save[j].get_name()+"<br>"
 		}
 		else
-			tx += "<st>["+j+"]</st> "+cov_save[j].id+"::"+cov_save[j]+"<br>"
+			tx += "<st>["+j+"]</st> "+id_save[j]+"::"+cov_save[j]+"<br>"
 	}
-
-	return tx
+	return cov_nr_debug + tx
 	*/
-	//------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	return chapter.give_title() + chapter.get_rule_text( pl, my_chapter() )
 }
 
@@ -487,10 +486,9 @@ function labels_text_debug()
 
 function is_scenario_completed(pl)
 {
-	//-------Debug ====================================
+	//labels_text_debug()
 	//gui.add_message(""+glsw[0]+"")
-	//gui.add_message("!!!!!"+persistent.step+" ch a "+st_nr[0]+"  !!!!! "+persistent.status.step+"  -- "+chapter.step+"")		
-	//------------------------------------------------------------------------------------------------------------------------------		
+	//gui.add_message("!!!!!"+persistent.step+" ch a "+st_nr[0]+"  !!!!! "+persistent.status.step+"  -- "+chapter.step+"")				
 	if (pl != 0) return 0			// other player get only 0%
 
 	if (currt_pos){
@@ -517,9 +515,8 @@ function is_scenario_completed(pl)
 		gui.open_info_win_at("goal")
 		gui_delay = false
 	}
-	//-------Debug ====================================
+
 	//gui.add_message(""+current_cov+"  "+gall_cov+"")
-	//------------------------------------------------------------------------------------------------------------------------------
 	//Para los convoys ---------------------
 	if (gall_cov != current_cov){
 		basic_convoys().checks_convoy_removed(pl)
@@ -532,10 +529,7 @@ function is_scenario_completed(pl)
 	correct_cov = basic_convoys().correct_cov_list()
 	persistent.gall_cov = gall_cov
 
-	//-------Debug ====================================
-	//gui.add_message("gall_cov-> "+gall_cov+":: gcov_nr-> "+gcov_nr+":: current_cov-> "+current_cov+":: Step-> "+chapter.step+":: PersisStep-> "+persistent.step+":: Status->"+persistent.status.step+"")
-	//-------Debug ====================================
-	//------------------------------------------------------------------------------------------------------------------------------
+//gui.add_message("gall_cov-> "+gall_cov+":: gcov_nr-> "+gcov_nr+":: current_cov-> "+current_cov+":: Step-> "+chapter.step+":: PersisStep-> "+persistent.step+":: Status->"+persistent.status.step+"")
 
 	if(!correct_cov) {
 		if (!resul_version.pak || !resul_version.st)
@@ -580,7 +574,7 @@ function is_scenario_completed(pl)
 function is_work_allowed_here(pl, tool_id, pos)
 {	
 	local pause = debug.is_paused()
-	//if (pause) return translate("Advance is not allowed with the game paused.")
+	if (pause) return translate("Advance is not allowed with the game paused.")
 
 	//return tile_x(pos.x,pos.y,pos.z).find_object(mo_way).get_dirs()
 	if (pl != 0) return null
@@ -622,7 +616,7 @@ function fail_count_message(result, tool_id)
 function is_schedule_allowed(pl, schedule)
 {
 	local pause = debug.is_paused()
-	//if (pause) return translate("Advance is not allowed with the game paused.")
+	if (pause) return translate("Advance is not allowed with the game paused.")
 
     local result = null
 
@@ -639,7 +633,7 @@ function is_schedule_allowed(pl, schedule)
 function is_convoy_allowed(pl, convoy, depot)
 {
 	local pause = debug.is_paused()
-	//if (pause) return translate("Advance is not allowed with the game paused.")
+	if (pause) return translate("Advance is not allowed with the game paused.")
 
 	local result = null
 	basic_convoys().checks_convoy_removed(pl)
@@ -713,6 +707,7 @@ function resume_game()
 	current_cov = persistent.current_cov
 	gcov_id = persistent.gcov_id
 	sigcoord = persistent.sigcoord
+	id_save = persistent.id_save
 	ignore_save = persistent.ignore_save
 	
 	pot0=persistent.pot[0]

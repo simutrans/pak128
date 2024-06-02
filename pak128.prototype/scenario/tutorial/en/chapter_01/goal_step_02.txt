@@ -6,12 +6,12 @@ In addition, it is highly recommended that Trees are set to transparent, either 
 You can <em>zoom</em> in and out using either the Mouse wheel, or by using the <em>"Page Up/Page Down Keys"</em>.
 </p>
 <p>
-You can <em>move</em> about the map either by holding down the Right Mouse button and dragging, by using the Arrow Keys or by using the number pad.</p>
+You can <em>move</em> about the map either by holding down the Right Mouse button and dragging, using the Arrow Keys or the number pad.</p>
 <p>
-Try zooming in and out and moving about the map.
+You can <em>rotate</em> the map by pressing <em>"[Shift]+r" (Capital "R")</em> or in from toolbar select <em>Rotate Map</em> tool.
 </p>
 <p>
-You can <em>rotate</em> the map by pressing <em>"[Shift]+r" (Capital "R")</em> or by selecting the <em>Rotate Map</em> tool in the Toolbar.
+Try zooming in and out and moving about the map.
 </p>
 <p>
 <st>To proceed to the next step</st>, rotate the map.

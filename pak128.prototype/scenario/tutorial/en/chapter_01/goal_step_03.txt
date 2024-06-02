@@ -1,25 +1,25 @@
 <p>
-Now that you know how to move around the map, the next step is getting information about items on the map.
+Now that you know how to move around the map, the next step is to retrieve information about items on the map.
 </p>
 <p>
 <h1>Inspection Tool</h1>
-This is the main tool of the game. You can use it any time and it does not cost in-game money. Once the tool has been selected, left-click on any object on the map to open its information window. It is selected by default; you can also change to it (from another tool) using the magnifying glass icon in the menu bar or by pressing the <em>"A" key</em>.
+This is the main tool of the game, it is completely free for all players and allows to display the information window on any object on the map. It is also selected by default, if not it can be selected from the menu bar (the magnifying glass icon) or by pressing the <em>"A" key</em>.
 </p>
 <p>
-Another item to note is the world position listed at the bottom of the screen in (x,y,z) format. Warning: these coordinates depend on the current rotation of the map. So if you rotate the map, the co-ordinates of all objects on the map will change.
+Another item to note is the world position listed at the bottom of the screen in (x,y,z) format. Warning: these coordinates depends on the current rotation of the map.
 </p>
 <p>
-To proceed, first click on <em>the statue of the legendary Isaac</em> at {pos} with the <em>'{tool1}'</em>. After clicking on the location, an information window opens. You may close it by clicking the <em>"[X]"</em> in the top left corner or pressing <em>"[Escape]"</em> to close the top most window. Alternatively, press <em>"[Backspace]"</em> to close all open windows.
+To proceed first click on the {pos} <em>(the statue of the legendary Isaac)</em> with the <em>'{tool1}'</em>. After clicking on the location, you may close the information window that displays by clicking the <em>"[X]"</em> in the top left corner, pressing <em>"[Escape]"</em> to close the top most window, or press <em>"[Backspace]"</em> to close all open windows.
 </p>
 <p>
-Lastly, use the <em>'{tool1}'</em> in the {buld_name} and close the information window.
+Lastly use the <em>'{tool1}'</em> in the {buld_name} and close the info window.
 </p>
 <p>
-<em>Tip:</em> You can click on the preview of the object in the pop-up information window, which will take you directly to its location on the map.
+<em>Tip:</em> You can click on the preview of the object in the pop-up information windows, this will take you directly to its location on the map.
 </p>
 <p>
 <st>Note:</st> By pressing the <em>"[Backspace]"</em> key, all windows are closed, including the current scenario window.
 </p>
 <p>
-<st>To proceed to the next step</st>, click on {pos} and then on {buld_name} with the <em>'{tool1}'</em>.
+<st>To proceed to the next step</st>, click on the {pos} and then on {buld_name} with the <em>'{tool1}'</em>.
 </p>
