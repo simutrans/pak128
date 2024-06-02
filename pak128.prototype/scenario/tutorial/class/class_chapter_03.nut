@@ -1535,7 +1535,7 @@ class tutorial.chapter_03 extends basic_chapter
 					else if(tool_id==tool_build_way)
 							return translate("Connect the Track here")+" ("+r_way.c.tostring()+")."
 				}
-				//Construye Pediente recta
+				//Construye Pendiente recta
 				if (pot0==1 && pot1==0){ 
 					if ((pos.x==slope1.c.x)&&(pos.y==slope1.c.y)){
 						if (tool_id==4100){
@@ -1575,6 +1575,8 @@ class tutorial.chapter_03 extends basic_chapter
 				//Segundo tramo de rieles
 				if (pot3==1&&pot4==0){
 					if (pos.x>=st2_way_lim.a.x && pos.y>=st2_way_lim.a.y && pos.x<=st2_way_lim.b.x && pos.y<=st2_way_lim.b.y){
+						if(tool_id==tool_build_bridge)
+							return result
 						return all_control(result, gl_wt, way, ribi, tool_id, pos, r_way.c)	
 					}
 					if (pos.x>=bord2_lim.a.x && pos.y>=bord2_lim.a.y && pos.x<=bord2_lim.b.x && pos.y<=bord2_lim.b.y){
@@ -1713,9 +1715,9 @@ class tutorial.chapter_03 extends basic_chapter
 				//Segundo tramo de rieles
 				if (pot1==1&&pot2==0){
 					if (pos.x>=st4_way_lim.a.x && pos.y>=st4_way_lim.a.y && pos.x<=st4_way_lim.b.x && pos.y<=st4_way_lim.b.y){
-						
-							return all_control(result, gl_wt, way, ribi, tool_id, pos, r_way.c)
-						
+						if(tool_id==tool_build_bridge)
+							return result
+						return all_control(result, gl_wt, way, ribi, tool_id, pos, r_way.c)				
 					}
 					if (pos.x>=bord4_lim.a.x && pos.y>=bord4_lim.a.y && pos.x<=bord4_lim.b.x && pos.y<=bord4_lim.b.y){
 						if (!way && label && label.get_text()=="X"){
@@ -1723,7 +1725,6 @@ class tutorial.chapter_03 extends basic_chapter
 						}
 						return all_control(result, gl_wt, way, ribi, tool_id, pos, r_way.c)
 					}
-
 					else if(tool_id==tool_build_way)
 						return translate("Connect the Track here")+" ("+r_way.c.tostring()+")."					
 				}
