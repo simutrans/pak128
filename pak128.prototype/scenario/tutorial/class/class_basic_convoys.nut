@@ -56,17 +56,27 @@ class basic_convoys
 			if (id>gcov_id)
 				gcov_id = id
 
-			if (!cov.is_in_depot() && !ignore_save[id])
+			if (!cov.is_in_depot() && convoy_ignore(ignore_save, id))
 				cov_nr++	
 		}	
 		return cov_nr
+	}
+
+	function convoy_ignore(list, id)
+	{
+		for(local j = 0; j<list.len(); j++) {
+			if(list[j].id == id)
+				return false
+		}
+		return true
 	}
 
 	function checks_convoy_removed(pl)
 	{
 		local j = 0
 		local sw = true
-		for(j;j<gcov_nr;j++){
+		for(j;j<cov_save.len();j++){
+			//gui.add_message("checks_convoy_removed --- j "+ j)
 			local result = true
 			// cnv - convoy_x instance saved somewhat earlier
 			try {
@@ -81,12 +91,11 @@ class basic_convoys
 					persistent.current_cov = j				
 				}
 				sw = false
+				break
 			}
 			if (result){
-				//gui.add_message(""+convoy_x(id_save[j]).is_in_depot()+"")
-				if (convoy_x(id_save[j]).is_in_depot()){
-					cov_save[j] = null
-							
+				if (cov_save[j].is_in_depot()){
+					cov_save[j] = null						
 				}
 			}
 		}
