@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 10.01 2022                           #
+#                           Date Created: 12.05 2024                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -1893,9 +1893,13 @@ Flughafen-Richtungsbeschränkung
 #___________________________roadsign - monorail_track___________________________
 #___________________________roadsign - monorail_track___________________________
 choose_signal_monorail
-Gleiswahlsignal (Schwebebahn)
+GleiswahlsignalAb diesem Signal wird die Strecke bis zum Endbahnsteig reserviert (falls nicht noch ein weiteres Gleiswahlsignal folgt). Ist das Gleis im Endbahnhof besetzt, wird ein anderes freies Gleis gesucht. Eignet sich nicht für Durchfahrtbahnhöfe.
+end_of_choose_monorail
+Bereichsende Gleissuche\n\nDie Gleise nach diesem Zeichen werden bei der Suche nach einem freine Gleis von einem Gleiswahlsignal ausgenommen.
 preSignal_Monorail
 Vorsignal (Schwebebahn)
+prioritySignal_Monorail
+Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normal Signal an der Einfahrt. 
 Signal_Monorail
 Signal (Schwebebahn)
 #________________________________roadsign - road________________________________
@@ -1923,43 +1927,51 @@ Verkehrsampel
 #_______________________________roadsign - track________________________________
 #_______________________________roadsign - track________________________________
 ChooseSignals
-Gleiswahlsignal
+Gleiswahlsignal\b\bAb diesem Signal wird die Strecke bis zum Endbahnsteig reserviert (falls nicht noch ein weiteres Gleiswahlsignal folgt). Ist das Gleis im Endbahnhof besetzt, wird ein anderes freies Gleis gesucht. Eignet sich nicht für Durchfahrtbahnhöfe.
 Classic_ChooseSignals_right
-Auswahlsignal (Classic)
+Gleiswahlsignal (Classic)\n\nAb diesem Signal wird die Strecke bis zum Endbahnsteig reserviert (falls nicht noch ein weiteres Gleiswahlsignal folgt). Ist das Gleis im Endbahnhof besetzt, wird ein anderes freies Gleis gesucht. Eignet sich nicht für Durchfahrtbahnhöfe.
 Classic_LongSignals_right
 Langblocksignal (Classic)
 Classic_preSignals_right
 2-Block-Signal (Classic)
+Classic_prioritySignals_right
+Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normal Signal an der Einfahrt. 
 Classic_Signals_right
 einfaches Signal (Classic)
 Early_ChooseSignals_right
-Auswahlsignal (Early)
+Gleiswahlsignal (Frühe Form)\n\nAb diesem Signal wird die Strecke bis zum Endbahnsteig reserviert (falls nicht noch ein weiteres Gleiswahlsignal folgt). Ist das Gleis im Endbahnhof besetzt, wird ein anderes freies Gleis gesucht. Eignet sich nicht für Durchfahrtbahnhöfe.
 Early_LongSignals_right
 Langblocksignal (Early)
 Early_preSignals_right
 2-Block-Signal (Early)
+Early_prioritySignals
+Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normal Signal an der Einfahrt. 
 Early_Signals_right
 einfaches Signal (Early)
 EndOfChooseSignals
-Weg-Reservierungssignal (EndOfChooseSignals)
+Bereichsende Gleissuche\n\nDie Gleise nach diesem Zeichen werden bei der Suche nach einem freine Gleis von einem Gleiswahlsignal ausgenommen.
 LongSignals
 Langblocksignal
 Modern_ChooseSignals_right
-Auswahlsignal (Modern)
+Gleiswahlsignal (Modern)\n\nAb diesem Signal wird die Strecke bis zum Endbahnsteig reserviert (falls nicht noch ein weiteres Gleiswahlsignal folgt). Ist das Gleis im Endbahnhof besetzt, wird ein anderes freies Gleis gesucht. Eignet sich nicht für Durchfahrtbahnhöfe.
 Modern_EndOfChooseSignals_right
-Weg-Reservierungssignal (EndOfChooseSignals)(Modern)
+Bereichsende Gleissuche\n\nDie Gleise nach diesem Zeichen werden bei der Suche nach einem freine Gleis von einem Gleiswahlsignal ausgenommen.
 Modern_LongSignals_right
 Langblocksignal (Modern)
 Modern_OneWaySignals_right
 Ein-Weg-Signal (Modern)
 Modern_preSignals_right
 2-Block-Signal (Modern)
+Modern_prioritySignals_right
+Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normal Signal an der Einfahrt. 
 Modern_Signals_right
 einfaches Signal (Modern)
 OneWaySignals
 Ein-Weg-Signal\n
 preSignals
 Zwei-Block-Signal
+prioritySignals
+Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normal Signal an der Einfahrt. 
 Signals
 Signal
 #_____________________________________tree______________________________________

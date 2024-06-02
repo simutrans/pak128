@@ -9,7 +9,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 8.04 2024                           #
+#                           Date Created: 12.05 2024                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -1963,9 +1963,13 @@ One-way Runway Sign
 #___________________________roadsign - monorail_track___________________________
 #___________________________roadsign - monorail_track___________________________
 choose_signal_monorail
-Monorail Platform Choose Signal
+Platform Choose SignalWhen passing this signal, the entire route till the next platform is reserved (unless there is another choo signal on that route). If the platform is occupied, another platform is searched and the entire route is reserved. Should be built close to a station entrance only.
+end_of_choose_monorail
+End of choose area\n\nThe search for a free platform from the choose signal stops here. If the actual platform is after this sign, no platforms will be chosen at all.
 preSignal_Monorail
 Monorail Presignal
+prioritySignal_Monorail
+Priority signal\n\nUseful for passing lanes. Put the priority signal on the main line (one or more) at the passing loop and a normal signal at the exit of the side passing. The priority signal will additionally try to reserve the next signal. But it will allow passing even if the second signal cannot switch.
 Signal_Monorail
 Monorail signal
 #________________________________roadsign - road________________________________
@@ -2001,37 +2005,43 @@ Traffic light
 #_______________________________roadsign - track________________________________
 #_______________________________roadsign - track________________________________
 ChooseSignals
-Platform Choose Signal (standard)
+Platform Choose Signal (standard)\n\nWhen passing this signal, the entire route till the next platform is reserved (unless there is another choo signal on that route). If the platform is occupied, another platform is searched and the entire route is reserved. Should be built close to a station entrance only.
 Classic_ChooseSignals_right
-Platform Choose Signal (classic type)
+Platform Choose Signal (classic type)\n\nWhen passing this signal, the entire route till the next platform is reserved (unless there is another choo signal on that route). If the platform is occupied, another platform is searched and the entire route is reserved. Should be built close to a station entrance only.
 Classic_LongSignals_right
 Long Block Signal (classic type)
 Classic_preSignals_right
 Presignal (classic type)
+Classic_prioritySignals_right
+Priority signal (right)\n\nUseful for passing lanes. Put the priority signal on the main line (one or more) at the passing loop and a normal signal at the exit of the side passing. The priority signal will additionally try to reserve the next signal. But it will allow passing even if the second signal cannot switch.
 Classic_Signals_right
 Rail Signal (classic type)
 Early_ChooseSignals_right
-Platform Choose Signal (early type)
+Platform Choose Signal (early type)\n\nWhen passing this signal, the entire route till the next platform is reserved (unless there is another choo signal on that route). If the platform is occupied, another platform is searched and the entire route is reserved. Should be built close to a station entrance only.
 Early_LongSignals_right
 Long Block Signal (early type)
 Early_preSignals_right
 Presignal (early type)
+Early_prioritySignals
+Priority signal (early form)\n\nUseful for passing lanes. Put the priority signal on the main line (one or more) at the passing loop and a normal signal at the exit of the side passing. The priority signal will additionally try to reserve the next signal. But it will allow passing even if the second signal cannot switch.
 Early_Signals_right
 Rail Signal (early type)
 EndOfChooseSignals
-End of Choose Signal
+End of choose area\n\nThe search for a free platform from the choose signal stops here. If the actual platform is after this sign, no platforms will be chosen at all.
 LongSignals
 Long Block Signal (standard type)
 Modern_ChooseSignals_right
-Platform Choose Signal (modern type)
+Platform Choose Signal (modern type)\n\nWhen passing this signal, the entire route till the next platform is reserved (unless there is another choo signal on that route). If the platform is occupied, another platform is searched and the entire route is reserved. Should be built close to a station entrance only.
 Modern_EndOfChooseSignals_right
-End of Choose Signal (modern type)
+End of Choose Sign(modern type)\n\nThe search for a free platform from the choose signal stops here. If the actual platform is after this sign, no platforms will be chosen at all.
 Modern_LongSignals_right
 Long Block Signal (modern type)
 Modern_OneWaySignals_right
 One Way Signal (modern type)
 Modern_preSignals_right
 Presignal (modern type)
+Modern_prioritySignals_right
+Priority signal (modern type)\n\nUseful for passing lanes. Put the priority signal on the main line (one or more) at the passing loop and a normal signal at the exit of the side passing. The priority signal will additionally try to reserve the next signal. But it will allow passing even if the second signal cannot switch.
 Modern_Signals_right
 Rail Signal (modern type)
 OneWaySignals
@@ -2039,7 +2049,7 @@ One Way Signal (standard type)
 preSignals
 Presignal (standard type)
 prioritySignals
-Priority signal (standard type)
+Priority signal (standard type)\n\nUseful for passing lanes. Put the priority signal on the main line (one or more) at the passing loop and a normal signal at the exit of the side passing. The priority signal will additionally try to reserve the next signal. But it will allow passing even if the second signal cannot switch.
 Railgate
 Private Barrier
 Signals

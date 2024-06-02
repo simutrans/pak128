@@ -9,7 +9,7 @@
 #                             Language: es Espanol                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 10.01 2022                           #
+#                           Date Created: 12.05 2024                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -697,9 +697,17 @@ Muelle
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 HQ1
-Cuarteles generales
+Sede central de Simutrans\nEsta oficina es la sede administrativa de Simutrans.  Ese camión azul es propiedad de Simutrans y se utiliza para ayudar con las herramientas de desmonte.
 HQ2
-Oficinas centrales
+Sede central de Simutrans\nEste edificio alberga un enorme centro de control dentro de sus muros, desde el que se controla todo, desde el amanecer y el atardecer hasta el canto de los pájaros.\nNo, de hecho, se trata de un edificio ordinario lleno de oficinas ordinarias y funcionarios aún más ordinarios... ¿O no?
+HQ3
+Sede central de Simutrans\n
+HQ4
+Edificio de la sede central\n\nEste es el moderno edificio de la sede central de Simutrans.
+HQ5
+Edificio de la sede central\n\nSe trata de un moderno rascacielos de la sede de Simutrans.
+HQ6
+Edificio de la sede central\n\nEste es el rascacielos más nuevo de la sede de Simutrans.
 #________________________________building - ind_________________________________
 #________________________________building - ind_________________________________
 IND_00_01
@@ -1292,6 +1300,10 @@ RES_05_28
 Esta vivienda de alquiler\nbarato fue un proyecto que\nfundado hace ya más de\ntreinta años. Aunque el\nedificio está empezando a\nmostrar signos propios de\nsu edad, los residentes\nmas antiguos no dudan en\nasegurar que el\nmantenimiento esta al día.\n
 RES_05_30
 Sorprendentemente, este\nedificio ha existido durante\ndécadas sin llamar mucho la\natención. Es decir, hasta la\nsemana pasada, cuando\ndespués de una encuesta\nal azar se descubrió que se\ntrató una vez del hogar de\nWilliam "Wimpy"\nWipchester, fundador de\nlos restaurantes de Comida\nRápida Saludable\nBugerboo's y la casa de la "W de\nOro".\n
+RES_05_56
+Doble torre de apartamentos\n\n
+RES_05_60
+Apartamentos\n\n
 RES_06_01
 Este edificio se encuentra\nprincipalmente en las zonas\nmás pudientes de la ciudad.\nEs una modesta casa para\nlas personas con muy\nbajos ingresos o sin ellos,\ntodo lo que necesitas es\nun televisor.\n
 RES_06_02
@@ -1358,6 +1370,8 @@ RES_06_37
 Aunque este es un edificio\nmaravillosamente diseñado\ny construido, lo más\nnotable acerca de él es el\nárbol que hay fuera. El\nedificio tuvo que ser\nconstruido respetando al\nárbol, ya que es un hito\nhistórico. En este mismo\nárbol, casi cincuenta años\natrás, el último gorrión\npirenaico de vientre azul\nrecibió un disparo de un niño con\nuna pistola de feria y lo\ninscribieron oficialmente como\nextinguido.\n
 RES_06_38
 Las especiosas y grandes\nhabitaciones, cocinas\ngourmet y dispositivos de\nalta tecnología por lo\ngeneral indican una\nvivienda de gama alta. Pero\ncuando planes de\nrenovación de la ciudad se\nllevaron a cabo este\nedificio se transformó en\nviviendas de alquiler barato\npara atraer inquilinos.\n
+RES_06_39
+Apartamentos con jardín privativo\n\n
 RES_06_40
 El gris perla de la fachada\ndesmiente el brillante y\ncolorido interior. Cada\npulgada de cada pared de\ncada pasillo, escalera y\nascensor está cubierto con\ntreinta años de graffitis y\ntaqueos de pandillas.\n
 RES_06_41
@@ -1368,6 +1382,8 @@ RES_06_43
 Las ventanas tintadas de\ncolor lavanda son un regalo\nde los dioses para la clase\nde gente que vive aquí, por\nno mencionar las violetas\nfrescas en el vestíbulo\ndecorado con tonos púrpura\nen torno a la entrada. Así\nes! La comunidad de los\namantes del violeta. Es\nincreíble que tantas\npersonas estén tan\nobsesionadas con el color\nmorado.\n
 RES_06_44
 La maravillosa vista\npanorámica que se disfruta\ndesde este edificio es\nfruto del trabajo durante\nmucho tiempo de la vecina\nGladys Hudsucker. Ella se\nniega a revelar su secreto\ny solo dice: "Está todo en\nel estiércol". Todo el mundo\ndice que Gladys esta llena\nde él.\n
+RES_06_47
+Bloque de doble torre
 RES_06_48
 Este bonito edificio rojo de\napartamentos alberga\nprincipalmente familias\njóvenes. A los niños les\nencanta jugar en el jardín\ny subirse a los árboles.\n\n
 RES_06_52
@@ -1382,6 +1398,8 @@ RES_06_56
 Este edificio es propiedad\nde una copeerativa\nformada por inquilinos.\nCada vez que un inquilino\nse va, los nuevos\naspirantes tienen que ser\naceptados por unanimidad\npor los residentes\nactuales. No estaría tan\nmal si Bruce Pimpernicke,\nde la séptima planta, no\ninsistiera en que todos los\nrecién llegados tuvieran que ser\ncapaces de recitar el poema de\ncincuenta páginas que él mismo\nescribió, titulado 'Elogio a Bruce'.\n
 RES_06_57
 A primera vista parece que\nhaya grandes unidades de\naire acondicionado en el\ntecho, por lo que el edificio\ndebe ser muy fresco. Este\nedificio es el hogar de una\ncomunidad vegana y las\nmáquinas del techo son las\nbombas de recirculación de\nlos jardines hidropónicos\nque hay en todos los\napartamentos. Así que el\nedificio no está en absoluto\nrefrigerado.\n
+RES_06_58
+Apartamentos\n\n
 RES_06_60
 Esta torre de apartamentos\nganó un famoso y\nprestigioso premio de\ncalidad de vida cuando fue\nconstruido. Pero eso fue en\nel pasado. Aun es muy\natractivo, pero la edad\npuede verse en su interior.\nEl diseño de las\nhabitaciones y calidad de\nlos servicios no cumple con\nlos estándares de hoy,\nincluso después de medio\nreconstruirse. Pero aun es\natractivo vivir aquí, al menos en\ncomparación con otros aburridos\nedificios de hormigón. Y en los\núltimos cuatro años ha tenido\notro atractivo especial: este es\nel lugar donde el famoso criminal\nKajinek estuvo escondido\ndespués de fugarse de la prisión\nmás segura del país.\n
 RES_07_01
@@ -1420,14 +1438,22 @@ RES_07_18
 Esta es una familia muy\ntípica; el padre trabaja un\nsupermercado local. La\nmamá se ocupa de los niños\ny la casa. Los niños, por\notro lado, son en realidad\nagentes secretos\ninfiltrados. Ni siquiera sus\npadres saben que en vez\nde ir a la escuela todos los\ndías, combaten contra\nterroristas internacionales.\n
 RES_07_19
 Bungalow con un gran jardín\n\n
+RES_07_20
+Apartamentos\n\n
 RES_07_21
 Este edificio de\napartamentos es el hogar\nde mucha gente. Todos\nellos conducen coches\n'Smart'.\n\n
 RES_07_22
 Bloque de apartamentos\n\n
+RES_07_23
+Apartamentos\n\n
 RES_07_24
 Bloque de pisos\n\n
 RES_07_25
 Cooperativa de viviendas\nMalthaner\n\n
+RES_08_06
+Una bonita casa. Es el\ntipo de casa que se ve\nconduciendo a través de\nlos suburbios de su ciudad.\n
+RES_08_09
+Vivienda unifamiliar\n\n
 RES_08_10
 La persona que construyó\nesta casa tenía la filosofía\nque cada hogar debería\ntener un porche para\ndivertirse con la familia y\nlos amigos, relajarse y\nhacer sus propios helados.\n
 RES_08_11
@@ -1446,6 +1472,8 @@ RES_08_17
 Esta casa parece que\nhecha de piedra, pero en\nrealidad está hecha de\nhormigón normal con un\nforro de piedra. Los rumores\ndicen, que esta casa fue\nuna residencia de la KGB.\nAunque nadie puede\ndemostrarlo, cada uno trata\nde averiguarlo.\n
 RES_08_18
 El hombre que vive aquí es\nmuy olvidadizo. Olvida sus\nllaves en su coche tan a\nmenudo que el cerrajero\nlocal le hace una\nfinanciación a medida.\n\n
+RES_08_19
+Apartamentos\n\n
 RES_08_21
 Este edificio contiene tres\npequeños apartamentos y\nuna gran cantidad de\naparcamientos. Si es\nsoltero, puede ser una\nbuena opción para usted.\n\n
 RES_08_31
@@ -1458,8 +1486,12 @@ RES_08_36
 La lista de espera para\nmudarse a este edificio es\ntan larga que los padres\nhan empezado a poner a\nsus hijos en la lista en el\nmomento del nacimiento...\nSi tienen suerte pueden ser\ncapaces de mudarse ellos\nantes de jubilarse.\n
 RES_08_43
 Con la altura de antena y la\nparabólica del techo, este\nes un paraíso para los\namantes de los medios de\ncomunicación. Hay fibra\nóptica por todo el edificio y\nla banda ancha es una de\nlas más rápidas de la\nciudad. Cualquier persona\nque navega por internet\nbabearia por vivir aquí. Sin\nembargo, en esta\ncomunidad de jubilados, poner la\nhora en su DVD se considera un\nlogro tecnológico.\n
+RES_08_47
+Doble torre de apartamentos\n\n
 RES_09_35
 En este edificio, el\nascensor esta permanente\nfuera de servicio. Es por\neso que no hay personas\nmayores entre los vecinos.\n\n
+RES_09_56
+Apartamentos doble\n\n
 RES_10_01
 Este parque puede parecer\nmuy simple, pero es en\nrealidad una premiada obra\nde arte. El creador de este\noriginal diseño fue\nrecompensado con el exilio\nde Simutrans por su\ntrabajo.\n
 RES_10_02
@@ -1502,6 +1534,8 @@ RES_10_29
 "Disfruta la vida" era el\nconcepto de un concurso\nde arquitectura. Esta casa\nganó un premio. Siendo muy\ndistinto de los tipos de\nconstrucción habituales,\neste edificio atrajo a\npersonas que odian a vivir\nnormalmente. Nadie pensó\nen los terremotos ...\n
 RES_10_30
 Este edificio también es\nbastante nuevo. Conexión\nADSL a Internet,\ncalefacción central y\nmodernas cocinas son sólo\nalgunas de las ventajas de\nesta moderna casa. ¡No\nparece muy bonito por\nfuera, pero que importa si\nvives dentro!\n
+RES_10_45
+Apartamentos con terrazas\n\n
 RES_11_03
 Con sus bellos paisajes\ndesde el jardin, esta casa\nha ganado el premio a la\nparcela del mes más de\nquince veces.\n\n
 RES_11_04
@@ -1644,6 +1678,8 @@ RES_14_17
 Esta casa ha estado aquí\ndesde hace mucho tiempo.\nTendrás suerte si ves al\nleñador que vive aquí. Se\nsienta durante todo el día\nen el patio trasero y talla\ncucharas, platos, estatuas\n- cualquier cosa que le\napetezca en ese momento.\nLos vecinos dicen que\ncuando viajan, sus obras\nles hacen rememorar su\nhogar.\n
 RES_14_18
 Esta casa es mucho más\ncómoda de lo que parece a\nprimera vista\n\n
+RES_14_19
+Escuela primaria
 RES_14_20
 Otro edificio más de\nhormigón\n\n
 RES_14_21
@@ -1684,6 +1720,54 @@ RES_17_20
 Finca "La milla rosada"\n\n
 RES_17_21
 Bloque de pisos de alquiler\nmunicipal\n\n
+RES_20_33
+Apartamentos modernos\n\n
+RES_20_34
+Apartamentos modernos\n\n
+RES_20_57
+Apartamentos modernos\n\n
+RES_22_21
+Apartamentos modernos\n\n
+RES_22_22
+Apartamentos modernos\n\n
+RES_22_35
+Apartamentos modernos\n\n
+RES_23_22
+Apartamentos modernos\n\n
+RES_23_29
+Apartamentos modernos\n\n
+RES_24_34
+Apartamentos reformados\n\n
+RES_25_28
+Apartamentos reformados\n\n
+RES_25_29
+Pisos reformados\n\n
+RES_25_34
+Apartamentos reformados\n\n
+RES_27_39
+Apartamentos modernos\n\n
+RES_27_49
+Apartamentos modernos\n\n
+RES_28_34
+Apartamentos modernos\n\n
+RES_29_35
+Apartamentos modernos\n\n
+RES_29_37
+Apartamentos modernos\n\n
+RES_29_40
+Apartamentos modernos\n\n
+RES_29_46
+Apartamentos modernos\n\n
+RES_30_31
+Apartamentos modernos\n\n
+RES_30_34
+Apartamentos modernos\n\n
+RES_30_44
+Apartamentos modernos\n\n
+RES_30_45
+Apartamentos modernos\n\n
+RES_31_23
+Apartamentos modernos\n\n
 RES_65_12
 Gran casa unifamiliar con patio delantero\n\n
 #________________________________building - stop________________________________
@@ -1692,6 +1776,8 @@ AirStop_AirportBlg
 Parada aérea
 big_classic_bus_stop
 Parada gemelo
+big_early_bus_stop
+Parada de autobús y buzón de correos (marquesina grande)
 big_modern_bus_stop
 Estación de autobuses
 bus_terminus
@@ -1740,6 +1826,14 @@ small_early_bus_stop
 Parada de autobús con poste
 Suspended_Monorail_Bahnhof_Modern
 Parada de MonoCarril
+train_platform_early
+Plataforma de pasajeros (grava)
+train_platform_med
+Plataforma de pasajeros
+train_platform_modern
+Plataforma de pasajeros (con losetas)
+train_small_station_early
+Plataforma protegida (grava)
 TrainStop
 Estación cubierta
 VillageTrainStop
@@ -1802,10 +1896,14 @@ classical_goods_factory
 Fábrica de bienes de consumo
 Concretefactory
 Fábrica de hormigón
+Corn_Farm
+Granja de maíz
+factory_Corn_Farm_details
+<title>Granja de maíz</title>\n<p>Granja de maíz destinada a la producción de biocombustibles como el etanol.</p>
 cornfield
 Campo de maíz
 factory_cornfield_details
-Campo de maiz destinado a la producción de biocombustibles como el etanol.
+<title>Campo de maíz</title>\n<p>Campo de maiz destinado a la producción de biocombustibles como el etanol.</p>
 cotton_farm_w_fields
 Plantación de algodón
 cow_farm
@@ -1942,6 +2040,28 @@ wind_kraftwerk
 Aerogenerador
 factory_wind_kraftwerk_details
 Un aerogenerador es un generador eléctrico movido por la acción del viento. En este caso, el aire en movimiento, proporciona energía mecánica a una helice que, mediante un sistema de transmisión, hace girar el rotor de un generador. Este ultimo convierte la energía mecánica en energía eléctrica.\n\nLos aerogeneradores pueden trabajar de manera aislada o agrupados en parques eólicos, distanciados unos de otros.
+#_____________________________________field_____________________________________
+#_____________________________________field_____________________________________
+corn_field
+Campo de maíz
+cotton_field
+Campo de algodón
+forestplantation_field
+Bosque
+grain_field
+Campo de cereales
+ParabolicDishField
+Antenas parabólicas
+SolarDepot
+Almacén de energía térmica
+SolarTrackerField
+Colectores parabólicos con motores Stirling
+spondf
+Lago solar
+ThermalCollectorField
+Colectores parabólicos con motores Stirling
+ThermalTrackerField
+Colectores parabólicos con motores Stirling
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -2020,10 +2140,80 @@ waste
 basura
 wool
 Lana
+#__________________________________ground_obj___________________________________
+#__________________________________ground_obj___________________________________
+cactus000_0
+Cactus
+cactus000_1
+Cactus
+cactus000_2
+Cactus
+cactus000_3
+Cactus
+cactus000_4
+Cactus
+cactus001_0
+Cactus
+cactus001_1
+Cactus
+cactus001_2
+Cactus
+cactus001_3
+Cactus
+cactus001_4
+Cactus
+cactus002_0
+Cactus
+cactus002_1
+Cactus
+cactus002_2
+Cactus
+cactus002_3
+Cactus
+cactus002_4
+Cactus
 #___________________________________menu_text___________________________________
 #___________________________________menu_text___________________________________
 MONORAILTOOLS
-herramientas de monoraíl
+Herramientas de monorraíl
+#__________________________________pedestrian___________________________________
+#__________________________________pedestrian___________________________________
+BICYCLE_RIDER_0
+Ciclista
+BICYCLE_RIDER_1
+Ciclista
+DOG_WALKER_0
+Peatón con perro
+DOG_WALKER_1
+Peatón con perro
+GROUP_0
+Peatón
+GROUP_1
+Peatón
+GROUP_2
+Peatones transportando
+MOTOBIKER_0
+Motociclista
+MOTOBIKER_1
+Motociclista
+MOTOBIKER_2
+Motociclista
+pedestrian 1
+Peatón
+pedestrian 2
+Peatón
+pedestrian 3
+Peatón
+pedestrian 4
+Peatón
+pedestrian 5
+Peatón
+pedestrian 6
+Peatón
+pedestrian 7
+Peatón
+pedestrian 8
+Peatón
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 Build monorail depot
@@ -2042,6 +2232,22 @@ CATEGORY_06
 Madera
 CATEGORY_07
 Prod.Agrícolas
+CATEGORY_08
+ 
+CATEGORY_09
+ 
+CATEGORY_10
+ 
+CATEGORY_11
+ 
+CATEGORY_12
+ 
+CATEGORY_13
+ 
+CATEGORY_14
+ 
+CATEGORY_15
+ 
 Monorail
 monoraíl
 monorail vehicle
@@ -2072,8 +2278,16 @@ Pista de aterrizaje - sentido único
 #___________________________roadsign - monorail_track___________________________
 choose_signal_monorail
 Señal de elección de plataforma de monorrail
+end_of_choose_monorail
+Señal final de selección de plataforma
+long_signal_monorail
+Señal de bloque largo
+one_way_signal_monorail
+Señal unidireccional
 preSignal_Monorail
 Pre-señales de monorrail
+prioritySignal_Monorail
+Señal de prioridad\n\nÚtil para adelantar carriles. Coloque la señal de prioridad en la vía principal (una o más) en el bucle de paso y una señal normal a la salida del paso lateral. La señal de prioridad también intentará reservar la siguiente señal. Pero permitirá el paso incluso si la segunda señal no puede cambiar.
 Signal_Monorail
 Señal de monorrail
 #________________________________roadsign - road________________________________
@@ -2088,6 +2302,8 @@ autobahn_modern_exit
 Salida de autopista moderna
 choose_point
 Señal de elección de destino
+end_of_choose_point
+Fin de señal
 Minimum100
 Velocidad mínima 100 Km/h
 Minimum80
@@ -2096,6 +2312,12 @@ NoEntry
 Sentido único
 RisingBollards
 Pivotes elevables
+road_signalAVENUE
+Semáforo (triple)
+road_signalROAD
+Semáforo (doble)
+road_signalSTREET
+Semáforo
 RoadClosed
 Barrera
 traffic_light
@@ -2110,6 +2332,8 @@ Classic_LongSignals_right
 Señales clásicas grandes (derecha)
 Classic_preSignals_right
 Pre-señales clásicas
+Classic_prioritySignals_right
+Señal de prioridad (derecha)\n\nÚtil para adelantar carriles. Coloque la señal de prioridad en la vía principal (una o más) en el bucle de paso y una señal normal a la salida del paso lateral. La señal de prioridad también intentará reservar la siguiente señal. Pero permitirá el paso incluso si la segunda señal no puede cambiar.
 Classic_Signals_right
 Señales clásicas (derecha)
 Early_ChooseSignals_right
@@ -2118,6 +2342,8 @@ Early_LongSignals_right
 Señales cambio de agujas (derecha)
 Early_preSignals_right
 Pre-señales de aviso (derecha)
+Early_prioritySignals
+Señal de prioridad\n\nÚtil para adelantar carriles. Coloque la señal de prioridad en la vía principal (una o más) en el bucle de paso y una señal normal a la salida del paso lateral. La señal de prioridad también intentará reservar la siguiente señal. Pero permitirá el paso incluso si la segunda señal no puede cambiar.
 Early_Signals_right
 Señales ferroviarias (derecha)
 EndOfChooseSignals
@@ -2134,12 +2360,16 @@ Modern_OneWaySignals_right
 Señales de sentido único modernas
 Modern_preSignals_right
 Pre-señales modernas
+Modern_prioritySignals_right
+Señal de prioridad (tipo moderno)\n\nÚtil para adelantar carriles. Coloque la señal de prioridad en la vía principal (una o más) en el bucle de paso y una señal normal a la salida del paso lateral. La señal de prioridad también intentará reservar la siguiente señal. Pero permitirá el paso incluso si la segunda señal no puede cambiar.
 Modern_Signals_right
 Señales ferroviarias modernas
 OneWaySignals
 Señales de sentido único
 preSignals
 Pre-señales
+prioritySignals
+Señal de prioridad (tipo estándar)\n\nÚtil para carriles de adelantamiento. Coloque la señal de prioridad en la vía principal (una o más) en el bucle de paso y una señal normal a la salida del paso lateral. La señal de prioridad también intentará reservar la siguiente señal. Pero permitirá el paso incluso si la segunda señal no puede cambiar.
 Railgate
 Puerta de ferrocarril
 Signals
@@ -2192,6 +2422,8 @@ Road_090_Tunnel
 Tunel de carretera moderna
 #________________________________tunnel - track_________________________________
 #________________________________tunnel - track_________________________________
+Rail_060_Tunnel
+Antiguo túnel ferroviario
 Rail_080_Tunnel
 Túnel para vía con traviesas de madera
 Rail_080B_Tunnel
@@ -3992,12 +4224,16 @@ Rail_080_Tracks
 Vía antigua con traviesas de madera
 Rail_080B_Tracks
 Vía para mercancías
+Rail_100_Elevated
+Ferrocarril elevado sobre pilares de piedra (100 km/h)
 Rail_100_Tracks
 Vía con traviesas de madera
 Rail_120_Elevated
 Vía rápida elevada con traviesas de madera
 Rail_120_Tracks
 Via rápida con traviesas de madera
+Rail_120b_Elevated
+Ferrocarril elevado sobre pilares de hormigón (120 km/h)
 Rail_120B_Tracks
 Vía rápida para mercancías
 Rail_140_Elevated
@@ -4032,6 +4268,12 @@ Rail_400_Elevated
 Vía elevada de alta velocidad mejorada
 Rail_400_Tracks
 Vía de alta velocidad mejorada
+Rail_60_Elevated
+Ferrocarril elevado sobre pilares de estructura de metal
+Rail_80_Elevated
+Ferrocarril elevado sobre pilares de piedra (80 km/h)
+Rail_80B_Elevated
+Ferrocarril elevado sobre pilares de hormigón (80 km/h)
 Tram_Track_050_A
 Vía de tranvia normal (50 Km/h)
 Tram_Track_070_A
@@ -4046,12 +4288,20 @@ Tram_Track_110_A
 Vía de tranvia rápido (110 Km/h)
 #__________________________________way - water__________________________________
 #__________________________________way - water__________________________________
+canal_020
+Canal estrecho
 canal_030
 Canal
 river_0a
 Riachuelo
 river_0b
 rio
+river_10
+Río pequeño (navegable)
+river_20
+Río (navegable)
+river_30
+Río grande (navegable)
 #_______________________________way-object - air________________________________
 #_______________________________way-object - air________________________________
 modern_runway-extMrkLgt
@@ -4062,15 +4312,37 @@ trolleybus_catenary
 Tendido electrico de Trolebus
 #______________________________way-object - track_______________________________
 #______________________________way-object - track_______________________________
+classic_catenary
+Catenaria clásica
 classic_metal_mesh_catenary
 Tercera catenaria
 curved_pylon_lgv
 Catenaria de alta velocidad
+grey_type_catenary
+Catenaria (tipo gris)
 highspeed_catenary
 Catenaria estandar
+ogive_midi_catenary
+Catenaria (poste lateral)
+overhead_feeding_rail
+Catenaria (poste ancho)
+plastic_covered_third_rail
+Catenaria (tercer riel con cubierta de plástico)
+steel_gantry_catenary
+Catenaria de última generación
+third_rail
+Catenaria (tercer riel sin cubrir)
+wood_covered_third_rail
+Catenaria de tranvía (cubierta de madera)
 wood_gantry_catenary
 Catenaria antigua
 #____________________________way-object - tram_track____________________________
 #____________________________way-object - tram_track____________________________
+tramway_aps
+Tercer riel
+tramway_classic
+Catenaria de tranvía (cable suspendido)
+tramway_classic_2
+Catenaria de tranvía (poste suspendido)
 tramway_modern
 Tendido electrico de Tranvía
