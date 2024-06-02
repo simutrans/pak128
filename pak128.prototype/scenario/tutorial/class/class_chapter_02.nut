@@ -473,7 +473,11 @@ class tutorial.chapter_02 extends basic_chapter
 				return 10+percentage
 				break
 			case 4:
-				
+				local conv = cov_save[0]
+				local cov_valid = is_cov_valid(conv)
+				if(cov_valid){
+					pot0 = 1
+				}	
 				if (gcov_nr != 0 && gcov_nr != 1){
 					return 0
 				}
@@ -517,7 +521,7 @@ class tutorial.chapter_02 extends basic_chapter
 				if (pot2 == 1 ){
 					this.next_step()
 				}
-				if (current_cov == ch2_cov_lim1.b){
+				if (cov_valid && current_cov == ch2_cov_lim1.b){
 					local conv = convoy_x(ch2_cov_lim1.b)
 					if (conv && conv.is_followed()) {
 						//Crear cuadro label
@@ -647,66 +651,66 @@ class tutorial.chapter_02 extends basic_chapter
 				}
 
 				else if (pot1==1 && pot2==0){
-						//Comprueba la conexion de la via
-						local coora=coord3d(c_way1.a.x,c_way1.a.y,c_way1.a.z)
-						local coorb=coord3d(c_way1.b.x,c_way1.b.y,c_way1.b.z)
-						local dir = c_way1.dir
-						local obj = false		
-						r_way = get_fullway(coora, coorb, dir, obj)
+					//Comprueba la conexion de la via
+					local coora=coord3d(c_way1.a.x,c_way1.a.y,c_way1.a.z)
+					local coorb=coord3d(c_way1.b.x,c_way1.b.y,c_way1.b.z)
+					local dir = c_way1.dir
+					local obj = false		
+					r_way = get_fullway(coora, coorb, dir, obj)
 
-						//Para marcar inicio y fin de la via
-						local waya = tile_x(coora.x,coora.y,coora.z).find_object(mo_way)
-						local wayb = tile_x(coorb.x,coorb.y,coorb.z).find_object(mo_way)
-						if (waya) waya.mark()	
-						if (wayb) wayb.mark()
+					//Para marcar inicio y fin de la via
+					local waya = tile_x(coora.x,coora.y,coora.z).find_object(mo_way)
+					local wayb = tile_x(coorb.x,coorb.y,coorb.z).find_object(mo_way)
+					if (waya) waya.mark()	
+					if (wayb) wayb.mark()
 
-						if (r_way.r){
-							//Para desmarcar inicio y fin de la carretera
-							waya.unmark()
-							wayb.unmark()
+					if (r_way.r){
+						//Para desmarcar inicio y fin de la carretera
+						waya.unmark()
+						wayb.unmark()
 
-							my_tile(c_label1.a).remove_object(player_x(1), mo_label)
-							my_tile(c_label1.b).remove_object(player_x(1), mo_label)
+						my_tile(c_label1.a).remove_object(player_x(1), mo_label)
+						my_tile(c_label1.b).remove_object(player_x(1), mo_label)
 
-							//Elimina cuadro label
-							local opt = 0
-							label_bord(c_way_limi1.a, c_way_limi1.b, opt, true, "X")
+						//Elimina cuadro label
+						local opt = 0
+						label_bord(c_way_limi1.a, c_way_limi1.b, opt, true, "X")
 
-							//Creea un cuadro label
-							local opt = 0
-							label_bord(city1_lim.a, city1_lim.b, opt, false, "X")
-							label_bord(city2_lim.a, city2_lim.b, opt, false, "X")
+						//Creea un cuadro label
+						local opt = 0
+						label_bord(city1_lim.a, city1_lim.b, opt, false, "X")
+						label_bord(city2_lim.a, city2_lim.b, opt, false, "X")
 
-							pot2=1
-						}
+						pot2=1
 					}
+				}
 
-					else if (pot2==1 && pot3 ==0){
-						local c_dep = this.my_tile(c_dep)
-				        local line_name = line3_name //"Test 3"
-						set_convoy_schedule(pl, c_dep, gl_wt, line_name)
+				else if (pot2==1 && pot3 ==0){
+					local c_dep = this.my_tile(c_dep)
+			        local line_name = line3_name //"Test 3"
+					set_convoy_schedule(pl, c_dep, gl_wt, line_name)
 
-						local depot = depot_x(c_dep.x, c_dep.y, c_dep.z)
-						local cov_list = depot.get_convoy_list()		//Lista de vehiculos en el deposito
-						local convoy = convoy_x(gcov_id)
-						if (cov_list.len()>=1){
-							convoy = cov_list[0]
-						}
-						local all_result = checks_convoy_schedule(convoy, pl)
-						sch_cov_correct = all_result.res == null ? true : false
-
-						if (current_cov == ch2_cov_lim3.b){
-							//Desmarca la via en la parada
-							local way_mark = my_tile(c_st0).find_object(mo_way)
-							way_mark.unmark()
-
-							//Elimina cuadro label
-							local opt = 0
-							//label_bord(city1_lim.a, city1_lim.b, opt, true, "X")
-							label_bord(city2_lim.a, city2_lim.b, opt, true, "X")
-							this.next_step()
-						}
+					local depot = depot_x(c_dep.x, c_dep.y, c_dep.z)
+					local cov_list = depot.get_convoy_list()		//Lista de vehiculos en el deposito
+					local convoy = convoy_x(gcov_id)
+					if (cov_list.len()>=1){
+						convoy = cov_list[0]
 					}
+					local all_result = checks_convoy_schedule(convoy, pl)
+					sch_cov_correct = all_result.res == null ? true : false
+
+					if (current_cov == ch2_cov_lim3.b){
+						//Desmarca la via en la parada
+						local way_mark = my_tile(c_st0).find_object(mo_way)
+						way_mark.unmark()
+
+						//Elimina cuadro label
+						local opt = 0
+						//label_bord(city1_lim.a, city1_lim.b, opt, true, "X")
+						label_bord(city2_lim.a, city2_lim.b, opt, true, "X")
+						this.next_step()
+					}
+				}
 				return 95
 				break
 
