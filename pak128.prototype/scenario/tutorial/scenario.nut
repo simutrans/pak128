@@ -163,7 +163,7 @@ function string_analyzer()
 		local tx = format("%c",simu_version[j])
 		if(tx=="."){
 			nr_a = j+1
-			val_a.push(value_a)
+			val_a.push(value_a.tointeger())
 			value_a = ""
 			continue
 		}
@@ -196,7 +196,7 @@ function string_analyzer()
 		catch(ev) {
 			if(tx=="."){
 				nr_b = j+1
-				val_b.push(value_b)
+				val_b.push(value_b.tointeger())
 				value_b = ""
 				continue
 			}
