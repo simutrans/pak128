@@ -169,7 +169,7 @@ function string_analyzer()
 		}
 		value_a += tx
 		if(j == s_siz.a-1) {
-			val_a.push(value_a)
+			val_a.push(value_a.tointeger())
 		}
 	}
 	//-------Debug ====================================
@@ -188,7 +188,7 @@ function string_analyzer()
 	for(local j=nr_b;j<s_siz.b;j++){
 		local tx = format("%c",current_st[j])
 		if(j == s_siz.b-1) {
-			val_b.push(value_b)
+			val_b.push(value_b.tointeger())
 		}
 		try {
 			tx.tointeger()
