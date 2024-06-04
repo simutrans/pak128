@@ -151,9 +151,6 @@ function string_analyzer()
 
 	local s_siz = {a = simu_version.len(), b = current_st.len()}
 
-	local nr_a = 0
-	local nr_b = 0
-
 	local val_a = []
 	local val_b = []
 
