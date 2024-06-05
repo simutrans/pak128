@@ -162,17 +162,17 @@ function string_analyzer()
 		if(result.res){
 			value_a += tx
 			if(j == s_siz.a-1) {
-				val_a.push(value_a)
+				val_a.push(value_a.tointeger())
 				continue
 			}
 		}
 		else {
 			if(j == s_siz.a-1) {
-				val_a.push(value_a)
+				val_a.push(value_a.tointeger())
 				continue
 			}
 			if(result.val == "."){
-				val_a.push(value_a)
+				val_a.push(value_a.tointeger())
 				value_a = ""
 				continue
 			}
@@ -197,17 +197,17 @@ function string_analyzer()
 		if(result.res){
 			value_b += tx
 			if(j == s_siz.b-1) {
-				val_b.push(value_b)
+				val_b.push(value_b.tointeger())
 				continue
 			}
 		}
 		else {
 			if(j == s_siz.b-1) {
-				val_b.push(value_b)
+				val_b.push(value_b.tointeger())
 				continue
 			}
 			if(result.val == "."){
-				val_b.push(value_b)
+				val_b.push(value_b.tointeger())
 				value_b = ""
 				continue
 			}
@@ -232,6 +232,7 @@ function string_analyzer()
 		local num_a = val_a[i]
 		local num_b = val_b[i]
 		//gui.add_message("Array test -- val_a "+num_a+"  val_b "+num_b+" -- siz_A "+siz_va+" siz_B "+siz_vb)
+		//gui.add_message("Val type -- val_a "+type(num_a)+"  val_b "+type(num_b)+"")
 		if(num_a < num_b) {
 			result.st = true
 			return result
