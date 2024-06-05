@@ -228,7 +228,7 @@ function string_analyzer()
 	local siz_va = val_a.len()
 	local siz_vb = val_b.len()
 	local siz_min = min(siz_va, siz_vb)
-	for(local i = 0; i < siz_va && i < siz_vb; i++ ) {
+	for(local i = 0; i < siz_min; i++ ) {
 		local num_a = val_a[i]
 		local num_b = val_b[i]
 		//gui.add_message("Array test -- val_a "+num_a+"  val_b "+num_b+" -- siz_A "+siz_va+" siz_B "+siz_vb)
