@@ -35,9 +35,6 @@ wget -O texts.zip http://translator.simutrans.com/data/tab/language_pack-Scenari
 unzip texts.zip
 rm texts.zip
 
-# protect en.tab (why???)
-rm en.tab
-
 # only copy changed texts
 for f in ./*.tab; do
   cat $f | grep "^[^#]" > $f.tmp
