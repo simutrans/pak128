@@ -19,6 +19,11 @@ Mail_boost=500
 Passenger_demand=200
 Passenger_boost=1500
 
+expand_probability=100
+expand_times=9
+expand_minimum=350
+expand_range=200
+
 InputGood[0]=food
 InputCapacity[0]=1200
 InputSupplier[0]=2

@@ -19,6 +19,11 @@ Mail_boost=0
 Passenger_demand=0
 Passenger_boost=0
 
+expand_probability=100
+expand_times=5
+expand_minimum=50
+expand_range=100
+
 # need entry for stations
 #enables_ware=1
 

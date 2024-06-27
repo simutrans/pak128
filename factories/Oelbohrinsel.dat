@@ -18,6 +18,11 @@ Mail_boost=1
 Passenger_demand=20
 Passenger_boost=500
 
+expand_probability=100
+expand_times=9
+expand_minimum=500
+expand_range=250
+
 #need entry for stations
 enables_pax=1
 enables_post=1

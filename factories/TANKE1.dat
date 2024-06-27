@@ -11,6 +11,11 @@ Range=50
 intro_year=1921
 retire_year=2000
 
+expand_probability=100
+expand_times=9
+expand_minimum=100
+expand_range=50
+
 Electricity_amount=0
 Electricity_boost=0
 Mail_demand=10

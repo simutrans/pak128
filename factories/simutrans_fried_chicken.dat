@@ -14,6 +14,11 @@ Mail_boost=0
 Passenger_demand=50
 Passenger_boost=1500
 
+expand_probability=100
+expand_times=9
+expand_minimum=50
+expand_range=25
+
 InputGood[0]=meat
 InputCapacity[0]=40
 InputSupplier[0]=0
