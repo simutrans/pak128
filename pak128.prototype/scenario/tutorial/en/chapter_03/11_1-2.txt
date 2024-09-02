@@ -10,11 +10,11 @@ The <em>Public service</em> wants you to complete the rail network running throu
 </p>
 <p>
 <h1>Electrified Trains:</h1>
-The first step to use these trains is to electrify all the tracks, then in the deposit window select the tab <em>Electrics</em>.<br/>
-<em>Select Now:</em><br/>
-<em>[a]</em> A train <em>{loc3}</em><br/>
-<em>[b]</em> {wag} wagons <em>{loc4}</em><br/>
-<em>[c]</em> A cabin <em>{loc5}</em>
+The first step to use these trains was to electrify all the tracks. Now, in the depot window, select the tab <em>Electrics</em>.<br/>
+<em>Select now:</em><br/>
+<em>[a]</em> an <em>{loc3}</em> power car<br/>
+<em>[b]</em> {wag} <em>{loc4}</em> wagons<br/>
+<em>[c]</em> an <em>{loc5}</em> cab
 </p>
 <p>
 <em>Vehicle Status:</em><br/>
@@ -24,8 +24,8 @@ The first step to use these trains is to electrify all the tracks, then in the d
 <em>Tip:</em> Use the filter to only show passenger vehicles.
 </p>
 <p>
-<st>Note:</st> Electric vehicles only appear when the way of the depot/garage is electrified.
+<st>Note:</st> Electric vehicles only appear in a depot/garage when its track/road is electrified.
 </p>
 <p>
-<st>Advances to the next chapter</st> when all vehicles are in circulation.
+<st>The tutorial will advance to the next chapter</st> when enough vehicles are in circulation.
 </p>

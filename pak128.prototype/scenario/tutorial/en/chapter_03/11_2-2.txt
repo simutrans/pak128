@@ -10,17 +10,17 @@ The <em>Public service</em> wants you to complete the rail network running throu
 </p>
 <p>
 <h1>List of stations:</h1>
-In the field next to "Serves line", select <em>create new line</em> and select the next station in list:<br/>
+In the field next to "Serves line", select <em>create new line</em>. Now add the following stations to the Schedule:<br/>
 {list}
 </p>
 <p>
-After adding the stops, select the stop <em>{stnam}</em> from the list and configure as follows:<br>
+After adding the stops, select the stop <em>{stnam}</em> from the Schedule and configure it as follows:<br>
 <em>--> [a]</em> Set <em>Minimum load</em> to <em>{load}%</em>.<br>
-<em>--> [b]</em> Set <em>Depart after</em> to <em>{wait}</em>.<br/>
+<em>--> [b]</em> Set <em>Max. Waiting time</em> to <em>{wait}</em>.<br/>
 </p>
 <p>
 <h1>Copy convoy:</h1>
-This button allows you to copy the vehicle, including its schedule or line.
+This button in the Depot Window allows you to copy a Convoy, including its schedule or line.
 </p>
 <p>
 - Press the <em>Copy convoy</em> button to get a total of {cnr} <em>Trains</em>.
@@ -34,5 +34,5 @@ Once you have the <em>[{cnr}]</em> trains set up correctly, it's time to press t
 {cov}
 </p>
 <p>
-<st>Advances to the next chapter</st> when all vehicles are in circulation.
+<st>The tutorial will advance to the next chapter</st> when enough vehicles are in circulation.
 </p>

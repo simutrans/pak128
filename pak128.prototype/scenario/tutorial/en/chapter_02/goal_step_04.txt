@@ -14,5 +14,12 @@ Now you need to purchase a <em>{bus1}</em> Bus to run the service.
 <em>Tip:</em> Press the <em>[Ctrl]+["]</em> keys to hide the urban buildings.
 </p>
 <p>
-<st>It takes to the next step</st> when the bus arrives at the first stop on the list.
+<h1>Following Convoys</h1>
+This option allows you to follow vehicles as they travel their route, so that they remain in view no matter where they go, even if they go underground. It is activated from the Convoy Window and is the fourth icon in that Window's title bar (an eye).
+</p>
+<p>
+Click on the vehicle already in circulation so that the Convoy Window is displayed. Look for the fourth icon in the title bar of the Convoy Window (eye icon) and press it to follow the convoy.
+</p>
+<p>
+<st>The tutorial will move to the next step</st> when you are following the convoy.
 </p>

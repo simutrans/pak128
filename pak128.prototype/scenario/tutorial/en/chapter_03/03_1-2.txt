@@ -1,11 +1,11 @@
 <p>
-For the production of wheat <em>{good2}</em>, you need to transport <em>{good1}</em> from {f1} to {f2}.
+You need to transport <em>{good1}</em> from the {f1} to the {f2}, where it will be used to produce wheat <em>{good2}</em>.
 </p>
 <p>
-{tx} Select <em>'{tool2}'</em> from the toolbar and build a station for goods ({tile} tiles long) near {f2}.
+{tx} Select <em>'{tool2}'</em> from the toolbar and build a goods station ({tile} tiles long) near the {f2}.
 </p>
 <p>
-<h1>Stations for goods:</h1>
+<h1>Goods stations:</h1>
 <br/>
-To know if a station accepts goods, let your cursor on the button and a tooltip pops up. A whole station accepts goods if at least one of its buildings does.
+Not all stations accept goods. To know if one of the station buildings would accept goods, hover your cursor over the icons in the <em>{tool2}</em> toolbar and read the tooltip that pops up. A whole station accepts goods if at least one of its buildings does.
 </p>

@@ -1,5 +1,5 @@
 <p>
-For the production of wheat <em>{good2}</em>, you need to transport <em>{good1}</em> from {f1} to {f2}.
+You need to transport <em>{good1}</em> from the {f1} to the {f2}, where it will be used to produce wheat <em>{good2}</em>.
 </p>
 <p>
 {tx} Select <em>'{tool2}'</em> from the toolbar and build a <em>Train Depot</em> at {dep}.

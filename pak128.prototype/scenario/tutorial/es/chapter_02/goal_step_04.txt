@@ -14,15 +14,12 @@ Ahora que las paradas están colocadas, necesitas comprar un <em>Autobús</em> par
 <em>Consejo:</em> Presiona las teclas <em>[Ctrl]+["]</em> para ocultar los edificios urbanos.
 </p>
 <p>
-<st>Se avanza al siguiente paso</st> cuando el autobús llegue a la primera parada de la lista.
+<h1>Siguiendo Convoyes</h1>
+Esta opción le permite seguir los vehículos mientras recorren su ruta, para que permanezcan a la vista sin importar a donde vayan, incluso si van bajo tierra. Se activa desde la ventana Convoy y es el cuarto icono en la barra de titulo de esa ventana (el ojo).
 </p>
 <p>
-<h1>Siguiendo convoyes</h1>
-Esta opciósn le permite seguir los vehícculos mientras recorren su ruta, para que permanezcan a la vista sin importar a dósnde vayan, incluso si van bajo tierra. Se activa desde la ventana Convoy y es el cuarto icono en la barra de tíctulo de esa ventana (el ojo).
+Haga clic en el vehículo que ya está en circulación para que se muestre la ventana Convoy. Busque el cuarto icono en la barra de título de la ventana del convoy (icono de ojo) y presionar para seguir al convoy.
 </p>
 <p>
-Haga clic en el vehícculo que ya est¨¢ en circulaciósn para que se muestre la ventana Convoy. Busque el cuarto íccono en la barra de tíctulo de la ventana del convoy (íccono de ojo) y presiósnelo para seguir al convoy.
-</p>
-<p>
-<st>El tutorial pasar¨¢ al siguiente paso</st> cuando est¨¦s siguiendo el convoy.
+<st>El tutorial pasará al siguiente paso</st> cuando estés siguiendo el convoy.
 </p>

@@ -1,15 +1,15 @@
 <p>
 The bridge to an outlying suburb was recently washed out, <br/>
-and the City of {name} would like you to reconnect the suburb by building a brige between {bpos1} and {bpos2}.
+and the city of {name} would like you to reconnect the suburb by building a bridge between {bpos1} and {bpos2}.
 </p>
 <p>
-Bridge are in the <em>'{tool2}'</em> toolbar too.
+Bridges are in the <em>'{tool2}'</em> toolbar too.
 </p>
 <p>
-There are two ways this can be done, you must first select the 50 kmph bridge tool in the Road Tools toolbar, then...<br/>
-<em>[1]</em> You can build the bridge by clicking on one of the facing slopes.<br/>
-<em>[2]</em> You can place the bridge by dragging mouse from a slope on either side to the slope on the opposite side.
+There are two ways this can be done. You must first select the 50 km/h bridge tool in the Road Tools toolbar, then...<br/>
+<em>[1]</em> You can build a bridge by clicking on one of the facing slopes (the river banks).<br/>
+<em>[2]</em> You can place a bridge by dragging the mouse from a slope on one side of the river to the slope on the opposite side.
 </p>
 <p>
-<st>To take to the next step</st>, build a bridge in {bpos1}.
+<st>To move to the next step</st>, build a bridge starting at {bpos1}.
 </p>
