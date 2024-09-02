@@ -1,4 +1,4 @@
-§<p>
+<p>
 <em>シナリオ:</em> {short_description}<br/>
 <em>バージョン:</em> {version}<br/>
 <em>作者:</em> {author}<br/>

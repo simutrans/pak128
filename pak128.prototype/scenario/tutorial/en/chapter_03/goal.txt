@@ -29,7 +29,7 @@ In this chapter the trains are the protagonists, as we are going to learn how to
 {step_06}
 </p>
 <p>
-{txtst_07}Step G</em> - The second Train<br/>
+{txtst_07}Step G</em> - The Second Train<br/>
 {step_07}
 </p>
 <p>

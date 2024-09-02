@@ -1,6 +1,6 @@
 <p>
-For the production of wheat <em>{good2}</em>, you need to transport <em>{good1}</em> from {f1} to {f2}.
+We are going to transport <em>{good1}</em> from the {f1} to the {f2}. There it will be used for the production of wheat <em>{good2}</em>.
 </p>
 <p>
-{tx} Use the <em>'{tool1}'</em> on the {f2} to show the details.
+{tx} Use the <em>'{tool1}'</em> on the {f2} to get more information about it.
 </p>

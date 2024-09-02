@@ -9,14 +9,14 @@ The <em>Public service</em> wants you to complete the rail network running throu
 {tx} Set the layer to <em>{lev}</em>, and connect the <em>tunnel</em> {t4} with the other entrance in {t5}.
 </p>
 <p>
-You can activate the <em>Underground</em> mode by pressing <em>[shift] + U</em> or by going to the <em>Display</em> settings.<br/>
-You can activate the <em>Sliced underground</em> mode by pressing <em>[ctrl] + U</em> or by going to the <em>Display</em> settings.<br/>
-While in <em>Sliced underground</em> mode you can:<br/>
-<em>[1]</em> Go one level deeper by pressing <em>[home]</em>.<br/>
-<em>[2]</em> Go one level higher by pressing <em>[end]</em>.
+You can activate the <em>Underground</em> mode by pressing <em>[Shift] + U</em> or by going to the <em>Display</em> settings.<br/>
+You can activate the <em>Sliced Map View</em> mode by pressing <em>[Ctrl] + U</em>, selecting it on the main toolbar, or by going to the <em>Display</em> settings.<br/>
+While in <em>Sliced Map View</em> mode you can:<br/>
+<em>[1]</em> Go one level deeper by pressing <em>[Home]</em>.<br/>
+<em>[2]</em> Go one level higher by pressing <em>[End]</em>.
 </p>
 <p>
-<st>Note:</st> When building complicated structures on several layers, it is recommended to use the <em>sliced underground</em> mode.
+<st>Note:</st> When building complicated structures on several layers, using the <em>Sliced Map View</em> mode is recommended.
 </p>
 <p>
 <st>Warning: At this point, you must hold down the Ctrl key to extend the tunnel.</st>
