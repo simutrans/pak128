@@ -15,6 +15,11 @@ Mail_boost=800
 Passenger_demand=20
 Passenger_boost=700
 
+expand_probability=100
+expand_times=9
+expand_minimum=200
+expand_range=100
+
 InputGood[0]=Bucher
 InputCapacity[0]=800
 InputSupplier[0]=0

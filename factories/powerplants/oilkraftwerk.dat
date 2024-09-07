@@ -20,6 +20,11 @@ Mail_boost=500
 Passenger_demand=20
 Passenger_boost=800
 
+expand_probability=100
+expand_times=9
+expand_minimum=600
+expand_range=400
+
 InputGood[0]=Oel
 InputCapacity[0]=6000
 InputSupplier[0]=0

@@ -15,6 +15,11 @@ Mail_boost=300
 Passenger_demand=30
 Passenger_boost=500
 
+expand_probability=100
+expand_times=9
+expand_minimum=100
+expand_range=100
+
 OutputGood[0]=waste
 OutputCapacity[0]=300
 

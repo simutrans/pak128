@@ -17,6 +17,11 @@ Mail_boost=500
 Passenger_demand=50
 Passenger_boost=1200
 
+expand_probability=100
+expand_times=9
+expand_minimum=100
+expand_range=50
+
 InputGood[0]=Gasoline
 InputCapacity[0]=100
 InputSupplier[0]=0

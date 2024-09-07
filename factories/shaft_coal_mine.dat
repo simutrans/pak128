@@ -13,6 +13,11 @@ OutputCapacity[0]=300
 Productivity=80
 Range=50
 
+expand_probability=200
+expand_times=19
+expand_minimum=80
+expand_range=50
+
 Electricity_amount=150
 Electricity_boost=800
 Mail_demand=0

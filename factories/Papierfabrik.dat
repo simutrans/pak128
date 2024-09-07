@@ -19,6 +19,11 @@ Mail_boost=200
 Passenger_demand=20
 Passenger_boost=500
 
+expand_probability=100
+expand_times=9
+expand_minimum=300
+expand_range=50
+
 #total input 240
 InputGood[0]=Holz
 InputCapacity[0]=4500
