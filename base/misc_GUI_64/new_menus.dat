@@ -1,153 +1,217 @@
-# Hajo: Hack: if image name starts with "> " then this
-# image is treated unzoomeable
-
+# New menu defintions
+# if image name starts with "> " then this image is treated unzoomeable
+#
+--
 Obj=menu
 name=GeneralTools
-copyright=none
-Image[0]=> menu_buttons.0.1
-Image[1]=> menu_buttons.0.2
-Image[2]=> menu_buttons.0.13
-Image[3]=> menu_buttons.1.13
-Image[4]=> menu_buttons.1.12
-Image[5]=> menu_buttons.0.6
-Image[6]=-
-Image[7]=> menu_buttons.1.1
-Image[8]=> menu_buttons.1.2
-Image[9]=> menu_buttons.1.3
-Image[10]=> menu_buttons.1.4
-Image[11]=> menu_buttons.1.5
-Image[12]=> menu_buttons.1.6
-Image[13]=> menu_buttons.0.3
-Image[14]=> menu_buttons.0.4
-Image[15]=> menu_buttons.0.5
-Image[16]=> menu_buttons.0.7
-Image[17]=> menu_buttons.1.5
-Image[18]=> menu_buttons.7.14
-Image[19]=> menu_buttons.1.7
-Image[20]=> menu_buttons.0.8
-Image[21]=> menu_buttons.1.8
+Image[0]=> wkz_icons.1.0
+Image[1]=> wkz_icons.1.1
+Image[2]=> wkz_icons.1.2
+Image[3]=> wkz_icons.1.3
+Image[4]=-
+Image[5]=> wkz_icons.1.5
+Image[6]=> wkz_icons.1.6
+Image[7]=> wkz_icons.1.7
+Image[8]=> wkz_icons.1.8
+Image[9]=> wkz_icons.1.9
+Image[10]=-
+Image[11]=> wkz_icons.1.11
+Image[12]=-
+Image[13]=-
+Image[14]=-
+Image[15]=-
+Image[16]=-
+Image[17]=-
+Image[18]=-
+Image[19]=-
+Image[20]=-
+Image[21]=-
+Image[22]=-
+Image[23]=-
+Image[24]=-
+Image[25]=-
+Image[26]=> wkz_icons.1.26
+Image[27]=> wkz_icons.1.27
+Image[28]=> wkz_icons.1.28
+Image[29]=> wkz_icons.1.29
+Image[30]=> wkz_icons.1.30
+Image[31]=> wkz_icons.1.31
+Image[32]=> wkz_icons.1.32
+Image[33]=> wkz_icons.1.33
+Image[34]=-
+Image[35]=> wkz_icons.1.35
+Image[36]=-
+Image[37]=-
+Image[38]=-
+Image[39]=-
+Image[40]=> wkz_icons.1.40
+Image[41]=> wkz_icons.1.41
+Image[42]=-
+Image[43]=-
+Image[44]=-
+Image[45]=-
+Image[46]=> wkz_icons.1.46
+Image[47]=> wkz_icons.1.47
+Image[48]=> wkz_icons.1.48
 --
 Obj=menu
 name=SimpleTools
-copyright=none
-Image[0]=> menu_buttons.2.1
-Image[1]=> menu_buttons.2.2
-Image[2]=> menu_buttons.2.3
-Image[3]=> menu_buttons.2.4
-Image[4]=> menu_buttons.2.5
-Image[5]=> menu_buttons.2.6
-Image[6]=> menu_buttons.2.7
-Image[7]=> menu_buttons.3.1
-Image[8]=> menu_buttons.3.2
-Image[9]=> menu_buttons.3.3
-Image[10]=> menu_buttons.3.4
-Image[11]=> menu_buttons.3.5
-Image[12]=> menu_buttons.3.6
+Image[0]=> wkz_icons.2.0
+Image[1]=> wkz_icons.2.1
+Image[2]=> wkz_icons.2.2
+Image[3]=> wkz_icons.2.3
+Image[4]=> wkz_icons.2.4
+Image[5]=> wkz_icons.2.5
+Image[6]=> wkz_icons.2.6
+Image[7]=-
+Image[8]=> wkz_icons.2.8
+Image[9]=> wkz_icons.2.9
+Image[10]=> wkz_icons.2.10
+Image[11]=> wkz_icons.2.11
+Image[12]=> wkz_icons.2.12
+Image[13]=> wkz_icons.2.13
+Image[14]=> wkz_icons.2.14
+Image[15]=> wkz_icons.2.15
+Image[16]=> wkz_icons.2.16
+Image[17]=> wkz_icons.2.17
+Image[18]=> wkz_icons.2.18
+Image[19]=-
+Image[20]=> wkz_icons.2.20
+Image[21]=> wkz_icons.2.21
+Image[22]=> wkz_icons.2.22
+# tool 23-32 only internal use
+Image[23]=-
+Image[24]=-
+Image[25]=-
+Image[26]=-
+Image[27]=-
+Image[28]=> wkz_icons.2.28
+Image[29]=-
+Image[30]=-
+Image[31]=-
+Image[32]=-
+# toggle reservation
+Image[33]=> wkz_icons.2.33
+Image[34]=> wkz_icons.2.34
+#icon missing: hide under cursor
+Image[35]=-
+Image[36]=-
+# icon missing rollup all win
+Image[37]=-
+Image[38]=-
+Image[39]=-
+Image[40]=> wkz_icons.2.40
+Image[41]=-
+Image[42]=> wkz_icons.2.42
 --
 Obj=menu
 name=DialogeTools
-copyright=none
-Image[0]=> menu_buttons.4.1
-Image[1]=> menu_buttons.4.2
-Image[2]=> menu_buttons.4.3
-Image[3]=> menu_buttons.4.4
-Image[4]=> menu_buttons.4.5
-Image[5]=> menu_buttons.4.6
-Image[6]=> menu_buttons.5.3
-Image[7]=> -
-Image[8]=> -
-Image[9]=> -
-Image[10]=> -
-Image[11]=> -
-# load / save
-Image[12]=> menu_buttons.5.6
-Image[13]=> menu_buttons.5.7
-# lists
-Image[14]=> menu_buttons.6.1
-Image[15]=> menu_buttons.6.2
-Image[16]=> menu_buttons.6.3
-Image[17]=> menu_buttons.6.4
-Image[18]=> menu_buttons.6.5
-Image[19]=> menu_buttons.6.6
-Image[20]=> menu_buttons.6.7
-# map editor
-Image[21]=> menu_buttons.5.8
-Image[22]=> menu_buttons.5.9
-Image[23]=> menu_buttons.5.10
-Image[24]=> menu_buttons.5.11
-Image[25]=> menu_buttons.5.1
-# network
-Image[26]=> menu_buttons.5.2
+Image[0]=> wkz_icons.3.0
+Image[1]=> wkz_icons.3.1
+Image[2]=> wkz_icons.3.2
+Image[3]=> wkz_icons.3.3
+Image[4]=> wkz_icons.3.4
+Image[5]=> wkz_icons.3.5
+Image[6]=> wkz_icons.3.6
+Image[7]=> wkz_icons.3.7
+Image[8]=> wkz_icons.3.8
+Image[9]=> wkz_icons.3.9
+Image[10]=> wkz_icons.3.10
+Image[11]=> wkz_icons.3.11
+Image[12]=> wkz_icons.3.12
+Image[13]=> wkz_icons.3.13
+Image[14]=> wkz_icons.3.14
+Image[15]=> wkz_icons.3.15
+Image[16]=> wkz_icons.3.16
+Image[17]=> wkz_icons.3.17
+Image[18]=> wkz_icons.3.18
+Image[19]=> wkz_icons.3.19
+Image[20]=> wkz_icons.3.20
+Image[21]=> wkz_icons.3.21
+Image[22]=> wkz_icons.3.22
+Image[23]=> wkz_icons.3.23
+Image[24]=> wkz_icons.3.24
+Image[25]=> wkz_icons.3.25
+# missing icon CLIMATES
+Image[26]=-
+Image[27]=> wkz_icons.3.27
+Image[28]=> wkz_icons.3.28
+# missing icon THEMES
+Image[29]=-
+Image[30]=> wkz_icons.3.30
+Image[31]=> wkz_icons.3.31
+# depot and vehicle lists
+Image[32]=> wkz_icons.3.32
+Image[33]=> wkz_icons.3.33
 #
-Image[27]=> menu_buttons.6.8
-Image[28]=> menu_buttons.6.9
-Image[29]=> menu_buttons.6.10
-Image[30]=> menu_buttons.6.11
-Image[31]=> menu_buttons.6.12
-Image[32]=> menu_buttons.6.13
-# chat & ranking
-Image[33]=> menu_buttons.5.12
-Image[34]=> menu_buttons.5.13
-
+Image[34]=> wkz_icons.3.34
+Image[35]=> wkz_icons.3.35
+Image[36]=> wkz_icons.3.36
+Image[37]=> wkz_icons.3.37
 --
 Obj=menu
 name=BarTools
-copyright=none
-Image[0]=> menu_buttons.7.1
-Image[1]=> menu_buttons.7.2
-Image[2]=> menu_buttons.7.3
-Image[3]=> menu_buttons.7.4
-Image[4]=> menu_buttons.7.5
-Image[5]=> menu_buttons.8.1
-Image[6]=> menu_buttons.8.2
-Image[7]=> menu_buttons.8.3
-Image[8]=> menu_buttons.8.4
-Image[9]=-
-# slope tool icons
-Image[10]=> menu_buttons.0.9
-Image[11]=> menu_buttons.0.10
-Image[12]=> menu_buttons.0.11
-Image[13]=> menu_buttons.0.12
-Image[14]=> menu_buttons.1.11
-Image[15]=> menu_buttons.1.10
-# double slope tool icons
-Image[43]=> menu_buttons.2.9
-Image[44]=> menu_buttons.2.10
-Image[45]=> menu_buttons.2.11
-Image[46]=> menu_buttons.2.12
-# climate tools icons
-Image[33]=> menu_buttons.3.13
-Image[34]=> menu_buttons.4.13
-Image[42]=> menu_buttons.3.9
-Image[35]=> menu_buttons.3.10
-Image[37]=> menu_buttons.3.11
-Image[40]=> menu_buttons.3.12
-Image[36]=> menu_buttons.4.9
-Image[38]=> menu_buttons.4.10
-Image[39]=> menu_buttons.4.11
-Image[41]=> menu_buttons.4.12
+Image[0]=> wkz_icons.4.0	# landscape
+Image[1]=> wkz_icons.4.1	# railroad
+Image[2]=> wkz_icons.4.2	# monorail
+Image[3]=> wkz_icons.4.3	# tramway
+Image[4]=> wkz_icons.4.4	# road
+Image[5]=> wkz_icons.4.5	# ship
+Image[6]=> wkz_icons.4.6	# airplane
+Image[7]=> wkz_icons.4.7	# special tool
+Image[8]=> wkz_icons.4.8	# list window
+Image[9]=> wkz_icons.4.9	# map editor
+# slope tool icon
+Image[10]=> wkz_icons.4.10
+Image[11]=> wkz_icons.4.11
+Image[12]=> wkz_icons.4.12
+Image[13]=> wkz_icons.4.13
+Image[14]=> wkz_icons.4.14
+Image[15]=> wkz_icons.4.15
 # wayremover tool icons
-Image[16]=> menu_buttons.8.8
-Image[17]=> menu_buttons.8.9
-Image[18]=> menu_buttons.8.11
-Image[19]=> menu_buttons.8.10
-Image[20]=> menu_buttons.8.12
-Image[21]=> menu_buttons.8.13
-#
-Image[22]=> menu_buttons.7.8
-Image[23]=> menu_buttons.7.9
-# map editor
-Image[24]=> menu_buttons.7.10
+Image[16]=> wkz_icons.4.16	# remove rail
+Image[17]=> wkz_icons.4.17	# remove monorail
+Image[18]=> wkz_icons.4.18	# remove water
+Image[19]=> wkz_icons.4.19	# remove airplane
+Image[20]=> wkz_icons.4.20	# remove road
+Image[21]=> wkz_icons.4.21	# remove tram
+# slice underground up and down
+Image[22]=> wkz_icons.4.22
+Image[23]=> wkz_icons.4.23
+Image[24]=> wkz_icons.4.24
+# increase decrease population
+Image[25]=> wkz_icons.4.25
+Image[26]=> wkz_icons.4.26
 # builds city road
-Image[25]=> menu_buttons.7.6
-#
-Image[26]=> menu_buttons.7.7
-Image[27]=> menu_buttons.8.7
-Image[28]=> menu_buttons.7.7
-
-Image[29]=> menu_buttons.8.6
-Image[30]=> menu_buttons.7.11
-Image[31]=> menu_buttons.7.12
-Image[32]=> menu_buttons.7.13
-
+Image[27]=> wkz_icons.4.27
+# wayobject remover tool icons moved to general tools
+Image[28]=-
+# Settings toolbar
+Image[29]=> wkz_icons.4.29
+#water level
+Image[30]=> wkz_icons.4.30
+Image[31]=> wkz_icons.4.31
+#alter climate
+Image[32]=> wkz_icons.4.32
+Image[33]=> wkz_icons.4.33
+Image[34]=> wkz_icons.4.34
+Image[35]=> wkz_icons.4.35
+Image[36]=> wkz_icons.4.36
+Image[37]=> wkz_icons.4.37
+Image[38]=> wkz_icons.4.38
+Image[39]=> wkz_icons.4.39
+#double slopes
+Image[40]=> wkz_icons.4.40
+Image[41]=> wkz_icons.4.41
+Image[42]=> wkz_icons.4.42
+Image[43]=> wkz_icons.4.43
+# full underground view
+Image[44]=> wkz_icons.4.44
+# start new game
+Image[45]=> wkz_icons.4.45
+# maglev and narrow gauge
+Image[46]=> wkz_icons.5.0
+Image[47]=> wkz_icons.5.1
+Image[48]=> wkz_icons.5.2
+Image[49]=> wkz_icons.5.3
 --
