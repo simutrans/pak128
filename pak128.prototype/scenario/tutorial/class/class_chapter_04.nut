@@ -988,11 +988,11 @@ class tutorial.chapter_04 extends basic_chapter
 
 	function set_all_rules(pl) 
 	{
-		local forbid =	[	4129,tool_build_way,tool_build_bridge,tool_build_tunnel,tool_build_station,
-							tool_remove_way,tool_build_depot,tool_build_roadsign,tool_build_wayobj
+		local forbid =	[	tool_remove_wayobj, tool_build_way,tool_build_bridge, tool_build_tunnel, tool_build_station,
+							tool_remove_way, tool_build_depot, tool_build_roadsign, tool_build_wayobj
 						]
 		foreach(wt in all_waytypes)
-			if (wt != wt_water){
+			if (wt != gl_wt){
 				foreach (tool_id in forbid)
 					rules.forbid_way_tool(pl, tool_id, wt )
 				}
@@ -1020,70 +1020,122 @@ class tutorial.chapter_04 extends basic_chapter
 				break
 
 			case 2:
-				local forbid =	[	tool_build_roadsign,tool_build_bridge,tool_build_station,
-									tool_build_depot,tool_build_roadsign,tool_build_wayobj
+				local forbid =	[	tool_build_roadsign, tool_build_bridge,
+									tool_build_depot, tool_build_roadsign, tool_build_wayobj,
+ 									tool_remove_way, tool_build_way,
 								]
-					foreach (tool_id in forbid)
-						rules.forbid_way_tool(pl, tool_id, wt_rail )
-
-				local forbid = [tool_build_depot,tool_build_way,tool_build_bridge,tool_build_tunnel,tool_remove_way]
 				foreach (tool_id in forbid)
-					rules.forbid_tool(pl, tool_id )			
+					rules.forbid_way_tool(pl, tool_id, gl_wt )
 				break
 
 			case 3:
-				local forbid =	[	tool_build_roadsign,tool_build_bridge,tool_build_station,tool_build_tunnel,
-									tool_build_depot,tool_build_roadsign,tool_build_wayobj
+				local forbid =	[	tool_build_roadsign, tool_build_bridge,
+									tool_build_roadsign, tool_build_wayobj,
+ 									tool_remove_way, tool_build_way,
 								]
-					foreach (tool_id in forbid)
-						rules.forbid_way_tool(pl, tool_id, wt_rail )
-
-				local forbid = [tool_build_station,tool_build_way,tool_build_bridge,tool_build_tunnel,tool_remove_way,tool_remover]
 				foreach (tool_id in forbid)
-					rules.forbid_tool(pl, tool_id )	
+					rules.forbid_way_tool(pl, tool_id, gl_wt )
+
 				break
 
 			case 4:
-				local forbid =[tool_build_bridge,tool_build_tunnel,tool_remove_way,tool_build_roadsign,tool_build_wayobj]
-					foreach (tool_id in forbid)
-						rules.forbid_way_tool(pl, tool_id, wt_rail )
-
-				local forbid = [tool_build_station,tool_build_way,tool_build_bridge,tool_build_tunnel,tool_remove_way,tool_remover]
+				local forbid =	[	tool_build_roadsign, tool_build_bridge,
+									tool_build_roadsign, tool_build_wayobj,
+ 									tool_remove_way, tool_build_way,
+								]
 				foreach (tool_id in forbid)
-					rules.forbid_tool(pl, tool_id )	
+					rules.forbid_way_tool(pl, tool_id, gl_wt )
+
 				break
 
 			case 5:
-				local forbid =	[	tool_build_bridge,tool_build_tunnel,tool_build_station,
-									tool_remove_way,tool_build_roadsign,tool_build_wayobj
-								]
-					foreach (tool_id in forbid)
-						rules.forbid_way_tool(pl, tool_id, wt_rail )
+				local forbid =	[	tool_build_roadsign, tool_build_bridge, tool_build_roadsign, tool_build_wayobj	]
+				foreach (tool_id in forbid)
+					rules.forbid_way_tool(pl, tool_id, gl_wt )
 				break
 
 			case 6:
-				local forbid = [tool_build_way,tool_build_bridge,tool_build_tunnel,tool_build_depot,tool_build_roadsign,tool_build_wayobj]
-					foreach (tool_id in forbid)
-						rules.forbid_way_tool(pl, tool_id, wt_rail )
-
-				local forbid = [tool_build_way,tool_build_bridge,tool_build_tunnel,tool_remove_way]
+				local forbid =	[	tool_build_roadsign, tool_build_bridge, tool_build_roadsign, tool_build_wayobj	]
 				foreach (tool_id in forbid)
-					rules.forbid_tool(pl, tool_id )	
+					rules.forbid_way_tool(pl, tool_id, gl_wt )
+
 				break
 
 			case 7:
-				local forbid = [tool_build_tunnel,tool_build_depot,tool_build_roadsign,tool_build_wayobj]
-					foreach (tool_id in forbid)
-						rules.forbid_way_tool(pl, tool_id, wt_rail )
-
-				local forbid = [tool_build_station,tool_build_depot,tool_build_way,tool_build_bridge,tool_build_tunnel,tool_remove_way,tool_remover]
+				local forbid =	[	tool_build_roadsign, tool_build_bridge, tool_build_roadsign, tool_build_wayobj	]
 				foreach (tool_id in forbid)
-					rules.forbid_tool(pl, tool_id )
-				break
-
+					rules.forbid_way_tool(pl, tool_id, gl_wt )
 		
+				break		
 		}
 	}
+
+	function is_tool_active(pl, tool_id, wt) {
+		local result = false
+		switch (this.step) {
+			case 1:
+				local t_list = []
+				local wt_list = [gl_wt]
+				local res = upedate_tools(t_list, tool_id, wt_list, wt)
+				result = res.result
+				if(res.ok)  return result
+				break
+			case 2:
+				local t_list = [tool_build_station]
+				local wt_list = [gl_wt]
+				local res = upedate_tools(t_list, tool_id, wt_list, wt)
+				result = res.result
+				if(res.ok)  return result
+				break
+			case 3:
+				local t_list = [-tool_remover, tool_build_depot]
+				local wt_list = [gl_wt]
+				local res = upedate_tools(t_list, tool_id, wt_list, wt)
+				result = res.result
+				if(res.ok)  return result
+				break
+			case 4://Schedule
+				local t_list = [-tool_remover, -t_icon.ship]
+				local wt_list = [gl_wt]
+				local res = upedate_tools(t_list, tool_id, wt_list, wt)
+				result = res.result
+				if(res.ok)  return result
+				break
+			case 5:
+				local t_list = [tool_build_way, tool_remove_way, tool_build_station, tool_build_depot]
+				local wt_list = [gl_wt]
+				local res = upedate_tools(t_list, tool_id, wt_list, wt)
+				result = res.result
+				if(res.ok)  return result
+				break
+			case 6: 
+				local t_list = [tool_build_station]
+				local wt_list = [gl_wt]
+				local res = upedate_tools(t_list, tool_id, wt_list, wt)
+				result = res.result
+				if(res.ok)  return result
+				break
+			case 7://Schedule
+				local t_list = [-tool_remover, -t_icon.ship]
+				local wt_list = [gl_wt]
+				local res = upedate_tools(t_list, tool_id, wt_list, wt)
+				result = res.result
+				if(res.ok)  return result
+				break
+		}
+		return result
+	}
+
+	function is_tool_allowed(pl, tool_id, wt){
+		local result = true
+		local t_list = [0] // 0 = all tools allowed
+		local wt_list = [gl_wt]
+		local res = upedate_tools(t_list, tool_id, wt_list, wt)
+		result = res.result
+		if(res.ok)  return result
+		return result
+	}
+
 	function is_dock_build(pos, tool_id, c_list, good)
 	{
 		local result = 0

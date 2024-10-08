@@ -69,6 +69,17 @@ class tutorial.chapter_00 extends basic_chapter
 		foreach (tool_id in forbid)
 			rules.forbid_tool(pl, tool_id )
 	}
+
+	function is_tool_active(pl, tool_id, wt) {
+		local result = true
+		return result
+	}
+
+	function is_tool_allowed(pl, tool_id, wt){
+		local result = true
+		return result
+	}
+
 	function script_text()
 	{	
 		return null
