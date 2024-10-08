@@ -90,6 +90,8 @@ tool_alias  <-	{	inspe = translate("Abfrage"), road= translate("ROADTOOLS"), rai
 good_alias  <-	{	mail = "Post", passa= "Passagiere", goods = "goods_", grain = "grain", coal = "Kohle",
 					flour = "flour", deliv = "Crates Deliverables", oel = "Oel", gas = "Gasoline"
 				}
+// placeholder for some menus icon
+t_icon <- {road = 0x8006, rail = 0x8002, ship = 0x8007, plane = 0x8008, other = 0x800a, slope = 0x8001, tram = 0x8005}
 // table containing all system_types
 all_systemtypes <- [st_flat, st_elevated, st_runway, st_tram]
 
@@ -682,13 +684,24 @@ function is_convoy_allowed(pl, convoy, depot)
 
 function is_tool_allowed(pl, tool_id, wt)
 {
+	local result = true
 	//if (tool_id == 0x2000) return false // prevent players toggling pause mode
 	if (tool_id == 0x2005) return false 
 	else if (tool_id == 0x4006) return false 
 	else if (tool_id == 0x4029) return false 
 	else if (tool_id == 0x401c) return false 
+	else if (tool_id == 0x1028) return false 
 
-    return true
+	result = chapter.is_tool_allowed(pl, tool_id, wt)
+    return result
+}
+
+function is_tool_active(pl, tool_id, wt)
+{
+	local result = true
+	if (pl != 0) return false
+	result = chapter.is_tool_active(pl, tool_id, wt)
+	return result
 }
 
 function jump_to_link_executed(pos)

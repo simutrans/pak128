@@ -344,6 +344,21 @@ class tutorial.chapter_07 extends basic_chapter
 		    rules.forbid_tool(pl, tool_id)
 	}
 
+	function is_tool_active(pl, tool_id, wt) {
+		local result = true
+		return result
+	}
+
+	function is_tool_allowed(pl, tool_id, wt){
+		local result = true
+		local t_list = [-t_icon.rail, 0] // 0 = all tools allowed
+		local wt_list = [wt_road, 0] 
+		local res = upedate_tools(t_list, tool_id, wt_list, wt)
+		result = res.result
+		if(res.ok)  return result
+		return result
+	}
+
 }        // END of class
 
 // END OF FILE
