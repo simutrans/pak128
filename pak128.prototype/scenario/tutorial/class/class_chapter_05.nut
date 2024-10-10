@@ -62,17 +62,8 @@ class tutorial.chapter_05 extends basic_chapter
     label_del =  [{a = coord(73,12), b = coord(77,12)}, {a = coord(78,35), b = coord(78,40)}]
 
 	//Step 4 =====================================================================================
-    st_name = "PostOffice"
-    obj_list1 = [
-					{c = coord(99,45), name = "PostOffice", good = good_alias.mail},
-					{c = coord(96,37), name = "PostOffice", good = good_alias.mail},
-					{c = coord(98,27), name = "PostOffice", good = good_alias.mail},
-					{c = coord(86,27), name = "PostOffice", good = good_alias.mail},
-					{c = coord(81,32), name = "PostOffice", good = good_alias.mail},
-					{c = coord(76,30), name = "PostOffice", good = good_alias.mail},
-					{c = coord(88,31), name = "PostOffice", good = good_alias.mail},
-					{c = coord(90,37), name = "PostOffice", good = good_alias.mail}
-				]
+    st_name = ""
+    obj_list1 = []
 	//Para el Camion
     veh2_obj = "RVg_Post_Truck_1"
     c_dep2 = coord(98,33) // depot
@@ -121,6 +112,27 @@ class tutorial.chapter_05 extends basic_chapter
 		d2_cnr = get_dep_cov_nr(ch5_cov_lim2.a,ch5_cov_lim2.b)
 		d3_cnr = get_dep_cov_nr(ch5_cov_lim3.a,ch5_cov_lim3.b)
 		
+		//Step 4 =====================================================================================
+		// Get extension_postoffice Name -----------------------------------
+		local siz = coord(1,1)  //siz = null for all build siz
+		local desc = building_desc_x.station_extension
+		local freight = good_alias.mail
+		local wt = wt_all
+		st_name = get_build_name(siz, desc, freight, wt)
+		//-------------------------------------------------------------------
+	    obj_list1 = [
+				{c = coord(99,45), name = "PostOffice", good = good_alias.mail},
+				{c = coord(96,37), name = "PostOffice", good = good_alias.mail},
+				{c = coord(98,27), name = "PostOffice", good = good_alias.mail},
+				{c = coord(86,27), name = "PostOffice", good = good_alias.mail},
+				{c = coord(81,32), name = "PostOffice", good = good_alias.mail},
+				{c = coord(76,30), name = "PostOffice", good = good_alias.mail},
+				{c = coord(88,31), name = "PostOffice", good = good_alias.mail},
+				{c = coord(90,37), name = "PostOffice", good = good_alias.mail}
+			]
+
+		//===============================================================================================
+
 		local list = fab_list
 		for(local j = 0; j<list.len(); j++){
 			local t = my_tile(list[j].c)
