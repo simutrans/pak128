@@ -31,7 +31,8 @@ scr_jump <- false
 gl_percentage <- 0
 persistent.gl_percentage <- 0
 
-persistent.r_way_list <- {}				//Save way list in fullway 
+persistent.r_way_list <- {}				//Save way list in fullway
+persistent.r_way_c <- coord3d(0, 0, 0)
 
 //----------------------------------------------------------------
 
@@ -778,6 +779,7 @@ function resume_game()
 	}
 
 	r_way_list = persistent.r_way_list
+	r_way.c = persistent.r_way_c
 
 	load_chapter(persistent.chapter,0)      // load correct chapter for player=0
 

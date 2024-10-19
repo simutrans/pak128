@@ -40,7 +40,7 @@ class tutorial.chapter_03 extends basic_chapter
 	//--------------------------------------------------------------------------------------------
 	st1_way_lim = {a = coord(67,34), b = coord(67,40)}					//Limites de la via para la estacion
 	bord1_lim = {a = coord(50,27), b = coord(71,34)}					//Marca area con "X"
-	label1_lim = coord(67,34)											//Indica el final de un tramo
+	label1_lim = coord3d(67,34,-1)											//Indica el final de un tramo
 	c_way1 = {a = coord3d(67,40,-1), b = coord3d(53,27,-1), dir = 2}	//Inicio, Fin de la via y direcion (fullway)
 
 	//Estaciones del Productor
@@ -61,7 +61,7 @@ class tutorial.chapter_03 extends basic_chapter
 	//--------------------------------------------------------------------------------------------
 	st2_way_lim = {a = coord(35,6), b = coord(35,9)}				//Limites de la via para la estacion
 	bord2_lim = {a = coord(31,10), b = coord(55,16)}				//Marca area con "X"
-	label2_lim = coord(35,10)										//Indica el final de un tramo
+	label2_lim = coord3d(35,10,0)										//Indica el final de un tramo
 	c_way3 = {a = coord3d(53,15,-1), b = coord3d(35,6,1), dir = 2}	//Inicio, Fin de la via y direcion (fullway)
 
 	//Estaciones de la Fabrica
@@ -83,14 +83,14 @@ class tutorial.chapter_03 extends basic_chapter
 	f1_reached = 60
 
 	//Step 6 =====================================================================================
-	c_lock = [coord(60,10), coord(77,25)]  //Futuros transformadores
+	c_lock = [coord(77,25)]  //Futuros transformadores
 
 	//Primer tramo de rieles
 	//--------------------------------------------------------------------------------------------
 	st3_way_lim = {a = coord(38,2), b = coord(44,2)}				//Limites de la via para la estacion
 	bord3_lim = {a = coord(44,0), b = coord(81,19)}					//Marca area con "X"
-	label3_lim = coord(44,2)										//Indica el final de un tramo
-	c_way4 = {a = coord3d(44,2,1), b = coord3d(68,18,2), dir = 5}	//Inicio, Fin de la via y direcion (fullway)
+	label3_lim = coord3d(44,2,1)										//Indica el final de un tramo
+	c_way4 = {a = coord3d(38,2,1), b = coord3d(68,18,2), dir = 5}	//Inicio, Fin de la via y direcion (fullway)
 
 	//Estaciones de la Fabrica
 	st3_list = [coord(38,2), coord(39,2), coord(40,2), coord(41,2)]
@@ -107,7 +107,7 @@ class tutorial.chapter_03 extends basic_chapter
 	//--------------------------------------------------------------------------------------------
 	st4_way_lim = {a = coord(75,26), b = coord(75,30)}				//Limites de la via para la estacion
 	bord4_lim = {a = coord(66,22), b = coord(80,26)}				//Marca area con "X"
-	label4_lim = coord(75,26)										//Indica el final de un tramo
+	label4_lim = coord3d(75,26,0)										//Indica el final de un tramo
 	c_way5 = {a = coord3d(68,23,2), b = coord3d(75,30,0), dir = 3}	//Inicio, Fin de la via y direcion (fullway)
 
 	//Estaciones del Consumidor
@@ -303,12 +303,17 @@ class tutorial.chapter_03 extends basic_chapter
 				}
 				break
 			case 2:
-				local c1 = coord(c_way1.a.x, c_way1.a.y)
-				local c2 = coord(c_way1.b.x, c_way1.b.y)
-				local c3 = coord(c_way3.a.x, c_way3.a.y)
-				local c4 = coord(c_way3.b.x, c_way3.b.y)
+				local c1 = c_way1.a.href("("+c_way1.a.tostring()+")")
+				local c2 = c_way1.b.href("("+c_way1.b.tostring()+")")
+				local c3 = c_way3.a.href("("+c_way3.a.tostring()+")")
+				local c4 = c_way3.b.href("("+c_way3.b.tostring()+")")
 
 				if (pot0==0){
+					local c = label1_lim
+					local c_label = c.href("("+c.tostring()+")")
+					local way = tile_x(c.x, c.y, c.z).find_object(mo_way)
+					if(!way) c2 = c_label
+
 					text = ttextfile("chapter_03/02_1-5.txt")
 					text.tx = ttext("<em>[1/5]</em>")
 				}
@@ -361,14 +366,19 @@ class tutorial.chapter_03 extends basic_chapter
 					text.tx = ttext("<em>[4/5]</em>")
 				}
 				else if (pot4==0){
+					local c = label2_lim
+					local c_label = c.href("("+c.tostring()+")")
+					local way = tile_x(c.x, c.y, c.z).find_object(mo_way)
+					if(!way) c4 = c_label
+
 					text = ttextfile("chapter_03/02_5-5.txt")
 					text.tx = ttext("<em>[5/5]</em>")
 				}
 				text.tn = coord(c_way2.a.x, c_way2.a.y).href("("+coord(c_way2.a.x, c_way2.a.y).tostring()+")")	
-				text.w1 = c1.href("("+c1.tostring()+")")
-				text.w2 = c2.href("("+c2.tostring()+")")
-				text.w3 = c3.href("("+c3.tostring()+")")
-				text.w4 = c4.href("("+c4.tostring()+")")
+				text.w1 = c1
+				text.w2 = c2
+				text.w3 = c3
+				text.w4 = c4
 
 				if (r_way.r)
 					text.cbor = "<em>" + translate("Ok") + "</em>"
@@ -414,11 +424,16 @@ class tutorial.chapter_03 extends basic_chapter
 				text.wait = get_wait_time_text(loc1_wait)
 				break
 			case 6:
-				local c1 = coord(c_way4.a.x, c_way4.a.y)
-				local c2 = coord(c_way4.b.x, c_way4.b.y)
-				local c3 = coord(c_way5.a.x, c_way5.a.y)
-				local c4 = coord(c_way5.b.x, c_way5.b.y)
+				local c1 = c_way4.a.href("("+c_way4.a.tostring()+")")
+				local c2 = c_way4.b.href("("+c_way4.b.tostring()+")")
+				local c3 = c_way5.a.href("("+c_way5.a.tostring()+")")
+				local c4 = c_way5.b.href("("+c_way5.b.tostring()+")")
 				if (pot0==0){
+					local c = label3_lim
+					local c_label = c.href("("+c.tostring()+")")
+					local way = tile_x(c.x, c.y, c.z).find_object(mo_way)
+					if(!way) c2 = c_label
+
 					text = ttextfile("chapter_03/06_1-5.txt")
 					text.tx=ttext("<em>[1/5]</em>")
 				}
@@ -427,6 +442,11 @@ class tutorial.chapter_03 extends basic_chapter
 					text.tx=ttext("<em>[2/5]</em>")
 				}
 				else if (pot2==0){
+					local c = label4_lim
+					local c_label = c.href("("+c.tostring()+")")
+					local way = tile_x(c.x, c.y, c.z).find_object(mo_way)
+					if(!way) c4 = c_label
+
 					text = ttextfile("chapter_03/06_3-5.txt")
 					text.tx=ttext("<em>[3/5]</em>")
 				}
@@ -439,10 +459,10 @@ class tutorial.chapter_03 extends basic_chapter
 					text.tx = ttext("<em>[5/5]</em>")
 				}
 				text.br = c_brge2.b.href("("+c_brge2.b.tostring()+")")
-				text.w1 = c1.href("("+c1.tostring()+")")
-				text.w2 = c2.href("("+c2.tostring()+")")
-				text.w3 = c3.href("("+c3.tostring()+")")
-				text.w4 = c4.href("("+c4.tostring()+")")
+				text.w1 = c1
+				text.w2 = c2
+				text.w3 = c3
+				text.w4 = c4
 				text.tile = loc2_tile
 				break
 			case 7:
@@ -691,6 +711,7 @@ class tutorial.chapter_03 extends basic_chapter
 		local percentage=0
 		save_pot()
 		save_glsw()
+		persistent.r_way_c = r_way.c
 
 		switch (this.step) {
 			case 1:
@@ -727,9 +748,6 @@ class tutorial.chapter_03 extends basic_chapter
 				return 5
 				break;
 			case 2:
-
-
-
 				//Primer tramo de rieles
 				if (pot0==0){
 					local limi = label1_lim
@@ -848,16 +866,19 @@ class tutorial.chapter_03 extends basic_chapter
 						label_bord(bord2_lim.a, bord2_lim.b, opt, del, text)
 					}
 					else {
-						local label = tile1.find_object(mo_label)
-						if(label)
-							label.set_text("")
+						local label_a = tile1.find_object(mo_label)
+						local c = st2_list[0]
+						local label_b = my_tile(c).find_object(mo_label)
+
+						if(label_a)
+							label_a.set_text("")
 						//elimina el cuadro label
 						local opt = 0
 						local del = true
 						local text = "X"
 						label_bord(bord2_lim.a, bord2_lim.b, opt, del, text)
-						if (!tile1.find_object(mo_label))
-							label_x.create(st2_list[0], player_x(pl), translate("Build Rails form here"))
+						if (!label_b && (r_way.c.y <= limi.y))
+							label_x.create(c, player_x(pl), translate("Build Rails form here"))
 					}
 						
 					local opt = 0
@@ -1085,19 +1106,21 @@ class tutorial.chapter_03 extends basic_chapter
 						label_bord(bord4_lim.a, bord4_lim.b, opt, del, text)
 					}
 					else {
-						local label = tile1.find_object(mo_label)
-						if(label)
-							label.set_text("")
+						local label_a = tile1.find_object(mo_label)
+						local c = st4_list[0]
+						local label_b = my_tile(c).find_object(mo_label)
+
+						if(label_a)
+							label_a.set_text("")
 						//elimina el cuadro label
 						local opt = 0
 						local del = true
 						local text = "X"
 						label_bord(bord4_lim.a, bord4_lim.b, opt, del, text)
-					}
 
-					if (!tile2.find_object(mo_way))
-						label_x.create(st4_list[0], player_x(pl), translate("Build Rails form here"))
-					
+						if (!label_b && (r_way.c.y >= limi.y))
+							label_x.create(c, player_x(pl), translate("Build Rails form here"))
+					}
 					local opt = 0
 					local coora = coord3d(c_way5.a.x, c_way5.a.y, c_way5.a.z)
 					local coorb = coord3d(c_way5.b.x, c_way5.b.y, c_way5.b.z)
