@@ -383,9 +383,9 @@ class tutorial.chapter_02 extends basic_chapter
 		text.bus1 = translate(veh1_obj)
 		text.name = cty1.c.href(cty1.name.tostring())
 		text.name2 = cty2.c.href(cty2.name.tostring())
-		text.tool1 = tool_alias.inspe
-		text.tool2 = tool_alias.road
-		text.tool3 = tool_alias.spec
+		text.tool1 = translate(tool_alias.inspe)
+		text.tool2 = translate(tool_alias.road)
+		text.tool3 = translate(tool_alias.spec)
 
 		return text
 	}

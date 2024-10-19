@@ -328,9 +328,9 @@ class tutorial.chapter_05 extends basic_chapter
 	    text.f4 = fab_list[3].c.href(""+translate(fab_list[3].name)+" ("+fab_list[3].c.tostring()+")")+""
 	    text.f5 = fab_list[4].c.href(""+translate(fab_list[4].name)+" ("+fab_list[4].c.tostring()+")")+""
 
-		text.tool1 = tool_alias.inspe
-		text.tool2 = tool_alias.road
-		text.tool3 = tool_alias.spec
+		text.tool1 = translate(tool_alias.inspe)
+		text.tool2 = translate(tool_alias.road)
+		text.tool3 = translate(tool_alias.spec)
 
 		return text
 	}

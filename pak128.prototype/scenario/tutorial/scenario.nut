@@ -83,8 +83,8 @@ fail_count <- 1            			//if tool fail more of 10 try
 active_sch_check <- false
 
 // placeholder for tools names in simutrans
-tool_alias  <-	{	inspe = translate("Abfrage"), road= translate("ROADTOOLS"), rail = translate("RAILTOOLS"),
-					ship = translate("SHIPTOOLS"), land = translate("SLOPETOOLS"), spec = translate("SPECIALTOOLS")
+tool_alias  <-	{	inspe = "Abfrage", road= "ROADTOOLS", rail = "RAILTOOLS",
+					ship = "SHIPTOOLS", land = "SLOPETOOLS", spec = "SPECIALTOOLS"
 				}
 // placeholder for good names in pak128
 good_alias  <-	{	mail = "Post", passa= "Passagiere", goods = "goods_", grain = "grain", coal = "Kohle",

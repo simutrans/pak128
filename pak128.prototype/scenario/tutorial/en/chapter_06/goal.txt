@@ -1,5 +1,5 @@
 <p>
-In this chapter dedicated to air transport, we will build a small airport to transport passengers to a very distant city.
+This chapter is dedicated to air transport, we will build a small airport to transport passengers to a very distant city.
 </p>
 <p>
 {scr}
