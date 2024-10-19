@@ -78,7 +78,7 @@ class tutorial.chapter_01 extends basic_chapter
 			
 		}
 		text.town = cty1.name
-		text.tool1 = tool_alias.inspe
+		text.tool1 = translate(tool_alias.inspe)
 		return text
 	}
 	
