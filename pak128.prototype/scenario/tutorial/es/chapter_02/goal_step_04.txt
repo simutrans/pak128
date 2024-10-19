@@ -11,7 +11,7 @@ Ahora que las paradas están colocadas, necesitas comprar un <em>Autobús</em> par
 <em>[5]</em> Ahora cierra la ventana del vehículo y pulsa sobre el botón <em>Arrancar</em> para que el vehículo salga del depósito.
 </p>
 <p>
-<em>Consejo:</em> Presiona las teclas <em>[Ctrl]+["]</em> para ocultar los edificios urbanos.
+<em>Consejo:</em> Presiona las teclas <em>[Shift]+["]</em> para ocultar los edificios urbanos.
 </p>
 <p>
 <h1>Siguiendo Convoyes</h1>
