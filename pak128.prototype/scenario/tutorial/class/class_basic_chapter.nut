@@ -795,7 +795,7 @@ class basic_chapter
 	function set_schedule_list(result, pl, schedule, nr, selc, load, time, c_list, siz, line = false)
 	{
 		if (nr > siz)
-			return format(translate("The schedule needs to have %d waystops, but there are %d ."),siz, nr)
+			return format(translate("The schedule needs to have %d waystops, but there are %d."),siz, nr)
 
 		for(local j=0;j<siz;j++){
 			if (j==selc){
