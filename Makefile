@@ -104,13 +104,15 @@ tar: $(DESTFILE).tbz2
 zip: $(DESTFILE).zip
 
 
-$(DESTFILE).tbz2: copy $(DIRS) $(OUTSIDE)
+$(DESTFILE).tbz2: pakset
 	@echo "===> TAR $@"
 	@tar cjf $@ $(DESTDIR)
 
-$(DESTFILE).zip: copy $(DIRS) $(OUTSIDE)
+$(DESTFILE).zip: pakset
 	@echo "===> ZIP $@"
 	@zip -rq $@ $(DESTDIR)
+
+pakset: copy $(DIRS) $(OUTSIDE)
 
 copy:
 	@echo "===> COPY"
