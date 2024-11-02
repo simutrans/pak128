@@ -1,0 +1,47 @@
+#
+#
+# Update: 03-Oct-02: Hj.Malthaner
+# renovated by Timothy
+# update to tile / texture sysem by prissi
+#
+
+Obj=ground
+Name=Borders
+copyright=prissi
+# backpart (obtained by (hang&1)|((hang&12)>>1)
+#Image[0][0]=borders.0.6
+#Image[1][0]=borders.0.2
+#Image[2][0]=borders.0.3
+#Image[3][0]=borders.0.4
+#Image[4][0]=borders.0.5
+#Image[5][0]=borders.0.1
+#Image[6][0]=borders.0.0
+#Image[7][0]=borders.0.7
+
+Image[0][0]=borders.0.0
+Image[1][0]=borders.0.1
+Image[2][0]=borders.0.2
+Image[3][0]=borders.0.3
+Image[4][0]=borders.0.4
+Image[5][0]=borders.0.5
+Image[6][0]=borders.0.6
+Image[7][0]=borders.0.7
+Image[8][0]=borders.0.8
+Image[9][0]=borders.1.0
+Image[10][0]=borders.1.1
+Image[11][0]=borders.1.2
+Image[12][0]=borders.1.3
+Image[13][0]=borders.1.4
+Image[14][0]=borders.1.5
+Image[15][0]=borders.1.6
+Image[16][0]=borders.1.7
+Image[17][0]=borders.1.8
+Image[18][0]=borders.2.0
+Image[19][0]=borders.2.1
+Image[20][0]=borders.2.2
+Image[21][0]=borders.2.3
+Image[22][0]=borders.2.4
+Image[23][0]=borders.2.5
+Image[24][0]=borders.2.6
+Image[25][0]=borders.2.7
+Image[26][0]=borders.2.8
