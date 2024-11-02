@@ -1,13 +1,12 @@
-
 # Fast crossing
 
 Obj=crossing
 Name=Crossing1
 copyright=Kierongreen
-waytype[1]=track
 waytype[0]=road
-speed[1]=160
+waytype[1]=track
 speed[0]=90
+speed[1]=160
 
 intro_year=1910
 
@@ -22,26 +21,3 @@ closedimage[ns][0]=crossing.1.0
 
 front_closedimage[ew][0]=crossing.0.1
 front_closedimage[ns][0]=crossing.0.0
-
-------------
-
-# Slow crossing
-
-Obj=crossing
-Name=Crossing2
-copyright=none
-waytype[1]=track
-waytype[0]=road
-speed[1]=80
-speed[0]=40
-
-intro_year=1810
-
-openimage[ew][0]=simple-crossing.0.0
-openimage[ns][0]=simple-crossing.0.1
-
-closedimage[ew][0]=simple-crossing.0.0
-closedimage[ns][0]=simple-crossing.0.1
-
---------------
-# EOF
