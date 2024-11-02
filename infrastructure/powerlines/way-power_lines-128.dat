@@ -4,31 +4,6 @@
 #                                                                              #
 #------------------------------------------------------------------------------#
 
-Obj=misc
-Name=PowerSource
-copyright=MHz
-Image[0]=Trafo_128.3.0
-Image[1]=Trafo_128.3.1
-# winter
-Image[2]=Trafo_128.3.0
-Image[3]=Trafo_128.3.1
-# icon
-Image[4]=> Trafo_128.2.3
-# cursor
-Image[5]=Trafo_128.3.3
-----------------------------------------
-Obj=misc
-Name=PowerDest
-copyright=MHz
-Image[0]=Trafo_128.0.3
-Image[1]=Trafo_128.1.3
-# winter
-Image[2]=Trafo_128.0.3
-Image[3]=Trafo_128.1.3
-# icon
-Image[4]=> Trafo_128.2.3
-# cursor
-Image[5]=Trafo_128.3.3
 ----------------------------------------
 Obj=way
 Name=Powerline
