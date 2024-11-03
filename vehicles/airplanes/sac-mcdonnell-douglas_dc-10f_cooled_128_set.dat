@@ -1,12 +1,14 @@
-#McDonnell Douglas DC-10F
-#Intercontinental/continental freight transport
+# McDonnell Douglas DC-10F
+# Intercontinental/continental freight transport
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-McDonnell_Douglas_DC-10F_(cooled_goods)_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=meat
-copyright=Zeno
 payload=110
 speed=898
 power=20500

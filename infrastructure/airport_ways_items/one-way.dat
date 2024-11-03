@@ -1,0 +1,24 @@
+#
+# objects for airport realism eye candy (mostly)
+# ----------------------------------------------
+#
+#    - air_one-way
+#       alternative one-way sign, more realistic than the old one
+#
+
+-----------------------------
+
+# airport one-way sign
+obj=roadsign
+name=air_one-way
+copyright=DirrrtyDirk
+single_way=1
+cost=500
+waytype=air
+intro_year=1965
+Image[0]=one-way.0.0
+Image[1]=one-way.0.1
+Image[2]=one-way.0.2
+Image[3]=one-way.0.3
+icon=> one-way.0.4
+cursor=one-way.0.5

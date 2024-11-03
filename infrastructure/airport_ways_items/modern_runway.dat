@@ -1,0 +1,37 @@
+# 07.07.2008 new file way for airports (FrankP)
+#
+#
+
+---------------------------------------------------------
+
+obj=way
+name=runway_modern
+copyright=DirrrtyDirk
+waytype=air
+cost=500000
+maintenance=9000
+topspeed=360
+max_weight=600
+intro_year=1950
+intro_month=1
+#TWY -> s.t.=0;   RWY -> s.t.=1
+system_type=1
+Image[-]=modern_runway.1.2
+Image[NS]=modern_runway.0.0
+Image[EW]=modern_runway.0.1
+Image[N]=modern_runway.0.2
+Image[S]=modern_runway.0.3
+Image[E]=modern_runway.0.4
+Image[W]=modern_runway.0.5
+Image[NSE]=modern_runway.1.0
+Image[NSW]=modern_runway.1.1
+Image[NEW]=modern_runway.1.2
+Image[SEW]=modern_runway.1.3
+Image[NSEW]=modern_runway.1.4
+icon=> modern_runway.2.0
+cursor=modern_runway.2.1
+
+Image[NE]=-
+Image[SE]=-
+Image[NW]=-
+Image[SW]=-

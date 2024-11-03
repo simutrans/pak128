@@ -1,9 +1,10 @@
-name=SAC-Boeing_737-900_128_set
 obj=vehicle
+name=SAC-Boeing_737-900_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=215
 speed=828
 power=8400

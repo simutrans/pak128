@@ -1,9 +1,10 @@
-name=SAC-Bombardier_CRJ-200
 obj=vehicle
+name=SAC-Bombardier_CRJ-200
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=50
 speed=860
 power=2600

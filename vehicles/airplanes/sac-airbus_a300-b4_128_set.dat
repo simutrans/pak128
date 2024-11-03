@@ -1,9 +1,10 @@
-name=SAC-Airbus_A300-B4_128_set
 obj=vehicle
+name=SAC-Airbus_A300-B4_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=266
 speed=913
 power=13500

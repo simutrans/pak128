@@ -1,13 +1,14 @@
-#Lockheed C-130J Super Hercules
-#Freighter version - freight service
+# Lockheed C-130J Super Hercules
+# Freighter version - freight service
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-Lockheed_C-130J_Super_Hercules_(goods)_128_set
-waytype=air
-engine_type=diesel 
-freight=canned_food
-
 copyright=Zeno
+
+waytype=air
+engine_type=diesel
+freight=canned_food
 payload=150
 speed=720
 power=18000

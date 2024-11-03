@@ -1,9 +1,10 @@
-name=SAC-Airbus_A330-300_128_set
 obj=vehicle
+name=SAC-Airbus_A330-300_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=335
 speed=871
 power=22000

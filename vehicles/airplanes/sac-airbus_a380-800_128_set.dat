@@ -1,9 +1,10 @@
 name=SAC-Airbus_A380-800_128_set
 obj=vehicle
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=644
 speed=903
 power=48000

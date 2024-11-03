@@ -1,9 +1,10 @@
-name=SAC-Embraer_E-170
 obj=vehicle
+name=SAC-Embraer_E-170
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=80
 speed=870
 power=4100

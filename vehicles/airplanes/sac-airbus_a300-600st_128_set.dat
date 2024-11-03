@@ -1,13 +1,14 @@
-#Airbus A300-600ST �Beluga�
-#Special high volume freight services
+# Airbus A300-600ST 'Beluga'
+# Special high volume freight services
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-Airbus_A300-600ST_128_set
-waytype=air
-engine_type=diesel 
-freight=canned_food
-
 copyright=Zeno
+
+waytype=air
+engine_type=diesel
+freight=canned_food
 payload=350
 speed=780
 power=19500

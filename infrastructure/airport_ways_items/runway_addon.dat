@@ -1,0 +1,51 @@
+#
+# objects for airport realism eye candy (mostly)
+# ----------------------------------------------
+#
+#    - modern_runway-extMrkLgt
+#	additional runway markings and lights (touchdown zone, runway end warning)
+#		build over runway to make the stripes look better
+#		(they should have ends which need 2 tiles -> can't be done with regular way objects)
+
+-----------------------------
+
+obj=way-object
+name=modern_runway-extMrkLgt
+copyright=DirrrtyDirk
+waytype=air
+own_waytype=air
+cost=5000
+maintenance=900
+topspeed=360
+intro_year=1965
+intro_month=1
+
+BackImage[-]=-
+BackImage[NS]=-
+BackImage[EW]=-
+
+BackImage[S]=runway_addon.0.1
+BackImage[W]=runway_addon.0.3
+BackImage[N]=runway_addon.0.0
+BackImage[E]=runway_addon.0.2
+
+BackImage[NSE]=-
+BackImage[NSW]=-
+BackImage[NEW]=-
+BackImage[SEW]=-
+
+BackImage[NSEW]=-
+
+icon=> runway_addon.1.0
+cursor=runway_addon.1.1
+
+
+BackImage[NE]=-
+BackImage[SE]=-
+BackImage[NW]=-
+BackImage[SW]=-
+
+BackImageUp[12]=-
+BackImageUp[9]=-
+BackImageUp[6]=-
+BackImageUp[3]=-

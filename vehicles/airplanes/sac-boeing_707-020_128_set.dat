@@ -1,9 +1,10 @@
 name=SAC-Boeing_707-020_128_set
 obj=vehicle
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=140
 speed=967
 power=7400

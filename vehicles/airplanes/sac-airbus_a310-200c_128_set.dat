@@ -1,13 +1,14 @@
-#Airbus A310-200C
-#Cooled freighter version - intercontinental refrigerated goods service
+# Airbus A310-200C
+# Cooled freighter version - intercontinental refrigerated goods service
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-Airbus_A310-200C_128_set
-waytype=air
-engine_type=diesel 
-freight=fish
-
 copyright=Zeno
+
+waytype=air
+engine_type=diesel
+freight=fish
 payload=100
 speed=892
 power=15000

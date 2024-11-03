@@ -1,13 +1,14 @@
-#Ilyushin IL-76 Candid
-#Freighter - freight service
+# Ilyushin IL-76 Candid
+# Freighter - freight service
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-Ilyushin_IL-76_Candid_128_set
-waytype=air
-engine_type=diesel 
-freight=canned_food
-
 copyright=Zeno
+
+waytype=air
+engine_type=diesel
+freight=canned_food
 payload=50
 speed=850
 power=18000

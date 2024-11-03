@@ -1,9 +1,10 @@
-name=SAC-Boeing_777-200F_mail_128_set
 obj=vehicle
+name=SAC-Boeing_777-200F_mail_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Post
-copyright=Zeno
 payload=320
 speed=905
 power=34000

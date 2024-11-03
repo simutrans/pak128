@@ -1,0 +1,40 @@
+# 07.07.2008 new file way for airports (FrankP)
+#
+#
+
+---------------------------------------------------------
+
+obj=way
+name=air_movement_area
+copyright=DirrrtyDirk
+waytype=air
+cost=300000
+maintenance=5000
+topspeed=60
+max_weight=600
+intro_year=1950
+intro_month=1
+#TWY -> s.t.=0;   RWY -> s.t.=1
+system_type=0
+Image[-]=taxiway.0.0
+Image[N]=taxiway.1.0
+Image[S]=taxiway.1.1
+Image[E]=taxiway.1.2
+Image[W]=taxiway.1.3
+Image[NS]=taxiway.0.1
+Image[EW]=taxiway.0.2
+Image[NSE]=taxiway.2.0
+Image[NSW]=taxiway.2.1
+Image[NEW]=taxiway.2.2
+Image[SEW]=taxiway.2.3
+Image[NSEW]=taxiway.0.3
+Image[NE]=taxiway.3.0
+Image[SE]=taxiway.3.1
+Image[NW]=taxiway.3.2
+Image[SW]=taxiway.3.3
+Diagonal[NE]=taxiway.3.0
+Diagonal[SE]=taxiway.3.1
+Diagonal[NW]=taxiway.3.2
+Diagonal[SW]=taxiway.3.3
+icon=> taxiway.0.4
+cursor=taxiway.1.4

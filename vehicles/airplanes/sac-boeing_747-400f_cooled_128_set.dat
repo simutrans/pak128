@@ -1,13 +1,14 @@
-#Boeing 747-200F
-#Postal version - intercontinental/continental post service
+# Boeing 747-200F
+# Postal version - intercontinental/continental post service
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-Boeing_747-400F_Cooled_128_set
-waytype=air
-engine_type=diesel 
-freight=fish
-
 copyright=Zeno
+
+waytype=air
+engine_type=diesel
+freight=fish
 payload=235
 speed=913
 power=39100

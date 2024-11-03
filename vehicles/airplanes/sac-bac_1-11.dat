@@ -1,9 +1,10 @@
-name=SAC-BAC_1-11
 obj=vehicle
+name=SAC-BAC_1-11
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=89
 speed=795
 power=3100

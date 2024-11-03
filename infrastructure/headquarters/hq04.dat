@@ -1,0 +1,23 @@
+### HQ - Level 4 ###
+obj=building
+Name=HQ4
+copyright=ny911 & Rmax500
+type=hq
+hq_level=3
+level=32
+NoInfo=1
+Dims=3,3,1
+needs_ground=1
+icon=player-hq-128.0.1
+cursor=player-hq-128.0.2
+
+### summer view ###
+BackImage[0][0][0][0][0][0]=hq04.0.0
+BackImage[0][0][1][0][0][0]=hq04.0.1
+BackImage[0][0][2][0][0][0]=hq04.0.2
+BackImage[0][1][0][0][0][0]=hq04.1.0
+BackImage[0][1][1][0][0][0]=hq04.1.1
+BackImage[0][1][2][0][0][0]=hq04.1.2
+BackImage[0][2][0][0][0][0]=hq04.2.0
+BackImage[0][2][1][0][0][0]=hq04.2.1
+BackImage[0][2][2][0][0][0]=hq04.2.2

@@ -1,0 +1,34 @@
+### HQ - Level 3 ###
+obj=building
+Name=HQ3
+copyright=ny911 & MHz
+type=hq
+hq_level=2
+level=8
+NoInfo=1
+Dims=3,3,1
+needs_ground=1
+icon=player-hq-128.0.1
+cursor=player-hq-128.0.2
+
+### summer view ###
+BackImage[0][0][0][0][0][0]=hq03.0.0
+BackImage[0][0][1][0][0][0]=hq03.0.1
+BackImage[0][0][2][0][0][0]=hq03.0.2
+BackImage[0][1][0][0][0][0]=hq03.1.0
+BackImage[0][1][1][0][0][0]=hq03.1.1
+BackImage[0][1][2][0][0][0]=hq03.1.2
+BackImage[0][2][0][0][0][0]=hq03.2.0
+BackImage[0][2][1][0][0][0]=hq03.2.1
+BackImage[0][2][2][0][0][0]=hq03.2.2
+
+### winter view ###
+BackImage[0][0][0][0][0][1]=hq03.0.3
+BackImage[0][0][1][0][0][1]=hq03.0.4
+BackImage[0][0][2][0][0][1]=hq03.0.5
+BackImage[0][1][0][0][0][1]=hq03.1.3
+BackImage[0][1][1][0][0][1]=hq03.1.4
+BackImage[0][1][2][0][0][1]=hq03.1.5
+BackImage[0][2][0][0][0][1]=hq03.2.3
+BackImage[0][2][1][0][0][1]=hq03.2.4
+BackImage[0][2][2][0][0][1]=hq03.2.5

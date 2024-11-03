@@ -1,13 +1,14 @@
-#Lockheed C-130F Hercules
-#Freighter version - freight service
+# Lockheed C-130F Hercules
+# Freighter version - freight service
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-Lockheed_C-130F_Hercules_128_set
+copyright=Zeno
 waytype=air
-engine_type=diesel 
+engine_type=diesel
 freight=canned_food
 
-copyright=Zeno
 payload=30
 speed=450
 power=12840

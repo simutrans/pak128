@@ -1,13 +1,14 @@
-#Lockheed C-130J Super Hercules
-#Cooled freighter version - refrigerated goods service
+# Lockheed C-130J Super Hercules
+# Cooled freighter version - refrigerated goods service
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-Lockheed_C-130J_Super_Hercules_(cooled)_128_set
-waytype=air
-engine_type=diesel 
-freight=fish
-
 copyright=Zeno
+
+waytype=air
+engine_type=diesel
+freight=fish
 payload=100
 speed=750
 power=18000

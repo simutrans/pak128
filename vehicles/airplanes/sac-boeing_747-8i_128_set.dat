@@ -1,9 +1,10 @@
-name=SAC-Boeing_747-8I_128_set
 obj=vehicle
+name=SAC-Boeing_747-8I_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=581
 speed=917
 power=41000

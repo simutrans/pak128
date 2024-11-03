@@ -1,9 +1,10 @@
-name=SAC-Airbus_A310-200_128_set
 obj=vehicle
+name=SAC-Airbus_A310-200_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=240
 speed=892
 power=15000
