@@ -429,7 +429,7 @@ function get_percentage(pl)
 }
 
 
-function is_work_allowed_here(pl, tool_id, pos)
+function is_work_allowed_here(pl, tool_id, pos, tool)
 {
 	local result = null               // null is equivalent to 'allowed'
 	if (tool_id == tool_setslope)     result = terra_forming_allowed(pos)
