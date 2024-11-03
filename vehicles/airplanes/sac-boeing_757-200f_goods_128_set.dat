@@ -1,13 +1,14 @@
-#McDonnell Douglas MD-11F
-#Intercontinental/continental freight transport
+# McDonnell Douglas MD-11F
+# Intercontinental/continental freight transport
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-Boeing_757-200f_goods_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=canned_food
-
-copyright=Zeno
 payload=140
 speed=850
 power=13400

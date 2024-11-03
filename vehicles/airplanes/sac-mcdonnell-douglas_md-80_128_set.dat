@@ -1,12 +1,14 @@
-#McDonnell Douglas MD-80
-#Passenger intercontinental/continental transport
+# McDonnell Douglas MD-80
+# Passenger intercontinental/continental transport
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-McDonnell_Douglas_MD-80_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=172
 speed=811
 power=5950

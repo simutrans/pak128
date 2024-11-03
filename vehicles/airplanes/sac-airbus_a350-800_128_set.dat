@@ -1,9 +1,10 @@
-name=SAC-Airbus_A350-800_128_set
 obj=vehicle
+name=SAC-Airbus_A350-800_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=375
 speed=903
 power=23150

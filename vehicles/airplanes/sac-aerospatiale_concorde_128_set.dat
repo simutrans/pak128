@@ -1,9 +1,9 @@
-name=SAC-Aerospatiale_Concorde_128_set
 obj=vehicle
+name=SAC-Aerospatiale_Concorde_128_set
+copyright=Zeno
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=100
 speed=2170
 power=42000

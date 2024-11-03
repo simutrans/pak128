@@ -1,9 +1,10 @@
-name=SAC-Airbus_A330-200f_mail_128_set
 obj=vehicle
+name=SAC-Airbus_A330-200f_mail_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Post
-copyright=Zeno
 payload=230
 speed=871
 power=22000

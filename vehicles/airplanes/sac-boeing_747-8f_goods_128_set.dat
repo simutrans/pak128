@@ -1,13 +1,14 @@
-#Boeing 747-200F
-#Freighter version - intercontinental/continental freight service
+# Boeing 747-8F (Goods)
+# Freighter version - intercontinental/continental freight service
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-Boeing_747-8F_Goods_128_set
-waytype=air
-engine_type=diesel 
-freight=canned_food
-
 copyright=Zeno
+
+waytype=air
+engine_type=diesel
+freight=canned_food
 payload=315
 speed=908
 power=41000

@@ -1,11 +1,13 @@
-#Boeing 777-200F
+# Boeing 777-200F
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-Boeing_777-200F_goods_128_set
-waytype=air
-engine_type=diesel 
-freight=goods_
 copyright=Zeno
+
+waytype=air
+engine_type=diesel
+freight=goods_
 payload=240
 speed=905
 power=34000

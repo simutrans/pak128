@@ -1,9 +1,10 @@
-name=SAC-Boeing_747-8F_Mail_128_set
 obj=vehicle
+name=SAC-Boeing_747-8F_Mail_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Post
-copyright=Zeno
 payload=420
 speed=908
 power=41000

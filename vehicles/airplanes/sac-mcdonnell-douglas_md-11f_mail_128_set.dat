@@ -1,12 +1,14 @@
-#McDonnell Douglas MD-11F
-#Intercontinental/continental freight transport (postal version)
+# McDonnell Douglas MD-11F
+# Intercontinental/continental freight transport (postal version)
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-McDonnell_Douglas_MD-11F_(mail)_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Post
-copyright=Zeno
 payload=330
 speed=930
 power=27670

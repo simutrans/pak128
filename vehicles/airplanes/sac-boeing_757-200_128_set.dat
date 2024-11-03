@@ -1,9 +1,10 @@
-name=SAC-Boeing_757-200_128_set
 obj=vehicle
+name=SAC-Boeing_757-200_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=234
 speed=850
 power=13400

@@ -1,12 +1,14 @@
-#Airbus A330-200    
-#Passenger intercontinental/continental transport
+# Airbus A330-200
+# Passenger intercontinental/continental transport
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-Airbus_A350-900f_goods_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=goods_
-copyright=Zeno
 payload=225
 speed=903
 power=27300

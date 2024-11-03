@@ -1,9 +1,10 @@
-name=SAC-Junkers_Ju-52_Mail_128_set
 obj=vehicle
+name=SAC-Junkers_Ju-52_Mail_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Post
-copyright=Zeno
 payload=30
 speed=201
 power=1599

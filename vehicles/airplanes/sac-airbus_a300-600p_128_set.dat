@@ -1,9 +1,9 @@
-name=SAC-Airbus_A300-600P_128_set
 obj=vehicle
+name=SAC-Airbus_A300-600P_128_set
+copyright=Zeno
 waytype=air
 engine_type=diesel
 freight=Post
-copyright=Zeno
 payload=260
 speed=913
 power=18000

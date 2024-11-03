@@ -1,9 +1,10 @@
-name=SAC-Boeing_B-377_Stratoliner
 obj=vehicle
+name=SAC-Boeing_B-377_Stratoliner
+copyright=vilvoh & Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=vilvoh & Zeno
 payload=84
 speed=603
 power=10440

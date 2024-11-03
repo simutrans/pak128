@@ -1,13 +1,14 @@
-#Lockheed C-130C Hercules
-#Cooled freighter version - refrigerated goods service
+# Lockheed C-130C Hercules
+# Cooled freighter version - refrigerated goods service
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-Lockheed_C-130C_Hercules_128_set
-waytype=air
-engine_type=diesel 
-freight=fish
-
 copyright=Zeno
+
+waytype=air
+engine_type=diesel
+freight=fish
 payload=25
 speed=460
 power=12840

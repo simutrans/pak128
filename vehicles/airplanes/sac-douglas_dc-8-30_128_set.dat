@@ -1,9 +1,10 @@
-name=SAC-Douglas_DC-8-30_128_set
 obj=vehicle
+name=SAC-Douglas_DC-8-30_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=176
 speed=946
 power=9880

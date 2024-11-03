@@ -1,9 +1,10 @@
-name=SAC-Fokker_F-27_Mail_128_set
 obj=vehicle
+name=SAC-Fokker_F-27_Mail_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Post
-copyright=Zeno
 payload=75
 speed=507
 power=3356

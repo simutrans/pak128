@@ -1,9 +1,10 @@
-name=SAC-Lockheed_Constellation_128_set
 obj=vehicle
+name=SAC-Lockheed_Constellation_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=62
 speed=547
 power=9700

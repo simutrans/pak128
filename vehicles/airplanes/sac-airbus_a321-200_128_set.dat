@@ -1,9 +1,10 @@
-name=SAC-Airbus_A321-200_128_set
 obj=vehicle
+name=SAC-Airbus_A321-200_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=199
 speed=828
 power=9500

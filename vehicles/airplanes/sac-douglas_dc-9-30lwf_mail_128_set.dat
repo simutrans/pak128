@@ -1,9 +1,10 @@
-name=SAC-Douglas_DC-9-30LWF_Mail_128_set
 obj=vehicle
+name=SAC-Douglas_DC-9-30LWF_Mail_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Post
-copyright=Zeno
 payload=85
 speed=905
 power=4750

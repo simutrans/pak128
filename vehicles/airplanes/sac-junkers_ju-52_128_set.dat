@@ -1,9 +1,10 @@
-name=SAC-Junkers_Ju-52_128_set
 obj=vehicle
+name=SAC-Junkers_Ju-52_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=18
 speed=211
 power=1599

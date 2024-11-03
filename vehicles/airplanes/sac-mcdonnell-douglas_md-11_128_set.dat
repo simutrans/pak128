@@ -1,12 +1,14 @@
-#McDonnell Douglas MD-11
-#Passenger intercontinental/continental transport
+# McDonnell Douglas MD-11
+# Passenger intercontinental/continental transport
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-McDonnell_Douglas_MD-11_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=410
 speed=945
 power=27670

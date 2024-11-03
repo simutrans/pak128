@@ -1,12 +1,14 @@
-#McDonnell Douglas MD-90
-#Passenger intercontinental/continental transport
+# McDonnell Douglas MD-90
+# Passenger intercontinental/continental transport
 #-------------------------------------------------------------------------------
+
 obj=vehicle
 name=SAC-McDonnell_Douglas_MD-90_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=172
 speed=811
 power=8235

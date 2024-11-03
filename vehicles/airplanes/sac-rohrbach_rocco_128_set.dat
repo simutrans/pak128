@@ -1,9 +1,10 @@
-name=SAC-Rohrbach_Rocco_128_set
 obj=vehicle
+name=SAC-Rohrbach_Rocco_128_set
+copyright=Zeno
+
 waytype=air
 engine_type=diesel
 freight=Passagiere
-copyright=Zeno
 payload=12
 speed=168
 power=1000
