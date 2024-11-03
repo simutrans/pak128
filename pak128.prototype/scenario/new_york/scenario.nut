@@ -173,7 +173,7 @@ function forbid_tools_on_hudson()
 	}
 }
 
-function is_work_allowed_here(pl, tool_id, pos)
+function is_work_allowed_here(pl, tool_id, pos, tool)
 {
 	// headquarter only on governors island
 	if (tool_id == tool_headquarter) {

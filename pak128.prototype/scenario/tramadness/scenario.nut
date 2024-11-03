@@ -44,7 +44,7 @@ function get_result_text(pl)
 		return ttext("There is still no passenger at Cambridge TOP station.")
 }
 
-function is_work_allowed_here(pl, tool_id, pos)
+function is_work_allowed_here(pl, tool_id, pos, tool)
 {
 	// no extension of existing stations
 	if (tool_id == tool_build_station) {
