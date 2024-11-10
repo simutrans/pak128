@@ -1,0 +1,17 @@
+
+--------------------------------------------------------------------------------
+
+Obj=crossing
+Name=p128_crossing_road040_rail080
+copyright=none
+waytype[0]=road
+waytype[1]=track
+speed[0]=40
+speed[1]=80
+
+intro_year=1810
+
+ClosedImage[NS,EW][0-1]=p128_crossing_road040_rail080.<0+$1>.<2*$0>
+OpenImage[NS,EW][0-1]=p128_crossing_road040_rail080.<0+$1>.<2*$0+1>
+
+--------------------------------------------------------------------------------
