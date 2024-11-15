@@ -10,7 +10,7 @@
 MAKEOBJ ?= ./makeobj
 LIGHTMAP ?= ./lightmap
 
-PAKID ?= pak128 2.9.2 for 124.3
+PAKID ?= pak128 2.10.0 for 124.3
 
 DESTDIR  ?= simutrans
 PAKDIR   ?= $(DESTDIR)/pak128
