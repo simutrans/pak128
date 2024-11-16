@@ -585,7 +585,7 @@ river_0a
 05_CITY_1
 02_CITY_1
 
-#
+# These will be never used, as crossing names are not saved.
 ###########################  New crossings ####################################
 Crossing1
 p128_crossing_road090_rail160
