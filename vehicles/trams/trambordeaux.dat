@@ -18,7 +18,7 @@ freight=Passagiere
 Constraint[Prev][0]=none
 Constraint[Next][0]=Citadis402_Bordeaux_2
 
-EmptyImage[S,E,SE,NE,N,W,NW,SW]=trambordeaux.0.<$0>
+EmptyImage[E,SE,S,NE,N,NW,W,SW]=trambordeaux.0.<$0>
 
 --------------------
 
@@ -39,7 +39,7 @@ freight=Passagiere
 Constraint[Prev][0]=Citadis402_Bordeaux_1
 Constraint[Next][0]=Citadis402_Bordeaux_3
 
-EmptyImage[S,E,SE,NE,N,W,NW,SW]=trambordeaux.1.<$0>
+EmptyImage[E,SE,S,NE,N,NW,W,SW]=trambordeaux.1.<$0>
 
 --------------------
 
@@ -62,7 +62,7 @@ freight=Passagiere
 Constraint[Prev][0]=Citadis402_Bordeaux_2
 Constraint[Next][0]=Citadis402_Bordeaux_4
 
-EmptyImage[S,E,SE,NE,N,W,NW,SW]=trambordeaux.2.<$0>
+EmptyImage[E,SE,S,NE,N,NW,W,SW]=trambordeaux.2.<$0>
 
 --------------------
 
@@ -83,7 +83,7 @@ freight=Passagiere
 Constraint[Prev][0]=Citadis402_Bordeaux_3
 Constraint[Next][0]=Citadis402_Bordeaux_5
 
-EmptyImage[S,E,SE,NE,N,W,NW,SW]=trambordeaux.3.<$0>
+EmptyImage[E,SE,S,NE,N,NW,W,SW]=trambordeaux.3.<$0>
 
 --------------------
 
@@ -106,7 +106,7 @@ freight=Passagiere
 Constraint[Prev][0]=Citadis402_Bordeaux_4
 Constraint[Next][0]=Citadis402_Bordeaux_6
 
-EmptyImage[S,E,SE,NE,N,W,NW,SW]=trambordeaux.4.<$0>
+EmptyImage[E,SE,S,NE,N,NW,W,SW]=trambordeaux.4.<$0>
 
 --------------------
 
@@ -127,7 +127,7 @@ freight=Passagiere
 Constraint[Prev][0]=Citadis402_Bordeaux_5
 Constraint[Next][0]=Citadis402_Bordeaux_7
 
-EmptyImage[S,E,SE,NE,N,W,NW,SW]=trambordeaux.5.<$0>
+EmptyImage[E,SE,S,NE,N,NW,W,SW]=trambordeaux.5.<$0>
 
 --------------------
 
@@ -150,4 +150,4 @@ freight=Passagiere
 Constraint[Prev][0]=Citadis402_Bordeaux_6
 Constraint[Next][0]=none
 
-EmptyImage[S,E,SE,NE,N,W,NW,SW]=trambordeaux.6.<$0>
+EmptyImage[E,SE,S,NE,N,NW,W,SW]=trambordeaux.6.<$0>
