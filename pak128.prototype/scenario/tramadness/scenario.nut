@@ -44,7 +44,7 @@ function get_result_text(pl)
 		return ttext("There is still no passenger at Cambridge TOP station.")
 }
 
-function is_work_allowed_here(pl, tool_id, pos, tool)
+function is_work_allowed_here(pl, tool_id, name, pos, tool)
 {
 	// no extension of existing stations
 	if (tool_id == tool_build_station) {
@@ -76,32 +76,32 @@ function start()
 	foreach(wt in all_waytypes) {
 		if (wt != wt_tram) {
 			if (wt != wt_road) {
-				rules.forbid_way_tool(0, tool_build_way, wt)
-				rules.forbid_way_tool(0, tool_build_bridge, wt)
-				rules.forbid_way_tool(0, tool_build_tunnel, wt)
-				rules.forbid_way_tool(0, tool_build_station, wt)
+				rules.forbid_way_tool(0, tool_build_way, wt, "")
+				rules.forbid_way_tool(0, tool_build_bridge, wt, "")
+				rules.forbid_way_tool(0, tool_build_tunnel, wt, "")
+				rules.forbid_way_tool(0, tool_build_station, wt, "")
 				if (wt != wt_rail) {
-					rules.forbid_way_tool(0, tool_remove_way, wt)
+					rules.forbid_way_tool(0, tool_remove_way, wt, "")
 				}
 			}
-			rules.forbid_way_tool(0, tool_remove_wayobj, wt)
-			rules.forbid_way_tool(0, tool_build_wayobj, wt)
-			rules.forbid_way_tool(0, tool_build_depot, wt)
+			rules.forbid_way_tool(0, tool_remove_wayobj, wt, "")
+			rules.forbid_way_tool(0, tool_build_wayobj, wt, "")
+			rules.forbid_way_tool(0, tool_build_depot, wt, "")
 
 			if (wt != wt_rail) {
-				rules.forbid_way_tool(0, tool_build_roadsign, wt)
+				rules.forbid_way_tool(0, tool_build_roadsign, wt, "")
 			}
 		}
 	}
 
 	// protect main stations
-	rules.forbid_way_tool_rect(0, tool_remover, wt_all, { x=25, y=45, z=5 }, { x=25, y=45, z=5 }, ttext(err_station_protected))
-	rules.forbid_way_tool_rect(0, tool_remover, wt_all, { x=34, y=39, z=0 }, { x=34, y=39, z=0 }, ttext(err_station_protected))
-	rules.forbid_way_tool_rect(0, tool_remover, wt_all, { x=18, y=55, z=0 }, { x=18, y=55, z=0 }, ttext(err_station_protected))
+	rules.forbid_way_tool_rect(0, tool_remover, wt_all, "", { x=25, y=45, z=5 }, { x=25, y=45, z=5 }, ttext(err_station_protected))
+	rules.forbid_way_tool_rect(0, tool_remover, wt_all, "", { x=34, y=39, z=0 }, { x=34, y=39, z=0 }, ttext(err_station_protected))
+	rules.forbid_way_tool_rect(0, tool_remover, wt_all, "", { x=18, y=55, z=0 }, { x=18, y=55, z=0 }, ttext(err_station_protected))
 
-	rules.forbid_way_tool_rect(0, tool_remove_way, wt_all, { x=25, y=45, z=5 }, { x=25, y=45, z=5 }, ttext(err_station_protected))
-	rules.forbid_way_tool_rect(0, tool_remove_way, wt_all, { x=34, y=39, z=0 }, { x=34, y=39, z=0 }, ttext(err_station_protected))
-	rules.forbid_way_tool_rect(0, tool_remove_way, wt_all, { x=18, y=55, z=0 }, { x=18, y=55, z=0 }, ttext(err_station_protected))
+	rules.forbid_way_tool_rect(0, tool_remove_way, wt_all, "", { x=25, y=45, z=5 }, { x=25, y=45, z=5 }, ttext(err_station_protected))
+	rules.forbid_way_tool_rect(0, tool_remove_way, wt_all, "", { x=34, y=39, z=0 }, { x=34, y=39, z=0 }, ttext(err_station_protected))
+	rules.forbid_way_tool_rect(0, tool_remove_way, wt_all, "", { x=18, y=55, z=0 }, { x=18, y=55, z=0 }, ttext(err_station_protected))
 
 	// set startmoney of player=0
 	player_x(0).book_cash( 125000 * 100 - player_x(0).get_cash()[0] )
