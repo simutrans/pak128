@@ -168,12 +168,12 @@ function forbid_tools_on_hudson()
 {
 	for(local j=0; j<tools_not_allowed_on_hudson.len(); j++) {
 			for(local i=0; i<hudson_river.len()-1; i++) {
-				rules.forbid_way_tool_rect(player_all, tools_not_allowed_on_hudson[j], wt_all, hudson_river[i], hudson_river[i+1], ttext(error_hudson[j]))
+				rules.forbid_way_tool_rect(player_all, tools_not_allowed_on_hudson[j], wt_all, "", hudson_river[i], hudson_river[i+1], ttext(error_hudson[j]))
 			}
 	}
 }
 
-function is_work_allowed_here(pl, tool_id, pos, tool)
+function is_work_allowed_here(pl, tool_id, name, pos, tool)
 {
 	// headquarter only on governors island
 	if (tool_id == tool_headquarter) {

@@ -282,7 +282,7 @@ function set_rule_bridge_coventry_sound(forbid)
 
 	for(local i=0; i<coventry_sound.len()-1; i++) {
 		foreach(tool in coventry_sound_tools) {
-			func(player_all, tool, wt_all, coventry_sound[i], coventry_sound[i+1], err_no_bridge)
+			func(player_all, tool, wt_all, "", coventry_sound[i], coventry_sound[i+1], err_no_bridge)
 		}
 	}
 }

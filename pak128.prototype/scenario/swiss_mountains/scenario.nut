@@ -240,7 +240,7 @@ function resume_game()
 	local pl = 0
 	foreach (tool in forbid_tools)
 		foreach (cube in forbid_list)
-			rules.forbid_way_tool_cube(pl, tool, cube.waytyp, cube.a, cube.b, ttext(cube.text) )
+			rules.forbid_way_tool_cube(pl, tool, cube.waytyp, "", cube.a, cube.b, ttext(cube.text) )
 	rules.forbid_tool(pl, tool_restoreslope )
 	rules.forbid_tool(pl, tool_lower_land )
 	rules.forbid_tool(pl, tool_raise_land )
@@ -429,7 +429,7 @@ function get_percentage(pl)
 }
 
 
-function is_work_allowed_here(pl, tool_id, pos, tool)
+function is_work_allowed_here(pl, tool_id, name, pos, tool)
 {
 	local result = null               // null is equivalent to 'allowed'
 	if (tool_id == tool_setslope)     result = terra_forming_allowed(pos)
