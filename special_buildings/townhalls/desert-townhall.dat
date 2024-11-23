@@ -1,0 +1,16 @@
+Obj=building
+Name=02_CITY
+copyright=AI & prissi
+intro_year=1820
+chance=5
+dims=1,1,1
+Type=tow
+Build_Time=0
+Passengers=17
+NoConstruction=1
+climates=desert, mediterran, temperate, tundra, rocky
+needs_ground=0
+#Summer
+backimage[0][0][0][0][0][0]=desert-townhall.0.0
+#Winter
+#backimage[0][0][0][0][0][1]=

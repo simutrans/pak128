@@ -1,9 +1,9 @@
 obj=building
-name=COM_05_16
+name=IND_08_16
 copyright=MHz
-type=com
+type=ind
 level=16
-intro_year=1921
+intro_year=1888
 retire_year=1966
 climates=desert,tropic,mediterran,temperate,tundra,rocky
-backimage[0][0][0][0][0]=com_05_16.1.0
+backimage[0][0][0][0][0]=ind_08_16.1.0
