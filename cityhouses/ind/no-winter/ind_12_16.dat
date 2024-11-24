@@ -2,6 +2,7 @@ obj=building
 name=IND_12_16
 copyright=Patrick
 type=ind
+climates=mediterran,temperate,tundra,rocky
 level=16
 intro_year=2019
 retire_year=2999

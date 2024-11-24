@@ -1,0 +1,11 @@
+obj=building
+name=IND_19_19
+copyright=Gelion
+type=ind
+level=19
+intro_year=1899
+retire_year=1945
+climates=tropic,desert,mediterran,temperate,tundra,rocky,arctic
+needs_ground=1
+backimage[0][0][0][0][0][1]=ind_19_19.1.1
+backimage[0][0][0][0][0][0]=ind_19_19.1.0

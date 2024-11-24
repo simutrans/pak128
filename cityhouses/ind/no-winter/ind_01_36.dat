@@ -2,6 +2,7 @@ obj=building
 name=IND_01_36
 copyright=BlackBox
 type=ind
+climates=mediterran,temperate,tundra,rocky
 level=36
 intro_year=1899
 retire_year=1974

@@ -2,6 +2,7 @@ obj=building
 name=IND_06_32
 copyright=Hajo
 type=ind
+climates=mediterran,temperate,tundra,rocky
 level=32
 intro_year=1950
 retire_year=2019

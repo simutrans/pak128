@@ -2,6 +2,7 @@ obj=building
 name=IND_05_28
 copyright=Napik
 type=ind
+climates=mediterran,temperate,tundra,rocky
 level=28
 intro_year=1943
 retire_year=2009

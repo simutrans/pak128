@@ -2,6 +2,7 @@ obj=building
 name=IND_10_04
 copyright=Raven & Napik
 type=ind
+climates=mediterran,temperate,tundra,rocky
 level=4
 intro_year=1979
 retire_year=2999

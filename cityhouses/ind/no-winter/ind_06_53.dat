@@ -2,6 +2,7 @@ obj=building
 name=IND_06_53
 copyright=Patrick
 type=ind
+climates=mediterran,temperate,tundra,rocky
 level=53
 intro_year=1951
 retire_year=2047

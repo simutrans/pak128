@@ -2,6 +2,7 @@ obj=building
 name=IND_07_18
 copyright=Pawel & Napik
 type=ind
+climates=tropic,desert,mediterran,temperate,tundra,rocky
 level=18
 intro_year=2053
 climates=tropic,mediterran,temperate,tundra,rocky

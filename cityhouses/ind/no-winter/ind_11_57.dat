@@ -2,6 +2,7 @@ obj=building
 name=IND_11_57
 copyright=Mark Norman
 type=ind
+climates=mediterran,temperate,tundra,rocky
 level=57
 intro_year=2004
 retire_year=2999

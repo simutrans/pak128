@@ -2,6 +2,7 @@ obj=building
 name=IND_06_03
 copyright=Vitus
 type=ind
+climates=mediterran,temperate,tundra,rocky
 level=3
 intro_year=1943
 retire_year=1990

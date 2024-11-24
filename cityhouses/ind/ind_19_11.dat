@@ -1,0 +1,13 @@
+obj=building
+name=IND_19_11
+copyright=Gelion
+type=ind
+climates=tropic,desert,mediterran,temperate,tundra,rocky,arctic
+level=11
+intro_year=1889
+retire_year=1950
+chance=100
+dims=1,1
+needs_ground=1
+backimage[0][0][0][0][0][1]=ind_19_11.1.1
+backimage[0][0][0][0][0][0]=ind_19_11.1.0

@@ -2,6 +2,7 @@ obj=building
 name=IND_07_03
 copyright=Raven
 type=ind
+climates=mediterran,temperate,tundra,rocky
 level=3
 intro_year=1958
 retire_year=2004

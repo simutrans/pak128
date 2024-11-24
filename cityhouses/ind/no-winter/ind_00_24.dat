@@ -2,6 +2,7 @@ obj=building
 name=IND_00_24
 copyright=MHz
 type=ind
+climates=mediterran,temperate,tundra,rocky
 level=24
 intro_year=1891
 retire_year=1956

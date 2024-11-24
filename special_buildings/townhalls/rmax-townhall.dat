@@ -11,6 +11,6 @@ NoConstruction=1
 climates=tropic, mediterran, temperate, tundra, rocky, arctic
 needs_ground=0
 #Summer
-backimage[0][0][0][0][0][0]=res_04_20.1.0
+backimage[0][0][0][0][0][0]=rmax_townhall.1.0
 #Winter
-backimage[0][0][0][0][0][1]=res_04_20.1.1
+backimage[0][0][0][0][0][1]=rmax_townhall.1.1
