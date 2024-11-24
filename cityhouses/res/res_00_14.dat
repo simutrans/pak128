@@ -5,7 +5,7 @@ type=res
 level=14
 intro_year=1892
 retire_year=2999
-climates=temperate,rocky,tundra
+climates=tropic,desert,temperate,rocky,tundra,artic
 dims=1,1,4
 
 needs_ground=1
