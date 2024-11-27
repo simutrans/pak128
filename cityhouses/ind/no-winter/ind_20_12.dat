@@ -1,0 +1,12 @@
+--
+#mill
+obj=building
+name=IND_20_12
+copyright=AI & prissi
+type=ind
+level=12
+intro_year=1830
+retire_year=1910
+climates=tropic,desert,mediterran,temperate,tundra
+backimage[0][0][0][0][0]=ind_20_12.0.0
+--

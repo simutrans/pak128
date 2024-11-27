@@ -1,0 +1,13 @@
+--
+#watertower
+obj=building
+name=IND_20_08
+copyright=AI & prissi
+type=ind
+level=8
+intro_year=1830
+retire_year=1910
+climates=tropic,desert,mediterran
+backimage[0][0][0][1][0]=ind_20_08.0.0
+backimage[0][0][0][0][0]=ind_20_08.1.0
+--

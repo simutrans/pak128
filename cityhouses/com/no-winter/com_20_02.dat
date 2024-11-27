@@ -1,0 +1,12 @@
+--
+#general store
+obj=building
+name=COM_20_02
+copyright=AI & prissi
+type=com
+level=2
+intro_year=1820
+retire_year=1910
+climates=tropic,desert,mediterran,temperate
+backimage[0][0][0][0][0]=com_20_02.0.0
+--

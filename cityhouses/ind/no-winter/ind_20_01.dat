@@ -1,0 +1,12 @@
+--
+#barn
+obj=building
+name=IND_20_01
+copyright=AI & prissi
+type=ind
+level=1
+intro_year=1820
+retire_year=1910
+climates=tropic,desert,mediterran,temperate
+backimage[0][0][0][0][0]=ind_20_01.0.0
+--
