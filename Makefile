@@ -34,6 +34,7 @@ DIRS128 += cityhouses/ind
 DIRS128 += cityhouses/ind/no-winter
 DIRS128 += cityhouses/res
 DIRS128 += cityhouses/res/blocks
+DIRS128 += cityhouses/res/pioneer
 DIRS128 += factories
 DIRS128 += factories/powerplants
 DIRS128 += infrastructure/airport_buildings_towers
@@ -98,8 +99,8 @@ DIRS := $(DIRS64) $(DIRS128) $(DIRS176) $(DIRS250)
 
 install_win: pakset
 	@rm -rf "C:\ProgramData\Simutrans\pak128"
-	cd simutrans
-	cp -R Simutrans/pak128 "C:\ProgramData\Simutrans"
+	@cd simutrans
+	@cp -R Simutrans/pak128 "C:\ProgramData\Simutrans"
 
 all: zip
 

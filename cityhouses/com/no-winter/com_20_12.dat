@@ -8,6 +8,6 @@ level=12
 intro_year=1880
 retire_year=1910
 climates=tropic,desert,mediterran,temperate,tundra
-backimage[0][0][0][1][0]=com_20_20.0.0
-backimage[0][0][0][0][0]=com_20_20.1.0
+backimage[0][0][0][1][0]=com_20_12.0.0
+backimage[0][0][0][0][0]=com_20_12.1.0
 --
