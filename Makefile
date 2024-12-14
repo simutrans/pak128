@@ -97,11 +97,6 @@ DIRS := $(DIRS64) $(DIRS128) $(DIRS176) $(DIRS250)
 
 .PHONY: $(DIRS) $(OUTSIDE) $(ADDON_DIRS64) copy tar zip
 
-install_win: pakset
-	@rm -rf "C:\ProgramData\Simutrans\pak128"
-	@cd simutrans
-	@cp -R Simutrans/pak128 "C:\ProgramData\Simutrans"
-
 all: zip
 
 archives: tar zip
@@ -109,6 +104,10 @@ archives: tar zip
 tar: $(DESTFILE).tbz2
 zip: $(DESTFILE).zip
 
+install_win: pakset
+	@rm -rf "C:\ProgramData\Simutrans\pak128"
+	@cd simutrans
+	@cp -R Simutrans/pak128 "C:\ProgramData\Simutrans"
 
 $(DESTFILE).tbz2: pakset
 	@echo "===> TAR $@"

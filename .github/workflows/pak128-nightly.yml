@@ -39,7 +39,7 @@ jobs:
     - name: compile pakset
       run: |
         ./text_import.sh
-        make
+        make zip
         mv simupak128.zip simupak128-nightly.zip
 
     - name: set environment
