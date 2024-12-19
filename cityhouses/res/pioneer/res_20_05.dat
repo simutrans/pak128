@@ -8,6 +8,7 @@ intro_year=1820
 retire_year=1910
 climates=mediterran,desert,tropic,temperate,tundra
 dims=1,1,1
+needs_ground=1
 #Summer
 backimage[0][0][0][0][0][0]=res_20_05.0.0
 #Winter
