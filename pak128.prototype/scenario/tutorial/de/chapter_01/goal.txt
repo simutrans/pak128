@@ -1,0 +1,19 @@
+<p>
+{scr}
+</p>
+<p>
+{txtst_01}Schritt A</em> - Einführung<br/>
+{step_01}
+</p>
+<p>
+{txtst_02}Step B</em> - Auf der Karte umsehen<br/>
+{step_02}
+</p>
+<p>
+{txtst_03}Step C</em> - In die Detaisl eintauchen<br/>
+{step_03}
+</p>
+<p>
+{txtst_04}Step D</em> - Die Übersichtskarten und andere Fenster<br/>
+{step_04}
+</p>

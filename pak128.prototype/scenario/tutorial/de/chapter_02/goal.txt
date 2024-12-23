@@ -1,0 +1,15 @@
+<em>Schritt A</em> - Bahnstrecke bis zur Küste<br>
+{step_01}
+<em>Schritt B</em> - Erste Kurve und die erste Brücke<br>
+{step_02}
+<em>Schritt C</em> - Bahnhof am Möbelhaus<br>
+{step_03}
+<em>Schritt D</em> - andere Bahnhöfe verlängern<br>
+{step_04}
+<em>Schritt E</em> - Zug verlängern<br>
+{step_05}
+<em>Schritt F</em> - Fahrplan zur Linie machen (inkl ändern)<br>
+{step_06}
+<em>Schritt G</em> - zweites Fahrzeug hinzufügen und transport<br>
+{step_07}
+<br>

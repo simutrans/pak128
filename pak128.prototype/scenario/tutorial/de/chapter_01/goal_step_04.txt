@@ -1,0 +1,8 @@
+<p>
+Es gibt ein paar weitere, nützliche Fenster.
+</p>
+<p>
+Die <em>Übersichtkarte</em> öffnet sich mit dem zweiten Werkzeug oder der Taste <em>m</em>. Es gibt sehr viele verschiednen Ansichten und Lagen, die mit den Knöpfen erst aktiviert werden müssen.<br/>
+Die <em>Finanzen</em> sind natürlich auch sehr wichtig für einen angehenden Transportunternehmer. Man öffnet sie auch mit der Taste <em>f</em>.<br/>
+Viele Dinge wie habe auch weitere Deteils, zum Beispiel die Städte. Deren Details kennt man im Rathaus (zumindest in Simutrans). <st>Um zum nächsten Kapitel zu gelangen</st> klicke auf das Feld {pos2} in {town} mit dem <em>'{tool1}'</em>.
+</p>

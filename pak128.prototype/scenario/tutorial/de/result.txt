@@ -1,0 +1,3 @@
+<p>
+Das Kapitelziel ist zu {ratio_chapter}% erreicht.
+</p>

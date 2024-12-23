@@ -1,0 +1,43 @@
+<p>
+In diesem ersten Schritt werden einige grundlegende Aspekte des <em>Tutorial-Szenarios</em> erläutert.
+</p>
+<p>
+<h1>Warnfenster</h1>
+Diese werden verwendet, um den Spieler zu warnen, falls etwas falsch gemacht wird, z.B. mit dem falschen Werkzeug. Das kann zum Beispiel sein wenn:<br>
+· <em>Verwendung von Werkzeugen</em> wenn auf die Karte mit dem falschen Werkzeug geklickt wird.<br>
+· <em>Fahrzeuge planen</em> wenn der Zeitplan oder die Linie des Fahrzeugs falsch ist.<br>
+· <em>Fahrzeuge starten</em> wenn der erforderliche Fahrzeugtyp nicht korrekt ist.
+</p>
+<p>
+<h1>Markierungen und Beschriftungen</h1>
+Eine Reihe von Markierungen werden verwendet, um dem Spieler zu helfen, Dinge zu finden/zu lokalisieren. Die drei Arten von Markierungen sind:<br>
+· <em>Textmarker</em> werden verwendet, um einen Führungstext anzuzeigen und mit "X" die Grenzen für die Verwendung von Werkzeugen anzugeben.<br>
+· <em>Markierungen auf Objekten</em> werden verwendet, um Objekte rot zu markieren, auf die geklickt werden muss.<br>
+· <em>Markierungen im Gelände</em>, mit denen Objekte und das Gelände hervorgehoben werden. Sie spielen auch beim Verbinden von Straßen eine visuelle Rolle.
+</p>
+<p>
+<h1>Links</h1>
+In diesem Szenario sehen Sie sehr häufig die Links zu Objektpositionen. Wenn Sie auf einen davon klicken, gelangen Sie zu der Position, die sie angeben. Beispiel: Wenn Sie auf "{pos}" klicken, gelangen Sie direkt zur Stadt <em>{Stadt }</em>. Sie werden hauptsächlich verwendet, um die Karte zu positionieren:<br>
+· Städte ({pos1}), Fabriken ({pos2}), Stationen ({pos3}) usw.
+</p>
+<p>
+<h1>Kapitel-/Schrittregressionen</h1>
+Dies geschieht nur, wenn Sie ein im Umlauf befindliches Fahrzeug eliminieren. Unabhängig davon, in welchem ??Kapitel Sie sich befinden, werden Sie zurückgeschickt, um das Problem zu beheben.
+</p>
+<p>
+<h1>Link zum Überspringen von Schritten</h1>
+Es handelt sich um eine spezielle Art von Verknüpfung, mit der Sie Ausführungsschritte im Szenario mit nur einem Klick überspringen können. Mit dieser Verknüpfung können Sie sehen, wie alles automatisch erstellt wird. Sie kann bis zu Kapitel 5 verwendet werden. Die Ausführung dauert etwas, deshalb nicht zu oft auf den Link klicken.
+</p>
+<p>
+<h1>Szenariomeldungen</h1>
+Szenariomeldungen sind standardmäßig deaktiviert. Sie können Folgendes aktivieren: <br>
+· Wählen Sie in der Symbolleiste das Menü <em>Meldungen</em> und drücken Sie den Button <em>[Optionen]</em><br>
+Die Bedeutung der Optionen und Buttons können Sie in der Fenster-Hilfe (<em>?</em> in der Titelleiste anklicken) nachlesen.<br>
+</p>
+<em>Tipp:</em> Für Szenariomeldungen wird empfohlen, nur <em>[Temporäres Fenster]</em> zu aktivieren.<br>
+<p>
+<st>Hinweis:</st> Die Aktualisierung des Textes in diesem Fenster dauert immer einige Sekunden.
+</p>
+<p>
+<st>Um mit dem nächsten Schritt fortzufahren</st>, müssen Sie auf diesen Link {link} klicken.
+</p>

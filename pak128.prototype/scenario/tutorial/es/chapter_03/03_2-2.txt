@@ -1,0 +1,6 @@
+<p>
+Para la producción de <em>{good2}</em>, necesitarás transportar <em>{good1}</em> desde {f1} hasta {f2}.
+</p>
+<p>
+{tx} Selecciona <em>'{tool2}'</em> en la barra de herramientas y construye una estación de mercancías ({tile} casillas de largo) cerca de {f1}.
+</p>
