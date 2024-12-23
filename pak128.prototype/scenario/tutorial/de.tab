@@ -1,0 +1,230 @@
+Action not allowed
+Aktion nicht erlaubt
+All wagons must be for [%s].
+Alle Wagen müssen für [%s] geeignet sein.
+All wagons must be for:
+Alle Wagen müssen geeignet sein für
+Are you lost ?, see the instructions shown below.
+Du weißt nicht weiter? Schau dir die Hinweise an!
+Build a Bridge here!.
+Baue eine Brücke hier
+Build a Depot here!.
+Baue hier ein Depot!
+Build a Dock here!.
+Baue hier einen Hafen
+Build a Tunnel here
+Baue einen Tunnel hier
+Build Canal here!.
+Baue den Kanal hier!
+Build here
+Baue hier
+Build Rails form here
+Baue die Schienen hier
+Build Shipyard here!.
+Baue hier eine Werft
+Build station No.%d here!.
+Baue das Stationsfeld %d hier
+Build Stop here:
+Baue die Station hier:
+Build the track from here
+Bauen Sie die Strecke von hier aus
+Build the transformer here!
+Bauen Sie hier den Umspannwerk!
+Build Train Depot here!.
+Baue hier ein Zugdepot
+Bus networks
+Bus-Netzwerk
+Chapter
+Kapitel
+Chapter {number} - {cname} complete, next Chapter {nextcname} start here: ({coord}).
+Kapitel {number} - {cname} abgeschlossen, nächstes Kapitel {nextcname} beginnt hier: ({coord}).
+Choose a different stop.
+Bitte einen anderen Halt wählen.
+Click on the stop
+Klicken Sie auf die Haltestelle
+Connect the road here
+Verbinde die Straße hier
+Connect the Track here
+Verbinde den Weg hier
+Creating Schedules is currently not allowed
+Das Erstellen von Fahrplänen ist derzeit nicht zulässig
+Debes seleccionar un [%s].
+Bitte [%s] auswählen.
+Dock No.%d must accept [%s]
+Dock Nr.%d muss %s akzeptieren
+empty chapter
+Leeres Kapitel
+Extensions are not allowed.
+Erweiterungen sind nicht erlaubt.
+First buy an Airplane [%s].
+Kaufen Sie zuerst ein Flugzeug [%s].
+First create a line for the vehicle.
+Erstellen Sie zunächst eine Linie für das Fahrzeug.
+First you must build a tunnel section.
+Zuerst müssen Sie einen Tunnelabschnitt bauen.
+First you must Upper the layer level.
+Zuerst müssen Sie den Grund erhöhen.
+Flat slope here!.
+Flache Ebene hier!
+Getting Started
+Anfangen
+Go to next step
+weiter zum nächsten Schritt
+Here
+Hier
+Incorrect vehicle configuration, check vehicle status.
+Falsche Fahrzeugkonfiguration, Fahrzeugstatus prüfen.
+Indicates the limits for using construction tools
+Gibt die Grenzwerte für die Verwendung von Konstruktionswerkzeugen an.
+Industrial Efficiency
+Produktion steigern bei Industrien
+It is not a slope.
+Dies ist kein Hang.
+It is not allowed to start vehicles.
+Fahrzeuge dürfen nicht gestartet werden.
+It is not flat terrain.
+Dies ist keine flache Ebene.
+It is not possible to build stops at intersections
+Es ist nicht möglich, Haltestellen an Kreuzungen zu bauen
+It must be a block signal!
+Es muss ein Blocksignal sein!
+It must be a slope.
+Es muss ein Hang sein.
+Let's go on!
+Lass uns weiter gehen!
+Let's start!
+Los geht's!
+Mail Extension Here!.
+Post-Erweiterung hier
+Modify the terrain here
+Ändern Sie hier das Gelände
+Must choose a locomotive [%s].
+Muss eine Lok wählen [%s].
+Must choose a locomotive:
+Wählen Sie eine Lok vom Typ:
+Must not use trailers [%d].
+Darf keine Anhänger [%d] verwenden.
+No barges allowed.
+Keine Lastkähne erlaubt.
+Number of convoys in the depot:
+Anzahl der Konvois im Depot:
+Only %d stops are necessary.
+Es sind nur %d Stopps erforderlich.
+Only delete signals.
+Nur Signale löschen.
+Only one train is allowed, press the [Sell] button.
+Es ist nur ein Zug zulässig. Drücken Sie die Taste [Verkaufen].
+Only railway schedules allowed
+Es sind nur Fahrpläne für Eisenbahnen erlaubt
+Only road schedules allowed
+Nur Straßenfahrpläne erlaubt
+Place a block signal here
+Platzieren Sie hier ein Blocksignal
+Place a Tunnel here!.
+Platziere hier einen Tunnel!
+Place Singnal here!.
+Platziere hier ein Singnal!
+Place Stop here!.
+Hier Halt platzieren
+Place the Road here!.
+Platzieren Sie die Straße hier
+Place the shipyard here
+Platzieren Sie die Werft hier
+Place the stops at the marked points
+Platzieren Sie die Stationen an den markierten Stellen
+Press [Ctrl] to build a tunnel entrance here
+Drücken Sie [Strg], um hier einen Tunneleingang zu erstellen
+Press the [Copy Backward] button, then set the Minimum Load and Month Wait Time at the first stop!.
+Drücken Sie den Button [Rückfahrkarte] und stellen Sie die Mindestladung und die maximale monatliche Wartezeit beim ersten Stopp ein!.
+Raise ground here
+Erhöhen Sie hier den Boden
+Riding the Rails
+Auf der Schiene fahren
+Ruling the Roads
+Die Straßen regieren
+Savegame has a different {more_info} script version! Maybe, it will work.
+Das gespeicherte Spiel hat eine andere {more_info} Script Version! Eventuell funktioniert es.
+Select station No.%d [%s]
+Wählen Sie die Station Nr. %d
+Select the Bus [%s].
+Wählen Sie den Bus [%s] aus
+Select the dock No.%d
+Wählen Sie das Dock Nr. %d aus
+Select the other station
+Wählen Sie die Station 
+Select the other station first
+Wählen Sie zuerst die Station 
+Setting Sail
+Segel setzen
+Slope Height.
+Hanghöhe
+Station No.%d here
+Station Nr. %d hier
+Station No.%d must accept goods
+die Station Nr. %d muss Waren annehmen
+Stop
+Halt
+Stops should be built in [%s]
+Stopps sollten in [%s] gebaut werden.
+Straight slope here
+Steiler gerader Hang hier
+Text label
+Textmarker
+The bus must be [Passengers].
+Der Bus muss [Passagiere] befördern können.
+The convoy is not correct.
+Der Konvoi ist nicht korrekt.
+The Depot is correct.
+Das Depot ist korrekt.
+The extension building for station [%s] must be a [%s], use the 'Remove' tool
+Das Erweiterungsgebäude für Station [%s] muss ein [%s] sein. Verwenden Sie das Werkzeug 'Entfernen'
+The first train
+Die erste Zugverbindung
+The forgotten Air transport
+Der vergessene Flugverkehr
+The Hangar is correct.
+Der Hangar ist korrekt.
+The line is not correct.
+Die Linie ist nicht korrekt.
+The number of bus must be [%d].
+Die Anzahl der Busse muss [%d] sein.
+The number of convoys must be [%d].
+Die Anzahl der Konvois muss [%d] betragen.
+The number of ships must be [%d].
+Die Anzahl der Schiffe muss [%d] betragen.
+The number of trucks must be [%d].
+Die Anzahl der LKWs muss [%d] betragen.
+The number of wagons must be [%d].
+Die Anzahl der Wagons muss [%d] betragen.
+The Plane must be for [%s].
+Das Flugzeug muss für [%s] sein.
+The second train
+Der zweite Zug
+The station at {pos} isn't your station
+Die Haltestelle an {pos} ist nicht Deine Haltestelle
+There is already a station.
+Hier gibt es bereits eine Station!
+There is already a stop here
+Hier gibt es schon einen Halt!
+There is already a transformer here!
+Hier gibt es schon ein Umspannwerk!
+This is a factory
+eine Fabrik
+This is a link
+Link
+This is a station
+ein Halt
+This is a town centre
+Das ist das Stadtzentrum
+Town Centre
+Rathaus
+Transformer Here!.
+Umspannwerk hier.
+Tutorial Scenario complete.
+Tutorial Scenario beendet.
+You can only use this tool in the city
+Sie können dieses Tool nur in der Stadt verwenden
+You didn't build a station at {pos}
+Du hast noch keine Haltestelle an {pos} gebaut
+You must press the [Copy backward] button to complete the route.
+Sie müssen die Taste [Rückfahrkarte] drücken, um die Route abzuschließen.

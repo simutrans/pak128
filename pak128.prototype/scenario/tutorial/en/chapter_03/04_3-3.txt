@@ -1,0 +1,6 @@
+<p>
+For the production of {good2}, you need to transport <em>{good1}</em> from {f1} to {f2}.
+</p>
+<p>
+{tx} Click with the <em>'{tool1}'</em> on the <em>Train Depot</em> {dep} to continue to the next step.
+</p>

@@ -1,0 +1,12 @@
+<p>
+The city {city} needs to design a bus network that allows passengers to move to the train station: {name}.
+</p>
+<p>
+Build as many bus stops in the city as you need, but you must make sure that the bus arrives at {stop} near of {name}, so that passengers count.
+</p>
+<p>
+Progress is made to the next step, when more than <em>{load}</em> passengers are transported to {name} in a month.
+</p>
+<p>
+<st>Translated this month:</st> <em>{get_load}/{load}</em> 
+</p>

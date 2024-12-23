@@ -1,0 +1,17 @@
+<p>
+Wir empfehlen das Gitternetz anzuschalten (entweder mit <em>#</em> oder mit dem passsenden Werkzeug). Außerdem kann es hilfreich sein, die Bäume auszublenden (entweder mit <em>%</em> oder mit dem passsenden Werkzeug).
+</p>
+<p>
+Du kannst <em>hinein- oder herauszoomen</em> mit dem Mausrad, der üblichen Zweifingergeste, den Werkzeugen, oder mit den Tasten <em>Seite vor/zurück</em>
+</p>
+<p>
+Die Karte kann beim Abfragewerkzeug (der Lupe) mit der Linken Maustaste bewegt werden, immer geht die rechte Maustastaste oder die Dreifingergeste. Alternativ gehen die Cursortasten oder der Ziffernblock.</p>
+<p>
+Die Karte kann mit der Taste <em>Umschalt+R</em> oder dem entsprechenden  Werkzeug gedreht werden.
+</p>
+<p>
+Versuche einmal hinein- und wieder herauszuzoomen und die Karte zu bewegen.
+</p>
+<p>
+<st>Um zum nächsten Schritt zu kommen</st>, drehe die Karte.
+</p>

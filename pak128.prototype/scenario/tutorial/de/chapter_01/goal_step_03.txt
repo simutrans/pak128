@@ -1,0 +1,22 @@
+<p>
+Nachdem wir nun die Orte unsere Karte von oben angeschaut haben, wollen wir es doch etwas genauer wissen.
+</p>
+<h1>Abfragewerkzeug</h1>
+<p>
+Das ist eines der wichtigsten Werkzeuge. Es kann jederzeit benutzt werden. Beachte bitte, dass es manchmal mehr als ein Ding auf einem Feld gibt, zum Beispiel eine Bushaltestelle, ein Bus, eine Straße und einen Fußgänger. Das Abfragewerkzeug öffnet mit jedem Anklicken das nächste Fenster. (Tip: Mit einem Doppelklick oder der rechten Maustaste kann man das aktuelle Fenster auf einen Titelzeile schrumpfen.) Das Abfragewerkzeug ist das erste Werkzeug im Hauptmenü und kann auch mit <em>a</em> aktiviert werden.
+</p>
+<p>
+Unten rechts in der Statuszeile ist die Position auf dem sich die Lupe gerade befindet. Es gibt drei Koordinaten (x,y,z). y ist die Höhe des aktuellen Feldes.
+</p>
+<p>
+Um weiterzukommen, bitte auf das Feld bei {pos} mit dem Werkzeug <em>'{tool1}'</em> klicken. Um das Informationsfenster wieder zu schließen, entweder den Schließknopf in der Fenstertitelzeile anklicken. Alternativ schließt <em>[Delete]</em> oder <em>[Escape]</em> das oberste Fenster und <em>[Backspace]</em> schließt alle Fenster (einschließlich des Tutorial).
+</p>
+<p>
+Nun benutze das <em>'{tool1}'</em> im {buld_name} und schließe wieder das Infofenster.
+</p>
+<p>
+<em>Tip:</em> Anklicken des Bildes im Infofenster ändert die Ansicht auf das Feld mit diesem Ding.
+</p>
+</p>
+<st>Um weiterzukommen</st>, klicke auf des Feld {pos} mit {buld_name} und dem <em>'{tool1}'</em>.
+<p>

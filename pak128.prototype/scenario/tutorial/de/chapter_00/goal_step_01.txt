@@ -1,0 +1,7 @@
+<p>
+<st>Dieses Tutorial mage nicht das Pakset oder Programmversion:</st>
+</p>
+<p>
+Simutransversion: v{current_stv} -> {stv}.<br>
+Paksetname: {current_pak} -> {pak}.
+</p>
