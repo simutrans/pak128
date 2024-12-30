@@ -1,7 +1,1 @@
-<p>
-<st>Dieses Tutorial mage nicht das Pakset oder Programmversion:</st>
-</p>
-<p>
-Simutransversion: v{current_stv} -> {stv}.<br>
-Paksetname: {current_pak} -> {pak}.
-</p>
+<p><st>Das Szenario ist nicht kompatibel mit Ihrem Grafikset und/oder Ihrer Simutrans-Version:</st></p><p>Simutrans-Version: v{current_stv} -> {stv}.<br >Paketname: {current_pak } -> {pak}</em>.</p>

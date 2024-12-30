@@ -47,12 +47,13 @@ function general_disabled_tools( pl ) {
                           dialog_enlarge_map,
                           tool_raise_land,
                           tool_lower_land,
-                          tool_restoreslope
+                          tool_restoreslope,
+                          4144  //pipette
   ]
 
   local pak64_tools = [ 0x8004, 0x8005, tool_set_climate ]
-  local pak64german_tools = [ 0x800b, 0x800c, 0x800d, 0x8013, 0x8014, 0x8015, 0x8023, 0x8025, 0x8027, 0x8007 ]
-  local pak128_tools = [0x8004, 0x8005, 0x8006, 0x800a, 0x1030, tool_set_climate ]
+  local pak64german_tools = [ 0x800b, 0x800c, 0x800d, 0x8013, 0x8014, 0x8015, 0x8023, 0x8025, 0x8027, 0x8007, 0x8006 ]
+  local pak128_tools = [0x8004, 0x8005, 0x8006, 0x800a, tool_set_climate ]
 
   switch (pak_name) {
     case "pak64":

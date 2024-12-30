@@ -1,3 +1,7 @@
+#################################################################################
+#                               for translate see                               #
+#      https://simutrans-germany.com/translator_page/scenarios/scenario_5/      #
+#################################################################################
 Action not allowed
 Acción no permitida
 Advance is not allowed with the game paused.
@@ -18,7 +22,7 @@ Build a Depot here!.
 Construye el Depósito aquí.
 Build a Dock here!.
 Construye un Muelle aquí.
-Build a Tunnel here
+Build a tunnel here
 Construye un túnel aquí
 Build Canal here!.
 ¡Construye el Canal aquí!
@@ -288,8 +292,6 @@ The vehicle must be [%s].
 El vehículo debe ser [%s].
 The waittime in waystop {nr} '{name}' isn't {wait} {pos}
 Salir después de en la parada [{nr}] {name} debe ser {wait} {pos}
-The waystop {nr} '{name}' isn't on place {pos}
-La parada [{nr}] '{name}' no está en {pos}
 There is already a station.
 Ya existe una Estacion aquí.
 There is already a stop here

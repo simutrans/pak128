@@ -1,38 +1,1 @@
-<p>
-<em>Tutorial A</em><br>
-<br>
-<st>
---- IN ENTWICKLUNG ---<br>
---- NICHT FUER DEN GEBRAUCH ---<br>
-</st>
-<br>
-In diesem Tutorial werden die ersten Schritte im Umgang mit
-Simutrans erläutert. Das Augenmerk richtet sich auf notwendige
-Handlungen rund um die Transportketten in Simutrans.<br>
-<br>
-Das Tutorial besteht aus mehreren Kapiteln die jeweils mehrere
-Schritte enthalten um das Kapitelziel zu erreichen.
-Es wird - wenn überhaupt - nur im geringen Umfang auf
-wirtschaftliche Belange eingegangen.<br>
-<br>
-{list_of_chapters}
-<br>
-In der Hilfe (Taste F1) findest Du weitere Erklärungen zum Ungang mit
-den verschiedenen Werkzeugen, Funktionen und der Logik in Simutrans.<br>
-<br>
-{first_link}<br>
-<br>
-<br>
-Hinweis: Die Pausen-Funktion unterbricht auch die korrekte Anzeige
-des Tutorials! An der Position {select_option} besteht die Möglichkeit
-durch Eingabe der Kapitelnummer zu selbigem Kapitel zu springen.
-Ein Springen zu bereits erfolgreich abgeschlossenen Kapiteln
-ist nicht möglich.<br>
-<br>
-Bekannte Probleme:<br>
-- Karte drehen führt zu falschen coord und cube Koordinaten in der Anzeigetext, nicht aber im Script<br>
-- Aktivierte Pause führt zu falscher Scriptanzeige, da das Script stehen bleibt<br>
-- verzögerte Anzeige im Scriptfenster bei einigen Aktionen, da gui.open_info_win() unzureichend<br>
-- Text Notes/Markierungen auf der Karte könnten Hilfreich sein<br>
-<br>
-</p>
+<p><h1>Simutrans-Tutorial</h1><br>Dieses Tutorial erklärt die ersten Schritte beim Aufbau Ihres Transportimperiums in Simutrans. Der Schwerpunkt liegt auf den notwendigen Maßnahmen rund um die Transportketten in Simutrans.</p><p>Das Tutorial besteht aus mehreren Kapiteln, in denen jeweils eine Reihe von Schritten zum Abschließen des Kapitels enthalten sind.</p><p>Wirtschaftliche Aspekte werden im Tutorial nur kurz behandelt.</p><p>{list_of_chapters}</p><p>Ausführlichere Hilfe erhalten Sie, indem Sie die Taste <em>F1</em> drücken. In vielen Fenstern gibt es im Fenstertitel das <em>?</em>, das beim anklicken direkt zum passenden Hilfetext springt.</p><p>{first_link}</p><p><st>Hinweis:</st> In manchen Fällen kann es bis zu 15 Sekunden Verzögerung zwischen der Ausführung einer Aktion und der Aktualisierung des Tutorialtextes geben.</p>
