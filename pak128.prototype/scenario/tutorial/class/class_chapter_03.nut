@@ -663,7 +663,9 @@ class tutorial.chapter_03 extends basic_chapter
     text.tool3 = translate_objects_list.tools_slope
 
     text.good1 = translate_objects_list.good_wood
+    text.g1_metric = get_good_data(1, 1)
     text.good2 = translate_objects_list.good_plan
+    text.g2_metric =get_good_data(2, 1)
     return text
 
   }
@@ -1868,7 +1870,7 @@ class tutorial.chapter_03 extends basic_chapter
                //--------------------------------------------------------------------------------------------------
               }
               //Entonces se comprueba ahora desde las pendientes
-              else{      
+              else{
                 local slp_way = tile_x(r_way.c.x, r_way.c.y, r_way.c.z).get_slope()
                 //Si es distinto a flat
                 if(slp_way != 0){
@@ -1903,9 +1905,9 @@ class tutorial.chapter_03 extends basic_chapter
                     return null
                   }
                   else if(name == t_name.down){
-                    return translate("Action not allowed") 
+                    return translate("Action not allowed")
                   }
-                  return translate("Only up and down movement in the underground!") 
+                  return translate("Only up and down movement in the underground!")
                 }
                 return result
               }
@@ -1913,7 +1915,7 @@ class tutorial.chapter_03 extends basic_chapter
                 return translate("The tunnel is already at the correct level")+" ("+end_z+")."
             }
             else{
-              return translate("Action not allowed") 
+              return translate("Action not allowed")
             }
             if(slope==0) return translate("Modify the terrain here")+" ("+r_way.c.tostring()+")."
           }

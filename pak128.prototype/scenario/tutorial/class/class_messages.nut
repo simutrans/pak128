@@ -64,8 +64,8 @@ function get_message(id) {
  *   4 = You must build the bridge here (x, y, z).
  *   5 = Indicates the limits for using construction tools (x, y, z).
  *   6 = Text label (x, y, z).
- *
- *
+ *   7 = You must first build a stretch of road (x, y, z).
+ *   8 = You must build the depot in (x, y, z).
  *
  *
  *
@@ -102,10 +102,10 @@ function get_tile_message(id, tile) {
       txt_message = translate("Text label")+" ("+txt_tile+")."
       break
     case: 7
-
+      txt_message = translate("You must first build a stretch of road")+" ("+txt_tile+")."
       break
     case: 8
-
+      txt_message = translate("You must build the depot in")+" ("+txt_tile+")."
       break
     case: 9
 

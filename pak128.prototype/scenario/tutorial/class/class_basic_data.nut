@@ -1051,3 +1051,59 @@ function set_waiting_time(id) {
   }
 
 }
+
+/*
+ *  goods def
+ *
+ *  id = good id
+ *  select  = define return data
+ *            1 = translate metric
+ *            2 = raw good name
+ *            3 = translate good name
+ *
+ */
+function get_good_data(id, select = null) {
+
+  local good_n = null
+
+      switch (id) {
+        case 1:
+          good_n = "Holz"
+          break
+        case 2:
+          good_n = "Bretter"
+          break
+        case 3:
+          good_n = "Oel"
+          break
+        case 4:
+          good_n = "Gasoline"
+          break
+        case 5:
+          good_n = "Kohle"
+          break
+      }
+
+  local obj = good_desc_x(good_n)
+  local output = null
+
+      switch (select) {
+        case 1:
+          output = translate(obj.get_metric())
+          break
+        case 2:
+          output = obj.get_name()
+          break
+        case 3:
+          output = translate(obj.get_name())
+          break
+        case 4:
+
+          break
+        case 5:
+
+          break
+      }
+
+  return output
+}

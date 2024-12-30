@@ -31,7 +31,7 @@ mkdir tmp
 cd tmp
 
 wget -q --post-data "version=313&choice=all&submit=Export!"  --delete-after http://translator.simutrans.com/script/main.php?page=wrap
-wget -O texts.zip http://translator.simutrans.com/data/tab/language_pack-Scenario+Tutorial+pak64.zip
+wget -O texts.zip https://simutrans-germany.com/translator_page/scenarios/scenario_5/data/language_pack-Scenario+Tutorial+multipak.zip
 unzip texts.zip
 rm texts.zip
 

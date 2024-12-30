@@ -1,6 +1,1 @@
-<p>
-<em>Escenario:</em> {short_description}<br>
-<em>Versión:</em> {version}<br>
-<em>Autor:</em> {author}<br>
-<em>Traducciones:</em> {translation}<br>
-</p>
+<p><em>Escenario:</em> {short_description}<br><em>Versión:</em> {version}<br><em>Autor:</em> {author}<br><em>Traducciones:</em> {translation}<br></p>

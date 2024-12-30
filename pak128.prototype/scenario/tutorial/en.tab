@@ -1,11 +1,13 @@
+#################################################################################
+#                               for translate see                               #
+#      https://simutrans-germany.com/translator_page/scenarios/scenario_5/      #
+#################################################################################
 Build a Bridge here!.
 Build a Bridge here.
 Build a Depot here!.
 Build a Depot here.
 Build a Dock here!.
 Build a Dock here.
-Build a Tunnel here
-Build a tunnel here
 Build Rails form here
 Build Rails here.
 Build Shipyard here!.
@@ -18,14 +20,10 @@ Bus networks
 Bus Networks
 Chapter {number} - {cname} complete, next Chapter {nextcname} start here: ({coord}).
 Congratulations on completing Chapter {number} - {cname}, Next Chapter '{nextcname}' start here: ({coord}).
-Debes seleccionar un [%s].
-You must select a [%s].
 Dock No.%d must accept [%s]
 Dock No.%d must accept %s
 Here
 Here.
-Layer level in sliced map view should be: %d
-Layer level in sliced map view should be: %d 
 Place Singnal here!.
 Place Singnal here.
 Press the [Copy Backward] button, then set the Minimum Load and Month Wait Time at the first stop!.
@@ -38,17 +36,5 @@ The load of waystop {nr} '{name}' isn't {load}% {pos}
 The load of waystop {name} isn't {load}% {pos}
 The waittime in waystop {nr} '{name}' isn't {wait} {pos}
 Depart after in waystop {name} isn't {wait} {pos}
-The waystop {nr} '{name}' isn't on place {pos}
-The waystop {nr} ({name}) isn't on place {pos}
-This is a factory
-a factory
-This is a link
-link
-This is a station
-a stop
-This is a town centre
-a townhall
-Town Centre
-townhall
 Translator
 HWRead
