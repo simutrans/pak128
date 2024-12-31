@@ -20,7 +20,7 @@ jobs:
           sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
           svn checkout svn://servers.simutrans.org/simutrans simutrans
-          git clone https://github.com/simutrans/tutorial_pak64 ./pak128.prototype/scenario/tutorial
+          git clone https://github.com/simutrans/tutorial_multipak ./pak128.prototype/scenario/tutorial
           
     - name: setup
       run: |
