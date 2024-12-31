@@ -50,6 +50,7 @@ jobs:
         rm -rf original_text
         rm -rf info_files
         cd ../../..
+        mv set_data.nut /pak128.prototype/scenario/tutorial/
         
         ./text_import.sh
         make zip
