@@ -40,14 +40,9 @@ jobs:
     - name: compile pakset
       run: |
         cd pak128.prototype/scenario/tutorial
-        rm *.md
-        rm *.sh
-        rm tutorial64.sve
-        rm tutorial64g.sve
         rm set_data.nut
         rm -rf .[^.]*
-        rm -rf original_text
-        rm -rf info_files
+        rm -rf !(tutorial128.sve|class|*.nut)
         cd ../../..
         mv ./set_data.nut ./pak128.prototype/scenario/tutorial/     
         ./text_import.sh
