@@ -1,0 +1,8 @@
+Es sind nicht alle Tools eingeblendet.
+Es sind oft nur die Aktionen möglich, die für den aktuellen Schritt notwendig sind.<br>
+<br>
+
+<em>·</em> Regeln beschreiben.<br>
+<em>·</em> Hinweise geben.<br>
+<em>·</em> Auf bekannte Probleme Hinweisen.<br>
+<br>
