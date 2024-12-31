@@ -39,6 +39,18 @@ jobs:
     - name: compile pakset
       run: |
         git clone https://github.com/simutrans/tutorial_pak64.git ./pak128.prototype/scenario/tutorial
+        cd pak128.prototype/scenario/tutorial
+        rm *.md
+        rm *.sh
+        rm .gitignore
+        rm tutorial64.sve
+        rm tutorial64g.sve
+        rm set_data.nut
+        rm -rf .git
+        rm -rf original_text
+        rm -rf info_files
+        cd ../../..
+        
         ./text_import.sh
         make zip
         mv simupak128.zip simupak128-nightly.zip
