@@ -42,11 +42,10 @@ jobs:
         cd pak128.prototype/scenario/tutorial
         rm *.md
         rm *.sh
-        rm .gitignore
         rm tutorial64.sve
         rm tutorial64g.sve
         rm set_data.nut
-        rm -rf .git
+        rm -rf .*
         rm -rf original_text
         rm -rf info_files
         cd ../../..
