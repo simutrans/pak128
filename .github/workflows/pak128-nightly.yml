@@ -45,7 +45,7 @@ jobs:
         rm tutorial64.sve
         rm tutorial64g.sve
         rm set_data.nut
-        rm -rf '.*'
+        rm -rf .[^.]*
         rm -rf original_text
         rm -rf info_files
         cd ../../..
