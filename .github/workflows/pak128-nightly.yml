@@ -20,9 +20,6 @@ jobs:
           sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
           svn checkout svn://servers.simutrans.org/simutrans simutrans
-          git clone https://github.com/simutrans/tutorial_pak64.git ./pak128.prototype/scenario/tutorial
-          cd pak128.prototype/scenario/tutorial
-          cd ../../..
           
     - name: setup
       run: |
@@ -41,6 +38,7 @@ jobs:
 
     - name: compile pakset
       run: |
+        git clone https://github.com/simutrans/tutorial_pak64.git ./pak128.prototype/scenario/tutorial
         ./text_import.sh
         make zip
         mv simupak128.zip simupak128-nightly.zip
