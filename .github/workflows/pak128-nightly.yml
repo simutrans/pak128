@@ -39,6 +39,7 @@ jobs:
 
     - name: compile pakset
       run: |
+        shopt -s extglob
         cd pak128.prototype/scenario/tutorial
         rm set_data.nut
         rm -rf .[^.]*
