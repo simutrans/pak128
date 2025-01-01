@@ -977,7 +977,7 @@ class tutorial.chapter_06 extends basic_chapter
 		foreach(wt in all_waytypes)
 			if (wt != wt_air && wt != wt_road) {
 			    foreach (tool_id in forbid)
-				    rules.forbid_way_tool(pl, tool_id, wt )
+				    rules.forbid_way_tool(pl, tool_id, wt, "" )
 			}
 
 		local forbid =	[	
@@ -992,21 +992,21 @@ class tutorial.chapter_06 extends basic_chapter
 			case 1:
 				local forbid =	[ tool_remove_way, tool_remover, tool_build_roadsign, tool_build_wayobj]
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, gl_wt )
+					rules.forbid_way_tool(pl, tool_id, gl_wt, "" )
 				break
 
 			case 2:
 				local forbid =	[ tool_remove_way, tool_make_stop_public, tool_remover, tool_build_roadsign, tool_build_wayobj]
 
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, gl_wt )
+					rules.forbid_way_tool(pl, tool_id, gl_wt, "" )
 				break
 
 			case 3:
 				local forbid =	[ tool_remove_way, tool_make_stop_public, tool_remover, tool_build_roadsign, tool_build_wayobj]
 
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, gl_wt )
+					rules.forbid_way_tool(pl, tool_id, gl_wt, "" )
 				break
 
 			case 4:
@@ -1016,12 +1016,12 @@ class tutorial.chapter_06 extends basic_chapter
 								]
 
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, wt_road )
+					rules.forbid_way_tool(pl, tool_id, wt_road, "" )
 
 				local forbid =	[ tool_remove_way, tool_make_stop_public, tool_remover, tool_build_roadsign, tool_build_wayobj]
 
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, gl_wt )
+					rules.forbid_way_tool(pl, tool_id, gl_wt, "" )
 				break
 		}
 	}

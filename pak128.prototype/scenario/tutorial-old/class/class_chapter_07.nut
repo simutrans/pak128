@@ -332,7 +332,7 @@ class tutorial.chapter_07 extends basic_chapter
 		foreach(wt in all_waytypes)
 			if (wt != wt_road) {
 			    foreach (tool_id in forbid)
-				    rules.forbid_way_tool(pl, tool_id, wt )
+				    rules.forbid_way_tool(pl, tool_id, wt, "" )
 			}
 
 		// tool "climate zones" = 4135

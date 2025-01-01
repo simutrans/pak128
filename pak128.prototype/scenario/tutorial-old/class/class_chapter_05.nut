@@ -1143,7 +1143,7 @@ class tutorial.chapter_05 extends basic_chapter
 		foreach(wt in all_waytypes)
 			if (wt != wt_power && wt != wt_road) {
 			    foreach (tool_id in forbid)
-				    rules.forbid_way_tool(pl, tool_id, wt )
+				    rules.forbid_way_tool(pl, tool_id, wt, "" )
 			}
 
 		local forbid =	[	4142, 4134,4135, tool_lower_land, tool_raise_land, tool_setslope, tool_build_roadsign,
@@ -1170,7 +1170,7 @@ class tutorial.chapter_05 extends basic_chapter
 				foreach(wt in all_waytypes)
 					if (wt != wt_power) {
 					    foreach (tool_id in forbid)
-						    rules.forbid_way_tool(pl, tool_id, wt )
+						    rules.forbid_way_tool(pl, tool_id, wt, "" )
 				}
 			break
 
@@ -1180,7 +1180,7 @@ class tutorial.chapter_05 extends basic_chapter
 				foreach(wt in all_waytypes)
 					if (wt != wt_power) {
 					    foreach (tool_id in forbid)
-						    rules.forbid_way_tool(pl, tool_id, wt )
+						    rules.forbid_way_tool(pl, tool_id, wt, "" )
 				}
 
 			break
