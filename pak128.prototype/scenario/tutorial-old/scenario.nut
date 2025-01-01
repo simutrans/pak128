@@ -92,7 +92,7 @@ good_alias  <-	{	mail = "Post", passa= "Passagiere", goods = "goods_", grain = "
 					flour = "flour", deliv = "Crates Deliverables", oel = "Oel", gas = "Gasoline"
 				}
 // placeholder for some menus icon
-t_icon <- {road = 0x8006, rail = 0x8002, ship = 0x8007, plane = 0x8008, other = 0x800a, slope = 0x8001, tram = 0x8005}
+t_icon <- {road = 0x8007, rail = 0x8003, ship = 0x8008, plane = 0x8009, other = 0x800b, slope = 0x8002, tram = 0x8006, mono = 0x8004, exted = 0x0000, mag = 0x8005, narr = 0x800a}
 // table containing all system_types
 all_systemtypes <- [st_flat, st_elevated, st_runway, st_tram]
 
@@ -610,7 +610,7 @@ function is_scenario_completed(pl)
 	return percentage
 }
 
-function is_work_allowed_here(pl, tool_id, pos)
+function is_work_allowed_here(pl, tool_id, name, pos, tool)
 {	
 	local pause = debug.is_paused()
 	//if (pause) return translate("Advance is not allowed with the game paused.")
@@ -683,7 +683,7 @@ function is_convoy_allowed(pl, convoy, depot)
 	return result
 }
 
-function is_tool_allowed(pl, tool_id, wt)
+function is_tool_allowed(pl, tool_id, wt, name)
 {
 	local result = true
 	//if (tool_id == 0x2000) return false // prevent players toggling pause mode
@@ -697,7 +697,7 @@ function is_tool_allowed(pl, tool_id, wt)
     return result
 }
 
-function is_tool_active(pl, tool_id, wt)
+function is_tool_active(pl, tool_id, wt, name)
 {
 	local result = true
 	if (pl != 0) return false

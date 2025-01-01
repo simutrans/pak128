@@ -1315,7 +1315,7 @@ class tutorial.chapter_02 extends basic_chapter
 		foreach(wt in all_waytypes){
 			if (wt != wt_road){
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, wt )
+					rules.forbid_way_tool(pl, tool_id, wt, "" )
 			}
         }
 
@@ -1332,7 +1332,7 @@ class tutorial.chapter_02 extends basic_chapter
 									tool_remove_way,tool_build_depot,tool_build_roadsign,tool_build_wayobj
 								]
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, wt_road)
+					rules.forbid_way_tool(pl, tool_id, wt_road, "" )
 
 				local forbid = [tool_build_station,tool_remover,tool_make_stop_public]
 				foreach (tool_id in forbid)
@@ -1344,7 +1344,7 @@ class tutorial.chapter_02 extends basic_chapter
 									tool_remove_way,tool_build_roadsign,tool_build_wayobj
 								]
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, wt_road)
+					rules.forbid_way_tool(pl, tool_id, wt_road, "" )
 
 				local forbid = [tool_build_station,tool_remover,tool_make_stop_public]
 				foreach (tool_id in forbid)
@@ -1356,7 +1356,7 @@ class tutorial.chapter_02 extends basic_chapter
 									tool_remove_way,tool_build_roadsign,tool_build_wayobj
 								]
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, wt_road)
+					rules.forbid_way_tool(pl, tool_id, wt_road, "" )
 
 				local forbid = [tool_make_stop_public]
 				foreach (tool_id in forbid)
@@ -1368,7 +1368,7 @@ class tutorial.chapter_02 extends basic_chapter
 									tool_remove_way,tool_build_roadsign,tool_build_wayobj
 								]
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, wt_road)
+					rules.forbid_way_tool(pl, tool_id, wt_road, "" )
 
 				local forbid = [tool_build_station, tool_remover, tool_make_stop_public]
 				foreach (tool_id in forbid)
@@ -1380,7 +1380,7 @@ class tutorial.chapter_02 extends basic_chapter
 									tool_remove_way, tool_build_depot, tool_build_roadsign, tool_build_wayobj
 								]
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, wt_road)
+					rules.forbid_way_tool(pl, tool_id, wt_road, "" )
 
 				local forbid = [tool_make_stop_public]
 				foreach (tool_id in forbid)
@@ -1392,7 +1392,7 @@ class tutorial.chapter_02 extends basic_chapter
 									tool_remove_way, tool_build_roadsign, tool_build_wayobj
 								]
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, wt_road)
+					rules.forbid_way_tool(pl, tool_id, wt_road, "" )
 
 				local forbid = [tool_make_stop_public]
 				foreach (tool_id in forbid)
@@ -1404,7 +1404,7 @@ class tutorial.chapter_02 extends basic_chapter
 									tool_build_roadsign, tool_build_wayobj
 								]
 					foreach (tool_id in forbid)
-						rules.forbid_way_tool(pl, tool_id, wt_road)
+						rules.forbid_way_tool(pl, tool_id, wt_road, "" )
 				break
 
 			case 8:
@@ -1412,7 +1412,7 @@ class tutorial.chapter_02 extends basic_chapter
 									tool_build_roadsign, tool_build_wayobj
 								]
 				foreach (tool_id in forbid)
-					rules.forbid_way_tool(pl, tool_id, wt_road)
+					rules.forbid_way_tool(pl, tool_id, wt_road, "" )
 
 				break	
 		}

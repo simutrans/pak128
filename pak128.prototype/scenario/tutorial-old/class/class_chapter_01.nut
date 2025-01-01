@@ -246,7 +246,7 @@ class tutorial.chapter_01 extends basic_chapter
 						]
 		foreach(wt in all_waytypes)
 			foreach (tool_id in forbid) {
-				rules.forbid_way_tool(pl, tool_id, wt )
+				rules.forbid_way_tool(pl, tool_id, wt, "" )
 			}
 		local forbid =	[	4142,tool_remover,tool_set_marker,tool_add_city,tool_plant_tree,tool_add_citycar,tool_buy_house,
 							tool_change_water_height,tool_set_climate,tool_lower_land,tool_raise_land,tool_setslope, 4137,
