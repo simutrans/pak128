@@ -2,7 +2,7 @@
 
 PAK=pak128
 
-echo "Downloading pak texts"
+echo "Downloading pak128 texts"
 rm -rf tmp
 mkdir tmp
 cd tmp
@@ -25,7 +25,7 @@ cd ..
 rm -fr tmp
 
 # download scenario Tutorial
-echo "Downloading scenario scripts"
+echo "Downloading tutorial scripts"
 cd pak128.prototype
 cd scenario
 rm -rf tutorial
