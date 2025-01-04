@@ -1,9 +1,9 @@
 name: Nightly build Ubuntu
 
-on: [push,workflow_dispatch]
+on:
+  [push,workflow_dispatch]
 
 jobs:
-
   compile_pak128-nightly:
     runs-on: ubuntu-latest
 
@@ -19,22 +19,23 @@ jobs:
           sudo apt-get -ym install libsdl2-dev
           sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
-          svn checkout svn://servers.simutrans.org/simutrans simutrans
+          sudo apt-get -ym install libfreetype6-dev
+          git clone https://github.com/simutrans/simutrans ./simutrans
           git clone https://github.com/simutrans/tutorial_multipak ./pak128.prototype/scenario/tutorial
           
     - name: setup
       run: |
-        cd simutrans/trunk
+        cd simutrans
         autoconf
         ./configure
         cat config.default >>/dev/stderr
 
     - name: make makeobj
       run: |
-          cd simutrans/trunk/src/makeobj
+          cd simutrans/src/makeobj
           make
-          mv makeobj ../../../..
-          cd ../../../..
+          mv makeobj ../../..
+          cd ../../..
           rm -rf simutrans
 
     - name: compile pakset
