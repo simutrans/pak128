@@ -122,7 +122,7 @@ $(DESTFILE).zip: pakset
 pakset: copy $(DIRS) $(OUTSIDE)
 
 externals:
-	@./update_externals.sh
+	@bash update_externals.sh
 
 copy:
 	@echo "===> COPY"
