@@ -95,9 +95,11 @@ ADDON_DIRS64 :=
 DIRS := $(DIRS64) $(DIRS128) $(DIRS176) $(DIRS250)
 
 
-.PHONY: $(DIRS) $(OUTSIDE) $(ADDON_DIRS64) copy tar zip
+.PHONY: $(DIRS) $(OUTSIDE) $(ADDON_DIRS64) externals copy tar zip
 
 all: zip
+
+full: externals zip
 
 archives: tar zip
 
@@ -118,6 +120,9 @@ $(DESTFILE).zip: pakset
 	@zip -rq $@ $(DESTDIR)
 
 pakset: copy $(DIRS) $(OUTSIDE)
+
+externals:
+	@./update_externals.sh
 
 copy:
 	@echo "===> COPY"

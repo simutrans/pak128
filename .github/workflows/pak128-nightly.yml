@@ -39,8 +39,7 @@ jobs:
 
     - name: compile pakset
       run: |
-        ./update_externals.sh
-        make zip
+        make full
         mv simupak128.zip simupak128-nightly.zip
 
     - name: set environment
