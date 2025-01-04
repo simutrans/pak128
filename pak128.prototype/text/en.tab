@@ -9,7 +9,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 12.05 2024                           #
+#                            Date Created: 4.01 2025                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -2119,7 +2119,9 @@ Larch\n
 tree100
 Mountain Spruce\n
 tree110
-Mountain Spruce\n
+Mountain Spruce
+obj_tree110_details
+Small mountain spruces grow in the high mountains. The slow growth results in hard wood with many knotholes.
 tree120
 Fir\n
 tree121

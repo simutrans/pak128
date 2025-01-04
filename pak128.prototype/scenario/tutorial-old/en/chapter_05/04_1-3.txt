@@ -1,9 +1,0 @@
-<p>
-{tx} In the <em>{toolbar}</em> menu, select one of the <em>"Extension Buildings"</em> for mail and place one in each of the following positions:
-</p>
-<p>
-{st}
-</p>
-<p>
-<st>It advances to the next chapter</st> when the ship starts from the <em>Shipyard</em>.
-</p>

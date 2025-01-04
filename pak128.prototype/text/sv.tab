@@ -9,7 +9,7 @@
 #                             Language: sv Svenska                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 10.01 2021                           #
+#                            Date Created: 4.01 2025                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -705,7 +705,7 @@ Signaler
 tree100
 Bergstall\n\n
 tree110
-Gran\n\n
+Gran
 tree120
 Gran\n\n
 tree130

@@ -9,7 +9,7 @@
 #                             Language: fr Francais                            #
 #                                Encoding: UTF-8                               #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 8.04 2024                           #
+#                            Date Created: 4.01 2025                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -235,7 +235,7 @@ L'église rose.\n\nCette église a été construite\npar un illustre moine, un\n
 CHURCH_03
 Église\n\nC'est une célèbre église qui\nattire les gens avec son\nenvironnement et ses\nmagnifiques peintures\nintérieures.\n\n
 CHURCH_04
-Synagoge\n\nMême si ce temple\nressemble à une mosquée,\nc'est une synagogue.\n
+Synagogue\n\nMême si ce temple\nressemble à une mosquée,\nc'est une synagogue.\n
 CHURCH_05
 Église St-Michel\n\nL'église St-Michel\nconstruite à la fin du\nXIXème siècle est connue\npour son toit métallique\nconçu par\nAlexandre-Gustave Eiffel.\n
 CHURCH_06
@@ -1157,7 +1157,7 @@ Mélèze
 tree100
 Sapin de montagne\n\n
 tree110
-Sapin de montagne\n\n
+Sapin de montagne
 tree120
 Sapin
 tree121

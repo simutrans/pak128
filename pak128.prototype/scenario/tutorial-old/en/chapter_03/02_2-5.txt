@@ -1,7 +1,0 @@
-<p>
-You need to transport <em>{good1}</em> from the {f1} to the {f2}, where it will be used to produce wheat <em>{good2}</em>.
-</p>
-<p>
-{tx} Using the slope tools in the <em>'{tool3}'</em> toolbar, you must build a steeper artificial slope that is pointed northeast in the position: {slpe1}
-</p>
-<em>State of the ground:</em><br> {slope_t}<br>

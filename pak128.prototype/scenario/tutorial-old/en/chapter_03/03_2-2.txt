@@ -1,6 +1,0 @@
-<p>
-You need to transport <em>{good1}</em> from the {f1} to the {f2}, where it will be used to produce wheat <em>{good2}</em>.
-</p>
-<p>
-{tx} Select one of the <em>'{tool2}'</em> from the toolbar and build a station for goods ({tile} tiles long) near {f1}.
-</p>

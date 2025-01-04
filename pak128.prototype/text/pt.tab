@@ -9,7 +9,7 @@
 #                            Language: pt Portugues                            #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 8.04 2024                           #
+#                            Date Created: 4.01 2025                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -789,7 +789,7 @@ Sinais
 tree100
 Abeto da montanha\n\n
 tree110
-Abeto da montanha\n\n
+Abeto da montanha
 #________________________________tunnel - track_________________________________
 #________________________________tunnel - track_________________________________
 Rail_080_Tunnel

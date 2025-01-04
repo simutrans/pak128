@@ -9,7 +9,7 @@
 #                              Language: fi Suomi                              #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 10.01 2021                           #
+#                            Date Created: 4.01 2025                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -623,7 +623,7 @@ Puu\n\n
 tree100
 Lehtikuusi\n\n
 tree110
-Lehtikuusi\n\n
+Lehtikuusi
 #___________________________vehicle - monorail_track____________________________
 #___________________________vehicle - monorail_track____________________________
 PMNV-TC-1_Turbo_Car

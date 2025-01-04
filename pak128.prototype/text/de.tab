@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 12.05 2024                           #
+#                            Date Created: 4.01 2025                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -957,7 +957,7 @@ Fackel der Erleuchtung\n\nDieses Denkmal gilt all jenen, die\ndas Simutrans-Wiki
 rmax_dictator_statue
 Der Gütige Diktator\n\nDer gütige Diktator (mit Hand in\nder Weste) - so viele\nJungfrauen sind zu Füßen\ndieser Statue bereits in\nOhnmacht gefallen, dass das\nGesundheitsministerium eine\nAbsperrkette errichten ließ.\nLeider ohne Erfolg. Viele\nAnwohner glauben nun dieses\nDenkmal strahle eine seltsame,\nfremdartige (Fruchtbarkeits-)\nKraft aus...\n
 rmax_fabio_bust
-Fagonellus Romanus\n\n
+Fagonellus Romanus\n\nThe Büste des Fabio, besser bekannt als fagonella. Die Leute bestaunen seinen Cration und den südländischen FLair, den er in diese Welt gebracht hat.
 WernerServer
 Werners Nightly-Server\n\nEin Denkmal zu Ehren von Wernieman und seinem treuen Server.
 #________________________________building - res_________________________________
@@ -1737,15 +1737,25 @@ Einkaufszentrum
 Simutrans_Fried_Chicken
 Geflügelschlachterei
 Solar Pond_kraftwerk
-Wasserkraftwerk
+Teichkraftwerk
+factory_Solar Pond_kraftwerk_details
+In klarem Salzwasserteichen erwärmt sich das Wasser am Boden (da das Sonnenlicht am Boden absorbiert wird). Die Salzlösung is so gewählt, dass die warme Salzlake schwerer ist, also am Boden bleibt und bis zu 90°C warm werden kann. Da Wasser (und damit Salzlake) eine sehr hohe Wärmkapazität hat, können diese Anlage 24 Stunden arbeiten. Leider ist der Wirkungsgrad klein (<2%) und sie brauchen viel Wasser.
 SolarPowerTowerPS10_kraftwerk
-Solarkraftwerk
+Solarturmkraftwerk
 SolarThermalOne_kraftwerk
-Solarkraftwerk
+Parabolrinnenkraftwerke
+factory_SolarThermalOne_kraftwerk_details
+In den Rinnen wird ein Öl von der Sonne erhitzt, das dann Wasser verdampft und eine Turbine antreibt. Die Technologie ist billig und funktioniert gut, wenn man oft wolkenlosen Himmel hat. Die ersten Solarkraftwerke in Kalifornien erzeugten 1984 schon konkurrenzfähigen Strom. Da das Öl nur langsam abkühlt, kann ein solches Kraftwerk auch noch bis in die Nacht arbeiten aber is morgens nicht gleich betriebsbereit. Man hat einige Kraftwerke mit einem Gasbrenner nachgerüstet, sodass die Turbinen 24h laufen können.
 steel_mill
 Stahlwerk
+StirlingParabolicCollectorsFarm_kraftwerk
+Stirlingmotorsolarkraftwerk mit Parabolspiegeln
+StirlingSolarThermalTrackerFarm_kraftwerk
+Stirlingmotorsolarkraftwerk mit Ringspiegeln
+StirlingSolarTrackersFarm_kraftwerk
+Stirlingmotorsolarkraftwerk mit Segmentspiegeln
 StirlingThermalCollectorsFarm_kraftwerk
-Solarkollektorstation
+Stirlingmotorsolarkraftwerk
 Stonequarry
 Steinbruch
 factory_Stonequarry_details
@@ -1899,7 +1909,7 @@ Bereichsende Gleissuche\n\nDie Gleise nach diesem Zeichen werden bei der Suche n
 preSignal_Monorail
 Vorsignal (Schwebebahn)
 prioritySignal_Monorail
-Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normal Signal an der Einfahrt. 
+Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normales Signal an der Einfahrt. 
 Signal_Monorail
 Signal (Schwebebahn)
 #________________________________roadsign - road________________________________
@@ -1935,7 +1945,7 @@ Langblocksignal (Classic)
 Classic_preSignals_right
 2-Block-Signal (Classic)
 Classic_prioritySignals_right
-Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normal Signal an der Einfahrt. 
+Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normales Signal an der Einfahrt. 
 Classic_Signals_right
 einfaches Signal (Classic)
 Early_ChooseSignals_right
@@ -1945,7 +1955,7 @@ Langblocksignal (Early)
 Early_preSignals_right
 2-Block-Signal (Early)
 Early_prioritySignals
-Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normal Signal an der Einfahrt. 
+Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normales Signal an der Einfahrt. 
 Early_Signals_right
 einfaches Signal (Early)
 EndOfChooseSignals
@@ -1963,7 +1973,7 @@ Ein-Weg-Signal (Modern)
 Modern_preSignals_right
 2-Block-Signal (Modern)
 Modern_prioritySignals_right
-Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normal Signal an der Einfahrt. 
+Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normales Signal an der Einfahrt. 
 Modern_Signals_right
 einfaches Signal (Modern)
 OneWaySignals
@@ -1971,7 +1981,7 @@ Ein-Weg-Signal\n
 preSignals
 Zwei-Block-Signal
 prioritySignals
-Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normal Signal an der Einfahrt. 
+Vorfahrtsignal\n\nDiese Signal geht auf grün, wenn der nachfoldende Weg frei ist. Zusätzlich versucht es auch noch das folgende Signal grün zu schalten. Es gibt aber freie Druchfahrt auch wenn dies scheiter. Nützlich um eine Strecke zu bevorzugen. Die benachteiligte Strecke hat dann ein normales Signal an der Einfahrt. 
 Signals
 Signal
 #_____________________________________tree______________________________________
@@ -2019,7 +2029,9 @@ Ulme
 tree063
 Erle
 tree110
-Bergfichte\n
+Bergfichte
+obj_tree110_details
+In den hohen Bergen wachsen die kleine Bergfichten. Das langsame Wuchs sorgt für hartes Holz mit vielen Astlöchern.
 #_________________________________tunnel - road_________________________________
 #_________________________________tunnel - road_________________________________
 Highway_110_Tunnel

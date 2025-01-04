@@ -1,6 +1,0 @@
-<p>
-It is required to transport <em>{good3}</em> from {f3} to the {f4} for the final consumer.
-</p>
-<p>
-{tx} Place another <em>Shipyard</em> in {dep2}.
-</p>
