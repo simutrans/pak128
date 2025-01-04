@@ -1,7 +1,7 @@
 name: Nightly build Ubuntu
 
 on:
-  [push,workflow_dispatch]
+  [push]
 
 jobs:
   compile_pak128-nightly:
@@ -21,8 +21,7 @@ jobs:
           sudo apt-get -ym install autoconf
           sudo apt-get -ym install libfreetype6-dev
           git clone https://github.com/simutrans/simutrans ./simutrans
-          git clone https://github.com/simutrans/tutorial_multipak ./pak128.prototype/scenario/tutorial
-          
+
     - name: setup
       run: |
         cd simutrans
@@ -40,14 +39,7 @@ jobs:
 
     - name: compile pakset
       run: |
-        shopt -s extglob
-        cd pak128.prototype/scenario/tutorial
-        rm set_data.nut
-        rm -rf .[^.]*
-        rm -rf !(tutorial128.sve|class|*.nut)
-        cd ../../..
-        mv ./set_data.nut ./pak128.prototype/scenario/tutorial/     
-        ./text_import.sh
+        ./update_externals.sh
         make zip
         mv simupak128.zip simupak128-nightly.zip
 
