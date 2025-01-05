@@ -31,7 +31,13 @@ rem for newer Windows versions can be added /EXCLUDE:svn
 
 rem new writing
 rem  ------------------------
-makeobj.exe pak128 simutrans/pak128/ground.Outside.pak base/version-pak128.dat
+( 
+  echo obj=ground>version-pak128.dat
+  echo name=Outside>>version-pak128.dat
+  echo copyright="pak128 2.10.0 for 124.3" >>version-pak128.dat
+)
+makeobj.exe pak128 simutrans/pak128/ground.Outside.pak version-pak128.dat
+del version-pak128.dat
 
 rem symbol.biglogo.pak must stay a single file - so it is copied into the pak folder before the others are moved and merged
 makeobj.exe pak128 simutrans/pak128/symbol.BigLogo.pak base/misc_GUI/BigLogo.dat
@@ -103,9 +109,12 @@ makeobj.exe pak128 simutrans/pak128/citycar.all.pak citycars/
 
 echo Compiling Cityhouses
 makeobj.exe pak128 simutrans/pak128/city_com.all.pak cityhouses/com/
+makeobj.exe pak128 simutrans/pak128/city_com.no-winter.pak cityhouses/com/no-winter
 makeobj.exe pak128 simutrans/pak128/city_ind.all.pak cityhouses/ind/
+makeobj.exe pak128 simutrans/pak128/city_ind.no-winter.pak cityhouses/ind/no-winter
 makeobj.exe pak128 simutrans/pak128/city_res.all.pak cityhouses/res/
-makeobj.exe pak128 simutrans/pak128/building.RES_blocks.pak cityhouses/res/blocks/
+makeobj.exe pak128 simutrans/pak128/city_res.blocks.pak cityhouses/res/blocks
+makeobj.exe pak128 simutrans/pak128/city_res.pioneer.pak cityhouses/res/pioneer
 
 echo Compiling factories
 makeobj.exe pak128 simutrans/pak128/factories.all.pak factories/
@@ -119,6 +128,7 @@ makeobj.exe pak128 simutrans/pak128/trees.all.pak landscape/trees/
 
 echo Compiling special buildings
 makeobj.exe pak128 simutrans/pak128/building.special.city.pak  special_buildings/city/
+makeobj.exe pak128 simutrans/pak128/building.special.city.no-winter.pak  special_buildings/city/no-winter
 makeobj.exe pak128 simutrans/pak128/building.special.landscape.pak  special_buildings/landscape/
 makeobj.exe pak128 simutrans/pak128/building.special.monuments.pak  special_buildings/monuments/
 makeobj.exe pak128 simutrans/pak128/building.special.townhalls.pak  special_buildings/townhalls/
