@@ -1,3 +1,10 @@
+/**
+ *   @file class_basic_data.nut
+ *   @brief sets the pakset specific data
+ *
+ *  all object names correspond to the names in the dat files
+ *
+ */
 
 // placeholder for tools names in simutrans
 tool_alias  <- {inspe = "Abfrage", road= "ROADTOOLS", rail = "RAILTOOLS", ship = "SHIPTOOLS", land = "SLOPETOOLS", spec = "SPECIALTOOLS"}
@@ -163,7 +170,7 @@ function get_veh_ch2_st4() {
       return "BuessingLinie"
       break
     case "pak64.german":
-      return "BuessingLinie"
+      return "OpelBlitz"
       break
     case "pak128":
       return "S_Kroytor_LiAZ-677"
@@ -186,7 +193,7 @@ function get_obj_ch2(id) {
     case "pak64":
       switch (id) {
         case 1:
-          return "asphalt_road"
+          return "mip_cobblestone_road"
           break
         case 2:
           return "tb_classic_road"
@@ -250,10 +257,10 @@ function get_veh_ch3(id) {
     case "pak64":
       switch (id) {
         case 1:
-          return "1Diesellokomotive"
+          return "3Diesellokomotive"
           break
         case 2:
-          return "1Diesellokomotive"
+          return "3Diesellokomotive"
           break
         case 3:
           return "NS1000"
@@ -265,7 +272,7 @@ function get_veh_ch3(id) {
           return "Holzwagen"
           break
         case 6:
-          return "Passagierwagen"
+          return "TPPassagierwagen"
           break
       }
     break
@@ -334,7 +341,7 @@ function get_obj_ch3(id) {
     case "pak64":
       switch (id) {
         case 1:
-          return "concrete_sleeper_track"
+          return "wooden_sleeper_track"
           break
         case 2:
           return "ClassicRail"
@@ -377,7 +384,7 @@ function get_obj_ch3(id) {
           return "Signals"
           break
         case 7:
-          return "classic_metal_mesh_catenary"
+          return "SlowOverheadpower"
           break
       }
       break
@@ -402,7 +409,7 @@ function get_obj_ch3(id) {
           return "Signals"
           break
         case 7:
-          return "gray_type_catenary"
+          return "grey_type_catenary"
           break
       }
       break
@@ -505,7 +512,7 @@ function get_obj_ch4(id) {
     case "pak128":
       switch (id) {
         case 1:
-          return "canal_030"
+          return "canal_020"
           break
         case 2:
           return "Long_Goods_Dock"
@@ -634,7 +641,7 @@ function get_obj_ch5(id) {
           return "Powerline"
           break
         case 4:
-          return "PowerSource"
+          return "Aufspanntransformator" //PowerSource
           break
         case 5:
           return "CarDepot"
@@ -682,7 +689,7 @@ function get_veh_ch6(id) {
     case "pak64":
       switch (id) {
         case 1:
-          return "DC-3"
+          return "Fokker_F27"
           break
         case 2:
           return "BuessingLinie"
@@ -698,10 +705,10 @@ function get_veh_ch6(id) {
           return "DC-3"
           break
         case 2:
-          return "BuessingLinie"
+          return "OpelBlitz"
           break
         case 3:
-          return "BuessingLinie"
+          return "OpelBlitz"
           break
       }
       break

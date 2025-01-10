@@ -22,16 +22,7 @@ class tutorial.chapter_05 extends basic_chapter
   sch_cov_correct = false
 
   //Step 1 =====================================================================================
-  /*fab_list =  [
-          factory_data.rawget("5"),
-          factory_data.rawget("3"),
-          factory_data.rawget("7"),
-          factory_data.rawget("8")
-        ]*/
 
-  /*c_fab_lim = [ {a = coord(149,200), b = coord(150,201)}, {a = coord(110,190), b = coord(111,191)},
-          {a = coord(131,235), b = coord(133,237)}, {a = coord(130,207), b = coord(131,208)}
-        ]*/
   //Step 2 =====================================================================================
   //Para la carretera
   //------------------------------------------------------------------------------------------
@@ -52,19 +43,19 @@ class tutorial.chapter_05 extends basic_chapter
   f1_good = good_alias.coal
 
   //Step 3 =====================================================================================
-    transf_list = [coord(148,201), coord(110,192), coord(134,235), coord(130,206)]
-    f_power = 0
-    f_pow_list = [0,0,0,0]
+  transf_list = [coord(148,201), coord(110,192), coord(134,235), coord(130,206)]
+  f_power = 0
+  f_pow_list = [0,0,0,0]
 
-    pow_lim = [ {a = coord(127,196), b = coord(151,204)}, {a = coord(106,189), b = coord(112,201)},
-          {a = coord(106,201), b = coord(127,210)}, {a = coord(127,204), b = coord(140,238)}
-        ]
+  pow_lim = [ {a = coord(127,196), b = coord(151,204)}, {a = coord(106,189), b = coord(112,201)},
+        {a = coord(106,201), b = coord(127,210)}, {a = coord(127,204), b = coord(140,238)}
+      ]
 
-    label_del =  [{a = coord(107,201), b = coord(111,201)}, {a = coord(127,202), b = coord(127,209)}, {a = coord(128,204), b = coord(139,204)}]
+  label_del =  [{a = coord(107,201), b = coord(111,201)}, {a = coord(127,202), b = coord(127,209)}, {a = coord(128,204), b = coord(139,204)}]
 
   //Step 4 =====================================================================================
-    st_name = get_obj_ch5(6)
-    obj_list1 = [
+  st_name = get_obj_ch5(6)
+  obj_list1 = [
 
           {c = coord(111,182), name = get_obj_ch5(6), good = good_alias.mail},
           {c = coord(113,191), name = get_obj_ch5(6), good = good_alias.mail},
@@ -76,7 +67,7 @@ class tutorial.chapter_05 extends basic_chapter
           {c = coord(132,190), name = get_obj_ch5(6), good = good_alias.mail}
         ]
 
-    sch_list2 = [
+  sch_list2 = [
           coord(111,183), coord(116,183),  coord(120,183), coord(126,187),
           coord(132,189), coord(121,189), coord(118,191), coord(113,190)
         ]
@@ -104,13 +95,6 @@ class tutorial.chapter_05 extends basic_chapter
   sc_dep_name = get_obj_ch5(5)
   sc_trail_name = get_veh_ch5(2)
   sc_trail_nr = 1
-
-  sc_tran_list =  [
-            {a = coord3d(110,192,2) , b = coord3d(130,206,-1)},
-            {a = coord3d(134,235,0) , b = coord3d(130,206,-1)},
-            {a = coord3d(148,201,-1) , b = coord3d(130,206,-1)}
-          ]
-
   sc_power_name = get_obj_ch5(3)
   sc_transf_name = get_obj_ch5(4)
 
@@ -683,9 +667,11 @@ class tutorial.chapter_05 extends basic_chapter
                                 if (glsw[j]==0){
                                    return null
                                 }
-                                else return  translate("There is already a transformer here!")+" ("+pos.tostring()+")."
+                                else 
+                                  return  translate("There is already a transformer here!")+" ("+pos.tostring()+")."
                             }
-                            else if (glsw[j]==0) result = translate("Build the transformer here!")+" ("+transf_list[j].tostring()+")."
+                            else if (glsw[j]==0)
+                              result = translate("Build the transformer here!")+" ("+transf_list[j].tostring()+")."
                         }
                     }
                     if(tool_id == tool_build_transformer)
@@ -1003,11 +989,12 @@ class tutorial.chapter_05 extends basic_chapter
           }
         }
         if (pot1 == 0){
-          local list = sc_tran_list
+          local start = my_tile(transf_list[0])
           local t_name = sc_power_name
           local tool = command_x(tool_build_way)
-          for(local j = 0; j<list.len(); j++){
-            tool.work(player, list[j].a, list[j].b, t_name)
+          for(local j=1;j<transf_list.len();j++){
+            local tile = my_tile(transf_list[j])
+            tool.work(player, start, tile, t_name)
           }
         }
         return null

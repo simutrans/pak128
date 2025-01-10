@@ -289,21 +289,25 @@ for (local i = 0; i <= chapter_max; i++)    // include amount of chapter classes
 chapter            <- tutorial.chapter_02       // must be placed here !!! 
 //-------------------------------------------------------------------------
 
+
+/**
+  * This function will be called, whenever a user clicks to jump to the next step
+  * It must not alter the map or call a tool!
+  * Hence we just set a flag and handle all map changes in is_scenario_completed()
+  */
 function script_text()
 {
   local pause = debug.is_paused()
-  if (pause) return gui.add_message(translate("Advance is not allowed with the game paused."))
+  if (pause)
+    return gui.add_message(translate("Advance is not allowed with the game paused."))
   if(!correct_cov){
     gui.add_message(""+translate("Advance not allowed"))
     return null
   }
-  if(persistent.chapter<7){
-    if(scr_jump)
-      // already jumping
-      return null
-    pending_call = true
-    return true
-  }
+  if(scr_jump)
+    // already jumping
+    return null
+  pending_call = true   // indicate that we want to skip to next step
   return null
 }
 
@@ -333,9 +337,7 @@ function load_chapter(number,pl)
     chapter.chap_nr = number
   }
   else{
-    if (number <= tutorial.len() )    // replace the class
-      chapter = tutorial["chapter_"+(number < 10 ? "0":"")+number](pl)
-    else    persistent.chapter--
+    chapter = tutorial["chapter_"+(number < 10 ? "0":"")+number](pl)
     if ( (number == persistent.chapter) && (chapter.startcash > 0) )  // set cash money here
       player_x(0).book_cash( (chapter.startcash - player_x(0).get_cash()[0]) * 100)
 
@@ -375,6 +377,11 @@ function set_city_names()
   }
 }
 
+
+/*
+ * test functions generating the GUI strings
+ * These must return fast and must not alter the map!
+ */
 function get_info_text(pl)
 {
   local info = ttextfile("info.txt")
@@ -405,6 +412,12 @@ function get_goal_text(pl)
 
 function get_result_text(pl)
 {
+   // finished ...
+  if(persistent.chapter>7) {
+    local text = ttextfile("finished.txt")
+    return text
+  }
+
   local text = ttextfile("result.txt")
   //local percentage = chapter.is_chapter_completed(pl)
   text.ratio_chapter = gl_percentage
@@ -488,8 +501,20 @@ function labels_text_debug()
   }
 }
 
+
+/**
+  * This function check whether finished or not
+  * Is runs in a step, so it can alter the map
+  * @return 100 or more, the scenario will be "win" and the scenario_info window
+  *                      show the result tab
+  */
 function is_scenario_completed(pl)
 {
+  // finished ...
+  if(persistent.chapter > chapter_max) {
+    return 100
+  }
+
   //-------Debug ====================================
   //gui.add_message(""+glsw[0]+"")
   //gui.add_message("!!!!!"+persistent.step+" ch a "+st_nr[0]+"  !!!!! "+persistent.status.step+"  -- "+chapter.step+"")
@@ -554,7 +579,7 @@ function is_scenario_completed(pl)
   chapter.step = persistent.step
 
   if (pending_call) {
-    // since we cannot call them in a sync_step
+    // since we cannot alter the map in a sync_step
     pending_call = false
     scr_jump = true // we are during a jump ...
     chapter.script_text()
@@ -572,6 +597,14 @@ function is_scenario_completed(pl)
 
     persistent.chapter++
     persistent.status.chapter++
+
+    // finished ...
+    if(persistent.chapter > chapter_max) {
+      rules.clear()
+      rules.gui_needs_update()
+      scr_jump = true
+      return 100
+    }
 
     load_chapter(persistent.chapter, pl)
     chapter.chap_nr = persistent.chapter
@@ -759,6 +792,11 @@ function resume_game()
   }
 
   r_way_list = persistent.r_way_list
+  
+  if(persistent.chapter > chapter_max) {
+    // scenario was finished
+    return;
+  }
 
   load_chapter(persistent.chapter,0)      // load correct chapter for player=0
 
@@ -766,7 +804,7 @@ function resume_game()
 
   select_option_halt = tile_x( 0, 0, select_option.z ).find_object(mo_label)
 
-    chapter.start_chapter()
+  chapter.start_chapter()
 }
 
 function get_line_name(halt)

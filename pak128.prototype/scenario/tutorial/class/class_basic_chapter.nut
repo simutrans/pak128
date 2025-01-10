@@ -29,8 +29,11 @@ reached <- 0
 tile_delay      <- 0x0000000f & time()       //delay for mark tiles
 gl_tile_i       <- 0
 
+/**
+  * chapter description : this is a placeholder class
+  */
 class basic_chapter
-{        // chapter description : this is a placeholder class
+{
 
   chapter_name  = ""  // placeholder for chapter name
   chap_nr       = 1   // count the chapter number
@@ -95,7 +98,7 @@ class basic_chapter
   }
 
   /*
-   *  calculate persentage chapter complete
+   *  calculate percentage chapter complete
    *
    *  ch_steps  = count chapter steps
    *  step      = actual chapter step
@@ -103,6 +106,8 @@ class basic_chapter
    *  sub_step  = actual sub step in a chapter step
    *
    *  no sub steps in chapter step, then set sub_steps and sub_step to 0
+   *
+   * This function is called during a step() and can alter the map
    *
    */
   function chapter_percentage(ch_steps, ch_step, sub_steps, sub_step)

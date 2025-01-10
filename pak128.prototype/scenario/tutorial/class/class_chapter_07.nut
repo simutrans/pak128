@@ -164,7 +164,7 @@ class tutorial.chapter_07 extends basic_chapter
         if ( check_halt_merge(st1_c, stop1) ) {
           load = cov_pax(stop1, gl_wt, gl_good) - transfer_pass
         } else {
-          transfer_pass = cov_pax(stop2, gl_wt, gl_good)
+          transfer_pass = cov_pax(stop1, gl_wt, gl_good)
         }
         if(load>goal_lod1){
           load = 0
@@ -198,7 +198,7 @@ class tutorial.chapter_07 extends basic_chapter
         if ( check_halt_merge(st3_c, stop3) ) {
           load = cov_pax(stop3, gl_wt, gl_good) - transfer_pass
         } else {
-          transfer_pass = cov_pax(stop2, gl_wt, gl_good)
+          transfer_pass = cov_pax(stop3, gl_wt, gl_good)
         }
         if(load>goal_lod3){
           load = 0
@@ -215,7 +215,7 @@ class tutorial.chapter_07 extends basic_chapter
         if ( check_halt_merge(st4_c, stop4) ) {
           load = cov_pax(stop4, gl_wt, gl_good) - transfer_pass
         } else {
-          transfer_pass = cov_pax(stop2, gl_wt, gl_good)
+          transfer_pass = cov_pax(stop4, gl_wt, gl_good)
         }
         if(load>goal_lod4){
           load = 0
@@ -227,6 +227,7 @@ class tutorial.chapter_07 extends basic_chapter
 
       case 5:
         //return 90
+        return 100
         break;
     }
     local percentage = chapter_percentage(chapter_steps, chapter_step, chapter_sub_steps, chapter_sub_step)
@@ -283,6 +284,9 @@ class tutorial.chapter_07 extends basic_chapter
           return translate("You can only use this tool in the city")+cty4.name.tostring()+" ("+cty4.c.tostring()+")."
       break;
 
+      case 5:
+        return null;
+
     }
     if (tool_id==4096)
       return null
@@ -296,6 +300,9 @@ class tutorial.chapter_07 extends basic_chapter
 
   function is_convoy_allowed(pl, convoy, depot)
   {
+    if(this.step>4) 
+      return null
+
     local result=null // null is equivalent to 'allowed'
     //Check load type
     local good_nr = 0 //Passengers
@@ -322,7 +329,10 @@ class tutorial.chapter_07 extends basic_chapter
   }
 
   function is_tool_allowed(pl, tool_id, wt){
-    local gt_list = [ t_icon.tram, t_icon.rail, t_icon.slope ]
+    if(this.step>4)
+      return true
+
+    local gt_list = [ t_icon.tram, t_icon.rail ]
     foreach (id in gt_list){
       if(id == tool_id)
         return false

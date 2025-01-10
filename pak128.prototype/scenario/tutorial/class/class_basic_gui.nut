@@ -48,12 +48,13 @@ function general_disabled_tools( pl ) {
                           tool_raise_land,
                           tool_lower_land,
                           tool_restoreslope,
+                          4143, //generate script            
                           4144  //pipette
   ]
 
-  local pak64_tools = [ 0x8004, 0x8005, tool_set_climate ]
+  local pak64_tools = [ 0x8004, 0x8005, 0x4022, tool_set_climate ]
   local pak64german_tools = [ 0x800b, 0x800c, 0x800d, 0x8013, 0x8014, 0x8015, 0x8023, 0x8025, 0x8027, 0x8007, 0x8006 ]
-  local pak128_tools = [0x8004, 0x8005, 0x8006, 0x800a, tool_set_climate ]
+  local pak128_tools = [0x8004, 0x8005, 0x8006, 0x800a, 0x4022, tool_set_climate ]
 
   switch (pak_name) {
     case "pak64":
@@ -956,9 +957,11 @@ function chapter_step_enabled_tools( pl ) {
 
           local _pak64_tools = [ 0x8009 ]
           local _pak64german_tools = [ 0x8004 ]
+          local _pak128_tools = [ 0x800b ]
 
           enabled_tools_pak64.extend(_pak64_tools)
           enabled_tools_pak64german.extend(_pak64german_tools)
+          enabled_tools_pak128.extend(_pak128_tools)
 
           break
       break
@@ -1073,11 +1076,19 @@ function chapter_step_enabled_tools( pl ) {
 
       enabled_tools.extend(_enabled_tools)
 
-      local _pak64_tools = [ 0x8006 ]
-      local _pak64german_tools = [ 0x800e, 0x8002 ]
+      local _pak64_tools = [ 0x8006, 0x8002 ]
+      local _pak64german_tools = [ 0x800e, 0x8002, 0x8001 ]
+      local _pak128_tools = [ 0x8002 ]
 
       enabled_tools_pak64.extend(_pak64_tools)
       enabled_tools_pak64german.extend(_pak64german_tools)
+      enabled_tools_pak128.extend(_pak128_tools)
+
+      switch (step_nr) {
+        case 5:
+          rules.clear()
+          break
+      }		    
 
       break
 

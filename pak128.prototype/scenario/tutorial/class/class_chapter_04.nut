@@ -255,6 +255,7 @@ class tutorial.chapter_04 extends basic_chapter
     switch (this.step) {
       case 1:
         local next_mark = false
+        local stop_mark = true
         if(pot0==0 || pot1 == 0){
           local list = fac_2.c_list
           try {
@@ -270,7 +271,7 @@ class tutorial.chapter_04 extends basic_chapter
         else if (pot2==0 || pot3==0){
           local list = fac_1.c_list
           try {
-            next_mark = delay_mark_tile_list(list)
+            next_mark = delay_mark_tile(list)
           }
           catch(ev) {
             return 0
