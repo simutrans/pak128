@@ -14,7 +14,7 @@ Range=400
 Electricity_amount=0
 Electricity_boost=0
 Mail_demand=5
-Mail_boost=1
+Mail_boost=50
 Passenger_demand=20
 Passenger_boost=500
 
