@@ -77,6 +77,7 @@ DIRS128 += vehicles/rail-cargo
 DIRS128 += vehicles/rail-engines
 DIRS128 += vehicles/rail-psg+mail
 DIRS128 += vehicles/road-cargo
+DIRS128 += vehicles/road-horses
 DIRS128 += vehicles/road-psg+mail
 DIRS128 += vehicles/trams
 

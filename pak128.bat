@@ -146,6 +146,7 @@ makeobj.exe pak128 simutrans/pak128/passenger_trains.all.pak vehicles/rail-psg+m
 
 echo Compiling Road Vehicles
 makeobj.exe pak128 simutrans/pak128/trucks.all.pak vehicles/road-cargo/
+makeobj.exe pak128 simutrans/pak128/horses.all.pak vehicles/road-horses/
 makeobj.exe pak128 simutrans/pak128/buses.all.pak vehicles/road-psg+mail/
 
 echo Compiling Ships
