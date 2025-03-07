@@ -1,0 +1,9 @@
+obj=building
+name=denktrack
+copyright=Hajo & Napik & Fabio Gonella
+type=mon
+level=60
+#Summer
+backimage[0][0][0][0][0][0]=denktrack.1.0
+#Winter
+backimage[0][0][0][0][0][1]=denktrack.1.1
