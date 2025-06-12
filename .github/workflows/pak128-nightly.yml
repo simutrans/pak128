@@ -13,14 +13,10 @@ jobs:
         fetch-depth: 0
 
     - name: install_dependencies
-#         sudo apt-get -y update
       run: |
-          sudo apt-get -ym install libpng-dev
-#          sudo apt-get -ym install libsdl2-dev
-#          sudo apt-get -ym install libbz2-dev
-          sudo apt-get -ym install autoconf
-#          sudo apt-get -ym install libfreetype6-dev
-          git clone -depth 1 https://github.com/simutrans/simutrans ./simutrans
+        sudo apt-get -ym install libpng-dev
+        sudo apt-get -ym install autoconf
+        git clone -depth 1 https://github.com/simutrans/simutrans ./simutrans
 
     - name: setup
       run: |
@@ -31,11 +27,11 @@ jobs:
 
     - name: make makeobj
       run: |
-          cd simutrans/src/makeobj
-          make
-          mv makeobj ../../..
-          cd ../../..
-          rm -rf simutrans
+        cd simutrans/src/makeobj
+        make
+        mv makeobj ../../..
+        cd ../../..
+        rm -rf simutrans
 
     - name: compile pakset
       run: |
