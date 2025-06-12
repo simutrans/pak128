@@ -16,11 +16,11 @@ jobs:
 #         sudo apt-get -y update
       run: |
           sudo apt-get -ym install libpng-dev
-          sudo apt-get -ym install libsdl2-dev
-          sudo apt-get -ym install libbz2-dev
+#          sudo apt-get -ym install libsdl2-dev
+#          sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
-          sudo apt-get -ym install libfreetype6-dev
-          git clone https://github.com/simutrans/simutrans ./simutrans
+#          sudo apt-get -ym install libfreetype6-dev
+          git clone -depth 1 https://github.com/simutrans/simutrans ./simutrans
 
     - name: setup
       run: |
