@@ -16,7 +16,7 @@ jobs:
       run: |
         sudo apt-get -ym install libpng-dev
         sudo apt-get -ym install autoconf
-        git clone -depth 1 https://github.com/simutrans/simutrans ./simutrans
+        git clone --depth 1 https://github.com/simutrans/simutrans ./simutrans
 
     - name: setup
       run: |
