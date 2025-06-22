@@ -377,13 +377,13 @@ Renfe_269_Altaria
 #
 ###########################  Fabio's ways #####################################
 dirt_road
-road_030
+Road_030
 gravel_road
-road_055
+Road_050
 cobblestone_road
-road_055
+Road_055
 asphalt_road
-road_070
+Road_070
 Rillenschienen
 Tram_Track_050_A
 concrete_tram_track
@@ -416,6 +416,34 @@ RailTunnel
 Rail_280_Tunnel
 RoadTunnel
 road_090_tunnel
+#
+# different pak128 names
+road_030
+Road_030
+road_050
+Road_050
+road_055
+Road_055
+road_070
+Road_070
+road_090
+Road_090
+road_110
+Highway_110
+road_130
+Highway_130
+road_200
+Highway_200
+river_30
+river_00
+river_20
+river_01
+river_10
+river_02
+river_0b
+river_03
+river_0a
+river_04
 #
 ###########################  Soft slopes conversion ############################
 road_110_tunnel

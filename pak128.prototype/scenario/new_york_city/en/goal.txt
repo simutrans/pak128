@@ -1,0 +1,31 @@
+Try to reach for minimum one full year in <a href="({citypos})">{cityname}</a> a
+rate of service: Delivered / Passengers = greater 0.{target_pax_ratio}
+(that's {target_pax_ratio}%).<br>
+<br>
+Build your big company headquarter (HQ) on <a href="(427,632)">Governors Island</a>.<br>
+<br>
+Support the airports, also the <a href="(1013,1013)">NonUS-airport.</a><br>
+<br>
+<em>extra stuff</em><br>
+<br>
+you didn't have to take care about all the wishes you heard, but
+it may be helpful to succeed. <br>
+<br>
+<em>help</em><br>
+<br>
+Note the scenario messages in your ingame massage centre.
+Before you build, conside how you cope with the amount of passengers and
+mail, specially on Manhattan island. Use the special constraction tool
+marker to remember informations for a exactly place.
+<br>
+<br>
+if the game needs to much CPU time try :<br>
+· turn off view pedestrians in towns<br>
+· turn off view pedestrians at towns<br>
+· don't display station coverage transparent<br>
+· use less open windows in simutrans<br>
+· use standard zoom for display<br>
+· water animation to highst amount<br>
+· reduce the FPS (frame per seconds)<br>
+· use less BUS, trucks and ships -> use more trains and trams<br>
+· make a better pax service to get less citycars<br>

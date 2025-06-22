@@ -1,0 +1,26 @@
+We are writing the year {startyear} and the mayor of the City New York has a
+great vision, a city with a useful public transport system. So he starts to
+collect money from all towns in the area, including Jersey. After a time
+the bank account shows {startcash} for his great vision.<br>
+<br>
+Now he is looking up for a skilled manager of the new public transport
+company. Quite difficult, because nearly everyone is asking him a lot of
+questions. The mayor decided to create a list of facts:<br>
+<br>
+<em>start year:</em> {startyear}<br>
+<em>money:</em> {startcash}<br>
+<em>inhabitants:</em> {citizen}<br>
+<em>Scities:</em> {towns}<br>
+<em>factories:</em> {factories}<br>
+<em>public airports:</em> {airports}<br>
+<br>
+As you are the only applicant for this fantastic job, the mayor hands over
+the bank account.<br>
+<br>
+A few days later the mayor invites you to a notorious art exhibition
+to get familiar with the region and to meet influential citizens. The
+visit was very useful, because now you know that there are
+<a href="rules">more things</a> to consider.<br>
+<br>
+<em>Note</em><br>
+This is a very complex scenario and it can take plenty of hours to solve it!<br>

@@ -1,0 +1,140 @@
+The visionary mayor did also make a short list of the
+rules from the city council decisions:<br>
+<br>
+<em>·</em> no more bridge or tunnel of any kind over the <a href="(384,587)">Hudson River</a><br>
+<em>·</em> you are free to build any bridge or tunnel over the <a href="(463,472)">East River</a> and <a href="(406,219)">Harlem River</a><br>
+<em>·</em> any building demolition is expensive (five times as normal) <br>
+<em>·</em> you can use the underground power conduits near the <a href="(364,526)">Holland Tunnel</a><br>
+<em>·</em> no surface construction work in the <a href="(400,350)">Central Park</a>, only in the
+underground and at the central bridge are constructions allowed<br>
+<em>·</em> no canal form west to east through the island manhattan<br>
+<em>·</em> no more factories in future<br>
+<em>·</em> no routing over overcrowded stations (not scripted yet)<br>
+<em>·</em> a few buildings are owned by UNESCO in order to preserve these<br>
+<em>·</em> newer get a negativ net wealth at the end of the month<br>
+<br>
+<em>extra stuff</em><br>
+<br>
+<em>·</em> in the beginnig no underground workings below the waterline (level lower -2)<br>
+<em>·</em> taxiway and runways can be enabled later (free places for depot at <a href="(163,283)">Teterboro Airport</a>)<br>
+<em>·</em> no tram in the area of <a href="(376,255)">Harlem</a> and <a href="(428,272)">East Harlem</a> (to much crime in the moment)<br>
+<br>
+From your visit of the art exhibition you can remember the following information:<br>
+<br>
+A very self-confident manager of <a href="{jfk_pos}">JFK airport</a> gave you
+- very inconspicuous - a letter. The airport would like to be greater than the
+<a href="{lag_pos}">La Guardia</a> and <a href="{new_pos}">Newark</a> airport together.
+Therfore they count the departing passengers, mail and good at these
+airports. If you can help them you will get a amount of {jfk_cash} for
+each more departing from JFK as by the competitors. Keep the unhappy
+at JFK below {jfk_max_unhappy} passengers.<br>
+<br>
+The big group of representatives from the tourism committee informed
+you about the world known tourismus business in new york city.
+To participate in this just build up stations and start passanger service.
+You will get {tourism_cash} for each happy if you sucessfuly manage it
+at all places together. In your trouser pocket you find a note:<br>
+{tourism_places}
+By the way, the station can be larger than one map tile, there must
+be only one part at the place. Watch the three coordinates.<br>
+<br>
+Taking a small snack from the extensive buffet you meet the
+tax office director. He knows that there will be soon a new tax,
+starting januar {tax_start}. It is a sales tax of {tax_rate}% to be
+payed monthly, without exception!<br>
+<br>
+A influential member from Harlem - marked from his daily business
+with violent and crime - knows about your problem that
+there is too much crime in <a href="(376,255)">Harlem</a> and
+<a href="(428,272)">East Harlem</a> to build up tram ways. He
+offers you to reduce the crime if the {harlem_name_food} and
+the {harlem_name_beer} reach both a production level
+of {harlem_level} unit/month.<br>
+<br>
+A real estate broker, very well dressed, let you know a bit more
+about the construction costs of corporate office buildings. It's
+starts around 9 million $ and raises to 81 million $ for a huge
+representative headquarter.<br>
+<br>
+The plant manager at a {refinery_name} near St. George would like
+to sell his gasoline to the airport dealers. He employed a lot of
+workers, but didn't have any transport system for his products and
+consumption. Fortunately he has a great influential to the city council
+to get a decision to be allowed to build taxiways and runways.
+Just take care that his plant can produce a minimum
+of {refinery_gasoline} gasoline unit/month and you will get your airport
+construction tools.<br>
+<br>
+The chief executive officer of a large mining operation offers you to
+get all necessary city council decisions to do underground workings
+below the waterline. You just need to get his {mining_name1} and
+{mining_name2} productiv. To get the decisions for a level you need
+following amount of production within twelve month:<br>
+{mining_levels}
+To protect the deep sea the city council will never allow
+underground workings below levels {mining_max}.<br>
+<br>
+Do you like fried chicken? The owner of the famous Simutrans Fried Chicken (SFC)
+fastfood company asked you to supply all of his stores with
+{chicken_min} units/month with chicken meat.
+He is sure that for each supported store the local city growth will
+increase one tenth of consumed meat every month. Sure, it's the best
+food in town. Here is a list of his stores:<br>{chicken_list}<br>
+<br>
+The district representatives of the Simutrans Postal Service, a huge and
+influential company also noticed your problem with the airport construction
+tools. He believes his problem can be solved by you. Reach a mail service
+of {mail_level}% in {cityname} for him and he takes care to get the tools.<br>
+<br>
+Be part of the big business. The {car_name} is starting to produce the new
+car model. The sales manager offers a commission of {car_cash} for each
+car produced if they produce more than {car_level} cars/month. Everytime
+the production is lower than in the previous month you have to pay a fine
+of {car_fine} for each car less and be sure that the individual traffic
+will increase even if only a few cars are sold.<br>
+<br>
+The advertisement from the new electric company is conspicuous.
+A very young woman, responsible for the marketing, showed you
+the new product. It's my be product for the future, but it so
+simple like a apple. Her great knowledge of the consumers let her
+predict that the growth of <a href="(335,497)">Hoboken</a>,
+<a href="(397,522)">SoHo</a> and <a href="(451,515)">Lower East Side</a> will
+end if the {electro_name} sells {electro_level} elelctronic units/month.<br>
+<br>
+Involved in a conversation while you consider a work of art
+a incredibly rich and well known person told you by the way
+that there is an unwritten law, for rich people with a net
+wealth form more than {charity_min}. The expectant attitude
+is to donate {charity_rate}/1000 of your net wealth for charity
+projects monthly.<br>
+<br>
+His grandmother, as old as he is rich, told you from the last
+century where the citizens were jubilant because of an excellent
+puplic transport system and mail service. It reached incredible rates
+above {babyboom_level}%. And that was the last time of a babyboom
+in all towns of the city.<br>
+<br>
+A successful craftsman obtains its products from the
+{wholesale_name} in Harlem. Unfortunately not all of
+his needed goods are in the storage. He is confident that if all products
+are support at least {wholesale_level} units in the storage, the towns
+<a href="(313,230)">Edgewater</a>, <a href="(318,287)">Fairview</a> and
+<a href="(368,182)">Washington Heights</a> will have a monthly extra
+growth of {wholesale_growth} citizens.<br>
+<br>
+The daughter of the owner from a fancy hotel chain didn't like waste
+at her favorite places of the city. She persuaded her father to pay
+you the same amount as the tourism committee is paying you, if there
+will be less waste in the city. So take care that each garbage dump
+deliver a minimum of {waste_level} units/month.<br>
+{waste_list}<br>
+<br>
+It was already late, wenn you noticed a city council member
+- probably a bit drunk - talking about a loan rate free credit for poor
+transport companies. The credit from a hugh downtown bank will have an
+amount of {bank_credit} for a period of {bank_month} month. You are
+not sure, but to get the credit in the beginning of the year
+{bank_start} your company must have less then {bank_assets} net wealth.
+Yes - you remember correctly - it was less! This will be much better
+than to pay the bank an overdraft rate of {overdraft_rate}% each month.<br>
+<br>

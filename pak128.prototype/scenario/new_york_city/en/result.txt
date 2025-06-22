@@ -1,0 +1,30 @@
+The scenario is up to {ratio_scenario}% complete.<br>
+<br>
+You satisfied the demand for transporting passengers
+in {cityname} up to {ratio_pax}% and provided service
+to {airports} airports.<br>
+{hq_text}<br>
+Mail service is up to {ratio_mail}% complete.<br>
+<br>
+<em>extra stuff</em> (for the last month)<br>
+{bonus_aktiv}
+<br>
+tourism organisation payed you: {bonus_tourism}<br>
+JFK airport payed you: {bonus_jfk}<br>
+car assembly plant payed you: {bonus_car}<br>
+cash for transported waste : {waste}<br>
+<br>
+refinery gasoline production : {refinery_gasoline}<br>
+Harlem food & beer production : {harlem_food_beer}<br>
+Mine company production : {mining_units}<br>
+<br>
+SFC number of city growth : {chicken_growth}<br>
+Electronics, stop growth : {electro_growth}<br>
+Material wholesale, city growth : {wholesale_growth}<br>
+<br>
+your sales tax of {tax_rate}% is : {tax_to_pay}<br>
+your donation 0.{charity_rate}% of net wealth : {charity_to_pay}<br>
+interest on bank overdraft {overdraft_rate}% : {overdraft_to_pay}<br>
+used loan free bank credit : {bank_credit}<br>
+<br>
+For more information see message centre.
