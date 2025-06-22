@@ -482,8 +482,8 @@ function bonus_refinery(pl)
         local refinery = factory_x(refinery_pos.x,refinery_pos.y).output
         persistent.bonus.refinery = refinery.Gasoline.get_produced()[1]
         if (persistent.bonus.refinery >= refinery_gasoline)
-             { rules.allow_way_tool(pl, tool_build_way, wt_air) }
-        else { rules.forbid_way_tool(pl, tool_build_way, wt_air) }
+             { rules.allow_way_tool(pl, tool_build_way, wt_air, "") }
+        else { rules.forbid_way_tool(pl, tool_build_way, wt_air, "") }
 }
 
 
@@ -493,8 +493,8 @@ function bonus_mail(pl)
         local city = city_x(city_pos.x,city_pos.y)
         persistent.bonus.mail = get_mail_ratio(city)
         if (persistent.bonus.mail > mail_level)
-             { rules.allow_way_tool(pl, tool_build_way, wt_air) }
-        else { rules.forbid_way_tool(pl, tool_build_way, wt_air) }
+             { rules.allow_way_tool(pl, tool_build_way, wt_air, "") }
+        else { rules.forbid_way_tool(pl, tool_build_way, wt_air, "") }
 }
 
 
@@ -507,8 +507,8 @@ function bonus_harlem(pl)
         local food = factory_x(harlem_pos_food.x,harlem_pos_food.y).output.food.get_produced()[1]
         persistent.bonus.harlem = [ beer, food ]
         if (beer >= harlem_level && food >= harlem_level)
-             { rules.allow_way_tool_cube(pl, tool_build_way, wt_tram, {x=350,y=221,z=1},{x=447,y=300,z=-1} ) }
-        else { rules.forbid_way_tool_cube(pl, tool_build_way, wt_tram, {x=350,y=221,z=1},{x=447,y=300,z=-1} , text ) }
+             { rules.allow_way_tool_cube(pl, tool_build_way, wt_tram, "", {x=350,y=221,z=1},{x=447,y=300,z=-1} ) }
+        else { rules.forbid_way_tool_cube(pl, tool_build_way, wt_tram, "", {x=350,y=221,z=1},{x=447,y=300,z=-1} , text ) }
 }
 
 
@@ -578,12 +578,12 @@ function bonus_mining(pl)
               for (local i = mining_max; i <= mining_start; i++)
                   {
                    cube[1].z = i
-                   rules.allow_way_tool_cube(pl, tool_build_tunnel, wt_all, cube[0], cube[1] )
+                   rules.allow_way_tool_cube(pl, tool_build_tunnel, wt_all, "", cube[0], cube[1] )
                   }
               if (cube_level < mining_max) { cube_level = mining_max }
               cube[1].z = cube_level -1            // forbid levels below
               text_2.mining_level = cube_level     // give user info about level
-              rules.forbid_way_tool_cube(pl, tool_build_tunnel, wt_all, cube[0], cube[1] , text_2 )
+              rules.forbid_way_tool_cube(pl, tool_build_tunnel, wt_all, "", cube[0], cube[1] , text_2 )
               if (cube_level != cube_level_old)
                  {
                   local text = ttext("You have obtained permission for underground workings until level {level}.")
@@ -592,7 +592,7 @@ function bonus_mining(pl)
                  }
              }
         else
-             { rules.forbid_way_tool_cube(pl, tool_build_tunnel, wt_all, cube[0], cube[1] , text_1 ) }
+             { rules.forbid_way_tool_cube(pl, tool_build_tunnel, wt_all, "", cube[0], cube[1] , text_1 ) }
 }
 
 
@@ -848,7 +848,7 @@ function resume_game()
 }
 
 
-function is_work_allowed_here(pl, tool_id, pos)
+function is_work_allowed_here(pl, tool_id, name, pos, tool)
 {
         if (tool_id == tool_headquarter){      // headquarter only on governors island
                 if (pos.x<governors_island.x1  ||  governors_island.x2<pos.x || pos.y<governors_island.y1  ||  governors_island.y2<pos.y) {
@@ -865,14 +865,14 @@ function forbid_tools(pl, list)
             if (j.modus == "rect") {
                 for (local i=0; i < j.tools.len(); i++) {
                      for (local e=0; e < j.list.len(); e++) {
-                         rules.forbid_way_tool_rect(pl, j.tools[i], j.waytyp, j.list[e][0], j.list[e][1], ttext(j.error[i]) )
+                         rules.forbid_way_tool_rect(pl, j.tools[i], j.waytyp, "", j.list[e][0], j.list[e][1], ttext(j.error[i]) )
                          }
                      }
                }
             else {
                 for (local i=0; i < j.tools.len(); i++) {
                      for (local e=0; e < j.list.len(); e++) {
-                         rules.forbid_way_tool_cube(pl, j.tools[i], j.waytyp, j.list[e][0], j.list[e][1], ttext(j.error[i]) )
+                         rules.forbid_way_tool_cube(pl, j.tools[i], j.waytyp, "", j.list[e][0], j.list[e][1], ttext(j.error[i]) )
                          }
                      }
                }
