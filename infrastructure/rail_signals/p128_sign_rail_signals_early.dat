@@ -1,0 +1,119 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS 2.2
+#--------------------------------------
+#
+# author: Fabio Gonella (fagonella)
+# date:   01-Aug-06
+# update: 11-Sep-06
+# update: 12-Jan-07
+# update: 11-Jun-07
+#
+# A special thank to Timothy, VS, Claire and an unknown japanese friend!
+#
+#  SIGNAL STYLES:
+#  --------------
+#  early     1810 - 1860
+#
+
+--------------------------------------------------------------------------------
+
+# normal signal right side
+
+obj=roadsign
+name=Early_Signals_right
+copyright=Fabio Gonella
+
+waytype=track
+is_signal=1
+cost=500
+maintenance=500
+
+intro_year = 1810
+retire_year = 1860
+
+Image[n,e,s,w][0-1]=p128_sign_rail_signals_early.0.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_early.0.12
+Cursor=p128_sign_rail_signals_early.0.13
+
+--------------------------------------------------------------------------------
+
+# presignal right side
+
+obj=roadsign
+copyright=Fabio Gonella
+Name=Early_preSignals_right
+
+waytype=track
+is_presignal=1
+cost=1000
+maintenance=1000
+
+intro_year = 1810
+retire_year = 1860
+
+Image[n,e,s,w][0-2]=p128_sign_rail_signals_early.1.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_early.1.12
+Cursor=p128_sign_rail_signals_early.1.13
+
+--------------------------------------------------------------------------------
+
+# priority signal right side
+
+obj=roadsign
+Name=Early_prioritySignals
+copyright=Fabio Gonella and Gauthier
+
+waytype=track
+is_prioritysignal=1
+cost=1000
+maintenance=1000
+
+intro_year = 1810
+retire_year = 1860
+
+Image[n,e,s,w][0-2]=p128_sign_rail_signals_early.2.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_early.2.12
+Cursor=p128_sign_rail_signals_early.2.13
+
+--------------------------------------------------------------------------------
+
+# long block signal right side
+
+obj=roadsign
+Name=Early_LongSignals_right
+copyright=Fabio Gonella
+
+waytype=track
+is_longblocksignal=1
+cost=2000
+maintenance=2000
+
+intro_year = 1810
+retire_year = 1860
+
+Image[n,e,s,w][0-1]=p128_sign_rail_signals_early.3.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_early.3.12
+Cursor=p128_sign_rail_signals_early.3.13
+
+--------------------------------------------------------------------------------
+
+# choose signal right side
+
+obj=roadsign
+Name=Early_ChooseSignals_right
+copyright=Fabio Gonella
+
+waytype=track
+is_signal=1
+free_route=1
+cost=4000
+maintenance=4000
+
+intro_year = 1810
+retire_year = 1860
+
+Image[n,e,s,w][0-2]=p128_sign_rail_signals_early.4.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_early.4.12
+Cursor=p128_sign_rail_signals_early.4.13
+
+--------------------------------------------------------------------------------
