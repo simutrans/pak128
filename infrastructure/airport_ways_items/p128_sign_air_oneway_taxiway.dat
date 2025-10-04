@@ -6,19 +6,21 @@
 #       alternative one-way sign, more realistic than the old one
 #
 
------------------------------
 
-# airport one-way sign
+--------------------------------------------------------------------------------
+
 obj=roadsign
 name=air_one-way
 copyright=DirrrtyDirk
+
+waytype=air
 single_way=1
 cost=500
-waytype=air
+maintenance=500
+
 intro_year=1965
-Image[0]=one-way.0.0
-Image[1]=one-way.0.1
-Image[2]=one-way.0.2
-Image[3]=one-way.0.3
-icon=> one-way.0.4
-cursor=one-way.0.5
+
+Image[n,e,s,w][0]=p128_sign_air_oneway_taxiway.0.<$0>
+
+icon=> p128_sign_air_oneway_taxiway.0.4
+cursor=p128_sign_air_oneway_taxiway.0.5
