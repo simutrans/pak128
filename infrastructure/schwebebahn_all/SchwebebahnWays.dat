@@ -10,6 +10,7 @@ copyright=yoshi
 
 waytype=monorail_track
 system_type=1
+clip_below=0
 
 cost=210000
 maintenance=1500
@@ -184,6 +185,8 @@ intro_year=1901
 intro_month=3
 waytype=monorail_track
 max_lenght=6
+clip_below=0
+
 icon=> schwebebahn_p_bridge.0.2
 cursor=schwebebahn_p_bridge.0.0
 
