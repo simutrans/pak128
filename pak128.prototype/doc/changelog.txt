@@ -9,6 +9,8 @@ Date: 0000-00-00
   Changed:
     - Lady Of The Forum building is now a monument
     - Updated New York scenario
+  Fixed:
+    - Fixed swapped increase/decrease water height tools
 ---------------------------------------------------------------------------------------------------
 Version: 2.10
 Date: 2025-01-11
