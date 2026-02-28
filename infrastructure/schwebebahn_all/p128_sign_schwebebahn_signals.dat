@@ -1,0 +1,102 @@
+# Schwebebahn signals - pak128
+
+------------------------------------------------------
+
+obj=roadsign
+copyright=yoshi
+name=Signal_Monorail
+waytype=monorail_track
+cost=1000
+maintenance=1000
+is_signal=1
+
+Image[n,e,s,w][0-1]=p128_sign_schwebebahn_signals.0.<4*$1 + $0>
+Icon=> p128_sign_schwebebahn_signals.0.12
+Cursor=p128_sign_schwebebahn_signals.0.13
+
+------------------------------------------------------
+
+obj=roadsign
+copyright=yoshi&gauthier
+Name=preSignal_Monorail
+waytype=monorail_track
+cost=1500
+maintenance=1500
+is_presignal=1
+
+Image[n,e,s,w][0-1]=p128_sign_schwebebahn_signals.1.<4*$1 + $0>
+Icon=> p128_sign_schwebebahn_signals.1.12
+Cursor=p128_sign_schwebebahn_signals.1.13
+
+------------------------------------------------------
+
+obj=roadsign
+copyright=yoshi&gauthier
+Name=choose_signal_monorail
+waytype=monorail_track
+cost=4000
+maintenance=4000
+is_signal=1
+free_route=1
+
+Image[n,e,s,w][0-1]=p128_sign_schwebebahn_signals.2.<4*$1 + $0>
+Icon=> p128_sign_schwebebahn_signals.2.12
+Cursor=p128_sign_schwebebahn_signals.2.13
+
+------------------------------------------------------
+
+obj=roadsign
+copyright=yoshi&gauthier
+Name=long_signal_monorail
+waytype=monorail_track
+cost=4000
+maintenance=4000
+is_longblocksignal=1
+
+Image[n,e,s,w][0-1]=p128_sign_schwebebahn_signals.3.<4*$1 + $0>
+Icon=> p128_sign_schwebebahn_signals.3.12
+Cursor=p128_sign_schwebebahn_signals.3.13
+
+------------------------------------------------------
+
+obj=roadsign
+copyright=yoshi&gauthier
+Name=end_of_choose_monorail
+waytype=monorail_track
+cost=4000
+maintenance=4000
+end_of_choose=1
+
+Image[n,e,s,w][0]=p128_sign_schwebebahn_signals.4.<$0>
+Icon=> p128_sign_schwebebahn_signals.4.12
+Cursor=p128_sign_schwebebahn_signals.4.13
+
+------------------------------------------------------
+
+obj=roadsign
+copyright=yoshi&gauthier
+Name=one_way_signal_monorail
+waytype=monorail_track
+cost=4000
+maintenance=4000
+single_way=1
+
+Image[n,e,s,w][0]=p128_sign_schwebebahn_signals.5.<$0>
+Icon=> p128_sign_schwebebahn_signals.5.12
+Cursor=p128_sign_schwebebahn_signals.5.13
+
+------------------------------------------------------
+
+obj=roadsign
+copyright=yoshi&gauthier
+Name=prioritySignal_Monorail
+waytype=monorail_track
+cost=1500
+maintenance=1500
+is_prioritysignal=1
+
+Image[n,e,s,w][0-2]=p128_sign_schwebebahn_signals.6.<4*$1 + $0>
+Icon=> p128_sign_schwebebahn_signals.6.12
+Cursor=p128_sign_schwebebahn_signals.6.13
+
+------------------------------------------------------

@@ -6,6 +6,8 @@ Date: 0000-00-00
     - Added Italian early steam engines (by SusieN)
     - Added Italian battery-electric engines (by SusieN)
     - Added Italian waggons (by SusieN)
+  Balancing:
+    - Roadsigns and signals now cost monthly maintenance (1% of build cost at bits_per_month=18)
   Changed:
     - Lady Of The Forum building is now a monument
     - Updated New York scenario
