@@ -12,9 +12,9 @@ jobs:
       with:
         fetch-depth: 0
 
-#    - name: Lint Changelog
-#      run: |
-#        ./check_changelog.sh pak128.prototype/doc/changelog.txt
+   - name: Lint Changelog
+     run: |
+       ./check_changelog.sh pak128.prototype/doc/changelog.txt
 
     - name: install_dependencies
       run: |
