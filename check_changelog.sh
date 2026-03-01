@@ -1,5 +1,5 @@
 #!/bin/bash
-# can we have a comment what this files does? It seems, it just breaks the built withotu increasing the line length!
+# can we have a comment what this files does? It seems, it just breaks the built ...
 
 
 set -e
@@ -24,12 +24,12 @@ while IFS= read line; do
 	elif [[ ($state == 5 || $state == 6)                && -n "$(echo "$line" | grep -E -e '^      [^ ]')"                                              ]]; then
 		state=6
 	else
-		echo "Lint check ok"
+		echo "Lint check exit status 1"
 		exit 1
 	fi
 done < "$1"
 
-echo "State $(state)"
+echo "exit status $(state)"
 
 if [[ $state != 6 && $state != 5 ]]; then
 	exit 1
