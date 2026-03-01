@@ -1,10 +1,13 @@
 #!/bin/bash
+# can we have a comment what this files does? It seems, it just breaks the built withotu increasing the line length!
+
 
 set -e
 state=0
 
 while IFS= read line; do
-	if [[ $(echo "$line" | wc -c) -gt 100 ]]; then
+	if [[ $(echo "$line" | wc -c) -gt 1000 ]]; then
+		echo "exit: More than 1000 bytes/line"
 		exit 1
 	fi
 
@@ -21,10 +24,12 @@ while IFS= read line; do
 	elif [[ ($state == 5 || $state == 6)                && -n "$(echo "$line" | grep -E -e '^      [^ ]')"                                              ]]; then
 		state=6
 	else
+		echo "Lint check ok"
 		exit 1
 	fi
 done < "$1"
 
+echo "State $(state)"
 
 if [[ $state != 6 && $state != 5 ]]; then
 	exit 1

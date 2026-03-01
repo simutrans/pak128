@@ -6,9 +6,13 @@ Date: 0000-00-00
     - Added Italian early steam engines (by SusieN)
     - Added Italian battery-electric engines (by SusieN)
     - Added Italian waggons (by SusieN)
+    - Added new construction sites
+    - Added maintenance for signs and signals
   Changed:
     - Lady Of The Forum building is now a monument
     - Updated New York scenario
+  Fixed:
+    - elevated road 40 and 50 kmh small pillar offset
 ---------------------------------------------------------------------------------------------------
 Version: 2.10
 Date: 2025-01-11
