@@ -10,6 +10,7 @@ waytype=monorail_track
 Dims=1,1,2
 #automatic alignment of station extension buildings (must be either defined with dim=x,y,layout (layout=1,2 or 4), x>=y and following order N E S W)
 NoInfo=1
+level=4
 enables_pax=1
 intro_year=1901
 intro_month=3
