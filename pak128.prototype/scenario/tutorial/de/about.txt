@@ -1,1 +1,1 @@
-<p><em>Scenario:</em> {short_description}<br/><em>Version:</em> {version}<br/><em>Author:</em> {author}<br/><em>Übersetzung:</em> {translation}<br/></p>
+<p><em>Scenario:</em> {short_description}<br/><em>Version:</em> {version}<br/><em>Author:</em> {author}<br/><em>Ãœbersetzung:</em> {translation}<br/></p>

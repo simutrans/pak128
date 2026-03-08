@@ -1,1 +1,1 @@
-<p><st>El Escenario no es compatible con tu pakset o versión de Simutrans:</st></p><p>Versión de Simutrans: v{current_stv} -> {stv}.<br>Nombre del Pakset: {current_pak} -> {pak}</em>.</p>
+<p><st>El Escenario no es compatible con tu pakset o versiÃ³n de Simutrans:</st></p><p>VersiÃ³n de Simutrans: v{current_stv} -> {stv}.<br>Nombre del Pakset: {current_pak} -> {pak}</em>.</p>

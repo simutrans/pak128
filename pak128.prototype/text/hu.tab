@@ -9,7 +9,7 @@
 #                              Language: hu Magyar                             #
 #                                Encoding: UTF-8                               #
 #                                 Font: cyr.bdf                                #
-#                            Date Created: 4.01 2025                           #
+#                            Date Created: 8.03 2026                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -998,6 +998,8 @@ Hong Kongi Textil Üzem. A\nHong Kongiak visszavágnak.\n\n
 #________________________________building - mon_________________________________
 DenkFlor
 Flor WF Ultd.' Wautersnek a\nkedves mérnöknek ki oly sok\njárművet tervezett.\n\n
+denkforum
+Kegyelmes Fórum Hölgye\n\nOlvassák el minden üzenetét,\nhogy mindig hasznos válaszokat kapsz,\nés hogy soha ne haragítsd fel a "Benvolent Dictator".
 DenkGeorg
 Georg emlékműve.\n\n
 DenkHajo
@@ -1012,6 +1014,8 @@ DenkSeth
 Ez itt Seth C. Triggs\nremekműve.\n\n
 DenkTomas
 Tomas Kubesnak a kedves\nsegítségért.\n\n
+denktrack
+A vonal lovagja\n\nAz Utak ősi házából\nő az összes vonal védőszentje, nagy és kicsi,\nföldi, légi és tengeri.\nHogy minden vonalod termékeny legyen és szaporodjon.
 DenkTrikky
 Ez Trikky' Rick McGreal\nemlékműve.\n\n
 DenkVM
@@ -1072,10 +1076,6 @@ RES_00_29
 Tömbház.\n\n
 RES_00_52
 Imaház.\n\n
-RES_00_53
-Sir Hans Groper szobra.\n\n
-RES_00_60
-Szállítmányozási Központ.\n\n
 RES_01_01
 Itt gyülekeznek a Simutrans\nlegszerencsétlenebb\nfazonjai.\n\n
 RES_01_02

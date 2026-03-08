@@ -9,7 +9,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 4.01 2025                           #
+#                            Date Created: 8.03 2026                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -125,7 +125,7 @@ This parking lot is a\nhide-out for gerontocracy\ngang. This highly\nuncommon sy
 COM_00_22
 Office Building\n\n
 COM_00_60
-High-Rise Building\n\n
+High-rise of the Greenplace movement\n\nThese days, all sorts of ecological societies are doing very well. This skyscraper is proof of how well they are doing; it belongs to the much-praised and much-maligned Greenplace movement. And because it is an ecological movement, they have placed a specimen of one of the endangered plant species in every free space in the building.
 COM_01_01
 fish shop\n\n
 COM_01_05
@@ -157,7 +157,7 @@ High-Rise Building\n\n
 COM_01_52
 If only the designers of\nthis building were not\nhealth nuts... They did not\ninstall elevators, so you\nhave to climb stairs to\nevery floor. The doors have\na ten pound spring in the\nhinge so you can get\nresistance training. But\nworst of all is that the\ncafeteria sells only protein\nshakes and tofu burgers.\n
 COM_01_60
-High-Rise Building\n\n
+JOKER's headquarters. \n\nA few years ago, they were based in a small town just outside the city, but now that they've made a splash on the stock market, they've built this green skyscraper. Probably so the other traders in town could envy them...
 COM_03_28
 The offices in this house\nwere so huge and demand\nso low that managers often\nfound themselves lost in\nempty spaces. So an owner\ndecided to shrink the\nhouse one wall inwards.\nThis idea attracted so\nmany potential occupants\nthat owner decided to build\nanother house of this kind.\nSo watch out if new house\nof this kind appears.\n
 COM_05_01
@@ -365,7 +365,7 @@ This shiny glass building is\none of the first buildings\nmade entirely of glass
 COM_11_01
 The LFS is the Local Fish\nStore that serves the\naquarium lovers of\nSimutrans. Not only do they\nkeep their tropical fish and\nwater plants in good shape\nand stock the best\nequipment available, they\nalso provide fish tank\nmaintenance courses on\nweekends. The only thing\nthey don't do is sell cats.\n
 COM_11_15
-Ice Cream Parlour\nwhich sells world-wide temptation in ice: Including frozen suchi on and deep frozen sausages a stick ...
+Ice Cream Parlour\nwhich sells world-wide temptation in ice: Including frozen sushi on and deep frozen sausages on a stick ...
 COM_11_29
 Home of Jung-Wung web\nhosting company - if you\nneed some cheap web\nhosting ask here.\nApparently some Asian\nstand owners upgraded\nfrom selling cheap clothes\nto a higher level, like\nselling cheap web services.\nLet's hope that their\nservices won't be as bad\nas the clothes.\n
 COM_11_33
@@ -445,7 +445,7 @@ The old school\n\n Students are assured of\n a good education.\n Mathematics, hi
 HOUSE_RUINS_0
 House Ruins\n\nThis was once the mayor's\noffice of some town that\nno longer exists. Historians\nlike coming here to\nremember the past, and\ntourists come here to see\nthe plays performed\noutside under the tree.\n
 JUSTICE
-National Courthouse\n\nThis is a courthouse where only the biggest of cases get tried. Lawyers in expensive taylor made suits can be seen constantly entering and exiting the building.
+National Courthouse\n\nThis is a courthouse where only the biggest of cases get tried. Lawyers in expensive tailor made suits can be seen constantly entering and exiting the building.
 library_holy_genevieve
 Saint Geneviève\n\nThis is the biggest\nlibrary in the region.\nLots of students and\nerudites visit this\nbuilding every day.\n
 Lighthouse_0
@@ -475,27 +475,27 @@ Pagoda\n\nNo one knows for sure how this building ended up here. It is common be
 PARK_0
 Larger park with pond\n\n
 Percival_Maya_Temple
-Percival Maya Temple\n Recent excavations have uncovered\nan ancient simutransian\ncivilization!
+Percival Maya Temple\n\nRecent excavations have uncovered an ancient simutransian civilization! So it's claimed, but an autocratic mayor wanted to boost tourism, and erect a monument to himself during his lifetime. He didn't live to see its completion, though; his successors have to get the finances back on track, and the courts will be busy with that for some time to come.
 radiant_house
-Radiant house\n\nLe Corbusier building\nThe residents\nare who manage the building\nthemselves.
+Unity of Habitation in Marseille \n\nAn experimental building for future living, designed by the architect Le Corbusier in 1945, it attempts to combine the aspects of village living in a high-rise. In addition to 330 apartments for 1,700 people, the building includes a shopping street, a hotel with a restaurant, at rooftop a kindergarten and sports facilities. But Le Corbusier's long-term plan clashes with the wishes of residents and local authorities.
 RADIO_TOWER_0
 Radio Station\n\nThis is the home of the local Chit-Chat FM radio broadcaster. Quite a few people come here to try and get a peek at the star guests they have on air every day between 13:00 and 14:30.
 rmax_clock_tower
 Clock Tower\n\nThis clock tower has a\npeculiar design. Some think\nit's inspired by the Tower\nof Fabel's ruins but it's\nindeed a recent building\nand its clock is one of the\nmost precise in the whole\nSimuworld\n
 rmax_courthouse
-Court\n\n
+Court\n\nJustice is administered here. The city is proud of this magnificent building. Unfortunately, the costs have risen several times over the original plan. The courthouse was built by the mayor's brother-in-law. Suspicions are circulating that the elaborate construction was mutually beneficial, and so the mayor himself is now on trial here.
 rmax_icarus
-Rocket Launch Facility\n\nThis place is where Icarus\ninc., the first company to\nmaster the technique of\nassembling reliable rockets\nthat can carry satellites to\norbit, launch their carriers\nfrom. Fortunately they do\nnot follow the fate of their\nlegendary namesake.\nBesides its economical\nimportance this place also\nattracts crowds of tourists who\nwant to see the launches.\n
+Rocket Launch Facility\n\nThis place is where Icarus\nInc., the first company to\nmaster the technique of\nassembling reliable rockets\nthat can carry satellites to\norbit, launch their carriers\nfrom. Fortunately they do\nnot share the fate of their\nlegendary namesake.\nBesides its economical\nimportance this place also\nattracts crowds of tourists who\nwant to see the launches.\n
 rmax_mosque
-As-Salem Mosque\n\nA mosque for Muslims to prey in. One can regularly hear the Muezzin singing from the tall minarets signalling that it is time for Muslims to come and prey. As-Salem is one of the ninety-nine names of Allah and means "The Peace".
+As-Salem Mosque\n\nA mosque for Muslims to pray in. One can regularly hear the Muezzin singing from the tall minarets signalling that it is time for Muslims to come and pray. As-Salem is one of the ninety-nine names of Allah and means "The Peace".
 ROCK_0
-Patrick's Rock\n\nA long inactive volcano with odd geographic location. Many geologists from throughout the region come to sample rocks and discuss theories as to its formation. The name Patrick's Rock is a type of geographic formation where an inactive volcano causes so much discussion that transport companies are forbidden from terraforming it flat for more efficient transport networks.
+Patrick's Rock\n\nA long inactive volcano with an odd geographic location. Many geologists from throughout the region come to sample rocks and discuss theories as to its formation. The name Patrick's Rock is a type of geographic formation where an inactive volcano causes so much discussion that transport companies are forbidden from terraforming it flat for more efficient transport networks.
 RUIN_0
-Castle\n\nThis used to be a gothic\ncastle, but its owner\nrealized that a castle is not\na good place for living in\nthis 21st century. So he\nconverted it to a medieval\namusement park. Since\nthen the gate is never\nclosed. Crowds of tourists\ncome to watch old time\narts, sword fights, castle\nsieges, join parades, ride\nhorses, drink medieval beer or\nvisit exhibitions.\n
+Castle glow rock\n\nThis used to be a gothic castle, but its owner realized that a castle is not a good place for living in the 21st century. So he converted it to a medieval amusement park. Since then the gate is never closed. Crowds of tourists come to watch old time arts, sword fights, castle sieges, join parades, ride horses, drink medieval beer or visit exhibitions. 
 RUIN_1
-Ruins\n\nThese are the ruins of very\nfamous castle. Many\nchapters of history were\nwritten here, so it is a real\nmagnet for tourists from all\nover the world. Everyone is\nkeen to see it. And after\nall, ruins are quite romantic\ntoo, aren't they?\n
+Ruin Oakwood\n\nThis ruin is a very famous castle. Many chapters of history were written here. According to the records in old chronicles, Count Oakwood, the lord of the castle,  was able to win all of his battles - except one. Therefore, it's a true tourist magnet from all over the world. Everyone wants to see the place of his last battle. And after all, ruins are quite romantic too, aren't they?  
 Russian_Cathedral
-Russian Orthodox Church\n\nA church frequented by followers of the Orthodox Catholic Church from the surrounding area. In addition to regular worshipers tourists also come to stare at the unusual and out of place architecture of the building.
+Russian Orthodox Church\n\nA church frequented by followers of the Orthodox Catholic Church from the surrounding area. In addition to regular worshippers, tourists also come to stare at the unusual and out of place architecture of the building.
 Sacred_heart_church
 Sacred Heart Church\n
 Secession_Chapel
@@ -505,15 +505,15 @@ Oasis\n\nAn oasis is one of the few\nlive spots in the desert.\nEvery animal or 
 SMALL_MANOR
 Manor\n\nThis small manor was once the\ngreat house of a famous\nlord. But since the lord has\ndied, the fame slowly wore\noff and the house was\nmostly forgotten, only to\nbe rediscovered in the\nearly of twentieth century,\nwhen large collections of\nart started to attract many\nvisitors. To preserve its\nbeauty, the manor is now public\nproperty, accessible to anyone\nfor a modest fee. It has become\nwell known and is a frequent\ndestination of many school\noutings or weekend trips.\n
 st_benedict_church
-St. Benedict Church\n\nThis church is one of the\nmost beautiful churches in\nSimuworld. A lot of tourists\ncome and visit it, less\ncome to prey. Many\nunvaluable paintings are\nkept inside and nobody\nwould miss them\n
+St. Benedict Church\n\nThis church is one of the most beautiful churches in Simuworld. A lot of tourists come and visit it, less come to pray. Many unvaluable paintings are kept inside and nobody would miss them 
 ST_PETER
 St. Peter's Church\n\nAn almost identical copy of the late-Roman church of St.Peter's. The original was built around 1220 with a fine structured chorus gallery containing frescos from the middle of the 13th century. Its star attraction is the well-preserved mummy of "The Holy Reeve", a mummified body believed to be that of Wilhelm of Holbach the royal reeve who died more than 300 years ago. Apparently the mummy is located in an alcove in the western wall just like in the original.
 STADIUM_RUGBY
-Rugby Stadium\n\nA small humble stadium where the city rugby team play their matches. As the team plays around the clock the flow of visitors and injured to transport never stops.
+Rugby Stadium\n\nA small humble stadium where the city rugby team plays their matches. As the team plays around the clock the flow of visitors and injured to transport never stops.
 tennis_court
 Tennis Club\n\nA highly prestigious tennis club known throughout the region. If it is not hosting a major tournament it is running classes for youngsters. Members must arrive very early if they want to play as there are only a few courts available.
 TRIUMPH
-Triumphal Arch\n\nThis triumphal arch was built\nby emperor Napik to\ncelebrate one of the many\nvictories he has won in\nfamous battles in the past.\nNow there are no wars\nanymore, though - no more\nvictorious armies marching\nthrough. They were\nreplaced by tourists who\ncircle around in awe of the\nbeauty of this architectonical\nmarvel designed by the famous\narchitect Georg, known as MHz in\nhis later days.\n
+Triumphal Arch\n\nThis triumphal arch was built by emperor Napik to celebrate one of the many victories he has won in famous battles in the past. Now there are no wars anymore, though - no more victorious armies marching through. They were replaced by tourists who circle around in awe of the beauty of this architectonical marvel designed by the famous architect Georg, known as MHz in his later days. 
 TV_TOWER_0
 Television Tower\n\nThis tower is owned by a local\ntelevision station.  Not only\ndoes it hold the broadcast\ntower, it also gives camera\nmen a great place to get\nviews of everything going\non around it.\n
 TV_TOWER_1
@@ -627,7 +627,7 @@ Radar
 ramp_tile_high
 Access ramp
 special_ALSF-2_DT_stop
-Taxi way lights
+Approach light
 special_PAPI_stop
 Approach lights
 special_wingbar-r_stop
@@ -934,6 +934,8 @@ Hong Kong textile\nproducers strike back! They\ntook over one of our\nfactories 
 #________________________________building - mon_________________________________
 DenkFlor
 Flor's Monument\n\nThis monument is dedicated\nto Flor 'WF Ultd.' Wauters\nthe famous engineer who\ncreated so many great road\nand rail vehicles. He is also\nwell known for designing\nmany well working\nfactories.\n
+denkforum
+Our Lady of the Forum:\n\nMay all your posts be read, may all replies offer helpful advice and be of use to you and may you never merit an "RTFM".
 DenkGeorg
 Thanks MHz!\n\nThis monument is dedicated\nto the famous architect\nGeorg, also know as MHz,\nwho designed so many\nbuildings all around the\nworld. He also designed\nsome exceptional vehicles.\n
 DenkHajo
@@ -948,6 +950,8 @@ DenkSeth
 This place is dedicated to\nSeth C. Triggs, the famous\narchitect who designed so\nmany beautiful city\nbuildings. He is also well\nknown for doing many\nstudies on how to improve\ntraffic systems.\n
 DenkTomas
 This monument is\ndedicated to Tomas Kubes\nwho helped to improve\nSimutrans in many, many\naspects with advice and\nhard work.\n\n
+denktrack
+Knight of the Line.\n\nFrom the ancient house of the Ways, he is the patron saint of all the lines big and small; rail, road, air, and sea. May all your lines be fruitful and multiply.
 DenkTrikky
 Trikky's Monument\n\nThis monument is dedicated\nto 'Trikky' Rick McGreal the\nfamous architect who\ndesigned so many\nimpressive buildings.\n\n
 DenkVM
@@ -1008,10 +1012,6 @@ RES_00_29
 Another solution for how to\npack lot of people under\none roof - the house is an\nolder one, but in good\ncondition. Sometimes you\ncan hear crying babies or\nloud music, but that is\nnormal for such a place.\n
 RES_00_52
 Our Lady of the Track.\nThousands of Simutransers\ncan be heard daily in\nprayer... "May my tracks lie\nstraight and my lines be\ntrue. May all of my\nswitches work and never\njam, and may all of my\ntrains find a route."\n
-RES_00_53
-This statue is in honor of\nSir Hans Groper. He was the\nsubject of hundreds of\nsexual harassment cases\nand helped women's rights\nactivists to set precedents to\nget several bills through\nthe legislature.\n
-RES_00_60
-Our Lady of the Line. Twin\nsister to Our Lady of the\nTrack, she is the patron\nsaint of all the lines big\nand small; rail, road, and\nsea. May all your lines be\nfruitful and multiply.\n
 RES_01_01
 This sad camp is home to\nthe less fortunate members\nof Simutrans society.\n\n
 RES_01_02
@@ -1087,7 +1087,7 @@ This building was almost\ndestroyed by fire when one\nof the residents took a\nc
 RES_01_50
 Big and cheap hotel.\n\n
 RES_01_60
-Our Lady of the Forum: May\nall your posts be read, may\nall replies offer helpful\nadvice and be of use to\nyou and may you never\nmerit an "RTFM".\n\n
+Our Lady of the Forum: \n\nMay all your posts be read, \nmay all replies offer helpful \nadvice and be of use to \nyou and may you never merit an "RTFM".\n
 RES_02_03
 This cabin was located\ndeep in the forest until the\nowner had it moved to the\ncity, along with the two\ntrees you see here. When\nasked why he did not\nsimply buy a new house he\nreplied, "I just wouldn't\nknow what to do with them\nnew-fangled gadgets like\nindoor plumbing and\nelectricity. Besides, if god\nhad wanted man to do the job\nindoors he wouldn't have\ninvented the outhouse."\n
 RES_02_04
@@ -1313,7 +1313,7 @@ The gentleman that lives\nhere grows his own\nvegetables. He also is the\ncooles
 RES_07_13
 This is the home of\nSimutrans' most wanted\ncriminal. He knows he will\nnot be caught because he\nis always careful not to be\nidentified.  But we know\nwho he is.\n
 RES_07_14
-Building two houses\ntogether is cheaper than\nbuilding them apart. But\nyou realize, that such\nsavings will not pay off if\nyou find that your\nneighbour is an amateur\ntrumpet player...\n
+Building two houses together is cheaper than building them apart. But you realize, that such savings will not pay off if you find out that your neighbour is an amateur trumpet player... 
 RES_07_15
 This is the home of a\nfamous genetic scientist,\nher husband, and their four\ncloned dogs.\n\n
 RES_07_16
@@ -1668,6 +1668,8 @@ cornfield
 Corn Field
 cotton_farm_w_fields
 Cotton plantation
+cotton_field
+Cotton field
 cow_farm
 Cattle yard
 dairy
@@ -1784,8 +1786,6 @@ Wind power plant
 #_____________________________________field_____________________________________
 corn_field
 Corn field
-cotton_field
-Cotton field
 forestplantation_field
 Forest
 grain_field
@@ -2562,6 +2562,12 @@ Mack_Truck_Post_Trailer
 PMNV Post Trailer
 Mail_Truck_2
 MHz Windstar (mail)
+Man_Lions_City
+MAN Lion's City
+Man_Lions_City_G_back
+MAN Lion?s City G (back)
+Man_Lions_City_G_front
+MAN Lion?s City G (front)
 MHz_Grain_Trailer_0
 MHz Tractor Grain Trailer
 MHz_Long_Wood_Trailer
@@ -2655,7 +2661,7 @@ PMNV-Mack Goods Trailer
 PMNV_Mack_Grain_Trailer_0
 PMNV Mack Grain Trailer
 PMNV_Mack_Grain_Trailer_O
-PMNV-Mack Grain Trailer
+PMNV-Mack Grain Trailer "O"
 PMNV_Mack_Log_Trailer_L
 PMNV Mack Log Trailer "L"
 PMNV_Mack_Log_Trailer_M
@@ -3025,7 +3031,7 @@ EMD-FT rear cab
 Evil_DF-11
 Evil DF-11
 Evil_P-100_(carriage)
-RVg P-100 (carriage)
+Evil P-100 (carriage)
 Evil_P-100_(front_engine)
 RVg P-100
 Evil_P-100_(mail)
@@ -3678,6 +3684,10 @@ VT105_Car_Addon
 VT-105 Car
 VT105_Tail_Addon
 VT-105 Tail Car
+Western_Observation
+Western Observation
+Western_Passenger_Car
+Western Passenger Car
 #_____________________________vehicle - tram_track______________________________
 #_____________________________vehicle - tram_track______________________________
 DueWAG_GT6_motorwaggon
@@ -3823,7 +3833,7 @@ MHz-C3P Post Barge
 MHz-CC47_Container_Barge
 Mhz-CC47 Container Barge (Piece goods)
 MHz-MT7_Milk_Barge
-Haru MT7 Milk Barge
+MHz MT7 Milk Barge
 MHz-OT5_Oil_Barge
 MHz OT5 Oil Barge
 MHz-P11C_Bulk_Boat

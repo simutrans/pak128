@@ -9,7 +9,7 @@
 #                            Language: sk Slovencina                           #
 #                                Encoding: UTF-8                               #
 #                             Font: prop-latin2.fnt                            #
-#                            Date Created: 8.04 2024                           #
+#                            Date Created: 8.03 2026                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -454,6 +454,8 @@ cornfield
 Kukuričné pole
 cotton_farm_w_fields
 Bavlníková plantáž
+cotton_field
+Bavlníkové pole
 cow_farm
 Kravín
 dairy
@@ -560,8 +562,6 @@ Veterná elektráreň
 #_____________________________________field_____________________________________
 corn_field
 Kukuričné pole
-cotton_field
-Bavlníkové pole
 forestplantation_field
 Les
 grain_field

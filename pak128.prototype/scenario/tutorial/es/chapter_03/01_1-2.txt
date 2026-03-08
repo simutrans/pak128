@@ -1,1 +1,1 @@
-<p><br>Para la producciÛn de harina de {good2}, necesitar·s transportar <em>{good1}</em> desde {f1} hasta {f2}.<br><br>{tx} Usa la <em>'{tool1}'</em> en {f2} para mostrar los detalles</p>
+<p><br>Para la producci√≥n de harina de {good2}, necesitar√°s transportar <em>{good1}</em> desde {f1} hasta {f2}.<br><br>{tx} Usa la <em>'{tool1}'</em> en {f2} para mostrar los detalles</p>

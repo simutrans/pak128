@@ -9,7 +9,7 @@
 #                             Language: sv Svenska                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 4.01 2025                           #
+#                            Date Created: 8.03 2026                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -418,6 +418,8 @@ cotton_farm_w_fields
 Bomullsodling
 factory_cotton_farm_w_fields_details
 <title>Bomullsodling</title>\n\nHär odlas bomull för textilindustrin.
+cotton_field
+Bomullsfält
 cow_farm
 Boskapsgård
 dairy
@@ -514,10 +516,6 @@ waste_incinerator_kraftwerk
 Sopförbränningsverk
 wind_kraftwerk
 Vindkraftverk
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
-cotton_field
-Bomullsfält
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos

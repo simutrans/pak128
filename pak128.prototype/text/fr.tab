@@ -9,7 +9,7 @@
 #                             Language: fr Francais                            #
 #                                Encoding: UTF-8                               #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 4.01 2025                           #
+#                            Date Created: 8.03 2026                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -305,7 +305,7 @@ Parc avec étang\n\nCe sympathique et joli parc\nest l'endroit où les gens\nfat
 Percival_Maya_Temple
 Temple Maya Percival.\n\n\nLes fouilles ont permis de découvrir\n une civilisation simutransienne \ntrès ancienne.
 radiant_house
-Maison Radieuse\n\nBâtiment du Corbusier\nC'est la coopérative de propriétaires qui gère la résidence.
+Unité d’habitation\n\nBâtiment expérimental conçu par l'architecte Le Corbusier en 1945, il tente de combiner les aspects de la vie de village dans une tour. Outre 330 appartements pour 1 700 personnes, le bâtiment comprend une rue commerçante, un hôtel-restaurant, et sur la terrasse d’une école maternelle, et d’équipements sportifs. Mais le plan à long terme de Le Corbusier se heurte au souhait des habitants et des autorités locales de faire. 
 RADIO_TOWER_0
 Radio Chit-Chat FM\n\nC'est le studio de la radio\nlocale "Chit-Chat FM". Un\ncertain nombre de\npersonnes s'y rendent, car\nla radio a promis de laisser\ndes auditeurs passer à l'antenne,\nchaque jour, de 13h00 à\n14h00.\n
 rmax_clock_tower
@@ -568,6 +568,8 @@ Atelier de (contre)façon appartenant à la HKT (Hong-Kong Textile)\nJe vous lai
 #________________________________building - mon_________________________________
 DenkFlor
 Monument Flor\n\nCe monument est dédié à\nFlor 'WFUltd.' Wauters le\ncélèbre ingénieur qui créa\ntant de véhicules\nferroviaires et routiers. Il\nest aussi connu pour avoir\nréalisé de belles usines.\n
+denkforum
+Dame Miséricordieuse du Forum\n\nQue tous vos messages soient lus,\nque vous obtenez toujours des réponses utiles,\net vous ne mettez jamais en colère notre "Benvolent Dictator".
 DenkGeorg
 Monument MHz\n\nMerci MHz !\n\Ce monument est dédié\nau célèbre architecte\nGeorg, alias MHz,\nqui a conçu tant de\nbâtiments à travers\nle monde. Il a également conçu\nquelques véhicules exceptionnels.\n
 DenkHajo
@@ -582,6 +584,8 @@ DenkSeth
 Monument Triggs\n\nCe lieu est dédié à Seth C.\nTriggs le célèbre\narchitecte qui dessina tant\nde magnifiques bâtiments\nurbains.\n\n
 DenkTomas
 Monument Tomas Kubes\n\nCe monument est dédié à\nTomasKubes qui aida\nà perfectionner Simutrans\ndans tant et tant de\ndomaines grâce à son\ntravail acharné.\n\n
+denktrack
+Chevalier de la Ligne\n\nDe l'ancienne maison des Voies ,\nil est le saint patron de toutes les routes, grandes et petites,\nterrestres, nautiques et aériens.\nQue toutes vos lignées soient fertiles et se multiplient.
 DenkTrikky
 Monument Trikky\n\nCe monument est dédié à\n'Trikky' Rick McGreal le\ncélèbre architecte\nqui dessina tant\nde bâtiments imposants.\n\n
 DenkVM
@@ -768,6 +772,8 @@ cornfield
 Champ de maïs
 cotton_farm_w_fields
 Plantation de coton
+cotton_field
+Champ de coton
 cow_farm
 Ferme d'élevage
 dairy
@@ -880,8 +886,6 @@ wind_kraftwerk
 #_____________________________________field_____________________________________
 corn_field
 Champ de maïs
-cotton_field
-Champ de coton
 forestplantation_field
 Forêt
 grain_field
@@ -3114,6 +3118,8 @@ river_10
 Petite rivière navigable
 river_20
 Rivière navigable
+river_30
+Grande rivière navigable
 #_______________________________way-object - air________________________________
 #_______________________________way-object - air________________________________
 modern_runway-extMrkLgt
@@ -3125,7 +3131,7 @@ Caténaires pour trolley bus
 #______________________________way-object - track_______________________________
 #______________________________way-object - track_______________________________
 classic_metal_mesh_catenary
-Cténaire pour train express
+Caténaire pour train express
 curved_pylon_lgv
 Caténaire pour LGV
 highspeed_catenary

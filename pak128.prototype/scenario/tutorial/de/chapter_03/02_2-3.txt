@@ -1,1 +1,1 @@
-{step_hinfo}<p>{tx} Wählen Sie <em>{tool2}</em> und bauen Sie eine Brücke zu {br}.</p>
+{step_hinfo}<p>{tx} WÃ¤hlen Sie <em>{tool2}</em> und bauen Sie eine BrÃ¼cke zu {br}.</p>

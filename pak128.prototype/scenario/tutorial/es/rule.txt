@@ -1,1 +1,1 @@
-<p>No se muestran todas las herramientas. Tan sólo las acciones necesarias para el paso actual están disponibles.</p><p><em>·</em> Describir normas.<br><em>·</em> Dar consejos.<br><em>·</em> Instrucciones sobre problemas conocidos.<br></p>
+<p>No se muestran todas las herramientas. Tan sÃ³lo las acciones necesarias para el paso actual estÃ¡n disponibles.</p><p><em>Â·</em> Describir normas.<br><em>Â·</em> Dar consejos.<br><em>Â·</em> Instrucciones sobre problemas conocidos.<br></p>

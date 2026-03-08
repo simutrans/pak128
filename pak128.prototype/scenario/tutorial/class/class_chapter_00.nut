@@ -1,11 +1,13 @@
-/*
- *  class chapter_00
- *
- *
- *  Can NOT be used in network game !
- */
+/** @file class_chapter_00.nut
+  * @brief error output for not compatible simutrans and pakset version
+  */
 
-
+/**
+  * @brief class_chapter_00.nut
+  * error output for not compatible simutrans and pakset version
+  *
+  *  Can NOT be used in network game !
+  */
 class tutorial.chapter_00 extends basic_chapter
 {
   chapter_name  = "Checking Compatibility"
@@ -42,12 +44,7 @@ class tutorial.chapter_00 extends basic_chapter
   }
 
   function is_work_allowed_here(pl, tool_id, pos) {
-    local label = tile_x(pos.x,pos.y,pos.z).find_object(mo_label)
-    local result=null // null is equivalent to 'allowed'
-
-    result = translate("Action not allowed")
-
-    return result
+    return get_message(2) //translate("Action not allowed")
   }
 
   function is_tool_active(pl, tool_id, wt) {

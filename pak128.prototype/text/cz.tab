@@ -9,7 +9,7 @@
 #                             Language: cz Cestina                             #
 #                                Encoding: UTF-8                               #
 #                             Font: prop-latin2.fnt                            #
-#                            Date Created: 4.01 2025                           #
+#                            Date Created: 8.03 2026                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -161,7 +161,7 @@ Tento hotýlek je\nvyhledáván hlavně díky\nsvým příjemně vybaveným\napa
 COM_01_52
 Designéři této budovy by\nse měli nechat dobrovolně\nsterilizovat... V budově není\njediný výtah, takže musíš\nvšechna patra pěkně\nvyšlapat po schodech.\nDveře mají v pantech\ndesetilibrová pera, tato\nskutečnost mění všechny\ndveře ve cvičební nářadí\npro kulturisty. Ale úplně\nnejhorší je kavárna, ve\nkteré prodávají jen proteinové\nkoktejly a tofuburgery.\n
 COM_01_60
-Sídlo společnosti JOKER's corp.\nJeště před pár lety měli sídlo v\njakési pastoušce hned za\nměstem, ale nyní, co udělali\nterno na burze si postavili\ntento zelený mrakodrap. Asi\nproto, aby jim ostatní\nobchodníci z města mohli\nzávidět ...\n
+Sídlo společnosti JOKER's corp. \n\nJeště před pár lety měli sídlo v jakési pastoušce hned za\nměstem, ale nyní, co udělaliterno na burze si postavilitento zelený mrakodrap. Asiproto, aby jim ostatníobchodníci z města mohlizávidět ...
 COM_02_13
 Domek ladaře\n\nLadaři neboli ladýři bývali\nobchodníci obilím a\novocem, kteří na vsi pro\nměšťany tyto plodiny\nnakupovali. Všimněte si\nzděného přízemí, které celé \nzabírá sklad na dlouhé zimy.\n\n
 COM_02_15
@@ -992,6 +992,8 @@ Hongkongští textilní výrobci\nvrací úder! Převzali jednu z\ntováren a vy
 #________________________________building - mon_________________________________
 DenkFlor
 Pomník Flora 'WF Ultd.' Wauterse.\n\nTento pomník je věnován\nFlorovi 'WF Ultd.'\nWautersovi, slavnému\ninženýrovi, který vytvořil\nmnožství skvělých\nsilničních a železničních\nvozidel. Je také dobře\nznámý za návrhy mnoha\nskvěle fungujících \ntováren.\n
+denkforum
+Milosrdná paní fóra\n\nAť jsou přečteny všechny vaše zprávy,\nže vždy dostanete užitečné odpovědi,\na že našeho "Benvolent Dictator" nikdy nenaštvete.
 DenkGeorg
 Georgův památník.\n\nGeorg (MHz) byl zkušený\narchitekt, který navrhl\nnepřeberné množství budov\ni ve Tvém městě. I Tvá\nspolečnost staví některá\nnádraží a přístavy podle\njeho plánů. Se svým citem\npro krásu a detail navrhl\ntaké několik speciálních\nvozidel.\n
 DenkHajo
@@ -1006,6 +1008,8 @@ DenkSeth
 Sethův památník\n\nTento pomník je věnován\nSethovi C. Triggsovi,\nslavnému architektovi,\nkterý navrhl mnoho\npřekrásných domů. Je také\ndobře známý za vytvoření\nmnoha studií, jak zlepšit\ndopravní systémy.\n
 DenkTomas
 Kubešův monument\n\nTento pomník je věnován\nTomáši Kubešovi, který\npomohl zdokonalit\nSimutrans v mnoha, mnoha\naspektech, a to radami a\ntvrdou prací.\n\n
+denktrack
+Rytíř čáry\n\nZe starobylého domu Cest,\nje patronem všech linií, velký a malý;\npozemní, vzdušné a námořní.\nAby všechny vaše linie byly plodné a množily se.
 DenkTrikky
 Trikkyho monument\n\nTento pomník je věnován\n'Trikkymu' Rickovi McGrealovi,\nslavnému architektovi který\nnavrhl spoustu působivých\nbudov.\n
 DenkVM
@@ -1066,10 +1070,6 @@ RES_00_29
 Menší bytový dům. Je\nzrekonstruovaný zvenku i\nzevnitř, je také dobře\nzateplený, takže nájemné\nnení zrovna nízké.\n\n
 RES_00_52
 Naše bohyně drah. Tisíce\nhráčů Simutransu se k ní\ndenně modlí..."kéž mé\nkoleje leží rovně a mé linky\nvynášejí. Ó uchraň prosím\nmé křižovatky kolizí a nech\nmé vlaky vždy nalézt\ncestu...".\n
-RES_00_53
-Tato socha je pocta siru\nHansi Groperovi. Byl\nsubjektem v tisících\npřípadů sexuálního\nobtěžování, výrazným\nzpůsobem tak napomohl\naktivistkám za ženská\npráva v řadě precedentních\nsoudních sporů, což ve\nsvém důsledku přineslo\nnejednu pozitivní změnu v\nlegislativě (a výrazně také\npřispěl k populační explozi\nposledních let).\n
-RES_00_60
-Socha Afrodity, starořecké\nbohyně lásky. Město ji dalo\npostavit, aby připomínala,\nže zakladatel města byl\nemigrant z dalekého Řecka\na ze srdce domovinu\nnenáviděl. To má za to.\n
 RES_01_01
 Smutný kemp pro ty méně\nštastné obyvatele\nSimutransu.\n\n
 RES_01_02
@@ -1802,6 +1802,8 @@ cotton_farm_w_fields
 Bavlníková plantáž
 factory_cotton_farm_w_fields_details
 <title>Bavlníková plantáž - detaily</title>\n<h1>Bavlníková plantáž</h1><p>Bavlna je nejdůležitější ze všech plodin pěstovaných pro výrobu textilního vlákna. Vlákna se získávají z plodu keře bavlníku.\nBavlněná vlákna jsou přítomna ve více než 50% dnes vyráběných textilií. Kultivace bavlny měla výrazný ekonomický dopad již od doby, kdy byla bavlna poprvé domestikována před přibližně 5000 lety.</p>
+cotton_field
+Bavlníkové pole
 cow_farm
 Kravín
 factory_cow_farm_details
@@ -1976,8 +1978,6 @@ factory_wind_kraftwerk_details
 #_____________________________________field_____________________________________
 corn_field
 Kukuřičné pole
-cotton_field
-Bavlníkové pole
 forestplantation_field
 Les
 grain_field

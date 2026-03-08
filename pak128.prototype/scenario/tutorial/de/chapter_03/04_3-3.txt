@@ -1,1 +1,1 @@
-{step_hinfo}<p>{tx} <st>Um zum n‰chsten Schritt zu gelangen</st>, klicken Sie mit dem <em>{tool1}</em> auf das <em>Bahndepot</em> {dep}.</p>
+{step_hinfo}<p>{tx} <st>Um zum n√§chsten Schritt zu gelangen</st>, klicken Sie mit dem <em>{tool1}</em> auf das <em>Bahndepot</em> {dep}.</p>

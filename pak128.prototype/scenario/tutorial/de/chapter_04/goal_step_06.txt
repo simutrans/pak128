@@ -1,1 +1,1 @@
-<p>Es ist notwendig, <em>Passagiere</em> in touristische Gebiete {tur} zu transportieren.</p><p>Platzieren Sie <em>{nr} Häfen</em> für Passagiere auf den angegebenen Feldern:<br>{dock}</p><p><st>Um zum nächsten Schritt zu gelangen</st>, bauen Sie alle Häfen.</p>
+<p>Es ist notwendig, <em>Passagiere</em> ins touristische Gebiete bei {tur} zu transportieren.</p><p>Platzieren Sie <em>{nr} HÃ¤fen</em> fÃ¼r Passagiere auf den angegebenen Feldern:<br>{dock}</p><p><st>Um zum nÃ¤chsten Schritt zu gelangen</st>, bauen Sie alle HÃ¤fen.</p>

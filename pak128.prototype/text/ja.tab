@@ -9,7 +9,7 @@
 #                             Language: ja Japanese                            #
 #                                Encoding: UTF-8                               #
 #                                Font: m+10r.bdf                               #
-#                            Date Created: 4.01 2025                           #
+#                            Date Created: 8.03 2026                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -23,59 +23,59 @@ PowerBridge
 #_________________________________bridge - road_________________________________
 #_________________________________bridge - road_________________________________
 Highway_110_Bridge
-高速道路橋 (3連コンクリート柱)
+高速道路用3連柱橋 (コンクリート)
 Highway_130_Bridge
-高速道路橋 (二重四角柱)
+高速道路用2連角柱橋 (コンクリート)
 Highway_200_Bridge
-高速道路橋 (幅広柱、高規格)
+高速道路用広幅高架橋 (高規格)
 road_030_bridge
-未舗装道路橋 (木製)
+未舗装路用木橋
 road_040_bridge
-大通り用アーチ形石橋
+市街地用石積みアーチ橋
 road_050_bridge
-コンクリート製アーチ橋
+市街地用近代アーチ橋 (コンクリート)
 Road_055_Bridge
-古い石造りアーチ橋
+高規格石造アーチ道路橋
 Road_070_Bridge
-道路橋
+近代型コンクリート道路橋
 Road_090_Bridge
-現代風道路橋
+近代型コンクリート道路橋
 #________________________________bridge - track_________________________________
 #________________________________bridge - track_________________________________
 Rail_060_Bridge
-貨物線用桁橋 (木製)
+貨物線用木造橋
 Rail_060B_Bridge
-貨物線用桁橋 (鋼製、基本)
+貨物線用鉄橋
 Rail_080_Bridge
-木製枕木鉄道橋 (鉄製)
+木製枕木用鉄橋
 Rail_080B_Bridge
-貨物線用橋梁 (鋼製、最新式)
+貨物線用改良型鉄橋
 Rail_100_Bridge
-トラス橋 (木製枕木)
+木製枕木用青トラス鉄橋
 Rail_120_Bridge
-アーチ橋 (木製枕木)
+木製枕木用アーチ橋 (粗石積み)
 Rail_120B_Bridge
-貨物線用橋梁
+貨物線用近代橋 (コンクリート)
 Rail_140_Bridge
-高速アーチ橋 (石造ブロック)
+急行線用石積みアーチ橋
 Rail_160_Bridge
-高速鉄道橋 (コンクリート)
+急行線用近代橋 (コンクリート)
 Rail_180_Bridge
-地域軌道用コンクリート橋
+地方幹線用近代コンクリート橋
 Rail_200_Bridge
-現代風高速鉄道橋 (鋼製)
+高速線用近代鋼鉄橋
 Rail_240_Bridge
-高速トラス橋 (鋼製)
+高速線用高規格鋼鉄橋
 Rail_280_Bridge
-高速ラーメン橋 (コンクリート)
+超高速線用コンクリート橋
 Rail_320_Bridge
-現代風高速ラーメン橋 (コンクリートフレーム)
+超高速線用ラーメン橋 (コンクリート)
 Rail_400_Bridge
-高速ラーメン橋 (コンクリート管フレーム)
+次世代高速線用円筒ラーメン橋 (コンクリート)
 #________________________________bridge - water_________________________________
 #________________________________bridge - water_________________________________
 water_bridge
-運河橋
+水路橋
 #___________________________________building____________________________________
 #___________________________________building____________________________________
 MonorailGround
@@ -565,7 +565,7 @@ WOODEN_CHURCH
 1930AirDepot
 格納庫 (木造)
 1940AirDepot
-格納庫 (板金)
+格納庫 (トタン)
 1950AirDepot
 格納庫 (コンクリート)
 1990AirDepot
@@ -573,25 +573,25 @@ WOODEN_CHURCH
 CarDepot
 車庫
 Depot_train_1936
-現代風機関庫
+近代的な鉄道車庫
 MonorailDepot
-モノレール基地
+懸垂式鉄道車庫
 ShipDepot
 造船所
 TrainDepot
-操車場
+鉄道車庫
 TramDepot
-市電車庫
+路面電車車庫
 #_____________________________building - extension______________________________
 #_____________________________building - extension______________________________
 Airport1920_AirportBlg
-空港旅客ターミナル
+空港旅客ターミナル (1920年代)
 Airport1930PostOffice
-航空郵便局
+航空郵便局 (1930年代)
 Airport1990_Big_AirportBlg
 現代風大型旅客ターミナル
 Airport1990_Big_PostOffice
-国際郵便物取扱所
+大型国際郵便局
 Airport1990_Entrance_AirportBlg
 現代風空港エントランス
 Airport1990_Gates_AirportBlg
@@ -613,17 +613,17 @@ Avila_Small_StationBlg
 Avila_Warehouse_StationBlg
 貨物倉庫
 BigTerminal1930_AirportBlg
-大型乗客ターミナル
+大型旅客ターミナル (1930年代)
 BigTerminal1950_AirportBlg_S
-大型旅客ターミナル (1950年)
+大型旅客ターミナル (1950年代)
 Bulk_StationBlg
-ばら荷貨物駅ビル
+ばら荷貨物駅舎
 Car_StationBlg
 駅駐車場
 container_crane_span
-大型トランスファークレーン
+大型コンテナクレーン
 containercrane
-トランスファークレーン
+小型コンテナクレーン
 Control_StationBlg
 信号取扱所
 CunnersdorfStopBlg
@@ -637,7 +637,7 @@ Goods_StationBlg
 hall_extended_station
 大ホール附属駅舎
 LuftPost1950_AirportBlg
-空港郵便局
+航空郵便局 (1950年代)
 Modern_Warehouse
 現代風倉庫
 modern_warehouse_big
@@ -653,7 +653,7 @@ plain_tile_high
 PostOffice
 郵便局
 PostOffice1920_AirportBlg
-航空郵便取扱所 (1920)
+航空郵便局 (1920年代)
 PostOfficeOldLarge
 旧型郵便局 (大)
 Radar3
@@ -667,21 +667,21 @@ special_PAPI_stop
 special_wingbar-r_stop
 滑走路末端補助灯
 Terminal1930_AirportBlg
-1930年代小型ターミナル
+小型ターミナル (1930年代)
 Terminal1950_AirportBlg_S
-1950年代小型ターミナル
+小型ターミナル (1950年代)
 Tower1920_AirportBlg
-管制塔 (1920)
+管制塔 (1920年代)
 Tower1930_AirportBlg
-小型管制塔
+小型管制塔 (1930年代)
 Tower1950_AirportBlg
-管制塔
+管制塔 (1950年代)
 Tower1990_AirportBlg
 現代風管制塔
 Very_Big_Terminal
 超大型空港ターミナル (3x3)
 VictorianStation
-ビクトリア様式の駅舎
+ヴィクトリア調駅舎
 #______________________________building - harbour_______________________________
 #______________________________building - harbour_______________________________
 Bulk_Dock
@@ -1014,6 +1014,8 @@ IND_12_16
 #________________________________building - mon_________________________________
 DenkFlor
 Flor記念碑\n\nこの記念碑は、数多くの素晴らしい道路と乗り物を作成した、有名な技術者であるFlor 'WF Ultd.' Wauters氏に捧げられています。また、彼は多くの生産施設を設計したことでよく知られています。
+denkforum
+フォーラムの聖母あなたの投稿が全て読まれますように。すべてのレスが求める答を提供し、あなたの役に立ちますように。そして、あなたが決して「テンプレ嫁」と言われない、まともなカキコをしますように。
 DenkGeorg
 MHz感謝碑\n\nこの記念碑は世界中の数多くの建築物を設計したMHzとしても知られている有名な建築士Georg氏に捧げられています。彼はまたいくつかの特別な乗り物を設計しました。
 DenkHajo
@@ -1028,6 +1030,8 @@ DenkSeth
 Seth記念碑\n\nこの場所は、数多くの美しい都市ビルを設計した、有名な建築家であるSeth C. Triggs氏に捧げられています。彼はまた、交通システムの改善に関する多くの研究を行なっていることでも知られています。
 DenkTomas
 Tomas記念像\n\nこの記念碑は、多くの局面でアドバイスときつい作業を行い、Simutransの改良を助けたTomas Kubes氏に捧げられています。Tomas氏はまたSimuTranlatorを担当して各国語版の翻訳を支援したり、日本の職人さんとのコミュニケーションもなされています。
+denktrack
+大路線騎士\n\n大小さまざまな鉄路、道路、海路、そして空路の守護聖人です。あなたの経営するすべての路線が黒字になり、複々線化されますように。
 DenkTrikky
 Trikky記念碑\n\nこの記念碑は、数多くの印象的な建築物を設計した、有名な建築家 'Trikky' ことRick McGreal氏に捧げられています。
 DenkVM
@@ -1090,10 +1094,6 @@ RES_00_29
 一つ屋根の下、いかに多くの人を住まわせるかの更なる提案です。この住居は古い建築物ですが、良い状態に保たれています。赤ちゃんの泣き声や大音量の音楽が聞こえたりしますが、このような住居では日常茶飯事なのです。
 RES_00_52
 大軌道聖母マリアです。何千人ものSimutranserが毎日お祈りを捧げているのが聞こえます･･･ 「我が軌道よ、何人に遮られる事なかれ。我が路線よ、何人に乱さるる事無く正確に働き給え。我が分岐点よ、すべては善く動作し、即ち滞せらるる事なかれ。我が列車よ、経路を見失う事無く、我が軌道を進み給え。」
-RES_00_53
-この銅像はHans Groper 伯爵に敬意を表して建てられました。彼は幾多のセクハラ問題の対象でした、そして裁判で裁かれることによって、女性権利保護の活動家が法案を成立させるための手助けをしました。
-RES_00_60
-大路線聖母マリアと大軌道聖母マリアの双子の姉妹は、大小さまざまな鉄路、道路、海路、そして空路の守護聖人です。あなたの経営するすべての路線が黒字になり、複々線化されますように。
 RES_01_01
 この寂しげなキャンプは、Simtrans社会のあまり幸運でない一員の住処です。
 RES_01_02
@@ -1609,17 +1609,17 @@ RES_65_12
 AirStop_AirportBlg
 駐機場
 big_classic_bus_stop
-大型停留所
+大型バス停
 big_early_bus_stop
 バス停と郵便ポスト (大型シェルター)
 big_modern_bus_stop
-現代風大型停留所
+現代風大型バス停
 bus_terminus
 現代風バスターミナル
 canal_ChannelStop
-運河埠頭
+運河用桟橋
 canal_ware_stop
-運河埠頭 (貨物)
+運河用桟橋 (貨物)
 CargoHighStop
 ドライブスルー積み込みベイ
 CarStop
@@ -1633,17 +1633,17 @@ CoalTrainStop
 Container1TrainStop
 コンテナプラットフォーム (コンテナ数個)
 Container2TrainStop
-高度なコンテナ駅
+高規格コンテナ駅
 FreightTrainStop
-貨物列車停止位置
+貨物駅
 medium_classic_bus_stop
-中型停留所
+中型バス停
 medium_early_bus_stop
-初期中型停留所
+初期中型バス停
 medium_modern_bus_stop
-現代風中型停留所
+現代風中型バス停
 ModernTrainStop
-現代風停車駅
+現代風旅客駅
 OfficeTrainStop
 駅事務所付きプラットフォーム
 OpenTrainStop
@@ -1655,41 +1655,53 @@ parking_(catchemnt_area_ext)2
 parking_(catchemnt_area_ext)3
 路肩駐車場
 small_classic_bus_stop
-ベンチだけの停留所
+バス停
 small_early_bus_stop
-初期小型停留所
+初期小型バス停
 station_03_02
 保護されたプラットフォーム (青)
 station_03_03
-屋根付きプラットフォーム (青, アーチ型屋根)
+保護されたプラットフォーム (青, アーチ型屋根)
+subway_double_modern_station
+現代風地下鉄ホーム (2面2線)
+subway_double_old_station
+旧式地下鉄ホーム (2面2線)
+subway_double_station
+地下鉄ホーム (2面2線)
+subway_single_modern_station
+現代風地下鉄ホーム (1面1線)
+subway_single_old_station
+旧式地下鉄ホーム (1面1線)
+subway_single_station
+地下鉄ホーム (1面1線)
 Suspended_Monorail_Bahnhof_Modern
-懸垂式鉄道乗り場
+現代風懸垂式鉄道乗り場
 train_big_station_early_ext
-屋根付きプラットフォーム (風防付き傾斜屋根)
+屋根付きホーム (アスファルト, 片流れ屋根)
 train_big_station_modern_ext
-屋根付きプラットフォーム (タイル張り,  外部)
+屋根付きホーム (タイル張り, 外部)
 train_big_station_modern_int
-屋根付きプラットフォーム (タイル張り,  内部)
+屋根付きホーム (タイル張り, 内部)
 train_flat_station_early
-保護されたプラットフォーム (風防付き, フラット)
+平屋根ホーム (アスファルト)
 train_flat_station_modern
-保護されたプラットフォーム (タイル張り, フラット)
+平屋根ホーム (タイル張り)
 train_platform_early
-乗客用プラットフォーム (砂利)
+旅客ホーム (砂利)
 train_platform_med
-乗客用プラットフォーム (風防付き)
+旅客ホーム (アスファルト)
 train_platform_modern
-乗客用プラットフォーム (タイル張り)
+旅客ホーム (タイル張り)
 train_small_station_early
 シェルター付きプラットフォーム (砂利)
 train_small_station_med
-シェルター付きプラットフォーム (風防付き)
+待合所付きホーム (アスファルト)
 train_small_station_modern
 シェルター付きプラットフォーム (タイル張り)
 train_station_early
-保護されたプラットフォーム (風防付き, フラット)
+片流れ屋根ホーム (アスファルト)
 train_station_modern
-保護されたプラットフォーム (タイル張り,  傾斜)
+片流れ屋根ホーム (タイル張り)
 TrainStop
 旅客駅
 VillageTrainStop
@@ -1962,6 +1974,8 @@ factory_cornfield_details
 この広い畑では、トウモロコシが栽培されています。トウモロコシは、エタノール工場でエタノール (アルコール) に加工されます。
 cotton_farm_w_fields
 綿花農家
+cotton_field
+綿花畑
 cow_farm
 牛牧場
 dairy
@@ -2080,10 +2094,6 @@ waste_incinerator_kraftwerk
 ゴミ焼却発電所
 wind_kraftwerk
 風力発電所
-#_____________________________________field_____________________________________
-#_____________________________________field_____________________________________
-cotton_field
-綿花畑
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -2115,7 +2125,7 @@ Ethanol
 fertilizer
 肥料
 fish
-魚肉
+鮮魚
 flour
 小麦粉
 food
@@ -2239,7 +2249,7 @@ pedestrian 8
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 Build monorail depot
-懸垂式鉄道を作る
+懸垂式鉄道車庫の建設
 CATEGORY_01
 混載貨物
 CATEGORY_02
@@ -2261,11 +2271,11 @@ monorail vehicle
 Monorailboden
 懸垂式鉄道軌道
 Monoraildepot
-懸垂式鉄道の車両基地
+懸垂式鉄道車庫
 Monorailhalt
 懸垂式鉄道駅
 Monorailhalt muss auf\nMonorail liegen!\n
-懸垂式鉄道駅は、懸垂鉄道の軌道上に建設されなければなりません。\n
+懸垂式鉄道駅は、懸垂式鉄道の軌道上に建設してください！\n
 Monorails are not available yet!
 懸垂式鉄道はまだ開発されていません！
 remove monorails
@@ -2331,9 +2341,9 @@ traffic_light
 #_______________________________roadsign - track________________________________
 #_______________________________roadsign - track________________________________
 ChooseSignals
-場内信号機 (入線振分)
+入線振分信号機
 Classic_ChooseSignals_right
-場内信号機 (入線振分・腕木式)
+入線振分信号機 (腕木式)
 Classic_LongSignals_right
 多閉塞信号機 (腕木式)
 Classic_preSignals_right
@@ -2343,7 +2353,7 @@ Classic_prioritySignals_right
 Classic_Signals_right
 信号機 (腕木式)
 Early_ChooseSignals_right
-場内信号機 (入線振分・手旗式)
+入線振分信号機 (手旗式)
 Early_LongSignals_right
 多閉塞信号機 (手旗式)
 Early_preSignals_right
@@ -2357,7 +2367,7 @@ EndOfChooseSignals
 LongSignals
 多閉塞信号機
 Modern_ChooseSignals_right
-場内信号機 (入線振分・色灯式)
+入線振分信号機 (色灯式)
 Modern_EndOfChooseSignals_right
 現代風入線振分終端標識
 Modern_LongSignals_right
@@ -2377,7 +2387,7 @@ preSignals
 prioritySignals
 プライオリティシグナル
 Railgate
-ゲート
+私有地ゲート
 Signals
 信号機
 #_____________________________________tree______________________________________
@@ -2469,47 +2479,47 @@ PowerTunnel
 #_________________________________tunnel - road_________________________________
 #_________________________________tunnel - road_________________________________
 Highway_110_Tunnel
-高速道路トンネル (角型)
+高速道路用トンネル (角型)
 Highway_130_Tunnel
-高速道路トンネル (チューブラー)
+高速道路用トンネル (円筒型)
 Road_040_Tunnel
-街路トンネル (石ブロック)
+一般道用トンネル (石積み)
 Road_050_Tunnel
-街路トンネル (コンクリート)
+一般道用トンネル (コンクリート)
 Road_070_Tunnel
-トンネル (角型)
+幹線道路用トンネル (角型)
 Road_090_Tunnel
-現代風トンネル
+高規格道路用トンネル
 #________________________________tunnel - track_________________________________
 #________________________________tunnel - track_________________________________
 Rail_060_Tunnel
-旧鉄道トンネル
+初期の粗石積みトンネル
 Rail_080_Tunnel
-木製枕木軌道トンネル (素朴な石造り)
+木製枕木軌道用トンネル (粗石積み)
 Rail_080B_Tunnel
 貨物線用トンネル (コンクリート)
 Rail_100_Tunnel
-木製枕木軌道トンネル (石ブロック)
+木製枕木軌道トンネル (石積み)
 Rail_120_Tunnel
-木製枕木軌道トンネル (石造り)
+木製枕木軌道用トンネル (石造)
 Rail_120B_Tunnel
-貨物線用トンネル (コンクリート)
+貨物線用近代トンネル (コンクリート)
 Rail_140_Tunnel
-高速軌道トンネル (石ブロック)
+急行線用トンネル (石積み)
 Rail_160_Tunnel
-高速軌道トンネル (コンクリート)
+急行線用近代トンネル (コンクリート)
 Rail_180_Tunnel
-地域線用トンネル (コンクリート)
+地域幹線用高規格トンネル (コンクリート)
 Rail_200_Tunnel
-高速軌道トンネル (コンクリート)
+高速鉄道用トンネル (コンクリート)
 Rail_240_Tunnel
-高速軌道トンネル (コンクリート)
+高速線用近代トンネル (コンクリート)
 Rail_280_Tunnel
-高速軌道トンネル (コンクリート、ベント式)
+超高速線用通気型トンネル (コンクリート)
 Rail_320_Tunnel
-高速軌道トンネル (コンクリート、ベント式)
+超高速線用通気型トンネル (コンクリート)
 Rail_400_Tunnel
-高速軌道トンネル (コンクリート、ベント式)
+次世代高速線用通気型トンネル (コンクリート)
 #_________________________________vehicle - air_________________________________
 #_________________________________vehicle - air_________________________________
 SAC-Aerospatiale_Concorde_128_set
@@ -2707,7 +2717,7 @@ SAC-Fokker_F-27_Mail_128_set
 SAC-Handley_Page_W8B_128_set
 ハンドレページ W.8b
 SAC-Ilyushin_IL-76_Candid_128_set
-イリューシン Il-76 キャンディッド
+イリューシン Il-76 "キャンディッド"
 SAC-Junkers_Ju-52_128_set
 ユンカース Ju-52
 SAC-Junkers_Ju-52_Mail_128_set
@@ -2717,9 +2727,9 @@ SAC-Lockheed_C-130C_Hercules_128_set
 SAC-Lockheed_C-130F_Hercules_128_set
 ロッキード C-130F ハーキュリーズ
 SAC-Lockheed_C-130J_Super_Hercules_(cooled)_128_set
-ロッキード C-130J スーパーハーキュリーズ (低温貨物)
+ロッキード C-130J スーパー・ハーキュリーズ (低温)
 SAC-Lockheed_C-130J_Super_Hercules_(goods)_128_set
-ロッキード C-130J スーパーハーキュリーズ (混載貨物)
+ロッキード C-130J スーパー・ハーキュリーズ (混載)
 SAC-Lockheed_Constellation_128_set
 ロッキード コンステレーション
 SAC-McDonnell_Douglas_DC-10_128_set
@@ -2744,16 +2754,26 @@ SAC-McDonnell_Douglas_MD-90_128_set
 マクドネル・ダグラス MD-90
 SAC-Rohrbach_Rocco_128_set
 ロールバッハ ロッコ
+#_________________________________vehicle - bio_________________________________
+#_________________________________vehicle - bio_________________________________
+Horse_team
+馬
+Mule_team
+ラバ
+Ox_team
+牛
+Pure-bred_Horses
+純血種馬
 #___________________________vehicle - monorail_track____________________________
 #___________________________vehicle - monorail_track____________________________
 PMNV_TC-119-Snake
-PMNV TC-119 スネイク
+PMNV TC-119 スネーク
 PMNV_TC-119-Snake_b
 PMNV TC-119 (後部)
 PMNV_TC-44-Hydrogen_Car
-PMNV TC-44 H2 (前)
+PMNV TC-44 H2
 PMNV_TC-44-Hydrogen_Car_b
-PMNV TC-44 H2 (後)
+PMNV TC-44 H2 (後部)
 PMNV_TC-7_Astro_Trolley
 PMNV TC-7 アストロ・トロリー
 PMNV-TC-1_Turbo_Car
@@ -2761,15 +2781,15 @@ PMNV TC-1 ターボカー
 PMNV-TC-112-Hyper_Car
 PMNV TC-112 ハイパーカー
 PMNV-TC-2_Turbo_Set
-PMNV TC-2 TurboSet
+PMNV TC-2 ターボセット
 PMNV-TC-2_Turbo_Set_b
-PMNV TC-2 TurboSet (中)
+PMNV TC-2 (中間車)
 PMNV-TC-2_Turbo_Set_c
-PMNV TC-2 TurboSet (後)
+PMNV TC-2 (後部車)
 PMNV-TC-5P_Mail_Man
 PMNV TC-5P "メールマン"
 yoshi_wup01
-ヴッパータール GTW 72 (前)
+ヴッパータール GTW 72
 yoshi_wup02
 ヴッパータール GTW 72 (中)
 yoshi_wup03
@@ -2797,9 +2817,9 @@ yoshi_wup196503
 40ft_Container_Trailer
 40フィートコンテナトレーラー
 AEC_Aclo_Regent_III
-英国エース社 リージェント III
+英国AEC社 アクロ・リージェント III
 Airport_express_shuttle
-空港高速シャトルバス
+空港特急シャトルバス
 BB-TS_Milk_Mack_Trailer
 BlacBox-TS ミルクトレーラー
 Big_Erztruck
@@ -2807,7 +2827,7 @@ Big_Erztruck
 Bulk_trailer_0
 ばら荷トレーラー
 Bulk_Truck_0
-ボルボ800 (ばら荷)
+ボルボ 800 (ばら荷)
 Bulk_Truck_2
 Tatra 801 (ばら荷)
 Bulk_Truck_3
@@ -2817,15 +2837,15 @@ Bulk_Truck_4
 Car_Tramsport_Trailer_0
 自動車トレーラー
 Car_Transporter_0
-自動車運送車
+自動車運搬トラック
 Car_Transporter_1
-自動車輸送車
+自動車キャリアカー
 Cement_trailer_0
-セメントトレーラー
+PMNV セメントトレーラー
 Cement_Truck_0
-セメントトラック
+PMNV セメントトラック
 Concrete_Truck_0
-S.Kroytor コンクリートミキサー
+コンクリートミキサー車
 Concrete_Truck_1
 タトラ 815 (コンクリート)
 Cooling_trailer_0
@@ -2851,45 +2871,53 @@ CST_Stateliner
 CST_Urban_City_DD
 米国トランステック社 CST Urban City (2階建て)
 Evil-Jitluen_67_Minibus
-Jitluen 67 ミニバス
+Evil-Jitluen 67 ミニバス
 Fluid_trailer_0
 石油トレーラー
 Fluid_trailer_1
 石油トレーラー
 Fluid_Truck_0
-日産ディーゼル タンクローリー1800
+日産ディーゼル タンクローリー 1800
 Fluid_Truck_1
-日産ディーゼル タンクローリー1100
+日産ディーゼル タンクローリー 1100
 Fluid_Truck_2
 ZUK-20
 Fluid_Truck_3
-1923年式オイルトラック
+マギルス 1923年式オイルトラック
 Flxible_Twin_FT2-40
-Flxible Twin FT2-40
+Flxible ツイン FT2-40
 Goods_trailer_0
-三菱ふそう スーパートラック - トレーラー
+三菱ふそう スーパーグレート (混載トレーラー)
 Goods_trailer_1
-三菱ふそう スーパートラック - トレーラー mk.2
+三菱ふそう スーパーグレート (混載トレーラー mk.2)
 Goods_trailer_2
 PMNV 混載トレーラー
 Goods_trailer_3
-PMNV 混載トレーラー
+PMNV 悪路対応混載トレーラー
 Goods_Truck_0
-三菱ふそう スーパートラック
+三菱ふそう スーパーグレート
 Goods_Truck_1
 三菱ふそう ハイパートラック
 Goods_Truck_2
 PMNV 混載トラック
 Goods_Truck_3
-PMNV 軽混載トラック
+PMNV 軽量混載トラック
 Goods_Truck_4
 PMNV ターボトラック
 Goods_Truck_5
 S.Kroytor Gaz-4
 Grain_trailer_0
-クラシック穀物トレーラー
+PMNV クラシック穀物トレーラー
 Grain_Truck_1
 Tatra 815 (穀物)
+Horse_Carriage_1
+馬車 (タイプ1)
+Horse_Carriage_2
+馬車 (タイプ2)
+Horse_Carriage_3
+馬車 (タイプ3)
+Horse_Mail_Carriage_3
+郵便馬車
 Irisbus_Cristalis_ETB12
 伊 イリスバス Cristalis ETB12
 Irisbus_Cristalis_ETB18_front
@@ -2911,47 +2939,47 @@ Mack 混載トレーラー
 Mack_Truck_Post_Trailer
 Mack 郵便トレーラー
 Mail_Truck_2
-MHz ウィンドスター郵便車
+MHz ウィンドスター 郵便車
 Man_Lions_City
-ドイツ マン・トラック＆バス リヨンシティ
+ドイツ MAN ライオンズ・シティ
 Man_Lions_City_G_back
-ドイツ マン・トラック＆バス リヨンシティ G (後部)
+ドイツ MAN ライオンズ・シティ G (後部)
 Man_Lions_City_G_front
-ドイツ マン・トラック＆バス リヨンシティ G (前部)
+ドイツ MAN ライオンズ・シティ G (前部)
 MHz_Grain_Trailer_0
-MHz トラクター用穀物運搬車
+MHz トラクター用穀物トレーラー
 MHz_Long_Wood_Trailer
-MHz 長材木トレーラー
+MHz 長尺原木トレーラー
 MHz_Tractor
 MHz トラクター
 MHz_Tractor_2
-MHz-JD トラクター
+ジョンディア トラクター
 Milk_Truck_0
-PMNV ミルク用タンク車
+PMNV ミルクタンク車
 Milk_Truck_1
-S.Kroytor-ZIL ミルク輸送車
+ZIL ミルク運搬車
 Milk_Truck_2
 Magirus 牛乳トラック
 mja-20s_concretemixer
-MJA-20S セメントローリー
+MJA 20S セメントローリー
 mja-bulk_trailer_l
-MJA-L300 ばら荷トレーラー
+MJA L300 ばら荷トレーラー
 mja-bulk_trailer_m
-MJA-M220 ばら荷トレーラー
+MJA M220 ばら荷トレーラー
 mja-MAN19332-128set
-mja-MAN 19332
+MAN 19332
 mja-ScaniaP380_tanker
 スカニア P380 タンクローリー
 mja-ScaniaP420_concretemixer
 スカニア P420 コンクリートミキサー
 mja-ScaniaP420_longgoods
-スカニア P420 (木材)
+スカニア P420 (板材)
 mja-ScaniaR500Topline
 スカニア R500 トップライン
 mja-ScaniaR500Topline_cooledgoods
-スカニア R500 トップライン冷蔵車
+スカニア R500 トップライン 冷蔵車
 mja-ScaniaR500Topline_goods
-スカニア R500 トップライン混載車
+スカニア R500 トップライン 混載車
 mja-ScaniaR620Topline
 スカニア R620 トップライン
 mja-volvof88-128set
@@ -2959,25 +2987,25 @@ mja-volvof88-128set
 mja-volvoVN660
 ボルボ VN660
 mja-Zil130-128set
-mja-Zil 130
+Zil 130
 MS_sprinter_mail
-スプリンター郵便バン
+スプリンター 郵便バン
 NovaBus_RTS-06_WFD
 Colonel's NovaBus RTS-06 WFD
 Pegaso_6038_InterCity
-ぺガソ 6038 インターシティ
+ぺガソ 6038 都市間バス
 Pegaso_6038_Urban
-ペガソ 6038 アーバン
+ペガソ 6038 路線バス
 Pegaso-Seida_5020_InterCity
-ペガソ・セイダ 5020 インターシティ
+ペガソ・セイダ 5020 都市間バス
 Pegaso-Seida_5020_Urban
-ペガソ・セイダ 5020 アーバン
+ペガソ・セイダ 5020 路線バス
 Planck_Truck_0
-Canonball 無蓋トラック (板材)
+Canonball 平ボディトラック (板材)
 Plank_Truck_2
-Tatra 815 板材用無蓋トラック
+タトラ 815 平ボディトラック (板材)
 PMNV_50_Mack
-PMNV Mack 1950年式
+Mack 1950年代型
 PMNV_Canonball_Car_Trailer
 Mack 車運トレーラー
 PMNV_Cement_Trailer_Slow
@@ -2985,7 +3013,7 @@ PMNV CT-2 セメントトレーラー
 PMNV_Cement_Truck_P
 PMNV CTr-2 セメントトラック
 PMNV_Concrete_Truck
-PMNV Mack コンクリートトラック
+Mack コンクリートトラック
 PMNV_Cruiser
 クルーザー
 PMNV_Cruiser_Mini
@@ -2993,9 +3021,9 @@ PMNV_Cruiser_Mini
 PMNV_Fabric_Trailer_0
 PMNV 繊維用有蓋トレーラー
 PMNV_Grain_Truck_0
-PMNV 旧型穀物輸送トラック
+PMNV 旧型穀物輸送車
 PMNV_Hydrogen_Cruiser
-PMNV 水素動力バス
+PMNV 水素燃料クルーザー
 PMNV_Mack_Bulk_Trailer_0
 PMNV Mack ばら荷トレーラー 22型
 PMNV_Mack_Cement_Trailer_L
@@ -3011,19 +3039,19 @@ PMNV Mack 混載トレーラー
 PMNV_Mack_Grain_Trailer_0
 PMNV Mack 穀物トレーラー
 PMNV_Mack_Grain_Trailer_O
-PMNV Mack 穀物トレーラー
+PMNV Mack 穀物トレーラー O型
 PMNV_Mack_Log_Trailer_L
-PMNV Mack 木材トレーラー L型
+PMNV Mack 原木トレーラー L型
 PMNV_Mack_Log_Trailer_M
-PMNV Mack 木材トレーラー M型
+PMNV Mack 原木トレーラー M型
 PMNV_Mack_Log_Trailer_S
-PMNV Mack 木材トレーラー S型
+PMNV Mack 原木トレーラー S型
 PMNV_Mack_Milk_Trailer_O
 PMNV Mack ミルクトレーラー
 PMNV_Mack_Oil_Trailer_L
-PMNV Mack オイルトレーラー L型
+PMNV Mack 石油トレーラー L型
 PMNV_Mack_Oil_Trailer_S
-PMNV Mack オイルトレーラー S型
+PMNV Mack 石油トレーラー S型
 PMNV_Mack_Planck_Trailer_0
 PMNV Mack 板材トレーラー
 PMNV_Mack_Post_Trailer_O
@@ -3049,7 +3077,7 @@ PMNV 板材トレーラー
 PMNV_Post_Trailer_0
 PMNV 郵便トレーラー
 PMNV_Steel_Trailer_0
-PMNV 鉄鋼用無蓋トレーラー
+PMNV 平ボディトレーラー (鉄鋼)
 PMNV-PB1970
 PMNV PB-1970
 Praga_Bus
@@ -3059,21 +3087,21 @@ Praga_N_bulk
 Praga_N_cement
 プラガ N型 セメントトラック
 Praga_N_Cistern
-プラガ N型 タンク車
+プラガ N型 (石油類)
 Praga_N_milk
-プラガ N型 ミルク輸送車
+プラガ N型 ミルク運搬車
 Praga_TOT_128
 チェコスロバキア プラハ市電 TOT
 RVg_1064_White_Bulk
-Rvg ホワイト1064 ばら荷トラック
+RVg ホワイト 1064 (ばら荷)
 RVg_1064_White_Cement
-Rvg ホワイト1064 セメントトラック
+RVg ホワイト 1064 (セメント)
 RVg_1064_White_Cooled
-Rvg ホワイト1064 冷蔵トラック
+RVg ホワイト 1064 (冷蔵)
 RVg_1064_White_Fluid
-Rvg ホワイト1064 タンクローリー
+RVg ホワイト 1064 (石油類)
 RVg_1064_White_Goods
-Rvg ホワイト1064 混載トラック
+RVg ホワイト 1064 (混載)
 RVg_Passanger_Trailer
 RVg-KS 旅客トレーラー
 RVg_Post_Trailer
@@ -3091,7 +3119,7 @@ RVg S型 タンクローリー
 RVg_Type_S_Post
 RVg S型 郵便車
 RVg_Type_S_Van
-RVg S型バン
+RVg S型 バン
 RVg-B_101
 RVg B22 リーガルバス
 RVg-B_107
@@ -3109,7 +3137,7 @@ RVg-KS 9020-58
 RVg-KS_9020-92
 RVg-KS 9020-92
 RVg-LK_Cement_Truck
-RVg-LK セメントトラック
+RVg-LK V44 セメントトラック
 RVg-LK_Cooling_Truck
 RVg-LK V44 冷蔵バン
 RVg-LK_Goods_Truck
@@ -3123,47 +3151,47 @@ RVg-LK V38 鉄鋼用トラック
 RX_1064
 RX 1064 バス
 S_Kroytor_Gaz-2
-S.Kroytor ガズ-2
+GAZ-2
 S_Kroytor_Gaz-3
-S.Kroytor ガズ-3
+GAZ-3
 S_Kroytor_Gaz-4
-S.Kroytor ガズ-4
+GAZ-4
 S_Kroytor_Ikarus-260
 イカルス 260
 S_Kroytor_Ikarus-260(l)
-イカルス　260 ライナー
+イカルス 260 ライナー
 S_Kroytor_Ikarus-280
-S.Kroytor Ikarus-280 (連接バス)
+イカルス 280
 S_Kroytor_Ikarus-280_ext
-S.Kroytor Ikarus-280 (連接バス後部)
+イカルス 280 (連節後部ユニット)
 S_Kroytor_LiAZ-5256
-S.Kroytor リアズ 5256
+リアズ 5256
 S_Kroytor_LiAZ-677
 リアズ 677
 S_Kroytor_Mercedes_Citaro
-S.Kroytor メルセデス・ベンツ シターロ
+メルセデス・ベンツ シターロ
 S_Kroytor_PAZ-672
-S.Kroytor パズ 672
+パズ 672
 S_Kroytor_PAZ-772
-S.Kroytor パズ 772
+パズ 772
 S_Kroytor_Traveler
 トラベラー
 Sentinel_Cement_Lorry
-Sindor-Sentinel セメントローリー
+センチネル セメントローリー
 Sentinel_Cement_Trailer
-Sentinel セメントトレーラー
+センチネル セメントトレーラー
 Sentinel_Goods_Lorry
-センチネル 蒸気貨物トラック
+センチネル 混載トラック
 Sentinel_Goods_Trailer
 センチネル 貨物トレーラー
 Sentinel_Wood_Lorry
-センチネル 材木用蒸気トラック
+センチネル 原木運搬トラック
 Sentinel_Wood_Trailer
-センチネル 材木トレーラー
+センチネル 原木トレーラー
 SK_Mail_Truck_1
 S.Kroytor 郵便トラック
 skoda_1_tr_128
-チェコ シュコダ  1Tr
+チェコ シュコダ 1Tr
 skoda_10_tr_128
 チェコ シュコダ 10Tr
 skoda_10_tr_rear_128
@@ -3207,63 +3235,63 @@ skoda_6_tr_128
 Skoda_706_grain
 チェコ シュコダ 706 穀物トラック
 Skoda_706_trailer_grain
-チェコ シュコダ S706用穀物トレーラー
+チェコ シュコダ 706 穀物用付随トレーラー
 skoda_8_tr_128
 チェコ シュコダ 8Tr
 skoda_sanos_115_tr_128
-チェコ シュコダ Sanos 115Tr
+チェコ シュコダ・サノス 115Tr
 skoda_sanos_200_tr_128
-チェコ シュコダ Sanos 200Tr
+チェコ シュコダ・サノス 200Tr
 skoda_sanos_200_tr_rear_128
-チェコ シュコダ Sanos 200Tr (後部)
+チェコ シュコダ・サノス 200Tr (後部)
 SMC_H-38_City_Bus
 SMC H-38 ミニバス
 SMC_H-98_City_Bus
 SMC H-98 シティーバス
 Steel_Truck_0
-PMNV 鉄鋼用無蓋トラック
+PMNV 平ボディトラック (鉄鋼)
 TATRA_400_T_128
-チェコスロバキア Tatra 400 T
+チェコスロバキア Tatra T 400
 TATRA_401_T_128
-チェコスロバキア Tatra 401 T
+チェコスロバキア Tatra T 401
 TATRA_86_T_128
-チェコスロバキア Tatra 86 T
+チェコスロバキア Tatra T 86
 TS_Mack_Bulk_Trailer_0
-軽ばら荷トレーラー
+Mack 軽量ばら荷トレーラー
 Twin_Coach_40
 Twin Coach 40
 Vitus-AVECO_Eurocargo_Bretter
-Vitus-Aveco ユーロカーゴ (板材)
+イヴェコ ユーロカーゴ (板材)
 Vitus-AVECO_Eurocargo_bulk_transporter
-Vitus-Aveco ユーロカーゴ (重ばら荷)
+イヴェコ ユーロカーゴ (重量ばら荷)
 Vitus-AVECO_Eurocargo_freezing
-Vitus-Aveco ユーロカーゴ (冷蔵車)
+イヴェコ ユーロカーゴ (冷蔵)
 Vitus-AVECO_Eurocargo_tanker
-Vitus-Aveco ユーロカーゴ (タンクローリー)
+イヴェコ ユーロカーゴ (タンクローリー)
 Vitus-AVECO_Eurocargo_transporter
-Vitus-Aveco ユーロカーゴ (混載貨物)
+イヴェコ ユーロカーゴ (混載)
 VSYS_Car_Trailer_0
-大型貨物トレーラー (自動車・作業機械用)
+重量物運搬トレーラー (車両・機械用)
 VSYS_Concrete_Trailer_0
-コンクリート製品輸送車
+コンクリート製品トレーラー
 VSYS_Post_Bus_Trailer_0
-VSYS 郵便トレーラー
+VSYS バス用郵便トレーラー
 VSYS_Post_Bus_Trailer_1
-VSYS 大型郵便トレーラー
+VSYS バス用大型郵便トレーラー
 VSYS_Post_Bus_Trailer_2
-VSYS 小型郵便トレーラー
+VSYS バス用小型郵便トレーラー
 VSYS_Steel_Trailer_0
-VSYS 大型貨物トレーラー(鋼鉄)
+VSYS 大型フラットトレーラー (鉄鋼)
 VSYS_Tatra_138
 Tatra 138
 VSYS_Tatra_138_Grain
 Tatra 138 (穀物)
 VSYS_Tatra_813_Clossus
-Tatra 813 "コロッサス"
+タトラ 813 "コロッサス"
 Wood_Trailer_0
 VSYS 木材トレーラー
 Wood_Truck_0
-ボルボ 木材輸送車
+ボルボ 原木運搬車
 Wood_Truck_1
 Ford V8 coe 材木トラック
 #________________________________vehicle - track________________________________
@@ -3281,11 +3309,11 @@ Bennhardt B-238 "フロッグ"
 1Dampflokomotive
 RVg 0-4-0T
 2000_Class
-Class 2000 (Australia) 先頭車両
+Class 2000 (Australia)
 2000_Class_Car
 Class 2000 客車
 2000_Class_Tail
-Class 2000 後部車両
+Class 2000 (後部車)
 2Diesellokomotive
 ドイツ国鉄 BR218
 3Bens186t
@@ -3297,9 +3325,9 @@ Class 620 (Australian)
 720_Railcar_Addon
 Class 720 (Australian)
 Autotransportwagen
-Cannonball 自動車運搬貨車
+Cannonball 自動車輸送車
 Big_Bretterwagen
-RVg 大型木材貨車
+RVg 大型板材輸送車
 BR-373_Back
 BR-373 ユーロスター (後方車)
 BR-373_BackCar
@@ -3311,25 +3339,25 @@ BR-373 "ユーロスター"
 BR-373_FrontCar
 BR-373 ユーロスター (前方客車)
 Bretterwagen
-BB 板材輸送貨車
+BB 板材輸送車
 Budd_Coach
-米国 バッド製客車
+米国バッド社 RPO 客車
 Budd_Lounge
 米国バッド社 RPO 食堂車
 Budd_Observation
-米国 バッド製後尾展望客車
+米国バッド社 展望ドーム客車
 Budd_RPO
-米国 バッド製郵便車
+米国バッド社 RPO (郵便)
 caboose_1
-RvG Caboose
+RvG 車掌車
 caboose_2
-RvG Caboose Multi
+RvG 車掌車 (汎用)
 caboose_3
-RvG Caboose Extra
+RvG 車掌車 (追加仕様)
 Car_Waggon_1
-RVg 自動車運送貨車
+RVg 自動車輸送車
 Car_Waggon_2
-RVg 大型自動車運搬貨車
+RVg 大型自動車輸送車
 CB_ALBATROS
 Skoda 498 "Albatros"
 CB_DB-130_8
@@ -3337,19 +3365,21 @@ CB_DB-130_8
 Cement_Carrier_Fast
 セメント貨車
 Cement_Waggon_0
-BB-PMNV セメント輸送貨車
+BB-PMNV セメント輸送車
 Cement_Waggon_1
 BB-PMNV セメント貨車
 Cementwagen
 SergeS セメントタンク車
+Ceres_Tender
+Ceres (テンダー車)
 CKD_749
 CKD 749
 CKD_750
 CKD 750
 Concretewagen
-PMNV コンクリート運搬貨車 12t
+PMNV コンクリートミキサー貨車 (12t)
 Concretewagen_1
-PMNV コンクリート運搬貨車 16t
+PMNV コンクリートミキサー貨車 (16t)
 Cooling_wagon_0
 Cannonball 保冷貨車
 Cooling_wagon_1
@@ -3357,27 +3387,27 @@ Cooling_wagon_1
 Cooling_wagon_2
 Cannonball 冷蔵貨車
 CPH_Motorcar
-CPH モーターカー (Australian)
+CPH形気動車 (Australian)
 DB_ADm101
-西ドイツ国鉄 ADm101
+西ドイツ国鉄 ADm101 (気動車)
 DB_Apmz121
 西ドイツ国鉄 Apmz121
 DB_Bm235
 西ドイツ国鉄 Bm235
 DB_BR103_1
-西ドイツ国鉄 BR103.1
+西ドイツ国鉄 BR103.1形電気機関車
 E_423
 Sindor E-432 - "Top class"
 EMD_E5A_Silver_Meteor
-米国EMD社 E5A形 - Silver Meteor
+米国EMD社 E5A "Silver Meteor"
 EMD_E5B_Silver_Comet
-米国EMD社 E5B形 - Silver Comet
+米国EMD社 E5B "Silver Comet"
 EMD-FT_(A)
-米国EMD社 FT形
+米国EMD社 FT (Aユニット)
 EMD-FT_(B)
-米国EMD社 FT形 (中間動力車)
+米国EMD社 FT (Bユニット)
 EMD-FT_(C)
-米国EMD社 FT形 (客車)
+米国EMD社 FT (Aユニット・後部)
 Evil_DF-11
 Evil DF-11
 Evil_P-100_(carriage)
@@ -3405,11 +3435,11 @@ CEPSA タンク車
 fluid_06_VTG_Tank_Wagon
 VTG タンク車
 fluid_07_Esso_XL_Tank_Wagon
-Esso XLタンク車
+Esso 大型タンク車
 fluid_08_VTG_CeSa_Tank_Wagon
 VTG CeSa タンク車
 Goods_waggon_0
-Canonball 有蓋貨車
+Cannonball 有蓋貨車
 Goods_waggon_1
 Cannonball 混載貨車
 Goods_waggon_2
@@ -3423,35 +3453,35 @@ RVg 有蓋貨車
 Haru_2C1_Cheetah
 Haru 2C1 "チーター"
 Haru_2D1_Buffalo
-Haru 2D1 Buffalo
+Haru 2D1 "Buffalo"
 Haru_C44-9W
-米 C44-9W - Dash
+米国GE社 C44-9W "Dash 9"
 Haru_DF4
 中国 東風4
 Haru_E3_KOMACHI
 JR東日本 E3系新幹線 こまち
 Haru_E3_KOMACHI_(mid)
-JR東日本 E3系新幹線 (中間電動車)
+JR東日本 E3系新幹線 (中間車)
 Haru_E3_KOMACHI_(rear)
-JR東日本 E3系新幹線 (後尾車)
+JR東日本 E3系新幹線 (後部車)
 Haru_E3_KOMACHI_(Trailer)
-JR東日本 E3系新幹線 (中間付随車)
+JR東日本 E3系新幹線 (付随車)
 Haru_F7A
-米国 EMD F7 A
+米国GM-EMD社 F7 (Aユニット)
 Haru_F7B
-米国 EMD F7 B
+米国GM-EMD社 F7 (Bユニット)
 Haru_HST
 イギリス国鉄 HST
 Haru_HST_mid
 イギリス国鉄 HST Mk-III客車
 Haru_HST_rear
-イギリス国鉄 HST 機関車 (後部)
+イギリス国鉄 HST (後部動力車)
 Haru_Spike-PSE_Head1
-フランス国鉄 TGV PSE (先頭機関車)
+フランス国鉄 TGV PSE (先頭動力車)
 Haru_Spike-PSE_Head2
-フランス国鉄 TGV PSE (先頭中間車)
+フランス国鉄 TGV PSE (先頭客車)
 Haru_Spike-PSE_Tail1
-フランス国鉄 TGV PSE (後部機関車)
+フランス国鉄 TGV PSE (後部動力車)
 Haru_Spike-PSE_Tail2
 フランス国鉄 TGV PSE (後部客車)
 Haru_Spike-PSE_Waggon
@@ -3463,51 +3493,59 @@ Haru_VT98
 Haru_VT98_car
 西ドイツ国鉄 VS98 (客車)
 Haru-373
-JR東海 373系特急形電車
+JR東海 373系電車
 Haru-373_car
-JR東海 373系特急形電車 (中間車)
+JR東海 373系 (中間客車)
 Haru-373_tail
-JR東海 373系特急形電車 (後尾車)
+JR東海 373系 (後部車)
 Haru-ACE1_Head
-ドイツ国鉄 ICE1 401形 (機関車)
+ドイツ国鉄 ICE1 (先頭動力車)
 Haru-ACE1_Tail
-ドイツ国鉄 ICE1 401 (後尾機関車)
+ドイツ国鉄 ICE1 (後部動力車)
 Haru-ACE1_Waggon1
-ドイツ国鉄 ICE1 802形 (客車)
+ドイツ国鉄 ICE1 (中間客車)
 Haru-ACE1_Waggon2
-ドイツ国鉄 ICE1 804形 (食堂車)
+ドイツ国鉄 ICE1 (ビュッフェ車)
 Haru-ACE1_Waggon3
 ドイツ国鉄 ICE1 (郵便車)
 Haru-BR182_Taurus
-ÖBB BR 1016 "Taurus"
+ÖBB 1016形電気機関車 "タウルス"
 Haru-IC3
-デンマーク国鉄 IC3 特急用気動車
+デンマーク国鉄 IC3 (先頭動力車)
 Haru-IC3_car
-デンマーク国鉄 IC3  (中間車)
+デンマーク国鉄 IC3 (中間客車)
 Haru-IC3_tail
-デンマーク国鉄 IC3 (後尾車)
+デンマーク国鉄 IC3 (後部動力車)
+Haru-IR4
+デンマーク国鉄 IR4 (先頭動力車・A車)
+Haru-IR4_carA
+デンマーク国鉄 IR4 (中間客車・B車)
+Haru-IR4_carB
+デンマーク国鉄 IR4 (中間客車・C車)
+Haru-IR4_tail
+デンマーク国鉄 IR4 (後部動力車・D車)
 Haru-PlanV
-オランダ鉄道 Plan V.
+オランダ国鉄 Plan V.
 Haru-PlanV(rear)
-オランダ鉄道 Plan V. (後部)
+オランダ国鉄 Plan V. (後部)
 Haru-PMNV_F7-Coach
-米 F7用客車
+米国GM-EMD社 F7形用客車
 Haru-PMNV_F7-Mail_Car
-米 F7用 郵便車
+米国GM-EMD社 F7形用郵便車
 Haru-TEM2
-ロシア TEM-2 入替用機関車
+ロシア TEM-2 入換用ディーゼル機関車
 Haru-X2000
-スウェーデン国鉄 X2000 特急列車
+スウェーデン国鉄 X2000 (先頭動力車)
 Haru-X2000_mid
 スウェーデン国鉄 X2000 (客車)
 Haru-X2000_rear
-スウェーデン国鉄 X2000 後部機関車
+スウェーデン国鉄 X2000 (後部機関車)
 Holzwagen
-木材運搬車
+原木輸送車
 Holzwagen_0
-RVg 双胴木材運搬車
+RVg 2連木材輸送車
 Holzwagen_1
-RVg 木材運搬車
+RVg 原木ホッパ貨車
 JNR_C11
 国鉄 C11
 JNR_C62
@@ -3527,11 +3565,11 @@ JR西日本 700系新幹線 (中間電動車 P1)
 JR_700_Shinkansen_HRS_(Pantograph_II)_PC
 JR西日本 700系新幹線 (中間電動車 P2)
 JR_700_Shinkansen_HRS_(Tailcar)_PC
-JR西日本 700系新幹線 (後尾車)
+JR西日本 700系新幹線 (後部車)
 LKAB_IORE_Back
-スウェーデン LKAB IORE形電気機関車 (後部)
+スウェーデン LKAB IORE形重連電気機関車 (後部)
 LKAB_IORE_Front
-スウェーデン LKAB IORE形電気機関車
+スウェーデン LKAB IORE形重連電気機関車
 MA461_waggon
 DB MA461 (客車)
 Marks_Passagierwagen
@@ -3541,35 +3579,35 @@ MJHN 急行用郵便車
 Marks-Deltic
 MJHN Deltic
 milk_00_bottled_milk_wagon
-牛乳用ボトル車
+ミルクボトル貨車
 milk_01_twin_barrel_wagon
-液体食品用樽付き車
+2連バレル式液体食品貨車
 milk_02_old_tank_wagon
-旧液体食品用タンク車
+旧型液体食品用タンク車
 milk_03_6_wheeled_milk_wagon
-6輪ミルク車
+3軸ミルクタンク車
 milk_04_rvg_early_milk_waggon
 牛乳タンク車
 milk_05_milk_waggon_1
 液体食品用タンク車
 milk_06_4_axle_milk_wagon
-液体食品用 4軸タンク車
+4軸液体食品用タンク車
 milk_07_milk_waggon_0
-冷凍タンク車
+冷蔵タンク貨車
 milk_08_bloomsburg_fair_milk_wagon
 Bloomsburg Fair タンク車
 milk_09_bordens_milk_wagon
-Bordens 牛乳タンク車
+Borden ミルクタンク車
 MTAB_Dm_Back
 MTAB Dm (後部客車)
 MTAB_Dm_Front
-MTAB Dm
+MTAB Dm形電気機関車
 MTAB_Dm3
 MTAB Dm3 (中間動力車)
 Passagierwagen
 Cannonball BTx 060 二等客車
 Passanger_waggon_0
-国鉄 鋼製客車 オハ31
+国鉄 オハ31 鋼製客車
 Passanger_waggon_1
 国鉄 オハフ50 普通客車
 Passanger_waggon_2
@@ -3579,11 +3617,11 @@ RA BTx 050 二等客車
 Passanger_waggon_MAITE39
 国鉄 マイテ39 一等展望車
 Pioneer_Zephyr
-Pioneer Zephyr
+パイオニア・ゼファー
 Pioneer_Zephyr_Car
 パイオニア・ゼファー (客車)
 Pioneer_Zephyr_Tail
-パイオニア・ゼファー (後部客車)
+パイオニア・ゼファー (後部展望車)
 Plank_waggon_0
 RVg 小型木材貨車
 Plank_waggon_1
@@ -3593,79 +3631,79 @@ PV 80 郵便車
 Postwagen
 Canonball 郵便車
 Renfe_250_(German)
-レンフェ250形電気機関車 "German"
+RENFE 250形電気機関車 "German"
 Renfe_252_Altaria
-レンフェ252形電気機関車 "Altaria"
+RENFE 252形電気機関車 "Altaria"
 Renfe_269_Altaria
-レンフェ269形電気機関車 "Japanese"
+RENFE 269形電気機関車 "Japanese"
 Renfe_270
-レンフェ270形電気機関車
+RENFE 270形電気機関車
 Renfe_274_(Bathtube)
-レンフェ274形電気機関車 "Bathtube"
+RENFE 274形電気機関車 "Bathtube"
 Renfe_276_(French)
-レンフェ276形電気機関車 "French"
+RENFE 276形電気機関車 "French"
 Renfe_279_(Benemerita)
-レンフェ279形電気機関車 "Benemérita"
+RENFE 279形電気機関車 "Benemérita"
 Renfe_310_(Coastguard)
-レンフェ310形ディーゼル機関車 "Coastguard"
+RENFE 310形ディーゼル機関車 "Coastguard"
 Renfe_319_(Yankie)
-レンフェ319形ディーゼル機関車 "Yankie"
+RENFE 319形ディーゼル機関車 "Yankie"
 Renfe_333_(Rambo)
-レンフェ333形ディーゼル機関車 "Rambo"
+RENFE 333形ディーゼル機関車 "Rambo"
 Renfe_340_(Egg)
-レンフェ340形ディーゼル機関車 "Egg"
+RENFE 340形ディーゼル機関車 "Egg"
 Renfe_438_Back
-レンフェ438形車両 (後部客車)
+RENFE 438形 (後部客車)
 Renfe_438_Front
-レンフェ438形電気機関車
+RENFE 438形 (先頭車)
 Renfe_440
-レンフェ440形電車
+RENFE 440形電車
 Renfe_440_Back
-レンフェ440形電車 (後部)
+RENFE 440形電車 (後部車)
 Renfe_440_Car
-レンフェ440形客車 (動力なし)
+RENFE 440形 (中間車)
 Renfe_447
-レンフェ447形電車
+RENFE 447形電車
 Renfe_447_Back
-レンフェ447形電車 (後部)
+RENFE 447形電車 (後部)
 Renfe_447_Car
-レンフェ447形客車 (動力なし)
+RENFE 447形 (中間車)
 Renfe_Series_10200_(Player_Colors)
-レンフェ10200形ディーゼル機関車
+RENFE 10200形入換機
 Renfe_Series_301_(Player_Colors)
-レンフェ301形ディーゼル機関車
+RENFE 301形入換機
 Renfe_Series_311_(Player_Colors)
-レンフェ311形ディーゼル機関車
+RENFE 311形ディーゼル機関車
 Renfe_Series_314_(Player_Colors)
-レンフェ314形ディーゼル機関車
+RENFE 314形ディーゼル機関車
 Renfe_Series_316_(Player_Colors)
-レンフェ316形ディーゼル機関車 "Marilyn"
+RENFE 316形ディーゼル機関車 "Marilyn"
 Renfe_Series_318_(Player_Colors)
-レンフェ318形ディーゼル機関車
+RENFE 318形ディーゼル機関車
 Renfe_Series_319.300_(Player_Colors)
-レンフェ319.300形ディーゼル機関車
+RENFE 319.300形ディーゼル機関車
 Renfe_Series_334_(Player_Colors)
-レンフェ334形ディーゼル機関車
+RENFE 334形ディーゼル機関車
 Renfe_Series_350_Talgo_(Player_Colors)
-レンフェ350形気動車 "Talgo"
+RENFE 350形タルゴ用ディーゼル機関車
 Renfe_Series_350_Talgo_Car_(Player_Colors)
-レンフェ350形客車 (付随車)
+RENFE タルゴII客車 (付随車)
 Renfe_Series_350_Talgo_Mail_Car_(Player_Colors)
-レンフェ350形郵便車 (付随車)
+RENFE タルゴII郵便車 (付随車)
 Renfe_Series_350_Talgo_Restaurant_Car_(Player_Colors)
-レンフェ350形 Talgo-II 食堂車
+RENFE タルゴII食堂車
 Renfe_Tgpps_Grain_Hopper
-レンフェ TGPPS 穀物貨車
+RENFE TGPPS 穀物貨車
 Renfe_Uagp_Grain_Hopper
-レンフェ UAGP 穀物貨車
+RENFE UAGP 穀物貨車
 Renfe_Z-2000_Car
-レンフェ Z-2000 客車
+RENFE Z-2000 客車
 Renfe_Z-2000_Mail_Car
-レンフェ Z-2000 郵便車
+RENFE Z-2000 郵便車
 Renfe6000_Post
-レンフェ6000形 郵便車
+RENFE 6000形 郵便車
 Renfe6000_Psg
-レンフェ6000形 客車
+RENFE 6000形 客車
 RVg_0-1-4-0
 RVg 0-1-4-0
 RVg_1945_box_car
@@ -3711,33 +3749,33 @@ RVg セメント貨車
 RVg_Cooling_car
 RVg 冷蔵車
 RVg_Daylight
-米サザンパシフィック 急行Daylight号 (機関車)
+米サザンパシフィック Daylight号 (機関車)
 RVg_Daylight_dome
 米サザンパシフィック Daylight号 (食堂車)
 RVg_Daylight_end
 米サザンパシフィック Daylight号 (後尾車)
 RVg_Daylight_post
-米サザンパシフィック 急行Daylight号 (郵便車)
+米サザンパシフィック Daylight号 (郵便車)
 RVg_Daylight_tender
-米サザンパシフィック 急行Daylight号 (炭水車)
+米サザンパシフィック Daylight号 (炭水車)
 RVg_Daylight_waggon
-米サザンパシフィック 急行Daylight号 (客車)
+米サザンパシフィック Daylight号 (客車)
 RVg_Flying_Berliner_(front)
 RVg "Flying Berliner" (前部)
 RVg_Flying_Berliner_(tail)
 RVg "Flying Berliner" (後部)
 RVg_Hiawatha
-米ミルウォーキー鉄道 急行Hiawatha号 (機関車)
+米ミルウォーキー鉄道 Hiawatha Express号 (機関車)
 RVg_Hiawatha_dome
-米ミルウォーキー鉄道 急行Hiawatha号 (ドーム展望車)
+米ミルウォーキー鉄道 Hiawatha Express号 (ドーム展望車)
 RVg_Hiawatha_end
-米ミルウォーキー鉄道 急行Hiawatha号 (最後尾客車)
+米ミルウォーキー鉄道 Hiawatha Express号 (最後尾客車)
 RVg_Hiawatha_post
-米ミルウォーキー鉄道 急行Hiawatha号 (郵便車)
+米ミルウォーキー鉄道 Hiawatha Express号 (郵便車)
 RVg_Hiawatha_tender
-米ミルウォーキー鉄道 急行Hiawatha号 (炭水車)
+米ミルウォーキー鉄道 Hiawatha Express号 (炭水車)
 RVg_Hiawatha_waggon
-米ミルウォーキー鉄道 急行Hiawatha号 (客車)
+米ミルウォーキー鉄道 Hiawatha Express号 (客車)
 RVg_M1
 RVg M1 (前部機関車)
 RVg_M1_tail
@@ -3749,13 +3787,13 @@ RVg 2-4-0 "エクスプレス"
 RVg_R-100_(carriage)
 RVg R-100 (客車)
 RVg_R-100_(front_engine)
-RVg R-100
+RVg R-100 (先頭動力車)
 RVg_R-100_(mail)
 RVg R-100 (郵便車)
 RVg_R-100_(rear_engine)
 RVg R-100 (後部動力車)
 RVg_Spike_Duplex
-フランス国鉄 TGV Duplex
+フランス国鉄 TGV Duplex (先頭動力車)
 RVg_Spike_Duplex_tail
 フランス国鉄 TGV Duplex (後部機関車)
 RVg_Spike_Duplex_waggon
@@ -3797,9 +3835,9 @@ RVg D23 "Camel"
 RVg-D41-Tubus
 RVg D41 "Tubus"
 RVg-DB_MA461
-RVg-DB MA-461
+DB MA-461
 RVg-DB_MA461_Tail
-RVg-DB MA-461 (後部)
+DB MA-461 (後部)
 RVg-E17-Spring
 RVg E17 "Spring"
 RVg-Express_Tender
@@ -3809,7 +3847,7 @@ RVg 有蓋車
 RVg-Heavy-Tender
 RVg 大型炭水車
 RVg-Oil-Tender
-RVg オイル・テンダー
+RVg 重油専用炭水車 (オイルテンダー)
 RVg-Pioneer_Alladin
 RVg Pioneer Alladin
 RVg-Pioneer_Alladin_rear
@@ -3827,11 +3865,11 @@ RVg S033 "レッドドワーフ"
 RVg-S127-Blue_Cow
 RVg S127 "ブルーカウ"
 RVg-Tender
-RVg テンダー
+RVg 炭水車
 SBB_Re4_4_II
 スイス国鉄 Re 4/4 II
 SBB_Re6_6
-スイス国鉄 Re 6/6 - "Gotthardlok"
+スイス国鉄 Re 6/6 "Gotthardlok"
 Silver_City_Comet
 豪州 Silver City Comet
 Silver_City_Comet_Car
@@ -3847,7 +3885,7 @@ skoda163
 skoda180
 チェコ シュコダ 180 電気機関車
 SMC_Early_Grain_Hopper
-短穀物ホッパ車
+SMC 短尺穀物ホッパ車
 SMC_HDL-1400
 SMC HDL-1400
 SMC_HDL-1600
@@ -3863,9 +3901,9 @@ SMC HDL-3000
 SMC_HDL-4000
 SMC HDL-4000
 SMC_Long_Grain_Hopper
-SMC 長穀物ホッパ車
+SMC 長尺穀物ホッパ車
 SMC_Medium_Grain_Car
-SMC 穀物袋車
+SMC 穀物袋輸送貨車 (中型)
 SMC_RT-100_Ugly_Duck
 米国 SEPTA Route 100 "Ugly Duck"
 SMC_RT-101_(car)
@@ -3901,7 +3939,7 @@ SMC_RT-902_(mail_car)
 SMC_RT-909_(back_engine)
 米国 SEPTA Route 909 (後部客車)
 SMC_Short_Grain_Car
-SMC 穀物袋車
+SMC 穀物袋輸送貨車 (短型)
 SMC_XT-1000_Proto_Duck
 SMC XT-1000 "ProtoDuck"
 SMC_XT-1001_(passenger_car)
@@ -3935,149 +3973,153 @@ SMC XT-702 (郵便車)
 SMC_XT-709_(back_engine)
 SMC XT-709 (後部客車)
 Stahlwagen
-Cannonball 鉄鋼輸送貨車
+Cannonball 鋼製平貨車 (鉄鋼)
 Stahlwagen_0
 Cannonball 鉄鋼輸送貨車
 Stahlwagen_1
 RVg 鉄鋼輸送貨車
 Stahlwagen_2
-RVg 1880年式鉄鋼貨車
+RVg 鋼材コイル輸送車
 Stahlwagen_3
-RVg 1912年式鉄鋼貨車
+RVg 鋼板輸送用平車
 TalgoExpressCar
-スペイン Talgo 急行列車 (客車)
+スペイン タルゴ・エクスプレス客車
 TalgoExpressMail
-スペイン Talgo 急行列車 (郵便車)
+スペイン タルゴ・エクスプレス郵便車
 TalgoExpressRestaurant
-スペイン Talgo 急行列車 (食堂車)
+スペイン タルゴ・エクスプレス食堂車
 TalgoRegionalCar
-スペイン Talgo 地域限定列車 (客車)
+スペイン タルゴ・リージョナル客車
 TalgoRegionalMail
-スペイン Talgo 地域限定列車 (郵便車)
+スペイン タルゴ・リージョナル郵便車
 TGV_4400
-フランス国鉄 TGV4400
+フランス国鉄 TGV 4400
 TGV_4400_Back
-フランス国鉄 TGV4400 (後部)
+フランス国鉄 TGV 4400 (後部)
 TGV_4400_Car
-フランス国鉄 TGV4400 (客車)
+フランス国鉄 TGV 4400 (客車)
 TGV_Atlantique
-フランス国鉄 TGVアトランティック
+フランス国鉄 TGV アトランティック
 TGV_Atlantique_(Back)
-フランス国鉄 TGVアトランティック (後部)
+フランス国鉄 TGV アトランティック (後部)
 TGV_Atlantique_(Car)
-フランス国鉄 TGVアトランティック (客車)
+フランス国鉄 TGV アトランティック (客車)
 TGV_Post
-フランス国鉄 TGV 郵便列車
+フランス国鉄 TGV La Poste
 TGV_Post_Back
-フランス国鉄 TGV 郵便列車 (後部)
+フランス国鉄 TGV La Poste (後部)
 TGV_Post_Car_A
-フランス国鉄 TGV 郵便列車 (貨車 A)
+フランス国鉄 TGV La Poste (貨車 A)
 TGV_Post_Car_B
-フランス国鉄 TGV 郵便列車 (貨車 B)
+フランス国鉄 TGV La Poste (貨車 B)
 Thunder_(front_engine)
 BB Thunder
 Thunder_(mail)
 BB Thunder (郵便車)
 Thunder_(rear_engine)
-BB Thunder (後部機関車)
+BB Thunder (後部動力車)
 Thunder_(waggon)
 BB Thunder (客車)
 TMB_Class_100
-バルセロナ地下鉄 TMB100形
+バルセロナ地下鉄 TMB 100形
 TMB_Class_1000
-バルセロナ地下鉄 TMB1000形
+バルセロナ地下鉄 TMB 1000形
 TMB_Class_2000
-バルセロナ地下鉄 TMB2000形
+バルセロナ地下鉄 TMB 2000形
 TMB_Class_2000_Car
-バルセロナ地下鉄 TMB1000形 (客車)
+バルセロナ地下鉄 TMB 2000形 (客車)
 TMB_Class_200A
-バルセロナ地下鉄 TMB200A形
+バルセロナ地下鉄 TMB 200A形
 TMB_Class_200B
-バルセロナ地下鉄 TMB200B形
+バルセロナ地下鉄 TMB 200B形
 TMB_Class_200B_Car
-バルセロナ地下鉄 TMB200B形 (客車)
+バルセロナ地下鉄 TMB 200B形 (客車)
 TMB_Class_300
-バルセロナ地下鉄 TMB300形
+バルセロナ地下鉄 TMB 300形
 TMB_Class_300_Car
-バルセロナ地下鉄 TMB300形 (客車)
+バルセロナ地下鉄 TMB 300形 (客車)
 TMB_Class_3000
-バルセロナ地下鉄 TMB3000形
+バルセロナ地下鉄 TMB 3000形
 TMB_Class_3000_Back
-バルセロナ地下鉄 TMB3000形 (後部)
+バルセロナ地下鉄 TMB 3000形 (後部)
 TMB_Class_3000_Car
-バルセロナ地下鉄 TMB3000形 (客車)
+バルセロナ地下鉄 TMB 3000形 (客車)
 TMB_Class_400
-バルセロナ地下鉄 TMB400形
+バルセロナ地下鉄 TMB 400形
 TMB_Class_400_Car
-バルセロナ地下鉄 TMB400形 (客車)
+バルセロナ地下鉄 TMB 400形 (客車)
 TMB_Class_500
-バルセロナ地下鉄 TMB500形
+バルセロナ地下鉄 TMB 500形
 TMB_Class_500_Car
-バルセロナ地下鉄 TMB500形 (客車)
+バルセロナ地下鉄 TMB 500形 (客車)
 TMB_Class_6000
-バルセロナ地下鉄 TMB6000形
+バルセロナ地下鉄 TMB 6000形
 TMB_Class_6000_Back
-バルセロナ地下鉄 TMB6000形 (後部)
+バルセロナ地下鉄 TMB 6000形 (後部)
 TMB_Class_6000_Car
-バルセロナ地下鉄 TMB6000形 (客車)
+バルセロナ地下鉄 TMB 6000形 (客車)
 TMB_Class_6000_Powered_Car
-バルセロナ地下鉄 TMB6000形 (動力客車)
+バルセロナ地下鉄 TMB 6000形 (動力客車)
 vsys_garatt_0
-ガーラット型 2DD2 (前部)
+ガーラット 2DD2 (前部)
 vsys_garatt_1
-ガーラット型 2DD2 (中央部)
+ガーラット 2DD2 (中央部)
 vsys_garatt_2
-ガーラット型 2DD2 (後部)
+ガーラット 2DD2 (後部)
 VT105_Addon
 ドイツ連邦鉄道 VT 10.5
 VT105_Car_Addon
 ドイツ連邦鉄道 VT 10.5 (客車)
 VT105_Tail_Addon
 ドイツ連邦鉄道 VT 10.5 (後尾車)
+Western_Observation
+Western (展望車)
+Western_Passenger_Car
+Western (客車)
 #_____________________________vehicle - tram_track______________________________
 #_____________________________vehicle - tram_track______________________________
 Citadis302_Le_Mans_1
-アルストム社 シタディス302 (Le Mans 1)
+アルストム シタディス 302 (Le Mans)
 Citadis302_Le_Mans_2
-アルストム社 シタディス302 (Le Mans 2)
+アルストム シタディス 302 (Le Mans, 2)
 Citadis302_Le_Mans_3
-アルストム社 シタディス302 (Le Mans 3)
+アルストム シタディス 302 (Le Mans, 3)
 Citadis302_Le_Mans_4
-アルストム社 シタディス302 (Le Mans 4)
+アルストム シタディス 302 (Le Mans, 4)
 Citadis302_Le_Mans_5
-アルストム社 シタディス302 (Le Mans 5)
+アルストム シタディス 302 (Le Mans, 5)
 Citadis302_Le_Mans_long_version_402
-アルストム社 シタディス302 (Le Mans 402)
+アルストム シタディス 302 (Le Mans, 402型延長仕様)
 Citadis302_Reims_back
-アルストム社 シタディス302 Reims (後部)
+アルストム シタディス 302 Reims (後部)
 Citadis302_Reims_front
-アルストム社 シタディス302 Reims (前部)
+アルストム シタディス 302 Reims (前部)
 Citadis302_Reims_pantograph
-アルストム社 シタディス302 Reims (集電部)
+アルストム シタディス 302 Reims (集電部)
 Citadis302_Reims_suspended
-アルストム社 シタディス302 Reims (付随車)
+アルストム シタディス 302 Reims (付随車)
 Citadis402_Bordeaux_1
-アルストム社 シタディス402 (Bordeaux 1)
+アルストム シタディス 402 (Bordeaux)
 Citadis402_Bordeaux_2
-アルストム社 シタディス402 (Bordeaux 2)
+アルストム シタディス 402 (Bordeaux, 2)
 Citadis402_Bordeaux_3
-アルストム社 シタディス402 (Bordeaux 3)
+アルストム シタディス 402 (Bordeaux, 3)
 Citadis402_Bordeaux_4
-アルストム社 シタディス402 (Bordeaux 4)
+アルストム シタディス 402 (Bordeaux, 4)
 Citadis402_Bordeaux_5
-アルストム社 シタディス402 (Bordeaux 5)
+アルストム シタディス 402 (Bordeaux, 5)
 Citadis402_Bordeaux_6
-アルストム社 シタディス402 (Bordeaux 6)
+アルストム シタディス 402 (Bordeaux, 6)
 Citadis402_Bordeaux_7
-アルストム社 シタディス402 (Bordeaux 7)
+アルストム シタディス 402 (Bordeaux, 7)
 Citadis402_Tours_back
-アルストム社 シタディス402 Tours (後部)
+アルストム シタディス 402 Tours (後部)
 Citadis402_Tours_front
-アルストム社 シタディス402 Tours (前部)
+アルストム シタディス 402 Tours (前部)
 Citadis402_Tours_motor
-アルストム社 シタディス402 Tours (動力部)
+アルストム シタディス 402 Tours (動力部)
 Citadis402_Tours_suspended
-アルストム社 シタディス402 Tours (付随車)
+アルストム シタディス 402 Tours (付随車)
 DueWAG_GT6_motorwaggon
 Duewag GT6
 DueWAG_GT6_tailwaggon
@@ -4085,17 +4127,17 @@ Duewag GT6 (客車)
 EM400_1
 Sindor-FK EM400
 Fretadis_frigo_long
-Fretadis 長 (冷蔵)
+Fretadis 冷蔵トラム (ロング)
 Fretadis_frigo_short
-Fretadis 短 (冷蔵)
+Fretadis 冷蔵トラム (ショート)
 Fretadis_goods_long
-Fretadis 長 (混載)
+Fretadis 混載トラム (ロング)
 Fretadis_goods_short
-Fretadis 短 (混載)
+Fretadis 混載トラム (ショート)
 Fretadis_postal_long
-Fretadis 長 (郵便)
+Fretadis 郵便トラム (ロング)
 Fretadis_postal_short
-Fretadis 短 (郵便)
+Fretadis 郵便トラム (ショート)
 Haru_Tatra-T3
 チェコ タトラ T3
 MHz_TRAM_1930
@@ -4113,11 +4155,11 @@ RVg T102
 T_103
 RVg T103
 T_104
-RVg T104
+RVg T104 標準型トラム
 T_105
 RVg T105
 T_106
-RVg T106 - シティトラム
+RVg T106 シティトラム
 T_107A
 RVg T107
 T_107B
@@ -4131,75 +4173,75 @@ RVg T109
 T_109B
 RVg T109 (後部)
 T_110A
-RVg T110 - スーパートラム
+RVg T110 スーパートラム
 T_110B
 RVg T110 (後部)
 T_202_Cityway_A
-アルストム シティウェイ T-202
+アルストム T-202 シティウェイ
 T_202_Cityway_B0
-アルストム シティウェイ T-202 (B)
+アルストム T-202 シティウェイ (B)
 T_202_Cityway_B1
-アルストム シティウェイ T-202 (B1)
+アルストム T-202 シティウェイ (B1)
 T_202_Cityway_C0
-アルストム シティウェイ T-202 (C)
+アルストム T-202 シティウェイ (C)
 T_202_Cityway_C1
-アルストム シティウェイ T-202 (C1)
+アルストム T-202 シティウェイ (C1)
 T_202_Cityway_D
-アルストム シティウェイ T-202 (D)
+アルストム T-202 シティウェイ (D)
 T_202_Cityway_E0
-アルストム シティウェイ T-202 (E)
+アルストム T-202 シティウェイ (E)
 T_202_Cityway_E1
-アルストム シティウェイ T-202 (E1)
+アルストム T-202 シティウェイ (E1)
 T_211_Eurotram_A
-ボンバルディア ユーロトラム T-211
+ボンバルディア T-211 ユーロトラム
 T_211_Eurotram_B
-ボンバルディア ユーロトラム T-211 (B)
+ボンバルディア T-211 ユーロトラム (B)
 T_211_Eurotram_C
-ボンバルディア ユーロトラム T-211 (C)
+ボンバルディア T-211 ユーロトラム (C)
 T_211_Eurotram_D
-ボンバルディア ユーロトラム T-211 (D)
+ボンバルディア T-211 ユーロトラム (D)
 T_211_Eurotram_E
-ボンバルディア ユーロトラム T-211 (E)
+ボンバルディア T-211 ユーロトラム (E)
 T_212_Sirio_A
-アンサルドブレーダ シーリオ T-212
+アンサルドブレーダ T-212 シリオ
 T_212_Sirio_B
-アンサルドブレーダ シーリオ T-212 (B)
+アンサルドブレーダ T-212 シリオ (B)
 T_212_Sirio_C
-アンサルドブレーダ シーリオ T-212 (C)
+アンサルドブレーダ T-212 シリオ (C)
 T_212_Sirio_D
-アンサルドブレーダ シーリオ T-212 (D)
+アンサルドブレーダ T-212 シリオ (D)
 T_212_Sirio_E
-アンサルドブレーダ シーリオ T-212 (E)
+アンサルドブレーダ T-212 シリオ (E)
 T_221_Combino_A
-シーメンス コンビーノ T-221
+シーメンス T-221 コンビーノ
 T_221_Combino_B
-シーメンス コンビーノ T-221 (B)
+シーメンス T-221 コンビーノ (B)
 T_221_Combino_C
-シーメンス コンビーノ T-221 (C)
+シーメンス T-221 コンビーノ (C)
 T_221_Combino_D
-シーメンス コンビーノ T-221 (D)
+シーメンス T-221 コンビーノ (D)
 T_221_Combino_E
-シーメンス コンビーノ T-221 (E)
+シーメンス T-221 コンビーノ (E)
 T_222_Combino_Supra_A
-シーメンス コンビーノ・プラス T-222
+シーメンス T-222 コンビーノ・スープラ
 T_222_Combino_Supra_B
-シーメンス コンビーノ・プラス T-222 (B)
+シーメンス T-222 コンビーノ・スープラ (B)
 T_222_Combino_Supra_C
-シーメンス コンビーノ・プラス T-222 (C)
+シーメンス T-222 コンビーノ・スープラ (C)
 T_222_Combino_Supra_D
-シーメンス コンビーノ・プラス T-222 (D)
+シーメンス T-222 コンビーノ・スープラ (D)
 T_222_Combino_Supra_E
-シーメンス コンビーノ・プラス T-222 (E)
+シーメンス T-222 コンビーノ・スープラ (E)
 #________________________________vehicle - water________________________________
 #________________________________vehicle - water________________________________
 Black_Osprey
 米国 Black Osprey (鉄鋼)
 Black_Osprey_(goods)
-米国 Black Osprey (貨物)
+米国 Black Osprey (混載)
 Black_Osprey_(grain)
 米国 Black Osprey (穀物)
 brick_goelette
-ハーマフロダイトブリッグ
+ハーマフロダイト・ブリッグ
 brigantin
 ブリガンティン
 British_Premier
@@ -4213,35 +4255,35 @@ Edmund Fitzgerald (鉄鋼)
 Edmund_Fitzgerald_(wood)
 Edmund Fitzgerald (木材)
 Ferry_Mail_Extension_(small)
-フェリー用郵便拡張 (小型)
+フェリー用郵便拡張 (小)
 Ferry_yeu_128set
-Oggia Ferry
+Oggia フェリー
 Fishing_Boat_1
-漁船
+トロール漁船
 Liner_Mail_Extension_(large)
-フェリー用郵便拡張 (大型)
+フェリー用郵便拡張 (大)
 MHz-C11C_Bulk_Barge
-MHz C11C 石炭バージ
+MHz C11C ばら積みバージ
 MHz-C11C_Wood_Barge
 MHz C11C 木材バージ
 MHz-C273U_Cement_Barge
-MHz-C273U セメントバージ
+MHz C273U セメントバージ
 MHz-C35_Goods_Barge
-MHz-C35 混載貨物バージ
+MHz C35 混載貨物バージ
 MHz-C3P_Post_Barge
-MHz-C3P 郵便バージ
+MHz C3P 郵便バージ
 MHz-CC47_Container_Barge
-CC47 コンテナバージ (混載)
+Mhz CC47 コンテナバージ
 MHz-MT7_Milk_Barge
 MHz MT7 ミルクバージ
 MHz-OT5_Oil_Barge
-OT5 石油類バージ
+MHz OT5 石油バージ
 MHz-P11C_Bulk_Boat
-P11C 石炭ボート
+MHz P11C バルクボート
 MHz-P11C_Wood_Boat
 MHz P11C 木材ボート
 MHz-R2A_Push-Tug
-R2A タグボート
+MHz R2A プッシャー
 MV_Balmoral
 MV Balmoral
 MV_Fedra
@@ -4251,11 +4293,11 @@ MV Lake Illawarra (ばら荷)
 MV_Lake_Illawarra_(grain)
 MV Lake Illawarra (穀物)
 New_Zealand_Star
-ニュージーランドスター (冷凍)
+ニュージーランド・スター (冷蔵)
 Nordic_Heron
-デンマーク Nordic Heron号 (石油類)
+Nordic Heron (石油類)
 Nordic_Heron_(liquid_food)
-デンマーク Nordic Heron号 (牛乳)
+Nordic Heron (牛乳)
 Owari_Maru
 尾張丸
 Patagonia
@@ -4307,55 +4349,57 @@ Suspended_Monorail_Track
 #__________________________________way - power__________________________________
 #__________________________________way - power__________________________________
 PowerConduits
-電線
+地下送電用コンジット
 Powerline
 高圧送電線
 #__________________________________way - road___________________________________
 #__________________________________way - road___________________________________
+CityRoad_030
+市街地道路
 Highway_110
 高速道路
 Highway_110_Elevated
-高速道路高架 (3連コンクリート柱)
+高速道路用3柱式コンクリート高架
 Highway_130
-高速道路 (ガードレール)
+ガードレール付き高速道路
 Highway_130_Elevated
-高速道路高架 (二重コンクリート柱)
+高速道路用双柱式コンクリート高架
 Highway_200
-高速道路 (バリア)
+超高速道路 (防護壁付)
 Highway_200_Elevated
-高速道路高架 (二重傾斜コンクリート柱)
+超高速道路用V脚高架
 Road_030
-未舗装道路
+未舗装路
 Road_040
-石畳の道路
+石畳の道
 Road_040_Elevated
-石畳の高架道路
+石造り高架道路 (石畳)
 Road_050
-アスファルト舗装道路
+近代型市街地道路
 Road_050_Elevated
-アスファルト舗装の高架道路
+近代型市街地高架道路
 Road_055
 砂利道
 Road_070
-アスファルト舗装道路
+近代型舗装道路
 Road_090
-現代風アスファルト舗装道路
+近代型アスファルト道路
 Road_090_Elevated
-アスファルト舗装の高架道路
+近代型アスファルト高架道路
 #__________________________________way - track__________________________________
 #__________________________________way - track__________________________________
 Rail_060_Tracks
-貨物線用旧型軌道
+貨物線用軌道 (古風)
 Rail_080_Tracks
-旧型軌道 (木製枕木)
+木製枕木軌道 (古風)
 Rail_080B_Tracks
 貨物線用軌道
 Rail_100_Elevated
 石柱高架
 Rail_100_Tracks
-標準軌道 (木製枕木)
+木製枕木軌道
 Rail_120_Elevated
-アーチ形高架 (木製枕木)
+石造アーチ高架 (木製枕木軌道)
 Rail_120_Tracks
 木製枕木軌道 (高規格)
 Rail_120b_Elevated
@@ -4363,37 +4407,37 @@ Rail_120b_Elevated
 Rail_120B_Tracks
 貨物線用軌道 (高規格)
 Rail_140_Elevated
-アーチ形高速高架 (石ブロック)
+石造ブロックアーチ高架 (急行線用)
 Rail_140_Tracks
-高速軌道 (グレーバラスト、木製枕木)
+高速木製枕木軌道 (灰色バラスト)
 Rail_160_Elevated
-アーチ形高速高架 (厚コンクリート)
+厚型コンクリート高架 (急行線用)
 Rail_160_Tracks
-強化高速軌道
+高速専用線 (スラブ・高規格仕様)
 Rail_180_Elevated
-地域サービス線用ラーメン高架 (薄肉コンクリート)
+薄型コンクリート高架 (地方・普通線用)
 Rail_180_Tracks
-地域サービス線用軌道
+地域路線用軌道
 Rail_200_Elevated
-高速トラス式高架 (鉄骨)
+鋼鉄製高架 (急行線用)
 Rail_200_Tracks
-高速軌道 (ホワイトバラスト)
+高速軌道 (白バラスト)
 Rail_240_Elevated
-トラス式高架 (鉄骨)
+鉄骨トラス高架 (急行線用)
 Rail_240_Tracks
-高速軌道 (ホワイトバラスト、高規格)
+次世代高速専用線 (高規格仕様, 白バラスト)
 Rail_280_Elevated
-高速高架 (コンクリートトラフ)
+U型コンクリート高架 (高速線用)
 Rail_280_Tracks
 高速軌道 (砂利バラスト)
 Rail_320_Elevated
-ラーメン形高速高架 (コンクリートフレーム)
+コンクリートラーメン高架 (高速線用)
 Rail_320_Tracks
-高速軌道 (コンクリートスラブバラスト)
+高速スラブ軌道
 Rail_400_Elevated
-高速高架 (コンクリート管フレーム)
+円柱ラーメン高架 (高速線用)
 Rail_400_Tracks
-高速軌道 (コンクリートスラブバラスト、高規格)
+次世代無道床高速専用線 (最新型スラブ仕様)
 Rail_60_Elevated
 トラス式高架
 Rail_80_Elevated
@@ -4401,37 +4445,37 @@ Rail_80_Elevated
 Rail_80B_Elevated
 コンクリート高架
 Tram_Track_050_A
-市電軌道
+路面軌道
 Tram_Track_070_A
-市電軌道 (塗装)
+カラー舗装路面軌道
 Tram_Track_070_B
-市電軌道
+舗装路面軌道
 Tram_Track_090_A
-市電軌道 (塗装)
+カラー舗装路面軌道
 Tram_Track_090_B
-市電軌道
+舗装路面軌道
 Tram_Track_110_A
-市電軌道 (高速)
+高速路面軌道
 #__________________________________way - water__________________________________
 #__________________________________way - water__________________________________
 canal_020
-運河 (狭い)
+内陸用細運河 (狭幅)
 canal_030
 運河
 river_0a
 小川 (航行不能)
 river_0b
-河 (航行不能)
+川 (航行不能)
 river_10
-小川 (可航)
+小河川 (可航)
 river_20
-河川 (可航)
+中河川 (可航)
 river_30
 大河 (可航)
 #_______________________________way-object - air________________________________
 #_______________________________way-object - air________________________________
 modern_runway-extMrkLgt
-灯火類 (景観用)
+滑走路用マーカーライト
 #_______________________________way-object - road_______________________________
 #_______________________________way-object - road_______________________________
 trolleybus_catenary
@@ -4439,36 +4483,36 @@ trolleybus_catenary
 #______________________________way-object - track_______________________________
 #______________________________way-object - track_______________________________
 classic_catenary
-貨物線用架線 (カテナリー, パイロン)
+貨物線用架線 (鉄塔)
 classic_metal_mesh_catenary
-特急用架線 (パイロン、ガントリ)
+高速架線 (トラス鉄塔架線柱)
 curved_pylon_lgv
-高速架線 (湾曲型鉄塔)
+超高速架線 (LGV式曲柱)
 grey_type_catenary
-特急用架線 (灰色)
+高速架線 (グレー標準型)
 highspeed_catenary
-高速架線 (ポール)
+超高速架線 (コンクリート単柱)
 ogive_midi_catenary
-特急用架線 (リブガントリー）
+高速架線 (Midi式リブ門型架線柱)
 overhead_feeding_rail
-特急用架線 (ワイドポール)
+高速架線 (剛体架線・ワイド支柱)
 plastic_covered_third_rail
 第三軌条 (プラスチックカバー)
 steel_gantry_catenary
-鉄骨架線
+近郊用架線 (スチール門型架線柱)
 third_rail
-第三軌条
+第三軌条 (カバーなし)
 wood_covered_third_rail
 第三軌条 (木製カバー)
 wood_gantry_catenary
-初期型架線 (木製ガントリー)
+初期型架線 (木製門型)
 #____________________________way-object - tram_track____________________________
 #____________________________way-object - tram_track____________________________
 tramway_aps
-路面電車架線 (APS)
+無架線 (APS方式)
 tramway_classic
-路面電車架線 (カテナリー, ケーブル吊り)
+路面電車架線 (架空吊架線方式)
 tramway_classic_2
-路面電車架線 (カテナリー, ポール吊り)
+路面電車架線 (支柱支持方式)
 tramway_modern
-市電架線
+近代化路面電車架線 (LRT仕様)

@@ -9,7 +9,7 @@
 #                            Language: pt Portugues                            #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 4.01 2025                           #
+#                            Date Created: 8.03 2026                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -378,6 +378,8 @@ Mais outra fábrica de napa\ncom textura de mármore\ncinza. Porém aqui produzem\n
 #________________________________building - mon_________________________________
 DenkFlor
 Monumento a Flor 'WF Ultd.' Wauters.\n\nEsse famoso engenheiro criou\nmuitos veículos ferroviários\ne rodoviários. Também é bem\nreputado por projetar\nfábricas de alto\ndesempenho. \n
+denkforum
+Misericordiosa Senhora do Fórum\n\nQue todas as suas mensagens sejam lidas,\nque obtenha sempre respostas úteis,\ne que nunca irrite o nosso "Benvolent Dictator".
 DenkGeorg
 Monumento 'Obrigado MHz!'\n\nEste monumento é dedicado\nao famoso arquiteto Georg,\ntambém conhecido como\ncomo MHz, que projetou\nmuitos edifícios ao redor\ndo mundo. Ele também\nprojetou alguns veículos\nexcepcionais.\n
 DenkHajo
@@ -392,6 +394,8 @@ DenkSeth
 Este lugar é dedicado\na Seth C. Triggs, o\nfamoso arquiteto que\nprojetou tantos belos\nedifícios. Também é bem\nreputado pela\nrealização de vários \nestudos para a melhoria dos\nsistemas de tráfego.\n\n
 DenkTomas
 Este monumento é\ndedicado a Tomas\nKubes, que ajudou a\nincrementar o\nSimutrans em\nmuitíssimos aspectos,\ncom sugestões e muito trabalho\n\n
+denktrack
+Cavaleiro da Linhagem\n\nDa antiga casa dos Caminhos,\né o santo padroeiro de todas as rotas, grandes e pequenas,\n terrestre, náutico e are.\nQue todas as suas linhas sejam férteis e se multipliquem.
 DenkTrikky
 Este monumento é\ndedicado a 'Trikky'\nRick McGreal o\nfamoso arquiteto que\nprojetou tantos\nedifícios\nimpressionantes.\n\n
 DenkVM

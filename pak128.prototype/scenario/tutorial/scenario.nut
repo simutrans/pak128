@@ -1,30 +1,55 @@
-/*
- *  Tutorial Scenario
- *
- *
- *  Can NOT be used in network game !
- */
+/**
+  * @file scenario.nut
+  * @brief Tutorial Scenario
+  *
+  *  Can NOT be used in network game !
+  *
+  */
 const nut_path = "class/"             // path to folder with *.nut files
-include("set_data")                   // include set data
-include(nut_path+"class_basic_data")  // include class for object data
-translate_objects_list <- {}          // translate list
-translate_objects()                   // add objects to translate list
-
-const version = 2001
+const version = 2007
 scenario_name               <- "Tutorial Scenario"
 scenario.short_description  = scenario_name
 scenario.author             = "Yona-TYT & Andarix"
 scenario.version            = (version / 1000) + "." + ((version % 1000) / 100) + "." + ((version % 100) / 10) + (version % 10)
 scenario.translation        <- ttext("Translator")
 
-resul_version <- {pak= false , st = false}
+include("set_data")                   // include set data
+  switch (pak_name) {
+    case "pak64":
+      include(nut_path+"class_basic_coords_p64")  // include coords def pak64
+      break
+    case "pak64.german":
+      include(nut_path+"class_basic_coords_p64g")  // include coords def pak64german
+      break
+    case "pak128":
+      include(nut_path+"class_basic_coords_p128")  // include coords def pak128
+      break
+  }
+
+chapter            <- null                    // used later for class
+chapter_max        <- 7                       // amount of chapter
+select_option      <- { x = 0, y = 0, z = 1 } // place of station to control name
+select_option_halt <- null                    // placeholder for halt_x
+tutorial           <- {}                      // placeholder for all chapter CLASS
 
 persistent.version  <- version  // stores version of script
 persistent.select   <- null     // stores user selection
 persistent.chapter  <- 1        // stores chapter number
 persistent.step     <- 1        // stores step number of chapter
+// set for check automatic jump steps
+persistent.ch_max_steps      <- 1  // stores chapter max steps
+persistent.ch_max_sub_steps  <- 0  // stores chapter max sub steps
+persistent.ch_sub_step       <- 0  // stores actual chapter sub steps
 
-persistent.status <- {chapter=1, step=1} // save step y chapter
+include(nut_path+"class_basic_gui")     // include class for tools disabled/enabled
+include(nut_path+"class_basic_data")    // include class for object data
+include(nut_path+"class_basic_chapter") // include class for basic chapter structure
+translate_objects_list <- {}            // translate list
+translate_objects()                     // add objects to translate list
+
+resul_version <- {pak = false , st = false}
+
+persistent.status <- {chapter = 1, step = 1} // save step y chapter
 
 script_test <- true
 
@@ -45,26 +70,22 @@ ignore_save <- [{id = -1, ig = true}]   //Marca convoys ingnorados
 
 persistent.ignore_save <- []
 
-//-------------Guarda el estado del script------------------------
-persistent.pot <- [0,0,0,0,0,0,0,0,0,0,0]
+//-------------Save the script state------------------------
+persistent.pot <- []
+persistent.pot.resize(11, 0)
 
-persistent.glsw <- [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-pglsw <- [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+persistent.glsw <- []
+persistent.glsw.resize(20, 0)
+glsw <- []
+glsw.resize(20, 0)
 
-pot0 <- 0
-pot1 <- 0
-pot2 <- 0
-pot3 <- 0
-pot4 <- 0
-pot5 <- 0
-pot6 <- 0
-pot7 <- 0
-pot8 <- 0
-pot9 <- 0
-pot10 <- 0
-glsw <- [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+pglsw <- []
+pglsw.resize(20, 0)
 
-//---------------------Contador global de vehiculos----------------------------
+pot <- []
+pot.resize(11, 0)
+
+//---------------------Global vehicle counter----------------------------
 persistent.gcov_nr <- 0
 gcov_nr <- 0
 persistent.gcov_id <- 1
@@ -73,7 +94,6 @@ persistent.gall_cov <- 0
 gall_cov <-0
 persistent.current_cov <- 0
 current_cov <- 0
-cov_sw <- true
 correct_cov <- true
 
 //----------------------------------------------------------------
@@ -82,14 +102,11 @@ gui_delay       <- true    //delay for open win
 fail_num        <- 10       //numr for the count of try
 fail_count      <- 1       //if tool fail more of fail_num try
 
-
 //Schedule activate
 active_sch_check <- false
 
-  simu_version  <- "124.2.3"
-  current_st    <- "0"
-
-include(nut_path+"class_basic_gui")   // include class for tools disabled/enabled
+simu_version  <- "124.3"
+current_st    <- "0"
 
 // table containing all system_types
 all_systemtypes <- [st_flat, st_elevated, st_runway, st_tram]
@@ -97,14 +114,13 @@ all_systemtypes <- [st_flat, st_elevated, st_runway, st_tram]
 // Complemento para obtener tiempo de espera
 tick_wait <- 16
 
-chapter            <- null                    // used later for class
-chapter_max        <- 7                       // amount of chapter
-select_option      <- { x = 0, y = 0, z = 1 } // place of station to control name
-select_option_halt <- null                    // placeholder for halt_x
-tutorial           <- {}                      // placeholder for all chapter CLASS
-
-
-//returns pakset name (lower case)
+/**
+  * returns pakset name (lower case)
+  *
+  * @param name mixed case
+  *
+  * @return name lower case
+  */
 function get_set_name(name)
 {
   local s = name.find(" ")
@@ -113,6 +129,9 @@ function get_set_name(name)
   return name
 }
 
+/**
+  * Check version and pakset name
+  */
 function string_analyzer()
 {
   local result = {pak= false , st = false}
@@ -278,15 +297,16 @@ function get_integral(tx)
 {
   //Check version and pakset name
   resul_version = string_analyzer()
-  include(nut_path+"class_basic_convoys")     // include class for detect eliminated convoys
-  include(nut_path+"class_basic_chapter")     // include class for basic chapter structure
+  include(nut_path+"class_basic_convoys") // include class for detect eliminated convoys
+  include(nut_path+"class_messages")      // include def messages texts
+  include(nut_path+"astar")               // .. route search for way building etc
 
 }
 
 for (local i = 0; i <= chapter_max; i++)    // include amount of chapter classes
   include(nut_path+"class_chapter_"+(i < 10 ? "0"+i:i) )
 // Marked for deletion ----------------------------------------------------
-chapter            <- tutorial.chapter_02       // must be placed here !!! 
+chapter            <- tutorial.chapter_02       // must be placed here !!!
 //-------------------------------------------------------------------------
 
 
@@ -307,6 +327,7 @@ function script_text()
   if(scr_jump)
     // already jumping
     return null
+
   pending_call = true   // indicate that we want to skip to next step
   return null
 }
@@ -330,13 +351,18 @@ function scenario_percentage(percentage)
 function load_chapter(number,pl)
 {
   rules.clear()
-  general_disabled_tools(pl)
+  // chapter 7 no tool rules
+  if ( number < 7 ) {
+    general_disabled_tools(pl)
+  } else {
+    rules.gui_needs_update()
+  }
   if (!resul_version.pak || !resul_version.st){
     number = 0
     chapter = tutorial["chapter_"+(number < 10 ? "0":"")+number](pl)
     chapter.chap_nr = number
   }
-  else{
+  else if ( persistent.chapter <= chapter_max ) {
     chapter = tutorial["chapter_"+(number < 10 ? "0":"")+number](pl)
     if ( (number == persistent.chapter) && (chapter.startcash > 0) )  // set cash money here
       player_x(0).book_cash( (chapter.startcash - player_x(0).get_cash()[0]) * 100)
@@ -344,18 +370,23 @@ function load_chapter(number,pl)
     chapter.chap_nr = persistent.chapter
     //persistent.step = persistent.status.step
   }
+
 }
 
 function load_conv_ch(number, step, pl)
 {
-    rules.clear()
+  rules.clear()
+  if ( number < 7 ) {
     general_disabled_tools(pl)
-  if (!resul_version.pak || !resul_version.st){
+  } else {
+    rules.gui_needs_update()
+  }
+  if (!resul_version.pak || !resul_version.st) {
     number = 0
     chapter = tutorial["chapter_"+(number < 10 ? "0":"")+number](pl)
     chapter.chap_nr = number
   }
-  else{
+  else {
     chapter = tutorial["chapter_"+(number < 10 ? "0":"")+number](pl)
 
     if ( (number == persistent.chapter) && (chapter.startcash > 0) )  // set cash money here
@@ -378,18 +409,25 @@ function set_city_names()
 }
 
 
-/*
- * test functions generating the GUI strings
- * These must return fast and must not alter the map!
+/**
+ *  test functions generating the GUI strings
+ *  These must return fast and must not alter the map!
+ *
+ *  @param pl = player_x
+ *
+ *  @return
  */
 function get_info_text(pl)
 {
   local info = ttextfile("info.txt")
+  info.dialog = translate("Scenario information")
+
   local help = ""
   local i = 0
   //foreach (chap in tutorial)
-  for (i=1;i<=chapter_max;i++)
-    help+= "<em>"+translate("Chapter")+" "+(i)+"</em> - "+translate(tutorial["chapter_"+(i<10?"0":"")+i].chapter_name)+"<br>"
+  for ( i=1; i<=chapter_max; i++ )
+    help += "<em>"+translate("Chapter")+" "+(i)+"</em> - "+translate(tutorial["chapter_"+(i<10?"0":"")+i].chapter_name)+"<br>"
+
   info.list_of_chapters = help
 
   info.first_link = "<a href=\"goal\">"+(chapter.chap_nr <= 1 ? translate("Let's start!"):translate("Let's go on!") )+"  >></a>"
@@ -407,14 +445,19 @@ function get_rule_text(pl)
 function get_goal_text(pl)
 {
 
+  if( persistent.chapter == tutorial.len() && chapter.is_chapter_completed(pl) >= 100 ) {
+    return "<p>" + translate("Tutorial Scenario complete.") + "</p>"
+  }
   return chapter.give_title() + chapter.get_goal_text( pl, my_chapter() )
 }
 
 function get_result_text(pl)
 {
    // finished ...
-  if(persistent.chapter>7) {
+  if( persistent.chapter == tutorial.len() && chapter.is_chapter_completed(pl) >= 100 ) {
+    //return ttextfile("finished.txt")
     local text = ttextfile("finished.txt")
+    text.title = "<p><em>" + translate("Tutorial Scenario complete.") + "</em></p>"
     return text
   }
 
@@ -503,16 +546,69 @@ function labels_text_debug()
 
 
 /**
-  * This function check whether finished or not
-  * Is runs in a step, so it can alter the map
-  * @return 100 or more, the scenario will be "win" and the scenario_info window
-  *                      show the result tab
+ *  calculate percentage chapter complete
+ *
+ *  @param ch_steps  = count chapter steps
+ *  @param step      = actual chapter step
+ *  @param sup_steps = count sub steps in a chapter step
+ *  @param sub_step  = actual sub step in a chapter step
+ *
+ *  no sub steps in chapter step, then set sub_steps and sub_step to 0
+ *
+ *  This function is called during a step() and can alter the map
+ *
+ *  @return
+ */
+function chapter_percentage(ch_steps, ch_step, sub_steps, sub_step)
+{
+  local percentage_step = 100 / ch_steps
+
+  local percentage = percentage_step * ch_step
+
+  local percentage_sub_step = 0
+  if ( sub_steps > 0 && sub_step > 0) {
+    percentage_sub_step = (percentage_step / sub_steps ) * sub_step
+    percentage += percentage_sub_step
+  }
+
+  if ( ch_step <= ch_steps ) {
+    percentage -= percentage_step
+  }
+
+    //gui.add_message("ch_steps "+ch_steps+" ch_step "+ch_step+" ch_steps "+sub_steps+" sub_step "+sub_step)
+
+  // tutorial finish
+  if ( tutorial.len() == persistent.chapter && ch_steps == ch_step && sub_steps == sub_step ) {
+    percentage = 100
+  }
+
+  return percentage
+}
+
+/**
+  *  This function check whether finished or not
+  *  Is runs in a step, so it can alter the map
+  *
+  *  @param pl = player_x
+  *
+  *  @return 100 or more, the scenario will be "win" and the scenario_info window
+  *                       show the result tab
   */
 function is_scenario_completed(pl)
 {
   // finished ...
-  if(persistent.chapter > chapter_max) {
-    return 100
+  if( persistent.chapter > chapter_max ) {
+      local text = ttext("Chapter {number} - {cname} complete.")
+      text.number = chapter_max
+      text.cname = translate(""+chapter.chapter_name+"")
+      gui.add_message( text.tostring() )
+
+      rules.clear()
+      rules.gui_needs_update()
+      scr_jump = true
+      text = translate("Tutorial Scenario complete.")
+      gui.add_message( text.tostring() )
+      return 100
   }
 
   //-------Debug ====================================
@@ -521,7 +617,7 @@ function is_scenario_completed(pl)
   //------------------------------------------------------------------------------------------------------------------------------
   if (pl != 0) return 0     // other player get only 0%
 
-  
+
 
   if (currt_pos){
     local t = tile_x(currt_pos.x,currt_pos.y,currt_pos.z)
@@ -572,39 +668,57 @@ function is_scenario_completed(pl)
       chapter.step = 1
     else
       chapter.step = persistent.step
+
     chapter.start_chapter()
     return 1
   }
 
   chapter.step = persistent.step
 
-  if (pending_call) {
-    // since we cannot alter the map in a sync_step
-    pending_call = false
-    scr_jump = true // we are during a jump ...
-    chapter.script_text()
-    scr_jump = false
+  local percentage = chapter.is_chapter_completed(pl)
+
+  // check for automatic step
+  if ( pending_call ) {
+    //gui.add_message("check automaric jump : percentage " + percentage)
+    //gui.add_message(" : chapter.step " + chapter.step)
+    //gui.add_message(" : persistent.ch_max_sub_steps " + persistent.ch_max_sub_steps)
+    //gui.add_message(" : persistent.ch_sub_step " + persistent.ch_sub_step)
+
+    local percentage_step = chapter_percentage(persistent.ch_max_steps, chapter.step, persistent.ch_max_sub_steps, persistent.ch_sub_step)
+    //gui.add_message(" : percentage_step " + percentage_step)
+
+    local jump_step = false
+    if ( chapter.step == 1 && percentage >= 0 ) {
+      jump_step = true
+    } else if ( percentage >= 100 ) {
+      jump_step = true
+    } else if ( percentage == percentage_step ) {
+      jump_step = true
+    }
+
+    if ( jump_step ){
+
+      // since we cannot alter the map in a sync_step
+      pending_call = false
+      scr_jump = true // we are during a jump ...
+      chapter.script_text()
+      scr_jump = false
+
+    }
+
+
   }
 
-  local percentage = chapter.is_chapter_completed(pl)
   gl_percentage = percentage
   persistent.gl_percentage = gl_percentage
 
-  if (percentage >= 100){ // give message , be sure to have 100% or more
+  if ( percentage >= 100 ) { // give message , be sure to have 100% or more
     local text = ttext("Chapter {number} - {cname} complete, next Chapter {nextcname} start here: ({coord}).")
     text.number = persistent.chapter
     text.cname = translate(""+chapter.chapter_name+"")
 
     persistent.chapter++
     persistent.status.chapter++
-
-    // finished ...
-    if(persistent.chapter > chapter_max) {
-      rules.clear()
-      rules.gui_needs_update()
-      scr_jump = true
-      return 100
-    }
 
     load_chapter(persistent.chapter, pl)
     chapter.chap_nr = persistent.chapter
@@ -614,13 +728,9 @@ function is_scenario_completed(pl)
     text.nextcname = translate(""+chapter.chapter_name+"")
     text.coord = chapter.chapter_coord.tostring()
     chapter.start_chapter()  //Para iniciar variables en los capitulos
-    if (persistent.chapter >1) gui.add_message(text.tostring())
+    if (persistent.chapter > 1 && persistent.chapter < chapter_max ) gui.add_message(text.tostring())
   }
-  percentage = scenario_percentage(percentage)
-  if ( percentage >= 100 ) {    // scenario complete
-    local text = translate("Tutorial Scenario complete.")
-    gui.add_message( text.tostring() )
-  }
+
   return percentage
 }
 
@@ -634,7 +744,7 @@ function is_work_allowed_here(pl, tool_id, name, pos, tool)
   if(scr_jump){
     return null
   }
-  local result = translate("Action not allowed")
+  local result = get_message(2) //translate("Action not allowed")
   if (correct_cov){
     local result = chapter.is_work_allowed_here(pl, tool_id, name, pos, tool)
     return fail_count_message(result, tool_id, tool)
@@ -727,6 +837,7 @@ function jump_to_link_executed(pos)
 //--------------------------------------------------------
 datasave <- {cov = cov_save}
 
+
 class data_save {
   // Convoys
   function convoys_save() {return datasave.cov;}
@@ -772,16 +883,9 @@ function resume_game()
   sigcoord = persistent.sigcoord
   ignore_save = persistent.ignore_save
 
-  pot0=persistent.pot[0]
-  pot1=persistent.pot[1]
-  pot2=persistent.pot[2]
-  pot3=persistent.pot[3]
-  pot4=persistent.pot[4]
-  pot5=persistent.pot[5]
-  pot6=persistent.pot[6]
-  pot7=persistent.pot[7]
-  pot8=persistent.pot[8]
-  pot9=persistent.pot[9]
+  // copy persistent.pot[] to pot[]
+  pot.clear()
+  pot.extend(persistent.pot)
 
   gl_percentage = persistent.gl_percentage
 
@@ -792,7 +896,7 @@ function resume_game()
   }
 
   r_way_list = persistent.r_way_list
-  
+
   if(persistent.chapter > chapter_max) {
     // scenario was finished
     return;

@@ -1,1 +1,1 @@
-<p>Para la producciÛn de <em>{good2}</em>, necesitar·s transportar <em>{good1}</em> desde {f1} hasta {f2}.</p>
+<p>Para la producci√≥n de <em>{good2}</em>, necesitar√°s transportar <em>{good1}</em> desde {f1} hasta {f2}.</p>
