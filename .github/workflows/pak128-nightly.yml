@@ -1,7 +1,6 @@
 name: Nightly build Ubuntu
 
-on:
-  [push]
+on: [push]
 
 jobs:
   compile_pak128-nightly:
