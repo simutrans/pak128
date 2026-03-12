@@ -21,23 +21,22 @@ jobs:
           run: |
             sudo apt-get -ym install libpng-dev
             sudo apt-get -ym install autoconf
-            git clone --depth 1 https://github.com/simutrans/simutrans
-            ./simutrans
+            git clone --depth 1 https://github.com/simutrans/simutrans makeobj
         
         - name: setup
           run: |
-            cd simutrans
+            cd makeobj
             autoconf
             ./configure
             cat config.default >>/dev/stderr
         
         - name: make makeobj
           run: |
-            cd simutrans/src/makeobj
+            cd makeobj/src/makeobj
             make
             mv makeobj ../../..
             cd ../../..
-            rm -rf simutrans
+            rm -rf makeobj
         
         - name: compile pakset
           run: |
