@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.11
-Date: 0000-00-00
+Version: 2.10.1
+Date: 2026-03-12
   Added:
     - Added horses for early passenger and mail transport
     - Added Italian early steam engines (by SusieN)
