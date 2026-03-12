@@ -1,0 +1,20 @@
+#
+# private sign
+#
+
+--------------------------------------------------------------------------------
+
+obj=roadsign
+name=Railgate
+copyright=Fabio Gonella
+
+waytype=track
+is_private=1
+cost=8000
+maintenance=8000
+
+Image[0-3]=p128_sign_railgate.1.<$0>
+Icon=> p128_sign_railgate.1.4
+Cursor=p128_sign_railgate.1.5
+
+--------------------------------------------------------------------------------

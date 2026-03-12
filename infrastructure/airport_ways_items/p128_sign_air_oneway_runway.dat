@@ -1,0 +1,19 @@
+
+--------------------------------------------------------------------------------
+
+obj=roadsign
+name=airport_oneway
+copyright=Shunter
+
+waytype=air
+min_speed=0
+single_way=1
+cost=500
+maintenance=500
+
+Image[n,e,s,w][0]=p128_sign_air_oneway_runway.0.<$0>
+
+Icon=> p128_sign_air_oneway_runway.0.4
+Cursor=p128_sign_air_oneway_runway.0.5
+
+--------------------------------------------------------------------------------

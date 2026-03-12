@@ -1,0 +1,404 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS 2.2
+#--------------------------------------
+#
+# author: Fabio Gonella (fagonella)
+# date:   01-Aug-06
+# update: 11-Sep-06
+# update: 12-Jan-07
+# update: 11-Jun-07
+#
+# A special thank to Timothy, VS, Claire and an unknown japanese friend!
+#
+#  SIGNAL STYLES:
+#  --------------
+#  classic   1860 - 1920 (Semaphore design)
+#  standard  1920 - 1970 (Semaphore + electric lights design)
+#  modern    1970 +      (Electric lights design)
+#
+
+--------------------------------------------------------------------------------
+
+#
+# CLASSIC STYLE 1860-1920
+#
+
+--------------------------------------------------------------------------------
+
+# normal signal right side
+obj=roadsign
+name=Classic_Signals_right
+copyright=Fabio Gonella
+
+waytype=track
+is_signal=1
+cost=500
+maintenance=500
+
+intro_year = 1860
+retire_year = 1920
+
+Image[n,e,s,w][0-1] = p128_sign_rail_signals_classic_modern.0.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_classic_modern.0.12
+Cursor=p128_sign_rail_signals_classic_modern.1.12
+
+--------------------------------------------------------------------------------
+
+# presignal right side
+obj=roadsign
+Name=Classic_preSignals_right
+copyright=Fabio Gonella
+
+waytype=track
+is_presignal=1
+cost=1000
+maintenance=1000
+
+intro_year = 1860
+retire_year = 1920
+
+Image[n,e,s,w][0-1] = p128_sign_rail_signals_classic_modern.2.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_classic_modern.2.12
+Cursor=p128_sign_rail_signals_classic_modern.3.12
+
+--------------------------------------------------------------------------------
+
+# priority signal right side
+obj=roadsign
+Name=Classic_prioritySignals_right
+copyright=Fabio Gonella and Gauthier
+
+waytype=track
+is_prioritysignal=1
+cost=1000
+maintenance=1000
+
+intro_year = 1860
+retire_year = 1920
+
+Image[n,e,s,w][0-2] = p128_sign_rail_signals_classic_modern.4.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_classic_modern.4.12
+Cursor=p128_sign_rail_signals_classic_modern.5.12
+
+--------------------------------------------------------------------------------
+
+# long block signal right side
+obj=roadsign
+Name=Classic_LongSignals_right
+copyright=Fabio Gonella
+
+waytype=track
+is_longblocksignal=1
+cost=2000
+maintenance=2000
+
+intro_year = 1860
+retire_year = 1920
+
+Image[n,e,s,w][0-1] = p128_sign_rail_signals_classic_modern.6.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_classic_modern.6.12
+Cursor=p128_sign_rail_signals_classic_modern.7.12
+
+--------------------------------------------------------------------------------
+
+# choose signal right side
+obj=roadsign
+Name=Classic_ChooseSignals_right
+copyright=Fabio Gonella
+
+waytype=track
+is_signal=1
+free_route=1
+cost=4000
+maintenance=4000
+
+intro_year = 1860
+retire_year = 1920
+
+Image[n,e,s,w][0-1] = p128_sign_rail_signals_classic_modern.8.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_classic_modern.8.12
+Cursor=p128_sign_rail_signals_classic_modern.9.12
+
+--------------------------------------------------------------------------------
+
+#
+# STANDARD STYLE 1920-1970
+#
+
+--------------------------------------------------------------------------------
+
+# normal signal right side
+
+obj=roadsign
+name=Signals
+copyright=Fabio Gonella
+
+waytype=track
+is_signal=1
+cost=500
+maintenance=500
+
+intro_year = 1920
+retire_year = 1970
+
+Image[n,e,s,w][0-3]=p128_sign_rail_signals_classic_modern.<$1/2 + 0>.<4*($1 % 2) + $0>
+Icon=> p128_sign_rail_signals_classic_modern.0.13
+Cursor=p128_sign_rail_signals_classic_modern.1.13
+
+--------------------------------------------------------------------------------
+
+# presignal right side
+
+obj=roadsign
+Name=preSignals
+copyright=Fabio Gonella
+
+waytype=track
+is_presignal=1
+cost=1000
+maintenance=1000
+
+intro_year = 1920
+retire_year = 1970
+
+Image[n,e,s,w][0-5]=p128_sign_rail_signals_classic_modern.<$1/3 + 2>.<4*($1 % 3) + $0>
+Icon=> p128_sign_rail_signals_classic_modern.2.13
+Cursor=p128_sign_rail_signals_classic_modern.3.13
+
+--------------------------------------------------------------------------------
+
+# priority signal right side
+
+obj=roadsign
+Name=prioritySignals
+copyright=Fabio Gonella and Gauthier
+
+waytype=track
+is_prioritysignal=1
+cost=1000
+maintenance=1000
+
+intro_year = 1920
+retire_year = 1970
+
+Image[n,e,s,w][0-5]=p128_sign_rail_signals_classic_modern.<$1/3 + 4>.<4*($1 % 3) + $0>
+Icon=> p128_sign_rail_signals_classic_modern.4.13
+Cursor=p128_sign_rail_signals_classic_modern.5.13
+
+--------------------------------------------------------------------------------
+
+# long block signal right side
+obj=roadsign
+Name=LongSignals
+copyright=Fabio Gonella
+
+waytype=track
+is_longblocksignal=1
+cost=2000
+maintenance=2000
+
+
+intro_year = 1920
+retire_year = 1970
+
+Image[n,e,s,w][0-3]=p128_sign_rail_signals_classic_modern.<$1/2 + 6>.<4*($1 % 2) + $0>
+Icon=> p128_sign_rail_signals_classic_modern.6.13
+Cursor=p128_sign_rail_signals_classic_modern.7.13
+
+--------------------------------------------------------------------------------
+
+# choose signal right side
+
+obj=roadsign
+Name=ChooseSignals
+copyright=Fabio Gonella
+
+waytype=track
+is_signal=1
+free_route=1
+cost=4000
+maintenance=4000
+
+intro_year = 1920
+retire_year = 1970
+
+Image[n,e,s,w][0-3]=p128_sign_rail_signals_classic_modern.<$1/2 + 8>.<4*($1 % 2) + $0>
+Icon=> p128_sign_rail_signals_classic_modern.8.13
+Cursor=p128_sign_rail_signals_classic_modern.9.13
+
+--------------------------------------------------------------------------------
+
+# end choose sign right side (NO SIGNAL)
+
+obj=roadsign
+Name=EndOfChooseSignals
+copyright=Fabio Gonella
+
+waytype=track
+end_of_choose=1
+cost=4000
+maintenance=4000
+
+intro_year = 1920
+retire_year = 1970
+
+Image[n,e,s,w][0]=p128_sign_rail_signals_classic_modern.10.<$0>
+Icon=> p128_sign_rail_signals_classic_modern.10.13
+Cursor=p128_sign_rail_signals_classic_modern.11.13
+
+--------------------------------------------------------------------------------
+
+# one way sign, right side (NO SIGNAL)
+obj=roadsign
+name=OneWaySignals
+copyright=Fabio Gonella
+
+waytype=track
+single_way=1
+cost=250
+maintenance=250
+
+intro_year = 1810
+retire_year = 1970
+
+Image[n,e,s,w][0]=p128_sign_rail_signals_classic_modern.12.<$0>
+Icon=> p128_sign_rail_signals_classic_modern.12.13
+Cursor=p128_sign_rail_signals_classic_modern.13.13
+
+--------------------------------------------------------------------------------
+
+#
+# MODERN STYLE 1970+
+#
+
+
+--------------------------------------------------------------------------------
+
+# normal signal right side
+
+obj=roadsign
+name=Modern_Signals_right
+copyright=Fabio Gonella
+
+waytype=track
+is_signal=1
+cost=500
+
+intro_year = 1970
+
+Image[n,e,s,w][0-1]=p128_sign_rail_signals_classic_modern.1.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_classic_modern.0.14
+Cursor=p128_sign_rail_signals_classic_modern.1.14
+
+--------------------------------------------------------------------------------
+
+# presignal right side
+
+obj=roadsign
+copyright=Fabio Gonella
+Name=Modern_preSignals_right
+
+waytype=track
+is_presignal=1
+cost=1000
+maintenance=1000
+
+intro_year = 1970
+
+Image[n,e,s,w][0-2]=p128_sign_rail_signals_classic_modern.3.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_classic_modern.2.14
+Cursor=p128_sign_rail_signals_classic_modern.3.14
+
+--------------------------------------------------------------------------------
+
+# priority signal right side
+obj=roadsign
+Name=Modern_prioritySignals_right
+copyright=Fabio Gonella and Gauthier
+
+waytype=track
+is_prioritysignal=1
+cost=1000
+maintenance=1000
+
+intro_year = 1970
+
+Image[n,e,s,w][0-2]=p128_sign_rail_signals_classic_modern.5.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_classic_modern.4.14
+Cursor=p128_sign_rail_signals_classic_modern.5.14
+
+--------------------------------------------------------------------------------
+
+# long block signal right side
+
+obj=roadsign
+Name=Modern_LongSignals_right
+copyright=Fabio Gonella
+
+waytype=track
+cost=2000
+is_longblocksignal=1
+
+intro_year = 1970
+
+Image[n,e,s,w][0-1]=p128_sign_rail_signals_classic_modern.7.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_classic_modern.6.14
+Cursor=p128_sign_rail_signals_classic_modern.7.14
+
+--------------------------------------------------------------------------------
+
+# choose signal right side
+
+obj=roadsign
+Name=Modern_ChooseSignals_right
+copyright=Fabio Gonella
+
+waytype=track
+is_signal=1
+free_route=1
+cost=4000
+maintenance=4000
+
+intro_year = 1970
+
+Image[n,e,s,w][0-1]=p128_sign_rail_signals_classic_modern.9.<4*$1 + $0>
+Icon=> p128_sign_rail_signals_classic_modern.8.14
+Cursor=p128_sign_rail_signals_classic_modern.9.14
+
+--------------------------------------------------------------------------------
+
+# end choose sign right side (NO SIGNAL)
+obj=roadsign
+Name=Modern_EndOfChooseSignals_right
+copyright=Fabio Gonella
+
+waytype=track
+end_of_choose=1
+cost=4000
+maintenance=4000
+
+intro_year = 1970
+
+Image[n,e,s,w][0]=p128_sign_rail_signals_classic_modern.11.<$0>
+Icon=> p128_sign_rail_signals_classic_modern.10.14
+Cursor=p128_sign_rail_signals_classic_modern.11.14
+
+
+--------------------------------------------------------------------------------
+
+# one way sign, right side (NO SIGNAL)
+obj=roadsign
+name=Modern_OneWaySignals_right
+copyright=Fabio Gonella
+
+waytype=track
+single_way=1
+cost=250
+maintenance=250
+
+intro_year = 1970
+
+Image[n,e,s,w][0]=p128_sign_rail_signals_classic_modern.13.<$0>
+Icon=> p128_sign_rail_signals_classic_modern.12.14
+Cursor=p128_sign_rail_signals_classic_modern.13.14
+
