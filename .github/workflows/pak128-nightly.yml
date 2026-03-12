@@ -4,62 +4,64 @@ on: [push]
 
 jobs:
   compile_pak128-nightly:
-    name: pak128 nightly
+
     runs-on: ubuntu-latest
 
-	steps:
-		- uses: actions/checkout@v6
-		  with:
-			fetch-depth: 0
-
-	   - name: Lint Changelog
-		 run: |
-		   ./check_changelog.sh pak128.prototype/doc/changelog.txt
-
-		- name: install_dependencies
-		  run: |
-			sudo apt-get -ym install libpng-dev
-			sudo apt-get -ym install autoconf
-			git clone --depth 1 https://github.com/simutrans/simutrans ./simutrans
-
-		- name: setup
-		  run: |
-			cd simutrans
-			autoconf
-			./configure
-			cat config.default >>/dev/stderr
-
-		- name: make makeobj
-		  run: |
-			cd simutrans/src/makeobj
-			make
-			mv makeobj ../../..
-			cd ../../..
-			rm -rf simutrans
-
-		- name: compile pakset
-		  run: |
-			make full
-			mv simupak128.zip simupak128-nightly.zip
-
-		- name: set environment
-		  run: |
-			echo "date=$(date -u +%Y-%m-%d)" >> "$GITHUB_ENV"
-
-		- name: set current head to nightly
-		  uses: richardsimko/update-tag@v1
-		  with:
-			  tag_name: Nightly
-		  env:
-			  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-		- name: Update Serverset of Nightly Release
-		  uses: meeDamian/github-release@2.0
-		  with:
-			token: ${{ secrets.GITHUB_TOKEN }}
-			tag: Nightly
-			files: simupak128-nightly.zip
-			name: Nightly ${{ env.date }}
-			allow_override: true
-			gzip: false
-
+    steps:
+        - name: checkout
+          uses: actions/checkout@v6
+          with:
+            fetch-depth: 0
+        
+        - name: Lint Changelog
+          run: |
+           ./check_changelog.sh pak128.prototype/doc/changelog.txt
+        
+        - name: install_dependencies
+          run: |
+            sudo apt-get -ym install libpng-dev
+            sudo apt-get -ym install autoconf
+            git clone --depth 1 https://github.com/simutrans/simutrans
+            ./simutrans
+        
+        - name: setup
+          run: |
+            cd simutrans
+            autoconf
+            ./configure
+            cat config.default >>/dev/stderr
+        
+        - name: make makeobj
+          run: |
+            cd simutrans/src/makeobj
+            make
+            mv makeobj ../../..
+            cd ../../..
+            rm -rf simutrans
+        
+        - name: compile pakset
+          run: |
+            make full
+            mv simupak128.zip simupak128-nightly.zip
+        
+        - name: set environment
+          run: |
+            echo "date=$(date -u +%Y-%m-%d)" >> "$GITHUB_ENV"
+        
+        - name: set current head to nightly
+          uses: richardsimko/update-tag@v1
+          with:
+            tag_name: Nightly
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+        - name: Update Serverset of Nightly Release
+          uses: meeDamian/github-release@2.0
+          with:
+            token: ${{ secrets.GITHUB_TOKEN }}
+            tag: Nightly
+            files: simupak128-nightly.zip
+            name: Nightly ${{ env.date }}
+            allow_override: true
+            gzip: false
+        
