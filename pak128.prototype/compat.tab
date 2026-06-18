@@ -33,6 +33,12 @@ PMNV_Open_Goods_Trailer_L
 #
 ##############################  Graphics Update  ###############################
 #
+###################################  Trucks ####################################
+Mack_Truck_0
+PMNV_50_Mack
+Mack_Truck_2
+PMNV-PB1970
+#
 ####################################  Mail  ####################################
 AvG_Post_Truck
 RVg_Post_Truck_0
@@ -129,7 +135,9 @@ Stoyko_Peev
 #
 ###########################  bulk -> multiple images  ##########################
 TS_Mack_Bulk_Trailer_2
+PMNV_Mack_Bulk_Trailer_0
 TS_Mack_Bulk_Trailer_1
+TS_Mack_Bulk_Trailer_0
 Vitus-AVECO_Eurocargo_kohle_transporter
 Vitus-AVECO_Eurocargo_bulk_transporter
 Bulk_Truck_1
