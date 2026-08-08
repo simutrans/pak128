@@ -15,6 +15,8 @@ min_speed=0
 single_way=1
 cost=500
 maintenance=500
+# cannot shift left
+offset_left=0
 
 intro_year = 1887
 
@@ -75,6 +77,9 @@ cost=1000
 maintenance=1000
 
 intro_year = 1887
+# cannot shift left
+offset_left=0
+
 
 image[0-3]=p128_sign_road_misc.3.<$0>
 Icon=> p128_sign_road_misc.3.4
