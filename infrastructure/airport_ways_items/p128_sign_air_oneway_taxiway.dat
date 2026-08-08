@@ -17,6 +17,8 @@ waytype=air
 single_way=1
 cost=500
 maintenance=500
+# cannot shift left
+offset_left=0
 
 intro_year=1965
 

@@ -27,6 +27,8 @@ waytype=track
 is_signal=1
 cost=500
 maintenance=500
+# cannot shift left
+offset_left=0
 
 intro_year = 1810
 retire_year = 1860
@@ -47,6 +49,8 @@ waytype=track
 is_presignal=1
 cost=1000
 maintenance=1000
+# cannot shift left
+offset_left=0
 
 intro_year = 1810
 retire_year = 1860
@@ -67,6 +71,8 @@ waytype=track
 is_prioritysignal=1
 cost=1000
 maintenance=1000
+# cannot shift left
+offset_left=0
 
 intro_year = 1810
 retire_year = 1860
@@ -87,6 +93,8 @@ waytype=track
 is_longblocksignal=1
 cost=2000
 maintenance=2000
+# cannot shift left
+offset_left=0
 
 intro_year = 1810
 retire_year = 1860
@@ -108,6 +116,8 @@ is_signal=1
 free_route=1
 cost=4000
 maintenance=4000
+# cannot shift left
+offset_left=0
 
 intro_year = 1810
 retire_year = 1860

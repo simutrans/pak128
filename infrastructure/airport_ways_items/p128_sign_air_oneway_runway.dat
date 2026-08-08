@@ -10,6 +10,8 @@ min_speed=0
 single_way=1
 cost=500
 maintenance=500
+# cannot shift left
+offset_left=0
 
 Image[n,e,s,w][0]=p128_sign_air_oneway_runway.0.<$0>
 
