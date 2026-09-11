@@ -88,12 +88,14 @@ class tutorial.chapter_04 extends basic_chapter
     d1_cnr = get_dep_cov_nr(ch4_cov_lim1.a,ch4_cov_lim1.b)
     d2_cnr = get_dep_cov_nr(ch4_cov_lim2.a,ch4_cov_lim2.b)
 
-    /*local pl = 0
+    //Schedule list form current convoy
+    local pl = 0
     if(this.step == 7){
       local c_dep = this.my_tile(ship_depot)
       local c_list = ch4_schedule_line3 //sch_list3
       start_sch_tmpsw(pl, c_dep, c_list)
-    }*/
+    }
+
     return 0
   }
 
@@ -408,7 +410,7 @@ class tutorial.chapter_04 extends basic_chapter
 
       case 7:
         local c_dep = this.my_tile(ship_depot)
-        local line_name = line1_name
+        local line_name = line3_name
         set_convoy_schedule(pl, c_dep, gl_wt, line_name)
         if(current_cov == ch4_cov_lim3.b){
           this.next_step()
@@ -612,7 +614,7 @@ class tutorial.chapter_04 extends basic_chapter
         local c_list = ch4_schedule_line3 //sch_list3
         return compare_schedule(result, pl, schedule, selc, load, time, c_list, true)
         if(result == null){
-          local line_name = line1_name
+          local line_name = line3_name
           update_convoy_schedule(pl, gl_wt, line_name, schedule)
         }
         return result

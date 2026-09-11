@@ -144,7 +144,12 @@ class astar
       process_node(current_node)
 
       if ( current_node != null ) {
-        check_way_last_tile = current_node
+
+        //gui.add_message("check_way_last_tile " + coord3d_to_string(check_way_last_tile) )
+            local r = tile_x(current_node.x, current_node.y, current_node.z).find_object(mo_way)
+            if ( r && dir.is_single(r.get_dirs()) ) {
+              check_way_last_tile = current_node
+            }
       }
 
       current_node = null
@@ -819,4 +824,25 @@ function unmark_waybuild() {
   } else {
     check_way_mark_tile = check_way_last_tile
   }
+}
+
+function mark_waybuild(tile) {
+  local r = my_tile(tile).find_object(mo_way)
+  if ( r ) { r.mark() }
+}
+
+function mark_way_last_tile() {
+  //gui.add_message("### mark_way_last_tile() " + coord3d_to_string(check_way_last_tile))
+  if ( check_way_last_tile == null ) { return }
+
+  local r = my_tile(check_way_last_tile).find_object(mo_way)
+  if ( r ) {
+    r.mark()
+    if ( check_way_mark_tile != null ) {
+      local t = my_tile(check_way_mark_tile).find_object(mo_way)
+      if ( t && dir.is_twoway(t.get_dirs()) ) { t.unmark() }
+    }
+    check_way_mark_tile = check_way_last_tile
+  }
+
 }

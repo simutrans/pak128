@@ -9,7 +9,7 @@
 #                             Language: ru Russian                             #
 #                                Encoding: UTF-8                               #
 #                                 Font: cyr.bdf                                #
-#                           Date Created: 25.03 2026                           #
+#                           Date Created: 11.09 2026                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -270,6 +270,10 @@ COM_06_34
 Отель Конгресс
 COM_06_60
 Балконы этого дома были\nхорошей приманкой для\nпокупателей. Были, до тех\nпор, пока на верхнем\nэтаже не открылась школа\nклоунов. Теперь поход на\nболкон сопряжён с\nбольшой опасностью\nпадения на голову\nчего-нибудь гадкого или\nшарика наполненного\nводой.\n
+COM_07_18
+Парк
+COM_08_14
+Парк
 #________________________________building - cur_________________________________
 #________________________________building - cur_________________________________
 ABBYS_0
@@ -346,6 +350,8 @@ RUIN_1
 Это руины очень\nзнаменитого замка.\nМногие главы истории\nбыли написаны здесь, так\nчто они очень\nпритягательны для\nтуристов со всего мира.\nВсе стремятся увидеть их.\nИ, кроме всего, руины так\nромантичны, не правда\nли?\n
 Russian_Cathedral
 Храм Василия Блаженного
+Secession_Chapel
+Часовня в стиле сецессион
 SMALL_MANOR
 Поместье Безуховых
 ST_PETER
@@ -464,6 +470,12 @@ Radar3
 Радар
 ramp_tile_high
 Платформа
+special_ALSF-2_DT_stop
+Огонь приближения
+special_PAPI_stop
+Огни приближения
+special_wingbar-r_stop
+Боковые огни
 Terminal1930_AirportBlg
 Малый пассажирский терминал
 Terminal1950_AirportBlg_S
@@ -576,16 +588,28 @@ DenkVM
 Этот монумент посвящён\nМанфреду 'VT Vienna'\nТомасшицу, знаменитому\nинженеру, разработавшему\nмножество превосходных\nжелезнодорожных\nсоставов.\n
 DenkVolker
 Эта Ступа была построена\nв честь "архимага"\nпрограммирования\nВолкера Мейера,\nулучшавшим СимуТранс во\nмногих, многих областях.\n\n
+roundabout
+Кольцевая развязка с деревьями
 #________________________________building - res_________________________________
 #________________________________building - res_________________________________
 RES_00_01
 Туристы
+RES_06_47
+Жилой блок с двумя башнями
+RES_12_19
+Старая пивоварня
+RES_14_19
+Начальная школа
+RES_15_31
+Simply a
 #________________________________building - stop________________________________
 #________________________________building - stop________________________________
 AirStop_AirportBlg
 Зона загрузки самолетов
 big_classic_bus_stop
 Большая автобусная остановка
+big_early_bus_stop
+Автобусная остановка с почтовым ящиком (большой навес)
 big_modern_bus_stop
 Большая автобусная остановка
 bus_terminus
@@ -632,8 +656,38 @@ small_classic_bus_stop
 Автобусная остановка
 small_early_bus_stop
 Автобусная остановка
+station_03_02
+Защищённая платформа (синяя)
+station_03_03
+Крытая платформа (синяя, арочная крыша)
 Suspended_Monorail_Bahnhof_Modern
 Надземная платформа
+train_big_station_early_ext
+Крытая платформа (асфальт, скатная крыша)
+train_big_station_modern_ext
+Крытая платформа (плитка, внешняя)
+train_big_station_modern_int
+Крытая платформа (плитка, внутренняя)
+train_flat_station_early
+Защищённая платформа (асфальт, плоская)
+train_flat_station_modern
+Защищённая платформа (плитка, плоская)
+train_platform_early
+Пассажирская платформа (гравий)
+train_platform_med
+Пассажирская платформа (асфальт)
+train_platform_modern
+Пассажирская платформа (плитка)
+train_small_station_early
+Платформа с навесом (гравий)
+train_small_station_med
+Платформа с навесом (асфальт)
+train_small_station_modern
+Платформа с навесом (плитка)
+train_station_early
+Защищённая платформа (асфальт, скатная)
+train_station_modern
+Защищённая платформа (плитка, скатная)
 TrainStop
 Станция
 VillageTrainStop
@@ -820,6 +874,20 @@ TK_CAR_5
 Автомобиль
 VS_T-813-cammo
 T-813
+#___________________________________crossing____________________________________
+#___________________________________crossing____________________________________
+Crossing1
+Современный железнодорожный переезд
+Crossing2
+Железнодорожный переезд
+CrossingRoadWater
+Вертикально-подъёмный мост
+CrossingTrackWater
+Вертикально-подъёмный железнодорожный мост
+p128_crossing_road040_rail080
+Переезд (дорога 40 / путь 80)
+p128_crossing_road090_rail160
+Переезд (дорога 90 / путь 160)
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -1018,6 +1086,18 @@ forestplantation_field
 Лесопосадочное поле
 grain_field
 Зерновое поле
+ParabolicDishField
+Параболические коллекторы с двигателями Стирлинга
+SolarDepot
+Хранилище тепловой энергии
+SolarTrackerField
+Параболические коллекторы с двигателями Стирлинга
+spondf
+Солнечный пруд
+ThermalCollectorField
+Параболические коллекторы с двигателями Стирлинга
+ThermalTrackerField
+Параболические коллекторы с двигателями Стирлинга
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -1140,6 +1220,44 @@ SimpleTools
 #___________________________________menu_text___________________________________
 MONORAILTOOLS
 Подвесная монорельсовая дорога
+#__________________________________pedestrian___________________________________
+#__________________________________pedestrian___________________________________
+BICYCLE_RIDER_0
+Велосипедист
+BICYCLE_RIDER_1
+Велосипедист
+DOG_WALKER_0
+Пешеход с собакой
+DOG_WALKER_1
+Пешеход с собакой
+GROUP_0
+Пешеход
+GROUP_1
+Пешеход
+GROUP_2
+Пешеходы с грузом
+MOTOBIKER_0
+Мотоциклист
+MOTOBIKER_1
+Мотоциклист
+MOTOBIKER_2
+Мотоциклист
+pedestrian 1
+Пешеход
+pedestrian 2
+Пешеход
+pedestrian 3
+Пешеход
+pedestrian 4
+Пешеход
+pedestrian 5
+Пешеход
+pedestrian 6
+Пешеход
+pedestrian 7
+Пешеход
+pedestrian 8
+Пешеход
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 Build monorail depot
@@ -1188,6 +1306,10 @@ airport_oneway
 #___________________________roadsign - monorail_track___________________________
 choose_signal_monorail
 Светофор выбора платформы
+long_signal_monorail
+Длинный блок-светофор
+one_way_signal_monorail
+Однопутный светофор
 preSignal_Monorail
 Маневровый светофор
 Signal_Monorail
@@ -1204,6 +1326,8 @@ autobahn_modern_exit
 Знак Конец автомагистрали
 choose_point
 Знак выбрать точку останова
+end_of_choose_point
+Конец сигнала
 Minimum100
 Знак "Ограничение мин. скорости 100"
 Minimum80
@@ -1212,6 +1336,12 @@ NoEntry
 Знак Въезд запрещён
 RisingBollards
 Выдвижные столбы
+road_signalAVENUE
+Светофор (тройной)
+road_signalROAD
+Светофор (двойной)
+road_signalSTREET
+Светофор (одиночный)
 RoadClosed
 Знак "Движение запрещено"
 traffic_light
@@ -1352,8 +1482,18 @@ Highway_110_Tunnel
 Тоннель
 Highway_130_Tunnel
 Скоростной тоннель
+Road_040_Tunnel
+Тоннель (каменные блоки) для улицы
+Road_050_Tunnel
+Тоннель (бетонный) для улицы
+Road_070_Tunnel
+Тоннель (прямоугольный) для дороги
+Road_090_Tunnel
+Современный автодорожный тоннель
 #________________________________tunnel - track_________________________________
 #________________________________tunnel - track_________________________________
+Rail_060_Tunnel
+Старый железнодорожный тоннель
 Rail_080_Tunnel
 Туннель с деревянными шпалами
 Rail_080B_Tunnel
@@ -1380,8 +1520,264 @@ Rail_320_Tunnel
 Современный высокоскоростной туннель
 Rail_400_Tunnel
 Улучшенный высокоскоростной современный туннель
+#_________________________________vehicle - air_________________________________
+#_________________________________vehicle - air_________________________________
+SAC-Aerospatiale_Concorde_128_set
+SAC-Aerospatiale Concorde
+SAC-Airbus_A300-600C_128_set
+SAC-Airbus A300-600C (охлаждённые грузы)
+SAC-Airbus_A300-600F_128_set
+SAC-Airbus A300-600F (грузовой)
+SAC-Airbus_A300-600P_128_set
+SAC-Airbus A300-600P (авиапочта)
+SAC-Airbus_A300-600ST_128_set
+Airbus A300-600ST «Beluga»
+SAC-Airbus_A300-B4_128_set
+SAC-Airbus A300-B4
+SAC-Airbus_A310-200_128_set
+SAC-Airbus A310-200
+SAC-Airbus_A310-200C_128_set
+SAC-Airbus A310-200C (охлаждённые грузы)
+SAC-Airbus_A310-200F_128_set
+SAC-Airbus A310-200F (грузовой)
+SAC-Airbus_A310-200P_128_set
+SAC-Airbus A310-200P (авиапочта)
+SAC-Airbus_A318-100_128_set
+Airbus A318-100
+SAC-Airbus_A319-100_128_set
+Airbus A319-100
+SAC-Airbus_A320-200_128_set
+SAC-Airbus A320-200
+SAC-Airbus_A321-200_128_set
+Airbus A321-200
+SAC-Airbus_A330-200_128_set
+SAC-Airbus A330-200
+SAC-Airbus_A330-200f_cooled_128_set
+Airbus A330-200F (охлаждённые грузы)
+SAC-Airbus_A330-200f_goods_128_set
+Airbus A330-200F (грузы)
+SAC-Airbus_A330-200f_mail_128_set
+Airbus A330-200F (почта)
+SAC-Airbus_A330-300_128_set
+Airbus A330-300
+SAC-Airbus_A340-200_128_set
+Airbus A340-200
+SAC-Airbus_A340-300_128_set
+SAC-Airbus A340-300
+SAC-Airbus_A340-500_128_set
+Airbus A340-500
+SAC-Airbus_A340-600_128_set
+Airbus A340-600
+SAC-Airbus_A350-1000_128_set
+Airbus A350-1000
+SAC-Airbus_A350-800_128_set
+Airbus A350-800
+SAC-Airbus_A350-900_128_set
+Airbus A350-900
+SAC-Airbus_A350-900f_cooled_128_set
+Airbus A350-900F (охлаждённые грузы)
+SAC-Airbus_A350-900f_goods_128_set
+Airbus A350-900F (грузы)
+SAC-Airbus_A350-900f_mail_128_set
+Airbus A350-900F (почта)
+SAC-Airbus_A380-800_128_set
+Airbus A380-800
+SAC-Airbus_A380-800C_128_set
+Airbus A380-800C (охлаждённые грузы)
+SAC-Airbus_A380-800F_128_set
+Airbus A380-800F (грузовой)
+SAC-Airbus_A380-800P_128_set
+Airbus A380-800P (авиапочта)
+SAC-Airbus_A380-900_128_set
+Airbus A380-900
+SAC-BAC_1-11
+BAC One-Eleven
+SAC-Boeing_707-020_128_set
+Boeing 707-020
+SAC-Boeing_707-120_128_set
+Boeing 707-120
+SAC-Boeing_707-320_128_set
+Boeing 707-320
+SAC-Boeing_727-100_128_set
+Boeing 727-100
+SAC-Boeing_727-200_128_set
+Boeing 727-200
+SAC-Boeing_737-100_128_set
+Boeing 737-100
+SAC-Boeing_737-200_128_set
+Boeing 737-200
+SAC-Boeing_737-300_128_set
+Boeing 737-300
+SAC-Boeing_737-400_128_set
+Boeing 737-400
+SAC-Boeing_737-500_128_set
+Boeing 737-500
+SAC-Boeing_737-600_128_set
+Boeing 737-600
+SAC-Boeing_737-700_128_set
+Boeing 737-700
+SAC-Boeing_737-800_128_set
+Boeing 737-800
+SAC-Boeing_737-900_128_set
+Boeing 737-900
+SAC-Boeing_747-200_128_set
+Boeing 747-200
+SAC-Boeing_747-200C_128_set
+Boeing 747-200F (охлаждённые грузы)
+SAC-Boeing_747-200F_128_set
+Boeing 747-200F (грузовой)
+SAC-Boeing_747-200P_128_set
+Boeing 747-200P (авиапочта)
+SAC-Boeing_747-300_128_set
+Boeing 747-300
+SAC-Boeing_747-400_128_set
+Boeing 747-400
+SAC-Boeing_747-400F_Cooled_128_set
+Boeing 747-400F (охлаждённые грузы)
+SAC-Boeing_747-400F_Goods_128_set
+Boeing 747-400F (грузовой)
+SAC-Boeing_747-400F_Mail_128_set
+Boeing 747-400F (авиапочта)
+SAC-Boeing_747-8F_Cooled_128_set
+Boeing 747-8F (охлаждённые грузы)
+SAC-Boeing_747-8F_Goods_128_set
+Boeing 747-8F (грузовой)
+SAC-Boeing_747-8F_Mail_128_set
+Boeing 747-8F (авиапочта)
+SAC-Boeing_747-8I_128_set
+Boeing 747-8I
+SAC-Boeing_757-200_128_set
+Boeing 757-200
+SAC-Boeing_757-200f_cooled_128_set
+Boeing 757-200F (охлаждённые грузы)
+SAC-Boeing_757-200f_goods_128_set
+Boeing 757-200F (грузовой)
+SAC-Boeing_757-200f_mail_128_set
+Boeing 757-200F (авиапочта)
+SAC-Boeing_757-300_128_set
+Boeing 757-300
+SAC-Boeing_767-200_128_set
+Boeing 767-200
+SAC-Boeing_767-300_128_set
+Boeing 767-300
+SAC-Boeing_767-300F_cooled_128_set
+Boeing 767-300F (охлаждённые грузы)
+SAC-Boeing_767-300F_goods_128_set
+Boeing 767-300F (грузовой)
+SAC-Boeing_767-300F_mail_128_set
+Boeing 767-300F (авиапочта)
+SAC-Boeing_767-400_128_set
+Boeing 767-400
+SAC-Boeing_777-200_128_set
+Boeing 777-200
+SAC-Boeing_777-200F_cooled_128_set
+Boeing 777-200F (охлаждённые грузы)
+SAC-Boeing_777-200F_goods_128_set
+Boeing 777-200F (грузовой)
+SAC-Boeing_777-200F_mail_128_set
+Boeing 777-200F (авиапочта)
+SAC-Boeing_777-300_128_set
+Boeing 777-300
+SAC-Boeing_B-377_Stratoliner
+Boeing 377 Stratoliner
+SAC-Bombardier_CRJ-200
+Bombardier CRJ-200
+SAC-Bombardier_CRJ-900
+Bombardier CRJ-900
+SAC-De_Havilland_Comet_128_set
+De Havilland Comet
+SAC-Douglas_DC-3_128_set
+Douglas DC-3
+SAC-Douglas_DC-5_128_set
+Douglas DC-5
+SAC-Douglas_DC-6_128_set
+Douglas DC-6
+SAC-Douglas_DC-8-30_128_set
+Douglas DC-8-30
+SAC-Douglas_DC-8-50_Mail_128_set
+Douglas DC-8-50 (авиапочта)
+SAC-Douglas_DC-8-60_128_set
+Douglas DC-8-60
+SAC-Douglas_DC-9-10_128_set
+Douglas DC-9-10
+SAC-Douglas_DC-9-30_128_set
+Douglas DC-9-30
+SAC-Douglas_DC-9-30LWF_Mail_128_set
+Douglas DC-9-30LWF (авиапочта)
+SAC-Douglas_DC-9-50_128_set
+Douglas DC-9-50
+SAC-Embraer_E-170
+Embraer E-170
+SAC-Embraer_E-190
+Embraer E-190
+SAC-Fokker_F-27_128_set
+Fokker F-27
+SAC-Fokker_F-27_Mail_128_set
+Fokker F-27 (авиапочта)
+SAC-Handley_Page_W8B_128_set
+Handley Page W8B
+SAC-Ilyushin_IL-76_Candid_128_set
+Ил-76 «Candid»
+SAC-Junkers_Ju-52_128_set
+Junkers Ju-52
+SAC-Junkers_Ju-52_Mail_128_set
+Junkers Ju-52 (авиапочта)
+SAC-Lockheed_C-130C_Hercules_128_set
+Lockheed C-130C Hercules (охлаждённые грузы)
+SAC-Lockheed_C-130F_Hercules_128_set
+Lockheed C-130F Hercules (грузовой)
+SAC-Lockheed_C-130J_Super_Hercules_(cooled)_128_set
+Lockheed C-130J Súper Hercules (охлаждённые грузы)
+SAC-Lockheed_C-130J_Super_Hercules_(goods)_128_set
+Lockheed C-130J Super Hercules (грузовой)
+SAC-Lockheed_Constellation_128_set
+Lockheed Constellation
+SAC-McDonnell_Douglas_DC-10_128_set
+McDonnell Douglas DC-10
+SAC-McDonnell_Douglas_DC-10F_(cooled_goods)_128_set
+McDonnell Douglas DC-10F (охлаждённые грузы)
+SAC-McDonnell_Douglas_DC-10F_(goods)_128_set
+McDonnell Douglas DC-10F (грузовой)
+SAC-McDonnell_Douglas_DC-10F_(mail)_128_set
+McDonnell Douglas DC-10F (авиапочта)
+SAC-McDonnell_Douglas_MD-11_128_set
+McDonnell Douglas MD-11
+SAC-McDonnell_Douglas_MD-11F_(cooled_goods)_128_set
+McDonnell Douglas MD-11F (охлаждённые грузы)
+SAC-McDonnell_Douglas_MD-11F_(goods)_128_set
+McDonnell Douglas MD-11F (грузовой)
+SAC-McDonnell_Douglas_MD-11F_(mail)_128_set
+McDonnell Douglas MD-11F (авиапочта)
+SAC-McDonnell_Douglas_MD-80_128_set
+McDonnell Douglas MD-80
+SAC-McDonnell_Douglas_MD-90_128_set
+McDonnell Douglas MD-90
+SAC-Rohrbach_Rocco_128_set
+Rohrbach Rocco
 #___________________________vehicle - monorail_track____________________________
 #___________________________vehicle - monorail_track____________________________
+PMNV_TC-119-Snake
+PMNV TC-119 Snake (вагон A)
+PMNV_TC-119-Snake_b
+PMNV TC-119 Snake (вагон B)
+PMNV_TC-44-Hydrogen_Car
+PMNV TC-44 H2 (вагон A)
+PMNV_TC-44-Hydrogen_Car_b
+PMNV TC-44 H2 (вагон B)
+PMNV_TC-7_Astro_Trolley
+PMNV TC-7 Astro Trolley
+PMNV-TC-1_Turbo_Car
+PMNV TC-1 TurboCar
+PMNV-TC-112-Hyper_Car
+PMNV TC-112 HyperCar
+PMNV-TC-2_Turbo_Set
+PMNV TC-2 TurboSet
+PMNV-TC-2_Turbo_Set_b
+PMNV TC-2 TurboSet (вагон)
+PMNV-TC-2_Turbo_Set_c
+PMNV TC-2 TurboSet (хвостовой)
+PMNV-TC-5P_Mail_Man
+PMNV TC-5P «Mailman»
 yoshi_wup01
 GTW 72
 yoshi_wup02
@@ -1452,8 +1848,18 @@ Cooling_Truck_2
 С.Кройтор Газ-4
 CST_Interliner_E55
 CST E55
+CST_Interliner_E55_Rear
+CST Interliner E55 (прицеп)
+CST_Interliner_S45
+CST Interliner S45
+CST_Interliner_S55
+CST Interliner S55
+CST_Interliner_S55_Rear
+CST Interliner S55 (прицеп)
 CST_Stateliner
 Стейтлайнер
+CST_Urban_City_DD
+CST Urban двухэтажный автобус
 Evil-Jitluen_67_Minibus
 Эвил-Джитлюэн 67 Миниавтобус
 Fluid_trailer_0
@@ -1494,6 +1900,16 @@ Grain_trailer_0
 PMNV Classic Grain Trailer
 Grain_Truck_1
 VSYS-Tatra 815 (grain)
+Irisbus_Cristalis_ETB12
+Irisbus Cristalis ETB-12
+Irisbus_Cristalis_ETB18_front
+Irisbus Cristalis ETB-18
+Irisbus_Cristalis_ETB18_rear
+Irisbus Cristalis ETB-18 (задний)
+Irisbus_Magelys_HD
+Irisbus Magelys HD
+Irisbus_Magelys_HDH
+Irisbus Magelys HDH
 Kord_TT_bulk
 Kord TT (bulk)
 Kord_TT_grain
@@ -1502,8 +1918,16 @@ Mack_Truck_Cooling_Trailer
 Mack Truck Cooling Trailer
 Mack_Truck_Goods_Trailer
 Mack Truck Goods Trailer
+Mack_Truck_Post_Trailer
+PMNV почтовый прицеп
 Mail_Truck_2
 MHz Windstar (mail)
+Man_Lions_City
+MAN Lion's City
+Man_Lions_City_G_back
+MAN Lion’s City G (хвостовой)
+Man_Lions_City_G_front
+MAN Lion’s City G (головной)
 MHz_Grain_Trailer_0
 MHz Tractor Grain Trailer
 MHz_Long_Wood_Trailer
@@ -1518,6 +1942,36 @@ Milk_Truck_1
 S.Kroytor-ZIL Milk Mover
 Milk_Truck_2
 Magirus Milk Truck
+mja-20s_concretemixer
+MJA-20S цементовоз
+mja-bulk_trailer_l
+MJA-L300 прицеп для навалочных грузов
+mja-bulk_trailer_m
+MJA-M220 прицеп для навалочных грузов
+mja-MAN19332-128set
+mja-MAN 19332
+mja-ScaniaP380_tanker
+Scania P380 - танкер
+mja-ScaniaP420_concretemixer
+Scania P420 – автобетоносмеситель
+mja-ScaniaP420_longgoods
+mja-Scania P380 (доски)
+mja-ScaniaR500Topline
+mja-Scania R500 Topline
+mja-ScaniaR500Topline_cooledgoods
+mja-Scania R500 Topline (охлаждённые грузы)
+mja-ScaniaR500Topline_goods
+mja-Scania R500 Topline (грузы)
+mja-ScaniaR620Topline
+Scania R620 Topline
+mja-volvof88-128set
+mja-Volvo F88
+mja-volvoVN660
+mja-Volvo VN660
+mja-Zil130-128set
+mja-Zil 130
+MS_sprinter_mail
+MS-Sprinter почтовый фургон
 NovaBus_RTS-06_WFD
 NovaBus RTS-06 WFD
 Pegaso_6038_InterCity
@@ -1532,6 +1986,16 @@ Planck_Truck_0
 PMNV-Canonball Bed Truck (planks)
 Plank_Truck_2
 VSYS-Tatra 815 Bed (planks)
+PMNV_50_Mack
+PMNV Mack 1950-х
+PMNV_Canonball_Car_Trailer
+PMNV-Canonball Mack прицеп-автовоз
+PMNV_Cement_Trailer_Slow
+PMNV CT-2 прицеп для цемента
+PMNV_Cement_Truck_P
+PMNV CTr-2 цементовоз
+PMNV_Concrete_Truck
+PMNV Mack бетоновоз
 PMNV_Cruiser
 Крузэр
 PMNV_Cruiser_Mini
@@ -1542,14 +2006,102 @@ PMNV_Grain_Truck_0
 PMNV Classic Grain Carrier
 PMNV_Hydrogen_Cruiser
 Крузэр на водороде
+PMNV_Mack_Bulk_Trailer_0
+PMNV Mack прицеп для навалочных грузов 22
+PMNV_Mack_Cement_Trailer_L
+PMNV Mack прицеп для цемента "L"
+PMNV_Mack_Cement_Trailer_S
+PMNV Mack прицеп для цемента "S"
+PMNV_Mack_Concrete_Trailer_O
+PMNV-Mack прицеп для бетона
+PMNV_Mack_cooled_Trailer_O
+PMNV-Mack рефрижераторный прицеп
+PMNV_Mack_Goods_Trailer_O
+PMNV-Mack грузовой прицеп
+PMNV_Mack_Grain_Trailer_0
+PMNV Mack прицеп для зерна
+PMNV_Mack_Grain_Trailer_O
+PMNV-Mack прицеп для зерна "O"
+PMNV_Mack_Log_Trailer_L
+PMNV Mack прицеп для брёвен "L"
+PMNV_Mack_Log_Trailer_M
+PMNV Mack прицеп для брёвен "M"
+PMNV_Mack_Log_Trailer_S
+PMNV Mack прицеп для брёвен "S"
+PMNV_Mack_Milk_Trailer_O
+PMNV-Mack прицеп для молока
+PMNV_Mack_Oil_Trailer_L
+PMNV Mack прицеп-цистерна "L"
+PMNV_Mack_Oil_Trailer_S
+PMNV Mack прицеп-цистерна "S"
+PMNV_Mack_Planck_Trailer_0
+PMNV Mack прицеп для досок
+PMNV_Mack_Post_Trailer_O
+PMNV-Mack почтовый прицеп
+PMNV_Mack_Steel_Trailer_L
+Mack прицеп для стали "L"
+PMNV_Mack_Steel_Trailer_S
+Mack прицеп для стали "S"
+PMNV_Mail_Truck_1
+PMNV почтовый грузовик 60
+PMNV_Mail_Truck_2
+PMNV почтовый грузовик 77
+PMNV_MHz_Truck_0
+PMNV-MHz Cabover 145
+PMNV_Milk_Trailer_0
+PMNV прицеп для молока
+PMNV_Open_Goods_Trailer_L
+PMNV Mack грузовой прицеп "O-L"
+PMNV_Open_Goods_Trailer_S
+PMNV Mack грузовой прицеп "O-S"
+PMNV_Plank_Trailer_0
+PMNV прицеп для досок
+PMNV_Post_Trailer_0
+PMNV почтовый прицеп
 PMNV_Steel_Trailer_0
 PMNV Bed Trailer (steel)
+PMNV-PB1970
+PMNV PB-1970
 Praga_Bus
 Автобус Прага 1919
+Praga_N_bulk
+Sindor-Praga N – навалочные грузы
+Praga_N_cement
+Sindor-Praga N – цемент
+Praga_N_Cistern
+Sindor-Praga N - cistern
+Praga_N_milk
+Sindor-Praga N молоковоз
+Praga_TOT_128
+Praga TOT
+RVg_1064_White_Bulk
+RVg-White 1064 (навалочные грузы)
+RVg_1064_White_Cement
+RVg-White 1064 (цемент)
+RVg_1064_White_Cooled
+RVg-White 1064 (охлаждённые грузы)
+RVg_1064_White_Fluid
+RVg-White 1064 (цистерна)
+RVg_1064_White_Goods
+RVg-White 1064 (грузы)
 RVg_Passanger_Trailer
 RVg-KS прицеп для перевозки пассажиров
 RVg_Post_Trailer
 RVg-KS прицеп для перевозки почты\n
+RVg_Post_Truck_0
+RVg-KS 4051 почтовый грузовик
+RVg_Post_Truck_1
+RVg-KS 9051 почтовый грузовик
+RVg_Type_S_Bulk
+RVg Type-S навалочные грузы
+RVg_Type_S_Cement
+RVg Type-S – цемент
+RVg_Type_S_Cistern
+RVg Type-S - cistern
+RVg_Type_S_Post
+RVg Type-S – почта
+RVg_Type_S_Van
+RVg Typ-S - van
 RVg-B_101
 RVg-B 101
 RVg-B_107
@@ -1566,6 +2118,18 @@ RVg-KS_9020-58
 RVg-KS 9020-58
 RVg-KS_9020-92
 RVg-KS 9020-92
+RVg-LK_Cement_Truck
+RVg-LK V44 - цементовоз
+RVg-LK_Cooling_Truck
+RVg-LK V44 - рефрижераторный фургон
+RVg-LK_Goods_Truck
+RVg-LK грузовик
+RVg-LK_Grain_Truck
+RVg-LK V41 - грузовик для зерна
+RVg-LK_Plank_Truck
+RVg-LK V37 - грузовик для досок
+RVg-LK_Steel_Truck
+RVg-LK V38 - грузовик для стали
 RX_1064
 RX 1064
 S_Kroytor_Gaz-2
@@ -1594,16 +2158,118 @@ S_Kroytor_PAZ-772
 С.Кройтор ПАЗ-772
 S_Kroytor_Traveler
 Трэвэлер
+Sentinel_Cement_Lorry
+Sindor-Sentinel – цемент
+Sentinel_Cement_Trailer
+Sentinel прицеп – цемент
+Sentinel_Goods_Lorry
+Sindor-Sentinel – грузовик
+Sentinel_Goods_Trailer
+Sentinel прицеп – грузы
+Sentinel_Wood_Lorry
+Sindor-Sentinel лесовоз
+Sentinel_Wood_Trailer
+Sentinel прицеп - logs
+SK_Mail_Truck_1
+S.Kroytor почтовый грузовик
+skoda_1_tr_128
+Skoda 1 tr
+skoda_10_tr_128
+Skoda 10 tr
+skoda_10_tr_rear_128
+Skoda 10 tr (хвостовой)
+skoda_11_tr_128
+Skoda 11 tr
+skoda_12_tr_128
+Skoda 12 tr
+skoda_14_tr_128
+Skoda 14 tr
+skoda_18_tr_128
+Skoda 18 tr
+skoda_18_tr_rear_128
+Skoda 18 tr (хвостовой)
+skoda_19_tr_128
+Skoda 19 tr
+skoda_19_tr_mid_128
+Skoda 19 tr (средний)
+skoda_19_tr_rear_128
+Skoda 19 tr (хвостовой)
+skoda_21_tr_128
+Skoda 21 tr
+skoda_22_tr_128
+Skoda 22 tr
+skoda_22_tr_rear_128
+Skoda 22 tr (хвостовой)
+skoda_23_tr_128
+Skoda 23 tr
+skoda_23_tr_mid_128
+Skoda 23 tr (средний)
+skoda_23_tr_rear_128
+Skoda 23 tr (хвостовой)
+skoda_24_tr_128
+Skoda 24 tr
+skoda_25_tr_128
+Skoda 25 tr
+skoda_25_tr_rear_128
+Skoda 25 tr (хвостовой)
+skoda_6_tr_128
+Skoda 6 tr
 Skoda_706_grain
 Сандор-Шкода 706 - Зерновоз
+Skoda_706_trailer_grain
+Sindor-S706 прицеп для зерна
+skoda_8_tr_128
+Skoda 8 tr
+skoda_sanos_115_tr_128
+Skoda Sanos 115 tr
+skoda_sanos_200_tr_128
+Skoda Sanos 200 tr
+skoda_sanos_200_tr_rear_128
+Skoda Sanos 200 tr (хвостовой)
 SMC_H-38_City_Bus
 SMC H-38 Миниавтобус
 SMC_H-98_City_Bus
 SMC H-98 Городской автобус
 Steel_Truck_0
 Платформ-грузовик PMNV (сталь)
+TATRA_400_T_128
+Tatra 400 T
+TATRA_401_T_128
+Tatra 401 T
+TATRA_86_T_128
+Tatra 86 T
+TS_Mack_Bulk_Trailer_0
+TS лёгкий прицеп для навалочных грузов
 Twin_Coach_40
 Твин Коуч 40
+Vitus-AVECO_Eurocargo_Bretter
+Vitus-Aveco Eurocargo (перевозка досок)
+Vitus-AVECO_Eurocargo_bulk_transporter
+Vitus-Aveco Eurocargo (перевозка тяжёлых навалочных грузов)
+Vitus-AVECO_Eurocargo_freezing
+Vitus-Aveco Eurocargo (рефрижераторная перевозка)
+Vitus-AVECO_Eurocargo_tanker
+Vitus-Aveco Eurocargo (цистерна)
+Vitus-AVECO_Eurocargo_transporter
+Vitus-Aveco Eurocargo (перевозка грузов)
+VSYS_Car_Trailer_0
+VSYS тяжёлый прицеп – автомобили и техника
+VSYS_Concrete_Trailer_0
+VSYS перевозка бетонных изделий
+VSYS_Post_Bus_Trailer_0
+VSYS почтовый прицеп
+VSYS_Post_Bus_Trailer_1
+VSYS тяжёлый почтовый прицеп
+VSYS_Post_Bus_Trailer_2
+VSYS лёгкий почтовый прицеп
+VSYS_Steel_Trailer_0
+VSYS тяжёлый прицеп – сталь
+VSYS_Tatra_138
+VSYS Tatra 138
+VSYS_Tatra_138_Grain
+VSYS Tatra 138 (зерно)
+VSYS_Tatra_813_Clossus
+VSYS Tatra 813 "Colossus"
 Wood_Trailer_0
 Прицеп VSYS (лес)
 Wood_Truck_0
@@ -1710,20 +2376,48 @@ DB_Bm235
 Haru Bm235
 DB_BR103_1
 Haru BR-103
+E_423
+Sindor E-432 - "Top class"
 EMD_E5A_Silver_Meteor
 EMD E5A - "Серебряный метеор"
 EMD_E5B_Silver_Comet
 EMD E5B - "Серебряная комета"
+EMD-FT_(A)
+EMD-FT
+EMD-FT_(B)
+EMD-FT средняя секция
+EMD-FT_(C)
+EMD-FT задняя кабина
 Evil_DF-11
 Evil DF-11
 Evil_P-100_(carriage)
 Evil P-100 (carriage)
 Evil_P-100_(front_engine)
 Evil P-100
+Evil_P-100_(mail)
+Evil P-100 почтовый вагон
 Evil_P-100_(rear_engine)
 Evil P-100 (tail)
 Express_tender
 Tender
+fluid_00_Wood_Barrels_Wagon
+Вагон с деревянными бочками
+fluid_01_Iron_Tanks_Wagon
+Вагон с железными цистернами
+fluid_02_CSD-502_Tank_Wagon
+CSD-502 вагон-цистерна
+fluid_03_CSD-556_Tank_Wagon
+CSD-556 вагон-цистерна
+fluid_04_Esso_Tank_Wagon
+Esso вагон-цистерна
+fluid_05_CEPSA_Tank_Wagon
+CEPSA вагон-цистерна
+fluid_06_VTG_Tank_Wagon
+VTG вагон-цистерна
+fluid_07_Esso_XL_Tank_Wagon
+Esso XL вагон-цистерна
+fluid_08_VTG_CeSa_Tank_Wagon
+VTG CeSa вагон-цистерна
 Goods_waggon_0
 Canonball Closed Car
 Goods_waggon_1
@@ -1734,6 +2428,24 @@ Goods_waggon_3
 Goods Container Car
 Goods_waggon_4
 HS Goods Container Car
+Goods_waggon_5
+RVg крытый вагон
+Haru_2C1_Cheetah
+Haru 2C1 "Cheetah"
+Haru_2D1_Buffalo
+Haru 2D1 Buffalo
+Haru_C44-9W
+Haru C44-9W - Dash
+Haru_DF4
+Haru DF4
+Haru_E3_KOMACHI
+Haru E3 "Komachi"
+Haru_E3_KOMACHI_(mid)
+Haru E3 "Komachi" (средний)
+Haru_E3_KOMACHI_(rear)
+Haru E3 "Komachi" (хвостовой)
+Haru_E3_KOMACHI_(Trailer)
+Haru E3 «Komachi» (прицепной вагон)
 Haru_F7A
 Haru F7 A
 Haru_F7B
@@ -1744,6 +2456,16 @@ Haru_HST_mid
 "Хару" HST (средний)
 Haru_HST_rear
 "Хару" HST (хвостовой)
+Haru_Spike-PSE_Head1
+Haru Spike PSE (головная секция)
+Haru_Spike-PSE_Head2
+Haru Spike PSE (головной вагон)
+Haru_Spike-PSE_Tail1
+Haru Spike PSE (хвостовой)
+Haru_Spike-PSE_Tail2
+Haru Spike PSE (концевой вагон)
+Haru_Spike-PSE_Waggon
+Haru Spike PSE (вагон)
 Haru_Tender
 Haru Tender
 Haru_VT98
@@ -1774,6 +2496,16 @@ Haru-IC3_car
 "Хару" IC-3 (пассажирский)
 Haru-IC3_tail
 "Хару" IC-3 (хвостовой)
+Haru-PlanV
+Haru Plan V.
+Haru-PlanV(rear)
+Haru Plan V. (хвостовой)
+Haru-PMNV_F7-Coach
+Haru-PMNV F7-вагон
+Haru-PMNV_F7-Mail_Car
+Haru-PMNV F7-почтовый вагон
+Haru-TEM2
+Haru TEM-2
 Haru-X2000
 "Хару" X2000 (головной)
 Haru-X2000_mid
@@ -1796,12 +2528,54 @@ JNR_DD51
 Haru DD51
 JNR_tender_S
 Tender
+JR_700_Series_Shinkansen_Hikari_Rail_Star_(PC)
+JR 700 Series Shinkansen "Hikari Rail Star"
+JR_700_Shinkansen_HRS_(Middle_Section)_PC
+JR 700 Series Shinkansen HRS (Middle)
+JR_700_Shinkansen_HRS_(Pantograph_I)_PC
+JR 700 Series Shinkansen HRS (Pantograph I)
+JR_700_Shinkansen_HRS_(Pantograph_II)_PC
+JR 700 Series Shinkansen HRS (Pantograph II)
+JR_700_Shinkansen_HRS_(Tailcar)_PC
+JR 700 Series Shinkansen HRS (Tail)
+LKAB_IORE_Back
+LKAB IORE
+LKAB_IORE_Front
+LKAB IORE
+MA461_waggon
+RVg-DB MA-461 (вагон)
 Marks_Passagierwagen
 MJHN Express Car
 Marks_Postwagen
 MJHN Express Post Car
 Marks-Deltic
 MJHN Deltic
+milk_00_bottled_milk_wagon
+Вагон с бутылками для молока
+milk_01_twin_barrel_wagon
+Вагон с бочками для жидких продуктов
+milk_02_old_tank_wagon
+Old liquid foods вагон-цистерна
+milk_03_6_wheeled_milk_wagon
+Six wheeled вагон для молока
+milk_04_rvg_early_milk_waggon
+Вагон-цистерна для молока
+milk_05_milk_waggon_1
+Вагон-цистерна для жидких продуктов
+milk_06_4_axle_milk_wagon
+4-осная вагон-цистерна для жидких продуктов
+milk_07_milk_waggon_0
+Refrigerated вагон-цистерна
+milk_08_bloomsburg_fair_milk_wagon
+Bloomsburg Fair вагон-цистерна
+milk_09_bordens_milk_wagon
+Bordens вагон-цистерна для молока
+MTAB_Dm_Back
+MTAB Dm (задняя кабина)
+MTAB_Dm_Front
+MTAB Dm
+MTAB_Dm3
+MTAB Dm3 (средняя секция)
 Passagierwagen
 Canonball BTx 060 2nd Grade Coach
 Passanger_waggon_0
@@ -1814,26 +2588,400 @@ Passanger_waggon_3
 RA BTx 050 2nd Grade Coach
 Passanger_waggon_MAITE39
 Nabe-JNR MAITE 39 1st Grade Coach
+Pioneer_Zephyr
+Pioneer Zephyr
+Pioneer_Zephyr_Car
+Pioneer Zephyr вагон
+Pioneer_Zephyr_Tail
+Pioneer Zephyr концевой вагон
+Plank_waggon_0
+RVg Small вагон для древесины и досок
 Plank_waggon_1
 Plank Car
 Post_waggon_0
 PV 80 Post Car
 Postwagen
 Canonball почтовый вагон
+Renfe_250_(German)
+RENFE серия 250 "German"
+Renfe_252_Altaria
+RENFE серия 252 "Altaria"
+Renfe_269_Altaria
+RENFE серия 269 "Japanese"
+Renfe_270
+RENFE серия 270
+Renfe_274_(Bathtube)
+RENFE серия 274 "Bathtube"
+Renfe_276_(French)
+RENFE серия 276 "French"
+Renfe_279_(Benemerita)
+RENFE серия 279 "Benemérita"
+Renfe_310_(Coastguard)
+RENFE серия 310 "Coastguard"
+Renfe_319_(Yankie)
+RENFE серия 319 "Yankie"
+Renfe_333_(Rambo)
+RENFE серия 333 "Rambo"
+Renfe_340_(Egg)
+RENFE серия 340 "Egg"
+Renfe_438_Back
+RENFE серия 438 задняя кабина
+Renfe_438_Front
+RENFE серия 438
+Renfe_440
+RENFE серия 440
+Renfe_440_Back
+RENFE серия 440 задняя кабина
+Renfe_440_Car
+RENFE серия 440 (вагон)
+Renfe_447
+RENFE серия 447
+Renfe_447_Back
+RENFE серия 447 задняя кабина
+Renfe_447_Car
+RENFE серия 447 (вагон)
+Renfe_Series_10200_(Player_Colors)
+RENFE серия 10200
+Renfe_Series_301_(Player_Colors)
+RENFE серия 301
+Renfe_Series_311_(Player_Colors)
+RENFE серия 311
+Renfe_Series_314_(Player_Colors)
+RENFE серия 314
+Renfe_Series_316_(Player_Colors)
+RENFE серия 316 "Marilyn"
+Renfe_Series_318_(Player_Colors)
+RENFE серия 318
+Renfe_Series_319.300_(Player_Colors)
+RENFE серия 319.300
+Renfe_Series_334_(Player_Colors)
+RENFE серия 334
+Renfe_Series_350_Talgo_(Player_Colors)
+RENFE серия 350 Talgo
+Renfe_Series_350_Talgo_Car_(Player_Colors)
+RENFE Talgo-II вагон
+Renfe_Series_350_Talgo_Mail_Car_(Player_Colors)
+RENFE Talgo-II почтовый вагон
+Renfe_Series_350_Talgo_Restaurant_Car_(Player_Colors)
+RENFE Talgo-II вагон-ресторан
+Renfe_Tgpps_Grain_Hopper
+RENFE TGPPS зерновой хоппер
+Renfe_Uagp_Grain_Hopper
+RENFE UAGP зерновой хоппер
+Renfe_Z-2000_Car
+RENFE Z-2000 вагон
+Renfe_Z-2000_Mail_Car
+RENFE Z-2000 почтовый вагон
+Renfe6000_Post
+RENFE серия 6000 почтовый вагон
+Renfe6000_Psg
+RENFE серия 6000 пассажирский вагон
+RVg_0-1-4-0
+RVg 0-1-4-0
+RVg_1945_box_car
+RVg крытый вагон (1945/23)
+RVg_1951_box_car
+RVg крытый вагон (1951/24)
+RVg_1955_box_car
+RVg крытый вагон (1955/24)
+RVg_1962_box_car
+RVg крытый вагон (1962/24)
+RVg_1969_box_car
+RVg крытый вагон (1969/25)
+RVg_1976_box_car
+RVg крытый вагон (1976/26)
+RVg_1983_box_car
+RVg крытый вагон (1983/26)
+RVg_1989_container_car
+RVg контейнерный вагон (1989/27)
+RVg_1994_container_car
+RVg контейнерный вагон (1994/27)
+RVg_2000_container_car
+RVg контейнерный вагон (2000/27)
+RVg_2006_container_car
+RVg контейнерный вагон (2006/27)
+RVg_2011_container_car
+RVg контейнерный вагон (2011/27)
+RVg_Bulk_Waggon_00
+RVg вагон для навалочных грузов (1850/20)
+RVg_Bulk_Waggon_01
+RVg вагон для навалочных грузов (1932/23)
+RVg_Bulk_Waggon_02
+RVg вагон для навалочных грузов (1945/25)
+RVg_Bulk_Waggon_03
+RVg вагон для навалочных грузов (1962/28)
+RVg_Bulk_Waggon_04
+RVg вагон для навалочных грузов (1978/30)
+RVg_Bulk_Waggon_05
+RVg вагон для навалочных грузов (1995/32)
+RVg_Bulk_Waggon_06
+RVg вагон для навалочных грузов (2019/35)
+RVg_Cementwagen
+RVg вагон для цемента
+RVg_Cooling_car
+RVg рефрижераторный вагон
+RVg_Daylight
+RVg Daylight (локомотив)
+RVg_Daylight_dome
+RVg Daylight (вагон-ресторан)
+RVg_Daylight_end
+RVg Daylight (концевой вагон)
+RVg_Daylight_post
+RVg Daylight (почтовый вагон)
+RVg_Daylight_tender
+RVg Daylight (тендер)
+RVg_Daylight_waggon
+RVg Daylight (вагон)
+RVg_Flying_Berliner_(front)
+RVg "Flying Berliner" (Front)
+RVg_Flying_Berliner_(tail)
+RVg "Flying Berliner" (Rear)
+RVg_Hiawatha
+RVg Hiawatha Express (локомотив)
+RVg_Hiawatha_dome
+RVg Hiawatha Express (вагон-ресторан)
+RVg_Hiawatha_end
+RVg Hiawatha Express (концевой вагон)
+RVg_Hiawatha_post
+RVg Hiawatha Express (почтовый вагон)
+RVg_Hiawatha_tender
+RVg Hiawatha Express (тендер)
+RVg_Hiawatha_waggon
+RVg Hiawatha Express (вагон)
+RVg_M1
+Rvg M1 (головная секция)
+RVg_M1_tail
+RVg M1 (хвостовая секция)
+RVg_M1_waggon
+RVg M1 (вагон)
+RVg_O-2-4-0
+RVg 2-4-0 «Express»
+RVg_R-100_(carriage)
+RVg R-100 (вагон)
+RVg_R-100_(front_engine)
+RVg R-100 (головная секция)
+RVg_R-100_(mail)
+RVg R-100 (почтовый вагон)
+RVg_R-100_(rear_engine)
+RVg R-100 (хвостовая секция)
+RVg_Spike_Duplex
+RVg Spike Duplex (головная секция)
+RVg_Spike_Duplex_tail
+RVg Spike Duplex (хвостовая секция)
+RVg_Spike_Duplex_waggon
+RVg Spike Duplex (вагон)
+RVg_Thunder_2
+RVg Thunder II
+RVg_Thunder_2_Back
+RVg Thunder II (хвостовой)
+RVg_Thunder_2_post
+RVg Thunder II (почта)
+RVg_Thunder_2_wagon
+RVg Thunder II (вагон)
+RVg_Tigress
+RVg Tigress
+RVg_Tigress_Back
+RVg Tigress (хвостовой)
+RVg_Tigress_post
+RVg Tigress (почта)
+RVg_Tigress_wagon
+RVg Tigress (вагон)
+RVg-0-4-4-0
+RVg 0-4-4-0 - Eight Wheeler
+RVg-1-4-1
+RVg 1-4-1 Bully
+RVg-1-5-0-Goliath
+RVg 1-5-0 Goliath
+RVg-2-3-0
+RVg 2-3-0
+RVg-2-3-1
+RVg 2-3-1 Slim Line
+RVg-2-4-0
+RVg 2-4-0 Runner
+RVg-2-5-1
+RVg 2-5-1 "Muscle Arm"
+RVg-D22-Rola
+RVg D22 "Rola"
+RVg-D23-Camel
+RVg D23 "Camel"
+RVg-D41-Tubus
+RVg D41 "Tubus"
+RVg-DB_MA461
+RVg-DB MA-461
+RVg-DB_MA461_Tail
+RVg-DB MA-461 (хвостовой)
+RVg-E17-Spring
+RVg E17 "Spring"
+RVg-Goods_waggon
+RVg крытый вагон
+RVg-Heavy-Tender
+RVg Heavy тендер
+RVg-Oil-Tender
+RVg нефтяной тендер
+RVg-Pioneer_Alladin
+RVg Pioneer Alladin
+RVg-Pioneer_Alladin_rear
+RVg Pioneer Alladin (хвостовой)
+RVg-Pioneer_Alladin_supply
+RVg Pioneer Alladin (моторный вагон)
+RVg-Pioneer_Alladin_waggon
+RVg Pioneer Alladin (вагон)
+RVg-RHF401
+RVg-RHF 401 "Crocodile"
+RVg-S004-Little_Boy
+RVg S004 "Little Boy"
+RVg-S033-Red_Dwarf
+RVg S033 "Red Dwarf"
+RVg-S127-Blue_Cow
+RVg S127 "Blue Cow"
+RVg-Tender
+RVg тендер
 SBB_Re4_4_II
 Haru Re4 4 II
 SBB_Re6_6
 Haru Re6 6
+Silver_City_Comet
+Silver City Comet
+Silver_City_Comet_Car
+Silver City Comet вагон
+Silver_City_Comet_Post_Car
+Silver City Comet почтовый вагон
 Skoda_109E
 Сандор-Шкода 109E
+skoda151
+Skoda 151
 skoda163
 Skoda 163
 skoda180
 Skoda 180
+SMC_Early_Grain_Hopper
+Короткий зерновой хоппер
+SMC_HDL-1400
+SMC HDL-1400
+SMC_HDL-1600
+SMC HDL-1600
+SMC_HDL-1800
+SMC HDL-1800
+SMC_HDL-2000
+SMC HDL-2000
+SMC_HDL-2500
+SMC HDL-2500
+SMC_HDL-3000
+SMC HDL-3000
+SMC_HDL-4000
+SMC HDL-4000
+SMC_Long_Grain_Hopper
+SMC Long зерновой хоппер
+SMC_Medium_Grain_Car
+SMC вагон для мешков с зерном
+SMC_RT-100_Ugly_Duck
+SMC RT-100 "Ugly Duck"
+SMC_RT-101_(car)
+SMC RT-101 вагон
+SMC_RT-102_(mail_car)
+SMC RT-102 почтовый вагон
+SMC_RT-120_Mighty_Duck
+SMC RT-120 "Mighty Duck"
+SMC_RT-121_(car)
+SMC RT-121 вагон
+SMC_RT-122_(mail_car)
+SMC RT-121 почтовый вагон
+SMC_RT-350_Donald_Duck
+SMC RT-350 "Donald Duck"
+SMC_RT-351_(car)
+SMC RT-351 вагон
+SMC_RT-352_(mail_car)
+SMC RT-352 почтовый вагон
+SMC_RT-600_Super_Duck
+SMC RT-600 "Super Duck"
+SMC_RT-601_(single_deck_car)
+SMC RT-601 одноэтажный вагон
+SMC_RT-602_(mail_car)
+SMC RT-602 почтовый вагон
+SMC_RT-605_(double_deck_car)
+SMC RT-605 двухэтажный вагон
+SMC_RT-900_Dry_Duck
+SMC RT-900 "Dry Duck"
+SMC_RT-901_(car)
+SMC RT-901 вагон
+SMC_RT-902_(mail_car)
+SMC RT-902 почтовый вагон
+SMC_RT-909_(back_engine)
+SMC RT-909 задняя кабина
+SMC_Short_Grain_Car
+SMC вагон для мешков с зерном
+SMC_XT-1000_Proto_Duck
+SMC XT-1000 "ProtoDuck"
+SMC_XT-1001_(passenger_car)
+SMC XT-1001 пассажирский вагон
+SMC_XT-1002_(mail_car)
+SMC XT-1002 почтовый вагон
+SMC_XT-1009_(back_engine)
+SMC XT-1009 задняя кабина
+SMC_XT-300_Toasted_Duck
+SMC XT-300 "Toasted Duck"
+SMC_XT-301_(car)
+SMC XT-301 вагон
+SMC_XT-302_(mail_car)
+SMC XT-302 почтовый вагон
+SMC_XT-309_(back_engine)
+SMC XT-309 задняя кабина
+SMC_XT-500_Hot_Duck
+SMC XT-500 "Hot Duck"
+SMC_XT-501_(car)
+SMC XT-501 вагон
+SMC_XT-502_(mail_car)
+SMC XT-502 почтовый вагон
+SMC_XT-509_(back_engine)
+SMC XT-509 задняя кабина
+SMC_XT-700_Fast_Duck
+SMC XT-700 "Fast Duck"
+SMC_XT-701_(passenger_car)
+SMC XT-701 пассажирский вагон
+SMC_XT-702_(mail_car)
+SMC XT-702 почтовый вагон
+SMC_XT-709_(back_engine)
+SMC XT-709 задняя кабина
 Stahlwagen
 Canonball Bed Car (steel)
 Stahlwagen_0
 Canonball Steel Car
+Stahlwagen_1
+RVg сталевоз
+Stahlwagen_2
+RVg вагон для стальных рулонов
+Stahlwagen_3
+RVg вагон для стальных листов
+TalgoExpressCar
+Talgo экспресс-вагон
+TalgoExpressMail
+Talgo Express почтовый вагон
+TalgoExpressRestaurant
+Talgo Express вагон-ресторан
+TalgoRegionalCar
+Talgo Regional вагон
+TalgoRegionalMail
+Talgo Regional почтовый вагон
+TGV_4400
+TGV 4400
+TGV_4400_Back
+TGV 4400 (хвостовой)
+TGV_4400_Car
+TGV 4400 (вагон)
+TGV_Atlantique
+TGV Atlantique
+TGV_Atlantique_(Back)
+TGV Atlantique (хвостовой)
+TGV_Atlantique_(Car)
+TGV Atlantique (вагон)
+TGV_Post
+TGV La Poste
+TGV_Post_Back
+TGV La Poste (хвостовой)
+TGV_Post_Car_A
+TGV La Poste (вагон A)
+TGV_Post_Car_B
+TGV La Poste (вагон B)
 Thunder_(front_engine)
 BB Thunder
 Thunder_(mail)
@@ -1842,20 +2990,80 @@ Thunder_(rear_engine)
 BB Thunder (tail)
 Thunder_(waggon)
 BB Thunder (waggon)
+TMB_Class_100
+TMB метро, серия 100
+TMB_Class_1000
+TMB метро, серия 1000
+TMB_Class_2000
+TMB метро, серия 2000
+TMB_Class_2000_Car
+TMB метро, серия 2000 (вагон)
+TMB_Class_200A
+TMB метро, серия 200A
+TMB_Class_200B
+TMB метро, серия 200B
+TMB_Class_200B_Car
+TMB метро, серия 200B (вагон)
+TMB_Class_300
+TMB метро, серия 300
+TMB_Class_300_Car
+TMB метро, серия 300 (вагон)
+TMB_Class_3000
+TMB метро, серия 3000
+TMB_Class_3000_Back
+TMB метро, серия 3000 (хвостовой)
+TMB_Class_3000_Car
+TMB метро, серия 3000 (вагон)
+TMB_Class_400
+TMB метро, серия 400
+TMB_Class_400_Car
+TMB метро, серия 400 (вагон)
+TMB_Class_500
+TMB метро, серия 500
+TMB_Class_500_Car
+TMB метро, серия 500 (вагон)
+TMB_Class_6000
+TMB метро, серия 6000
+TMB_Class_6000_Back
+TMB метро, серия 6000 (хвостовой)
+TMB_Class_6000_Car
+TMB метро, серия 6000 (вагон)
+TMB_Class_6000_Powered_Car
+TMB метро, серия 6000 (моторный вагон)
 vsys_garatt_0
 VSYS-Garatt 2DD2 (front)
 vsys_garatt_1
 VSYS-Garatt 2DD2 (middle)
 vsys_garatt_2
 VSYS-Garatt 2DD2 (rear)
+VT105_Addon
+VT-105
+VT105_Car_Addon
+VT-105 вагон
+VT105_Tail_Addon
+VT-105 концевой вагон
+Western_Observation
+Western смотровой вагон
+Western_Passenger_Car
+Western пассажирский вагон
 #_____________________________vehicle - tram_track______________________________
 #_____________________________vehicle - tram_track______________________________
 DueWAG_GT6_motorwaggon
 Due WAG GT6 (локомотив)
 DueWAG_GT6_tailwaggon
 Due WAG GT6 (вагон)
+EM400_1
+Sindor-FK EM400
 Haru_Tatra-T3
 Haru Tatra T3
+MHz_TRAM_1930
+MHz T-113
+MHz_TRAM_1980
+MHz T-235 SuperCity
+R_01
+RVg R1 – вагон
+R_02
+RVg R2 – вагон
 T_101
 RVg T101
 T_102
@@ -1884,18 +3092,168 @@ T_110A
 RVg T110 - super tram
 T_110B
 RVg T110 II
+T_202_Cityway_A
+T-202 Cityway
+T_202_Cityway_B0
+T-202 Cityway (B)
+T_202_Cityway_B1
+T-202 Cityway (B1)
+T_202_Cityway_C0
+T-202 Cityway (C)
+T_202_Cityway_C1
+T-202 Cityway (C1)
+T_202_Cityway_D
+T-202 Cityway (D)
+T_202_Cityway_E0
+T-202 Cityway (E)
+T_202_Cityway_E1
+T-202 Cityway (E1)
+T_211_Eurotram_A
+T-211 Eurotram
+T_211_Eurotram_B
+T-211 Eurotram (B)
+T_211_Eurotram_C
+T-211 Eurotram (C)
+T_211_Eurotram_D
+T-211 Eurotram (D)
+T_211_Eurotram_E
+T-211 Eurotram (E)
+T_212_Sirio_A
+T-212 Sirio
+T_212_Sirio_B
+T-212 Sirio (B)
+T_212_Sirio_C
+T-212 Sirio (C)
+T_212_Sirio_D
+T-212 Sirio (D)
+T_212_Sirio_E
+T-212 Sirio (E)
+T_221_Combino_A
+T-221 Combino
+T_221_Combino_B
+T-221 Combino (B)
+T_221_Combino_C
+T-221 Combino (C)
+T_221_Combino_D
+T-221 Combino (D)
+T_221_Combino_E
+T-221 Combino (E)
+T_222_Combino_Supra_A
+T-222 Combino Supra
+T_222_Combino_Supra_B
+T-222 Combino Supra (B)
+T_222_Combino_Supra_C
+T-222 Combino Supra (C)
+T_222_Combino_Supra_D
+T-222 Combino Supra (D)
+T_222_Combino_Supra_E
+T-222 Combino Supra (E)
 #________________________________vehicle - water________________________________
 #________________________________vehicle - water________________________________
+Black_Osprey
+Black Osprey (сталь)
+Black_Osprey_(goods)
+Black Osprey (грузы)
+Black_Osprey_(grain)
+Black Osprey (зерновоз)
+brick_goelette
+Бригантина
+brigantin
+Бригантина
+British_Premier
+British Premier
+Eaglescliffe_Hall
+Eaglescliffe Hall (навалочные грузы)
+Eaglescliffe_Hall_(lumber)
+Eaglescliffe Hall (древесина)
+Edmund_Fitzgerald
+Edmund Fitzgerald (сталь)
+Edmund_Fitzgerald_(wood)
+Edmund Fitzgerald (древесина)
+Ferry_Mail_Extension_(small)
+Почтовое расширение для парома (малое)
+Ferry_yeu_128set
+Oggia паром
 Fishing_Boat_1
 MHz Fish Trawler
+Freya
+Паром «MV Freya»
+Gripsholm
+Трансатлантический лайнер «Gripsholm»
+Liner_Mail_Extension_(large)
+Почтовое расширение для парома (большое)
+MHz-C11C_Bulk_Barge
+MHz C11C баржа для навалочных грузов
+MHz-C11C_Wood_Barge
+MHz C11C баржа для древесины
+MHz-C273U_Cement_Barge
+MHz-C273U баржа для цемента
+MHz-C35_Goods_Barge
+MHz-C35 грузовая баржа
+MHz-C3P_Post_Barge
+MHz-C3P почтовая баржа
+MHz-CC47_Container_Barge
+Mhz-CC47 контейнерная баржа (штучные грузы)
 MHz-MT7_Milk_Barge
 "Хару" MT7 Молочные цистерны
 MHz-OT5_Oil_Barge
 MHz OT5 Танкер
 MHz-P11C_Bulk_Boat
 MHz P11C Грузовая лодка
+MHz-P11C_Wood_Boat
+MHz P11C судно для древесины
+MHz-R2A_Push-Tug
+MHz R2A толкач
+MV_Balmoral
+MV Balmoral
+MV_Fedra
+MV Fedra (навалочные грузы)
+MV_Lake_Illawarra
+MV Lake Illawarra (навалочные грузы)
+MV_Lake_Illawarra_(grain)
+MV Lake Illawarra (зерновоз)
+New_Zealand_Star
+New Zealand Star (рефрижератор)
+Nordic_Heron
+Nordic Heron (танкер)
+Nordic_Heron_(liquid_food)
+Nordic Heron (жидкие продукты)
+Nororn
+Рефрижераторное судно «Nororn»
+Owari_Maru
+Owari Maru (навалочные грузы)
+Patagonia
+Patagonia (грузы)
+Patagonia_(farm_products)
+Patagonia (зерновоз)
 Post_Barge
 MHz Post Barge
+Queen_Elisabeth_2
+Queen Elisabeth II
+Rigoletto
+Rigoletto (автомобили)
+RMS_Baltic
+RMS Baltic
+RVg-Sail_Goods_Ship_0
+RVg торговое судно
+RVg-Sail_Passanger_Ship_0
+RVg пассажирское парусное судно
+RVg-Steam_Goods_Ship_0
+RVg грузовой пароход
+RVg-Steam_Passanger_Ship_0
+RVg пассажирский пароход
+Sail_Post_Ship_0
+Почтовое парусное судно
+Stoyko_Peev
+Stoyko Peev
+Veveri_ship_128set
+Veveri
+Willamette_Chief
+Willamette Chief
+Willamette_Chief_(farm_goods)
+Willamette Chief (зерно)
+Willamette_Chief_(goods)
+Willamette Chief (грузы)
 #___________________________________way - air___________________________________
 #___________________________________way - air___________________________________
 air_movement_area
@@ -1958,12 +3316,16 @@ Rail_080_Tracks
 Низкоскоростной деревянный ж/д путь
 Rail_080B_Tracks
 Низкоскоростной бетонный ж/д путь
+Rail_100_Elevated
+Эстакада (стальные балки)
 Rail_100_Tracks
 Обычный деревянный ж/д путь
 Rail_120_Elevated
 Эстакада улучшенного деревянного ж/д пути
 Rail_120_Tracks
 Улучшенный деревянный ж/д путь
+Rail_120b_Elevated
+Эстакада (стальные балки)
 Rail_120B_Tracks
 Улучшенный бетонный ж/д путь
 Rail_140_Elevated
@@ -1998,6 +3360,12 @@ Rail_400_Elevated
 Эстакада сверхскоростного ж/д пути
 Rail_400_Tracks
 Сверхскоростной ж/д путь
+Rail_60_Elevated
+Эстакада на решётчатых опорах
+Rail_80_Elevated
+Эстакада на каменных опорах (80 км/ч)
+Rail_80B_Elevated
+Эстакада на бетонных опорах (80 км/ч)
 Tram_Track_050_A
 Обычный трамвайный путь
 Tram_Track_070_A
@@ -2036,15 +3404,37 @@ trolleybus_catenary
 Электрификация дороги
 #______________________________way-object - track_______________________________
 #______________________________way-object - track_______________________________
+classic_catenary
+Грузовая электрификация (контактная сеть, опоры)
 classic_metal_mesh_catenary
 Электрификаця рельс
 curved_pylon_lgv
 Высокоскоростная контактная сеть
+grey_type_catenary
+Экспресс-электрификация (серый тип)
 highspeed_catenary
 Стандартная контактная сеть
+ogive_midi_catenary
+Экспресс-электрификация (рёберный портал)
+overhead_feeding_rail
+Экспресс-электрификация (широкая опора)
+plastic_covered_third_rail
+Грузовая электрификация (третий рельс, пластиковый кожух)
+steel_gantry_catenary
+Региональная электрификация (стальной портал)
+third_rail
+Грузовая электрификация (третий рельс, без кожуха)
+wood_covered_third_rail
+Грузовая электрификация (третий рельс, деревянный кожух)
 wood_gantry_catenary
 Старая контактная сеть
 #____________________________way-object - tram_track____________________________
 #____________________________way-object - tram_track____________________________
+tramway_aps
+Трамвайная электрификация (APS)
+tramway_classic
+Трамвайная электрификация (на тросах)
+tramway_classic_2
+Трамвайная электрификация (на опорах)
 tramway_modern
 Электрификация трамвайных путей

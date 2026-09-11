@@ -9,7 +9,7 @@
 #                             Language: es Espanol                             #
 #                                Encoding: UTF-8                               #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 8.03 2026                           #
+#                           Date Created: 11.09 2026                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -1824,8 +1824,22 @@ small_classic_bus_stop
 Paradeta
 small_early_bus_stop
 Parada de autobús con poste
+station_03_02
+Andén techado (azul)
+station_03_03
+Nave de estación (azul, techo abovedado)
 Suspended_Monorail_Bahnhof_Modern
 Parada de MonoCarril
+train_big_station_early_ext
+Nave de estación (asfaltado, techo inclinado)
+train_big_station_modern_ext
+Nave de estación moderna (vías exteriores)
+train_big_station_modern_int
+Nave de estación moderna (vías interiores)
+train_flat_station_early
+Andén techado (asfaltado, techo plano)
+train_flat_station_modern
+Andén techado (embaldosado, techo plano)
 train_platform_early
 Plataforma de pasajeros (grava)
 train_platform_med
@@ -1834,6 +1848,14 @@ train_platform_modern
 Plataforma de pasajeros (con losetas)
 train_small_station_early
 Plataforma protegida (grava)
+train_small_station_med
+Andén con caseta de espera (asfaltado)
+train_small_station_modern
+Andén con caseta de espera (embaldosado)
+train_station_early
+Andén techado (asfaltado, techo inclinado)
+train_station_modern
+Andén techado (embaldosado, techo inclinado)
 TrainStop
 Estación cubierta
 VillageTrainStop
@@ -1862,8 +1884,28 @@ Ayuntamiento y casa Consistorial
 Ayuntamiento de Oriente Medio
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
+ambulance_0
+Ambulancia
+ambulance_1
+Ambulancia
 Horse_Carriage_For_2_public
 Carreta privada
+ms_coupe_green
+Chevrolet Chevelle Coupe
+#___________________________________crossing____________________________________
+#___________________________________crossing____________________________________
+Crossing1
+Paso a nivel moderno
+Crossing2
+Paso a nivel
+CrossingRoadWater
+Puente de elevación vertical
+CrossingTrackWater
+Puente ferroviario de elevación vertical
+p128_crossing_road040_rail080
+Paso a nivel (carretera 40 / vía 80)
+p128_crossing_road090_rail160
+Paso a nivel (carretera 90 / vía 160)
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 autoshop3
@@ -2255,7 +2297,7 @@ vehículo monoraíl
 Monorailboden
 Superficie de Monorraíl
 Monoraildepot
-Depósito de locomotoras magnéticas
+Cochera de monoraíl
 Monorailhalt
 estación de monoraíl
 Monorailhalt muss auf\nMonorail liegen!\n
@@ -2380,6 +2422,54 @@ palm010
 Palmera datilera\n\n
 palm011
 Palmera tropical\n\n
+tree020
+Abedul
+tree021
+Abedul
+tree022
+Manzano
+tree023
+Roble
+tree024
+Nogal
+tree025
+Fresno
+tree030
+Magnolio
+tree031
+Eucalipto
+tree032
+Nogal
+tree040
+Peral
+tree041
+Ciruelo silvestre
+tree042
+Abedul
+tree050
+Arbusto
+tree051
+Álamo
+tree052
+Álamo
+tree060
+Aliso
+tree061
+Roble
+tree062
+Olmo
+tree063
+Aliso
+tree070
+Roble pequeño
+tree071
+Arbusto grande
+tree072
+Álamo
+tree080
+Álamo temblón
+tree081
+Olivo
 tree082
 Cedro\n\n
 tree083
@@ -2830,6 +2920,16 @@ Grain_trailer_0
 PMNV Remolque Cereales 
 Grain_Truck_1
 VSYS-Tatra 815 (cereales)
+Irisbus_Cristalis_ETB12
+Irisbus Cristalis ETB-12
+Irisbus_Cristalis_ETB18_front
+Irisbus Cristalis ETB-18
+Irisbus_Cristalis_ETB18_rear
+Irisbus Cristalis ETB-18 (trasero)
+Irisbus_Magelys_HD
+Irisbus Magelys HD
+Irisbus_Magelys_HDH
+Irisbus Magelys HDH
 Kord_TT_bulk
 Kord TT (friables)
 Kord_TT_grain
@@ -2842,6 +2942,12 @@ Mack_Truck_Post_Trailer
 PMNV Semirremolque postal
 Mail_Truck_2
 MHz Windstar (furgoneta postale)
+Man_Lions_City
+MAN Lion's City
+Man_Lions_City_G_back
+MAN Lion's City G (posterior)
+Man_Lions_City_G_front
+MAN Lion's City G (delantero)
 MHz_Grain_Trailer_0
 MHZ Remolque a granos
 MHz_Long_Wood_Trailer
@@ -3958,6 +4064,10 @@ VT105_Car_Addon
 VT-105 (coche)
 VT105_Tail_Addon
 VT-105 (coche cola)
+Western_Observation
+Coche mirador (Oeste)
+Western_Passenger_Car
+Coche de pasajeros (Oeste)
 #_____________________________vehicle - tram_track______________________________
 #_____________________________vehicle - tram_track______________________________
 DueWAG_GT6_motorwaggon
@@ -4068,6 +4178,10 @@ Black_Osprey_(goods)
 Black Osprey (mercancías)
 Black_Osprey_(grain)
 Black Osprey (grano/cereales)
+brick_goelette
+Bergantín goleta
+brigantin
+Bergantín
 British_Premier
 British Premier
 Eaglescliffe_Hall

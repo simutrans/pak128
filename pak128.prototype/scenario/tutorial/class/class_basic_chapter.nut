@@ -14,7 +14,7 @@
 // Global coordinate for mark build tile
 currt_pos <- null
 
-//----------------Para las señales de paso------------------------
+//----------------Para las seÃ±ales de paso------------------------
 persistent.sigcoord <- null
 sigcoord  <- null
 //-----------------------------------------------------------------
@@ -2256,7 +2256,7 @@ class basic_chapter
   function is_stop_allowed_ex(tile, list, pos, wt)
   {
     local result = get_tile_message(3, tile)
-    local t_list = is_water_entry(list)
+    local c2d = "coord"
     local t = tile_x(pos.x, pos.y, pos.z)
     local buil = t.find_object(mo_building)
     local is_wt = buil ? buil.get_waytype():null
@@ -2271,24 +2271,19 @@ class basic_chapter
     local get_cl = square_x(pos.x, pos.y).get_climate()
     local st_count = 0
     for ( local j = 0; j < list.len(); j++ ) {
-      if ( glsw[j] == 1 )
+      if ( tmpsw[j] == 1 )
         st_count++
     }
-    if ( st_count < list.len() ) {
-      local j = 0
-      local c2d = "coord"
-      foreach(t in t_list){
 
-        local c = list[j]
+    if ( st_count < list.len() ) {
+        local c = list[st_count]
         local type = typeof(c)
         local st_t = type == c2d ? my_tile(c) : tile_x(c.x, c.y, c.z)
         local halt = st_t.get_halt()
         local tile_list = halt.get_tile_list()
         local max = tile_list.len()
-        //local c_lim_list = {a = tile_list[0], b = tile_list[max-1]}
-        //gui.add_message(""+j+" :: "+tmpsw[j])
-        if(tmpsw[j] == 0){
-          //if(max == 1 && t.is_water()) return check_water_tile(result, tile_list[0], pos, j)
+        if(tmpsw[st_count] == 0){
+          //Water weather checker or wt_water
           if(wt == wt_water && t.is_water()){
             local area = get_tiles_near_stations(tile_list)
             for( local i = 0; i < area.len(); i++ ) {
@@ -2297,40 +2292,38 @@ class basic_chapter
               //gui.add_message(""+t_water.x+","+t_water.y+"")
               if (pos.x == t_water.x && pos.y == t_water.y){
                 if ( t_water.is_water() ) {
-                  tmpsw[j] = 1
-                  tmpcoor.push(t)
+                  tmpsw[st_count] = 1
+                  tmpcoor.push(pos)
                   result = null
                   break
                 }
                 else
-                  result = format(translate("Select station No.%d"),j+1)+" ("+c.tostring()+")."
+                  result = format(translate("Select station No.%d"),st_count+1)+" ("+c.tostring()+")."
               }
               else
-                result = format(translate("Select station No.%d"),j+1)+" ("+c.tostring()+")."
+                result = format(translate("Select station No.%d"),st_count+1)+" ("+c.tostring()+")."
             }
             return result
           }
-          foreach(tile in tile_list){
-            if (pos.x == tile.x && pos.y == tile.y && pos.z == tile.z){
-              if(has_way && wt == is_wt){
-                tmpsw[j] = 1
-                tmpcoor.push(st_t)
-                return null
-              }
-              else
-                return format(translate("Select station No.%d"),j+1)+" ("+c.tostring()+")."
+
+        //If they are land vehicles
+        foreach(tile in tile_list){
+          if (pos.x == tile.x && pos.y == tile.y && pos.z == tile.z){
+            if(has_way && wt == is_wt){
+              tmpsw[st_count] = 1
+              tmpcoor.push(pos)
+              return null
             }
+            else
+              return format(translate("Select station No.%d"),st_count+1)+" ("+c.tostring()+")."
           }
-          return format(translate("Select station No.%d"),j+1)+" ("+c.tostring()+")."
         }
-        j++
-        if (j == t_list.len())
-          return result
+        return format(translate("Select station No.%d"),st_count+1)+" ("+c.tostring()+")."
       }
     }
-
-    return 0
+    return result
   }
+
   function get_c_key(c, i){
     local res =  ("coord_" + c.x + "_" + c.y + "_" + c.z +"_"+i).toalnum()
     gui.add_message(""+res)
@@ -3742,38 +3735,53 @@ function check_select_way(name, wt, st = st_flat) {
   * @param tile_b - build tile end
   * @param obj    - build object
   *
-  * @return tile array
+  * @return tile array construction area without start and end
   */
 function select_cube(tile_a, tile_b, obj = "") {
 
   local cube = []
 
-  if ( tile_a.x < tile_b.x || tile_a.y < tile_b.y ) {
-    // define the construction area
-    cube.append ( coord3d(bridge2_coords.b.x, bridge2_coords.b.y, bridge2_coords.b.z+1) )
-    cube.append ( coord3d(bridge2_coords.a.x, bridge2_coords.a.y, bridge2_coords.a.z) )
-    if ( obj == "bridge" ) {
+  local tx = 0
+  local ty = 0
+  if ( tile_a.x < tile_b.x && tile_a.y == tile_b.y ) {
+    tx = 1
+    ty = 0
+  } else if ( tile_a.x == tile_b.x && tile_a.y < tile_b.y ) {
+    tx = 0
+    ty = 1
+  } else if ( tile_a.x > tile_b.x && tile_a.y == tile_b.y ) {
+    tx = -1
+    ty = 0
+  } else if ( tile_a.x == tile_b.x && tile_a.y > tile_b.y ) {
+    tx = 0
+    ty = -1
+  }
+
+  // define the construction area without start and end
+  cube.append ( coord3d(tile_a.x+tx, tile_a.y+ty, tile_a.z+1) )
+  cube.append ( coord3d(tile_b.x-tx, tile_b.y-ty, tile_b.z+1) )
+
+  //gui.add_message("cube 0 + 1 " + coord3d_to_string(cube[0]) + " - " + coord3d_to_string(cube[1]) )
+
+    /*if ( obj == "bridge" ) {
       // prohibit the fields between the bridge ends
-      //cube.append ( coord3d(bridge2_coords.b.x-1, bridge2_coords.b.y-1, bridge2_coords.b.z+1) )
-      //cube.append ( coord3d(bridge2_coords.b.x+1, bridge2_coords.b.y+1, bridge2_coords.b.z) )
-      cube.append ( coord(bridge2_coords.b.x+1, bridge2_coords.b.y-1) )
-      cube.append ( coord(bridge2_coords.a.x-1, bridge2_coords.a.y+1) )
+      cube.append ( coord3d(bridge2_coords.b.x-1, bridge2_coords.b.y-1, bridge2_coords.b.z+1) )
+      cube.append ( coord3d(bridge2_coords.b.x+1, bridge2_coords.b.y+1, bridge2_coords.b.z+1) )
+      //cube.append ( coord(bridge2_coords.b.x+1, bridge2_coords.b.y-1) )
+      //cube.append ( coord(bridge2_coords.a.x-1, bridge2_coords.a.y+1) )
     }
-  } else {
     // define the construction area
-    cube.append ( coord3d(bridge2_coords.a.x-1, bridge2_coords.a.y-1, bridge2_coords.a.z+1) )
+    /*cube.append ( coord3d(bridge2_coords.a.x-1, bridge2_coords.a.y-1, bridge2_coords.a.z+1) )
     cube.append ( coord3d(bridge2_coords.b.x+1, bridge2_coords.b.y+1, bridge2_coords.a.z) )
     if ( obj == "bridge" ) {
       // prohibit the fields between the bridge ends
       cube.append ( coord3d(bridge2_coords.a.x+1, bridge2_coords.a.y-1, bridge2_coords.a.z+1) )
       cube.append ( coord3d(bridge2_coords.b.x-1, bridge2_coords.b.y+1, bridge2_coords.b.z) )
     }
-  }
 
-  gui.add_message("cube 0 + 1 " + coord3d_to_string(cube[0]) + " - " + coord3d_to_string(cube[1]) )
   if ( cube.len() == 4 ) {
     gui.add_message("cube 2 + 3 " + coord_to_string(cube[2]) + " - " + coord_to_string(cube[3]) )
-  }
+  }*/
 
   return cube
 }

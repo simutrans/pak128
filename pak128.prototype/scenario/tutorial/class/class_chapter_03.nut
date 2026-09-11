@@ -585,142 +585,159 @@ class tutorial.chapter_03 extends basic_chapter
       case 2:
         persistent.ch_max_sub_steps = 3
         //Primer tramo de rieles
-        if (pot[0]==0){
-          local limi = my_tile(way2_fac1_fac2[1])
-          local tile1 = my_tile(way2_fac1_fac2[0])
-          if (!tile1.find_object(mo_way)){
+        if ( pot[0] == 0 ) {
+
+          if (!my_tile(way2_fac1_fac2[0]).find_object(mo_way)){
             label_x.create(way2_fac1_fac2[0], pl_unown, translate("Build Rails form here"))
-          }
-          else
-            tile1.remove_object(player_x(1), mo_label)
-
-          local tile2 = my_tile(limi)
-          if (!tile2.find_object(mo_way)){
-            label_x.create(limi, pl_unown, translate("Build Rails form here"))
-
-            //elimina el cuadro label
-            /*local opt = 0
-            local del = true
-            local text = "X"
-            label_bord(bord1_lim.a, bord1_lim.b, opt, del, text)*/
+          } else {
+            my_tile(way2_fac1_fac2[0]).remove_object(player_x(1), mo_label)
           }
 
+          if (!my_tile(way2_fac1_fac2[1]).find_object(mo_way)){
+            label_x.create(my_tile(way2_fac1_fac2[1]), pl_unown, translate("Build Rails form here"))
+            // rules for build station way
+            rules.forbid_way_tool_rect(player_all, tool_build_way, wt_rail, 0, coord(0, 0), coord(191, 511), get_message(5) )
+            rules.allow_way_tool_rect( player_all, tool_build_way, wt_rail, "", way2_fac1_fac2[0], way2_fac1_fac2[1] )
+          } else {
+            // rules for build step 1 way
+            rules.clear_way_tool_rect(player_all, tool_build_way, wt_rail, 0, way2_fac1_fac2[0], way2_fac1_fac2[1], true)
+            rules.allow_way_tool_rect( player_all, tool_build_way, wt_rail, "", limit_ch3_rail_line_1a.a, limit_ch3_rail_line_1a.b )
+          }
 
-          if (tile2.find_object(mo_label) && r_way.c.x<=limi.x) {
-            if (!tile_x(wayend.x, wayend.y, wayend.z).find_object(mo_way)) {
-              label_x.create(wayend, pl_unown, translate("Build Rails form here"))
+          if ( my_tile(way2_fac1_fac2[1]).find_object(mo_label) ) {
 
-            }
-            //Creea un cuadro label
+            //local test_way = test_select_way(my_tile(way2_fac1_fac2[0]), my_tile(way2_fac1_fac2[1]), wt_rail)
+            if ( test_select_way(my_tile(way2_fac1_fac2[0]), my_tile(way2_fac1_fac2[1]), wt_rail) ) {
+              label_bord(limit_ch3_rail_line_1a.a, limit_ch3_rail_line_1a.b, 0, false, "X") //set
 
-            local test_way = test_select_way(tile1, tile2, wt_rail)
-            if (test_way) {
-              local opt = 0
-              local del = false
-              local text = "X"
-              label_bord(limit_ch3_rail_line_1a.a, limit_ch3_rail_line_1a.b, opt, del, text)
+              my_tile(way2_fac1_fac2[1]).remove_object(player_x(1), mo_label)
+              label_x.create(my_tile(way2_fac1_fac2[2]), pl_unown, translate("Build Rails form here"))
 
-              tile2.remove_object(player_x(1), mo_label)
-
+              check_way_last_tile = way2_fac1_fac2[1]
+              mark_way_last_tile()
+            } else {
+              mark_way_last_tile()
             }
           }
 
-
-          local opt = 0
-          local coora = tile_x(way2_fac1_fac2[0].x, way2_fac1_fac2[0].y, way2_fac1_fac2[0].z)
-          local coorb = tile_x(way2_fac1_fac2[2].x, way2_fac1_fac2[2].y, way2_fac1_fac2[2].z)
-          //gui.add_message("get_fullway_dir "+get_fullway_dir(way2_fac1_fac2[0], way2_fac1_fac2[1]))
-          local dir = get_fullway_dir(way2_fac1_fac2[0], way2_fac1_fac2[1])
-          local obj = false
-          local wt = wt_rail
-
-          wayend = coorb
-          r_way = get_fullway(coora, coorb, dir, obj)
-          if (r_way.r) {
-            tile_x(coora.x, coora.y, coora.z).find_object(mo_way).unmark()
-            tile_x(coorb.x, coorb.y, coorb.z).remove_object(player_x(1), mo_label)
-            tile1.remove_object(player_x(1), mo_label)
+          if ( test_select_way(my_tile(way2_fac1_fac2[0]), my_tile(way2_fac1_fac2[2]), wt_rail) ) {
+            my_tile(way2_fac1_fac2[0]).find_object(mo_way).unmark()
+            my_tile(way2_fac1_fac2[2]).remove_object(player_x(1), mo_label)
+            my_tile(way2_fac1_fac2[0]).remove_object(player_x(1), mo_label)
 
             //elimina el cuadro label
-            label_bord(limit_ch3_rail_line_1a.a, limit_ch3_rail_line_1a.b, 0, true, "X")
+            label_bord(limit_ch3_rail_line_1a.a, limit_ch3_rail_line_1a.b, 0, true, "X") //delete
 
-            pot[0]=1
-            wayend=0
+            pot[0] = 1
 
             // rules for bridge build
             local cube = select_cube(bridge2_coords.b, bridge2_coords.a, "bridge")
-            rules.forbid_way_tool_rect(player_all, tool_build_bridge, wt_rail, 0, cube[2], cube[3], get_message(5) )
-            rules.allow_way_tool_cube(player_all, tool_build_bridge, wt_rail, 0, cube[0], cube[1])
+            rules.clear_way_tool_rect(player_all, tool_build_way, wt_rail, 0, limit_ch3_rail_line_1a.a, limit_ch3_rail_line_1a.b, true)
+            rules.allow_way_tool_rect( player_all, tool_build_way, wt_rail, "", way2_fac1_fac2[2], bridge2_coords.a )
+            rules.allow_way_tool_rect( player_all, tool_build_way, wt_rail, "", bridge2_coords.b, way2_fac1_fac2[3] )
+
+            rules.forbid_way_tool_rect(player_all, tool_build_bridge, wt_rail, 0, coord(0, 0), coord(191, 511), get_message(5) )
+            // rules for connect bridge
+            rules.allow_way_tool_rect( player_all, tool_build_bridge, wt_rail, "", bridge2_coords.b, bridge2_coords.b )
+            rules.allow_way_tool_rect( player_all, tool_build_bridge, wt_rail, "", bridge2_coords.a, bridge2_coords.a )
+            rules.allow_way_tool_cube( player_all, tool_build_bridge, wt_rail, "", cube[0], cube[1] )
+
+            local r = my_tile(check_way_mark_tile).find_object(mo_way)
+            if ( r ) { r.unmark() }
+
+          } else {
+            mark_way_last_tile()
           }
         }
         //Para el puente
-        else if (pot[0]==1&&pot[1]==0) {
+        else if ( pot[0] == 1 && pot[1] == 0 ) {
           persistent.ch_sub_step = 1  // sub step finish
-          local tile = my_tile(bridge2_coords.a)
-          if ((!tile.find_object(mo_bridge))){
+          local tile = my_tile( bridge2_coords.a )
+          if ( !tile.find_object(mo_bridge) ) {
             label_x.create(tile, pl_unown, translate("Build a Bridge here!."))
             label_x.create(my_tile(bridge2_coords.b), pl_unown, translate("Build a Bridge here!."))
-            r_way.c =   coord3d(tile.x, tile.y, tile.z)
           }
           else {
             tile.remove_object(player_x(1), mo_label)
             my_tile(bridge2_coords.b).remove_object(player_x(1), mo_label)
 
-            if (my_tile(bridge2_coords.a).find_object(mo_bridge)){
-              pot[1]=1
+            if ( my_tile(bridge2_coords.a).find_object(mo_bridge) ) {
+              pot[1] = 1
               // clear bridge build rules
-              local cube = select_cube(bridge2_coords.b, bridge2_coords.a, "bridge")
-              rules.clear_way_tool_rect(player_all, tool_build_bridge, wt_rail, 0, cube[2], cube[3], true)
-              rules.clear_way_tool_cube(player_all, tool_build_bridge, wt_rail, 0, cube[0], cube[1], false)
+              rules.clear_way_tool_rect(player_all, tool_build_bridge, wt_rail, 0,  coord(0, 0), coord(191, 511), true)
+              rules.clear_way_tool_rect( player_all, tool_build_way, wt_rail, "", bridge2_coords.b, way2_fac1_fac2[3], true )
+              rules.clear_way_tool_rect( player_all, tool_build_way, wt_rail, "", way2_fac1_fac2[2], bridge2_coords.a, true )
+              // rules for build way step 2
+              rules.allow_way_tool_rect( player_all, tool_build_way, wt_rail, "", limit_ch3_rail_line_1b.a, limit_ch3_rail_line_1b.b )
 
             }
           }
         }
         //Segundo tramo de rieles
-        else if (pot[1]==1 && pot[2]==0){
+        else if ( pot[1] == 1 && pot[2] == 0 ) {
           persistent.ch_sub_step = 2  // sub step finish
-          local limi = my_tile(coord(way2_fac1_fac2[4].x, way2_fac1_fac2[4].y))
-          local tile1 = limi
-          if (r_way.c.y > limi.y){
-            label_x.create(limi, pl_unown, translate("Build Rails form here"))
-            //Creea un cuadro label
-            local opt = 0
-            local del = false
-            local text = "X"
-            label_bord(limit_ch3_rail_line_1b.a, limit_ch3_rail_line_1b.b, opt, del, text)
-          }
-          else {
-            tile1.remove_object(player_x(1), mo_label)
+          //local tile1 = my_tile(way2_fac1_fac2[4])
+
+          if ( test_select_way(my_tile(way2_fac1_fac2[0]), my_tile(way2_fac1_fac2[4]), wt_rail) ) {
+            local r = my_tile(way2_fac1_fac2[3]).find_object(mo_way)
+            if ( r ) { r.unmark() }
+            my_tile(way2_fac1_fac2[4]).remove_object(player_x(1), mo_label)
             //elimina el cuadro label
-            local opt = 0
-            local del = true
-            local text = "X"
-            label_bord(limit_ch3_rail_line_1b.a, limit_ch3_rail_line_1b.b, opt, del, text)
-            if (!tile1.find_object(mo_label))
+            label_bord(limit_ch3_rail_line_1b.a, limit_ch3_rail_line_1b.b, 0, true, "X") //delete
+            if (!my_tile(way2_fac1_fac2[4]).find_object(mo_label))
               label_x.create(way2_fac1_fac2[5], pl_unown, translate("Build Rails form here"))
+
+            mark_waybuild(way2_fac1_fac2[4])
+            // rules for build station way
+            rules.clear_way_tool_rect( player_all, tool_build_way, wt_rail, "", limit_ch3_rail_line_1b.a, limit_ch3_rail_line_1b.b, true )
+            rules.allow_way_tool_rect( player_all, tool_build_way, wt_rail, "", way2_fac1_fac2[4], way2_fac1_fac2[5] )
+
+            pot[2] = 1
+            //mark_way_last_tile()
+            check_way_last_tile = way2_fac1_fac2[4]
+            mark_way_last_tile()
+
+          } else {
+            label_x.create(my_tile(way2_fac1_fac2[4]), pl_unown, translate("Build Rails form here"))
+            //Creea un cuadro label
+            label_bord(limit_ch3_rail_line_1b.a, limit_ch3_rail_line_1b.b, 0, false, "X") //set
+
+            local r = my_tile(way2_fac1_fac2[3]).find_object(mo_way)
+            if ( dir.is_twoway(r.get_dirs()) ) {
+              r.unmark()
+              //unmark_waybuild()
+              mark_way_last_tile()
+            } else {
+              check_way_last_tile = way2_fac1_fac2[3]
+              r.mark()
+            }
+
           }
 
-          local opt = 0
-          local coora = my_tile(way2_fac1_fac2[3])
-          local coorb = my_tile(way2_fac1_fac2[5])
-          local dir = get_fullway_dir(way2_fac1_fac2[0], way2_fac1_fac2[1])//c_way3.dir
-          local obj = false
-          wayend = coorb
+        } else if ( pot[2] == 1 ) {
 
-          r_way = get_fullway(coora, coorb, dir, obj)
-          if (r_way.r){
-
+          if ( test_select_way(way2_fac1_fac2[0], way2_fac1_fac2[5], wt_rail) ) {
+            local r = my_tile(way2_fac1_fac2[4]).find_object(mo_way)
+            if ( r ) { r.unmark() }
             //elimina el cuadro label
-            local opt = 0
-            local del = true
-            local text = "X"
-            label_bord(limit_ch3_rail_line_1b.a, limit_ch3_rail_line_1b.b, opt, del, text)
+            my_tile(way2_fac1_fac2[5]).remove_object(player_x(1), mo_label)
+            my_tile(way2_fac1_fac2[4]).remove_object(player_x(1), mo_label)
+            // clear way rules
+            rules.clear_way_tool_rect( player_all, tool_build_way, wt_rail, "", way2_fac1_fac2[4], way2_fac1_fac2[5], true )
 
-            tile_x(coorb.x, coorb.y, coorb.z).remove_object(player_x(1), mo_label)
-            tile1.remove_object(player_x(1), mo_label)
             this.next_step()
+          } else if ( my_tile(way2_fac1_fac2[4]).find_object(mo_way) ) {
+            local r = my_tile(way2_fac1_fac2[4]).find_object(mo_way)
+            if ( dir.is_twoway(r.get_dirs()) ) {
+              r.unmark()
+              //unmark_waybuild()
+              mark_way_last_tile()
+            } else {
+              r.mark()
+            }
           }
         }
+
         //return 10
         break;
       case 3:
@@ -1392,57 +1409,26 @@ class tutorial.chapter_03 extends basic_chapter
       case 2:
         if ( tool_id == 4096 ) return null
 
+          //check_way_mark_tile = pos
+
         //Primer tramo de rieles
         if ( pot[0] == 0 ) {
-          local lab_t = my_tile(way2_fac1_fac2[1])
-          local lab = lab_t.find_object(mo_label)
-          if ( pos.x < lab_t.x && lab && lab.get_owner().nr == 0 ) {
-            if ( tool_id == tool_build_way )
-              return ""
-          }
-          if ( pos.x >= way2_fac1_fac2[1].x && pos.y >= way2_fac1_fac2[1].y && pos.x <= way2_fac1_fac2[0].x && pos.y <= way2_fac1_fac2[0].y ) {
-            if( tool_id==tool_build_way || tool_id==tool_remove_way || tool_id==tool_remover ) {
-              /*local way_desc =  way_desc_x.get_available_ways(gl_wt, gl_st)
-              foreach ( desc in way_desc ) {
-                if( desc.get_name() == name ) {
-                  return null
-                }
-              }*/
-              // check selected way
-              local s = check_select_way(name, gl_wt)
-              if ( s != null ) { return s } else { return null }
-            }
-          }
-          if (pos.x>=limit_ch3_rail_line_1a.a.x && pos.y>=limit_ch3_rail_line_1a.a.y && pos.x<=limit_ch3_rail_line_1a.b.x && pos.y<=limit_ch3_rail_line_1a.b.y){
-            if ( label && label.get_text() == "X" ) {
-              return get_tile_message(5, pos) //translate("Indicates the limits for using construction tools")+" ( "+coord3d_to_string(pos)+")."
-            }
-            return all_control(result, gl_wt, gl_st, tool_id, pos, r_way.c, name)
-          }
-          else if(tool_id==tool_build_way)
-            return get_tile_message(11, r_way.c) //translate("Connect the Track here")+" ("+coord3d_to_string(r_way.c)+")."
+
+          // check selected way
+          local s = check_select_way(name, gl_wt)
+          if ( s != null ) { return s } else { return null }
+
         }
         //Construye un puente
-        if (pot[0]==1 && pot[1]==0){
+        if ( pot[0] == 1 && pot[1] == 0 ) {
           return null
-        } else {
-            return translate("You must build the bridge here")+" ("+coord3d_to_string(bridge2_coords.a)+")."
         }
+
         //Segundo tramo de rieles
-        if (pot[1]==1&&pot[2]==0){
-          if (pos.x>=way2_fac1_fac2[5].x && pos.y>=way2_fac1_fac2[5].y && pos.x<=way2_fac1_fac2[4].x && pos.y<=way2_fac1_fac2[4].y){
-            if(tool_id==tool_build_bridge)
-              return result
-            return all_control(result, gl_wt, gl_st, tool_id, pos, r_way.c, name)
-          }
-          if (pos.x>=limit_ch3_rail_line_1b.a.x && pos.y>=limit_ch3_rail_line_1b.a.y && pos.x<=limit_ch3_rail_line_1b.b.x && pos.y<=limit_ch3_rail_line_1b.b.y){
-            if ( label && label.get_text() == "X" ) {
-              return get_tile_message(5, pos) //translate("Indicates the limits for using construction tools")+" ("+coord3d_to_string(pos)+")."
-            }
-            return all_control(result, gl_wt, gl_st, tool_id, pos, r_way.c, name)
-          }
-          else if(tool_id==tool_build_way)
-            return get_tile_message(11, r_way.c) //translate("Connect the Track here")+" ("+coord3d_to_string(r_way.c)+")."
+        if ( pot[1] == 1 && ( pot[2] == 0 || pot[2] == 1 ) ) {
+          // check selected way
+          local s = check_select_way(name, gl_wt)
+          if ( s != null ) { return s } else { return null }
         }
         break;
 
