@@ -1,0 +1,1 @@
+<p>在本章节中，我们将提高产业链的效率，输送<em>乘客</em>、<em>邮件</em>和<em>电能</em>。</p><p>{scr}</p><p>{txtst_01}步骤 A</em> - 电力生产与消耗<br/>{step_01}</p><p>{txtst_02}步骤 B</em> - 卡车运输煤炭<br/>{step_02}</p><p>{txtst_03}步骤 C</em> - 连接电力系统<br/>{step_03}</p><p>{txtst_04}步骤 D</em> - 递送邮件<br/>{step_04}</p>

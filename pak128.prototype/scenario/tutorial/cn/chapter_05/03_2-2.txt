@@ -1,0 +1,1 @@
+<p>{tx}在<em>{toolbar}</em>菜单中使用<em>{powerline_tool}</em>工具，将所有工厂通过{f5}连接到电网：</p><p>{tran}</p><p><st>下一步进阶操作</st>在工厂通电后进行。</p>

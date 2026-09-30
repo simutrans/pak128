@@ -9,7 +9,7 @@
 #                           Language: cn Sim. Chinese                          #
 #                                Encoding: UTF-8                               #
 #                            Font: wenquanyi_9pt.bdf                           #
-#                           Date Created: 11.09 2026                           #
+#                           Date Created: 30.09 2026                           #
 #                                                                              #
 ################################################################################
 #____________________________bridge - monorail_track____________________________
@@ -524,6 +524,8 @@ rmax_courthouse
 法院\n\n正义在这里得到执行。这座城市为这座宏伟的建筑感到自豪。不幸的是，建造费用已经比最初的计划高出了好几倍。法院由市长的姐夫建造。有人怀疑这个精巧的建筑项目是互利的，所以市长本人现在也在这里受审。
 rmax_icarus
 火箭发射设施\n\n这里是伊卡洛斯公司发射其运载火箭的地方。该公司是第一家掌握可靠火箭组装技术的公司，并能将卫星送入轨道的。幸运的是，他们没有像同名的人在传说中那样遭遇不幸。除了经济意义之外，这个地方还吸引了大量游客，他们想来看火箭发射。
+rmax_mosque
+阿萨勒姆清真寺
 ROCK_0
 帕特里克的岩石一座长期不活跃的火山，地理位置有些特别。来自整个地区的许多地质学家都会来采集岩石样本，并讨论它的成因。‘帕特里克的岩石’这个名字指的是一种地理形成现象：一座不活跃的火山引发了如此多的讨论，以至于运输公司被禁止将其夷平以便建设更高效的运输网络。
 RUIN_0
@@ -4193,7 +4195,7 @@ Bulk_Truck_2
 Bulk_Truck_3
 太脱拉 815（散货）
 Bulk_Truck_4
-沃尔沃卡车（散货）
+沃尔沃散货卡车
 Car_Tramsport_Trailer_0
 TS汽车拖车
 Car_Transporter_0
@@ -4319,7 +4321,7 @@ Milk_Truck_0
 Milk_Truck_1
 吉尔牛奶运输车
 Milk_Truck_2
-牛奶货车 "Magirus"
+牛奶卡车 "Magirus"
 mja-20s_concretemixer
 20S 水泥车
 mja-bulk_trailer_l
@@ -4417,9 +4419,9 @@ PMNV_Mack_Planck_Trailer_0
 PMNV_Mack_Post_Trailer_O
 马克邮件拖车
 PMNV_Mack_Steel_Trailer_L
-马克钢制拖车 "L"
+马克运钢拖车 "L"
 PMNV_Mack_Steel_Trailer_S
-马克钢制拖车 "S"
+马克运钢拖车 "S"
 PMNV_Mail_Truck_1
 邮件卡车60
 PMNV_Mail_Truck_2
@@ -4437,7 +4439,7 @@ PMNV_Plank_Trailer_0
 PMNV_Post_Trailer_0
 邮件拖车
 PMNV_Steel_Trailer_0
-平板拖车（钢）
+运钢平板拖车
 PMNV-PB1970
 皮特比尔特-1970
 Praga_Bus
@@ -4539,15 +4541,15 @@ S_Kroytor_Traveler
 Sentinel_Cement_Lorry
 Sentinel水泥卡车
 Sentinel_Cement_Trailer
-Sentinel拖车（水泥）
+Sentinel 水泥拖车
 Sentinel_Goods_Lorry
 Sentinel货车
 Sentinel_Goods_Trailer
-Sentinel拖车（货物）
+Sentinel 货物拖车
 Sentinel_Wood_Lorry
 Sentinel木材卡车
 Sentinel_Wood_Trailer
-Sentinel拖车（木材）
+Sentinel 木材拖车
 SK_Mail_Truck_1
 邮政卡车
 skoda_1_tr_128
@@ -4593,9 +4595,9 @@ skoda_25_tr_rear_128
 skoda_6_tr_128
 斯柯达 6 tr
 Skoda_706_grain
-斯柯达706（谷物）
+斯柯达 706（谷物）
 Skoda_706_trailer_grain
-斯柯达706拖车（谷物）
+斯柯达 706 谷物拖车
 skoda_8_tr_128
 斯柯达 8 tr
 skoda_sanos_115_tr_128
@@ -4609,7 +4611,7 @@ SMC H-38 迷你公交
 SMC_H-98_City_Bus
 SMC H-98 城市公交
 Steel_Truck_0
-平板卡车（钢制品）
+运钢平板卡车
 TATRA_400_T_128
 太脱拉 400 T
 TATRA_401_T_128
@@ -4675,7 +4677,7 @@ Class 2000车厢
 2000_Class_Tail
 Class 2000尾部驾驶舱
 2Diesellokomotive
-BR 218
+BR218
 3Bens186t
 Bennhardt B-186 "柠檬"
 3Dampflokomotive
@@ -4699,7 +4701,7 @@ ACE2_Waggon2
 ACE2_Waggon3
 德国国铁 ICE2 邮政车厢
 ACE3-407
-德国国铁 ICE3 (BR 407)
+德国国铁 ICE3 (BR407)
 obj_ACE3-407_details
 电力机车头
 ACE3-407.1
@@ -4739,21 +4741,21 @@ ACEG型本务机车
 aceG_Tail
 ACEG型补机
 Autotransportwagen
-汽车运输货车
+汽车运输车
 Big_Bretterwagen
-大型板材货车
+大型板材车
 BR-373_Back
-BR-373 补机
+BR373 补机
 BR-373_BackCar
-BR-373 末车厢
+BR373 末车厢
 BR-373_Car
-BR-373 车厢
+BR373 车厢
 BR-373_Eurostar
-BR-373 "欧洲之星"
+BR373 "欧洲之星"
 BR-373_FrontCar
-BR-373 首车厢
+BR373 首车厢
 Bretterwagen
-BB板材货车
+板材车
 Budd_Coach
 Budd RPO 客车
 Budd_Lounge
@@ -4769,9 +4771,9 @@ caboose_2
 caboose_3
 守车 "Extra"
 Car_Waggon_1
-汽车运载货车
+汽车运载车
 Car_Waggon_2
-大型汽车运载货车
+大型汽车运载车
 CB_ALBATROS
 斯柯达498 "信天翁"
 CB_DB-130_8
@@ -4809,7 +4811,7 @@ Apmz121
 DB_Bm235
 Bm235
 DB_BR103_1
-BR-103
+BR103
 E_423
 E-432 "Top class"
 EMD_E5A_Silver_Meteor
@@ -5131,7 +5133,7 @@ Dm3 中部补机
 Passagierwagen
 BTx 060 2等车
 Passanger_waggon_0
-JNR OHA 31钢制车厢
+JNR OHA 31 运钢车
 Passanger_waggon_1
 JNR OHAFU 50 2等车
 Passanger_waggon_2
@@ -5497,7 +5499,7 @@ SMC XT-702 邮件车厢
 SMC_XT-709_(back_engine)
 SMC XT-709 补机
 Stahlwagen
-平板车（钢制品）
+运钢平板车
 Stahlwagen_0
 运钢车
 Stahlwagen_1
@@ -5529,13 +5531,13 @@ TGV 大西洋补机
 TGV_Atlantique_(Car)
 TGV 大西洋车厢
 TGV_Post
-TGV "邮局"
+TGV 法国邮政
 TGV_Post_Back
-TGV "邮局" 补机
+TGV 法国邮政补机
 TGV_Post_Car_A
-TGV "邮局" A车厢
+TGV 法国邮政A车厢
 TGV_Post_Car_B
-TGV "邮局" B车厢
+TGV 法国邮政B车厢
 Thunder_(front_engine)
 雷式
 Thunder_(mail)
@@ -5703,67 +5705,67 @@ T110 II
 T_202_Cityway_A
 T-202 "Cityway"
 T_202_Cityway_B0
-T-202 "Cityway" (B)
+T-202 "Cityway" B
 T_202_Cityway_B1
-T-202 "Cityway" (B1)
+T-202 "Cityway" B1
 T_202_Cityway_C0
-T-202 "Cityway" (C)
+T-202 "Cityway" C
 T_202_Cityway_C1
-T-202 "Cityway" (C1)
+T-202 "Cityway" C1
 T_202_Cityway_D
-T-202 "Cityway" (D)
+T-202 "Cityway" D
 T_202_Cityway_E0
-T-202 "Cityway" (E)
+T-202 "Cityway" E
 T_202_Cityway_E1
-T-202 "Cityway" (E1)
+T-202 "Cityway" E1
 T_211_Eurotram_A
 T-211 Eurotram
 T_211_Eurotram_B
-T-211 Eurotram (B)
+T-211 Eurotram B
 T_211_Eurotram_C
-T-211 Eurotram (C)
+T-211 Eurotram C
 T_211_Eurotram_D
-T-211 Eurotram (D)
+T-211 Eurotram D
 T_211_Eurotram_E
-T-211 Eurotram (E)
+T-211 Eurotram E
 T_212_Sirio_A
 T-212 Sirio
 T_212_Sirio_B
-T-212 Sirio (B)
+T-212 Sirio B
 T_212_Sirio_C
-T-212 Sirio (C)
+T-212 Sirio C
 T_212_Sirio_D
-T-212 Sirio (D)
+T-212 Sirio D
 T_212_Sirio_E
-T-212 Sirio (E)
+T-212 Sirio E
 T_221_Combino_A
 T-221 Combino
 T_221_Combino_B
-T-221 Combino (B)
+T-221 Combino B
 T_221_Combino_C
-T-221 Combino (C)
+T-221 Combino C
 T_221_Combino_D
-T-221 Combino (D)
+T-221 Combino D
 T_221_Combino_E
-T-221 Combino (E)
+T-221 Combino E
 T_222_Combino_Supra_A
 T-222 Combino Supra
 T_222_Combino_Supra_B
-T-222 Combino Supra (B)
+T-222 Combino Supra B
 T_222_Combino_Supra_C
-T-222 Combino Supra (C)
+T-222 Combino Supra C
 T_222_Combino_Supra_D
-T-222 Combino Supra (D)
+T-222 Combino Supra D
 T_222_Combino_Supra_E
-T-222 Combino Supra (E)
+T-222 Combino Supra E
 #________________________________vehicle - water________________________________
 #________________________________vehicle - water________________________________
 Black_Osprey
 黑色鱼鹰（运钢）
 Black_Osprey_(goods)
-黑色鱼鹰（货物）
+黑鱼鹰货船
 Black_Osprey_(grain)
-黑色鱼鹰（谷物散货）
+黑鱼鹰谷物船
 brick_goelette
 双桅帆船
 brigantin
@@ -5771,7 +5773,7 @@ brigantin
 British_Premier
 英国首相
 Eaglescliffe_Hall
-Eaglescliffe Hall（散货）
+Eaglescliffe Hall 货船
 Eaglescliffe_Hall_(lumber)
 Eaglescliffe Hall（木头）
 Edmund_Fitzgerald
@@ -5831,9 +5833,9 @@ Nororn
 Owari_Maru
 尾張丸
 Patagonia
-"Patagonia"（货物）
+"Patagonia" 货船（货物）
 Patagonia_(farm_products)
-"Patagonia"（谷物散货）
+"Patagonia" 货船（谷物散货）
 Post_Barge
 邮件驳船
 Queen_Elisabeth_2

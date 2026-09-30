@@ -1,0 +1,1 @@
+<p>{scr}</p><p>{txtst_01}步骤 A</em> - 关于教程场景<br/>{step_01}</p><p>{txtst_02}步骤 B</em> - 移动<br/>{step_02}</p><p>{txtst_03}步骤 C</em> - 查看详情<br/>{step_03}</p><p>{txtst_04}步骤 D</em> - 小地图和其他窗口<br/>{step_04}</p>

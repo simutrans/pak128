@@ -1,0 +1,336 @@
+§#################################################################################
+#                               for translate see                               #
+#      https://simutrans-germany.com/translator_page/scenarios/scenario_5/      #
+#################################################################################
+Action not allowed
+操作不允许
+Advance is not allowed with the game paused.
+游戏暂停时不允许前进。
+Advance not allowed
+不允许前进
+Advanced Topics
+进阶话题
+All wagons must be for [%s].
+所有车厢必须用于[%s]。
+All wagons must be for:
+所有车厢必须用于：
+Are you lost ?, see the instructions shown below.
+你不知道怎么做了吗？看看下面的说明吧。
+Build a Bridge here!.
+在这里建一座桥。
+Build a Depot here!.
+在这里建一个整备库。
+Build a Dock here!.
+在这里建一个码头。
+Build Canal here!.
+在这里挖运河。
+Build here
+建在这里
+Build Rails form here
+在这里修轨道。
+Build Shipyard here!.
+在这里建船厂。
+Build station No.%d here!.
+在这里建%d号站点。
+Build Stop here:
+在这里建停靠站：
+Build the track from here
+从这里开始修轨道
+Build the transformer here!
+在这里建变电所。
+Build Train Depot here!.
+在这里建火车库。
+Bus networks
+公交网络
+Chapter
+章节
+Chapter {number} - {cname} complete, next Chapter {nextcname} start here: ({coord}).
+恭喜完成章节 {number} - {cname}, 下一章 '{nextcname}' 从 ({coord}) 开始。
+Checking Compatibility
+检查适用性
+Choose a different stop.
+选择一个不同的停靠站。
+Click on the stop
+点击停靠站。
+Connect the road here
+在这里连接公路
+Creating Schedules is currently not allowed
+现在不允许创建行程表
+Dock No.%d must accept [%s]
+%d号码头必须接受%s。
+empty chapter
+空章节
+Extensions are not allowed.
+不允许扩展。
+First buy an Airplane [%s].
+先买一架飞机[%s]。
+First create a line for the vehicle.
+先为交通工具设立一条路线。
+First you must build a tunnel section.
+你必须先建一段隧道。
+First you must lower the layer level.
+你必须先降低层级。
+First you must Upper the layer level.
+你必须先提升层级。
+First you need to activate the underground view / sliced map view.
+首先你需要激活地下视图/切片地图视图。
+Flat slope here!.
+铲平这里的坡。
+Getting Started
+准备开始
+Go to next step
+去下一步
+Here
+这里
+Incorrect vehicle configuration, check vehicle status.
+交通工具配置错误，检查交通工具状态。
+Industrial Efficiency
+工业效率
+It is not a slope.
+这不是斜坡。
+It is not allowed to start vehicles.
+不允许启动交通工具。
+It is not flat terrain.
+这不是平地。
+It must be a block signal!
+这必须是一个区块信号！
+It must be a slope.
+这必须是一个斜坡。
+Layer level in sliced map view should be: %d
+切片地图视图中的图层级别应该是：%d
+Mail Extension Here!.
+在这里建邮件扩展。
+Modify the terrain here
+修改这里的地形
+Must choose a locomotive [%s].
+必须选择一辆火车头 [%s]。
+Must choose a locomotive:
+必须选一辆火车头：
+Must not use trailers [%d].
+不可配置拖车 [%d]。
+No barges allowed.
+不允许配置驳船。
+No intersections allowed
+不允许交叉
+Number of convoys in the depot:
+整备库中的编队数量：
+OK
+确定
+Only %d stops are necessary.
+只有 %d 个停靠站是必需的。
+Only delete signals.
+只删除信号灯。
+Only one train is allowed, press the [Sell] button.
+仅允许一辆列车运行，按[出售]键。
+Only railway schedules allowed
+仅允许公路行程表
+Only road schedules allowed
+仅允许公路行程表
+Place a block signal here
+在此处放置一个区块信号灯
+Place a Tunnel here!.
+在此处放置一段隧道。
+Place Singnal here!.
+在此处放置一个信号灯。
+Place Stop here!.
+在此处放置停靠站。
+Place the Road here!.
+在此放置道路。
+Press [Ctrl] to build a tunnel entrance here
+按下[Ctrl]在这里建一个隧道入口
+Press the [Copy Backward] button, then set the Minimum Load and Month Wait Time at the first stop!.
+按下[向后复制]按钮，然后在第一个停靠站设置最低承载量和出发时间！
+Raise ground here
+抬升此处的地面
+Riding the Rails
+驾乘火车
+Ruling the Roads
+称霸道路
+Savegame has a different {more_info} script version! Maybe, it will work.
+游戏存档应用了不同的 {more_info} 脚本版号！也许还能用。
+Select station No.%d
+选择%d号站
+Select station No.%d [%s]
+选择 %d 号站 [%s]
+Select the Bus [%s].
+选择公交 [%s]。
+Select the dock No.%d
+选择 %d 号码头
+Select the other station
+选择另一个站点
+Select the other station first
+先选另一个站点
+Setting Sail
+启航
+Signal Nr.%d
+%d号信号灯
+Slope Height.
+斜坡高度。
+Station No.%d here
+%d号站这里
+Station No.%d must accept goods
+%d号站必须接受货物
+Stop
+停止
+Stops should be built in [%s]
+停靠站应在[%s]内建造完成
+Straight slope here
+修直这里的坡。
+Taking to the Air
+飞上天空
+Text label
+文本标签
+The bus must be [Passengers].
+公交车必须搭载[乘客]。
+The cabin:
+小屋：
+The convoy is not correct.
+编队不正确。
+The Depot is correct.
+整备库正确。
+The first train
+第一列火车
+The forgotten Air transport
+被遗忘的航空运输
+The Hangar is correct.
+机库正确
+The land is already prepared.
+土地已备好。
+The line is not correct.
+线路不正确。
+The number of aircraft in the hangar must be [%d].
+飞机库里的航空器数量必须是[%d]。
+The number of bus must be [%d].
+公交车数量必须是[%d]。
+The number of convoys must be [%d], press the [Sell] button.
+编队数量必须是[%d]，按下[出售]按钮。
+The number of convoys must be [%d].
+编队数量必须是[%d]。
+The number of planes in the hangar must be [%d], use the [sell] button.
+飞机库中的飞机数量必须是[%d]，使用[出售]按钮。
+The number of ships must be [%d].
+船的数量必须是[%d]。
+The number of trucks must be [%d].
+卡车数量必须是[%d]。
+The number of wagons must be [%d].
+车厢数量必须是[%d]。
+The number of wagons must be:
+车厢数量必须是：
+The Plane must be for [%s].
+这架飞机必须用于[%s]。
+The schedule is not correct.
+行程表不正确。
+The schedule list must not be empty.
+行程表不得为空。
+The schedule needs to have %d waystops, but there are %d.
+行程表需要有 %d 个中途停靠站，但这里只有 %d 个。
+The second train
+第二列火车
+The ship must be for [%s].
+船必须用于[%s]。
+The signal does not point in the correct direction
+信号灯未指向正确的方向
+The signal is ready!
+信号灯准备好了！
+The slope is ready.
+斜坡准备好了。
+The slope points to the [%s].
+斜坡指向[%s]。
+The slope points to the Northeast.
+斜坡指向东北方。
+The terrain must be flat.
+地形必须平坦。
+The track is correct.
+轨道正确。
+The track is stuck, use the [Remove] tool here!
+轨道卡住了，用[移除]工具点击这里。
+The trailers numbers must be [%d].
+拖车必须是[%d]。
+The train cannot be shorter than [%d] tiles.
+火车不能少于[%d]格。
+The train may not be longer than [%d] tiles.
+火车不得长于[%d]格。
+The truck must be for [%s].
+卡车必须用于[%s]。
+The tunnel is already at the correct level
+隧道已位于正确的高度
+The tunnel is not correct, use the [Remove] tool here
+隧道不正确，在这里使用[移除]工具
+The vehicle must be [%s].
+交通工具必须是[%s]。
+There is already a station.
+已经有一个站点了。
+There is already a stop here
+这里已经有一个停靠站了
+There is already a transformer here!
+这里已经有一个变电所了。
+This is a factory
+一家工厂
+This is a link
+链接
+This is a station
+一个停靠站
+This is a town centre
+市中心
+Town Centre
+市中心
+Transformer Here!.
+这里是变电所。
+Translator
+译者
+Tutorial Scenario complete.
+教程场景完成。
+Updating text ... Waiting ...
+更新文本…等待中…
+You can only build stops on flat ground
+你只能在平地上建停靠站
+You can only delete the stations.
+你只能删除站点。
+You can only delete the stops.
+你只能删除停靠站。
+You can only use this tool in the city
+你只能在城市里使用这个工具
+You can only use vehicles:
+你只能使用交通工具：
+You must build a stop in [%s]
+你必须在[%s]内建一个停靠站
+You must build a stop in [%s] first
+你必须先在[%s]内建一个停靠站
+You must build the %d stops first.
+你必须先建%d个停靠站。
+You must build the bridge here
+你必须在这里建桥
+You must build the depot in
+你必须将整备库建于
+You must build track in
+你必须将轨道建于
+You must click on the stops
+你必须点击停靠站
+You must connect the two cities first.
+你必须先连接两座城市。
+You must first build a stretch of road
+你必须先修一段路
+You must first buy a bus [%s].
+你必须先买一辆公交车[%s]。
+You must first buy a locomotive [%s].
+你必须先买一辆火车头[%s]。
+You must first buy a ship [%s].
+你必须先买一艘船[%s]。
+You must lift the land with a flat slope first
+你必须先抬升地面，修一个缓坡
+You must lower the ground first
+你必须先降低地面高度
+You must press the [Copy backward] button to complete the route.
+你必须按下[向后复制]按钮才能完成路线。
+You must select a [%s].
+你必须选择一个[%s]。
+You must upper the ground first
+你必须先抬升地面
+You must use the inspection tool
+你必须使用检视工具
+You must use the tool to raise the ground here
+你必须使用工具以降低这里的地面
+#_________________________________errer message_________________________________
+#_________________________________errer message_________________________________
+#_________________________________error message_________________________________
+#_________________________________error message_________________________________

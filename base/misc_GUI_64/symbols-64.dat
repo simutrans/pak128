@@ -187,6 +187,10 @@ name=NoRoute
 copyright=Ranran
 Image[0]=> ls-symbols.4.3
 --------------------
+Obj=symbol
+name=MenuButton
+Image[0]=> ls-symbols.2.4
+--------------------
 
 #
 #

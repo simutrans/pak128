@@ -1,0 +1,1 @@
+<p><em>公共服务</em>希望你完成连接以下城市的铁路网络：<br/><em>{cy2}</em> {co2}，<em>{cy1}</em> {co1}，<em>{cy3}</em> {co3}，<em>{cy4}</em> {co4}，<em>{cy5}</em> {co5}。</p><p>{tx} 从工具栏中选择<em>'{tool2}'</em>，然后选择<em>接触网工具</em>，为<em>{cy2}</em>的<em>隧道</em>和<em>站点</em>{co2}供电。</p><p><em>小贴士：</em>按<it>[Shift]+[U]键</it>即可开启<em>地下视图</em>。</p><p><st>未电气化轨道：</st>{cbor}</p>

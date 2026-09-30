@@ -257,6 +257,7 @@ simple_tool[42]=42
 # DIALOG_EDIT_GROUNDOBJ= 35
 # DIALOG_CHAT=           36 (only show online or in games with messages)
 # DIALOG_RANKING=        37 (only shown if there is a second player)
+# DIALOG_WAY_BUILDER     38
 #
 dialog_tool[0]=0,?
 dialog_tool[1]=1,Q
@@ -296,6 +297,7 @@ dialog_tool[34]=34,
 dialog_tool[35]=35,
 dialog_tool[36]=36,
 dialog_tool[37]=37,
+dialog_tool[37]=38,F7
 
 # FINAL SECTION: compose all tool bars
 # now the defintion of all tool bars

@@ -1,0 +1,1 @@
+<p><st>这个场景与你的图形包（pakset）或SimuTrans版本不兼容：</st></p><p>SimuTrans版本：v{current_stv} -> {stv}。<br>图形包名称：{current_pak} -> {pak}。</p>

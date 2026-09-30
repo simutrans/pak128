@@ -1,0 +1,1 @@
+<p>{txtst_01}步骤 A</em> - 城市 I 的公交车<br/>{step_01}</p><p>{txtst_02}步骤 B</em> - 城市 II 的公交车<br/>{step_02}</p><p>{txtst_03}步骤 C</em> - 城市 III 的公交车<br/>{step_03}</p><p>{txtst_04}步骤 D</em> - 城市 IV 的公交车<br/>{step_04}</p><p>{txtst_05}步骤 E</em> - 场景结束<br/>{step_05}</p>

@@ -1,0 +1,1 @@
+<p><em>场景：</em>{short_description}<br/><em>版本：</em>{version}<br/><em>作者：</em>{author}<br/><em>翻译：</em>{translation}<br/></p>
