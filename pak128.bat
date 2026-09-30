@@ -35,7 +35,7 @@ rem  ------------------------
 ( 
   echo obj=ground>version-pak128.dat
   echo name=Outside>>version-pak128.dat
-  echo copyright="pak128 2.10.1 for 124.4 up" >>version-pak128.dat
+  echo copyright="pak128 2.10.3 for 125.0 up" >>version-pak128.dat
   echo Image[0][0]=base\special\tile.1.1 >>version-pak128.dat
 )
 makeobj.exe pak128 simutrans/pak128/ground.Outside.pak version-pak128.dat
