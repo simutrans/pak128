@@ -1,7 +1,7 @@
-#-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 #                  Dat file for Simutrans autobahn signals
 #                   Created by: Fabio Gonella (Fagonella)
-#                                10. Feb 2006
+#                 10. Feb 2006 drive on left & diagonal 16.08.2026 Makie
 --------------------------------------------------------------------------------
 
 obj=roadsign
@@ -19,10 +19,46 @@ cost=1500
 maintenance=1500
 # cannot shift left
 offset_left=0
-
-Image[n,e,s,w][0]=p128_sign_road_autobahn.1.<$0>
 cursor=p128_sign_road_autobahn.1.4
 icon=> p128_sign_road_autobahn.1.5
+
+Image[n,e,s,w][0]=p128_sign_road_autobahn.1.<$0>
+Diagonal[0][0]=p128_sign_road_autobahn.1.16,0,0
+Diagonal[1][0]=p128_sign_road_autobahn.1.15,68,0
+Diagonal[2][0]=p128_sign_road_autobahn.1.17,0,0
+Diagonal[3][0]=p128_sign_road_autobahn.1.14,0,0
+Diagonal[4][0]=p128_sign_road_autobahn.1.17,0,-32
+Diagonal[5][0]=p128_sign_road_autobahn.1.14,0,-32
+Diagonal[6][0]=p128_sign_road_autobahn.1.15,4,0
+Diagonal[7][0]=p128_sign_road_autobahn.1.16,-64,0
+FrontImage[n,e,s,w][0]=p128_sign_road_autobahn.5.<$0>
+FrontDiagonal[0][0]=p128_sign_road_autobahn.1.12,76,0
+FrontDiagonal[1][0]=p128_sign_road_autobahn.1.11,-8,0
+FrontDiagonal[2][0]=p128_sign_road_autobahn.1.13,0,36
+FrontDiagonal[3][0]=p128_sign_road_autobahn.1.18,0,36
+FrontDiagonal[4][0]=p128_sign_road_autobahn.1.13,0,4
+FrontDiagonal[5][0]=p128_sign_road_autobahn.1.18,0,4
+FrontDiagonal[6][0]=p128_sign_road_autobahn.1.11,-72,0
+FrontDiagonal[7][0]=p128_sign_road_autobahn.1.12,12,0
+# drive on left
+Image[n,e,s,w][1]=p128_sign_road_autobahn.1.<$0+7>
+Diagonal[0][1]=p128_sign_road_autobahn.1.16,76,0
+Diagonal[1][1]=p128_sign_road_autobahn.1.15,-8,0
+Diagonal[2][1]=p128_sign_road_autobahn.1.13,0,0
+Diagonal[3][1]=p128_sign_road_autobahn.1.18,0,0
+Diagonal[4][1]=p128_sign_road_autobahn.1.13,0,-32
+Diagonal[5][1]=p128_sign_road_autobahn.1.18,0,-32
+Diagonal[6][1]=p128_sign_road_autobahn.1.15,-72,0
+Diagonal[7][1]=p128_sign_road_autobahn.1.16,12,0
+FrontImage[n,e,s,w][1]=p128_sign_road_autobahn.5.<$0+7>
+FrontDiagonal[0][1]=p128_sign_road_autobahn.1.12,0,0
+FrontDiagonal[1][1]=p128_sign_road_autobahn.3.11,68,0
+FrontDiagonal[2][1]=p128_sign_road_autobahn.1.17,0,36
+FrontDiagonal[3][1]=p128_sign_road_autobahn.1.14,0,36
+FrontDiagonal[4][1]=p128_sign_road_autobahn.1.17,0,4
+FrontDiagonal[5][1]=p128_sign_road_autobahn.1.14,0,4
+FrontDiagonal[6][1]=p128_sign_road_autobahn.3.11,4,0
+FrontDiagonal[7][1]=p128_sign_road_autobahn.1.12,-64,0
 
 --------------------------------------------------------------------------------
 
@@ -30,18 +66,56 @@ obj=roadsign
 name=autobahn_classic_exit
 copyright=Fabio Gonella
 
+intro_year=1930
+retire_year=1980
+
 waytype=road
 min_speed=0
 single_way=1
 cost=1500
 maintenance=1500
-
-intro_year=1930
-retire_year=1980
-
-Image[n,e,s,w][0]=p128_sign_road_autobahn.2.<$0>
+# cannot shift left
+offset_left=0
 cursor=p128_sign_road_autobahn.2.4
 icon=> p128_sign_road_autobahn.2.5
+
+Image[n,e,s,w][0]=p128_sign_road_autobahn.2.<$0>
+Diagonal[0][0]=p128_sign_road_autobahn.1.16,0,0
+Diagonal[1][0]=p128_sign_road_autobahn.2.15,68,0
+Diagonal[2][0]=p128_sign_road_autobahn.1.17,0,0
+Diagonal[3][0]=p128_sign_road_autobahn.2.13,0,0
+Diagonal[4][0]=p128_sign_road_autobahn.1.17,0,-32
+Diagonal[5][0]=p128_sign_road_autobahn.2.13,0,-32
+Diagonal[6][0]=p128_sign_road_autobahn.2.15,4,0
+Diagonal[7][0]=p128_sign_road_autobahn.1.16,-64,0
+FrontImage[n,e,s,w][0]=p128_sign_road_autobahn.6.<$0>
+FrontDiagonal[0][0]=p128_sign_road_autobahn.2.11,66,0
+FrontDiagonal[1][0]=p128_sign_road_autobahn.2.12,2,0
+FrontDiagonal[2][0]=p128_sign_road_autobahn.2.14,0,36
+FrontDiagonal[3][0]=p128_sign_road_autobahn.1.18,0,36
+FrontDiagonal[4][0]=p128_sign_road_autobahn.2.14,0,4
+FrontDiagonal[5][0]=p128_sign_road_autobahn.1.18,0,4
+FrontDiagonal[6][0]=p128_sign_road_autobahn.2.12,-62,0
+FrontDiagonal[7][0]=p128_sign_road_autobahn.2.11,2,0
+# drive on left
+Image[n,e,s,w][1]=p128_sign_road_autobahn.2.<$0+7>
+Diagonal[0][1]=p128_sign_road_autobahn.1.16,76,0
+Diagonal[1][1]=p128_sign_road_autobahn.2.15,-8,0
+Diagonal[2][1]=p128_sign_road_autobahn.2.14,0,0
+Diagonal[3][1]=p128_sign_road_autobahn.1.18,0,0
+Diagonal[4][1]=p128_sign_road_autobahn.2.14,0,-32
+Diagonal[5][1]=p128_sign_road_autobahn.1.18,0,-32
+Diagonal[6][1]=p128_sign_road_autobahn.2.15,-72,0
+Diagonal[7][1]=p128_sign_road_autobahn.1.16,12,0
+FrontImage[n,e,s,w][1]=p128_sign_road_autobahn.6.<$0+7>
+FrontDiagonal[0][1]=p128_sign_road_autobahn.2.11,0,0
+FrontDiagonal[1][1]=p128_sign_road_autobahn.2.12,68,0
+FrontDiagonal[2][1]=p128_sign_road_autobahn.1.17,0,36
+FrontDiagonal[3][1]=p128_sign_road_autobahn.2.13,0,36
+FrontDiagonal[4][1]=p128_sign_road_autobahn.1.17,0,4
+FrontDiagonal[5][1]=p128_sign_road_autobahn.2.13,0,4
+FrontDiagonal[6][1]=p128_sign_road_autobahn.2.12,4,0
+FrontDiagonal[7][1]=p128_sign_road_autobahn.2.11,-64,0
 
 --------------------------------------------------------------------------------
 
@@ -49,17 +123,55 @@ obj=roadsign
 name=autobahn_modern_entrance
 copyright=Fabio Gonella
 
+intro_year=1980
+
 waytype=road
 min_speed=110
 single_way=1
 cost=2000
 maintenance=2000
-
-intro_year=1980
-
-Image[n,e,s,w][0]=p128_sign_road_autobahn.3.<$0>
+# cannot shift left
+offset_left=0
 cursor=p128_sign_road_autobahn.3.4
 icon=> p128_sign_road_autobahn.3.5
+
+Image[n,e,s,w][0]=p128_sign_road_autobahn.3.<$0>
+Diagonal[0][0]=p128_sign_road_autobahn.3.16,0,0
+Diagonal[1][0]=p128_sign_road_autobahn.3.15,68,0
+Diagonal[2][0]=p128_sign_road_autobahn.3.17,0,0
+Diagonal[3][0]=p128_sign_road_autobahn.1.14,0,0
+Diagonal[4][0]=p128_sign_road_autobahn.3.17,0,-32
+Diagonal[5][0]=p128_sign_road_autobahn.1.14,0,-32
+Diagonal[6][0]=p128_sign_road_autobahn.3.15,4,0
+Diagonal[7][0]=p128_sign_road_autobahn.3.16,-64,0
+FrontImage[n,e,s,w][0]=p128_sign_road_autobahn.7.<$0>
+FrontDiagonal[0][0]=p128_sign_road_autobahn.1.12,76,0
+FrontDiagonal[1][0]=p128_sign_road_autobahn.1.11,-8,0
+FrontDiagonal[2][0]=p128_sign_road_autobahn.1.13,0,36
+FrontDiagonal[3][0]=p128_sign_road_autobahn.3.18,0,36
+FrontDiagonal[4][0]=p128_sign_road_autobahn.1.13,0,4
+FrontDiagonal[5][0]=p128_sign_road_autobahn.3.18,0,4
+FrontDiagonal[6][0]=p128_sign_road_autobahn.1.11,-72,0
+FrontDiagonal[7][0]=p128_sign_road_autobahn.1.12,12,0
+# drive on left
+Image[n,e,s,w][1]=p128_sign_road_autobahn.3.<$0+7>
+Diagonal[0][1]=p128_sign_road_autobahn.3.16,76,0
+Diagonal[1][1]=p128_sign_road_autobahn.3.15,-8,0
+Diagonal[2][1]=p128_sign_road_autobahn.1.13,0,0
+Diagonal[3][1]=p128_sign_road_autobahn.3.18,0,0
+Diagonal[4][1]=p128_sign_road_autobahn.1.13,0,-32
+Diagonal[5][1]=p128_sign_road_autobahn.3.18,0,-32
+Diagonal[6][1]=p128_sign_road_autobahn.3.15,-72,0
+Diagonal[7][1]=p128_sign_road_autobahn.3.16,12,0
+FrontImage[n,e,s,w][1]=p128_sign_road_autobahn.7.<$0+7>
+FrontDiagonal[0][1]=p128_sign_road_autobahn.1.12,0,0
+FrontDiagonal[1][1]=p128_sign_road_autobahn.3.11,68,0
+FrontDiagonal[2][1]=p128_sign_road_autobahn.3.17,0,36
+FrontDiagonal[3][1]=p128_sign_road_autobahn.1.14,0,36
+FrontDiagonal[4][1]=p128_sign_road_autobahn.3.17,0,4
+FrontDiagonal[5][1]=p128_sign_road_autobahn.1.14,0,4
+FrontDiagonal[6][1]=p128_sign_road_autobahn.3.11,4,0
+FrontDiagonal[7][1]=p128_sign_road_autobahn.1.12,-64,0
 
 --------------------------------------------------------------------------------
 
@@ -67,16 +179,54 @@ obj=roadsign
 name=autobahn_modern_exit
 copyright=Fabio Gonella
 
+intro_year=1980
+
 waytype=road
 min_speed=0
 single_way=1
 cost=2000
 maintenance=2000
-
-intro_year=1980
-
-Image[n,e,s,w][0]=p128_sign_road_autobahn.4.<$0>
+# cannot shift left
+offset_left=0
 cursor=p128_sign_road_autobahn.4.4
 icon=> p128_sign_road_autobahn.4.5
+
+Image[n,e,s,w][0]=p128_sign_road_autobahn.4.<$0>
+Diagonal[0][0]=p128_sign_road_autobahn.3.16,0,0
+Diagonal[1][0]=p128_sign_road_autobahn.4.15,68,0
+Diagonal[2][0]=p128_sign_road_autobahn.3.17,0,0
+Diagonal[3][0]=p128_sign_road_autobahn.2.13,0,0
+Diagonal[4][0]=p128_sign_road_autobahn.3.17,0,-32
+Diagonal[5][0]=p128_sign_road_autobahn.2.13,0,-32
+Diagonal[6][0]=p128_sign_road_autobahn.4.15,4,0
+Diagonal[7][0]=p128_sign_road_autobahn.3.16,-64,0
+FrontImage[n,e,s,w][0]=p128_sign_road_autobahn.8.<$0>
+FrontDiagonal[0][0]=p128_sign_road_autobahn.2.11,66,0
+FrontDiagonal[1][0]=p128_sign_road_autobahn.2.12,2,0
+FrontDiagonal[2][0]=p128_sign_road_autobahn.2.14,0,36
+FrontDiagonal[3][0]=p128_sign_road_autobahn.3.18,0,36
+FrontDiagonal[4][0]=p128_sign_road_autobahn.2.14,0,4
+FrontDiagonal[5][0]=p128_sign_road_autobahn.3.18,0,4
+FrontDiagonal[6][0]=p128_sign_road_autobahn.2.12,-62,0
+FrontDiagonal[7][0]=p128_sign_road_autobahn.2.11,2,0
+# drive on left
+Image[n,e,s,w][1]=p128_sign_road_autobahn.4.<$0+7>
+Diagonal[0][1]=p128_sign_road_autobahn.3.16,76,0
+Diagonal[1][1]=p128_sign_road_autobahn.4.15,-8,0
+Diagonal[2][1]=p128_sign_road_autobahn.2.14,0,0
+Diagonal[3][1]=p128_sign_road_autobahn.3.18,0,0
+Diagonal[4][1]=p128_sign_road_autobahn.2.14,0,-32
+Diagonal[5][1]=p128_sign_road_autobahn.3.18,0,-32
+Diagonal[6][1]=p128_sign_road_autobahn.4.15,-72,0
+Diagonal[7][1]=p128_sign_road_autobahn.3.16,12,0
+FrontImage[n,e,s,w][1]=p128_sign_road_autobahn.8.<$0+7>
+FrontDiagonal[0][1]=p128_sign_road_autobahn.2.11,0,0
+FrontDiagonal[1][1]=p128_sign_road_autobahn.2.12,68,0
+FrontDiagonal[2][1]=p128_sign_road_autobahn.3.17,0,36
+FrontDiagonal[3][1]=p128_sign_road_autobahn.2.13,0,36
+FrontDiagonal[4][1]=p128_sign_road_autobahn.3.17,0,4
+FrontDiagonal[5][1]=p128_sign_road_autobahn.2.13,0,4
+FrontDiagonal[6][1]=p128_sign_road_autobahn.2.12,4,0
+FrontDiagonal[7][1]=p128_sign_road_autobahn.2.11,-64,0
 
 --------------------------------------------------------------------------------
