@@ -421,7 +421,9 @@ Rail_120_Tracks
 RailTunnel
 Rail_280_Tunnel
 RoadTunnel
+Road_090_Tunnel
 road_090_tunnel
+Road_090_Tunnel
 # 
 ## bridges ##
 ClassicRail
@@ -446,6 +448,10 @@ Wooden_Rail
 Rail_060_Bridge
 u_truss_bridge
 Rail_100_Bridge
+road_070_bridge
+Road_070_Bridge
+road_090_bridge
+Road_090_Bridge
 #
 # different pak128 names
 road_030
